@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>Semua Tweet ({{ total }} total, tampil 200 terbaru)</h2>
+  <input type="text" id="cari" placeholder="Cari tweet..."
+    style="width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:8px;margin-bottom:1rem;font-size:0.9rem">
+  <table>
+    <thead>
+      <tr><th>Tanggal</th><th>User</th><th>Tweet</th><th>Topik</th><th>Sentimen</th><th>Likes</th></tr>
+    </thead>
+    <tbody id="tabelBody">
+    {% for t in data %}
+      <tr>
+        <td style="white-space:nowrap">{{ t.tanggal }}</td>
+        <td>@{{ t.username }}</td>
+        <td style="max-width:380px">{{ t.teks_asli[:100] }}{% if t.teks_asli|length > 100 %}...{% endif %}</td>
+        <td>{{ t.topik }}</td>
+        <td><span class="badge {{ t.sentimen }}">{{ t.sentimen }}</span></td>
+        <td>{{ t.likes }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+<script>
+document.getElementById("cari").addEventListener("input", function() {
+  const q = this.value.toLowerCase();
+  document.querySelectorAll("#tabelBody tr").forEach(row => {
+    row.style.display = row.textContent.toLowerCase().includes(q) ? "" : "none";
+  });
+});
+</script>
+{% endblock %}

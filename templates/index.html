@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% if kosong %}
+  <div class="card" style="text-align:center; padding: 3rem;">
+    <p style="color:#999">Belum ada data. Jalankan <code>python main.py</code> terlebih dahulu.</p>
+  </div>
+{% else %}
+
+<p style="font-size:0.85rem; color:#999; margin-bottom:1rem;">
+  Update terakhir: {{ update_terakhir }}
+</p>
+
+<!-- Stat cards -->
+<div class="stat-grid" style="margin-bottom:1.5rem;">
+  <div class="stat total">
+    <div class="angka">{{ total }}</div>
+    <div class="label">Total Tweet</div>
+  </div>
+  <div class="stat positif">
+    <div class="angka">{{ sentimen.get('positif', 0) }}</div>
+    <div class="label">Positif</div>
+  </div>
+  <div class="stat netral">
+    <div class="angka">{{ sentimen.get('netral', 0) }}</div>
+    <div class="label">Netral</div>
+  </div>
+  <div class="stat negatif">
+    <div class="angka">{{ sentimen.get('negatif', 0) }}</div>
+    <div class="label">Negatif</div>
+  </div>
+</div>
+
+<!-- Chart sentimen per hari + pie -->
+<div class="grid-2">
+  <div class="card">
+    <h2>Sentimen per Hari</h2>
+    <canvas id="chartHari" height="200"></canvas>
+  </div>
+  <div class="card">
+    <h2>Distribusi Sentimen</h2>
+    <canvas id="chartPie" height="200"></canvas>
+  </div>
+</div>
+
+<!-- Topik -->
+<div class="card">
+  <h2>Topik Terpopuler</h2>
+  <canvas id="chartTopik" height="100"></canvas>
+</div>
+
+<!-- Tweet viral -->
+<div class="card">
+  <h2>Tweet Paling Banyak Di-like</h2>
+  <table>
+    <thead>
+      <tr><th>User</th><th>Tweet</th><th>Sentimen</th><th>Likes</th></tr>
+    </thead>
+    <tbody>
+    {% for t in tweet_viral %}
+      <tr>
+        <td>@{{ t.username }}</td>
+        <td style="max-width:420px">{{ t.teks_asli[:120] }}{% if t.teks_asli|length > 120 %}...{% endif %}</td>
+        <td><span class="badge {{ t.sentimen }}">{{ t.sentimen }}</span></td>
+        <td>{{ t.likes }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+const chartData = {{ chart_data | tojson }};
+const warna = { positif: "#16a34a", netral: "#9ca3af", negatif: "#dc2626" };
+
+// Chart per hari
+const tanggalSet = [...new Set(chartData.map(d => d.tanggal))].sort();
+const labelSet   = ["positif", "netral", "negatif"];
+const datasets   = labelSet.map(label => ({
+  label,
+  data: tanggalSet.map(tgl => {
+    const row = chartData.find(d => d.tanggal === tgl && d.sentimen === label);
+    return row ? row.jumlah : 0;
+  }),
+  backgroundColor: warna[label],
+  borderRadius: 4,
+}));
+
+new Chart(document.getElementById("chartHari"), {
+  type: "bar",
+  data: { labels: tanggalSet, datasets },
+  options: { responsive: true, plugins: { legend: { position: "bottom" } },
+    scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } }
+});
+
+// Pie chart
+const sentimen = {{ sentimen | tojson }};
+new Chart(document.getElementById("chartPie"), {
+  type: "doughnut",
+  data: {
+    labels: Object.keys(sentimen),
+    datasets: [{ data: Object.values(sentimen),
+      backgroundColor: Object.keys(sentimen).map(k => warna[k] || "#ccc") }]
+  },
+  options: { responsive: true, plugins: { legend: { position: "bottom" } } }
+});
+
+// Bar topik
+const topik = {{ topik | tojson }};
+new Chart(document.getElementById("chartTopik"), {
+  type: "bar",
+  data: {
+    labels: Object.keys(topik),
+    datasets: [{ label: "Jumlah Tweet", data: Object.values(topik),
+      backgroundColor: "#4f46e5", borderRadius: 6 }]
+  },
+  options: { responsive: true, indexAxis: "y",
+    plugins: { legend: { display: false } } }
+});
+</script>
+{% endif %}
+{% endblock %}

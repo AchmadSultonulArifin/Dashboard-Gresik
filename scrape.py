@@ -277,11 +277,8 @@ async def main():
         "akun_gresik",
         f"auth_token={AUTH_TOKEN}; ct0={CT0}"
     )
-
-    for t in tweets:
-        if t.id in id_sudah:
-            continue
-        id_sudah.add(t.id)  # hindari duplikat antar keyword
+    semua_data = []
+    id_sudah = set()
 
     for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")

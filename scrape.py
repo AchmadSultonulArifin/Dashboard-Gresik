@@ -181,7 +181,7 @@ KEYWORDS = [
     "Samsat Gresik",
 ]
 
-JUMLAH_TWEET = 20   # per keyword, total bisa sampai 200
+JUMLAH_TWEET = 10 
 
 os.makedirs("output", exist_ok=True)
 

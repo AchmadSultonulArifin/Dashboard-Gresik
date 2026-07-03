@@ -21,7 +21,7 @@ if not CT0:
 
 if not AUTH_TOKEN or not CT0:
     raise ValueError("AUTH_TOKEN atau CT0 belum diatur.")
-keywords = [
+KEYWORDS = [
     # ==========================
     # 1. Keyword Utama
     # ==========================
@@ -181,7 +181,7 @@ keywords = [
     "Samsat Gresik",
 ]
 
-JUMLAH_TWEET = 50   # per keyword, total bisa sampai 200
+JUMLAH_TWEET = 20   # per keyword, total bisa sampai 200
 
 os.makedirs("output", exist_ok=True)
 
@@ -211,20 +211,63 @@ def cek_sentimen(teks):
 # ── Fungsi kategorisasi topik otomatis ───────────────────────
 def deteksi_topik(teks):
     teks = teks.lower()
-    if any(k in teks for k in ["banjir", "longsor", "gempa", "bencana", "rob"]):
-        return "bencana"
-    if any(k in teks for k in ["pabrik", "industri", "petrokimia", "semen", "pupuk"]):
-        return "industri"
-    if any(k in teks for k in ["kuliner", "makanan", "nasi", "soto", "bandeng", "otak-otak"]):
-        return "kuliner"
-    if any(k in teks for k in ["wisata", "pantai", "religi", "sunan giri", "ziarah"]):
-        return "wisata"
-    if any(k in teks for k in ["pemda", "bupati", "pemkab", "pemerintah", "apbd", "dinas"]):
-        return "pemerintahan"
-    if any(k in teks for k in ["persegres", "sepak bola", "bola", "liga"]):
-        return "olahraga"
-    if any(k in teks for k in ["macet", "jalan", "tol", "infrastruktur", "proyek"]):
-        return "infrastruktur"
+
+    kategori = {
+        "bencana": [
+            "banjir","rob","gempa","longsor","angin",
+            "kebakaran","bencana"
+        ],
+
+        "pemerintahan":[
+            "bupati","wakil bupati","pemkab",
+            "dprd","diskominfo","dinas",
+            "setda","apbd","perda"
+        ],
+
+        "infrastruktur":[
+            "jalan","jembatan","trotoar",
+            "drainase","lampu jalan",
+            "terminal","pelabuhan",
+            "macet","tol"
+        ],
+
+        "kesehatan":[
+            "rsud","rumah sakit","puskesmas",
+            "bpjs","stunting","dbd","covid"
+        ],
+
+        "pendidikan":[
+            "sekolah","kampus","universitas",
+            "ppdb","beasiswa","smp","sma"
+        ],
+
+        "ekonomi":[
+            "pasar","umkm","harga",
+            "cabai","beras","investasi"
+        ],
+
+        "industri":[
+            "petrokimia","freeport",
+            "jiipe","semen",
+            "pabrik","industri"
+        ],
+
+        "wisata":[
+            "pantai","wisata",
+            "setigi","bukit jamur",
+            "sunan giri","ziarah"
+        ],
+
+        "olahraga":[
+            "persegres","liga",
+            "stadion","bola"
+        ]
+    }
+
+    for nama, daftar in kategori.items():
+        if any(k in teks for k in daftar):
+            return nama
+
     return "umum"
 
 # ── Main scraping + analisis ──────────────────────────────────
@@ -235,8 +278,10 @@ async def main():
         f"auth_token={AUTH_TOKEN}; ct0={CT0}"
     )
 
-    semua_data = []
-    id_sudah   = set()   # hindari duplikat antar keyword
+    for t in tweets:
+        if t.id in id_sudah:
+            continue
+        id_sudah.add(t.id)  # hindari duplikat antar keyword
 
     for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")
@@ -262,6 +307,7 @@ async def main():
                 "skor"        : skor,
                 "topik"       : topik,
                 "likes"       : t.likeCount,
+                "replies"     : t.replyCount,
                 "retweets"    : t.retweetCount,
                 "tanggal"     : str(t.date)[:10],
                 "keyword"     : keyword,

@@ -290,8 +290,7 @@ async def safe_search(api, query, limit):
 # ── Main scraping + analisis ──────────────────────────────────
 async def main():
     api = API()
-    api = API()
-    api.pool.set_max_retries(3)
+    
 
 # Akun pertama
     await api.pool.add_account_cookies(

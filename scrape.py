@@ -5,6 +5,8 @@ import os
 import pandas as pd
 from twscrape import API, gather
 from transformers import pipeline
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 # ── Konfigurasi ──────────────────────────────────────────────
 # Ambil dari Environment Variable terlebih dahulu
@@ -200,7 +202,33 @@ sentimen_model = pipeline(
     model="mdhugol/indonesia-bert-sentiment-classification"
 )
 LABEL_MAP = {"LABEL_0": "positif", "LABEL_1": "netral", "LABEL_2": "negatif"}
+# ============================
+# Stopword & Stemmer
+# ============================
 
+stop_factory = StopWordRemoverFactory()
+stopwords = set(stop_factory.get_stop_words())
+
+stem_factory = StemmerFactory()
+stemmer = stem_factory.create_stemmer()
+
+NORMALISASI = {
+    "gk":"tidak",
+    "ga":"tidak",
+    "nggak":"tidak",
+    "tdk":"tidak",
+    "yg":"yang",
+    "dr":"dari",
+    "dgn":"dengan",
+    "utk":"untuk",
+    "aja":"saja",
+    "bgt":"banget",
+    "krn":"karena",
+    "tp":"tapi",
+    "udh":"sudah",
+    "blm":"belum",
+    "sm":"sama",
+}
 # ── Fungsi cleaning ───────────────────────────────────────────
 def bersihkan_tweet(teks):
     teks = re.sub(r"http\S+", "", teks)
@@ -208,6 +236,20 @@ def bersihkan_tweet(teks):
     teks = re.sub(r"#(\w+)", r"\1", teks)
     teks = re.sub(r"[^\w\s]", "", teks)
     return re.sub(r"\s+", " ", teks).strip().lower()
+
+def preprocessing(teks):
+    # Normalisasi
+    kata = []
+    for w in teks.split():
+        kata.append(NORMALISASI.get(w, w))
+
+    # Stopword
+    kata = [w for w in kata if w not in stopwords]
+
+    # Stemming
+    kata = [stemmer.stem(w) for w in kata]
+
+    return " ".join(kata)
 
 # ── Fungsi sentimen ───────────────────────────────────────────
 def cek_sentimen(teks):
@@ -319,9 +361,10 @@ async def main():
                 continue
             id_sudah.add(t.id)
 
-            teks_bersih          = bersihkan_tweet(t.rawContent)
-            label, skor          = cek_sentimen(teks_bersih)
-            topik                = deteksi_topik(t.rawContent)
+            teks_bersih = bersihkan_tweet(t.rawContent)
+            teks_prepro = preprocessing(teks_bersih)
+            label, skor = cek_sentimen(teks_prepro)
+            topik       = deteksi_topik(t.rawContent)
 
             semua_data.append({
                 "id"          : t.id,
@@ -336,6 +379,7 @@ async def main():
                 "retweets"    : t.retweetCount,
                 "tanggal"     : str(t.date)[:10],
                 "keyword"     : keyword,
+                "teks_preprocessing": teks_prepro,
             })
 
         print(f"  Terkumpul unik: {len(semua_data)} tweet")

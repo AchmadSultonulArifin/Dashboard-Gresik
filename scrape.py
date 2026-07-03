@@ -21,11 +21,164 @@ if not CT0:
 
 if not AUTH_TOKEN or not CT0:
     raise ValueError("AUTH_TOKEN atau CT0 belum diatur.")
-KEYWORDS = [
+keywords = [
+    # ==========================
+    # 1. Keyword Utama
+    # ==========================
     "Gresik",
     "Kabupaten Gresik",
-    "Kota Gresik",
+    "Pemkab Gresik",
+    "Gresik Kota",
     "Gresik Jawa Timur",
+
+    # ==========================
+    # 2. Pemerintahan
+    # ==========================
+    "Bupati Gresik",
+    "Wakil Bupati Gresik",
+    "Pemkab Gresik",
+    "Setda Gresik",
+    "DPRD Gresik",
+    "Diskominfo Gresik",
+    "Dispendik Gresik",
+    "Dinas Kesehatan Gresik",
+    "Dinas PU Gresik",
+    "BPBD Gresik",
+    "Satpol PP Gresik",
+    "Polres Gresik",
+    "Kodim Gresik",
+    "KPU Gresik",
+    "Bawaslu Gresik",
+
+    # ==========================
+    # 3. Infrastruktur
+    # ==========================
+    "jalan Gresik",
+    "jembatan Gresik",
+    "macet Gresik",
+    "banjir Gresik",
+    "drainase Gresik",
+    "perbaikan jalan Gresik",
+    "lampu jalan Gresik",
+    "trotoar Gresik",
+    "pelabuhan Gresik",
+    "terminal Gresik",
+
+    # ==========================
+    # 4. Pendidikan
+    # ==========================
+    "sekolah Gresik",
+    "SMP Gresik",
+    "SMA Gresik",
+    "Universitas Gresik",
+    "beasiswa Gresik",
+    "PPDB Gresik",
+
+    # ==========================
+    # 5. Kesehatan
+    # ==========================
+    "RSUD Ibnu Sina Gresik",
+    "rumah sakit Gresik",
+    "Puskesmas Gresik",
+    "DBD Gresik",
+    "Covid Gresik",
+    "stunting Gresik",
+    "BPJS Gresik",
+
+    # ==========================
+    # 6. Keamanan
+    # ==========================
+    "kecelakaan Gresik",
+    "kriminal Gresik",
+    "pencurian Gresik",
+    "kebakaran Gresik",
+    "longsor Gresik",
+    "gempa Gresik",
+
+    # ==========================
+    # 7. Ekonomi
+    # ==========================
+    "UMKM Gresik",
+    "pasar Gresik",
+    "investasi Gresik",
+    "harga beras Gresik",
+    "harga cabai Gresik",
+    "nelayan Gresik",
+    "tambak Gresik",
+
+    # ==========================
+    # 8. Industri
+    # ==========================
+    "Petrokimia Gresik",
+    "Semen Indonesia",
+    "Freeport Gresik",
+    "JIIPE",
+    "KIG Gresik",
+    "industri Gresik",
+    "pabrik Gresik",
+
+    # ==========================
+    # 9. Wisata
+    # ==========================
+    "Wisata Gresik",
+    "Makam Sunan Giri",
+    "Makam Maulana Malik Ibrahim",
+    "Pantai Delegan",
+    "Bukit Jamur",
+    "Setigi",
+
+    # ==========================
+    # 10. Olahraga
+    # ==========================
+    "Persegres",
+    "stadion Gresik",
+    "PORPROV Gresik",
+
+    # ==========================
+    # 11. Budaya
+    # ==========================
+    "Hari Jadi Gresik",
+    "Dandangan Gresik",
+    "Tradisi Gresik",
+    "Haul Sunan Giri",
+
+    # ==========================
+    # 12. Kecamatan
+    # ==========================
+    "Manyar Gresik",
+    "Kebomas Gresik",
+    "Driyorejo Gresik",
+    "Menganti Gresik",
+    "Cerme Gresik",
+    "Benjeng Gresik",
+    "Balongpanggang Gresik",
+    "Duduksampeyan Gresik",
+    "Sidayu Gresik",
+    "Ujungpangkah Gresik",
+    "Panceng Gresik",
+    "Bungah Gresik",
+    "Sangkapura Gresik",
+    "Tambak Gresik",
+    "Wringinanom Gresik",
+    "Kedamean Gresik",
+
+    # ==========================
+    # 14. Bencana
+    # ==========================
+    "banjir Gresik",
+    "rob Gresik",
+    "angin kencang Gresik",
+    "kebakaran Gresik",
+    "gempa Gresik",
+
+    # ==========================
+    # 15. Pelayanan Publik
+    # ==========================
+    "PDAM Gresik",
+    "PLN Gresik",
+    "Disdukcapil Gresik",
+    "SIM Gresik",
+    "Samsat Gresik",
 ]
 
 JUMLAH_TWEET = 50   # per keyword, total bisa sampai 200

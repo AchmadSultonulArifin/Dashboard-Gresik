@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+    <h2>Distribusi Topik</h2>
+
+    {% if data|length == 0 %}
+        <p>Belum ada data.</p>
+    {% else %}
+
+    <table>
+        <thead>
+            <tr>
+                <th>Topik</th>
+                <th>Sentimen</th>
+                <th>Jumlah Tweet</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        {% for row in data %}
+            <tr>
+                <td>{{ row.topik }}</td>
+                <td>
+                    <span class="badge {{ row.sentimen }}">
+                        {{ row.sentimen }}
+                    </span>
+                </td>
+                <td>{{ row.jumlah }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+
+    </table>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

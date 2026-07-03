@@ -7,9 +7,20 @@ from twscrape import API, gather
 from transformers import pipeline
 
 # ── Konfigurasi ──────────────────────────────────────────────
-AUTH_TOKEN = "968c93d28e17989053561806825a189dbd5c626c"
-CT0        = "510f8665689d9b840303b04670e6f5c64b642388245d5a43d23c230400c32169b36eff87ba1cd7dd1452e0896202fe6e7c753629a2d50bb86205b801b35c1018ad90cce107803eebb6396d5fa8919ddd"
+# Ambil dari Environment Variable terlebih dahulu
+AUTH_TOKEN = os.getenv("AUTH_TOKEN")
+CT0 = os.getenv("CT0")
 
+# Jika dijalankan di localhost dan env belum ada,
+# gunakan token yang Anda isi sendiri.
+if not AUTH_TOKEN:
+    AUTH_TOKEN = "968c93d28e17989053561806825a189dbd5c626c"
+
+if not CT0:
+    CT0 = "510f8665689d9b840303b04670e6f5c64b642388245d5a43d23c230400c32169b36eff87ba1cd7dd1452e0896202fe6e7c753629a2d50bb86205b801b35c1018ad90cce107803eebb6396d5fa8919ddd"
+
+if not AUTH_TOKEN or not CT0:
+    raise ValueError("AUTH_TOKEN atau CT0 belum diatur.")
 KEYWORDS = [
     "Gresik",
     "Kabupaten Gresik",
@@ -109,8 +120,16 @@ async def main():
     df = pd.DataFrame(semua_data)
     df.to_csv("output/gresik_sentimen.csv", index=False, encoding="utf-8-sig")
 
-    with open("output/gresik_tweets.json", "w", encoding="utf-8") as f:
-        json.dump(semua_data, f, ensure_ascii=False, indent=2)
+    if not semua_data:
+        print("Tidak ada tweet yang berhasil diambil.")
+        return
+
+    with open(
+        "output/gresik_tweets.json","w",encoding="utf-8") as f:
+        json.dump(
+            semua_data,f,
+            ensure_ascii=False,
+            indent=2)
 
     # ── Ringkasan di terminal ─────────────────────────────────
     total = len(df)

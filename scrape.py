@@ -278,10 +278,20 @@ def deteksi_topik(teks):
 
     return "umum"
 
+async def safe_search(api, query, limit):
+    for i in range(3):  # retry 3x kalau kena limit
+        try:
+            return await gather(api.search(query, limit=limit))
+        except Exception as e:
+            print(f"⚠️ Retry {i+1} karena: {e}")
+            await asyncio.sleep(30)
+    return []
+
 # ── Main scraping + analisis ──────────────────────────────────
 async def main():
     api = API()
     api = API()
+    api.pool.set_max_retries(3)
 
 # Akun pertama
     await api.pool.add_account_cookies(
@@ -300,10 +310,11 @@ async def main():
 
     for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")
-        tweets = await gather(
-            api.search(f"{keyword} lang:id", limit=JUMLAH_TWEET)
-        )
-
+        tweets = await safe_search(
+        api,
+        f"{keyword} lang:id",
+        JUMLAH_TWEET
+    )
         for t in tweets:
             if t.id in id_sudah:
                 continue
@@ -329,7 +340,7 @@ async def main():
             })
 
         print(f"  Terkumpul unik: {len(semua_data)} tweet")
-        await asyncio.sleep(5)
+        await asyncio.sleep(20)
 
     # ── Simpan hasil ──────────────────────────────────────────
     df = pd.DataFrame(semua_data)

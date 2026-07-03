@@ -329,6 +329,7 @@ async def main():
             })
 
         print(f"  Terkumpul unik: {len(semua_data)} tweet")
+        await asyncio.sleep(5)
 
     # ── Simpan hasil ──────────────────────────────────────────
     df = pd.DataFrame(semua_data)

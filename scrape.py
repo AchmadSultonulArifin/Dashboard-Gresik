@@ -10,6 +10,8 @@ from transformers import pipeline
 # Ambil dari Environment Variable terlebih dahulu
 AUTH_TOKEN = os.getenv("AUTH_TOKEN")
 CT0 = os.getenv("CT0")
+AUTH_TOKEN_2 = os.getenv("AUTH_TOKEN_2")
+CT0_2 = os.getenv("CT0_2")
 
 # Jika dijalankan di localhost dan env belum ada,
 # gunakan token yang Anda isi sendiri.
@@ -18,6 +20,12 @@ if not AUTH_TOKEN:
 
 if not CT0:
     CT0 = "510f8665689d9b840303b04670e6f5c64b642388245d5a43d23c230400c32169b36eff87ba1cd7dd1452e0896202fe6e7c753629a2d50bb86205b801b35c1018ad90cce107803eebb6396d5fa8919ddd"
+
+if not AUTH_TOKEN_2:
+    AUTH_TOKEN_2 = "27f954988a150a6b096587c08a085cb37077b620"
+
+if not CT0_2:
+    CT0_2 = "8e8f35fe50397d06a1b8a08bf37568766fc5895bbfdd2ea0e62b4431b7b72e5ee37097329557df87785ffc73c686695ee92b8d0234beb3087a6ce8db6c394ee4e6c5ec04dd46f79d6021a4006ac3cd7a"
 
 if not AUTH_TOKEN or not CT0:
     raise ValueError("AUTH_TOKEN atau CT0 belum diatur.")
@@ -273,10 +281,20 @@ def deteksi_topik(teks):
 # ── Main scraping + analisis ──────────────────────────────────
 async def main():
     api = API()
+    api = API()
+
+# Akun pertama
     await api.pool.add_account_cookies(
-        "akun_gresik",
+        "akun_gresik_1",
         f"auth_token={AUTH_TOKEN}; ct0={CT0}"
     )
+
+    # Akun kedua
+    await api.pool.add_account_cookies(
+        "akun_gresik_2",
+        f"auth_token={AUTH_TOKEN_2}; ct0={CT0_2}"
+    )
+    
     semua_data = []
     id_sudah = set()
 

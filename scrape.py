@@ -7,6 +7,7 @@ from twscrape import API, gather
 from transformers import pipeline
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from datetime import datetime, timedelta
 
 # ── Konfigurasi ──────────────────────────────────────────────
 # Ambil dari Environment Variable terlebih dahulu
@@ -329,6 +330,8 @@ async def safe_search(api, query, limit):
             await asyncio.sleep(30)
     return []
 
+TANGGAL = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+
 # ── Main scraping + analisis ──────────────────────────────────
 async def main():
     api = API()
@@ -349,13 +352,13 @@ async def main():
     semua_data = []
     id_sudah = set()
 
-    for keyword in KEYWORDS:
+        for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")
         tweets = await safe_search(
-        api,
-        f"{keyword} lang:id",
-        JUMLAH_TWEET
-    )
+            api,
+            f"{keyword} lang:id since:{TANGGAL}",
+            JUMLAH_TWEET
+        )
         for t in tweets:
             if t.id in id_sudah:
                 continue

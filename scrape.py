@@ -352,7 +352,7 @@ async def main():
     semua_data = []
     id_sudah = set()
 
-        for keyword in KEYWORDS:
+    for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")
         tweets = await safe_search(
             api,

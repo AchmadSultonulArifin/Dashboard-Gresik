@@ -354,10 +354,20 @@ async def main():
 
     for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")
+        hari_ini = datetime.now().strftime("%Y-%m-%d")
+        besok = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
+
+        query = f'"{keyword}" since:{hari_ini} until:{besok}'
+
+        print(query)
+
         tweets = await safe_search(
             api,
-            f"{keyword} lang:id since:{TANGGAL}",
-            JUMLAH_TWEET
+            query,
+            20
+        )
+
+        print("Ditemukan:", len(tweets))
         )
         for t in tweets:
             if t.id in id_sudah:

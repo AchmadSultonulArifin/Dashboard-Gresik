@@ -28,6 +28,8 @@ jobs:
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
           CT0: ${{ secrets.CT0 }}
+          AUTH_TOKEN_2: ${{ secrets.AUTH_TOKEN_2 }}
+          CT0_2: ${{ secrets.CT0_2 }}
         run: python scrape.py
 
       - name: Push hasil ke repo

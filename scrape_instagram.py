@@ -62,11 +62,21 @@ def scrape_profile(loader: instaloader.Instaloader, username: str, limit: int) -
     return hasil
 
 def scrape_hashtag(loader: instaloader.Instaloader, hashtag: str, limit: int) -> list:
-    print(f"Mengambil hashtag: #{hashtag}")
+    print(f"DEBUG: Mencoba akses hashtag #{hashtag}")
     try:
+        # Tambahkan baris ini untuk melihat status login saat scraping
+        print(f"DEBUG: Status login: {loader.test_login()}") 
+        
         posts = instaloader.Hashtag.from_name(loader.context, hashtag).get_posts()
+        print("DEBUG: Berhasil mendapatkan objek hashtag, mulai loop...")
+        
+        # ... (sisa kode loop Anda tetap sama)
+        
     except Exception as e:
-        print(f"Gagal ambil hashtag #{hashtag}: {e}")
+        # UBAH INI: Agar error yang sesungguhnya muncul
+        import traceback
+        print("ERROR TERDETEKSI:")
+        traceback.print_exc() 
         return []
     hasil = []
 

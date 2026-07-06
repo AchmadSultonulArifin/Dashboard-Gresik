@@ -11,18 +11,36 @@ IG_USERNAME = os.getenv("IG_USERNAME")
 IG_PASSWORD = os.getenv("IG_PASSWORD")
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
 JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
+SESSION_DIR = "ig_session"
 
 def login(loader: instaloader.Instaloader) -> bool:
-    if IG_USERNAME and IG_PASSWORD:
+    if not IG_USERNAME:
+        print("IG_USERNAME tidak diisi di .env, scraping tanpa login.")
+        return False
+
+    os.makedirs(SESSION_DIR, exist_ok=True)
+    session_file = os.path.join(SESSION_DIR, IG_USERNAME)
+
+    # Coba pakai session yang sudah tersimpan dulu
+    try:
+        loader.load_session_from_file(IG_USERNAME, session_file)
+        print(f"Pakai session tersimpan untuk {IG_USERNAME} (tidak perlu login ulang).")
+        return True
+    except FileNotFoundError:
+        pass
+
+    # Kalau belum ada session tersimpan, baru login pakai password
+    if IG_PASSWORD:
         try:
             loader.login(IG_USERNAME, IG_PASSWORD)
-            print(f"Login berhasil sebagai {IG_USERNAME}")
+            loader.save_session_to_file(session_file)
+            print(f"Login berhasil sebagai {IG_USERNAME}, session disimpan di {session_file}")
             return True
         except Exception as e:
             print(f"Login gagal, lanjut tanpa login. Detail: {e}")
             return False
     else:
-        print("IG_USERNAME/IG_PASSWORD tidak diisi di .env, scraping tanpa login.")
+        print("IG_PASSWORD tidak diisi, scraping tanpa login.")
         return False
 
 def _post_to_dict(post, username_fallback: str = "") -> dict:

@@ -368,7 +368,6 @@ async def main():
         )
 
         print("Ditemukan:", len(tweets))
-        )
         for t in tweets:
             if t.id in id_sudah:
                 continue

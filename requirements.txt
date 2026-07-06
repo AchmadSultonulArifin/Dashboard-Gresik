@@ -19,6 +19,8 @@ certifi==2026.6.17
 colorama==0.4.6
 win32_setctime==1.2.0
 winregistry==2.1.5
+instaloader>=4.11
+python-dotenv>=1.0
 
 torch
 transformers==5.12.1

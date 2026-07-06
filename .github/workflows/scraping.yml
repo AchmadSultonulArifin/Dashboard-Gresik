@@ -21,6 +21,7 @@ jobs:
       - name: Install library
         run: |
           pip install twscrape pandas
+          pip install Sastrawi
           pip install torch --index-url https://download.pytorch.org/whl/cpu
           pip install transformers
 

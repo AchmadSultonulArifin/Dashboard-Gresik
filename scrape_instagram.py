@@ -103,7 +103,9 @@ def simpan_json(data_baru: list, path: str) -> None:
         json.dump(gabungan, f, ensure_ascii=False, indent=2)
     print(f"\n{len(tambahan)} post baru ditambahkan. Total sekarang: {len(gabungan)} post.")
     print(f"Tersimpan di: {path}")
+    
 def main():
+    print("--- Memulai proses scraping ---")
 
     # Definisikan nilai langsung di sini agar tidak tergantung pada .env yang mungkin belum terbaca
 
@@ -134,5 +136,4 @@ def main():
         else:
             data = scrape_hashtag(loader, t, args.limit)
         all_data.extend(data)
-
     simpan_json(all_data, OUTPUT_PATH)

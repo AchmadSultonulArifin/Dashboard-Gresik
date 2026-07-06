@@ -28,10 +28,6 @@ load_dotenv()
 IG_USERNAME = os.getenv("IG_USERNAME") 
 IG_PASSWORD = os.getenv("IG_PASSWORD")
 
-DEFAULT_MODE = "profile"
-DEFAULT_TARGET = "infogresik" # Ganti dengan target Anda
-DEFAULT_LIMIT = 10
-
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
 JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
 
@@ -152,13 +148,15 @@ def simpan_json(data_baru: list, path: str) -> None:
 
 
 def main():
+    # Definisikan nilai langsung di sini agar tidak tergantung pada .env yang mungkin belum terbaca
+    DEFAULT_MODE = "hashtag"
+    DEFAULT_TARGET = "infogresik" 
+    DEFAULT_LIMIT = 5
+
     parser = argparse.ArgumentParser(description="Scraper Instagram untuk Dashboard Gresik")
-    parser.add_argument("--mode", choices=["profile", "hashtag"], default=DEFAULT_MODE,
-                         help="profile = scrape 1 akun, hashtag = scrape berdasarkan tagar")
-    parser.add_argument("--target", default=DEFAULT_TARGET,
-                         help="username akun atau daftar tagar dipisah koma (contoh: gresik,kulinergresik)")
-    parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT,
-                         help="jumlah maksimal post per tagar")
+    parser.add_argument("--mode", choices=["profile", "hashtag"], default=DEFAULT_MODE)
+    parser.add_argument("--target", default=DEFAULT_TARGET)
+    parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     args = parser.parse_args()
 
     if not args.target:

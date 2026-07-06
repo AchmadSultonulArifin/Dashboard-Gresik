@@ -192,7 +192,7 @@ KEYWORDS = [
     "Samsat Gresik",
 ]
 
-JUMLAH_TWEET = 10 
+JUMLAH_TWEET = 50
 
 os.makedirs("output", exist_ok=True)
 
@@ -330,7 +330,6 @@ async def safe_search(api, query, limit):
             await asyncio.sleep(30)
     return []
 
-TANGGAL = (datetime.now() - timedelta(days=31)).strftime("%Y-%m-%d")
 
 # ── Main scraping + analisis ──────────────────────────────────
 async def main():
@@ -354,10 +353,14 @@ async def main():
 
     for keyword in KEYWORDS:
         print(f"\n🔍 Scraping: '{keyword}' (target {JUMLAH_TWEET} tweet)...")
-        hari_ini = datetime.now().strftime("%Y-%m-%d")
-        besok = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
+        hari_ini = datetime.now()
+        tujuh_hari_lalu = hari_ini - timedelta(days=7)
 
-        query = f'"{keyword}" since:{hari_ini} until:{besok}'
+        query = (
+            f'"{keyword}" '
+            f'since:{tujuh_hari_lalu.strftime("%Y-%m-%d")} '
+            f'until:{(hari_ini + timedelta(days=1)).strftime("%Y-%m-%d")}'
+        )
 
         print(query)
 
@@ -398,19 +401,64 @@ async def main():
         await asyncio.sleep(20)
 
     # ── Simpan hasil ──────────────────────────────────────────
-    df = pd.DataFrame(semua_data)
-    df.to_csv("output/gresik_sentimen.csv", index=False, encoding="utf-8-sig")
 
     if not semua_data:
         print("Tidak ada tweet yang berhasil diambil.")
         return
 
-    with open(
-        "output/gresik_tweets.json","w",encoding="utf-8") as f:
+    df_baru = pd.DataFrame(semua_data)
+
+    csv_path = "output/gresik_sentimen.csv"
+    json_path = "output/gresik_tweets.json"
+
+    # ===========================
+    # CSV
+    # ===========================
+    if os.path.exists(csv_path):
+        df_lama = pd.read_csv(csv_path)
+
+        # Gabungkan data lama dan baru
+        df = pd.concat([df_lama, df_baru], ignore_index=True)
+
+        # Hilangkan tweet yang sama berdasarkan id
+        df = df.drop_duplicates(subset="id", keep="last")
+    else:
+        df = df_baru
+
+    # Simpan kembali
+    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+
+    # ===========================
+    # JSON
+    # ===========================
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            try:
+                data_lama = json.load(f)
+            except:
+                data_lama = []
+    else:
+        data_lama = []
+
+    # Gabungkan
+    data_baru = data_lama + semua_data
+
+    # Hapus duplikat berdasarkan id
+    unik = {}
+    for item in data_baru:
+        unik[item["id"]] = item
+
+    data_baru = list(unik.values())
+
+    with open(json_path, "w", encoding="utf-8") as f:
         json.dump(
-            semua_data,f,
+            data_baru,
+            f,
             ensure_ascii=False,
-            indent=2)
+            indent=2
+        )
+
+    print(f"Total tweet tersimpan : {len(df)}")
 
     # ── Ringkasan di terminal ─────────────────────────────────
     total = len(df)

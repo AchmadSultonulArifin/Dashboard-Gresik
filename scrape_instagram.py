@@ -28,11 +28,6 @@ load_dotenv()
 IG_USERNAME = os.getenv("IG_USERNAME") 
 IG_PASSWORD = os.getenv("IG_PASSWORD")
 
-IG_USERNAME = os.getenv("slton902") or None
-IG_PASSWORD = os.getenv("Sultonul12") or None
-DEFAULT_MODE = os.getenv("IG_TARGET_MODE", "profile")
-DEFAULT_TARGET = os.getenv("IG_TARGET", "")
-DEFAULT_LIMIT = int(os.getenv("IG_LIMIT", "10"))
 
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
 JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit

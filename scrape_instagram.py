@@ -12,17 +12,17 @@ IG_PASSWORD = os.getenv("IG_PASSWORD")
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
 JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
 
-def login(loader):
-    if not IG_USERNAME or not IG_PASSWORD:
-        print("Username atau password belum diisi.")
-        return False
-
-    try:
-        loader.login(IG_USERNAME, IG_PASSWORD)
-        print(f"Login berhasil sebagai {IG_USERNAME}")
-        return True
-    except Exception as e:
-        print(f"Login gagal: {e}")
+def login(loader: instaloader.Instaloader) -> bool:
+    if IG_USERNAME and IG_PASSWORD:
+        try:
+            loader.login(IG_USERNAME, IG_PASSWORD)
+            print(f"Login berhasil sebagai {IG_USERNAME}")
+            return True
+        except Exception as e:
+            print(f"Login gagal, lanjut tanpa login. Detail: {e}")
+            return False
+    else:
+        print("IG_USERNAME/IG_PASSWORD tidak diisi di .env, scraping tanpa login.")
         return False
 
 def _post_to_dict(post, username_fallback: str = "") -> dict:
@@ -111,37 +111,29 @@ def simpan_json(data_baru: list, path: str) -> None:
         json.dump(gabungan, f, ensure_ascii=False, indent=2)
     print(f"\n{len(tambahan)} post baru ditambahkan. Total sekarang: {len(gabungan)} post.")
     print(f"Tersimpan di: {path}")
-    
+
 def main():
-    berhasil_login = login(loader)
-
-    if not berhasil_login:
-        print("Program dihentikan karena login gagal.")
-        return
-
     print("--- Memulai proses scraping ---")
 
-    # Definisikan nilai langsung di sini agar tidak tergantung pada .env yang mungkin belum terbaca
-
     DEFAULT_MODE = "hashtag"
-    DEFAULT_TARGET = "Gresik" 
+    DEFAULT_TARGET = "Gresik"
     DEFAULT_LIMIT = 5
-
-
 
     parser = argparse.ArgumentParser(description="Scraper Instagram untuk Dashboard Gresik")
     parser.add_argument("--mode", choices=["profile", "hashtag"], default=DEFAULT_MODE)
     parser.add_argument("--target", default=DEFAULT_TARGET)
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     args = parser.parse_args()
-    
+
     if not args.target:
         print("Target belum diisi. Gunakan --target atau isi IG_TARGET di .env")
         return
-    loader = instaloader.Instaloader()
-    login(loader)
 
-    # Memecah target menjadi list jika dipisah koma
+    # loader dibuat DI SINI, sebelum tahu mode-nya apa,
+    # supaya selalu ada isinya apa pun mode yang dipilih
+    loader = instaloader.Instaloader()
+    berhasil_login = login(loader)
+
     targets = [t.strip() for t in args.target.split(",")]
     all_data = []
 
@@ -152,6 +144,7 @@ def main():
         else:
             data = scrape_hashtag(loader, t, args.limit)
         all_data.extend(data)
+
     simpan_json(all_data, OUTPUT_PATH)
 
     

@@ -330,7 +330,7 @@ async def safe_search(api, query, limit):
             await asyncio.sleep(30)
     return []
 
-TANGGAL = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+TANGGAL = (datetime.now() - timedelta(days=31)).strftime("%Y-%m-%d")
 
 # ── Main scraping + analisis ──────────────────────────────────
 async def main():

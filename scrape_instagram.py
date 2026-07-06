@@ -28,6 +28,9 @@ load_dotenv()
 IG_USERNAME = os.getenv("IG_USERNAME") 
 IG_PASSWORD = os.getenv("IG_PASSWORD")
 
+DEFAULT_MODE = "profile"
+DEFAULT_TARGET = "infogresik" # Ganti dengan target Anda
+DEFAULT_LIMIT = 10
 
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
 JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit

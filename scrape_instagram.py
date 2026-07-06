@@ -66,33 +66,28 @@ def scrape_profile(loader: instaloader.Instaloader, username: str, limit: int) -
 
 def scrape_hashtag(loader: instaloader.Instaloader, hashtag: str, limit: int) -> list:
     print(f"DEBUG: Mencoba akses hashtag #{hashtag}")
+    hasil = []
     try:
-        # Tambahkan baris ini untuk melihat status login saat scraping
-        print(f"DEBUG: Status login: {loader.test_login()}") 
-        
+        print(f"DEBUG: Status login: {loader.test_login()}")
         posts = instaloader.Hashtag.from_name(loader.context, hashtag).get_posts()
         print("DEBUG: Berhasil mendapatkan objek hashtag, mulai loop...")
-        
-        # ... (sisa kode loop Anda tetap sama)
-        
+
+        for i, post in enumerate(posts):
+            try:
+                data = _post_to_dict(post)
+                hasil.append(data)
+                print(f"[{i + 1}/{limit}] @{data['author']} | likes={data['likes']}")
+            except Exception as e:
+                print(f"Lewati satu post karena error: {e}")
+            time.sleep(JEDA_ANTAR_POST)
+            if i + 1 >= limit:
+                break
+
     except Exception as e:
-        # UBAH INI: Agar error yang sesungguhnya muncul
         import traceback
         print("ERROR TERDETEKSI:")
-        traceback.print_exc() 
-        return []
-    hasil = []
+        traceback.print_exc()
 
-    for i, post in enumerate(posts):
-        try:
-            data = _post_to_dict(post)
-            hasil.append(data)
-            print(f"[{i + 1}/{limit}] @{data['author']} | likes={data['likes']}")
-        except Exception as e:
-            print(f"Lewati satu post karena error: {e}")
-        time.sleep(JEDA_ANTAR_POST)
-        if i + 1 >= limit:
-            break
     return hasil
 
 def simpan_json(data_baru: list, path: str) -> None:

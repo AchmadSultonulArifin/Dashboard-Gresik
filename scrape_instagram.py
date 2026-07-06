@@ -147,3 +147,7 @@ def main():
             data = scrape_hashtag(loader, t, args.limit)
         all_data.extend(data)
     simpan_json(all_data, OUTPUT_PATH)
+
+
+if __name__ == "__main__":
+    main()

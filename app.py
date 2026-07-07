@@ -4,7 +4,11 @@ import os
 
 app = Flask(__name__)
 
+# Twitter
 CSV_PATH = "output/gresik_sentimen.csv"
+
+# Instagram
+INSTAGRAM_PATH = "output/gresik_instagram.csv"
 
 
 def load_data():
@@ -30,28 +34,68 @@ def load_data():
     except Exception as e:
         print("Error membaca CSV:", e)
         return pd.DataFrame()
+    
+def load_instagram():
+    #"""Membaca data Instagram"""
+
+    if not os.path.exists(INSTAGRAM_PATH):
+        return pd.DataFrame()
+
+    try:
+        df = pd.read_csv(INSTAGRAM_PATH)
+
+        if "tanggal" in df.columns:
+            df["tanggal"] = pd.to_datetime(
+                df["tanggal"],
+                errors="coerce"
+            )
+
+        if "likes" not in df.columns:
+            df["likes"] = 0
+
+        if "comments" not in df.columns:
+            df["comments"] = 0
+
+        return df
+
+    except Exception as e:
+        print("Error membaca Instagram:", e)
+        return pd.DataFrame()
 
 
 @app.route("/")
 def index():
-
     df = load_data()
-
+    df_ig = load_instagram()
     if df.empty:
         return render_template("index.html", kosong=True)
-
     total = len(df)
+    total_instagram = len(df_ig)
 
     sentimen = df["sentimen"].value_counts().to_dict()
 
     topik = df["topik"].value_counts().head(6).to_dict()
 
     tweet_viral = (
-        df.nlargest(5, "likes")[
-            ["username", "teks_asli", "sentimen", "likes", "tanggal"]
-        ]
+            df.nlargest(5, "likes")[
+                ["username", "teks_asli", "sentimen", "likes", "tanggal"]
+            ]
+            .to_dict("records")
+    )
+    if not df_ig.empty:
+        total_like = int(df_ig["likes"].sum())
+        total_comment = int(df_ig["comments"].sum())
+        rata_like = round(df_ig["likes"].mean(), 1)
+        post_terbaru = (
+        df_ig.sort_values("tanggal", ascending=False)
+        .head(5)
         .to_dict("records")
     )
+    else:
+        total_like = 0
+        total_comment = 0
+        rata_like = 0
+        post_terbaru = []
 
     update_terakhir = df["tanggal"].max().strftime("%d %B %Y")
 
@@ -77,6 +121,11 @@ def index():
         chart_data=chart_data,
         update_terakhir=update_terakhir,
         kosong=False,
+        total_instagram=total_instagram,
+        total_like=total_like,
+        total_comment=total_comment,
+        rata_like=rata_like,
+        post_terbaru=post_terbaru,
     )
 
 
@@ -104,6 +153,31 @@ def tweets():
         total=len(df)
     )
 
+@app.route("/instagram")
+def instagram():
+
+    df = load_instagram()
+
+    if df.empty:
+        return render_template(
+            "instagram.html",
+            data=[],
+            total=0
+        )
+
+    data = (
+        df.sort_values(
+            "tanggal",
+            ascending=False
+        )
+        .to_dict("records")
+    )
+
+    return render_template(
+        "instagram.html",
+        data=data,
+        total=len(df)
+    )
 
 @app.route("/topik")
 def topik():
@@ -138,6 +212,18 @@ def api_data():
 
     return jsonify(
         df.tail(100).to_dict("records")
+    )
+
+@app.route("/api/instagram")
+def api_instagram():
+
+    df = load_instagram()
+
+    if df.empty:
+        return jsonify([])
+
+    return jsonify(
+        df.to_dict("records")
     )
 
 

@@ -1,225 +1,240 @@
-import argparse
-import json
 import os
-import time
-from datetime import datetime, timedelta, timezone
-import instaloader
+import json
+from datetime import datetime, timedelta
+
+import pandas as pd
 from dotenv import load_dotenv
+from playwright.sync_api import sync_playwright
+from playwright.sync_api import TimeoutError
+
 load_dotenv()
 
-IG_USERNAME = os.getenv("IG_USERNAME") 
-IG_PASSWORD = os.getenv("IG_PASSWORD")
-OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
-SESSION_DIR = "ig_session"
-JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
-# Ambil postingan 7 hari terakhir
-JUMLAH_HARI = int(os.getenv("JUMLAH_HARI", "7"))
+# ======================================================
+# KONFIGURASI
+# ======================================================
 
-BATAS_TANGGAL = (
-    datetime.now(timezone.utc)
-    - timedelta(days=JUMLAH_HARI)
-)
+OUTPUT_JSON = "output/gresik_instagram.json"
+OUTPUT_CSV = "output/gresik_instagram.csv"
 
-def login(loader: instaloader.Instaloader) -> bool:
-    if not IG_USERNAME:
-        print("IG_USERNAME tidak diisi di .env, scraping tanpa login.")
-        return False
+STATE_FILE = "browser/state.json"
 
-    os.makedirs(SESSION_DIR, exist_ok=True)
-    session_file = os.path.join(SESSION_DIR, IG_USERNAME)
+JUMLAH_HARI = int(os.getenv("JUMLAH_HARI", 7))
 
-    # Coba pakai session yang sudah tersimpan dulu
-    try:
-        loader.load_session_from_file(IG_USERNAME, session_file)
-        print(f"Pakai session tersimpan untuk {IG_USERNAME} (tidak perlu login ulang).")
-        return True
-    except FileNotFoundError:
-        pass
+TARGETS = [
+    "infogresik",
+    "pemkabgresik",
+    "petrokimia.gresik",
+]
 
-    # Kalau belum ada session tersimpan, baru login pakai password
-    if IG_PASSWORD:
-        try:
-            loader.login(IG_USERNAME, IG_PASSWORD)
-            loader.save_session_to_file(session_file)
-            print(f"Login berhasil sebagai {IG_USERNAME}, session disimpan di {session_file}")
-            return True
-        except Exception as e:
-            print(f"Login gagal, lanjut tanpa login. Detail: {e}")
-            return False
-    else:
-        print("IG_PASSWORD tidak diisi, scraping tanpa login.")
-        return False
-
-def _post_to_dict(post, username_fallback: str = "") -> dict:
-    return {
-
-        "source": "instagram",
-        "id": post.shortcode,
-        "author": post.owner_username or username_fallback,
-        "text": post.caption if post.caption else "",
-        "likes": post.likes,
-        "comments": post.comments,
-        "date": post.date_utc.strftime("%Y-%m-%dT%H:%M:%S"),
-        "url": f"https://www.instagram.com/p/{post.shortcode}/",
-        "scraped_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-    }
-
-def scrape_profile(loader: instaloader.Instaloader, username: str, limit: int) -> list:
-    print(f"Mengambil profil: {username}")
-
-    try:
-        profile = instaloader.Profile.from_username(loader.context, username)
-    except instaloader.exceptions.ProfileNotExistsException:
-        print(f"Akun '{username}' tidak ditemukan.")
-        return []
-    except Exception as e:
-        print(f"Gagal ambil profil: {e}")
-        return []
-    print(f"Followers: {profile.followers} | Posts: {profile.mediacount}")
-    hasil = []
-
-    jumlah = 0
-
-    for post in profile.get_posts():
-
-        # Stop jika postingan lebih lama dari 7 hari
-        if post.date_utc < BATAS_TANGGAL:
-            break
-
-        try:
-            data = _post_to_dict(post, username_fallback=username)
-            hasil.append(data)
-
-            jumlah += 1
-
-            print(
-                f"[{jumlah}] "
-                f"{data['date']} "
-                f"likes={data['likes']}"
-            )
-
-        except Exception as e:
-            print(e)
-
-        time.sleep(JEDA_ANTAR_POST)
-
-        if jumlah >= limit:
-            break
+# ======================================================
+# CLASS
+# ======================================================
 
 
-def scrape_hashtag(loader: instaloader.Instaloader, hashtag: str, limit: int) -> list:
-    print(f"DEBUG: Mencoba akses hashtag #{hashtag}")
-    hasil = []
-    try:
-        print(f"DEBUG: Status login: {loader.test_login()}")
-        posts = instaloader.Hashtag.from_name(loader.context, hashtag).get_posts()
-        print("DEBUG: Berhasil mendapatkan objek hashtag, mulai loop...")
+class InstagramScraper:
 
-        jumlah = 0
+    def __init__(self):
 
-        for post in posts:
+        self.data = []
 
-            if post.date_utc < BATAS_TANGGAL:
-                break
+        self.batas_tanggal = datetime.now() - timedelta(days=JUMLAH_HARI)
+
+    # --------------------------------------------------
+
+    def start_browser(self):
+
+        self.playwright = sync_playwright().start()
+
+        self.browser = self.playwright.chromium.launch(
+            headless=False
+        )
+
+        self.context = self.browser.new_context(
+            storage_state=STATE_FILE
+        )
+
+        self.page = self.context.new_page()
+
+    # --------------------------------------------------
+
+    def close_browser(self):
+
+        self.browser.close()
+
+        self.playwright.stop()
+
+    # --------------------------------------------------
+
+    def buka_profil(self, username):
+
+        print("=" * 60)
+        print(f"Membuka akun : {username}")
+        print("=" * 60)
+
+        url = f"https://www.instagram.com/{username}/"
+
+        self.page.goto(url)
+
+        self.page.wait_for_timeout(4000)
+
+    # --------------------------------------------------
+
+    def ambil_link_postingan(self):
+
+        hasil = []
+
+        posts = self.page.locator("a[href*='/p/']")
+
+        total = posts.count()
+
+        print(f"Posting ditemukan : {total}")
+
+        for i in range(total):
 
             try:
-                data = _post_to_dict(post)
 
-                hasil.append(data)
+                href = posts.nth(i).get_attribute("href")
 
-                jumlah += 1
+                if href is None:
+                    continue
 
-                print(
-                    f"[{jumlah}] "
-                    f"{data['date']} "
-                    f"@{data['author']}"
+                full_url = "https://www.instagram.com" + href
+
+                shortcode = href.split("/")[2]
+
+                hasil.append(
+                    {
+                        "shortcode": shortcode,
+                        "url": full_url
+                    }
                 )
 
-            except Exception as e:
-                print(e)
+            except Exception:
 
-            time.sleep(JEDA_ANTAR_POST)
+                pass
 
-            if jumlah >= limit:
-                break
-            return hasil
+        return hasil
 
-    except Exception as e:
-        import traceback
-        print("ERROR TERDETEKSI:")
-        traceback.print_exc()
+    # --------------------------------------------------
 
-    return hasil
+    def scrape_profile(self, username):
+        self.username = username
+        self.buka_profil(username)
 
-def simpan_json(data_baru: list, path: str) -> None:
-    if not data_baru:
-        print("Tidak ada data baru untuk disimpan.")
-        return
-    
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    data_lama = []
+        daftar_post = self.ambil_link_postingan()
 
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            try:
-                data_lama = json.load(f)
-            except json.JSONDecodeError:
-                data_lama = []
-    id_lama = {d["id"] for d in data_lama}
-    tambahan = [d for d in data_baru if d["id"] not in id_lama]
-    gabungan = data_lama + tambahan
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(gabungan, f, ensure_ascii=False, indent=2)
-    print(f"\n{len(tambahan)} post baru ditambahkan. Total sekarang: {len(gabungan)} post.")
-    print(f"Tersimpan di: {path}")
+        print()
 
-print("="*50)
-print(f"Ambil postingan {JUMLAH_HARI} hari terakhir")
-print(f"Batas tanggal : {BATAS_TANGGAL}")
-print("="*50)
+        print(f"Total posting ditemukan : {len(daftar_post)}")
+
+        print()
+
+        for i, post in enumerate(daftar_post):
+
+            print(f"[{i+1}/{len(daftar_post)}] Membuka posting...")
+
+            hasil = self.ambil_detail_postingan(post)
+
+            if hasil:
+
+                self.data.append(hasil)
+
+    # --------------------------------------------------
+
+    def save(self):
+
+        os.makedirs("output", exist_ok=True)
+
+        with open(
+            OUTPUT_JSON,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            json.dump(
+                self.data,
+                f,
+                ensure_ascii=False,
+                indent=4
+            )
+
+        df = pd.DataFrame(self.data)
+
+        df.to_csv(
+            OUTPUT_CSV,
+            index=False,
+            encoding="utf-8-sig"
+        )
+
+        print()
+
+        print("=" * 60)
+
+        print("SELESAI")
+
+        print(f"Total Data : {len(self.data)}")
+
+        print("=" * 60)
+
+
+# ======================================================
 
 def main():
-    print("--- Memulai proses scraping ---")
 
-    DEFAULT_MODE = "hashtag"
-    DEFAULT_TARGET = "Gresik"
-    DEFAULT_LIMIT = 5
+    scraper = InstagramScraper()
 
-    parser = argparse.ArgumentParser(description="Scraper Instagram untuk Dashboard Gresik")
-    parser.add_argument("--mode", choices=["profile", "hashtag"], default=DEFAULT_MODE)
-    parser.add_argument("--target", default=DEFAULT_TARGET)
-    parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
-    args = parser.parse_args()
+    scraper.start_browser()
 
-    if not args.target:
-        print("Target belum diisi. Gunakan --target atau isi IG_TARGET di .env")
-        return
+    for akun in TARGETS:
 
-    # loader dibuat DI SINI, sebelum tahu mode-nya apa,
-    # supaya selalu ada isinya apa pun mode yang dipilih
-    loader = instaloader.Instaloader()
-    berhasil_login = login(loader)
+        scraper.scrape_profile(akun)
 
-    if not berhasil_login:
-        print("\nLogin Instagram gagal.")
-        print("Silakan selesaikan checkpoint di browser terlebih dahulu.")
-        return
+    scraper.save()
 
-    targets = [t.strip() for t in args.target.split(",")]
-    all_data = []
+    scraper.close_browser()
 
-    for t in targets:
-        print(f"\n--- Memproses target: {t} ---")
-        if args.mode == "profile":
-            data = scrape_profile(loader, t, args.limit)
-        else:
-            data = scrape_hashtag(loader, t, args.limit)
-        all_data.extend(data)
 
-    simpan_json(all_data, OUTPUT_PATH)
+def ambil_detail_postingan(self, post):
 
+    try:
+
+        self.page.goto(post["url"])
+
+        self.page.wait_for_timeout(3000)
+
+        caption = ""
+
+        tanggal = ""
+
+        try:
+            caption = self.page.locator("article h1").inner_text(timeout=3000)
+        except:
+            pass
+
+        try:
+            tanggal = self.page.locator("time").get_attribute("datetime")
+        except:
+            pass
+
+        return {
+            "source": "instagram",
+            "id": post["shortcode"],
+            "author": self.username,
+            "caption": caption,
+            "tanggal": tanggal,
+            "url": post["url"]
+        }
+
+    except Exception as e:
+
+        print(e)
+
+        return None
     
 
 
+# ======================================================
+
 if __name__ == "__main__":
+
     main()

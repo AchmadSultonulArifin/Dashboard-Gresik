@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import instaloader
 from dotenv import load_dotenv
 load_dotenv()
@@ -12,6 +12,13 @@ IG_PASSWORD = os.getenv("IG_PASSWORD")
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
 JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
 SESSION_DIR = "ig_session"
+# Ambil postingan 7 hari terakhir
+JUMLAH_HARI = int(os.getenv("JUMLAH_HARI", "7"))
+
+BATAS_TANGGAL = (
+    datetime.now(timezone.utc)
+    - timedelta(days=JUMLAH_HARI)
+)
 
 def login(loader: instaloader.Instaloader) -> bool:
     if not IG_USERNAME:
@@ -70,17 +77,35 @@ def scrape_profile(loader: instaloader.Instaloader, username: str, limit: int) -
         return []
     print(f"Followers: {profile.followers} | Posts: {profile.mediacount}")
     hasil = []
-    for i, post in enumerate(profile.get_posts()):
+
+    jumlah = 0
+
+    for post in profile.get_posts():
+
+        # Stop jika postingan lebih lama dari 7 hari
+        if post.date_utc < BATAS_TANGGAL:
+            break
+
         try:
             data = _post_to_dict(post, username_fallback=username)
             hasil.append(data)
-            print(f"[{i + 1}/{limit}] {data['date']} | likes={data['likes']} comments={data['comments']}")
+
+            jumlah += 1
+
+            print(
+                f"[{jumlah}] "
+                f"{data['date']} "
+                f"likes={data['likes']}"
+            )
+
         except Exception as e:
-            print(f"Lewati satu post karena error: {e}")
+            print(e)
+
         time.sleep(JEDA_ANTAR_POST)
-        if i + 1 >= limit:
+
+        if jumlah >= limit:
             break
-    return hasil
+
 
 def scrape_hashtag(loader: instaloader.Instaloader, hashtag: str, limit: int) -> list:
     print(f"DEBUG: Mencoba akses hashtag #{hashtag}")
@@ -90,15 +115,32 @@ def scrape_hashtag(loader: instaloader.Instaloader, hashtag: str, limit: int) ->
         posts = instaloader.Hashtag.from_name(loader.context, hashtag).get_posts()
         print("DEBUG: Berhasil mendapatkan objek hashtag, mulai loop...")
 
-        for i, post in enumerate(posts):
+        jumlah = 0
+
+        for post in posts:
+
+            if post.date_utc < BATAS_TANGGAL:
+                break
+
             try:
                 data = _post_to_dict(post)
+
                 hasil.append(data)
-                print(f"[{i + 1}/{limit}] @{data['author']} | likes={data['likes']}")
+
+                jumlah += 1
+
+                print(
+                    f"[{jumlah}] "
+                    f"{data['date']} "
+                    f"@{data['author']}"
+                )
+
             except Exception as e:
-                print(f"Lewati satu post karena error: {e}")
+                print(e)
+
             time.sleep(JEDA_ANTAR_POST)
-            if i + 1 >= limit:
+
+            if jumlah >= limit:
                 break
 
     except Exception as e:
@@ -129,6 +171,11 @@ def simpan_json(data_baru: list, path: str) -> None:
         json.dump(gabungan, f, ensure_ascii=False, indent=2)
     print(f"\n{len(tambahan)} post baru ditambahkan. Total sekarang: {len(gabungan)} post.")
     print(f"Tersimpan di: {path}")
+
+print("="*50)
+print(f"Ambil postingan {JUMLAH_HARI} hari terakhir")
+print(f"Batas tanggal : {BATAS_TANGGAL}")
+print("="*50)
 
 def main():
     print("--- Memulai proses scraping ---")

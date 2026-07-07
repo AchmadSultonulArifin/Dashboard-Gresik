@@ -10,8 +10,8 @@ load_dotenv()
 IG_USERNAME = os.getenv("IG_USERNAME") 
 IG_PASSWORD = os.getenv("IG_PASSWORD")
 OUTPUT_PATH = os.path.join("output", "gresik_instagram.json")
-JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
 SESSION_DIR = "ig_session"
+JEDA_ANTAR_POST = 5  # detik, jangan diperkecil - ini yang mencegah rate-limit
 # Ambil postingan 7 hari terakhir
 JUMLAH_HARI = int(os.getenv("JUMLAH_HARI", "7"))
 
@@ -142,6 +142,7 @@ def scrape_hashtag(loader: instaloader.Instaloader, hashtag: str, limit: int) ->
 
             if jumlah >= limit:
                 break
+            return hasil
 
     except Exception as e:
         import traceback
@@ -198,6 +199,11 @@ def main():
     # supaya selalu ada isinya apa pun mode yang dipilih
     loader = instaloader.Instaloader()
     berhasil_login = login(loader)
+
+    if not berhasil_login:
+        print("\nLogin Instagram gagal.")
+        print("Silakan selesaikan checkpoint di browser terlebih dahulu.")
+        return
 
     targets = [t.strip() for t in args.target.split(",")]
     all_data = []

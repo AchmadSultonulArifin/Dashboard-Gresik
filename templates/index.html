@@ -166,14 +166,36 @@ new Chart(document.getElementById("chartHari"), {
 
 // Pie chart
 const sentimen = {{ sentimen | tojson }};
+
 new Chart(document.getElementById("chartPie"), {
-  type: "doughnut",
-  data: {
-    labels: Object.keys(sentimen),
-    datasets: [{ data: Object.values(sentimen),
-      backgroundColor: Object.keys(sentimen).map(k => warna[k] || "#ccc") }]
-  },
-  options: { responsive: true, plugins: { legend: { position: "bottom" } } }
+    type: "doughnut",
+    data: {
+        labels: [
+            "Positif",
+            "Netral",
+            "Negatif"
+        ],
+        datasets: [{
+            data: [
+                sentimen["positif"] || 0,
+                sentimen["netral"] || 0,
+                sentimen["negatif"] || 0
+            ],
+            backgroundColor: [
+                "#16a34a",
+                "#9ca3af",
+                "#dc2626"
+            ]
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: "bottom"
+            }
+        }
+    }
 });
 
 // Bar topik

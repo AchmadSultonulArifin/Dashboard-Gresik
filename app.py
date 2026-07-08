@@ -69,6 +69,11 @@ def index():
     df_ig = load_instagram()
     if df.empty:
         return render_template("index.html", kosong=True)
+    print("=== SENTIMEN ===")
+    print(sentimen)
+
+    print("=== TOPIK ===")
+    print(topik)
     total = len(df)
     total_instagram = len(df_ig)
 

@@ -234,6 +234,15 @@ class InstagramScraper:
 
             )
 
+            print()
+
+            print(df[[
+                "author",
+                "sentimen",
+                "topik",
+                "likes"
+            ]].head())
+
 
 # ======================================================
     def ambil_detail_postingan(self, post):
@@ -320,7 +329,7 @@ class InstagramScraper:
 
                 "author": self.username,
 
-                "caption": caption,
+                "caption": caption or "",
 
                 "teks_asli": caption,
 

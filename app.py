@@ -69,7 +69,7 @@ def index():
     df = load_data()
     df_ig = load_instagram()
     if df.empty:
-        return render_template("index.html", kosong=True)
+        return render_template("index.html")
     total = len(df)
     total_instagram = len(df_ig)
 
@@ -130,14 +130,14 @@ def index():
     )
 
 
-@app.route("/twitter")
+@app.route("/tweets")
 def twitter():
 
     df = load_data()
 
     if df.empty:
         return render_template(
-            "twitter.html",
+            "tweets.html",
             data=[],
             total=0
         )
@@ -175,7 +175,7 @@ def twitter():
     )
 
     return render_template(
-        "twitter.html",
+        "tweets.html",
         total=total,
         sentimen=sentimen,
         topik=topik,

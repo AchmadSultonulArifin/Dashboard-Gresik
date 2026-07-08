@@ -1,33 +1,100 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="card">
-  <h2>Semua Tweet ({{ total }} total, tampil 200 terbaru)</h2>
-  <input type="text" id="cari" placeholder="Cari tweet..."
-    style="width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:8px;margin-bottom:1rem;font-size:0.9rem">
-  <table>
-    <thead>
-      <tr><th>Tanggal</th><th>User</th><th>Tweet</th><th>Topik</th><th>Sentimen</th><th>Likes</th></tr>
-    </thead>
-    <tbody id="tabelBody">
-    {% for t in data %}
-      <tr>
-        <td style="white-space:nowrap">{{ t.tanggal }}</td>
-        <td>@{{ t.username }}</td>
-        <td style="max-width:380px">{{ t.teks_asli[:100] }}{% if t.teks_asli|length > 100 %}...{% endif %}</td>
-        <td>{{ t.topik }}</td>
-        <td><span class="badge {{ t.sentimen }}">{{ t.sentimen }}</span></td>
-        <td>{{ t.likes }}</td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
+
+<h2>🐦 Dashboard Twitter</h2>
+
+<p>Total Tweet : {{ total }}</p>
+
+<!-- Statistik -->
+
+<div class="stat-grid">
+
+    <div class="stat total">
+        <div class="angka">{{ total }}</div>
+        <div class="label">Total Tweet</div>
+    </div>
+
+    <div class="stat positif">
+        <div class="angka">{{ sentimen.get('positif',0) }}</div>
+        <div class="label">Positif</div>
+    </div>
+
+    <div class="stat netral">
+        <div class="angka">{{ sentimen.get('netral',0) }}</div>
+        <div class="label">Netral</div>
+    </div>
+
+    <div class="stat negatif">
+        <div class="angka">{{ sentimen.get('negatif',0) }}</div>
+        <div class="label">Negatif</div>
+    </div>
+
 </div>
-<script>
-document.getElementById("cari").addEventListener("input", function() {
-  const q = this.value.toLowerCase();
-  document.querySelectorAll("#tabelBody tr").forEach(row => {
-    row.style.display = row.textContent.toLowerCase().includes(q) ? "" : "none";
-  });
-});
-</script>
-{% endblock %}
+<div class="card">
+  
+<br>
+
+<h3>Topik Terpopuler</h3>
+
+<table>
+
+<tr>
+<th>Topik</th>
+<th>Jumlah</th>
+</tr>
+
+{% for nama,jumlah in topik.items() %}
+
+<tr>
+
+<td>{{ nama }}</td>
+
+<td>{{ jumlah }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h3>Tweet Paling Banyak Disukai</h3>
+
+<table>
+
+<tr>
+
+<th>User</th>
+
+<th>Tweet</th>
+
+<th>Like</th>
+
+<th>Sentimen</th>
+
+</tr>
+
+{% for t in tweet_viral %}
+
+<tr>
+
+<td>@{{ t.username }}</td>
+
+<td>{{ t.teks_asli[:100] }}</td>
+
+<td>{{ t.likes }}</td>
+
+<td>{{ t.sentimen }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+<br>

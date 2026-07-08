@@ -1,100 +1,92 @@
 {% extends "base.html" %}
+
 {% block content %}
 
-<h2>🐦 Dashboard Twitter</h2>
-
-<p>Total Tweet : {{ total }}</p>
-
-<!-- Statistik -->
-
-<div class="stat-grid">
-
-    <div class="stat total">
-        <div class="angka">{{ total }}</div>
-        <div class="label">Total Tweet</div>
-    </div>
-
-    <div class="stat positif">
-        <div class="angka">{{ sentimen.get('positif',0) }}</div>
-        <div class="label">Positif</div>
-    </div>
-
-    <div class="stat netral">
-        <div class="angka">{{ sentimen.get('netral',0) }}</div>
-        <div class="label">Netral</div>
-    </div>
-
-    <div class="stat negatif">
-        <div class="angka">{{ sentimen.get('negatif',0) }}</div>
-        <div class="label">Negatif</div>
-    </div>
-
-</div>
-<div class="card">
-  
-<br>
-
-<h3>Topik Terpopuler</h3>
-
-<table>
-
-<tr>
-<th>Topik</th>
-<th>Jumlah</th>
-</tr>
-
-{% for nama,jumlah in topik.items() %}
-
-<tr>
-
-<td>{{ nama }}</td>
-
-<td>{{ jumlah }}</td>
-
-</tr>
-
-{% endfor %}
-
-</table>
-
-</div>
-
 <div class="card">
 
-<h3>Tweet Paling Banyak Disukai</h3>
+    <h2>Semua Tweet ({{ total }} total)</h2>
 
-<table>
+    <input
+        type="text"
+        id="cari"
+        placeholder="Cari tweet..."
+        style="width:100%;padding:8px;margin:10px 0;"
+    >
 
-<tr>
+    <table>
 
-<th>User</th>
+        <thead>
+            <tr>
+                <th>Tanggal</th>
+                <th>User</th>
+                <th>Tweet</th>
+                <th>Topik</th>
+                <th>Sentimen</th>
+                <th>Like</th>
+            </tr>
+        </thead>
 
-<th>Tweet</th>
+        <tbody id="tabelBody">
 
-<th>Like</th>
+        {% for t in data %}
 
-<th>Sentimen</th>
+            <tr>
 
-</tr>
+                <td>{{ t.tanggal }}</td>
 
-{% for t in tweet_viral %}
+                <td>@{{ t.username }}</td>
 
-<tr>
+                <td>
 
-<td>@{{ t.username }}</td>
+                  {% if t.teks_asli is string %}
 
-<td>{{ t.teks_asli[:100] }}</td>
+                      {{ t.teks_asli[:100] }}
 
-<td>{{ t.likes }}</td>
+                      {% if t.teks_asli|length > 100 %}
+                          ...
+                      {% endif %}
 
-<td>{{ t.sentimen }}</td>
+                  {% else %}
 
-</tr>
+                      -
 
-{% endfor %}
+                  {% endif %}
 
-</table>
+                </td>
+
+                <td>{{ t.topik }}</td>
+
+                <td>{{ t.sentimen }}</td>
+
+                <td>{{ t.likes }}</td>
+
+            </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+    </table>
 
 </div>
 
-<br>
+<script>
+
+document.getElementById("cari").addEventListener("input", function () {
+
+    let keyword = this.value.toLowerCase();
+
+    document.querySelectorAll("#tabelBody tr").forEach(function(row){
+
+        row.style.display =
+            row.innerText.toLowerCase().includes(keyword)
+            ? ""
+            : "none";
+
+    });
+
+});
+
+</script>
+
+{% endblock %}

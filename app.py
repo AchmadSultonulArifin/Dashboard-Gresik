@@ -19,15 +19,23 @@ def load_data():
 
     try:
         df = pd.read_csv(CSV_PATH)
+        
+        
+
+        if "teks_asli" in df.columns:
+            df["teks_asli"] = df["teks_asli"].astype(str)
+
+        if "username" in df.columns:
+            df["username"] = df["username"].astype(str)
 
         if "tanggal" in df.columns:
             df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
 
         if "likes" not in df.columns:
-            df["likes"] = 0
+            df["likes"] = pd.to_numeric(df["likes"], errors="coerce").fillna(0)
 
         if "retweets" not in df.columns:
-            df["retweets"] = 0
+            df["retweets"] = pd.to_numeric(df["retweets"], errors="coerce").fillna(0)
 
         return df
 

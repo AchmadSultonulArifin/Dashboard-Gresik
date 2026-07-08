@@ -366,6 +366,11 @@ class InstagramScraper:
             )
 
             self.page.wait_for_timeout(WAIT_POST)
+            html = self.page.content()
+
+            with open("debug_instagram.html", "w", encoding="utf-8") as f:
+
+                f.write(html)
 
         except Exception:
 
@@ -395,15 +400,15 @@ class InstagramScraper:
 
                         "article h1",
 
-                        "article div[dir='auto'] span",
+                        "article span",
 
-                        "article span[dir='auto']",
-
-                        "div[role='dialog'] h1",
+                        "article div span",
 
                         "div[role='dialog'] span",
 
-                        "meta[property='og:description']"
+                        "div[dir='auto'] span",
+
+                        "span"
 
                     ]
 
@@ -535,7 +540,40 @@ class InstagramScraper:
 
         # ambil semua komentar
 
-        kandidat = self.page.locator("ul ul span")
+            selectors = [
+
+                        "ul ul span",
+
+                        "ul span",
+
+                        "article ul span",
+
+                        "div[role='dialog'] ul span",
+
+                        "article span"
+
+                    ]
+
+            kandidat = None
+
+            for s in selectors:
+
+                        try:
+
+                            kandidat = self.page.locator(s)
+
+                            if kandidat.count() > 0:
+                                break
+
+                        except:
+                            pass
+
+            if kandidat is None:
+                        return []
+
+            total = kandidat.count()
+
+            print("Komentar ditemukan :", total)
 
         total = kandidat.count()
 

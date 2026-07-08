@@ -69,77 +69,7 @@
     </tbody>
   </table>
 </div>
-<hr class="my-5">
 
-<h2 class="mb-4">
-    📷 Dashboard Instagram
-</h2>
-<div class="row">
-    <div class="col-md-3">
-        <div class="card shadow-sm">
-            <div class="card-body text-center">
-                <h2>{{ total_instagram }}</h2>
-                <p>Total Post</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3">
-        <div class="card shadow-sm">
-            <div class="card-body text-center">
-                <h2>{{ total_like }}</h2>
-                <p>Total Like</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3">
-        <div class="card shadow-sm">
-            <div class="card-body text-center">
-                <h2>{{ total_comment }}</h2>
-                <p>Total Komentar</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3">
-        <div class="card shadow-sm">
-            <div class="card-body text-center">
-                <h2>{{ rata_like }}</h2>
-                <p>Rata-rata Like</p>
-            </div>
-        </div>
-    </div>
-</div>
-<h4 class="mt-5 mb-3">
-    Postingan Instagram Terbaru
-</h4>
-<table class="table table-striped">
-<thead>
-<tr>
-<th>Tanggal</th>
-<th>Akun</th>
-<th>Like</th>
-<th>Komentar</th>
-<th>Link</th>
-</tr>
-</thead>
-<tbody>
-{% for p in post_terbaru %}
-<tr>
-<td>{{ p.tanggal }}</td>
-<td>{{ p.author }}</td>
-<td>{{ p.likes }}</td>
-<td>{{ p.comments }}</td>
-<td>
-<a href="{{ p.url }}" target="_blank">
-Lihat
-</a>
-</td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
 <script>
 const chartData = {{ chart_data | tojson }};
 const warna = { positif: "#16a34a", netral: "#9ca3af", negatif: "#dc2626" };

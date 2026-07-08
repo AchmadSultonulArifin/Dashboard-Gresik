@@ -1,89 +1,320 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard Sentimen Gresik</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: system-ui, sans-serif; background: #f5f5f0; color: #1a1a1a; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    nav {
-      background: #fff;
-      border-bottom: 1px solid #e0e0e0;
-      padding: 0 2rem;
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      height: 56px;
-    }
-    nav .brand { font-weight: 600; font-size: 1rem; color: #1a1a1a; }
-    nav a { color: #555; text-decoration: none; font-size: 0.9rem; }
-    nav a:hover, nav a.active { color: #4f46e5; font-weight: 500; }
+<title>Dashboard Gresik</title>
 
-    .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    .card {
-      background: #fff;
-      border: 1px solid #e8e8e8;
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: #333; }
+<style>
 
-    .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
-    .stat {
-      background: #fff;
-      border: 1px solid #e8e8e8;
-      border-radius: 12px;
-      padding: 1.2rem 1.5rem;
-      text-align: center;
-    }
-    .stat .angka { font-size: 2rem; font-weight: 700; }
-    .stat .label { font-size: 0.8rem; color: #777; margin-top: 4px; }
-    .stat.positif .angka { color: #16a34a; }
-    .stat.negatif .angka { color: #dc2626; }
-    .stat.netral  .angka { color: #9ca3af; }
-    .stat.total   .angka { color: #4f46e5; }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
 
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+body{
 
-    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    th { text-align: left; padding: 8px 12px; border-bottom: 2px solid #eee; color: #555; font-weight: 500; }
-    td { padding: 8px 12px; border-bottom: 1px solid #f0f0f0; }
-    tr:hover td { background: #fafafa; }
+    display:flex;
+    background:#f5f6fa;
 
-    .badge {
-      display: inline-block;
-      padding: 2px 10px;
-      border-radius: 99px;
-      font-size: 0.75rem;
-      font-weight: 500;
-    }
-    .badge.positif { background: #dcfce7; color: #15803d; }
-    .badge.negatif { background: #fee2e2; color: #b91c1c; }
-    .badge.netral  { background: #f3f4f6; color: #6b7280; }
+}
 
-    .update-info { font-size: 0.8rem; color: #999; margin-top: 4px; }
+/* =======================
+SIDEBAR
+======================= */
 
-    @media (max-width: 700px) {
-      .stat-grid { grid-template-columns: repeat(2, 1fr); }
-      .grid-2 { grid-template-columns: 1fr; }
-    }
-  </style>
+.sidebar{
+
+    width:250px;
+    min-height:100vh;
+
+    background:#1f2937;
+
+    color:white;
+
+    position:fixed;
+
+    left:0;
+    top:0;
+
+}
+
+.logo{
+
+    padding:25px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    border-bottom:1px solid rgba(255,255,255,.1);
+
+}
+
+.menu{
+
+    padding:20px;
+
+}
+
+.menu ul{
+
+    list-style:none;
+
+}
+
+.menu li{
+
+    margin-bottom:10px;
+
+}
+
+.menu a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 15px;
+
+    border-radius:8px;
+
+    transition:.2s;
+
+}
+
+.menu a:hover{
+
+    background:#374151;
+
+}
+
+.menu a.active{
+
+    background:#4f46e5;
+
+}
+
+/* =======================
+SUBMENU
+======================= */
+
+details{
+
+    margin-bottom:10px;
+
+}
+
+summary{
+
+    list-style:none;
+
+    cursor:pointer;
+
+    padding:12px 15px;
+
+    border-radius:8px;
+
+}
+
+summary:hover{
+
+    background:#374151;
+
+}
+
+details a{
+
+    margin-left:15px;
+
+    margin-top:8px;
+
+}
+
+/* =======================
+CONTENT
+======================= */
+
+.main{
+
+    margin-left:250px;
+
+    width:calc(100% - 250px);
+
+    padding:30px;
+
+}
+
+.page-title{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+    margin-bottom:20px;
+
+}
+
+.stat-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.stat{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.stat .angka{
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+
+.stat .label{
+
+    color:#666;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+table th{
+
+    background:#f2f2f2;
+
+    padding:12px;
+
+}
+
+table td{
+
+    padding:12px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+</style>
+
 </head>
+
 <body>
-<nav>
-  <span class="brand">Dashboard Gresik</span>
-  <a href="/" class="{{ 'active' if request.path == '/' }}">Beranda</a>
-  <a href="/tweets" class="{{ 'active' if request.path == '/tweets' }}">Tweets</a>
-  <a href="/instagram" class="{{ 'active' if request.path == '/instagram' }}">Instagram</a>
-  <a href="/topik" class="{{ 'active' if request.path == '/topik' }}">Topik</a>
-</nav>
-<div class="container">
-  {% block content %}{% endblock %}
+
+<div class="sidebar">
+
+<div class="logo">
+
+Dashboard Gresik
+
 </div>
+
+<div class="menu">
+
+<ul>
+
+<li>
+
+<a href="/"
+class="{{ 'active' if request.path=='/' else '' }}">
+🏠 Beranda
+</a>
+
+</li>
+
+<li>
+
+<details open>
+
+<summary>
+
+📱 Media Sosial
+
+</summary>
+
+<a href="/tweets"
+class="{{ 'active' if request.path=='/tweets' else '' }}">
+🐦 Twitter
+</a>
+
+<a href="/instagram"
+class="{{ 'active' if request.path=='/instagram' else '' }}">
+📷 Instagram
+</a>
+
+</details>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="page-title">
+
+{% block title %}
+
+Dashboard
+
+{% endblock %}
+
+</div>
+
+{% block content %}
+
+{% endblock %}
+
+</div>
+
 </body>
+
 </html>

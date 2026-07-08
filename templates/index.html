@@ -166,8 +166,6 @@ new Chart(document.getElementById("chartHari"), {
 
 // Pie chart
 const sentimen = {{ sentimen | tojson }};
-console.log("Sentimen =", sentimen);
-console.log("Topik =", {{ topik | tojson }});
 new Chart(document.getElementById("chartPie"), {
   type: "doughnut",
   data: {

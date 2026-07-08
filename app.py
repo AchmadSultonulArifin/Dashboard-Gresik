@@ -151,7 +151,20 @@ def twitter():
 
     total = len(df)
 
-    sentimen = df["sentimen"].value_counts().to_dict()
+    # Hanya ambil 3 sentimen yang valid
+    df_sentimen = df[
+                        df["sentimen"].isin([
+                            "positif",
+                            "netral",
+                            "negatif"
+                        ])
+                    ]
+
+    sentimen = (
+                    df_sentimen["sentimen"]
+                    .value_counts()
+                    .to_dict()
+                )
 
     topik = (
         df["topik"]
@@ -204,6 +217,9 @@ def twitter():
                                 .dt.strftime("%Y-%m-%d")
                             )
     chart_data = per_hari.to_dict("records")
+
+    print("Sentimen :", sentimen)
+    print("Topik :", topik)
 
     return render_template(
         "tweets.html",

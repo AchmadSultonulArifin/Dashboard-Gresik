@@ -22,7 +22,7 @@ JUMLAH_HARI = int(os.getenv("JUMLAH_HARI", 7))
 
 TARGETS = [
     "infogresik",
-    "pemkabgresik",
+
     "petrokimia.gresik",
 ]
 
@@ -73,9 +73,20 @@ class InstagramScraper:
 
         url = f"https://www.instagram.com/{username}/"
 
-        self.page.goto(url)
+        try:
+            self.page.goto(
+                url,
+                wait_until="commit",
+                timeout=15000
+            )
 
-        self.page.wait_for_timeout(4000)
+            self.page.wait_for_timeout(3000)
+
+        except TimeoutError:
+            print(f"Gagal membuka akun: {username}")
+            return False
+
+        return True
 
     # --------------------------------------------------
 
@@ -94,13 +105,21 @@ class InstagramScraper:
             try:
 
                 href = posts.nth(i).get_attribute("href")
+                print(href)
 
                 if href is None:
                     continue
 
-                full_url = "https://www.instagram.com" + href
+                parts = href.strip("/").split("/")
 
-                shortcode = href.split("/")[2]
+                try:
+                    idx = parts.index("p")
+                    shortcode = parts[idx + 1]
+                except ValueError:
+                    continue
+
+                full_url = f"https://www.instagram.com/p/{shortcode}/"
+                print(full_url)
 
                 hasil.append(
                     {
@@ -115,11 +134,12 @@ class InstagramScraper:
 
         return hasil
 
-    # --------------------------------------------------
+        # --------------------------------------------------
 
     def scrape_profile(self, username):
         self.username = username
-        self.buka_profil(username)
+        if not self.buka_profil(username):
+            return
 
         daftar_post = self.ambil_link_postingan()
 
@@ -138,19 +158,18 @@ class InstagramScraper:
             if hasil:
 
                 self.data.append(hasil)
-
-    # --------------------------------------------------
+        # --------------------------------------------------
 
     def save(self):
 
         os.makedirs("output", exist_ok=True)
-
+        
         with open(
             OUTPUT_JSON,
             "w",
             encoding="utf-8"
         ) as f:
-
+            
             json.dump(
                 self.data,
                 f,
@@ -178,63 +197,64 @@ class InstagramScraper:
 
 
 # ======================================================
+    def ambil_detail_postingan(self, post):
+        try:
+            self.page.goto(
+                post["url"],
+                wait_until="commit",
+                timeout=15000
+            )
+            self.page.wait_for_timeout(2000)
+
+        except TimeoutError:
+            print(f"Timeout: {post['url']}")
+            return None
+
+            caption = ""
+            tanggal = ""
+
+            try:
+                caption = self.page.locator("article h1").inner_text(timeout=3000)
+            except:
+                pass
+
+            try:
+                tanggal = self.page.locator("time").get_attribute("datetime")
+            except:
+                pass
+
+            return {
+                "source": "instagram",
+                "id": post["shortcode"],
+                "author": self.username,
+                "caption": caption,
+                "tanggal": tanggal,
+                "url": post["url"]
+            }
+
+        except Exception as e:
+            print(e)
+            return None
+        
+# ======================================================
 
 def main():
-
     scraper = InstagramScraper()
 
-    scraper.start_browser()
-
-    for akun in TARGETS:
-
-        scraper.scrape_profile(akun)
-
-    scraper.save()
-
-    scraper.close_browser()
-
-
-def ambil_detail_postingan(self, post):
-
     try:
+        scraper.start_browser()
 
-        self.page.goto(post["url"])
+        for akun in TARGETS:
+            scraper.scrape_profile(akun)
 
-        self.page.wait_for_timeout(3000)
+        scraper.save()
 
-        caption = ""
-
-        tanggal = ""
-
-        try:
-            caption = self.page.locator("article h1").inner_text(timeout=3000)
-        except:
-            pass
-
-        try:
-            tanggal = self.page.locator("time").get_attribute("datetime")
-        except:
-            pass
-
-        return {
-            "source": "instagram",
-            "id": post["shortcode"],
-            "author": self.username,
-            "caption": caption,
-            "tanggal": tanggal,
-            "url": post["url"]
-        }
-
-    except Exception as e:
-
-        print(e)
-
-        return None
-    
+    finally:
+        scraper.close_browser()
 
 
 # ======================================================
 
 if __name__ == "__main__":
-
+    
     main()

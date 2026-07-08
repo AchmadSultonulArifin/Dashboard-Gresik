@@ -71,7 +71,7 @@ Total Postingan : {{ total }}
 
 {% if p.caption %}
 
-{{ p.caption[:120] }}
+{{ (p.caption or '')[:120] }}
 
 {% if p.caption|length > 120 %}
 

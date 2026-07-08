@@ -1,8 +1,14 @@
 import os
 import json
+import re
+import time
 from datetime import datetime, timedelta
+from transformers import pipeline
+from transformers import AutoTokenizer
+from transformers import AutoModelForSequenceClassification
 
 import pandas as pd
+import numpy as np
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import TimeoutError
@@ -26,6 +32,23 @@ TARGETS = [
     "petrokimia.gresik",
 ]
 
+HEADLESS = False
+
+WAIT_PROFILE = 3000
+WAIT_POST = 2500
+
+MAX_POST_PER_ACCOUNT = 20
+
+print("="*60)
+print("Memuat Model IndoBERT...")
+print("="*60)
+
+classifier = pipeline(
+    "text-classification",
+    model="w11wo/indonesian-roberta-base-sentiment-classifier",
+    truncation=True
+)
+
 # ======================================================
 # CLASS
 # ======================================================
@@ -37,7 +60,7 @@ class InstagramScraper:
 
         self.data = []
 
-        self.batas_tanggal = datetime.now() - timedelta(days=JUMLAH_HARI)
+        self.batas_tanggal = datetime.now() - timedelta(days=7)
 
     # --------------------------------------------------
 
@@ -46,11 +69,15 @@ class InstagramScraper:
         self.playwright = sync_playwright().start()
 
         self.browser = self.playwright.chromium.launch(
-            headless=False
+            headless=HEADLESS
         )
 
         self.context = self.browser.new_context(
-            storage_state=STATE_FILE
+            storage_state=STATE_FILE,
+            viewport={
+                "width":1400,
+                "height":900
+            }
         )
 
         self.page = self.context.new_page()
@@ -66,27 +93,30 @@ class InstagramScraper:
     # --------------------------------------------------
 
     def buka_profil(self, username):
-
-        print("=" * 60)
+        print("="*60)
         print(f"Membuka akun : {username}")
-        print("=" * 60)
+        print("="*60)
 
-        url = f"https://www.instagram.com/{username}/"
+        self.username = username
 
         try:
+
             self.page.goto(
-                url,
-                wait_until="commit",
-                timeout=15000
+                f"https://www.instagram.com/{username}/",
+                wait_until="networkidle",
+                timeout=30000
             )
 
-            self.page.wait_for_timeout(3000)
+            self.page.wait_for_timeout(WAIT_PROFILE)
+
+            return True
 
         except TimeoutError:
-            print(f"Gagal membuka akun: {username}")
-            return False
 
-        return True
+            print("Timeout membuka profil")
+
+            return False
+        
 
     # --------------------------------------------------
 
@@ -94,70 +124,77 @@ class InstagramScraper:
 
         hasil = []
 
-        posts = self.page.locator("a[href*='/p/']")
+        posting = self.page.locator("a[href*='/p/']")
 
-        total = posts.count()
+        total = posting.count()
 
         print(f"Posting ditemukan : {total}")
 
+        sudah = set()
+
         for i in range(total):
 
-            try:
+            href = posting.nth(i).get_attribute("href")
 
-                href = posts.nth(i).get_attribute("href")
-                print(href)
+            if not href:
+                continue
 
-                if href is None:
-                    continue
+            m = re.search(r"/p/([^/]+)/", href)
 
-                parts = href.strip("/").split("/")
+            if not m:
+                continue
 
-                try:
-                    idx = parts.index("p")
-                    shortcode = parts[idx + 1]
-                except ValueError:
-                    continue
+            shortcode = m.group(1)
 
-                full_url = f"https://www.instagram.com/p/{shortcode}/"
-                print(full_url)
+            if shortcode in sudah:
+                continue
 
-                hasil.append(
-                    {
-                        "shortcode": shortcode,
-                        "url": full_url
-                    }
-                )
+            sudah.add(shortcode)
 
-            except Exception:
+            hasil.append({
 
-                pass
+                "shortcode": shortcode,
+
+                "url": f"https://www.instagram.com/p/{shortcode}/"
+
+            })
+
+            if len(hasil) >= MAX_POST_PER_ACCOUNT:
+                break
 
         return hasil
 
         # --------------------------------------------------
 
     def scrape_profile(self, username):
-        self.username = username
+
         if not self.buka_profil(username):
             return
 
-        daftar_post = self.ambil_link_postingan()
+        daftar = self.ambil_link_postingan()
 
         print()
 
-        print(f"Total posting ditemukan : {len(daftar_post)}")
+        print(f"Total posting diproses : {len(daftar)}")
 
         print()
 
-        for i, post in enumerate(daftar_post):
+        for i, post in enumerate(daftar):
 
-            print(f"[{i+1}/{len(daftar_post)}] Membuka posting...")
+            print(f"[{i+1}/{len(daftar)}]")
 
             hasil = self.ambil_detail_postingan(post)
 
-            if hasil:
+            if hasil is not None:
 
                 self.data.append(hasil)
+                print(
+                    f"✔ {hasil['username']} | "
+                    f"{hasil['likes']} like | "
+                    f"{hasil['comments']} komentar"
+                )
+
+                time.sleep(2)
         # --------------------------------------------------
 
     def save(self):
@@ -179,63 +216,232 @@ class InstagramScraper:
 
         df = pd.DataFrame(self.data)
 
-        df.to_csv(
-            OUTPUT_CSV,
-            index=False,
-            encoding="utf-8-sig"
-        )
+        if not df.empty:
 
-        print()
+            df = df.drop_duplicates(subset=["id"])
+            df = df.sort_values(
+                        "tanggal",
+                        ascending=False
+                    )
 
-        print("=" * 60)
+            df.to_csv(
 
-        print("SELESAI")
+                OUTPUT_CSV,
 
-        print(f"Total Data : {len(self.data)}")
+                index=False,
 
-        print("=" * 60)
+                encoding="utf-8-sig"
+
+            )
 
 
 # ======================================================
     def ambil_detail_postingan(self, post):
+
         try:
             self.page.goto(
-                post["url"],
-                wait_until="commit",
-                timeout=15000
-            )
-            self.page.wait_for_timeout(2000)
 
-        except TimeoutError:
-            print(f"Timeout: {post['url']}")
-            return None
+                post["url"],
+
+                wait_until="networkidle",
+
+                timeout=30000
+
+            )
+
+            self.page.wait_for_timeout(WAIT_POST)
 
             caption = ""
+            caption_bersih = ""
+
             tanggal = ""
 
+            likes = 0
+
+            comments = 0
+            
+
             try:
-                caption = self.page.locator("article h1").inner_text(timeout=3000)
+
+                caption = self.page.locator("article h1").inner_text()
+                caption_bersih = clean_text(caption)
+
             except:
+
                 pass
 
             try:
+
                 tanggal = self.page.locator("time").get_attribute("datetime")
+
             except:
+
+                pass
+
+            try:
+
+                text = self.page.locator("section").inner_text()
+
+                m = re.search(r"([\d,.]+)\s+likes?", text)
+
+                if m:
+
+                    likes = int(
+
+                        m.group(1)
+
+                        .replace(".","")
+
+                        .replace(",","")
+
+                    )
+
+            except:
+
+                pass
+                
+            try:
+
+                komentar = self.page.locator("ul")
+
+                comments = komentar.count()
+
+            except:
+
                 pass
 
             return {
+
                 "source": "instagram",
+
                 "id": post["shortcode"],
+
+                "username": self.username,
+
                 "author": self.username,
+
                 "caption": caption,
+
+                "teks_asli": caption,
+
+                "teks_bersih": caption_bersih,
+
+                "likes": likes,
+
+                "comments": comments,
+
                 "tanggal": tanggal,
+
+                "sentimen": analisis_sentimen(caption_bersih),
+
+                "topik": klasifikasi_topik(caption_bersih),
+
                 "url": post["url"]
+
             }
 
+
+        except TimeoutError:
+
+                print("Timeout")
+
+                return None
         except Exception as e:
-            print(e)
-            return None
-        
+
+                print(e)
+                return None
+
+def clean_text(text):
+
+    if text is None:
+        return ""
+
+    text = str(text)
+
+    text = re.sub(r"http\S+", "", text)
+    text = re.sub(r"www\S+", "", text)
+
+    text = re.sub(r"@\w+", "", text)
+
+    text = re.sub(r"#(\w+)", r"\1", text)
+
+    text = re.sub(r"\n", " ", text)
+
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
+
+
+def analisis_sentimen(teks):
+
+    if teks is None:
+        return "netral"
+
+    teks = str(teks).strip()
+
+    if teks == "":
+        return "netral"
+
+    try:
+
+        hasil = classifier(teks)[0]
+
+        label = hasil["label"].lower()
+
+        if label in ["positive","positif"]:
+            return "positif"
+
+        if label in ["negative","negatif"]:
+            return "negatif"
+
+        return "netral"
+
+    except:
+
+        return "netral"
+    
+TOPIK = {
+
+    "infrastruktur":[
+        "jalan",
+        "jembatan",
+        "lampu",
+        "trotoar"
+    ],
+
+    "pendidikan":[
+        "sekolah",
+        "guru",
+        "siswa"
+    ],
+
+    "kesehatan":[
+        "rumah sakit",
+        "puskesmas",
+        "dokter"
+    ],
+
+    "ekonomi":[
+        "umkm",
+        "pasar",
+        "usaha"
+    ]
+
+}
+
+def klasifikasi_topik(teks):
+
+    teks = teks.lower()
+
+    for topik, kata in TOPIK.items():
+
+        for k in kata:
+
+            if k in teks:
+
+                return topik
+
+    return "lainnya"
 # ======================================================
 
 def main():

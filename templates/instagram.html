@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 style="margin-bottom:5px;">📷 Dashboard Instagram</h2>
+
+<p class="update-info">
+Total Postingan : {{ total }}
+</p>
+
+<!-- Statistik -->
+<div class="stat-grid" style="margin-top:20px;">
+
+    <div class="stat total">
+        <div class="angka">{{ total }}</div>
+        <div class="label">Total Post</div>
+    </div>
+
+    <div class="stat positif">
+        <div class="angka">{{ total_like }}</div>
+        <div class="label">Total Like</div>
+    </div>
+
+    <div class="stat negatif">
+        <div class="angka">{{ total_comment }}</div>
+        <div class="label">Total Komentar</div>
+    </div>
+
+    <div class="stat netral">
+        <div class="angka">{{ rata_like }}</div>
+        <div class="label">Rata-rata Like</div>
+    </div>
+
+</div>
+
+<br>
+
+<!-- Tabel -->
+
+<div class="card">
+
+<h2>Postingan Instagram</h2>
+
+<table>
+
+<thead>
+
+<tr>
+    <th>Tanggal</th>
+    <th>Akun</th>
+    <th>Caption</th>
+    <th>Like</th>
+    <th>Komentar</th>
+    <th>Link</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+{% for p in data %}
+
+<tr>
+
+<td>{{ p.tanggal }}</td>
+
+<td>
+{{ p.author }}
+</td>
+
+<td style="max-width:450px;">
+
+{% if p.caption %}
+
+{{ p.caption[:120] }}
+
+{% if p.caption|length > 120 %}
+
+...
+
+{% endif %}
+
+{% endif %}
+
+</td>
+
+<td>{{ p.likes }}</td>
+
+<td>{{ p.comments }}</td>
+
+<td>
+
+<a href="{{ p.url }}" target="_blank">
+
+Lihat
+
+</a>
+
+</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+</div>
+
+{% endblock %}

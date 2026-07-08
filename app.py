@@ -162,21 +162,28 @@ def instagram():
         return render_template(
             "instagram.html",
             data=[],
-            total=0
+            total=0,
+            total_like=0,
+            total_comment=0,
+            rata_like=0
         )
 
+    total_like = int(df["likes"].sum())
+    total_comment = int(df["comments"].sum())
+    rata_like = round(df["likes"].mean(), 1)
+
     data = (
-        df.sort_values(
-            "tanggal",
-            ascending=False
-        )
+        df.sort_values("tanggal", ascending=False)
         .to_dict("records")
     )
 
     return render_template(
         "instagram.html",
         data=data,
-        total=len(df)
+        total=len(df),
+        total_like=total_like,
+        total_comment=total_comment,
+        rata_like=rata_like
     )
 
 @app.route("/topik")

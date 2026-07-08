@@ -19,29 +19,50 @@ load_dotenv()
 # KONFIGURASI
 # ======================================================
 
-OUTPUT_JSON = "output/gresik_instagram.json"
-OUTPUT_CSV = "output/gresik_instagram.csv"
+# ======================================================
+# KONFIGURASI
+# ======================================================
+
+OUTPUT_FOLDER = "output"
+
+OUTPUT_JSON = os.path.join(
+    OUTPUT_FOLDER,
+    "gresik_instagram.json"
+)
+
+OUTPUT_CSV = os.path.join(
+    OUTPUT_FOLDER,
+    "gresik_instagram.csv"
+)
 
 STATE_FILE = "browser/state.json"
 
-JUMLAH_HARI = int(os.getenv("JUMLAH_HARI", 7))
-
-TARGETS = [
-    "infogresik",
-
-    "petrokimia.gresik",
-]
-
 HEADLESS = False
 
-WAIT_PROFILE = 3000
-WAIT_POST = 2500
+WAIT_PROFILE = 4000
+
+WAIT_POST = 3000
+
+WAIT_COMMENT = 1500
 
 MAX_POST_PER_ACCOUNT = 20
 
-print("="*60)
-print("Memuat Model IndoBERT...")
-print("="*60)
+MAX_COMMENT_CLICK = 50
+
+JUMLAH_HARI = int(
+    os.getenv(
+        "JUMLAH_HARI",
+        7
+    )
+)
+
+TARGETS = [
+
+    "infogresik",
+
+    "petrokimia.gresik",
+
+]
 
 classifier = pipeline(
     "text-classification",
@@ -60,7 +81,20 @@ class InstagramScraper:
 
         self.data = []
 
-        self.batas_tanggal = datetime.now() - timedelta(days=7)
+        self.username = ""
+
+        self.page = None
+
+        self.context = None
+
+        self.browser = None
+
+        self.playwright = None
+
+        self.batas_tanggal = (
+            datetime.now()
+            - timedelta(days=JUMLAH_HARI)
+        )
 
     # --------------------------------------------------
 
@@ -69,51 +103,94 @@ class InstagramScraper:
         self.playwright = sync_playwright().start()
 
         self.browser = self.playwright.chromium.launch(
-            headless=HEADLESS
+
+            headless=HEADLESS,
+
+            slow_mo=300
+
         )
 
         self.context = self.browser.new_context(
+
             storage_state=STATE_FILE,
+
             viewport={
-                "width":1400,
-                "height":900
+
+                "width": 1400,
+
+                "height": 900
+
             }
+
         )
 
         self.page = self.context.new_page()
+
+        self.page.set_default_timeout(30000)
+
+        self.page.set_default_navigation_timeout(30000)
 
     # --------------------------------------------------
 
     def close_browser(self):
 
-        self.browser.close()
+        try:
 
-        self.playwright.stop()
+            if self.context:
+
+                self.context.close()
+
+        except:
+
+            pass
+
+        try:
+
+            if self.browser:
+
+                self.browser.close()
+
+        except:
+
+            pass
+
+        try:
+
+            if self.playwright:
+
+                self.playwright.stop()
+
+        except:
+
+            pass
 
     # --------------------------------------------------
 
     def buka_profil(self, username):
+
+        self.username = username
+
         print("="*60)
         print(f"Membuka akun : {username}")
         print("="*60)
 
-        self.username = username
-
         try:
 
             self.page.goto(
+
                 f"https://www.instagram.com/{username}/",
-                wait_until="networkidle",
-                timeout=30000
+
+                wait_until="domcontentloaded"
+
             )
 
             self.page.wait_for_timeout(WAIT_PROFILE)
 
             return True
 
-        except TimeoutError:
+        except Exception as e:
 
-            print("Timeout membuka profil")
+            print(e)
 
             return False
         
@@ -122,47 +199,63 @@ class InstagramScraper:
 
     def ambil_link_postingan(self):
 
-        hasil = []
-
-        posting = self.page.locator("a[href*='/p/']")
-
-        total = posting.count()
-
-        print(f"Posting ditemukan : {total}")
+        posting = []
 
         sudah = set()
 
+        self.page.mouse.wheel(0,5000)
+
+        self.page.wait_for_timeout(1500)
+
+        cards = self.page.locator("a[href*='/p/']")
+
+        total = cards.count()
+
+        print()
+
+        print(f"Posting ditemukan : {total}")
+
+        print()
+
         for i in range(total):
 
-            href = posting.nth(i).get_attribute("href")
+            try:
 
-            if not href:
-                continue
+                href = cards.nth(i).get_attribute("href")
 
-            m = re.search(r"/p/([^/]+)/", href)
+                if href is None:
 
-            if not m:
-                continue
+                    continue
 
-            shortcode = m.group(1)
+                if "/p/" not in href:
 
-            if shortcode in sudah:
-                continue
+                    continue
 
-            sudah.add(shortcode)
+                shortcode = href.split("/p/")[1].split("/")[0]
 
-            hasil.append({
+                if shortcode in sudah:
 
-                "shortcode": shortcode,
+                    continue
 
-                "url": f"https://www.instagram.com/p/{shortcode}/"
+                sudah.add(shortcode)
 
-            })
+                posting.append({
 
-            if len(hasil) >= MAX_POST_PER_ACCOUNT:
-                break
+                    "id": shortcode,
 
-        return hasil
+                    "url": f"https://www.instagram.com/p/{shortcode}/"
+
+                })
+
+                if len(posting) >= MAX_POST_PER_ACCOUNT:
+
+                    break
+
+            except:
+
+                pass
+
+        return posting
 
         # --------------------------------------------------
 
@@ -224,6 +317,21 @@ class InstagramScraper:
                         ascending=False
                     )
 
+            df = df.sort_values(
+                    "tanggal",
+                    ascending=False)
+            if "komentar" not in df.columns:
+                df["komentar"] = ""
+
+            if "caption" not in df.columns:
+                df["caption"] = ""
+
+            if "likes" not in df.columns:
+                df["likes"] = 0
+
+            if "comments" not in df.columns:
+                df["comments"] = 0
+
             df.to_csv(
 
                 OUTPUT_CSV,
@@ -248,117 +356,212 @@ class InstagramScraper:
     def ambil_detail_postingan(self, post):
 
         try:
+
             self.page.goto(
 
                 post["url"],
 
-                wait_until="networkidle",
-
-                timeout=30000
+                wait_until="domcontentloaded"
 
             )
 
             self.page.wait_for_timeout(WAIT_POST)
 
-            caption = ""
-            caption_bersih = ""
+        except Exception:
 
-            tanggal = ""
+            return None
 
-            likes = 0
+        caption = ""
 
-            comments = 0
-            
+        tanggal = ""
+
+        likes = 0
+
+        komentar = self.ambil_semua_komentar()
+
+        comments = len(komentar)
+
+        try:
+
+            waktu = self.page.locator("time")
+
+            tanggal = waktu.first.get_attribute("datetime")
+
+        except:
+
+            pass
+
+        selectors = [
+
+                        "article h1",
+
+                        "article div[dir='auto'] span",
+
+                        "article span[dir='auto']",
+
+                        "div[role='dialog'] h1",
+
+                        "div[role='dialog'] span",
+
+                        "meta[property='og:description']"
+
+                    ]
+
+        for s in selectors:
 
             try:
 
-                caption = self.page.locator("article h1").inner_text()
-                caption_bersih = clean_text(caption)
+                teks = self.page.locator(s).first.inner_text().strip()
+
+                if len(teks) > 20:
+
+                    caption = teks
+
+                    break
 
             except:
 
                 pass
 
+        try:
+
+            body = self.page.locator("body").inner_text()
+
+            m = re.search(r'([\d.,]+)\s+likes', body)
+
+            if m:
+
+                likes = int(
+
+                    m.group(1)
+
+                    .replace(".","")
+
+                    .replace(",","")
+
+                )
+
+        except:
+
+            pass
+
+        teks = clean_text(
+            caption + " " + " ".join(komentar)
+        )
+
+        sentimen = analisis_sentimen(teks)
+
+        topik = klasifikasi_topik(teks)
+
+        return {
+
+            "source": "instagram",
+
+            "id": post["id"],
+
+            "username": self.username,
+
+            "author": self.username,
+
+            "caption": caption,
+
+            "komentar": " || ".join(komentar),
+
+            "teks_asli": caption + " " + " ".join(komentar),
+
+            "teks_bersih": teks,
+
+            "likes": likes,
+
+            "comments": comments,
+
+            "tanggal": tanggal,
+
+            "sentimen": sentimen,
+
+            "topik": topik,
+
+            "url": post["url"]
+
+        }
+    
+    def ambil_semua_komentar(self):
+
+        komentar = []
+
+        sudah = set()
+
+        # klik tombol komentar berkali-kali
+        for _ in range(MAX_COMMENT_CLICK):
+
             try:
 
-                tanggal = self.page.locator("time").get_attribute("datetime")
+                tombol = self.page.locator(
+                    "text=View all comments"
+                )
+
+                if tombol.count() > 0:
+
+                    tombol.first.click()
+
+                    self.page.wait_for_timeout(WAIT_COMMENT)
+
+            except:
+                pass
+
+            try:
+
+                tombol = self.page.locator(
+                    "text=Load more comments"
+                )
+
+                if tombol.count() > 0:
+
+                    tombol.last.click()
+
+                    self.page.wait_for_timeout(WAIT_COMMENT)
+
+            except:
+                pass
+
+            try:
+
+                self.page.mouse.wheel(0,2500)
+
+                self.page.wait_for_timeout(800)
+
+            except:
+                pass
+
+        # ambil semua komentar
+
+        kandidat = self.page.locator("ul ul span")
+
+        total = kandidat.count()
+
+        print("Komentar ditemukan :", total)
+
+        for i in range(total):
+
+            try:
+
+                teks = kandidat.nth(i).inner_text().strip()
+
+                if len(teks) < 2:
+                    continue
+
+                if teks in sudah:
+                    continue
+
+                sudah.add(teks)
+
+                komentar.append(teks)
 
             except:
 
                 pass
 
-            try:
-
-                text = self.page.locator("section").inner_text()
-
-                m = re.search(r"([\d,.]+)\s+likes?", text)
-
-                if m:
-
-                    likes = int(
-
-                        m.group(1)
-
-                        .replace(".","")
-
-                        .replace(",","")
-
-                    )
-
-            except:
-
-                pass
-                
-            try:
-
-                komentar = self.page.locator("ul")
-
-                comments = komentar.count()
-
-            except:
-
-                pass
-
-            return {
-
-                "source": "instagram",
-
-                "id": post["shortcode"],
-
-                "username": self.username,
-
-                "author": self.username,
-
-                "caption": caption or "",
-
-                "teks_asli": caption,
-
-                "teks_bersih": caption_bersih,
-
-                "likes": likes,
-
-                "comments": comments,
-
-                "tanggal": tanggal,
-
-                "sentimen": analisis_sentimen(caption_bersih),
-
-                "topik": klasifikasi_topik(caption_bersih),
-
-                "url": post["url"]
-
-            }
-
-
-        except TimeoutError:
-
-                print("Timeout")
-
-                return None
-        except Exception as e:
-
-                print(e)
-                return None
+        return komentar
 
 def clean_text(text):
 

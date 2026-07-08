@@ -43,6 +43,7 @@ def load_instagram():
 
     try:
         df = pd.read_csv(INSTAGRAM_PATH)
+        df = df.fillna("")
 
         if "tanggal" in df.columns:
             df["tanggal"] = pd.to_datetime(
@@ -129,28 +130,57 @@ def index():
     )
 
 
-@app.route("/tweets")
-def tweets():
+@app.route("/twitter")
+def twitter():
 
     df = load_data()
 
     if df.empty:
         return render_template(
-            "tweets.html",
+            "twitter.html",
             data=[],
             total=0
         )
 
+    total = len(df)
+
+    sentimen = df["sentimen"].value_counts().to_dict()
+
+    topik = (
+        df["topik"]
+        .value_counts()
+        .head(10)
+        .to_dict()
+    )
+
+    tweet_viral = (
+        df.nlargest(5, "likes")[
+            [
+                "username",
+                "teks_asli",
+                "sentimen",
+                "likes",
+                "tanggal"
+            ]
+        ]
+        .to_dict("records")
+    )
+
     data = (
-        df.sort_values("tanggal", ascending=False)
-        .head(200)
+        df.sort_values(
+            "tanggal",
+            ascending=False
+        )
         .to_dict("records")
     )
 
     return render_template(
-        "tweets.html",
-        data=data,
-        total=len(df)
+        "twitter.html",
+        total=total,
+        sentimen=sentimen,
+        topik=topik,
+        tweet_viral=tweet_viral,
+        data=data
     )
 
 @app.route("/instagram")
@@ -165,49 +195,44 @@ def instagram():
             total=0,
             total_like=0,
             total_comment=0,
-            rata_like=0
+            rata_like=0,
+            topik={}
         )
+
+    total = len(df)
 
     total_like = int(df["likes"].sum())
     total_comment = int(df["comments"].sum())
-    rata_like = round(df["likes"].mean(), 1)
+    rata_like = round(df["likes"].mean(),1)
+
+    # nanti kalau sudah ada hasil topik instagram
+    if "topik" in df.columns:
+        topik = (
+            df["topik"]
+            .value_counts()
+            .head(10)
+            .to_dict()
+        )
+    else:
+        topik = {}
 
     data = (
-        df.sort_values("tanggal", ascending=False)
+        df.sort_values(
+            "tanggal",
+            ascending=False
+        )
         .to_dict("records")
     )
 
     return render_template(
         "instagram.html",
-        data=data,
-        total=len(df),
+        total=total,
         total_like=total_like,
         total_comment=total_comment,
-        rata_like=rata_like
+        rata_like=rata_like,
+        topik=topik,
+        data=data
     )
-
-@app.route("/topik")
-def topik():
-
-    df = load_data()
-
-    if df.empty:
-        return render_template(
-            "topik.html",
-            data=[]
-        )
-
-    per_topik = (
-        df.groupby(["topik", "sentimen"])
-        .size()
-        .reset_index(name="jumlah")
-    )
-
-    return render_template(
-        "topik.html",
-        data=per_topik.to_dict("records")
-    )
-
 
 @app.route("/api/data")
 def api_data():

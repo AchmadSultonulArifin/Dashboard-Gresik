@@ -105,22 +105,21 @@ def index():
         total_comment = 0
         rata_like = 0
         post_terbaru = []
-
     update_terakhir = df["tanggal"].max().strftime("%d %B %Y")
 
     per_hari = (
-        df.groupby(["tanggal", "sentimen"])
-        .size()
-        .reset_index(name="jumlah")
-    )
+            df.groupby(["tanggal", "sentimen"])
+            .size()
+            .reset_index(name="jumlah")
+        )
 
     per_hari["tanggal"] = (
-        pd.to_datetime(per_hari["tanggal"])
-        .dt.strftime("%Y-%m-%d")
-    )
+            pd.to_datetime(per_hari["tanggal"])
+            .dt.strftime("%Y-%m-%d")
+        )
 
     chart_data = per_hari.to_dict("records")
-
+    
     return render_template(
         "index.html",
         total=total,
@@ -182,12 +181,37 @@ def twitter():
         .to_dict("records")
     )
 
+    tweet_viral = (
+                    df.nlargest(5, "likes")[
+                        [
+                            "username",
+                            "teks_asli",
+                            "sentimen",
+                            "likes",
+                            "tanggal"
+                        ]
+                    ]
+                    .to_dict("records")
+                )
+    per_hari = (
+                    df.groupby(["tanggal", "sentimen"])
+                    .size()
+                    .reset_index(name="jumlah")
+                )
+
+    per_hari["tanggal"] = (
+                                pd.to_datetime(per_hari["tanggal"])
+                                .dt.strftime("%Y-%m-%d")
+                            )
+    chart_data = per_hari.to_dict("records")
+
     return render_template(
         "tweets.html",
         total=total,
         sentimen=sentimen,
         topik=topik,
         tweet_viral=tweet_viral,
+        chart_data=chart_data,
         data=data
     )
 

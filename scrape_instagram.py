@@ -19,10 +19,6 @@ load_dotenv()
 # KONFIGURASI
 # ======================================================
 
-# ======================================================
-# KONFIGURASI
-# ======================================================
-
 OUTPUT_FOLDER = "output"
 
 OUTPUT_JSON = os.path.join(
@@ -69,6 +65,70 @@ classifier = pipeline(
     model="w11wo/indonesian-roberta-base-sentiment-classifier",
     truncation=True
 )
+
+# ======================================================
+# FILTER TEKS YANG BUKAN KOMENTAR
+# ======================================================
+
+TEKS_DIABAIKAN = {
+    "view all comments",
+    "load more comments",
+    "reply",
+    "replies",
+    "balas",
+    "lihat semua komentar",
+    "like",
+    "likes",
+    "likes.",
+    "follow",
+    "following",
+    "followers",
+    "share",
+    "save",
+    "more",
+    "hide",
+    "report",
+    "translate",
+    "see translation",
+    "terjemahan",
+    "send",
+    "kirim",
+    "add a comment",
+    "tambahkan komentar",
+}
+
+def is_valid_comment(teks: str) -> bool:
+    """
+    Mengembalikan True jika teks kemungkinan adalah komentar asli.
+    """
+    t = teks.strip()
+
+    # Terlalu pendek
+    if len(t) < 3:
+        return False
+
+    # Hanya angka (jumlah like, dll)
+    if re.fullmatch(r"[\d.,\s]+", t):
+        return False
+
+    # Hanya emoji
+    if re.fullmatch(r"[\U00010000-\U0010ffff\s]+", t):
+        return False
+
+    # Masuk daftar teks UI yang diabaikan
+    if t.lower() in TEKS_DIABAIKAN:
+        return False
+
+    # Pola waktu seperti "2 jam", "3 hari", "1 minggu", "Just now", "2h", "5d"
+    if re.fullmatch(
+        r"(\d+\s*(jam|hari|minggu|bulan|detik|w|h|d|m)\s*(ago)?|\d+[whdm]|just now|baru saja)",
+        t,
+        re.IGNORECASE
+    ):
+        return False
+
+    return True
+
 
 # ======================================================
 # CLASS
@@ -193,7 +253,6 @@ class InstagramScraper:
             print(e)
 
             return False
-        
 
     # --------------------------------------------------
 
@@ -203,7 +262,7 @@ class InstagramScraper:
 
         sudah = set()
 
-        self.page.mouse.wheel(0,5000)
+        self.page.mouse.wheel(0, 5000)
 
         self.page.wait_for_timeout(1500)
 
@@ -257,7 +316,7 @@ class InstagramScraper:
 
         return posting
 
-        # --------------------------------------------------
+    # --------------------------------------------------
 
     def scrape_profile(self, username):
 
@@ -288,18 +347,19 @@ class InstagramScraper:
                 )
 
                 time.sleep(2)
-        # --------------------------------------------------
+
+    # --------------------------------------------------
 
     def save(self):
 
         os.makedirs("output", exist_ok=True)
-        
+
         with open(
             OUTPUT_JSON,
             "w",
             encoding="utf-8"
         ) as f:
-            
+
             json.dump(
                 self.data,
                 f,
@@ -313,13 +373,10 @@ class InstagramScraper:
 
             df = df.drop_duplicates(subset=["id"])
             df = df.sort_values(
-                        "tanggal",
-                        ascending=False
-                    )
+                "tanggal",
+                ascending=False
+            )
 
-            df = df.sort_values(
-                    "tanggal",
-                    ascending=False)
             if "komentar" not in df.columns:
                 df["komentar"] = ""
 
@@ -351,8 +408,8 @@ class InstagramScraper:
                 "likes"
             ]].head())
 
+    # ======================================================
 
-# ======================================================
     def ambil_detail_postingan(self, post):
 
         try:
@@ -366,6 +423,7 @@ class InstagramScraper:
             )
 
             self.page.wait_for_timeout(WAIT_POST)
+
             html = self.page.content()
 
             with open("debug_instagram.html", "w", encoding="utf-8") as f:
@@ -382,6 +440,7 @@ class InstagramScraper:
 
         likes = 0
 
+        # ---- Ambil komentar (DIPERBAIKI) ----
         komentar = self.ambil_semua_komentar()
 
         comments = len(komentar)
@@ -398,19 +457,19 @@ class InstagramScraper:
 
         selectors = [
 
-                        "article h1",
+            "article h1",
 
-                        "article span",
+            "article span",
 
-                        "article div span",
+            "article div span",
 
-                        "div[role='dialog'] span",
+            "div[role='dialog'] span",
 
-                        "div[dir='auto'] span",
+            "div[dir='auto'] span",
 
-                        "span"
+            "span"
 
-                    ]
+        ]
 
         for s in selectors:
 
@@ -428,6 +487,11 @@ class InstagramScraper:
 
                 pass
 
+        print("=" * 50)
+        print("Caption ditemukan:")
+        print(caption)
+        print("=" * 50)
+
         try:
 
             body = self.page.locator("body").inner_text()
@@ -440,9 +504,9 @@ class InstagramScraper:
 
                     m.group(1)
 
-                    .replace(".","")
+                    .replace(".", "")
 
-                    .replace(",","")
+                    .replace(",", "")
 
                 )
 
@@ -489,117 +553,134 @@ class InstagramScraper:
             "url": post["url"]
 
         }
-    
-    def ambil_semua_komentar(self):
 
-        komentar = []
+    # --------------------------------------------------
+    # FUNGSI AMBIL KOMENTAR — DIPERBAIKI TOTAL
+    # --------------------------------------------------
 
-        sudah = set()
+    def ambil_semua_komentar(self) -> list[str]:
+        """
+        Mengambil semua komentar dari halaman postingan Instagram.
 
-        # klik tombol komentar berkali-kali
-        for _ in range(MAX_COMMENT_CLICK):
+        Perbaikan utama vs kode lama:
+        1. Loop load-more dan pengumpulan komentar dipisah.
+        2. Selector lebih spesifik (ul[class*='comment'] dan
+           div[role='dialog'] ul).
+        3. Filter is_valid_comment() menyaring elemen UI.
+        4. Scroll di dalam section komentar, bukan di seluruh halaman.
+        """
 
+        komentar_set: set[str] = set()
+        komentar_list: list[str] = []
+
+        # ── TAHAP 1 : Muat semua komentar ─────────────────────────
+        for klik in range(MAX_COMMENT_CLICK):
+
+            halaman_berubah = False
+
+            # Tombol "View all comments"
             try:
-
-                tombol = self.page.locator(
-                    "text=View all comments"
+                tombol_view = self.page.locator(
+                    "button:has-text('View all comments'), "
+                    "span:has-text('View all comments')"
                 )
-
-                if tombol.count() > 0:
-
-                    tombol.first.click()
-
+                if tombol_view.count() > 0:
+                    tombol_view.first.click()
                     self.page.wait_for_timeout(WAIT_COMMENT)
-
-            except:
+                    halaman_berubah = True
+            except Exception:
                 pass
 
+            # Tombol "Load more comments"
             try:
-
-                tombol = self.page.locator(
-                    "text=Load more comments"
+                tombol_more = self.page.locator(
+                    "button:has-text('Load more comments'), "
+                    "span:has-text('Load more comments')"
                 )
-
-                if tombol.count() > 0:
-
-                    tombol.last.click()
-
+                if tombol_more.count() > 0:
+                    tombol_more.last.click()
                     self.page.wait_for_timeout(WAIT_COMMENT)
-
-            except:
+                    halaman_berubah = True
+            except Exception:
                 pass
 
+            # Scroll di area komentar — lebih akurat daripada scroll halaman
             try:
-
-                self.page.mouse.wheel(0,2500)
-
-                self.page.wait_for_timeout(800)
-
-            except:
+                # Coba scroll di dalam container komentar dulu
+                container = self.page.locator(
+                    "div[role='dialog'], "
+                    "article"
+                )
+                if container.count() > 0:
+                    box = container.first.bounding_box()
+                    if box:
+                        cx = box["x"] + box["width"] / 2
+                        cy = box["y"] + box["height"] / 2
+                        self.page.mouse.move(cx, cy)
+                        self.page.mouse.wheel(0, 3000)
+                        self.page.wait_for_timeout(800)
+                        halaman_berubah = True
+            except Exception:
                 pass
 
-        # ambil semua komentar
+            # Jika tidak ada perubahan pada iterasi ini, hentikan lebih awal
+            if not halaman_berubah and klik > 2:
+                break
 
-            selectors = [
+        # ── TAHAP 2 : Kumpulkan teks komentar ─────────────────────
+        #
+        # Urutan selector dari yang paling spesifik ke yang paling umum.
+        # Kita ambil yang pertama kali menghasilkan elemen > 0.
+        SELECTORS_KOMENTAR = [
+            # Komentar di dalam dialog (postingan yang dibuka via feed)
+            "div[role='dialog'] ul li span[dir='auto']",
+            # Komentar di halaman postingan langsung
+            "article ul li span[dir='auto']",
+            # Fallback: semua span dir=auto di halaman
+            "span[dir='auto']",
+        ]
 
-                        "ul ul span",
+        kandidat = None
+        for s in SELECTORS_KOMENTAR:
+            try:
+                lok = self.page.locator(s)
+                if lok.count() > 0:
+                    kandidat = lok
+                    print(f"Selector komentar dipakai: {s} ({lok.count()} elemen)")
+                    break
+            except Exception:
+                pass
 
-                        "ul span",
-
-                        "article ul span",
-
-                        "div[role='dialog'] ul span",
-
-                        "article span"
-
-                    ]
-
-            kandidat = None
-
-            for s in selectors:
-
-                        try:
-
-                            kandidat = self.page.locator(s)
-
-                            if kandidat.count() > 0:
-                                break
-
-                        except:
-                            pass
-
-            if kandidat is None:
-                        return []
-
-            total = kandidat.count()
-
-            print("Komentar ditemukan :", total)
+        if kandidat is None:
+            print("⚠ Tidak ada elemen komentar ditemukan.")
+            return []
 
         total = kandidat.count()
-
-        print("Komentar ditemukan :", total)
+        print(f"Total elemen komentar sebelum filter: {total}")
 
         for i in range(total):
-
             try:
-
                 teks = kandidat.nth(i).inner_text().strip()
 
-                if len(teks) < 2:
+                if not is_valid_comment(teks):
                     continue
 
-                if teks in sudah:
+                if teks in komentar_set:
                     continue
 
-                sudah.add(teks)
+                komentar_set.add(teks)
+                komentar_list.append(teks)
 
-                komentar.append(teks)
-
-            except:
-
+            except Exception:
                 pass
 
-        return komentar
+        print(f"✔ Komentar valid terkumpul: {len(komentar_list)}")
+        return komentar_list
+
+
+# ======================================================
+# UTILITAS
+# ======================================================
 
 def clean_text(text):
 
@@ -638,10 +719,10 @@ def analisis_sentimen(teks):
 
         label = hasil["label"].lower()
 
-        if label in ["positive","positif"]:
+        if label in ["positive", "positif"]:
             return "positif"
 
-        if label in ["negative","negatif"]:
+        if label in ["negative", "negatif"]:
             return "negatif"
 
         return "netral"
@@ -649,35 +730,37 @@ def analisis_sentimen(teks):
     except:
 
         return "netral"
-    
+
+
 TOPIK = {
 
-    "infrastruktur":[
+    "infrastruktur": [
         "jalan",
         "jembatan",
         "lampu",
         "trotoar"
     ],
 
-    "pendidikan":[
+    "pendidikan": [
         "sekolah",
         "guru",
         "siswa"
     ],
 
-    "kesehatan":[
+    "kesehatan": [
         "rumah sakit",
         "puskesmas",
         "dokter"
     ],
 
-    "ekonomi":[
+    "ekonomi": [
         "umkm",
         "pasar",
         "usaha"
     ]
 
 }
+
 
 def klasifikasi_topik(teks):
 
@@ -692,6 +775,8 @@ def klasifikasi_topik(teks):
                 return topik
 
     return "lainnya"
+
+
 # ======================================================
 
 def main():
@@ -712,5 +797,5 @@ def main():
 # ======================================================
 
 if __name__ == "__main__":
-    
+
     main()

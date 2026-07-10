@@ -8,7 +8,7 @@ app = Flask(__name__)
 CSV_PATH = "output/gresik_sentimen.csv"
 
 # Instagram
-INSTAGRAM_PATH = "output/keyword_ig_sentimen.csv"
+INSTAGRAM_PATH = "output/gresik_ig_sentimen.csv"
 
 
 def load_data():

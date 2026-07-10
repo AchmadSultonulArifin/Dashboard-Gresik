@@ -52,31 +52,7 @@ IG_COOKIES = {
 KEYWORDS = [
     "Gresik",
     "Kabupaten Gresik",
-    "Pemkab Gresik",
-
-    "Bupati Gresik",
-    "DPRD Gresik",
-    "Diskominfo Gresik",
-
-    "jalan Gresik",
-    "banjir Gresik",
-    "macet Gresik",
-
-    "RSUD Ibnu Sina Gresik",
-    "Puskesmas Gresik",
-
-    "Petrokimia Gresik",
-    "Freeport Gresik",
-    "JIIPE",
-
-    "Wisata Gresik",
-    "Pantai Delegan",
-    "Makam Sunan Giri",
-
-    "Persegres",
-
-    "SIM Gresik",
-    "Samsat Gresik"
+    "Pemkab Gresik"
 ]
 
 MAKS_POST_PER_KEYWORD   = 30    # berapa postingan yang diambil per keyword

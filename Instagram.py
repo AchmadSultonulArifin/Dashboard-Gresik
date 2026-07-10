@@ -50,9 +50,7 @@ IG_COOKIES = {
 }
 # ── Keyword yang ingin dicari ──────────────────────────────────
 KEYWORDS = [
-    "Gresik",
-    "Kabupaten Gresik",
-    "Pemkab Gresik"
+    "Gresik"
 ]
 
 MAKS_POST_PER_KEYWORD   = 30    # berapa postingan yang diambil per keyword
@@ -375,6 +373,13 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
 
     # Ambil caption
     caption = ""
+    username = "-"
+    likes = 0
+    jumlah_komentar = 0
+    tanggal = "-"
+
+    # Ambil caption
+    caption = ""
     try:
         cap_el = driver.find_element(
             By.CSS_SELECTOR,
@@ -384,6 +389,37 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
     except Exception:
         caption = shortcode
 
+    # Ambil username
+    try:
+        username = driver.find_element(
+            By.CSS_SELECTOR,
+            "header a[href^='/']"
+        ).text.strip()
+    except Exception:
+        username = "-"
+
+    # Ambil jumlah like
+    try:
+        like_text = driver.find_element(
+            By.XPATH,
+            "//section//span[contains(text(),'like') or contains(text(),'suka')]"
+        ).text
+
+        angka = re.sub(r"[^\d]", "", like_text)
+        likes = int(angka) if angka else 0
+
+    except Exception:
+        likes = 0
+
+    # Ambil tanggal
+    try:
+        tanggal = driver.find_element(
+            By.TAG_NAME,
+            "time"
+        ).get_attribute("datetime")
+    except Exception:
+        tanggal = "-"
+        
     # Klik "Lihat semua komentar"
     try:
         btn = WebDriverWait(driver, 8).until(
@@ -465,8 +501,17 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
         else:
             tidak_bertambah = 0
 
-    print(f"    ✓ {len(komentar)} komentar dari postingan ini")
-    return komentar[:maks]
+    jumlah_komentar = len(komentar)
+
+    return {
+        "username": username,
+        "caption": caption,
+        "likes": likes,
+        "comments": jumlah_komentar,
+        "tanggal": tanggal,
+        "link": url,
+        "komentar": komentar[:maks]
+    }
 
 
 # ══════════════════════════════════════════════════════════════
@@ -483,8 +528,13 @@ def main():
         print("\nF12 → Application → Cookies → https://www.instagram.com")
         return
 
-    driver     = buat_driver()
+    driver = buat_driver()
+
+    # Menyimpan seluruh komentar
     semua_data = []
+
+    # Menyimpan metadata postingan
+    semua_postingan = []
 
     try:
         if not login_instagram(driver):
@@ -508,9 +558,24 @@ def main():
                     print("  Browser tidak aktif, melewati.")
                     continue
 
-                komentar_list = ambil_komentar_post(driver, sc, MAKS_KOMENTAR_PER_POST)
+                post = ambil_komentar_post(
+                    driver,
+                    sc,
+                    MAKS_KOMENTAR_PER_POST
+                )
 
-                for k in komentar_list:
+                semua_postingan.append({
+                    "keyword": keyword,
+                    "shortcode": sc,
+                    "link_postingan": post["link"],
+                    "username": post["username"],
+                    "caption": post["caption"],
+                    "tanggal": post["tanggal"],
+                    "likes": post["likes"],
+                    "comments": post["comments"]
+                })
+
+                for k in post["komentar"]:
                     teks_asli   = k["text"]
                     teks_bersih = bersihkan_teks(teks_asli)
                     label, skor = cek_sentimen(teks_bersih)
@@ -549,9 +614,17 @@ def main():
 
     # ── Simpan ────────────────────────────────────────────────
     df = pd.DataFrame(semua_data)
+    df_post = pd.DataFrame(semua_postingan)
+
+    df_post.to_csv(
+        "output/gresik_ig_postingan.csv",
+        index=False,
+        encoding="utf-8-sig"
+    )
 
     df = df[
         [
+            "keyword",
             "shortcode",
             "link_postingan",
             "teks_asli",
@@ -573,6 +646,7 @@ def main():
 
     for row in semua_data:
         hasil_json.append({
+            "keyword": row["keyword"],
             "shortcode": row["shortcode"],
             "link_postingan": row["link_postingan"],
             "teks_asli": row["teks_asli"],
@@ -582,8 +656,13 @@ def main():
             "topik": row["topik"]
         })
 
-    with open("output/keyword_ig_komentar.json", "w", encoding="utf-8") as f:
-        json.dump(semua_data, f, ensure_ascii=False, indent=2)
+    with open("output/gresik_ig_komentar.json", "w", encoding="utf-8") as f:
+        json.dump(
+            hasil_json,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
     # ── Ringkasan ─────────────────────────────────────────────
     total = len(df)
@@ -606,9 +685,11 @@ def main():
         print(f"  '{kw}' → {len(grp)} komentar dari {grp['shortcode'].nunique()} postingan")
 
     print(f"\n  File disimpan:")
-    print(f"  output/keyword_ig_sentimen.csv")
-    print(f"  output/keyword_ig_komentar.json")
+    print(f"  output/gresik_ig_sentimen.csv")
+    print(f"  output/gresik_ig_postingan.csv")
+    print(f"  output/gresik_ig_komentar.json")
 
 
 if __name__ == "__main__":
+
     main()

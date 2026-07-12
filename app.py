@@ -251,11 +251,32 @@ def twitter():
 
 @app.route("/instagram")
 def instagram():
+
     df_post = load_instagram()
     df_sentimen = load_instagram_sentimen()
 
+    # Ambil rata-rata skor sentimen tiap postingan
+    skor_post = (
+        df_sentimen
+        .groupby("shortcode")
+        .agg(
+            skor=("skor", "mean"),
+            sentimen=("sentimen", lambda x: x.value_counts().idxmax())
+        )
+        .reset_index()
+    )
 
-    if df_sentimen.empty:
+    # Gabungkan dengan data postingan
+    df_post = df_post.merge(
+        skor_post,
+        on="shortcode",
+        how="left"
+    )
+
+    df_post["skor"] = df_post["skor"].fillna(0).round(3)
+    df_post["sentimen"] = df_post["sentimen"].fillna("netral")
+
+    if df_post.empty:
         return render_template(
             "instagram.html",
             data=[],
@@ -263,38 +284,64 @@ def instagram():
             total_like=0,
             total_comment=0,
             rata_like=0,
-            topik={},
             sentimen={},
-            keywords=[]
+            topik={},
+            keyword={}
         )
 
-    total         = len(df_post)
+    total = len(df_post)
     total_like = int(df_post["likes"].sum())
     total_comment = int(df_post["comments"].sum())
-    rata_like = round(df_post["likes"].mean(),1)
+    rata_like = round(df_post["likes"].mean(), 1)
 
-    topik = df_sentimen["topik"].value_counts().head(10).to_dict() 
+    # ===========================
+    # PERIODE DATA
+    # ===========================
 
-    # Tambahan: sentimen & daftar keyword
-    sentimen = df_sentimen["sentimen"].value_counts().to_dict() 
-    keywords = df_sentimen["keyword"].unique().tolist() 
+    periode_awal = df_post["tanggal"].min()
+    periode_akhir = df_post["tanggal"].max()
 
-    data = df_post.sort_values(
-                "tanggal",
-                ascending=False
-            ).to_dict("records")
+    periode = (
+                f"{periode_awal.strftime('%d %B %Y')} - "
+                f"{periode_akhir.strftime('%d %B %Y')}"
+            )
+
+
+    lama_hari = (periode_akhir - periode_awal).days + 1
+
+    # grafik sentimen
+    sentimen = df_sentimen["sentimen"].value_counts().to_dict()
+
+    #Hitung rata skor
+    rata_skor = round(df_sentimen["skor"].mean(),3)
+
+    # grafik topik
+    topik = df_sentimen["topik"].value_counts().head(10).to_dict()
+
+    # grafik keyword
+    keyword = df_sentimen["keyword"].value_counts().to_dict()
+
+    data = (
+        df_post.sort_values("tanggal", ascending=False)
+        .to_dict("records")
+    )
 
     return render_template(
         "instagram.html",
+        data=data,
         total=total,
         total_like=total_like,
         total_comment=total_comment,
         rata_like=rata_like,
-        topik=topik,
         sentimen=sentimen,
-        keywords=keywords,
-        data=data
+        topik=topik,
+        keyword=keyword,
+        periode=periode,
+        lama_hari=lama_hari,
+        rata_skor=rata_skor
     )
+
+
 @app.route("/api/data")
 def api_data():
 

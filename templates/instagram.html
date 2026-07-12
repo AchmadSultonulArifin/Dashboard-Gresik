@@ -4,7 +4,17 @@
 <h2 style="margin-bottom:5px;">📷 Dashboard Instagram</h2>
 
 <p class="update-info">
-Total Postingan : {{ total }}
+Total Postingan : <b>{{ total }}</b>
+</p>
+
+<p class="update-info">
+Periode Data :
+<b>{{ periode }}</b>
+</p>
+
+<p class="update-info">
+Lama Pengambilan :
+<b>{{ lama_hari }} Hari</b>
 </p>
 
 <!-- Statistik -->
@@ -30,6 +40,18 @@ Total Postingan : {{ total }}
         <div class="label">Rata-rata Like</div>
     </div>
 
+    <div class="stat total">
+
+        <div class="angka">
+            {{ rata_skor }}
+        </div>
+
+        <div class="label">
+            Rata-rata Skor Sentimen
+        </div>
+
+    </div>
+
 </div>
 
 <br>
@@ -50,6 +72,8 @@ Total Postingan : {{ total }}
     <th>Caption</th>
     <th>Like</th>
     <th>Komentar</th>
+    <th>Sentimen</th>
+    <th>Skor</th>
     <th>Link</th>
 </tr>
 
@@ -90,9 +114,23 @@ Total Postingan : {{ total }}
 <td>{{ p.comments }}</td>
 
 <td>
+{% if p.sentimen == "positif" %}
+    <span style="color:green;font-weight:bold;">🟢 Positif</span>
+
+{% elif p.sentimen == "negatif" %}
+    <span style="color:red;font-weight:bold;">🔴 Negatif</span>
+
+{% else %}
+    <span style="color:orange;font-weight:bold;">🟡 Netral</span>
+
+{% endif %}
+</td>
+
+<td>{{ "%.3f"|format(p.skor) }}</td>
+
+<td>
     <a href="{{ p.link_postingan }}"
-    target="_blank"
-    rel="noopener noreferrer">
+       target="_blank">
         Lihat
     </a>
 </td>
@@ -106,5 +144,95 @@ Total Postingan : {{ total }}
 </table>
 
 </div>
+
+<br>
+
+<div class="card">
+
+    <h2>Visualisasi Sentimen Instagram</h2>
+
+    <div style="display:grid;
+                grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+                gap:25px;">
+
+        <div>
+            <h3>Distribusi Sentimen</h3>
+            <canvas id="pieSentimen"></canvas>
+        </div>
+
+        <div>
+            <h3>Topik Terbanyak</h3>
+            <canvas id="barTopik"></canvas>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div>
+        <h3>Keyword Pencarian</h3>
+        <canvas id="barKeyword"></canvas>
+    </div>
+
+</div>
+
+<script>
+
+const sentimen = {{ sentimen|tojson }};
+const topik = {{ topik|tojson }};
+const keyword = {{ keyword|tojson }};
+
+// Pie Sentimen
+new Chart(document.getElementById("pieSentimen"),{
+    type:"pie",
+    data:{
+        labels:Object.keys(sentimen),
+        datasets:[{
+            data:Object.values(sentimen)
+        }]
+    }
+});
+
+// Bar Topik
+new Chart(document.getElementById("barTopik"),{
+    type:"bar",
+    data:{
+        labels:Object.keys(topik),
+        datasets:[{
+            label:"Jumlah",
+            data:Object.values(topik)
+        }]
+    },
+    options:{
+        responsive:true,
+        plugins:{
+            legend:{
+                display:false
+            }
+        }
+    }
+});
+
+// Bar Keyword
+new Chart(document.getElementById("barKeyword"),{
+    type:"bar",
+    data:{
+        labels:Object.keys(keyword),
+        datasets:[{
+            label:"Komentar",
+            data:Object.values(keyword)
+        }]
+    },
+    options:{
+        responsive:true,
+        plugins:{
+            legend:{
+                display:false
+            }
+        }
+    }
+});
+
+</script>
 
 {% endblock %}

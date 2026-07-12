@@ -373,13 +373,6 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
 
     # Ambil caption
     caption = ""
-    username = "-"
-    likes = 0
-    jumlah_komentar = 0
-    tanggal = "-"
-
-    # Ambil caption
-    caption = ""
     try:
         cap_el = driver.find_element(
             By.CSS_SELECTOR,
@@ -392,23 +385,36 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
     # Ambil username
     try:
         username = driver.find_element(
-            By.CSS_SELECTOR,
-            "header a[href^='/']"
+            By.XPATH,
+            "//header//a[contains(@href,'/')]"
         ).text.strip()
+
     except Exception:
         username = "-"
+    
 
-    # Ambil jumlah like
+    likes = 0
     try:
-        like_text = driver.find_element(
-            By.XPATH,
-            "//section//span[contains(text(),'like') or contains(text(),'suka')]"
-        ).text
 
-        angka = re.sub(r"[^\d]", "", like_text)
-        likes = int(angka) if angka else 0
+        sections = driver.find_elements(
+            By.XPATH,
+            "//section//span"
+        )
+
+        for s in sections:
+
+            txt = s.text.strip()
+
+            angka = re.sub(r"[^\d]", "", txt)
+
+            if angka:
+
+                likes = int(angka)
+
+                break
 
     except Exception:
+
         likes = 0
 
     # Ambil tanggal

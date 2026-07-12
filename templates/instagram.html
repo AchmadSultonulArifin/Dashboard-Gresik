@@ -64,7 +64,7 @@ Total Postingan : {{ total }}
 <td>{{ p.tanggal }}</td>
 
 <td>
-{{ p.author }}
+{{  p.username }}
 </td>
 
 <td style="max-width:450px;">
@@ -90,13 +90,11 @@ Total Postingan : {{ total }}
 <td>{{ p.comments }}</td>
 
 <td>
-
-<a href="{{ p.url }}" target="_blank">
-
-Lihat
-
-</a>
-
+    <a href="{{ p.link_postingan }}"
+    target="_blank"
+    rel="noopener noreferrer">
+        Lihat
+    </a>
 </td>
 
 </tr>

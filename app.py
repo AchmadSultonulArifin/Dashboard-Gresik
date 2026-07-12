@@ -8,7 +8,9 @@ app = Flask(__name__)
 CSV_PATH = "output/gresik_sentimen.csv"
 
 # Instagram
-INSTAGRAM_PATH = "output/gresik_ig_sentimen.csv"
+INSTAGRAM_POST = "output/gresik_ig_postingan.csv"
+
+INSTAGRAM_SENTIMEN = "output/gresik_ig_sentimen.csv"
 
 
 def load_data():
@@ -46,25 +48,46 @@ def load_data():
 
 def load_instagram():
 
-    if not os.path.exists(INSTAGRAM_PATH):
+    if not os.path.exists(INSTAGRAM_POST):
         return pd.DataFrame()
 
     try:
-        df = pd.read_csv(INSTAGRAM_PATH)
+        df = pd.read_csv(INSTAGRAM_POST)
         df = df.fillna("")
 
-        # Kolom yang tidak ada di CSV keyword — isi default
-        df["likes"]    = 0
-        df["comments"] = 0
-        df["username"] = df["keyword"]   # pakai keyword sebagai pengganti username
-        df["teks_asli"] = df["teks_asli"].astype(str)
-        df["tanggal"]  = pd.Timestamp.now()  # tidak ada tanggal, isi hari ini
+        # Pastikan semua kolom ada
+        kolom_wajib = [
+            "keyword",
+            "shortcode",
+            "link_postingan",
+            "username",
+            "caption",
+            "tanggal",
+            "likes",
+            "comments"
+        ]
+
+        for kolom in kolom_wajib:
+            if kolom not in df.columns:
+                df[kolom] = ""
+
+        df["likes"] = pd.to_numeric(df["likes"], errors="coerce").fillna(0).astype(int)
+        df["comments"] = pd.to_numeric(df["comments"], errors="coerce").fillna(0).astype(int)
+
+        df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
 
         return df
 
     except Exception as e:
-        print("Error membaca Instagram:", e)
+        print("Error membaca data Instagram:", e)
         return pd.DataFrame()
+
+def load_instagram_sentimen():
+
+    if not os.path.exists(INSTAGRAM_SENTIMEN):
+        return pd.DataFrame()
+
+    return pd.read_csv(INSTAGRAM_SENTIMEN)
 
 
 @app.route("/")
@@ -228,9 +251,11 @@ def twitter():
 
 @app.route("/instagram")
 def instagram():
-    df = load_instagram()
+    df_post = load_instagram()
+    df_sentimen = load_instagram_sentimen()
 
-    if df.empty:
+
+    if df_sentimen.empty:
         return render_template(
             "instagram.html",
             data=[],
@@ -243,18 +268,21 @@ def instagram():
             keywords=[]
         )
 
-    total         = len(df)
-    total_like    = 0
-    total_comment = 0
-    rata_like     = 0.0
+    total         = len(df_post)
+    total_like = int(df_post["likes"].sum())
+    total_comment = int(df_post["comments"].sum())
+    rata_like = round(df_post["likes"].mean(),1)
 
-    topik = df["topik"].value_counts().head(10).to_dict() if "topik" in df.columns else {}
+    topik = df_sentimen["topik"].value_counts().head(10).to_dict() 
 
     # Tambahan: sentimen & daftar keyword
-    sentimen = df["sentimen"].value_counts().to_dict() if "sentimen" in df.columns else {}
-    keywords = df["keyword"].unique().tolist() if "keyword" in df.columns else []
+    sentimen = df_sentimen["sentimen"].value_counts().to_dict() 
+    keywords = df_sentimen["keyword"].unique().tolist() 
 
-    data = df.sort_values("tanggal", ascending=False).to_dict("records")
+    data = df_post.sort_values(
+                "tanggal",
+                ascending=False
+            ).to_dict("records")
 
     return render_template(
         "instagram.html",

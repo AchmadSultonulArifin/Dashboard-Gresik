@@ -250,7 +250,7 @@ table td{
 
 <div class="logo">
 
-Dashboard Gresik
+Dashboard Analisis Sentimen
 
 </div>
 
@@ -310,10 +310,91 @@ Dashboard
 </div>
 
 {% block content %}
+<div class="card">
+    <h2>📊 Ringkasan Twitter Harian</h2>
 
-{% endblock %}
+    <table>
+        <thead>
+            <tr>
+                <th>Periode</th>
+                <th>Tweet</th>
+                <th>Positif</th>
+                <th>Netral</th>
+                <th>Negatif</th>
+                <th>Rata Skor</th>
+                <th>Like</th>
+                <th>Reply</th>
+                <th>Retweet</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        {% for row in ringkasan_tw %}
+
+        <tr>
+            <td>{{ row.tanggal }}</td>
+            <td>{{ row.jumlah }}</td>
+            <td>{{ row.positif }}</td>
+            <td>{{ row.netral }}</td>
+            <td>{{ row.negatif }}</td>
+            <td>{{ row.skor }}</td>
+            <td>{{ row.likes }}</td>
+            <td>{{ row.replies }}</td>
+            <td>{{ row.retweets }}</td>
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+    </table>
 
 </div>
+
+<div class="card">
+    <h2>📷 Ringkasan Instagram Harian</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Periode</th>
+                <th>Postingan</th>
+                <th>Komentar</th>
+                <th>Positif</th>
+                <th>Netral</th>
+                <th>Negatif</th>
+                <th>Rata Skor</th>
+                <th>Like</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        {% for row in ringkasan_ig %}
+
+        <tr>
+
+            <td>{{ row.tanggal }}</td>
+            <td>{{ row.postingan }}</td>
+            <td>{{ row.komentar }}</td>
+            <td>{{ row.positif }}</td>
+            <td>{{ row.netral }}</td>
+            <td>{{ row.negatif }}</td>
+            <td>{{ row.skor }}</td>
+            <td>{{ row.likes }}</td>
+
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+    </table>
+
+</div>
+{% endblock %}
 
 </body>
 

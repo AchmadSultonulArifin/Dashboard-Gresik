@@ -38,6 +38,10 @@ def load_data():
 
         if "retweets" not in df.columns:
             df["retweets"] = pd.to_numeric(df["retweets"], errors="coerce").fillna(0)
+        if "skor" in df.columns:
+            df["skor"] = pd.to_numeric(df["skor"], errors="coerce").fillna(0)
+        else:
+            df["skor"] = 0.0
 
         return df
 
@@ -90,10 +94,87 @@ def load_instagram_sentimen():
     return pd.read_csv(INSTAGRAM_SENTIMEN)
 
 
+def ringkasan_twitter():
+
+        df = load_data()
+
+        if df.empty:
+            return []
+
+        hasil = []
+
+        for tanggal, grup in df.groupby(df["tanggal"].dt.date):
+
+            hasil.append({
+
+                "tanggal": tanggal.strftime("%d %B %Y"),
+
+                "jumlah": len(grup),
+
+                "positif": (grup["sentimen"]=="positif").sum(),
+
+                "netral": (grup["sentimen"]=="netral").sum(),
+
+                "negatif": (grup["sentimen"]=="negatif").sum(),
+
+                "skor": round(grup["skor"].mean(),3),
+
+                "likes": int(grup["likes"].sum()),
+
+                "replies": int(grup["replies"].sum()),
+
+                "retweets": int(grup["retweets"].sum())
+
+            })
+
+        return hasil
+    
+def ringkasan_instagram():
+
+        post = load_instagram()
+        sentimen = load_instagram_sentimen()
+
+        if post.empty or sentimen.empty:
+            return []
+
+        hasil = []
+
+        for tanggal, grup_post in post.groupby(post["tanggal"].dt.date):
+
+            komentar = sentimen[
+                sentimen["shortcode"].isin(grup_post["shortcode"])
+            ]
+
+            hasil.append({
+
+                "tanggal": tanggal.strftime("%d %B %Y"),
+
+                "postingan": len(grup_post),
+
+                "likes": int(grup_post["likes"].sum()),
+
+                "komentar": int(grup_post["comments"].sum()),
+
+                "positif": (komentar["sentimen"]=="positif").sum(),
+
+                "netral": (komentar["sentimen"]=="netral").sum(),
+
+                "negatif": (komentar["sentimen"]=="negatif").sum(),
+
+                "skor": round(komentar["skor"].mean(),3)
+
+            })
+
+        return hasil
+
+
 @app.route("/")
 def index():
     df = load_data()
     df_ig = load_instagram()
+    ringkasan_tw = ringkasan_twitter()
+    ringkasan_ig = ringkasan_instagram()
+
     if df.empty:
         return render_template("index.html")
     total = len(df)
@@ -103,9 +184,11 @@ def index():
 
     topik = df["topik"].value_counts().head(6).to_dict()
 
+    rata_skor = round(df["skor"].mean(), 3)
+
     tweet_viral = (
             df.nlargest(5, "likes")[
-                ["username", "teks_asli", "sentimen", "likes", "tanggal"]
+                ["username", "teks_asli", "sentimen","skor", "likes", "tanggal"]
             ]
             .to_dict("records")
     )
@@ -151,7 +234,10 @@ def index():
         total_like=total_like,
         total_comment=total_comment,
         rata_like=rata_like,
+        rata_skor=rata_skor,
         post_terbaru=post_terbaru,
+        ringkasan_tw = ringkasan_twitter(),
+        ringkasan_ig = ringkasan_instagram()
     )
 
 
@@ -159,6 +245,37 @@ def index():
 def twitter():
 
     df = load_data()
+    # ===========================
+    # RINGKASAN PER HARI
+    # ===========================
+
+    ringkasan = (
+        df.groupby(df["tanggal"].dt.date)
+        .agg(
+            jumlah_tweet=("id", "count"),
+            rata_skor=("skor", "mean"),
+            total_like=("likes", "sum"),
+            total_reply=("replies", "sum"),
+            total_retweet=("retweets", "sum")
+        )
+        .reset_index()
+    )
+
+    # Jumlah sentimen per hari
+    sentimen = (
+        df.groupby([df["tanggal"].dt.date, "sentimen"])
+        .size()
+        .unstack(fill_value=0)
+        .reset_index()
+    )
+
+    ringkasan = ringkasan.merge(
+        sentimen,
+        on="tanggal",
+        how="left"
+    )
+
+    ringkasan["rata_skor"] = ringkasan["rata_skor"].round(3)
 
     if df.empty:
         return render_template(
@@ -190,6 +307,8 @@ def twitter():
         .head(10)
         .to_dict()
     )
+
+    rata_skor = round(df["skor"].mean(), 3)
 
     tweet_viral = (
         df.nlargest(5, "likes")[
@@ -246,7 +365,10 @@ def twitter():
         topik=topik,
         tweet_viral=tweet_viral,
         chart_data=chart_data,
-        data=data
+        data=data,
+        rata_skor=rata_skor,
+        ringkasan=ringkasan.to_dict("records")   
+
     )
 
 @app.route("/instagram")
@@ -254,6 +376,46 @@ def instagram():
 
     df_post = load_instagram()
     df_sentimen = load_instagram_sentimen()
+    ringkasan = load_ringkasan()
+
+    def load_ringkasan():
+        df = load_data()
+
+        if df.empty:
+            return pd.DataFrame()
+
+        df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
+
+        # Ringkasan dasar
+        ringkasan = (
+            df.groupby(df["tanggal"].dt.date)
+            .agg(
+                jumlah_tweet=("id", "count"),
+                rata_skor=("skor", "mean"),
+                total_like=("likes", "sum"),
+                total_reply=("replies", "sum"),
+                total_retweet=("retweets", "sum")
+            )
+            .reset_index()
+        )
+
+        # Hitung sentimen per hari
+        sentimen = (
+            df.groupby([df["tanggal"].dt.date, "sentimen"])
+            .size()
+            .unstack(fill_value=0)
+            .reset_index()
+        )
+
+        ringkasan = ringkasan.merge(
+            sentimen,
+            on="tanggal",
+            how="left"
+        )
+
+        ringkasan["rata_skor"] = ringkasan["rata_skor"].round(3)
+
+        return ringkasan
 
     # Ambil rata-rata skor sentimen tiap postingan
     skor_post = (
@@ -338,7 +500,8 @@ def instagram():
         keyword=keyword,
         periode=periode,
         lama_hari=lama_hari,
-        rata_skor=rata_skor
+        rata_skor=rata_skor,
+        ringkasan=ringkasan.to_dict("records"),
     )
 
 

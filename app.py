@@ -1,4 +1,5 @@
 from flask import Flask, render_template, jsonify
+from flask import request
 import pandas as pd
 import os
 
@@ -174,6 +175,8 @@ def index():
     df_ig = load_instagram()
     ringkasan_tw = ringkasan_twitter()
     ringkasan_ig = ringkasan_instagram()
+    start_date = request.args.get("start_date")
+    end_date = request.args.get("end_date")
 
     if df.empty:
         return render_template("index.html")
@@ -367,7 +370,7 @@ def twitter():
         chart_data=chart_data,
         data=data,
         rata_skor=rata_skor,
-        ringkasan=ringkasan.to_dict("records")   
+        ringkasan=ringkasan.to_dict("records"),
 
     )
 

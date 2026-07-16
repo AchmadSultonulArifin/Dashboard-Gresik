@@ -310,6 +310,22 @@ Dashboard
 </div>
 
 {% block content %}
+
+<form method="GET" action="/">
+
+    <label>Dari :</label>
+
+    <input type="date" name="start_date" value="{{ start_date }}">
+
+    <label>Sampai :</label>
+
+    <input type="date" name="end_date" value="{{ end_date }}">
+
+    <button type="submit">Filter</button>
+    <a href="/" class="btn">Reset</a>
+
+</form>
+
 <div class="card">
     <h2>📊 Ringkasan Twitter Harian</h2>
 

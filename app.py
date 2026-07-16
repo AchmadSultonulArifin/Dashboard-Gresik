@@ -371,51 +371,51 @@ def twitter():
 
     )
 
+def load_ringkasan():
+    df = load_data()
+
+    if df.empty:
+        return pd.DataFrame()
+
+    df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
+
+    # Ringkasan dasar
+    ringkasan = (
+        df.groupby(df["tanggal"].dt.date)
+        .agg(
+            jumlah_tweet=("id", "count"),
+            rata_skor=("skor", "mean"),
+            total_like=("likes", "sum"),
+            total_reply=("replies", "sum"),
+            total_retweet=("retweets", "sum")
+        )
+        .reset_index()
+    )
+
+    # Hitung sentimen per hari
+    sentimen = (
+        df.groupby([df["tanggal"].dt.date, "sentimen"])
+        .size()
+        .unstack(fill_value=0)
+        .reset_index()
+    )
+
+    ringkasan = ringkasan.merge(
+        sentimen,
+        on="tanggal",
+        how="left"
+    )
+
+    ringkasan["rata_skor"] = ringkasan["rata_skor"].round(3)
+
+    return ringkasan
+
 @app.route("/instagram")
 def instagram():
 
     df_post = load_instagram()
     df_sentimen = load_instagram_sentimen()
     ringkasan = load_ringkasan()
-
-    def load_ringkasan():
-        df = load_data()
-
-        if df.empty:
-            return pd.DataFrame()
-
-        df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
-
-        # Ringkasan dasar
-        ringkasan = (
-            df.groupby(df["tanggal"].dt.date)
-            .agg(
-                jumlah_tweet=("id", "count"),
-                rata_skor=("skor", "mean"),
-                total_like=("likes", "sum"),
-                total_reply=("replies", "sum"),
-                total_retweet=("retweets", "sum")
-            )
-            .reset_index()
-        )
-
-        # Hitung sentimen per hari
-        sentimen = (
-            df.groupby([df["tanggal"].dt.date, "sentimen"])
-            .size()
-            .unstack(fill_value=0)
-            .reset_index()
-        )
-
-        ringkasan = ringkasan.merge(
-            sentimen,
-            on="tanggal",
-            how="left"
-        )
-
-        ringkasan["rata_skor"] = ringkasan["rata_skor"].round(3)
-
-        return ringkasan
 
     # Ambil rata-rata skor sentimen tiap postingan
     skor_post = (
@@ -501,7 +501,7 @@ def instagram():
         periode=periode,
         lama_hari=lama_hari,
         rata_skor=rata_skor,
-        ringkasan=ringkasan.to_dict("records"),
+        ringkasan=ringkasan.to_dict("records")
     )
 
 

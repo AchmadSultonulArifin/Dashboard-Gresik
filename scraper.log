@@ -1,0 +1,1425 @@
+2026-07-17 14:11:15,766 [INFO] Total kategori: 15 | Sisa: 15 | Selesai: 0
+2026-07-17 14:11:24,505 [INFO] 
+[1/15] Mulai: rumah_sakit
+2026-07-17 14:11:24,506 [INFO] 
+=======================================================
+2026-07-17 14:11:24,508 [INFO] KATEGORI: RUMAH_SAKIT (4 query)
+2026-07-17 14:11:24,508 [INFO] =======================================================
+2026-07-17 14:11:24,949 [INFO]   [1/4] rumah sakit Gresik
+2026-07-17 14:11:24,949 [INFO]   Query: 'rumah sakit Gresik' (percobaan 1)
+2026-07-17 14:11:52,132 [INFO]     68 kartu ditemukan
+2026-07-17 14:11:56,427 [INFO]     +65 baru | total unik: 65
+2026-07-17 14:11:58,436 [INFO]   [2/4] RSUD Ibnu Sina Gresik
+2026-07-17 14:11:58,437 [INFO]   Query: 'RSUD Ibnu Sina Gresik' (percobaan 1)
+2026-07-17 14:12:02,049 [INFO]     4 kartu ditemukan
+2026-07-17 14:12:02,484 [INFO]     +4 baru | total unik: 69
+2026-07-17 14:12:04,487 [INFO]   [3/4] RS swasta Gresik
+2026-07-17 14:12:04,488 [INFO]   Query: 'RS swasta Gresik' (percobaan 1)
+2026-07-17 14:12:09,047 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:12:09,062 [INFO]     2 kartu ditemukan
+2026-07-17 14:12:09,210 [INFO]     +0 baru | total unik: 69
+2026-07-17 14:12:11,219 [INFO]   [4/4] klinik utama Gresik
+2026-07-17 14:12:11,219 [INFO]   Query: 'klinik utama Gresik' (percobaan 1)
+2026-07-17 14:12:15,368 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:12:15,383 [INFO]     2 kartu ditemukan
+2026-07-17 14:12:15,534 [INFO]     +1 baru | total unik: 70
+2026-07-17 14:12:17,547 [INFO]   Selesai kumpul query. Total unik: 70
+2026-07-17 14:12:17,548 [INFO]   Detail [1/70]: Rumah Sakit Semen Gresik
+2026-07-17 14:12:21,804 [INFO]   Detail [2/70]: Rumah Sakit Petrokimia Gresik
+2026-07-17 14:12:26,147 [INFO]   Detail [3/70]: RSUD Ibnu Sina Gresik
+2026-07-17 14:12:29,989 [INFO]   Detail [4/70]: Rumah Sakit Muhammadiyah Gresik
+2026-07-17 14:12:33,661 [INFO]   Detail [5/70]: RSU Denisa Gresik
+2026-07-17 14:12:37,314 [INFO]   Detail [6/70]: Rumah Sakit Grha Husada
+2026-07-17 14:12:41,281 [INFO]   Detail [7/70]: Rumah Sakit Islam Nyai Ageng Pinatih
+2026-07-17 14:12:45,077 [INFO]   Detail [8/70]: Rumah Sakit Umum Rachmi Dewi
+2026-07-17 14:12:48,747 [INFO]   Detail [9/70]: Petro Graha Medika
+2026-07-17 14:12:52,848 [INFO]   Detail [10/70]: KMU Gresik Pusat
+2026-07-17 14:12:56,595 [INFO]   Detail [11/70]: UGD RS Petrokimia Gresik
+2026-07-17 14:13:00,308 [INFO]   Detail [12/70]: Rumah Sakit Fathma Medika Gresik
+2026-07-17 14:13:04,012 [INFO]   Detail [13/70]: Klinik PPK I PT Petrokimia Gresik
+2026-07-17 14:13:07,808 [INFO]   Detail [14/70]: Klinik Satelit Kalimantan
+2026-07-17 14:13:11,641 [INFO]   Detail [15/70]: Klinik Mata KMU Gresik
+2026-07-17 14:13:15,677 [INFO]   Detail [16/70]: Klinik RS Semen Gresik Veteran
+2026-07-17 14:13:19,408 [INFO]   Detail [17/70]: Rumah vaksin Rssg Gresik
+2026-07-17 14:13:23,311 [INFO]   Detail [18/70]: Klinik Ciptamedika Wahidin
+2026-07-17 14:13:27,160 [INFO]   Detail [19/70]: Rumah Sakit Bayt Al-Musaadah
+2026-07-17 14:13:30,782 [INFO]   Detail [20/70]: Klinik Pratama Selviana
+2026-07-17 14:13:34,442 [INFO]   Detail [21/70]: Lobby Paviliun RSUD Ibnu Sina
+2026-07-17 14:13:38,170 [INFO]   Detail [22/70]: dr. Ryski Meilia Novarina, Sp D.V.E
+2026-07-17 14:13:42,164 [INFO]   Detail [23/70]: Loby rumah sakit semen
+2026-07-17 14:13:45,797 [INFO]   Detail [24/70]: Loby rawat jalan
+2026-07-17 14:13:49,780 [INFO]   Detail [25/70]: Praktik dr. Ilyas Prabowo
+2026-07-17 14:13:53,609 [INFO]   Detail [26/70]: Lobby Belakang Paviliun RS.SEMEN GRESIK
+2026-07-17 14:13:57,434 [INFO]   Detail [27/70]: UGD RS Semen Gresik
+2026-07-17 14:14:01,188 [INFO]   Detail [28/70]: Lobby Belakang Rs.petro kimia
+2026-07-17 14:14:05,014 [INFO]   Detail [29/70]: eRDe Clinic
+2026-07-17 14:14:08,901 [INFO]   Detail [30/70]: KPP Pratama Gresik
+2026-07-17 14:14:12,693 [INFO]   Detail [31/70]: Lobby rawat jalan ibnusina
+2026-07-17 14:14:16,432 [INFO]   Detail [32/70]: Lobby UGD RS.Muhammadiyah Gresik
+2026-07-17 14:14:20,094 [INFO]   Detail [33/70]: GKB (Gresik Kota Baru)
+2026-07-17 14:14:23,733 [INFO]   Detail [34/70]: Gurah (Tanpa Rasa Sakit) & Ruqyah Syar'iyyah.
+2026-07-17 14:14:27,393 [INFO]   Detail [35/70]: IGD VVIP RS Grha Husada
+2026-07-17 14:14:31,075 [INFO]   Detail [36/70]: Ruang Bersalin Rumah Sakit Semen Gresik
+2026-07-17 14:14:34,801 [INFO]   Detail [37/70]: Terapi Perilaku Rumah Sakit Grha Husada Gresik
+2026-07-17 14:14:38,494 [INFO]   Detail [38/70]: Instalasi Rawat Inap
+2026-07-17 14:14:42,275 [INFO]   Detail [39/70]: Rumah Sakit Wates Husada Gresik
+2026-07-17 14:14:45,927 [INFO]   Detail [40/70]: Faskes Tingkat 1 BP Jamsostek 115
+2026-07-17 14:14:49,576 [INFO]   Detail [41/70]: Perumahan Graha Bunder Asri
+2026-07-17 14:14:53,247 [INFO]   Detail [42/70]: FASKES TINGKAT I POLKES 05.09.24 GRESIK
+2026-07-17 14:14:56,949 [INFO]   Detail [43/70]: Halte Trans Jatim RS Semen Gresik II
+2026-07-17 14:15:00,590 [INFO]   Detail [44/70]: e-Library Casemix RPSG
+2026-07-17 14:15:04,293 [INFO]   Detail [45/70]: Rumah sakit pinanti
+2026-07-17 14:15:08,009 [INFO]   Detail [46/70]: Perumahan Mutiara Graha Agung
+2026-07-17 14:15:11,786 [INFO]   Detail [47/70]: Kec Gresik
+2026-07-17 14:15:15,558 [INFO]   Detail [48/70]: RS. Surya Medika
+2026-07-17 14:15:19,297 [INFO]   Detail [49/70]: Dokter Hewan Gresik
+2026-07-17 14:15:23,375 [INFO]   Detail [50/70]: RSUD Gresik Sehati
+2026-07-17 14:15:27,429 [INFO]   Detail [51/70]: Pusat Sunat Modern Gresik
+2026-07-17 14:15:31,569 [INFO]   Detail [52/70]: CGV Icon Mall Gresik
+2026-07-17 14:15:36,149 [INFO]   Detail [53/70]: PUSKEMAS PEMBANTU KEDANYANG
+2026-07-17 14:15:40,065 [INFO]   Detail [54/70]: Ruang Fisiotheraphy
+2026-07-17 14:15:44,401 [INFO]   Detail [55/70]: Gresik Kota Baru
+2026-07-17 14:15:48,764 [INFO]   Detail [56/70]: Rumah Sakit Eka Husada
+2026-07-17 14:15:52,973 [INFO]   Detail [57/70]: Klinik & Laboratorium Parahita Gresik
+2026-07-17 14:15:57,163 [INFO]   Detail [58/70]: RSI Mabarrot MWC NU Bungah
+2026-07-17 14:16:01,127 [INFO]   Detail [59/70]: Griya Suci Permai Baru
+2026-07-17 14:16:05,061 [INFO]   Detail [60/70]: Gress Mall
+2026-07-17 14:16:09,999 [INFO]   Detail [61/70]: Klinik & Apotek Semen Gresik GKB
+2026-07-17 14:16:14,543 [INFO]   Detail [62/70]: RS Randegansari Husada
+2026-07-17 14:16:18,955 [INFO]   Detail [63/70]: SIPARK (Parkir Rumah Sakit Semen Gresik)
+2026-07-17 14:16:23,353 [INFO]   Detail [64/70]: Perumahan Petrokimia Gresik
+2026-07-17 14:16:27,635 [INFO]   Detail [65/70]: Apotek RS Petrokimia
+2026-07-17 14:16:31,734 [INFO]   Detail [66/70]: Halte Trans Jatim Kantor Bupati 1
+2026-07-17 14:16:33,247 [INFO]   Detail [67/70]: Instalasi Gawat Darurat RSUD Ibnu Sina
+2026-07-17 14:16:34,759 [INFO]   Detail [68/70]: Bni wonrd Bank
+2026-07-17 14:16:36,273 [INFO]   Detail [69/70]: ATM Bank Jatim
+2026-07-17 14:16:37,778 [INFO]   Detail [70/70]: Klinik Utama Gresik
+2026-07-17 14:16:42,415 [INFO] Tersimpan: data_gresik\rumah_sakit.csv (70 baris)
+2026-07-17 14:16:42,424 [INFO] Progress: 1/15 kategori selesai
+2026-07-17 14:16:42,427 [INFO] Selesai 'rumah_sakit' dalam 317.9s | 70 lokasi
+2026-07-17 14:16:42,428 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:16:46,432 [INFO] 
+[2/15] Mulai: puskesmas
+2026-07-17 14:16:46,432 [INFO] 
+=======================================================
+2026-07-17 14:16:46,435 [INFO] KATEGORI: PUSKESMAS (5 query)
+2026-07-17 14:16:46,436 [INFO] =======================================================
+2026-07-17 14:16:46,816 [INFO]   [1/5] puskesmas Gresik
+2026-07-17 14:16:46,817 [INFO]   Query: 'puskesmas Gresik' (percobaan 1)
+2026-07-17 14:17:10,920 [INFO]     68 kartu ditemukan
+2026-07-17 14:17:14,901 [INFO]     +64 baru | total unik: 64
+2026-07-17 14:17:16,903 [INFO]   [2/5] puskesmas Kebomas
+2026-07-17 14:17:16,903 [INFO]   Query: 'puskesmas Kebomas' (percobaan 1)
+2026-07-17 14:17:20,220 [INFO]     1 kartu ditemukan
+2026-07-17 14:17:20,415 [INFO]     +1 baru | total unik: 65
+2026-07-17 14:17:22,423 [INFO]   [3/5] puskesmas Driyorejo
+2026-07-17 14:17:22,424 [INFO]   Query: 'puskesmas Driyorejo' (percobaan 1)
+2026-07-17 14:17:25,877 [INFO]     0 kartu ditemukan
+2026-07-17 14:17:25,878 [INFO]     +0 baru | total unik: 65
+2026-07-17 14:17:27,881 [INFO]   [4/5] puskesmas Bungah Gresik
+2026-07-17 14:17:27,881 [INFO]   Query: 'puskesmas Bungah Gresik' (percobaan 1)
+2026-07-17 14:17:30,786 [INFO]     0 kartu ditemukan
+2026-07-17 14:17:30,786 [INFO]     +0 baru | total unik: 65
+2026-07-17 14:17:32,792 [INFO]   [5/5] puskesmas Cerme Gresik
+2026-07-17 14:17:32,793 [INFO]   Query: 'puskesmas Cerme Gresik' (percobaan 1)
+2026-07-17 14:17:35,724 [INFO]     0 kartu ditemukan
+2026-07-17 14:17:35,724 [INFO]     +0 baru | total unik: 65
+2026-07-17 14:17:37,726 [INFO]   Selesai kumpul query. Total unik: 65
+2026-07-17 14:17:37,728 [INFO]   Detail [1/65]: Puskesmas Kebomas
+2026-07-17 14:17:41,853 [INFO]   Detail [2/65]: Puskesmas Gending
+2026-07-17 14:17:46,117 [INFO]   Detail [3/65]: Puskesmas Alun-Alun
+2026-07-17 14:17:49,893 [INFO]   Detail [4/65]: Puskesmas Nelayan
+2026-07-17 14:17:53,627 [INFO]   Detail [5/65]: Puskesmas Industri
+2026-07-17 14:17:57,293 [INFO]   Detail [6/65]: Puskesmas Sukomulyo
+2026-07-17 14:18:02,053 [INFO]   Detail [7/65]: Puskesmas Manyar
+2026-07-17 14:18:06,475 [INFO]   Detail [8/65]: Puskesmas Kembangan Sekaren
+2026-07-17 14:18:10,806 [INFO]   Detail [9/65]: Puskesmas Pembantu Yosowilangun
+2026-07-17 14:18:15,027 [INFO]   Detail [10/65]: KLINIK CIPTA MEDIKA KEDANYANG
+2026-07-17 14:18:19,231 [INFO]   Detail [11/65]: PUSKESMAS BUKIT JAYA
+2026-07-17 14:18:23,652 [INFO]   Detail [12/65]: Puskesmas Pembantu Randu Agung
+2026-07-17 14:18:27,994 [INFO]   Detail [13/65]: Puskesmas Pembantu Pongangan
+2026-07-17 14:18:32,541 [INFO]   Detail [14/65]: PUSKEMAS PEMBANTU KEDANYANG
+2026-07-17 14:18:36,397 [INFO]   Detail [15/65]: Puskesmas Pembantu Singosari
+2026-07-17 14:18:40,621 [INFO]   Detail [16/65]: Puskesmas Pembantu Ngargosari
+2026-07-17 14:18:44,477 [INFO]   Detail [17/65]: Ponkesdes Suci
+2026-07-17 14:18:48,153 [INFO]   Detail [18/65]: Klinik PPK I PT Petrokimia Gresik
+2026-07-17 14:18:51,925 [INFO]   Detail [19/65]: SATPAS SIM Gresik
+2026-07-17 14:18:55,558 [INFO]   Detail [20/65]: Klinik Satelit Kalimantan
+2026-07-17 14:18:59,302 [INFO]   Detail [21/65]: GKB (Gresik Kota Baru)
+2026-07-17 14:19:02,987 [INFO]   Detail [22/65]: Rumah Sakit Umum Rachmi Dewi
+2026-07-17 14:19:06,787 [INFO]   Detail [23/65]: Klinik Nayaka Husada Sidomoro
+2026-07-17 14:19:10,816 [INFO]   Detail [24/65]: RSU Denisa Gresik
+2026-07-17 14:19:14,489 [INFO]   Detail [25/65]: UGD, Puskesmas Alun alun Gresik
+2026-07-17 14:19:18,231 [INFO]   Detail [26/65]: Klinik Panglima Sudirman
+2026-07-17 14:19:21,903 [INFO]   Detail [27/65]: Rumah Sakit Petrokimia Gresik
+2026-07-17 14:19:25,677 [INFO]   Detail [28/65]: Balai Desa Randuagung
+2026-07-17 14:19:29,534 [INFO]   Detail [29/65]: Rumah Sakit Semen Gresik
+2026-07-17 14:19:33,483 [INFO]   Detail [30/65]: Petshop & Pet Care Grooming Kawan Hewan
+2026-07-17 14:19:37,291 [INFO]   Detail [31/65]: Klinik Mabarrot Hasyimiyah NU Manyar
+2026-07-17 14:19:41,089 [INFO]   Detail [32/65]: puskesmas pembantu gulomantung
+2026-07-17 14:19:45,020 [INFO]   Detail [33/65]: Kahv Dental Care Gresik - Klinik Dokter Gigi Gresik
+2026-07-17 14:19:48,861 [INFO]   Detail [34/65]: Klinik Pelabuhan Gresik
+2026-07-17 14:19:53,342 [INFO]   Detail [35/65]: Petro Graha Medika
+2026-07-17 14:19:57,550 [INFO]   Detail [36/65]: Poliklinik POLRES Gresik
+2026-07-17 14:20:02,322 [INFO]   Detail [37/65]: Rumah Sakit Muhammadiyah Gresik
+2026-07-17 14:20:06,758 [INFO]   Detail [38/65]: Kantor Kesehatan Pelabuhan Kelas 1 Surabaya Wilker Gresik
+2026-07-17 14:20:10,752 [INFO]   Detail [39/65]: Puskemas pembantu Desa Roomo
+2026-07-17 14:20:15,311 [INFO]   Detail [40/65]: Puskesmas Pembantu Karangkiring
+2026-07-17 14:20:19,344 [INFO]   Detail [41/65]: Rumah Sakit Grha Husada
+2026-07-17 14:20:23,523 [INFO]   Detail [42/65]: ubed mantri paytren
+2026-07-17 14:20:27,865 [INFO]   Detail [43/65]: Dokter Hewan & Klinik Hewan
+2026-07-17 14:20:32,152 [INFO]   Detail [44/65]: Puskesmas Cerme
+2026-07-17 14:20:36,544 [INFO]   Detail [45/65]: Puskesmas Duduk Sampeyan
+2026-07-17 14:20:40,635 [INFO]   Detail [46/65]: Masjid Al-Aqsho
+2026-07-17 14:20:44,877 [INFO]   Detail [47/65]: Rumah Sakit Islam Nyai Ageng Pinatih
+2026-07-17 14:20:49,326 [INFO]   Detail [48/65]: Puskesmas Desa Banjasari
+2026-07-17 14:20:53,559 [INFO]   Detail [49/65]: RADJA PLASTIK SERBA LIMA RIBU
+2026-07-17 14:20:57,629 [INFO]   Detail [50/65]: Puskesmas Kepatihan
+2026-07-17 14:21:02,018 [INFO]   Detail [51/65]: Sidorukun Public Health Center
+2026-07-17 14:21:05,942 [INFO]   Detail [52/65]: Puskesmas Pembantu Leran
+2026-07-17 14:21:09,893 [INFO]   Detail [53/65]: Pasar Pondok Permata Suci Gresik
+2026-07-17 14:21:14,060 [INFO]   Detail [54/65]: RAWON BALUNG GAJAH
+2026-07-17 14:21:18,605 [INFO]   Detail [55/65]: Dinas Komunikasi dan Informatika Kabupaten Gresik
+2026-07-17 14:21:22,829 [INFO]   Detail [56/65]: Wahana Ekspresi Poesponegoro
+2026-07-17 14:21:26,587 [INFO]   Detail [57/65]: jalan MH Thamrin
+2026-07-17 14:21:30,840 [INFO]   Detail [58/65]: Ruang Konfiden
+2026-07-17 14:21:34,958 [INFO]   Detail [59/65]: UPT. PUSKESMAS SEMBAYAT
+2026-07-17 14:21:39,347 [INFO]   Detail [60/65]: Puskesmas Menganti
+2026-07-17 14:21:43,874 [INFO]   Detail [61/65]: Kec. Kebomas
+2026-07-17 14:21:48,297 [INFO]   Detail [62/65]: Masjid Jami' Gresik
+2026-07-17 14:21:52,512 [INFO]   Detail [63/65]: Rusunawa Gulomantung
+2026-07-17 14:21:56,822 [INFO]   Detail [64/65]: Momoyo sunan giri
+2026-07-17 14:22:01,122 [INFO]   Detail [65/65]: TOKO PAKAN BUDI BOMAS
+2026-07-17 14:22:03,289 [INFO] Tersimpan: data_gresik\puskesmas.csv (65 baris)
+2026-07-17 14:22:03,297 [INFO] Progress: 2/15 kategori selesai
+2026-07-17 14:22:03,300 [INFO] Selesai 'puskesmas' dalam 316.9s | 65 lokasi
+2026-07-17 14:22:03,301 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:22:07,314 [INFO] 
+[3/15] Mulai: sekolah_dasar
+2026-07-17 14:22:07,315 [INFO] 
+=======================================================
+2026-07-17 14:22:07,316 [INFO] KATEGORI: SEKOLAH_DASAR (5 query)
+2026-07-17 14:22:07,317 [INFO] =======================================================
+2026-07-17 14:22:07,684 [INFO]   [1/5] SD negeri Gresik
+2026-07-17 14:22:07,685 [INFO]   Query: 'SD negeri Gresik' (percobaan 1)
+2026-07-17 14:22:32,922 [INFO]     68 kartu ditemukan
+2026-07-17 14:22:41,927 [INFO]     +52 baru | total unik: 52
+2026-07-17 14:22:43,938 [INFO]   [2/5] SD swasta Gresik
+2026-07-17 14:22:43,939 [INFO]   Query: 'SD swasta Gresik' (percobaan 1)
+2026-07-17 14:22:57,986 [INFO]     Scroll selesai (7 iterasi)
+2026-07-17 14:22:58,080 [INFO]     33 kartu ditemukan
+2026-07-17 14:23:01,728 [INFO]     +20 baru | total unik: 72
+2026-07-17 14:23:03,741 [INFO]   [3/5] MI negeri Gresik
+2026-07-17 14:23:03,757 [INFO]   Query: 'MI negeri Gresik' (percobaan 1)
+2026-07-17 14:23:09,899 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:23:09,973 [INFO]     7 kartu ditemukan
+2026-07-17 14:23:11,063 [INFO]     +5 baru | total unik: 77
+2026-07-17 14:23:13,066 [INFO]   [4/5] SD negeri Kebomas
+2026-07-17 14:23:13,067 [INFO]   Query: 'SD negeri Kebomas' (percobaan 1)
+2026-07-17 14:23:21,752 [INFO]     Scroll selesai (4 iterasi)
+2026-07-17 14:23:21,880 [INFO]     25 kartu ditemukan
+2026-07-17 14:23:25,693 [INFO]     +6 baru | total unik: 83
+2026-07-17 14:23:27,695 [INFO]   [5/5] SD negeri Driyorejo
+2026-07-17 14:23:27,696 [INFO]   Query: 'SD negeri Driyorejo' (percobaan 1)
+2026-07-17 14:23:36,790 [INFO]     Scroll selesai (4 iterasi)
+2026-07-17 14:23:36,900 [INFO]     26 kartu ditemukan
+2026-07-17 14:23:40,843 [INFO]     +22 baru | total unik: 105
+2026-07-17 14:23:42,853 [INFO]   Selesai kumpul query. Total unik: 105
+2026-07-17 14:23:42,855 [INFO]   Detail [1/105]: Upt Sd Negeri 24 Gresik
+2026-07-17 14:23:49,217 [INFO]   Detail [2/105]: Upt Sd Negeri 27 Gresik
+2026-07-17 14:23:54,407 [INFO]   Detail [3/105]: SD NEGERI 35 GRESIK
+2026-07-17 14:23:58,638 [INFO]   Detail [4/105]: UPT SD Negeri 30 Gresik
+2026-07-17 14:24:03,104 [INFO]   Detail [5/105]: UPT SD Negeri 21 Gresik (SDN Kawisanyar)
+2026-07-17 14:24:07,301 [INFO]   Detail [6/105]: SD Negeri 2 Sukomulyo GKB
+2026-07-17 14:24:11,608 [INFO]   Detail [7/105]: UPT SDN 29 Randuagung Gresik
+2026-07-17 14:24:15,634 [INFO]   Detail [8/105]: UPT SD NEGERI 6 GRESIK
+2026-07-17 14:24:20,071 [INFO]   Detail [9/105]: UPT SDN 43 Gresik
+2026-07-17 14:24:24,463 [INFO]   Detail [10/105]: UPT SD NEGERI 28 GRESIK
+2026-07-17 14:24:28,401 [INFO]   Detail [11/105]: UPT SD Negeri 17 Gresik
+2026-07-17 14:24:32,634 [INFO]   Detail [12/105]: Upt Sd Negeri 16 Gresik
+2026-07-17 14:24:36,512 [INFO]   Detail [13/105]: Upt Sd Negeri 1 Gresik
+2026-07-17 14:24:40,364 [INFO]   Detail [14/105]: Upt Sd Negeri 7 Gresik
+2026-07-17 14:24:44,056 [INFO]   Detail [15/105]: SD Negeri 4 Randuagung
+2026-07-17 14:24:47,943 [INFO]   Detail [16/105]: SDN 2 Randuagung Gresik
+2026-07-17 14:24:51,718 [INFO]   Detail [17/105]: Upt Sd Negeri 15 Gresik
+2026-07-17 14:24:55,911 [INFO]   Detail [18/105]: UPT SD NEGERI 32 GRESIK
+2026-07-17 14:24:59,710 [INFO]   Detail [19/105]: SD Negeri Sidorukun ( UPT SD Negeri 11 Gresik )
+2026-07-17 14:25:03,340 [INFO]   Detail [20/105]: UPT SD NEGERI 47 GRESIK
+2026-07-17 14:25:06,988 [INFO]   Detail [21/105]: SD Nahdlatul Ulama - 1 Trate Gresik
+2026-07-17 14:25:10,787 [INFO]   Detail [22/105]: UPT SDN 23 Gresik Kedanyang
+2026-07-17 14:25:14,615 [INFO]   Detail [23/105]: UPT SD Negeri 4 Petrokimia Gresik
+2026-07-17 14:25:18,364 [INFO]   Detail [24/105]: UPT SD NEGERI 12 GRESIK
+2026-07-17 14:25:22,332 [INFO]   Detail [25/105]: UPT SDN 25 GRESIK
+2026-07-17 14:25:26,090 [INFO]   Detail [26/105]: UPT SD Negeri 3 Gresik
+2026-07-17 14:25:29,810 [INFO]   Detail [27/105]: UPT SD NEGERI 48 GRESIK (ex SDN SUKOMULYO 1)
+2026-07-17 14:25:33,630 [INFO]   Detail [28/105]: UPT SD NEGERI 49 GRESIK
+2026-07-17 14:25:37,459 [INFO]   Detail [29/105]: UPT SDN 9 Gresik
+2026-07-17 14:25:41,107 [INFO]   Detail [30/105]: SD MUHAMMADIYAH 1 GKB GRESIK (SD Mugeb) MUGEB PRIMARY SCHOOL
+2026-07-17 14:25:44,913 [INFO]   Detail [31/105]: SDN Lumpur
+2026-07-17 14:25:48,649 [INFO]   Detail [32/105]: UPT SD NEGERI 44 GRESIK
+2026-07-17 14:25:52,392 [INFO]   Detail [33/105]: SD NEGERI 1 TLOGOPATUT
+2026-07-17 14:25:56,360 [INFO]   Detail [34/105]: UPT SDN 10 GRESIK
+2026-07-17 14:26:00,036 [INFO]   Detail [35/105]: SDN SIDOKUMPUL 6 GRESIK
+2026-07-17 14:26:03,851 [INFO]   Detail [36/105]: UPT SD NEGERI 5 GRESIK
+2026-07-17 14:26:07,592 [INFO]   Detail [37/105]: SDN Gending
+2026-07-17 14:26:11,359 [INFO]   Detail [38/105]: SD AT - THOHIRIYAH
+2026-07-17 14:26:15,180 [INFO]   Detail [39/105]: SDN 1 Sidomoro
+2026-07-17 14:26:18,972 [INFO]   Detail [40/105]: SDN 1 Randuagung
+2026-07-17 14:26:22,626 [INFO]   Detail [41/105]: UPT SDN 18 Gresik
+2026-07-17 14:26:26,428 [INFO]   Detail [42/105]: SD Muhammadiyah Kompleks Gresik (SD MUGRES) -Kampus A
+2026-07-17 14:26:30,181 [INFO]   Detail [43/105]: Upt Sd Negeri 52 Gresik
+2026-07-17 14:26:33,944 [INFO]   Detail [44/105]: UPT SD NEGERI 380 GRESIK
+2026-07-17 14:26:37,596 [INFO]   Detail [45/105]: SDN Segoromadu
+2026-07-17 14:26:41,299 [INFO]   Detail [46/105]: Sekolah Dasar Muhammadiyah 3 Gresik
+2026-07-17 14:26:45,096 [INFO]   Detail [47/105]: SD Putra Darul Islam
+2026-07-17 14:26:48,901 [INFO]   Detail [48/105]: Dinas Pendidikan Kabupaten Gresik
+2026-07-17 14:26:52,568 [INFO]   Detail [49/105]: UPT SDN 51 GRESIK, YOSOWILANGUN
+2026-07-17 14:26:56,194 [INFO]   Detail [50/105]: UPT SMP Negeri 3 Gresik
+2026-07-17 14:27:00,026 [INFO]   Detail [51/105]: SMK Semen Gresik
+2026-07-17 14:27:03,813 [INFO]   Detail [52/105]: SD Muhammadiyah Manyar Gresik (SDMM)
+2026-07-17 14:27:07,493 [INFO]   Detail [53/105]: SD - Yimi
+2026-07-17 14:27:11,461 [INFO]   Detail [54/105]: SD SETIA BUDHI
+2026-07-17 14:27:15,456 [INFO]   Detail [55/105]: SD Semen Gresik
+2026-07-17 14:27:19,353 [INFO]   Detail [56/105]: SD MURI
+2026-07-17 14:27:23,318 [INFO]   Detail [57/105]: SDIT Al Ibrah Gresik
+2026-07-17 14:27:27,014 [INFO]   Detail [58/105]: Daris School Gresik
+2026-07-17 14:27:30,785 [INFO]   Detail [59/105]: SMP MUHAMMADIYAH 1 GRESIK
+2026-07-17 14:27:34,457 [INFO]   Detail [60/105]: SD NU NURUL ISHLAH
+2026-07-17 14:27:38,127 [INFO]   Detail [61/105]: Smp Yimi Gresik Full Day School
+2026-07-17 14:27:42,175 [INFO]   Detail [62/105]: SD IRADA FULL DAY EDUCATION
+2026-07-17 14:27:46,243 [INFO]   Detail [63/105]: SD MUHAMMADIYAH GKB 2 GRESIK ( Berlian school )
+2026-07-17 14:27:50,060 [INFO]   Detail [64/105]: SMA Muhammadiyah 1 Gresik
+2026-07-17 14:27:54,501 [INFO]   Detail [65/105]: Red koffie randu agung
+2026-07-17 14:27:58,408 [INFO]   Detail [66/105]: Universitas Muhammadiyah Gresik
+2026-07-17 14:28:02,121 [INFO]   Detail [67/105]: SMP Muhammadiyah 4 Gresik
+2026-07-17 14:28:06,024 [INFO]   Detail [68/105]: MI Futuhatul Ulum
+2026-07-17 14:28:09,799 [INFO]   Detail [69/105]: TKIT AL UMMAH GRESIK
+2026-07-17 14:28:13,715 [INFO]   Detail [70/105]: SMA Muhammadiyah 10 GKB GRESIK
+2026-07-17 14:28:17,429 [INFO]   Detail [71/105]: SDN 2 Tlogopatut
+2026-07-17 14:28:21,111 [INFO]   Detail [72/105]: Upt Sd Negeri 2 Gresik
+2026-07-17 14:28:30,131 [INFO]   Detail [73/105]: Mi Fathimiyah Gresik
+2026-07-17 14:28:33,895 [INFO]   Detail [74/105]: MI Asmaiyah Gresik
+2026-07-17 14:28:37,877 [INFO]   Detail [75/105]: MI Negeri 1 Gresik - Kedamean
+2026-07-17 14:28:42,212 [INFO]   Detail [76/105]: MI Miftahul Ulum Gresik
+2026-07-17 14:28:46,604 [INFO]   Detail [77/105]: Mi
+2026-07-17 14:28:50,633 [INFO]   Detail [78/105]: SDN Kebomas
+2026-07-17 14:28:55,114 [INFO]   Detail [79/105]: UPT SDN 34 Gresik
+2026-07-17 14:28:58,992 [INFO]   Detail [80/105]: UPT SD NEGERI 33 GRESIK (SDN 2 SIDOMORO)
+2026-07-17 14:29:03,205 [INFO]   Detail [81/105]: SD Negeri 05 Sidokumpul
+2026-07-17 14:29:07,827 [INFO]   Detail [82/105]: SDN Indro
+2026-07-17 14:29:12,363 [INFO]   Detail [83/105]: SD Negeri Klangonan
+2026-07-17 14:29:16,643 [INFO]   Detail [84/105]: SDN 1 Driyorejo
+2026-07-17 14:29:20,695 [INFO]   Detail [85/105]: SDN Driyorejo I
+2026-07-17 14:29:24,706 [INFO]   Detail [86/105]: SD Negeri 163 GRESIK
+2026-07-17 14:29:28,654 [INFO]   Detail [87/105]: SDN Gadung
+2026-07-17 14:29:34,477 [INFO]   Detail [88/105]: UPT SD NEGERI 168 GRESIK
+2026-07-17 14:29:38,888 [INFO]   Detail [89/105]: UPT SD Negeri 157 Gresik
+2026-07-17 14:29:43,483 [INFO]   Detail [90/105]: UPT SD NEGERI 155 GRESIK (SDN 1 KRIKILAN)
+2026-07-17 14:29:48,632 [INFO]   Detail [91/105]: SD Negeri Cangkir
+2026-07-17 14:29:52,386 [INFO]   Detail [92/105]: SDN Tenaru
+2026-07-17 14:29:56,037 [INFO]   Detail [93/105]: Upt Sd Negeri 161 Gresik
+2026-07-17 14:29:59,779 [INFO]   Detail [94/105]: SDN 2 Driyorejo
+2026-07-17 14:30:03,456 [INFO]   Detail [95/105]: UPT SD NEGERI 160 GRESIK
+2026-07-17 14:30:07,187 [INFO]   Detail [96/105]: SD ALAMI DRIYOREJO
+2026-07-17 14:30:10,964 [INFO]   Detail [97/105]: UPT SD Negeri 164 Gresik (SDN Randegansari)
+2026-07-17 14:30:14,759 [INFO]   Detail [98/105]: UPT SD NEGERI 167 GRESIK Tanjungan
+2026-07-17 14:30:18,448 [INFO]   Detail [99/105]: UPT SD Negeri 156 Gresik
+2026-07-17 14:30:22,136 [INFO]   Detail [100/105]: SDN 1 Mulung
+2026-07-17 14:30:25,999 [INFO]   Detail [101/105]: UPT SD Negeri 169 Gresik
+2026-07-17 14:30:29,853 [INFO]   Detail [102/105]: Upt Sd Negeri 144 Gresik
+2026-07-17 14:30:33,543 [INFO]   Detail [103/105]: SMK Negeri 1 Driyorejo
+2026-07-17 14:30:38,198 [INFO]   Detail [104/105]: SD Negeri Krikilan II
+2026-07-17 14:30:42,050 [INFO]   Detail [105/105]: SDN 2 Sumput (UPT SDN 166 GRESIK)
+2026-07-17 14:30:45,929 [INFO] Tersimpan: data_gresik\sekolah_dasar.csv (105 baris)
+2026-07-17 14:30:45,931 [INFO] Progress: 3/15 kategori selesai
+2026-07-17 14:30:45,932 [INFO] Selesai 'sekolah_dasar' dalam 518.6s | 105 lokasi
+2026-07-17 14:30:45,932 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:30:49,933 [INFO] 
+[4/15] Mulai: sekolah_menengah
+2026-07-17 14:30:49,934 [INFO] 
+=======================================================
+2026-07-17 14:30:49,935 [INFO] KATEGORI: SEKOLAH_MENENGAH (5 query)
+2026-07-17 14:30:49,935 [INFO] =======================================================
+2026-07-17 14:30:50,221 [INFO]   [1/5] SMP negeri Gresik
+2026-07-17 14:30:50,222 [INFO]   Query: 'SMP negeri Gresik' (percobaan 1)
+2026-07-17 14:31:14,996 [INFO]     68 kartu ditemukan
+2026-07-17 14:31:17,344 [INFO]     +62 baru | total unik: 62
+2026-07-17 14:31:19,346 [INFO]   [2/5] SMA negeri Gresik
+2026-07-17 14:31:19,347 [INFO]   Query: 'SMA negeri Gresik' (percobaan 1)
+2026-07-17 14:31:23,760 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:31:23,768 [INFO]     3 kartu ditemukan
+2026-07-17 14:31:23,917 [INFO]     +1 baru | total unik: 63
+2026-07-17 14:31:25,927 [INFO]   [3/5] SMK negeri Gresik
+2026-07-17 14:31:25,928 [INFO]   Query: 'SMK negeri Gresik' (percobaan 1)
+2026-07-17 14:31:31,824 [INFO]     Scroll selesai (2 iterasi)
+2026-07-17 14:31:31,849 [INFO]     13 kartu ditemukan
+2026-07-17 14:31:32,574 [INFO]     +11 baru | total unik: 74
+2026-07-17 14:31:34,580 [INFO]   [4/5] MTs negeri Gresik
+2026-07-17 14:31:34,581 [INFO]   Query: 'MTs negeri Gresik' (percobaan 1)
+2026-07-17 14:31:37,732 [INFO]     1 kartu ditemukan
+2026-07-17 14:31:37,798 [INFO]     +1 baru | total unik: 75
+2026-07-17 14:31:39,810 [INFO]   [5/5] MA negeri Gresik
+2026-07-17 14:31:39,811 [INFO]   Query: 'MA negeri Gresik' (percobaan 1)
+2026-07-17 14:31:43,989 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:31:44,004 [INFO]     2 kartu ditemukan
+2026-07-17 14:31:44,101 [INFO]     +2 baru | total unik: 77
+2026-07-17 14:31:46,104 [INFO]   Selesai kumpul query. Total unik: 77
+2026-07-17 14:31:46,104 [INFO]   Detail [1/77]: SMP NEGERI 4 GRESIK
+2026-07-17 14:31:53,571 [INFO]   Detail [2/77]: SMP Negeri 1 Gresik
+2026-07-17 14:32:00,613 [INFO]   Detail [3/77]: UPT SMP Negeri 3 Gresik
+2026-07-17 14:32:11,015 [INFO]   Detail [4/77]: UPT SMPN 22 GRESIK
+2026-07-17 14:32:22,068 [INFO]   Detail [5/77]: UPT SMP Negeri 2 Gresik
+2026-07-17 14:32:26,364 [INFO]   Detail [6/77]: Upt Smp Negeri 20 Gresik
+2026-07-17 14:32:30,056 [INFO]   Detail [7/77]: UPT SMP NEGERI 17 GRESIK
+2026-07-17 14:32:33,870 [INFO]   Detail [8/77]: SMP n 1 gresik
+2026-07-17 14:32:37,649 [INFO]   Detail [9/77]: UPT SMP NEGERI 24 GRESIK
+2026-07-17 14:32:41,445 [INFO]   Detail [10/77]: SMP Semen Gresik
+2026-07-17 14:32:45,120 [INFO]   Detail [11/77]: SMP Negeri 4 Gresik
+2026-07-17 14:32:48,890 [INFO]   Detail [12/77]: UPT SMP Negeri 34 Gresik
+2026-07-17 14:32:52,773 [INFO]   Detail [13/77]: SMPN 5 Gresik
+2026-07-17 14:32:56,553 [INFO]   Detail [14/77]: SMP Muhammadiyah 12 GKB Gresik
+2026-07-17 14:33:00,375 [INFO]   Detail [15/77]: SMP NU 1 Gresik
+2026-07-17 14:33:03,996 [INFO]   Detail [16/77]: Dinas Pendidikan Kabupaten Gresik
+2026-07-17 14:33:07,715 [INFO]   Detail [17/77]: SMP DARUL ISLAM GRESIK
+2026-07-17 14:33:11,395 [INFO]   Detail [18/77]: Smp Yimi Gresik Full Day School
+2026-07-17 14:33:16,010 [INFO]   Detail [19/77]: UPT SMPN 15 Gresik ex SMPN 1 Duduksampeyan
+2026-07-17 14:33:19,709 [INFO]   Detail [20/77]: SMP MUHAMMADIYAH 1 GRESIK
+2026-07-17 14:33:23,461 [INFO]   Detail [21/77]: SMP DHARMA BHAKTI GRESIK
+2026-07-17 14:33:27,243 [INFO]   Detail [22/77]: Mushola SMP negeri 1 Gresik
+2026-07-17 14:33:31,056 [INFO]   Detail [23/77]: Bunderan SMPN 1 Manyar
+2026-07-17 14:33:34,815 [INFO]   Detail [24/77]: SMP ISLAMIC QON
+2026-07-17 14:33:38,765 [INFO]   Detail [25/77]: UPT SD Negeri 30 Gresik
+2026-07-17 14:33:42,502 [INFO]   Detail [26/77]: SMP PGRI 2
+2026-07-17 14:33:46,143 [INFO]   Detail [27/77]: Mushola SMP Negeri 4 Gresik
+2026-07-17 14:33:49,824 [INFO]   Detail [28/77]: SMPIT Al Ibrah Gresik
+2026-07-17 14:33:53,650 [INFO]   Detail [29/77]: UPT SMPN 14 GRESIK
+2026-07-17 14:33:57,348 [INFO]   Detail [30/77]: SMP Negeri 18
+2026-07-17 14:34:01,097 [INFO]   Detail [31/77]: Upt Smp Negeri 25 Gresik
+2026-07-17 14:34:04,775 [INFO]   Detail [32/77]: SMA Negeri 1 Gresik
+2026-07-17 14:34:08,746 [INFO]   Detail [33/77]: UPT SDN 9 Gresik
+2026-07-17 14:34:12,397 [INFO]   Detail [34/77]: SMP Negeri 2 Manyar
+2026-07-17 14:34:17,138 [INFO]   Detail [35/77]: Kantin SMP Negeri 1 Manyar Gresik
+2026-07-17 14:34:20,872 [INFO]   Detail [36/77]: SMA Muhammadiyah 1 Gresik
+2026-07-17 14:34:24,540 [INFO]   Detail [37/77]: Mushola SMP Negeri 3 Gresik
+2026-07-17 14:34:28,187 [INFO]   Detail [38/77]: UPT SD Negeri 17 Gresik
+2026-07-17 14:34:31,834 [INFO]   Detail [39/77]: SMP Negeri 29 Gresik
+2026-07-17 14:34:35,490 [INFO]   Detail [40/77]: SMP Negeri 2 Menganti
+2026-07-17 14:34:39,161 [INFO]   Detail [41/77]: Upt Smp Negeri 10 Gresik
+2026-07-17 14:34:42,907 [INFO]   Detail [42/77]: SMPN 9 Gresik d/h SMPN 1 Balongpanggang
+2026-07-17 14:34:46,571 [INFO]   Detail [43/77]: SMP Negeri 8 Gresik
+2026-07-17 14:34:50,171 [INFO]   Detail [44/77]: SMK Semen Gresik
+2026-07-17 14:34:53,864 [INFO]   Detail [45/77]: SMPN 28 Gresik
+2026-07-17 14:34:57,534 [INFO]   Detail [46/77]: SMP Kristen Budi MULIA Gresik
+2026-07-17 14:35:01,221 [INFO]   Detail [47/77]: SMA Negeri 1 Manyar
+2026-07-17 14:35:05,134 [INFO]   Detail [48/77]: UPT SMPN 6 Gresik (ex SMP Negeri 1 Sidayu)
+2026-07-17 14:35:09,293 [INFO]   Detail [49/77]: SMP YPI Darussalam
+2026-07-17 14:35:13,434 [INFO]   Detail [50/77]: SMK Nurul Islam Gresik
+2026-07-17 14:35:17,862 [INFO]   Detail [51/77]: UPT SMP Negeri 11 Gresik
+2026-07-17 14:35:22,122 [INFO]   Detail [52/77]: Smpn 1 Bungah
+2026-07-17 14:35:27,304 [INFO]   Detail [53/77]: UPT SMP Negeri 12 Gresik
+2026-07-17 14:35:31,394 [INFO]   Detail [54/77]: UPT SMPN 1 BUNGAH GRESIK
+2026-07-17 14:35:40,355 [INFO]   Detail [55/77]: SMP MA'ARIF GEMPOL & SMA NU 3 GRESIK
+2026-07-17 14:35:54,042 [INFO]   Detail [56/77]: SMP YPI Darussalam 2 CERME
+2026-07-17 14:35:59,034 [INFO]   Detail [57/77]: UPT SMP NEGERI 29 Gresik
+2026-07-17 14:36:04,323 [INFO]   Detail [58/77]: SMP Nurul Huda Menganti
+2026-07-17 14:36:07,973 [INFO]   Detail [59/77]: Upt Sd Negeri 1 Gresik
+2026-07-17 14:36:11,857 [INFO]   Detail [60/77]: SMA SEMEN GRESIK
+2026-07-17 14:36:16,038 [INFO]   Detail [61/77]: UPT SD NEGERI 12 GRESIK
+2026-07-17 14:36:20,175 [INFO]   Detail [62/77]: Upt Sd Negeri 15 Gresik
+2026-07-17 14:36:24,002 [INFO]   Detail [63/77]: SMA NEGERI 1 KEBOMAS - GRESIK
+2026-07-17 14:36:27,964 [INFO]   Detail [64/77]: SMK Negeri 1 Cerme
+2026-07-17 14:36:32,495 [INFO]   Detail [65/77]: SMK NU GRESIK
+2026-07-17 14:36:36,223 [INFO]   Detail [66/77]: SMK PGRI 1 GRESIK
+2026-07-17 14:36:40,157 [INFO]   Detail [67/77]: SMK NEGERI 1 DUDUKSAMPEYAN
+2026-07-17 14:36:44,352 [INFO]   Detail [68/77]: SMK Negeri 1 Driyorejo
+2026-07-17 14:36:48,485 [INFO]   Detail [69/77]: SMK Negeri 1 Sidayu
+2026-07-17 14:36:53,186 [INFO]   Detail [70/77]: SMK DHARMA WANITA GRESIK
+2026-07-17 14:36:58,995 [INFO]   Detail [71/77]: SMK PGRI NURUL IHSAN
+2026-07-17 14:37:02,916 [INFO]   Detail [72/77]: SMK Islamic Qon
+2026-07-17 14:37:09,149 [INFO]   Detail [73/77]: SMK YPI DARUSSALAM 1 CERME
+2026-07-17 14:37:17,323 [INFO]   Detail [74/77]: SMK PGRI 1 GRESIK KAMPUS D
+2026-07-17 14:37:21,461 [INFO]   Detail [75/77]: WARKOP GONDRONG
+2026-07-17 14:37:22,968 [INFO]   Detail [76/77]: MAN 1 gresik
+2026-07-17 14:37:27,001 [INFO]   Detail [77/77]: Madrasah Aliyah Negeri 1 Gresik
+2026-07-17 14:37:31,193 [INFO] Tersimpan: data_gresik\sekolah_menengah.csv (77 baris)
+2026-07-17 14:37:31,195 [INFO] Progress: 4/15 kategori selesai
+2026-07-17 14:37:31,196 [INFO] Selesai 'sekolah_menengah' dalam 401.3s | 77 lokasi
+2026-07-17 14:37:31,196 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:37:35,207 [INFO] 
+[5/15] Mulai: kantor_kecamatan
+2026-07-17 14:37:35,208 [INFO] 
+=======================================================
+2026-07-17 14:37:35,209 [INFO] KATEGORI: KANTOR_KECAMATAN (9 query)
+2026-07-17 14:37:35,209 [INFO] =======================================================
+2026-07-17 14:37:35,430 [INFO]   [1/9] kantor kecamatan Gresik
+2026-07-17 14:37:35,430 [INFO]   Query: 'kantor kecamatan Gresik' (percobaan 1)
+2026-07-17 14:37:40,270 [INFO]     0 kartu ditemukan
+2026-07-17 14:37:40,273 [INFO]     +0 baru | total unik: 0
+2026-07-17 14:37:42,285 [INFO]   [2/9] kantor kecamatan Kebomas
+2026-07-17 14:37:42,286 [INFO]   Query: 'kantor kecamatan Kebomas' (percobaan 1)
+2026-07-17 14:37:47,418 [INFO]     1 kartu ditemukan
+2026-07-17 14:37:48,770 [INFO]     +1 baru | total unik: 1
+2026-07-17 14:37:50,780 [INFO]   [3/9] kantor kecamatan Cerme
+2026-07-17 14:37:50,781 [INFO]   Query: 'kantor kecamatan Cerme' (percobaan 1)
+2026-07-17 14:37:55,209 [INFO]     0 kartu ditemukan
+2026-07-17 14:37:55,210 [INFO]     +0 baru | total unik: 1
+2026-07-17 14:37:57,215 [INFO]   [4/9] kantor kecamatan Bungah
+2026-07-17 14:37:57,216 [INFO]   Query: 'kantor kecamatan Bungah' (percobaan 1)
+2026-07-17 14:38:01,812 [INFO]     0 kartu ditemukan
+2026-07-17 14:38:01,814 [INFO]     +0 baru | total unik: 1
+2026-07-17 14:38:03,830 [INFO]   [5/9] kantor kecamatan Driyorejo
+2026-07-17 14:38:03,831 [INFO]   Query: 'kantor kecamatan Driyorejo' (percobaan 1)
+2026-07-17 14:38:09,469 [INFO]     0 kartu ditemukan
+2026-07-17 14:38:09,471 [INFO]     +0 baru | total unik: 1
+2026-07-17 14:38:11,485 [INFO]   [6/9] kantor kecamatan Duduksampeyan
+2026-07-17 14:38:11,487 [INFO]   Query: 'kantor kecamatan Duduksampeyan' (percobaan 1)
+2026-07-17 14:38:15,160 [INFO]     0 kartu ditemukan
+2026-07-17 14:38:15,162 [INFO]     +0 baru | total unik: 1
+2026-07-17 14:38:17,175 [INFO]   [7/9] kantor kecamatan Manyar
+2026-07-17 14:38:17,177 [INFO]   Query: 'kantor kecamatan Manyar' (percobaan 1)
+2026-07-17 14:38:21,200 [INFO]     0 kartu ditemukan
+2026-07-17 14:38:21,201 [INFO]     +0 baru | total unik: 1
+2026-07-17 14:38:23,205 [INFO]   [8/9] kantor kecamatan Panceng
+2026-07-17 14:38:23,206 [INFO]   Query: 'kantor kecamatan Panceng' (percobaan 1)
+2026-07-17 14:38:27,047 [INFO]     0 kartu ditemukan
+2026-07-17 14:38:27,047 [INFO]     +0 baru | total unik: 1
+2026-07-17 14:38:29,051 [INFO]   [9/9] kantor kecamatan Ujungpangkah
+2026-07-17 14:38:29,054 [INFO]   Query: 'kantor kecamatan Ujungpangkah' (percobaan 1)
+2026-07-17 14:38:33,718 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:38:33,776 [INFO]     2 kartu ditemukan
+2026-07-17 14:38:34,368 [INFO]     +2 baru | total unik: 3
+2026-07-17 14:38:36,394 [INFO]   Selesai kumpul query. Total unik: 3
+2026-07-17 14:38:36,399 [INFO]   Detail [1/3]: Tahu Jigor Viral Gresik
+2026-07-17 14:38:37,906 [INFO]   Detail [2/3]: Kantor Kecamatan Ujungpangkah
+2026-07-17 14:38:45,751 [INFO]   Detail [3/3]: Ktr. Kec. Ujungpangkah
+2026-07-17 14:38:50,866 [INFO] Tersimpan: data_gresik\kantor_kecamatan.csv (3 baris)
+2026-07-17 14:38:50,871 [INFO] Progress: 5/15 kategori selesai
+2026-07-17 14:38:50,872 [INFO] Selesai 'kantor_kecamatan' dalam 75.7s | 3 lokasi
+2026-07-17 14:38:50,873 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:38:54,886 [INFO] 
+[6/15] Mulai: kantor_desa
+2026-07-17 14:38:54,888 [INFO] 
+=======================================================
+2026-07-17 14:38:54,890 [INFO] KATEGORI: KANTOR_DESA (3 query)
+2026-07-17 14:38:54,891 [INFO] =======================================================
+2026-07-17 14:38:55,103 [INFO]   [1/3] kantor desa Gresik
+2026-07-17 14:38:55,104 [INFO]   Query: 'kantor desa Gresik' (percobaan 1)
+2026-07-17 14:39:20,510 [INFO]     68 kartu ditemukan
+2026-07-17 14:39:24,846 [INFO]     +59 baru | total unik: 59
+2026-07-17 14:39:26,859 [INFO]   [2/3] kantor kelurahan Gresik
+2026-07-17 14:39:26,859 [INFO]   Query: 'kantor kelurahan Gresik' (percobaan 1)
+2026-07-17 14:39:51,092 [INFO]     68 kartu ditemukan
+2026-07-17 14:39:54,682 [INFO]     +37 baru | total unik: 96
+2026-07-17 14:39:56,691 [INFO]   [3/3] balai desa Gresik
+2026-07-17 14:39:56,692 [INFO]   Query: 'balai desa Gresik' (percobaan 1)
+2026-07-17 14:40:20,231 [INFO]     68 kartu ditemukan
+2026-07-17 14:40:23,769 [INFO]     +40 baru | total unik: 136
+2026-07-17 14:40:25,770 [INFO]   Selesai kumpul query. Total unik: 136
+2026-07-17 14:40:25,771 [INFO]   Detail [1/136]: Kantor Kepala Desa Randuagung
+2026-07-17 14:40:30,080 [INFO]   Detail [2/136]: Kantor Desa Sekarkurung
+2026-07-17 14:40:34,269 [INFO]   Detail [3/136]: Kantor Desa Kembangan
+2026-07-17 14:40:37,961 [INFO]   Detail [4/136]: Kantor Desa Yosowilangun
+2026-07-17 14:40:41,632 [INFO]   Detail [5/136]: Kantor Desa Giri
+2026-07-17 14:40:45,457 [INFO]   Detail [6/136]: Kantor Kepala Desa Sukomulyo
+2026-07-17 14:40:49,118 [INFO]   Detail [7/136]: Kantor Desa Suci
+2026-07-17 14:40:52,733 [INFO]   Detail [8/136]: Kantor Kepala Desa Ngargosari
+2026-07-17 14:40:56,450 [INFO]   Detail [9/136]: Kelurahan Grebek Kebomas
+2026-07-17 14:41:00,153 [INFO]   Detail [10/136]: Kantor Desa Klangonan
+2026-07-17 14:41:03,862 [INFO]   Detail [11/136]: Kantor Desa Sidorukun
+2026-07-17 14:41:07,591 [INFO]   Detail [12/136]: Kantor Desa Sidomukti
+2026-07-17 14:41:11,365 [INFO]   Detail [13/136]: Kantor Kepala Desa Pongangan
+2026-07-17 14:41:15,017 [INFO]   Detail [14/136]: Kantor Desa Segoromadu
+2026-07-17 14:41:18,657 [INFO]   Detail [15/136]: Kantor Kepala Desa Dahanrejo
+2026-07-17 14:41:22,458 [INFO]   Detail [16/136]: Pemkab Gresik Desa Gapurosukolilo
+2026-07-17 14:41:26,407 [INFO]   Detail [17/136]: Kantor Bupati Gresik
+2026-07-17 14:41:30,180 [INFO]   Detail [18/136]: Kantor Desa Kebomas
+2026-07-17 14:41:34,001 [INFO]   Detail [19/136]: Kantor Desa Banjarsari
+2026-07-17 14:41:37,670 [INFO]   Detail [20/136]: Balai Desa Randuagung
+2026-07-17 14:41:41,415 [INFO]   Detail [21/136]: Kantor Desa Kramatinggil
+2026-07-17 14:41:45,091 [INFO]   Detail [22/136]: Kantor Kelurahan Ngipik
+2026-07-17 14:41:48,815 [INFO]   Detail [23/136]: Kantor Kecamatan Gresik
+2026-07-17 14:41:52,459 [INFO]   Detail [24/136]: Kantor Kecamatan Kebomas
+2026-07-17 14:41:56,200 [INFO]   Detail [25/136]: Kantor Desa Gapurosukolilo Gresik
+2026-07-17 14:41:59,901 [INFO]   Detail [26/136]: Kantor Desa Sukorejo Kecamatan Kebomas
+2026-07-17 14:42:03,540 [INFO]   Detail [27/136]: Kantor Desa Karangkiring
+2026-07-17 14:42:07,217 [INFO]   Detail [28/136]: kantor Kelurahan Singosari
+2026-07-17 14:42:11,073 [INFO]   Detail [29/136]: Dinas Pemberdayaan Masyarakat dan Desa Kabupaten Gresik
+2026-07-17 14:42:14,916 [INFO]   Detail [30/136]: Kantor Desa Pulopancikan
+2026-07-17 14:42:18,750 [INFO]   Detail [31/136]: Kantor Kelurahan Sidokumpul
+2026-07-17 14:42:22,440 [INFO]   Detail [32/136]: BALAI DESA KLANGONAN
+2026-07-17 14:42:26,388 [INFO]   Detail [33/136]: Kantor Kelurahan Kebomas
+2026-07-17 14:42:30,286 [INFO]   Detail [34/136]: Kantor Desa Prambangan
+2026-07-17 14:42:34,244 [INFO]   Detail [35/136]: Kantor Kelurahan Gulomantung
+2026-07-17 14:42:38,491 [INFO]   Detail [36/136]: Kantor Badan Usaha Milik Desa
+2026-07-17 14:42:43,280 [INFO]   Detail [37/136]: Kejaksaan Negeri Gresik
+2026-07-17 14:42:47,473 [INFO]   Detail [38/136]: Kantor Kelurahan Ngargosari
+2026-07-17 14:42:52,946 [INFO]   Detail [39/136]: Kantor Pos Gresik
+2026-07-17 14:42:57,984 [INFO]   Detail [40/136]: Kantor Pusat Kawasan Industri Gresik
+2026-07-17 14:43:02,610 [INFO]   Detail [41/136]: Balai Desa Roomo
+2026-07-17 14:43:08,795 [INFO]   Detail [42/136]: Kantor Kepala Desa Gapuro Sukolilo
+2026-07-17 14:43:28,143 [INFO]   Detail [43/136]: Badan Pusat Statistik Kabupaten Gresik
+2026-07-17 14:43:35,159 [INFO]   Detail [44/136]: Kantor Desa Padeg
+2026-07-17 14:43:38,558 [INFO]   Detail [45/136]: Kantor Desa Ambeng-Ambeng Watangrejo
+2026-07-17 14:43:45,547 [INFO]   Detail [46/136]: Balai Desa Kedanyang
+2026-07-17 14:43:49,212 [INFO]   Detail [47/136]: Kantor Pengawasan dan Pelayanan Bea Dan Cukai Gresik
+2026-07-17 14:43:53,273 [INFO]   Detail [48/136]: LKD Desa Suci
+2026-07-17 14:43:57,163 [INFO]   Detail [49/136]: Kantor Kepala Desa Manyarejo
+2026-07-17 14:44:18,723 [INFO]   Detail [50/136]: Kantor Kelurahan Kebungson
+2026-07-17 14:44:40,249 [INFO]   Detail [51/136]: Kantor Desa Semampir
+2026-07-17 14:44:50,066 [INFO]   Detail [52/136]: Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik
+2026-07-17 14:44:53,742 [INFO]   Detail [53/136]: Kantor Badan Pendapatan Pengelolaan Keuangan dan Aset Daerah "BPPKAD" Kab. Gresik
+2026-07-17 14:44:57,356 [INFO]   Detail [54/136]: Kantor BPD desa Roomo
+2026-07-17 14:45:01,150 [INFO]   Detail [55/136]: KANTOR KEPALA Desa TAMBAK BERAS No. 09
+2026-07-17 14:45:04,805 [INFO]   Detail [56/136]: Kantor Badan Permusyawaratan Desa ( BPD) Gapurosukolilo
+2026-07-17 14:45:08,441 [INFO]   Detail [57/136]: Kantor Desa Manyarrejo Baru
+2026-07-17 14:45:12,153 [INFO]   Detail [58/136]: Kantor kepala desa cerme lor
+2026-07-17 14:45:15,880 [INFO]   Detail [59/136]: Balai Desa Kroman
+2026-07-17 14:45:19,563 [INFO]   Detail [60/136]: Kantor Kelurahan Kawisanyar
+2026-07-17 14:45:23,314 [INFO]   Detail [61/136]: Kantor Kelurahan Karangturi
+2026-07-17 14:45:27,106 [INFO]   Detail [62/136]: Kantor Kelurahan Sidomoro
+2026-07-17 14:45:30,780 [INFO]   Detail [63/136]: Kantor Kelurahan Tlogopatut
+2026-07-17 14:45:34,604 [INFO]   Detail [64/136]: Kelurahan Sidomukti
+2026-07-17 14:45:38,354 [INFO]   Detail [65/136]: Kantor Kelurahan Pekauman
+2026-07-17 14:45:42,338 [INFO]   Detail [66/136]: Kantor KELURAHAN lumpur
+2026-07-17 14:45:46,097 [INFO]   Detail [67/136]: Kantor kelurahan kemuteran
+2026-07-17 14:45:49,839 [INFO]   Detail [68/136]: Kantor Kelurahan Indro
+2026-07-17 14:45:54,071 [INFO]   Detail [69/136]: Kantor Kelurahan Karangpoh
+2026-07-17 14:45:57,974 [INFO]   Detail [70/136]: KANTOR KELURAHAN TRATE
+2026-07-17 14:46:01,971 [INFO]   Detail [71/136]: Kantor Kelurahan Tlogopojok
+2026-07-17 14:46:05,651 [INFO]   Detail [72/136]: Kelurahan Gending
+2026-07-17 14:46:09,381 [INFO]   Detail [73/136]: Kantor Kelurahan Pekelingan
+2026-07-17 14:46:13,170 [INFO]   Detail [74/136]: Kelurahan Kroman
+2026-07-17 14:46:16,890 [INFO]   Detail [75/136]: Kantor Kelurahan Tenggulunan
+2026-07-17 14:46:20,567 [INFO]   Detail [76/136]: Kantor Kelurahan Sukodono
+2026-07-17 14:46:24,325 [INFO]   Detail [77/136]: KANTOR KELURAHAN KROMAN
+2026-07-17 14:46:28,078 [INFO]   Detail [78/136]: KPP Pratama Gresik
+2026-07-17 14:46:31,914 [INFO]   Detail [79/136]: Posbankum Kelurahan Bedilan Gresik
+2026-07-17 14:46:35,658 [INFO]   Detail [80/136]: BPBD Gresik
+2026-07-17 14:46:39,380 [INFO]   Detail [81/136]: Kantor Kelurahan Bedilan
+2026-07-17 14:46:42,998 [INFO]   Detail [82/136]: KPP Madya Gresik
+2026-07-17 14:46:46,749 [INFO]   Detail [83/136]: Mall Pelayanan Publik Kabupaten Gresik
+2026-07-17 14:46:50,483 [INFO]   Detail [84/136]: POSBANKUM KELURAHAN TRATE
+2026-07-17 14:46:54,276 [INFO]   Detail [85/136]: Posbankum Kelurahan Kemuteran
+2026-07-17 14:46:58,146 [INFO]   Detail [86/136]: Posbankum Kantor Kelurahan Lumpur
+2026-07-17 14:47:01,871 [INFO]   Detail [87/136]: Kantor Kelurahan Peganden
+2026-07-17 14:47:05,650 [INFO]   Detail [88/136]: Posbankum Kelurahan Sidomukti
+2026-07-17 14:47:09,327 [INFO]   Detail [89/136]: Puskesmas Kebomas
+2026-07-17 14:47:13,054 [INFO]   Detail [90/136]: Kampung KB Kelurahan Indro
+2026-07-17 14:47:16,935 [INFO]   Detail [91/136]: Bank Woori Saudara KCP Gresik
+2026-07-17 14:47:20,764 [INFO]   Detail [92/136]: Badan Perencanaan Pembangunan, Penelitian dan Pengembangan Daerah Kabupaten Gresik
+2026-07-17 14:47:24,433 [INFO]   Detail [93/136]: kelurahan Pekelingan
+2026-07-17 14:47:28,151 [INFO]   Detail [94/136]: Dinas Pendidikan Kabupaten Gresik
+2026-07-17 14:47:31,878 [INFO]   Detail [95/136]: Dinas Tenaga Kerja Kabupaten Gresik
+2026-07-17 14:47:35,513 [INFO]   Detail [96/136]: Kampung KB Kelurahan DAHANREJO
+2026-07-17 14:47:39,224 [INFO]   Detail [97/136]: POSBANKUM DESA RANDUAGUNG
+2026-07-17 14:47:42,943 [INFO]   Detail [98/136]: Balai Rw 08 Dusun Sumber Desa Kembangan
+2026-07-17 14:47:46,700 [INFO]   Detail [99/136]: Balai RW 2 desa kembangan, kebomas Gresik
+2026-07-17 14:47:50,445 [INFO]   Detail [100/136]: Balai Desa Sukorejo
+2026-07-17 14:47:54,283 [INFO]   Detail [101/136]: Balai Griya Warga RW 7 Desa Randuagung
+2026-07-17 14:47:57,984 [INFO]   Detail [102/136]: Balai RW 01 Kembangan
+2026-07-17 14:48:01,641 [INFO]   Detail [103/136]: Balai RW VII Desa Yosowilangun
+2026-07-17 14:48:05,426 [INFO]   Detail [104/136]: POSBANKUM DESA SEKARKURUNG
+2026-07-17 14:48:09,127 [INFO]   Detail [105/136]: BALAI RW 06 PRUM GKGA DESA KEDANYANG
+2026-07-17 14:48:12,778 [INFO]   Detail [106/136]: Balai Desa Banjarsari
+2026-07-17 14:48:16,418 [INFO]   Detail [107/136]: Gresik Kota Baru
+2026-07-17 14:48:20,298 [INFO]   Detail [108/136]: DESA TAPELAN
+2026-07-17 14:48:23,933 [INFO]   Detail [109/136]: Balai Warga Perumahan Pongangan Indah
+2026-07-17 14:48:27,838 [INFO]   Detail [110/136]: Balai Desa Maindu
+2026-07-17 14:48:31,851 [INFO]   Detail [111/136]: BALAI POSYANDU RW.006 DESA YOSOWILANGUN
+2026-07-17 14:48:35,582 [INFO]   Detail [112/136]: Balai Desa Tlogobendung
+2026-07-17 14:48:39,620 [INFO]   Detail [113/136]: Balai Desa Tebalo
+2026-07-17 14:48:43,729 [INFO]   Detail [114/136]: Balai Keling Kroman
+2026-07-17 14:48:47,367 [INFO]   Detail [115/136]: Balai Desa Peganden
+2026-07-17 14:48:51,141 [INFO]   Detail [116/136]: DESA TEBALO
+2026-07-17 14:48:54,900 [INFO]   Detail [117/136]: POSBANKUM SAYYID JA'FAR DESA LERAN
+2026-07-17 14:48:58,836 [INFO]   Detail [118/136]: POSBANKUM DESA KLANGONAN
+2026-07-17 14:49:02,607 [INFO]   Detail [119/136]: GSG Desa Sukorejo
+2026-07-17 14:49:06,252 [INFO]   Detail [120/136]: Balai RW 04 sidomoro
+2026-07-17 14:49:10,073 [INFO]   Detail [121/136]: Balai Desa Sidomukti Manyar
+2026-07-17 14:49:13,682 [INFO]   Detail [122/136]: KIM Pongangan
+2026-07-17 14:49:17,678 [INFO]   Detail [123/136]: POSBANKUM DESA BANJARSARI
+2026-07-17 14:49:21,349 [INFO]   Detail [124/136]: Balai RW 02 Desa Kramat Sidorukun
+2026-07-17 14:49:25,123 [INFO]   Detail [125/136]: Balai Desa Lama Manyarejo Manyar
+2026-07-17 14:49:28,760 [INFO]   Detail [126/136]: Balai Desa Leran
+2026-07-17 14:49:32,543 [INFO]   Detail [127/136]: POS BANTUAN HUKUM DESA SUKOMULYO
+2026-07-17 14:49:36,208 [INFO]   Detail [128/136]: Posbankum Desa Sukorejo
+2026-07-17 14:49:39,979 [INFO]   Detail [129/136]: POSBANKUM KELURAHAN KARANGTURI
+2026-07-17 14:49:43,809 [INFO]   Detail [130/136]: Balai pertemuan Dahanrejo Lor
+2026-07-17 14:49:47,720 [INFO]   Detail [131/136]: Belakang kantor balai desa sidorukun
+2026-07-17 14:49:51,468 [INFO]   Detail [132/136]: Balai pertemuan Dusun Betiring
+2026-07-17 14:49:55,147 [INFO]   Detail [133/136]: Posbankum Desa Segoromadu
+2026-07-17 14:49:59,099 [INFO]   Detail [134/136]: Posbakum Desa Dahanrejo
+2026-07-17 14:50:02,815 [INFO]   Detail [135/136]: UPTD-BLK DISNAKER Kabupaten Gresik
+2026-07-17 14:50:06,610 [INFO]   Detail [136/136]: POSBANKUM BERINGIN DESA SIDORUKUN
+2026-07-17 14:50:10,549 [INFO] Tersimpan: data_gresik\kantor_desa.csv (136 baris)
+2026-07-17 14:50:10,552 [INFO] Progress: 6/15 kategori selesai
+2026-07-17 14:50:10,553 [INFO] Selesai 'kantor_desa' dalam 675.7s | 136 lokasi
+2026-07-17 14:50:10,553 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:50:14,568 [INFO] 
+[7/15] Mulai: bank
+2026-07-17 14:50:14,569 [INFO] 
+=======================================================
+2026-07-17 14:50:14,569 [INFO] KATEGORI: BANK (6 query)
+2026-07-17 14:50:14,569 [INFO] =======================================================
+2026-07-17 14:50:14,799 [INFO]   [1/6] bank BRI Gresik
+2026-07-17 14:50:14,800 [INFO]   Query: 'bank BRI Gresik' (percobaan 1)
+2026-07-17 14:50:24,540 [INFO]     Scroll selesai (4 iterasi)
+2026-07-17 14:50:24,594 [INFO]     20 kartu ditemukan
+2026-07-17 14:50:25,592 [INFO]     +18 baru | total unik: 18
+2026-07-17 14:50:27,606 [INFO]   [2/6] bank BNI Gresik
+2026-07-17 14:50:27,607 [INFO]   Query: 'bank BNI Gresik' (percobaan 1)
+2026-07-17 14:50:32,007 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:50:32,024 [INFO]     5 kartu ditemukan
+2026-07-17 14:50:32,277 [INFO]     +5 baru | total unik: 23
+2026-07-17 14:50:34,282 [INFO]   [3/6] bank Mandiri Gresik
+2026-07-17 14:50:34,283 [INFO]   Query: 'bank Mandiri Gresik' (percobaan 1)
+2026-07-17 14:50:38,812 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:50:38,824 [INFO]     4 kartu ditemukan
+2026-07-17 14:50:39,071 [INFO]     +4 baru | total unik: 27
+2026-07-17 14:50:41,081 [INFO]   [4/6] bank BCA Gresik
+2026-07-17 14:50:41,081 [INFO]   Query: 'bank BCA Gresik' (percobaan 1)
+2026-07-17 14:50:45,232 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:50:45,247 [INFO]     4 kartu ditemukan
+2026-07-17 14:50:45,520 [INFO]     +4 baru | total unik: 31
+2026-07-17 14:50:47,534 [INFO]   [5/6] bank Jatim Gresik
+2026-07-17 14:50:47,535 [INFO]   Query: 'bank Jatim Gresik' (percobaan 1)
+2026-07-17 14:50:51,674 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:50:51,686 [INFO]     7 kartu ditemukan
+2026-07-17 14:50:52,034 [INFO]     +7 baru | total unik: 38
+2026-07-17 14:50:54,037 [INFO]   [6/6] bank BTN Gresik
+2026-07-17 14:50:54,038 [INFO]   Query: 'bank BTN Gresik' (percobaan 1)
+2026-07-17 14:50:58,240 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 14:50:58,257 [INFO]     4 kartu ditemukan
+2026-07-17 14:50:58,576 [INFO]     +4 baru | total unik: 42
+2026-07-17 14:51:00,584 [INFO]   Selesai kumpul query. Total unik: 42
+2026-07-17 14:51:00,584 [INFO]   Detail [1/42]: Bank BRI KCP Gresik
+2026-07-17 14:51:04,761 [INFO]   Detail [2/42]: BRI Cabang Gresik
+2026-07-17 14:51:08,996 [INFO]   Detail [3/42]: Bank Bri
+2026-07-17 14:51:12,828 [INFO]   Detail [4/42]: BANK BRI Unit Kartini
+2026-07-17 14:51:16,568 [INFO]   Detail [5/42]: Bank BRI Unit Sukomulyo Agung
+2026-07-17 14:51:20,233 [INFO]   Detail [6/42]: Bank BRI Unit Multiplaza
+2026-07-17 14:51:23,981 [INFO]   Detail [7/42]: Bank BRI CRM - BRI UNIT KEMBANGAN
+2026-07-17 14:51:27,728 [INFO]   Detail [8/42]: Bank BRI UNIT Manyar Gresik
+2026-07-17 14:51:31,442 [INFO]   Detail [9/42]: Bank BRI ATM - GRESS MALL GRESIK
+2026-07-17 14:51:35,264 [INFO]   Detail [10/42]: ATM BRI
+2026-07-17 14:51:38,930 [INFO]   Detail [11/42]: Bank BRI CRM - KCP GRESIK KOTA
+2026-07-17 14:51:42,634 [INFO]   Detail [12/42]: Bank BRI ATM - UNIT KEMBANGAN GRESIK
+2026-07-17 14:51:46,274 [INFO]   Detail [13/42]: Bank BRI ATM - KAWASAN INDUSTRI GRESIK
+2026-07-17 14:51:50,022 [INFO]   Detail [14/42]: Bank BRI ATM - ICON MALL GRESIK
+2026-07-17 14:51:53,765 [INFO]   Detail [15/42]: Bank BRI CRM - UNIT MULTI PLAZA
+2026-07-17 14:51:57,716 [INFO]   Detail [16/42]: Bank BRI ATM - UNIT BRI KARTINI
+2026-07-17 14:52:01,587 [INFO]   Detail [17/42]: BANK BRI ATM
+2026-07-17 14:52:05,279 [INFO]   Detail [18/42]: Bank BRI ATM - PT PCS GRESIK
+2026-07-17 14:52:08,963 [INFO]   Detail [19/42]: Bank BNI Cabang Gresik
+2026-07-17 14:52:12,760 [INFO]   Detail [20/42]: BNI 46 Kartini
+2026-07-17 14:52:16,560 [INFO]   Detail [21/42]: BNI PETROKIMIA GRESIK
+2026-07-17 14:52:20,260 [INFO]   Detail [22/42]: Bank BNI
+2026-07-17 14:52:23,995 [INFO]   Detail [23/42]: BANK BNI GREEN GARDEN GRESIK
+2026-07-17 14:52:27,644 [INFO]   Detail [24/42]: Bank Mandiri Gresik
+2026-07-17 14:52:31,311 [INFO]   Detail [25/42]: Bank Mandiri Gresik Petrokimia
+2026-07-17 14:52:34,992 [INFO]   Detail [26/42]: Bank Mandiri Usman Sadar
+2026-07-17 14:52:38,783 [INFO]   Detail [27/42]: Bank Mandiri Gedung Utama Semen Gresik
+2026-07-17 14:52:42,675 [INFO]   Detail [28/42]: BCA KCP Gresik
+2026-07-17 14:52:46,702 [INFO]   Detail [29/42]: BCA KCU GRESIK
+2026-07-17 14:52:50,583 [INFO]   Detail [30/42]: BCA KCP Gresik Kota Baru
+2026-07-17 14:52:54,333 [INFO]   Detail [31/42]: ANT Bank BCA 896-AJBS Gresik
+2026-07-17 14:52:57,964 [INFO]   Detail [32/42]: Bank Jatim KC Gresik
+2026-07-17 14:53:01,668 [INFO]   Detail [33/42]: Bank Jatim GKB
+2026-07-17 14:53:05,333 [INFO]   Detail [34/42]: Bank Jatim Cabang Syariah Gresik
+2026-07-17 14:53:09,100 [INFO]   Detail [35/42]: Bank Jatim Syariah PP UMG
+2026-07-17 14:53:12,777 [INFO]   Detail [36/42]: Bank Jatim Atm PP UMG
+2026-07-17 14:53:16,573 [INFO]   Detail [37/42]: Bank Jatim KK Suci
+2026-07-17 14:53:20,407 [INFO]   Detail [38/42]: Bank UMKM Jatim KC Gresik
+2026-07-17 14:53:24,327 [INFO]   Detail [39/42]: Bank BTN
+2026-07-17 14:53:28,041 [INFO]   Detail [40/42]: Bank BTN Cabang Gresik
+2026-07-17 14:53:31,901 [INFO]   Detail [41/42]: BTPN KCP Gresik
+2026-07-17 14:53:35,613 [INFO]   Detail [42/42]: BSN KCP Gresik
+2026-07-17 14:53:39,606 [INFO] Tersimpan: data_gresik\bank.csv (42 baris)
+2026-07-17 14:53:39,607 [INFO] Progress: 7/15 kategori selesai
+2026-07-17 14:53:39,608 [INFO] Selesai 'bank' dalam 205.0s | 42 lokasi
+2026-07-17 14:53:39,608 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 14:53:43,620 [INFO] 
+[8/15] Mulai: atm
+2026-07-17 14:53:43,621 [INFO] 
+=======================================================
+2026-07-17 14:53:43,622 [INFO] KATEGORI: ATM (3 query)
+2026-07-17 14:53:43,622 [INFO] =======================================================
+2026-07-17 14:53:43,763 [INFO]   [1/3] ATM BRI Gresik
+2026-07-17 14:53:43,764 [INFO]   Query: 'ATM BRI Gresik' (percobaan 1)
+2026-07-17 14:54:08,295 [INFO]     68 kartu ditemukan
+2026-07-17 14:54:16,867 [INFO]     +56 baru | total unik: 56
+2026-07-17 14:54:18,876 [INFO]   [2/3] ATM BNI Gresik
+2026-07-17 14:54:18,877 [INFO]   Query: 'ATM BNI Gresik' (percobaan 1)
+2026-07-17 14:57:47,960 [INFO]     68 kartu ditemukan
+2026-07-17 14:57:54,629 [INFO]     +50 baru | total unik: 106
+2026-07-17 14:57:56,645 [INFO]   [3/3] ATM Mandiri Gresik
+2026-07-17 14:57:56,646 [INFO]   Query: 'ATM Mandiri Gresik' (percobaan 1)
+2026-07-17 14:58:21,290 [INFO]     68 kartu ditemukan
+2026-07-17 14:58:26,988 [INFO]     +52 baru | total unik: 158
+2026-07-17 14:58:28,996 [INFO]   Selesai kumpul query. Total unik: 158
+2026-07-17 14:58:28,997 [INFO]   Detail [1/158]: ATM BRI
+2026-07-17 14:58:34,844 [INFO]   Detail [2/158]: Bank BRI CRM - BRI UNIT KEMBANGAN
+2026-07-17 14:58:39,563 [INFO]   Detail [3/158]: Bank Bri
+2026-07-17 14:58:43,516 [INFO]   Detail [4/158]: Bank BRI ATM - GRESS MALL GRESIK
+2026-07-17 14:58:47,541 [INFO]   Detail [5/158]: ATM BANK BRI
+2026-07-17 14:58:51,432 [INFO]   Detail [6/158]: BANK BRI Unit Kartini
+2026-07-17 14:58:55,391 [INFO]   Detail [7/158]: Bank BRI ATM - KAWASAN INDUSTRI GRESIK
+2026-07-17 14:58:59,606 [INFO]   Detail [8/158]: BRI Cabang Gresik
+2026-07-17 14:59:03,270 [INFO]   Detail [9/158]: Bank BRI ATM - UNIT KEMBANGAN GRESIK
+2026-07-17 14:59:07,177 [INFO]   Detail [10/158]: Bank BRI KCP Gresik
+2026-07-17 14:59:11,065 [INFO]   Detail [11/158]: Agen Brilink Arjuno
+2026-07-17 14:59:14,712 [INFO]   Detail [12/158]: BANK BRI ATM
+2026-07-17 14:59:18,383 [INFO]   Detail [13/158]: Bank BRI ATM - ICON MALL GRESIK
+2026-07-17 14:59:22,051 [INFO]   Detail [14/158]: Bank BRI ATM - UNIT BRI KARTINI
+2026-07-17 14:59:25,707 [INFO]   Detail [15/158]: ATM BRI RSSG
+2026-07-17 14:59:29,432 [INFO]   Detail [16/158]: Agen Brilink
+2026-07-17 14:59:33,289 [INFO]   Detail [17/158]: Bank BRI ATM - PONDOK PERMATA SUCI
+2026-07-17 14:59:37,203 [INFO]   Detail [18/158]: Bank BRI ATM - INDOMARET KEDANYANG
+2026-07-17 14:59:41,006 [INFO]   Detail [19/158]: Bank BRI ATM - PT PCS GRESIK
+2026-07-17 14:59:44,790 [INFO]   Detail [20/158]: Bank BRI CRM - KCP GRESIK KOTA
+2026-07-17 14:59:48,722 [INFO]   Detail [21/158]: ATM BCA Alfamart Kembangan
+2026-07-17 14:59:52,726 [INFO]   Detail [22/158]: Bank BRI Unit Sukomulyo Agung
+2026-07-17 14:59:56,533 [INFO]   Detail [23/158]: Agen Brilink Toko Puspita
+2026-07-17 15:00:00,206 [INFO]   Detail [24/158]: ATM BRI Indomaret
+2026-07-17 15:00:03,871 [INFO]   Detail [25/158]: Agen Brilink Toko Dian Berkah
+2026-07-17 15:00:07,518 [INFO]   Detail [26/158]: Atm Bri
+2026-07-17 15:00:11,258 [INFO]   Detail [27/158]: AGEN BRILink ERMUAJI
+2026-07-17 15:00:15,081 [INFO]   Detail [28/158]: Bank BRI Unit Multiplaza
+2026-07-17 15:00:18,876 [INFO]   Detail [29/158]: AGEN BRILink HERI SAIFUDIN (TOKO BANGKA)
+2026-07-17 15:00:22,633 [INFO]   Detail [30/158]: AGEN BRILink AIR RAHMAT
+2026-07-17 15:00:26,371 [INFO]   Detail [31/158]: Agen Brilink Hudiyono
+2026-07-17 15:00:30,480 [INFO]   Detail [32/158]: Agen Brilink Rosyid
+2026-07-17 15:00:34,202 [INFO]   Detail [33/158]: AGEN BRILink FAUZIYAH
+2026-07-17 15:00:37,891 [INFO]   Detail [34/158]: Bank BRI CRM - UNIT MULTI PLAZA
+2026-07-17 15:00:41,634 [INFO]   Detail [35/158]: Bank BRI ATM - INDOMARET PONGANGAN
+2026-07-17 15:00:45,331 [INFO]   Detail [36/158]: Teras Bri
+2026-07-17 15:00:49,076 [INFO]   Detail [37/158]: Galeri ATM
+2026-07-17 15:00:52,760 [INFO]   Detail [38/158]: AGEN BRILink Rimba Barokah
+2026-07-17 15:00:56,358 [INFO]   Detail [39/158]: ATM BNI GIANT GKB
+2026-07-17 15:01:00,074 [INFO]   Detail [40/158]: Bank BRI ATM - UNIT BRI MANYAR GRESIK
+2026-07-17 15:01:04,133 [INFO]   Detail [41/158]: Bank BRI UNIT Manyar Gresik
+2026-07-17 15:01:07,833 [INFO]   Detail [42/158]: AGEN BRILink NAFSIYAH
+2026-07-17 15:01:11,447 [INFO]   Detail [43/158]: ATM Bank Syariah Indonesia
+2026-07-17 15:01:15,119 [INFO]   Detail [44/158]: kios ATM
+2026-07-17 15:01:18,754 [INFO]   Detail [45/158]: Agen BRILink FIRSYA COLLECTION
+2026-07-17 15:01:22,868 [INFO]   Detail [46/158]: Warug kopi Coklat & BRILINK
+2026-07-17 15:01:27,454 [INFO]   Detail [47/158]: AGEN BRILink PKPRI KABUPATEN GRESIK
+2026-07-17 15:01:31,562 [INFO]   Detail [48/158]: ATM Bank BTN
+2026-07-17 15:01:36,038 [INFO]   Detail [49/158]: AGEN BRILink KOPERASI MIFTAHUL HUDA
+2026-07-17 15:01:40,047 [INFO]   Detail [50/158]: ATM - KK RS. PETROKIMIA GRESIK
+2026-07-17 15:01:44,171 [INFO]   Detail [51/158]: ATM Muamalat PT. Barata Indonesia
+2026-07-17 15:01:48,080 [INFO]   Detail [52/158]: AGEN BRILink STUDIO WARKOP
+2026-07-17 15:01:52,117 [INFO]   Detail [53/158]: Agen BRI LINK Rubyati
+2026-07-17 15:01:55,905 [INFO]   Detail [54/158]: ATM BRI Indomaret Cerme
+2026-07-17 15:01:59,729 [INFO]   Detail [55/158]: Bank BRI ATM - UNIT BRI CERME
+2026-07-17 15:02:03,589 [INFO]   Detail [56/158]: Teras Pasar BRI Cerme
+2026-07-17 15:02:07,374 [INFO]   Detail [57/158]: ATM BNI PERUM GKA
+2026-07-17 15:02:11,354 [INFO]   Detail [58/158]: ATM BNI
+2026-07-17 15:02:15,263 [INFO]   Detail [59/158]: ATM BNI 46
+2026-07-17 15:02:19,671 [INFO]   Detail [60/158]: ATM BNI SPBU WAHIDIN SUDIRO HUSODO
+2026-07-17 15:02:23,602 [INFO]   Detail [61/158]: Bni wonrd Bank
+2026-07-17 15:02:27,485 [INFO]   Detail [62/158]: ATM BNI Rest Area Kebomas
+2026-07-17 15:02:31,400 [INFO]   Detail [63/158]: ATM BNI KLN JL.KARTINI
+2026-07-17 15:02:35,295 [INFO]   Detail [64/158]: ATM BNI SPBU
+2026-07-17 15:02:39,372 [INFO]   Detail [65/158]: ATM BNI Setor Tunai
+2026-07-17 15:02:43,578 [INFO]   Detail [66/158]: BNI PETROKIMIA GRESIK
+2026-07-17 15:02:47,469 [INFO]   Detail [67/158]: ATM BNI PASAR GRESIK
+2026-07-17 15:02:52,253 [INFO]   Detail [68/158]: ATM BNI KK MANYAR
+2026-07-17 15:02:56,823 [INFO]   Detail [69/158]: Bank BNI Cabang Gresik
+2026-07-17 15:03:01,142 [INFO]   Detail [70/158]: BNI 46 Kartini
+2026-07-17 15:03:06,707 [INFO]   Detail [71/158]: ATM GRESSMALL (BNI, BSI, Mandiri LINK).
+2026-07-17 15:03:11,155 [INFO]   Detail [72/158]: ATM BNI ROOMO
+2026-07-17 15:03:14,989 [INFO]   Detail [73/158]: ATM BNI 2
+2026-07-17 15:03:21,978 [INFO]   Detail [74/158]: BANK BNI GREEN GARDEN GRESIK
+2026-07-17 15:03:26,166 [INFO]   Detail [75/158]: Bank BNI
+2026-07-17 15:03:30,182 [INFO]   Detail [76/158]: ATM BNI PJB
+2026-07-17 15:03:34,270 [INFO]   Detail [77/158]: Bank Mandiri KCP Gresik Kota Baru Sumatera
+2026-07-17 15:03:38,136 [INFO]   Detail [78/158]: ATM BNI PELINDO III
+2026-07-17 15:03:42,810 [INFO]   Detail [79/158]: ATM Center
+2026-07-17 15:03:46,677 [INFO]   Detail [80/158]: Alfamart Dr. Wahidin Kembangan
+2026-07-17 15:03:50,653 [INFO]   Detail [81/158]: BSI (Bank Syariah Indonesia)
+2026-07-17 15:03:54,974 [INFO]   Detail [82/158]: Mandiri ATM Giant SPM Gresik Kota Baru
+2026-07-17 15:03:58,595 [INFO]   Detail [83/158]: ATM Mandiri GKB 3
+2026-07-17 15:04:02,184 [INFO]   Detail [84/158]: BNI Finance Gresik
+2026-07-17 15:04:05,773 [INFO]   Detail [85/158]: ATM CIMB Niaga Gresik Kartini
+2026-07-17 15:04:09,414 [INFO]   Detail [86/158]: ATM Mandiri GSK MM V-MART
+2026-07-17 15:04:13,005 [INFO]   Detail [87/158]: Bank Mandiri Gresik
+2026-07-17 15:04:16,626 [INFO]   Detail [88/158]: Bank Jatim Cabang Syariah Gresik
+2026-07-17 15:04:20,187 [INFO]   Detail [89/158]: Indomaret Sunan Giri
+2026-07-17 15:04:23,860 [INFO]   Detail [90/158]: BANK BNI CERME
+2026-07-17 15:04:27,601 [INFO]   Detail [91/158]: ATM BNI PERTOKOAN BUNGAH
+2026-07-17 15:04:31,305 [INFO]   Detail [92/158]: BANK BNI JIIPE
+2026-07-17 15:04:34,864 [INFO]   Detail [93/158]: Alfamart (V-Mart Swalayan)
+2026-07-17 15:04:38,488 [INFO]   Detail [94/158]: BNI BUNGAH
+2026-07-17 15:04:42,126 [INFO]   Detail [95/158]: ATM BNI KLN BUNGAH
+2026-07-17 15:04:45,827 [INFO]   Detail [96/158]: ATM BNI MENGANTI
+2026-07-17 15:04:49,414 [INFO]   Detail [97/158]: ATM BNI Terminal Teluk Lamong
+2026-07-17 15:04:53,046 [INFO]   Detail [98/158]: ATM BNI dan MANDIRI INDOMARET DUDUKSAMPEYAN
+2026-07-17 15:04:56,657 [INFO]   Detail [99/158]: ATM BNI (spbu benjeng)
+2026-07-17 15:05:00,724 [INFO]   Detail [100/158]: PPOB BNI
+2026-07-17 15:05:04,318 [INFO]   Detail [101/158]: ATM BNI ALUN ALUN SEDAYU
+2026-07-17 15:05:08,091 [INFO]   Detail [102/158]: ATM BNI DUKUN
+2026-07-17 15:05:11,686 [INFO]   Detail [103/158]: BANK BNI MENGANTI
+2026-07-17 15:05:15,316 [INFO]   Detail [104/158]: Bni
+2026-07-17 15:05:18,873 [INFO]   Detail [105/158]: ATM BNI KK DRIYOREJO
+2026-07-17 15:05:22,511 [INFO]   Detail [106/158]: ATM BNI Indomaret Sememi
+2026-07-17 15:05:26,118 [INFO]   Detail [107/158]: ATM Mandiri
+2026-07-17 15:05:29,710 [INFO]   Detail [108/158]: Mandiri ATM KCP Gresik
+2026-07-17 15:05:33,339 [INFO]   Detail [109/158]: ATM Mandiri GSK IM KEMBANGAN
+2026-07-17 15:05:36,962 [INFO]   Detail [110/158]: ATM Mandiri GSK SB GKBSUMATRA
+2026-07-17 15:05:40,548 [INFO]   Detail [111/158]: ATM Mandiri GSK IM WAHIDINKEBOMAS
+2026-07-17 15:05:44,136 [INFO]   Detail [112/158]: atm mandiri
+2026-07-17 15:05:48,247 [INFO]   Detail [113/158]: ATM Bank Mandiri
+2026-07-17 15:05:51,885 [INFO]   Detail [114/158]: ATM Mandiri GSK IM SUNANGIRI
+2026-07-17 15:05:55,482 [INFO]   Detail [115/158]: ATM Mandiri Alfamart Jawa Gresik
+2026-07-17 15:05:59,116 [INFO]   Detail [116/158]: ATM Mandiri GSK RS SEMENGRESIK
+2026-07-17 15:06:02,701 [INFO]   Detail [117/158]: ATM Mandiri GSK ED UNMUH
+2026-07-17 15:06:06,322 [INFO]   Detail [118/158]: Atm mandiri K3PG
+2026-07-17 15:06:09,919 [INFO]   Detail [119/158]: ATM Mandiri GSK ID KIG
+2026-07-17 15:06:13,503 [INFO]   Detail [120/158]: ATM mandiri
+2026-07-17 15:06:17,129 [INFO]   Detail [121/158]: Bank Mandiri Gresik Petrokimia
+2026-07-17 15:06:20,946 [INFO]   Detail [122/158]: ATM Mandiri GSK CB PETROKIMIA
+2026-07-17 15:06:24,538 [INFO]   Detail [123/158]: Bank Mandiri Usman Sadar
+2026-07-17 15:06:28,194 [INFO]   Detail [124/158]: ATM Mandiri GSK MO GRESIK
+2026-07-17 15:06:31,917 [INFO]   Detail [125/158]: Mandiri ATM KPG
+2026-07-17 15:06:35,541 [INFO]   Detail [126/158]: ATM Mandiri GSK MP ICONMALL
+2026-07-17 15:06:39,129 [INFO]   Detail [127/158]: ATM Mandiri GSK GD PETROKOPINDO
+2026-07-17 15:06:42,747 [INFO]   Detail [128/158]: ATM Mandiri GSK MM K-MART CRM
+2026-07-17 15:06:46,358 [INFO]   Detail [129/158]: ATM Mandiri GSK SM SUPERINDOGKB
+2026-07-17 15:06:50,046 [INFO]   Detail [130/158]: ATM Mandiri GSK IM GUBSURYO2
+2026-07-17 15:06:53,665 [INFO]   Detail [131/158]: Bank Mandiri Gedung Utama Semen Gresik
+2026-07-17 15:06:57,580 [INFO]   Detail [132/158]: ATM Mandiri GSK PB KHARISMAENERGY
+2026-07-17 15:07:01,144 [INFO]   Detail [133/158]: PT Bank Mandiri KCP Gresik Manyar
+2026-07-17 15:07:04,729 [INFO]   Detail [134/158]: ATM Mandiri GSK AM DULHASIM
+2026-07-17 15:07:08,377 [INFO]   Detail [135/158]: Mandiri ATM KCP Gresik Kota Baru
+2026-07-17 15:07:11,993 [INFO]   Detail [136/158]: Bank Mandiri Taspen KCP GRESIK
+2026-07-17 15:07:15,586 [INFO]   Detail [137/158]: ATM Mandiri GSK CB KARTINI
+2026-07-17 15:07:19,199 [INFO]   Detail [138/158]: ATM Mandiri GSK CB MMUPASARKOTA
+2026-07-17 15:07:22,866 [INFO]   Detail [139/158]: ATM Mandiri Alfamart
+2026-07-17 15:07:26,438 [INFO]   Detail [140/158]: ATM Mandiri GSK PR CNTROSUNGKNOCRM
+2026-07-17 15:07:30,093 [INFO]   Detail [141/158]: ATM Mandiri GSK IM WAHIDHASYIM
+2026-07-17 15:07:33,949 [INFO]   Detail [142/158]: Mandiri ATM PJB Business
+2026-07-17 15:07:37,593 [INFO]   Detail [143/158]: ATM Mandiri GSK CB GD UTAMSI
+2026-07-17 15:07:41,197 [INFO]   Detail [144/158]: KSU Sumber Dana Mandiri
+2026-07-17 15:07:44,817 [INFO]   Detail [145/158]: ATM Mandiri Indomaret
+2026-07-17 15:07:48,373 [INFO]   Detail [146/158]: ATM Mandiri GSK IM KAPTENDULHASIM
+2026-07-17 15:07:52,057 [INFO]   Detail [147/158]: ATM Mandiri GSK CB GRESIKMANYAR
+2026-07-17 15:07:55,695 [INFO]   Detail [148/158]: Bank Syariah Indonesia KC Gresik Kartini
+2026-07-17 15:07:59,282 [INFO]   Detail [149/158]: ATM Mandiri GSK PR PDKPERMATASUCI
+2026-07-17 15:08:02,880 [INFO]   Detail [150/158]: KOPERASI MAKMUR MANDIRI
+2026-07-17 15:08:06,567 [INFO]   Detail [151/158]: ATM Mandiri GSK IM SUNGKONONANKAI
+2026-07-17 15:08:10,166 [INFO]   Detail [152/158]: ATM Mandiri GSK AM KHSAFII
+2026-07-17 15:08:13,885 [INFO]   Detail [153/158]: ATM Mandiri GSK IM KPTDARMOSGNDO
+2026-07-17 15:08:17,508 [INFO]   Detail [154/158]: ATM Mandiri GSK MP GRESSMALL
+2026-07-17 15:08:21,150 [INFO]   Detail [155/158]: Mandiri Micro Business Unit Gresik Kota Baru
+2026-07-17 15:08:24,766 [INFO]   Detail [156/158]: ATM Mandiri GSK IM EKONOMISAFIR
+2026-07-17 15:08:28,323 [INFO]   Detail [157/158]: ATM Mandiri GSK CB MANYARCRM
+2026-07-17 15:08:32,288 [INFO]   Detail [158/158]: ATM Mandiri GSK ID WILMAR
+2026-07-17 15:08:35,983 [INFO] Tersimpan: data_gresik\atm.csv (158 baris)
+2026-07-17 15:08:35,986 [INFO] Progress: 8/15 kategori selesai
+2026-07-17 15:08:35,986 [INFO] Selesai 'atm' dalam 892.4s | 158 lokasi
+2026-07-17 15:08:35,986 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:08:39,987 [INFO] 
+[9/15] Mulai: spbu
+2026-07-17 15:08:39,987 [INFO] 
+=======================================================
+2026-07-17 15:08:39,987 [INFO] KATEGORI: SPBU (3 query)
+2026-07-17 15:08:39,987 [INFO] =======================================================
+2026-07-17 15:08:40,180 [INFO]   [1/3] SPBU Gresik
+2026-07-17 15:08:40,181 [INFO]   Query: 'SPBU Gresik' (percobaan 1)
+2026-07-17 15:09:03,976 [INFO]     68 kartu ditemukan
+2026-07-17 15:09:08,762 [INFO]     +61 baru | total unik: 61
+2026-07-17 15:09:10,773 [INFO]   [2/3] pom bensin Gresik
+2026-07-17 15:09:10,773 [INFO]   Query: 'pom bensin Gresik' (percobaan 1)
+2026-07-17 15:09:34,261 [INFO]     40 kartu ditemukan
+2026-07-17 15:09:36,420 [INFO]     +12 baru | total unik: 73
+2026-07-17 15:09:38,428 [INFO]   [3/3] Pertamina Gresik
+2026-07-17 15:09:38,429 [INFO]   Query: 'Pertamina Gresik' (percobaan 1)
+2026-07-17 15:10:18,096 [INFO]     68 kartu ditemukan
+2026-07-17 15:10:25,325 [INFO]     +39 baru | total unik: 112
+2026-07-17 15:10:27,341 [INFO]   Selesai kumpul query. Total unik: 112
+2026-07-17 15:10:27,342 [INFO]   Detail [1/112]: SPBU Pertamina 54.611.01
+2026-07-17 15:10:32,494 [INFO]   Detail [2/112]: SPBU 5361137 REST AREA TOL SURABAYA GRESIK
+2026-07-17 15:10:36,680 [INFO]   Detail [3/112]: SPBU Pertamina 54.611.38 Roomo
+2026-07-17 15:10:40,410 [INFO]   Detail [4/112]: SPBU Pertamina 54.611.30
+2026-07-17 15:10:44,126 [INFO]   Detail [5/112]: SPBU Pertamina 54.611.15
+2026-07-17 15:10:48,124 [INFO]   Detail [6/112]: SPBU Pertamina 54.611.04
+2026-07-17 15:10:51,780 [INFO]   Detail [7/112]: SPBU Pertamina 54.611.24
+2026-07-17 15:10:55,440 [INFO]   Detail [8/112]: SPBU Pertamina 54.611.06
+2026-07-17 15:10:59,108 [INFO]   Detail [9/112]: SPBU Roomo
+2026-07-17 15:11:02,768 [INFO]   Detail [10/112]: SPBU Pertamina 54.611.35 Manyar
+2026-07-17 15:11:06,737 [INFO]   Detail [11/112]: SPBU Pertamina 54.611.05
+2026-07-17 15:11:11,021 [INFO]   Detail [12/112]: Shell
+2026-07-17 15:11:15,172 [INFO]   Detail [13/112]: SPBU Pertamina 54.611.20
+2026-07-17 15:11:18,949 [INFO]   Detail [14/112]: SPBU Pertamina 54.611.17 Manyar
+2026-07-17 15:11:22,611 [INFO]   Detail [15/112]: SPBU Pertamina 54.611.25 Tebaloan
+2026-07-17 15:11:26,735 [INFO]   Detail [16/112]: DISTRIBUTOR GAS LPG 12 KG ( ARSY GAS ) GRESIK
+2026-07-17 15:11:30,420 [INFO]   Detail [17/112]: SPBU Mini Al Basyar
+2026-07-17 15:11:34,171 [INFO]   Detail [18/112]: SPBU Pom Bensin Lumpur
+2026-07-17 15:11:37,916 [INFO]   Detail [19/112]: SPBU Mini JA Suprapto
+2026-07-17 15:11:41,615 [INFO]   Detail [20/112]: SPBU Pertamina 54.611.10 Sembayat
+2026-07-17 15:11:45,485 [INFO]   Detail [21/112]: Indomaret SPBU Roomo(TDW6)
+2026-07-17 15:11:49,141 [INFO]   Detail [22/112]: MEM Gresik
+2026-07-17 15:11:52,991 [INFO]   Detail [23/112]: LOBP Gresik Pertamina
+2026-07-17 15:11:56,791 [INFO]   Detail [24/112]: SPBU Mini Jaksa Agung
+2026-07-17 15:12:01,005 [INFO]   Detail [25/112]: ATM BNI SPBU WAHIDIN SUDIRO HUSODO
+2026-07-17 15:12:05,232 [INFO]   Detail [26/112]: SPBU Mini Thamrin
+2026-07-17 15:12:08,994 [INFO]   Detail [27/112]: SPBB 571106
+2026-07-17 15:12:12,912 [INFO]   Detail [28/112]: Green Nitrogen Romo Manyaran Gresik SPBU 5461127
+2026-07-17 15:12:17,247 [INFO]   Detail [29/112]: Shop & Drive - Wahidin, Gresik
+2026-07-17 15:12:21,176 [INFO]   Detail [30/112]: M.S. Gresik PT DPS
+2026-07-17 15:12:25,246 [INFO]   Detail [31/112]: pom sentolang
+2026-07-17 15:12:28,926 [INFO]   Detail [32/112]: MITRA GTWASH GIRI TAMA cuci motor
+2026-07-17 15:12:33,297 [INFO]   Detail [33/112]: Imola Circuit - Toko Velg dan Ban Mobil Gresik
+2026-07-17 15:12:37,258 [INFO]   Detail [34/112]: BYD Haka Gresik
+2026-07-17 15:12:41,427 [INFO]   Detail [35/112]: Maju Putra Ban 4 (CV. Maju Gresik Mandiri - Masuka Tires)
+2026-07-17 15:12:45,486 [INFO]   Detail [36/112]: Yamaha SIP Gresik
+2026-07-17 15:12:50,768 [INFO]   Detail [37/112]: 99 Garage & Carwash
+2026-07-17 15:12:55,297 [INFO]   Detail [38/112]: Koperasi ARSA - Gresik
+2026-07-17 15:13:07,477 [INFO]   Detail [39/112]: Jaya Ban Gresik
+2026-07-17 15:13:11,811 [INFO]   Detail [40/112]: PUNCAK JAYA ACCU TOKO AKI GRESIK 24JAM
+2026-07-17 15:13:16,016 [INFO]   Detail [41/112]: CleanN'go Gresik
+2026-07-17 15:13:21,102 [INFO]   Detail [42/112]: SPBU 5461118 Kemangi Bungah Gresik
+2026-07-17 15:13:25,393 [INFO]   Detail [43/112]: SPBU 54.611.32
+2026-07-17 15:13:29,207 [INFO]   Detail [44/112]: Toko Gestun Gresik
+2026-07-17 15:13:33,783 [INFO]   Detail [45/112]: Shop & Drive - Usman Sadar, Gresik
+2026-07-17 15:13:38,424 [INFO]   Detail [46/112]: SPBU 54-61108 Morowudi
+2026-07-17 15:13:43,212 [INFO]   Detail [47/112]: Olxmobbi Store Gresik
+2026-07-17 15:13:46,984 [INFO]   Detail [48/112]: Spekta Variasi
+2026-07-17 15:13:51,654 [INFO]   Detail [49/112]: Shop & Drive - GKB, Gresik
+2026-07-17 15:13:56,658 [INFO]   Detail [50/112]: Depot Arinda
+2026-07-17 15:14:00,838 [INFO]   Detail [51/112]: Gresik Rental Motor (GRM)
+2026-07-17 15:14:04,919 [INFO]   Detail [52/112]: Kios BHS
+2026-07-17 15:14:08,770 [INFO]   Detail [53/112]: Asia Motor Gresik
+2026-07-17 15:14:12,965 [INFO]   Detail [54/112]: SATPAS SIM Gresik
+2026-07-17 15:14:16,806 [INFO]   Detail [55/112]: AGT Motor Gresik
+2026-07-17 15:14:20,710 [INFO]   Detail [56/112]: Isuzu Gresik ( Authorized Isuzu Dealer - PT BUANA PERKASA PERMAI )
+2026-07-17 15:14:24,618 [INFO]   Detail [57/112]: A3 Green Audio gresik
+2026-07-17 15:14:28,613 [INFO]   Detail [58/112]: BYD Gresik
+2026-07-17 15:14:32,366 [INFO]   Detail [59/112]: pom mini
+2026-07-17 15:14:36,495 [INFO]   Detail [60/112]: Outlet SMILS Warkop MakNyak
+2026-07-17 15:14:40,643 [INFO]   Detail [61/112]: Yamaha Yes Gresik 1
+2026-07-17 15:14:45,365 [INFO]   Detail [62/112]: Pertamini MADINA
+2026-07-17 15:14:49,478 [INFO]   Detail [63/112]: POM Mini H. Faisol
+2026-07-17 15:14:53,494 [INFO]   Detail [64/112]: Mushollah Pom Bensin Petro
+2026-07-17 15:14:57,672 [INFO]   Detail [65/112]: SPBU Pertamina 54.611.07
+2026-07-17 15:15:01,760 [INFO]   Detail [66/112]: SPBU Pertamina 54.611.09
+2026-07-17 15:15:06,046 [INFO]   Detail [67/112]: PERTAMINA
+2026-07-17 15:15:10,381 [INFO]   Detail [68/112]: POM MINI 0726 SS
+2026-07-17 15:15:14,601 [INFO]   Detail [69/112]: Kopi Kenangan - SPBU Pertamina (Gresik)
+2026-07-17 15:15:18,782 [INFO]   Detail [70/112]: Degan Ijo GSK Pak Fata
+2026-07-17 15:15:24,077 [INFO]   Detail [71/112]: SPBU Pertamina 54.611.26
+2026-07-17 15:15:28,267 [INFO]   Detail [72/112]: Toilet Pom Bensin Segoromadu
+2026-07-17 15:15:32,362 [INFO]   Detail [73/112]: SPBE PT.Gerbang Buana Bandung Raya
+2026-07-17 15:15:36,213 [INFO]   Detail [74/112]: PT Pertamina (Persero) - Bitumen Plant Gresik
+2026-07-17 15:15:40,516 [INFO]   Detail [75/112]: Perumahan Pertamina Gresik
+2026-07-17 15:15:44,415 [INFO]   Detail [76/112]: PT. Pertamina Patra Niaga Marketing & Trading Directorate Bitumen Plant Gresik
+2026-07-17 15:15:49,282 [INFO]   Detail [77/112]: Pertamina EP FIELD POLENG
+2026-07-17 15:15:53,295 [INFO]   Detail [78/112]: Pertamina Hulu Energi Tuban East Java (Lengowangi#02)
+2026-07-17 15:15:57,276 [INFO]   Detail [79/112]: PT.PERTAMINA GAS NEGARA Tbk. Offtake Station Gresik
+2026-07-17 15:16:01,637 [INFO]   Detail [80/112]: PT. Pertamina Lubricants
+2026-07-17 15:16:05,724 [INFO]   Detail [81/112]: ORF Pertamina Hulu ENERGI WMO
+2026-07-17 15:16:10,832 [INFO]   Detail [82/112]: Pertamina Gas EJA-GRE Station
+2026-07-17 15:16:14,662 [INFO]   Detail [83/112]: PKG Station Metering Pertamina Gas
+2026-07-17 15:16:18,465 [INFO]   Detail [84/112]: PT.Pertamina Gas Station Metring
+2026-07-17 15:16:22,131 [INFO]   Detail [85/112]: Aspal pertamina
+2026-07-17 15:16:26,282 [INFO]   Detail [86/112]: Lengowangi Gas Plant
+2026-07-17 15:16:30,070 [INFO]   Detail [87/112]: SPBU Pertamina 5461129 Cerme
+2026-07-17 15:16:33,962 [INFO]   Detail [88/112]: PT Gresik Migas
+2026-07-17 15:16:37,853 [INFO]   Detail [89/112]: Perumahan Dinas Pertamina Gresik No.A2
+2026-07-17 15:16:41,619 [INFO]   Detail [90/112]: Metering Station Pertamina Gas
+2026-07-17 15:16:45,459 [INFO]   Detail [91/112]: SPPBE Pertamina
+2026-07-17 15:16:49,402 [INFO]   Detail [92/112]: Rumah Dinas Pertamina
+2026-07-17 15:16:53,245 [INFO]   Detail [93/112]: Kantor Distrik Gresik PT Pertamina Gas OEJA
+2026-07-17 15:16:57,098 [INFO]   Detail [94/112]: PT. Petro Karya Niaga
+2026-07-17 15:17:01,228 [INFO]   Detail [95/112]: PT. Prime Energy Supply
+2026-07-17 15:17:05,047 [INFO]   Detail [96/112]: PT. Petro Jordan Abadi
+2026-07-17 15:17:08,915 [INFO]   Detail [97/112]: aspal pertamina
+2026-07-17 15:17:12,720 [INFO]   Detail [98/112]: Muintan Gemajaya. PT - Distributor Aspall Drum Shell Pertamina
+2026-07-17 15:17:16,469 [INFO]   Detail [99/112]: Tirta Fresh
+2026-07-17 15:17:20,240 [INFO]   Detail [100/112]: Gas Metering Station PT. Gresik Migas
+2026-07-17 15:17:24,220 [INFO]   Detail [101/112]: Mess Pertamina
+2026-07-17 15:17:27,972 [INFO]   Detail [102/112]: PT Energi Nusantara Perkasa
+2026-07-17 15:17:31,918 [INFO]   Detail [103/112]: CV SAOFATH KARUNIA
+2026-07-17 15:17:35,602 [INFO]   Detail [104/112]: PT. NINDYA KARYA
+2026-07-17 15:17:39,488 [INFO]   Detail [105/112]: PT GRESIK GASES INDONESIA
+2026-07-17 15:17:43,641 [INFO]   Detail [106/112]: Pertamina Hulu Energi Tuban East Java (South Bungoh#01)
+2026-07-17 15:17:47,549 [INFO]   Detail [107/112]: Musholah PAG
+2026-07-17 15:17:51,454 [INFO]   Detail [108/112]: BUT. Saka Indonesia Pangkah Limited
+2026-07-17 15:17:55,533 [INFO]   Detail [109/112]: Pertamina Hulu Energi Tuban East Java (Bogomiring)
+2026-07-17 15:17:59,697 [INFO]   Detail [110/112]: SPBU Pertamina 54.611.12 Setrohadi
+2026-07-17 15:18:05,170 [INFO]   Detail [111/112]: Pertamina Hulu Energi Tuban East Java (South Bungoh#02)
+2026-07-17 15:18:09,442 [INFO]   Detail [112/112]: Terminal LPG Maspion
+2026-07-17 15:18:13,768 [INFO] Tersimpan: data_gresik\spbu.csv (112 baris)
+2026-07-17 15:18:13,773 [INFO] Progress: 9/15 kategori selesai
+2026-07-17 15:18:13,773 [INFO] Selesai 'spbu' dalam 573.8s | 112 lokasi
+2026-07-17 15:18:13,773 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:18:17,784 [INFO] 
+[10/15] Mulai: apotek
+2026-07-17 15:18:17,785 [INFO] 
+=======================================================
+2026-07-17 15:18:17,786 [INFO] KATEGORI: APOTEK (3 query)
+2026-07-17 15:18:17,786 [INFO] =======================================================
+2026-07-17 15:18:20,873 [INFO]   [1/3] apotek Gresik
+2026-07-17 15:18:20,874 [INFO]   Query: 'apotek Gresik' (percobaan 1)
+2026-07-17 15:18:46,564 [INFO]     68 kartu ditemukan
+2026-07-17 15:18:53,309 [INFO]     +56 baru | total unik: 56
+2026-07-17 15:18:55,322 [INFO]   [2/3] apotek K24 Gresik
+2026-07-17 15:18:55,323 [INFO]   Query: 'apotek K24 Gresik' (percobaan 1)
+2026-07-17 15:19:00,641 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:19:00,673 [INFO]     7 kartu ditemukan
+2026-07-17 15:19:01,314 [INFO]     +0 baru | total unik: 56
+2026-07-17 15:19:03,323 [INFO]   [3/3] apotek Kimia Farma Gresik
+2026-07-17 15:19:03,323 [INFO]   Query: 'apotek Kimia Farma Gresik' (percobaan 1)
+2026-07-17 15:19:08,112 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:19:08,129 [INFO]     6 kartu ditemukan
+2026-07-17 15:19:08,675 [INFO]     +3 baru | total unik: 59
+2026-07-17 15:19:10,690 [INFO]   Selesai kumpul query. Total unik: 59
+2026-07-17 15:19:10,690 [INFO]   Detail [1/59]: Apotek K-24 GKB Sumatera Gresik
+2026-07-17 15:19:16,262 [INFO]   Detail [2/59]: Apotek K-24 Giri Gresik
+2026-07-17 15:19:20,600 [INFO]   Detail [3/59]: Apotek Kimia Farma GKB Gresik
+2026-07-17 15:19:24,637 [INFO]   Detail [4/59]: Apotek ini farma
+2026-07-17 15:19:30,450 [INFO]   Detail [5/59]: APOTEK JAYAMAHE
+2026-07-17 15:19:34,252 [INFO]   Detail [6/59]: Apotik Mida Farma
+2026-07-17 15:19:38,102 [INFO]   Detail [7/59]: Apotek Brotonegoro
+2026-07-17 15:19:43,259 [INFO]   Detail [8/59]: Apotek K-24 Panglima Sudirman Gresik
+2026-07-17 15:19:47,618 [INFO]   Detail [9/59]: Distributor resmi Garcia
+2026-07-17 15:19:54,741 [INFO]   Detail [10/59]: Apotek Baskara
+2026-07-17 15:19:59,915 [INFO]   Detail [11/59]: Apotek K-24 Dr Sutomo Gresik
+2026-07-17 15:20:05,676 [INFO]   Detail [12/59]: APOTEK KEDANYANG FARMA(BARU)
+2026-07-17 15:20:12,873 [INFO]   Detail [13/59]: Apotek K24 PPS
+2026-07-17 15:20:16,893 [INFO]   Detail [14/59]: Mida Farma
+2026-07-17 15:20:20,929 [INFO]   Detail [15/59]: APOTEK SALSABILA FARMA, KEDANYANG
+2026-07-17 15:20:27,706 [INFO]   Detail [16/59]: Apotek Hidayah Suci
+2026-07-17 15:20:32,209 [INFO]   Detail [17/59]: Mida Farma III Apotik
+2026-07-17 15:20:37,189 [INFO]   Detail [18/59]: Toko Obat "Mitra Sehat"
+2026-07-17 15:20:42,499 [INFO]   Detail [19/59]: APOTEK LEANDRA
+2026-07-17 15:20:46,778 [INFO]   Detail [20/59]: Apotek Banjar Baru
+2026-07-17 15:20:51,181 [INFO]   Detail [21/59]: Apotek Sunan Perapen
+2026-07-17 15:20:55,068 [INFO]   Detail [22/59]: Pemutih Badan Tiens
+2026-07-17 15:20:58,823 [INFO]   Detail [23/59]: Apotik Bhirawa Anoraga
+2026-07-17 15:21:02,597 [INFO]   Detail [24/59]: Apotek K-24 GKB Gresik
+2026-07-17 15:21:11,927 [INFO]   Detail [25/59]: M-PET CLINIC. PET SHOP. PET HOTEL. PET GROOMING (klinik drh. Rika rahmawati /docan)
+2026-07-17 15:21:15,622 [INFO]   Detail [26/59]: BSC Farmasia
+2026-07-17 15:21:20,810 [INFO]   Detail [27/59]: Apotek K-24 Gubernur Suryo Gresik
+2026-07-17 15:21:24,784 [INFO]   Detail [28/59]: Apotek ZamZam
+2026-07-17 15:21:28,586 [INFO]   Detail [29/59]: Apotek Eling
+2026-07-17 15:21:32,216 [INFO]   Detail [30/59]: Tiens Kota Gresik
+2026-07-17 15:21:36,022 [INFO]   Detail [31/59]: Apotek Klinik Satelit Kalimantan
+2026-07-17 15:21:39,614 [INFO]   Detail [32/59]: Yayasan Kesehatan Jiwa Aditama
+2026-07-17 15:21:43,295 [INFO]   Detail [33/59]: APOTEK CIQU
+2026-07-17 15:21:46,901 [INFO]   Detail [34/59]: Apotik Jasa Medika
+2026-07-17 15:21:50,611 [INFO]   Detail [35/59]: Apotek Pangsud Gresik
+2026-07-17 15:21:54,388 [INFO]   Detail [36/59]: Watsons Gress Mall Gresik
+2026-07-17 15:21:58,292 [INFO]   Detail [37/59]: Apotek Samanhudi
+2026-07-17 15:22:02,075 [INFO]   Detail [38/59]: Apotek Kimia Farma Sukomulyo
+2026-07-17 15:22:05,680 [INFO]   Detail [39/59]: Apotek Jagung Suprapto
+2026-07-17 15:22:09,384 [INFO]   Detail [40/59]: Apotek Cipta Medika1
+2026-07-17 15:22:13,104 [INFO]   Detail [41/59]: Fathan Farma
+2026-07-17 15:22:16,718 [INFO]   Detail [42/59]: Apotek Vina Farma
+2026-07-17 15:22:20,326 [INFO]   Detail [43/59]: Apotek satria Bhirawa
+2026-07-17 15:22:24,131 [INFO]   Detail [44/59]: Apotek Sukomulyo
+2026-07-17 15:22:27,740 [INFO]   Detail [45/59]: Tiens.Internasional
+2026-07-17 15:22:32,108 [INFO]   Detail [46/59]: GUARDIAN - Gress Mall Gresik
+2026-07-17 15:22:36,093 [INFO]   Detail [47/59]: Apotek Semen Gresik Veteran
+2026-07-17 15:22:39,878 [INFO]   Detail [48/59]: Apotek Dian Sejahtera
+2026-07-17 15:22:44,021 [INFO]   Detail [49/59]: Apotek Kimia Farma Usman Sadar
+2026-07-17 15:22:47,652 [INFO]   Detail [50/59]: Klinik RS Semen Gresik Veteran
+2026-07-17 15:22:51,258 [INFO]   Detail [51/59]: Apotek Mida Farma PPS
+2026-07-17 15:22:54,939 [INFO]   Detail [52/59]: Kopkar Sinar Giri
+2026-07-17 15:22:58,601 [INFO]   Detail [53/59]: Klinik PPK I PT Petrokimia Gresik
+2026-07-17 15:23:02,322 [INFO]   Detail [54/59]: Apotek Waspada
+2026-07-17 15:23:06,370 [INFO]   Detail [55/59]: Apotek 2 Jayamahe
+2026-07-17 15:23:09,938 [INFO]   Detail [56/59]: APOTEK MUTIARA SYIFA FARMA 2
+2026-07-17 15:23:13,577 [INFO]   Detail [57/59]: Apotek Kimia Farma Kartini
+2026-07-17 15:23:17,164 [INFO]   Detail [58/59]: Klinik Kimia Farma Kartini Gresik
+2026-07-17 15:23:21,119 [INFO]   Detail [59/59]: Apotek Kimia Farma Manyar Gresik
+2026-07-17 15:23:25,573 [INFO] Tersimpan: data_gresik\apotek.csv (59 baris)
+2026-07-17 15:23:25,577 [INFO] Progress: 10/15 kategori selesai
+2026-07-17 15:23:25,578 [INFO] Selesai 'apotek' dalam 307.8s | 59 lokasi
+2026-07-17 15:23:25,578 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:23:29,586 [INFO] 
+[11/15] Mulai: masjid
+2026-07-17 15:23:29,588 [INFO] 
+=======================================================
+2026-07-17 15:23:29,589 [INFO] KATEGORI: MASJID (4 query)
+2026-07-17 15:23:29,589 [INFO] =======================================================
+2026-07-17 15:23:29,753 [INFO]   [1/4] masjid Gresik
+2026-07-17 15:23:29,753 [INFO]   Query: 'masjid Gresik' (percobaan 1)
+2026-07-17 15:23:53,947 [INFO]     60 kartu ditemukan
+2026-07-17 15:23:56,134 [INFO]     +51 baru | total unik: 51
+2026-07-17 15:23:58,140 [INFO]   [2/4] masjid jami Gresik
+2026-07-17 15:23:58,140 [INFO]   Query: 'masjid jami Gresik' (percobaan 1)
+2026-07-17 15:24:01,331 [INFO]     1 kartu ditemukan
+2026-07-17 15:24:01,434 [INFO]     +1 baru | total unik: 52
+2026-07-17 15:24:03,440 [INFO]   [3/4] masjid agung Gresik
+2026-07-17 15:24:03,441 [INFO]   Query: 'masjid agung Gresik' (percobaan 1)
+2026-07-17 15:24:06,788 [INFO]     1 kartu ditemukan
+2026-07-17 15:24:06,898 [INFO]     +1 baru | total unik: 53
+2026-07-17 15:24:08,910 [INFO]   [4/4] musholla Gresik
+2026-07-17 15:24:08,911 [INFO]   Query: 'musholla Gresik' (percobaan 1)
+2026-07-17 15:24:31,989 [INFO]     76 kartu ditemukan
+2026-07-17 15:24:34,307 [INFO]     +62 baru | total unik: 115
+2026-07-17 15:24:36,311 [INFO]   Selesai kumpul query. Total unik: 115
+2026-07-17 15:24:36,313 [INFO]   Detail [1/115]: Masjid Agung Gresik
+2026-07-17 15:24:40,469 [INFO]   Detail [2/115]: Masjid Jami' Gresik
+2026-07-17 15:24:44,559 [INFO]   Detail [3/115]: Masjid Baitul Islah
+2026-07-17 15:24:48,351 [INFO]   Detail [4/115]: Masjid Al Khoory Faqih Usman Universitas Muhammadiyah Gresik
+2026-07-17 15:24:52,475 [INFO]   Detail [5/115]: Masjid Al Khoory Faqih Oesman Gresik
+2026-07-17 15:24:57,270 [INFO]   Detail [6/115]: Masjid KH Ahmad Dahlan
+2026-07-17 15:25:01,879 [INFO]   Detail [7/115]: Masjid Jami' At Taqwa
+2026-07-17 15:25:05,487 [INFO]   Detail [8/115]: Masjid Bayt Al Jabbar
+2026-07-17 15:25:09,319 [INFO]   Detail [9/115]: Masjid Rahmatullah Nusantara II
+2026-07-17 15:25:13,083 [INFO]   Detail [10/115]: Masjid Al Ikhlas Nusantara 1
+2026-07-17 15:25:16,809 [INFO]   Detail [11/115]: MASJID AT TANWIR PDM GRESIK
+2026-07-17 15:25:20,392 [INFO]   Detail [12/115]: Masjid Al Ihsan
+2026-07-17 15:25:24,276 [INFO]   Detail [13/115]: Masjid Al-Ikhlas
+2026-07-17 15:25:27,858 [INFO]   Detail [14/115]: Masjid Sunan Giri GKA
+2026-07-17 15:25:31,488 [INFO]   Detail [15/115]: Masjid Ash-Shadiq
+2026-07-17 15:25:35,161 [INFO]   Detail [16/115]: MASJID MANBAUL FALAH
+2026-07-17 15:25:38,879 [INFO]   Detail [17/115]: Masjid Al-Ishlah
+2026-07-17 15:25:42,678 [INFO]   Detail [18/115]: Masjid Hidayatullah
+2026-07-17 15:25:46,481 [INFO]   Detail [19/115]: Masjid Nurul Jannah Petrokimia Gresik
+2026-07-17 15:25:50,265 [INFO]   Detail [20/115]: Masjid Al Inabah
+2026-07-17 15:25:53,948 [INFO]   Detail [21/115]: Masjid Generasi Pemenang
+2026-07-17 15:25:57,658 [INFO]   Detail [22/115]: Makam Sunan Giri
+2026-07-17 15:26:01,226 [INFO]   Detail [23/115]: Masjid Baiturrahman
+2026-07-17 15:26:04,849 [INFO]   Detail [24/115]: Masjid Maslakul Hidayah
+2026-07-17 15:26:08,510 [INFO]   Detail [25/115]: Wisata Religi Sunan Giri
+2026-07-17 15:26:12,190 [INFO]   Detail [26/115]: Masjid Baiturrahman Kodim 0817
+2026-07-17 15:26:15,777 [INFO]   Detail [27/115]: Masjid NURUL ISLAH
+2026-07-17 15:26:19,384 [INFO]   Detail [28/115]: Parkir Atas Masjid/Makam Sunan Giri
+2026-07-17 15:26:22,974 [INFO]   Detail [29/115]: Masjid Daarut Tauhid
+2026-07-17 15:26:26,631 [INFO]   Detail [30/115]: Masjid Nurul Islam
+2026-07-17 15:26:30,304 [INFO]   Detail [31/115]: Masjid جنة التائبين
+2026-07-17 15:26:33,881 [INFO]   Detail [32/115]: Masjid Nurul Iman
+2026-07-17 15:26:37,486 [INFO]   Detail [33/115]: Parkir masjid besar ainul yaqin Sunan giri
+2026-07-17 15:26:41,087 [INFO]   Detail [34/115]: Masjid Al-Amin
+2026-07-17 15:26:45,173 [INFO]   Detail [35/115]: Masjid At-Taqwa
+2026-07-17 15:26:48,761 [INFO]   Detail [36/115]: Makam Sunan Gresik (Malik Ibrahim)
+2026-07-17 15:26:52,321 [INFO]   Detail [37/115]: Masjid Miftahul Falah
+2026-07-17 15:26:55,886 [INFO]   Detail [38/115]: Masjid Sayyidina abu bakar
+2026-07-17 15:26:59,520 [INFO]   Detail [39/115]: Masjid Al Istiqomah
+2026-07-17 15:27:03,225 [INFO]   Detail [40/115]: Masjid Miftahul Huda
+2026-07-17 15:27:06,918 [INFO]   Detail [41/115]: Masjid AL-ISHLAH
+2026-07-17 15:27:10,671 [INFO]   Detail [42/115]: Musholla Miftahul Huda
+2026-07-17 15:27:14,243 [INFO]   Detail [43/115]: Masjid Roudhotul Jannah Putat wetan
+2026-07-17 15:27:17,828 [INFO]   Detail [44/115]: Musholla Baitul Muttaqin
+2026-07-17 15:27:22,168 [INFO]   Detail [45/115]: Masjid Jami' Al-Kautsar Indro
+2026-07-17 15:27:25,787 [INFO]   Detail [46/115]: Musholla Perum Grand Sungkono Gresik
+2026-07-17 15:27:29,627 [INFO]   Detail [47/115]: Masjid Sayyid abdul rahman
+2026-07-17 15:27:33,420 [INFO]   Detail [48/115]: Situs Giri Kedaton & Makam Raden Supeno
+2026-07-17 15:27:37,164 [INFO]   Detail [49/115]: Masjid Annur
+2026-07-17 15:27:41,050 [INFO]   Detail [50/115]: Masjid Al - Hasanah
+2026-07-17 15:27:45,139 [INFO]   Detail [51/115]: Masjid Roudlotul Jannah
+2026-07-17 15:27:48,744 [INFO]   Detail [52/115]: Lontong Kupang Depan Masjid Jami'
+2026-07-17 15:27:50,248 [INFO]   Detail [53/115]: Kantor DMI Gresik
+2026-07-17 15:27:51,752 [INFO]   Detail [54/115]: Musholla Al-Jihad Giri Gajah
+2026-07-17 15:27:55,667 [INFO]   Detail [55/115]: Mushola Al Ikhlas
+2026-07-17 15:27:59,474 [INFO]   Detail [56/115]: Musholla Sabilul Muttaqin Kajen
+2026-07-17 15:28:03,093 [INFO]   Detail [57/115]: Musholla Al Hijrah
+2026-07-17 15:28:06,670 [INFO]   Detail [58/115]: Musholla Darussalam
+2026-07-17 15:28:10,227 [INFO]   Detail [59/115]: Musholla كٜاڠ ١٣
+2026-07-17 15:28:13,788 [INFO]   Detail [60/115]: Musholla Miftahul Faizin
+2026-07-17 15:28:17,373 [INFO]   Detail [61/115]: Musholla K.M.Muhdi
+2026-07-17 15:28:20,959 [INFO]   Detail [62/115]: Musholla Al Wahab Giri
+2026-07-17 15:28:24,534 [INFO]   Detail [63/115]: Musholla Baiturrochim sidomukti
+2026-07-17 15:28:28,154 [INFO]   Detail [64/115]: Musholla Baitul Mukhlasin
+2026-07-17 15:28:31,818 [INFO]   Detail [65/115]: Musholla Roudhotul Mutta'alimin
+2026-07-17 15:28:35,546 [INFO]   Detail [66/115]: Musholla Mbah Dekah
+2026-07-17 15:28:39,303 [INFO]   Detail [67/115]: Musholla mambaul ikhsan Sidomukti
+2026-07-17 15:28:43,011 [INFO]   Detail [68/115]: Musholla Al-Kautsar
+2026-07-17 15:28:46,596 [INFO]   Detail [69/115]: Musholla Kramat Rahayu
+2026-07-17 15:28:50,181 [INFO]   Detail [70/115]: Musholla Baitul Muttaqin keteq giri
+2026-07-17 15:28:53,804 [INFO]   Detail [71/115]: Musholla Musyarofatul Amin
+2026-07-17 15:28:57,544 [INFO]   Detail [72/115]: Musholla تلوكٜو ڤاتوت
+2026-07-17 15:29:01,171 [INFO]   Detail [73/115]: Musholla كٜاڠ كٜونوڠ ساري لوروڠ
+2026-07-17 15:29:04,746 [INFO]   Detail [74/115]: Musholla AR- Rouf
+2026-07-17 15:29:08,411 [INFO]   Detail [75/115]: Mushollah Sunan Giri
+2026-07-17 15:29:12,445 [INFO]   Detail [76/115]: Musholla Assalam
+2026-07-17 15:29:16,178 [INFO]   Detail [77/115]: Musholla Mamba'us Zahidin
+2026-07-17 15:29:19,820 [INFO]   Detail [78/115]: Musholla Perum Andalusia
+2026-07-17 15:29:23,403 [INFO]   Detail [79/115]: Mushola Al-Khafi Kebomas
+2026-07-17 15:29:27,122 [INFO]   Detail [80/115]: Musholla Al Ikhlas
+2026-07-17 15:29:31,536 [INFO]   Detail [81/115]: Musholla Rahmatullah
+2026-07-17 15:29:35,243 [INFO]   Detail [82/115]: Mushollah AL IKHLAS
+2026-07-17 15:29:38,903 [INFO]   Detail [83/115]: REFINE Foto Copy Sidomukti
+2026-07-17 15:29:42,765 [INFO]   Detail [84/115]: Mushola Langgar Tengah
+2026-07-17 15:29:46,562 [INFO]   Detail [85/115]: Musholla AL IKHLAS,tambak boyo
+2026-07-17 15:29:50,265 [INFO]   Detail [86/115]: Musholla Al-Hijrah
+2026-07-17 15:29:53,877 [INFO]   Detail [87/115]: Musholla Al-ittichad
+2026-07-17 15:29:57,443 [INFO]   Detail [88/115]: Musholla Mujahadah
+2026-07-17 15:30:01,117 [INFO]   Detail [89/115]: Mushollah Al Mubarokah
+2026-07-17 15:30:04,723 [INFO]   Detail [90/115]: Musholla Al Ukhuwah
+2026-07-17 15:30:08,505 [INFO]   Detail [91/115]: Musholla At-taubah
+2026-07-17 15:30:12,086 [INFO]   Detail [92/115]: Mushola Al-fajar
+2026-07-17 15:30:15,898 [INFO]   Detail [93/115]: Mushola Al Mubarok
+2026-07-17 15:30:19,599 [INFO]   Detail [94/115]: Musholla Sultan Agung
+2026-07-17 15:30:25,141 [INFO]   Detail [95/115]: Musholla Mambaus Sholihin
+2026-07-17 15:30:28,773 [INFO]   Detail [96/115]: Musholla Al Muhajirin
+2026-07-17 15:30:32,430 [INFO]   Detail [97/115]: Musholla Al-Amin
+2026-07-17 15:30:36,037 [INFO]   Detail [98/115]: Musholla Siti Aminah
+2026-07-17 15:30:39,642 [INFO]   Detail [99/115]: Musholla Darul Muttaqin
+2026-07-17 15:30:43,268 [INFO]   Detail [100/115]: Musholla Al-Fattah
+2026-07-17 15:30:46,867 [INFO]   Detail [101/115]: Musholla Al-Ittihad Petrokimia Gresik
+2026-07-17 15:30:50,556 [INFO]   Detail [102/115]: Musholla Mambaussa'aadah
+2026-07-17 15:30:54,140 [INFO]   Detail [103/115]: Musholla Roudlotul Jannah
+2026-07-17 15:30:58,064 [INFO]   Detail [104/115]: Musholla Jabal Rahmah
+2026-07-17 15:31:01,642 [INFO]   Detail [105/115]: Musholla Baitul amin
+2026-07-17 15:31:05,248 [INFO]   Detail [106/115]: Musholla Al-Ikhlas Harmoni
+2026-07-17 15:31:08,902 [INFO]   Detail [107/115]: Musholla Miftahul Jannah
+2026-07-17 15:31:12,460 [INFO]   Detail [108/115]: Musholla Roudhotul Jannah
+2026-07-17 15:31:16,137 [INFO]   Detail [109/115]: Musholla Baitusshidiqin
+2026-07-17 15:31:19,862 [INFO]   Detail [110/115]: Musholla Al-Hidayah
+2026-07-17 15:31:23,862 [INFO]   Detail [111/115]: Musholla Al - Ikhlas
+2026-07-17 15:31:27,701 [INFO]   Detail [112/115]: Musholah Maslakul Inayah
+2026-07-17 15:31:33,134 [INFO]   Detail [113/115]: Musholla Al-Mubarok
+2026-07-17 15:31:36,873 [INFO]   Detail [114/115]: MUSHOLLA DARUSSA'ADAH REGENCY
+2026-07-17 15:31:40,518 [INFO]   Detail [115/115]: Musholla Mambaul Hidayah
+2026-07-17 15:31:44,254 [INFO] Tersimpan: data_gresik\masjid.csv (115 baris)
+2026-07-17 15:31:44,256 [INFO] Progress: 11/15 kategori selesai
+2026-07-17 15:31:44,256 [INFO] Selesai 'masjid' dalam 494.7s | 115 lokasi
+2026-07-17 15:31:44,257 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:31:48,263 [INFO] 
+[12/15] Mulai: polisi
+2026-07-17 15:31:48,264 [INFO] 
+=======================================================
+2026-07-17 15:31:48,265 [INFO] KATEGORI: POLISI (3 query)
+2026-07-17 15:31:48,265 [INFO] =======================================================
+2026-07-17 15:31:48,432 [INFO]   [1/3] polsek Gresik
+2026-07-17 15:31:48,433 [INFO]   Query: 'polsek Gresik' (percobaan 1)
+2026-07-17 15:31:53,961 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:31:53,976 [INFO]     2 kartu ditemukan
+2026-07-17 15:31:54,261 [INFO]     +2 baru | total unik: 2
+2026-07-17 15:31:56,263 [INFO]   [2/3] polres Gresik
+2026-07-17 15:31:56,266 [INFO]   Query: 'polres Gresik' (percobaan 1)
+2026-07-17 15:32:01,055 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:32:01,066 [INFO]     3 kartu ditemukan
+2026-07-17 15:32:01,248 [INFO]     +3 baru | total unik: 5
+2026-07-17 15:32:03,251 [INFO]   [3/3] pos polisi Gresik
+2026-07-17 15:32:03,251 [INFO]   Query: 'pos polisi Gresik' (percobaan 1)
+2026-07-17 15:32:11,064 [INFO]     Scroll selesai (3 iterasi)
+2026-07-17 15:32:11,214 [INFO]     17 kartu ditemukan
+2026-07-17 15:32:14,204 [INFO]     +12 baru | total unik: 17
+2026-07-17 15:32:16,239 [INFO]   Selesai kumpul query. Total unik: 17
+2026-07-17 15:32:16,239 [INFO]   Detail [1/17]: POLSEK Gresik Kota
+2026-07-17 15:32:21,509 [INFO]   Detail [2/17]: POLSEK Kebomas - Gresik
+2026-07-17 15:32:26,538 [INFO]   Detail [3/17]: SKCK Polres Gresik
+2026-07-17 15:32:30,555 [INFO]   Detail [4/17]: SATPAS SIM Gresik
+2026-07-17 15:32:34,246 [INFO]   Detail [5/17]: Satlantas Polres Gresik
+2026-07-17 15:32:38,120 [INFO]   Detail [6/17]: Pos Polisi GKB
+2026-07-17 15:32:41,990 [INFO]   Detail [7/17]: Pos Polisi Tenger GKB (Giri Sakti)
+2026-07-17 15:32:45,640 [INFO]   Detail [8/17]: Pos Polisi KIG
+2026-07-17 15:32:49,333 [INFO]   Detail [9/17]: Pos Satlantas Barata Polres Gresik
+2026-07-17 15:32:53,287 [INFO]   Detail [10/17]: Pos Polisi Bunder
+2026-07-17 15:32:57,159 [INFO]   Detail [11/17]: POLSEK Manyar - Gresik
+2026-07-17 15:33:01,044 [INFO]   Detail [12/17]: Pos Polisi Lalu Lintas Sidomoro
+2026-07-17 15:33:04,972 [INFO]   Detail [13/17]: Pos satlantas Bunder
+2026-07-17 15:33:08,947 [INFO]   Detail [14/17]: Sentra Pelayanan Kepolisian Terpadu (SPKT) Gresik
+2026-07-17 15:33:13,010 [INFO]   Detail [15/17]: SAMSAT Gresik
+2026-07-17 15:33:17,053 [INFO]   Detail [16/17]: Pos Polisi Legundi Driyorejo
+2026-07-17 15:33:20,878 [INFO]   Detail [17/17]: Kursus Mengemudi Expert
+2026-07-17 15:33:25,346 [INFO] Tersimpan: data_gresik\polisi.csv (17 baris)
+2026-07-17 15:33:25,365 [INFO] Progress: 12/15 kategori selesai
+2026-07-17 15:33:25,368 [INFO] Selesai 'polisi' dalam 97.1s | 17 lokasi
+2026-07-17 15:33:25,369 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:33:29,375 [INFO] 
+[13/15] Mulai: pemadam
+2026-07-17 15:33:29,376 [INFO] 
+=======================================================
+2026-07-17 15:33:29,377 [INFO] KATEGORI: PEMADAM (2 query)
+2026-07-17 15:33:29,378 [INFO] =======================================================
+2026-07-17 15:33:29,632 [INFO]   [1/2] pemadam kebakaran Gresik
+2026-07-17 15:33:29,632 [INFO]   Query: 'pemadam kebakaran Gresik' (percobaan 1)
+2026-07-17 15:33:34,649 [INFO]     0 kartu ditemukan
+2026-07-17 15:33:34,651 [INFO]     +0 baru | total unik: 0
+2026-07-17 15:33:36,664 [INFO]   [2/2] damkar Gresik
+2026-07-17 15:33:36,664 [INFO]   Query: 'damkar Gresik' (percobaan 1)
+2026-07-17 15:33:41,042 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:33:41,057 [INFO]     4 kartu ditemukan
+2026-07-17 15:33:41,312 [INFO]     +4 baru | total unik: 4
+2026-07-17 15:33:43,313 [INFO]   Selesai kumpul query. Total unik: 4
+2026-07-17 15:33:43,313 [INFO]   Detail [1/4]: Pemadam Kebakaran Kabupaten Gresik
+2026-07-17 15:33:48,425 [INFO]   Detail [2/4]: Dinas Pemadam Kebakaran dan Penyelamatan Gresik
+2026-07-17 15:33:52,509 [INFO]   Detail [3/4]: Dinas Pemadam Kebakaran Pelabuhan Gresik
+2026-07-17 15:33:56,269 [INFO]   Detail [4/4]: Kantor K3 dan Pemadam kebakaran PT Petrokimia Gresik
+2026-07-17 15:34:00,119 [INFO] Tersimpan: data_gresik\pemadam.csv (4 baris)
+2026-07-17 15:34:00,124 [INFO] Progress: 13/15 kategori selesai
+2026-07-17 15:34:00,124 [INFO] Selesai 'pemadam' dalam 30.7s | 4 lokasi
+2026-07-17 15:34:00,125 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:51:39,509 [INFO] 
+[14/15] Mulai: kantor_pos
+2026-07-17 15:51:39,520 [INFO] 
+=======================================================
+2026-07-17 15:51:39,520 [INFO] KATEGORI: KANTOR_POS (2 query)
+2026-07-17 15:51:39,520 [INFO] =======================================================
+2026-07-17 15:51:40,514 [INFO]   [1/2] kantor pos Gresik
+2026-07-17 15:51:40,515 [INFO]   Query: 'kantor pos Gresik' (percobaan 1)
+2026-07-17 15:51:52,126 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:51:52,279 [INFO]     11 kartu ditemukan
+2026-07-17 15:51:53,623 [INFO]     +9 baru | total unik: 9
+2026-07-17 15:51:55,637 [INFO]   [2/2] pos Indonesia Gresik
+2026-07-17 15:51:55,638 [INFO]   Query: 'pos Indonesia Gresik' (percobaan 1)
+2026-07-17 15:52:00,079 [INFO]     Scroll selesai (1 iterasi)
+2026-07-17 15:52:00,105 [INFO]     5 kartu ditemukan
+2026-07-17 15:52:00,640 [INFO]     +0 baru | total unik: 9
+2026-07-17 15:52:02,647 [INFO]   Selesai kumpul query. Total unik: 9
+2026-07-17 15:52:02,648 [INFO]   Detail [1/9]: Kantor Pos Gresik
+2026-07-17 15:52:07,039 [INFO]   Detail [2/9]: Kantor Pos
+2026-07-17 15:52:12,473 [INFO]   Detail [3/9]: Kantor Pos Indonesia
+2026-07-17 15:52:17,864 [INFO]   Detail [4/9]: Kantor Pos PPS
+2026-07-17 15:52:22,738 [INFO]   Detail [5/9]: Kantor Pos Gresik Manyar
+2026-07-17 15:52:26,721 [INFO]   Detail [6/9]: Biro Jawa Pos Gresik
+2026-07-17 15:52:30,526 [INFO]   Detail [7/9]: Pos PHH Gresik II
+2026-07-17 15:52:34,184 [INFO]   Detail [8/9]: PosAja! Drop Point
+2026-07-17 15:52:38,038 [INFO]   Detail [9/9]: Kantor Pos Gresik Pelabuhan
+2026-07-17 15:52:41,986 [INFO] Tersimpan: data_gresik\kantor_pos.csv (9 baris)
+2026-07-17 15:52:41,992 [INFO] Progress: 14/15 kategori selesai
+2026-07-17 15:52:41,995 [INFO] Selesai 'kantor_pos' dalam 62.5s | 9 lokasi
+2026-07-17 15:52:41,996 [INFO] Jeda 4.0s sebelum kategori berikutnya...
+2026-07-17 15:52:46,011 [INFO] 
+[15/15] Mulai: pasar
+2026-07-17 15:52:46,012 [INFO] 
+=======================================================
+2026-07-17 15:52:46,012 [INFO] KATEGORI: PASAR (4 query)
+2026-07-17 15:52:46,012 [INFO] =======================================================
+2026-07-17 15:52:46,161 [INFO]   [1/4] pasar tradisional Gresik
+2026-07-17 15:52:46,161 [INFO]   Query: 'pasar tradisional Gresik' (percobaan 1)
+2026-07-17 15:52:52,779 [INFO]     Scroll selesai (2 iterasi)
+2026-07-17 15:52:52,849 [INFO]     16 kartu ditemukan
+2026-07-17 15:52:53,723 [INFO]     +16 baru | total unik: 16
+2026-07-17 15:52:55,736 [INFO]   [2/4] pasar Gresik kota
+2026-07-17 15:52:55,736 [INFO]   Query: 'pasar Gresik kota' (percobaan 1)
+2026-07-17 15:52:59,216 [INFO]     2 kartu ditemukan
+2026-07-17 15:52:59,286 [INFO]     +2 baru | total unik: 18
+2026-07-17 15:53:01,295 [INFO]   [3/4] pasar Bungah
+2026-07-17 15:53:01,296 [INFO]   Query: 'pasar Bungah' (percobaan 1)
+2026-07-17 15:53:04,486 [INFO]     0 kartu ditemukan
+2026-07-17 15:53:04,487 [INFO]     +0 baru | total unik: 18
+2026-07-17 15:53:06,502 [INFO]   [4/4] pasar Driyorejo
+2026-07-17 15:53:06,503 [INFO]   Query: 'pasar Driyorejo' (percobaan 1)
+2026-07-17 15:53:09,719 [INFO]     0 kartu ditemukan
+2026-07-17 15:53:09,719 [INFO]     +0 baru | total unik: 18
+2026-07-17 15:53:11,726 [INFO]   Selesai kumpul query. Total unik: 18
+2026-07-17 15:53:11,726 [INFO]   Detail [1/18]: Pasar Krempyeng
+2026-07-17 15:53:16,175 [INFO]   Detail [2/18]: Pasar Baru Gresik
+2026-07-17 15:53:20,136 [INFO]   Detail [3/18]: Pasar Sidomoro
+2026-07-17 15:53:23,882 [INFO]   Detail [4/18]: Pasar Kota Gresik
+2026-07-17 15:53:27,578 [INFO]   Detail [5/18]: Pasar Giri (Pasar Pengkol Atas )
+2026-07-17 15:53:31,136 [INFO]   Detail [6/18]: Pasar Pagi GKB
+2026-07-17 15:53:34,720 [INFO]   Detail [7/18]: Jajanan Pasar Tradisional
+2026-07-17 15:53:38,261 [INFO]   Detail [8/18]: Pasar PPS
+2026-07-17 15:53:41,909 [INFO]   Detail [9/18]: Pasar Desa Kedanyang
+2026-07-17 15:53:45,424 [INFO]   Detail [10/18]: Pasar Tempel Graha Bunder Asri
+2026-07-17 15:53:49,095 [INFO]   Detail [11/18]: Toko Rama dua Pasar Kota Gresik
+2026-07-17 15:53:52,854 [INFO]   Detail [12/18]: Pasar menganti
+2026-07-17 15:53:56,533 [INFO]   Detail [13/18]: Toko Jamu Rengganis Randu Agung
+2026-07-17 15:54:00,271 [INFO]   Detail [14/18]: Pasar Manyar
+2026-07-17 15:54:03,838 [INFO]   Detail [15/18]: Pasar MUTIARA
+2026-07-17 15:54:07,414 [INFO]   Detail [16/18]: Pasar Tradisional Petiken Driyorejo
+2026-07-17 15:54:11,155 [INFO]   Detail [17/18]: Toko Prima
+2026-07-17 15:54:12,661 [INFO]   Detail [18/18]: Toko Putra Agung
+2026-07-17 15:54:14,290 [INFO] Tersimpan: data_gresik\pasar.csv (18 baris)
+2026-07-17 15:54:14,291 [INFO] Progress: 15/15 kategori selesai
+2026-07-17 15:54:14,292 [INFO] Selesai 'pasar' dalam 88.3s | 18 lokasi
+2026-07-17 15:54:17,476 [INFO] Excel: data_gresik\Layanan_Umum_Gresik.xlsx (990 total baris)

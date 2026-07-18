@@ -32,16 +32,9 @@ from selenium.common.exceptions import (
 )
 from webdriver_manager.chrome import ChromeDriverManager
 
-# ══════════════════════════════════════════════════════════════
-#  KONFIGURASI
-# ══════════════════════════════════════════════════════════════
+from dotenv import load_dotenv
 
-# ══════════════════════════════════════════════════════════════
-#  KONFIGURASI
-# ══════════════════════════════════════════════════════════════
-import os
-
-IG_USERNAME = "sanikhsan336"
+load_dotenv()
 
 IG_COOKIES = {
     "sessionid"  : os.getenv("IG_SESSIONID", ""),

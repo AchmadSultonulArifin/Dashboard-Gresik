@@ -32,6 +32,7 @@ except ImportError:
 load_dotenv()
 API_TOKEN  = os.getenv("APIFY_API_TOKEN")
 OUTPUT_DIR = "output"
+print(f"🔑 Token terbaca: {API_TOKEN[:15]}..." if API_TOKEN else "❌ Token TIDAK terbaca!")
 
 # Mapping nama tempat → nama folder
 TEMPAT_FOLDER = {
@@ -327,17 +328,3 @@ if __name__ == "__main__":
 
     # 3. Preprocessing + Sentiment per tempat
     process_per_tempat(results, pipe)
-
-    print(f"\n{'='*60}")
-    print("✅ Semua proses selesai!")
-    print("📁 Struktur output/")
-    print("   ├── kantor_bupati/")
-    print("   │   ├── ulasan_mentah.csv")
-    print("   │   ├── ulasan_mentah.json")
-    print("   │   ├── ulasan_sentimen.csv")
-    print("   │   └── ulasan_sentimen.json   ← pakai ini di dashboard")
-    print("   ├── rsud_ibnu_sina/            (struktur sama)")
-    print("   ├── mall_pelayanan_publik/     (struktur sama)")
-    print("   ├── dispendukcapil/            (struktur sama)")
-    print("   └── semua_tempat_summary.json  ← untuk halaman overview")
-    print(f"{'='*60}")

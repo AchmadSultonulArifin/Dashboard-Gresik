@@ -1,0 +1,391 @@
+{
+  "tempat": "RSUD Ibnu Sina Gresik",
+  "rating": 4.2,
+  "total_ulasan": 42,
+  "positif": 3,
+  "netral": 5,
+  "negatif": 34,
+  "persen_positif": 7.1,
+  "persen_netral": 11.9,
+  "persen_negatif": 81.0,
+  "ulasan": [
+    {
+      "Nama Reviewer": "Alfatih Irawan (Irana)",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T05:12:32.350Z",
+      "Ulasan": "Alhamdulillah  suami berada di R.Dahlia.. pelayanan  sangat bagus, memuaskan ,ramah, sabar,  dan ruangan bersih... Terimakasih buat petugas R.Dahlia👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾",
+      "teks_final": "alhamdulillah suami berada dahlia pelayanan bagus memuaskan ramah sabar ruangan bersih terimakasih buat petugas dahlia",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9882
+    },
+    {
+      "Nama Reviewer": "Tatik Ezza",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T04:44:05.313Z",
+      "Ulasan": "Terima kasih ruang dahlia tempat nya bersih dan nyaman.. 🙏🙏",
+      "teks_final": "terima kasih ruang dahlia tempat bersih nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9915
+    },
+    {
+      "Nama Reviewer": "widya yuni",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T04:43:09.108Z",
+      "Ulasan": "puas untuk pelayanannya Terimakasih",
+      "teks_final": "puas pelayanannya terimakasih",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9954
+    },
+    {
+      "Nama Reviewer": "Naning Sri",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T04:40:28.814Z",
+      "Ulasan": "Perawat maupun dokter cara menangani nya disini baik dan ramah",
+      "teks_final": "perawat maupun dokter cara menangani disini baik ramah",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7111
+    },
+    {
+      "Nama Reviewer": "Almeera Azzahra",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T04:36:36.950Z",
+      "Ulasan": "Sangat bagus pelayanannya",
+      "teks_final": "bagus pelayanannya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Nama Reviewer": "king'za gilang",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T05:17:25.384Z",
+      "Ulasan": "Terima kasih atas pelayanan diruang dahlia terhadap ibu saya kamarnya dingin dan nyaman",
+      "teks_final": "terima kasih atas pelayanan diruang dahlia terhadap ibu kamarnya dingin nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9793
+    },
+    {
+      "Nama Reviewer": "Maria Dwi",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T05:14:44.520Z",
+      "Ulasan": "Dokter dan perawat semua baik dan ramah2. Terima kasih sudah memberikan pelayanan yg baik.",
+      "teks_final": "dokter perawat semua baik ramah2 terima kasih memberikan pelayanan baik",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.987
+    },
+    {
+      "Nama Reviewer": "Nurul Khikmah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T05:07:07.006Z",
+      "Ulasan": "Terima kasih buat perawat ruang dahlia yang ramah dan baik2",
+      "teks_final": "terima kasih buat perawat ruang dahlia ramah baik2",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8137
+    },
+    {
+      "Nama Reviewer": "Faridah Hasana",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T04:58:44.716Z",
+      "Ulasan": "Terima kasih atas perawatan diruang dahlia perawat sama dokternya baik2 .ruangannya dingin dan nyaman",
+      "teks_final": "terima kasih atas perawatan diruang dahlia perawat sama dokternya baik2 ruangannya dingin nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9783
+    },
+    {
+      "Nama Reviewer": "Trya Sezha",
+      "Bintang": 5,
+      "Tanggal": "2026-07-16T05:10:26.399Z",
+      "Ulasan": "perawatnya cukup rama, ruangnya cukup nyaman",
+      "teks_final": "perawatnya cukup rama ruangnya cukup nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9921
+    },
+    {
+      "Nama Reviewer": "Shulaihah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-16T05:05:47.585Z",
+      "Ulasan": "Baik sangat baik cukup bersih dan nyaman",
+      "teks_final": "baik baik cukup bersih nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.956
+    },
+    {
+      "Nama Reviewer": "purih slamet",
+      "Bintang": 5,
+      "Tanggal": "2026-07-16T05:04:51.782Z",
+      "Ulasan": "Pelayanan sangat baik dan ramah",
+      "teks_final": "pelayanan baik ramah",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Nama Reviewer": "Sumiati Farin",
+      "Bintang": 5,
+      "Tanggal": "2026-07-16T02:52:33.807Z",
+      "Ulasan": "Baik trimakasih perawat ruang Dahlia atas perawatan bapak sayaperawat sama dokter baik2",
+      "teks_final": "baik trimakasih perawat ruang dahlia atas perawatan bapak sayaperawat sama dokter baik2",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8599
+    },
+    {
+      "Nama Reviewer": "Rhea Aja",
+      "Bintang": 5,
+      "Tanggal": "2026-07-15T05:17:11.971Z",
+      "Ulasan": "Baik smua. Perawat juga perhatian n baik..terima kasih banyk smua perawat",
+      "teks_final": "baik smua perawat perhatian baik terima kasih banyk smua perawat",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6431
+    },
+    {
+      "Nama Reviewer": "Fatin Khoiroh",
+      "Bintang": 5,
+      "Tanggal": "2026-07-10T01:11:12.688Z",
+      "Ulasan": "Terimakasih Ibnu Sina diruang Dahlia pelayanan slalu menyenangkan, kebersihan terjaga",
+      "teks_final": "terimakasih ibnu sina diruang dahlia pelayanan slalu menyenangkan kebersihan terjaga",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9871
+    },
+    {
+      "Nama Reviewer": "enggar mahendra",
+      "Bintang": 3,
+      "Tanggal": "2026-07-10T00:47:01.306Z",
+      "Ulasan": "Saya rawat inap diruang dahlia suasana kalau malam sunyi tapi kalau sore ada anak² jenguk pada berlarian ngintip² pasien lain menurutku kurang sopan yaa tp pelayanannya baik kok perawatnya juga ramah²... semoga makin sukses makin berkembang",
+      "teks_final": "rawat inap diruang dahlia suasana malam sunyi sore anak jenguk berlarian ngintip pasien lain menurutku kurang sopan yaa pelayanannya baik kok perawatnya ramah semoga makin sukses makin berkembang",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9326
+    },
+    {
+      "Nama Reviewer": "Gemilang Citra Perdana",
+      "Bintang": 5,
+      "Tanggal": "2026-07-10T00:11:33.169Z",
+      "Ulasan": "Saat di Kantin Ibnu Sina, saya mencari kopi susu tapi ndak ada yang jual, adanya secangkir kecil Good Day Cappucino seharga 10.000.",
+      "teks_final": "kantin ibnu sina mencari kopi susu ndak jual adanya secangkir kecil good day cappucino seharga",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9689
+    },
+    {
+      "Nama Reviewer": "Sri Wahyuni",
+      "Bintang": 5,
+      "Tanggal": "2026-07-09T03:50:27.249Z",
+      "Ulasan": "Terima kasih atas pelayanan ruang Dahlia atas perawatan bapak saya perawatnya baik2 makasih Ibnu sina",
+      "teks_final": "terima kasih atas pelayanan ruang dahlia atas perawatan bapak perawatnya baik2 makasih ibnu sina",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6055
+    },
+    {
+      "Nama Reviewer": "Siti Qomariyah",
+      "Bintang": 4,
+      "Tanggal": "2026-07-07T00:47:07.221Z",
+      "Ulasan": "Untuk kamar dahlia tempatnya nyaman dan pelayanannya bagus",
+      "teks_final": "kamar dahlia tempatnya nyaman pelayanannya bagus",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9974
+    },
+    {
+      "Nama Reviewer": "Putri Handayani",
+      "Bintang": 5,
+      "Tanggal": "2026-07-07T00:46:17.684Z",
+      "Ulasan": "Saat saya di rawat di rs ibnu sina terutama di ruangan dahlia pelayanan.nya sangat bagus dokter dan perawatnya pun sangat ramah terhadap pasien .",
+      "teks_final": "rawat rumah sakit ibnu sina terutama ruangan dahlia pelayanan bagus dokter perawatnya ramah terhadap pasien",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9937
+    },
+    {
+      "Nama Reviewer": "siswowati",
+      "Bintang": 5,
+      "Tanggal": "2026-07-07T00:44:47.825Z",
+      "Ulasan": "ruang an dahlia sangat nyaman dan bersih",
+      "teks_final": "ruang an dahlia nyaman bersih",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9915
+    },
+    {
+      "Nama Reviewer": "hendri istirsha",
+      "Bintang": 5,
+      "Tanggal": "2026-07-06T09:21:39.238Z",
+      "Ulasan": "Pelayanan rawat jalan jauh lebih baik.apalagi fasilitas sangat nyaman",
+      "teks_final": "pelayanan rawat jalan jauh baik apalagi fasilitas nyaman",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9225
+    },
+    {
+      "Nama Reviewer": "Imanda Nikma",
+      "Bintang": 5,
+      "Tanggal": "2026-07-06T02:59:02.575Z",
+      "Ulasan": "Terima kasih atas perawatan suami saya diruang Dahlia perawat dan dokter ramah 2",
+      "teks_final": "terima kasih atas perawatan suami diruang dahlia perawat dokter ramah",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9196
+    },
+    {
+      "Nama Reviewer": "Adira Khanza",
+      "Bintang": 5,
+      "Tanggal": "2026-07-06T02:47:52.336Z",
+      "Ulasan": "Ruang dahlia sangat bagus dan nyaman perawatnya respon baik dan sopan pokoknya topp",
+      "teks_final": "ruang dahlia bagus nyaman perawatnya respon baik sopan pokoknya topp",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Nama Reviewer": "Gupron Pron",
+      "Bintang": 5,
+      "Tanggal": "2026-07-06T02:46:46.070Z",
+      "Ulasan": "Ruang Dahlia nyaman perawatannya bagus",
+      "teks_final": "ruang dahlia nyaman perawatannya bagus",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Nama Reviewer": "juwanto wanto",
+      "Bintang": 5,
+      "Tanggal": "2026-07-06T02:40:38.160Z",
+      "Ulasan": "Ruang Dahlia sangat nyaman, semua faselitas terpenuhi, respon perawat cepat pokoknya pasien dan keluarganya nyaman",
+      "teks_final": "ruang dahlia nyaman semua faselitas terpenuhi respon perawat cepat pokoknya pasien keluarganya nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.991
+    },
+    {
+      "Nama Reviewer": "Ipank Mprut",
+      "Bintang": 5,
+      "Tanggal": "2026-07-06T00:40:12.624Z",
+      "Ulasan": "Terima kasih atas pelayanan d ruang Dahlia semoga ke depan nya memberikan pelayanan yang jauh lebih baik lagi",
+      "teks_final": "terima kasih atas pelayanan ruang dahlia semoga depan memberikan pelayanan jauh baik",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8623
+    },
+    {
+      "Nama Reviewer": "Safira Wahyu Pratiwi 051 A1-18",
+      "Bintang": 5,
+      "Tanggal": "2026-06-30T04:41:20.605Z",
+      "Ulasan": "Ruang dahlia pelayanannya the besttttt baikkk 😍 semuanya ramah2",
+      "teks_final": "ruang dahlia pelayanannya the besttttt baikkk semuanya ramah2",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Nama Reviewer": "Risa Dwipristiyanti",
+      "Bintang": 4,
+      "Tanggal": "2026-06-28T14:47:39.805Z",
+      "Ulasan": "Di mohon untuk keamanan satpam di pertegas lagi... Saya telah kehilangan hp saat MLM hari sekitar jam 2 jam 3 tgl 27 Juni 2026 dan yg kehilangan bukan cuma saya bahkan keluarga pasien lain kehilangan hp juga sama uang  saya sudah lapor pihak satpam ngk ada tindak lanjut lagi... Dan di mohon untuk cctv ruangan di perbaiki dan di tambah cctv lebih banyak lagi soalnya cctv ruangan kamar pasien telah rusak semua dan jam2 kunjungan pasien di mohon di batasi.. trimakasih 🙏",
+      "teks_final": "mohon keamanan satpam pertegas telah kehilangan hp mlm hari sekitar jam jam tgl juni kehilangan bukan cuma bahkan keluarga pasien lain kehilangan hp sama uang lapor pihak satpam ngk tindak lanjut mohon cctv ruangan perbaiki tambah cctv banyak soalnya cctv ruangan kamar pasien telah rusak semua jam2 kunjungan pasien mohon batasi trimakasih",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9296
+    },
+    {
+      "Nama Reviewer": "Ika Rahmawati",
+      "Bintang": 5,
+      "Tanggal": "2026-06-27T02:26:30.314Z",
+      "Ulasan": "Klinik Psikologi Klinis Alhamdulillah saya mendapatkan pelayanan yang baik. Dan semoga ada perkembangan yang baik untuk anak saya sesuai dengan arahan dan treatment yang dilakukan kami nanti di rumah.",
+      "teks_final": "klinik psikologi klinis alhamdulillah mendapatkan pelayanan baik semoga perkembangan baik anak sesuai arahan treatment dilakukan nanti rumah",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9666
+    },
+    {
+      "Nama Reviewer": "Muhammad Fauzi",
+      "Bintang": 5,
+      "Tanggal": "2026-06-26T01:39:08.781Z",
+      "Ulasan": "Alhamdulillah klinik psikologi rumah sakit Ibnu Sina bisa memberikan solusi terbaik untuk permasalahan psikologi anak kami. Tks untuk Bu Dokter dan asisten.🙏🙏🙏",
+      "teks_final": "alhamdulillah klinik psikologi rumah sakit ibnu sina memberikan solusi terbaik permasalahan psikologi anak tks bu dokter asisten",
+      "sentimen": "Netral",
+      "sentimen_score": 0.794
+    },
+    {
+      "Nama Reviewer": "Ivan Nandasyah",
+      "Bintang": 5,
+      "Tanggal": "2026-06-24T12:26:23.793Z",
+      "Ulasan": "Pelayanan ramah dan cepat",
+      "teks_final": "pelayanan ramah cepat",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Nama Reviewer": "Yanti Nur",
+      "Bintang": 3,
+      "Tanggal": "2026-06-23T07:10:56.104Z",
+      "Ulasan": "Kontrol sdh bbrp mnggu yang llu..administrasi sdh selesai.hsil ronsen jg sdh dberikan tp petugas tdk mnjelaskan apapun pdhl wktu itu saya sdh brtnya apa ini brlnjut k kasir apa gmn tp tdk ada pnjlsn lngsung aj saya plg krn saya blm prnh ksna jg brobt bru kli ini...dan stlh bbrp mnggu kmudian ada tlf dari pihak rumh skit menagih administrasi ronsen🤦🏻‍♀️.mhon lbh teliti lg soal administrasi n pnjlsan kpd pasien/kluarga pasien",
+      "teks_final": "kontrol bbrp mnggu llu administrasi selesai hsil ronsen dberikan petugas mnjelaskan apapun pdhl wktu brtnya apa brlnjut kasir apa gmn pnjlsn lngsung aj paling prnh ksna brobt bru kli stlh bbrp mnggu kmudian tlf pihak rumh skit menagih administrasi ronsen mhon teliti lg soal administrasi pnjlsan kpd pasien kluarga pasien",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5834
+    },
+    {
+      "Nama Reviewer": "Ferdi Firmansyah",
+      "Bintang": 1,
+      "Tanggal": "2026-06-22T23:20:57.914Z",
+      "Ulasan": "RUMAH SAKIT NEMEN",
+      "teks_final": "rumah sakit nemen",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9755
+    },
+    {
+      "Nama Reviewer": "marina dewi fitriyani",
+      "Bintang": 5,
+      "Tanggal": "2026-06-15T00:09:58.902Z",
+      "Ulasan": "Fasilitas memadai",
+      "teks_final": "fasilitas memadai",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9917
+    },
+    {
+      "Nama Reviewer": "PERDANU ANDRA RISKI OFFIANTO _",
+      "Bintang": 5,
+      "Tanggal": "2026-06-13T04:52:25.718Z",
+      "Ulasan": "Pelayanan luar biasa! Stafnya ramah, dokter sangat komunikatif dan profesional, serta lingkungan rumah sakit yang bersih. Proses antrean juga teratur dan tidak memakan waktu lama. Gedung yang baru terasa nyaman walaupun antrean banyak.",
+      "teks_final": "pelayanan luar biasa stafnya ramah dokter komunikatif profesional serta lingkungan rumah sakit bersih proses antrean teratur memakan waktu lama gedung terasa nyaman walaupun antrean banyak",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Nama Reviewer": "siti nur faridah",
+      "Bintang": 5,
+      "Tanggal": "2026-06-13T03:39:49.887Z",
+      "Ulasan": "Pelayanannya ramah",
+      "teks_final": "pelayanannya ramah",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9968
+    },
+    {
+      "Nama Reviewer": "Yulita Putri",
+      "Bintang": 5,
+      "Tanggal": "2026-06-13T03:37:17.774Z",
+      "Ulasan": "pelayana baik, rs bersih",
+      "teks_final": "pelayana baik rumah sakit bersih",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9871
+    },
+    {
+      "Nama Reviewer": "Suryani Putro",
+      "Bintang": 5,
+      "Tanggal": "2026-06-11T13:14:38.344Z",
+      "Ulasan": "Terakhir kesini 2 th lalu.kemarin suami habis priksa dan opname disini lagi.kaget banget pelayanannya lebih cepat dan lebih nyaman.terimakasih para pegawai RS Ibnu sina atas pelayanannya",
+      "teks_final": "terakhir kesini th lalu kemarin suami habis priksa opname disini kaget banget pelayanannya cepat nyaman terimakasih para pegawai rumah sakit ibnu sina atas pelayanannya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9258
+    },
+    {
+      "Nama Reviewer": "Alfi Kurnianti",
+      "Bintang": 1,
+      "Tanggal": "2026-06-11T06:20:02.055Z",
+      "Ulasan": "Pelayanan lama, daftar poli gigi mulai set9 sampai jam set2 baru ditangani. Dokternya baru datang jam 11. Waktu dipanggil satu2, tidak sesuai nomor antrian. Yang datang belakangan ditangani duluan. Minta tolong untuk diperbaiki pelayanannya, meskipun bpjs tiap bulannya juga bayar. Terimakasih 🙏🏻",
+      "teks_final": "pelayanan lama daftar poli gigi mulai set9 sampai jam set2 ditangani dokternya datang jam waktu dipanggil satu2 sesuai nomor antrian datang belakangan ditangani duluan minta tolong diperbaiki pelayanannya meskipun bpjs tiap bulannya bayar terimakasih",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6719
+    },
+    {
+      "Nama Reviewer": "Dwi Astuti",
+      "Bintang": 5,
+      "Tanggal": "2026-06-09T05:34:58.426Z",
+      "Ulasan": "Terima kasih buat semua perawat dahlia ygsudah merawat anka saya 🙏🙏🙏🙏",
+      "teks_final": "terima kasih buat semua perawat dahlia ygsudah merawat anka",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.564
+    },
+    {
+      "Nama Reviewer": "Elin Ernawati",
+      "Bintang": 5,
+      "Tanggal": "2026-06-09T01:35:30.661Z",
+      "Ulasan": "Alhamdulillah,,,mulai tgl 8 bln 4 opname ygpertama,,sampai masuk yg ke2 di bln juni selama 8 hari so far so good,,,dari dr.siska welcome dg pertanyaan pasien dan bisa memahamkan sy,,begitupun dg dr.bedah di jelaskan begitu detail sekali,,,perawat dan petugas di ruang IXIA,,super duper baik sekali...langsung sigap cepat,,,trimakasih dokter,suster dan RSUD.IBNU SINA",
+      "teks_final": "alhamdulillah mulai tgl bln opname ygpertama sampai masuk ke2 bln juni selama hari so far so good siska welcome pertanyaan pasien memahamkan begitupun bedah jelaskan begitu detail perawat petugas ruang ixia super duper baik langsung sigap cepat trimakasih dokter suster rsud ibnu sina",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7871
+    }
+  ]
+}

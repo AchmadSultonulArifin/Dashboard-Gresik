@@ -1,78 +1,343 @@
+"""
+Google Maps Scraper + Preprocessing + IndoBERT Sentiment Analysis
+Instansi Pemerintahan Kabupaten Gresik
+Output: 1 file CSV & JSON per tempat (untuk dashboard)
+=================================================================
+"""
+
+import re
+import csv
+import json
+import os
+import warnings
+warnings.filterwarnings("ignore")
+
 from apify_client import ApifyClient
 from dotenv import load_dotenv
-import json
-import csv
-import os
+import pandas as pd
+
+try:
+    from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+    import torch
+except ImportError:
+    os.system("pip install transformers torch")
+    from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+    import torch
+
+
+# ════════════════════════════════════════════════════
+# KONFIGURASI
+# ════════════════════════════════════════════════════
 
 load_dotenv()
-API_TOKEN = os.getenv("APIFY_API_TOKEN")
-
-# ── Buat folder output ──
+API_TOKEN  = os.getenv("APIFY_API_TOKEN")
 OUTPUT_DIR = "output"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ── 4 Tempat Target di Gresik ──
-run_input = {
-    "searchStringsArray": [
-        "Kantor Bupati Gresik",
-        "RSUD Ibnu Sina Gresik",
-        "Mall Pelayanan Publik Gresik",
-        "DISPENDUKCAPIL Gresik"
-    ],
-    "locationQuery": "Gresik, Jawa Timur, Indonesia",
-    "maxCrawledPlacesPerSearch": 1,
-    "includeReviews": True,
-    "maxReviews": 50,
-    "includeOpeningHours": False,
-    "language": "id",
+# Mapping nama tempat → nama folder
+TEMPAT_FOLDER = {
+    "Kantor Bupati Gresik"                                    : "kantor_bupati",
+    "RSUD Ibnu Sina Gresik"                                   : "rsud_ibnu_sina",
+    "Mall Pelayanan Publik Kabupaten Gresik"                  : "mall_pelayanan_publik",
+    "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik": "dispendukcapil",
 }
 
-print("⏳ Menjalankan scraper... harap tunggu")
+def get_folder(nama_tempat: str) -> str:
+    """Cocokkan nama tempat ke folder, fallback ke slug sederhana."""
+    for key, folder in TEMPAT_FOLDER.items():
+        if key.lower() in nama_tempat.lower() or nama_tempat.lower() in key.lower():
+            return folder
+    return re.sub(r'[^a-z0-9]+', '_', nama_tempat.lower()).strip('_')
 
-# ── Jalankan Actor ──
-run = client.actor("compass/crawler-google-places").call(run_input=run_input)
 
-# ── Ambil Hasil ──
-results = list(client.dataset(run.default_dataset_id).iterate_items())
+# ════════════════════════════════════════════════════
+# BAGIAN 1 — SCRAPING GOOGLE MAPS
+# ════════════════════════════════════════════════════
 
-print(f"✅ Berhasil mengambil {len(results)} tempat\n")
+def scrape_google_maps():
+    client = ApifyClient(API_TOKEN)
 
-# ── Tampilkan Ringkasan di Terminal ──
-for place in results:
-    print(f"📍 {place.get('title')} — {place.get('totalScore')}⭐ ({place.get('reviewsCount')} ulasan)")
+    run_input = {
+        "searchStringsArray": [
+            "Kantor Bupati Gresik",
+            "RSUD Ibnu Sina Gresik",
+            "Mall Pelayanan Publik Gresik",
+            "DISPENDUKCAPIL Gresik"
+        ],
+        "locationQuery": "Gresik, Jawa Timur, Indonesia",
+        "maxCrawledPlacesPerSearch": 1,
+        "includeReviews": True,
+        "maxReviews": 50,
+        "includeOpeningHours": False,
+        "language": "id",
+    }
 
-# ── Simpan ke JSON ──
-json_path = os.path.join(OUTPUT_DIR, "gresik_ulasan.json")
-with open(json_path, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
-print(f"\n💾 JSON  → {json_path}")
+    print("⏳ Menjalankan scraper Google Maps... harap tunggu\n")
+    run     = client.actor("compass/crawler-google-places").call(run_input=run_input)
+    results = list(client.dataset(run.default_dataset_id).iterate_items())
 
-# ── Simpan Ulasan ke CSV ──
-csv_path = os.path.join(OUTPUT_DIR, "gresik_ulasan.csv")
-with open(csv_path, "w", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["Tempat", "Rating Tempat", "Total Ulasan",
-                     "Nama Reviewer", "Bintang", "Tanggal", "Ulasan"])
+    print(f"✅ Berhasil mengambil {len(results)} tempat\n")
+    for place in results:
+        print(f"   📍 {place.get('title')} — {place.get('totalScore')}⭐ ({place.get('reviewsCount')} ulasan)")
+
+    # Simpan file mentah per tempat
+    for place in results:
+        nama   = place.get("title", "unknown")
+        folder = os.path.join(OUTPUT_DIR, get_folder(nama))
+        os.makedirs(folder, exist_ok=True)
+
+        # JSON mentah
+        with open(os.path.join(folder, "ulasan_mentah.json"), "w", encoding="utf-8") as f:
+            json.dump(place, f, ensure_ascii=False, indent=2)
+
+        # CSV mentah
+        with open(os.path.join(folder, "ulasan_mentah.csv"), "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Tempat", "Rating Tempat", "Total Ulasan",
+                             "Nama Reviewer", "Bintang", "Tanggal", "Ulasan"])
+            reviews = place.get("reviews", [])
+            if reviews:
+                for r in reviews:
+                    writer.writerow([
+                        nama,
+                        place.get("totalScore", ""),
+                        place.get("reviewsCount", ""),
+                        r.get("name") or "",
+                        r.get("stars") or "",
+                        r.get("publishedAtDate") or "",
+                        (r.get("text") or "").replace("\n", " "),
+                    ])
+            else:
+                writer.writerow([nama, place.get("totalScore", ""),
+                                 place.get("reviewsCount", ""), "", "", "", ""])
+
+        print(f"   💾 Mentah → {folder}/")
+
+    print(f"\n🔗 Dataset: https://console.apify.com/storage/datasets/{run.default_dataset_id}")
+    return results
+
+
+# ════════════════════════════════════════════════════
+# BAGIAN 2 — PREPROCESSING TEKS
+# ════════════════════════════════════════════════════
+
+SLANG_DICT = {
+    "yg": "yang", "dgn": "dengan", "utk": "untuk", "krn": "karena",
+    "sdh": "sudah", "blm": "belum", "tdk": "tidak", "ga": "tidak",
+    "gak": "tidak", "nggak": "tidak", "ngga": "tidak", "gk": "tidak",
+    "bgt": "banget", "bngt": "banget", "sgt": "sangat", "skrg": "sekarang",
+    "klo": "kalau", "klu": "kalau", "kl": "kalau", "tp": "tapi",
+    "tpi": "tapi", "ttg": "tentang", "dr": "dari", "dlm": "dalam",
+    "dg": "dengan", "sm": "sama", "jg": "juga", "hrs": "harus",
+    "msh": "masih", "lbh": "lebih", "krng": "kurang", "byk": "banyak",
+    "plg": "paling", "pd": "pada", "spy": "supaya", "sy": "saya",
+    "gue": "saya", "gw": "saya", "loe": "kamu", "lu": "kamu",
+    "lo": "kamu", "ok": "oke", "oks": "oke", "mantap": "bagus",
+    "mantul": "bagus", "keren": "bagus", "jos": "bagus",
+    "wkwk": "", "haha": "", "hehe": "", "wkwkwk": "",
+    "antri": "antrian", "ngantri": "antrian",
+    "rmh sakit": "rumah sakit", "rs": "rumah sakit",
+    "kmr": "kamar",
+}
+
+STOPWORDS_ID = {
+    "yang", "dan", "di", "ke", "dari", "ini", "itu", "ada", "dengan",
+    "untuk", "pada", "adalah", "dalam", "tidak", "juga", "sudah",
+    "saya", "kami", "kita", "mereka", "dia", "ia", "anda", "kamu",
+    "akan", "bisa", "dapat", "oleh", "atau", "tapi", "namun", "tetapi",
+    "jika", "kalau", "karena", "saat", "ketika", "setelah", "sebelum",
+    "lebih", "sangat", "sekali", "masih", "belum", "baru", "lagi",
+    "pun", "nya", "lah", "kah", "pula", "sih", "deh", "dong",
+}
+
+def clean_text(text: str) -> str:
+    if not text or not isinstance(text, str):
+        return ""
+    text = text.lower()
+    text = re.sub(r'http\S+|www\S+', '', text)
+    text = re.sub(r'@\w+|#\w+', '', text)
+    text = text.encode('ascii', 'ignore').decode('ascii')
+    text = re.sub(r'[^a-z0-9\s]', ' ', text)
+    text = re.sub(r'\b\d+\b', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+def normalize_slang(text: str) -> str:
+    return ' '.join(SLANG_DICT.get(w, w) for w in text.split()).strip()
+
+def remove_stopwords(text: str) -> str:
+    return ' '.join(w for w in text.split() if w not in STOPWORDS_ID and len(w) > 1)
+
+def preprocess(text: str) -> dict:
+    step1 = clean_text(text)
+    step2 = normalize_slang(step1)
+    step3 = remove_stopwords(step2)
+    return {"cleaned": step1, "normalized": step2, "final": step3}
+
+
+# ════════════════════════════════════════════════════
+# BAGIAN 3 — INDOBERT SENTIMENT ANALYSIS
+# ════════════════════════════════════════════════════
+
+LABEL_MAP = {
+    "LABEL_0": "Negatif",
+    "LABEL_1": "Netral",
+    "LABEL_2": "Positif",
+}
+
+def load_indobert():
+    print("\n🤖 Memuat model IndoBERT...")
+    MODEL_NAME = "mdhugol/indonesia-bert-sentiment-classification"
+    tokenizer  = AutoTokenizer.from_pretrained(MODEL_NAME)
+    model      = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+    pipe = pipeline(
+        "sentiment-analysis",
+        model=model,
+        tokenizer=tokenizer,
+        device=0 if torch.cuda.is_available() else -1,
+        truncation=True,
+        max_length=512,
+    )
+    print("✅ Model IndoBERT berhasil dimuat!")
+    return pipe
+
+def predict_sentiment(pipe, text: str) -> dict:
+    if not text or len(text.strip()) < 3:
+        return {"label": "Netral", "score": 0.0}
+    try:
+        result = pipe(text[:512])[0]
+        return {
+            "label": LABEL_MAP.get(result["label"], result["label"]),
+            "score": round(result["score"], 4),
+        }
+    except Exception:
+        return {"label": "Error", "score": 0.0}
+
+
+# ════════════════════════════════════════════════════
+# BAGIAN 4 — PROSES PER TEMPAT
+# ════════════════════════════════════════════════════
+
+def process_per_tempat(results: list, pipe):
+    print(f"\n{'='*60}")
+    print("📊 PREPROCESSING + SENTIMENT PER TEMPAT")
+    print(f"{'='*60}")
+
+    all_summary = []
 
     for place in results:
-        nama_tempat   = place.get("title", "")
-        rating_tempat = place.get("totalScore", "")
-        total_ulasan  = place.get("reviewsCount", "")
-        reviews       = place.get("reviews", [])
+        nama   = place.get("title", "unknown")
+        folder = os.path.join(OUTPUT_DIR, get_folder(nama))
+        os.makedirs(folder, exist_ok=True)
+        reviews = place.get("reviews", [])
 
-        if reviews:
-            for r in reviews:
-                writer.writerow([
-                    nama_tempat,
-                    rating_tempat,
-                    total_ulasan,
-                    r.get("name") or "",
-                    r.get("stars" )or "",
-                    r.get("publishedAtDate") or "",
-                    (r.get("text") or "").replace("\n", " ")
-                ])
-        else:
-            writer.writerow([nama_tempat, rating_tempat, total_ulasan, "", "", "", ""])
+        print(f"\n📍 {nama}")
 
-print(f"💾 CSV   → {csv_path}")
-print(f"\n🔗 Dataset online: https://console.apify.com/storage/datasets/{run.default_dataset_id}")
+        if not reviews:
+            print(f"   ⚠️  Tidak ada ulasan, dilewati.")
+            continue
+
+        # Buat DataFrame
+        rows = []
+        for r in reviews:
+            rows.append({
+                "Tempat"       : nama,
+                "Rating Tempat": place.get("totalScore", ""),
+                "Total Ulasan" : place.get("reviewsCount", ""),
+                "Nama Reviewer": r.get("name") or "",
+                "Bintang"      : r.get("stars") or "",
+                "Tanggal"      : r.get("publishedAtDate") or "",
+                "Ulasan"       : (r.get("text") or "").replace("\n", " "),
+            })
+
+        df = pd.DataFrame(rows)
+        df = df[df["Ulasan"].str.strip() != ""]
+
+        # Preprocessing
+        preproc = df["Ulasan"].apply(preprocess)
+        df["teks_cleaned"]    = preproc.apply(lambda x: x["cleaned"])
+        df["teks_normalized"] = preproc.apply(lambda x: x["normalized"])
+        df["teks_final"]      = preproc.apply(lambda x: x["final"])
+        df = df[df["teks_final"].str.strip() != ""]
+
+        # Prediksi sentimen
+        print(f"   🔍 Menganalisis {len(df)} ulasan...")
+        sentiments           = [predict_sentiment(pipe, t) for t in df["teks_final"]]
+        df["sentimen"]       = [s["label"] for s in sentiments]
+        df["sentimen_score"] = [s["score"] for s in sentiments]
+
+        # Statistik
+        total   = len(df)
+        positif = int((df["sentimen"] == "Positif").sum())
+        netral  = int((df["sentimen"] == "Netral").sum())
+        negatif = int((df["sentimen"] == "Negatif").sum())
+        rating  = place.get("totalScore", "")
+
+        print(f"   ⭐ Rating  : {rating}")
+        print(f"   ✅ Positif : {positif} ({positif/total*100:.1f}%)")
+        print(f"   ➖ Netral  : {netral}  ({netral/total*100:.1f}%)")
+        print(f"   ❌ Negatif : {negatif} ({negatif/total*100:.1f}%)")
+
+        # Simpan CSV per tempat
+        csv_out = os.path.join(folder, "ulasan_sentimen.csv")
+        df.to_csv(csv_out, index=False, encoding="utf-8-sig")
+        print(f"   💾 {csv_out}")
+
+        # Simpan JSON per tempat (lengkap dengan semua ulasan)
+        summary = {
+            "tempat"         : nama,
+            "rating"         : rating,
+            "total_ulasan"   : total,
+            "positif"        : positif,
+            "netral"         : netral,
+            "negatif"        : negatif,
+            "persen_positif" : round(positif / total * 100, 1),
+            "persen_netral"  : round(netral  / total * 100, 1),
+            "persen_negatif" : round(negatif / total * 100, 1),
+            "ulasan"         : df[[
+                "Nama Reviewer", "Bintang", "Tanggal",
+                "Ulasan", "teks_final", "sentimen", "sentimen_score"
+            ]].to_dict(orient="records"),
+        }
+
+        json_out = os.path.join(folder, "ulasan_sentimen.json")
+        with open(json_out, "w", encoding="utf-8") as f:
+            json.dump(summary, f, ensure_ascii=False, indent=2)
+        print(f"   💾 {json_out}")
+
+        # Kumpulkan untuk summary global (tanpa detail ulasan)
+        all_summary.append({k: v for k, v in summary.items() if k != "ulasan"})
+
+    # Simpan 1 JSON gabungan semua tempat (untuk halaman overview dashboard)
+    summary_path = os.path.join(OUTPUT_DIR, "semua_tempat_summary.json")
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(all_summary, f, ensure_ascii=False, indent=2)
+    print(f"\n💾 Summary semua tempat → {summary_path}")
+
+
+# ════════════════════════════════════════════════════
+# ENTRY POINT
+# ════════════════════════════════════════════════════
+
+if __name__ == "__main__":
+    # 1. Scraping
+    results = scrape_google_maps()
+
+    # 2. Load IndoBERT sekali untuk semua tempat
+    pipe = load_indobert()
+
+    # 3. Preprocessing + Sentiment per tempat
+    process_per_tempat(results, pipe)
+
+    print(f"\n{'='*60}")
+    print("✅ Semua proses selesai!")
+    print("📁 Struktur output/")
+    print("   ├── kantor_bupati/")
+    print("   │   ├── ulasan_mentah.csv")
+    print("   │   ├── ulasan_mentah.json")
+    print("   │   ├── ulasan_sentimen.csv")
+    print("   │   └── ulasan_sentimen.json   ← pakai ini di dashboard")
+    print("   ├── rsud_ibnu_sina/            (struktur sama)")
+    print("   ├── mall_pelayanan_publik/     (struktur sama)")
+    print("   ├── dispendukcapil/            (struktur sama)")
+    print("   └── semua_tempat_summary.json  ← untuk halaman overview")
+    print(f"{'='*60}")

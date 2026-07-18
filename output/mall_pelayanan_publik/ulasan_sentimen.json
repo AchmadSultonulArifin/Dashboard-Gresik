@@ -1,0 +1,355 @@
+{
+  "tempat": "Mall Pelayanan Publik Kabupaten Gresik",
+  "rating": 4.3,
+  "total_ulasan": 38,
+  "positif": 7,
+  "netral": 15,
+  "negatif": 16,
+  "persen_positif": 18.4,
+  "persen_netral": 39.5,
+  "persen_negatif": 42.1,
+  "ulasan": [
+    {
+      "Nama Reviewer": "Leonardus Haryosampang G",
+      "Bintang": 5,
+      "Tanggal": "2023-04-04T01:12:46.059Z",
+      "Ulasan": "Pelayanan cepat, dipermudah, biaya transparan dan perlu ditiru di semua area di Indonesia",
+      "teks_final": "pelayanan cepat dipermudah biaya transparan perlu ditiru semua area indonesia",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9677
+    },
+    {
+      "Nama Reviewer": "Azundha Rahmadani A.",
+      "Bintang": 5,
+      "Tanggal": "2023-03-21T04:17:07.952Z",
+      "Ulasan": "untuk fasilitas yang disediakan sudah sangat baik. tetapi untuk loket 5 dari dinkes gresik kurang tanggap pelayanannya, follow up revisi pengurusan SIP belum sampai ke petugas yang sedang berjaga di MPP, akhirnya harus menunggu revisi SIP yang baru lebih dari satu jam.",
+      "teks_final": "fasilitas disediakan baik loket dinkes gresik kurang tanggap pelayanannya follow up revisi pengurusan sip sampai petugas sedang berjaga mpp akhirnya harus menunggu revisi sip satu jam",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9496
+    },
+    {
+      "Nama Reviewer": "Opa OpA",
+      "Bintang": 5,
+      "Tanggal": "2023-03-13T01:56:16.057Z",
+      "Ulasan": "Terima kasih atas pelayanan nya",
+      "teks_final": "terima kasih atas pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9405
+    },
+    {
+      "Nama Reviewer": "sumadi bukhori",
+      "Bintang": 1,
+      "Tanggal": "2023-02-16T00:17:28.037Z",
+      "Ulasan": "Pelayanan yang ribet dan lemot, terutama loket 13 pak sugi suka ilang ilangan orangnya gk niat kerja",
+      "teks_final": "pelayanan ribet lemot terutama loket pak sugi suka ilang ilangan orangnya niat kerja",
+      "sentimen": "Positif",
+      "sentimen_score": 0.998
+    },
+    {
+      "Nama Reviewer": "Aliaa Nurrahma",
+      "Bintang": 5,
+      "Tanggal": "2023-02-13T11:05:08.364Z",
+      "Ulasan": "Mudah cepat plyanannya..",
+      "teks_final": "mudah cepat plyanannya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.989
+    },
+    {
+      "Nama Reviewer": "Adit Rahman",
+      "Bintang": 3,
+      "Tanggal": "2023-01-26T04:17:56.706Z",
+      "Ulasan": "Niat nya mau ambil Kartu Keluarga yang saya ngurus 2 hari lalu di dukcapil, di kasih surat pengambilan di suruh ambil nya di kantor MPP. Saya datang jam 10 an pagi, katanya petugas nya nggak ada dan di suruh kembali jam 13:00 atau besok pagi nya. Apa iya petugas nya cuma 1 dan gak ada gantinya, atau tiap hari ada kuota jatah untuk KK, kasihan yg sudah izin kerja niat buat ambil, ternyata petugas nya gak ada atau nihil. Untuk tempat nya bagus dan nyaman, karena masih baru juga.",
+      "teks_final": "niat mau ambil kartu keluarga ngurus hari lalu dukcapil kasih surat pengambilan suruh ambil kantor mpp datang jam an pagi katanya petugas suruh kembali jam besok pagi apa iya petugas cuma gantinya tiap hari kuota jatah kk kasihan izin kerja niat buat ambil ternyata petugas nihil tempat bagus nyaman",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9819
+    },
+    {
+      "Nama Reviewer": "Imam Safii",
+      "Bintang": 5,
+      "Tanggal": "2022-07-28T14:34:34.123Z",
+      "Ulasan": "One stop services integration",
+      "teks_final": "one stop services integration",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9636
+    },
+    {
+      "Nama Reviewer": "Muhammad Ahmad",
+      "Bintang": 4,
+      "Tanggal": "2022-07-27T06:39:59.092Z",
+      "Ulasan": "Gedung bagus Parkir luas",
+      "teks_final": "gedung bagus parkir luas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Nama Reviewer": "Suzy",
+      "Bintang": 5,
+      "Tanggal": "2022-07-11T04:24:19.208Z",
+      "Ulasan": "Pelayanan cepat tanpa bingung ninggal baby lama2...  Ngurus kk dan KTP cuma bbrapa menit sudah jadi...",
+      "teks_final": "pelayanan cepat tanpa bingung ninggal baby lama2 ngurus kk ktp cuma bbrapa menit jadi",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8253
+    },
+    {
+      "Nama Reviewer": "cahyo subchi",
+      "Bintang": 1,
+      "Tanggal": "2022-06-17T02:11:32.955Z",
+      "Ulasan": "Pelayanan masih selevel dengan kelurahan dan kecamatan, hari ini jaringan trouble, ditolak pelayanan dan diarahkan ke dispendukcapil untuk cetak ktp.Tidak ada pemberitahuan sebelumnya padahal kemarin pemberitahuan untuk mengurus via WA. Estimasi waktu pun tidak bisa disampaikan kapan seleseinya.Jawaban penanganan karena jaringan troble mirip sekali dengan di kecamatan dan kelurahan.",
+      "teks_final": "pelayanan selevel kelurahan kecamatan hari jaringan trouble ditolak pelayanan diarahkan dispendukcapil cetak ktp pemberitahuan sebelumnya padahal kemarin pemberitahuan mengurus via wa estimasi waktu disampaikan kapan seleseinya jawaban penanganan jaringan troble mirip kecamatan kelurahan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9194
+    },
+    {
+      "Nama Reviewer": "Rosari Utomo",
+      "Bintang": 5,
+      "Tanggal": "2022-06-02T03:34:20.256Z",
+      "Ulasan": "Mengurus pindah penduduk antar kota dalam provinsi bisa dilakukan di mpp ini dengan mudah, sekaligus bisa bayar pajak kendaraan ya di sini juga bisa.",
+      "teks_final": "mengurus pindah penduduk antar kota provinsi dilakukan mpp mudah sekaligus bayar pajak kendaraan ya sini",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6271
+    },
+    {
+      "Nama Reviewer": "Ummu Zulfa",
+      "Bintang": 5,
+      "Tanggal": "2022-05-19T05:32:16.075Z",
+      "Ulasan": "Pelayanan memuaskan, cepat, ramah, ada kafetaria juga. Tempatnya adem, bersih.",
+      "teks_final": "pelayanan memuaskan cepat ramah kafetaria tempatnya adem bersih",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9972
+    },
+    {
+      "Nama Reviewer": "rina agustin",
+      "Bintang": 2,
+      "Tanggal": "2022-05-12T02:09:38.483Z",
+      "Ulasan": "Loket imb hanya 1 orang. Antrian per orangnya  bisa sampek 30menit.",
+      "teks_final": "loket imb hanya orang antrian per orangnya sampek 30menit",
+      "sentimen": "Netral",
+      "sentimen_score": 0.988
+    },
+    {
+      "Nama Reviewer": "Shafira Rosh",
+      "Bintang": 3,
+      "Tanggal": "2022-04-13T16:40:47.438Z",
+      "Ulasan": "Ruang tunggu sangat nyaman. Petugas resepsionis depan sangat ramah + sigap memberi arahan & no antrian.  Saya  mengurus perubahan data KK namun petugas KK kurang ramah dan tdk memberi penjelasan pd customer, smg kedepannya diperbaiki karena seharusnya petugas mengedepankan pelayanan yg baik dan jelas agar customer tidak bingung dan urusan cepat selesai.",
+      "teks_final": "ruang tunggu nyaman petugas resepsionis depan ramah sigap memberi arahan no antrian mengurus perubahan data kk petugas kk kurang ramah memberi penjelasan customer smg kedepannya diperbaiki seharusnya petugas mengedepankan pelayanan baik jelas agar customer bingung urusan cepat selesai",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8767
+    },
+    {
+      "Nama Reviewer": "Denata Ricko",
+      "Bintang": 5,
+      "Tanggal": "2022-04-12T03:52:51.804Z",
+      "Ulasan": "Mengurus pergantian alamat KTP di booth disdukcapil sangat cepat.  Tidak perlu bawa FC\"an Cukup bawa KTP lama dan KK Asli.",
+      "teks_final": "mengurus pergantian alamat ktp booth disdukcapil cepat perlu bawa fc an cukup bawa ktp lama kk asli",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9975
+    },
+    {
+      "Nama Reviewer": "Akhmad muhtadiyn",
+      "Bintang": 3,
+      "Tanggal": "2022-04-12T02:31:02.576Z",
+      "Ulasan": "Jam bukanya yg kurang, saran saya buka 24jam",
+      "teks_final": "jam bukanya kurang saran buka 24jam",
+      "sentimen": "Netral",
+      "sentimen_score": 0.628
+    },
+    {
+      "Nama Reviewer": "BIBIE HOBI",
+      "Bintang": 5,
+      "Tanggal": "2022-03-29T05:23:32.455Z",
+      "Ulasan": "Pelayanan sangat cepet Tempat antrian juga nyaman",
+      "teks_final": "pelayanan cepet tempat antrian nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Nama Reviewer": "D3 TM 16 Fareid Piston 07",
+      "Bintang": 1,
+      "Tanggal": "2022-02-24T05:21:03.306Z",
+      "Ulasan": "12.05 sudah tutup maszeh",
+      "teks_final": "tutup maszeh",
+      "sentimen": "Netral",
+      "sentimen_score": 0.886
+    },
+    {
+      "Nama Reviewer": "Rizki Adi Adha",
+      "Bintang": 5,
+      "Tanggal": "2022-02-24T04:10:00.431Z",
+      "Ulasan": "Pelayanannya cepat sekali. Untuk yang baru pertama kali kesini tempanya paling belakang. Dari pintu masuk mengikuti jalan belokan pertama liat pertigaan sebelah kiri, kemudian lurus terus sekitar kurang kebih 500 belok kanan nanti ada petunjuknya jika kurang faham",
+      "teks_final": "pelayanannya cepat pertama kali kesini tempanya paling belakang pintu masuk mengikuti jalan belokan pertama liat pertigaan sebelah kiri kemudian lurus terus sekitar kurang kebih belok kanan nanti petunjuknya kurang faham",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5947
+    },
+    {
+      "Nama Reviewer": "Ikhwanun N",
+      "Bintang": 5,
+      "Tanggal": "2022-01-27T14:11:49.002Z",
+      "Ulasan": "MANTAP",
+      "teks_final": "bagus",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Nama Reviewer": "Gee_ Hart0",
+      "Bintang": 5,
+      "Tanggal": "2021-12-29T04:42:57.405Z",
+      "Ulasan": "Bikin ktp baru syaratnya cuma fc kk . Trus lgs foto.. Bsoknya Tinggal ambil kartu KTPnya.. Mantap pelayananya. Terimakasih utk pemerintah👍👍👍🇮🇩🇮🇩🇮🇩",
+      "teks_final": "bikin ktp syaratnya cuma fc kk trus lgs foto bsoknya tinggal ambil kartu ktpnya bagus pelayananya terimakasih pemerintah",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8693
+    },
+    {
+      "Nama Reviewer": "Retno Dini",
+      "Bintang": 5,
+      "Tanggal": "2021-12-15T12:13:06.663Z",
+      "Ulasan": "Baru tau kalo Gresik udah punya fasilitas pelayanan publik yang sangat ngebantu banget. Semua instansi pelayanan publik dikumpulkan dalam 1 gedung yang nyaman dan aman. Antriannya jauh lebih sepi dari kantor aslinya, jadi kalo ngurus apa2 jadi serba cepet. Fasilitas juga lengkap mulai dari wifi gratis, cafetaria, bahkan ruang laktasi. Semuanya dalam keadaan baik dan bersih. Kursi tunggu juga nyaman banget. Kebetulan kesana buat urus SKCK, jadi diarahkan buat ambil antrian polres dan langsung ditanganin karna ga ada yang antri😬. Ibu2nya ramah banget, asik diajak ngobrol. Dan ternyata mall pelayanan publik ini udah berjalan setahun lebih, yakin bgt banyak orang gresik yang ga tau. Mungkin ini PR buat pemkab buat sosialisasi ke masyarakat. Good job buat gresik udah berani selangkah lebih maju dari kota2 lain✨",
+      "teks_final": "tau kalo gresik udah punya fasilitas pelayanan publik ngebantu banget semua instansi pelayanan publik dikumpulkan gedung nyaman aman antriannya jauh sepi kantor aslinya jadi kalo ngurus apa2 jadi serba cepet fasilitas lengkap mulai wifi gratis cafetaria bahkan ruang laktasi semuanya keadaan baik bersih kursi tunggu nyaman banget kebetulan kesana buat urus skck jadi diarahkan buat ambil antrian polres langsung ditanganin karna antrian ibu2nya ramah banget asik diajak ngobrol ternyata mall pelayanan publik udah berjalan setahun yakin banget banyak orang gresik tau mungkin pr buat pemkab buat sosialisasi masyarakat good job buat gresik udah berani selangkah maju kota2 lain",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9974
+    },
+    {
+      "Nama Reviewer": "mohammed hassan ali",
+      "Bintang": 4,
+      "Tanggal": "2021-11-15T21:34:16.228Z",
+      "Ulasan": "pelayanan publik yang cepat seperti pengurusan OSS (one single submission), PBB, Tilangan, dan lain-lain",
+      "teks_final": "pelayanan publik cepat seperti pengurusan oss one single submission pbb tilangan lain lain",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9885
+    },
+    {
+      "Nama Reviewer": "Inez Chu",
+      "Bintang": 2,
+      "Tanggal": "2021-11-05T04:54:51.653Z",
+      "Ulasan": "Utk pengurusan IMB ini jadinya gmn??katanya mau ganti PBG tapi pengurusan belum jelas,diminta menunggu tanpa kejelasan. Tolong keputusannya ini bgmn jadinya biar prosesnya bisa dipercepat!!",
+      "teks_final": "pengurusan imb jadinya gmn katanya mau ganti pbg pengurusan jelas diminta menunggu tanpa kejelasan tolong keputusannya bgmn jadinya biar prosesnya dipercepat",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6631
+    },
+    {
+      "Nama Reviewer": "Kenzo Jovan",
+      "Bintang": 5,
+      "Tanggal": "2021-09-22T04:31:41.139Z",
+      "Ulasan": "Ini sangat membantu mengurangi antrian di kantor kantor aslinya. Pelayanan nya pun sangat cepat banget. Tempatnya berada di area pemda gresik. Tempatnya sangat bersih dan rapi pengunjung di manjakan ama kursi tunggu sofa yang empuk. Bagus banget aku suka aku suka",
+      "teks_final": "membantu mengurangi antrian kantor kantor aslinya pelayanan cepat banget tempatnya berada area pemda gresik tempatnya bersih rapi pengunjung manjakan ama kursi tunggu sofa empuk bagus banget aku suka aku suka",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9981
+    },
+    {
+      "Nama Reviewer": "Nasichun Amin Gresik",
+      "Bintang": 5,
+      "Tanggal": "2021-08-12T09:51:10.688Z",
+      "Ulasan": "Bagus",
+      "teks_final": "bagus",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Nama Reviewer": "Bagus Wicaksono",
+      "Bintang": 5,
+      "Tanggal": "2021-08-04T04:16:59.378Z",
+      "Ulasan": "Pelayanan baik dan cepat , untuk lebih cepat pelayanan daftar online saja karna tinggal ambil berkas jadi di sini . Mantap tingkatkan terus pelayanannya 👍🏻",
+      "teks_final": "pelayanan baik cepat cepat pelayanan daftar online saja karna tinggal ambil berkas jadi sini bagus tingkatkan terus pelayanannya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9792
+    },
+    {
+      "Nama Reviewer": "sokip bonek",
+      "Bintang": 3,
+      "Tanggal": "2021-06-07T13:33:09.639Z",
+      "Ulasan": "Apa disini bisa ngurus pembaruan data ktp dan bpjs?",
+      "teks_final": "apa disini ngurus pembaruan data ktp bpjs",
+      "sentimen": "Netral",
+      "sentimen_score": 0.977
+    },
+    {
+      "Nama Reviewer": "Laili fitriyah",
+      "Bintang": 5,
+      "Tanggal": "2021-06-07T03:39:01.411Z",
+      "Ulasan": "Urus pembaruan data ektp. Gak sampe 10 menit udah jadi.",
+      "teks_final": "urus pembaruan data ektp sampe menit udah jadi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Nama Reviewer": "Dody Pratignyo",
+      "Bintang": 4,
+      "Tanggal": "2021-04-26T06:04:23.626Z",
+      "Ulasan": "Belum Maximal. Karena Pegawai yang di Utus bukan Pegawai yang sudah Profesional.",
+      "teks_final": "maximal pegawai utus bukan pegawai profesional",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9501
+    },
+    {
+      "Nama Reviewer": "Choirul Azali",
+      "Bintang": 5,
+      "Tanggal": "2021-04-19T11:59:49.761Z",
+      "Ulasan": "Mau tanya ktp luar kota tapi masih wil jatim bisa ngurus disini ta...ktp saya blur tulisanya banyak yang hilang...kebetulan saya kerja di gresik",
+      "teks_final": "mau tanya ktp luar kota wil jatim ngurus disini ta ktp blur tulisanya banyak hilang kebetulan kerja gresik",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8343
+    },
+    {
+      "Nama Reviewer": "Alva Nabilla",
+      "Bintang": 5,
+      "Tanggal": "2021-04-08T23:56:47.896Z",
+      "Ulasan": "Pelayanan cepat dan tempatnya nyaman",
+      "teks_final": "pelayanan cepat tempatnya nyaman",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Nama Reviewer": "Asrori Oyi",
+      "Bintang": 3,
+      "Tanggal": "2021-04-08T03:10:44.882Z",
+      "Ulasan": "Tolong untuk persyaratan mengenai adminitrasi kependudukan  kk atau ktp bisa di beritahuakan di kelurahan agar masyarakat yang mau mengurus bisa langsung jadi dan tidak kembali 2 kali...semoga gresik jadi lebih baik.",
+      "teks_final": "tolong persyaratan mengenai adminitrasi kependudukan kk ktp beritahuakan kelurahan agar masyarakat mau mengurus langsung jadi kembali kali semoga gresik jadi baik",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9534
+    },
+    {
+      "Nama Reviewer": "Rachman Arief",
+      "Bintang": 4,
+      "Tanggal": "2021-03-08T01:22:16.046Z",
+      "Ulasan": "Jam pelayanan kok tdk sama antar instansi, ada yang buka jam 8 ada juga yang buka jam 8.30, mohon bisa dikoreksi utk jam buka pastinya.",
+      "teks_final": "jam pelayanan kok sama antar instansi buka jam buka jam mohon dikoreksi jam buka pastinya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8532
+    },
+    {
+      "Nama Reviewer": "Ingsun Bae",
+      "Bintang": 5,
+      "Tanggal": "2021-02-18T02:24:59.427Z",
+      "Ulasan": "Tempat pelayanan publik di Gresik, pegawai ramah tempat bersih dan sejuk pertahankan kalau bisa tingkatkan",
+      "teks_final": "tempat pelayanan publik gresik pegawai ramah tempat bersih sejuk pertahankan tingkatkan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9854
+    },
+    {
+      "Nama Reviewer": "Zuhroni Ali Fikri",
+      "Bintang": 5,
+      "Tanggal": "2020-12-19T17:11:54.656Z",
+      "Ulasan": "Cukup nyaman. Lokasi agak membingungkan awalnya karena MPP berada di belakang.",
+      "teks_final": "cukup nyaman lokasi agak membingungkan awalnya mpp berada belakang",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6309
+    },
+    {
+      "Nama Reviewer": "Reni Sartina",
+      "Bintang": 4,
+      "Tanggal": "2020-11-29T12:19:13.793Z",
+      "Ulasan": "It's informative place with simple settings. Love to come to this place",
+      "teks_final": "it informative place with simple settings love to come to this place",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9572
+    },
+    {
+      "Nama Reviewer": "sahabat kita",
+      "Bintang": 4,
+      "Tanggal": "2020-11-10T08:05:20.855Z",
+      "Ulasan": "Tempatnya nyaman, bagus, bersih dan pelayanannya baik, yang menurut saya kurang mungkin SDM nya di tambah lagi dan di tingkat kan lagi dari segi lama proses pelayanan nya, sebagian besar proses wabil khusus nya pelayanan pengurusan imb, site plan. Semoga tambah lagi di tingkat kan lagi pelanannya dan inovasi dalam pelayanan perijinan dll, Bravo Kab. Gresik 👍👍👍",
+      "teks_final": "tempatnya nyaman bagus bersih pelayanannya baik menurut kurang mungkin sdm tambah tingkat kan segi lama proses pelayanan sebagian besar proses wabil khusus pelayanan pengurusan imb site plan semoga tambah tingkat kan pelanannya inovasi pelayanan perijinan dll bravo kab gresik",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9843
+    }
+  ]
+}

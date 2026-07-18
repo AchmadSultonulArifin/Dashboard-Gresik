@@ -36,27 +36,26 @@ from webdriver_manager.chrome import ChromeDriverManager
 #  KONFIGURASI
 # ══════════════════════════════════════════════════════════════
 
-IG_USERNAME = "sanikhsan336"   # username akun kamu
+# ══════════════════════════════════════════════════════════════
+#  KONFIGURASI
+# ══════════════════════════════════════════════════════════════
+import os
 
-# Ambil cookie dari browser Chrome yang sudah login Instagram:
-# F12 → Application → Cookies → https://www.instagram.com → copy nilai tiap cookie
+IG_USERNAME = "sanikhsan336"
+
 IG_COOKIES = {
-    "sessionid"  : "12624996697%3AteWM3Pc9bRYEtu%3A5%3AAYgLkRCiPdCuiQTWmplyQG-RVkbXfOhxmqE1k9Lqiw",
-    "csrftoken"  : "Hdv1nIq1UCSW72qYTe8zqaNkFNAXzhoe",
-    "ds_user_id" : "12624996697",
-    "mid"        : "akiS_wALAAFCy3HhTuj6TLtNlN4G",
-    "ig_did"     : "27B7384E-D2AB-458B-B44B-8AEC11485196",
-    "rur"        : "EAG%2C17841412620928124%2C1784864829%3A01ff430327ecb157770a8b91824d7afff36fc8c7ea5b536a100519283e54049c8455a86a",
+    "sessionid"  : os.getenv("IG_SESSIONID", ""),
+    "csrftoken"  : os.getenv("IG_CSRFTOKEN", ""),
+    "ds_user_id" : os.getenv("IG_DS_USER_ID", ""),
+    "mid"        : os.getenv("IG_MID", ""),
+    "ig_did"     : os.getenv("IG_DID", ""),
+    "rur"        : os.getenv("IG_RUR", ""),
 }
-# ── Keyword yang ingin dicari ──────────────────────────────────
-KEYWORDS = [
-    "Gresik"
-]
 
-MAKS_POST_PER_KEYWORD   = 30    # berapa postingan yang diambil per keyword
-MAKS_KOMENTAR_PER_POST  = 50    # berapa komentar per postingan
-TAMPILKAN_BROWSER       = True  # True = lihat browser, False = headless
-
+KEYWORDS                = ["Gresik"]
+MAKS_POST_PER_KEYWORD   = 30
+MAKS_KOMENTAR_PER_POST  = 50
+TAMPILKAN_BROWSER       = False   # ← wajib False di GitHub Actions
 os.makedirs("output", exist_ok=True)
 
 # ══════════════════════════════════════════════════════════════
@@ -117,21 +116,18 @@ def cek_sesi_aktif(driver):
 
 
 # ══════════════════════════════════════════════════════════════
-#  BUAT DRIVER
+#  BUAT DRIVER (versi GitHub Actions compatible)
 # ══════════════════════════════════════════════════════════════
-
 def buat_driver():
     opts = Options()
-    if not TAMPILKAN_BROWSER:
-        opts.add_argument("--headless=new")
-
+    opts.add_argument("--headless=new")          # wajib di server
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--window-size=1366,768")
     opts.add_argument("--disable-blink-features=AutomationControlled")
     opts.add_experimental_option("excludeSwitches", ["enable-automation"])
     opts.add_experimental_option("useAutomationExtension", False)
-    opts.add_argument("--window-size=1366,768")
-    opts.add_argument("--disable-gpu")
     opts.add_argument("--disable-extensions")
     opts.add_argument("--disable-notifications")
     opts.add_argument("--disable-popup-blocking")
@@ -142,7 +138,6 @@ def buat_driver():
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     )
-
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
         options=opts
@@ -151,7 +146,6 @@ def buat_driver():
         "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
     )
     return driver
-
 
 # ══════════════════════════════════════════════════════════════
 #  LOGIN INSTAGRAM

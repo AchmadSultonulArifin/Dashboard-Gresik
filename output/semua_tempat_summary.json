@@ -1,27 +1,5 @@
 [
   {
-    "tempat": "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik",
-    "rating": 4.4,
-    "total_ulasan": 40,
-    "positif": 5,
-    "netral": 12,
-    "negatif": 23,
-    "persen_positif": 12.5,
-    "persen_netral": 30.0,
-    "persen_negatif": 57.5
-  },
-  {
-    "tempat": "Mall Pelayanan Publik Kabupaten Gresik",
-    "rating": 4.3,
-    "total_ulasan": 38,
-    "positif": 7,
-    "netral": 15,
-    "negatif": 16,
-    "persen_positif": 18.4,
-    "persen_netral": 39.5,
-    "persen_negatif": 42.1
-  },
-  {
     "tempat": "Kantor Bupati Gresik",
     "rating": 4.3,
     "total_ulasan": 32,
@@ -42,5 +20,27 @@
     "persen_positif": 7.1,
     "persen_netral": 11.9,
     "persen_negatif": 81.0
+  },
+  {
+    "tempat": "Mall Pelayanan Publik Kabupaten Gresik",
+    "rating": 4.3,
+    "total_ulasan": 38,
+    "positif": 7,
+    "netral": 15,
+    "negatif": 16,
+    "persen_positif": 18.4,
+    "persen_netral": 39.5,
+    "persen_negatif": 42.1
+  },
+  {
+    "tempat": "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik",
+    "rating": 4.4,
+    "total_ulasan": 40,
+    "positif": 5,
+    "netral": 12,
+    "negatif": 23,
+    "persen_positif": 12.5,
+    "persen_netral": 30.0,
+    "persen_negatif": 57.5
   }
 ]

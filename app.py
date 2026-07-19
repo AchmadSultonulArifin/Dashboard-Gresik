@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify
 from flask import request
 import pandas as pd
+import json
 import os
 
 app = Flask(__name__)
@@ -506,6 +507,68 @@ def instagram():
         rata_skor=rata_skor,
         ringkasan=ringkasan.to_dict("records")
     )
+
+
+@app.route("/googlemaps")
+def googlemaps():
+
+    data = load_google_maps()
+
+    return render_template(
+        "googlemaps.html",
+        tempat=data
+    )
+
+GOOGLE_MAPS_FOLDER = "output"
+
+def load_google_maps():
+
+    daftar_tempat = [
+    {
+        "kategori": "Pemerintahan",
+        "id": "kantor_bupati",
+        "nama": "Kantor Bupati",
+        "file": "kantor_bupati/ulasan_sentimen.json"
+    },
+    {
+        "kategori": "Pemerintahan",
+        "id": "dispendukcapil",
+        "nama": "Dispendukcapil",
+        "file": "dispendukcapil/ulasan_sentimen.json"
+    },
+    {
+        "kategori": "Kesehatan",
+        "id": "rsud_ibnu_sina",
+        "nama": "RSUD Ibnu Sina",
+        "file": "rsud_ibnu_sina/ulasan_sentimen.json"
+    },
+    {
+        "kategori": "Pelayanan Publik",
+        "id": "mall_pelayanan_publik",
+        "nama": "Mall Pelayanan Publik",
+        "file": "mall_pelayanan_publik/ulasan_sentimen.json"
+    },
+]
+
+    hasil = []
+
+    for t in daftar_tempat:
+
+        path = os.path.join(GOOGLE_MAPS_FOLDER, t["file"])
+
+        if not os.path.exists(path):
+            continue
+
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        data["id"] = t["id"]
+        data["nama"] = t["nama"]
+        data["kategori"] = t["kategori"]  
+
+        hasil.append(data)
+
+    return hasil
 
 
 @app.route("/api/data")

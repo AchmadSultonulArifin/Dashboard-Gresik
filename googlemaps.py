@@ -174,7 +174,57 @@ def preprocess(text: str) -> dict:
     step3 = remove_stopwords(step2)
     return {"cleaned": step1, "normalized": step2, "final": step3}
 
+# ==========================================================
+# DETEKSI TOPIK
+# ==========================================================
 
+TOPIC_RULES = {
+    "Pelayanan": [
+        "pelayanan", "layanan", "petugas", "pegawai",
+        "ramah", "cepat", "lambat", "antri", "antrian",
+        "administrasi", "birokrasi", "loket"
+    ],
+
+    "Fasilitas": [
+        "fasilitas", "gedung", "ruangan", "toilet",
+        "parkir", "kursi", "wifi", "ac",
+        "bersih", "kotor", "nyaman"
+    ],
+
+    "Kesehatan": [
+        "dokter", "perawat", "rumah sakit",
+        "puskesmas", "obat", "pasien",
+        "bpjs", "igd", "rawat"
+    ],
+
+    "Administrasi": [
+        "ktp", "kk", "akta", "nik",
+        "dokumen", "berkas", "izin",
+        "surat", "disdukcapil"
+    ],
+
+    "Infrastruktur": [
+        "jalan", "bangunan", "renovasi",
+        "akses", "lift", "tangga",
+        "trotoar", "parkiran"
+    ],
+
+    "Keamanan": [
+        "satpam", "aman", "keamanan",
+        "polisi", "security"
+    ]
+}
+
+
+def detect_topic(text):
+    text = text.lower()
+
+    for topic, keywords in TOPIC_RULES.items():
+        for keyword in keywords:
+            if keyword in text:
+                return topic
+
+    return "Lainnya"
 # ════════════════════════════════════════════════════
 # BAGIAN 3 — INDOBERT SENTIMENT ANALYSIS
 # ════════════════════════════════════════════════════
@@ -258,6 +308,7 @@ def process_per_tempat(results: list, pipe):
         df["teks_cleaned"]    = preproc.apply(lambda x: x["cleaned"])
         df["teks_normalized"] = preproc.apply(lambda x: x["normalized"])
         df["teks_final"]      = preproc.apply(lambda x: x["final"])
+        df["topik"] = df["teks_final"].apply(detect_topic)
         df = df[df["teks_final"].str.strip() != ""]
 
         # Prediksi sentimen
@@ -296,7 +347,7 @@ def process_per_tempat(results: list, pipe):
             "persen_negatif" : round(negatif / total * 100, 1),
             "ulasan"         : df[[
                 "Nama Reviewer", "Bintang", "Tanggal",
-                "Ulasan", "teks_final", "sentimen", "sentimen_score"
+                "Ulasan", "teks_final","topik", "sentimen", "sentimen_score"
             ]].to_dict(orient="records"),
         }
 

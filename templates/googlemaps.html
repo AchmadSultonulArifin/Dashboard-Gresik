@@ -231,6 +231,7 @@ function renderUlasan(d) {
         <div class="ulasan-nama">
           <span>${u["Nama Reviewer"] || u.nama || "-"}</span>
           <span class="badge ${u.sentimen}">${u.sentimen}</span>
+          <span class="badge" style="background:#eef3ff;color:#2d5be3;">${u.topik}</span>
           <span class="bintang">${"★".repeat(u["Bintang"]||u.bintang||0)}${"☆".repeat(5-(u["Bintang"]||u.bintang||0))}</span>
         </div>
         <p class="ulasan-teks">${u["Ulasan"] || u.teks || "-"}</p>

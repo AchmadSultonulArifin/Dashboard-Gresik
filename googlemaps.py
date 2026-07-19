@@ -34,86 +34,165 @@ API_TOKEN  = os.getenv("APIFY_API_TOKEN")
 OUTPUT_DIR = "output"
 print(f"🔑 Token terbaca: {API_TOKEN[:15]}..." if API_TOKEN else "❌ Token TIDAK terbaca!")
 
-# Mapping nama tempat → nama folder
-TEMPAT_FOLDER = {
-    "Kantor Bupati Gresik"                                    : "kantor_bupati",
-    "RSUD Ibnu Sina Gresik"                                   : "rsud_ibnu_sina",
-    "Mall Pelayanan Publik Kabupaten Gresik"                  : "mall_pelayanan_publik",
-    "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik": "dispendukcapil",
-}
+MASTER_FILE = "output/master_tempat.csv"
 
-def get_folder(nama_tempat: str) -> str:
-    """Cocokkan nama tempat ke folder, fallback ke slug sederhana."""
-    for key, folder in TEMPAT_FOLDER.items():
-        if key.lower() in nama_tempat.lower() or nama_tempat.lower() in key.lower():
-            return folder
+def get_folder(nama_tempat):
     return re.sub(r'[^a-z0-9]+', '_', nama_tempat.lower()).strip('_')
 
+def buat_master_tempat():
 
+    client = ApifyClient(API_TOKEN)
+
+    SEARCHES = {
+        "Pemerintahan": [
+            "kantor pemerintah gresik",
+            "kantor desa gresik",
+            "kantor kecamatan gresik",
+            "kantor kelurahan gresik"
+        ],
+
+        "Kesehatan": [
+            "rumah sakit gresik",
+            "puskesmas gresik",
+            "klinik gresik"
+        ],
+
+        "Pendidikan": [
+            "sekolah gresik",
+            "universitas gresik",
+            "kampus gresik"
+        ],
+
+        "Pelayanan Publik": [
+            "disdukcapil gresik",
+            "samsat gresik",
+            "mall pelayanan publik gresik"
+        ],
+
+        "Wisata": [
+            "wisata gresik"
+        ],
+
+        "Industri": [
+            "pabrik gresik"
+        ]
+    }
+
+    semua = []
+
+    for kategori, pencarian in SEARCHES.items():
+
+        print(f"\n===== {kategori} =====")
+
+        for keyword in pencarian:
+
+            print("Cari :", keyword)
+
+            run = client.actor(
+                "compass/crawler-google-places"
+            ).call(
+                run_input={
+                    "searchStringsArray":[keyword],
+                    "locationQuery":"Gresik, Jawa Timur",
+                    "maxCrawledPlacesPerSearch":80,
+                    "includeReviews":False
+                }
+            )
+
+            dataset = client.dataset(run.default_dataset_id)
+
+            for item in dataset.iterate_items():
+
+                semua.append({
+                    "kategori":kategori,
+                    "nama":item["title"]
+                })
+
+    df = pd.DataFrame(semua)
+
+    df = df.drop_duplicates("nama")
+
+    os.makedirs("output", exist_ok=True)
+
+    df.to_csv(
+        MASTER_FILE,
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    print(f"\nMaster tempat berhasil dibuat ({len(df)})")
+    
 # ════════════════════════════════════════════════════
 # BAGIAN 1 — SCRAPING GOOGLE MAPS
 # ════════════════════════════════════════════════════
 
 def scrape_google_maps():
+
     client = ApifyClient(API_TOKEN)
 
-    run_input = {
-        "searchStringsArray": [
-            "Kantor Bupati Gresik",
-            "RSUD Ibnu Sina Gresik",
-            "Mall Pelayanan Publik Gresik",
-            "DISPENDUKCAPIL Gresik"
-        ],
-        "locationQuery": "Gresik, Jawa Timur, Indonesia",
-        "maxCrawledPlacesPerSearch": 1,
-        "includeReviews": True,
-        "maxReviews": 50,
-        "includeOpeningHours": False,
-        "language": "id",
-    }
+    if not os.path.exists(MASTER_FILE):
 
-    print("⏳ Menjalankan scraper Google Maps... harap tunggu\n")
-    run     = client.actor("compass/crawler-google-places").call(run_input=run_input)
-    results = list(client.dataset(run.default_dataset_id).iterate_items())
+        print("Master tempat belum ada")
 
-    print(f"✅ Berhasil mengambil {len(results)} tempat\n")
+        buat_master_tempat()
+
+
+    master = pd.read_csv(MASTER_FILE)
+
+    results = []
+
+    print("⏳ Menjalankan scraper Google Maps...\n")
+
+    for _, row in master.iterrows():
+
+        print(f"📍 {row['nama']}")
+
+        run = client.actor(
+            "compass/crawler-google-places"
+        ).call(
+            run_input={
+                "searchStringsArray": [row["nama"]],
+                "maxCrawledPlacesPerSearch": 1,
+                "includeReviews": True,
+                "maxReviews": 50,
+                "language": "id"
+            }
+        )
+
+        dataset = client.dataset(run.default_dataset_id)
+
+        data = list(dataset.iterate_items())
+
+        if len(data):
+            data[0]["kategori"] = row["kategori"]
+            results.extend(data)
+
+    print(f"\n✅ Berhasil mengambil {len(results)} tempat\n")
+
     for place in results:
-        print(f"   📍 {place.get('title')} — {place.get('totalScore')}⭐ ({place.get('reviewsCount')} ulasan)")
 
-    # Simpan file mentah per tempat
-    for place in results:
-        nama   = place.get("title", "unknown")
-        folder = os.path.join(OUTPUT_DIR, get_folder(nama))
+        print(
+            f"📍 {place.get('title')} | "
+            f"{place.get('kategori')} | "
+            f"{place.get('reviewsCount')} ulasan"
+        )
+
+        nama = place.get("title", "unknown")
+
+        folder = os.path.join(
+            OUTPUT_DIR,
+            get_folder(nama)
+        )
+
         os.makedirs(folder, exist_ok=True)
 
-        # JSON mentah
-        with open(os.path.join(folder, "ulasan_mentah.json"), "w", encoding="utf-8") as f:
+        with open(
+            os.path.join(folder, "ulasan_mentah.json"),
+            "w",
+            encoding="utf-8"
+        ) as f:
             json.dump(place, f, ensure_ascii=False, indent=2)
-
-        # CSV mentah
-        with open(os.path.join(folder, "ulasan_mentah.csv"), "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerow(["Tempat", "Rating Tempat", "Total Ulasan",
-                             "Nama Reviewer", "Bintang", "Tanggal", "Ulasan"])
-            reviews = place.get("reviews", [])
-            if reviews:
-                for r in reviews:
-                    writer.writerow([
-                        nama,
-                        place.get("totalScore", ""),
-                        place.get("reviewsCount", ""),
-                        r.get("name") or "",
-                        r.get("stars") or "",
-                        r.get("publishedAtDate") or "",
-                        (r.get("text") or "").replace("\n", " "),
-                    ])
-            else:
-                writer.writerow([nama, place.get("totalScore", ""),
-                                 place.get("reviewsCount", ""), "", "", "", ""])
-
-        print(f"   💾 Mentah → {folder}/")
-
-    print(f"\n🔗 Dataset: https://console.apify.com/storage/datasets/{run.default_dataset_id}")
+    
     return results
 
 
@@ -291,6 +370,7 @@ def process_per_tempat(results: list, pipe):
         rows = []
         for r in reviews:
             rows.append({
+                "Kategori": place.get("kategori"),
                 "Tempat"       : nama,
                 "Rating Tempat": place.get("totalScore", ""),
                 "Total Ulasan" : place.get("reviewsCount", ""),
@@ -336,6 +416,7 @@ def process_per_tempat(results: list, pipe):
 
         # Simpan JSON per tempat (lengkap dengan semua ulasan)
         summary = {
+            "kategori"       : place.get("kategori"),
             "tempat"         : nama,
             "rating"         : rating,
             "total_ulasan"   : total,
@@ -346,7 +427,7 @@ def process_per_tempat(results: list, pipe):
             "persen_netral"  : round(netral  / total * 100, 1),
             "persen_negatif" : round(negatif / total * 100, 1),
             "ulasan"         : df[[
-                "Nama Reviewer", "Bintang", "Tanggal",
+                "Kategori","Nama Reviewer", "Bintang", "Tanggal",
                 "Ulasan", "teks_final","topik", "sentimen", "sentimen_score"
             ]].to_dict(orient="records"),
         }

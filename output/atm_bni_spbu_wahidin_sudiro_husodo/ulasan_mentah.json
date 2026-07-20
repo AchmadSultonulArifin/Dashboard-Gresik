@@ -1,0 +1,943 @@
+{
+  "title": "ATM BNI SPBU WAHIDIN SUDIRO HUSODO",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "ATM",
+  "address": "Jl. Dr. Wahidin Sudirohusodo, Karangturi, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
+  "neighborhood": "Karangturi, Kecamatan Gresik",
+  "street": "Jl. Dr. Wahidin Sudirohusodo",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61121",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "website": "http://www.bni.co.id/",
+  "phone": "+62 1 500 046",
+  "phoneUnformatted": "+621500046",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.16295,
+    "lng": 112.6332055
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RJPM+R7 Karangturi, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJkST7qW8A2C0RSCoUZoJsAJE",
+  "categories": [
+    "ATM"
+  ],
+  "fid": "0x2dd8006fa9fb2491:0x91006c8266142a48",
+  "cid": "10448470442813696584",
+  "reviewsCount": 4,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 1,
+    "fourStar": 0,
+    "fiveStar": 3
+  },
+  "imagesCount": 7,
+  "imageCategories": [
+    "Semua",
+    "Eksterior",
+    "Anjungan tunai mandiri",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-20T14:20:01.587Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 4,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 63
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 4,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 68
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 4,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 57
+      }
+    ],
+    "We": [
+      {
+        "hour": 4,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 36
+      }
+    ],
+    "Th": [
+      {
+        "hour": 4,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 21
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 4,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 57
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 4,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 52
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Jumat",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI 46",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI ROOMO",
+      "reviewsCount": 3,
+      "totalScore": 2.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI Rest Area Kebomas",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI SPBU",
+      "reviewsCount": 1,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=ATM%20BNI%20SPBU%20WAHIDIN%20SUDIRO%20HUSODO&query_place_id=ChIJkST7qW8A2C0RSCoUZoJsAJE",
+  "searchPageUrl": "https://www.google.com/maps/search/ATM%20BNI%20SPBU%20WAHIDIN%20SUDIRO%20HUSODO?hl=id",
+  "searchString": "ATM BNI SPBU WAHIDIN SUDIRO HUSODO",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH3vYYQCZ-RvgM2wifn0wFJxalQV-OTKHTrmZDPvm4hCc5j8Cuvkq5rh-aG7ibzgovFUy8pSqkAs0h095fr8fV8xD1qiV8S7BA70jCnNPkGpUdidrG-lfcxnvZuLzezF9YUaYUEwfG8terT1w9KEnM_s8Eyha8JBih65Fhf9EXPaPwhqSeCz3JeFkmB-4Y09h4KcRQ=w408-h306-k-no",
+  "kgmid": "/g/11b5wl5wtr",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "112678343096152635685",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112678343096152635685?hl=id",
+      "name": "ANW FZL STC WORLD",
+      "reviewerNumberOfReviews": 122,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKTIgPlmY1uVN3mYMqvyeikEMsU7qsttsTXnXAKDvT-Tq8Np24=s1920-c-rp-mo-ba12-br100",
+      "text": "Kurang tepat",
+      "textTranslated": null,
+      "publishAt": "6 tahun lalu",
+      "publishedAtDate": "2019-12-21T13:57:49.566Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURNdkpxamFREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURNdkpxamFREAE!2m1!1s0x0:0x91006c8266142a48!3m1!1s2@1:CIHM0ogKEICAgIDMvJqjaQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 3,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107791034391193298024",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107791034391193298024?hl=id",
+      "name": "Raden Mas Ifan",
+      "reviewerNumberOfReviews": 295,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVpYLVe4F_wImwSLGnxsOXr4h3T5kM_Pp66EgK_YV0Jr1QSFFzO=s1920-c-rp-mo-ba12-br100",
+      "text": "Ada disisi barat ... pintu masuk",
+      "textTranslated": null,
+      "publishAt": "7 tahun lalu",
+      "publishedAtDate": "2019-07-15T09:43:05.710Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVOElINW9RRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNVOElINW9RRRAB!2m1!1s0x0:0x91006c8266142a48!3m1!1s2@1:CIHM0ogKEICAgICU8IH5oQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPenvNsV-BuCAjB3M64XRYq0mA1tdSXmulVMe7y9i5dSHk3sGRudoTnbqDblJCRWmyX5Nmzj-IIlCBf0KYEH0NpNQFkyyY7ED_0rZe_tynRj70P4eBtXVvG8SBDC06hVI9qXwUy=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMaofRNe79HVW8glK5riW7T-W-kloqYc7QT7-kBcxRmRvmZTQ3szzCIBQGhAZLNfYmeQhtCgO1Gu5CTpctlXz_UxOEfEysdqs8lv-9v_2c6hD5x7BAOqMoMxWTByINAe6ifX0Irpw=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107380667759339929305",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
+      "name": "yudi oke",
+      "reviewerNumberOfReviews": 4306,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
+      "text": "Tarikan tunai atm bni di spbu sebelah kiri.",
+      "textTranslated": null,
+      "publishAt": "Diedit 8 tahun lalu",
+      "publishedAtDate": "2017-11-26T11:50:08.203Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNnaGNTZnB3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNnaGNTZnB3RRAB!2m1!1s0x0:0x91006c8266142a48!3m1!1s2@1:CIHM0ogKEICAgICghcSfpwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105230712963882193463",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105230712963882193463?hl=id",
+      "name": "Nofal Henri",
+      "reviewerNumberOfReviews": 21,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVJktn31eFOIrQewkzwalCYalfh-xHinsl44JlYQUo-SzdJd7Us=s1920-c-rp-mo-ba12-br100",
+      "text": "Atmnya lengkap, ada uang pecahan 20ribu lagi 😂",
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2017-08-25T10:14:00.035Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBeXF1eXVRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNBeXF1eXVRRRAB!2m1!1s0x0:0x91006c8266142a48!3m1!1s2@1:CIHM0ogKEICAgICAyquyuQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Perbankan"
+}

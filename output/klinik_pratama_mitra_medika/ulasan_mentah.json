@@ -1,0 +1,1700 @@
+{
+  "title": "KLINIK PRATAMA MITRA MEDIKA",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Klinik Medis",
+  "address": "Jl. Tipar Cakung No.37, RT.2/RW.4, Sukapura, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14140, Indonesia",
+  "neighborhood": "Sukapura, Kecamatan Cilincing",
+  "street": "Jl. Tipar Cakung No.37, RT.2/RW.4",
+  "city": "Jkt Utara",
+  "postalCode": "14140",
+  "state": "Daerah Khusus Ibukota Jakarta",
+  "countryCode": "ID",
+  "phone": "+62 21 4415892",
+  "phoneUnformatted": "+62214415892",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -6.1534369,
+    "lng": 106.927684
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RWWH+J3 Sukapura, Jkt Utara, Daerah Khusus Ibukota Jakarta, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJBSgos8aKaS4ReCz92b0ajvI",
+  "categories": [
+    "Klinik Medis"
+  ],
+  "fid": "0x2e698ac6b3282805:0xf28e1abdd9fd2c78",
+  "cid": "17477936606579862648",
+  "reviewsCount": 388,
+  "imagesCount": 59,
+  "imageCategories": [
+    "Semua",
+    "Terbaru",
+    "Video",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-20T10:37:53.363Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Tidak terlalu ramai",
+  "popularTimesLivePercent": 40,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 4,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 18
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 99
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 86
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 23
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 4,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 20
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 4,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 98
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 18
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 15
+      }
+    ],
+    "We": [
+      {
+        "hour": 4,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 22
+      }
+    ],
+    "Th": [
+      {
+        "hour": 4,
+        "occupancyPercent": 16
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 17
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 17
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 17
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 4,
+        "occupancyPercent": 13
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 18
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 13
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 4,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 15
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Jumat",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Klinik Pratama Mitra Cakung",
+      "reviewsCount": 359,
+      "totalScore": 4.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "KLINIK YASAMEDIKA",
+      "reviewsCount": 2,
+      "totalScore": 4.5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Klinik Umum Yakri Medica Sukapura",
+      "reviewsCount": 6,
+      "totalScore": 4.8
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Klinik Pratama Mitra Warga Medika",
+      "reviewsCount": 54,
+      "totalScore": 4.3
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Klinik Wijaya Medika",
+      "reviewsCount": 147,
+      "totalScore": 4.2
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "pelayanan",
+      "count": 54
+    },
+    {
+      "title": "sakit",
+      "count": 11
+    },
+    {
+      "title": "anak",
+      "count": 9
+    },
+    {
+      "title": "sabar",
+      "count": 7
+    },
+    {
+      "title": "karang gigi",
+      "count": 6
+    },
+    {
+      "title": "promo",
+      "count": 6
+    },
+    {
+      "title": "harga",
+      "count": 6
+    },
+    {
+      "title": "cek",
+      "count": 5
+    },
+    {
+      "title": "langganan",
+      "count": 5
+    },
+    {
+      "title": "analis",
+      "count": 3
+    }
+  ],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Kursi khusus pengguna kursi roda": true
+      },
+      {
+        "Toilet khusus pengguna kursi roda": true
+      }
+    ],
+    "Fasilitas": [
+      {
+        "Toilet": true
+      }
+    ],
+    "Pembayaran": [
+      {
+        "Kartu debit": true
+      }
+    ],
+    "Parkir": [
+      {
+        "Gedung parkir gratis": true
+      },
+      {
+        "Parkir di jalan gratis": true
+      },
+      {
+        "Tempat parkir di lokasi": true
+      },
+      {
+        "Tempat parkir gratis": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=KLINIK%20PRATAMA%20MITRA%20MEDIKA&query_place_id=ChIJBSgos8aKaS4ReCz92b0ajvI",
+  "searchPageUrl": "https://www.google.com/maps/search/Klinik%20Mitra%20Medika?hl=id",
+  "searchString": "Klinik Mitra Medika",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnMLQpJnQNMxdrBmfRiVQhQJyJZKhuwWLHbM70JiBbCbmeqLIWxcCpmHBiJvpJS3zQJ7oP3OZkQ-6c50NcLae79UyucJVwYQtlFy6NymA9wEkZJNxllhYVGPYcqITPdkPj-cUzoyYl-mHzT=w408-h544-k-no",
+  "kgmid": "/g/1hf2spgnb",
+  "reviewsDistribution": {
+    "oneStar": 11,
+    "twoStar": 2,
+    "threeStar": 4,
+    "fourStar": 12,
+    "fiveStar": 359
+  },
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "117963755150974575637",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117963755150974575637?hl=id",
+      "name": "Aniputri dewi",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIWnSP5REGQ-KZE4gZqFQyIryiPMQYIaGvIYhDdPKoDgMxVTA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 jam lalu",
+      "publishedAtDate": "2026-07-20T06:06:57.579Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkamNFTjRTa0UzU1dkc1NUZHhUV0ZMZGpaS1YxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkamNFTjRTa0UzU1dkc1NUZHhUV0ZMZGpaS1YxRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOkdjcEN4SkE3SWdsSTdxTWFLdjZKV1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104556494471059628646",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104556494471059628646?hl=id",
+      "name": "Qiara Azkia",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL89q_y4-RowwKkKyIAfogcOqfI2l0BzREoLhxiHQ2hapJf-A=s1920-c-rp-mo-br100",
+      "text": "Saya senang datang ke klinik mitra Medika dokter dan perawat nya ramah pelayanan bagus. Terimakasih",
+      "textTranslated": null,
+      "publishAt": "6 jam lalu",
+      "publishedAtDate": "2026-07-20T04:02:18.760Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xRd05VUkJZVUZpTlZCdWNXTkZWRVF6U1MxeFRIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xRd05VUkJZVUZpTlZCdWNXTkZWRVF6U1MxeFRIYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOlQwNURBYUFiNVBucWNFVEQzSS1xTHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100007900545864969207",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100007900545864969207?hl=id",
+      "name": "Denny Hendrino",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVOiEZoMgfOBE6WqiepPYxdBFRPhACVJOq0_JmcrnKEfdWx6DHG=s1920-c-rp-mo-br100",
+      "text": "Kalo ada keluhan apa” selalu berkunjung ke klinik pratama mitra medika, pelayanan nya baik, ramah, dan selalu cocok sama obat nya. Sukses selalu buat klinik mitra medika, selalu berikan pelayanan yang baik dan prima. Salam sehat.",
+      "textTranslated": null,
+      "publishAt": "1 hari lalu",
+      "publishedAtDate": "2026-07-18T11:46:10.699Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21kd0xUUkRSbFpHTlc5UWRpMUVaRnBzVmxoVlpYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kd0xUUkRSbFpHTlc5UWRpMUVaRnBzVmxoVlpYYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOmdwLTRDRlZGNW9Qdi1EZFpsVlhVZXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-20T02:09:44.000Z",
+      "responseFromOwnerText": "Salam kak Denny Hendrino, Terima kasih telah mempercayakan kesehatan Kakak kepada Klinik Pratama Mitra Medika. Kami senang bisa memberikan pengalaman medis yang memuaskan bagi kak Denny Hendrino.\n\nPastikan Kakak sudah Follow Instagram @klinikmitramedika_mm untuk pembaruan informasi klinik secara berkala ya !\n\nSalam Sehat.\n",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM2fQ6Z1pf9O18z42QtcS1AdlBKuaW0CVzg65zv1kaajdFV5A-q4hoc-xBZ4WlXkWCptoZ7AZwbrpmdoHVfltKew4aklE-G1G8nSPbGa3DNx-LroLMsgR4lgTbSSXuwzuuQx8FrxJaWPWOa=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM1DleUeqIIr3rWBoNFqDRG2d2L70chC6-pwtv3Zpo5P1rWb_B_qhXMniuXtY1GlSLDvzYEnCmfB4OiaOvrSlHIn0V-uhHC3Fik8HomlyagNmXIGEUfUoQoqVA3vr5WF5eNQXtaJMH71MM=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107100568871507845322",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107100568871507845322?hl=id",
+      "name": "Siti Hamnah",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXGFmgAkNricAMb3bdlraC3xbeTY49jeOuTCg9LqvWA4F1hZdS9=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 hari lalu",
+      "publishedAtDate": "2026-07-18T04:47:09.994Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oMU5HbEdhWEk0V2kxWldsaHNSRFZoTnpSQ2RuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oMU5HbEdhWEk0V2kxWldsaHNSRFZoTnpSQ2RuYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOnh1NGlGaXI4Wi1ZWlhsRDVhNzRCdnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-20T02:02:17.000Z",
+      "responseFromOwnerText": "Salam kak Siti Hamnah, terima kasih atas rating bintang 5 yang kakak berikan. Kami berkomitmen untuk selalu mempertahankan kualitas layanan prima di Klinik Pratama Mitra Medika demi kenyamanan setiap pasien.\n\nJangan lupa untuk Follow Instagram @klinikmitramedika_mm guna mendapatkan edukasi kesehatan harian dan informasi layanan kami.\n\nSalam Sehat. \n",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110595667130993514177",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110595667130993514177?hl=id",
+      "name": "Hendro Priyono",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVpdAogstkLni3ziIGnUvxixx87_Ms0seOo2McrR7NzYC8objy7=s1920-c-rp-mo-br100",
+      "text": "Sangat baik, layanan joss. Dokter dan staffnya markotop",
+      "textTranslated": null,
+      "publishAt": "3 hari lalu",
+      "publishedAtDate": "2026-07-17T03:46:03.881Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2poa00yMVhiMVpmVEVGWmJYWm9NR0pEUXpGNExVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2poa00yMVhiMVpmVEVGWmJYWm9NR0pEUXpGNExVRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOjhkM21Xb1ZfTEFZbXZoMGJDQzF4LUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-17T04:15:00.000Z",
+      "responseFromOwnerText": "Terima kasih banyak atas apresiasinya Kak Hendro!\n\nAlhamdulillah jika pelayanan kami dinilai memuaskan dan berkesan di hati Kakak. Kami senantiasa siap melayani kembali jika Kakak membutuhkan layanan kesehatan di masa mendatang. Sehat selalu!\n\nInstagram: @klinikmitramedika_mm",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "118341861377712143078",
+      "reviewerUrl": "https://www.google.com/maps/contrib/118341861377712143078?hl=id",
+      "name": "nabila chanel",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKRgpc5UkvYb-tzBnfYTK6YMPu1ccxdt3rqXaUHFFASTra59w=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 hari lalu",
+      "publishedAtDate": "2026-07-16T10:27:35.255Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s5SmQxOWhiRXBKZHpaRU1YaHhURGRSZWtSVE5HYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5SmQxOWhiRXBKZHpaRU1YaHhURGRSZWtSVE5HYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOk9Jd19hbEpJdzZEMXhxTDdRekRTNGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-17T03:44:25.000Z",
+      "responseFromOwnerText": "Halo Kak Nabila, terima kasih telah mempercayakan layanan kesehatan Kakak kepada Klinik Mitra Medika.\n\nIni menjadi motivasi berharga bagi kami untuk terus mempertahankan kualitas pelayanan yang terbaik.\n\nJangan Lupa untuk Follow Akun sosial media kami di @klinikmitramedika_mm untuk update informasi klinik dan kesehatan.\n\nSalam Sehat",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNIAUO_SKQIg8PjERYeqmdHU8O5TH2ktfK0KpaiLi6XkQgB2LqJ40_so3oB39fQNd4rDx0_P0q4JdYuuJxPkb8q26Vq4SSADy1vyoNB--NIlyinIwaSeXIINCJeJ7GgpM7TzhCMV7QrkrA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOgDHEJt0ULmGosEwJhqhxr4xz7RmTTRmCL05W7mGKs6g60SwcKwkFye5412HyIAjWihyNTMLfhO8jjFhT-V7YWCtQbYMMrccDBKDUBCuh8xrRVP1HGwDbUyAL3iEpxo9CAc7faiqpm0cWB=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110264178271234554246",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110264178271234554246?hl=id",
+      "name": "Herlina Ina",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIPCkxXVNAZgI2k8ENR1iR_1wFliGBGEHGiAkMC2JpQZdNj8oM=s1920-c-rp-mo-br100",
+      "text": "Ramah",
+      "textTranslated": null,
+      "publishAt": "4 hari lalu",
+      "publishedAtDate": "2026-07-16T03:01:15.235Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xodlZYRlFjMW8yZUdoeVUyOHdjMFZUV0dsV1RYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xodlZYRlFjMW8yZUdoeVUyOHdjMFZUV0dsV1RYYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOlhvVXFQc1o2eGhyU28wc0VTWGlWTXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-17T03:43:41.000Z",
+      "responseFromOwnerText": "Halo Kak Herlina, terima kasih telah mempercayakan layanan kesehatan Kakak kepada Klinik Mitra Medika.\n\nTerimakasih juga untuk apresiasinya terhadap pelayanan kami yang ramah. Ini menjadi motivasi berharga bagi kami untuk terus mempertahankan kualitas pelayanan yang terbaik.\n\nJangan Lupa untuk Follow Akun sosial media kami di @klinikmitramedika_mm untuk update informasi klinik dan kesehatan.\n\nSalam Sehat",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102839806509142244609",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102839806509142244609?hl=id",
+      "name": "Hujan dan Matahari",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVDeCM5LQKrEPi_HdtNa8vTlUuKv-aMHE4i3i136pQLQXnZEmkWKg=s1920-c-rp-mo-br100",
+      "text": "Pelayanan oke bagus dan ramah",
+      "textTranslated": null,
+      "publishAt": "4 hari lalu",
+      "publishedAtDate": "2026-07-15T12:01:53.011Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201U2VtMWtNMnBLTUV3MGNVeHRabUozWjJSRGIxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201U2VtMWtNMnBLTUV3MGNVeHRabUozWjJSRGIxRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOm5Sem1kM2pKMEw0cUxtZmJ3Z2RDb1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-16T01:24:00.000Z",
+      "responseFromOwnerText": "Halo Kak Hujan, terima kasih telah mempercayakan layanan kesehatan Kakak kepada Klinik Mitra Medika.\n\nTerimakasih juga untuk apresiasinya terhadap pelayanan kami. Ini menjadi motivasi berharga bagi kami untuk terus mempertahankan kualitas pelayanan yang terbaik.\n\nJangan Lupa untuk Follow Akun sosial media kami di @klinikmitramedika_mm untuk update informasi klinik dan kesehatan.\n\nSalam Sehat,\nTim Manajemen Klinik Pratama Mitra Medika\n",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108512918905876236561",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108512918905876236561?hl=id",
+      "name": "Antoni Irawan",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVgM_qnOnq38HT7yEViODI5eaST4rp5JS1M1vzvusjaCdSfwKs=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 hari lalu",
+      "publishedAtDate": "2026-07-13T12:42:08.832Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21OWVpWazRlbTVLWVhsWWNYZGxaRjl3VDIxTmJuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OWVpWazRlbTVLWVhsWWNYZGxaRjl3VDIxTmJuYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOmNYZVk4em5KYXlYcXdlZF9wT21Nbnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-14T09:02:09.000Z",
+      "responseFromOwnerText": "Salam kak Antoni, Terima kasih banyak atas penilaian bintang 5 yang Kakak berikan untuk Klinik Mitra Medika.\n\nDukungan dan kepercayaan Kakak sangat berarti bagi kami. Hal ini menjadi penyemangat bagi seluruh tim medis dan staf kami untuk terus memberikan pelayanan kesehatan yang terbaik dan sepenuh hati. Sehat selalu untuk Kakak dan keluarga!\n\nKlinik Mitra Medika",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117799829908492616387",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117799829908492616387?hl=id",
+      "name": "Muti Nnda_19",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK8z5KEOxxv4FIIW9rE8s8dKrirzdMXiDopvylAnw-std2p_Q=s1920-c-rp-mo-br100",
+      "text": "karang gigi bersihhh",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-13T05:00:19.191Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KTFpXRlpTamhYYlROemMwdzBlRmRPY25WRWRsRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KTFpXRlpTamhYYlROemMwdzBlRmRPY25WRWRsRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOnJLZWFZSjhXbTNzc0w0eFdOcnVEdlE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-14T09:03:16.000Z",
+      "responseFromOwnerText": "Terima kasih atas apresiasinya, Kak Muti!\n\nAlhamdulillah jika hasilnya memuaskan dan giginya jadi bersih kinclong kembali. Dukungan Kakak sangat memotivasi tim medis kami. Ditunggu kedatangannya kembali untuk kontrol gigi rutin selanjutnya, ya. Sehat selalu!\n\nKlinik Pratama Mitra Medika",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "118153153822431670562",
+      "reviewerUrl": "https://www.google.com/maps/contrib/118153153822431670562?hl=id",
+      "name": "Omrips123 Sudirahmat",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKnQb6wH5-5bEBqbgOmpwrZ7A49qw_KsUa3ZunVwfAi5s0C4w=s1920-c-rp-mo-br100",
+      "text": "Pelayanan bagus ramah sukses slalu",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-11T12:20:46.825Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25OU2RYQkxkVzg0ZG5SelUzWXlUa2xCVEU5dVlrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OU2RYQkxkVzg0ZG5SelUzWXlUa2xCVEU5dVlrRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOnNSdXBLdW84dnRzU3YyTklBTE9uYkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-13T03:29:06.000Z",
+      "responseFromOwnerText": "Halo Kak Omrips, terima kasih telah mempercayakan kesehatan Kakak kepada Klinik Pratama Mitra Medika.\n\nMenghadirkan pelayanan medis yang ramah dan berkualitas adalah prioritas utama kami agar pasien selalu merasa nyaman. Terima kasih banyak atas harapan dan dukungan suksesnya. Kami berkomitmen untuk terus mempertahankan standar pelayanan ini.\n\nInstagram: @klinikmitramedika_mm",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111986058412520750366",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111986058412520750366?hl=id",
+      "name": "Daede 998",
+      "reviewerNumberOfReviews": 18,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKHYUe2q7EqBGyEeJgm9TQAyKRZc0CNHsEs-MYZiyj-lgMVpw=s1920-c-rp-mo-ba12-br100",
+      "text": "Sangat puas",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-11T11:16:11.825Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGM2MxWTFOV0ZYZDBSb0xXaEJVRzFqYTFBemJtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGM2MxWTFOV0ZYZDBSb0xXaEJVRzFqYTFBemJtYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOkF3c1Y1NWFXd0RoLWhBUG1ja1Azbmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-13T03:29:49.000Z",
+      "responseFromOwnerText": "Terima kasih banyak atas apresiasinya Kak Daede!\n\nAlhamdulillah jika pelayanan kami dinilai memuaskan dan berkesan di hati Kakak. Kami senantiasa siap melayani kembali jika Kakak membutuhkan layanan kesehatan di masa mendatang. Sehat selalu!\n\nInstagram: @klinikmitramedika_mm",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109999238263914608828",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109999238263914608828?hl=id",
+      "name": "Istiqomah Iis",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIMTs1RJxvciSOBLeeEZww7gd7OiXI_dip3uk46g4f5LOYmVg=s1920-c-rp-mo-br100",
+      "text": "Alhamdulillah bisa berobat di klinik Mitra medika sukapura,,, pelayanannya baik cepat",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-09T03:02:15.478Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21nMk5uSndYMWwwUnpGTGVsRmZiMU5xVVhaek1uYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21nMk5uSndYMWwwUnpGTGVsRmZiMU5xVVhaek1uYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOmg2NnJwX1l0RzFLelFfb1NqUXZzMnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:42:14.000Z",
+      "responseFromOwnerText": "Halo Kak Istiqomah,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109399277292451025663",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109399277292451025663?hl=id",
+      "name": "Lisna Wati",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK5mx0OFy9j4eWu94d4PIglnU13XjCa4P5YtvxYg26oIZDvRg=s1920-c-rp-mo-br100",
+      "text": "Dokternya ramah,, penanganan cepat..sayah suka",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-08T11:52:09.487Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1dGFHZFpTbFozVFVwdGNXd3lXRkpIZDFVdFQwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1dGFHZFpTbFozVFVwdGNXd3lXRkpIZDFVdFQwRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOk5taGdZSlZ3TUptcWwyWFJHd1UtT0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:40:06.000Z",
+      "responseFromOwnerText": "Halo, salam kak Lisna. Terima kasih atas kepercayaannya berobat di Klinik Pratama Mitra Medika. Terimakasih juga untuk Apresiasinya untuk dokter kami.\n\nKami berkomitmen untuk selalu memberikan yang terbaik bagi pasien.\n\nJangan lupa Follow Instagram @klinikmitramedika_mm untuk informasi jadwal dokter dan promo kesehatan menarik lainnya. Sampai jumpa kembali!",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106507733890880934175",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106507733890880934175?hl=id",
+      "name": "Tuan Bayu",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIHFc0mQjbG4TQ2xBXoheBc0jMpv384mvgzEiaE5se1KBWbOQ=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya sangat amat baik",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-08T05:21:29.357Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wSk56TXdUek5hY21admRVWmZXVkZNU1hKU2VsRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wSk56TXdUek5hY21admRVWmZXVkZNU1hKU2VsRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOnpJNzMwTzNacmZvdUZfWVFMSXJSelE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:39:44.000Z",
+      "responseFromOwnerText": "Halo Kak Bayu,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNH7yRH2gh32GvNKjd9yM3p9n1uC1Jd8rwiSxwCzggiOsWzKtPJiew_f3_lfHtubPSZR8Yd16wGzl5MVNVCziCWEQL2aYVuBNTWKsEQ_a5CxffyCijBlIdRJToXsuGIWXFstFJ4Wf14i0Md=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111397516186443461893",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111397516186443461893?hl=id",
+      "name": "Asrian Nurmakiyah",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK7xBqEpeZvBjXZw08oS7VJSRpRNkdrDi3yOvnrqUvv_a-rQw=s1920-c-rp-mo-br100",
+      "text": "Pelayanan bagus, cepet. Dokternya menjelaskan dengan baik dan mudah dipahami",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-06T10:36:55.344Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwcVZVTTNZMHQ2YUdwM1ZqRm5PSEo0T1hVMVZHYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwcVZVTTNZMHQ2YUdwM1ZqRm5PSEo0T1hVMVZHYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOlpqVUM3Y0t6aGp3VjFnOHJ4OXU1VGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:39:15.000Z",
+      "responseFromOwnerText": "Halo, salam kak Asrian. Terima kasih atas kepercayaannya berobat di Klinik Pratama Mitra Medika. Terimakasih juga untuk Apresiasinya untuk dokter kami.\n\nKami berkomitmen untuk selalu memberikan yang terbaik bagi pasien. \n\nJangan lupa Follow Instagram @klinikmitramedika_mm untuk informasi jadwal dokter dan promo kesehatan menarik lainnya. Sampai jumpa kembali! ",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114635185952191575557",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114635185952191575557?hl=id",
+      "name": "Feniria",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIj2OIrO7Oq6z1Buvuh2JHy3BDKvwkAs5Oo8v5X2WPNHJiyPA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-04T10:31:46.287Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pkVlpuWk9NR1JOYW1Oa01HSTNZMEZwWlhFd2FIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pkVlpuWk9NR1JOYW1Oa01HSTNZMEZwWlhFd2FIYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOjdVZnZOMGRNamNkMGI3Y0FpZXEwaHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:37:25.000Z",
+      "responseFromOwnerText": "Halo Kak Feniria,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103635182084129195615",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103635182084129195615?hl=id",
+      "name": "Adika Saputra",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKm44Z1-U3Jo-ZzTRyq2F0HN2CvNnTdi695Q45JLITcbRt7mA=s1920-c-rp-mo-br100",
+      "text": "Dokter nya baik ,staf nya ramah dan pelayanan nya sangat bagus",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-01T12:13:31.357Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4SVgyeHBNM00zZUV4NFNXSnlXVFE1Y1RWWVJIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4SVgyeHBNM00zZUV4NFNXSnlXVFE1Y1RWWVJIYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOkxIX2xpM3M3eEx4SWJyWTQ5cTVYRHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:37:08.000Z",
+      "responseFromOwnerText": "Halo Kak Adika,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108374521186120297127",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108374521186120297127?hl=id",
+      "name": "Wasilah",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUtF5lZFZlnU-Ozjg-OZcDxLJeBxNUSUGDzRLgU7cQlm5N5-S3H=s1920-c-rp-mo-br100",
+      "text": "Pelayanan bagus, dokter profesional. Tempatnya juga nyaman",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-01T10:25:26.619Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KWVJYSmhNWFZ2TUZkMmFreFJNMmhIUVRkYWFXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KWVJYSmhNWFZ2TUZkMmFreFJNMmhIUVRkYWFXYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOmJYRXJhMXVvMFd2akxRM2hHQTdaaWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-09T06:36:52.000Z",
+      "responseFromOwnerText": "Halo Kak Wasilah,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101644524726610854421",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101644524726610854421?hl=id",
+      "name": "Unai Tanha",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVwzqSesYLNk0irYjpR_sW_t3_Y0EJFoPWShkuozxppOE8vOhCO_g=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-13T12:14:53.471Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOMmRXeFdRbVpqY25KaFJ6ZGtkMDlqVm00eVkxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOMmRXeFdRbVpqY25KaFJ6ZGtkMDlqVm00eVkxRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOjN2dWxWQmZjcnJhRzdkd09jVm4yY1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T02:34:46.000Z",
+      "responseFromOwnerText": "Halo Kak Unai,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100352582787404125120",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100352582787404125120?hl=id",
+      "name": "Nur Lailah",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKMAS8f3dIuqrKrdkv9xNLpUWqYJmQPa06n-DK4FQWSoW2_1g=s1920-c-rp-mo-br100",
+      "text": "Pelayanan nya baik dan ramah",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-12T03:35:43.549Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xoWmIwRmlUbFUzUzIxQk56RlhjMHBwT0U5UlRtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xoWmIwRmlUbFUzUzIxQk56RlhjMHBwT0U5UlRtYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOlhZb0FiTlU3S21BNzFXc0ppOE9RTmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T02:35:08.000Z",
+      "responseFromOwnerText": "Halo Kak Nur Lailah,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104934641424704700568",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104934641424704700568?hl=id",
+      "name": "Alam Budiman",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU2jw1kg6X08jhPvEDYdCo6sDQp7UIGUfLhHBgB2IzJwOrgYF7l=s1920-c-rp-mo-br100",
+      "text": "Baguss pelayanan nya👍",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-11T09:00:40.927Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25RM1VUWjJjRWQwZEV3MVdEZEJSRU5sVW5JNFEzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25RM1VUWjJjRWQwZEV3MVdEZEJSRU5sVW5JNFEzYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOnQ3UTZ2cEd0dEw1WDdBRENlUnI4Q3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T02:37:32.000Z",
+      "responseFromOwnerText": "Halo Kak Alam,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112426087392299282070",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112426087392299282070?hl=id",
+      "name": "Millenia Riza",
+      "reviewerNumberOfReviews": 16,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW31L_pnfQ_oM7OX44H1pmc6dQpxHMVgxwg0w9i9hTXSIexfYER=s1920-c-rp-mo-ba12-br100",
+      "text": "Puas dan menyenangkan.",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-10T03:59:41.057Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxT1dVTTVhRkF4Wm1Sb1pXUllkRUZQUmxKbFdHYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxT1dVTTVhRkF4Wm1Sb1pXUllkRUZQUmxKbFdHYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOk1OWUM5aFAxZmRoZWRYdEFPRlJlWGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T02:37:59.000Z",
+      "responseFromOwnerText": "Halo Kak Millenia,\nTerima kasih banyak atas rating baiknya untuk Poli Gigi Klinik kami!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMGH8sJRL4g8Xkn4KPK5h1SdZzpW2Ph-EgLTtVUTumR_y2ybZay-O66hrE7d1IOodoeKkSQ1vDPkRT8ZO8f5MtllBSguvjGwRD3PMi8LMVOKUew-GfNztvZdfLgLiYNU7MgsvcIs3OUlKOU=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110856503219146492454",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110856503219146492454?hl=id",
+      "name": "Erna Wati",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBhnG8qR-pxQ9_IaPlqkjBBM4YQ-Mn8U_5jGlzgtdGVw6lDw=s1920-c-rp-mo-br100",
+      "text": "Dokter baik ramah tempat bersih",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-09T02:25:57.839Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205b2FrYzFibXhwT1hsU1psVlZZVkZ2YmpoUVMwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205b2FrYzFibXhwT1hsU1psVlZZVkZ2YmpoUVMwRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOm9oakc1bmxpOXlSZlVVYVFvbjhQS0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T02:38:09.000Z",
+      "responseFromOwnerText": "Halo Kak Erna,\nTerima kasih banyak atas rating baiknya!\nKepuasan dan kenyamanan pasien adalah prioritas utama kami.\n\nJangan ragu untuk kembali menggunakan layanan kami di lain waktu atau merekomendasikannya kepada rekan, dan keluarga.\n\nUntuk informasi layanan terbaru, promo, dan edukasi kesehatan, jangan lupa follow Instagram kami di @klinikmitramedika_mm\n\nSalam sehat dan sukses selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105115184391601258064",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105115184391601258064?hl=id",
+      "name": "syaifull andaka",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWu7CJ58qD45F5tq8GLyIU_YbL84VWz3oX-XDw17S614nKqHxhs=s1920-c-rp-mo-br100",
+      "text": "Tambal gigi baru 2 minggu langsung copot,dari awal di info hanya bergaransi,pas dateng kata nya garansi hanya 1 minggu,lebih dari 1 minggu tidak bergaransi,udah nambal 2 gigi hampir 600rb,\nIstri saya aja nambal di tempat lain 2 tahun gk copot2,tidak recomended",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-07T22:10:57.524Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pObFYwMVFRVWxEU25FMlkyOWZhRTlDZUcxWlptYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pObFYwMVFRVWxEU25FMlkyOWZhRTlDZUcxWlptYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOjNlV01QQUlDSnE2Y29faE9CeG1ZZmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T03:12:43.000Z",
+      "responseFromOwnerText": "Halo Kak Syaifull, terima kasih atas masukan yang diberikan. Kami memohon maaf atas ketidaknyamanan yang dialami terkait tambalan gigi anak Kakak yang lepas.\n\nBerdasarkan rekam medis, Kakak melakukan kunjungan pada tanggal 23 Mei. Terkait kondisi ini, izinkan kami memberikan penjelasan objektif:\n\n1. Karakteristik Gigi Anak: Seperti yang telah diinfokan oleh dokter dan perawat gigi saat kunjungan, struktur gigi anak dan pola kunyah anak memang membuat tambalan lebih rentan lepas dibandingkan tambalan pada orang dewasa.\n\n2. Kebijakan Garansi: Sesuai dengan prosedur klinik yang telah disampaikan di awal tindakan, masa garansi untuk tambalan gigi adalah 1 minggu. Karena kendala ini terjadi setelah melewati batas waktu tersebut, maka masa garansi memang sudah tidak berlaku.\n\nKami sangat memahami kekecewaan Kakak. Jika Kakak berkenan, kami menyarankan untuk membawa si kecil kembali konsultasi agar dokter kami dapat memeriksa kondisi giginya saat ini dan memberikan solusi terbaik. Terima kasih\n\nSalam,\nTim Manjemen Klinik Pratama Mitra Medika ",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115024009275934011958",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115024009275934011958?hl=id",
+      "name": "Melki 82",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJxXnZ4kypUddwkFe0o0ZEudpgajBGh5XTCAUkZmET3G_rdTw=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-05T16:03:22.272Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkeVZqbFlRblJFVnpkaVlVeDVUVGRVUlUxamNtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkeVZqbFlRblJFVnpkaVlVeDVUVGRVUlUxamNtYxAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOldyVjlYQnREVzdiYUx5TTdURU1jcmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T03:14:33.000Z",
+      "responseFromOwnerText": "Hai Kak Melki! Terima kasih banyak ya sudah memberikan rating terbaiknya untuk kami. Senang bisa memberikan pelayanan yang memuaskan. \n\nJangan Lupa untuk Follow Akun sosial media kami di Instagram @klinikmitramedika_mm untuk update informasi klinik dan kesehatan.\n\nStay healthy and happy!\n",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101641177624986930043",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101641177624986930043?hl=id",
+      "name": "suwitasarii",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLpgK-BiVUplW3b5ow3KfrsgBUTPS5cocmf7Hrok_EEBv11yg=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya sangat bagus dan memuaskan",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-05T07:16:29.565Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWME0zQTVVMGt3U2xkUE5GVXhjRVJzUkRGWGNVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWME0zQTVVMGt3U2xkUE5GVXhjRVJzUkRGWGNVRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOkV0M3A5U0kwSldPNFUxcERsRDFXcUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T03:14:54.000Z",
+      "responseFromOwnerText": "Hai Kak Suwitasarii! Terima kasih banyak ya sudah memberikan rating terbaiknya untuk kami. Senang bisa memberikan pelayanan yang memuaskan. \n\nJangan Lupa untuk Follow Akun sosial media kami di Instagram @klinikmitramedika_mm untuk update informasi klinik dan kesehatan.\n\nStay healthy and happy!",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116813295162536397233",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116813295162536397233?hl=id",
+      "name": "febi ola",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUbPsMzGNoX2OrTMD6bjSNnOT6Tx_Kmk42hsCo8npLJHDernig=s1920-c-rp-mo-br100",
+      "text": "Dokter umumnya salah kasih  diagnosis sakit saya",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-05T03:00:36.962Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsaVZqQkJNVTE1WjBzM2REQnRURnB4Y2twWFVsRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsaVZqQkJNVTE1WjBzM2REQnRURnB4Y2twWFVsRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOkliVjBBMU15Z0s3dDBtTFpxckpXUlE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 2,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T03:08:46.000Z",
+      "responseFromOwnerText": "Halo Kak Febi, terima kasih atas ulasannya. Kami menanggapi keluhan terkait diagnosis medis dengan sangat serius demi keselamatan pasien.\n\nTerkait hal tersebut, kami telah melakukan pengecekan menyeluruh pada sistem data pasien kami, namun kami tidak menemukan adanya riwayat pasien maupun keluhan medis yang sesuai dengan nama akun Kakak.\n\nPerlu kami edukasikan secara medis, seorang dokter menegakkan diagnosis berdasarkan rangkaian proses objektif yang meliputi anamnesis (wawancara medis), pemeriksaan fisik langsung, hingga pemeriksaan penunjang (seperti laboratorium atau rontgen) jika diperlukan. Semakin tinggi tingkat keahlian atau spesialisasi seorang dokter, maka diagnosis yang ditegakkan akan semakin tajam.\nOleh karena itu, dalam dunia medis, istilah \"salah diagnosis\" sebenarnya kurang tepat dan sering kali merupakan kesalahpahaman awam.\n\nAdalah hal yang wajar dan hak pasien jika ingin mencari second opinion (pendapat kedua) dari dokter lain. Namun, berdasarkan Kode Etik Kedokteran, seorang dokter secara etis tidak diperbolehkan menyalahkan diagnosis dokter lain secara sepihak, apalagi menyampaikannya langsung secara provokatif kepada pasien.\nTindakan menyalahkan sejawat tersebut merupakan bentuk pelanggaran etik yang dapat dipermasalahkan ke MKEK (Majelis Kehormatan Etik Kedokteran).\n\nDemi menghindari kesalahpahaman dan agar kami dapat melakukan investigasi internal yang valid, mohon bantuannya untuk mengirimkan:\n    • Nama Pasien & Tanggal Kunjungan\n    • Foto Resep/Kwitansi Resmi dari Klinik Kami\n    • Nama Dokter serta Alamat Praktik faskes yang menyatakan bahwa dokter kami keliru dalam mendiagnosis\n\nInformasi tersebut dapat Kakak kirimkan melalui WhatsApp Customer Care kami di 085212798781 atau DM Instagram kami di @klinikmitramedika_mm.\n\nKami sangat terbuka untuk meluruskan hal ini secara kekeluargaan berdasarkan bukti medis yang sah. Terima kasih atas pengertiannya.\n\nSalam,\nTim Manajemen Klinik Mitra Medika \n",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107039873244145453384",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107039873244145453384?hl=id",
+      "name": "Amira Amir",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI2Di8Gz41wAo5rhK7sklS0O9J1pXZTNagaBRwzErcZKokVIA=s1920-c-rp-mo-br100",
+      "text": "Pake biaya umum BKN asuransi..obatnya g paten! SDH 2x mnm g ada prubahn SM skli suhu bdan ttp panas.ongkosnya LBH mahal dr RS firdaus.",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-05-29T07:18:01.080Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2twTlVYRmlVRkpYV1VSWlJIWnpRa2c1Yms4elpFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twTlVYRmlVRkpYV1VSWlJIWnpRa2c1Yms4elpFRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOkpNUXFiUFJXWURZRHZzQkg5bk8zZEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T02:40:29.000Z",
+      "responseFromOwnerText": "Halo Kak Amira, terima kasih atas masukan yang diberikan. Kami memohon maaf atas ketidaknyamanan yang dialami terkait kondisi kesehatan yang belum membaik.\n\nTerkait keluhan yang Kakak sampaikan, izinkan kami memberikan penjelasan objektif sebagai bentuk keterbukaan kami:\n    1. Penyesuaian Biaya (Layanan Subuh): Kakak tercatat melakukan pemeriksaan pada pukul 04.00 WIB di mana tarif layanan kedaruratan luar jam kerja reguler memang memiliki penyesuaian tersendiri, sehingga berbeda dengan tarif faskes lain di jam normal. \n    2. Efektivitas Obat & Antibiotik: Tim medis kami telah menginfokan bahwa obat yang diberikan (terutama antibiotik) membutuhkan waktu untuk bekerja di dalam tubuh dan wajib dihabiskan sesuai dosis dokter. Menghentikan atau menilai obat tidak bekerja hanya dalam waktu 2 kali minum belum bisa menjadi acuan kesembuhan, karena respons tubuh setiap pasien berbeda-beda.\n\nPihak klinik sudah menyarankan untuk melakukan kontrol ulang jika setelah obat habis belum ada perubahan, namun kami sangat menyayangkan jika arahan medis ini belum dapat disepakati. \n\nKesehatan pasien adalah prioritas kami. Jika demam tidak kunjung turun, mohon segera bawa kembali ke faskes terdekat untuk penanganan lebih lanjut. Terima kasih \n\nSalam, \nManajemen Klinik Pratama Mitra Medika",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116210469182405027537",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116210469182405027537?hl=id",
+      "name": "Tiara Arya Marcelina",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKUEgXhesISkUFxAi4rNg1RtX5__f-ukyZJC68jc05hbMGaFqk=s1920-c-rp-mo-br100",
+      "text": "pelayanannya oke, dokter dan staffnya ramah2!!",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-05-28T05:16:58.118Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xaU1RYVTFWa28xYlZkcmEyWkhXbVYyTjJ4aVZrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaU1RYVTFWa28xYlZkcmEyWkhXbVYyTjJ4aVZrRRAB!2m1!1s0x0:0xf28e1abdd9fd2c78!3m1!1s2@1:CAIQACodChtycF9oOlZSTXU1Vko1bVdra2ZHWmV2N2xiVkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T03:15:36.000Z",
+      "responseFromOwnerText": "Hai Kak Tiara! Terima kasih banyak ya sudah memberikan rating terbaiknya untuk kami. Senang bisa memberikan pelayanan yang memuaskan terutama keramahan Dokter dan staff - staff kami. \n\nJangan Lupa untuk Follow Akun sosial media kami di Instagram @klinikmitramedika_mm untuk update informasi klinik dan kesehatan.\n\nStay healthy and happy!",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Kesehatan"
+}

@@ -1,0 +1,1567 @@
+{
+  "title": "Naavagreen Gresik",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Klinik Perawatan Kulit",
+  "address": "Jl. Kartini No.216, Injen Barat, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",
+  "neighborhood": "Injen Barat, Sidomoro, Kecamatan Kebomas",
+  "street": "Jl. Kartini No.216",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61122",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "+62 31 58286142",
+  "phoneUnformatted": "+623158286142",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.1677539,
+    "lng": 112.6449777
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RJJV+VX Sidomoro, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ46Re6IgB2C0RW4RMP33Dtww",
+  "categories": [
+    "Klinik Perawatan Kulit"
+  ],
+  "fid": "0x2dd80188e85ea4e3:0xcb7c37d3f4c845b",
+  "cid": "916415991893492827",
+  "reviewsCount": 711,
+  "reviewsDistribution": {
+    "oneStar": 7,
+    "twoStar": 0,
+    "threeStar": 3,
+    "fourStar": 5,
+    "fiveStar": 696
+  },
+  "imagesCount": 134,
+  "imageCategories": [
+    "Semua",
+    "Terbaru",
+    "Video",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-20T10:46:42.833Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Tidak seramai biasanya",
+  "popularTimesLivePercent": 27,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Senin",
+      "hours": "09.00 to 20.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "09.00 to 20.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "09.00 to 20.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "09.00 to 20.00"
+    },
+    {
+      "day": "Jumat",
+      "hours": "09.00 to 20.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "09.00 to 20.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "09.00 to 17.00"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Natasha Skin Clinic Gresik",
+      "reviewsCount": 500,
+      "totalScore": 4.9
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "GREEN EXOTIC",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Parisudha Beauty Care (Klinik Kecantikan)",
+      "reviewsCount": 23,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Erha Skin Gresik",
+      "reviewsCount": 603,
+      "totalScore": 4.8
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Sakura Beauty Clinic Gresik (SPA & Aesthetic)",
+      "reviewsCount": 12,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "pelayanan",
+      "count": 87
+    },
+    {
+      "title": "harga",
+      "count": 53
+    },
+    {
+      "title": "promo",
+      "count": 27
+    },
+    {
+      "title": "terapisnya",
+      "count": 18
+    },
+    {
+      "title": "dr",
+      "count": 7
+    },
+    {
+      "title": "dingin",
+      "count": 6
+    },
+    {
+      "title": "wangi",
+      "count": 6
+    },
+    {
+      "title": "ruangan",
+      "count": 6
+    },
+    {
+      "title": "masalah",
+      "count": 6
+    },
+    {
+      "title": "ipl",
+      "count": 5
+    }
+  ],
+  "additionalInfo": {
+    "Fasilitas": [
+      {
+        "Toilet": true
+      }
+    ],
+    "Pembayaran": [
+      {
+        "Kartu debit": true
+      },
+      {
+        "Kartu kredit": true
+      },
+      {
+        "Pembayaran seluler dengan NFC": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "updatesFromCustomers": {
+    "text": "kedua kalinya kunjungan kesini, tetep seperti pertama kali, pelayanannya ramah dan sesuai dengan kebutuhan banget~ jadi ga perlu takut overbudget untuk yg mungkin baru pertama kali perawatan kesini",
+    "language": "id",
+    "postDate": "11 bulan lalu",
+    "postedBy": {
+      "name": "Nazu",
+      "url": "https://www.google.com/maps/contrib/109345029823305233252?hl=id",
+      "title": "Local Guide",
+      "totalReviews": 25
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmP6yHibgcHKQDFzAvc0IR3txk_5r_XuJKoL6VhA06rvdUw4gUindQvdcuVFfD5-K_4PfwH1GWMZuYt9YxmdLaGCd3xLxrJ7XgeifPotT17hjduSSgOPrMSZ9yXOj1XSO1oIPVASUjmv1d0=k-no",
+        "postDate": "11 bulan lalu"
+      }
+    ]
+  },
+  "url": "https://www.google.com/maps/search/?api=1&query=Naavagreen%20Gresik&query_place_id=ChIJ46Re6IgB2C0RW4RMP33Dtww",
+  "searchPageUrl": "https://www.google.com/maps/search/Naavagreen%20Gresik?hl=id",
+  "searchString": "Naavagreen Gresik",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnCY4flge-p7-K3G9JzzyiPEFAyM3Cmxc8q9PEmMjhc5vn7BDw1m30b780ioAwCfwdy5ho17Lr-jJbXFhA3Lv0yzE83G_rSqkbNA-TtqOOkBXX-7GKSLkhqNwlKIcbr1RbrmOuviWhFEbFK=w408-h544-k-no",
+  "kgmid": "/g/11vr945x37",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [
+    {
+      "text": "RAMAI-RAMAI SERBU PROMO BULAN MEI 🙌\n\nAda segudang harga super hemat buat ",
+      "buttonText": null,
+      "buttonLink": null,
+      "date": "2026-05-11T10:09:28.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipNDJY5ZntwUOXh4Bu7RFr4eFX5Pn9Jlcj8RbduE=h400-no"
+    },
+    {
+      "text": "PROMO BULAN APRIL HEMATNYA NO DEBAT 😱\n\nSerbu deretan promo buat bestie ",
+      "buttonText": null,
+      "buttonLink": null,
+      "date": "2026-04-22T09:09:15.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipNwnzqw-cWk08OKCjutUDhU1otbA_1-v3Ld4EBf=h400-no"
+    },
+    {
+      "text": null,
+      "buttonText": null,
+      "buttonLink": null,
+      "date": "2026-04-22T07:58:27.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipMSyLjtWAFv7s3aQLYhKiGRIv8UO8-PPIQerAc0=h400-no"
+    },
+    {
+      "text": "CUMA BAYAR 88 RIBU BISA PUNYA KETI MULUS 😱\n\nDapetin harga ekstra hemat IPL Hair Removal Keti di Naavagreen, bestie!\n\nCoba komen yang mau ",
+      "buttonText": null,
+      "buttonLink": null,
+      "date": "2026-04-19T10:45:08.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipM7EVoZG99PG-OR8fVVlLZceyVTJIBU_rGPibM1=h400-no"
+    }
+  ],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "106132673102373462191",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106132673102373462191?hl=id",
+      "name": "Vivi diana Kholidah",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW9owTaREb0-LSqvb3Hs-TCE7DQHfPx_egao1dztKgazOi15MT7=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "5 hari lalu",
+      "publishedAtDate": "2026-07-15T03:54:38.403Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tnemVqaFVRazV2TkdSU1NuUnZOMGQ1TlV0VGFtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tnemVqaFVRazV2TkdSU1NuUnZOMGQ1TlV0VGFtYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkgzejhUQk5vNGRSSnRvN0d5NUtTamc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100688860445507831232",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100688860445507831232?hl=id",
+      "name": "nazalea areta (zee)",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI5BqQX_W_4Dnu_ncBhF0bHK4u3UZHEsUrHQa6aH2xLUBrjyw=s1920-c-rp-mo-br100",
+      "text": "pelayanan baik, sudah dari lama disini 👍🏻👍🏻👍🏻",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-08T09:47:22.467Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWdk1XNWlia3RpTlVsM2JtbHdWalF6T1UxbWNGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWdk1XNWlia3RpTlVsM2JtbHdWalF6T1UxbWNGRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlVvMW5ibktiNUl3bmlwVjQzOU1mcFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116805714649880778224",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116805714649880778224?hl=id",
+      "name": "Meisy Samsi",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVMJavRjI3UQdjy3gHTM4KEKRCS2qP41O9VdiYK3gP61gWBdZ5m-Q=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya ramah dan sangat puas . Tempatnya nyaman",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-07T08:28:21.804Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tObE5WVnNWbE5oVjE5QmVFTjVRbGxZUWpadWIwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tObE5WVnNWbE5oVjE5QmVFTjVRbGxZUWpadWIwRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkNlNVVsVlNhV19BeEN5QllYQjZub0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107440618357476395030",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107440618357476395030?hl=id",
+      "name": "vyrs",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKrIyULP__Vu7PKujbwvdj6OVF4q20nYyY69vIr0gsMy5yDog=s1920-c-rp-mo-br100",
+      "text": "first time kesini, pelayanannya ramah bgtt",
+      "textTranslated": null,
+      "publishAt": "Diedit seminggu lalu",
+      "publishedAtDate": "2026-07-06T13:35:45.402Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKUFdYRndTbXRsWVhaSGR6RjJObGw0ZEdwa05FRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKUFdYRndTbXRsWVhaSGR6RjJObGw0ZEdwa05FRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlJPWXFwSmtlYXZHdzF2Nll4dGpkNEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-04-04T08:20:42.000Z",
+      "responseFromOwnerText": "Terima kasih atas kedatangannya kak dan reviewnya,semoga sehat selalu yah kak.;)...",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOo53ND0UA91ZwbvWz4u7ogj1GaBdV2Frhu_iatDcBXD3wm6SgA6dHLlmbhbr9IyiJTSXo4BVyb8tIB08seWkKVsl9JgXYgs0Sf2qZ1RuvVffh3Wv6dzRpWR8kp7EjXgJ8m1f0lOO7MDBzl=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMkGMkGWeLjKYUyhpVWox5F3VM4ETTyEz9JBrTp7JUUvOPrqZosVJ9hkOcoGWmiWYZjtoczuab1YhnDwQER8ElOmbDen_ByG3qfgbBF8JkIuqOctv6QJ4M8RIpIWnQxk4_pcQWsvmuRR11d=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmODRFrg0VpbQ5rOOdbhDf6AOp8WhVAKPY1G81-j0LTUkvNbMr4-qWWUgSrHcXY6UEdm_XTQ-tjcjPbRqhpDCd9inP_FZusRSiCgKBOtsqj-dmhaXPa8l5sWjTXt0KQauqlpMCVkejJ6e0sE=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113025101713098236318",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113025101713098236318?hl=id",
+      "name": "Matsna Novia",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ2K5U70K_4j0qjUsKFATF4uhP1Xg6hcGwNjCA2dda6CICjrg=s1920-c-rp-mo-br100",
+      "text": "Jujur baru coba facial di Navagreen dan hasilnya memuaskan banget. Pelayanannya itu ramah dari awal sampai akhir, terapisnya juga profesional dan komunikatif, jadi ngerti banget apa yang lagi dikerjain ke wajah kita. Suasana tempatnya bersih dan nyaman, bikin betah selama treatment.\n\nH+1 minggu setelah treatment, kulit wajah aku tuh kayak lebih bersih, seger dan halus banget. Bakal balik lagi sih buat treatment berikutnya. Dan sangat recommended banget buat kalian yang lagi cari tempat facial yang worth it dan memuaskan.",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-06T08:17:55.036Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkc05EUkNhRzV3Y2sxV1dEVlFRMDlhTlRNMlgzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkc05EUkNhRzV3Y2sxV1dEVlFRMDlhTlRNMlgzYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOldsNDRCaG5wck1WWDVQQ09aNTM2X3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113808660345920007718",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113808660345920007718?hl=id",
+      "name": "Farah zahra pramadhani ren",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJirW37dKrUZU24m4BBFYaGi8RNKZT2NnGEdXKKahG5Q_WC2y4=s1920-c-rp-mo-br100",
+      "text": "Nyoba treatment di Navagreen Gresik, overall enak sih. Tempatnya bersih dan nyaman, staff-nya juga ramah jadi nggak bikin awkward. Pelayanannya juga cepat, nggak nunggu lama.\n\nHasilnya di kulit kerasa lebih fresh setelah treatment, harganya terjangkau + banyak diskonnya.",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-06T08:08:15.053Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21Kb01USlRVVGhGZEhOc2QwRTRaR2syVGsxdFlVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Kb01USlRVVGhGZEhOc2QwRTRaR2syVGsxdFlVRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOmJoMTJTUThFdHNsd0E4ZGk2Tk1tYUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100503828143011496046",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100503828143011496046?hl=id",
+      "name": "Arbett Bersatu Abadi",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKJTM_BVwpqWuqM1vJqIl89hA03gGqJWz_mZ5Qs5nkZxxcMOQ=s1920-c-rp-mo-br100",
+      "text": "Tempatnya enak dan pelayanannya juga ramah",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-03T08:40:46.691Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xaWFpFNXNkM1JtV1RKTk5qSkJlalp4TFhKcllrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaWFpFNXNkM1JtV1RKTk5qSkJlalp4TFhKcllrRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlZXZE5sd3RmWTJNNjJBejZxLXJrYkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNm6-ifITUbn4TIzh1uXiOt6rb3N-q4Fi7a6xbTOcr3OTIhWaI8B7aM9QjyvlGRQ7JIWI2OFBiQGtxcBVzd9lHZU9SWyfsIYbRiVu6qMe0OrFvLZ85bZYqeE4UUwRNBAAOytUXLDmEefiA=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104839671331545207570",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104839671331545207570?hl=id",
+      "name": "chelsilia amanda saputri",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJuILZIb9fbcskcmI5UVeWaatw-VN2CUNYfRYb_b6_HCsBLRg=s1920-c-rp-mo-br100",
+      "text": "tempatnya nyaman dan harga affordable next time balik kesini lagi deh",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-01T10:20:40.111Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkelRsbFFabEZ4YUVveGVFdG9ia05yUW5WdVExRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkelRsbFFabEZ4YUVveGVFdG9ia05yUW5WdVExRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOldzTllQZlFxaEoxeEtobkNrQnVuQ1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113313778871630678783",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113313778871630678783?hl=id",
+      "name": "Elsa fitri",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJltkNE-mChRkQlz8uq6ncw7t2gySn1N4rwfvUclmrFrKgCmAA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-06-30T04:56:58.411Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25GNFpHZExZVlJmU0hCQ1pFRkRWaloxYTFKNFZXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GNFpHZExZVlJmU0hCQ1pFRkRWaloxYTFKNFZXYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOnF4ZGdLYVRfSHBCZEFDVjZ1a1J4VWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101460777770503342566",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101460777770503342566?hl=id",
+      "name": "Izzuki Izzuki",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXuG4RFJ7DdOk1tDWbAKdC3pseILmWOU1fgU-BNcec7elqvCFdK=s1920-c-rp-mo-br100",
+      "text": "Suka banget facial di sini! Tempatnya super nyaman, bersih, dan menenangkan. Terapisnya ramah banget dan ngejelasin tiap step produk yang dipakai. Pas ekstraksi komedo juga teliti dan ga sakit lebay. Selesai treatment muka langsung kelihatan bersih, glowing, dan plumpy. Highly recommended!",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-06-30T04:16:51.600Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xoQ1RUVk1aMk5XVFhRd01WaHRaemMwVVRkRk9WRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xoQ1RUVk1aMk5XVFhRd01WaHRaemMwVVRkRk9WRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlhCTTVMZ2NWTXQwMVhtZzc0UTdFOVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104216942096700315807",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104216942096700315807?hl=id",
+      "name": "Nabiilah Husna",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVlY7VC5wBmVr8RZ4GQ3eiC2o6gBtvdWJZpRnmYkyKPG7xg5RUROw=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-26T09:58:58.916Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21wRWRqQlJWM28wZURaVVoySXlhamxFVEdGcWVYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wRWRqQlJWM28wZURaVVoySXlhamxFVEdGcWVYYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOmpEdjBRV3o0eDZUZ2IyajlETGFqeXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111210986478046608211",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111210986478046608211?hl=id",
+      "name": "Rena Putri",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKbN7pOVPE98a4HW1DFZByxP4Nv2UShmWoD437c_wYT62aghbrz=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-25T09:43:19.680Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT214R1FqUnhabFpyWm5BNVdWVmpaMWN0ZWpKa2FVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214R1FqUnhabFpyWm5BNVdWVmpaMWN0ZWpKa2FVRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOmxGQjRxZlZrZnA5WVVjZ1ctejJkaUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114679416033641419127",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114679416033641419127?hl=id",
+      "name": "RIZKA APRILIANI",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUoDLdfNOa3164389lZ1cGIG4E5Y3S7ys6N7Ex0fyj0wg-bWIP-=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya bagus,fasilitasnya lengkap,dokternya juga ramah",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-25T09:32:26.445Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pod2VHcEdlWFJRZVhSSU9TMVhVV2t3UTNsaU5FRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pod2VHcEdlWFJRZVhSSU9TMVhVV2t3UTNsaU5FRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOjhweGpGeXRQeXRIOS1XUWkwQ3liNEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103563697856089458971",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103563697856089458971?hl=id",
+      "name": "XII APL 2 - Rike Putri Damayanti - 19",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVK0X3lPiuRn8cdNglC2qXapEOwFOizNxswvbqzHDQ-3ryZJWqq=s1920-c-rp-mo-br100",
+      "text": "bersih,ramah,dokternya bikin ga canggung",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-25T09:24:59.795Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSQmIxaDNSVm93Wkc5RWVtWXRNMEpWWjFrMk5YYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSQmIxaDNSVm93Wkc5RWVtWXRNMEpWWjFrMk5YYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOjRBb1h3RVowZG9EemYtM0JVZ1k2NXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117880792904284692143",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117880792904284692143?hl=id",
+      "name": "Ananda Aulia Rahmadhani",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI_uBUP6aCwZjGpo3sswwolYVwmdam9J04G-x8BTI-vZN7kEg=s1920-c-rp-mo-br100",
+      "text": "pelayanan baik",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-25T06:18:26.321Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21kNmJreEpRMHh0Y1VacFlXRkRlSEZuZUZWM2RIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kNmJreEpRMHh0Y1VacFlXRkRlSEZuZUZWM2RIYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOmd6bkxJQ0xtcUZpYWFDeHFneFV3dHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNrkn6nZJVVOITm09GL6OfvDmODf1dK8EC_zyg_A8sdoG6UsXQ8b58UfsDk6SisT6LguWzXJK2KijmZLaw5BKYJnNA700CC4VuNpgz2zsxTMS2YgoohQFhr7GYr9b2OawglQaju4Ky-yHVe=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113047314565050371834",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113047314565050371834?hl=id",
+      "name": "Imroatun nabilah",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXcWUBIIrY9CdLvZsS-7ppWVtppFlay9wbIUf6ZXk6NtuYGOBhP=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-23T08:53:02.621Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w4emFIaERlblF3T0RZdFpsTkdOV2x4UVhoZlIxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w4emFIaERlblF3T0RZdFpsTkdOV2x4UVhoZlIxRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOl8zaHhDenQwODYtZlNGNWlxQXhfR1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111117318043602074555",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111117318043602074555?hl=id",
+      "name": "Dewi Anggraini",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKvxRWD01NBp3sPwIM6zh1HTzTvxRZglBk3lawpoTYitd40mQ=s1920-c-rp-mo-br100",
+      "text": "Pelayanan memuaskan, harga juga terjangkau untuk perawatannya banyak diskon2nya juga . kakak2nya sabar dan ramah",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-23T08:47:12.465Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGVFYyRmhSWEZmWDI1UFVXWnllRGd5TTJremNuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGVFYyRmhSWEZmWDI1UFVXWnllRGd5TTJremNuYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkFTV2FhRXFfX25PUWZyeDgyM2kzcnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109033792839572785463",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109033792839572785463?hl=id",
+      "name": "Ninit Rabbani",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJmq2qToULZXJWo0RsPzeJ6d6y0J6h_A5Sryxtv8SkQVToIPA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-18T09:24:00.113Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201MVpFUk1URkpwZFRKWVZWVkxRM2hhWlVJeWVIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201MVpFUk1URkpwZFRKWVZWVkxRM2hhWlVJeWVIYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOm51ZERMTFJpdTJYVVVLQ3haZUIyeHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100333689488807210304",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100333689488807210304?hl=id",
+      "name": "Adinda Najma Rosyadah",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUp_0sAWUIQygb9Q2n9gcorvtvZymUIEYDc6grH2cQ01iVK01LBMQ=s1920-c-rp-mo-br100",
+      "text": "Great hospitality!!! Semua staff ramah dan hasil treatmet bagusss",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-18T07:01:43.126Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ReFRIVlNRMEZIYTBGaVNUQllhWGhIY0RCNFZuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21ReFRIVlNRMEZIYTBGaVNUQllhWGhIY0RCNFZuYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOmQxTHVSQ0FHa0FiSTBYaXhHcDB4Vnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116984773106371488898",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116984773106371488898?hl=id",
+      "name": "Elsi Tri Amelia",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXyO2NNfXx1BLPLay1B4OyCYQ_sXVuEoM-7JCaADg7R2u7Vgi4=s1920-c-rp-mo-br100",
+      "text": "konsul dokter ramah dan pelayanan bagus",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-18T06:45:06.550Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSTlRrMHljRWhxUWtwcVFUTm5TVkpuUlRGaVVXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSTlRrMHljRWhxUWtwcVFUTm5TVkpuUlRGaVVXYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkRNTk0ycEhqQkpqQTNnSVJnRTFiUWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111188759581138914356",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111188759581138914356?hl=id",
+      "name": "Amanda Nafisia",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXlROi5reoo043HGkTbBeMJtbULouN3-BWlViEzJ0_P7j-7s7U=s1920-c-rp-mo-br100",
+      "text": "Super comfy, great service, so polite",
+      "textTranslated": "Sangat nyaman, pelayanan hebat, sangat sopan.",
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-18T06:43:13.359Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xGSFZsWnFSMEZsZEhoS1pXaFpWbWR1YVdveGRGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xGSFZsWnFSMEZsZEhoS1pXaFpWbWR1YVdveGRGRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlFHVlZqR0FldHhKZWhZVmduaWoxdFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "113607747247342857174",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113607747247342857174?hl=id",
+      "name": "Maulinda Nur",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIY6g65homM8HYINDZ2NofZl0f0FdPzzAIAzzGbXUuk2-gULg=s1920-c-rp-mo-br100",
+      "text": "bagus nyaman",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-16T07:44:21.150Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWdlIwaGlNUzFGUVhoVGNHSjNVbkJHUVhkclEwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWdlIwaGlNUzFGUVhoVGNHSjNVbkJHUVhkclEwRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOjVvR0hiMS1FQXhTcGJ3UnBGQXdrQ0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104270870309552106318",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104270870309552106318?hl=id",
+      "name": "Eka Heppy",
+      "reviewerNumberOfReviews": 11,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIP0KFBluYknx6PUEou8OJjHRO8cRoiBHq_6t68X50Hl_7qhQ=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya rama tempatnya nyaman banget",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-15T07:34:10.602Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s5UGVtczFURmhZYW1WaE1FdzFMVEpUY2xFdFNYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5UGVtczFURmhZYW1WaE1FdzFMVEpUY2xFdFNYYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOk9Pems1TFhYamVhMEw1LTJTclEtSXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113374074869039163111",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113374074869039163111?hl=id",
+      "name": "Luluk",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXG8RGZDfHzCi6kPthk6NTOG-8-Bz2Ma15hy4tajSe4pKjwP098=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya mantap, harga affordable juga. Udah langganan 2 tahunan ini❤️",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-13T09:32:49.185Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tveFlWbGZTRVJuVkhOdmFXTnVjWFkxYVVvdFJXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tveFlWbGZTRVJuVkhOdmFXTnVjWFkxYVVvdFJXYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkoxYVlfSERnVHNvaWNucXY1aUotRWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNLpVpr1PbmC65_fWj6LJgmP6l5ahJJysEfcOqjT2_ZFP2hl1RVEdndfyDc3i7A7GZZPAKsedCBzgd_zDSb1Lj_rWwF43L1MZPaQtx2POahw8ipPB-boJ3TA6CZLtwnmVGxFsc63bGNKVI=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106277525062155195678",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106277525062155195678?hl=id",
+      "name": "Feny Dyah Ayu",
+      "reviewerNumberOfReviews": 10,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWfQwR_FVfkjhOHC8z13uqNH4rU_rgOZJ3ql9azsv5KJIX1PPZI=s1920-c-rp-mo-ba12-br100",
+      "text": "Nice place, friendly staff, comfortable ambiance. But you need to make sure that if you drive your own car, it will be hassle. Because they only have 1 parking spot for car. Motorcycle is more convenient.",
+      "textTranslated": "Tempatnya bagus, stafnya ramah, suasananya nyaman. Tapi perlu diingat, jika Anda mengendarai mobil sendiri, akan merepotkan. Karena mereka hanya punya 1 tempat parkir untuk mobil. Parkir motor lebih nyaman.",
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-13T03:48:09.966Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xndGNFdEtURGhXVFhGYVpXeE5aMHhrYTAxeFgyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xndGNFdEtURGhXVFhGYVpXeE5aMHhrYTAxeFgyYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlgtcEtKTDhWTXFaZWxNZ0xka01xX2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMCBhHhu0QbbF2Tu5-A_ClPJlOvrJ6ibXP-yVclzVHsGAWqsZ7N1M8_mvHUHmwVMBHIviA5NKbM4NTSEY9zii_hpP_ucHreWcbkioRdGhCyszygeYooxDkQ58Utqks5qYtlG0vfeB-S3GQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMvJliMZKwiqE6NhQ7vbwHFLyReEGmf-xPFZVMyQEW2ZA24hjq26n59lmucxAmUd8KLSVKqlMjBd18a9HYDJgRTs_I2Qri2KKbcdnLcJ90Gf0fxH-2MiYYiSnt9tL_chLWA2nQkovnSPtqD=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "114205993706698329327",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114205993706698329327?hl=id",
+      "name": "Sintia Putri",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK-zmLGBHni0-X7Y9YaSdYBrT6rxGZjw1kx1t1AYRvcyjTWYg=s1920-c-rp-mo-br100",
+      "text": "Banyak promo, pelayanan memuaskan",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-12T09:33:49.300Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tFeVYxTlphUzFuTkVGc2NtSlRkMGxhZDNGSGRFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tFeVYxTlphUzFuTkVGc2NtSlRkMGxhZDNGSGRFRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkEyV1NZaS1nNEFscmJTd0lad3FHdEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOaaSgv_CnE3kfPUh4AHDvjmZmRrCnE7SgAMjM0g4PqH72vOnhJNqeaU4W69y3gMYLmfDg18zzeoaaFAY3s17CRVX4qO9YMKZd0mo-zogJKj7zoTkEfqObHqc8LMhD7O1Twq3u86ykSxl7N=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107120376427716851013",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107120376427716851013?hl=id",
+      "name": "Dewi Shafirah",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX9EKd_Gv4mG_D3DUJm7OiYZ7jAptYNGu9B-JUNWzuxahoNgE0=s1920-c-rp-mo-br100",
+      "text": "tempat sgt nyaman good servicess!!",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-12T09:33:33.787Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xSV1QxaGtUSHBKVjBkWVV6bHFZWFpEVGxWR2EzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSV1QxaGtUSHBKVjBkWVV6bHFZWFpEVGxWR2EzYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOlRWT1hkTHpJV0dYUzlqYXZDTlVGa3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105926614583307845591",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105926614583307845591?hl=id",
+      "name": "WINDI FATIMATUSZAHRO",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU9phlVsmutxtPfxVrRfJ4oN46a4vBt07HEEgwT0hw9PGi35J4=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-12T03:57:48.958Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2twVlZqaFdZbGxWTkRKT1YzSklWRVJ4YmtKaFpXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twVlZqaFdZbGxWTkRKT1YzSklWRVJ4YmtKaFpXYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOkpVVjhWYllVNDJOV3JIVERxbkJhZWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104975526014818696981",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104975526014818696981?hl=id",
+      "name": "Intan Geloo",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL2BBneae7r6tjor0afN2wufQhlxlS0OuEkdBJ6Bp6DJi72CA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-12T03:20:57.744Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOQk0zTnhkMUk0U0ZGYVJrdEZYMUJwVEZNMFkzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOQk0zTnhkMUk0U0ZGYVJrdEZYMUJwVEZNMFkzYxAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOjNBM3Nxd1I4SFFaRktFX1BpTFM0Y3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114025769408160411130",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114025769408160411130?hl=id",
+      "name": "Dinar Sulistyaning Kusuma",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLqLlJ0SFMw4t6Qb2VLc4edA-VqZ0WDcg411e0XW7EWjfK3Rw=s1920-c-rp-mo-br100",
+      "text": "Pelayanan ramah dan cepat untuk orang yang baru pertama kali ke naavagreen",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-11T09:35:20.171Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pCQk5UbDJkMWxFYkROdGFHaHdkbmRDZUZoSllrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCQk5UbDJkMWxFYkROdGFHaHdkbmRDZUZoSllrRRAB!2m1!1s0x0:0xcb7c37d3f4c845b!3m1!1s2@1:CAIQACodChtycF9oOjBBNTl2d1lEbDNtaGhwdndCeFhJYkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Kesehatan"
+}

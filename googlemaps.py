@@ -26,10 +26,6 @@ except ImportError:
 
 
 # ════════════════════════════════════════════════════
-# KONFIGURASI
-# ════════════════════════════════════════════════════
-
-# ════════════════════════════════════════════════════
 # KONFIGURASI — ROTASI 3 TOKEN APIFY
 # ════════════════════════════════════════════════════
 load_dotenv()
@@ -68,16 +64,44 @@ def run_actor(run_input: dict, max_retry: int = None) -> list:
             # ✅ tambah "exceed" dan "usage" sebagai trigger rotasi
             if any(k in err for k in ["402", "limit", "quota", "payment", "credit", "exceed", "usage", "subscription"]):
                 print(f"⚠️  Token {token_index + 1} kena limit: {str(e)[:80]}")
-                print(f"🔄 Rotasi ke token berikutnya...")
                 rotate_token()
+            elif any(k in err for k in ["dns", "connect", "network", "timeout", "host"]):
+                print(f"⚠️  Koneksi terputus (attempt {attempt+1}), tunggu 10 detik...")
+                time.sleep(10)
             else:
-                print(f"❌ Error tidak dikenali: {e}")
+                print(f"❌ Error: {e}")
                 raise
     
     print("❌ Semua token habis limit, skip tempat ini.")
     return []
 
+
+
 MASTER_FILE = "output/master_tempat.csv"
+CHECKPOINT_FILE = "output/checkpoint.txt"  # ← sudah ada
+OUTPUT_DIR      = "output" 
+
+# ════════════════════════════════════════════════
+# CHECKPOINT FUNCTIONS — tambahkan di sini
+# ════════════════════════════════════════════════
+def get_checkpoint() -> int:
+    if os.path.exists(CHECKPOINT_FILE):
+        try:
+            return int(open(CHECKPOINT_FILE).read().strip())
+        except:
+            return 0
+    return 0
+
+def save_checkpoint(index: int):
+    with open(CHECKPOINT_FILE, "w") as f:
+        f.write(str(index))
+
+def clear_checkpoint():
+    if os.path.exists(CHECKPOINT_FILE):
+        os.remove(CHECKPOINT_FILE)
+
+token_index = 0  # ← sudah ada
+
 
 def get_folder(nama_tempat):
     return re.sub(r'[^a-z0-9]+', '_', nama_tempat.lower()).strip('_')
@@ -143,29 +167,60 @@ def scrape_google_maps():
     master  = pd.read_csv(MASTER_FILE)
     results = []
 
-    print("⏳ Menjalankan scraper Google Maps...\n")
-    for _, row in master.iterrows():
-        print(f"📍 {row['nama']}")
-        # ✅ pakai run_actor(), bukan client.actor()
+    # Tentukan titik mulai dari checkpoint
+    start_index = get_checkpoint()
+    if start_index > 0:
+        nama_lanjut = master.iloc[start_index]["nama"] if start_index < len(master) else "selesai"
+        print(f"⏩ Melanjutkan dari tempat ke-{start_index + 1}: {nama_lanjut}\n")
+
+        # Load hasil yang sudah tersimpan sebelumnya
+        for i in range(start_index):
+            nama_lama = master.iloc[i]["nama"]
+            json_path = os.path.join(OUTPUT_DIR, get_folder(nama_lama), "ulasan_mentah.json")
+            if os.path.exists(json_path):
+                with open(json_path, "r", encoding="utf-8") as f:
+                    place = json.load(f)
+                    place["kategori"] = master.iloc[i]["kategori"]
+                    results.append(place)
+        print(f"   📂 Load cache: {nama_lama}")
+    else:
+        print("⏳ Memulai scraping dari awal...\n")
+
+    for i, (_, row) in enumerate(master.iterrows()):
+        if i < start_index:
+            continue  # skip yang sudah selesai
+
+        print(f"[{i+1}/{len(master)}] 📍 {row['nama']}")
         data = run_actor({
-            "searchStringsArray": [row["nama"]],
+            "searchStringsArray"       : [row["nama"]],
             "maxCrawledPlacesPerSearch": 1,
-            "includeReviews": True,
-            "maxReviews": 30,
-            "language": "id"
+            "includeReviews"           : True,
+            "maxReviews"               : 30,
+            "language"                 : "id"
         })
+
         if data:
             data[0]["kategori"] = row["kategori"]
             results.extend(data)
 
-    print(f"\n✅ Berhasil mengambil {len(results)} tempat\n")
+            # Simpan JSON mentah langsung
+            nama   = data[0].get("title", row["nama"])
+            folder = os.path.join(OUTPUT_DIR, get_folder(nama))
+            os.makedirs(folder, exist_ok=True)
+            with open(os.path.join(folder, "ulasan_mentah.json"), "w", encoding="utf-8") as f:
+                json.dump(data[0], f, ensure_ascii=False, indent=2)
+        else:
+            print(f"   ⚠️  Tidak ada data, skip.")
+
+        # Simpan checkpoint setelah tiap tempat
+        save_checkpoint(i + 1)
+        print(f"   ✅ Checkpoint: {i+1}/{len(master)}")
+
+    # Selesai penuh — hapus checkpoint
+    clear_checkpoint()
+    print(f"\n✅ Scraping selesai! Total {len(results)} tempat\n")
     for place in results:
-        print(f"📍 {place.get('title')} | {place.get('kategori')} | {place.get('reviewsCount')} ulasan")
-        nama   = place.get("title", "unknown")
-        folder = os.path.join(OUTPUT_DIR, get_folder(nama))
-        os.makedirs(folder, exist_ok=True)
-        with open(os.path.join(folder, "ulasan_mentah.json"), "w", encoding="utf-8") as f:
-            json.dump(place, f, ensure_ascii=False, indent=2)
+        print(f"   📍 {place.get('title')} | {place.get('kategori')} | {place.get('reviewsCount')} ulasan")
 
     return results
 

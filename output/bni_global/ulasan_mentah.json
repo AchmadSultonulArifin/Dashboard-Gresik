@@ -1,0 +1,1228 @@
+{
+  "title": "BNI Global",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Perusahaan jaringan bisnis",
+  "address": "3430 Toringdon Way Ste 300, Charlotte, NC 28277",
+  "neighborhood": "Whiteoak",
+  "street": "3430 Toringdon Way Ste 300",
+  "city": "Charlotte",
+  "postalCode": "28277",
+  "state": "North Carolina",
+  "countryCode": "US",
+  "website": "https://www.bni.com/",
+  "phone": "(800) 825-8286",
+  "phoneUnformatted": "+18008258286",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 35.0678405,
+    "lng": -80.8420172
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "3595+45 Charlotte, Carolina Utara",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJr4QNO7EN9YgRhSlaoWEd5GE",
+  "categories": [
+    "Perusahaan jaringan bisnis"
+  ],
+  "fid": "0x88f50db13b0d84af:0x61e41d61a15a2985",
+  "cid": "7053795221525113221",
+  "reviewsCount": 26,
+  "imagesCount": 12,
+  "imageCategories": [
+    "Semua",
+    "Di dalam",
+    "Video",
+    "Oleh pemilik",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-20T15:39:12.600Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 96
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 93
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 93
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 13
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": []
+  },
+  "openingHours": [
+    {
+      "day": "Senin",
+      "hours": "08.30 to 17.30"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.30 to 17.30"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.30 to 17.30"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.30 to 17.30"
+    },
+    {
+      "day": "Jumat",
+      "hours": "08.30 to 17.30"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BNI Colorado",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BNI of the Ozarks",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Ntech International",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BNI Action Alliance - Cornelius NC",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Xenial, Inc.",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "organisasi",
+      "count": 6
+    },
+    {
+      "title": "uang",
+      "count": 2
+    }
+  ],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": true
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=BNI%20Global&query_place_id=ChIJr4QNO7EN9YgRhSlaoWEd5GE",
+  "searchPageUrl": "https://www.google.com/maps/search/Bni?hl=id",
+  "searchString": "Bni",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm77_n9Eyyzyj-6dzLtb-74il8G9g-T8hSHc7TSI5rVKfv7euLjZ7QvyiGagYc6J6gnQyicXPJUAwdyIkUJJOeRjZ526Ub2xXi_PBBQeZek1ZN__kyihVUJS9xbbHcxaBjb7WQ=w426-h240-k-no",
+  "kgmid": "/g/1tlc8xl9",
+  "reviewsDistribution": {
+    "oneStar": 2,
+    "twoStar": 1,
+    "threeStar": 0,
+    "fourStar": 1,
+    "fiveStar": 22
+  },
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "106568465139784664311",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106568465139784664311?hl=id",
+      "name": "Candi Noguera",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU9m7BHK_0bzs8qisJTuiMhypIdBWQUjjy4jyafxRTnhfe_Gso=s1920-c-rp-mo-br100",
+      "text": "Be very careful with this organization. They prevent members from leaving real reviews on other members. If you have had a bad experience with a member they prevent you from discussing it or tell you they will kick you you. This keeps some pretty bad actors circulating in the group.",
+      "textTranslated": "Berhati-hatilah dengan organisasi ini. Mereka mencegah anggota untuk memberikan ulasan yang jujur ​​tentang anggota lain. Jika Anda memiliki pengalaman buruk dengan seorang anggota, mereka mencegah Anda untuk membicarakannya atau memberi tahu Anda bahwa mereka akan mengeluarkan Anda. Hal ini membuat beberapa oknum yang tidak bertanggung jawab tetap beredar di grup tersebut.",
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-03-22T12:56:12.436Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WTWNYb3hNSFZ1YjJkNmNVZFhjR0l3Y3pOTFExRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21WTWNYb3hNSFZ1YjJkNmNVZFhjR0l3Y3pOTFExRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CAIQACodChtycF9oOmVMcXoxMHVub2d6cUdXcGIwczNLQ1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "114350119851404870843",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114350119851404870843?hl=id",
+      "name": "Brian White (MediaZeus)",
+      "reviewerNumberOfReviews": 75,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUHxxADxItfBMgta6TtMgvQHmfCZ8Z6Q-YdWgUQ57EfgUsnOmv-=s1920-c-rp-mo-ba12-br100",
+      "text": "I’ve been a proud BNI member since 2015 and have been part of the Lakeside Elite Chapter for the past year, currently serving as Vice President. My experience with this group has been outstanding.\n\nBNI is built on the principle of “Givers Gain” — the idea that by helping others, you ultimately help yourself. Those who embrace that mindset quickly see the value of genuine networking, relationship-building, and mutual support.\n\nThe Lakeside Elite Chapter is full of dedicated professionals who go above and beyond to help one another succeed. Like anything worthwhile, you get out of it what you put into it.\n\nI highly encourage anyone to visit our chapter and see for yourself the positive, collaborative, and business-focused environment we’ve built together.",
+      "textTranslated": "Saya bangga menjadi anggota BNI sejak 2015 dan telah menjadi bagian dari Lakeside Elite Chapter selama setahun terakhir, saat ini menjabat sebagai Wakil Presiden. Pengalaman saya dengan grup ini sangat luar biasa.\n\nBNI dibangun di atas prinsip \"Givers Gain\" — gagasan bahwa dengan membantu orang lain, Anda pada akhirnya membantu diri sendiri. Mereka yang menganut pola pikir itu dengan cepat melihat nilai dari jaringan yang tulus, membangun hubungan, dan saling mendukung.\n\nLakeside Elite Chapter penuh dengan para profesional yang berdedikasi yang melakukan lebih dari sekadar membantu satu sama lain untuk sukses. Seperti halnya sesuatu yang berharga, Anda akan mendapatkan apa yang Anda berikan.\n\nSaya sangat mendorong siapa pun untuk mengunjungi chapter kami dan melihat sendiri lingkungan yang positif, kolaboratif, dan berfokus pada bisnis yang telah kami bangun bersama.",
+      "publishAt": "9 bulan lalu",
+      "publishedAtDate": "2025-10-14T11:20:12.324Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xsc1JHMWZlSFZRWDFsUFowaHBOVXczYUhnM2FrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xsc1JHMWZlSFZRWDFsUFowaHBOVXczYUhnM2FrRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CAIQACodChtycF9oOllsRG1feHVQX1lPZ0hpNUw3aHg3akE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNcvfGn0pUBYiMtJbkgUm1rkYiOPCmk7ijhr1_8ioqLQuZLqlgVK7uLK8zlY2V8kYKdJgg_mNHkEsMQhodw8c9_NMVCo7pdSgm1399y3OuGbZLmd-WmdP0Sn8MXJYKBF6TU9i6TD4gRRTNS=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "107229246052839905930",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107229246052839905930?hl=id",
+      "name": "DurchQuociLIMYINGCHINGNGLIMYINGCHINGJ23 Yching",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXXnRZD5cOAutsUc_aD4WYwV-rwwDSK3f9gxI-9fwUf6d48Hdtt=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "9 bulan lalu",
+      "publishedAtDate": "2025-09-25T14:02:45.349Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxS05VaE9VR2xwTVVSWmRVa3paMDVUVlZwYVNXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxS05VaE9VR2xwTVVSWmRVa3paMDVUVlZwYVNXYxAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CAIQACodChtycF9oOk1KNUhOUGlpMURZdUkzZ05TVVpaSWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108631226179684707909",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108631226179684707909?hl=id",
+      "name": "Monica Hunt",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIPJTbuiu7Px3xREvW4GsQGVRSI_qQEusVr85vZ6DjWK1S7IWTt=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "11 bulan lalu",
+      "publishedAtDate": "2025-07-24T17:28:53.509Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkc09GZFdhR0pUTW1GcFluWnlkV1ZZT0dkclRWRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkc09GZFdhR0pUTW1GcFluWnlkV1ZZT0dkclRWRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CAIQACodChtycF9oOkdsOFdWaGJTMmFpYnZydWVYOGdrTVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "118001886718087085951",
+      "reviewerUrl": "https://www.google.com/maps/contrib/118001886718087085951?hl=id",
+      "name": "deoiz brown",
+      "reviewerNumberOfReviews": 24,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVg6UE-Z0r0USQeAIX-my2IITMQcL2nnujOp_RPIdYG3sup5jcv=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-05-30T12:39:35.490Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VMSE1odmItbnNUVWFnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VMSE1odmItbnNUVWFnEAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKELHMhvb-nsTUag%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100376458612187693078",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100376458612187693078?hl=id",
+      "name": "Scott Pacitti",
+      "reviewerNumberOfReviews": 26,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKSvI2Vxg3n-ZOhR_tGz9eNGcoNLkWOmppQKICZa8TPYY18VQQ=s1920-c-rp-mo-ba12-br100",
+      "text": "I have been a proud member of Business Networking International (BNI) and specifically the Providence Business Partners, Charlotte, NC chapter for almost 8 years.  This is a testimonial for BNI, but specifically for its’ Chief Financial Officer, Mary Kennedy Thompson.  Mary began regularly attending our, Providence Business Partners’ chapter, weekly BNI meetings, awhile back.  Over the months through her 45 second weekly commercials, her 10 minute presentation, 1 2 1’s and personal/professional conversations I have become more and more impressed with her as a professional and a person by learning more about her numerous, expansive past, current business accomplishments and investments to the underserved in our communities.  Her passion for BNI is evident every time she speaks about the organization and its’ members .  It radiates every time she speaks about it/them and the \"givers gain\" mentality.  Thank you Mary for helping so many of us, being our advocate and the experience, wisdom and professionalism you bring to BNI.",
+      "textTranslated": "Saya bangga menjadi anggota Business Networking International (BNI) dan khususnya cabang Providence Business Partners, Charlotte, NC selama hampir 8 tahun. Ini adalah testimoni untuk BNI, tetapi khususnya untuk Chief Financial Officer-nya, Mary Kennedy Thompson. Mary mulai rutin menghadiri pertemuan BNI mingguan cabang Providence Business Partners kami beberapa waktu lalu. Selama beberapa bulan melalui iklan mingguan 45 detik, presentasi 10 menit, pertemuan 1 lawan 1, dan percakapan pribadi/profesionalnya, saya semakin terkesan dengannya sebagai seorang profesional dan pribadi dengan mempelajari lebih lanjut tentang berbagai pencapaian bisnisnya di masa lalu dan saat ini, serta investasinya untuk masyarakat yang kurang mampu di komunitas kita. Semangatnya untuk BNI terlihat setiap kali dia berbicara tentang organisasi dan anggotanya. Semangat itu terpancar setiap kali dia berbicara tentang BNI/mereka dan mentalitas \"memberi akan mendapat\". Terima kasih Mary atas bantuanmu kepada banyak dari kami, atas pengalaman, kebijaksanaan, dan profesionalisme yang kamu berikan kepada BNI.",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-05-05T12:23:53.382Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnTUNZMllDdGlBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNZMllDdGlBRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgMCY2YCtiAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "117939934114904206430",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117939934114904206430?hl=id",
+      "name": "Brian Loebig",
+      "reviewerNumberOfReviews": 181,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXh917snN0DB0ixOtOoHbG6suddLFLjPPcxAnqMSKA36tHYuKg=s1920-c-rp-mo-ba12-br100",
+      "text": "BNI helped build my business over the last 5+ years from a solo web developer to a marketing agency with 200 clients and 10 FTEs",
+      "textTranslated": "BNI membantu membangun bisnis saya selama 5+ tahun terakhir dari pengembang web solo menjadi agensi pemasaran dengan 200 klien dan 10 FTE",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-11-01T03:09:16.124Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURYai1TVUp3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURYai1TVUp3EAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDXj-SUJw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPr3sK_AWrghG3FzQLrWsSCDnsQ5ISOWbOXlsFecANDgywtFy1CMjyy5-AdPWlodRcb-HYOJoQemMOcuYGic9AysnOj4yzB78Fx7kNPcLe-iOJmeBJWbWVvtq1xs7SQJzvjd6GOQw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNDaFWisstPkBweONT3fE8bji1OJWekdiK4yaPkGcQ9fRAF-UnGGAv-q7TbDP2fmaq8ivkTQQMoWVafNP36yxFe17vWZZkd9LVs-Wh_7JRl66y6NORa3UKTOgiLHLZ_KMz7qJBm=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNDC0i5FZBW-OmvS5RqlHgNrfSQfkUJvBYYttLSsH067JRWLwHj3iIi1HQl0Sykjci4QYpuihi6f8jQEnQ6hShw6eyX7bYL5ogrU7mHtVVU_FJgEqywzeXbXqS3BjHVD6kRms-1Bg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP97SFMDE6GJoDzTWYiK4oprqZSEniGg0Mmx_9rufWyELswcdaB81KfEvWwO-TEf0zE1igL4d5UmULws6F2olKB7APL7s4u9rnZdvtYsoi0jaHaA4liTOB5J0RWm7yk5TbKJpwI=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN9alyGzwHs5PtO1mGwzLZqBlDc6h9G0Y1l65LCB-I0wXA_q02VuDfiTxDiY8Z0SKXqQ3OAYpJzdVEKv1rh6tzi4w8dnVr_kG7k4kmTWlDBVH9Dt6oMnMmIZjedvZfJ7Z7D_ncm=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "111333916092722135049",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111333916092722135049?hl=id",
+      "name": "Robert Gentile",
+      "reviewerNumberOfReviews": 35,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUZca5CTaT0oalxlx6yEjZJYBp-nUqRA_X9wDNJjWNIHedBl9hQ=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-09-09T21:14:52.158Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNIbDh5amd3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNIbDh5amd3RRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICHl8yjgwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116025785923245062894",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116025785923245062894?hl=id",
+      "name": "Stephanie Dolce (Stephanie's Corner)",
+      "reviewerNumberOfReviews": 15,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWC4wbJ-CeHdUGuF4ekx7NetevW_Unod4HKLVgHwvVbAIRdM4kq=s1920-c-rp-mo-ba12-br100",
+      "text": "It started off so good but then took a nosedive during Covid. These organization had no clue what to do and ever since then think the next way to make up for the money they lost is to OVERCHARGE their members. $1000 to be in a group for a year in obscene! And not only that they raise their price about three months into the new year so even after you renew, they want you to give more money at the same price that you just renewed or you’re going to pay the new price which is obscene  Oh, and no guarantee that you’ll ever make that money back or that you’ll get referrals.\nMost people that have been in the chapters for over 10 years already have a group of people that they’re going to refer and even if they’re in your group, they don’t care About your business, they care about themselves.\nI thought I had a good power team, but I did not. My team failed to me as did the Bni chapter.\nDon’t buy into givers gain and don’t buy into building relationships… Because at the end of the day, people in that group in that chapter want to make money, that’s all it’s about. They will fake a relationship with you just so you will give them referrals instead it’s reverse psychology.\nIf my Bni chapter actually showed any kind of concern towards me and my business, I would’ve stayed in that group. Because the end of the day I would’ve been making money in that group.\n\nIf you need a Networking group, find another group that’s more designed at a lower rate for joining and cares about trying to help your business not just help themselves.",
+      "textTranslated": "Awalnya berjalan sangat baik, tetapi kemudian merosot tajam selama Covid. Organisasi ini tidak tahu harus berbuat apa dan sejak saat itu mereka berpikir cara selanjutnya untuk mengganti uang yang hilang adalah dengan MEMBEBANKAN BIAYA TERLALU TINGGI kepada anggotanya. $1000 untuk bergabung dalam grup selama setahun itu keterlaluan! Dan tidak hanya itu, mereka menaikkan harga sekitar tiga bulan setelah tahun baru dimulai, jadi bahkan setelah Anda memperbarui keanggotaan, mereka ingin Anda membayar lebih banyak uang dengan harga yang sama seperti saat Anda memperbarui keanggotaan, atau Anda harus membayar harga baru yang sangat keterlaluan. Oh, dan tidak ada jaminan bahwa Anda akan mendapatkan kembali uang itu atau mendapatkan referensi.\nSebagian besar orang yang telah bergabung dalam chapter selama lebih dari 10 tahun sudah memiliki kelompok orang yang akan mereka referensikan, dan bahkan jika mereka berada di grup Anda, mereka tidak peduli dengan bisnis Anda, mereka hanya peduli pada diri mereka sendiri.\nSaya pikir saya memiliki tim yang hebat, tetapi ternyata tidak. Tim saya mengecewakan saya, begitu pula chapter BNI.\n\nJangan percaya pada prinsip \"memberi mendapat untung\" dan jangan percaya pada membangun hubungan... Karena pada akhirnya, orang-orang di grup dan cabang tersebut hanya ingin menghasilkan uang, itu saja. Mereka akan berpura-pura menjalin hubungan dengan Anda hanya agar Anda memberi mereka referensi, itu adalah psikologi terbalik.\nJika cabang BNI saya benar-benar menunjukkan kepedulian terhadap saya dan bisnis saya, saya akan tetap berada di grup itu. Karena pada akhirnya saya akan menghasilkan uang di grup itu.\n\nJika Anda membutuhkan grup jaringan, carilah grup lain yang lebih dirancang dengan biaya bergabung yang lebih rendah dan peduli untuk membantu bisnis Anda, bukan hanya membantu diri mereka sendiri.",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-08-23T13:01:05.289Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ3bXNhVFlnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ3bXNhVFlnEAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgID7msaTYg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 2,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "110598266407137108856",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110598266407137108856?hl=id",
+      "name": "Andre Carelock",
+      "reviewerNumberOfReviews": 34,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV7yGSVo_lMdvPD_y2x7bqcIpm-PtcS43wSfOQDQYL0lZxQIn3wPw=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-11-08T00:34:55.302Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURGa2FIX2VBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURGa2FIX2VBEAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDFkaH_eA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112576772580405056314",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112576772580405056314?hl=id",
+      "name": "Jarrod Maxwell",
+      "reviewerNumberOfReviews": 28,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKjaV-YJ9aWnXh99eEpLLd0tKW3eV0IrhK36g5l4JRJIjhzHg=s1920-c-rp-mo-ba12-br100",
+      "text": "To Tim Roberts: Taking people’s money in our small town and not offering services is unacceptable. We will no longer be referring BNI members here in Flagler County. This is an obvious pyramid scheme.",
+      "textTranslated": "Kepada Tim Roberts: Mengambil uang orang di kota kecil kami dan tidak menawarkan layanan adalah tindakan yang tidak dapat diterima. Kami tidak akan lagi merekomendasikan anggota BNI di Flagler County. Ini jelas merupakan skema piramida.",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-10-20T20:40:02.001Z",
+      "likesCount": 2,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ1dkp5aEN3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ1dkp5aEN3EAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgID5vJyhCw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "113260780888379724014",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113260780888379724014?hl=id",
+      "name": "His Therapy PT and Pelvic Health",
+      "reviewerNumberOfReviews": 14,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX_eojgFBMSqJBHC9bDGWRN0kkQpP5P5Zzh1dyhJ8aZ-iV0wNseQw=s1920-c-rp-mo-ba12-br100",
+      "text": "The best networking experience I've been able to be part of! I highly recommend it to anyone!",
+      "textTranslated": "Pengalaman networking terbaik yang pernah saya ikuti! Saya sangat merekomendasikannya kepada siapa pun!",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-09-02T03:01:50.891Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNab0oyUWp3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNab0oyUWp3RRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICZoJ2QjwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "103865313082383952199",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103865313082383952199?hl=id",
+      "name": "B&BFamilyPlumbing",
+      "reviewerNumberOfReviews": 26,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJc2w6Jb3GZ00Vg_OvLu8yQTZiaCpATRb9XXovXQafXGEn9kA=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2023-04-07T17:30:21.688Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNSamViLTFBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNSamViLTFBRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICRjeb-1AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102260108282847791357",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102260108282847791357?hl=id",
+      "name": "Joana Ferreira Garcia",
+      "reviewerNumberOfReviews": 203,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUZUIX9pSGnW5OJ3pQk1O9ozCaj0jin16z8gHngSG3sRMPqI8To-w=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2023-02-03T18:53:14.618Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNoaU11UndnRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNoaU11UndnRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIChiMuRwgE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101270942656334707552",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101270942656334707552?hl=id",
+      "name": "Cheoliver Sprosta",
+      "reviewerNumberOfReviews": 66,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXJuC59yawiz59BcGYwWMMJc5SPcesoLcAL6BsGfmeNxKGAVgq_=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2022-08-28T17:55:34.617Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUR1azc3YVZnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR1azc3YVZnEAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDuk77aVg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114355717861649617733",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114355717861649617733?hl=id",
+      "name": "Gretchen Wilson",
+      "reviewerNumberOfReviews": 63,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUpdCpnnncak0ZZvHWT_GCS7DQUdvo1jKSsWg4Qrf7Mpj3ZIHwW=s1920-c-rp-mo-ba12-br100",
+      "text": "Great company!! Check them out!! 😉",
+      "textTranslated": "Perusahaan yang hebat!! Coba lihat!! 😉",
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2022-08-10T11:58:44.409Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR1Z01TeWpnRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR1Z01TeWpnRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDugMSyjgE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "115349490046582576271",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115349490046582576271?hl=id",
+      "name": "david curtis",
+      "reviewerNumberOfReviews": 95,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVAmWJczMS7FKFtpaJ_QFqiX87tE-1TNq2fxL2MU3El18vUfOJp=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-02-18T05:15:19.122Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNXaE4tX053EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNXaE4tX053EAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICWhN-_Nw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102526502734330963269",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102526502734330963269?hl=id",
+      "name": "Pilar garcia villar",
+      "reviewerNumberOfReviews": 18,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVyHc4LT-e14oOm2_529DFnC_Hih4sM8Gvhyp6xmeNfRxwzLhj4uw=s1920-c-rp-mo-ba12-br100",
+      "text": "La organización de negocios más gran e importante del mundo",
+      "textTranslated": "Organisasi bisnis terbesar dan terpenting di dunia",
+      "publishAt": "6 tahun lalu",
+      "publishedAtDate": "2020-05-12T14:02:14.977Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURjb0lQVy1BRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURjb0lQVy1BRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDcoIPW-AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "112499508740697398838",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112499508740697398838?hl=id",
+      "name": "Taylor Pelzel",
+      "reviewerNumberOfReviews": 201,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUl9E3hPlxPizsJ9Yi65GJLxm6Fe1W1PEsZxtzRsVFhvf-qgDxrig=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 tahun lalu",
+      "publishedAtDate": "2019-10-27T16:02:35.377Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQwdk9ibUlnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQwdk9ibUlnEAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgID0vObmIg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110731784250890305145",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110731784250890305145?hl=id",
+      "name": "Ray Gonzales State Farm Agent",
+      "reviewerNumberOfReviews": 554,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJQKDlm51koeYw4vG32SWyF84tMlPOR27RCUD6M5YrwuMULZw=s1920-c-rp-mo-ba12-br100",
+      "text": "I had the pleasure of meeting many of the great BNI leaders today. I’ve been a member for 15 years and I’m very excited about the direction this company is going. I love their main core value and philosophy of Givers Gain!  If building your business by referral is important to you, then BNI is the vehicle to help you achieve it",
+      "textTranslated": "Saya berkesempatan bertemu dengan banyak pemimpin BNI hebat hari ini. Saya telah menjadi anggota selama 15 tahun dan saya sangat antusias dengan arah perkembangan perusahaan ini. Saya menyukai nilai inti dan filosofi utama mereka, yaitu Givers Gain! Jika membangun bisnis Anda melalui rujukan penting bagi Anda, maka BNI adalah wadah yang tepat untuk membantu Anda mencapainya.",
+      "publishAt": "7 tahun lalu",
+      "publishedAtDate": "2018-12-16T05:47:12.393Z",
+      "likesCount": 2,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURJd0tXNllREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURJd0tXNllREAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDIwKW6YQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "107730014745198835016",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107730014745198835016?hl=id",
+      "name": "shirley towne",
+      "reviewerNumberOfReviews": 57,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKQDnnbtxKhReEpfVjxI25_IHMxYhu_lBrKxtOHlJ0gkLPoJQ=s1920-c-rp-mo-ba12-br100",
+      "text": "Changing the way the world does business.  Changing family trees.  Creating BNI families for life.",
+      "textTranslated": "Mengubah cara dunia berbisnis. Mengubah silsilah keluarga. Menciptakan keluarga BNI seumur hidup.",
+      "publishAt": "7 tahun lalu",
+      "publishedAtDate": "2018-09-16T15:43:58.051Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBcFkyQkt3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNBcFkyQkt3EAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICApY2BKw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "102345276889191687940",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102345276889191687940?hl=id",
+      "name": "Moji Ajele",
+      "reviewerNumberOfReviews": 13,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVZfdgesnez4sKBd7g3kFEBaN4hGiQGzLBeLqYzVsleV2Iae9gIAw=s1920-c-rp-mo-ba12-br100",
+      "text": "Outstanding organization that helps business owners generate referrals, measurable results.",
+      "textTranslated": "Organisasi luar biasa yang membantu pemilik bisnis menghasilkan rujukan dan hasil yang terukur.",
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2017-12-08T03:06:51.751Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnbXNlbkd3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNnbXNlbkd3EAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICgmsenGw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "102902734602266858699",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102902734602266858699?hl=id",
+      "name": "Jorge Molano",
+      "reviewerNumberOfReviews": 59,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKZPKxpYGtWyNHuZ3uzt13chHV2Hrk9RKfvZgKa8n1uMj_SzQ=s1920-c-rp-mo-ba12-br100",
+      "text": "A fantastic office for global development and expansion!",
+      "textTranslated": "Kantor yang fantastis untuk pengembangan dan ekspansi global!",
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2017-11-18T01:26:13.399Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBemFTYjJnRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURBemFTYjJnRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDAzaSb2gE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMJX_vcf23t-HM_rwy6hmDHUQCSdWHGLKn-oSuvpMKudkOR1hBdy0alBSbngRPFgYHEs_d9awyfBGcJwiNeF5cqRFOdWDncHvXzekoku04ZAQwBLyxiaKSTanwJ2qHr5Ea00oxT=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "115377891065727888720",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115377891065727888720?hl=id",
+      "name": "Guy Fleming",
+      "reviewerNumberOfReviews": 176,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVeeLKg85Ieoq5HDZVqr1UTTLjFHAEzXlF24g66FWedUaiYtXkI=s1920-c-rp-mo-ba12-br100",
+      "text": "Great building good people great attitude one of the best businesses in the United States. It is the best Organization for any business to belong to",
+      "textTranslated": "Gedung yang bagus, orang-orang yang baik, sikap yang hebat, salah satu bisnis terbaik di Amerika Serikat. Ini adalah organisasi terbaik bagi bisnis apa pun untuk bergabung.",
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2017-08-18T06:25:19.937Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNneGU3UlBREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNneGU3UlBREAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICgxe7RPQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "111721761102982553642",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111721761102982553642?hl=id",
+      "name": "Robier Acebo",
+      "reviewerNumberOfReviews": 29,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUfDpaweYaTHTML0or4Z-yBZ2L5zg6UVldhaNdlEt8JPxkAhrs=s1920-c-rp-mo-ba12-br100",
+      "text": "If you want to network with the right people there's no better place to get connected.",
+      "textTranslated": "Jika Anda ingin berjejaring dengan orang yang tepat, tidak ada tempat yang lebih baik untuk terhubung.",
+      "publishAt": "9 tahun lalu",
+      "publishedAtDate": "2017-01-21T13:04:43.431Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBOC1PVWlBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURBOC1PVWlBRRAB!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgIDA8-OUiAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "103870201355160678586",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103870201355160678586?hl=id",
+      "name": "Brian Bentzen",
+      "reviewerNumberOfReviews": 12,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUNz44ifXrjU-uOuW56SNi0WJBf2rd2unCzkRD8vFdgUm1VqRQ=s1920-c-rp-mo-ba12-br100",
+      "text": "BNI not only changed my business, it changed my life. Thank you Ivan Misner for this amazing organization",
+      "textTranslated": "BNI tidak hanya mengubah bisnis saya, tetapi juga mengubah hidup saya. Terima kasih Ivan Misner atas organisasi yang luar biasa ini.",
+      "publishAt": "10 tahun lalu",
+      "publishedAtDate": "2016-07-07T23:06:18.333Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN3d05PaVN3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN3d05PaVN3EAE!2m1!1s0x0:0x61e41d61a15a2985!3m1!1s2@1:CIHM0ogKEICAgICwwNOiSw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Perbankan"
+}

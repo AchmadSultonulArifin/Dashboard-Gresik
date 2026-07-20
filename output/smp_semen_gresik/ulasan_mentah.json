@@ -1,0 +1,570 @@
+{
+  "title": "SMP Semen Gresik",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Sekolah menengah",
+  "address": "Jl. Awikoen I No.1, Kb. Dalem, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",
+  "neighborhood": "Kebon Dalem, Sidomoro, Kecamatan Kebomas",
+  "street": "Jl. Awikoen I No.1",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61122",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "website": "http://www.smpsemengresik.sch.id/",
+  "phone": "+62 31 3970933",
+  "phoneUnformatted": "+62313970933",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.1790327,
+    "lng": 112.6485769
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RJCX+9C Sidomoro, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": null,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJHQEgiTwA2C0RNdZqjoTTM84",
+  "categories": [
+    "Sekolah menengah"
+  ],
+  "fid": "0x2dd8003c8920011d:0xce33d3848e6ad635",
+  "cid": "14858452161903908405",
+  "reviewsCount": null,
+  "imagesCount": 15,
+  "imageCategories": [
+    "Semua",
+    "Oleh pemilik",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-20T13:21:47.498Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 96
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 86
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 98
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": []
+  },
+  "openingHours": [
+    {
+      "day": "Senin",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Jumat",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    }
+  ],
+  "additionalOpeningHours": {
+    "Jam layanan online": [
+      {
+        "day": "Senin",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Selasa",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Rabu",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Kamis",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Jumat",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Sabtu",
+        "hours": "08.00–15.00"
+      },
+      {
+        "day": "Minggu",
+        "hours": "Tutup"
+      }
+    ]
+  },
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMP Negeri 1 Gresik",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SD Semen Gresik",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMA SEMEN GRESIK",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMK Semen Gresik",
+      "reviewsCount": 57,
+      "totalScore": 4.5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMP NU 1 Gresik",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [
+    {
+      "title": "Makanan & Minuman",
+      "count": 1
+    }
+  ],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Opsi layanan": [
+      {
+        "Layanan di tempat": true
+      }
+    ],
+    "Aksesibilitas": [
+      {
+        "Kursi khusus pengguna kursi roda": false
+      },
+      {
+        "Toilet khusus pengguna kursi roda": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=SMP%20Semen%20Gresik&query_place_id=ChIJHQEgiTwA2C0RNdZqjoTTM84",
+  "searchPageUrl": "https://www.google.com/maps/search/SMP%20Semen%20Gresik?hl=id",
+  "searchString": "SMP Semen Gresik",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7aPwg71F1aa6lTVax8TYrQNzDfHkvJC-XxnwE1S4qKcpCEk-yxYc6NEESjA_rHO50B3UV3Dul9xaNK0RRNgKSbr7-Z1LpWtU1eqPDKN9r-FGAC3KNngCgmQjxcKWts9eboYn3qQ=w426-h240-k-no",
+  "kgmid": "/g/1hm681bvw",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [
+    {
+      "name": "smpsemengresik.sch.id",
+      "url": "https://ppdb.smpsemengresik.sch.id/"
+    }
+  ],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [],
+  "leadsEnrichment": [],
+  "kategori": "Pendidikan"
+}

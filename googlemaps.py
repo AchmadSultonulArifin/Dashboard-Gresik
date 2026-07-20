@@ -29,20 +29,61 @@ except ImportError:
 # KONFIGURASI
 # ════════════════════════════════════════════════════
 
+# ════════════════════════════════════════════════════
+# KONFIGURASI — ROTASI 3 TOKEN APIFY
+# ════════════════════════════════════════════════════
 load_dotenv()
-API_TOKEN  = os.getenv("APIFY_API_TOKEN")
-OUTPUT_DIR = "output"
-print(f"🔑 Token terbaca: {API_TOKEN[:15]}..." if API_TOKEN else "❌ Token TIDAK terbaca!")
+
+TOKENS = [
+    os.getenv("APIFY_API_TOKEN_1"),
+    os.getenv("APIFY_API_TOKEN_2"),
+    os.getenv("APIFY_API_TOKEN_3"),
+]
+TOKENS = [t for t in TOKENS if t]  # hapus yang kosong
+print(f"✅ {len(TOKENS)} token Apify terbaca")
+
+token_index = 0  # index token yang sedang dipakai
+
+def get_client():
+    """Ambil client dengan token aktif."""
+    return ApifyClient(TOKENS[token_index])
+
+def rotate_token():
+    """Pindah ke token berikutnya."""
+    global token_index
+    token_index = (token_index + 1) % len(TOKENS)
+    print(f"🔄 Rotasi ke token {token_index + 1}")
+
+def run_actor(run_input: dict, max_retry: int = None) -> list:
+    if max_retry is None:
+        max_retry = len(TOKENS)
+    
+    for attempt in range(max_retry):
+        try:
+            client = get_client()
+            run    = client.actor("compass/crawler-google-places").call(run_input=run_input)
+            return list(client.dataset(run.default_dataset_id).iterate_items())
+        except Exception as e:
+            err = str(e).lower()
+            # ✅ tambah "exceed" dan "usage" sebagai trigger rotasi
+            if any(k in err for k in ["402", "limit", "quota", "payment", "credit", "exceed", "usage", "subscription"]):
+                print(f"⚠️  Token {token_index + 1} kena limit: {str(e)[:80]}")
+                print(f"🔄 Rotasi ke token berikutnya...")
+                rotate_token()
+            else:
+                print(f"❌ Error tidak dikenali: {e}")
+                raise
+    
+    print("❌ Semua token habis limit, skip tempat ini.")
+    return []
 
 MASTER_FILE = "output/master_tempat.csv"
 
 def get_folder(nama_tempat):
     return re.sub(r'[^a-z0-9]+', '_', nama_tempat.lower()).strip('_')
 
+
 def buat_master_tempat():
-
-    client = ApifyClient(API_TOKEN)
-
     SEARCHES = {
         "Pemerintahan": [
             "kantor pemerintah gresik",
@@ -50,149 +91,82 @@ def buat_master_tempat():
             "kantor kecamatan gresik",
             "kantor kelurahan gresik"
         ],
-
         "Kesehatan": [
             "rumah sakit gresik",
             "puskesmas gresik",
             "klinik gresik"
         ],
-
         "Pendidikan": [
             "sekolah gresik",
             "universitas gresik",
             "kampus gresik"
         ],
-
         "Pelayanan Publik": [
             "disdukcapil gresik",
             "samsat gresik",
             "mall pelayanan publik gresik"
         ],
-
-        "Wisata": [
-            "wisata gresik"
-        ],
-
-        "Industri": [
-            "pabrik gresik"
-        ]
+        "Wisata": ["wisata gresik"],
+        "Industri": ["pabrik gresik"]
     }
 
     semua = []
-
     for kategori, pencarian in SEARCHES.items():
-
         print(f"\n===== {kategori} =====")
-
         for keyword in pencarian:
-
             print("Cari :", keyword)
-
-            run = client.actor(
-                "compass/crawler-google-places"
-            ).call(
-                run_input={
-                    "searchStringsArray":[keyword],
-                    "locationQuery":"Gresik, Jawa Timur",
-                    "maxCrawledPlacesPerSearch":80,
-                    "includeReviews":False
-                }
-            )
-
-            dataset = client.dataset(run.default_dataset_id)
-
-            for item in dataset.iterate_items():
-
+            # ✅ pakai run_actor(), bukan client.actor()
+            items = run_actor({
+                "searchStringsArray": [keyword],
+                "locationQuery": "Gresik, Jawa Timur",
+                "maxCrawledPlacesPerSearch": 20,
+                "includeReviews": False
+            })
+            for item in items:
                 semua.append({
-                    "kategori":kategori,
-                    "nama":item["title"]
+                    "kategori": kategori,
+                    "nama": item["title"]
                 })
 
-    df = pd.DataFrame(semua)
-
-    df = df.drop_duplicates("nama")
-
+    df = pd.DataFrame(semua).drop_duplicates("nama")
     os.makedirs("output", exist_ok=True)
-
-    df.to_csv(
-        MASTER_FILE,
-        index=False,
-        encoding="utf-8-sig"
-    )
-
+    df.to_csv(MASTER_FILE, index=False, encoding="utf-8-sig")
     print(f"\nMaster tempat berhasil dibuat ({len(df)})")
-    
-# ════════════════════════════════════════════════════
-# BAGIAN 1 — SCRAPING GOOGLE MAPS
-# ════════════════════════════════════════════════════
+
+
 
 def scrape_google_maps():
-
-    client = ApifyClient(API_TOKEN)
-
     if not os.path.exists(MASTER_FILE):
-
-        print("Master tempat belum ada")
-
+        print("Master tempat belum ada, membuat...")
         buat_master_tempat()
 
-
-    master = pd.read_csv(MASTER_FILE)
-
+    master  = pd.read_csv(MASTER_FILE)
     results = []
 
     print("⏳ Menjalankan scraper Google Maps...\n")
-
     for _, row in master.iterrows():
-
         print(f"📍 {row['nama']}")
-
-        run = client.actor(
-            "compass/crawler-google-places"
-        ).call(
-            run_input={
-                "searchStringsArray": [row["nama"]],
-                "maxCrawledPlacesPerSearch": 1,
-                "includeReviews": True,
-                "maxReviews": 50,
-                "language": "id"
-            }
-        )
-
-        dataset = client.dataset(run.default_dataset_id)
-
-        data = list(dataset.iterate_items())
-
-        if len(data):
+        # ✅ pakai run_actor(), bukan client.actor()
+        data = run_actor({
+            "searchStringsArray": [row["nama"]],
+            "maxCrawledPlacesPerSearch": 1,
+            "includeReviews": True,
+            "maxReviews": 30,
+            "language": "id"
+        })
+        if data:
             data[0]["kategori"] = row["kategori"]
             results.extend(data)
 
     print(f"\n✅ Berhasil mengambil {len(results)} tempat\n")
-
     for place in results:
-
-        print(
-            f"📍 {place.get('title')} | "
-            f"{place.get('kategori')} | "
-            f"{place.get('reviewsCount')} ulasan"
-        )
-
-        nama = place.get("title", "unknown")
-
-        folder = os.path.join(
-            OUTPUT_DIR,
-            get_folder(nama)
-        )
-
+        print(f"📍 {place.get('title')} | {place.get('kategori')} | {place.get('reviewsCount')} ulasan")
+        nama   = place.get("title", "unknown")
+        folder = os.path.join(OUTPUT_DIR, get_folder(nama))
         os.makedirs(folder, exist_ok=True)
-
-        with open(
-            os.path.join(folder, "ulasan_mentah.json"),
-            "w",
-            encoding="utf-8"
-        ) as f:
+        with open(os.path.join(folder, "ulasan_mentah.json"), "w", encoding="utf-8") as f:
             json.dump(place, f, ensure_ascii=False, indent=2)
-    
+
     return results
 
 

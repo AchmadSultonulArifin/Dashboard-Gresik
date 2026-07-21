@@ -1,0 +1,36 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM BNI SPBU BAMBE",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 0.0,
+  "persen_netral": 100.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Angga Febriyanto Putro",
+      "Bintang": 5,
+      "Tanggal": "2018-07-08T11:38:31.324Z",
+      "Ulasan": "ATM ini berada di dalam area SPBU Bambe tepatnya di Jalan Raya Bambe, Driyorejo, Gresik. ATM ini dapat digunakan untuk mengakses sejumlah layanan perbankan seperti menarik uang tunai, transfer dana, cek saldo, bayar tagihan, atau berbagai keperluan keuangan sehari-hari seperti membayar listrik, pulsa, atau tagihan lainnya. Dapat juga untuk melakukan tarik tunai dari rekening Mandiri, BRI dan BTN.",
+      "teks_final": "atm berada area spbu bambe tepatnya jalan raya bambe driyorejo gresik atm digunakan mengakses sejumlah layanan perbankan seperti menarik uang tunai transfer dana cek saldo bayar tagihan berbagai keperluan keuangan sehari hari seperti membayar listrik pulsa tagihan lainnya melakukan tarik tunai rekening mandiri bri btn",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9812
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "CakFau",
+      "Bintang": 3,
+      "Tanggal": "2017-07-08T13:41:59.585Z",
+      "Ulasan": "gak pernah pakai mesin ini, :)",
+      "teks_final": "pernah pakai mesin",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9886
+    }
+  ]
+}

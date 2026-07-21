@@ -1,0 +1,47 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Bank Syariah Mandiri Ponpes Qomarudin",
+  "rating": 4.4,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Abdulloh Madiun",
+      "Bintang": 5,
+      "Tanggal": "2022-05-31T05:53:25.433Z",
+      "Ulasan": "Bisa gak buka rekening di bsi bungah",
+      "teks_final": "buka rekening bsi bungah",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9936
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Abdur Rahman",
+      "Bintang": 5,
+      "Tanggal": "2018-06-30T04:39:07.021Z",
+      "Ulasan": "Alhamdulillah",
+      "teks_final": "alhamdulillah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9893
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nu'man Muhammad",
+      "Bintang": 5,
+      "Tanggal": "2018-05-01T13:06:05.885Z",
+      "Ulasan": "Bank syariah di kec bungah...",
+      "teks_final": "bank syariah kec bungah",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9475
+    }
+  ]
+}

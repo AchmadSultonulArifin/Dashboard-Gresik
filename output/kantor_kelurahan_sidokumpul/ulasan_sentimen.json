@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Sidokumpul",
+  "rating": 3.8,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 33.3,
+  "persen_netral": 33.3,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Yuniawan Mochtar",
+      "Bintang": 5,
+      "Tanggal": "2022-07-01T10:31:13.240Z",
+      "Ulasan": "Setelah hampir 3 tahun ga kesini, ada beberapa orang yg pensiun, digantikan pewagai muda, cekatan dan ramah, bahkan menolak ketika diberi imbalan untuk fotocopy.... pelayanannya tambah mantap, maju terus",
+      "teks_final": "hampir tahun kesini beberapa orang pensiun digantikan pewagai muda cekatan ramah bahkan menolak diberi imbalan fotocopy pelayanannya tambah bagus maju terus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9202
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ramirez Guiterez",
+      "Bintang": 5,
+      "Tanggal": "2022-06-08T09:08:14.311Z",
+      "Ulasan": "Modin mana modin",
+      "teks_final": "modin mana modin",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9909
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Danny Chen",
+      "Bintang": 5,
+      "Tanggal": "2016-08-22T11:55:08.620Z",
+      "Ulasan": "Goverment office",
+      "teks_final": "goverment office",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9404
+    }
+  ]
+}

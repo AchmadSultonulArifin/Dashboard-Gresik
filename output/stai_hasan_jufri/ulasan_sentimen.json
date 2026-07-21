@@ -1,0 +1,69 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "STAI Hasan Jufri",
+  "rating": 4.9,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 20.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 60.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "ACH JUNAIDI",
+      "Bintang": 5,
+      "Tanggal": "2026-02-19T09:38:48.449Z",
+      "Ulasan": "Tempat pendidikan terlengkap dn terluas di pulau bawean",
+      "teks_final": "tempat pendidikan terlengkap dn terluas pulau bawean",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9361
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "adnan bawean",
+      "Bintang": 5,
+      "Tanggal": "2021-08-06T05:50:11.845Z",
+      "Ulasan": "Saya ngajar disitu",
+      "teks_final": "ngajar disitu",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9029
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Arozi Channel",
+      "Bintang": 5,
+      "Tanggal": "2021-05-25T08:57:37.137Z",
+      "Ulasan": "Baik",
+      "teks_final": "baik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9844
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Dunia Bawean",
+      "Bintang": 5,
+      "Tanggal": "2019-10-05T17:34:53.753Z",
+      "Ulasan": "Kampus Staiha Bawean adalah kampus yang mencetak Mahasiswa menjadi generasi Bangsa Indonesia Umumnya dan Khususnya Pulau Bawean yang berkualitas dan berintegritas tinggi serta berakhlaqul Karimah.  Kampus Staiha Bawean sudah sering melakukan KKN ke luar Bawean baik ke Pulau Jawa dan Malaysia. Selain itu Mahasiswa disini juga pandai membaca al-Qur'an dan kitab",
+      "teks_final": "kampus staiha bawean kampus mencetak mahasiswa menjadi generasi bangsa indonesia umumnya khususnya pulau bawean berkualitas berintegritas tinggi serta berakhlaqul karimah kampus staiha bawean sering melakukan kkn luar bawean baik pulau jawa malaysia selain mahasiswa disini pandai membaca al qur an kitab",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9836
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Abd. Hadi Rohmani",
+      "Bintang": 4,
+      "Tanggal": "2017-05-21T07:38:00.566Z",
+      "Ulasan": "Ada beasiswa program MADIN kerjasama dg Pemprov Jati.",
+      "teks_final": "beasiswa program madin kerjasama pemprov jati",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9925
+    }
+  ]
+}

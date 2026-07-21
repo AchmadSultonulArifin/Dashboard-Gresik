@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Stadion Sumberame",
+  "rating": 3,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rosyad Tamrin",
+      "Bintang": 1,
+      "Tanggal": "2025-10-08T23:59:58.587Z",
+      "Ulasan": "Ada masjid nya sedang dalam proses setengah pembangunan setengah jadi, lapangannya kering tidak ada rumput SM skali",
+      "teks_final": "masjid sedang proses setengah pembangunan setengah jadi lapangannya kering rumput sama skali",
+      "topik": "Infrastruktur",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9933
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "nasrul ryskiawan",
+      "Bintang": 1,
+      "Tanggal": "2024-01-29T16:48:21.382Z",
+      "Ulasan": "Kurang bagus",
+      "teks_final": "kurang bagus",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9977
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "kategori": "Wisata",
+  "tempat": "PANTAI NGEMBOH",
+  "rating": 4.3,
+  "total_ulasan": 9,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 8,
+  "persen_positif": 0.0,
+  "persen_netral": 11.1,
+  "persen_negatif": 88.9,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "HINO TRUK BUS INDONESIA",
+      "Bintang": 3,
+      "Tanggal": "2025-01-17T12:46:09.668Z",
+      "Ulasan": "Lumayan oke",
+      "teks_final": "lumayan oke",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9933
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Miftahul Yusro",
+      "Bintang": 5,
+      "Tanggal": "2024-07-21T18:07:04.937Z",
+      "Ulasan": "Sangat menyenangkan",
+      "teks_final": "menyenangkan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.997
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Suwaji Wibowo",
+      "Bintang": 5,
+      "Tanggal": "2024-02-17T11:53:02.416Z",
+      "Ulasan": "Tempat nyantai di sore hari yg gratis bisa menikmati pemandangan laut sepuasnya",
+      "teks_final": "tempat nyantai sore hari gratis menikmati pemandangan laut sepuasnya",
+      "topik": "Administrasi",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9935
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Tommy Jerry",
+      "Bintang": 5,
+      "Tanggal": "2023-04-08T11:48:26.353Z",
+      "Ulasan": "Buka lapak seblak... Lesehan",
+      "teks_final": "buka lapak seblak lesehan",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8379
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "SeiVol",
+      "Bintang": 4,
+      "Tanggal": "2022-07-19T12:06:41.908Z",
+      "Ulasan": "Pantai yg alami tapi  berombak kecil ,gratis masuk.. banyak pedagang jajanan disekitar",
+      "teks_final": "pantai alami berombak kecil gratis masuk banyak pedagang jajanan disekitar",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9045
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Rohman man",
+      "Bintang": 4,
+      "Tanggal": "2022-07-10T10:28:24.418Z",
+      "Ulasan": "Free",
+      "teks_final": "free",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9624
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Novan Dendri",
+      "Bintang": 5,
+      "Tanggal": "2021-12-21T15:08:35.970Z",
+      "Ulasan": "Bagus kesini kalo sore hari. Nggak cocok kalau siang hari karna disini panas banget. Kalau sore disini juga ada beberapa penjual jajanan di pinggir jalan. Sayangnya tidak ada tempat yang nyaman untuk duduk bersantai bersama keluarga.",
+      "teks_final": "bagus kesini kalo sore hari cocok siang hari karna disini panas banget sore disini beberapa penjual jajanan pinggir jalan sayangnya tempat nyaman duduk bersantai bersama keluarga",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9928
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Hilal Isti mewah",
+      "Bintang": 4,
+      "Tanggal": "2021-06-28T14:48:33.816Z",
+      "Ulasan": "Yoyoyo rekreasi bertamasya nikmati panorama alam sik asik yuhu",
+      "teks_final": "yoyoyo rekreasi bertamasya nikmati panorama alam sik asik yuhu",
+      "topik": "Administrasi",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9818
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Rifqi Abdillah",
+      "Bintang": 4,
+      "Tanggal": "2020-08-23T06:09:04.708Z",
+      "Ulasan": "Tempat yg bagus untuk mengjilangkan penat. Tidak direkomendasikan untuk keluarga. Karena tempat kongkow anak muda",
+      "teks_final": "tempat bagus mengjilangkan penat direkomendasikan keluarga tempat kongkow anak muda",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9966
+    }
+  ]
+}

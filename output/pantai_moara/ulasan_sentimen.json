@@ -1,0 +1,36 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Moara",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Mohammad Nafis",
+      "Bintang": 5,
+      "Tanggal": "2025-01-09T06:24:53.795Z",
+      "Ulasan": "Indah",
+      "teks_final": "indah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Susi Maulida",
+      "Bintang": 3,
+      "Tanggal": "2024-11-09T11:56:14.570Z",
+      "Ulasan": "Pantai kampung nelayan",
+      "teks_final": "pantai kampung nelayan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7647
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Praktek Mandiri Ners. Aris Nasution. Cht",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Arie Amri",
+      "Bintang": 5,
+      "Tanggal": "2024-04-17T04:30:28.854Z",
+      "Ulasan": "Dokter Aris Ramah sekali dan enak di ajak konsultasi..",
+      "teks_final": "dokter aris ramah enak ajak konsultasi",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9578
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "RUMAH KHITAN WATES TANJUNG",
+      "Bintang": 5,
+      "Tanggal": "2021-12-25T04:14:53.517Z",
+      "Ulasan": "Recomendet",
+      "teks_final": "recomendet",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "SMK PGRI 1 Gresik Kampus C",
+  "rating": 4.8,
+  "total_ulasan": 7,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 4,
+  "persen_positif": 14.3,
+  "persen_netral": 28.6,
+  "persen_negatif": 57.1,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Rahma Widawati",
+      "Bintang": 5,
+      "Tanggal": "2025-08-21T07:56:28.583Z",
+      "Ulasan": "Bagus lengkap",
+      "teks_final": "bagus lengkap",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "M Irvan Firmansyah",
+      "Bintang": 5,
+      "Tanggal": "2020-10-24T11:38:01.149Z",
+      "Ulasan": "Km mandi, ruang ber ac, rapi, bersih dan nyaman",
+      "teks_final": "km mandi ruang ber ac rapi bersih nyaman",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9544
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Xykopat",
+      "Bintang": 5,
+      "Tanggal": "2020-10-10T12:43:03.754Z",
+      "Ulasan": "Yo apik cok sekolah an ku lhang",
+      "teks_final": "yo apik cok sekolah an ku lhang",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.707
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Mahendradwi 89",
+      "Bintang": 5,
+      "Tanggal": "2020-02-11T04:32:50.643Z",
+      "Ulasan": "Sangat recomended mantap pelayanannya👍",
+      "teks_final": "recomended bagus pelayanannya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Sutan DHN",
+      "Bintang": 5,
+      "Tanggal": "2020-02-11T03:46:43.275Z",
+      "Ulasan": "Teknik siaganya sangat joss,cepat respon",
+      "teks_final": "teknik siaganya joss cepat respon",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9941
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Luhur Edy W",
+      "Bintang": 5,
+      "Tanggal": "2020-02-10T08:55:05.545Z",
+      "Ulasan": "Servis Center Oltek SMK PRISAC",
+      "teks_final": "servis center oltek smk prisac",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9938
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Temmy PRISAC",
+      "Bintang": 5,
+      "Tanggal": "2020-01-23T02:31:32.792Z",
+      "Ulasan": "Sekolah Rujukan di Kabupaten Gresik",
+      "teks_final": "sekolah rujukan kabupaten gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9832
+    }
+  ]
+}

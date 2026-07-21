@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Balai Desa Karangandong",
+  "rating": 3.7,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Mbok Har",
+      "Bintang": 5,
+      "Tanggal": "2018-08-06T05:40:36.513Z",
+      "Ulasan": "Good",
+      "teks_final": "good",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-08-30T05:31:20.612Z",
+      "Ulasan": "Kantor Kelurahan Karangandong.",
+      "teks_final": "kantor kelurahan karangandong",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9958
+    }
+  ]
+}

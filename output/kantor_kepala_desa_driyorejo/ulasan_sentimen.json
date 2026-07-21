@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Driyorejo",
+  "rating": 4.2,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nur Hasanah",
+      "Bintang": 5,
+      "Tanggal": "2021-10-28T10:42:14.620Z",
+      "Ulasan": "Good",
+      "teks_final": "good",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Satria Manggala Jati “GaLa”",
+      "Bintang": 5,
+      "Tanggal": "2017-06-26T08:05:36.712Z",
+      "Ulasan": "Kantor kepala desa yang bagus, cukup terlihat untuk orang umum yang lewat",
+      "teks_final": "kantor kepala desa bagus cukup terlihat orang umum lewat",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9828
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T00:03:18.631Z",
+      "Ulasan": "Kantor Kelurahan Driyorejo.",
+      "teks_final": "kantor kelurahan driyorejo",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9968
+    }
+  ]
+}

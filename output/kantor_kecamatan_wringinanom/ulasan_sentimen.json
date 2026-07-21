@@ -1,0 +1,102 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kecamatan Wringinanom",
+  "rating": 3.4,
+  "total_ulasan": 8,
+  "positif": 3,
+  "netral": 3,
+  "negatif": 2,
+  "persen_positif": 37.5,
+  "persen_netral": 37.5,
+  "persen_negatif": 25.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Dani Rabbani",
+      "Bintang": 4,
+      "Tanggal": "2026-07-08T23:45:21.814Z",
+      "Ulasan": "apakah sudah bisa cetak ktp pak/bu",
+      "teks_final": "apakah cetak ktp pak bu",
+      "topik": "Administrasi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Riqy Ryan",
+      "Bintang": 5,
+      "Tanggal": "2026-05-06T07:46:37.277Z",
+      "Ulasan": "ok",
+      "teks_final": "oke",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9063
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Aditya Bagus 20",
+      "Bintang": 1,
+      "Tanggal": "2024-11-12T06:13:15.387Z",
+      "Ulasan": "Padahal jam kerja malah ditinggal keluar Alasan sistem sedang trobel, disuruh balik lagi besok Bosok kabeh petugas e",
+      "teks_final": "padahal jam kerja malah ditinggal keluar alasan sistem sedang trobel disuruh balik besok bosok kabeh petugas",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Wahyu Sugiarto",
+      "Bintang": 5,
+      "Tanggal": "2024-06-27T10:40:52.410Z",
+      "Ulasan": "Pelayanan rama dan mudah membantu masarakat",
+      "teks_final": "pelayanan rama mudah membantu masarakat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9906
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Kristanto Pratama",
+      "Bintang": 1,
+      "Tanggal": "2023-11-14T03:28:10.121Z",
+      "Ulasan": "Pelayanan tidak ramah , mohon tolong copot semua petugas disitu",
+      "teks_final": "pelayanan ramah mohon tolong copot semua petugas disitu",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9765
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-10-09T15:38:27.978Z",
+      "Ulasan": "Kantor Kecamatan Wringinanom.",
+      "teks_final": "kantor kecamatan wringinanom",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "YouTube HARIS",
+      "Bintang": 5,
+      "Tanggal": "2016-01-02T06:14:43.767Z",
+      "Ulasan": "kantor kecamatan wringinanom gresik",
+      "teks_final": "kantor kecamatan wringinanom gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9972
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "anik fuad",
+      "Bintang": 4,
+      "Tanggal": "2013-10-15T08:47:55.192Z",
+      "Ulasan": "Malang",
+      "teks_final": "malang",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5076
+    }
+  ]
+}

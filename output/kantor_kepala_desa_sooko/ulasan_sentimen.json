@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Sooko",
+  "rating": 4.6,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 33.3,
+  "persen_negatif": 66.7,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Muhammad Julul Muslih",
+      "Bintang": 5,
+      "Tanggal": "2022-01-13T23:06:22.909Z",
+      "Ulasan": "Tanah Lahir",
+      "teks_final": "tanah lahir",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.5005
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nurhadi Bonsai",
+      "Bintang": 4,
+      "Tanggal": "2018-01-04T12:29:33.826Z",
+      "Ulasan": "Tanah kelahiran",
+      "teks_final": "tanah kelahiran",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8636
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 4,
+      "Tanggal": "2017-07-08T15:29:13.960Z",
+      "Ulasan": "Kantor kelurahan sooko.",
+      "teks_final": "kantor kelurahan sooko",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9957
+    }
+  ]
+}

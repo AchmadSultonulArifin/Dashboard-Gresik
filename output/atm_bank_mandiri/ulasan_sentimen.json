@@ -1,0 +1,25 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM Bank Mandiri",
+  "rating": 5,
+  "total_ulasan": 1,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 0.0,
+  "persen_netral": 100.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Dimas Galih P",
+      "Bintang": 5,
+      "Tanggal": "2019-01-05T11:43:49.265Z",
+      "Ulasan": "Terdapat mesin CDM",
+      "teks_final": "terdapat mesin cdm",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9901
+    }
+  ]
+}

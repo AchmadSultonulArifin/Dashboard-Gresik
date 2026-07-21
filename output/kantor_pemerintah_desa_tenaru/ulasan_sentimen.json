@@ -1,0 +1,58 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Pemerintah Desa Tenaru",
+  "rating": 3.1,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Hooman last",
+      "Bintang": 3,
+      "Tanggal": "2022-07-25T13:52:09.685Z",
+      "Ulasan": "Lumayan ruwet kalau ngurus surat surat",
+      "teks_final": "lumayan ruwet ngurus surat surat",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9867
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Truy_eks Shilty",
+      "Bintang": 3,
+      "Tanggal": "2018-02-07T12:31:12.601Z",
+      "Ulasan": "Pelayann ramah",
+      "teks_final": "pelayann ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9958
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ifan Maulana",
+      "Bintang": 5,
+      "Tanggal": "2017-01-10T15:49:19.705Z",
+      "Ulasan": "Bersih dan tertata rapi",
+      "teks_final": "bersih tertata rapi",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-06T15:51:04.213Z",
+      "Ulasan": "Kantor Kelurahan Tenaru.",
+      "teks_final": "kantor kelurahan tenaru",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9928
+    }
+  ]
+}

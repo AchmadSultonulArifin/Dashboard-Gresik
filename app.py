@@ -3,6 +3,7 @@ from flask import request
 import pandas as pd
 import json
 import os
+import re 
 
 app = Flask(__name__)
 
@@ -509,67 +510,79 @@ def instagram():
     )
 
 
+# Route overview (sudah ada, tidak perlu diubah)
 @app.route("/googlemaps")
 def googlemaps():
+    semua = load_google_maps()
+    
+    # DEBUG — cek tipe data
+    for i, t in enumerate(semua):
+        for k, v in t.items():
+            if v is None or not isinstance(v, (str, int, float, bool, list, dict)):
+                print(f"[{i}] {t.get('nama','?')} -> {k}: {type(v)} = {v}")
+    
+    print(f"Total tempat: {len(semua)}")
+    return render_template("googlemaps.html", tempat=semua)
 
-    data = load_google_maps()
+# ✅ Tambahkan route detail ini
+@app.route("/googlemaps/<key>")
+def googlemaps_detail(key):
+    data = load_detail_tempat(key)
+    if not data:
+        return "Tempat tidak ditemukan", 404
+    return render_template("googlemaps_detail.html", data=data, key=key)
 
-    return render_template(
-        "googlemaps.html",
-        tempat=data
-    )
+# ✅ Tambahkan API detail ini
+@app.route("/api/googlemaps/<key>")
+def api_googlemaps_detail(key):
+    data = load_detail_tempat(key)
+    if not data:
+        return jsonify({"error": "tidak ditemukan"}), 404
+    return jsonify(data)
 
-GOOGLE_MAPS_FOLDER = "output"
+# ✅ GANTI DENGAN INI
+SUMMARY_FILE = "output/semua_tempat_summary.json"
 
-def load_google_maps():
+def load_google_maps() -> list:
+    if not os.path.exists(SUMMARY_FILE):
+        return []
+    try:
+        with open(SUMMARY_FILE, "r", encoding="utf-8") as f:
+            semua = json.load(f)
+        hasil = []
+        for t in semua:
+            if "key" not in t:
+                t["key"] = re.sub(r'[^a-z0-9]+', '_', str(t.get("tempat","")).lower()).strip('_')
+            hasil.append({
+                "id"            : str(t.get("key") or ""),
+                "key"           : str(t.get("key") or ""),
+                "nama"          : str(t.get("tempat") or t.get("key") or ""),
+                "kategori"      : str(t.get("kategori") or "Lainnya"),
+                "rating"        : float(t.get("rating") or 0),
+                "total_ulasan"  : int(t.get("total_ulasan") or 0),
+                "positif"       : int(t.get("positif") or 0),
+                "netral"        : int(t.get("netral") or 0),
+                "negatif"       : int(t.get("negatif") or 0),
+                "persen_positif": float(t.get("persen_positif") or 0),
+                "persen_netral" : float(t.get("persen_netral") or 0),
+                "persen_negatif": float(t.get("persen_negatif") or 0),
+            })
+        return hasil
+    except Exception as e:
+        print("Error load summary:", e)
+        return []
 
-    daftar_tempat = [
-    {
-        "kategori": "Pemerintahan",
-        "id": "kantor_bupati",
-        "nama": "Kantor Bupati",
-        "file": "kantor_bupati/ulasan_sentimen.json"
-    },
-    {
-        "kategori": "Pemerintahan",
-        "id": "dispendukcapil",
-        "nama": "Dispendukcapil",
-        "file": "dispendukcapil/ulasan_sentimen.json"
-    },
-    {
-        "kategori": "Kesehatan",
-        "id": "rsud_ibnu_sina",
-        "nama": "RSUD Ibnu Sina",
-        "file": "rsud_ibnu_sina/ulasan_sentimen.json"
-    },
-    {
-        "kategori": "Pelayanan Publik",
-        "id": "mall_pelayanan_publik",
-        "nama": "Mall Pelayanan Publik",
-        "file": "mall_pelayanan_publik/ulasan_sentimen.json"
-    },
-]
-
-    hasil = []
-
-    for t in daftar_tempat:
-
-        path = os.path.join(GOOGLE_MAPS_FOLDER, t["file"])
-
-        if not os.path.exists(path):
-            continue
-
+def load_detail_tempat(key: str) -> dict:
+    """Load detail ulasan satu tempat."""
+    path = os.path.join("output", key, "ulasan_sentimen.json")
+    if not os.path.exists(path):
+        return {}
+    try:
         with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        data["id"] = t["id"]
-        data["nama"] = t["nama"]
-        data["kategori"] = t["kategori"]  
-
-        hasil.append(data)
-
-    return hasil
-
+            return json.load(f)
+    except Exception as e:
+        print(f"Error load detail {key}:", e)
+        return {}
 
 @app.route("/api/data")
 def api_data():

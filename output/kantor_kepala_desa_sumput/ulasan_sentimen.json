@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Sumput",
+  "rating": 3,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 50.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ahmad Yudha",
+      "Bintang": 5,
+      "Tanggal": "2021-11-04T05:08:54.710Z",
+      "Ulasan": "Mantab",
+      "teks_final": "mantab",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "hanif bunif",
+      "Bintang": 1,
+      "Tanggal": "2021-07-08T04:33:36.398Z",
+      "Ulasan": "Pelayanan terhadap warga yang berdomisili didaerah tersebut namun memiliki KK di lain daerah sangat buruk. perangkat mempersulit pembuatan surat keterangan domisili untuk keperluan apapun.",
+      "teks_final": "pelayanan terhadap warga berdomisili didaerah tersebut memiliki kk lain daerah buruk perangkat mempersulit pembuatan surat keterangan domisili keperluan apapun",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9313
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kategori": "Wisata",
+  "tempat": "MUSEUM JOKO SAMUDRO",
+  "rating": 4.6,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Galery pusaka nusantara",
+      "Bintang": 5,
+      "Tanggal": "2019-06-30T11:49:56.167Z",
+      "Ulasan": "Pelayanannya baik",
+      "teks_final": "pelayanannya baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Maz Khusnul",
+      "Bintang": 5,
+      "Tanggal": "2018-11-29T01:25:08.037Z",
+      "Ulasan": "Pelayanan baik, rute sangat mudah dicari bila bingung tanya aja sama orang sekitar mazkhusnul jaket udah banyak yg tau",
+      "teks_final": "pelayanan baik rute mudah dicari bila bingung tanya aja sama orang sekitar mazkhusnul jaket udah banyak tau",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9355
+    }
+  ]
+}

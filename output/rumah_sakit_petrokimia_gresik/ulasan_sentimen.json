@@ -1,0 +1,124 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Rumah Sakit Petrokimia Gresik",
+  "rating": 4.8,
+  "total_ulasan": 10,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 8,
+  "persen_positif": 0.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 80.0,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Zach Zac",
+      "Bintang": 5,
+      "Tanggal": "2026-07-19T17:20:23.043Z",
+      "Ulasan": "gercep petugas fast respon IGD",
+      "teks_final": "gercep petugas fast respon igd",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9854
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "AJENG LARASATI",
+      "Bintang": 5,
+      "Tanggal": "2026-07-19T07:44:15.814Z",
+      "Ulasan": "Pengalaman pertama ke IGD Petro ibu saya merasa tenang nyaman selama penanganan",
+      "teks_final": "pengalaman pertama igd petro ibu merasa tenang nyaman selama penanganan",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7138
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Fina Latifah",
+      "Bintang": 4,
+      "Tanggal": "2026-07-18T15:38:16.941Z",
+      "Ulasan": "pelayanan IGD baik",
+      "teks_final": "pelayanan igd baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Novia Hendrawahyu",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T11:30:48.160Z",
+      "Ulasan": "Terima kasih RS Petrokimia Gresik, pelayanan sangat memuaskan, sukses selalu RS Petrokimia Gresik",
+      "teks_final": "terima kasih rumah sakit petrokimia gresik pelayanan memuaskan sukses selalu rumah sakit petrokimia gresik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9814
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sutrisno Sutrisno",
+      "Bintang": 5,
+      "Tanggal": "2026-07-18T02:54:28.973Z",
+      "Ulasan": "Terimakasih atas respon cepat utk rescheduling kontrol di poli spesialis.",
+      "teks_final": "terimakasih atas respon cepat rescheduling kontrol poli spesialis",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9897
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Mia Miu",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T16:17:33.829Z",
+      "Ulasan": "Pelayanan nya sangat memuaskan, wa ke pelanggan pasien di bls dengan cepat. Perawat, pegawai, dokternya sangat sabar dan baik hati. Saya berobat di sini selama 3 thn sangat terbantu dan blm pernah kecewa. Semoga kedepan nya semakin baik lagi. Terima kasih.",
+      "teks_final": "pelayanan memuaskan wa pelanggan pasien bls cepat perawat pegawai dokternya sabar baik hati berobat sini selama thn terbantu pernah kecewa semoga kedepan semakin baik terima kasih",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9062
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nurul Fauziah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T08:54:59.399Z",
+      "Ulasan": "Pelayanan juara!",
+      "teks_final": "pelayanan juara",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Grace Imanuella M",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T04:16:37.595Z",
+      "Ulasan": "Langganan banget untuk selalu ke RSPG. Untuk pelayanan dan fasilitas yang diberikan selalu best. Sebagai pasien Dr. Eka dan Dr. Harmono sangat2 recomended dan akuu bisa sarankan ke teman-teman yang lain.",
+      "teks_final": "langganan banget selalu rspg pelayanan fasilitas diberikan selalu best sebagai pasien eka harmono sangat2 recomended akuu sarankan teman teman lain",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "mchmmd syafii",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T02:12:19.599Z",
+      "Ulasan": "pelayanan bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Vidya Aryanti",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T01:31:37.427Z",
+      "Ulasan": "Pelayanan tercepat, pelayanan terbaik.. the best rs petro abyakta.. semua pegawai ramah sekali",
+      "teks_final": "pelayanan tercepat pelayanan terbaik the best rumah sakit petro abyakta semua pegawai ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9918
+    }
+  ]
+}

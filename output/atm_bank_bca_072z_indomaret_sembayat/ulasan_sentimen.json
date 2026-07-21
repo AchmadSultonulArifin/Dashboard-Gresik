@@ -1,0 +1,58 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM Bank BCA 072Z-Indomaret Sembayat",
+  "rating": 4.3,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "M Adi setiawan",
+      "Bintang": 5,
+      "Tanggal": "2019-10-22T22:49:31.163Z",
+      "Ulasan": "Semakin lengkap barangnya👍",
+      "teks_final": "semakin lengkap barangnya",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9897
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "A.Mahsuni F",
+      "Bintang": 3,
+      "Tanggal": "2019-07-26T09:05:16.126Z",
+      "Ulasan": "Apa ad setor tunai",
+      "teks_final": "apa ad setor tunai",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7576
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "DAUN KERUPUK OFFICIAL (DAUN KERUPUK)",
+      "Bintang": 5,
+      "Tanggal": "2018-08-02T07:25:35.118Z",
+      "Ulasan": "Pelayanan yg sangat rama",
+      "teks_final": "pelayanan rama",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9757
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "moh zaini",
+      "Bintang": 4,
+      "Tanggal": "2017-07-28T17:10:26.652Z",
+      "Ulasan": "Atm indomart",
+      "teks_final": "atm indomart",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9907
+    }
+  ]
+}

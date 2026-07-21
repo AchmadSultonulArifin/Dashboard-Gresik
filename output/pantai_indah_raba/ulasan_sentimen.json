@@ -1,0 +1,58 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Indah Raba",
+  "rating": 4.9,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 25.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 25.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Nono Sungatno",
+      "Bintang": 5,
+      "Tanggal": "2024-05-21T09:07:58.714Z",
+      "Ulasan": "Cukup menarik pantai ini Ada perahu nelayan yang bersandar disetiap sudut desa",
+      "teks_final": "cukup menarik pantai perahu nelayan bersandar disetiap sudut desa",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9164
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Hairi Alfan",
+      "Bintang": 5,
+      "Tanggal": "2023-10-23T14:01:11.269Z",
+      "Ulasan": "kerrong kg halaman. rabe eler. anak cucu mak kisrah",
+      "teks_final": "kerrong kg halaman rabe eler anak cucu mak kisrah",
+      "topik": "Keamanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9719
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Anton Listianto",
+      "Bintang": 5,
+      "Tanggal": "2022-06-25T11:14:16.632Z",
+      "Ulasan": "Kalau surut bisa berjalan sampai ke arah tenga",
+      "teks_final": "surut berjalan sampai arah tenga",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5483
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Afrias E",
+      "Bintang": 4,
+      "Tanggal": "2021-08-24T08:10:32.436Z",
+      "Ulasan": "Pastikan kendaraan kuat nanjak",
+      "teks_final": "pastikan kendaraan kuat nanjak",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8562
+    }
+  ]
+}

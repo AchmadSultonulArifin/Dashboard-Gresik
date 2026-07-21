@@ -1,0 +1,58 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Stadion Putra Raharja Fc Sidoraharjo",
+  "rating": 4.9,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Cak har Har",
+      "Bintang": 5,
+      "Tanggal": "2025-08-27T04:32:22.787Z",
+      "Ulasan": "Bagus , pas separing ke situ pemainnya sangat keras ,",
+      "teks_final": "bagus pas separing situ pemainnya keras",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.918
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ferynt Sby",
+      "Bintang": 4,
+      "Tanggal": "2024-05-19T11:34:04.857Z",
+      "Ulasan": "Lapangan bola yg bagus,perlu perawatan n perbaikan sarana di sekitarnya",
+      "teks_final": "lapangan bola bagus perlu perawatan perbaikan sarana sekitarnya",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6557
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Muhammad Zain",
+      "Bintang": 5,
+      "Tanggal": "2021-08-05T04:24:49.209Z",
+      "Ulasan": "Lapangan standar nasional",
+      "teks_final": "lapangan standar nasional",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8835
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "AHMAD ARFIYANSYAH WIBOWO",
+      "Bintang": 5,
+      "Tanggal": "2020-09-03T15:20:21.752Z",
+      "Ulasan": "Joss",
+      "teks_final": "joss",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9957
+    }
+  ]
+}

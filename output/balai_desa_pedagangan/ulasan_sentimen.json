@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Balai Desa Pedagangan",
+  "rating": 4.2,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Tmaghfiroh_ 21",
+      "Bintang": 3,
+      "Tanggal": "2020-01-26T07:11:25.470Z",
+      "Ulasan": "Sip",
+      "teks_final": "sip",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9767
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Odymesha Cristiawan",
+      "Bintang": 5,
+      "Tanggal": "2018-02-28T08:07:57.061Z",
+      "Ulasan": "Damai sejahtera",
+      "teks_final": "damai sejahtera",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9906
+    }
+  ]
+}

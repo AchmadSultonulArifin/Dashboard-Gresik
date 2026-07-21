@@ -1,0 +1,102 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Pos Benjeng",
+  "rating": 3.4,
+  "total_ulasan": 8,
+  "positif": 2,
+  "netral": 2,
+  "negatif": 4,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Andini Syarifatus",
+      "Bintang": 1,
+      "Tanggal": "2024-12-23T09:28:49.433Z",
+      "Ulasan": "Paket d anter tgl 13 sampai skarang blm sampai\"",
+      "teks_final": "paket anter tgl sampai skarang sampai",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.701
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Adi 30N0",
+      "Bintang": 5,
+      "Tanggal": "2024-10-07T08:21:06.678Z",
+      "Ulasan": "Pelayanannya baik, petugasnya ramah",
+      "teks_final": "pelayanannya baik petugasnya ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9964
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Fadiel",
+      "Bintang": 3,
+      "Tanggal": "2024-06-16T06:13:59.615Z",
+      "Ulasan": "Apalah ga sesuai jadwal. jadwanyal buka , di datengin tutup",
+      "teks_final": "apalah sesuai jadwal jadwanyal buka datengin tutup",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9713
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "disinfektan generation",
+      "Bintang": 2,
+      "Tanggal": "2022-09-15T07:39:15.581Z",
+      "Ulasan": "Apakah benar buka 24 jam?",
+      "teks_final": "apakah benar buka jam",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9655
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Herlangga Satriyanto",
+      "Bintang": 4,
+      "Tanggal": "2021-04-09T12:25:17.306Z",
+      "Ulasan": "Pelayanan cepat dan ramah.",
+      "teks_final": "pelayanan cepat ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "takul jainul hadin",
+      "Bintang": 5,
+      "Tanggal": "2020-07-18T05:31:32.021Z",
+      "Ulasan": "Mantap pelayanannya",
+      "teks_final": "bagus pelayanannya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "adi lely",
+      "Bintang": 5,
+      "Tanggal": "2019-11-06T10:04:34.503Z",
+      "Ulasan": "Kurirnya ramah, paket selalu sampai kalo tulis alamat yang lengkap rt/rw Dsn. dan Desanya, dan nama sertakan nama ortu biar mudah dicarinya sama pak pos.",
+      "teks_final": "kurirnya ramah paket selalu sampai kalo tulis alamat lengkap rt rw dsn desanya nama sertakan nama ortu biar mudah dicarinya sama pak pos",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9691
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Adnan Sampurnan",
+      "Bintang": 5,
+      "Tanggal": "2018-08-21T23:34:02.299Z",
+      "Ulasan": "Sangat di segani",
+      "teks_final": "segani",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9948
+    }
+  ]
+}

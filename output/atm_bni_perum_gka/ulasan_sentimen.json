@@ -1,0 +1,69 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM BNI PERUM GKA",
+  "rating": 4.5,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 3,
+  "negatif": 1,
+  "persen_positif": 20.0,
+  "persen_netral": 60.0,
+  "persen_negatif": 20.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Dzikir Septiawan",
+      "Bintang": 3,
+      "Tanggal": "2021-02-26T08:30:26.098Z",
+      "Ulasan": "Tombol kadang lecek:(",
+      "teks_final": "tombol kadang lecek",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "mhmddmaas _",
+      "Bintang": 5,
+      "Tanggal": "2019-01-04T03:13:35.794Z",
+      "Ulasan": "Dimana tempatnya",
+      "teks_final": "dimana tempatnya",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7765
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2018-05-29T17:32:19.344Z",
+      "Ulasan": "Tarikan tunai atm bni di perum graha kembangan asri.",
+      "teks_final": "tarikan tunai atm bni perum graha kembangan asri",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9966
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Humada Alfian (Ardiansyah)",
+      "Bintang": 5,
+      "Tanggal": "2017-11-03T19:11:51.047Z",
+      "Ulasan": "Letaknya di pojokan dan kurang mencolok, hadap Utara (Arah universitas Muhammadiyah Gresik)",
+      "teks_final": "letaknya pojokan kurang mencolok hadap utara arah universitas muhammadiyah gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8905
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nashruddin",
+      "Bintang": 4,
+      "Tanggal": "2016-04-02T10:55:34.076Z",
+      "Ulasan": "ATM BNI GKA, samping Batola",
+      "teks_final": "atm bni gka samping batola",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9967
+    }
+  ]
+}

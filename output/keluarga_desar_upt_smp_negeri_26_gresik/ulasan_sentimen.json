@@ -1,0 +1,36 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "keluarga Desar Upt Smp Negeri 26 Gresik",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "NOXXH PLERRR",
+      "Bintang": 5,
+      "Tanggal": "2024-10-25T01:09:37.934Z",
+      "Ulasan": "baguss",
+      "teks_final": "baguss",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Dafa Gaming",
+      "Bintang": 5,
+      "Tanggal": "2024-10-19T07:42:09.753Z",
+      "Ulasan": "Good",
+      "teks_final": "good",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    }
+  ]
+}

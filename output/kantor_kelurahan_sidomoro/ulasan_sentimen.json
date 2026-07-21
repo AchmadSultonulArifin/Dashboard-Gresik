@@ -1,0 +1,58 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Sidomoro",
+  "rating": 5,
+  "total_ulasan": 4,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 0.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 75.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Kenzo Jovan",
+      "Bintang": 5,
+      "Tanggal": "2021-10-04T14:40:40.569Z",
+      "Ulasan": "Pelayanan sangat bagus dan cepat tempatnya pun bersih dan rapi pelayan masyarakat yang amaanah",
+      "teks_final": "pelayanan bagus cepat tempatnya bersih rapi pelayan masyarakat amaanah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "natasya ika",
+      "Bintang": 5,
+      "Tanggal": "2018-06-07T01:19:12.431Z",
+      "Ulasan": "Bersih",
+      "teks_final": "bersih",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Firdha Ayu Atika",
+      "Bintang": 5,
+      "Tanggal": "2018-03-25T04:08:07.382Z",
+      "Ulasan": "Nice place.",
+      "teks_final": "nice place",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9891
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T03:01:30.791Z",
+      "Ulasan": "Kantor Kelurahan Sidomoro.",
+      "teks_final": "kantor kelurahan sidomoro",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9968
+    }
+  ]
+}

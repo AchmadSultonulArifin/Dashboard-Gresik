@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kecamatan Sangkapura",
+  "rating": 4.5,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Teguh Subagjo",
+      "Bintang": 5,
+      "Tanggal": "2022-06-07T13:04:26.246Z",
+      "Ulasan": "Pelayanan publik yg dilaksanakan kec. Sangkapura semakin baik",
+      "teks_final": "pelayanan publik dilaksanakan kec sangkapura semakin baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8271
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Zuhri Pribadi",
+      "Bintang": 4,
+      "Tanggal": "2018-05-25T05:44:30.816Z",
+      "Ulasan": "Kalau mau mengurus sesuatu di sini harap berpakaian yang rapi. Dilarang pakai celana pendek.",
+      "teks_final": "mau mengurus sesuatu sini harap berpakaian rapi dilarang pakai celana pendek",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9118
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "ISWANTO",
+      "Bintang": 5,
+      "Tanggal": "2017-04-18T08:31:06.004Z",
+      "Ulasan": "Government office",
+      "teks_final": "government office",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9117
+    }
+  ]
+}

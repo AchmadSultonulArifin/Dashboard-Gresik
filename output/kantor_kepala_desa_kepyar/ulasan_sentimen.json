@@ -1,0 +1,69 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Kepyar",
+  "rating": 4.5,
+  "total_ulasan": 5,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 4,
+  "persen_positif": 0.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 80.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Arianti Dini",
+      "Bintang": 5,
+      "Tanggal": "2020-06-13T03:42:24.018Z",
+      "Ulasan": "Assalamualaikum, apa kabar saudaraku semua. Semoga dalam keadaan sehat tanpa kurang apapun, dan dalam lindungan Allah SWT. Amin... Saya pernah melaksanakan tugas kampus selama 2 bulan di desa kepyar. Dan sekarang kangen. Mudah mudahan suatu saat nanti bisa mengunjungi Desa Kepyar lagi...",
+      "teks_final": "assalamualaikum apa kabar saudaraku semua semoga keadaan sehat tanpa kurang apapun lindungan allah swt amin pernah melaksanakan tugas kampus selama bulan desa kepyar sekarang kangen mudah mudahan suatu nanti mengunjungi desa kepyar",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9555
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "katemun",
+      "Bintang": 5,
+      "Tanggal": "2017-08-04T10:17:37.763Z",
+      "Ulasan": "Ini tempat balai desa saya",
+      "teks_final": "tempat balai desa",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9516
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Parmini",
+      "Bintang": 5,
+      "Tanggal": "2017-07-27T05:06:17.086Z",
+      "Ulasan": "Like",
+      "teks_final": "like",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.818
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "taufik zainudin",
+      "Bintang": 3,
+      "Tanggal": "2017-05-20T14:15:04.027Z",
+      "Ulasan": "Wisata kampung yg Jooos",
+      "teks_final": "wisata kampung jooos",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.908
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Kazpo Dmejo",
+      "Bintang": 5,
+      "Tanggal": "2016-12-16T15:18:24.082Z",
+      "Ulasan": "Tanah kelahiran serta tempat yg membesarkanku",
+      "teks_final": "tanah kelahiran serta tempat membesarkanku",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7259
+    }
+  ]
+}

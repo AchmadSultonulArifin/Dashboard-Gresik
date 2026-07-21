@@ -1,0 +1,91 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "SMK Semen Gresik",
+  "rating": 4.5,
+  "total_ulasan": 7,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 5,
+  "persen_positif": 14.3,
+  "persen_netral": 14.3,
+  "persen_negatif": 71.4,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Rahma Widawati",
+      "Bintang": 5,
+      "Tanggal": "2026-04-17T08:12:07.703Z",
+      "Ulasan": "Sekolah 👍",
+      "teks_final": "sekolah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.4308
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "shie adyev",
+      "Bintang": 5,
+      "Tanggal": "2025-11-03T12:51:59.609Z",
+      "Ulasan": "Tempat menempuh pendidikan kejuruan di Gresik",
+      "teks_final": "tempat menempuh pendidikan kejuruan gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9897
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Budi Setiawan",
+      "Bintang": 5,
+      "Tanggal": "2024-10-14T01:02:05.273Z",
+      "Ulasan": "SMK Semen Gresik melatih para siswa soft skill dan hard skill. Dalam soft skill, membentuk karakteristik kedisiplinan, 5 R dan juga jiwa religi sangat diperlukan dalam mendukung keterserapan lulusannya ke dunia kerja. Di Hard skill, keahlian industri seperti pengelasan, permesinan, kelistrikan, pemprogaman komputer, robotik, dll sangat mumpuni sehingga berimbas lulusannya banyak terserap di dunia kerja. Saya yakin SMK Semen Gresik ke depannya menjadi the best solution for jobless in the future",
+      "teks_final": "smk semen gresik melatih para siswa soft skill hard skill soft skill membentuk karakteristik kedisiplinan jiwa religi diperlukan mendukung keterserapan lulusannya dunia kerja hard skill keahlian industri seperti pengelasan permesinan kelistrikan pemprogaman komputer robotik dll mumpuni sehingga berimbas lulusannya banyak terserap dunia kerja yakin smk semen gresik depannya menjadi the best solution for jobless in the future",
+      "topik": "Keamanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9521
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Jamet Pemula",
+      "Bintang": 1,
+      "Tanggal": "2024-07-23T09:19:43.352Z",
+      "Ulasan": "Sekarang anak\" Tiap pagi dan sore selalu ada apel, fungsinya apa coba? Sok-sokan militer. Mirisnya semua murid-murid disana tidak ada yang setuju dengan kegiatan apel ini. Mereka sudah capek pada kegiatan pembelajaran/praktek disekolah, tidak usah menyusahkan para siswa dengan kegiatan yang tidak ada manfaatnya",
+      "teks_final": "sekarang anak tiap pagi sore selalu apel fungsinya apa coba sok sokan militer mirisnya semua murid murid disana setuju kegiatan apel capek kegiatan pembelajaran praktek disekolah usah menyusahkan para siswa kegiatan manfaatnya",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Nur Machmudi",
+      "Bintang": 5,
+      "Tanggal": "2024-05-15T04:22:19.286Z",
+      "Ulasan": "nice place",
+      "teks_final": "nice place",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9891
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "WINHARENDRA PRAMA PUTRA",
+      "Bintang": 5,
+      "Tanggal": "2024-05-07T11:21:15.151Z",
+      "Ulasan": "Sekolah para juara....",
+      "teks_final": "sekolah para juara",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9868
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Achmad Royhan",
+      "Bintang": 5,
+      "Tanggal": "2023-05-05T13:30:27.263Z",
+      "Ulasan": "sekolah yang sangat mengedepankan kedisiplinan",
+      "teks_final": "sekolah mengedepankan kedisiplinan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.916
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Klinik Pratama Medika 43",
+  "rating": 4.6,
+  "total_ulasan": 12,
+  "positif": 3,
+  "netral": 3,
+  "negatif": 6,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "joni indrawan",
+      "Bintang": 1,
+      "Tanggal": "2026-02-07T14:28:02.666Z",
+      "Ulasan": "Memang benar yg disampaikan kak diyan. Aneh kenapa BPJS aktif sesuai faskes kok sewaktu ambil obat nyeri dan radang aja disuruh bayar. Kalau bayar terus apa gunanya urus punya BPJS ini??",
+      "teks_final": "memang benar disampaikan kak diyan aneh kenapa bpjs aktif sesuai faskes kok sewaktu ambil obat nyeri radang aja disuruh bayar bayar terus apa gunanya urus punya bpjs",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9854
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Diyan Crutt",
+      "Bintang": 5,
+      "Tanggal": "2025-12-15T11:41:25.983Z",
+      "Ulasan": "Periksa pakai bpjs kenapa ambil obat nya suruh bayar,emang peraturannya gitu yaa",
+      "teks_final": "periksa pakai bpjs kenapa ambil obat suruh bayar emang peraturannya gitu yaa",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6702
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Agus Tina",
+      "Bintang": 5,
+      "Tanggal": "2025-12-02T08:43:46.389Z",
+      "Ulasan": "Dokter dan bagian administrasi yg sangat ramah apalagi dokter nya baik betuuuul",
+      "teks_final": "dokter bagian administrasi ramah apalagi dokter baik betuuuul",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9956
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nur Kodim",
+      "Bintang": 5,
+      "Tanggal": "2025-01-25T11:38:58.787Z",
+      "Ulasan": "Selalu berobat disini..dokter dan pegawainya ramah ramah..baik sopan...terima kasih sudah melayani dg sabar.......",
+      "teks_final": "selalu berobat disini dokter pegawainya ramah ramah baik sopan terima kasih melayani sabar",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9849
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Yuliono Ono",
+      "Bintang": 5,
+      "Tanggal": "2025-01-18T09:37:42.588Z",
+      "Ulasan": "Trimakasih semua pelayanan baik Staf sama dokternya ramah santun santun, biaya sangat terjangkau Poli gigi ok",
+      "teks_final": "trimakasih semua pelayanan baik staf sama dokternya ramah santun santun biaya terjangkau poli gigi oke",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9924
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Febi Adela",
+      "Bintang": 1,
+      "Tanggal": "2025-01-16T12:30:39.738Z",
+      "Ulasan": "Ngasih surat rujukan salah,, jadi harus balik 2kali. Minta tolong agar lebih teliti lagi staf nya. Ini sangat merugikan pasien loo,,",
+      "teks_final": "ngasih surat rujukan salah jadi harus balik 2kali minta tolong agar teliti staf merugikan pasien loo",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Eka Wati",
+      "Bintang": 5,
+      "Tanggal": "2024-07-17T00:50:25.664Z",
+      "Ulasan": "Apakah bisa melayani KB pkai. Bpjs. Bongkar pasang implan",
+      "teks_final": "apakah melayani kb pkai bpjs bongkar pasang implan",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9483
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Adim Susanto",
+      "Bintang": 5,
+      "Tanggal": "2024-05-11T09:37:14.067Z",
+      "Ulasan": "Apa di klinik ini butuh tenaga cleaning service..",
+      "teks_final": "apa klinik butuh tenaga cleaning service",
+      "topik": "Administrasi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9709
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "andhika dwi aristyawan",
+      "Bintang": 5,
+      "Tanggal": "2023-10-17T07:49:02.432Z",
+      "Ulasan": "Pelayanannya angat baik, manajemennya bagus banget, dokter sangat ramah, farmasi sangat berkualitas",
+      "teks_final": "pelayanannya angat baik manajemennya bagus banget dokter ramah farmasi berkualitas",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "yuni eka saraswati p",
+      "Bintang": 5,
+      "Tanggal": "2023-10-12T03:32:14.028Z",
+      "Ulasan": "Pelayanan oke 👍",
+      "teks_final": "pelayanan oke",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Cakra mustika Widya wardany",
+      "Bintang": 5,
+      "Tanggal": "2023-03-07T05:43:23.176Z",
+      "Ulasan": "Pelayanan cepat dan ramah",
+      "teks_final": "pelayanan cepat ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ikko Cahyono",
+      "Bintang": 5,
+      "Tanggal": "2020-08-10T02:40:19.660Z",
+      "Ulasan": "Pindah tempat gaes,  sebelah kiri indomaret Jalan Raya Bambe 125",
+      "teks_final": "pindah tempat gaes sebelah kiri indomaret jalan raya bambe",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9956
+    }
+  ]
+}

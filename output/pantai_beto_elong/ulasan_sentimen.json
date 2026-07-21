@@ -1,0 +1,91 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Beto Elong",
+  "rating": 4.6,
+  "total_ulasan": 7,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 4,
+  "persen_positif": 14.3,
+  "persen_netral": 28.6,
+  "persen_negatif": 57.1,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "dirman fauzi",
+      "Bintang": 5,
+      "Tanggal": "2026-06-23T22:20:29.155Z",
+      "Ulasan": "Beto Elong adalah salah satu tempat wisata pantai yg langsung berhadapan dg Noko Selayar yg berpasir putih dan merupakan tempat pavorit bagi wisatawan yg suka explor laut dan pantai dg aneka jenis terumbu karang yg masih alami",
+      "teks_final": "beto elong salah satu tempat wisata pantai langsung berhadapan noko selayar berpasir putih merupakan tempat pavorit bagi wisatawan suka explor laut pantai aneka jenis terumbu karang alami",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.985
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "ALIMI",
+      "Bintang": 5,
+      "Tanggal": "2023-12-31T11:07:46.064Z",
+      "Ulasan": "Tempat santai untuk kumpul bareng  teman dan saudara",
+      "teks_final": "tempat santai kumpul bareng teman saudara",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9294
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Aziz Sugesty",
+      "Bintang": 5,
+      "Tanggal": "2023-09-29T02:25:54.397Z",
+      "Ulasan": "Orang bawean ramah2 ... like this 👍 Pantai ini sangat rame di hari² besar, Seperti hari maulid, menjelang puasa ramadhan dll",
+      "teks_final": "orang bawean ramah2 like this pantai rame hari besar seperti hari maulid menjelang puasa ramadhan dll",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9854
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Khaza Ina",
+      "Bintang": 1,
+      "Tanggal": "2021-10-21T13:07:04.816Z",
+      "Ulasan": "Seepi gk banyak ceweknya",
+      "teks_final": "seepi banyak ceweknya",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9811
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "BAWEANIS",
+      "Bintang": 5,
+      "Tanggal": "2020-02-10T13:46:30.625Z",
+      "Ulasan": "Beto elong maksudnya? Batu hidung?",
+      "teks_final": "beto elong maksudnya batu hidung",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9964
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Yogi Arief",
+      "Bintang": 5,
+      "Tanggal": "2020-02-05T05:21:24.017Z",
+      "Ulasan": "Anda bisa melakukan penyebrangan melalui pantai ini ke pulau noko selayar",
+      "teks_final": "melakukan penyebrangan melalui pantai pulau noko selayar",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "ISWANTO",
+      "Bintang": 5,
+      "Tanggal": "2019-02-21T15:05:15.329Z",
+      "Ulasan": "This place means Pointed nose beach",
+      "teks_final": "this place means pointed nose beach",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.725
+    }
+  ]
+}

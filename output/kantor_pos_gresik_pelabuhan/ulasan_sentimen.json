@@ -1,0 +1,80 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Pos Gresik Pelabuhan",
+  "rating": 4.2,
+  "total_ulasan": 6,
+  "positif": 0,
+  "netral": 3,
+  "negatif": 3,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Poenk Choee",
+      "Bintang": 5,
+      "Tanggal": "2024-10-13T09:41:51.169Z",
+      "Ulasan": "Pelayanan yang SAT SET👍👍👍",
+      "teks_final": "pelayanan sat set",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9304
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ahmad Fahmi",
+      "Bintang": 5,
+      "Tanggal": "2024-05-13T06:58:20.655Z",
+      "Ulasan": "pelayanannya enak, cepet.. beli prangko dan kirim kirim barang bisa..",
+      "teks_final": "pelayanannya enak cepet beli prangko kirim kirim barang",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9972
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ebith Joenaidi",
+      "Bintang": 5,
+      "Tanggal": "2023-06-26T03:57:09.857Z",
+      "Ulasan": "kantor pos yang masuk cagar budaya, satu lokasi dengan bandar grisse, tapi karena datang saat hari libur, tidak bisa melihat kegiatan di dalamnya, hanya bisa melihat dari luarnya saja",
+      "teks_final": "kantor pos masuk cagar budaya satu lokasi bandar grisse datang hari libur melihat kegiatan dalamnya hanya melihat luarnya saja",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9168
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Hello Yello",
+      "Bintang": 3,
+      "Tanggal": "2020-06-20T07:29:03.788Z",
+      "Ulasan": "Kantor pos bernuansa vintage. Bangunannya asli dari dulu. Tanpa ac udah adem merinding gitu hawanya.  Update: petugas penerima paket yang ibu² lucu banget. Masa paket saya dihitung volume kena 1,02 kg mau dibulatkan jadi 2 kg. Dikira saya ini ga pernah ngirim paket apa ya haha",
+      "teks_final": "kantor pos bernuansa vintage bangunannya asli dulu tanpa ac udah adem merinding gitu hawanya update petugas penerima paket ibu lucu banget masa paket dihitung volume kena kg mau dibulatkan jadi kg dikira pernah ngirim paket apa ya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8581
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "KPJ Bojonegoro",
+      "Bintang": 5,
+      "Tanggal": "2018-02-11T11:50:28.298Z",
+      "Ulasan": "buat kirim surat dan barang barang",
+      "teks_final": "buat kirim surat barang barang",
+      "topik": "Administrasi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Firdha Ayu Atika",
+      "Bintang": 4,
+      "Tanggal": "2018-02-04T10:03:18.391Z",
+      "Ulasan": "Pelayanan cukup memuaskan. Bangunan merupakan salah satu cagar budaya, sehingga berbeda dengan Kantor Pos lainnya.",
+      "teks_final": "pelayanan cukup memuaskan bangunan merupakan salah satu cagar budaya sehingga berbeda kantor pos lainnya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9769
+    }
+  ]
+}

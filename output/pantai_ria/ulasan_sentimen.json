@@ -1,0 +1,102 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Ria",
+  "rating": 4.2,
+  "total_ulasan": 8,
+  "positif": 4,
+  "netral": 0,
+  "negatif": 4,
+  "persen_positif": 50.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Mochamad David Firmansyah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-05T04:01:53.416Z",
+      "Ulasan": "Belajsr mobil disini ena lebar",
+      "teks_final": "belajsr mobil disini ena lebar",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6935
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Aqila Nazwa",
+      "Bintang": 1,
+      "Tanggal": "2026-07-01T16:27:04.993Z",
+      "Ulasan": "Pantai ria itu gak kaya gini tauu",
+      "teks_final": "pantai ria kaya gini tauu",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9822
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Yulia Mudvi",
+      "Bintang": 4,
+      "Tanggal": "2026-03-25T13:28:55.918Z",
+      "Ulasan": "Ngga expect ada tempat liburan kaya gini di Surabaya. Benernya ngga kalah sama jatim park atau hiburan lain diluar kota. Tapi entah kenapa ya kurang ramai pengunjung. Mgkn perlu renovasi sedikit dan marketing yang lebih baik lagi ke depannya.",
+      "teks_final": "expect tempat liburan kaya gini surabaya benernya kalah sama jatim park hiburan lain diluar kota entah kenapa ya kurang ramai pengunjung mgkn perlu renovasi sedikit marketing baik depannya",
+      "topik": "Infrastruktur",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9425
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Fvckdwyn",
+      "Bintang": 1,
+      "Tanggal": "2025-12-15T03:40:02.846Z",
+      "Ulasan": "Sayang sekali sekarang menjadi sepi dan terkesan terbengkalai tidak terawat, tanpa ada terobosan baru dari pihak pengelola untuk menarik wisatawan kembali, padahal disini banyak kenangan masa kecil saya dulu sampai sekarang menginjak kepala 3",
+      "teks_final": "sayang sekarang menjadi sepi terkesan terbengkalai terawat tanpa terobosan pihak pengelola menarik wisatawan kembali padahal disini banyak kenangan masa kecil dulu sampai sekarang menginjak kepala",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9428
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Regas Ardiprisma",
+      "Bintang": 1,
+      "Tanggal": "2025-11-20T09:37:57.597Z",
+      "Ulasan": "Tmbah mangkrakkkk,, justruuu terkesan semrawutt",
+      "teks_final": "tmbah mangkrakkkk justruuu terkesan semrawutt",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9929
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Ayu kristi",
+      "Bintang": 5,
+      "Tanggal": "2025-11-18T16:14:37.882Z",
+      "Ulasan": "Cocok untuk berlibur",
+      "teks_final": "cocok berlibur",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Irvin Dayadi",
+      "Bintang": 3,
+      "Tanggal": "2025-10-16T15:49:17.166Z",
+      "Ulasan": "Sdh agak sepi pengunjung & kurang dikelola maximal mungkin krn minat masyarakat & wisatawan jg menurun.",
+      "teks_final": "agak sepi pengunjung kurang dikelola maximal mungkin minat masyarakat wisatawan menurun",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9791
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Ragas Lubermanto",
+      "Bintang": 5,
+      "Tanggal": "2025-10-01T07:02:01.204Z",
+      "Ulasan": "Tempat wisata, tempat yg tenang dihari biasa untuk mencari udara segar dan menikmati jajanan kuliner Kupang lontong dan es degannya harga terjangkau",
+      "teks_final": "tempat wisata tempat tenang dihari biasa mencari udara segar menikmati jajanan kuliner kupang lontong es degannya harga terjangkau",
+      "topik": "Administrasi",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.998
+    }
+  ]
+}

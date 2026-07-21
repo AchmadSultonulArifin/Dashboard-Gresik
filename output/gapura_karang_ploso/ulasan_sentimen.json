@@ -1,0 +1,47 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Gapura KARANG PLOSO",
+  "rating": 4.5,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Zulfika Zainudah",
+      "Bintang": 5,
+      "Tanggal": "2024-09-08T13:30:39.904Z",
+      "Ulasan": "Terlihat jelas",
+      "teks_final": "terlihat jelas",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7115
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Irham Rajin Kemanamana",
+      "Bintang": 5,
+      "Tanggal": "2022-06-09T11:41:04.118Z",
+      "Ulasan": "Gapuronya kokoh",
+      "teks_final": "gapuronya kokoh",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "muklas hadi",
+      "Bintang": 4,
+      "Tanggal": "2020-08-30T11:23:44.220Z",
+      "Ulasan": "bisa buat tempat cod",
+      "teks_final": "buat tempat cod",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9063
+    }
+  ]
+}

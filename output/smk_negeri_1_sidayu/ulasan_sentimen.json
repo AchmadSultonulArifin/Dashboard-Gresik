@@ -1,0 +1,69 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "SMK Negeri 1 Sidayu",
+  "rating": 4.4,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 2,
+  "persen_positif": 20.0,
+  "persen_netral": 40.0,
+  "persen_negatif": 40.0,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "AHMAD AMILIN",
+      "Bintang": 5,
+      "Tanggal": "2024-03-07T07:29:56.808Z",
+      "Ulasan": "Apa kah di SMK ini ada jurusan mesin ya tolong di jawab",
+      "teks_final": "apa smk jurusan mesin ya tolong jawab",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9386
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Aan Kurniawan",
+      "Bintang": 5,
+      "Tanggal": "2023-07-27T02:12:57.368Z",
+      "Ulasan": "Super",
+      "teks_final": "super",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Feri Anasrullah",
+      "Bintang": 5,
+      "Tanggal": "2023-04-15T03:12:20.532Z",
+      "Ulasan": "Tidak bisa diulang dan tidak dapat terlupakan",
+      "teks_final": "diulang terlupakan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Mas Foe'ad",
+      "Bintang": 5,
+      "Tanggal": "2022-10-21T00:31:25.727Z",
+      "Ulasan": "Alumni 2008 hadir... ☝️",
+      "teks_final": "alumni hadir",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9296
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Tiyah Joyo",
+      "Bintang": 5,
+      "Tanggal": "2021-12-20T07:58:00.622Z",
+      "Ulasan": "SMKN Sidayu maju terus",
+      "teks_final": "smkn sidayu maju terus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6708
+    }
+  ]
+}

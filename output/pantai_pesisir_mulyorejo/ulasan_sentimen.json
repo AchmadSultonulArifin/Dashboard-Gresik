@@ -1,0 +1,113 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Pesisir Mulyorejo",
+  "rating": 3.9,
+  "total_ulasan": 9,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 8,
+  "persen_positif": 11.1,
+  "persen_netral": 0.0,
+  "persen_negatif": 88.9,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Maskur Hanif",
+      "Bintang": 3,
+      "Tanggal": "2020-11-12T06:17:54.545Z",
+      "Ulasan": "Bagus dulunya tapi kenapa direklamasi",
+      "teks_final": "bagus dulunya kenapa direklamasi",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9696
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "jauharul habibi",
+      "Bintang": 4,
+      "Tanggal": "2019-12-30T03:56:47.154Z",
+      "Ulasan": "Salah satu pantai dengan kebersihannya yang dijaga",
+      "teks_final": "salah satu pantai kebersihannya dijaga",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9923
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Rifqi Abdillah",
+      "Bintang": 4,
+      "Tanggal": "2019-12-04T06:10:59.742Z",
+      "Ulasan": "Bagus untuk bersantai",
+      "teks_final": "bagus bersantai",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "hendi bird",
+      "Bintang": 4,
+      "Tanggal": "2019-01-23T08:43:13.487Z",
+      "Ulasan": "Bagus buat nenangin pikiran",
+      "teks_final": "bagus buat nenangin pikiran",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "MOHAMMAD SHOLIK",
+      "Bintang": 5,
+      "Tanggal": "2018-12-27T01:02:38.828Z",
+      "Ulasan": "Pantai dalegan namanya, terletak di desa Dalegan Kecamatan Panceng Kabupaten Gresik. Nama lainnya adalah WISID (Wisata Segoro Indah)",
+      "teks_final": "pantai dalegan namanya terletak desa dalegan kecamatan panceng kabupaten gresik nama lainnya wisid wisata segoro indah",
+      "topik": "Keamanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9129
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Ribut Channel",
+      "Bintang": 3,
+      "Tanggal": "2018-12-10T22:55:41.120Z",
+      "Ulasan": "Biasa",
+      "teks_final": "biasa",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9648
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Eri Purwanto",
+      "Bintang": 5,
+      "Tanggal": "2018-11-08T09:51:02.281Z",
+      "Ulasan": "Sejuk",
+      "teks_final": "sejuk",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Ning chaching",
+      "Bintang": 3,
+      "Tanggal": "2018-11-07T03:31:27.457Z",
+      "Ulasan": "Nggon ngopi",
+      "teks_final": "nggon ngopi",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.5106
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Samawi Samawi",
+      "Bintang": 4,
+      "Tanggal": "2018-11-07T02:18:39.092Z",
+      "Ulasan": "Sangat sejuk dan nyaman pemadaangannya",
+      "teks_final": "sejuk nyaman pemadaangannya",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9971
+    }
+  ]
+}

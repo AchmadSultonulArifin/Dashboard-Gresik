@@ -1,0 +1,91 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Bank Bri Kcp Unit Menganti",
+  "rating": 3.8,
+  "total_ulasan": 7,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 5,
+  "persen_positif": 28.6,
+  "persen_netral": 0.0,
+  "persen_negatif": 71.4,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Lusiana Fransiska",
+      "Bintang": 5,
+      "Tanggal": "2022-08-16T02:26:58.133Z",
+      "Ulasan": "Pelayanan baik dan ramah",
+      "teks_final": "pelayanan baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Tnpa Nama",
+      "Bintang": 5,
+      "Tanggal": "2022-03-14T12:54:18.803Z",
+      "Ulasan": "satpam,cs dan petugas lainya sangat ramah apalagi satpamnya sigap sekali",
+      "teks_final": "satpam cs petugas lainya ramah apalagi satpamnya sigap",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9944
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Jirolu tv",
+      "Bintang": 1,
+      "Tanggal": "2022-03-02T04:52:29.494Z",
+      "Ulasan": "Pelayanan cs nya gak nyaman sekali Buruk sekali pelayanannya",
+      "teks_final": "pelayanan cs nyaman buruk pelayanannya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "putri ida",
+      "Bintang": 4,
+      "Tanggal": "2022-01-12T03:03:21.689Z",
+      "Ulasan": "Jempol buat pak security,selalu respek pada nasabah,dan taat prokes untuk cs terkesan lambat menangani atau memang sudah prosedur?",
+      "teks_final": "jempol buat pak security selalu respek nasabah taat prokes cs terkesan lambat menangani memang prosedur",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9722
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "kusnadi Arsyila",
+      "Bintang": 1,
+      "Tanggal": "2021-11-22T11:26:42.686Z",
+      "Ulasan": "Sudah 3hari atm setor tunai rusak belum di perbaiki",
+      "teks_final": "3hari atm setor tunai rusak perbaiki",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8303
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "denny sugiarto",
+      "Bintang": 5,
+      "Tanggal": "2021-08-20T06:00:26.837Z",
+      "Ulasan": "Cs, teller, dan satpam nya ramah dan sigap dalam pelayanan nya... The best lah",
+      "teks_final": "cs teller satpam ramah sigap pelayanan the best",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9932
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Channel Inspirasi Bersama",
+      "Bintang": 5,
+      "Tanggal": "2021-04-12T07:16:42.007Z",
+      "Ulasan": "Selalu ramai nasabah Tetapi salut dengan satpam nya meskipun ramai tetap konsisten menjaga protokol kesehatan Tetap membatasi nasabah yang ada di dalam ruangan Dan jika melihat ada kerumunan di depan teller, satpam sigap mengingatkan Ini penting mengingat masa sekarang masih pandemi Costumer servis dan teller nya juga ramah dan bersahabat Lahan parkir meskipun sudah luas tetap selalu penuh",
+      "teks_final": "selalu ramai nasabah salut satpam meskipun ramai tetap konsisten menjaga protokol kesehatan tetap membatasi nasabah ruangan melihat kerumunan depan teller satpam sigap mengingatkan penting mengingat masa sekarang pandemi costumer servis teller ramah bersahabat lahan parkir meskipun luas tetap selalu penuh",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9848
+    }
+  ]
+}

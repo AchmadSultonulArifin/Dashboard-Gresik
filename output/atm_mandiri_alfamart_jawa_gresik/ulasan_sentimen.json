@@ -1,0 +1,113 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM Mandiri Alfamart Jawa Gresik",
+  "rating": 4,
+  "total_ulasan": 9,
+  "positif": 0,
+  "netral": 4,
+  "negatif": 5,
+  "persen_positif": 0.0,
+  "persen_netral": 44.4,
+  "persen_negatif": 55.6,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "M Candra",
+      "Bintang": 5,
+      "Tanggal": "2026-02-02T08:26:38.830Z",
+      "Ulasan": "Recomended, personil nya ramah-ramah, Harganya lebih murah, bisa pesen gratis ongkir juga, mantap pokoknya 👍",
+      "teks_final": "recomended personil ramah ramah harganya murah pesen gratis ongkir bagus pokoknya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.998
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Candra Kirono",
+      "Bintang": 5,
+      "Tanggal": "2026-02-02T08:25:12.956Z",
+      "Ulasan": "Bagus pelayanan nya, recomended 👍",
+      "teks_final": "bagus pelayanan recomended",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Kris T",
+      "Bintang": 3,
+      "Tanggal": "2025-10-21T11:44:14.079Z",
+      "Ulasan": "Ini ngambil uang di ATM sini diminta uang parkir kah?",
+      "teks_final": "ngambil uang atm sini diminta uang parkir",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9602
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Trendy",
+      "Bintang": 3,
+      "Tanggal": "2018-04-22T19:43:18.386Z",
+      "Ulasan": "There's 3 Mandiri's ATM here",
+      "teks_final": "there mandiri atm here",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9721
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2018-02-27T12:41:22.355Z",
+      "Ulasan": "Tarikan tunai atm mandiri di alfamart.",
+      "teks_final": "tarikan tunai atm mandiri alfamart",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Erfan Firozi",
+      "Bintang": 4,
+      "Tanggal": "2018-02-27T06:58:56.606Z",
+      "Ulasan": "Memudahkan top up e-toll",
+      "teks_final": "memudahkan top up toll",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6335
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nashruddin",
+      "Bintang": 5,
+      "Tanggal": "2017-08-23T11:09:58.509Z",
+      "Ulasan": "buka 24jam.",
+      "teks_final": "buka 24jam",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5749
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Siti Rahma S.",
+      "Bintang": 3,
+      "Tanggal": "2017-02-11T03:30:44.290Z",
+      "Ulasan": "Nice",
+      "teks_final": "nice",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9923
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Danil Sukses",
+      "Bintang": 3,
+      "Tanggal": "2016-11-29T06:30:20.330Z",
+      "Ulasan": "Lokasi dekat alfa",
+      "teks_final": "lokasi dekat alfa",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9077
+    }
+  ]
+}

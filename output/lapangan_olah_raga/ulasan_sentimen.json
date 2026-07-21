@@ -1,0 +1,80 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Lapangan Olah Raga",
+  "rating": 4.4,
+  "total_ulasan": 6,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 5,
+  "persen_positif": 0.0,
+  "persen_netral": 16.7,
+  "persen_negatif": 83.3,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Laras Mukty",
+      "Bintang": 3,
+      "Tanggal": "2021-11-19T13:38:48.497Z",
+      "Ulasan": "pppppp",
+      "teks_final": "pppppp",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7669
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ali Sodikin",
+      "Bintang": 4,
+      "Tanggal": "2019-09-14T03:43:20.217Z",
+      "Ulasan": "Tempat sehat untuk cari kringat",
+      "teks_final": "tempat sehat cari kringat",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9834
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Cowo Baex",
+      "Bintang": 5,
+      "Tanggal": "2019-06-30T16:24:05.582Z",
+      "Ulasan": "Semoga bermanfaat",
+      "teks_final": "semoga bermanfaat",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8285
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Marcel Arga Putra",
+      "Bintang": 5,
+      "Tanggal": "2018-05-07T06:12:51.746Z",
+      "Ulasan": "Sipp",
+      "teks_final": "sipp",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9838
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Fauzi N Saputra",
+      "Bintang": 3,
+      "Tanggal": "2018-02-13T02:16:47.004Z",
+      "Ulasan": "Lapangan yg indah",
+      "teks_final": "lapangan indah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9931
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Atiek Rachmawati",
+      "Bintang": 4,
+      "Tanggal": "2016-08-25T05:35:15.749Z",
+      "Ulasan": "lapangan voly",
+      "teks_final": "lapangan voly",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7111
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "SMK Hasan Jufri",
+  "rating": 5,
+  "total_ulasan": 4,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 0.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 75.0,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Rahmawati",
+      "Bintang": 5,
+      "Tanggal": "2023-08-24T02:14:47.301Z",
+      "Ulasan": "Bangga jadi Alumni di SMK Hasan Jufri",
+      "teks_final": "bangga jadi alumni smk hasan jufri",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9877
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Abdul Pakem",
+      "Bintang": 5,
+      "Tanggal": "2022-11-10T03:30:13.956Z",
+      "Ulasan": "Sukses terus",
+      "teks_final": "sukses terus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9898
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Maula thomas Muhamad",
+      "Bintang": 5,
+      "Tanggal": "2022-06-13T07:46:13.002Z",
+      "Ulasan": "keren sekolah hasan jufri",
+      "teks_final": "bagus sekolah hasan jufri",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9893
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "AIDIL FAIZ",
+      "Bintang": 5,
+      "Tanggal": "2018-02-05T15:35:38.654Z",
+      "Ulasan": "Sekolah Menengah Kejuruan Hasan Jufri jurusan Akuntansi dan Nautila Kapal Penangkap Ikan.",
+      "teks_final": "sekolah menengah kejuruan hasan jufri jurusan akuntansi nautila kapal penangkap ikan",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9963
+    }
+  ]
+}

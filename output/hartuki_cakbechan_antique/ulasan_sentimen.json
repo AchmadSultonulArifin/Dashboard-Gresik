@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Hartuki / Cakbechan Antique",
+  "rating": 3.8,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 50.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "sidamta Succes",
+      "Bintang": 5,
+      "Tanggal": "2023-04-25T05:24:46.696Z",
+      "Ulasan": "Pemulihan",
+      "teks_final": "pemulihan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5561
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "hariono sekaran",
+      "Bintang": 3,
+      "Tanggal": "2020-05-16T10:17:37.294Z",
+      "Ulasan": "Menjual barang antik",
+      "teks_final": "menjual barang antik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9131
+    }
+  ]
+}

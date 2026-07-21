@@ -1,0 +1,201 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Klinik RS Semen Gresik Veteran",
+  "rating": 4.8,
+  "total_ulasan": 17,
+  "positif": 3,
+  "netral": 3,
+  "negatif": 11,
+  "persen_positif": 17.6,
+  "persen_netral": 17.6,
+  "persen_negatif": 64.7,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "ahmad artha (Artha)",
+      "Bintang": 5,
+      "Tanggal": "2026-07-13T08:30:12.883Z",
+      "Ulasan": "Pelayanan ramah.. Terima kasih",
+      "teks_final": "pelayanan ramah terima kasih",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9881
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Abd Roqib",
+      "Bintang": 5,
+      "Tanggal": "2026-06-20T03:25:01.299Z",
+      "Ulasan": "Izin tsnya . Di kelinik ini apakah bisa menerima ibu hamil dn mau lahiran di kelinik ini.   Pakek BPJS",
+      "teks_final": "izin tsnya kelinik apakah menerima ibu hamil dn mau lahiran kelinik pakek bpjs",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9839
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "zanuba arofa",
+      "Bintang": 5,
+      "Tanggal": "2026-06-12T13:51:04.811Z",
+      "Ulasan": "Pelayanan terbaik, petugas ramah",
+      "teks_final": "pelayanan terbaik petugas ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9953
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Suwoto Suwoto",
+      "Bintang": 1,
+      "Tanggal": "2026-06-04T10:35:21.427Z",
+      "Ulasan": "Waktu tunggu lama dari datang - dokter - sampai  menerima obat...",
+      "teks_final": "waktu tunggu lama datang dokter sampai menerima obat",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5112
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Muhammad Gathan athallah",
+      "Bintang": 5,
+      "Tanggal": "2026-05-28T08:55:55.566Z",
+      "Ulasan": "Pelayanan bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Dyah Wahyuni",
+      "Bintang": 5,
+      "Tanggal": "2026-05-28T08:27:07.887Z",
+      "Ulasan": "Pelayananyaa baik",
+      "teks_final": "pelayananyaa baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9953
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Anggita Maharani",
+      "Bintang": 5,
+      "Tanggal": "2026-05-28T08:18:33.752Z",
+      "Ulasan": "dokter dan petugass sangat ramah, pelayanan baik, hati” dan cepatt satset",
+      "teks_final": "dokter petugass ramah pelayanan baik hati cepatt satset",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9803
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Tanti Suyono",
+      "Bintang": 5,
+      "Tanggal": "2026-05-18T01:26:45.436Z",
+      "Ulasan": "Pelayanannya baik",
+      "teks_final": "pelayanannya baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sugeng Mansyur",
+      "Bintang": 5,
+      "Tanggal": "2026-05-11T01:43:04.169Z",
+      "Ulasan": "Pelayanan baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "mazh wardani",
+      "Bintang": 5,
+      "Tanggal": "2026-05-08T05:51:09.047Z",
+      "Ulasan": "Pelayanan sat set wat wet",
+      "teks_final": "pelayanan sat set wat wet",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9782
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "farza yumna",
+      "Bintang": 1,
+      "Tanggal": "2026-04-30T21:42:42.516Z",
+      "Ulasan": "Kecewa dari anak pertama kesini bahkan minta rujukan ke klinik semen ini  Terakhir kmrn sy kesana anak sy posisi sakit pelayananny lama sekali  anak sy kedua sampe menggigil sama dokterny sampe d kasih obat panas leeat dubur ,kita nunggu ada 3 jam an  ( kalo sampe ankku kejang kmrn ntah apa yg terjadi )  sejak d renovasi  Tdk seperti yg dl ,better dl deh gak d renovasi pelayanan sat set  Org sakit g butuh klinik bagus tapi butuh pelayanan yg bagus",
+      "teks_final": "kecewa anak pertama kesini bahkan minta rujukan klinik semen terakhir kmrn kesana anak posisi sakit pelayananny lama anak kedua sampe menggigil sama dokterny sampe kasih obat panas leeat dubur nunggu jam an kalo sampe ankku kejang kmrn ntah apa terjadi sejak renovasi seperti dl better dl renovasi pelayanan sat set org sakit butuh klinik bagus butuh pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "wadjah inovasi",
+      "Bintang": 5,
+      "Tanggal": "2026-04-22T10:20:06.479Z",
+      "Ulasan": "Pelayanan offline sangat cekatan, dan oke, Pelayanan online melalui WhatsApp juga fastresp san dan membantu, semoga terus ditingkatkan, mantabb",
+      "teks_final": "pelayanan offline cekatan oke pelayanan online melalui whatsapp fastresp san membantu semoga terus ditingkatkan mantabb",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9759
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sheila jodoh jaehyun",
+      "Bintang": 3,
+      "Tanggal": "2026-04-22T02:16:28.057Z",
+      "Ulasan": "tolong perbaiki lagi ya ka tentang nomor antrean, dan kaka' resepsionis/pendaftaran bs lebih ramah lagi ya, sukses selalu",
+      "teks_final": "tolong perbaiki ya ka tentang nomor antrean kaka resepsionis pendaftaran bs ramah ya sukses selalu",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9492
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Jhossy Agus Prasetyo",
+      "Bintang": 5,
+      "Tanggal": "2026-04-21T07:04:04.926Z",
+      "Ulasan": "Pelayanan memuaskan sekali",
+      "teks_final": "pelayanan memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sri Djiwanti",
+      "Bintang": 5,
+      "Tanggal": "2026-04-15T02:06:31.175Z",
+      "Ulasan": "Pelayanan baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nur Rofiq",
+      "Bintang": 5,
+      "Tanggal": "2026-04-09T02:24:05.371Z",
+      "Ulasan": "Pelayanan ramah",
+      "teks_final": "pelayanan ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "farid Pornomo",
+      "Bintang": 3,
+      "Tanggal": "2026-04-06T23:16:41.734Z",
+      "Ulasan": "Kecewa dgn pelayanan nya sekarang, biasanya antrian nya sesuai dgn nomor antrian di jkn tapi sekarang antrian nya sesuai dgn kedatangan, kalau seperti itu untuk apa kita ambil nomor antrian lewat m-jkn jika ujung\"nya antrian nya sesuai kedatangan",
+      "teks_final": "kecewa pelayanan sekarang biasanya antrian sesuai nomor antrian jkn sekarang antrian sesuai kedatangan seperti apa ambil nomor antrian lewat jkn ujung antrian sesuai kedatangan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    }
+  ]
+}

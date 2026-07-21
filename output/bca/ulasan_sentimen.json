@@ -1,0 +1,25 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "BCA",
+  "rating": 3.7,
+  "total_ulasan": 1,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Sopian Sastra",
+      "Bintang": 1,
+      "Tanggal": "2016-09-17T13:12:58.922Z",
+      "Ulasan": "Bagus",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    }
+  ]
+}

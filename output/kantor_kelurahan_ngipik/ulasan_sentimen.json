@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Ngipik",
+  "rating": 4.7,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nanik Rahayuni Fatmawati",
+      "Bintang": 3,
+      "Tanggal": "2020-06-17T13:18:31.778Z",
+      "Ulasan": "Kantor kelurahan",
+      "teks_final": "kantor kelurahan",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9758
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "eko purwanto",
+      "Bintang": 5,
+      "Tanggal": "2019-04-17T06:22:59.523Z",
+      "Ulasan": "penuh dengan kenangan",
+      "teks_final": "penuh kenangan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T03:03:49.207Z",
+      "Ulasan": "Kantor Kelurahan Ngipik.",
+      "teks_final": "kantor kelurahan ngipik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9915
+    }
+  ]
+}

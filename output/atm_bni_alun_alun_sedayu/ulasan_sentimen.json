@@ -1,0 +1,47 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM BNI ALUN ALUN SEDAYU",
+  "rating": 4.8,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 33.3,
+  "persen_netral": 66.7,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "aboen n",
+      "Bintang": 5,
+      "Tanggal": "2019-11-02T07:25:13.596Z",
+      "Ulasan": "ssttt. penarikan 100 ribuan.",
+      "teks_final": "ssttt penarikan ribuan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9066
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Muhammad Sholihin",
+      "Bintang": 5,
+      "Tanggal": "2018-02-14T05:02:39.770Z",
+      "Ulasan": "Samping indomaret, buka 24 jam..",
+      "teks_final": "samping indomaret buka jam",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Naila Dzanifa",
+      "Bintang": 4,
+      "Tanggal": "2017-10-27T10:47:23.991Z",
+      "Ulasan": "Buka 24 jam dekat indomaret jg dpt terlihat dr jalan raya",
+      "teks_final": "buka jam dekat indomaret dpt terlihat jalan raya",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9824
+    }
+  ]
+}

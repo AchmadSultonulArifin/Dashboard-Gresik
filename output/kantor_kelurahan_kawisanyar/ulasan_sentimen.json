@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Kawisanyar",
+  "rating": 4.5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "F D",
+      "Bintang": 4,
+      "Tanggal": "2017-08-31T08:51:57.605Z",
+      "Ulasan": "Pelayanannya semakin ramah.",
+      "teks_final": "pelayanannya semakin ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T02:58:34.761Z",
+      "Ulasan": "Kantor Kelurahan Kawisanyar.",
+      "teks_final": "kantor kelurahan kawisanyar",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.996
+    }
+  ]
+}

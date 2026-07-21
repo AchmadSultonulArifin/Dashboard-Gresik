@@ -1,0 +1,47 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Gapura KEDUNG SAMBI",
+  "rating": 3.9,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 33.3,
+  "persen_negatif": 66.7,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ali Mafut",
+      "Bintang": 5,
+      "Tanggal": "2024-07-30T16:49:39.107Z",
+      "Ulasan": "Gapuro perlu dilakukan pencerahan untuk menyambut HUT RI ke 2024",
+      "teks_final": "gapuro perlu dilakukan pencerahan menyambut hut ri",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Umama Amma",
+      "Bintang": 5,
+      "Tanggal": "2022-06-01T04:25:39.441Z",
+      "Ulasan": "Kampung berjuta cerita 🥰 ,  sippp pokoknya",
+      "teks_final": "kampung berjuta cerita sippp pokoknya",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rudi Rudi",
+      "Bintang": 5,
+      "Tanggal": "2021-11-13T13:53:15.606Z",
+      "Ulasan": "Sangat baiklah",
+      "teks_final": "baiklah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7296
+    }
+  ]
+}

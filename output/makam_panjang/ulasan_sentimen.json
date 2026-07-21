@@ -1,0 +1,91 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Makam Panjang",
+  "rating": 4.8,
+  "total_ulasan": 7,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 5,
+  "persen_positif": 0.0,
+  "persen_netral": 28.6,
+  "persen_negatif": 71.4,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Muhammad Yusuf",
+      "Bintang": 5,
+      "Tanggal": "2025-09-10T10:21:04.666Z",
+      "Ulasan": "sangt perfect",
+      "teks_final": "sangt perfect",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8877
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Widodo S",
+      "Bintang": 5,
+      "Tanggal": "2025-08-06T01:58:41.566Z",
+      "Ulasan": "Pemandangan bagus, pantai pandai ombak tenang , banyak jualan jajan n kopi, suasana tenang",
+      "teks_final": "pemandangan bagus pantai pandai ombak tenang banyak jualan jajan kopi suasana tenang",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Citra Purna Rafa utama",
+      "Bintang": 5,
+      "Tanggal": "2025-07-02T05:07:27.861Z",
+      "Ulasan": "bagus bgt tempatnya, cuma kurang tempat² yg indah buat foto²",
+      "teks_final": "bagus banget tempatnya cuma kurang tempat indah buat foto",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9966
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Reven Syah Putra",
+      "Bintang": 5,
+      "Tanggal": "2025-04-09T22:52:10.048Z",
+      "Ulasan": "wisata sdh sangat tertata dan terkelola..",
+      "teks_final": "wisata tertata terkelola",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9886
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Khairatun Nahisa",
+      "Bintang": 5,
+      "Tanggal": "2024-08-20T05:44:34.138Z",
+      "Ulasan": "Langsung terhubung dengan pantai nya",
+      "teks_final": "langsung terhubung pantai",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.674
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Adi Al Banna",
+      "Bintang": 5,
+      "Tanggal": "2024-06-04T07:17:01.641Z",
+      "Ulasan": "Wisata religi",
+      "teks_final": "wisata religi",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9891
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Bu Masita",
+      "Bintang": 5,
+      "Tanggal": "2023-09-27T13:31:13.337Z",
+      "Ulasan": "Tidak ada kamar mandi",
+      "teks_final": "kamar mandi",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9481
+    }
+  ]
+}

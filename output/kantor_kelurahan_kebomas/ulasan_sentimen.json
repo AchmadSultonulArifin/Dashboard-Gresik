@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Kebomas",
+  "rating": 4.2,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "andri suwarsono",
+      "Bintang": 1,
+      "Tanggal": "2018-03-12T05:13:04.691Z",
+      "Ulasan": "mudah2n di beri limpahan rejeki yang tidak bermanfaat.amin",
+      "teks_final": "mudah2n beri limpahan rejeki bermanfaat amin",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9725
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T03:16:36.883Z",
+      "Ulasan": "Kantor Kelurahan Kebomas.",
+      "teks_final": "kantor kelurahan kebomas",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9952
+    }
+  ]
+}

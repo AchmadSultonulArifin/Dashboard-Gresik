@@ -1,0 +1,69 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Pos Ujungpangkah",
+  "rating": 4.1,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 20.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 60.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Suwaji Wibowo",
+      "Bintang": 5,
+      "Tanggal": "2023-05-16T10:59:58.157Z",
+      "Ulasan": "Yg mau kirim paket,uang dsb Monggo disini tempatnya",
+      "teks_final": "mau kirim paket uang dsb monggo disini tempatnya",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9834
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Aisyah Rahmah Nabila",
+      "Bintang": 4,
+      "Tanggal": "2023-04-12T10:37:27.549Z",
+      "Ulasan": "pertama kali kirim barang lewat kantor pos, bagus sih prosesnya juga cepat, tapi ada kesalahan ngetik nama penerima nya, maklum ya mungkin mas nya ga fokus karna masih puasa, tapi selebihnya oke sih 😭👍👍",
+      "teks_final": "pertama kali kirim barang lewat kantor pos bagus prosesnya cepat kesalahan ngetik nama penerima maklum ya mungkin mas fokus karna puasa selebihnya oke",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.4524
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Slivver Hand",
+      "Bintang": 1,
+      "Tanggal": "2022-12-14T08:02:34.659Z",
+      "Ulasan": "Hati hati sama yang jaga. Sedang puber kedua. Lebih baik tidak memberikan nomer handphone dan kalaupun terpaksa tahu. Jangan di respon atau block saja!",
+      "teks_final": "hati hati sama jaga sedang puber kedua baik memberikan nomer handphone kalaupun terpaksa tahu jangan respon block saja",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9567
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ahmad Faikul Anam",
+      "Bintang": 5,
+      "Tanggal": "2022-06-27T09:11:53.392Z",
+      "Ulasan": "Keren",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nurul Azhar",
+      "Bintang": 5,
+      "Tanggal": "2021-12-30T13:45:36.975Z",
+      "Ulasan": "Kampung ku oh kampung ku",
+      "teks_final": "kampung ku oh kampung ku",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6927
+    }
+  ]
+}

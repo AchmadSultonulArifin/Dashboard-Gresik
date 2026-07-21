@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "kantor Kelurahan Singosari",
+  "rating": 4.6,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 33.3,
+  "persen_negatif": 66.7,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "ADSn Ksma",
+      "Bintang": 5,
+      "Tanggal": "2026-04-09T02:55:26.047Z",
+      "Ulasan": "Pelayanan baik banget Mbak pelayanannya ramah banget udah cantik baik ramah jujur juga, perfect banget Semoga rejeki mbak nya lancar karir nya naik, tolong pihak yg terkait mbaknya kasi privilege dong, org dengan kejujuran dan integritas harus di junjung tinggi",
+      "teks_final": "pelayanan baik banget mbak pelayanannya ramah banget udah cantik baik ramah jujur perfect banget semoga rejeki mbak lancar karir naik tolong pihak terkait mbaknya kasi privilege org kejujuran integritas harus junjung tinggi",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9815
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Alfadli Islami",
+      "Bintang": 5,
+      "Tanggal": "2023-07-05T06:09:33.097Z",
+      "Ulasan": "See you next timee Do not forget me..",
+      "teks_final": "see you next timee do not forget me",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9032
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Hadijah Muslim Kids",
+      "Bintang": 5,
+      "Tanggal": "2021-09-13T05:09:55.706Z",
+      "Ulasan": "Dua kali ikut vaksin covid 19 di tempat ini. Tempatnya luas bagus dan juga petugasnya ramah ramah.",
+      "teks_final": "dua kali ikut vaksin covid tempat tempatnya luas bagus petugasnya ramah ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9947
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "DISKOPERINDAG Kabupaten Gresik",
+  "rating": 3,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rafi Firmansyah",
+      "Bintang": 5,
+      "Tanggal": "2026-06-04T03:44:46.207Z",
+      "Ulasan": "pelayanan cepat",
+      "teks_final": "pelayanan cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9954
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "MAP Surabaya",
+      "Bintang": 1,
+      "Tanggal": "2021-01-22T06:45:50.933Z",
+      "Ulasan": "bagaimana cara menghubunginya........... telphone ga ada yang angkat.....",
+      "teks_final": "bagaimana cara menghubunginya telphone angkat",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9847
+    }
+  ]
+}

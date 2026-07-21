@@ -1,0 +1,69 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Trisakti Ketanen Soccerfield",
+  "rating": 5,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 4,
+  "persen_positif": 20.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 80.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "khoirul nasir",
+      "Bintang": 5,
+      "Tanggal": "2026-05-25T08:01:22.446Z",
+      "Ulasan": "Tidak mengecewakan",
+      "teks_final": "mengecewakan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9978
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ciwo Maulana",
+      "Bintang": 5,
+      "Tanggal": "2026-05-25T07:53:40.077Z",
+      "Ulasan": "Mantap saya pernah main bola di sana... Lapangan sangat nyaman di gunakan, rumput sangat merata.  Sedikit saran mungkin bisa di kasih jaring di bagian barat lapangan agar tendangan bola yg melenceng tidak sampai ke jalan raya.  Over all - good Lapangan Trisakti Ketanen the best.",
+      "teks_final": "bagus pernah main bola sana lapangan nyaman gunakan rumput merata sedikit saran mungkin kasih jaring bagian barat lapangan agar tendangan bola melenceng sampai jalan raya over all good lapangan trisakti ketanen the best",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9909
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Alan M3H",
+      "Bintang": 5,
+      "Tanggal": "2026-05-19T11:07:22.089Z",
+      "Ulasan": "Paket komplit...!!!",
+      "teks_final": "paket komplit",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rohmat Syahri",
+      "Bintang": 5,
+      "Tanggal": "2026-05-19T10:49:35.784Z",
+      "Ulasan": "Lapangan sangat bagus dan berkualitas, rumput juga sangat bagus di rawat, mantaap kak 🥰",
+      "teks_final": "lapangan bagus berkualitas rumput bagus rawat mantaap kak",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9958
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Eris Joni",
+      "Bintang": 5,
+      "Tanggal": "2026-05-19T09:01:53.986Z",
+      "Ulasan": "Rumputnya bagus serasa main di Camp Nou 😁",
+      "teks_final": "rumputnya bagus serasa main camp nou",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Randuagung",
+  "rating": 4.4,
+  "total_ulasan": 5,
+  "positif": 0,
+  "netral": 3,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 60.0,
+  "persen_negatif": 40.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nando AS",
+      "Bintang": 3,
+      "Tanggal": "2021-09-06T05:26:44.939Z",
+      "Ulasan": "Bagus",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "lily mooi",
+      "Bintang": 4,
+      "Tanggal": "2019-12-08T14:41:57.828Z",
+      "Ulasan": "Pelayanan baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Purwati Welas",
+      "Bintang": 5,
+      "Tanggal": "2018-05-22T03:43:55.940Z",
+      "Ulasan": "Mengurus surat keterangan domisili mudah dan cepat. Sehari jadi.",
+      "teks_final": "mengurus surat keterangan domisili mudah cepat sehari jadi",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7974
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Humada Alfian (Ardiansyah)",
+      "Bintang": 5,
+      "Tanggal": "2017-12-02T13:25:48.352Z",
+      "Ulasan": "Head office of Randuagung, the service need to be improved, faster pls",
+      "teks_final": "head office of randuagung the service need to be improved faster pls",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9756
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nuhan Herling",
+      "Bintang": 5,
+      "Tanggal": "2017-03-29T05:08:16.452Z",
+      "Ulasan": "Kantor kepala desa randuagung",
+      "teks_final": "kantor kepala desa randuagung",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9973
+    }
+  ]
+}

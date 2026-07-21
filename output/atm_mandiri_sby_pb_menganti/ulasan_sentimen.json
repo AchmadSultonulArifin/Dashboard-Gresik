@@ -1,0 +1,58 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM Mandiri SBY PB MENGANTI",
+  "rating": 3.3,
+  "total_ulasan": 4,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 50.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Alva Surya",
+      "Bintang": 5,
+      "Tanggal": "2024-08-08T03:55:38.869Z",
+      "Ulasan": "pelayanannya memuaskan",
+      "teks_final": "pelayanannya memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.997
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Fajar Zakaria",
+      "Bintang": 2,
+      "Tanggal": "2022-08-31T02:29:59.709Z",
+      "Ulasan": "Tukang parkirnya cuman malak",
+      "teks_final": "tukang parkirnya cuman malak",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9954
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Irfan “Ipang”",
+      "Bintang": 2,
+      "Tanggal": "2019-07-15T11:54:11.965Z",
+      "Ulasan": "Sebenarnya ATMnya cukup banyak, ada 3 sehingga jarang antri.  Sayang sekali saya nggak rela untuk bayar parkir ke preman yang ada disitu! Dan lebih pilih ke pom bensin wiyung meski lebih ngantri tapi enggak mangkel.  Pertama, karena itu liar. Kedua, sangat terkesan hanya memalaki karena tidak membantu mengarahkan parkir mobil. Ketiga, ketika saya melewati si gondrong itu karena biarlah dia yang menghampiri ke motor dan bukan duduk nongkrong males gerak (saat itu saya bersepeda motor), dia teriak Parkir Bos! Ya kalo parkirin ya kerja dong mas gak malakin aja. Satpam pun malah berteman dengan dia,bukannya menegur. Mana citra layanan Mandiri yang oke hingga ke para satpamnya, seperti KCP lain?? Kepala Cabang harus bertindak! Sebelum payroll kantor saya beralih ke layanan bank lain!",
+      "teks_final": "sebenarnya atmnya cukup banyak sehingga jarang antrian sayang rela bayar parkir preman disitu pilih pom bensin wiyung meski antrian enggak mangkel pertama liar kedua terkesan hanya memalaki membantu mengarahkan parkir mobil ketiga melewati si gondrong biarlah menghampiri motor bukan duduk nongkrong males gerak bersepeda motor teriak parkir bos ya kalo parkirin ya kerja mas malakin aja satpam malah berteman bukannya menegur mana citra layanan mandiri oke hingga para satpamnya seperti kcp lain kepala cabang harus bertindak payroll kantor beralih layanan bank lain",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9447
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Imam Muarif (Muarif)",
+      "Bintang": 4,
+      "Tanggal": "2019-01-28T07:58:45.823Z",
+      "Ulasan": "Aman",
+      "teks_final": "aman",
+      "topik": "Keamanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    }
+  ]
+}

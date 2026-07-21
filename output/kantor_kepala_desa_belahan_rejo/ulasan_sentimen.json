@@ -1,0 +1,58 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Belahan Rejo",
+  "rating": 4.8,
+  "total_ulasan": 4,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 0.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 75.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Wak Wer",
+      "Bintang": 5,
+      "Tanggal": "2022-04-15T15:36:58.127Z",
+      "Ulasan": "Pemdes Belahanrejo",
+      "teks_final": "pemdes belahanrejo",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9861
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "fendi 12",
+      "Bintang": 5,
+      "Tanggal": "2018-02-03T09:20:11.362Z",
+      "Ulasan": "Adem tempatnya,  ada musholanya juga,  yang sedang perjalanan jauh bisa rehat sejenak",
+      "teks_final": "adem tempatnya musholanya sedang perjalanan jauh rehat sejenak",
+      "topik": "Infrastruktur",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9798
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Margo Utoyo",
+      "Bintang": 5,
+      "Tanggal": "2017-09-03T06:56:11.544Z",
+      "Ulasan": "Lokasi sangat Nyaman Kepala Desanya Sopan dan Baik.. kalau perlu dipilih Seterusnya.",
+      "teks_final": "lokasi nyaman kepala desanya sopan baik perlu dipilih seterusnya",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9219
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Tirta Watik",
+      "Bintang": 5,
+      "Tanggal": "2016-10-03T13:22:09.465Z",
+      "Ulasan": "Desa belahan rejo,desa yg sangat berpengaruh bagi saya,warganya ramah,kehidupan sosialnya bersahaja,nilai harga tanahnya makin lama makin melonjak naik,karena masterplenya,masuk dalam pembebasan lahan untuk jalan tol gersik mojokerto hampir 20 km.jadi bagi investor pengembang ,deflover,yg berminat nanam modal beli tanah jangan ragu di belikan di desa belahan rejo,tapi ingat bagi pt,pd,ataupun cv,yg sudah mempunyai tanah di desa belahan rejo ,jangan lupa berkopenten dalam kemajuan desa trsbt.dalam berbagai hal,baik sedekah bumi ataupun yg lainya,jangan cuma bayar pajak buminya saja.sekian dari saya,putra desa belahan rejo di perantuan.",
+      "teks_final": "desa belahan rejo desa berpengaruh bagi warganya ramah kehidupan sosialnya bersahaja nilai harga tanahnya makin lama makin melonjak naik masterplenya masuk pembebasan lahan jalan tol gersik mojokerto hampir km jadi bagi investor pengembang deflover berminat nanam modal beli tanah jangan ragu belikan desa belahan rejo ingat bagi pt ataupun cv mempunyai tanah desa belahan rejo jangan lupa berkopenten kemajuan desa trsbt berbagai hal baik sedekah bumi ataupun lainya jangan cuma bayar pajak buminya saja sekian putra desa belahan rejo perantuan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8963
+    }
+  ]
+}

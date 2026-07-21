@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Pos (Agen Pos) Anggun Jaya",
+  "rating": 2.6,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 0.0,
+  "persen_netral": 100.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Gally arics",
+      "Bintang": 1,
+      "Tanggal": "2025-10-17T08:05:12.860Z",
+      "Ulasan": "Ini toko bangunan kocak bukan kantor pos",
+      "teks_final": "toko bangunan kocak bukan kantor pos",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5175
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "jefri asmawa",
+      "Bintang": 1,
+      "Tanggal": "2025-07-27T05:05:39.132Z",
+      "Ulasan": "Ini bukan kantor pos atau agen pos .. jadi toko bangunan",
+      "teks_final": "bukan kantor pos agen pos jadi toko bangunan",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9185
+    }
+  ]
+}

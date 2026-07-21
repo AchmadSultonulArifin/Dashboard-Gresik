@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Desa Mondoluku",
+  "rating": 4.7,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Andri_ Krisna93",
+      "Bintang": 5,
+      "Tanggal": "2020-10-28T10:46:38.143Z",
+      "Ulasan": "Balai desa Mondoluku",
+      "teks_final": "balai desa mondoluku",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9904
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Muntiani Satria11",
+      "Bintang": 5,
+      "Tanggal": "2019-11-14T16:19:23.949Z",
+      "Ulasan": "Bik dn bersahaja",
+      "teks_final": "bik dn bersahaja",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9904
+    }
+  ]
+}

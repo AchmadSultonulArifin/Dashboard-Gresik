@@ -1,0 +1,80 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "P T Bank Rakyat Indonesia",
+  "rating": 3.6,
+  "total_ulasan": 6,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 5,
+  "persen_positif": 0.0,
+  "persen_netral": 16.7,
+  "persen_negatif": 83.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "RIDHO SURYA PERKASA",
+      "Bintang": 5,
+      "Tanggal": "2026-06-18T12:17:46.121Z",
+      "Ulasan": "Baru tau ada di new york",
+      "teks_final": "tau new york",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5286
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Wawan Agustiwa",
+      "Bintang": 5,
+      "Tanggal": "2026-04-29T07:01:17.740Z",
+      "Ulasan": "Melayani setulus hati, semoga bisa nabung disana dan ketemu keponakan",
+      "teks_final": "melayani setulus hati semoga nabung disana ketemu keponakan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9748
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Idris Satrio Pangestu",
+      "Bintang": 5,
+      "Tanggal": "2024-09-13T00:52:34.593Z",
+      "Ulasan": "Melayani Setulus Hati 🙏",
+      "teks_final": "melayani setulus hati",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9339
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Marcello Timothy",
+      "Bintang": 5,
+      "Tanggal": "2024-07-07T17:18:58.370Z",
+      "Ulasan": "Bagus dan membantu",
+      "teks_final": "bagus membantu",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.994
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Sundus Basir",
+      "Bintang": 1,
+      "Tanggal": "2019-01-28T01:28:23.227Z",
+      "Ulasan": "Unhelpful",
+      "teks_final": "unhelpful",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9622
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Panda Racing",
+      "Bintang": 5,
+      "Tanggal": "2017-09-30T00:18:53.751Z",
+      "Ulasan": "Good",
+      "teks_final": "good",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    }
+  ]
+}

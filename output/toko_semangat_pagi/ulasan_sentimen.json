@@ -1,0 +1,91 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Toko SEMANGAT PAGI",
+  "rating": 4.5,
+  "total_ulasan": 7,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 6,
+  "persen_positif": 0.0,
+  "persen_netral": 14.3,
+  "persen_negatif": 85.7,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Christopher Nathan",
+      "Bintang": 5,
+      "Tanggal": "2026-02-26T06:06:00.544Z",
+      "Ulasan": "Barang nya lengkap, lebih murah dari toko\" sebelah 😁",
+      "teks_final": "barang lengkap murah toko sebelah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9938
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Faizal Pratiwi",
+      "Bintang": 5,
+      "Tanggal": "2026-02-11T16:10:21.783Z",
+      "Ulasan": "Pizz lofe en gawul 🫶",
+      "teks_final": "pizz lofe en gawul",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6563
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Aditya Pratama Indra Sanjaya",
+      "Bintang": 5,
+      "Tanggal": "2025-10-31T15:32:28.313Z",
+      "Ulasan": "Developer tanggap",
+      "teks_final": "developer tanggap",
+      "topik": "Infrastruktur",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9835
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Robby Hidayat",
+      "Bintang": 5,
+      "Tanggal": "2024-10-18T06:47:06.209Z",
+      "Ulasan": "Tempat  belanja keperluan sehari2",
+      "teks_final": "tempat belanja keperluan sehari2",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.5963
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Perwita Ma",
+      "Bintang": 1,
+      "Tanggal": "2024-02-20T03:35:06.177Z",
+      "Ulasan": "CSnya tidak ramah, masa telepon belum selesai ngmgn langsung di matikan. Sangat tidak sopan dan tidak menghargai orang lain!",
+      "teks_final": "csnya ramah masa telepon selesai ngmgn langsung matikan sopan menghargai orang lain",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8103
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ewald Pamujie",
+      "Bintang": 5,
+      "Tanggal": "2023-07-02T13:29:49.662Z",
+      "Ulasan": "Lumayan lengkap...",
+      "teks_final": "lumayan lengkap",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9947
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "oktaa finaa",
+      "Bintang": 4,
+      "Tanggal": "2022-05-29T11:10:53.442Z",
+      "Ulasan": "Tempatnya bersih. Penataannya rapi. Cuma mungkin bisa ditambah lagi isi barang2 yang dijual. Biar makin lengkap 😁✌️",
+      "teks_final": "tempatnya bersih penataannya rapi cuma mungkin ditambah isi barang2 dijual biar makin lengkap",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9936
+    }
+  ]
+}

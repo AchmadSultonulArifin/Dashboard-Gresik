@@ -1,0 +1,58 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM BNI SPBU WAHIDIN SUDIRO HUSODO",
+  "rating": 4.5,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 3,
+  "negatif": 0,
+  "persen_positif": 25.0,
+  "persen_netral": 75.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "ANW FZL STC WORLD",
+      "Bintang": 3,
+      "Tanggal": "2019-12-21T13:57:49.566Z",
+      "Ulasan": "Kurang tepat",
+      "teks_final": "kurang tepat",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9966
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Raden Mas Ifan",
+      "Bintang": 5,
+      "Tanggal": "2019-07-15T09:43:05.710Z",
+      "Ulasan": "Ada disisi barat ... pintu masuk",
+      "teks_final": "disisi barat pintu masuk",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9602
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2017-11-26T11:50:08.203Z",
+      "Ulasan": "Tarikan tunai atm bni di spbu sebelah kiri.",
+      "teks_final": "tarikan tunai atm bni spbu sebelah kiri",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9979
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nofal Henri",
+      "Bintang": 5,
+      "Tanggal": "2017-08-25T10:14:00.035Z",
+      "Ulasan": "Atmnya lengkap, ada uang pecahan 20ribu lagi 😂",
+      "teks_final": "atmnya lengkap uang pecahan 20ribu",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9943
+    }
+  ]
+}

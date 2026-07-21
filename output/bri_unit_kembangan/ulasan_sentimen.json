@@ -1,0 +1,47 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "BRI UNIT KEMBANGAN",
+  "rating": 3.6,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 33.3,
+  "persen_netral": 0.0,
+  "persen_negatif": 66.7,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Call Center BRI",
+      "Bintang": 4,
+      "Tanggal": "2022-02-17T09:01:36.211Z",
+      "Ulasan": "keren banget bri nya",
+      "teks_final": "bagus banget bri",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9962
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Muhammad Ihsannudin",
+      "Bintang": 1,
+      "Tanggal": "2021-10-05T10:03:57.466Z",
+      "Ulasan": "Layanan - Security/satpamnya sok tau padahal bisa bilang ngga bisa. - Customer Service ngga ada senyumnya sama sekali, mana cuma 1 - Urus apa-apa seperti dipersulit, selalu menyarankan pindah lokasi bank jika mengurus bantuan apapun dari pemerintah  Tempat tunggu - Terbatas kurang lebih hanya 3 orang untuk didalam ruangan, kalau penuh nunggu diluar bareng motor.  Parkiran - Tidak aman karna dipinggir jalan pas, dan ada juru parkir liar penampilannya seperti preman kampung",
+      "teks_final": "layanan security satpamnya sok tau padahal bilang customer service senyumnya sama mana cuma urus apa apa seperti dipersulit selalu menyarankan pindah lokasi bank mengurus bantuan apapun pemerintah tempat tunggu terbatas kurang hanya orang didalam ruangan penuh nunggu diluar bareng motor parkiran aman karna dipinggir jalan pas juru parkir liar penampilannya seperti preman kampung",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9936
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Rizky zakaria",
+      "Bintang": 1,
+      "Tanggal": "2021-05-27T03:13:09.921Z",
+      "Ulasan": "ga banget pelayananya",
+      "teks_final": "banget pelayananya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9959
+    }
+  ]
+}

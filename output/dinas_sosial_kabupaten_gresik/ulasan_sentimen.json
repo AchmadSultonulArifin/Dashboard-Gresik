@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "DINAS SOSIAL KABUPATEN GRESIK",
+  "rating": 4,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Bambang Purwanto",
+      "Bintang": 2,
+      "Tanggal": "2022-01-19T06:08:56.062Z",
+      "Ulasan": "Tolong bantu rakyat susah dengan bangga hati ya\"akan dapat amalan yg banyak\" dari orang yg di tolong",
+      "teks_final": "tolong bantu rakyat susah bangga hati ya amalan banyak orang tolong",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9845
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Bagus Drajat",
+      "Bintang": 5,
+      "Tanggal": "2021-10-12T05:19:25.767Z",
+      "Ulasan": "Satu gedung untuk beberapa Kantor Dinas",
+      "teks_final": "satu gedung beberapa kantor dinas",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9946
+    }
+  ]
+}

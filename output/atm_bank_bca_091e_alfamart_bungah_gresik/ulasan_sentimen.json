@@ -1,0 +1,36 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM Bank BCA 091E-Alfamart Bungah Gresik",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "NUGROHO WAHYUNIAJI",
+      "Bintang": 3,
+      "Tanggal": "2022-07-30T20:16:45.339Z",
+      "Ulasan": "buka 24 jam yg melayani kurang ramah tidak ada toilet, atau memang tidak boleh numpang meski sdh belanja..tidak jelas juga",
+      "teks_final": "buka jam melayani kurang ramah toilet memang boleh numpang meski belanja jelas",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9842
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "wanayasak yas",
+      "Bintang": 5,
+      "Tanggal": "2019-10-06T02:56:05.552Z",
+      "Ulasan": "Atm bank bca alfamart. Paling deket untuk kawasan bungah dan sekitarnya",
+      "teks_final": "atm bank bca alfamart paling deket kawasan bungah sekitarnya",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.847
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kecamatan Driyorejo",
+  "rating": 3.4,
+  "total_ulasan": 19,
+  "positif": 8,
+  "netral": 3,
+  "negatif": 8,
+  "persen_positif": 42.1,
+  "persen_netral": 15.8,
+  "persen_negatif": 42.1,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Afif Machrus",
+      "Bintang": 5,
+      "Tanggal": "2022-07-28T00:50:19.355Z",
+      "Ulasan": "Nice",
+      "teks_final": "nice",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9923
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Isti Komah",
+      "Bintang": 3,
+      "Tanggal": "2022-06-28T03:05:19.133Z",
+      "Ulasan": "kantor kecamatan tutup jm brp ya?",
+      "teks_final": "kantor kecamatan tutup jm brp ya",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Davin Vhiolensia",
+      "Bintang": 1,
+      "Tanggal": "2022-04-07T03:16:37.687Z",
+      "Ulasan": "PELAYANAN RUWET DAN TIDAK INFORMATIF PECAT SAJA SELURUH KARYAWAN DISITU!!  GRESIK SELATAN PELAYAN CATATAN SIPIL SELURUHNYA RUWET",
+      "teks_final": "pelayanan ruwet informatif pecat saja seluruh karyawan disitu gresik selatan pelayan catatan sipil seluruhnya ruwet",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Tatara Qu",
+      "Bintang": 4,
+      "Tanggal": "2022-04-06T22:21:16.130Z",
+      "Ulasan": "Pelayanan petugas tolong diperbaiki. Lebih ramah tukang parkirnya",
+      "teks_final": "pelayanan petugas tolong diperbaiki ramah tukang parkirnya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9459
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Yesya _36",
+      "Bintang": 1,
+      "Tanggal": "2021-06-15T06:56:57.178Z",
+      "Ulasan": "Pelayanannya buruk . Pegawainya tukang marah marah terus terutama yang melayani pembuatan KTP",
+      "teks_final": "pelayanannya buruk pegawainya tukang marah marah terus terutama melayani pembuatan ktp",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9982
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Didik Brewok.",
+      "Bintang": 4,
+      "Tanggal": "2021-02-08T05:25:54.413Z",
+      "Ulasan": "Pelayanan penuh perhatian dan menyenangkan.",
+      "teks_final": "pelayanan penuh perhatian menyenangkan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Seto Awan",
+      "Bintang": 1,
+      "Tanggal": "2021-01-24T08:47:44.529Z",
+      "Ulasan": "Memang dengan adanya kemajuan teknologi yg sedang berkembang di tengah era menuju peradapan baru sekarang ini, , sistem online sangatlah menjanjikan, , namun kekurangannya adalah dimana pemerataan SDM yang membuat kondisi ini menjadi kurang berasahabat,, seharusnya pada masa transisi sekarang ini tetaplah diupayakan maksimal dalam pelayanannya, , jadi khususnya dalam era transisi harus tetap diberikan pelayanan dengan sistem yg lebih tepat guna, untuk menghindari terjadi adanya makelar.. terima kasih",
+      "teks_final": "memang adanya kemajuan teknologi sedang berkembang tengah era menuju peradapan sekarang sistem online sangatlah menjanjikan kekurangannya dimana pemerataan sdm membuat kondisi menjadi kurang berasahabat seharusnya masa transisi sekarang tetaplah diupayakan maksimal pelayanannya jadi khususnya era transisi harus tetap diberikan pelayanan sistem tepat guna menghindari terjadi adanya makelar terima kasih",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8186
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Bian Netral",
+      "Bintang": 1,
+      "Tanggal": "2020-09-22T02:15:00.913Z",
+      "Ulasan": "Masa iya bikin ktp gabisa alasanya trouble.malah disuruh ke kantor kecamatan kedamaean",
+      "teks_final": "masa iya bikin ktp gabisa alasanya trouble malah disuruh kantor kecamatan kedamaean",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.969
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Anggi Pramono",
+      "Bintang": 1,
+      "Tanggal": "2020-03-18T05:12:12.995Z",
+      "Ulasan": "Bikin E-KTP main lempar sana lempar sini. 👎🏽",
+      "teks_final": "bikin ktp main lempar sana lempar sini",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9923
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Nanik Muasaroh",
+      "Bintang": 1,
+      "Tanggal": "2020-03-16T05:44:57.727Z",
+      "Ulasan": "Ruwet berkas udah ada TTD malah d tahan pelayanan nol",
+      "teks_final": "ruwet berkas udah ttd malah tahan pelayanan nol",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9979
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ady Rifangga",
+      "Bintang": 3,
+      "Tanggal": "2019-07-09T04:51:09.233Z",
+      "Ulasan": "Untuk pelayanan surat tanah sangat lamban tolong di perbaiki system & tata caranya Thx",
+      "teks_final": "pelayanan surat tanah lamban tolong perbaiki system tata caranya thx",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8844
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Cah BliT",
+      "Bintang": 4,
+      "Tanggal": "2019-04-15T07:36:00.537Z",
+      "Ulasan": "Pelayanan baik dan cepat",
+      "teks_final": "pelayanan baik cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "bayhaqi krewol",
+      "Bintang": 5,
+      "Tanggal": "2019-02-06T05:56:27.296Z",
+      "Ulasan": "Banyak manfaatnya",
+      "teks_final": "banyak manfaatnya",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "MF Channel",
+      "Bintang": 1,
+      "Tanggal": "2019-02-04T01:10:00.644Z",
+      "Ulasan": "Pelayan buruk,, tambah dibulet buletno suu",
+      "teks_final": "pelayan buruk tambah dibulet buletno suu",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9979
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Truy_eks Shilty",
+      "Bintang": 4,
+      "Tanggal": "2018-02-07T12:33:03.520Z",
+      "Ulasan": "Pelayann OK. Tempat sejuk n terlihat dri jl raya",
+      "teks_final": "pelayann oke tempat sejuk terlihat dri jl raya",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Dewi Puspita",
+      "Bintang": 5,
+      "Tanggal": "2017-10-05T05:39:14.903Z",
+      "Ulasan": "Lokasi terlihat saat berkendara",
+      "teks_final": "lokasi terlihat berkendara",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9933
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Mansur Setiawan",
+      "Bintang": 5,
+      "Tanggal": "2017-08-10T04:48:18.520Z",
+      "Ulasan": "Halaman cukup luas, pelayanan cepat, suasana teduh dan nyaman. jalan di luar sering di lalui truck besar.",
+      "teks_final": "halaman cukup luas pelayanan cepat suasana teduh nyaman jalan luar sering lalui truck besar",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9901
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "elhadygroup jatim",
+      "Bintang": 5,
+      "Tanggal": "2017-04-18T14:16:22.557Z",
+      "Ulasan": "Nice place",
+      "teks_final": "nice place",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9891
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-06T15:52:37.397Z",
+      "Ulasan": "Kantor Kecamatan Driyorejo, Kabupaten Gersik.",
+      "teks_final": "kantor kecamatan driyorejo kabupaten gersik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9977
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Mandiri ATM KCP Gresik Kota Baru",
+  "rating": 4.2,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Moh Alimin Al Ayyubi",
+      "Bintang": 5,
+      "Tanggal": "2025-06-28T10:27:18.804Z",
+      "Ulasan": "Maun nya klo malem bisa pelayanan GK mas",
+      "teks_final": "maun malem pelayanan mas",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8759
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Ranger Ijo",
+      "Bintang": 5,
+      "Tanggal": "2023-01-07T00:29:55.725Z",
+      "Ulasan": "Ramah",
+      "teks_final": "ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Wahyu Eko",
+      "Bintang": 2,
+      "Tanggal": "2020-06-15T08:24:12.655Z",
+      "Ulasan": "Dengan adanya new normal jam oprasional buka dari 09.00-14.00 bagaimana jika atm tertelan sedangkan kita sip 1 ??? , Gak makan ?",
+      "teks_final": "adanya new normal jam oprasional buka bagaimana atm tertelan sedangkan sip makan",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9777
+    }
+  ]
+}

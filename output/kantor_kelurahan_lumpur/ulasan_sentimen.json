@@ -1,0 +1,47 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor KELURAHAN lumpur",
+  "rating": 5,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 66.7,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "fathur rozi",
+      "Bintang": 5,
+      "Tanggal": "2025-09-16T07:48:50.135Z",
+      "Ulasan": "Ada posbankum di kelurahan Lumpur Siap melayani selama jam kerja hari senin sampai hari jumat Jam pelayanan pukul 08.30 sampai 16.00 WiB",
+      "teks_final": "posbankum kelurahan lumpur siap melayani selama jam kerja hari senin sampai hari jumat jam pelayanan pukul sampai wib",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9905
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Yahya M Aji",
+      "Bintang": 5,
+      "Tanggal": "2024-11-15T03:03:18.395Z",
+      "Ulasan": "Nice",
+      "teks_final": "nice",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9923
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-06T07:39:28.067Z",
+      "Ulasan": "Kantor Kelurahan Lumpur.",
+      "teks_final": "kantor kelurahan lumpur",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9915
+    }
+  ]
+}

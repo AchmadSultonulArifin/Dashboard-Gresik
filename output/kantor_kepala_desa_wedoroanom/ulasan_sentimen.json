@@ -1,0 +1,69 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kepala Desa Wedoroanom",
+  "rating": 4.5,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 2,
+  "persen_positif": 20.0,
+  "persen_netral": 40.0,
+  "persen_negatif": 40.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Mat Ali",
+      "Bintang": 5,
+      "Tanggal": "2022-01-26T13:00:39.696Z",
+      "Ulasan": "Mantap",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Titien",
+      "Bintang": 5,
+      "Tanggal": "2021-10-15T03:57:29.258Z",
+      "Ulasan": "Jadi ingat kala itu dikelurahan desa wedoroanom driyorejo gresik saat pembebasan tanah di thn 1994 sd 1998 bgm kbr nya sekarang yaaa",
+      "teks_final": "jadi ingat kala dikelurahan desa wedoroanom driyorejo gresik pembebasan tanah thn sd bgm kbr sekarang yaaa",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9924
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Yahya M Aji",
+      "Bintang": 5,
+      "Tanggal": "2020-06-17T06:08:07.558Z",
+      "Ulasan": "Oke jg ada musholla nya",
+      "teks_final": "oke musholla",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7281
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "duki hartono",
+      "Bintang": 3,
+      "Tanggal": "2019-04-07T06:31:31.041Z",
+      "Ulasan": "Panas",
+      "teks_final": "panas",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9962
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2017-07-06T13:27:03.556Z",
+      "Ulasan": "Kantor Kelurahan Wedoroanon.",
+      "teks_final": "kantor kelurahan wedoroanon",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9963
+    }
+  ]
+}

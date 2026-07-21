@@ -1,0 +1,80 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "BMT Mandiri Sejahtera Jawa Timur",
+  "rating": 3.9,
+  "total_ulasan": 6,
+  "positif": 2,
+  "netral": 2,
+  "negatif": 2,
+  "persen_positif": 33.3,
+  "persen_netral": 33.3,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Choso Alive",
+      "Bintang": 1,
+      "Tanggal": "2026-04-30T17:19:25.462Z",
+      "Ulasan": "toxicc",
+      "teks_final": "toxicc",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Afiyawati Wati",
+      "Bintang": 5,
+      "Tanggal": "2025-11-15T12:55:32.610Z",
+      "Ulasan": "Semakin maju dan berkembang.pelayanan bagus",
+      "teks_final": "semakin maju berkembang pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9948
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Sim Sayuti",
+      "Bintang": 5,
+      "Tanggal": "2025-10-15T08:08:57.393Z",
+      "Ulasan": "Sangat inspiratif dan solutif.",
+      "teks_final": "inspiratif solutif",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Sutrisno Hadi",
+      "Bintang": 1,
+      "Tanggal": "2024-01-11T02:47:40.354Z",
+      "Ulasan": "Sempit ruangan tidak ber ac sumuk kurang pengharum ruangan",
+      "teks_final": "sempit ruangan ber ac sumuk kurang pengharum ruangan",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9724
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "ayup Hariyati",
+      "Bintang": 3,
+      "Tanggal": "2019-12-18T12:36:48.255Z",
+      "Ulasan": "Membantu para pengusaha kecil yang kekurangan modal, kantornya terlihat jelas dari atas jembatan karanggeneng",
+      "teks_final": "membantu para pengusaha kecil kekurangan modal kantornya terlihat jelas atas jembatan karanggeneng",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9376
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Mohammad Muntadzirin",
+      "Bintang": 4,
+      "Tanggal": "2019-09-13T03:22:48.830Z",
+      "Ulasan": "Kantornya Terlihat dari jembatan bengawan solo jika lewat.",
+      "teks_final": "kantornya terlihat jembatan bengawan solo lewat",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9974
+    }
+  ]
+}

@@ -5,55 +5,41 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+
   .container{ width:100%; padding:25px; }
-
-  .header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 1.5rem; }
-  .header-text p { font-size: 13px; color: #898781; margin-bottom: 2px; }
-  .header-text h1 { font-size: 20px; font-weight: 500; }
-
-  select {
-    font-size: 13px; padding: 7px 12px; border-radius: 8px;
-    border: 0.5px solid #c3c2b7; background: #fff; color: #0b0b0b;
-    cursor: pointer; outline: none;
-  }
-  select:focus { border-color: #378add; }
-
-  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 1.25rem; }
-  .kpi-card { background: #fff; border-radius: 8px; padding: 14px 16px; border: 0.5px solid #e1e0d9; }
-  .kpi-card .label { font-size: 12px; color: #898781; margin-bottom: 4px; }
-  .kpi-card .value { font-size: 22px; font-weight: 500; }
-  .kpi-card .value.positif { color: #3b6d11; }
-  .kpi-card .value.negatif { color: #a32d2d; }
-
-  .charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 1.25rem; }
-  .card { background: #fff; border-radius: 12px; padding: 1rem 1.25rem; border: 0.5px solid #e1e0d9; }
-  .card-title { font-size: 13px; color: #52514e; margin-bottom: 12px; }
-
-  .chart-wrap { position: relative; height: 220px; }
-
-  .legend { display: flex; gap: 14px; justify-content: center; margin-top: 10px; flex-wrap: wrap; }
-  .legend span { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #52514e; }
-  .legend-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
-
-  .ulasan-card { background: #fff; border-radius: 12px; padding: 1rem 1.25rem; border: 0.5px solid #e1e0d9; }
-  .ulasan-item { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 0.5px solid #f1efe8; }
-  .ulasan-item:last-child { border-bottom: none; }
-  .avatar { min-width: 32px; height: 32px; border-radius: 50%; background: #e6f1fb; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; color: #185fa5; }
-  .ulasan-nama { font-size: 13px; font-weight: 500; margin-bottom: 3px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .badge { font-size: 11px; padding: 2px 8px; border-radius: 6px; }
-  .badge.Positif { background: #eaf3de; color: #3b6d11; }
-  .badge.Netral  { background: #faeeda; color: #854f0b; }
-  .badge.Negatif { background: #fcebeb; color: #a32d2d; }
-  .bintang { font-size: 12px; color: #eda100; }
-  .ulasan-teks { font-size: 13px; color: #52514e; }
-
-  @media (max-width: 600px) {
-    .kpi-row { grid-template-columns: repeat(2, 1fr); }
-    .charts-row { grid-template-columns: 1fr; }
-  }
+  .header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:1.5rem; }
+  .header-text p { font-size:13px; color:#898781; margin-bottom:2px; }
+  .header-text h1 { font-size:20px; font-weight:500; }
+  select { font-size:13px; padding:7px 12px; border-radius:8px; border:0.5px solid #c3c2b7; background:#fff; color:#0b0b0b; cursor:pointer; outline:none; }
+  select:focus { border-color:#378add; }
+  .kpi-row { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:1.25rem; }
+  .kpi-card { background:#fff; border-radius:8px; padding:14px 16px; border:0.5px solid #e1e0d9; }
+  .kpi-card .label { font-size:12px; color:#898781; margin-bottom:4px; }
+  .kpi-card .value { font-size:22px; font-weight:500; }
+  .kpi-card .value.positif { color:#3b6d11; }
+  .kpi-card .value.negatif { color:#a32d2d; }
+  .charts-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:1.25rem; }
+  .card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; }
+  .card-title { font-size:13px; color:#52514e; margin-bottom:12px; }
+  .chart-wrap { position:relative; height:220px; }
+  .legend { display:flex; gap:14px; justify-content:center; margin-top:10px; flex-wrap:wrap; }
+  .legend span { display:flex; align-items:center; gap:4px; font-size:12px; color:#52514e; }
+  .legend-dot { width:10px; height:10px; border-radius:2px; display:inline-block; }
+  .ulasan-card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; }
+  .ulasan-item { display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-bottom:0.5px solid #f1efe8; }
+  .ulasan-item:last-child { border-bottom:none; }
+  .avatar { min-width:32px; height:32px; border-radius:50%; background:#e6f1fb; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:500; color:#185fa5; }
+  .ulasan-nama { font-size:13px; font-weight:500; margin-bottom:3px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .badge { font-size:11px; padding:2px 8px; border-radius:6px; }
+  .badge.Positif { background:#eaf3de; color:#3b6d11; }
+  .badge.Netral   { background:#faeeda; color:#854f0b; }
+  .badge.Negatif  { background:#fcebeb; color:#a32d2d; }
+  .bintang { font-size:12px; color:#eda100; }
+  .ulasan-teks { font-size:13px; color:#52514e; }
+  .loading { text-align:center; color:#898781; padding:20px; font-size:13px; }
+  @media(max-width:600px){ .kpi-row{grid-template-columns:repeat(2,1fr);} .charts-row{grid-template-columns:1fr;} }
 </style>
-</head>
+
 <div class="container">
 
   <div class="header">
@@ -66,7 +52,7 @@
       <select id="kategori"></select>
 
       <select id="pilih-tempat"></select>
-
+    </div>
   </div>
 
   <div class="kpi-row" id="kpi-row"></div>
@@ -74,12 +60,12 @@
   <div class="charts-row">
     <div class="card">
       <p class="card-title">Distribusi sentimen</p>
-      <div class="chart-wrap"><canvas id="donutChart" role="img" aria-label="Donut chart distribusi sentimen"></canvas></div>
+      <div class="chart-wrap"><canvas id="donutChart"></canvas></div>
       <div class="legend" id="legend-donut"></div>
     </div>
     <div class="card">
-      <p class="card-title">Perbandingan semua tempat</p>
-      <div class="chart-wrap"><canvas id="barChart" role="img" aria-label="Bar chart perbandingan sentimen semua tempat"></canvas></div>
+      <p class="card-title">Perbandingan dalam kategori</p>
+      <div class="chart-wrap"><canvas id="barChart"></canvas></div>
       <div class="legend">
         <span><span class="legend-dot" style="background:#1baf7a"></span>Positif</span>
         <span><span class="legend-dot" style="background:#eda100"></span>Netral</span>
@@ -89,173 +75,152 @@
   </div>
 
   <div class="ulasan-card">
-    <p class="card-title">Contoh ulasan terbaru</p>
-    <div id="ulasan-list"></div>
+    <p class="card-title">Ulasan terbaru</p>
+    <div id="ulasan-list"><p class="loading">Pilih tempat untuk melihat ulasan...</p></div>
   </div>
 
 </div>
 
 <script>
+// Data summary dari Flask (tanpa ulasan — ringan)
 const DATA = {{ tempat|tojson }};
-console.log("DATA =", DATA);
-const LABELS_BAR = DATA.map(x => x.nama);
-let donutInst = null, 
-barInst = null;
+
+let donutInst = null, barInst = null;
+let kategoriAktif = "";
+
 const kategoriSelect = document.getElementById("kategori");
-const tempatSelect = document.getElementById("pilih-tempat");
+const tempatSelect   = document.getElementById("pilih-tempat");
 
-// daftar kategori unik
-const kategori = [...new Set(DATA.map(x => x.kategori))];
-
-// isi dropdown kategori
-kategori.forEach(k => {
-    kategoriSelect.innerHTML += `
-        <option value="${k}">${k}</option>
-    `;
+// ── Isi dropdown kategori ─────────────────────────
+const daftarKategori = [...new Set(DATA.map(x => x.kategori))].sort();
+daftarKategori.forEach(k => {
+    kategoriSelect.innerHTML += `<option value="${k}">${k}</option>`;
 });
-function loadTempat(kategori){
 
+// ── Isi dropdown tempat berdasarkan kategori ──────
+function loadTempat(kat) {
     tempatSelect.innerHTML = "";
-
-    DATA
-        .filter(x => x.kategori === kategori)
-        .forEach((x)=>{
-
-            tempatSelect.innerHTML +=
-                `<option value="${x.id}">
-                    ${x.nama}
-                </option>`;
-
-        });
-
+    DATA.filter(x => x.kategori === kat).forEach(x => {
+        tempatSelect.innerHTML += `<option value="${x.id}">${x.nama}</option>`;
+    });
 }
 
-// ── Render utama ──────────────────────────────────────
-function render(id){
-
-    const d = DATA.find(x => x.id === id);
-
-    if(!d) return;
-
-    renderKPI(d);
-
-    renderDonut(d);
-
-    if(barInst)
-        barInst.destroy();
-
-    renderBar();
-
-    renderUlasan(d);
-
-}
-
+// ── KPI ───────────────────────────────────────────
 function renderKPI(d) {
-  document.getElementById("kpi-row").innerHTML = `
-    ${kpi("Rating", d.rating + " ⭐", "")}
-    ${kpi("Total ulasan", d.total_ulasan, "")}
-    ${kpi("Positif", d.persen_positif.toFixed(1) + "%", "positif")}
-    ${kpi("Negatif", d.persen_negatif.toFixed(1) + "%", "negatif")}
-  `;
+    document.getElementById("kpi-row").innerHTML = `
+        ${kpi("Rating", (d.rating||0) + " ⭐", "")}
+        ${kpi("Total ulasan", d.total_ulasan, "")}
+        ${kpi("Positif", (d.persen_positif||0).toFixed(1) + "%", "positif")}
+        ${kpi("Negatif", (d.persen_negatif||0).toFixed(1) + "%", "negatif")}
+    `;
 }
 
 function kpi(label, val, cls) {
-  return `<div class="kpi-card">
-    <p class="label">${label}</p>
-    <p class="value ${cls}">${val}</p>
-  </div>`;
+    return `<div class="kpi-card"><p class="label">${label}</p><p class="value ${cls}">${val}</p></div>`;
 }
 
+// ── Donut chart ───────────────────────────────────
 function renderDonut(d) {
-  const ctx = document.getElementById("donutChart").getContext("2d");
-  if (donutInst) donutInst.destroy();
-  donutInst = new Chart(ctx, {
-    type: "doughnut",
-    data: {
-      labels: ["Positif", "Netral", "Negatif"],
-      datasets: [{
-        data: [d.positif, d.netral, d.negatif],
-        backgroundColor: ["#1baf7a", "#eda100", "#e34948"],
-        borderWidth: 3, borderColor: "#fff", hoverOffset: 6
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, cutout: "68%",
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: c => ` ${c.label}: ${c.raw} (${((c.raw/d.total_ulasan)*100).toFixed(1)}%)`
-          }
+    const ctx = document.getElementById("donutChart").getContext("2d");
+    if (donutInst) donutInst.destroy();
+    donutInst = new Chart(ctx, {
+        type: "doughnut",
+        data: {
+            labels: ["Positif","Netral","Negatif"],
+            datasets: [{ data:[d.positif,d.netral,d.negatif],
+                backgroundColor:["#1baf7a","#eda100","#e34948"],
+                borderWidth:3, borderColor:"#fff", hoverOffset:6 }]
+        },
+        options: { responsive:true, maintainAspectRatio:false, cutout:"68%",
+            plugins:{ legend:{display:false},
+                tooltip:{ callbacks:{ label:c=>` ${c.label}: ${c.raw} (${d.total_ulasan?((c.raw/d.total_ulasan)*100).toFixed(1):0}%)` }}}}
+    });
+    const pcts=[d.persen_positif,d.persen_netral,d.persen_negatif];
+    const cols=["#1baf7a","#eda100","#e34948"];
+    document.getElementById("legend-donut").innerHTML =
+        ["Positif","Netral","Negatif"].map((l,i)=>
+            `<span><span class="legend-dot" style="background:${cols[i]}"></span>${l} ${(pcts[i]||0).toFixed(1)}%</span>`
+        ).join("");
+}
+
+// ── Bar chart (semua tempat dalam kategori aktif) ─
+function renderBar(kat) {
+    const ctx = document.getElementById("barChart").getContext("2d");
+    if (barInst) barInst.destroy();
+    const filtered = DATA.filter(x => x.kategori === kat);
+    barInst = new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: filtered.map(x => x.nama.length > 20 ? x.nama.slice(0,20)+"…" : x.nama),
+            datasets: [
+                { label:"Positif", data:filtered.map(x=>x.persen_positif), backgroundColor:"#1baf7a", borderRadius:4 },
+                { label:"Netral",  data:filtered.map(x=>x.persen_netral),  backgroundColor:"#eda100", borderRadius:4 },
+                { label:"Negatif", data:filtered.map(x=>x.persen_negatif), backgroundColor:"#e34948", borderRadius:4 },
+            ]
+        },
+        options: { responsive:true, maintainAspectRatio:false,
+            plugins:{ legend:{display:false} },
+            scales:{
+                x:{ stacked:true, ticks:{font:{size:9}}, grid:{display:false} },
+                y:{ stacked:true, max:100, ticks:{callback:v=>v+"%"}, grid:{color:"#e1e0d9"} }
+            }}
+    });
+}
+
+// ── Ulasan — fetch dari API ───────────────────────
+async function renderUlasan(key) {
+    const list = document.getElementById("ulasan-list");
+    list.innerHTML = `<p class="loading">⏳ Memuat ulasan...</p>`;
+    try {
+        const res  = await fetch(`/api/googlemaps/${key}`);
+        const data = await res.json();
+        const ulasan = (data.ulasan || []).slice(0, 5);
+        if (!ulasan.length) {
+            list.innerHTML = `<p class="loading">Tidak ada ulasan.</p>`;
+            return;
         }
-      }
+        list.innerHTML = ulasan.map(u => `
+            <div class="ulasan-item">
+                <div class="avatar">${(u["Nama Reviewer"]||"?")[0]}</div>
+                <div style="flex:1">
+                    <div class="ulasan-nama">
+                        <span>${u["Nama Reviewer"]||"-"}</span>
+                        <span class="badge ${u.sentimen}">${u.sentimen}</span>
+                        <span class="badge" style="background:#eef3ff;color:#2d5be3;">${u.topik||""}</span>
+                        <span class="bintang">${"★".repeat(u["Bintang"]||0)}${"☆".repeat(5-(u["Bintang"]||0))}</span>
+                    </div>
+                    <p class="ulasan-teks">${u["Ulasan"]||"-"}</p>
+                </div>
+            </div>`).join("");
+    } catch(e) {
+        list.innerHTML = `<p class="loading">Gagal memuat ulasan.</p>`;
     }
-  });
-  const pcts = [d.persen_positif, d.persen_netral, d.persen_negatif];
-  const cols = ["#1baf7a","#eda100","#e34948"];
-  document.getElementById("legend-donut").innerHTML =
-    ["Positif","Netral","Negatif"].map((l,i) =>
-      `<span><span class="legend-dot" style="background:${cols[i]}"></span>${l} ${pcts[i].toFixed(1)}%</span>`
-    ).join("");
 }
 
-function renderBar() {
-  const ctx = document.getElementById("barChart").getContext("2d");
-  barInst = new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: DATA.map(x => x.nama),
-      datasets: [
-        { label:"Positif", data: DATA.map(d=>d.persen_positif), backgroundColor:"#1baf7a", borderRadius:4 },
-        { label:"Netral",  data: DATA.map(d=>d.persen_netral),  backgroundColor:"#eda100", borderRadius:4 },
-        { label:"Negatif", data: DATA.map(d=>d.persen_negatif), backgroundColor:"#e34948", borderRadius:4 },
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: { stacked:true, ticks:{ font:{size:10} }, grid:{ display:false } },
-        y: { stacked:true, max:100, ticks:{ callback: v => v+"%" }, grid:{ color:"#e1e0d9" } }
-      }
-    }
-  });
+// ── Render utama ──────────────────────────────────
+function render(id) {
+    const d = DATA.find(x => x.id === id);
+    if (!d) return;
+    renderKPI(d);
+    renderDonut(d);
+    renderBar(kategoriAktif);
+    renderUlasan(id);   // fetch ulasan via API
 }
 
-function renderUlasan(d) {
-  const ulasan = d.ulasan || [];
-  document.getElementById("ulasan-list").innerHTML = ulasan.slice(0, 5).map(u => `
-    <div class="ulasan-item">
-      <div class="avatar">${(u["Nama Reviewer"] || u.nama || "?")[0]}</div>
-      <div style="flex:1;">
-        <div class="ulasan-nama">
-          <span>${u["Nama Reviewer"] || u.nama || "-"}</span>
-          <span class="badge ${u.sentimen}">${u.sentimen}</span>
-          <span class="badge" style="background:#eef3ff;color:#2d5be3;">${u.topik}</span>
-          <span class="bintang">${"★".repeat(u["Bintang"]||u.bintang||0)}${"☆".repeat(5-(u["Bintang"]||u.bintang||0))}</span>
-        </div>
-        <p class="ulasan-teks">${u["Ulasan"] || u.teks || "-"}</p>
-      </div>
-    </div>
-  `).join("");
-}
-
-tempatSelect.addEventListener("change", function(){
-
-    render(this.value);
-
-});
-
-kategoriSelect.addEventListener("change", function(){
-
-    loadTempat(this.value);
-
+// ── Event listeners ───────────────────────────────
+kategoriSelect.addEventListener("change", function() {
+    kategoriAktif = this.value;
+    loadTempat(kategoriAktif);
     render(tempatSelect.value);
-
 });
 
-loadTempat(kategori[0]);
+tempatSelect.addEventListener("change", function() {
+    render(this.value);
+});
 
+// ── Init ──────────────────────────────────────────
+kategoriAktif = daftarKategori[0];
+loadTempat(kategoriAktif);
 render(tempatSelect.value);
 </script>
 {% endblock %}

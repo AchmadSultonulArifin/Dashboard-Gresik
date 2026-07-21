@@ -1,0 +1,80 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Bank BRI KCP Gresik",
+  "rating": 3.5,
+  "total_ulasan": 6,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 5,
+  "persen_positif": 0.0,
+  "persen_netral": 16.7,
+  "persen_negatif": 83.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "JAYA NUSANTARA KITA",
+      "Bintang": 5,
+      "Tanggal": "2022-08-18T10:06:53.776Z",
+      "Ulasan": "Pelayanan memuaskan,apalagi mau buka rekening baru",
+      "teks_final": "pelayanan memuaskan apalagi mau buka rekening",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "F ASK",
+      "Bintang": 5,
+      "Tanggal": "2022-06-06T10:41:11.177Z",
+      "Ulasan": "Sukses selalu Bu reta",
+      "teks_final": "sukses selalu bu reta",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9782
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Alvian Maulana Bakti Vian",
+      "Bintang": 5,
+      "Tanggal": "2022-03-05T23:19:23.441Z",
+      "Ulasan": "ok",
+      "teks_final": "oke",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9063
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Holil Albangakalni",
+      "Bintang": 5,
+      "Tanggal": "2021-12-21T20:15:56.977Z",
+      "Ulasan": "Pelayanan sngat pusat satpam sma cs super ramah",
+      "teks_final": "pelayanan sngat pusat satpam sma cs super ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9937
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Andri Purwanto",
+      "Bintang": 5,
+      "Tanggal": "2019-01-08T03:07:28.431Z",
+      "Ulasan": "Mantap",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2018-05-26T23:53:21.827Z",
+      "Ulasan": "Bank & atm bri.",
+      "teks_final": "bank atm bri",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9737
+    }
+  ]
+}

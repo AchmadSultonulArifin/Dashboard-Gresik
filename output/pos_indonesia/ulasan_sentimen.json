@@ -1,0 +1,36 @@
+{
+  "kategori": "Pelayanan Publik",
+  "tempat": "Pos Indonesia",
+  "rating": 2.5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 0.0,
+  "persen_netral": 100.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Marie-Pier Ferland",
+      "Bintang": 1,
+      "Tanggal": "2026-05-02T10:34:16.519Z",
+      "Ulasan": "Never trust them. I send a package to Canada. Never arrived to destination. Even with insurance, they refuse to help. They ask me to go in person to the post office in Indonesia to do the insurrance claim. I am not in the country anymore.  DO NOT TRUST",
+      "teks_final": "never trust them send package to canada never arrived to destination even with insurance they refuse to help they ask me to go in person to the post office in indonesia to do the insurrance claim am not in the country anymore do not trust",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5376
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Sigit Prasetyo",
+      "Bintang": 4,
+      "Tanggal": "2021-11-02T06:47:44.184Z",
+      "Ulasan": "Kantor pos",
+      "teks_final": "kantor pos",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9779
+    }
+  ]
+}

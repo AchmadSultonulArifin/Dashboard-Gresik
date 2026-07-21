@@ -1,0 +1,80 @@
+{
+  "kategori": "Pelayanan Publik",
+  "tempat": "SAMSAT KELILING GRESIK",
+  "rating": 3.5,
+  "total_ulasan": 6,
+  "positif": 0,
+  "netral": 3,
+  "negatif": 3,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Doddy Prasetyo",
+      "Bintang": 5,
+      "Tanggal": "2026-04-17T00:38:02.594Z",
+      "Ulasan": "Bermanfaat",
+      "teks_final": "bermanfaat",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Ikibagus Gus",
+      "Bintang": 2,
+      "Tanggal": "2025-09-18T22:56:02.507Z",
+      "Ulasan": "Bisa Ndak cetak KTP ulangi karena KTP saya keluar kota apa bisa cetak KTP dimana pun bisa ndak",
+      "teks_final": "ndak cetak ktp ulangi ktp keluar kota apa cetak ktp dimana ndak",
+      "topik": "Administrasi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5746
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "ACHMAD FAWAID",
+      "Bintang": 5,
+      "Tanggal": "2025-07-07T05:32:02.918Z",
+      "Ulasan": "Pelayanan cepat meskipun antri...",
+      "teks_final": "pelayanan cepat meskipun antrian",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Assefa Lemu",
+      "Bintang": 1,
+      "Tanggal": "2025-06-02T02:31:50.610Z",
+      "Ulasan": "Transaksi tidak bisa pakai Q-ris",
+      "teks_final": "transaksi pakai ris",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9264
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Po Sentono (kembar)",
+      "Bintang": 4,
+      "Tanggal": "2024-07-29T12:44:12.583Z",
+      "Ulasan": "Kapan geser ke Alun2 Gresik",
+      "teks_final": "kapan geser alun2 gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9729
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Muhammad Taufik",
+      "Bintang": 5,
+      "Tanggal": "2023-12-07T04:14:00.484Z",
+      "Ulasan": "Siiip.....bayar pajak kendaraan jadi lebih mudah dan cepat.semoga tetep ada  mobil samsat keliling di situ untuk melayani masyarakat yang mau bayar pajak",
+      "teks_final": "siiip bayar pajak kendaraan jadi mudah cepat semoga tetep mobil samsat keliling situ melayani masyarakat mau bayar pajak",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9465
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Puskesmas Pembantu (PUSTU) Desa Lebak",
+  "rating": 4.7,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 33.3,
+  "persen_netral": 33.3,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Zuhri Pribadi",
+      "Bintang": 5,
+      "Tanggal": "2018-09-21T11:15:41.290Z",
+      "Ulasan": "Puskesmas pembantu daerah Sungai Raya, Lebak dengam Ibu Bidan Eka.",
+      "teks_final": "puskesmas pembantu daerah sungai raya lebak dengam ibu bidan eka",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Aman Syah",
+      "Bintang": 5,
+      "Tanggal": "2018-08-30T22:35:33.298Z",
+      "Ulasan": "Pelayanan kesehatan yang baik dan sangat bagus",
+      "teks_final": "pelayanan kesehatan baik bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Play Store",
+      "Bintang": 4,
+      "Tanggal": "2018-04-21T23:04:12.821Z",
+      "Ulasan": "Bu bidan yg prihatin",
+      "teks_final": "bu bidan prihatin",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9128
+    }
+  ]
+}

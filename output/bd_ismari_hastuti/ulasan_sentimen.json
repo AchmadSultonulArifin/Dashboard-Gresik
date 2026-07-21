@@ -1,0 +1,25 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "Bd Ismari Hastuti",
+  "rating": 2,
+  "total_ulasan": 1,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Sulaiman Vani",
+      "Bintang": 2,
+      "Tanggal": "2018-03-02T09:47:02.746Z",
+      "Ulasan": "Sudah pindah tempat",
+      "teks_final": "pindah tempat",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9939
+    }
+  ]
+}

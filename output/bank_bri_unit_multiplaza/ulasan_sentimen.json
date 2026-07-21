@@ -1,0 +1,58 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Bank BRI Unit Multiplaza",
+  "rating": 4,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Suriyo stp pt3s3",
+      "Bintang": 5,
+      "Tanggal": "2022-08-24T14:04:02.206Z",
+      "Ulasan": "Gabungan kami pada rek Suwarno BRI SURIYO/terkirim Irawan sosanto",
+      "teks_final": "gabungan rek suwarno bri suriyo terkirim irawan sosanto",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9977
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Rifki Haly",
+      "Bintang": 2,
+      "Tanggal": "2022-06-07T07:20:42.017Z",
+      "Ulasan": "Super duper lemot, kecewa banget sebaikknya bisa di pisah mana cs buat pencairan mana cs buat komplain/bikin rekening baru....",
+      "teks_final": "super duper lemot kecewa banget sebaikknya pisah mana cs buat pencairan mana cs buat komplain bikin rekening",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9982
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Mufa Mufaroha",
+      "Bintang": 4,
+      "Tanggal": "2021-09-20T11:02:48.317Z",
+      "Ulasan": "Pelayanan disini memuaskan. Antriannya rapi. Satpamnya baik.",
+      "teks_final": "pelayanan disini memuaskan antriannya rapi satpamnya baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Ajun",
+      "Bintang": 4,
+      "Tanggal": "2018-03-02T04:06:58.369Z",
+      "Ulasan": "Salah satu pusat bank BRI di Gresik dengan pelayanan yang cukup memuaskan",
+      "teks_final": "salah satu pusat bank bri gresik pelayanan cukup memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9918
+    }
+  ]
+}

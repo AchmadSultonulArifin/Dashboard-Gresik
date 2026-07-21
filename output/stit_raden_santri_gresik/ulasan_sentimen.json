@@ -1,0 +1,47 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "STIT Raden Santri Gresik",
+  "rating": 4.8,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 33.3,
+  "persen_netral": 33.3,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "ayster harzen",
+      "Bintang": 5,
+      "Tanggal": "2026-02-20T06:28:33.156Z",
+      "Ulasan": "Lokasi kampus baru STIT Raden Santri Gresik",
+      "teks_final": "lokasi kampus stit raden santri gresik",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9925
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "TRI CHAHYANI AMALIA WULAN SARI WULAN SARI",
+      "Bintang": 5,
+      "Tanggal": "2025-10-17T21:59:18.787Z",
+      "Ulasan": "Sekolah tarbiah yang sangat luar biasa mencetak 80% orang orang hebat di gresik",
+      "teks_final": "sekolah tarbiah luar biasa mencetak orang orang hebat gresik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9901
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ulil Al Kaylani",
+      "Bintang": 4,
+      "Tanggal": "2021-06-01T06:55:25.442Z",
+      "Ulasan": "Tempatnya agak menyamari, yang penting maps adalah solusi tepat untuk mencari suatu alamat..",
+      "teks_final": "tempatnya agak menyamari penting maps solusi tepat mencari suatu alamat",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.394
+    }
+  ]
+}

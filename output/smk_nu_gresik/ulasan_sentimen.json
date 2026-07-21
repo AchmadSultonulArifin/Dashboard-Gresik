@@ -1,0 +1,80 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "SMK NU GRESIK",
+  "rating": 4.7,
+  "total_ulasan": 6,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 5,
+  "persen_positif": 0.0,
+  "persen_netral": 16.7,
+  "persen_negatif": 83.3,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Anang -Bkn- Hermansyah",
+      "Bintang": 5,
+      "Tanggal": "2026-04-13T22:21:03.436Z",
+      "Ulasan": "Sekolah pusat keunggulan",
+      "teks_final": "sekolah pusat keunggulan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9666
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Bambang Waluyo",
+      "Bintang": 5,
+      "Tanggal": "2025-09-17T01:29:33.285Z",
+      "Ulasan": "Sekolah",
+      "teks_final": "sekolah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.4308
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Didik Akhmadi",
+      "Bintang": 5,
+      "Tanggal": "2025-02-20T20:43:23.364Z",
+      "Ulasan": "Sekolah bersih dan nyaman untuk belajar",
+      "teks_final": "sekolah bersih nyaman belajar",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.993
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Amel Amalia",
+      "Bintang": 5,
+      "Tanggal": "2023-10-01T11:55:15.616Z",
+      "Ulasan": "sekolah e bagusss pwolll",
+      "teks_final": "sekolah bagusss pwolll",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Lutfi Are",
+      "Bintang": 4,
+      "Tanggal": "2023-08-12T04:02:55.607Z",
+      "Ulasan": "sekolah lengkap dari jenjang Sekolah Dasar sampai menengah atas",
+      "teks_final": "sekolah lengkap jenjang sekolah dasar sampai menengah atas",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9846
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Achmad Ridho Maudy",
+      "Bintang": 5,
+      "Tanggal": "2023-01-10T14:52:16.832Z",
+      "Ulasan": "Jurusan TKJ nya bener² mencetak skill dan mental siswa/i untuk siap kerja, cerdas, dan kompetitif. Ojok lali daftar pilihan pertama harus TKJ, nnti kita sharing ilmu dan pengalaman bersama pengajar² kita yg kompeten.",
+      "teks_final": "jurusan tkj bener mencetak skill mental siswa siap kerja cerdas kompetitif ojok lali daftar pilihan pertama harus tkj nnti sharing ilmu pengalaman bersama pengajar kompeten",
+      "topik": "Keamanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9578
+    }
+  ]
+}

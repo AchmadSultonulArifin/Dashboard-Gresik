@@ -1,0 +1,36 @@
+{
+  "kategori": "Pelayanan Publik",
+  "tempat": "Pos pphh wilayah Gresik 1",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Allvesone",
+      "Bintang": 5,
+      "Tanggal": "2021-05-01T23:21:36.678Z",
+      "Ulasan": "Woke",
+      "teks_final": "woke",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.5495
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "yopi sofyan",
+      "Bintang": 5,
+      "Tanggal": "2019-03-22T03:27:05.571Z",
+      "Ulasan": "Sip",
+      "teks_final": "sip",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9767
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "BANK BNI CERME",
+  "rating": 4,
+  "total_ulasan": 17,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 17,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Eka Nurhidayah",
+      "Bintang": 5,
+      "Tanggal": "2022-08-30T06:36:39.903Z",
+      "Ulasan": "Pelayanan sangat baik dan ramah",
+      "teks_final": "pelayanan baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "zia Rohmah",
+      "Bintang": 5,
+      "Tanggal": "2022-08-30T06:32:49.613Z",
+      "Ulasan": "Pelayanan sangat baik dan ramah",
+      "teks_final": "pelayanan baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Alby Fauzi",
+      "Bintang": 5,
+      "Tanggal": "2022-08-16T12:01:31.475Z",
+      "Ulasan": "Cukup bersahabat dan pelayana  cukup memuaskan",
+      "teks_final": "cukup bersahabat pelayana cukup memuaskan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Sahi Li",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T07:45:35.343Z",
+      "Ulasan": "Walau rame, tapi santai... Pelayanan nya ramah,... Dengan d bantu satpam",
+      "teks_final": "walau rame santai pelayanan ramah bantu satpam",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9735
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Novi ayu indriani",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T05:37:10.845Z",
+      "Ulasan": "Pelayanan ramah dari CS Teller Satpam, Dan Jukir nya baik hati ☺️",
+      "teks_final": "pelayanan ramah cs teller satpam jukir baik hati",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9496
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Widodo Yudianto",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T05:18:38.731Z",
+      "Ulasan": "Bni Cerme Mantap 👍👍",
+      "teks_final": "bni cerme bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "sutikno uchathifaazka",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T05:04:49.815Z",
+      "Ulasan": "Bagus tempatx, nyaman. Pelayanan cepat",
+      "teks_final": "bagus tempatx nyaman pelayanan cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Amirul Muminin",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T04:53:45.626Z",
+      "Ulasan": "Pelayanan bagus teler ramah",
+      "teks_final": "pelayanan bagus teler ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "ferry Yadi",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T04:34:02.867Z",
+      "Ulasan": "Pelayanan cepat .teller dan cs ramah",
+      "teks_final": "pelayanan cepat teller cs ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9868
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Anak Bungsu",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T03:23:24.206Z",
+      "Ulasan": "Good job",
+      "teks_final": "good job",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.993
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Feni Rahma",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T03:20:14.645Z",
+      "Ulasan": "Bagus",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Cerme Ae",
+      "Bintang": 5,
+      "Tanggal": "2022-08-15T02:38:27.651Z",
+      "Ulasan": "sangat baik",
+      "teks_final": "baik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9844
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Lailatul Sholikah",
+      "Bintang": 5,
+      "Tanggal": "2022-08-04T02:31:00.531Z",
+      "Ulasan": "baik",
+      "teks_final": "baik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9844
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Alysia salsabillah nuriz zahrah",
+      "Bintang": 5,
+      "Tanggal": "2022-08-02T09:26:45.280Z",
+      "Ulasan": "Ada ATM setor tunai yg sangat membanggakan",
+      "teks_final": "atm setor tunai membanggakan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9789
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Ria Mariana",
+      "Bintang": 5,
+      "Tanggal": "2022-08-02T08:48:59.592Z",
+      "Ulasan": "Petugas ramah dan sigap dalam membantu nasabah. Sip deh",
+      "teks_final": "petugas ramah sigap membantu nasabah sip",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9826
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Goldina Fathin",
+      "Bintang": 5,
+      "Tanggal": "2022-08-02T08:42:33.166Z",
+      "Ulasan": "Pelayananya cepat dan ramah",
+      "teks_final": "pelayananya cepat ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Ifsal Av",
+      "Bintang": 5,
+      "Tanggal": "2022-08-02T05:29:18.078Z",
+      "Ulasan": "Teller dan Customer service nya memberikan pelayanan yang memuaskan",
+      "teks_final": "teller customer service memberikan pelayanan memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9086
+    }
+  ]
+}

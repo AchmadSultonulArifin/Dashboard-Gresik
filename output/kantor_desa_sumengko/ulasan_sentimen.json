@@ -1,0 +1,58 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Desa Sumengko",
+  "rating": 3.4,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 25.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 25.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Faranandia Arsyla",
+      "Bintang": 3,
+      "Tanggal": "2026-06-27T15:00:33.956Z",
+      "Ulasan": "Lingkungan bersih. Tapi sayang untuk pendataan orang perantau belum tepat sesuai aturan. Contohnya kos terlalu bebas. Tolong diperbaiki aturannya. Biar tidak terjadi hal hal negatif. Dulu pernah kejadian dekat kantor desa. Orang meninggal dalam kos. Mohon dikoreksi. Terimakasih",
+      "teks_final": "lingkungan bersih sayang pendataan orang perantau tepat sesuai aturan contohnya kos terlalu bebas tolong diperbaiki aturannya biar terjadi hal hal negatif dulu pernah kejadian dekat kantor desa orang meninggal kos mohon dikoreksi terimakasih",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9581
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Cakdi ayaeRyo AyaeRyo",
+      "Bintang": 5,
+      "Tanggal": "2024-09-19T03:22:10.475Z",
+      "Ulasan": "Sumengko Krajan Wringinanom Gresik",
+      "teks_final": "sumengko krajan wringinanom gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9933
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Zhie Zhie",
+      "Bintang": 3,
+      "Tanggal": "2018-10-20T15:25:48.468Z",
+      "Ulasan": "Seep",
+      "teks_final": "seep",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9683
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 4,
+      "Tanggal": "2017-07-08T15:26:02.444Z",
+      "Ulasan": "Kantor kelurahan sumengko.",
+      "teks_final": "kantor kelurahan sumengko",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9964
+    }
+  ]
+}

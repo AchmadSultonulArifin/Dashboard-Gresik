@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "stadion randu alas gading watu",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Saiful Arif",
+      "Bintang": 5,
+      "Tanggal": "2022-10-04T13:03:33.267Z",
+      "Ulasan": "Asoy",
+      "teks_final": "asoy",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9919
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ppras Erys",
+      "Bintang": 5,
+      "Tanggal": "2022-10-03T07:43:06.529Z",
+      "Ulasan": "Special Ikan bakar & Sambal pencit mantap. Lokasi Tempat makan yg nyaman. Pelayanan yg ramah & sopan.",
+      "teks_final": "special ikan bakar sambal pencit bagus lokasi tempat makan nyaman pelayanan ramah sopan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    }
+  ]
+}

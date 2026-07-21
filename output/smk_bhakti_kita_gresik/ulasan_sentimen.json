@@ -1,0 +1,36 @@
+{
+  "kategori": "Pendidikan",
+  "tempat": "SMK BHAKTI KITA GRESIK",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Suli Yanto",
+      "Bintang": 5,
+      "Tanggal": "2026-04-07T00:10:52.195Z",
+      "Ulasan": "SMK BHAKTI KITA JAYA",
+      "teks_final": "smk bhakti jaya",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9223
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "Center Oppo87",
+      "Bintang": 1,
+      "Tanggal": "2026-02-13T05:37:11.614Z",
+      "Ulasan": "Kenek bijuk karo guru inisial e \"H\" alamat e mojosari jare ngekek i gawean tibak e duwekku digondol",
+      "teks_final": "kenek bijuk karo guru inisial alamat mojosari jare ngekek gawean tibak duwekku digondol",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9919
+    }
+  ]
+}

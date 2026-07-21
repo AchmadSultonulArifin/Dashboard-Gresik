@@ -1,0 +1,47 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Bni wonrd Bank",
+  "rating": 4.2,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 33.3,
+  "persen_netral": 66.7,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Fajar Aulia",
+      "Bintang": 1,
+      "Tanggal": "2023-11-06T04:10:48.868Z",
+      "Ulasan": "Petugss nya cuma 1, pelayanan terhambat lama bgtt",
+      "teks_final": "petugss cuma pelayanan terhambat lama bgtt",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9979
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2018-05-29T17:21:28.712Z",
+      "Ulasan": "Tarikan tunai atm bni di rsud ibnu sina gresik.",
+      "teks_final": "tarikan tunai atm bni rsud ibnu sina gresik",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9977
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nashruddin",
+      "Bintang": 5,
+      "Tanggal": "2017-02-11T08:20:49.274Z",
+      "Ulasan": "Buka 24jam",
+      "teks_final": "buka 24jam",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5749
+    }
+  ]
+}

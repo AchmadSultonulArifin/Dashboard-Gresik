@@ -1,0 +1,102 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Pos Panceng",
+  "rating": 3.9,
+  "total_ulasan": 8,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 6,
+  "persen_positif": 25.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 75.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "DEWISEPTIAN90",
+      "Bintang": 1,
+      "Tanggal": "2026-03-13T14:51:26.525Z",
+      "Ulasan": "Nggak rekomen buat yang mau kirim barang ke luar negeri ribet banget plus dipersulit",
+      "teks_final": "rekomen buat mau kirim barang luar negeri ribet banget plus dipersulit",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Masden",
+      "Bintang": 5,
+      "Tanggal": "2025-08-15T05:59:09.451Z",
+      "Ulasan": "Pelayanan ramah dan cepat",
+      "teks_final": "pelayanan ramah cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "syafiq alamin",
+      "Bintang": 1,
+      "Tanggal": "2020-12-17T06:07:56.366Z",
+      "Ulasan": "udah jelas no pengiriman 19B malah ditulis 196 , gajelas",
+      "teks_final": "udah jelas no pengiriman 19b malah ditulis gajelas",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.989
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Maskur Hanif",
+      "Bintang": 5,
+      "Tanggal": "2020-11-11T03:00:43.251Z",
+      "Ulasan": "Pelayanannya baik sangat ramah",
+      "teks_final": "pelayanannya baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "widy yaya",
+      "Bintang": 5,
+      "Tanggal": "2019-09-25T03:46:57.823Z",
+      "Ulasan": "Petugasnya ramah",
+      "teks_final": "petugasnya ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9958
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "As share is us",
+      "Bintang": 5,
+      "Tanggal": "2018-03-24T04:34:34.410Z",
+      "Ulasan": "Pelayanan semakin ok.",
+      "teks_final": "pelayanan semakin oke",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Ismu hadi",
+      "Bintang": 4,
+      "Tanggal": "2016-11-07T16:28:17.479Z",
+      "Ulasan": "mudah dan cpatt",
+      "teks_final": "mudah cpatt",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.98
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "KuliBank Cell",
+      "Bintang": 5,
+      "Tanggal": "2016-07-19T10:19:27.519Z",
+      "Ulasan": "ok",
+      "teks_final": "oke",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9063
+    }
+  ]
+}

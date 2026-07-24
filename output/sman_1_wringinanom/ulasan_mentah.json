@@ -1,0 +1,521 @@
+{
+  "title": "SMAN 1 Wringinanom",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Sekolah menengah",
+  "address": "Lebanisuko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",
+  "neighborhood": "Lebanisuko, Kecamatan Wringinanom",
+  "street": null,
+  "city": "Kabupaten Gresik",
+  "postalCode": "61176",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "website": "https://www.sman1wringinanomgresik.sch.id/",
+  "phone": "",
+  "phoneUnformatted": "",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.3765339,
+    "lng": 112.526811
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "JGFG+9P Lebanisuko, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": null,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJHR0evlsPeC4REZDjGmZqGOI",
+  "categories": [
+    "Sekolah menengah"
+  ],
+  "fid": "0x2e780f5bbe1e1d1d:0xe2186a661ae39011",
+  "cid": "16291888638783098897",
+  "reviewsCount": null,
+  "imagesCount": 232,
+  "imageCategories": [
+    "Semua",
+    "Oleh pemilik",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-22T10:09:54.661Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 99
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 93
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": []
+  },
+  "openingHours": [
+    {
+      "day": "Rabu",
+      "hours": "06.45 to 15.30"
+    },
+    {
+      "day": "Kamis",
+      "hours": "06.45 to 15.30"
+    },
+    {
+      "day": "Jumat",
+      "hours": "06.45 to 16.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "06.45 to 15.30"
+    },
+    {
+      "day": "Selasa",
+      "hours": "06.45 to 15.30"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMAN 1 Kedamean",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMA Negeri 1 Balongpanggang",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMAN 1 Menganti Gresik",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMAN 1 DRIYOREJO",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMA Negeri 1 Cerme",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=SMAN%201%20Wringinanom&query_place_id=ChIJHR0evlsPeC4REZDjGmZqGOI",
+  "searchPageUrl": "https://www.google.com/maps/search/SMAN%201%20Wringinanom?hl=id",
+  "searchString": "SMAN 1 Wringinanom",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQ4xxrN2apoVq2pJ-vYm6rIVX9SN0K76M7cf-CXR8qDGOblSxE6RZ0iYEZAjxjh5JLojbPifGuD5o0g58wGRJraZMN0MyuzRSXxx5KAkMvgBKKyPAscuxA3BHG-BtvjoM3Cmxc=w408-h306-k-no",
+  "kgmid": "/g/1q5blydbd",
+  "openingHoursBusinessConfirmationText": "Diperbarui oleh pengguna lain 7 minggu yang lalu",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [],
+  "leadsEnrichment": [],
+  "kategori": "Pendidikan"
+}

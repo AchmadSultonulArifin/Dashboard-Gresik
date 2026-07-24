@@ -33,14 +33,7 @@
   ],
   "fid": "0x2e77fe272a9d31e3:0xaee337c68e4ea400",
   "cid": "12601977508243350528",
-  "reviewsCount": 731,
-  "reviewsDistribution": {
-    "oneStar": 123,
-    "twoStar": 31,
-    "threeStar": 21,
-    "fourStar": 28,
-    "fiveStar": 528
-  },
+  "reviewsCount": 733,
   "imagesCount": 125,
   "imageCategories": [
     "Semua",
@@ -49,7 +42,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T10:43:46.104Z",
+  "scrapedAt": "2026-07-22T10:05:44.624Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,8 +50,8 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Ramai seperti biasa",
-  "popularTimesLivePercent": 94,
+  "popularTimesLiveText": "Tidak seramai biasanya",
+  "popularTimesLivePercent": 6,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -749,14 +742,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
     },
@@ -775,18 +760,18 @@
     {
       "day": "Minggu",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
+      "hours": "Buka 24 jAM"
     }
   ],
   "additionalOpeningHours": {
     "Pesan antar": [
-      {
-        "day": "Senin",
-        "hours": "10.00–15.00"
-      },
-      {
-        "day": "Selasa",
-        "hours": "10.00–15.00"
-      },
       {
         "day": "Rabu",
         "hours": "10.00–15.00"
@@ -806,17 +791,17 @@
       {
         "day": "Minggu",
         "hours": "Tutup"
-      }
-    ],
-    "Jam layanan online": [
+      },
       {
         "day": "Senin",
-        "hours": "07.00–20.00"
+        "hours": "10.00–15.00"
       },
       {
         "day": "Selasa",
-        "hours": "07.00–20.00"
-      },
+        "hours": "10.00–15.00"
+      }
+    ],
+    "Jam layanan online": [
       {
         "day": "Rabu",
         "hours": "07.00–20.00"
@@ -835,6 +820,14 @@
       },
       {
         "day": "Minggu",
+        "hours": "07.00–20.00"
+      },
+      {
+        "day": "Senin",
+        "hours": "07.00–20.00"
+      },
+      {
+        "day": "Selasa",
         "hours": "07.00–20.00"
       }
     ]
@@ -954,6 +947,22 @@
     ]
   },
   "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Satelit%20Kalimantan&query_place_id=ChIJ4zGdKif-dy4RAKROjsY3464",
+  "searchPageUrl": "https://www.google.com/maps/search/Kalimantan%20Satellite%20Clinic?hl=id",
+  "searchString": "Kalimantan Satellite Clinic",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlECloR1Jrr60GL_uBXJQg4rMoe-B4tBeEqgQivDTvDCAFJT3uM87jbHmQxDKWckdZtBHVV2a7wVA1PckX-gm0k9XYAfRn3AmNqJ0dGRdGPXIoQgb2y7367-c14hxm0BwBf4-fB=w408-h313-k-no",
+  "kgmid": "/g/11b6gddv0c",
+  "reviewsDistribution": {
+    "oneStar": 123,
+    "twoStar": 31,
+    "threeStar": 21,
+    "fourStar": 28,
+    "fiveStar": 530
+  },
+  "questionsAndAnswers": [],
   "updatesFromCustomers": {
     "text": "lapor keluh kesah saran mending lewat aplikasi jln mobile lebih sat set.",
     "language": "id",
@@ -966,24 +975,15 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMsrunlxLFzkm_mthKSBA9ilmHe3ZH3aLy2B6tjp8p5ZURehebVaMwYk4eG-YxZCMUoCNMLaL6on31jLVERWJ-u3fHVOm7inQFVFco7frFwEkDcbLk4NARxyNl6pHD3uSAq7VXg=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmP8GhQynd_UWFWSx_Nu8Z1WfmVKSwenkhtBnrdyHyHb21dw0-gUMuitV8RYwpxtezxTpjT0LrLRwES9wjIfngijeU3VJ8a2cJOXUALjo4X4Nr9QLJKEOYiV9oRoERCxTxx4zGYM=k-no",
         "postDate": "setahun lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmP9FutjhImAmxE4-PRto97KuSeUGhZ7_eNWpCWLgLW5UZZQjymEeAYgGiSJJxNQ4jACQwGj3msrIOZMR1VvcJ36-dnaHIiWOEQK-VcRJhdpWbmJe1uMMJ53s7jY_duqxkcLttn03A=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPaXCWxsURu5Jnd_bmc-fJxfaVNbAZ7dgGL9QuVSgOtwiyYmGkyiE-ITZfvcGJ7k2Z1t_eSCSEbftiFEIWNuxEXrubTi9AHthljr04Yh9pfuw1uzAlKbNtavSVVVsX6Sseg5qnVMg=k-no",
         "postDate": "setahun lalu"
       }
     ]
   },
-  "url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Satelit%20Kalimantan&query_place_id=ChIJ4zGdKif-dy4RAKROjsY3464",
-  "searchPageUrl": "https://www.google.com/maps/search/Klinik%20Satelit%20Kalimantan?hl=id",
-  "searchString": "Klinik Satelit Kalimantan",
-  "language": "id",
-  "rank": 1,
-  "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm6Ru87AAnYXXCRuGhRwGxF2hmfD8SqYWRaWoyCeHuMMQJiVyoKrU18pbSQlMPI-mOmkYfrIbDJt_vqOM5OwTh0n8pr040ZPT5UNI4ldN3yx8IYXS-IxwDA85DA-JEAZg1kss9o=w408-h313-k-no",
-  "kgmid": "/g/11b6gddv0c",
-  "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
   "tableReservationProviders": [],
@@ -995,6 +995,58 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "105566827694883076713",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105566827694883076713?hl=id",
+      "name": "bambang hidayat",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJV1yqy7hruAv7JX68sMRcK_GIrdTLuV0JRwvPHzDzwlWg_5w=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "8 jam lalu",
+      "publishedAtDate": "2026-07-22T01:30:51.737Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT200dFJHZGhZVGRsUjFWcFNIWm1OWHBEVmkxVFJYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT200dFJHZGhZVGRsUjFWcFNIWm1OWHBEVmkxVFJYYxAB!2m1!1s0x0:0xaee337c68e4ea400!3m1!1s2@1:CAIQACodChtycF9oOm4tRGdhYTdlR1VpSHZmNXpDVi1TRXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116108822752792470980",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116108822752792470980?hl=id",
+      "name": "Victory S",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK2M4h_bqmqXC0LxO5xdhmB0hOCy9APnGkYsEPIuh2GkoAnSA=s1920-c-rp-mo-br100",
+      "text": "pelayanannya bagus semua staff bisa terjun di satu layanan ke layanan yang lain. terutama di bagian satpam dan petugas pendaftaran, satpam saja bisa mendaftarkan ini keren patut di pertahankan–juga saya pernah dibantu mas satpamnya dari tidak punya akun mobile jkn sampai saya bisa mendapatkan antrian online. ✨👍\n\nnamun sangat disayangkan untuk panggilan dokter/poli sangat lama sekali, daftar jam 07.30 dipanggil 09.35. di ugd juga sering petugasnya ketawa2 padahal ada yang sakit. sepertinya yang harus jadi perhatian dari manajemen adalah petugas bagian poli dan ugd.",
+      "textTranslated": null,
+      "publishAt": "19 jam lalu",
+      "publishedAtDate": "2026-07-21T15:00:26.092Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21OS1owYzNSRkJGZVVKR2FuVmliRnBMUldGalgyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OS1owYzNSRkJGZVVKR2FuVmliRnBMUldGalgyYxAB!2m1!1s0x0:0xaee337c68e4ea400!3m1!1s2@1:CAIQACodChtycF9oOmNKZ0c3RFBFeUJGanVibFpLRWFjX2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "105724838585707730530",
       "reviewerUrl": "https://www.google.com/maps/contrib/105724838585707730530?hl=id",
       "name": "Nifa Gresik",
@@ -1003,7 +1055,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW4T7YVLZkjWpM1EP939elbw0yVYcpG4SmWlCDYhApLBrNiE9Gd=s1920-c-rp-mo-br100",
       "text": "puas pelayanannya sangat baik",
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "5 hari lalu",
       "publishedAtDate": "2026-07-17T03:18:34.661Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xSQ1VWSm5PV3hrTFVWQlR6Qm9jVWh2UlVGT1lrRRAB",
@@ -1029,7 +1081,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVuQ_8xp_nA0NN8kU8oOYeTk99vowagrwbZ_BrDJeLOq_rJq8g3=s1920-c-rp-mo-br100",
       "text": "pelayanannya bagus",
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "5 hari lalu",
       "publishedAtDate": "2026-07-17T02:03:13.552Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxeWFrd3hibTVYZUV4SGVFNTFXbHBFWmkxRVVVRRAB",
@@ -1055,7 +1107,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJgy0txO5PM4XnoqKpT3ZjPePaiPsi4J5ntrKehWMobetA30Q=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "5 hari lalu",
       "publishedAtDate": "2026-07-17T01:01:16.171Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25ONVRFZHNObHBKUmxSTGVrWkJUSE13TWtNeFpIYxAB",
@@ -1081,7 +1133,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX4ukj8ck0h0VXQ7mWqaU4_SmOOO984fHosd07ydfNE58w-3io=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "5 hari lalu",
       "publishedAtDate": "2026-07-17T01:00:45.120Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s4eGNtRkNOMjVWUlY4d2RtSlZjRE5HVHpCc1UyYxAB",
@@ -1107,7 +1159,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXXsxRsCDB3IYWAMi5V_WxPOZQ48z2Mgphmke5eOnOTMohT6dV0=s1920-c-rp-mo-br100",
       "text": "Biarkan berita yang berbicara",
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "5 hari lalu",
       "publishedAtDate": "2026-07-16T16:35:30.916Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1cmFrVlZWMlJXWjJGcFdERTRibWRTT0VaVVQzYxAB",
@@ -1118,7 +1170,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOGpoKPN8MU2YED_lnKRLz8xyjsSPpsusKR8x6ru7dEMuAYYeHxAPqtqk7REVtq9UTSml5H-qbLfJYUexTNacFnksc_vzRNAj7DgPWgBEApv1W8e5H9hFmDBJ8GnbJpxr2_Ya15kCKGC5Ty=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNvjDKznUpSgLub5hHqKb6xS0w0Ly76KV8W30jZ17IcFPcrP7-iQFwkV5qCCw7LPtV_2PVe_D5jdHCcgPp5oWeAEmvprDrj3aEa1JXGr6NLcgm1buRApRPvJ_ZIwXBeIhccZY-F1VKUW3hs=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1213,7 +1265,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLY0iBL-KMOvVDd9zrTtzuhuBjGQyUokt44clRkYPF-kHiImg=s1920-c-rp-mo-br100",
       "text": "Promo pembersihan karang gigi dengan dokter arinil,sangat nyaman dan mantab",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-07T09:03:37.868Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21SbU0ybHZSalJZWkdvdFRtZ3RRMVpFYmtwbk5XYxAB",
@@ -1629,7 +1681,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVukK1pkCQTzaW9LpPzWLH0gw_quB8X3uE1KgWDvieOGEMeEH3z=s1920-c-rp-mo-ba12-br100",
       "text": "pelayanan makin bagus",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-06-30T05:07:37.805Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oM2VHbEhZVVpTWWsxWVVITXpZbkZXUlRGaVpuYxAB",
@@ -1655,7 +1707,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIspv4d8QfYMPBi-_Tv8_ZZJUSKg3NWKgDwb_C3Jebk0erl6Q=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-06-30T03:06:51.295Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xSYVkxODFUSEpMV0dkYVdVMVhVMjFMTWxOT2FYYxAB",
@@ -1712,58 +1764,6 @@
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tFeFVGSlhVbTVJYW0wek9GOU5VbnA0UVVaaVJsRRAB",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tFeFVGSlhVbTVJYW0wek9GOU5VbnA0UVVaaVJsRRAB!2m1!1s0x0:0xaee337c68e4ea400!3m1!1s2@1:CAIQACodChtycF9oOkExUFJXUm5Iam0zOF9NUnp4QUZiRlE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 1,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "105242092090271434961",
-      "reviewerUrl": "https://www.google.com/maps/contrib/105242092090271434961?hl=id",
-      "name": "Venny Bauty",
-      "reviewerNumberOfReviews": 11,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWVG2LgK9q0r7Gi-CRD9pkIrzwl7zoMRvGvbbYImqY9VGZ5dvAs=s1920-c-rp-mo-ba12-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "sebulan lalu",
-      "publishedAtDate": "2026-06-14T21:27:07.732Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21zdFJVWjZaV2xrVjFGMWRrTjVWRVpUWHpoYWNsRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21zdFJVWjZaV2xrVjFGMWRrTjVWRVpUWHpoYWNsRRAB!2m1!1s0x0:0xaee337c68e4ea400!3m1!1s2@1:CAIQACodChtycF9oOmstRUZ6ZWlkV1F1dkN5VEZTXzhaclE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "109625387017544846612",
-      "reviewerUrl": "https://www.google.com/maps/contrib/109625387017544846612?hl=id",
-      "name": "Luthfi MuhammadNur",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIjh42Ssu5_pJK5Vl_NCIyJ02cZ5gduouvx-RVbr08Q3M5fPQ=s1920-c-rp-mo-br100",
-      "text": "Aturan nya pendaftaran sering berubah.\nTerakhir asam lambung naik dada sesak panas. Ke UGD Sruh ke poli umum dulu, sdah daftar online tidak dipanggil ternyata harus lapor loket dulu. Sdah daftar loket tdak di panggil 1jam lebih. Saat sdah di panggil ke poli 3 ternyata surat mengarah ke poli 1 dan di suruh antri lagi hampir 3 jam nahan dada panas dan sesak. Akhirnya saya pulang dengan rasa kecewa penanganan dr klinik satelit. BPJS kelas 1 saja pelayanan seperti ini apalagi 2 dan 3.",
-      "textTranslated": null,
-      "publishAt": "sebulan lalu",
-      "publishedAtDate": "2026-06-12T01:14:20.278Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tOemEybElZVnBtZERsdlVFMUJlR0p5ZDBGM01uYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOemEybElZVnBtZERsdlVFMUJlR0p5ZDBGM01uYxAB!2m1!1s0x0:0xaee337c68e4ea400!3m1!1s2@1:CAIQACodChtycF9oOkNza2lIYVpmdDlvUE1BeGJyd0F3Mnc%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 1,
       "rating": null,

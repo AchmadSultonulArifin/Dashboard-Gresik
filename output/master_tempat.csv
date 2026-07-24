@@ -1,531 +1,344 @@
-﻿kategori,nama,alamat,rating,jumlah_ulasan
-Kesehatan,Bd Ismari Hastuti,"Jl. Tanjungan No.1, Dusun Guo, Sumput, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",2.0,1.0
-Kesehatan,Bidan Kunti,"7P74+H6Q, Diponggo, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Kesehatan,Ella Skincare Gresik,"Jl. Veteran No. 3, Sidomoro, Kebomas, Injen Timur, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,699.0
-Kesehatan,"Griya Sehat Ahsan : Pengobatan Alternatif PAZ ALKASAW Jantung, Saraf Kejepit, GERD, Stroke, Diabetes, Autis, Speech delay","Perum Kota Baru Driyorejo Jl. Mutiara 1.2 No.11B, AB No.01, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,44.0
-Kesehatan,KLINIK KRISNA 2 PPS GRESIK,"Jl. Safir Pondok Permata Suci (PPS, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.6,293.0
-Kesehatan,KLINIK PRATAMA RAWAT INAP BULAN MEDIKA,"Jl. Raya Ambeng Ambeng No.KM 22, Banjai Sari, Banjarsari, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61162, Indonesia",4.9,21.0
-Kesehatan,KLINIK RI AL-MUBAROK,"Jalan Raya No.Km.32, Krajan, Lebaniwaras, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.7,169.0
-Kesehatan,Kantor Kesehatan Pelabuhan Kelas 1 Surabaya Wilker Gresik,"RMV5+7M8, No, Jl. Harun Thohir No.37, Pulopancikan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61113, Indonesia",4.5,48.0
-Kesehatan,Klinik & Apotek Semen Gresik GKB,"Jl. Kalimantan No.179, Ponganganrejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.8,114.0
-Kesehatan,Klinik Cipta Medika Driyorejo,"Jl. Ruko Bukit Citra Mas No.RB.3, Paras, Petiken, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.1,94.0
-Kesehatan,Klinik Cipta Medika GKB,"Jl. Balikpapan No.6, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.6,158.0
-Kesehatan,Klinik Cipta Medika Soetomo,"Jl. Dr. Soetomo No.149, Trate, Tlogopatut, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.8,238.0
-Kesehatan,Klinik Ciptamedika Wahidin,"Jl. Dr. Wahidin Sudirohusodo No.110, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.3,87.0
-Kesehatan,Klinik Kecantikan Clarice Beauty Driyorejo,"ruko CBD Citraland, Jl. Raya Petiken No.7 blok S3, RW.9, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,3376.0
-Kesehatan,Klinik Mabarrot Hasyimiyah NU Manyar,"Jl. Kyai Sahlan I No.21, Manyarejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.8,211.0
-Kesehatan,Klinik Mabarrot Husada Driyorejo,"Depan Citraland, Jl. Raya Petiken No.99, Mulung, Petiken, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.3,11.0
-Kesehatan,Klinik Mata KMU Gresik,"Jl. Sumatra No.27F, Gn. Malang, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.9,1939.0
-Kesehatan,Klinik Mitra Medicare Driyorejo,"Jl. Raya Driyorejo No.KM. 23, Dusun Cangkir, Pacar Keling, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.2,131.0
-Kesehatan,Klinik Mitra Medicare Suci,"Jl. Kyai H. Syafiꞌi No.100, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.0,221.0
-Kesehatan,Klinik Mitra Medika,"JGCH+C3G, Panggang, Sembung, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",3.0,2.0
-Kesehatan,Klinik PPK I PT Petrokimia Gresik,"Jl. Jenderal Ahmad Yani No.09 & 11, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.3,193.0
-Kesehatan,Klinik Panglima Sudirman,"Jl. Panglima Sudirman, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.1,33.0
-Kesehatan,Klinik Pelabuhan Gresik,"JL Kom L Yos Sudarso I No.1, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",3.0,1.0
-Kesehatan,Klinik Pratama 124 Kartini,"Ruko Andalusia Square, Jl. Kartini No.7 Blk B-4, Injen Timur, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.3,50.0
-Kesehatan,Klinik Pratama Medika 43,"Jl. Raya Bambe No.125, Bangkingan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.6,18.0
-Kesehatan,Klinik Pratama Pusura,"Ruko Dinari, Jl. Panglima Sudirman No.123, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.0,2.0
-Kesehatan,Klinik RI Mabarrot Wringinanom,"Jl. Raya Wringinanom No.15, RT.1/RW.1, Wringianom, Wringinanom, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.3,115.0
-Kesehatan,Klinik RS Semen Gresik Veteran,"Jl. Kartini No.280, Kb. Dalem, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.8,484.0
-Kesehatan,Klinik Rawat Inap Puspa Anwar Medika,"Jl. Raya Wringinanom No.1, RT.01/RW.01, Kandang Asin, Wringinanom, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.9,270.0
-Kesehatan,Klinik Rumah Sehat Tenaru,"Dusun Tenaru, Tenaru, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.8,52.0
-Kesehatan,Klinik Satelit Kalimantan,"Jl. Kalimantan No.29-31, Wonorejo, GKB, Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.1,731.0
-Kesehatan,Klinik Semen Gresik PPS,"Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.9,289.0
-Kesehatan,Klinik Utama Gresik,"QH46+QVQ, Geger Kulon, Ikerikergeger, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.8,228.0
-Kesehatan,Klinik Wringinanom (RS Petrokimia Gresik Grup),"ds. Sumengko, Jl. Raya Wringinanom, Sidomoro, Pasinan Lemahputih, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.4,43.0
-Kesehatan,Majesta Clinic,"Jalan No.RT 13, Bureng Kidul, Kedunganyar, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",5.0,1.0
-Kesehatan,Naavagreen Gresik,"Jl. Kartini No.216, Injen Barat, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.9,711.0
-Kesehatan,PUSKESMAS DADAPKUNING,"Jl. Raya Dadap Kuning No.32, Dadapkuning, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.3,86.0
-Kesehatan,PUSKESMAS KARANGANDONG,"Jl. Karangandong No.6, Dusun Banjarsari, Banjaran, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.0,191.0
-Kesehatan,PUSKESMAS PANCENG,"Jl. Raya Panceng No.58 Prupuh, Ketanen, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",4.5,361.0
-Kesehatan,PUSTU Kepuh Teluk,"7P34+VGR, Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Kesehatan,Perumahan Griya Kencana Driyorejo Kabupaten Gresik,"Perum Graha Mutiara I, Mojosarirejo, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur, Indonesia",4.3,176.0
-Kesehatan,Polindes Diponggo,"7P82+697, Diponggo, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Kesehatan,Praktek Mandiri Ners. Aris Nasution. Cht,"JGHX+C63, Tanjung, Pasinan Lemahputih, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",5.0,2.0
-Kesehatan,Puskesmas Alun-Alun,"Jl. Pahlawan No.1, Bedilan, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61113, Indonesia",3.9,342.0
-Kesehatan,Puskesmas Benjeng,"JL Raya Nyanyat No.34, Benjeng, Bulurejo, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",4.0,216.0
-Kesehatan,Puskesmas Bungah,"Jl. Raya Bungah No.15, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",4.3,159.0
-Kesehatan,Puskesmas Cerme,"Jl. Raya Cerme Kidul No.52, Cerme Kidul, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.0,339.0
-Kesehatan,Puskesmas Duduk Sampeyan,"Jl. Raya No.45, Duduksampean, Duduk Sampeyan, Kec. Duduksampeyan, Kabupaten Gresik, Jawa Timur 61162, Indonesia",3.9,184.0
-Kesehatan,Puskesmas Dukun,"Jalan Raya No.37, Kalirejo, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia",4.2,52.0
-Kesehatan,Puskesmas Gending,"Jl. Veteran No.175, Gending Wetan, Singosari, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61123, Indonesia",4.6,312.0
-Kesehatan,Puskesmas Industri,"Jl. Arif Rahman Hakim Gresik No.100, Pekauman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.5,451.0
-Kesehatan,Puskesmas Kebomas,"Jl. Sunan Giri No.31, Kesemen, Kebomas, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",3.9,557.0
-Kesehatan,Puskesmas Manyar,"Jl. Raya Manyar No.Timur, RW.1, Tenger, Manyarejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.6,299.0
-Kesehatan,Puskesmas Nelayan,"Jl. Gubernur Suryo No.33, Lumpur, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",3.9,115.0
-Kesehatan,Puskesmas Pembantu,"MH2W+P9R, Jl. Raya Mojosarirejo, Perum Sumput Asri, Sumput, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.1,9.0
-Kesehatan,Puskesmas Pembantu (PUSTU) Desa Lebak,"5J79+GJM, Sungairaya, Lebak, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.7,3.0
-Kesehatan,Puskesmas Pembantu Desa Kramat,"XJ2X+23F, Unnamed Road, Ujungsawo, Kramat, Kec. Bungah, Kabupaten Gresik, Jawa Timur, Indonesia",,
-Kesehatan,Puskesmas Pembantu Singosari,"Jl. Kapten Dulasim No.63, Jegong, Pulopancikan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,1.0
-Kesehatan,"Puskesmas Sangkapura, Gresik","Jl. Raya Rujing No.17, Sungai Tlk., Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.3,20.0
-Kesehatan,Puskesmas Sidayu,"Raya, Pekuncen, Raci Tengah, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",3.9,77.0
-Kesehatan,Puskesmas Sukomulyo,"Jl. Kalimantan No.104, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.4,435.0
-Kesehatan,Puskesmas Tambak Pulau Bawean Gresik Jawa Timur,"7J8X+QC8, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",4.9,31.0
-Kesehatan,RS Randegansari Husada,"Jl. Telapak, RT.2/RW.1, Mojo Kopek, Randegansari, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.3,1108.0
-Kesehatan,RS. Surya Medika,"Jl. Raya Laban Kulon No.58, RT.13/RW.01, Laban Kulon, Laban, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.6,1563.0
-Kesehatan,RSI Cahaya Giri Gresik,"Jl. Raya Bringkang No.90-94, Talun, Bringkang, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.9,1087.0
-Kesehatan,RSU Denisa Gresik,"Jl. Dr. Wahidin Sudirohusodo No.736, Dahanrejo, Jawa Timur, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.8,1338.0
-Kesehatan,RSUD Gresik Sehati,"MGGF+C9R, Jl. Raya Slempit, Sundo, Belahanrejo, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",4.9,67.0
-Kesehatan,RSUD Ibnu Sina Gresik,"Jl. Dr. Wahidin Sudirohusodo No.243B, Kembangan, Klangonan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.2,1808.0
-Kesehatan,Rumah Sakit Eka Husada,"Jl. Raya Menganti, Sidomulyo, Sidojangkung, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.1,1211.0
-Kesehatan,Rumah Sakit Islam Nyai Ageng Pinatih,"Jl. KH. Abdul Karim No.76 - 78, Trate, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.9,2543.0
-Kesehatan,Rumah Sakit Muhammadiyah Gresik,"Jl. Kh. Kholil No.88, Kroman, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61115, Indonesia",4.7,1890.0
-Kesehatan,Rumah Sakit Petrokimia Gresik,"Jl. Jenderal Ahmad Yani No.69, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.8,4771.0
-Kesehatan,Rumah Sakit Petrokimia Gresik Driyorejo,"Jl. Raya Legundi No.KM.0,5, Dusun Legundi, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.5,1590.0
-Kesehatan,Rumah Sakit Semen Gresik,"RS Semen Gresik, Gg. I No.280, Kesemen, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.8,4315.0
-Kesehatan,Rumah Sakit Umum Walisongo 1 Gresik,"Jl. Raya No.KM 4, Wonorejo, Karang Semanding, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.9,1036.0
-Kesehatan,Rumah Sakit Wates Husada Gresik,"Jl. Raya Wates No.Utara, Kedungpiring, Kedungpring, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.8,2406.0
-Kesehatan,Rumah Sehat Cahaya Raga,"JF4R+9PM, Bureng Kidul, Kedunganyar, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",5.0,1.0
-Kesehatan,"UGD, Puskesmas Alun alun Gresik","Jl. Pahlawan No.7, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61113, Indonesia",3.3,4.0
-Kesehatan,UPT Puskesmas Balongpanggang,"Jl. Kedungpring No.08, Wates, Kedungpring, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.4,253.0
-Kesehatan,UPT Puskesmas Tambak,"Jl.Bhakti No.44, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",5.0,1.0
-Kesehatan,UPT. PUSKESMAS SEMBAYAT,"Jl. Raya Daendles No.19, Sembayat Timur, Karangrejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.1,91.0
-Kesehatan,Yellow Clinic Gresik,"Pertokoan Multi Sarana Plaza, Komplek Jl. Gubernur Suryo No.9-10 Blok C, Karangturi, Kroman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61117, Indonesia",4.9,69.0
-Kesehatan,bpm as-syifa sifaun nadliroh amd.keb,"JHF7+7F2, Jalan Raya, Wates, Pasinan Lemahputih, Wringinanom, Gresik Regency, East Java 61176, Indonesia",4.0,1.0
-Kesehatan,driyorejo,"MJ7M+Q36, Jl. Raya Granit Nila, Paras, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Kesehatan,eRDe Clinic,"Jl. Dr. Wahidin Sudirohusodo No.120, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.5,128.0
-Kesehatan,klinik mitra medicare manyar,"VJ98+W29, Jl. Raya Sukomulyo, Tenger, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.8,105.0
-Olahraga,Ambeng-ambeng Internasional Stadium,"RHM7+54M, Jl. Raya Ambeng Ambeng, Watangrejo, Ambeng Ambeng Watangrejo, Kec. Duduksampeyan, Kabupaten Gresik, Jawa Timur 61162, Indonesia",,
-Olahraga,BUYOS SPORT CENTER,"Jl. Kng Brotonegoro No.01, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.5,74.0
-Olahraga,DRS-Kolam Renang & Futsal,"QH4Q+PMM, JL. Raya Kepatihan, Menganti, Hendrosari, Gresik, Kabupaten Gresik, Jawa Timur 61174, Indonesia",3.8,32.0
-Olahraga,Edu Wisata Lontar Sewu (Hendrosari),"Jl. Raya Kepatihan, Hendrosari, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.4,5410.0
-Olahraga,GMT Stadion PariKesit,"JJXJ+RXW, Jl. Raya Tenaru, Dusun Gading, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.6,41.0
-Olahraga,GOR Bulutangkis Semen Gresik,"Unnamed Road, Kb. Dalem, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.8,66.0
-Olahraga,GOR PEMUDA MENARA,"5MH6+HF6, Gunungteguh, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Olahraga,GOR Petrokimia Gresik,"Jl. Kopi No.12, Sukodono, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",5.0,2.0
-Olahraga,GOR Tridharma Petrokimia Gresik,"RJRQ+MQM, Jalan Jenderal Ahmad Yani Karangpoh, Ngipik, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.6,1844.0
-Olahraga,Gelora 17 Agustus Balongpanggang,"Jl. Raya Balongpanggang No.9, Wates, Kedungpring, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.2,85.0
-Olahraga,Gor Giri Krida,"Ruko Kartini Megah, Jl. AIS Nasution No.45, Injen Barat, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.3,180.0
-Olahraga,Gor Sriwijaya,"Jl. Arif Rahman Hakim Gresik, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.3,128.0
-Olahraga,Indo Bola Futsal,"Tlogo Bedah, Hulaan, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",3.7,63.0
-Olahraga,Lapangan Olah Raga,"2FHJ+G68, Petung, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",3.7,3.0
-Olahraga,Sangkopi Badminton Arena,"Jl. Raya Kedanyang, Sekarkurung, Kedanyang, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.7,56.0
-Olahraga,Stadion Badak Arena Volly Ball Club,"MGPF+XXC, Lempung, Turirejo, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",,
-Olahraga,Stadion GPK,"PHX4+VCX, Moro Wudi Wetan, RT03/RW02, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",5.0,1.0
-Olahraga,Stadion Gelora Joko Samudro (GJS),"Jl. Veteran No.160, Gending Wetan, Singosari, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61123, Indonesia",4.4,2708.0
-Olahraga,Stadion Joko Slining,"3FVX+J8F, Jalan Raya, Ngemboh, Ngimboh, Ujungpangkah, Gresik Regency, East Java 61154, Indonesia",5.0,1.0
-Olahraga,Stadion PSB Bunut Randegansari (NOTO JIRO),"MJC7+RVR, Jl. Bunut Jl. Randegansari, Dusun Rejosari, Petiken, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.7,11.0
-Olahraga,Stadion Pelemwatu,"PHPM+5FC, Watu Wetan, Gempolkurung, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.4,57.0
-Olahraga,Stadion Petrokimia Gresik,"Jl. Noto Prayitno No.16, Karangturi, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.4,938.0
-Olahraga,Stadion Putra Raharja Fc Sidoraharjo,"MFFV+8QH, Jl. Dawarblandong - kedamean, Sumber Jambe, Sidoraharjo, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",4.9,13.0
-Olahraga,Stadion RIAZORE TURIREJO- KEDAMEAN,"MGVG+JXQ, Area Sawah/Kebun, Turirejo, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",5.0,1.0
-Olahraga,Stadion Semen Gresik,"RMH2+X4J, Jl. Kartini, Tuban Barat, Sidomoro, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.2,256.0
-Olahraga,Stadion Sidoraharjo,"Sumber Jambe, Sidoraharjo, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",5.0,2.0
-Olahraga,Stadion Sumberame,"JG28+3CW, Gempol, Sumberrame, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",3.0,4.0
-Olahraga,Trisakti Ketanen Soccerfield,"3C8P+MWQ, Jl. Raya Ketanen, Sono, Siwalan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",5.0,9.0
-Olahraga,WADUK STADION DESA SLEMPIT,"WADUK STADION, Area Sawah/Kebun, Slempit, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",4.9,31.0
-Olahraga,stadion randu alas gading watu,"PHF5+CMP, Jl. Raya Gading Watu, Peniron Wetan, Boteng, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",5.0,3.0
-Pelayanan Publik,Gresik Pos,"Jl. Kyai H. Syafiꞌi No.10, Dahanrejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",,
-Pelayanan Publik,KANTOR POS BUMDESA,"Jl. Pratama Indah RUKO No.MOR 07, Watu Wetan, Pelemwatu, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",,
-Pelayanan Publik,Kantor Pos (Agen Pos) AHS,"Jl. KH. Abdul Karim, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pelayanan Publik,Kantor Pos (Agen Pos) Agfa Sumput,"Jl. Sumput, RT.09/RW.02, Dusun Karanglo, Sumput, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",1.0,1.0
-Pelayanan Publik,Kantor Pos (Agen Pos) Anggun Jaya,"Jl. Granit Nila Jl. Pancawarna No.B 9A, Mulung, Driyorejo, Gresik Regency, East Java 61177, Indonesia",2.6,5.0
-Pelayanan Publik,Kantor Pos (Agen Pos) Drs.Fierdyo AS,"Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",2.0,1.0
-Pelayanan Publik,Kantor Pos (Agen Pos) Gang Macan,"RJ77+54F, Gg. Macan, Kedanyang, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",,
-Pelayanan Publik,Kantor Pos Balongpanggang,"Jl. Raya Balongpanggang, Kedungpring, Balongpanggang, Kedungrukun, Kedungpring, Gresik, Kabupaten Gresik, Jawa Timur 61173, Indonesia",2.5,17.0
-Pelayanan Publik,Kantor Pos Benjeng,"PGQ3+FHQ, Batokan, Bengkelolor, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",3.4,14.0
-Pelayanan Publik,Kantor Pos Bungah,"Jl. Raya Bungah, Abar Abir, Abar-Abir, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",2.8,40.0
-Pelayanan Publik,Kantor Pos Cerme,"Jl. Raya Cerme Kidul No.179, Cerme Lor, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",2.6,15.0
-Pelayanan Publik,Kantor Pos Dukun,"Jl. Raya Padangbandung, Sembungan Kidul, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia",3.6,14.0
-Pelayanan Publik,Kantor Pos Gresik,"Jalan Doktor Soetomo No.135, Tlogopatut, Gresik, Jl. Dr. Soetomo No.135, Trate, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",3.5,313.0
-Pelayanan Publik,Kantor Pos Gresik Manyar,"Jalan Raya Manyar No. 5, Manyarejo, Manyar, Tenger, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",2.5,61.0
-Pelayanan Publik,Kantor Pos Gresik Pelabuhan,"Jl. Basuki Rahmat No.23, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.2,17.0
-Pelayanan Publik,Kantor Pos Indonesia,"Jl. Raya Manyar No. 5, Manyar Rejo, Manyar, Maduran, Roomo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",2.9,10.0
-Pelayanan Publik,Kantor Pos Menganti,"Jl. Raya Bringkang No.495, Petul, Mojotengah, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",2.8,114.0
-Pelayanan Publik,Kantor Pos PPS,"Jl. Intan III No.8, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.1,15.0
-Pelayanan Publik,Kantor Pos Panceng,"Jl. Raya Prupuh Permai, Area Sawah, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",3.9,13.0
-Pelayanan Publik,Kantor Pos Sidayu,"Jl. Pemuda No.11, Kauman, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",3.6,24.0
-Pelayanan Publik,Kantor Pos Ujungpangkah,"Jl. Pendidikan No.1978, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia",4.1,7.0
-Pelayanan Publik,Kantor SAMSAT Bawean,"5M45+69X, Jl. Mulawarman, Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.7,7.0
-Pelayanan Publik,Kantor!,"5M36+WQF, Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pelayanan Publik,Ktr. Pos Manyar,"Jl. Raya Manyar, Tenger, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pelayanan Publik,POS BARU THE VERONA,"QH6R+62W, Jl. Perum Taman Siwalan Indah, Kepatihan, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.3,3.0
-Pelayanan Publik,Pos Pantau Polowijo Gosari,"3GG6+RXH, Cangaan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia",4.2,17.0
-Pelayanan Publik,Pos pphh wilayah Gresik 1,"Jl. Yos Sudarso No.19, Pulopancikan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",5.0,4.0
-Pelayanan Publik,PosAja! Drop Point,"Jl. Raden Santri No.9-A, RW.4, Kemuteran, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pelayanan Publik,Poskamladu Gresik,"VM24+GQC, Jl. Martadinata, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur, Indonesia",5.0,1.0
-Pelayanan Publik,SAMSAT Gresik,"Jl. Dr. Wahidin Sudirohusodo No.714, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61171, Indonesia",3.9,2008.0
-Pelayanan Publik,SAMSAT KELILING GRESIK,"WHJG+Q6W, Sembayat Timur, Karangrejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",3.5,8.0
-Pelayanan Publik,SAMSAT PAYMENT CERME,"Jl. Raya Cerme Kidul No.7, Cerme Kidul, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",2.9,18.0
-Pelayanan Publik,SAMSAT Payment Point Sidayu,"Jl. Raya Pahlawan No.3, Kauman, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",3.1,20.0
-Pelayanan Publik,SEMANGAT PAGI PHOTO COPY DAN AGEN POS,"PCRX+V3J, Pacuh, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",5.0,1.0
-Pelayanan Publik,Samsat Keliling - Menganti Gresik,"Jl. Raya Menganti Karang Turi No.499, Krajan, Menganti, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",2.2,20.0
-Pemerintahan,BALAI DESA KEPUHKLAGEN,"JF4M+Q7F, Dsn Klagen, Jl. Klagen, Bureng Kidul, Kepuhklagen, Wringinanom, Gresik Regency, East Java 61176, Indonesia",5.0,1.0
-Pemerintahan,BPN Kabupaten Gresik,"Jl. Dr. Wahidin Sudirohusodo No.234, Kembangan, Dahanrejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.2,229.0
-Pemerintahan,Balai Desa Pedagangan,"JGRR+35R, Jl. Raya Pedagangan, Dukuhmundu, Watestanjung, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.5,2.0
-Pemerintahan,DAMKAR Gresik pos Driyorejo,"rt 11 rw 05 driyorejo, Jl. Raya Krikilan, Dusun Krikilan, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,8.0
-Pemerintahan,DINAS SOSIAL KABUPATEN GRESIK,"Jl. KH. Wachid Hasyim No.17, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.0,3.0
-Pemerintahan,DISKOPERINDAG Kabupaten Gresik,"Jl. Dr. Wahidin Sudirohusodo No.245, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",3.0,2.0
-Pemerintahan,Desa Teluk Jatidawang,"6JG6+976, Tlk. Jatidawang, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",5.0,7.0
-Pemerintahan,"Dinas KB, PP dan PA Kabupaten Gresik","Jl. Dr. Wahidin Sudirohusodo No.241, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.2,6.0
-Pemerintahan,Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik,"Bedilan, Jl. KH. Wachid Hasyim No.17, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.4,1349.0
-Pemerintahan,Dinas Kesehatan Kabupaten Gresik,"Jl. Permata Utara No.27 Blk a5 no, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",3.6,25.0
-Pemerintahan,Dinas Komunikasi dan Informatika Kabupaten Gresik,"Jl. Dr. Wahidin Sudirohusodo No.60, Putat Luar, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.4,8.0
-Pemerintahan,Dinas Koperasi Usaha Mikro Perindustrian dan Perdagangan Kab. Gresik,"Jl. Dr. Wahidin Sudirohusodo No.245, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.4,12.0
-Pemerintahan,Dinas Lingkungan Hidup Kabupaten Gresik,"Jl. KH. Wachid Hasyim No.17, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",3.5,13.0
-Pemerintahan,Dinas PU Gresik,"Jalan Doktor Wahidin Sudirohusodo No.247, Kebomas, Dahanrejo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61124, Indonesia",3.7,28.0
-Pemerintahan,Dinas Pariwisata dan Kebudayaan Kabupaten Gresik,"No., Jl. Dr. Wahidin Sudirohusodo No.127, Kebomas, Randuagung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.4,12.0
-Pemerintahan,Dinas Pemadam Kebakaran dan Penyelamatan Gresik,"Jl. Dr. Wahidin Sudirohusodo No.125, Kebomas, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.8,19.0
-Pemerintahan,Dinas Pemberdayaan Masyarakat dan Desa Kabupaten Gresik,"RHHX+8XF, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.9,13.0
-Pemerintahan,Dinas Penanaman Modal dan PTSP Kabupaten Gresik,"Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.4,24.0
-Pemerintahan,Dinas Pendapatan Pengelolaan Keuangan dan Aset Daerah Pemerintah Kabupaten Gresik,"JL. Dr. Wahidin Sudiro Husodo, No. 245, Dahanrejo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.0,11.0
-Pemerintahan,Dinas Pendidikan Kabupaten Gresik,"Jl. Arif Rahman Hakim Gresik No.2, Kramatandap, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.1,55.0
-Pemerintahan,Dinas Perhubungan Kabupaten Gresik,"RHJM+5RC, Terminal Bunder, JL. Lamongan Bunder, Banjai Sari, Banjarsari, Gresik, Kabupaten Gresik, Jawa Timur 61171, Indonesia",3.5,52.0
-Pemerintahan,Dinas Perumahan Dan Kawasan Permukiman Kabupaten Gresik,"Jl. DR. Wahidin Sh Sumber Baru Gg. II No.247, Dahanrejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.5,2.0
-Pemerintahan,Dinas Tenaga Kerja Kabupaten Gresik,"Jl. Dr. Wahidin Sudirohusodo No.233, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.2,153.0
-Pemerintahan,Inspektorat Kabupaten Gresik,"RHHX+JVR, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.8,17.0
-Pemerintahan,KANTOR DINAS PENDAPATAN PROVINSI JAWA TIMUR GRESIK,"Jl. Panglima Sudirman No.102, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.5,21.0
-Pemerintahan,KANTOR KELURAHAN TRATE,"Jl. KH. Abdul Karim No.70, Trate, KELURAHAN TRATE, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pemerintahan,"Kantor Badan Pendapatan Pengelolaan Keuangan dan Aset Daerah ""BPPKAD"" Kab. Gresik","RJJ2+25H, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.3,56.0
-Pemerintahan,Kantor Balai Desa Karangandong,"Jalan Raya Karang Andong No.80, Banjaran, Driyorejo, Dusun Banjaran, Banjaran, Gresik, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.7,3.0
-Pemerintahan,Kantor Bupati Gresik,"No.245-c, Jl. Dr. Wahidin Sudirohusodo No.245-c, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.3,116.0
-Pemerintahan,Kantor Cabang Dinas Pendidikan Wilayah Gresik,"Jl. Dr. Wahidin Sudirohusodo No.229, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.3,55.0
-Pemerintahan,Kantor Desa Kedamean,"Jl. Raya Kedamean No.42, Watupasang, Kedamean, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",3.8,12.0
-Pemerintahan,Kantor Desa KesambenWETAN,"MJ2C+WPR, Dusun Kelampok, Kesambenwetan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,1.0
-Pemerintahan,Kantor Desa Kesambenkulon,"JGW5+48J, Grenjengan, Sooko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.3,6.0
-Pemerintahan,Kantor Desa Mondoluku,"MF2W+GPX, Kidul, Kesambenkulon, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.7,3.0
-Pemerintahan,Kantor Desa Sidorukun,"Jl. Amak Khasim III No.61, Sidorukun, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61112, Indonesia",4.4,49.0
-Pemerintahan,Kantor Desa Suci,"Jl. Kyai H. Syafiꞌi No.108, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",3.8,20.0
-Pemerintahan,Kantor Desa Sumengko,"JH54+FQM, Unnamed Road, Sidomoro Sidotompo, Sumengko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",3.4,9.0
-Pemerintahan,Kantor Desa Yosowilangun,"Jl. Kng Brotonegoro No.1, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.9,14.0
-Pemerintahan,Kantor Dinas Aparatur Desa Dekatagung,"5HVM+PC5, Jl. Raya Bangsal, Dekatagung, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",5.0,3.0
-Pemerintahan,Kantor KELURAHAN lumpur,"Jl. Sindujoyo No.10, Lumpur, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61117, Indonesia",5.0,5.0
-Pemerintahan,Kantor Kecamatan Driyorejo,"Jl. Raya Tenaru No.2, Dusun Gading, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.4,25.0
-Pemerintahan,Kantor Kecamatan Gresik,"Jl. Usman Sadar No.169, Ngipik, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61116, Indonesia",4.1,26.0
-Pemerintahan,Kantor Kecamatan Sangkapura,"5M36+4G2, Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.5,8.0
-Pemerintahan,Kantor Kecamatan Wringinanom,"Jl. Raya Wringinanom No.211, Kandangasin, Lebaniwaras, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",3.4,18.0
-Pemerintahan,Kantor Kelurahan Karangturi,"KOMPLEKS RUSUNAWA, Jl. Usman Sadar, Sukorame, Karangturi, Gresik, Gresik Regency, East Java 61118, Indonesia",4.3,4.0
-Pemerintahan,Kantor Kelurahan Kawisanyar,"Jl. Sunan Giri No.59, Kesemen, Ngipik, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.5,2.0
-Pemerintahan,Kantor Kelurahan Kebomas,"Jl. Dr. Wahidin Sudirohusodo No.30, Putat Luar, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.2,5.0
-Pemerintahan,Kantor Kelurahan Kebungson,"Jl. Kh. Kholil No.20, Pekelingan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61115, Indonesia",5.0,1.0
-Pemerintahan,Kantor Kelurahan Kepuh Klagen,"JF4M+Q7G, Bureng Kidul, Kedunganyar, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Pemerintahan,Kantor Kelurahan Ngipik,"Jl. DR. Sutomo Gg. II A No.2A/4, Ngipik, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.7,6.0
-Pemerintahan,Kantor Kelurahan Pekauman,"Jl. KH. Abdul Karim No.23/10, Pekauman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.7,3.0
-Pemerintahan,Kantor Kelurahan Sidokumpul,"Jl. Jaksa Agung Suprapto No.18, Tlogobendung, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",3.8,8.0
-Pemerintahan,Kantor Kelurahan Sidomoro,"RMJ2+V2J, Jl. Arif Rahman Hakim Gresik, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,4.0
-Pemerintahan,Kantor Kelurahan Sukorame,"Jl. Usman Sadar No.135, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61116, Indonesia",2.1,7.0
-Pemerintahan,Kantor Kelurahan Tlogopojok,"RJXV+GXX, Jl. GubernurSuryo XI, Lumpur, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",,
-Pemerintahan,Kantor Kepala Desa Banjaran,"Jalan Raya No.16, Dusun Mojotanjung, Banjaran, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.5,2.0
-Pemerintahan,Kantor Kepala Desa Belahan Rejo,"Belahan Rejo No.17,, Jl. Raya Kedamean, Belahanrejo, Gresik, Kabupaten Gresik, Jawa Timur 61175, Indonesia",4.8,5.0
-Pemerintahan,Kantor Kepala Desa Driyorejo,"Jl. Raya Driyorejo No.79, Dusun Wates, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.2,6.0
-Pemerintahan,Kantor Kepala Desa Menunggal,"Jalan desa RT.10 RW.03, Kedamean, Lumpang, Menunggal, Gresik, Kabupaten Gresik, Jawa Timur 61175, Indonesia",3.5,6.0
-Pemerintahan,Kantor Kepala Desa Mojosarirejo,"Jl. Raya Mojosarirejo No. 169, RT 08 / RW 03, Desa Mojosarirejo, Driyorejo, Dusun Guo, Sumput, Gresik, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.0,6.0
-Pemerintahan,Kantor Kepala Desa Petiken,"Jl. Raya Petiken No.87, Mulung, Petiken, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.2,95.0
-Pemerintahan,Kantor Kepala Desa Randuagung,"Jl. Randuagung No.2, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.4,5.0
-Pemerintahan,Kantor Kepala Desa Sooko,"Jl. Raya Sooko Nomor No. 05, Sooko, Wringinanom, Pedagangan, Gresik, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.6,5.0
-Pemerintahan,Kantor Kepala Desa Sumput,"JJX4+M43, Unnamed Road, Dusun Pasinan, Kesambenwetan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.0,2.0
-Pemerintahan,Kantor Kepala Desa Tanjungan,"JHWW+F54, Jl. Tanjungan, Dusun Mojotanjung, Tanjungan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pemerintahan,Kantor Kepala Desa Wedoroanom,"MHFW+8MR, Dusun Randegansari, Randegansari, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.5,8.0
-Pemerintahan,Kantor Kepala Desa Wringinanom,"Jl. Raya Wringinanom No.14, Wringianom, Lebaniwaras, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61352, Indonesia",3.0,2.0
-Pemerintahan,Kantor Pemerintah Desa Tenaru,"Jl. Raya Tenaru No.7, Dusun Gading, Tenaru, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.1,8.0
-Pemerintahan,Kelurahan Grebek Kebomas,"Jl. Dr. Wahidin Sudirohusodo No.48 No A, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",5.0,1.0
-Pemerintahan,Kelurahan Ngipik,"Jl. Dr. Soetomo No.4 No.2a, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",,
-Pemerintahan,Kelurahan Sidomukti,"Sidomukti, Kebomas, Jl. Sunan Giri ⅩⅢ L No.19A, Sudomukti, Tlogopatut, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.7,6.0
-Pemerintahan,Mall Pelayanan Publik Kabupaten Gresik,"Jl. Dr. Wahidin Sudirohusodo No.245, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.3,59.0
-Pemerintahan,PT. Surganya Motor Indonesia (Cab.Surabaya),"Jl. Raya Driyorejo No.72, Dusun Cangkir, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61277, Indonesia",4.8,32.0
-Pemerintahan,PT.BISMA INDO RAYA,"Pergudangan Casa B8, Jl. Raya Krikilan No.B9, Dusun Semambung, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,18.0
-Pemerintahan,Pemkab Gresik Desa Gapurosukolilo,"Jl. Malik Ibrahim No.62, Gapuro Sukolilo, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",3.3,15.0
-Pemerintahan,Polindes Tenaru Driyorejo Gresik,"MJ2H+2X9, Desa Tenaru, Driyorejo, Dusun Gading, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.2,5.0
-Pemerintahan,Posbangkum,"JHVC+W5M, Dusun Banjaran, Karangandong, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pemerintahan,SPPG Gresik Driyorejo Cangkir,"Jl. Raya PLN, Dusun Pasinan, Kesambenwetan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pemerintahan,SPPG KARANGASEM GRESIK,"JHXJ+8C4, Dusun Mojotanjung, Tanjungan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pemerintahan,SPPG PUNCAK ANOMSARI GRESIK,"MH9R+8QR, Jl. Raya Graha Puncak Anomsari, Dusun Wedoro, Wedoroanom, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61175, Indonesia",,
-Pemerintahan,UPT DINAS PEKERJAAN UMUM WILAYAH BAWEAN,"5M38+47P, Sungairujing, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pemerintahan,kantor Kelurahan Singosari,"RMH4+GHW, Jegong, Singosari, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.6,5.0
-Pendidikan,Kepuh Tlk.,"Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur, Indonesia",,
-Pendidikan,PT Sangkaya Makmur Abadi (PT SMA),"Jl. Raya Sumengko No.369 KM 31, RW.1, Krajan, Sumengko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.5,41.0
-Pendidikan,Rumah Belajar Riska SD-SMA,"Jl. Mutiara 6.2 No.18, Mulung, Perumnas Kota Baru, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,2.0
-Pendidikan,SD Muhammadiyah Manyar Gresik (SDMM),"Jl. Amuntai No.1, Ponganganrejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,SD Nahdlatul Ulama - 1 Trate Gresik,"Jl. KH. Abdul Karim No.60, Karangpoh, Trate, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pendidikan,SD Negeri 2 Sukomulyo GKB,"Jl. Martapura No.20, Ponganganrejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,SD Negeri Sidorukun ( UPT SD Negeri 11 Gresik ),"Jl. Amak Khasim No.31, Sidorukun, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61112, Indonesia",,
-Pendidikan,SD SETIA BUDHI,"Jl. DR. Setia Budi No.9 NO 7, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61113, Indonesia",,
-Pendidikan,SDN 2 Kepuh Teluk,"6PWF+78C, jl. raya kepuh teluk, Sidogedungbatu, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,SDN 2 Tanjungori,"7MFP+WW2, Tanjungori, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,SDN Grejeg (UPT SDN 363 Gresik),"6MX8+PQM, Grejeg, Peromaan, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,SDN Kepuh Teluk I,"7P4F+66P, Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,SDN Lumpur,"Jl. Gubernur Suryo No.25 1, RT.1/RW.02, Karangturi, Kroman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",,
-Pendidikan,SMA AL-FURQON DRIYOREJO,"Jln. Kyai Abdurrohim Jl. Wedoroanom No.1, RT.12/RW.04, Dusun Nanom, Wedoroanom, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMA DAN MTs. RADEN FATAH DRIYOREJO,"Desa Jl. Kesamben Wetan No.RT 10, RT.10/RW.02, Dusun Kelampok, Tenaru, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMA DARUL ULUM DRIYOREJO,"Jl. Raya Mojosarirejo No.1, Dusun Sumput, Sumput, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMA Muhammadiyah 1 Gresik,"Jl. Dr. Wahidin Sudirohusodo No..162, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",,
-Pendidikan,SMA Muhammadiyah 10 GKB GRESIK,"Jl. Mutiara Raya PPS No.95, Tebalo, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,SMA Muhammadiyah 2 Sangkapura,"Jl. Kuala No.41, Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,SMA NAHDLATUL ULAMA 2 GRESIK,"Jl. Akim Kayat 7 No.49, Ngipik, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",,
-Pendidikan,SMA NEGERI 1 KEBOMAS - GRESIK,"Jl. Dr. Wahidin Sudirohusodo, Perum Alam Bukit Raya, Blok A6/No, RW.8, Dahanrejo, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",,
-Pendidikan,SMA NU 1 Gresik,"Gg. V, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pendidikan,SMA Negeri 1 Cerme,"Jl. Pasar Cerme Lor No.176 Ngabetan, Ngabetan, Cerme Lor, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",,
-Pendidikan,SMA Negeri 1 Gresik,"Jalan Arif Rahman Hakim Gresik No.1, Sidokumpul, Gresik, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,SMA Negeri 1 Manyar,"VJ46+485, Jl. Kayu Raya, Ponganganrejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,SMA Negeri 1 Sidayu,"2H28+623, Jl. Raya Pahlawan No.6, Sidayu, Raci Tengah, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",,
-Pendidikan,SMA PGRI Kedamean,"MHG6+CHJ, Kedamean, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",,
-Pendidikan,SMA SEMEN GRESIK,"Jl. Veteran No.150, Kb. Dalem, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",,
-Pendidikan,SMA Sunan Giri Menganti,"Jl. Raya Darkun No.16, Krajan, Menganti, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",,
-Pendidikan,SMA YPM 4 Driyorejo,"Jl. Sumput, Dusun Guo, Sumput, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMAN 1 DRIYOREJO,"Sman 1, Dusun Wates, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMAN 1 Kedamean,"Jl. Raya Slempit No.2, Slempit, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",,
-Pendidikan,SMAN 1 Menganti Gresik,"Jl. Raya Boteng, RT.10/RW.04, Buduran, Putat Lor, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",,
-Pendidikan,SMAN 1 Sangkapura,"Jl. Wiyata Mandala No.10, Sungairujing, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,SMK AL MASYHUDIYAH DRIYOREJO,"RT.13/RW.02, Dusun Pasinan, Sumput, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.9,35.0
-Pendidikan,SMK Al Hadi Gresik,"Ima An, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia",4.9,75.0
-Pendidikan,SMK BHAKTI KITA GRESIK,"RT.18/RW.04, Bakalan, Pasinan Lemahputih, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.3,6.0
-Pendidikan,SMK DHARMA WANITA GRESIK,"belakang dinas pendidikan, Jl. Arif Rahman Hakim Gresik, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.3,37.0
-Pendidikan,SMK Hasan Jufri,"5J5G+C7P, Lebak, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",5.0,7.0
-Pendidikan,SMK Islamic Qon,"GKB, Jl. Rantau Jl. Rantau Gg. Masjid No.1, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.8,54.0
-Pendidikan,SMK MUHAMMADIYAH 3 GRESIK,"Jl. Raya Morowudi No.141, Moro, Morowudi, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.9,38.0
-Pendidikan,SMK MUHAMMADIYAH 5 GRESIK,"3F52+9J7, Jalan Raya Sirowiti, Sumurber, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",4.7,15.0
-Pendidikan,SMK Ma'arif NU Driyorejo,"Jl. Raya Randegansari, Dusun Bunut, Randegansari, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.4,92.0
-Pendidikan,SMK Ma'arif NU Sunan Giri Driyorejo,"Jl. Raya Mulung, Paras, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMK Muhammadiyah 1 Gresik,"Jl. Raya Bungah No.Km.17, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",4.8,114.0
-Pendidikan,SMK NU GRESIK,"Jl. KH. Abdul Karim No.60, Trate, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.7,123.0
-Pendidikan,SMK Negeri 1 Cerme,"Jl. Jurit, Cerme Kidul, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.7,286.0
-Pendidikan,SMK Negeri 1 Driyorejo,"MJ9Q+H3Q, Jl. Mirah Delima, Paras, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.2,156.0
-Pendidikan,SMK Negeri 1 Sidayu,"Jl. Raya, Wadeng, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",4.4,77.0
-Pendidikan,SMK Nurul Islam Gresik,"61151, Jl. Kyai H. Syafiꞌi Jl. Raya Sukomulyo No.21, Maduran, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.7,143.0
-Pendidikan,SMK PGRI 1 GRESIK,"Jl. Dr. Soetomo No.46, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.7,215.0
-Pendidikan,SMK PGRI 1 GRESIK KAMPUS B,"Jl. Manggis Timur No.1, Ngipik, Trate, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",5.0,4.0
-Pendidikan,SMK PGRI 1 GRESIK KAMPUS D,"VJ52+C58, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.2,17.0
-Pendidikan,SMK PGRI 1 Gresik Kampus C,"Jl. Sunan Giri No.63, Kebomas, Ngipik, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.8,25.0
-Pendidikan,SMK PGRI 2 GRESIK,"MHG7+WMP, Jalan Raya, Watupasang, Kedamean, Gresik, Gresik Regency, East Java 61175, Indonesia",,
-Pendidikan,SMK PGRI NURUL IHSAN,"Jl. Panglima Sudirman No.145 B, Kramatandap, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.7,34.0
-Pendidikan,SMK Semen Gresik,"Jl. Arif Rahman Hakim Gresik No.90, Tubanan, Pekauman, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.5,58.0
-Pendidikan,SMK Taruna Jaya Gresik,"Jl. Arif Rahman Hakim Gresik No.86 A, Pekauman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.6,25.0
-Pendidikan,SMK Umar Mas'ud,"Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.6,14.0
-Pendidikan,SMK YPI DARUSSALAM 1 CERME,"Jl. Pasar Cerme Lor No.3, Cerme Lor, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",5.0,167.0
-Pendidikan,SMK Yasmu,"Jl. Kyai Sahlan No.24, Manyarejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,SMP AL-ILLIYIN,"JG65+XV8, Sidomukti, Sumberwaru, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Pendidikan,SMP DARUL ISLAM GRESIK,"NO GRESIK, Jl. DR. Setia Budi No.5, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pendidikan,SMP DHARMA BHAKTI GRESIK,"RMJ2+3RP, Gg. IV Jl. Kartini, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",,
-Pendidikan,SMP ISLAMIC QON,"Jl. Rantau Gg. Masjid No.01 GKB, Wonorejo, Sukomulyo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,SMP Islam Watestanjung,"Jl. Raya Wates Tj., Wates, Pasinan Lemahputih, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Pendidikan,SMP MUHAMMADIYAH 1 GRESIK,"VM24+44G, Jl. Kh. Kholil, Kroman, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61115, Indonesia",,
-Pendidikan,SMP Muhammadiyah 12 GKB Gresik,"Jl. Jawa No.60, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61121, Indonesia",,
-Pendidikan,SMP NEGERI 4 GRESIK,"Jl. Proklamasi No.17, Pekauman, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,SMP NU 1 Gresik,"Jl. KH. Hasyim Asy'ari No.13-15, Kebungson, Sukodono, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61116, Indonesia",,
-Pendidikan,SMP Negeri 1 Gresik,"Jl. Jaksa Agung Suprapto No.79, Tlogobendung, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,SMP PGRI 2,"Jl. Jaksa Agung Suprapto No.11, Sumursango, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,SMP PGRI 2 Driyorejo,"JH8G+CPW, Dusun Larangan, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,SMP PGRI Wringinanom,"Jl. Raya Wringinanom No.33, Tanggungan, Lebaniwaras, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",2.2,35.0
-Pendidikan,SMP Semen Gresik,"Jl. Awikoen I No.1, Kb. Dalem, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",,
-Pendidikan,SMP UDKP Kedamean,"Smp Udkp Kedamean, Jl. Raya Slempit No.142, Slempit, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",,
-Pendidikan,SMP n 1 gresik,"Jl. Dr. Soetomo No.3a/ 39, Trate, Tlogopatut, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,SMPN 2 WRINGINANOM,"JG32+WV6, Patoman, Kedunganyar, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Pendidikan,STAI Hasan Jufri,"5J5G+C8R, Lebak, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.9,22.0
-Pendidikan,STIT Raden Santri Gresik,"5J4R+554, Jl. Dermaga, Beringinan, Sungai Tlk., Kec. Sangkapura, Jawa Timur 61181, Indonesia",4.9,9.0
-Pendidikan,Sekolah SMA 45 GRESIK,"Jl. Raya Jati Rembe No.09, Sumengko, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",,
-Pendidikan,Sma Al-azhar Menganti,"Jl. Raya Menganti Karang Turi No.499, Krajan, Menganti, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",,
-Pendidikan,Smk Manbaul Ulum,"Jl. Sunan Giri gg. pasar burung No.1, Kebomas, Kawisanyar, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.4,20.0
-Pendidikan,Smp Yimi Gresik Full Day School,"Jl. Jaksa Agung Suprapto No.76, Tlogobendung, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,Sumber,"6PW6+CG5, Kepuh Legundi, Tambak, Kabupaten Gresik, Jawa Timur 61181, Indonesia",5.0,1.0
-Pendidikan,UPT SD NEGERI 326 GRESIK,"6M2M+5CH, Sungaiterus Utara, Kebontelukdalam, Balikterus, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,UPT SD NEGERI 365 GRESIK,"6PC6+5HC, Jl. Desa Kepuhlegundi, Sidogedungbatu, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,UPT SD NEGERI 370 GRESIK,"6MJ5+7PH, Dsn. Pategalan, Grejeg, Klumpang Gubug, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD NEGERI 374 GRESIK,"7M3G+J5Q, Dusun Gunung, Peromaan, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD NEGERI 376 GRESIK,"7J2R+G48, Sukalela, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD NEGERI 380 GRESIK,"7J8X+VQG, Tambak Timur, Tambak, Bawean, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD NEGERI 381 GRESIK,"7M82+P47, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD NEGERI 382 GRESIK,"Jl. Raya, Tanjungori, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD NEGERI 6 GRESIK,"Jl. Jaksa Agung Suprapto No.1, Sumursango, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,UPT SD Negeri 336 Gresik (Ex. SDN 2 Kebuntelukdalam),"6PJ2+38W, Seramba, Kebontelukdalam, Sangkapura, Gresik Regency, East Java 61181, Indonesia",,
-Pendidikan,UPT SD Negeri 349 Gresik,"5PXH+F58 Batusendi, Kebontelukdalam, Sidogedungbatu, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,UPT SD Negeri 354 Gresik ex Sdn 6 Sidogedungbatu,"Sidogedungbatu, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,UPT SD Negeri 364 Gresik,"Jl. Air panas No.Desa, Kepuh Legundi, Tambak, Gresik Regency, East Java 61181, Indonesia",,
-Pendidikan,UPT SD Negeri 366 Gresik,"7P4F+66P, Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SD Negeri 368 Gresik,"6PP3+WP, Sidogedungbatu, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Pendidikan,UPT SDN 373 Gresik,"Jl.Kastoba, Paromaan, Peromaan, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",,
-Pendidikan,UPT SDN 43 Gresik,"Perum Pongangan Indah, Jl. Pasir III, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,UPT SMP NEGERI 17 GRESIK,"Jl. Kalimantan, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,UPT SMP Negeri 12 Gresik,"Jl. Raya Wringinanom Jl. Tanggungan No.138, Tanggungan, Wringinanom, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Pendidikan,UPT SMP Negeri 2 Gresik,"No Jl. Kh. Kholil No.16, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61115, Indonesia",,
-Pendidikan,UPT SMP Negeri 3 Gresik,"Jalan PB. Sudirman No.90, Sidokumpul, Kecamatan Gresik, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",,
-Pendidikan,UPT SMP Negeri 34 Gresik,"VH2V+HRP, Jl. Mutiara Raya, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,UPT SMPN 22 GRESIK,"Jl. Raya Bengawan Solo Jl. Randuagung No.48, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",,
-Pendidikan,UPTSD NEGERI 367 GRESIK,"Pacinan, Kepuh Tlk., Kepuh Teluk, Tambak, Gresik Regency, East Java 61182, Indonesia",,
-Pendidikan,Universitas Gresik,"Jl. Arif Rahman Hakim Gresik No.2B O82l-8458-0449, Kramatandap, Gapurosukolilo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.5,113.0
-Pendidikan,Upt Sd Negeri 1 Gresik,"Jl. AKS Tubun No.1, Pulopancikan, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",,
-Pendidikan,Upt Sd Negeri 15 Gresik,"Jl. GubernurSuryo XI No.54, Lumpur, Tlogopojok, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",,
-Pendidikan,Upt Smp Negeri 10 Gresik,"Jl. Raya Bungah No.1, Abar Abir, Abar-Abir, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",,
-Pendidikan,Upt Smp Negeri 20 Gresik,"Jl. Mayjend Sungkono No.01, Kebodalem, Sekarkurung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",,
-Pendidikan,Upt Smp Negeri 25 Gresik,"Jl. Raya Sembayat No.13, Sembayat Timur, Sembayat, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Pendidikan,keluarga Desar Upt Smp Negeri 26 Gresik,"Patoman, Kedunganyar, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur, Indonesia",5.0,3.0
-Pendidikan,smp,"JHV9+VFH, Jl. Kalangan, Dusun Banjaran, Banjaran, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Pendidikan,smp maarif nu miftahul ulum,"Jl. Raya Pendem No.18, Dusun Banjaran, Banjaran, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,AGEN BRILINK FM PAYMENT,"MOJOSARIREJO RT No.4 RW 2, Dusun Tanjungan, Tanjungan, Kab, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,2.0
-Perbankan,ANT Bank BCA 896-AJBS Gresik,"Jl. Kartini No.51, Kesemen, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",2.0,1.0
-Perbankan,ATM BCA,"MJ7P+QX3 Indomaret, Jl. Raya Batu Mulia, Paras, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.1,7.0
-Perbankan,ATM BCA Balongpanggang,"Jl. Raya Balongpanggang No.127, Wates, Kedungpring, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",5.0,2.0
-Perbankan,ATM BCA Indomaret Cerme,"QHF9+555, Jl. Raya Cerme Lor, Cerme Lor, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",5.0,1.0
-Perbankan,ATM BNI,"Dusun, Desa, Jl. Raya Krikilan No.400, Dusun Krikilan, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,ATM BNI ALUN ALUN SEDAYU,"Jalan Pahlawan No 13, Sidayu, Kauman, Asempapak, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia",4.8,4.0
-Perbankan,ATM BNI KK MANYAR,"Jl. Raya Sukomulyo, Maduran, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",5.0,2.0
-Perbankan,ATM BNI KLN BUNGAH,"WHXG+G4V, Jl. Raya Bungah No.1B, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",3.7,3.0
-Perbankan,ATM BNI MALINDO,"2CMF+MH6, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia",3.0,3.0
-Perbankan,ATM BNI MENGANTI,"Jl. Raya Menganti No.53, Plosorejo, Menganti, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.7,6.0
-Perbankan,ATM BNI PERTOKOAN BUNGAH,"Jl. Raya Bungah No.44-46, Lemahdelik, Bungah, Gresik, Kabupaten Gresik, Jawa Timur 61152, Indonesia",5.0,2.0
-Perbankan,ATM BNI PERUM GKA,"Gn. Malang, Randuagung, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.5,6.0
-Perbankan,ATM BNI SPBU BAMBE,"Jl. Raya Bambe, Sarirejo, Bambe, Kec. Lakarsantri, Surabaya, Jawa Timur 61177, Indonesia",4.3,3.0
-Perbankan,ATM BNI SPBU WAHIDIN SUDIRO HUSODO,"Jl. Dr. Wahidin Sudirohusodo, Karangturi, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.5,4.0
-Perbankan,ATM BNI wringinanom,"JG3H+JJW, Jl. Raya Wringinanom, Wringianom, Lebaniwaras, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Perbankan,ATM BRI,"Jl. Raya Bambe No.190, Sarirejo, Bambe, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",2.0,2.0
-Perbankan,ATM Bank BCA 067P-Gresik,"RJJX+RPG, Jl. Kartini, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,1.0
-Perbankan,ATM Bank BCA 072Z-Indomaret Sembayat,"Jl. Pendopo 21 Sembayat, Sembayat Timur, Karangrejo, Gresik, Kabupaten Gresik, Jawa Timur 61153, Indonesia",4.3,4.0
-Perbankan,ATM Bank BCA 091E-Alfamart Bungah Gresik,"WHVG+GGH, Jl. Raya Sukorejo, Lemahdelik, Bungah, Gresik, Kabupaten Gresik, Jawa Timur 61152, Indonesia",4.3,3.0
-Perbankan,ATM Bank BCA 1332-Gresik,"RJJX+RPG, Jl. Kartini, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,2.0
-Perbankan,ATM Bank BCA 3892-Gresik,"RJJX+RPG, Jl. Kartini, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,1.0
-Perbankan,ATM Bank BCA 3896-Gresik,"RJJX+RPG, Jl. Kartini, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",5.0,1.0
-Perbankan,ATM Bank BRI,"5M35+Q67, Jl. Kawedanan, Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",3.5,4.0
-Perbankan,ATM Bank Central Asia (BCA),"Alfamart, JL. Raya Bungah, No. 5, Lemahdelik, Abar-Abir, Gresik, Kabupaten Gresik, Jawa Timur 61152, Indonesia",5.0,3.0
-Perbankan,ATM Bank Mandiri,"RJH3+M9M, Jl. Permata Selatan, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.5,2.0
-Perbankan,ATM Mandiri,"PT. Behaestex, Jl. Mayjend Sungkono No.14, Kebodalem, Giri, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.0,3.0
-Perbankan,ATM Mandiri Alfamart Jawa Gresik,"RJW7+FV4, Jl. Jawa, Gn. Malang, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.0,9.0
-Perbankan,ATM Mandiri GSK IM UJUNGPANGKAH,"Jl. Pendidikan, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia",,
-Perbankan,ATM Mandiri GSK PR PDKPERMATASUCI,"KOMPLEK RUKO PERMATA SUCI, Jl. Raya Permata Suci, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",3.8,6.0
-Perbankan,Agen BNI46 & Stokis 4Jovem Kota Baru Driyorejo,"Jl. Phyrus Biru 3.4 No.5, Paras, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,2.0
-Perbankan,Agen BRILink Narausaha,"Jl. Raya Bambe No.123, Bambe, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.1,8.0
-Perbankan,Atm BCA,"Jl. Raya Krikilan No.196, Dusun Semambung, Driyorejo, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",4.5,6.0
-Perbankan,BANK BNI CERME,"Jl. Raya Cerme Lor No.32, Cerme Lor, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.0,73.0
-Perbankan,BANK BNI GREEN GARDEN GRESIK,"Ruko Green Garden, Jl. Dr. Wahidin Sudirohusodo. 1-2 Blok A-2, Dahanrejo, Kebomas, Gresik Regency, East Java 61124, Indonesia",,
-Perbankan,BANK BNI JIIPE,"Jl. Raya Manyar No.KM 11, Manyarsidorukun, Manyar Sido Rukun, Gresik, Gresik Regency, East Java 61151, Indonesia",,
-Perbankan,BANK BNI MENGANTI,"Jl. Raya Menganti Sidomulyo, RT.01/RW.01, Karangan, Hulaan, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.1,82.0
-Perbankan,BANK BRI Unit Kartini,"Jl. Dr. Soetomo No.94, Trate, Tlogopatut, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",3.3,12.0
-Perbankan,BANK MANDIRI KCP GRESIK CERME,"Jl. Raya Cerme Kidul No.124, Cerme Kidul, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.7,182.0
-Perbankan,BANK MANDIRI KCP GRESIK JIIPE,"Kawasan Industri JIIPE, Jalan Raya Manyar No.KM 11 Blok R3-B, Manyarsidorukun, Manyar Sido Rukun, Manyar, Gresik Regency, East Java 61151, Indonesia",5.0,159.0
-Perbankan,BCA KCP Benowo,"Komplek, Jl. Gading Mutiara Permai Jl. Raya Kepatihan Blok AA 1 & AA 2, Benowo, Kec. Pakal, Kabupaten Gresik, Jawa Timur 61174, Indonesia",5.0,1.0
-Perbankan,BCA KCP Gresik,"Jl. Dr. Soetomo No.48, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.6,35.0
-Perbankan,BCA KCP Gresik Kota Baru,"Jl. Kalimantan No.76 Kavling, Blok RV 55B, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 65112, Indonesia",3.9,18.0
-Perbankan,BCA KCP Kas Menganti,"Jl. Raya Menganti, Setro, Sidowungu, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",,
-Perbankan,BCA KCU GRESIK,"Jl. Kartini No.98 B-100, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.6,54.0
-Perbankan,BMT Mandiri Sejahtera Jatim,"PCMW+GF5, Jl. Raya Sambiroto, Wates, Kedungpring, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.7,3.0
-Perbankan,BNI 46 Kartini,"Jl. Kartini No.27-29, Kesemen, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",4.0,65.0
-Perbankan,BNI ATM,"4F48+266, Jl. Raya Dalegan, Rejodadi, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",,
-Perbankan,BNI BUNGAH,"WHXG+G4V, Jl. Raya Bungah No.1B, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",3.4,58.0
-Perbankan,BNI Graha Puncak,"Jl. Rinjani No.12, Dusun Randegansari, Randegansari, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,BNI PETROKIMIA GRESIK,"Petrokimia, Jl. Jenderal Ahmad Yani, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.1,40.0
-Perbankan,BRI Cabang Gresik,"Jl. Panglima Sudirman No.67, Sumberrejo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",2.5,22.0
-Perbankan,BSI (Bank Syariah Indonesia),"GKB, Jl. Kalimantan blok RV No.76A, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.2,152.0
-Perbankan,Bank BNI,"Jl. Raya Sukomulyo, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",3.2,21.0
-Perbankan,Bank BNI Cabang Gresik,"Jl. Veteran No.142, Injen Timur, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.1,124.0
-Perbankan,Bank BRI,"Jl. Raya Batu Mulia, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",2.3,23.0
-Perbankan,Bank BRI ATM - PT. SASMITA ABADI GLOVES,"Jl. Raya Krikilan No.Km.28, Dusun Larangan, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,Bank BRI CRM - BRI UNIT KEMBANGAN,"Jl. DR. Wahidin Sudiro Husodo No.124, Jetak, Giri, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61124, Indonesia",,
-Perbankan,Bank BRI CRM - BRI UNIT LEGUNDI,"Jl. Raya Legundi No.581, Dusun Legundi, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,Bank BRI CRM - KCP DRIYOREJO,"Jl. Raya Driyorejo No.263, Dusun Driyorejo, Driyorejo, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,Bank BRI CRM - KCP GRESIK KOTA,"Jl. Kartini No.236 Blok B 3 - B 4, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",,
-Perbankan,Bank BRI CRM - SBY UNIT LEGUNDI GRESIK SURABAYA,"Jl. Raya Legundi No.618, Dusun Legundi, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Perbankan,Bank BRI CRM - UNIT KOTA KUSUMA,"Jl. Umar Mas'ud, Sawahmulya, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",,
-Perbankan,Bank BRI KCP Driyorejo,"Jl. Raya Driyorejo No.180, Dusun Driyorejo, Cangkir, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",3.0,27.0
-Perbankan,Bank BRI KCP Gresik,"Jl. Kartini No.236, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",3.5,11.0
-Perbankan,Bank BRI UNIT Dukun Gresik,"Jl. Raya Dukun No.08, Sembung Anyar, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61111, Indonesia",2.9,26.0
-Perbankan,Bank BRI UNIT Kota Kusuma Bawean,"Jl. Cokrokusumo, Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Perbankan,Bank BRI UNIT Manyar Gresik,"Jl. Raya Manyar No.65, Manyarejo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61174, Indonesia",3.5,24.0
-Perbankan,Bank BRI UNIT Tambak Bawean,"Pulau Bawean, Tambak, Kabupaten Gresik, Jawa Timur 61462, Indonesia",4.9,9.0
-Perbankan,Bank BRI Unit Kedamean,"Jl. Raya Kedamean No.71, Ngepung, Kec. Kedamean, Kabupaten Gresik, Jawa Timur 61175, Indonesia",3.4,30.0
-Perbankan,Bank BRI Unit Multiplaza,"Multi Sarana Plaza, Jl. Gub Suryo No.56 Blok A, Karangturi, Kroman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61156, Indonesia",4.0,5.0
-Perbankan,Bank BRI Unit Sukomulyo Agung,"Jl. Kalimantan No.37, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",3.1,17.0
-Perbankan,Bank Bri,"Jl. Mayjend Sungkono, Jetak, Giri, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",5.0,7.0
-Perbankan,Bank Bri Kcp Unit Menganti,"Jl. Raya Menganti No.227, Menganti, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",3.8,12.0
-Perbankan,Bank Mandiri,"VJC8+J66, Jl. Raya Sukomulyo, Tenger, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",2.1,7.0
-Perbankan,Bank Mandiri Gedung Utama Semen Gresik,"Gedung Utama Semen Indonesia, Jl. Veteran Lt 1, Kb. Dalem, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.8,176.0
-Perbankan,Bank Mandiri Gresik,"Jl. R.A. Kartini No. 210, Sidomoro, Kebomas, Jl. Kartini, Injen Barat, Tlogobendung, Gresik, Gresik Regency, East Java 61122, Indonesia",4.4,567.0
-Perbankan,Bank Mandiri Gresik Balungpanggang,"Jl. Raya Balongpanggang No.20, Pilangrejo, Babatan, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.9,252.0
-Perbankan,Bank Mandiri Gresik Petrokimia,"RJVR+426 Gedung Graha Sarana, Jl. Achmad Yani, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",4.8,255.0
-Perbankan,Bank Mandiri Gresik Sedayu,"Jl. Pahlawan 72, Sedayu, Sidomulyo, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",4.9,393.0
-Perbankan,Bank Mandiri KCP Gresik Benowo,"Jalan Raya Kepatihan Ruko, Jl. Gading Mutiara Permai No.05 Blok AA 03, Benowo, Kec. Pakal, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.7,279.0
-Perbankan,Bank Mandiri KCP Gresik Kota Baru Sumatera,"Jl. Sumatra No.31, Gn. Malang, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.6,183.0
-Perbankan,Bank Mandiri KCP Gresik Menganti,"Jl. Raya Sekargadung - Sidomulyo No.123, Sidowungu, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61153, Indonesia",4.9,350.0
-Perbankan,Bank Mandiri Mitra Usaha,"Jl. Raya Pahlawan No.72, Sidomulyo, Asempapak, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",5.0,4.0
-Perbankan,Bank Mandiri Taspen KCP GRESIK,"Jl. Kartini No.228, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.3,41.0
-Perbankan,Bank Mandiri Usman Sadar,"JL. Usman Sadar, No. 2, A No.61116, Karangpoh, Kemuteran, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61116, Indonesia",4.9,305.0
-Perbankan,"Bank Rakyat Indonesia, PT. Tbk","Jl. Raya Driyorejo No.180, Dusun Driyorejo, Driyorejo, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",2.7,10.0
-Perbankan,Bank Syariah Indonesia KC Gresik Kartini,"Jl. Kartini No.180, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.4,232.0
-Perbankan,Bank Syariah Indonesia KCP Gresik Menganti,"PJ32+F9W, Pengampon, Setro, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.5,42.0
-Perbankan,Bank Syariah Mandiri Ponpes Qomarudin,"Sma Assaadah, nomer Jl. Raya Bungah No.1, Bungah, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",4.4,5.0
-Perbankan,Bni,"3HM2+55M, Jl. Pendidikan, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia",,
-Perbankan,Bni Atm,"JHCF+HW7, Jl. Raya Legundi, Dusun Larangan, Krikilan, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",5.0,1.0
-Perbankan,Bni Balongpanggang,"Jl. Raya Balongpanggang, Wates, Kedungpring, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",,
-Perbankan,Bni Taplus Muada,"Jl. Kyai H. Syafiꞌi No.14B, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",,
-Perbankan,Bni wonrd Bank,"Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.2,5.0
-Perbankan,CDM Bank BCA 902K-Sutomo Gresik,"Jl. DR. Sutomo Gg. II A No.48, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",5.0,1.0
-Perbankan,Mandiri ATM Giant SPM Gresik Kota Baru,"Jl. Kalimantan, Ponganganrejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61121, Indonesia",3.9,21.0
-Perbankan,Mandiri ATM KCP Gresik,"Jl. Kartini, Injen Barat, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",4.8,9.0
-Perbankan,Mandiri ATM KCP Gresik Kota Baru,"Jl. Raya Sukomulyo, Tenger, Roomo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.2,5.0
-Perbankan,Mandiri Micro Business Unit Gresik Kota Baru,"Manyar Raya Resort Blok A1.01, Kav. 107, Jl. Sukomulyo, Manyar, Wonorejo, Yosowilangun, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",2.7,51.0
-Perbankan,PT Bank Mandiri KCP Gresik Manyar,"Jl. Raya Sukomulyo No.88, Sekarsore, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.7,352.0
-Perbankan,PT. Mandiri Utama Finance Gresik,"788, Ruko Green Garden, Jl. Dr. Wahidin Sudirohusodo Blk. A5 No.29-31, Dahanrejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",3.7,43.0
-Perbankan,Sindhuarta,"Jl. Raya Boteng No.19, Gantang, Boboh, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",,
-Perbankan,Teras Bri Link Melayani Transaksi Semua Bank,"JJW8+XMH, Jl. Kesamben Wetan, Dusun Kelampok, Tenaru, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177, Indonesia",,
-Wisata,Alun-Alun Gresik,"Jl. KH. Wachid Hasyim, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.5,15620.0
-Wisata,Aulia yasmin & Fadhillah,"QFP8+58M, dusun tlogogede, Ngasin, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",5.0,1.0
-Wisata,BANDAR GRISSEE,"RMW4+6FX, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.7,649.0
-Wisata,Banyu Biru Lowayu,"2CF9+94H, Jl. Banyu Biru, RT.005/RW.002, Kaliagung, Lowayu, Kec. Dukun, Kabupaten Gresik, Jawa Timur 61155, Indonesia",4.0,336.0
-Wisata,Bukit Kapur Suci,"Jalan Ponganganrejo No. 34, Suci, Manyar, Suci, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.3,466.0
-Wisata,Bukit Songkro Wringinanom,"BUKIT BINTANG, Unnamed Road, Klangen, Kepuhklagen, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.3,29.0
-Wisata,Dukun Elektro,"PGVW+76W, tandegan, Ngepong Sari, Morowudi, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",4.3,6.0
-Wisata,Dynasty Water Park,"Jl. Rantau I No.27-29, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.3,3104.0
-Wisata,Exotic Mengare,"XJCQ+2Q7, Unnamed Road, Tajung Widoro, Tanjung Widoro, Bungah, Gresik Regency, East Java 61152, Indonesia",4.5,335.0
-Wisata,Gapura KARANG PLOSO,"Dsn karang ploso No.rt 10, Karangploso, Klampok, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",4.5,11.0
-Wisata,Gapura KEDUNG SAMBI,"Kedungsambi, Kedungsekar, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",3.9,8.0
-Wisata,Gresik,"Kec. Gresik, Kabupaten Gresik, Jawa Timur, Indonesia",,
-Wisata,Gresik Universal Science,"PC9R+VV5, Jl. Raya Pilangrejo, Area Sawah, Wahas, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.6,55.0
-Wisata,Hartuki / Cakbechan Antique,"Jl. Sumurpandan, Landean, Tanah Landean, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",3.8,8.0
-Wisata,Islamic Center Balongpanggang Gresik,"PC9R+VV5, Jl. Raya Pilangrejo, Area Sawah, Wahas, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",4.7,31.0
-Wisata,Jerat Lanjeng,"4JQF+J3W, Lebak, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.4,85.0
-Wisata,KOLAM PANCING MIEAYAM PASINAN,"JH69+V82, Jl. Raya Pasinan Wringinanom, Patuk, Sumengko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.5,26.0
-Wisata,Kabupaten Gresik,"Jawa Timur, Indonesia",,
-Wisata,Kampung Kemasan,"Jl. Raden Santri Gg. 3 No.2, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.7,104.0
-Wisata,Kandang entok mas Udin,"JF5J+RGF, Reco, Kepuhklagen, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Wisata,Kemah HW Hizboel Waton,"PF92+M3P, Kampung, Pucung, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",,
-Wisata,Kolam pancing ghorit,"JHG7+47Q, Area Sawah/Kebun, Pasinan Lemahputih, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Wisata,"Kp,ganessa","JF2X+M38, Jubel, Kedunganyar, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Wisata,Lapangan Baon Dusun Miru,"JHV8+G2R, Jl. Raya Pendem, Dusun Karangandong, Karangandong, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61175, Indonesia",5.0,1.0
-Wisata,MUSEUM JOKO SAMUDRO,"Jl. Raya Gading Watu RT.5/RW.3, Peniron Wetan, Gadingwatu, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.6,13.0
-Wisata,MUSEUM PUSAKA,"Batara blok L6 No.19, Munggu, Sirnoboyo, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",,
-Wisata,Makam Dusun Ngepung,"PFWX+4GV, Rayon, Bulurejo, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",5.0,1.0
-Wisata,"Makam Keramat Mbah Wira'i,salah Satu Punggawa Kerajaan Demak","PH7W+48W, Tlogo Bedah, Hulaan, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174, Indonesia",4.8,22.0
-Wisata,Makam Panjang,"4JQF+J3W Jerat Lanjeng, Lebak, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.8,22.0
-Wisata,Makam Pusponegoro,"RMQ4+WF2, Jl. Malik Ibrahim, Gapuro Sukolilo, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.9,49.0
-Wisata,Makam Sunan Giri,"Jl. Sunan Giri, Pedukuhan, Kebomas, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.6,1626.0
-Wisata,Makam Sunan Gresik (Malik Ibrahim),"Jl. Malik Ibrahim No.52-62, Gapuro Sukolilo, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",4.8,2682.0
-Wisata,Makam dusun ngembung,"PGQP+CM, Area Sawah, Sukoanyar, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",,
-Wisata,Masjid Jami' Gresik,"Jl. KH. Wachid Hasyim No.6, Pekauman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",4.8,2179.0
-Wisata,Museum Kanjeng Sepuh Sidayu,"2H58+88J, Mriyunan, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",4.5,11.0
-Wisata,Museum Kartawijaya,"PGVQ+245, Jl. Prisma Land, Area Sawah, Sukoanyar, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",,
-Wisata,Museum Sunan Giri,"Jl. Sunan Giri No.2a, Pedukuhan, Kebomas, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.4,78.0
-Wisata,PANTAI NGEMBOH,"3FWX+9GV, Jalan Raya, Ngemboh, Ngimboh, Ujungpangkah, Gresik Regency, East Java 61154, Indonesia",4.3,15.0
-Wisata,Pantai Ayang-ayang Benteng Pulau Mengare,"Tajung Widoro, Tj. Widoro, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",4.2,182.0
-Wisata,Pantai Beto Elong,"Dusun Gunung laok, Desa Daun, Kecamatan Sangkapura, Pulau, Daun, Bawean, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.6,10.0
-Wisata,Pantai Indah Raba,"4HWX+M7V, Dusun Raba Desa Lebak, Kumalasa, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.9,7.0
-Wisata,Pantai Kerrong,"Sidogedungbatu, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.7,15.0
-Wisata,Pantai Labuhan,"7M7F+QCM, Tanjungori, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",4.5,11.0
-Wisata,Pantai Moara,"5J2J+63M, Unnamed Road, Lebak, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.3,3.0
-Wisata,Pantai Pesisir Mulyorejo,"4F2F+GM7, Mulyorejo, Dalegan, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",3.9,87.0
-Wisata,Pantai Ria,"Dekatagung, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.3,98.0
-Wisata,Pantai Selayar,"Jl. Selayar Indah, Sungairujing, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.7,113.0
-Wisata,Pantai Somor-somor,"dusun Somor-somor, Bawean, Kumalasa, Sangkapura, Gresik Regency, East Java, Indonesia",4.4,23.0
-Wisata,Pantai Tanjung Ghe'en,"Kumalasa, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.6,92.0
-Wisata,"Pantai Teletubbies, Pulau Bawean","7P29+47G, Kepuh Legundi, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",5.0,1.0
-Wisata,Pantai Teluk Mur Bawean,"7P4F+CV, Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",4.7,6.0
-Wisata,Pantai somor-somor,"5H2Q+2J, Kumalasa, Kabupaten Gresik, Jawa Timur, Indonesia",,
-Wisata,Pos Copler,"PFXM+C28, Wonokerto, Sirnoboyo, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172, Indonesia",4.6,11.0
-Wisata,Pulau Cena,"6HHP+4M, Tlk. Jatidawang, Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",4.4,9.0
-Wisata,Rumah Defi Ismiah,"JG8W+V5F, Desa, Utara, Lebanisuko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Wisata,Situs Giri Kedaton & Makam Raden Supeno,"Jl. Sunan Giri XIII, Pedukuhan, Kebomas, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.6,953.0
-Wisata,Sunan MMI Gresik,"RMQ3+WJW, Tlogobendung, Bedilan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61113, Indonesia",4.3,3.0
-Wisata,TELOGO DOWO,"Jl. Rajawali III No.04, Gn. Malang, Suci, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.5,38.0
-Wisata,TELOGO GEDE,"JFRV+52V, Wetan, Kesambenkulon, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.6,16.0
-Wisata,Taman Wisata Pura Medang kemulan,"MF2V+2R7, Kulon, Kesambenkulon, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",4.3,6.0
-Wisata,Telaga Ngipik,"RJVM+7JP, Jarangkuwung, Ngipik, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61151, Indonesia",4.1,929.0
-Wisata,Telaga Perengan,"RJWG+HG2, Jl. Siti Fatimah Binti Maimun, Randuagung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",4.0,105.0
-Wisata,Toko HINATA,"MFX4+CF6, Unnamed Road, Tlatah, Wotan Sari, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",3.3,3.0
-Wisata,Tugu SGF,"RJFW+78H, Perdin SG blok G, Jl. Awikoen, Kb. Dalem, Sidomoro, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61123, Indonesia",4.4,44.0
-Wisata,Waduk mondoluku,"MF3W+8FP, Kidul, Kesambenkulon, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Wisata,Watu MACAN,"JG8R+MX6, Utara, Sumengko, Kec. Wringinanom, Kabupaten Gresik, Jawa Timur 61176, Indonesia",,
-Wisata,Wisata Bahari Selayar Bawean,"Sungairujing, Kec. Sangkapura, Kabupaten Gresik, Jawa Timur 61181, Indonesia",4.8,24.0
-Wisata,Wisata Mangrove Mengare (WARAKAS),"Tajung Widoro, Tj. Widoro, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",4.6,71.0
-Wisata,Wisata Religi Gresik,"RMV3+5XV, Pekauman, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",3.0,2.0
-Wisata,Wisata Religi Sunan Giri,"RJJJ+63R, Jl. Kedanyang - Gresik No.4, Pedukuhan, Kebomas, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",4.8,2047.0
-Wisata,Wisata Syifa,"3FWR+F2Q, Jalan Raya, Ngemboh, Ngimboh, Ujungpangkah, Gresik Regency, East Java 61154, Indonesia",4.4,268.0
-Wisata,Wisata pantai hippo sidorejo,"Jl. Raya Campurejo, Sidorejo, Prupuh, Kec. Panceng, Kabupaten Gresik, Jawa Timur 61156, Indonesia",4.6,90.0
-Wisata,Wringinanom mud volcano,"JG96+6VW, Unnamed Road, Sumberame, Sumberrame, Wringinanom, Gresik Regency, East Java 61176, Indonesia",4.0,7.0
-Wisata,jeep erte pitu,"PFJP+JMC, Ngablak, Munggugianti, Gresik, Kabupaten Gresik, Jawa Timur 61172, Indonesia",3.7,22.0
-Wisata,sendang pengayom,"MFW5+GXF, Sokoguru, Wotan Sari, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61172, Indonesia",4.5,6.0
+﻿kategori,nama
+Pemerintahan,Gresik Regent's Office
+Pemerintahan,Kantor Kecamatan Gresik
+Pemerintahan,Kantor Kelurahan Kebomas
+Pemerintahan,Kantor Kelurahan Kawisanyar
+Pemerintahan,Kantor Kelurahan Sidokumpul
+Pemerintahan,Kantor Kelurahan Ngipik
+Pemerintahan,Kantor Kelurahan Ngargosari
+Pemerintahan,Kantor Kelurahan Kebungson
+Pemerintahan,Lumpur SUB-DISTRICT OFFICE
+Pemerintahan,Kelurahan Grebek Kebomas
+Pemerintahan,Kantor Kelurahan Pekauman
+Pemerintahan,Kantor Kelurahan Karangturi
+Pemerintahan,Kantor Desa Yosowilangun
+Pemerintahan,Kelurahan Ngipik
+Pemerintahan,Kantor Kelurahan Sukorame
+Pemerintahan,Kantor Kepala Desa Randuagung
+Pemerintahan,kantor Kelurahan Singosari
+Pemerintahan,Kantor Kelurahan Sidomoro
+Pemerintahan,Kantor Kelurahan Karangpoh
+Pemerintahan,KANTOR KELURAHAN TRATE
+Pemerintahan,Kelurahan Sidomukti
+Pemerintahan,Bagian Hukum Sekretariat Daerah Kabupaten Gresik
+Pemerintahan,Bagian Organisasi Sekretariat Daerah Kabupaten Gresik
+Pemerintahan,Bagian Kesejahteraan Rakyat Sekretariat Daerah Kabupaten Gresik
+Pemerintahan,Bagian Pengadaan Barang/Jasa Sekretariat Daerah Kabupaten Gresik
+Pemerintahan,Bagian Administrasi Pembangunan Sekretariat Daerah Kabupaten Gresik
+Pemerintahan,Sekretariat STABA
+Pemerintahan,Sekretariat Pasukan Khusus SMA Negeri 1 Sidayu
+Pemerintahan,Gresik
+Kesehatan,Semen Gresik Hospital
+Kesehatan,Petrokimia Gresik Hospital
+Kesehatan,Muhammadiyah Gresik Hospital
+Kesehatan,Mother and Child Hospital Nyai Ageng Pinatih
+Kesehatan,Rumah Sakit Grha Husada
+Kesehatan,RSUD Ibnu Sina Kabupaten Gresik
+Kesehatan,RSU Denisa Gresik
+Kesehatan,RS Fathma Medika
+Kesehatan,Rumah Sakit Umum Rachmi Dewi
+Kesehatan,Rumah Sakit Petrokimia Gresik Driyorejo
+Kesehatan,Wates Husada Hospital Gresik
+Kesehatan,Petro Graha Medika
+Kesehatan,UGD RS Petrokimia Gresik
+Kesehatan,RSUD Gresik Sehati
+Kesehatan,Rumah Sakit Umum Walisongo 1 Gresik
+Kesehatan,KMU Gresik Pusat
+Kesehatan,RS. Surya Medika
+Kesehatan,Lobby RS.GRAHA HUSADA PETRO KIMIA
+Kesehatan,Kalimantan Satellite Clinic
+Kesehatan,Rumah Sakit Bayt Al-Musaadah
+Kesehatan,UPT Puskesmas Kebomas
+Kesehatan,Puskesmas Tambak Pulau Bawean Gresik Jawa Timur
+Kesehatan,Puskesmas Alun-Alun
+Kesehatan,Puskesmas Gending
+Kesehatan,Puskesmas Nelayan
+Kesehatan,Puskesmas Industri
+Kesehatan,"Puskesmas Sangkapura, Gresik"
+Kesehatan,Puskesmas Manyar
+Kesehatan,Puskesmas Sukomulyo
+Kesehatan,Puskesmas Dukun
+Kesehatan,UPT Puskesmas Tambak
+Kesehatan,Puskesmas Cerme
+Kesehatan,PUSKESMAS PANCENG GRESIK
+Kesehatan,Puskesmas Duduk Sampeyan
+Kesehatan,Puskesmas Benjeng
+Kesehatan,PUSKESMAS KESAMBEN KULON
+Kesehatan,Puskesmas Kepatihan
+Kesehatan,Puskesmas Mentaras
+Kesehatan,Poskesdes Singosari
+Kesehatan,Puskesmas Sidayu
+Pendidikan,SMAN 1 Wringinanom
+Pendidikan,SMA Negeri 1 Gresik
+Pendidikan,SMAN 1 Kedamean
+Pendidikan,Senior High School State of Menganti Gresik
+Pendidikan,SMA NEGERI 1 KEBOMAS - GRESIK
+Pendidikan,SMAN 1 Driyorejo
+Pendidikan,SMA Negeri 1 Manyar
+Pendidikan,SMAN 1 Cerme
+Pendidikan,SMA Negeri 1 Sidayu
+Pendidikan,SMAN 1 Sangkapura
+Pendidikan,MA.HIMAYATUL ISLAM kebuntelukdalam
+Pendidikan,SMA Negeri 1 Balongpanggang
+Pendidikan,MAN 2 Gresik
+Pendidikan,SMP MA'ARIF GEMPOL & SMA NU 3 GRESIK
+Pendidikan,SMA AL MUNIROH
+Pendidikan,SMA Muhammadiyah 1 Gresik
+Pendidikan,Sma Negeri 1 Kebomas - Gresik
+Pendidikan,UPT SMPN 19 GRESIK
+Pendidikan,Tambak
+Pendidikan,SMK Negeri 1 Cerme
+Pendidikan,SMK NU GRESIK
+Pendidikan,SMK Negeri 1 Sidayu
+Pendidikan,SMK Negeri 1 Driyorejo
+Pendidikan,Vocational High School of Semen Gresik
+Pendidikan,SMKN 1 Duduksampeyan
+Pendidikan,SMK PGRI 1 Gresik
+Pendidikan,SMK Nurul Islam Gresik
+Pendidikan,SMA RADEN FATAH DRIYOREJO
+Pendidikan,SMA YPM 4 Driyorejo
+Pendidikan,SMP Negeri 8 Gresik
+Pendidikan,PT. Langgeng Makmur Aluminium
+Pendidikan,SMA DARUL ULUM DRIYOREJO
+Pendidikan,MA Darul Ma'arif Gresik
+Pendidikan,UPT SMP Negeri 33 Bambe
+Pendidikan,Sumengko
+Pendidikan,Sumput
+Pendidikan,Kesambenwetan
+Pendidikan,Banyuurip
+Pendidikan,University o
+Pendidikan,STIT Raden Santri Gresik
+Pendidikan,STAI Hasan Jufri
+Pelayanan Publik,Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik
+Pelayanan Publik,Kantor SAMSAT Bawean
+Pelayanan Publik,SAMSAT Gresik
+Pelayanan Publik,Samsat Keliling - Menganti Gresik
+Pelayanan Publik,SAMSAT PAYMENT CERME
+Pelayanan Publik,SAMSAT KELILING GRESIK
+Pelayanan Publik,SAMSAT Payment Point Sidayu
+Pelayanan Publik,Mall Pelayanan Publik Kabupaten Gresik
+Pelayanan Publik,Immigration Lounge Icon Mall Gresik
+Pelayanan Publik,Kantor imigrasi
+Pelayanan Publik,BPJS Ketenagakerjaan Gresik
+Pelayanan Publik,BPJS Kesehatan Cabang Gresik
+Pelayanan Publik,Liaison Office BPJS Kesehatan Gresik
+Pelayanan Publik,BPJS. PT
+Pelayanan Publik,BPJS Ketenagakerjaan Gresik Driyorejo
+Pelayanan Publik,Perisai BPJS ketenagakerjaan
+Pelayanan Publik,RSI Cahaya Giri Gresik
+Pelayanan Publik,Bp Jamsostek 116
+Pelayanan Publik,Klinik Rawat Jalan Mitra Medicare suci
+Pelayanan Publik,Parkir MOtor BPJS Kesehatan Gresik
+Pelayanan Publik,klinik kamila sembayat
+Pelayanan Publik,Primary Eye Clinic
+Pelayanan Publik,RS RANDEGANSARI HUSADA
+Pelayanan Publik,Klinik Menganti
+Pelayanan Publik,Klinik Pratama Dinayla Utama 98
+Pelayanan Publik,BPJS AL HISYAM
+Pelayanan Publik,Klinik Permata Gading
+Olahraga,GOR Tridharma Petrokimia Gresik
+Olahraga,GOR PEMUDA MENARA
+Olahraga,GOR GRAHA SRITI AGUNG
+Olahraga,GOR BULUTANGKIS SUMENGKO/GOR PB YAI
+Olahraga,GOR Kidang Palih
+Olahraga,GOR serba guna Duduk
+Olahraga,GOR Tanggulrejo & Lapangan Badminotn
+Olahraga,GOR Ambeng Ambeng Watangrejo
+Olahraga,GOR JUNI JAYA SPORT
+Olahraga,GOR NEW KAMPRET
+Olahraga,GOR MUGI BANGKIT
+Olahraga,GOR Nicky Futsal
+Olahraga,"GOR serbaguna ""SINGGASARI"""
+Olahraga,GOR io
+Olahraga,GOR Tjakrindo Masters Hall
+Olahraga,Gor bulutangkis pb restu 28
+Olahraga,Gor Dwi Utomo
+Olahraga,GOR Raden Kromo Widjojo
+Olahraga,Gedung Olahraga Sidayu
+Olahraga,GOR BUNG UTOMO
+Olahraga,Stadion Sumberame
+Olahraga,Stadion Putra Raharja Fc Sidoraharjo
+Olahraga,Gelora Joko Samudro Stadium (GJS)
+Olahraga,Semen Gresik Stadium
+Olahraga,GMT Stadion PariKesit
+Olahraga,Stadion ball
+Olahraga,Stadion Klaka Indah Daun Timur
+Olahraga,Gelora (Putrabaru C.F)
+Olahraga,Gelora August 17th
+Olahraga,Ambeng-ambeng Internasional Stadium
+Olahraga,WADUK STADION DESA SLEMPIT
+Olahraga,Stadion Pelemwatu
+Olahraga,Stadion Badak Arena Volly Ball Club
+Olahraga,Stadion GPK
+Olahraga,Stadion RIAZORE TURIREJO- KEDAMEAN
+Olahraga,Stadion PSB Bunut Randegansari (NOTO JIRO)
+Olahraga,stadion randu alas gading watu
+Olahraga,Stadion Joko Slining
+Olahraga,Outside Field Stadium Joko Samudro
+Olahraga,Trisakti Ketanen Soccerfield
+Olahraga,Lapangan Tanjungan ( LA STADIUM)
+Olahraga,Lapangan Trunosakti
+Olahraga,Genengan Soccer Field
+Olahraga,Lapangan PORKES
+Olahraga,Lapangan KEPUHKLAGEN
+Olahraga,Lapangan Legundi
+Olahraga,Lapangan Sono Jajar
+Olahraga,Lapangan Wringinanom
+Olahraga,Lapangan Desa Sembung
+Olahraga,LAPANGAN BATMINTON ( GEDUNG PUTRA ZENA )
+Olahraga,Lapangan Bola Volly ARJU
+Olahraga,Lapangan Sepak Bola Desa Menunggal
+Olahraga,Lapangan Pasinan Wringinanom
+Olahraga,Lapangan Kedunganyar
+Olahraga,Lapangan dusun Tanjungan
+Olahraga,Lapangan lebanisuko
+Olahraga,Lapangan Sumput
+Olahraga,Roked muda
+Olahraga,Lapangan Tengah
+Olahraga,Lapangan Sepak Bola Desa Kemuning
+Wisata,Telaga Ngipik
+Wisata,Gunung Kapur Suci
+Wisata,BANDAR GRISSEE
+Wisata,Dynasty Water World Gresik
+Wisata,Wisata Religi Sunan Giri
+Wisata,Situs Giri Kedaton & Makam Raden Supeno
+Wisata,Kampung Kemasan
+Wisata,Wisata Mangrove Mengare (WARAKAS)
+Wisata,Alun-Alun Gresik
+Wisata,Edu Wisata Lontar Sewu (Hendrosari)
+Wisata,Telaga Ngipik Barat
+Wisata,Tomb of Sunan Gresik
+Wisata,Wisata Kampung Kreasi
+Wisata,Wisata Religi Gresik
+Wisata,Bukit Jamur
+Wisata,WGK Wisata Giri Kuno
+Wisata,Pasarean Nyai Ageng Pinatih
+Wisata,Makam Pusponegoro
+Wisata,Danau Kastoba Bawean
+Wisata,Laccar Waterfall
+Wisata,Pantai Ayang-ayang Benteng Pulau Mengare
+Wisata,Exotic Mengare
+Wisata,Wisata pantai hippo sidorejo
+Wisata,PANTAI NGEMBOH
+Wisata,Coastal beaches Mulyorejo
+Wisata,Pantai Teluk Mur Bawean
+Wisata,Tajung Ge'en
+Wisata,"Pantai Teletubbies, Pulau Bawean"
+Wisata,Pantai Ria
+Wisata,Pantai Selayar
+Wisata,Pantai Kerrong
+Wisata,Pantai Labuhan
+Wisata,Pulau Cena
+Perbankan,PERUMDA BPR BANK GRESIK
+Perbankan,BANK MANDIRI KCP GRESIK JIIPE
+Perbankan,BTN KC Gresik
+Perbankan,Bank Gresik (Kas Menganti)
+Perbankan,Bank BRI UNIT Kota Kusuma Bawean
+Perbankan,Bank Mandiri KCP Gresik Menganti
+Perbankan,Bank Syariah Indonesia KCP Gresik Menganti
+Perbankan,BPR Intan Nasional Gresik. PT
+Perbankan,BPR Mitra Cerawis Mandiri. PT
+Perbankan,BMT SURYA RAHARJA PANCENG
+Perbankan,Bank Sampah Mentari
+Perbankan,Bank sampah Sidodadi
+Perbankan,Bank sampah unit Goa Larang
+Perbankan,Bank sampah Sumber Rejeki
+Perbankan,Bank sampah Kejora
+Perbankan,Bank Sampah Sidokumpul
+Perbankan,BUMDes Sumber Barokah
+Perbankan,Bmt Al - Fitrah
+Perbankan,Bank sampah Purwosari Bersinar
+Perbankan,ATM BNI MALINDO
+Perbankan,Bank BRI CRM - KC GRESIK
+Perbankan,Bank BRI KCP Gresik
+Perbankan,Bank BRI UNIT Kartini Gresik
+Perbankan,Bank BRI UNIT Multi Plaza
+Perbankan,Bank BRI KCP Driyorejo
+Perbankan,"Bank Rakyat Indonesia, PT. Tbk"
+Perbankan,Bank BRI
+Perbankan,Bank BRI CRM - KCP DRIYOREJO
+Perbankan,Bank Bri
+Perbankan,Bank BRI CRM - SBY UNIT LEGUNDI GRESIK SURABAYA
+Perbankan,Bank BRI UNIT Kedamean
+Perbankan,ATM BRI
+Perbankan,Teras Bri Link Melayani Transaksi Semua Bank
+Perbankan,Bank BRI CRM - BRI UNIT LEGUNDI
+Perbankan,Bank Bri Kcp Unit Menganti
+Perbankan,Bri Atm
+Perbankan,Bank BRI UNIT Tambak Bawean
+Perbankan,Bank BNI Cabang Gresik
+Perbankan,BNI Cabang Gresik
+Perbankan,BNI PETROKIMIA GRESIK
+Perbankan,BANK BNI GREEN GARDEN GRESIK
+Perbankan,BNI46
+Perbankan,BANK BNI MANYAR
+Perbankan,BNI Graha Puncak
+Perbankan,BNI46 agent and stockist 4Jovem New Town Driyorejo
+Perbankan,ATM BNI
+Perbankan,BANK BNI MENGANTI
+Perbankan,Bni Atm
+Perbankan,ATM BNI MENGANTI
+Perbankan,BANK BNI CERME
+Perbankan,BNI ATM
+Perbankan,BNI BUNGAH
+Perbankan,Bank Mandiri Gresik
+Perbankan,Bank Mandiri KCP Gresik Manyar
+Perbankan,Bank Mandiri KCP Gresik Kota Baru Sumatera
+Perbankan,Bank Mandiri - Cash Outlet Gresik Petrokimia
+Perbankan,Bank Mandiri Gedung Utama Semen Gresik
+Perbankan,Bank Mandiri Taspen KCP GRESIK
+Perbankan,Bank Mandiri Gresik Sedayu
+Perbankan,Mandiri ATM KCP Gresik
+Perbankan,Bank Mandiri KCP Gresik Pasar Kota
+Perbankan,Mandiri Micro Business Unit Gresik Kota Baru
+Perbankan,Bank Mandiri KCP Gresik Benowo
+Perbankan,BANK MANDIRI MITRA USAHA KCP CERME GRESIK
+Perbankan,Bank Mandiri Gresik Balungpanggang
+Perbankan,Bank Syariah Indonesia KC Gresik Kartini
+Perbankan,Bank Mandiri
+Perbankan,ATM Mandiri
+Perbankan,Mandiri ATM KCP Gresik Kota Baru
+Perbankan,Yatim Mandiri - Gresik
+Perbankan,BCA KCU GRESIK
+Perbankan,BCA Bank KCP
+Perbankan,BCA Gkb
+Perbankan,ANT Bank BCA 896-AJBS Gresik
+Perbankan,BCA KCP Benowo
+Perbankan,ATM BCA
+Perbankan,Atm BCA
+Perbankan,ATM BCA Wings
+Perbankan,BCA KCP Kas Menganti
+Industri,Gedung Petrokimia Gresik
+Industri,Pabrik PT Petrokimia Gresik
+Industri,"Departemen Produksi 1 A, PT. PETROKIMIA GRESIK"
+Industri,PT. Petrokimia Gresik (Persero) - Pabrik Pupuk Nitrogen
+Industri,GOR Petrokimia Gresik
+Industri,Dep. Jasa Pelayanan Pabrik PT Petrokimia Gresik
+Industri,Wisma Kebomas Petrokimia Gresik
+Industri,Perumahan Petrokimia Gresik
+Industri,PT. Petrosida Gresik
+Industri,Stadion Petrokimia Gresik
+Industri,Kantor Departemen Keamanan PT.PETROKIMIA GRESIK
+Industri,Kawasan Pelabuhan & Industri Petrokimia Gresik
+Industri,Pabrik Petrokimia Kayaku
+Industri,Diklat Petrokimia Gresik
+Industri,Taman PETROKIMIA PARK
+Industri,PT.Petrokimia
+Industri,Klinik Wringinanom (RS Petrokimia Gresik Grup)
+Industri,"PT. Semen Gresik (Persero), Tbk"
+Industri,Main Building of Semen Indonesia
+Industri,PT Semen Indonesia Distributor
+Industri,Semen Indonesia Foundation
+Industri,Pabrik Semen Merah Putih
+Industri,PT Semen Indonesia Logistik - SILOG
+Industri,Gedung PPS Litbang PT. Semen Gresik Tbk
+Industri,Fabrikasi PT. Semen Indonesia Logistik (Semen Indonesia Group)
+Industri,Gudang Semen Indonesia Logistic Cab Gresik
+Industri,Perum Semen Gresik
+Industri,Universitas Internasional Semen Indonesia
+Industri,Koperasi Warga Semen Gresik - Kantor Pusat
+Industri,Semen Gresik Port
+Industri,"PT. Semen Indonesia Distributor, CAB.SEDAYU"
+Industri,Menumen Persatuan SIG
+Industri,"Sales Semen Merah Putih Watershield (Surabaya, Sidoarjo, Pasuruan)"
+Industri,Semen Indonesia Distributor

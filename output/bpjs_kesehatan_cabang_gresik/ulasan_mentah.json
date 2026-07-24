@@ -1,0 +1,1376 @@
+{
+  "title": "BPJS Kesehatan Cabang Gresik",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Kantor Jaminan Sosial",
+  "address": "Jl. Dr. Wahidin Sudirohusodo No.39, Beturing, Dahanrejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
+  "neighborhood": "Beturing, Dahanrejo, Kecamatan Kebomas",
+  "street": "Jl. Dr. Wahidin Sudirohusodo No.39",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61124",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "+62 021165",
+  "phoneUnformatted": "",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.1685731,
+    "lng": 112.5883731
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RHJQ+H8 Dahanrejo, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJt68VJ6L_dy4RBsqQvuYhTfg",
+  "categories": [
+    "Kantor Jaminan Sosial"
+  ],
+  "fid": "0x2e77ffa22715afb7:0xf84d21e6be90ca06",
+  "cid": "17891994169536203270",
+  "reviewsCount": 1166,
+  "imagesCount": 123,
+  "imageCategories": [
+    "Semua",
+    "Terbaru",
+    "Video",
+    "Di dalam",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-22T10:21:52.072Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 98
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 96
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": []
+  },
+  "openingHours": [
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Jumat",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Liaison Office BPJS Kesehatan Gresik",
+      "reviewsCount": 7,
+      "totalScore": 4.6
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BPJS Ketenagakerjaan Gresik",
+      "reviewsCount": 1183,
+      "totalScore": 4.4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BPJS. PT",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Kesehatan Kabupaten Gresik",
+      "reviewsCount": 25,
+      "totalScore": 3.6
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "pelayanan",
+      "count": 269
+    },
+    {
+      "title": "satpam",
+      "count": 24
+    },
+    {
+      "title": "CS",
+      "count": 15
+    },
+    {
+      "title": "luas",
+      "count": 13
+    },
+    {
+      "title": "dingin",
+      "count": 9
+    },
+    {
+      "title": "parkir",
+      "count": 8
+    },
+    {
+      "title": "ruangan",
+      "count": 7
+    },
+    {
+      "title": "jkn",
+      "count": 6
+    },
+    {
+      "title": "dg",
+      "count": 6
+    },
+    {
+      "title": "bapak",
+      "count": 6
+    }
+  ],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": true
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": true
+      },
+      {
+        "Toilet khusus pengguna kursi roda": true
+      }
+    ],
+    "Fasilitas": [
+      {
+        "Toilet": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=BPJS%20Kesehatan%20Cabang%20Gresik&query_place_id=ChIJt68VJ6L_dy4RBsqQvuYhTfg",
+  "searchPageUrl": "https://www.google.com/maps/search/Liaison%20Office%20BPJS%20Kesehatan%20Gresik?hl=id",
+  "searchString": "Liaison Office BPJS Kesehatan Gresik",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmC9IWZ8Fs-UCkYv58sk-CHYGlpRor9lDoMjczyKDK4_Ici_Xn81876pg9EAUIZiHufip1C_IpmtgcJUjusrSvDhYQboZNFzrD0Jf_n1L8KGL2M7vxTgoH7r2O3yeHXPJTcO_32n08rTFJ3=w408-h289-k-no",
+  "kgmid": "/g/11v5bv1j93",
+  "reviewsDistribution": {
+    "oneStar": 6,
+    "twoStar": 4,
+    "threeStar": 1,
+    "fourStar": 20,
+    "fiveStar": 1135
+  },
+  "questionsAndAnswers": [],
+  "updatesFromCustomers": {
+    "text": "Maaf mau tny jamsostek saya sdh hampir 24th blm saya ambil smp skrg,,,trs surat\" jg hilang hanya ada surat pengalaman krj aja apa masih bisa dicek dan diambil",
+    "language": "id",
+    "postDate": "4 bulan lalu",
+    "postedBy": {
+      "name": "Su Ki",
+      "url": "https://www.google.com/maps/contrib/110624085744996192286?hl=id",
+      "title": null,
+      "totalReviews": 0
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOs3EPC49LPPSyObrIwCS6vmuOptR4RUHjbS04cvBccylstiKl1cT2arbsMj6law9Sha_xfiL9g_2M3SyC4lHqRfqsKe4effd49flL_B7zYrHoYeNrYu3Z9nuBxs8xHXdym9gfqjoTwYTGu=k-no",
+        "postDate": "4 bulan lalu"
+      }
+    ]
+  },
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "102275007437825013731",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102275007437825013731?hl=id",
+      "name": "Wishnu E. W.",
+      "reviewerNumberOfReviews": 429,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXheDGeQoOPCXw4zrbI_AQu6Is4ULsN1KGKnirUs_aK4-hTPBHb=s1920-c-rp-mo-ba12-br100",
+      "text": "Tempatnya cukup besar, tertata, dan bersih.\nPelayanannya ramah. CS menguasai informasi permasalahan yang tengah dikonsultasikan.",
+      "textTranslated": null,
+      "publishAt": "Diedit 1 hari lalu",
+      "publishedAtDate": "2026-07-20T15:35:57.782Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2taalRuTnphVGxGVjFKbmQwMHlNM3BwYUhkS1dtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taalRuTnphVGxGVjFKbmQwMHlNM3BwYUhkS1dtYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOkZjTnNzaTlFV1Jnd00yM3ppaHdKWmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-16T09:36:51.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113568957986244097570",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113568957986244097570?hl=id",
+      "name": "Hari Purnawana",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKF1a7y31WF6M069kXtvEvHdT3MMX6zJqzoIz5ij_Iv3DKY6Q=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 hari lalu",
+      "publishedAtDate": "2026-07-20T02:18:56.890Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xGSVZIaFJlV1JtWlRsM09XRlpPRmg1U2pKNFNGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xGSVZIaFJlV1JtWlRsM09XRlpPRmg1U2pKNFNGRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOlFIVHhReWRmZTl3OWFZOFh5SjJ4SFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-20T08:44:08.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108012747208698926889",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108012747208698926889?hl=id",
+      "name": "Radenmoh Ilhamyahya",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL8PPO9fZAlRCMAtzt8WzaW2Ikd_lP7LABmSEN-vPCHJV9cmw=s1920-c-rp-mo-br100",
+      "text": "Pelayanan baik dan memuaskan",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-13T05:45:30.855Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oQ1JHbEJXbmR5YlY5UlMxSTJSMFJ4UVUxTlkwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oQ1JHbEJXbmR5YlY5UlMxSTJSMFJ4UVUxTlkwRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOnhCRGlBWndybV9RS1I2R0RxQU1NY0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-16T09:36:57.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110944548450227067256",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110944548450227067256?hl=id",
+      "name": "Yuliana",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIhi3Jzw8KGn5K94QD4QzqhyM7ORBc2GKvrjLq_RuiSodWuHA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-02T04:39:57.362Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sTk5YUXdRMVZ2VVRGUVNsUkZkM0pXT1ZrMVZuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sTk5YUXdRMVZ2VVRGUVNsUkZkM0pXT1ZrMVZuYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOnlNNXQwQ1VvUTFQSlRFd3JWOVk1Vnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-03T01:52:03.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103538319748486504840",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103538319748486504840?hl=id",
+      "name": "Abdul Kafi",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXqFaRV_vXJBQaaYKZD22bzr6HBA6vM9oSE7uiZcgHyHsNReoMzGA=s1920-c-rp-mo-br100",
+      "text": "pelayananya mantap",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-29T02:53:19.322Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCNGVtUm5XVzgyYTBOMmNWZEpWbmgxYTNJeWRuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCNGVtUm5XVzgyYTBOMmNWZEpWbmgxYTNJeWRuYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOlB4emRnWW82a0N2cVdJVnh1a3Iydnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-03T01:51:57.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100228627464856249306",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100228627464856249306?hl=id",
+      "name": "arif fidyanto",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUIiquE89w1O5lLqVK8XWwy2o69RMp-UFNoWM8Bz0EJ2sgnjKU=s1920-c-rp-mo-br100",
+      "text": "Pelayanan cepat dan jelas",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-26T07:19:49.909Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsRlNFSkxOV05qWkZoclVFUXhNelZ0TlhvdFpFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsRlNFSkxOV05qWkZoclVFUXhNelZ0TlhvdFpFRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOklFSEJLNWNjZFhrUEQxMzVtNXotZEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T22:56:15.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102383377940925809523",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102383377940925809523?hl=id",
+      "name": "Nurendo Imam Putra",
+      "reviewerNumberOfReviews": 13,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWgxJ2wUPPF8KpOBrM5BLd-frHCVBzU1YOmQL4l-NyxtC-QzzwSMw=s1920-c-rp-mo-ba12-br100",
+      "text": "Tempat nyaman, pelayanan ramah satset",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-26T07:07:59.872Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sSVZWTkRMVjgzVGxKUlZ6Sk5ObWN5YTBOS1lYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21sSVZWTkRMVjgzVGxKUlZ6Sk5ObWN5YTBOS1lYYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOmlIVVNDLV83TlJRVzJNNmcya0NKYXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T22:56:06.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPOQipE4huxOTE30iQPWj1A8tM38mawsSH6wHBIJbcSsmpwxwQuTu8h39W0dye219BBDGR2zV1y6nJt6UDpYJe4HyoaaShoD0ORj0T0enzPpEQIZRC7JYuH9WjAtOVsFGfio1ApOqzSoOCu=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103261101444142087066",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103261101444142087066?hl=id",
+      "name": "naira putri",
+      "reviewerNumberOfReviews": 41,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXn6oOhNOcQvnNlvPO8TPXghb-tUpOdDoAThWIocXx2hpZEhAY1=s1920-c-rp-mo-ba12-br100",
+      "text": "Pegawainya ramah² ya... Terima kasih BPJS",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-06-25T08:56:35.891Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsaFVGZFJiekF4WVhoYVVEa3pVSE5TYWtKWlRWRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsaFVGZFJiekF4WVhoYVVEa3pVSE5TYWtKWlRWRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOklhUFdRbzAxYXhaUDkzUHNSakJZTVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:32:38.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112579423737008957434",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112579423737008957434?hl=id",
+      "name": "Shinta Ayu RH",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJuaIyJ6dezwO45JXjpko2cJVkLs0-2EniOqI4oYVCXjKBNIw=s1920-c-rp-mo-br100",
+      "text": "Sangat responsif dan membantu",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T07:47:52.410Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT214SWVVOXRPVGxFVFRsSmRFTmtPSGxLUlhWclRuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214SWVVOXRPVGxFVFRsSmRFTmtPSGxLUlhWclRuYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOmxIeU9tOTlETTlJdENkOHlKRXVrTnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:32:49.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115207492294292285001",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115207492294292285001?hl=id",
+      "name": "Zac kky",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKs5fGCbwXTcDXVAnZwdn_S0GxNCwgOEhDEpU3kBUXre0gSDQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T07:39:10.695Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WRlpreGpNSEExV2tsUmNsRmhhV3RVTTNSWlVGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21WRlpreGpNSEExV2tsUmNsRmhhV3RVTTNSWlVGRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOmVFZkxjMHA1WklRclFhaWtUM3RZUFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:32:55.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103297355964052147954",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103297355964052147954?hl=id",
+      "name": "AGA electrical",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW1Nhqg2xjWNFLOwbisHFVOmrhQyDUYsyCAGGWyR5NHo6ywNv2P=s1920-c-rp-mo-br100",
+      "text": "Sopan cepat",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T07:00:08.612Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKRFVUQjRRakowZDA1dlZDMHhSbmhrWVZCM1dGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKRFVUQjRRakowZDA1dlZDMHhSbmhrWVZCM1dGRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOlJDUTB4QjJ0d05vVC0xRnhkYVB3WFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:33:00.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114403441407494328891",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114403441407494328891?hl=id",
+      "name": "Kang Ay-La (Toni)",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUa3HbH8uGf63KHubH6Dn-6Nmmbdv9vSuw0LMm_DuafKU6lrJ_h=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T05:56:08.533Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21aM055MWtXVTV1WVRWWk4ycGZTVWt5U2xaSFJHYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21aM055MWtXVTV1WVRWWk4ycGZTVWt5U2xaSFJHYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOmZ3Ny1kWU5uYTVZN2pfSUkySlZHRGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:33:04.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111626154336316038364",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111626154336316038364?hl=id",
+      "name": "Nur Khabibah",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXEgMSMuVnsptTr9ftjWlTMWyv0RRo_mCtjUec5DkMTfUWJ5dTJ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T05:48:20.023Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSSk5IUTRWREUwUm5WM01WRm1XUzFSWlVkTk1GRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSSk5IUTRWREUwUm5WM01WRm1XUzFSWlVkTk1GRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOjRJNHQ4VDE0RnV3MVFmWS1RZUdNMFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:33:10.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102212313779010944868",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102212313779010944868?hl=id",
+      "name": "rizal ahmad",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVuuq85OuEmlOXungKpw4lU0g2LDTYwt8WKtAla_xPhnQF68jpx=s1920-c-rp-mo-br100",
+      "text": "Pelayanan sangat bagus ramah\nDan sangat sembantu",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T04:17:45.034Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWZmRXeHlOMHhyVWxFelVXRjFXbE5EWVhCMlUxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWZmRXeHlOMHhyVWxFelVXRjFXbE5EWVhCMlUxRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOkVfdWxyN0xrUlEzUWF1WlNDYXB2U1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:33:18.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106854250593591375539",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106854250593591375539?hl=id",
+      "name": "Rifki Chanel",
+      "reviewerNumberOfReviews": 10,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWCkFNIDQX3bqAs2x6XUdJsDreGxLLDpTpr-46rvoEPudkDgbhDYg=s1920-c-rp-mo-br100",
+      "text": "Layanan sangat baik , dan petugas ramah",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T03:59:24.234Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201U05HMWpRVVZpYnkxRVJ6SnplRUp1TWtKQlNuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201U05HMWpRVVZpYnkxRVJ6SnplRUp1TWtKQlNuYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOm5SNG1jQUViby1ERzJzeEJuMkJBSnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:33:25.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116704300513601375654",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116704300513601375654?hl=id",
+      "name": "Faishol Arifin",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLpwuTN3MuAK_Gru0pWIgrPMz-SWJ76RBiKH8gx4qr2maq5tQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T03:48:24.091Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kd2NsVkdaR0pLVTBONmNsOTVaVVZoWVZJeU0wRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kd2NsVkdaR0pLVTBONmNsOTVaVVZoWVZJeU0wRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOndwclVGZGJKU0N6cl95ZUVhYVIyM0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:33:32.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107740041187370151744",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107740041187370151744?hl=id",
+      "name": "Baru",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKNdLTp75bABurJngfLFxi1kumdXeJkFSwJsf6CxTmz1LdVYA=s1920-c-rp-mo-br100",
+      "text": "Pelayanan baik",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-24T02:16:26.783Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25OeE5GRlphMmxwUTBWak1FUlRUbTV5U1dKQ1RtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OeE5GRlphMmxwUTBWak1FUlRUbTV5U1dKQ1RtYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOnNxNFFZa2lpQ0VjMERTTm5ySWJCTmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-26T01:32:28.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106506276042406843765",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106506276042406843765?hl=id",
+      "name": "Hadi Poernomo",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIkSRsiquvOv49TFNj4iga8PM_5_bPmbFParUgSyHH1276VLA=s1920-c-rp-mo-br100",
+      "text": "Trima kasih mbak devi pelayanan nya bagus banget",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-23T07:08:56.097Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxalZraGhUMEY0ZWt0Q2N6ZEhaV1pKY1RkRmFrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxalZraGhUMEY0ZWt0Q2N6ZEhaV1pKY1RkRmFrRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOk1jVkhhT0F4ektCczdHZWZJcTdFakE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-23T10:33:49.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108723502377606592599",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108723502377606592599?hl=id",
+      "name": "Masrifah",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXBL8WR0sK1Z5KRmqyX_ruKsqnuc23wI-LCs4NWmrA7d6nUcSE=s1920-c-rp-mo-br100",
+      "text": "Pelayanan ramah dari satpam hingga cs nya. Sangat informatif dan memudahkan customer. Puas banget disini🥰",
+      "textTranslated": null,
+      "publishAt": "4 minggu lalu",
+      "publishedAtDate": "2026-06-23T05:19:23.699Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pab2MwODFZelF5UTJOZlFVMW5WRlk1UVMwd1RsRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pab2MwODFZelF5UTJOZlFVMW5WRlk1UVMwd1RsRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOjZoc081YzQyQ2NfQU1nVFY5QS0wTlE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-23T10:33:42.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPXIf14FGkhU0eOBRFKkLg5-gngJ5uxpydZvnhcU-7K7r8Vd_VywbVFRRQ_lVW9dqE6zZT2VbS_DVsX81mBzsn5jeEDEZSwYNOnzrmRRL1d2wiDs0gVNZCqpErZYqHUcDxfqvsM86sLEBKw=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104854430208987007719",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104854430208987007719?hl=id",
+      "name": "Sarofah Muyas",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJsYNzAYLTAbo5CgwEP18YBIRe7kopsArI7T43TNySjqP17Rg=s1920-c-rp-mo-br100",
+      "text": "Tetap melayani dgn sepenuh hati ...",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-22T06:22:12.577Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2kxbU1HbHhSRE51VkVGRldXaFFUek4yTkZkbFkyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxbU1HbHhSRE51VkVGRldXaFFUek4yTkZkbFkyYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOi1mMGlxRDNuVEFFWWhQTzN2NFdlY2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-22T22:55:36.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116431439950381455215",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116431439950381455215?hl=id",
+      "name": "Didit Purwanto",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUhWScLKlGBM3ebV24-Vw46To6ah87LD3kU9Xnm7HxUAlsyMKA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-22T02:52:45.657Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tweFh6RkhNbHBHUm5CUFkzRlBXVlZXZVRsV1pFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tweFh6RkhNbHBHUm5CUFkzRlBXVlZXZVRsV1pFRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOkpxXzFHMlpGRnBPY3FPWVVWeTlWZEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-22T22:55:43.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102225300080492406120",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102225300080492406120?hl=id",
+      "name": "Sadariningsih Spd",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJCDBeSNneY9p3BVcoeqsTZhb5lF5L-JwlEfQ1r1KLRcN0b3w=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-22T02:46:50.804Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xFd1RqRjZPSFF0TnprdFpHTmxlalUyUW1VelNVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xFd1RqRjZPSFF0TnprdFpHTmxlalUyUW1VelNVRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOlEwTjF6OHQtNzktZGNlejU2QmUzSUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-22T22:55:25.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100118612487670564930",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100118612487670564930?hl=id",
+      "name": "Kentang Goreng",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIrzp_z7wjXG-veWAqlYyrFKdZweaN3Mj7HLJDoivLyu9Dozg=s1920-c-rp-mo-br100",
+      "text": "Best banget, jam 10 pagi tadi hari rabu datang dengan istri ingin penambahan langsung di jelasin sama bapak satpam mas Wahyu kalau gk salah di jelasin dengan detail tentang dari perusahaan gimana, untuk yang ikut kis gimana, top banget mudah di pahami. Lalu sama mbak mbak di bantuin masuk mobil jkn untuk bisa ngecek dan merubah data sendiri dirumah, semoga selalu konsisten",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-17T15:41:48.812Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1dVN6VmFNMGhsVTJaWVluRXlOWEowYlhwUk5uYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1dVN6VmFNMGhsVTJaWVluRXlOWEowYlhwUk5uYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOk5uSzVaM0hlU2ZYYnEyNXJ0bXpRNnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-19T00:14:19.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117546860967923073010",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117546860967923073010?hl=id",
+      "name": "Harita jaya Abadi",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIhG2pZ9lZ7KXl4pAl1vMHYlepjnyFSZ2CY6ViNLurtxYySXQ=s1920-c-rp-mo-br100",
+      "text": "Layanan sangat memuaskan",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-17T04:33:42.227Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KVVUycFdPSEZ5Y1RaTmMwRlhZbFpmZERkcU1XYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KVVUycFdPSEZ5Y1RaTmMwRlhZbFpmZERkcU1XYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOmJUU2pWOHFycTZNc0FXYlZfdDdqMWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-19T00:14:06.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115801547767104608210",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115801547767104608210?hl=id",
+      "name": "Dwiana Oktavianti",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWLKT5ITBTsZGGvFJpwI-wgb9Xs8Bes_SbxsyXmvoMjO9OCTMsNIw=s1920-c-rp-mo-br100",
+      "text": "Pelayanan ramah dan cepat",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-17T04:01:52.793Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pCdWN6SnlSRTFFU21JeU4wcFJSV3RUVnpSelQwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCdWN6SnlSRTFFU21JeU4wcFJSV3RUVnpSelQwRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOjBuczJyRE1ESmIyN0pRRWtTVzRzT0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-19T00:13:18.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102217418379867223714",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102217418379867223714?hl=id",
+      "name": "Salman Opir",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIksQr8JmpSIq0WIq8bGBZdHszd_lfme7vQakv5-k-EaFjdbg=s1920-c-rp-mo-br100",
+      "text": "Alhamdulillah pelayanan nya baik is the best BPJS kesehatan gresik\n\nTerima kasih atas layanan nya🙏",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-17T03:02:29.984Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kalZHaEZYME5CYWw5S1JuaG1kMjFpVDNOU00xRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kalZHaEZYME5CYWw5S1JuaG1kMjFpVDNOU00xRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOndjVGhFX0NBal9KRnhmd21iT3NSM1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T03:15:38.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104154573154598416401",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104154573154598416401?hl=id",
+      "name": "Didiet Purwantoro",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJJWSwPJYJmBr78AvvWN5JGOxKbvHpyw4vpe1bVn1mtJ14eTw=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya sangat bagus",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-17T02:52:21.262Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KUWEwd3dlSFZXYTI1R2RISmFTMHhqWVhkNVNGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KUWEwd3dlSFZXYTI1R2RISmFTMHhqWVhkNVNGRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOnJQa0wweHVWa25GdHJaS0xjYXd5SFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-17T03:15:25.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100299764139327711972",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100299764139327711972?hl=id",
+      "name": "DARJANTO SH",
+      "reviewerNumberOfReviews": 9,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW2-zyaSGUbTfpf5uTQjm7cvV63TnKUqFfCTvPY-Ko82XcOOEw=s1920-c-rp-mo-br100",
+      "text": "sangat berkualitas",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-14T20:37:25.232Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKRFpGSnNOblp1VG1GWlVXdFBjbEZVVTJjelRrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKRFpGSnNOblp1VG1GWlVXdFBjbEZVVTJjelRrRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOlJDZFJsNnZuTmFZUWtPclFUU2czTkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-14T22:52:18.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108454517367058497568",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108454517367058497568?hl=id",
+      "name": "Andi 26",
+      "reviewerNumberOfReviews": 171,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4yImtRMzrGuScWlm44D14ditlAIfOBNiAlbzu2rwgGrswow=s1920-c-rp-mo-ba12-br100",
+      "text": "Saya ke sana baru sekali, kalau di meja konter, pelayanannya enak dan jelas, cuma waktu di awal, kenapa harus security/satpam yang Nerima pendaftaran kita, karena kemarin kayaknya saya misinformasi, jadi ada kendala, untungnya di bantu sama pihak puskesmas Manyar, kalau bisa itu petugas dari BPJS sendiri yang bisa ngejelasin produknya, toh kalau pun security yang njelasin, paling tidak bukan yang kena rolling pos ya.",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-12T10:57:31.877Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kTU9FTnhkemxSVTNNMlFuTmpjMEpxWVZWV1ZWRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kTU9FTnhkemxSVTNNMlFuTmpjMEpxWVZWV1ZWRRAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOndMOENxdzlRU3M2QnNjc0JqYVVWVVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 3,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-12T12:36:19.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungan dan masukannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102043789968541152134",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102043789968541152134?hl=id",
+      "name": "Eka Sari",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIwFo6im8asinIKY8mZIiKkWRiAC5jEwZ2GGSz0tZAnzd0EjA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-08T04:54:17.972Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pkU05FUTVkR0pNWlc4eVRHMDRSSGwxYUY5WGVXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pkU05FUTVkR0pNWlc4eVRHMDRSSGwxYUY5WGVXYxAB!2m1!1s0x0:0xf84d21e6be90ca06!3m1!1s2@1:CAIQACodChtycF9oOjdSNEQ5dGJMZW8yTG04RHl1aF9XeWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-06-08T05:16:11.000Z",
+      "responseFromOwnerText": "Terima kasih atas kunjungannya ke Kantor BPJS Kesehatan Cabang Gresik. Untuk layanan online silakan instal aplikasi Mobile JKN atau melalui chat WA layanan Pandawa 08118165165 atau telepon Care Center 165 🙏",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Pelayanan Publik"
+}

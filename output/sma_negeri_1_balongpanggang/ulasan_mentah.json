@@ -1,0 +1,564 @@
+{
+  "title": "SMA Negeri 1 Balongpanggang",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Sekolah menengah",
+  "address": "MCW8+FMR Tanah, Bajulan, Tanah Landean, Kec. Balongpanggang, Kabupaten Gresik, Jawa Timur 61173, Indonesia",
+  "neighborhood": "Bajulan, Tanah Landean, Kecamatan Balongpanggang",
+  "street": "MCW8+FMR Tanah",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61173",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "+62 31 72356699",
+  "phoneUnformatted": "+623172356699",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -7.3037509,
+    "lng": 112.416629
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": null,
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": null,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ35ROEbMbeC4RkieXKnMK0EY",
+  "categories": [
+    "Sekolah menengah"
+  ],
+  "fid": "0x2e781bb3114e94df:0x46d00a732a972792",
+  "cid": "5102589867562837906",
+  "reviewsCount": null,
+  "imagesCount": 67,
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°",
+    "Video"
+  ],
+  "scrapedAt": "2026-07-22T10:11:33.115Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 45
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 86
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": []
+  },
+  "openingHours": [
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 17.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 17.00"
+    },
+    {
+      "day": "Jumat",
+      "hours": "07.00 to 17.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 17.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 17.00"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMA Nusantara",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMAN 1 Wringinanom",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SDN 1 Balongpanggang",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMA NEGERI 1 KEBOMAS - GRESIK",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "SMA Negeri 1 Mantup",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [
+    {
+      "title": "Makanan & Minuman",
+      "count": 1
+    },
+    {
+      "title": "Belanja",
+      "count": 1
+    },
+    {
+      "title": "Lainnya",
+      "count": 1
+    }
+  ],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": false
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "updatesFromCustomers": {
+    "text": "tempat nya bagus\nDesa landean.balong panggang\nDeket nol jalan\nLuas jalan papas mobil masuk\nLahan tanah bagus di buat perumahan dan kapling/kantor di sebelah nya banyak tanah-tanah kaplingan deket lokasi\n\nDeket.sekolan sma balong panggang\nDeket.rumah sakit\nDeket.pom bensin\nDeket pasar\nNogo di tempat",
+    "language": "id",
+    "postDate": "setahun lalu",
+    "postedBy": {
+      "name": "Sito Yeni",
+      "url": "https://www.google.com/maps/contrib/117267678789629228670?hl=id",
+      "title": null,
+      "totalReviews": 0
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmM5BhQJutvC8KM5DRkl6K4Wt-bwoUPGOsP_3GeWqyP1YvdvOi6VKH86gnCWZMR3p6yqKkoYequx9GolGTA0vAGmAVXYk8KAvDYg89rc6E3__jbyg9vJQDVMnwtllWqdsBHs9cM4=k-no",
+        "postDate": "setahun lalu"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMl4dhUxDIDg_YmhMNY5LpUP556-CcDdbwAZUOIn43GqW3yy3zy-JhgKu5sksey89hebusojqHkwINN8nZy-ObHqxldFvD2sLmC-TEYqFRIMSXDIUtnFA0n6JhzB_gjVZNi8joe=k-no",
+        "postDate": "setahun lalu"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmP9hde1B2Npa46wpke9hL0s0rYr-4PPXHZW-dApA4uRos-M--6KuD5PI40ceyV-uBf9KVifkiVTxjhY-WGCgIcOrzmnlD3On0Ea2b4FhuxGs2pDM9I5jPf6YPBphyW4g6gLENuR2A=k-no",
+        "postDate": "setahun lalu"
+      },
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNSymMLDM2vCSfnK5IofhWaSx-ujj6ih_435zADGvJQ8SrM2-QXbS7_OyBmdSdKmnrOgZ_KEPzH7B3Ozd4GZXG9uhHeeLdWN868fiYRiygEY2nM3mMvaWp-7O6Imnvml0qt6_dj=k-no",
+        "postDate": "setahun lalu"
+      }
+    ]
+  },
+  "url": "https://www.google.com/maps/search/?api=1&query=SMA%20Negeri%201%20Balongpanggang&query_place_id=ChIJ35ROEbMbeC4RkieXKnMK0EY",
+  "searchPageUrl": "https://www.google.com/maps/search/SMA%20Negeri%201%20Balongpanggang?hl=id",
+  "searchString": "SMA Negeri 1 Balongpanggang",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk98JTkKIRs3nAO378eB16N1FuZikpv27jXqylVWO8lP7u1tGZFWAsZkLF33-_pCeMAB1tBp1H8G05fAKwj5_JKU-gkOpLkgJzfo9RF5tdzEAu_x9LrdfK4Bntc6DDjre9r5Nue=w408-h306-k-no",
+  "kgmid": "/g/11h6s06sly",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [],
+  "leadsEnrichment": [],
+  "kategori": "Pendidikan"
+}

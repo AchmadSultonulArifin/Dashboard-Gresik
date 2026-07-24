@@ -40,14 +40,14 @@
     "fourStar": 42,
     "fiveStar": 370
   },
-  "imagesCount": 74,
+  "imagesCount": 48,
   "imageCategories": [
     "Semua",
     "Terbaru",
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T10:55:39.579Z",
+  "scrapedAt": "2026-07-22T10:06:46.823Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,14 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
@@ -85,6 +77,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -168,7 +168,7 @@
       "count": 11
     },
     {
-      "title": "masalah",
+      "title": "ruang",
       "count": 8
     }
   ],
@@ -203,18 +203,18 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOYQYpOnO9MPq_zEvb_VZNRoCfGiSH_j1DIp9KQW4SrRd81r-Rs7tvf0JVGmP0I_AedTQVFFPmZJjX-eRzSJCuddu4olp9W2TPcRAcTgNuUQNj5jBNd725ageNN1I7BPU1h_UQRRfbTm5qu=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmN839fxalyJg8Y-HJ8R5PwXHils-jKvX7sXoCiEwPnPEWa8bujb-SbjQIFrZsFqw_gxCnN5wlSIA5LheFUyrM2r4zLH3D_H7o4zJ75umt7I1TECohk59TmToANDLH9j6IJNiCpq9j2f8B5D=k-no",
         "postDate": "3 bulan lalu"
       }
     ]
   },
   "url": "https://www.google.com/maps/search/?api=1&query=Puskesmas%20Kebomas&query_place_id=ChIJ8a5t-2sA2C0RJ-XxSt3dj3Y",
-  "searchPageUrl": "https://www.google.com/maps/search/Puskesmas%20Kebomas?hl=id",
-  "searchString": "Puskesmas Kebomas",
+  "searchPageUrl": "https://www.google.com/maps/search/UPT%20Puskesmas%20Kebomas?hl=id",
+  "searchString": "UPT Puskesmas Kebomas",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIy-s3UD1bnCM4S71_byTJ9fWshkltODD0jg0sTVohpwBiHquqDSfPBABjPtIfi9n2_YW-vAun4frHy-FXBTHa1o3GyUXiC8dINup9GJkLweIodJzZQwl4OWmH7hf2457m4FUX=w408-h315-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUdAkSuz48XssGPweNPJPnYsAhi_jNxkBbZQTYRDBrruHxyRyv99QunFhDQAtSK2ar1s4vSxsilfHatf5VA5-ChmI9RoTdCRdlhnKKqVnrDfZ-wEF2Ki6wJMwX7csGnKkFIFn_=w408-h315-k-no",
   "kgmid": "/g/11b6gdjgft",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -231,12 +231,12 @@
       "reviewerId": "107303756721118883953",
       "reviewerUrl": "https://www.google.com/maps/contrib/107303756721118883953?hl=id",
       "name": "MINET AE",
-      "reviewerNumberOfReviews": 4,
+      "reviewerNumberOfReviews": 5,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUOqWRbcXwfGj-9jEfr_eaXhTflysQrw6GighCaDbRv3yOLttS9=s1920-c-rp-mo-br100",
       "text": "Peserta bpjs luar kota ,kartu bpjs tidak bisa digunakan ,padahal harusnya bisa digunakan gratis 3 x dalam 1 bulan\nDidepan ruang daftar diterangakan 1 kali berobat gratis\nTrus masuk poli umum ,malah disuruh bayar\nAkhirnya pakai umum ,daftar suruh bayar 25 ribu,\nBukanya tidak punya uang ,tapi percuma bayat bpjs tiap bulan tidak bisa dipakai\nBuruk sekali",
       "textTranslated": null,
-      "publishAt": "8 jam lalu",
+      "publishAt": "2 hari lalu",
       "publishedAtDate": "2026-07-20T02:07:23.613Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKUVJqSnNNME56V1hVM09WbFlRek4wVmxCdWMzYxAB",
@@ -247,7 +247,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMGcOtURgOQELR61rD8PBKVdKYIEmGLvzhHtF8NpS94JoGk1ycwbfXfGdHLNenvLvB-HfgPBZ__56G_G0_JIYar2vye3DEcVLwfseKu1izxnjMghQOhCrLSgv5fieZ5mdzQKiZHDAo8UMNs=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNBmYbbS_oSRptwli5dsLc2r9RopnurucqLWJ2tmB6r1UwB0rq1uytZle_EqZ3qrbn3pgRtKM7-ecJ15pAE8e8O_ZDwWvjfGcBulKYRH50b8H_Kz1vVt1QI4jVLl5jn3e8DcN6q4T4CBOMX=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -264,7 +264,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWZo3l7fVO1JgPEPZDTWHICdUzecU1h0M8pyUztqrG5t06I2knJTw=s1920-c-rp-mo-br100",
       "text": "Terima kasih untuk pelayanan di poli KIA, pelayanan sangat baik, Bu bidan dan dokter sangat ramah😘",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-15T01:45:45.786Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pGQlNVMHlOM3BFZGpaUWFsbzVOR1ZwYW1aNVIzYxAB",
@@ -290,7 +290,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJidTolpegvnUH2IV9x5AsUWvhO7z5V2lI6rDeEDPRX3SLtgA=s1920-c-rp-mo-br100",
       "text": "Pelayanan ramah, cepet, antrinya gak panjang.",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-07T02:28:14.554Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201eWEyOTZja1pCWldwUWNGUlRWREkwUmpacWMxRRAB",
@@ -301,7 +301,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNFNJvyDlqT1Pe3doRej74MaLLRaTdWYgb88afn1hj-ULLzE1DwiWXdlz1zg6Hm5ajN5mLEszCBVu9UoQBmTeTw1dEUggmtiI187b12shTYMm2y9eS7UusQhcjTNZJ_w-W97cOXa6FE8LKp=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-7VKzO6aplpx2sbkC8VRs0cr83fqU_GPXYNSaxuRcQKX94iz_7uzYW6MiuINKu_af79Bw2sOiMdEgfFxUycmNVlBzSroWdOGFD0aHtw0VIL7uONLVGhrtAJzOX9F01PhiHIOJKjNZ-yd6=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -329,7 +329,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPuSoP4JrxID7MsUavqgx5-Smt3RbbGVEkLbbMZYaMa2vDrVbHFadLMtaIR4KtfLrD2oqo_d5mLXW2k0OKrLjrStd_r8rEbS93nQ3_qyEHr-rFrtXGRBjBeNdKl9oWQyiwIv6tyL7_rEUM=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOnF1Xilm6-RUl7nbAxIlx779YPurdC6KrkAVj-cxkxKoSlts92kT-ES8tN9xB2M7_R4Y_9r7XrQAv60LYixuwJ-twCU41zVU_gKtTBy9VnP-mztHSdTBA49M39wSm9hurtMLPu59kyIIg=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -398,7 +398,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLfK9_eEs0RyfA7gv7U3A3T2deuSmYnFPdmQD7G1na2bhGg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-01T03:36:01.865Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s5Uk1uQlhVMFZ4UkZsd01tbEdZVWRPYURoT1JFRRAB",
@@ -424,7 +424,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4OQ6U4HPGhnoyoHInrQbxfG6f889z80C03K6Ko3SE69kadg=s1920-c-rp-mo-br100",
       "text": "judes judes pelayanannya cuman dibagian ahli gizi aja yg engga. smoga ibu dokter/perawat yg di ahli gizi diberikan kebaikan yg melimpah ya bu ❤ . beda lagi di poli kia,malah ga dijelasin detail,ditanya keluhan apa? tapi ga dijelasin karna apa ato apa, dokternya juga. sibuk ngobrol tuh poli kia. ga recommend buat yg mau ke puskesmas bomas pelayanan ga bangett kalo ada bintang 0 aja ini mahh ga pantes dikasi bintang. bad attitude soalnya",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-06-29T11:45:58.236Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WVlMwaG9VVkZGZWtoUmIxUmxRWFJxZEhGbU1XYxAB",
@@ -502,7 +502,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIIZWUmnaqcSX-bKmF0K9AqLX1iWMuY5HVjqelsnW70G2z3wg=s1920-c-rp-mo-br100",
       "text": "Tempatnya rapi bersih, petugasnya ramah, dokternya baikk👍🙏",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-06-23T15:04:33.123Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WQ05VRnVaV3hsUVhnek1FTXhOVkJJYW1NelEzYxAB",
@@ -528,7 +528,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLCGeAU3aaYdAfDoxxXgYYnsSr5y4WgZsC_kqvP66yxGZ92zQ=s1920-c-rp-mo-br100",
       "text": "Puskesmasnya bersih, rapi. Dokter di poli lansia baik sopan melayani dan solutif. Terima kasih Puskesmas Kebomas👍👍👍👍",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-06-23T01:28:04.862Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tjNFdrNDRjRzlVWjFveU1VZEtNRlYyTWxaNFNrRRAB",
@@ -554,7 +554,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJwZngKwFncXX10hc9Te0bLW-Uw4dTKUfa9ysqA1BjguoHyhA=s1920-c-rp-mo-br100",
       "text": "Pelayanannya baik dan petugasnya ramah. Semoga terus dipertahankan",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-06-23T01:20:12.799Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT214aWNXRkxUbXd5ZDNadVIydG5hSFZRWjJad05tYxAB",
@@ -580,7 +580,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIhLHUj91cacUHDqYEBVh57RCzEn-eDA0kKS6uD6cTUWTcfdw=s1920-c-rp-mo-br100",
       "text": "pelayanan UGD gk responsif, terkesan sombong.",
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-21T23:30:34.095Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25GdVIxRlZTMEY2TTFkMlJHWnRVa2RDU2tWRVoyYxAB",
@@ -606,7 +606,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWHjGYYiYqFVZJYlZQ9FtVgNua3kiioXUaBSDS1oqfXHRUh6c2o=s1920-c-rp-mo-br100",
       "text": "Puas dengan pelayanan rawat luka pasca operasi di Puskesmas Kebomas. Petugas ramah, penanganan sangat baik dan profesional, tempat bersih, serta pelayanannya cepat. Terima kasih",
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-21T10:15:35.349Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xScllXNXVORnBITVRWUlN6UnhTRnAyT0hBMVZYYxAB",
@@ -617,7 +617,7 @@
       "responseFromOwnerDate": "2026-07-06T00:36:46.000Z",
       "responseFromOwnerText": "Hallo kak Cicin,\n\nTerima kasih telah meluangkan waktu untuk memberikan ulasan kepada kami. Terima kasih banyak atas ulasan dan kepercayaannya kepada Puskesmas Kebomas Kabupaten Gresik.\nKami senang mendengar bahwa Bapak/Ibu merasa puas dengan pelayanan yang diberikan.\nKomentar positif seperti ini sangat berarti bagi kami untuk terus memberikan pelayanan kesehatan terbaik bagi masyarakat.\n\nSalam sehat\nTim Pengaduan Puskesmas Kebomas Kabupaten Gresik\n",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNmY1PXu2Jr6V6qwMsOxs9yFanO_6tn3Cuz3hx_dbqGqLjeY1nIw6-3TBdg_8Y42KtWy2gDzB1g9Cymz48HsVhoeKYHLSgsXt0ywH891FKpqMg1dBRHaWsNe9tvtcvzhaVOUNATrHgKW-qf=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNZZ3pjg-_rPmHDgd_AVYzB9z0iOSIpvaVK2YAwrmpq3PPY_vUGQp3VKeq2IexptfgYnNVsW_SEyoo8V_CEVBUpMLbDx0lmVyHWF02F90DYCMDxHUgXiHslTHYqGtn21VsMESaEEuQbxmDn=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -749,7 +749,7 @@
       "responseFromOwnerDate": "2026-06-27T11:47:24.000Z",
       "responseFromOwnerText": "Hallo kak Ilfina Indah,\n\nTerima kasih telah meluangkan waktu untuk memberikan ulasan kepada kami. Terima kasih banyak atas ulasan dan kepercayaannya kepada Puskesmas Kebomas Kabupaten Gresik.\nKami senang mendengar bahwa Bapak/Ibu merasa puas dengan pelayanan yang diberikan.\nKomentar positif seperti ini sangat berarti bagi kami untuk terus memberikan pelayanan kesehatan terbaik bagi masyarakat.\n\nSalam sehat\nTim Pengaduan Puskesmas Kebomas Kabupaten Gresik\n",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMj_qnmOYt7TvM5bCa2qsO4hlndV1i_tKz93mKHtRVjdTYz7Qe0z4OKVgiqwbUlX8AFqjE39_7mr270i3QlH2fokqpfvmE4I-WIlGvzSmyPpmqtJiaya6Z-iNl9JkXoDiq2R6f7ZibQjp4=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMLiCozneC0ycgUu0z1g17fHq-E-BSi1byAbPCxwFTeKBZmkQoeA5g-M7a6W3ys1oo_eo8OwsNFlicjSreNhDr664s27oitXvNzgHN7iVYkm1KIHo4WyCVvD6lNlSe2fHoAVhhIZKFh7c0=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

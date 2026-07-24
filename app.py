@@ -1,10 +1,16 @@
 from flask import Flask, render_template, jsonify
 from flask import request
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+from flask_bcrypt import Bcrypt
+from flask import redirect, url_for, flash
+from dotenv import load_dotenv
 import pandas as pd
 import json
 import os
 import re 
 
+load_dotenv()
 app = Flask(__name__)
 
 # Twitter
@@ -172,6 +178,7 @@ def ringkasan_instagram():
 
 
 @app.route("/")
+@login_required
 def index():
     df = load_data()
     df_ig = load_instagram()
@@ -247,6 +254,7 @@ def index():
 
 
 @app.route("/tweets")
+@login_required
 def twitter():
 
     df = load_data()
@@ -416,6 +424,7 @@ def load_ringkasan():
     return ringkasan
 
 @app.route("/instagram")
+@login_required
 def instagram():
 
     df_post = load_instagram()
@@ -512,6 +521,7 @@ def instagram():
 
 # Route overview (sudah ada, tidak perlu diubah)
 @app.route("/googlemaps")
+@login_required
 def googlemaps():
     semua = load_google_maps()
     
@@ -608,6 +618,123 @@ def api_instagram():
         df.to_dict("records")
     )
 
+#Login dan Log out
+# ── Konfigurasi MySQL ──────────────────────────────
+app.config["SECRET_KEY"]       = os.getenv("SECRET_KEY", "rahasia123")
+app.config["SQLALCHEMY_DATABASE_URI"] = (
+    f"mysql+pymysql://{os.getenv('MYSQL_USER')}:{os.getenv('MYSQL_PASSWORD')}"
+    f"@{os.getenv('MYSQL_HOST')}/{os.getenv('MYSQL_DB')}"
+)
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db           = SQLAlchemy(app)
+bcrypt       = Bcrypt(app)
+login_manager = LoginManager(app)
+login_manager.login_view     = "login"
+login_manager.login_message  = "Silakan login terlebih dahulu."
+
+
+# ── Model User ─────────────────────────────────────
+class User(UserMixin, db.Model):
+    __tablename__ = "users"
+    id         = db.Column(db.Integer, primary_key=True)
+    username   = db.Column(db.String(50), unique=True, nullable=False)
+    email      = db.Column(db.String(100), unique=True, nullable=False)
+    password   = db.Column(db.String(255), nullable=False)
+    role       = db.Column(db.String(20), default="user")
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
+
+
+# ── Buat tabel jika belum ada ──────────────────────
+with app.app_context():
+    db.create_all()
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if current_user.is_authenticated:
+        return redirect(url_for("index"))
+    if request.method == "POST":
+        email    = request.form.get("email")
+        password = request.form.get("password")
+        user     = User.query.filter_by(email=email).first()
+        if user and bcrypt.check_password_hash(user.password, password):
+            login_user(user)
+            next_page = request.args.get("next")
+            return redirect(next_page or url_for("index"))
+        flash("Email atau password salah.", "danger")
+    return render_template("login.html")
+
+
+@app.route("/logout")
+@login_required
+def logout():
+    logout_user()
+    flash("Berhasil logout.", "success")
+    return redirect(url_for("login"))
+
+
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    if request.method == "POST":
+        username = request.form.get("username")
+        email    = request.form.get("email")
+        password = request.form.get("password")
+
+        # Cek apakah email sudah terdaftar
+        if User.query.filter_by(email=email).first():
+            flash("Email sudah terdaftar.", "danger")
+            return redirect(url_for("register"))
+
+        hashed_pw = bcrypt.generate_password_hash(password).decode("utf-8")
+        user = User(username=username, email=email, password=hashed_pw)
+        db.session.add(user)
+        db.session.commit()
+        flash("Akun berhasil dibuat, silakan login.", "success")
+        return redirect(url_for("login"))
+    return render_template("register.html")
+
+from flask import session
+
+@app.route("/forgot-password", methods=["GET", "POST"])
+def forgot_password():
+    if request.method == "POST":
+        email = request.form.get("email")
+        user = User.query.filter_by(email=email).first()
+        if user:
+            session['reset_email'] = email
+            flash("Email ditemukan. Silakan reset kata sandi.", "success")
+            return redirect(url_for('reset_password'))
+        else:
+            flash("Email tidak terdaftar.", "danger")
+    return render_template("forgot_password.html")
+
+@app.route("/reset-password", methods=["GET", "POST"])
+def reset_password():
+    if 'reset_email' not in session:
+        flash("Sesi tidak valid. Ulangi proses lupa kata sandi.", "danger")
+        return redirect(url_for('forgot_password'))
+    if request.method == "POST":
+        password_baru = request.form.get("password")
+        konfirmasi    = request.form.get("konfirmasi")
+        if password_baru != konfirmasi:
+            flash("Kata sandi tidak cocok.", "danger")
+            return redirect(url_for('reset_password'))
+        email = session.get('reset_email')
+        user  = User.query.filter_by(email=email).first()
+        if user:
+            user.password = bcrypt.generate_password_hash(password_baru).decode('utf-8')
+            db.session.commit()
+            session.pop('reset_email', None)
+            flash("Kata sandi berhasil diubah. Silakan login.", "success")
+            return redirect(url_for('login'))
+        flash("Terjadi kesalahan.", "danger")
+    return render_template("reset_password.html")
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

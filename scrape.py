@@ -19,11 +19,10 @@ CT0_2 = os.getenv("CT0_2")
 # Jika dijalankan di localhost dan env belum ada,
 # gunakan token yang Anda isi sendiri.
 if not AUTH_TOKEN:
-    AUTH_TOKEN = "968c93d28e17989053561806825a189dbd5c626c"
+    AUTH_TOKEN = "2fd012802e3a23545aec1db0f90363d7edcd8430"
 
 if not CT0:
-    CT0 = "510f8665689d9b840303b04670e6f5c64b642388245d5a43d23c230400c32169b36eff87ba1cd7dd1452e0896202fe6e7c753629a2d50bb86205b801b35c1018ad90cce107803eebb6396d5fa8919ddd"
-
+    CT0 = "399d4db1eb04b15f79cffca69b74c99e7cbff6d29f06afff2937b76152d34daf643ad73156c283162fbced4ad487ee120e43632732731475e06b4612165e30ae1f5ccdf3a419e7125e048e21e3623517"
 if not AUTH_TOKEN_2:
     AUTH_TOKEN_2 = "27f954988a150a6b096587c08a085cb37077b620"
 
@@ -367,7 +366,7 @@ async def main():
         tweets = await safe_search(
             api,
             query,
-            20
+            JUMLAH_TWEET
         )
 
         print("Ditemukan:", len(tweets))
@@ -390,8 +389,8 @@ async def main():
                 "skor"        : skor,
                 "topik"       : topik,
                 "likes"       : t.likeCount,
-                "replies"     : t.replyCount,
-                "retweets"    : t.retweetCount,
+                # "replies"     : t.replyCount,
+                # "retweets"    : t.retweetCount,
                 "tanggal"     : str(t.date)[:10],
                 "keyword"     : keyword,
                 "teks_preprocessing": teks_prepro,

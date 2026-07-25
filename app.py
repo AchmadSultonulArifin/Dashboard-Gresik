@@ -736,5 +736,54 @@ def reset_password():
         flash("Terjadi kesalahan.", "danger")
     return render_template("reset_password.html")
 
+
+#Restart Token
+@app.route("/settings/token/<platform>", methods=["POST"])
+@login_required
+def settings_token(platform):
+    env_path = os.path.join(os.path.dirname(__file__), '.env')
+    
+    # Baca .env yang ada
+    lines = []
+    if os.path.exists(env_path):
+        with open(env_path, 'r') as f:
+            lines = f.readlines()
+    
+    def update_env(lines, key, value):
+        found = False
+        for i, line in enumerate(lines):
+            if line.startswith(key + '='):
+                lines[i] = f"{key}={value}\n"
+                found = True
+                break
+        if not found:
+            lines.append(f"{key}={value}\n")
+        return lines
+
+    if platform == 'twitter':
+        for key in ['TWITTER_BEARER_TOKEN','TWITTER_API_KEY','TWITTER_API_SECRET','TWITTER_ACCESS_TOKEN','TWITTER_ACCESS_TOKEN_SECRET']:
+            form_key = key.lower().replace('twitter_', '')
+            val = request.form.get(form_key, '')
+            if val:
+                lines = update_env(lines, key, val)
+
+    elif platform == 'instagram':
+        for key in ['INSTAGRAM_SESSION_ID','INSTAGRAM_CSRF_TOKEN']:
+            form_key = key.lower().replace('instagram_', '')
+            val = request.form.get(form_key, '')
+            if val:
+                lines = update_env(lines, key, val)
+
+    elif platform == 'gmaps':
+        val = request.form.get('gmaps_api_key', '')
+        if val:
+            lines = update_env(lines, 'GMAPS_API_KEY', val)
+
+    with open(env_path, 'w') as f:
+        f.writelines(lines)
+
+    flash(f"Token {platform} berhasil disimpan.", "success")
+    return redirect(request.referrer or url_for('index'))
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

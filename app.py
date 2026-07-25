@@ -618,6 +618,15 @@ def api_instagram():
         df.to_dict("records")
     )
 
+@app.route("/api/scrape-status")
+@login_required
+def scrape_status():
+    path = "output/scrape_status.json"
+    if not os.path.exists(path):
+        return jsonify({})
+    with open(path, "r") as f:
+        return jsonify(json.load(f))
+
 #Login dan Log out
 # ── Konfigurasi MySQL ──────────────────────────────
 app.config["SECRET_KEY"]       = os.getenv("SECRET_KEY", "rahasia123")
@@ -761,23 +770,41 @@ def settings_token(platform):
         return lines
 
     if platform == 'twitter':
-        for key in ['TWITTER_BEARER_TOKEN','TWITTER_API_KEY','TWITTER_API_SECRET','TWITTER_ACCESS_TOKEN','TWITTER_ACCESS_TOKEN_SECRET']:
-            form_key = key.lower().replace('twitter_', '')
+        mapping = {
+            'AUTH_TOKEN':   'auth_token',
+            'CT0':          'ct0',
+            'AUTH_TOKEN_2': 'auth_token_2',
+            'CT0_2':        'ct0_2',
+        }
+        for env_key, form_key in mapping.items():
             val = request.form.get(form_key, '')
             if val:
-                lines = update_env(lines, key, val)
+                lines = update_env(lines, env_key, val)
 
     elif platform == 'instagram':
-        for key in ['INSTAGRAM_SESSION_ID','INSTAGRAM_CSRF_TOKEN']:
-            form_key = key.lower().replace('instagram_', '')
+        mapping = {
+                'IG_SESSIONID':  'ig_sessionid',
+                'IG_CSRFTOKEN':  'ig_csrftoken',
+                'IG_DS_USER_ID': 'ig_ds_user_id',
+                'IG_MID':        'ig_mid',
+                'IG_DID':        'ig_did',
+                'IG_RUR':        'ig_rur',
+            }
+        for env_key, form_key in mapping.items():
             val = request.form.get(form_key, '')
             if val:
-                lines = update_env(lines, key, val)
+                lines = update_env(lines, env_key, val)
 
     elif platform == 'gmaps':
-        val = request.form.get('gmaps_api_key', '')
-        if val:
-            lines = update_env(lines, 'GMAPS_API_KEY', val)
+        mapping = {
+                'APIFY_API_TOKEN_1': 'apify_token_1',
+                'APIFY_API_TOKEN_2': 'apify_token_2',
+                'APIFY_API_TOKEN_3': 'apify_token_3',
+            }
+        for env_key, form_key in mapping.items():
+            val = request.form.get(form_key, '')
+            if val:
+                lines = update_env(lines, env_key, val)
 
     with open(env_path, 'w') as f:
         f.writelines(lines)

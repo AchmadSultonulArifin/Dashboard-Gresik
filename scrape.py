@@ -194,6 +194,19 @@ KEYWORDS = [
 JUMLAH_TWEET = 50
 
 os.makedirs("output", exist_ok=True)
+def update_status(platform, success, message=""):
+    path = "output/scrape_status.json"
+    status = {}
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            status = json.load(f)
+    status[platform] = {
+        "success": success,
+        "message": message,
+        "last_run": datetime.now().strftime("%d %B %Y %H:%M")
+    }
+    with open(path, "w") as f:
+        json.dump(status, f, indent=2)
 
 # ── Model sentimen IndoBERT ───────────────────────────────────
 print("Memuat model sentimen IndoBERT...")
@@ -403,6 +416,7 @@ async def main():
 
     if not semua_data:
         print("Tidak ada tweet yang berhasil diambil.")
+        update_status("twitter", False, "Tidak ada tweet — token expired atau rate limit")
         return
 
     df_baru = pd.DataFrame(semua_data)
@@ -484,5 +498,6 @@ async def main():
     print(f"\n  File disimpan:")
     print(f"  output/gresik_sentimen.csv")
     print(f"  output/gresik_tweets.json")
+    update_status("twitter", True, f"Berhasil {total} tweet dari {len(KEYWORDS)} keyword")
 
 asyncio.run(main())

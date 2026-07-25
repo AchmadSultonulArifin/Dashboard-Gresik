@@ -45,6 +45,20 @@ IG_COOKIES = {
     "rur"        : os.getenv("IG_RUR", ""),
 }
 
+def update_status(platform, success, message=""):
+    path = "output/scrape_status.json"
+    status = {}
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            status = json.load(f)
+    status[platform] = {
+        "success": success,
+        "message": message,
+        "last_run": __import__('datetime').datetime.now().strftime("%d %B %Y %H:%M")
+    }
+    with open(path, "w") as f:
+        json.dump(status, f, indent=2)
+
 KEYWORDS                = ["Gresik"]
 MAKS_POST_PER_KEYWORD   = 30
 MAKS_KOMENTAR_PER_POST  = 50
@@ -177,6 +191,7 @@ def login_instagram(driver) -> bool:
         driver.save_screenshot("output/debug_login.png")
         print("  Cookie tidak valid atau expired.")
         print("  Ambil ulang cookie dari browser lalu update IG_COOKIES.")
+        update_status("instagram", False, "Cookie tidak valid atau expired")
         return False
 
     print(f"  Login berhasil sebagai @{IG_USERNAME}\n")
@@ -590,6 +605,7 @@ def main():
 
     except Exception as e:
         print(f"\nError tidak terduga: {e}")
+        update_status("instagram", False, f"Error: {str(e)[:100]}")
 
     finally:
         try:
@@ -603,6 +619,7 @@ def main():
         print("  1. Cookie expired — ambil ulang dari browser.")
         print("  2. Keyword tidak menghasilkan postingan publik.")
         print("  3. Instagram memblokir sementara — tunggu 10 menit.")
+        update_status("instagram", False, "Tidak ada data — cookie expired atau diblokir")
         return
 
     # ── Simpan ────────────────────────────────────────────────
@@ -681,6 +698,7 @@ def main():
     print(f"  output/gresik_ig_sentimen.csv")
     print(f"  output/gresik_ig_postingan.csv")
     print(f"  output/gresik_ig_komentar.json")
+    update_status("instagram", True, f"Berhasil {total} komentar dari {df['shortcode'].nunique()} postingan")
 
 
 if __name__ == "__main__":

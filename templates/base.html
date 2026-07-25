@@ -513,61 +513,81 @@ table td{ padding:12px; border-bottom:1px solid #eee; }
 
       <!-- Tab Twitter -->
       <div class="tab-pane active" id="tab-twitter">
-        <div class="token-status warn">Token perlu diperbarui</div>
-        <form method="POST" action="/settings/token/twitter">
-          <div class="field-group">
-            <label>Bearer Token</label>
-            <input type="password" name="bearer_token" placeholder="AAAAAAAAAAAAAAAAAAAAAxxxxxx..." autocomplete="off"/>
-            <div class="field-hint">Dapatkan dari developer.twitter.com → Project → Keys and Tokens</div>
-          </div>
-          <div class="field-group">
-            <label>API Key</label>
-            <input type="password" name="api_key" placeholder="xxxxxxxxxxxxxxxxxxxx" autocomplete="off"/>
-          </div>
-          <div class="field-group">
-            <label>API Secret</label>
-            <input type="password" name="api_secret" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" autocomplete="off"/>
-          </div>
-          <div class="field-group">
-            <label>Access Token</label>
-            <input type="password" name="access_token" placeholder="000000000-xxxxxxxxxxxxxxxxxxxxxxxx" autocomplete="off"/>
-          </div>
-          <div class="field-group">
-            <label>Access Token Secret</label>
-            <input type="password" name="access_token_secret" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" autocomplete="off"/>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width:100%">Simpan Token Twitter</button>
-        </form>
+        <div id="status-twitter" class="token-status warn">Memuat status...</div>
+       <form method="POST" action="/settings/token/twitter">
+  <div class="field-group">
+    <label>Auth Token (Akun 1)</label>
+    <input type="password" name="auth_token" placeholder="auth_token akun pertama" autocomplete="off"/>
+    <div class="field-hint">Ambil dari cookies twitter.com → auth_token</div>
+  </div>
+  <div class="field-group">
+    <label>CT0 (Akun 1)</label>
+    <input type="password" name="ct0" placeholder="ct0 akun pertama" autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>Auth Token (Akun 2)</label>
+    <input type="password" name="auth_token_2" placeholder="auth_token akun kedua" autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>CT0 (Akun 2)</label>
+    <input type="password" name="ct0_2" placeholder="ct0 akun kedua" autocomplete="off"/>
+  </div>
+  <button type="submit" class="btn btn-primary" style="width:100%">Simpan Token Twitter</button>
+</form>
       </div>
 
       <!-- Tab Instagram -->
       <div class="tab-pane" id="tab-instagram">
-        <div class="token-status ok">Token aktif</div>
+        <div id="status-instagram" class="token-status warn">Memuat status...</div>
         <form method="POST" action="/settings/token/instagram">
-          <div class="field-group">
-            <label>Session ID (Cookies)</label>
-            <textarea name="session_id" rows="3" placeholder="sessionid=xxxxxxxx..."></textarea>
-            <div class="field-hint">Ambil dari browser → Inspect → Application → Cookies → instagram.com → sessionid</div>
-          </div>
-          <div class="field-group">
-            <label>CSRF Token</label>
-            <input type="password" name="csrf_token" placeholder="csrftoken value" autocomplete="off"/>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width:100%">Simpan Token Instagram</button>
-        </form>
+  <div class="field-group">
+    <label>Session ID</label>
+    <input type="password" name="ig_sessionid" placeholder="sessionid value" autocomplete="off"/>
+    <div class="field-hint">F12 → Application → Cookies → instagram.com → sessionid</div>
+  </div>
+  <div class="field-group">
+    <label>CSRF Token</label>
+    <input type="password" name="ig_csrftoken" placeholder="csrftoken value" autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>DS User ID</label>
+    <input type="password" name="ig_ds_user_id" placeholder="ds_user_id value" autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>MID</label>
+    <input type="password" name="ig_mid" placeholder="mid value" autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>IG DID</label>
+    <input type="password" name="ig_did" placeholder="ig_did value" autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>RUR</label>
+    <input type="password" name="ig_rur" placeholder="rur value" autocomplete="off"/>
+  </div>
+  <button type="submit" class="btn btn-primary" style="width:100%">Simpan Token Instagram</button>
+</form>
       </div>
 
       <!-- Tab Google Maps -->
       <div class="tab-pane" id="tab-gmaps">
-        <div class="token-status ok">API Key aktif</div>
+        <div id="status-gmaps" class="token-status warn">Memuat status...</div>
         <form method="POST" action="/settings/token/gmaps">
-          <div class="field-group">
-            <label>Google Maps API Key</label>
-            <input type="password" name="gmaps_api_key" placeholder="AIzaSy..." autocomplete="off"/>
-            <div class="field-hint">Dapatkan dari console.cloud.google.com → APIs & Services → Credentials</div>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width:100%">Simpan API Key</button>
-        </form>
+  <div class="field-group">
+    <label>Apify Token 1</label>
+    <input type="password" name="apify_token_1" placeholder="apify_api_..." autocomplete="off"/>
+    <div class="field-hint">Dapatkan dari console.apify.com → Settings → Integrations → API tokens</div>
+  </div>
+  <div class="field-group">
+    <label>Apify Token 2</label>
+    <input type="password" name="apify_token_2" placeholder="apify_api_..." autocomplete="off"/>
+  </div>
+  <div class="field-group">
+    <label>Apify Token 3</label>
+    <input type="password" name="apify_token_3" placeholder="apify_api_..." autocomplete="off"/>
+  </div>
+  <button type="submit" class="btn btn-primary" style="width:100%">Simpan Token Apify</button>
+</form>
       </div>
     </div>
 
@@ -590,14 +610,51 @@ document.addEventListener('click', function(e) {
 });
 
 // ── Modal ──
+// ── Modal ──
 function openModal() {
   document.getElementById('modal-overlay').classList.add('open');
+  fetchTokenStatus();
 }
 function closeModal() {
   document.getElementById('modal-overlay').classList.remove('open');
 }
 function closeModalOutside(e) {
   if (e.target === document.getElementById('modal-overlay')) closeModal();
+}
+
+// ── Token status otomatis ──
+function fetchTokenStatus() {
+  fetch('/api/scrape-status')
+    .then(r => r.json())
+    .then(data => {
+      updateStatus('twitter',   data.twitter);
+      updateStatus('instagram', data.instagram);
+      updateStatus('gmaps',     data.gmaps);
+    })
+    .catch(() => {
+      ['twitter','instagram','gmaps'].forEach(p => {
+        setStatus(p, 'err', 'Tidak dapat memuat status');
+      });
+    });
+}
+
+function updateStatus(platform, data) {
+  if (!data) {
+    setStatus(platform, 'warn', 'Belum pernah dijalankan');
+    return;
+  }
+  if (data.success) {
+    setStatus(platform, 'ok', '✓ Aktif — terakhir: ' + data.last_run);
+  } else {
+    setStatus(platform, 'err', '✗ Gagal: ' + data.message + ' — ' + data.last_run);
+  }
+}
+
+function setStatus(platform, type, text) {
+  const el = document.getElementById('status-' + platform);
+  if (!el) return;
+  el.className = 'token-status ' + type;
+  el.textContent = text;
 }
 
 // ── Token tabs ──

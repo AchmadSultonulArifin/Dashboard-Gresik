@@ -15,6 +15,8 @@ warnings.filterwarnings("ignore")
 from apify_client import ApifyClient
 from dotenv import load_dotenv
 import pandas as pd
+import time
+from datetime import datetime
 
 try:
     from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
@@ -29,6 +31,20 @@ except ImportError:
 # KONFIGURASI — ROTASI 3 TOKEN APIFY
 # ════════════════════════════════════════════════════
 load_dotenv()
+
+def update_status(platform, success, message=""):
+    path = "output/scrape_status.json"
+    status = {}
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            status = json.load(f)
+    status[platform] = {
+        "success": success,
+        "message": message,
+        "last_run": datetime.now().strftime("%d %B %Y %H:%M")
+    }
+    with open(path, "w") as f:
+        json.dump(status, f, indent=2)
 
 TOKENS = [
     os.getenv("APIFY_API_TOKEN_1"),
@@ -107,55 +123,75 @@ def get_folder(nama_tempat):
     return re.sub(r'[^a-z0-9]+', '_', nama_tempat.lower()).strip('_')
 
 
+EXCLUDE_KEYWORDS = [
+    "atm", "bank", "bca", "bni", "bri", "mandiri", "brilink",
+    "indomaret", "alfamart", "minimarket", "spbu", "agen",
+    "toko", "warung", "resto", "kafe", "salon", "barbershop",
+    "apotek", "laundry", "bengkel", "dealer", "hotel", "kost",
+]
+
+def is_valid_tempat(nama: str) -> bool:
+    nama_lower = nama.lower()
+    return not any(ex in nama_lower for ex in EXCLUDE_KEYWORDS)
+
 def buat_master_tempat():
     SEARCHES = {
         "Pemerintahan": [
-            "kantor pemerintah gresik",
-            "kantor desa gresik",
+            "kantor bupati gresik",
             "kantor kecamatan gresik",
-            "kantor kelurahan gresik"
+            "kantor kelurahan gresik",
+            "sekretariat daerah gresik",
+            "dinas gresik",
         ],
         "Kesehatan": [
             "rumah sakit gresik",
             "puskesmas gresik",
-            "klinik gresik"
         ],
         "Pendidikan": [
-            "sekolah gresik",
+            "SMA negeri gresik",
+            "SMK negeri gresik",
             "universitas gresik",
-            "kampus gresik"
         ],
         "Pelayanan Publik": [
             "disdukcapil gresik",
             "samsat gresik",
-            "mall pelayanan publik gresik"
+            "mall pelayanan publik gresik",
+            "kantor imigrasi gresik",
+            "bpjs gresik",
         ],
-        "Wisata": ["wisata gresik"],
-        "Industri": ["pabrik gresik"]
+        "Wisata": [
+            "wisata gresik",
+            "pantai gresik",
+        ],
+        "Industri": [
+            "petrokimia gresik",
+            "semen gresik",
+        ],
     }
-
+    
     semua = []
     for kategori, pencarian in SEARCHES.items():
         print(f"\n===== {kategori} =====")
         for keyword in pencarian:
             print("Cari :", keyword)
-            # ✅ pakai run_actor(), bukan client.actor()
+
             items = run_actor({
-                "searchStringsArray": [keyword],
-                "locationQuery": "Gresik, Jawa Timur",
+                "searchStringsArray"       : [keyword],
+                "locationQuery"            : "Gresik, Jawa Timur",
                 "maxCrawledPlacesPerSearch": 20,
-                "includeReviews": False
+                "includeReviews"           : False
             })
             for item in items:
-                semua.append({
-                    "kategori": kategori,
-                    "nama": item["title"]
-                })
+                nama = item["title"]
+                if is_valid_tempat(nama):
+                    semua.append({"kategori": kategori, "nama": nama})
+                else:
+                    print(f"   ⛔ Skip: {nama}")
 
     df = pd.DataFrame(semua).drop_duplicates("nama")
     os.makedirs("output", exist_ok=True)
     df.to_csv(MASTER_FILE, index=False, encoding="utf-8-sig")
-    print(f"\nMaster tempat berhasil dibuat ({len(df)})")
+    print(f"\n✅ Master tempat berhasil dibuat ({len(df)} tempat)")
 
 
 
@@ -218,6 +254,10 @@ def scrape_google_maps():
 
     # Selesai penuh — hapus checkpoint
     clear_checkpoint()
+    print(f"\n✅ Scraping selesai! Total {len(results)} tempat\n")
+    if not results:
+        update_status("gmaps", False, "Tidak ada data — semua token habis atau error")
+    
     print(f"\n✅ Scraping selesai! Total {len(results)} tempat\n")
     for place in results:
         print(f"   📍 {place.get('title')} | {place.get('kategori')} | {place.get('reviewsCount')} ulasan")
@@ -467,13 +507,17 @@ def process_per_tempat(results: list, pipe):
         print(f"   💾 {json_out}")
 
         # Kumpulkan untuk summary global (tanpa detail ulasan)
-        all_summary.append({k: v for k, v in summary.items() if k != "ulasan"})
+        all_summary.append({
+            **{k: v for k, v in summary.items() if k != "ulasan"},
+            "key": get_folder(nama),
+        })
 
     # Simpan 1 JSON gabungan semua tempat (untuk halaman overview dashboard)
     summary_path = os.path.join(OUTPUT_DIR, "semua_tempat_summary.json")
     with open(summary_path, "w", encoding="utf-8") as f:
         json.dump(all_summary, f, ensure_ascii=False, indent=2)
     print(f"\n💾 Summary semua tempat → {summary_path}")
+    update_status("gmaps", True, f"Berhasil {len(all_summary)} tempat diproses")
 
 
 # ════════════════════════════════════════════════════

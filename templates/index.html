@@ -1,354 +1,27 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Dashboard Gresik</title>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-
-    display:flex;
-    background:#f5f6fa;
-
-}
-
-/* =======================
-SIDEBAR
-======================= */
-
-.sidebar{
-
-    width:250px;
-    min-height:100vh;
-
-    background:#1f2937;
-
-    color:white;
-
-    position:fixed;
-
-    left:0;
-    top:0;
-
-}
-
-.logo{
-
-    padding:25px;
-
-    font-size:22px;
-
-    font-weight:bold;
-
-    border-bottom:1px solid rgba(255,255,255,.1);
-
-}
-
-.menu{
-
-    padding:20px;
-
-}
-
-.menu ul{
-
-    list-style:none;
-
-}
-
-.menu li{
-
-    margin-bottom:10px;
-
-}
-
-.menu a{
-
-    display:block;
-
-    color:white;
-
-    text-decoration:none;
-
-    padding:12px 15px;
-
-    border-radius:8px;
-
-    transition:.2s;
-
-}
-
-.menu a:hover{
-
-    background:#374151;
-
-}
-
-.menu a.active{
-
-    background:#4f46e5;
-
-}
-
-/* =======================
-SUBMENU
-======================= */
-
-details{
-
-    margin-bottom:10px;
-
-}
-
-summary{
-
-    list-style:none;
-
-    cursor:pointer;
-
-    padding:12px 15px;
-
-    border-radius:8px;
-
-}
-
-summary:hover{
-
-    background:#374151;
-
-}
-
-details a{
-
-    margin-left:15px;
-
-    margin-top:8px;
-
-}
-
-/* =======================
-CONTENT
-======================= */
-
-.main{
-
-    margin-left:250px;
-
-    width:calc(100% - 250px);
-
-    padding:30px;
-
-}
-
-.page-title{
-
-    font-size:28px;
-
-    font-weight:bold;
-
-    margin-bottom:25px;
-
-}
-
-.card{
-
-    background:white;
-
-    border-radius:12px;
-
-    padding:20px;
-
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-
-    margin-bottom:20px;
-
-}
-
-.stat-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-    gap:20px;
-
-}
-
-.stat{
-
-    background:white;
-
-    border-radius:12px;
-
-    padding:25px;
-
-    text-align:center;
-
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-
-}
-
-.stat .angka{
-
-    font-size:34px;
-
-    font-weight:bold;
-
-    margin-bottom:10px;
-
-}
-
-.stat .label{
-
-    color:#666;
-
-}
-
-table{
-
-    width:100%;
-
-    border-collapse:collapse;
-
-}
-
-table th{
-
-    background:#f2f2f2;
-
-    padding:12px;
-
-}
-
-table td{
-
-    padding:12px;
-
-    border-bottom:1px solid #eee;
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="sidebar">
-
-<div class="logo">
-
-Dashboard Analisis Sentimen
-
-</div>
-
-<div class="menu">
-
-<ul>
-
-<li>
-
-<a href="/"
-class="{{ 'active' if request.path=='/' else '' }}">
-🏠 Beranda
-</a>
-
-</li>
-
-<li>
-
-<details open>
-
-<summary>
-
-📱 Media Sosial
-
-</summary>
-
-<a href="/tweets"
-class="{{ 'active' if request.path=='/tweets' else '' }}">
-🐦 Twitter
-</a>
-
-<a href="/instagram"
-class="{{ 'active' if request.path=='/instagram' else '' }}">
-📷 Instagram
-</a>
-
-<a href="/facebook"
-class="{{ 'active' if request.path=='/facebook' else '' }}">
-📘 Facebook
-</a>
-
-</details>
-
-<details open>
-
-<summary>
-
-🗺 Google maps
-
-</summary>
-
-<a href="/googlemaps"
-class="{{ 'active' if request.path=='/googlemaps' else '' }}">
-🏛️ googlemaps
-</a>
-
-</details>
-
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-<div class="main">
-
-<div class="page-title">
-
-{% block title %}
-
-Dashboard
-
-{% endblock %}
-
-</div>
-
+{% extends "base.html" %}
+{% block title %}Beranda{% endblock %}
 {% block content %}
 
-<form method="GET" action="/">
-
-    <label>Dari :</label>
-
-    <input type="date" name="start_date" value="{{ start_date }}">
-
-    <label>Sampai :</label>
-
-    <input type="date" name="end_date" value="{{ end_date }}">
-
-    <button type="submit">Filter</button>
-    <a href="/" class="btn">Reset</a>
-
+<form method="GET" action="/" style="display:flex;gap:10px;align-items:center;margin-bottom:20px;flex-wrap:wrap;">
+    <label style="font-size:14px;color:#374151;">Dari:</label>
+    <input type="date" name="start_date" value="{{ start_date }}"
+        style="padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;">
+    <label style="font-size:14px;color:#374151;">Sampai:</label>
+    <input type="date" name="end_date" value="{{ end_date }}"
+        style="padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;">
+    <button type="submit"
+        style="padding:8px 16px;background:#4f46e5;color:white;border:none;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;">
+        Filter
+    </button>
+    <a href="/"
+        style="padding:8px 16px;background:#f3f4f6;color:#374151;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;">
+        Reset
+    </a>
 </form>
 
 <div class="card">
-    <h2>📊 Ringkasan Twitter Harian</h2>
-
+    <h2 style="font-size:16px;font-weight:700;margin-bottom:16px;">📊 Ringkasan Twitter Harian</h2>
+    {% if ringkasan_tw %}
     <table>
         <thead>
             <tr>
@@ -365,13 +38,13 @@ Dashboard
         <tbody>
 
         {% for row in ringkasan_tw %}
-
+        
         <tr>
             <td>{{ row.tanggal }}</td>
             <td>{{ row.jumlah }}</td>
-            <td>{{ row.positif }}</td>
-            <td>{{ row.netral }}</td>
-            <td>{{ row.negatif }}</td>
+            <td style="color:#065f46;font-weight:600;">{{ row.positif }}</td>
+            <td style="color:#92400e;">{{ row.netral }}</td>
+            <td style="color:#991b1b;font-weight:600;">{{ row.negatif }}</td>
             <td>{{ row.skor }}</td>
             <td>{{ row.likes }}</td>
         </tr>
@@ -381,12 +54,14 @@ Dashboard
         </tbody>
 
     </table>
-
+    {% else %}
+    <p style="color:#9ca3af;font-size:14px;">Belum ada data Twitter.</p>
+    {% endif %}
 </div>
 
 <div class="card">
-    <h2>📷 Ringkasan Instagram Harian</h2>
-
+    <h2 style="font-size:16px;font-weight:700;margin-bottom:16px;">📷 Ringkasan Instagram Harian</h2>
+    {% if ringkasan_ig %}
     <table>
 
         <thead>
@@ -411,9 +86,9 @@ Dashboard
             <td>{{ row.tanggal }}</td>
             <td>{{ row.postingan }}</td>
             <td>{{ row.komentar }}</td>
-            <td>{{ row.positif }}</td>
-            <td>{{ row.netral }}</td>
-            <td>{{ row.negatif }}</td>
+            <td style="color:#065f46;font-weight:600;">{{ row.positif }}</td>
+            <td style="color:#92400e;">{{ row.netral }}</td>
+            <td style="color:#991b1b;font-weight:600;">{{ row.negatif }}</td>
             <td>{{ row.skor }}</td>
             <td>{{ row.likes }}</td>
 
@@ -424,10 +99,9 @@ Dashboard
         </tbody>
 
     </table>
-
+    {% else %}
+    <p style="color:#9ca3af;font-size:14px;">Belum ada data Instagram.</p>
+    {% endif %}
 </div>
+
 {% endblock %}
-
-</body>
-
-</html>

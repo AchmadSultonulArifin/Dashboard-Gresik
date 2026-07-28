@@ -12,6 +12,20 @@ import re
 
 load_dotenv()
 app = Flask(__name__)
+#Login dan Log out
+# ── Konfigurasi MySQL ──────────────────────────────
+app.config["SECRET_KEY"]       = os.getenv("SECRET_KEY", "rahasia123")
+app.config["SQLALCHEMY_DATABASE_URI"] = (
+    f"mysql+pymysql://{os.getenv('MYSQL_USER')}:{os.getenv('MYSQL_PASSWORD')}"
+    f"@{os.getenv('MYSQL_HOST')}/{os.getenv('MYSQL_DB')}"
+)
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db           = SQLAlchemy(app)
+bcrypt       = Bcrypt(app)
+login_manager = LoginManager(app)
+login_manager.login_view     = "login"
+login_manager.login_message  = "Silakan login terlebih dahulu."
 
 # Twitter
 CSV_PATH = "output/gresik_sentimen.csv"
@@ -621,27 +635,30 @@ def api_instagram():
 @app.route("/api/scrape-status")
 @login_required
 def scrape_status():
-    path = "output/scrape_status.json"
-    if not os.path.exists(path):
-        return jsonify({})
-    with open(path, "r") as f:
-        return jsonify(json.load(f))
+    def cek_file(path, kolom_total=None):
+        if not os.path.exists(path):
+            return {"success": False, "message": "File tidak ditemukan", "last_run": "-", "total": 0}
+        import time
+        mtime    = os.path.getmtime(path)
+        last_run = pd.Timestamp(mtime, unit="s").strftime("%d %b %Y %H:%M")
+        total    = 0
+        try:
+            if path.endswith(".csv"):
+                df    = pd.read_csv(path)
+                total = len(df)
+            elif path.endswith(".json"):
+                with open(path, "r", encoding="utf-8") as f:
+                    data  = json.load(f)
+                total = len(data) if isinstance(data, list) else 1
+        except Exception:
+            pass
+        return {"success": True, "last_run": last_run, "total": total}
 
-#Login dan Log out
-# ── Konfigurasi MySQL ──────────────────────────────
-app.config["SECRET_KEY"]       = os.getenv("SECRET_KEY", "rahasia123")
-app.config["SQLALCHEMY_DATABASE_URI"] = (
-    f"mysql+pymysql://{os.getenv('MYSQL_USER')}:{os.getenv('MYSQL_PASSWORD')}"
-    f"@{os.getenv('MYSQL_HOST')}/{os.getenv('MYSQL_DB')}"
-)
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
-db           = SQLAlchemy(app)
-bcrypt       = Bcrypt(app)
-login_manager = LoginManager(app)
-login_manager.login_view     = "login"
-login_manager.login_message  = "Silakan login terlebih dahulu."
-
+    return jsonify({
+        "twitter"  : cek_file("output/gresik_sentimen.csv"),
+        "instagram": cek_file("output/gresik_ig_sentimen.csv"),
+        "gmaps"    : cek_file("output/semua_tempat_summary.json"),
+    })
 
 # ── Model User ─────────────────────────────────────
 class User(UserMixin, db.Model):

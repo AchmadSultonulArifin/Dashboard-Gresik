@@ -1,0 +1,553 @@
+{% extends "base.html" %}
+
+{% block title %}Facebook Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid py-4">
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold mb-1">
+                <i class="fab fa-facebook text-primary"></i>
+                Facebook Dashboard
+            </h2>
+
+            <small class="text-muted">
+
+                Update terakhir :
+                <b>{{ update_terakhir }}</b>
+
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SUMMARY ================= -->
+
+        <!-- ================= ROW 2 ================= -->
+
+    <div class="row g-3 mb-4">
+
+        <!-- BAR CHART -->
+
+        <div class="col-lg-8">
+
+            <div class="card shadow-sm border-0 h-100">
+
+                <div class="card-header bg-white">
+
+                    <b>Distribusi Sentimen per Sumber</b>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div style="height:340px">
+
+                        <canvas id="barSumber"></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RINGKASAN -->
+
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm border-0 h-100">
+
+                <div class="card-header bg-white">
+
+                    <b>Ringkasan</b>
+
+                </div>
+
+                <div class="card-body">
+
+                    <table class="table table-borderless">
+
+                        <tr>
+
+                            <td>Positif</td>
+
+                            <td class="text-end">
+
+                                <span class="badge bg-success">
+
+                                    {{ sentimen.get("positif",0) }}
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Netral</td>
+
+                            <td class="text-end">
+
+                                <span class="badge bg-warning text-dark">
+
+                                    {{ sentimen.get("netral",0) }}
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Negatif</td>
+
+                            <td class="text-end">
+
+                                <span class="badge bg-danger">
+
+                                    {{ sentimen.get("negatif",0) }}
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                    <hr>
+
+                    <h3 class="fw-bold text-primary">
+
+                        {{ rata_skor }}
+
+                    </h3>
+
+                    <small class="text-muted">
+
+                        Rata-rata Skor BERT
+
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= PRIORITAS ================= -->
+
+    <div class="card shadow-sm border-0 mb-4">
+
+        <div class="card-header bg-white">
+
+            <b>Postingan Prioritas (Urgensi Tinggi)</b>
+
+        </div>
+
+        <div class="card-body p-0">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle mb-0">
+
+                    <thead class="table-light">
+
+                        <tr>
+
+                            <th width="18%">Tanggal</th>
+
+                            <th>Sumber</th>
+
+                            <th>Isi Postingan</th>
+
+                            <th>Sentimen</th>
+
+                            <th>Skor</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% if urgensi_tinggi %}
+
+                            {% for item in urgensi_tinggi %}
+
+                            <tr>
+
+                                <td>
+
+                                    {{ item.tanggal_ambil }}
+
+                                </td>
+
+                                <td>
+
+                                    {{ item.sumber }}
+
+                                </td>
+
+                                <td>
+
+                                    {{ item.isi }}
+
+                                </td>
+
+                                <td>
+
+                                    {% if item.sentimen_final=="positif" %}
+
+                                        <span class="badge bg-success">
+
+                                            Positif
+
+                                        </span>
+
+                                    {% elif item.sentimen_final=="negatif" %}
+
+                                        <span class="badge bg-danger">
+
+                                            Negatif
+
+                                        </span>
+
+                                    {% else %}
+
+                                        <span class="badge bg-warning text-dark">
+
+                                            Netral
+
+                                        </span>
+
+                                    {% endif %}
+
+                                </td>
+
+                                <td>
+
+                                    {{ "%.3f"|format(item.skor_bert) }}
+
+                                </td>
+
+                            </tr>
+
+                            {% endfor %}
+
+                        {% else %}
+
+                            <tr>
+
+                                <td colspan="5" class="text-center py-4">
+
+                                    Tidak ada data urgensi tinggi.
+
+                                </td>
+
+                            </tr>
+
+                        {% endif %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= DATA FACEBOOK ================= -->
+
+    <div class="card shadow-sm border-0">
+
+        <div class="card-header bg-white">
+
+            <b>Seluruh Data Facebook</b>
+
+        </div>
+
+        <div class="card-body p-0">
+
+            <div class="table-responsive">
+
+                <table class="table table-striped table-hover align-middle mb-0">
+
+                    <thead class="table-light">
+
+                        <tr>
+
+                            <th>Tanggal</th>
+
+                            <th>Sumber</th>
+
+                            <th>Kategori</th>
+
+                            <th>Sentimen</th>
+
+                            <th>Urgensi</th>
+
+                            <th>Skor</th>
+
+                            <th>Isi</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for row in data %}
+
+                        <tr>
+
+                            <td>
+
+                                {{ row.tanggal_ambil }}
+
+                            </td>
+
+                            <td>
+
+                                {{ row.sumber }}
+
+                            </td>
+
+                            <td>
+
+                                {{ row.kategori }}
+
+                            </td>
+
+                            <td>
+
+                                {% if row.sentimen_final=="positif" %}
+
+                                    <span class="badge bg-success">
+
+                                        Positif
+
+                                    </span>
+
+                                {% elif row.sentimen_final=="negatif" %}
+
+                                    <span class="badge bg-danger">
+
+                                        Negatif
+
+                                    </span>
+
+                                {% else %}
+
+                                    <span class="badge bg-warning text-dark">
+
+                                        Netral
+
+                                    </span>
+
+                                {% endif %}
+
+                            </td>
+
+                            <td>
+
+                                {% if row.urgensi=="tinggi" %}
+
+                                    <span class="badge bg-danger">
+
+                                        Tinggi
+
+                                    </span>
+
+                                {% elif row.urgensi=="sedang" %}
+
+                                    <span class="badge bg-warning text-dark">
+
+                                        Sedang
+
+                                    </span>
+
+                                {% else %}
+
+                                    <span class="badge bg-success">
+
+                                        Rendah
+
+                                    </span>
+
+                                {% endif %}
+
+                            </td>
+
+                            <td>
+
+                                {{ "%.3f"|format(row.skor_bert) }}
+
+                            </td>
+
+                            <td>
+
+                                {{ row.isi }}
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+
+const sentimen = {{ sentimen|tojson }};
+
+new Chart(document.getElementById("pieSentimen"),{
+
+    type:"doughnut",
+
+    data:{
+
+        labels:Object.keys(sentimen),
+
+        datasets:[{
+
+            data:Object.values(sentimen),
+
+            backgroundColor:[
+                "#198754",
+                "#ffc107",
+                "#dc3545"
+            ]
+        }]
+
+    },
+
+    options:{
+
+        responsive:true,
+
+        maintainAspectRatio:false
+
+    }
+
+});
+
+const chartData={{ chart_data|tojson }};
+
+const sumber=[...new Set(chartData.map(x=>x.sumber))];
+
+const positif=[];
+
+const netral=[];
+
+const negatif=[];
+
+sumber.forEach(function(item){
+
+    positif.push((chartData.find(x=>x.sumber===item && x.sentimen_final==="positif")||{}).jumlah||0);
+
+    netral.push((chartData.find(x=>x.sumber===item && x.sentimen_final==="netral")||{}).jumlah||0);
+
+    negatif.push((chartData.find(x=>x.sumber===item && x.sentimen_final==="negatif")||{}).jumlah||0);
+
+});
+
+new Chart(document.getElementById("barSumber"),{
+
+    type:"bar",
+
+    data:{
+
+        labels:sumber,
+
+        datasets:[
+
+            {
+
+                label:"Positif",
+
+                backgroundColor:"#198754",
+
+                data:positif
+
+            },
+
+            {
+
+                label:"Netral",
+
+                backgroundColor:"#ffc107",
+
+                data:netral
+
+            },
+
+            {
+
+                label:"Negatif",
+
+                backgroundColor:"#dc3545",
+
+                data:negatif
+
+            }
+
+        ]
+
+    },
+
+    options:{
+
+        responsive:true,
+
+        scales:{
+
+            y:{
+
+                beginAtZero:true
+
+            }
+
+        }
+
+    }
+
+});
+
+</script>
+
+{% endblock %}

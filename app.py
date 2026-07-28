@@ -38,6 +38,9 @@ INSTAGRAM_SENTIMEN = "output/gresik_ig_sentimen.csv"
 #Google Maps
 SUMMARY_FILE = "output/semua_tempat_summary.json"
 
+#  Facebook
+FACEBOOK_SENTIMEN = "output/data_sentimen_gresik.csv"
+
 # ── Context Processor: tersedia di semua template ──
 @app.context_processor
 def inject_update_terakhir():
@@ -883,6 +886,160 @@ def settings_token(platform):
 
     flash(f"Token {platform} berhasil disimpan.", "success")
     return redirect(request.referrer or url_for('index'))
+
+
+
+# ══════════════════════════════════════════════════════════════════
+# Tambahkan ini ke app.py — letakkan setelah route /instagram
+# ══════════════════════════════════════════════════════════════════
+def load_facebook():
+    """Membaca hasil analisis sentimen Facebook."""
+    if not os.path.exists(FACEBOOK_SENTIMEN):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(FACEBOOK_SENTIMEN, encoding="utf-8-sig")
+        df = df.fillna("")
+
+        # Pastikan kolom wajib ada
+        kolom_wajib = [
+            "sumber", "tanggal_ambil", "tanggal_analisis",
+            "kategori", "sentimen_final",
+            "sentimen_bert", "skor_bert",
+            "sentimen_kw", "skor_kw",
+            "konflik_label", "urgensi",
+            "teks", "url",
+        ]
+        for kolom in kolom_wajib:
+            if kolom not in df.columns:
+                df[kolom] = ""
+
+        # Konversi tipe data
+        df["skor_bert"] = pd.to_numeric(df["skor_bert"], errors="coerce").fillna(0)
+        df["skor_kw"]   = pd.to_numeric(df["skor_kw"],   errors="coerce").fillna(0)
+        df["tanggal_ambil"] = pd.to_datetime(df["tanggal_ambil"], errors="coerce")
+
+        return df
+    except Exception as e:
+        print("Error membaca data Facebook:", e)
+        return pd.DataFrame()
+
+
+@app.route("/facebook")
+@login_required
+def facebook():
+    df = load_facebook()
+
+    if df.empty:
+        return render_template(
+            "facebook.html",
+            data=[],
+            total=0,
+            sentimen={},
+            kategori={},
+            urgensi={},
+            sumber={},
+            rata_skor=0,
+            update_terakhir="-",
+            urgensi_tinggi=[],
+            chart_data=[],
+        )
+
+    total     = len(df)
+    rata_skor = round(df["skor_bert"].mean(), 3)
+
+    sentimen = df["sentimen_final"].value_counts().to_dict()
+
+    persen_negatif = round(
+        sentimen.get("negatif",0)/total*100,1
+    )
+
+    persen_positif = round(
+        sentimen.get("positif",0)/total*100,1
+    )
+
+    avg_confidence = round(
+        df["skor_bert"].mean()*100,
+        1
+    )
+
+    konflik_label = (
+        df["konflik_label"]
+        .astype(str)
+        .str.lower()
+        .isin(["true","1","ya"])
+        .sum()
+    )
+
+    jumlah_urgensi_tinggi = (
+        df["urgensi"]
+        .str.lower()
+        .eq("tinggi")
+        .sum()
+    )
+
+    # Distribusi sentimen, kategori, urgensi, sumber
+    sentimen = df["sentimen_final"].value_counts().to_dict()
+    kategori = df["kategori"].value_counts().to_dict()
+    urgensi  = df["urgensi"].value_counts().to_dict()
+    sumber   = df["sumber"].value_counts().to_dict()
+
+
+    # Update terakhir
+    update_terakhir = "-"
+    if "tanggal_ambil" in df.columns and df["tanggal_ambil"].notna().any():
+        update_terakhir = df["tanggal_ambil"].max().strftime("%d %B %Y")
+
+    # Post urgensi tinggi
+    urgensi_tinggi = (
+        df[df["urgensi"] == "tinggi"]
+        .sort_values("skor_bert", ascending=False)
+        .head(10)
+        .to_dict("records")
+    )
+
+    # Chart sentimen per sumber
+    chart_data = (
+        df.groupby(["sumber", "sentimen_final"])
+        .size()
+        .reset_index(name="jumlah")
+        .to_dict("records")
+    )
+
+    # Tabel data lengkap
+    data = (
+        df.sort_values("tanggal_ambil", ascending=False)
+        .to_dict("records")
+    )
+
+    return render_template(
+        "facebook.html",
+        data=data,
+        total=total,
+        sentimen=sentimen,
+        kategori=kategori,
+        urgensi=urgensi,
+        sumber=sumber,
+        rata_skor=rata_skor,
+        update_terakhir=update_terakhir,
+        urgensi_tinggi=urgensi_tinggi,
+        chart_data=chart_data,
+        persen_negatif=persen_negatif,
+        persen_positif=persen_positif,
+        avg_confidence=avg_confidence,
+        konflik_label=konflik_label,
+        jumlah_urgensi_tinggi=jumlah_urgensi_tinggi,
+    )
+
+
+@app.route("/api/facebook")
+@login_required
+def api_facebook():
+    df = load_facebook()
+    if df.empty:
+        return jsonify([])
+    return jsonify(df.tail(100).to_dict("records"))
+
+
 #MAIN
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

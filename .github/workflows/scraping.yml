@@ -2,27 +2,25 @@ name: Scraping Gresik Otomatis
 
 on:
   schedule:
-    - cron: "0 0 * * 1"
-  workflow_dispatch:
+    - cron: "0 0 * * 1"   # Setiap Senin pukul 00:00 UTC
+  workflow_dispatch:        # Bisa dijalankan manual
 
 permissions:
   contents: write
 
 jobs:
-
 # ======================================================
 # TWITTER
 # ======================================================
   scrape-twitter:
-
     runs-on: ubuntu-latest
-
+    timeout-minutes: 60     # ← batas waktu 60 menit, hindari hang selamanya
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2   # ← fix Node.js 20 deprecated
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0   # ← fix Node.js 20 deprecated
         with:
           python-version: "3.12"
           cache: "pip"
@@ -36,41 +34,36 @@ jobs:
       - name: Jalankan Scraping Twitter
         env:
           PYTHONUNBUFFERED: 1
-          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-          CT0: ${{ secrets.CT0 }}
+          AUTH_TOKEN:   ${{ secrets.AUTH_TOKEN }}
+          CT0:          ${{ secrets.CT0 }}
           AUTH_TOKEN_2: ${{ secrets.AUTH_TOKEN_2 }}
-          CT0_2: ${{ secrets.CT0_2 }}
+          CT0_2:        ${{ secrets.CT0_2 }}
         run: |
           python scrape.py
 
       - name: Push Hasil
+        if: always()   # ← tetap push meski scraping sebagian gagal
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
           git add output/
-
-          git commit -m "Update Twitter $(date +'%Y-%m-%d')" || echo "Tidak ada perubahan"
-
+          git diff --staged --quiet || git commit -m "Update Twitter $(date +'%Y-%m-%d')"
           git push
 
 # ======================================================
 # INSTAGRAM
 # ======================================================
-
   scrape-instagram:
-
     needs: scrape-twitter
-
+    if: always()   # ← tetap jalan meski Twitter gagal
     runs-on: ubuntu-latest
-
+    timeout-minutes: 60
     steps:
-
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
           python-version: "3.12"
           cache: "pip"
@@ -89,43 +82,39 @@ jobs:
       - name: Jalankan Scraping Instagram
         env:
           PYTHONUNBUFFERED: 1
-          IG_SESSIONID: ${{ secrets.IG_SESSIONID }}
-          IG_CSRFTOKEN: ${{ secrets.IG_CSRFTOKEN }}
+          IG_SESSIONID:  ${{ secrets.IG_SESSIONID }}
+          IG_CSRFTOKEN:  ${{ secrets.IG_CSRFTOKEN }}
           IG_DS_USER_ID: ${{ secrets.IG_DS_USER_ID }}
-          IG_MID: ${{ secrets.IG_MID }}
-          IG_DID: ${{ secrets.IG_DID }}
-          IG_RUR: ${{ secrets.IG_RUR }}
+          IG_MID:        ${{ secrets.IG_MID }}
+          IG_DID:        ${{ secrets.IG_DID }}
+          IG_RUR:        ${{ secrets.IG_RUR }}
         run: |
           python Instagram_baru.py
 
       - name: Push Hasil
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
+          git pull --rebase origin main
           git add output/
-
-          git commit -m "Update Instagram $(date +'%Y-%m-%d')" || echo "Tidak ada perubahan"
-
+          git diff --staged --quiet || git commit -m "Update Instagram $(date +'%Y-%m-%d')"
           git push
 
 # ======================================================
 # GOOGLE MAPS
 # ======================================================
-
   scrape-googlemaps:
-
     needs: scrape-instagram
-
+    if: always()   # ← tetap jalan meski Instagram gagal
     runs-on: ubuntu-latest
-
+    timeout-minutes: 120   # Google Maps butuh waktu lebih lama
     steps:
-
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
           python-version: "3.12"
           cache: "pip"
@@ -146,12 +135,11 @@ jobs:
           python googlemaps.py
 
       - name: Push Hasil
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
+          git pull --rebase origin main
           git add output/
-
-          git commit -m "Update Google Maps $(date +'%Y-%m-%d')" || echo "Tidak ada perubahan"
-
+          git diff --staged --quiet || git commit -m "Update Google Maps $(date +'%Y-%m-%d')"
           git push

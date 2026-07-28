@@ -23,7 +23,7 @@ instaloader>=4.11
 python-dotenv>=1.0
 
 torch
-transformers==5.12.1
+transformers==4.57.1
 tokenizers
 huggingface-hub
 safetensors

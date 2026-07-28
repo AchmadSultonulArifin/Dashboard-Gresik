@@ -1,7 +1,24 @@
 {% extends "base.html" %}
 {% block title %}Beranda{% endblock %}
 {% block content %}
+{# ── Header Dashboard + Tanggal Terakhir ── #}
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:10px;">
+    <div>
+        <h1 style="font-size:24px; font-weight:700; color:#111827; margin:0;">Dashboard</h1>
+        <p style="font-size:13px; color:#6b7280; margin:4px 0 0 0;">
+            🕒 Data terakhir diperbarui: 
+            <strong style="color:#4f46e5;">
+                {% if update_terakhir %}
+                    {{ update_terakhir }}
+                {% else %}
+                    —
+                {% endif %}
+            </strong>
+        </p>
+    </div>
+</div>
 
+{# ── Form Filter Tanggal ── #}
 <form method="GET" action="/" style="display:flex;gap:10px;align-items:center;margin-bottom:20px;flex-wrap:wrap;">
     <label style="font-size:14px;color:#374151;">Dari:</label>
     <input type="date" name="start_date" value="{{ start_date }}"
@@ -104,4 +121,4 @@
     {% endif %}
 </div>
 
-{% endblock %}
+{% endblock %}  

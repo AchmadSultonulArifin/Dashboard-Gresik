@@ -1,0 +1,68 @@
+════════════════════════════════════════════════════════════════
+   LAPORAN ANALISIS SENTIMEN LAYANAN PUBLIK — GRESIK
+   Dihasilkan : 28 July 2026, 19:21 WIB
+   Model      : IndoBERT (HuggingFace Transformers Pipeline)
+════════════════════════════════════════════════════════════════
+
+  Total postingan dianalisis   : 9
+  Rata-rata confidence BERT    : 99.92%
+  Konflik label BERT vs KW     : 6  (66.7%)
+  Postingan urgensi TINGGI     : 0
+
+────────────────────────────────────────────────────────────────
+  DISTRIBUSI SENTIMEN FINAL
+────────────────────────────────────────────────────────────────
+  Netral            9  (100.0%)  █████████████████████████
+
+────────────────────────────────────────────────────────────────
+  DISTRIBUSI KATEGORI LAYANAN
+────────────────────────────────────────────────────────────────
+  Umum                          4  ( 44.4%)  ███████████
+  Utilitas                      3  ( 33.3%)  ████████
+  Administrasi                  2  ( 22.2%)  █████
+
+────────────────────────────────────────────────────────────────
+  DISTRIBUSI URGENSI
+────────────────────────────────────────────────────────────────
+  sedang        5  ( 55.6%)
+  rendah        4  ( 44.4%)
+
+────────────────────────────────────────────────────────────────
+  POSTINGAN PER SUMBER
+────────────────────────────────────────────────────────────────
+  posts                               9
+
+────────────────────────────────────────────────────────────────
+  CONTOH KONFLIK LABEL (BERT ≠ Keyword) — maks 5
+────────────────────────────────────────────────────────────────
+
+  BERT=Netral (100%)  KW=Negatif  FINAL=Netral
+  Intro
+Informasi seputar Pemerintah Kabupaten Gresik
+Halaman · Organisasi Pemerintah
+Kabupaten Gresik
+
+  BERT=Netral (100%)  KW=Negatif  FINAL=Netral
+  Pemerintah Kabupaten Gresik
+2 Mei 2023
+ 
+·
+Dalam KTT ASEAN yang berlangsung di Kamboja pada 13 Novem
+
+  BERT=Netral (100%)  KW=Negatif  FINAL=Netral
+  Intro
+Halaman · Situs Web Berita & Media
+diskominfo.gresikkab.go.id
+Belum dinilai (0 Ulasan)﻿
+
+  BERT=Netral (100%)  KW=Negatif  FINAL=Netral
+  Kominfo Gresik
+5 November 2020
+ 
+·
+Lima  pembangkit PT Pembangkitan Jawa -Bali (PJB) meraih nilai te
+
+  BERT=Netral (100%)  KW=Negatif  FINAL=Netral
+  Lima  pembangkit PT Pembangkitan Jawa -Bali (PJB) meraih nilai tertinggi dalam seleksi penghargaan K
+
+════════════════════════════════════════════════════════════════

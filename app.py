@@ -35,17 +35,57 @@ INSTAGRAM_POST = "output/gresik_ig_postingan.csv"
 
 INSTAGRAM_SENTIMEN = "output/gresik_ig_sentimen.csv"
 
+#Google Maps
+SUMMARY_FILE = "output/semua_tempat_summary.json"
+
+# ── Context Processor: tersedia di semua template ──
+@app.context_processor
+def inject_update_terakhir():
+    from datetime import datetime
+    
+    # Twitter — dari CSV
+    update_twitter = "-"
+    if os.path.exists(CSV_PATH):
+        try:
+            df = pd.read_csv(CSV_PATH, usecols=["tanggal"])
+            df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
+            update_twitter = df["tanggal"].max().strftime("%d %B %Y")
+        except Exception:
+            pass
+    
+    # Google Maps — dari waktu file terakhir dimodifikasi
+    update_gmaps = "-"
+    if os.path.exists(SUMMARY_FILE):
+        try:
+            mtime = os.path.getmtime(SUMMARY_FILE)
+            update_gmaps = pd.Timestamp(mtime, unit="s").strftime("%d %B %Y")
+        except Exception:
+            pass
+    
+    # Instagram — dari CSV postingan
+    update_instagram = "-"
+    if os.path.exists(INSTAGRAM_POST):
+        try:
+            df_ig = pd.read_csv(INSTAGRAM_POST, usecols=["tanggal"])
+            df_ig["tanggal"] = pd.to_datetime(df_ig["tanggal"], errors="coerce")
+            update_instagram = df_ig["tanggal"].max().strftime("%d %B %Y")
+        except Exception:
+            pass
+
+    return dict(
+        update_twitter=update_twitter,
+        update_gmaps=update_gmaps,
+        update_instagram=update_instagram,
+    )
 
 def load_data():
     """Membaca data CSV dengan aman"""
 
     if not os.path.exists(CSV_PATH):
         return pd.DataFrame()
-
+    
     try:
         df = pd.read_csv(CSV_PATH)
-        
-        
 
         if "teks_asli" in df.columns:
             df["teks_asli"] = df["teks_asli"].astype(str)
@@ -56,18 +96,30 @@ def load_data():
         if "tanggal" in df.columns:
             df["tanggal"] = pd.to_datetime(df["tanggal"], errors="coerce")
 
-        if "likes" not in df.columns:
+        # Perbaikan: kondisi dibalik jadi "if IN columns"
+        if "likes" in df.columns:
             df["likes"] = pd.to_numeric(df["likes"], errors="coerce").fillna(0)
+        else:
+            df["likes"] = 0
 
-        if "retweets" not in df.columns:
+        if "retweets" in df.columns:
             df["retweets"] = pd.to_numeric(df["retweets"], errors="coerce").fillna(0)
+        else:
+            df["retweets"] = 0
+
+        # Tambahan: bersihkan kolom replies yang sebelumnya terlewat
+        if "replies" in df.columns:
+            df["replies"] = pd.to_numeric(df["replies"], errors="coerce").fillna(0)
+        else:
+            df["replies"] = 0
+
         if "skor" in df.columns:
             df["skor"] = pd.to_numeric(df["skor"], errors="coerce").fillna(0)
         else:
             df["skor"] = 0.0
 
         return df
-
+    
     except Exception as e:
         print("Error membaca CSV:", e)
         return pd.DataFrame()
@@ -116,7 +168,7 @@ def load_instagram_sentimen():
 
     return pd.read_csv(INSTAGRAM_SENTIMEN)
 
-
+#RINGKASAN IG DAN TWEETS
 def ringkasan_twitter():
 
         df = load_data()
@@ -190,7 +242,7 @@ def ringkasan_instagram():
 
         return hasil
 
-
+#BERANDA
 @app.route("/")
 @login_required
 def index():
@@ -266,7 +318,7 @@ def index():
         ringkasan_ig = ringkasan_instagram()
     )
 
-
+#TWEET
 @app.route("/tweets")
 @login_required
 def twitter():
@@ -436,7 +488,7 @@ def load_ringkasan():
     ringkasan["rata_skor"] = ringkasan["rata_skor"].round(3)
 
     return ringkasan
-
+#INSTAGRAM
 @app.route("/instagram")
 @login_required
 def instagram():
@@ -533,7 +585,7 @@ def instagram():
     )
 
 
-# Route overview (sudah ada, tidak perlu diubah)
+# Route overview 
 @app.route("/googlemaps")
 @login_required
 def googlemaps():
@@ -556,7 +608,7 @@ def googlemaps_detail(key):
         return "Tempat tidak ditemukan", 404
     return render_template("googlemaps_detail.html", data=data, key=key)
 
-# ✅ Tambahkan API detail ini
+# API GoggleMaps
 @app.route("/api/googlemaps/<key>")
 def api_googlemaps_detail(key):
     data = load_detail_tempat(key)
@@ -564,8 +616,6 @@ def api_googlemaps_detail(key):
         return jsonify({"error": "tidak ditemukan"}), 404
     return jsonify(data)
 
-# ✅ GANTI DENGAN INI
-SUMMARY_FILE = "output/semua_tempat_summary.json"
 
 def load_google_maps() -> list:
     if not os.path.exists(SUMMARY_FILE):
@@ -607,7 +657,7 @@ def load_detail_tempat(key: str) -> dict:
     except Exception as e:
         print(f"Error load detail {key}:", e)
         return {}
-
+#API Data
 @app.route("/api/data")
 def api_data():
 
@@ -619,7 +669,7 @@ def api_data():
     return jsonify(
         df.tail(100).to_dict("records")
     )
-
+#API INSTAGRAM
 @app.route("/api/instagram")
 def api_instagram():
 
@@ -631,7 +681,7 @@ def api_instagram():
     return jsonify(
         df.to_dict("records")
     )
-
+#API STATUS
 @app.route("/api/scrape-status")
 @login_required
 def scrape_status():
@@ -670,17 +720,22 @@ class User(UserMixin, db.Model):
     role       = db.Column(db.String(20), default="user")
     created_at = db.Column(db.DateTime, server_default=db.func.now())
 
-
+#LOGIN USER
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    if not user_id:
+        return None
+    try:
+        return User.query.get(int(user_id))
+    except (ValueError, TypeError):
+        return None
 
 
 # ── Buat tabel jika belum ada ──────────────────────
 with app.app_context():
     db.create_all()
 
-
+#ROUTE LOGIN
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if current_user.is_authenticated:
@@ -696,7 +751,7 @@ def login():
         flash("Email atau password salah.", "danger")
     return render_template("login.html")
 
-
+#ROUTE LOG OUT
 @app.route("/logout")
 @login_required
 def logout():
@@ -704,7 +759,7 @@ def logout():
     flash("Berhasil logout.", "success")
     return redirect(url_for("login"))
 
-
+#ROUTE REGISTER
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -726,7 +781,7 @@ def register():
     return render_template("register.html")
 
 from flask import session
-
+#ROUTE FORGOT PASSWORD
 @app.route("/forgot-password", methods=["GET", "POST"])
 def forgot_password():
     if request.method == "POST":
@@ -739,7 +794,7 @@ def forgot_password():
         else:
             flash("Email tidak terdaftar.", "danger")
     return render_template("forgot_password.html")
-
+#ROUTE RESET PASSWORD
 @app.route("/reset-password", methods=["GET", "POST"])
 def reset_password():
     if 'reset_email' not in session:
@@ -828,6 +883,6 @@ def settings_token(platform):
 
     flash(f"Token {platform} berhasil disimpan.", "success")
     return redirect(request.referrer or url_for('index'))
-
+#MAIN
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

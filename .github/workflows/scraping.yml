@@ -87,7 +87,7 @@ jobs:
             git push
   scrape-googlemaps:
       runs-on: ubuntu-latest
-      needs: scrape-twitter     # tunggu Twitter selesai dulu baru jalan
+      needs: scrape-instagram     # tunggu Twitter selesai dulu baru jalan
       steps:
         - uses: actions/checkout@v4
         - uses: actions/setup-python@v5

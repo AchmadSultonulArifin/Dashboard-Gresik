@@ -7,13 +7,13 @@ Tahap 3 : analisis_sentimen() → Proses sentimen dari ulasan_mentah.json
 Tahap 4 : scan_output()       → Rebuild semua_tempat_summary.json dari folder
 
 Jalankan semua tahap sekaligus:
-    python pipeline_gresik.py
+    python googlemaps_baru.py
 
 Atau jalankan tahap tertentu:
-    python pipeline_gresik.py --tahap cari
-    python pipeline_gresik.py --tahap scrape
-    python pipeline_gresik.py --tahap sentimen
-    python pipeline_gresik.py --tahap scan
+    python googlemaps_baru.py --tahap cari
+    python googlemaps_baru.py --tahap scrape
+    python googlemaps_baru.py --tahap sentimen
+    python googlemaps_baru.py --tahap scan
 """
 
 import re
@@ -861,20 +861,20 @@ if __name__ == "__main__":
         print("🚀 Menjalankan semua tahap pipeline...\n")
 
         # Tahap 1
-        cari_tempat()
+        # cari_tempat()
 
         # Tahap 2
-        results = scrape_google_maps()
+        #results = scrape_google_maps()
 
         # Tahap 3 — pakai process_per_tempat jika ada results dari scrape,
         # atau analisis_sentimen jika hanya perlu proses folder yang ada
-        if results:
-            pipe = load_indobert()
-            process_per_tempat(results, pipe)
-        else:
-            analisis_sentimen()
+        #if results:
+            #pipe = load_indobert()
+            #process_per_tempat(results, pipe)
+        #else:
+            #analisis_sentimen()
 
         # Tahap 4
-        scan_output()
+        #scan_output()
 
         print("\n🎉 Semua tahap selesai!")

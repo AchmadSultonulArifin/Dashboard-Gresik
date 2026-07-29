@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Gelora (Putrabaru C.F)",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Basri Asri",
+      "Bintang": 5,
+      "Tanggal": "2022-02-27T04:17:42.411Z",
+      "Ulasan": "Lapangan disini sudah standart nasional, apalagi nanti sudah di bangun tanah tingginya di kasih tangga\", pokoknya stadion ini is the best dah",
+      "teks_final": "lapangan disini standart nasional apalagi nanti bangun tanah tingginya kasih tangga pokoknya stadion is the best dah",
+      "topik": "Infrastruktur",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "moch agus",
+      "Bintang": 5,
+      "Tanggal": "2022-02-27T04:11:30.381Z",
+      "Ulasan": "Lapangannya bagus banget, walaupun hujan gak becek",
+      "teks_final": "lapangannya bagus banget walaupun hujan becek",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM BNI DUKUN",
+  "rating": 3.4,
+  "total_ulasan": 3,
+  "positif": 3,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Alfa Fatih",
+      "Bintang": 1,
+      "Tanggal": "2022-08-15T22:58:51.513Z",
+      "Ulasan": "Hhmmm tulisan 24 jam. Ambil jam 6 pagi malah kunci tutupan. Kesel bangeeeeet. Padahal lagi butuh",
+      "teks_final": "hhmmm tulisan jam ambil jam pagi malah kunci tutupan kesel bangeeeeet padahal butuh",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9968
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Royyan Firdaus",
+      "Bintang": 5,
+      "Tanggal": "2021-08-07T01:39:23.686Z",
+      "Ulasan": "Sayang blm ada setor tunainya. Hanya tarik tunai",
+      "teks_final": "sayang setor tunainya hanya tarik tunai",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.95
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "EM Farih",
+      "Bintang": 5,
+      "Tanggal": "2017-01-16T00:30:29.046Z",
+      "Ulasan": "Satu2nya ATM BNI di Dukun",
+      "teks_final": "satu2nya atm bni dukun",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7163
+    }
+  ]
+}

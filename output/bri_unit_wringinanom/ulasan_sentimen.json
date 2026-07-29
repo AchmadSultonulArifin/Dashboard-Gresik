@@ -1,0 +1,135 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "BRI Unit Wringinanom",
+  "rating": 2.7,
+  "total_ulasan": 11,
+  "positif": 5,
+  "netral": 3,
+  "negatif": 3,
+  "persen_positif": 45.5,
+  "persen_netral": 27.3,
+  "persen_negatif": 27.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Normaa Maharani",
+      "Bintang": 5,
+      "Tanggal": "2022-09-22T07:27:23.132Z",
+      "Ulasan": "Pelayanan ramah",
+      "teks_final": "pelayanan ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nilla Putri Rosidania",
+      "Bintang": 5,
+      "Tanggal": "2022-08-07T14:22:26.039Z",
+      "Ulasan": "Pelayanan ramah, antrean panjang sekali",
+      "teks_final": "pelayanan ramah antrean panjang",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9121
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "bambang irawan",
+      "Bintang": 5,
+      "Tanggal": "2022-06-24T09:22:15.311Z",
+      "Ulasan": "Mantap",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Rani Yolanda",
+      "Bintang": 1,
+      "Tanggal": "2021-08-19T05:44:52.554Z",
+      "Ulasan": "slow repon, pelayanan lama. tolong disediakan call center cs yg bisa bantu nasabah dari rumah untuk kepentingan registrasi!!",
+      "teks_final": "slow repon pelayanan lama tolong disediakan call center cs bantu nasabah rumah kepentingan registrasi",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9632
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "ahmad indra setiawan",
+      "Bintang": 1,
+      "Tanggal": "2021-08-05T23:29:51.610Z",
+      "Ulasan": "Pelayanan sangat buruk",
+      "teks_final": "pelayanan buruk",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.998
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Friskha Zea",
+      "Bintang": 1,
+      "Tanggal": "2021-06-11T06:13:48.048Z",
+      "Ulasan": "PelAyanan buruk",
+      "teks_final": "pelayanan buruk",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.998
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "IKA RUSDIANA",
+      "Bintang": 1,
+      "Tanggal": "2021-05-04T03:31:49.963Z",
+      "Ulasan": "Pelayanan bri wringinanom sangat lama",
+      "teks_final": "pelayanan bri wringinanom lama",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9789
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Nur Asiyah",
+      "Bintang": 1,
+      "Tanggal": "2021-04-08T05:47:20.990Z",
+      "Ulasan": "Kok belom ada survei juga ya pengajuan dari bulan Februari sampai April blom ada juga kabaran",
+      "teks_final": "kok belom survei ya pengajuan bulan februari sampai april blom kabaran",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9101
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "NUFTAVIA",
+      "Bintang": 1,
+      "Tanggal": "2021-02-16T10:47:33.627Z",
+      "Ulasan": "Pengajuan KUR disini kenapa lambat ya. Pengajuan dari tanggal 15 Januari sampai sekarang tanggal 16 Februari di survey pun belum. Marketing slow respon. Tolong di perbaiki pelayanannya ya..",
+      "teks_final": "pengajuan kur disini kenapa lambat ya pengajuan tanggal januari sampai sekarang tanggal februari survey marketing slow respon tolong perbaiki pelayanannya ya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9804
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Edi Lukman",
+      "Bintang": 1,
+      "Tanggal": "2020-01-13T09:30:47.269Z",
+      "Ulasan": "Buruk",
+      "teks_final": "buruk",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.998
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Keyshasabrina Maharani",
+      "Bintang": 1,
+      "Tanggal": "2017-12-18T22:22:52.875Z",
+      "Ulasan": "Pada titik koordinat tersebut tidak terdapat bank BRI thx",
+      "teks_final": "titik koordinat tersebut terdapat bank bri thx",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9931
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "GOR Nicky Futsal",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Najwa Rahmawati",
+      "Bintang": 5,
+      "Tanggal": "2020-05-04T00:45:44.402Z",
+      "Ulasan": "Sangat menyenangkan bukan",
+      "teks_final": "menyenangkan bukan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rekam Aktivitas",
+      "Bintang": 3,
+      "Tanggal": "2017-12-30T06:37:31.001Z",
+      "Ulasan": "Gelanggang Olah Raga (GOR) Nicky Futsal adalah tempat pilihan untuk bermain olahraga pada ruangan tertutup sepak bola futsal di Desa Sirnoboyo Kecamatan Benjeng Kabupaten Gresik. Tempat masih sepi sehingga bebas menentukan pilihan waktu dalam berolahraga futsal bersama team dan teman-teman Anda.",
+      "teks_final": "gelanggang olah raga gor nicky futsal tempat pilihan bermain olahraga ruangan tertutup sepak bola futsal desa sirnoboyo kecamatan benjeng kabupaten gresik tempat sepi sehingga bebas menentukan pilihan waktu berolahraga futsal bersama team teman teman",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7252
+    }
+  ]
+}

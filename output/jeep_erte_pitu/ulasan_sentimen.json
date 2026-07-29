@@ -1,0 +1,69 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "jeep erte pitu",
+  "rating": 3.7,
+  "total_ulasan": 5,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 3,
+  "persen_positif": 40.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 60.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "cak muchid",
+      "Bintang": 3,
+      "Tanggal": "2023-06-17T06:17:35.594Z",
+      "Ulasan": "Rumah biasa",
+      "teks_final": "rumah biasa",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6474
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "bunda zidni",
+      "Bintang": 5,
+      "Tanggal": "2020-10-09T11:59:41.404Z",
+      "Ulasan": "nyaman",
+      "teks_final": "nyaman",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9972
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Gate Kendo",
+      "Bintang": 5,
+      "Tanggal": "2019-03-08T01:10:35.962Z",
+      "Ulasan": "ntap",
+      "teks_final": "ntap",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5607
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rifky C. A.",
+      "Bintang": 4,
+      "Tanggal": "2018-01-20T01:55:03.500Z",
+      "Ulasan": "Cocok utk edukasi",
+      "teks_final": "cocok edukasi",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9956
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "af rizal",
+      "Bintang": 3,
+      "Tanggal": "2017-04-30T11:16:06.482Z",
+      "Ulasan": "Tempat gak jelass",
+      "teks_final": "tempat jelass",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7807
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Toko Hinata",
+  "rating": 4.9,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Kirei Anindiawati",
+      "Bintang": 5,
+      "Tanggal": "2023-01-08T15:32:18.443Z",
+      "Ulasan": "mantab",
+      "teks_final": "mantab",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "kucel baka",
+      "Bintang": 5,
+      "Tanggal": "2022-03-04T09:40:36.707Z",
+      "Ulasan": "Memuaskan",
+      "teks_final": "memuaskan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    }
+  ]
+}

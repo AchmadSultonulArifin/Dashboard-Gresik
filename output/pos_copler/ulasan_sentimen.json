@@ -1,0 +1,36 @@
+{
+  "kategori": "Pelayanan Publik",
+  "tempat": "Pos Copler",
+  "rating": 4.6,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Mas Oke",
+      "Bintang": 5,
+      "Tanggal": "2024-08-06T09:44:07.249Z",
+      "Ulasan": "Desa kecil berjuta cerita",
+      "teks_final": "desa kecil berjuta cerita",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.664
+    },
+    {
+      "Kategori": "Pelayanan Publik",
+      "Nama Reviewer": "Han Copler",
+      "Bintang": 5,
+      "Tanggal": "2018-04-12T09:04:51.828Z",
+      "Ulasan": "Ini kampungku",
+      "teks_final": "kampungku",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9705
+    }
+  ]
+}

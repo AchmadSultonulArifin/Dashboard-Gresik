@@ -1,0 +1,58 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kelurahan Sidomukti",
+  "rating": 4.7,
+  "total_ulasan": 4,
+  "positif": 0,
+  "netral": 2,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Bapak Khoirulamin",
+      "Bintang": 4,
+      "Tanggal": "2024-11-11T15:11:36.238Z",
+      "Ulasan": "Aku senag dan bangga sama warga warga sidomukti",
+      "teks_final": "aku senag bangga sama warga warga sidomukti",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9914
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Jhoonis S",
+      "Bintang": 5,
+      "Tanggal": "2023-07-24T12:20:24.801Z",
+      "Ulasan": "Mengapa kelurahan Sidomukti kec.kebomas masih ikut Ngipik Tlogo patut",
+      "teks_final": "mengapa kelurahan sidomukti kec kebomas ikut ngipik tlogo patut",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9762
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Zen Zainudin",
+      "Bintang": 5,
+      "Tanggal": "2022-10-01T06:17:29.608Z",
+      "Ulasan": "Sidomukti seru banget",
+      "teks_final": "sidomukti seru banget",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T02:57:40.917Z",
+      "Ulasan": "Kantor Kelurahan Sidomukti.",
+      "teks_final": "kantor kelurahan sidomukti",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9972
+    }
+  ]
+}

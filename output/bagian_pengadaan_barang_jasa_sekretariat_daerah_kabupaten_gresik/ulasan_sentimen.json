@@ -1,0 +1,69 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Bagian Pengadaan Barang/Jasa Sekretariat Daerah Kabupaten Gresik",
+  "rating": 5,
+  "total_ulasan": 5,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 4,
+  "persen_positif": 0.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 80.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "As'ad Syaifullah",
+      "Bintang": 5,
+      "Tanggal": "2026-01-06T03:30:47.778Z",
+      "Ulasan": "responsif, ruangan dingin lg wangi",
+      "teks_final": "responsif ruangan dingin lg wangi",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Laras Padmanasanti",
+      "Bintang": 5,
+      "Tanggal": "2026-01-06T03:21:56.088Z",
+      "Ulasan": "Sangat membantu dalam pelayanan pengadaan",
+      "teks_final": "membantu pelayanan pengadaan",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5421
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Elva Aulia Mellinia",
+      "Bintang": 5,
+      "Tanggal": "2026-01-06T02:33:08.722Z",
+      "Ulasan": "Pelayanan ramah dan responsif",
+      "teks_final": "pelayanan ramah responsif",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9948
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Rahadian Ilham",
+      "Bintang": 5,
+      "Tanggal": "2026-01-06T02:32:57.006Z",
+      "Ulasan": "pelayanan ramah, tanggap, dan membantu sekali",
+      "teks_final": "pelayanan ramah tanggap membantu",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9943
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "mae hani",
+      "Bintang": 5,
+      "Tanggal": "2026-01-06T02:32:40.327Z",
+      "Ulasan": "Pelayanan cepat dan informatif",
+      "teks_final": "pelayanan cepat informatif",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9954
+    }
+  ]
+}

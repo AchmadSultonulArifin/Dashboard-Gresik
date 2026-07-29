@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Karangpoh",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 50.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Firdarahma Novianti",
+      "Bintang": 5,
+      "Tanggal": "2021-02-15T08:55:46.731Z",
+      "Ulasan": "Pelayanan bagus skali i like ever",
+      "teks_final": "pelayanan bagus skali like ever",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Abdul Mukti (Denabolt)",
+      "Bintang": 5,
+      "Tanggal": "2015-03-10T00:20:02.360Z",
+      "Ulasan": "siip",
+      "teks_final": "siip",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8104
+    }
+  ]
+}

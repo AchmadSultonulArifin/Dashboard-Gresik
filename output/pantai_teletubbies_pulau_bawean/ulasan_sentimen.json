@@ -1,0 +1,25 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Teletubbies, Pulau Bawean",
+  "rating": 5,
+  "total_ulasan": 1,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Reza Fahlevi",
+      "Bintang": 5,
+      "Tanggal": "2024-05-31T03:03:19.318Z",
+      "Ulasan": "Bagus sekali, apalagi kalau ada yang mendampinginya dalam hidup ini.",
+      "teks_final": "bagus apalagi mendampinginya hidup",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9843
+    }
+  ]
+}

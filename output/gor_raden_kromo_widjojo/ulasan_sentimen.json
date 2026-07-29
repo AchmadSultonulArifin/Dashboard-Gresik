@@ -1,0 +1,69 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "GOR Raden Kromo Widjojo",
+  "rating": 4.7,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 4,
+  "persen_positif": 20.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 80.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Adi Satriyo",
+      "Bintang": 5,
+      "Tanggal": "2022-06-15T01:50:25.478Z",
+      "Ulasan": "Rabu pagi ramai pengunjung...",
+      "teks_final": "rabu pagi ramai pengunjung",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8411
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "MAMAD D'adventure",
+      "Bintang": 5,
+      "Tanggal": "2021-09-20T07:28:27.794Z",
+      "Ulasan": "sangat enak sekali tempatnya buat olahraga",
+      "teks_final": "enak tempatnya buat olahraga",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9978
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Fanny Fayu Laksono",
+      "Bintang": 5,
+      "Tanggal": "2021-04-27T05:16:23.108Z",
+      "Ulasan": "Salah satu tempat multifungsi yang berlokasikan di pojok timur dan utara alun alun (depan koramil) Sidayu. Di sekitar SOR juga terdapat taman bermain bagi anak anak. Tempat sampah cukup banyak di beberapa titik.  Catatan untuk para pengunjung, harap menjaga kebersihan dengan membuang sampah pada tempat yang telah disediakan.",
+      "teks_final": "salah satu tempat multifungsi berlokasikan pojok timur utara alun alun depan koramil sidayu sekitar sor terdapat taman bermain bagi anak anak tempat sampah cukup banyak beberapa titik catatan para pengunjung harap menjaga kebersihan membuang sampah tempat telah disediakan",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9755
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Rosie",
+      "Bintang": 5,
+      "Tanggal": "2021-04-02T06:28:33.945Z",
+      "Ulasan": "Nice",
+      "teks_final": "nice",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9923
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ataniya fitri2",
+      "Bintang": 4,
+      "Tanggal": "2021-02-06T03:11:40.696Z",
+      "Ulasan": "Gedung ini biasanya disewakan untuk acara pernikahan, lomba mewarnai, latihan futsal, dll. Di sekitar gedung terdapat arena bermain anak seperti perosotan, dulu ada ayunan tapi tidak dirawat dengan baik. Saat sore ada persewaan mobil-mobilan atau motor-motoran untuk anak anak. Kebersihan di luar gedung kurang terawat, banyak sampah daun dan plastik yang berserakan. Ada petugas kebersihan tapi sepertinya tidak setiap hari membersihkan sampah.",
+      "teks_final": "gedung biasanya disewakan acara pernikahan lomba mewarnai latihan futsal dll sekitar gedung terdapat arena bermain anak seperti perosotan dulu ayunan dirawat baik sore persewaan mobil mobilan motor motoran anak anak kebersihan luar gedung kurang terawat banyak sampah daun plastik berserakan petugas kebersihan sepertinya setiap hari membersihkan sampah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6641
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Makam Desa Slempit",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "bambangbreta ekasetyawan",
+      "Bintang": 5,
+      "Tanggal": "2025-02-13T00:24:40.808Z",
+      "Ulasan": "Beli tanah di desa slempit, kelebihannya dekat loket toll desa belahan Rejo dan ada hospital sehati.",
+      "teks_final": "beli tanah desa slempit kelebihannya dekat loket toll desa belahan rejo hospital sehati",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9827
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "sunardi",
+      "Bintang": 5,
+      "Tanggal": "2019-06-28T15:16:00.308Z",
+      "Ulasan": "Seremmm",
+      "teks_final": "seremmm",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9943
+    }
+  ]
+}

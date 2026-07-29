@@ -1,0 +1,36 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Pantai Teluk Mur Bawean",
+  "rating": 4.7,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 2,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Khristian W M",
+      "Bintang": 3,
+      "Tanggal": "2022-07-10T12:49:34.491Z",
+      "Ulasan": "Kebersihannya perlu lebih dijaga lagi",
+      "teks_final": "kebersihannya perlu dijaga",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9729
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Queen Azzahra",
+      "Bintang": 5,
+      "Tanggal": "2022-02-02T05:27:24.662Z",
+      "Ulasan": "Like",
+      "teks_final": "like",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.818
+    }
+  ]
+}

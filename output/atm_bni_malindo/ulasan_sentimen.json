@@ -1,0 +1,36 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "ATM BNI MALINDO",
+  "rating": 3,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "eko wijayanto",
+      "Bintang": 3,
+      "Tanggal": "2019-08-03T04:46:59.011Z",
+      "Ulasan": "Atmnya rusak layar ga idup tp mesinya idup",
+      "teks_final": "atmnya rusak layar idup mesinya idup",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.994
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "MOHAMMAD SHOLIK",
+      "Bintang": 5,
+      "Tanggal": "2017-12-14T11:21:37.739Z",
+      "Ulasan": "ATM BNI ini berada di Samping Pintu Masuk Kolam Renang / Swimming Pool Malindo. Lokasi Di Jalan Raya Desa Lowayu Kec. Dukun Kab. Gresik. Berada di lokasi Tanah Supermarket Malindo.",
+      "teks_final": "atm bni berada samping pintu masuk kolam renang swimming pool malindo lokasi jalan raya desa lowayu kec dukun kab gresik berada lokasi tanah supermarket malindo",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9598
+    }
+  ]
+}

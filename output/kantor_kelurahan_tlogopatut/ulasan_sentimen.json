@@ -1,0 +1,36 @@
+{
+  "kategori": "Pemerintahan",
+  "tempat": "Kantor Kelurahan Tlogopatut",
+  "rating": 3.8,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Agung K",
+      "Bintang": 1,
+      "Tanggal": "2019-01-09T02:47:26.471Z",
+      "Ulasan": "Salah satu kantor kelurahan yang mbulet. 👎 Pindah ke kelurahan ini, seharusnya surat pengantar cukup dari alamat yang lama. Lah ini diminta lagi pengantar dr RT/RW baru. Padahal dr kelurahan yg lama bilang, surat pengantar ini saja cukup pasti petugas sana mngerti. Ternyata tidak ada yg mngerti. Orang bodoh membodohi org bodoh. 🙈🙉🙊",
+      "teks_final": "salah satu kantor kelurahan mbulet pindah kelurahan seharusnya surat pengantar cukup alamat lama diminta pengantar rt rw padahal kelurahan lama bilang surat pengantar saja cukup pasti petugas sana mngerti ternyata mngerti orang bodoh membodohi org bodoh",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9966
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-09-05T03:15:00.368Z",
+      "Ulasan": "Kantor Kelurahan Tlogopatut.",
+      "teks_final": "kantor kelurahan tlogopatut",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9971
+    }
+  ]
+}

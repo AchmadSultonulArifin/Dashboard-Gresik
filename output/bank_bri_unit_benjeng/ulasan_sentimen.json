@@ -1,0 +1,113 @@
+{
+  "kategori": "Perbankan",
+  "tempat": "Bank BRI Unit Benjeng",
+  "rating": 4.3,
+  "total_ulasan": 9,
+  "positif": 5,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 55.6,
+  "persen_netral": 11.1,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Andre Warjojo",
+      "Bintang": 1,
+      "Tanggal": "2022-09-12T06:19:22.817Z",
+      "Ulasan": "Pelayanannya terlalu lama,bahkan lama banget",
+      "teks_final": "pelayanannya terlalu lama bahkan lama banget",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9984
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Rudy Widya",
+      "Bintang": 5,
+      "Tanggal": "2022-03-03T05:50:43.489Z",
+      "Ulasan": "Pelayanan nya kurang memuaskan terlalu lama",
+      "teks_final": "pelayanan kurang memuaskan terlalu lama",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9981
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Risma Zanida",
+      "Bintang": 5,
+      "Tanggal": "2021-08-04T02:28:40.078Z",
+      "Ulasan": "Satpamnya ramah . jauh\" dr jombang nih bos cumak mau nyairin bpum . parkir sempit",
+      "teks_final": "satpamnya ramah jauh jombang nih bos cumak mau nyairin bpum parkir sempit",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9891
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Moh Aan Khunaifi",
+      "Bintang": 5,
+      "Tanggal": "2020-07-22T08:47:00.319Z",
+      "Ulasan": "Pelayanan baik, sayang tempat parkir terlalu sempit",
+      "teks_final": "pelayanan baik sayang tempat parkir terlalu sempit",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9409
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Mas Re",
+      "Bintang": 2,
+      "Tanggal": "2020-04-03T05:07:49.036Z",
+      "Ulasan": "Di BRI benjeng apa bisa mengajukan kelonggaran yg di anjurkan oleh presiden?",
+      "teks_final": "bri benjeng apa mengajukan kelonggaran anjurkan presiden",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9926
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Abimanyu Anggara",
+      "Bintang": 5,
+      "Tanggal": "2020-02-12T03:51:19.651Z",
+      "Ulasan": "Oke lah",
+      "teks_final": "oke",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9063
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "rafa gitar gresik",
+      "Bintang": 5,
+      "Tanggal": "2019-05-03T01:55:59.152Z",
+      "Ulasan": "Klo datang lebih siang antri banget . Yo gag sebanding dengan pelayanan cs,teller dan satpam yg ramah meski anak saya slalu usil",
+      "teks_final": "datang siang antrian banget yo gag sebanding pelayanan cs teller satpam ramah meski anak slalu usil",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9185
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Lina Ndut",
+      "Bintang": 5,
+      "Tanggal": "2017-11-18T01:20:41.264Z",
+      "Ulasan": "Sangat nyaman bgt",
+      "teks_final": "nyaman banget",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9977
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "tony gunawan",
+      "Bintang": 4,
+      "Tanggal": "2017-09-17T22:58:04.307Z",
+      "Ulasan": "Bank nya kecil , antrinya panjang. Tapi untuk pelayanan Cs, teller, dan satpamnya lumayan ramah.",
+      "teks_final": "bank kecil antrinya panjang pelayanan cs teller satpamnya lumayan ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9947
+    }
+  ]
+}

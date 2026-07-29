@@ -1,0 +1,58 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "Lapangan Tanjungan ( LA STADIUM)",
+  "rating": 4.7,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 3,
+  "persen_positif": 25.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 75.0,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Ardiyan Angga",
+      "Bintang": 4,
+      "Tanggal": "2021-04-29T07:51:58.701Z",
+      "Ulasan": "Lumayan bagus lapangan nya",
+      "teks_final": "lumayan bagus lapangan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Wong Cilik",
+      "Bintang": 5,
+      "Tanggal": "2021-03-28T19:21:45.396Z",
+      "Ulasan": "Sangat bagus meskipun hujan masih bisa bermain dengan baik",
+      "teks_final": "bagus meskipun hujan bermain baik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9827
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Furqon Akbar",
+      "Bintang": 5,
+      "Tanggal": "2021-03-03T10:28:30.776Z",
+      "Ulasan": "Aman dan nyaman",
+      "teks_final": "aman nyaman",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Niken Ayu Dewanti",
+      "Bintang": 4,
+      "Tanggal": "2020-09-07T01:16:39.165Z",
+      "Ulasan": "Aduh ilaahh panas pisan teh di dieu.. Gersang.. Gak ada toilet..",
+      "teks_final": "aduh ilaahh panas pisan teh dieu gersang toilet",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9933
+    }
+  ]
+}

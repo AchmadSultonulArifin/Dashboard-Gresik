@@ -1,0 +1,47 @@
+{
+  "kategori": "Lainnya",
+  "tempat": "GOR Ambeng Ambeng Watangrejo",
+  "rating": 4.4,
+  "total_ulasan": 3,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 66.7,
+  "persen_netral": 0.0,
+  "persen_negatif": 33.3,
+  "ulasan": [
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Febi Setiawan",
+      "Bintang": 5,
+      "Tanggal": "2023-10-28T09:49:51.467Z",
+      "Ulasan": "Perlu perawatan",
+      "teks_final": "perlu perawatan",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6699
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "noer yanto",
+      "Bintang": 3,
+      "Tanggal": "2023-09-30T11:54:18.055Z",
+      "Ulasan": "Perlu perawatan",
+      "teks_final": "perlu perawatan",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6699
+    },
+    {
+      "Kategori": "Lainnya",
+      "Nama Reviewer": "Charif interisti",
+      "Bintang": 4,
+      "Tanggal": "2023-02-19T14:35:47.052Z",
+      "Ulasan": "Gedung olahraga serbaguna, fasilitas nya cukup mumpuni.  Bisa disewa untuk acara pesta pernikahan",
+      "teks_final": "gedung olahraga serbaguna fasilitas cukup mumpuni disewa acara pesta pernikahan",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9711
+    }
+  ]
+}

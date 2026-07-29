@@ -1,16 +1,13 @@
 """
 Scraper komentar Instagram berdasarkan KEYWORD menggunakan Selenium.
 Alur: Cari keyword → kumpulkan URL postingan → ambil komentar tiap postingan → analisis sentimen.
-
 Install:
-    pip install selenium pandas transformers torch webdriver-manager
-
+    pip install selenium pandas transformers torch webdriver-manager python-dotenv
 Cara pakai:
     1. Isi IG_COOKIES (dari F12 → Application → Cookies → instagram.com)
     2. Isi KEYWORDS dengan kata kunci yang ingin dicari
-    3. python Instagram_keyword.py
+    3. python Instagram.py
 """
-
 import time
 import json
 import re
@@ -18,7 +15,6 @@ import os
 import random
 import pandas as pd
 from transformers import pipeline
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -31,7 +27,6 @@ from selenium.common.exceptions import (
     InvalidSessionIdException, WebDriverException
 )
 from webdriver_manager.chrome import ChromeDriverManager
-
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -45,25 +40,32 @@ IG_COOKIES = {
     "rur"        : os.getenv("IG_RUR", ""),
 }
 
+KEYWORDS                = ["Gresik"]
+MAKS_POST_PER_KEYWORD   = 30
+MAKS_KOMENTAR_PER_POST  = 50
+TAMPILKAN_BROWSER       = False   # wajib False di GitHub Actions
+
+os.makedirs("output", exist_ok=True)
+
+
+# ══════════════════════════════════════════════════════════════
+#  STATUS HELPER
+# ══════════════════════════════════════════════════════════════
 def update_status(platform, success, message=""):
     path = "output/scrape_status.json"
     status = {}
     if os.path.exists(path):
         with open(path, "r") as f:
             status = json.load(f)
+    import datetime
     status[platform] = {
         "success": success,
         "message": message,
-        "last_run": __import__('datetime').datetime.now().strftime("%d %B %Y %H:%M")
+        "last_run": datetime.datetime.now().strftime("%d %B %Y %H:%M")
     }
     with open(path, "w") as f:
         json.dump(status, f, indent=2)
 
-KEYWORDS                = ["Gresik"]
-MAKS_POST_PER_KEYWORD   = 30
-MAKS_KOMENTAR_PER_POST  = 50
-TAMPILKAN_BROWSER       = False   # ← wajib False di GitHub Actions
-os.makedirs("output", exist_ok=True)
 
 # ══════════════════════════════════════════════════════════════
 #  MODEL SENTIMEN IndoBERT
@@ -79,9 +81,9 @@ LABEL_MAP = {"LABEL_0": "positif", "LABEL_1": "netral", "LABEL_2": "negatif"}
 # ══════════════════════════════════════════════════════════════
 #  FUNGSI PEMBANTU
 # ══════════════════════════════════════════════════════════════
-
 def jeda(min_s=1.5, max_s=3.5):
     time.sleep(random.uniform(min_s, max_s))
+
 
 def bersihkan_teks(teks):
     teks = re.sub(r"http\S+", "", teks)
@@ -90,11 +92,13 @@ def bersihkan_teks(teks):
     teks = re.sub(r"[^\w\s]", "", teks)
     return re.sub(r"\s+", " ", teks).strip().lower()
 
+
 def cek_sentimen(teks):
     if not teks or len(teks) < 5:
         return "netral", 0.0
     h = sentimen_model(teks[:512])[0]
     return LABEL_MAP.get(h["label"], "netral"), round(h["score"], 3)
+
 
 def deteksi_topik(teks):
     t = teks.lower()
@@ -114,6 +118,7 @@ def deteksi_topik(teks):
         return "infrastruktur"
     return "umum"
 
+
 def cek_sesi_aktif(driver):
     try:
         _ = driver.current_url
@@ -123,11 +128,11 @@ def cek_sesi_aktif(driver):
 
 
 # ══════════════════════════════════════════════════════════════
-#  BUAT DRIVER (versi GitHub Actions compatible)
+#  BUAT DRIVER
 # ══════════════════════════════════════════════════════════════
 def buat_driver():
     opts = Options()
-    opts.add_argument("--headless=new")          # wajib di server
+    opts.add_argument("--headless=new")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-gpu")
@@ -145,19 +150,39 @@ def buat_driver():
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     )
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=opts
-    )
+
+    # ✅ FIX: Gunakan Chrome yang sudah terinstall di GitHub Actions
+    #         daripada ChromeDriverManager yang bisa mismatch versi
+    chrome_binary = "/usr/bin/google-chrome"
+    if os.path.exists(chrome_binary):
+        opts.binary_location = chrome_binary
+        # Cari chromedriver yang sesuai
+        chromedriver_paths = [
+            "/usr/bin/chromedriver",
+            "/usr/local/bin/chromedriver",
+        ]
+        chromedriver = None
+        for p in chromedriver_paths:
+            if os.path.exists(p):
+                chromedriver = p
+                break
+        if chromedriver:
+            service = Service(chromedriver)
+        else:
+            service = Service(ChromeDriverManager().install())
+    else:
+        service = Service(ChromeDriverManager().install())
+
+    driver = webdriver.Chrome(service=service, options=opts)
     driver.execute_script(
         "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
     )
     return driver
 
+
 # ══════════════════════════════════════════════════════════════
 #  LOGIN INSTAGRAM
 # ══════════════════════════════════════════════════════════════
-
 def login_instagram(driver) -> bool:
     print("Membuka Instagram...")
     driver.get("https://www.instagram.com/")
@@ -168,7 +193,6 @@ def login_instagram(driver) -> bool:
         return False
 
     driver.delete_all_cookies()
-
     for nama, nilai in IG_COOKIES.items():
         if not nilai:
             continue
@@ -194,14 +218,31 @@ def login_instagram(driver) -> bool:
         update_status("instagram", False, "Cookie tidak valid atau expired")
         return False
 
-    print(f"  Login berhasil sebagai @{IG_USERNAME}\n")
+    # ✅ FIX: Ambil username dari halaman, bukan dari variabel yang tidak ada
+    username = "-"
+    try:
+        # Coba ambil username dari elemen profil di navbar
+        profile_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/'][role='link']")
+        for link in profile_links:
+            href = link.get_attribute("href") or ""
+            text = link.text.strip()
+            # Username biasanya link pendek seperti /namauser/
+            if re.match(r"https://www\.instagram\.com/[^/]+/$", href) and text:
+                username = text
+                break
+        # Fallback: ambil dari ds_user_id jika ada
+        if username == "-" and IG_COOKIES.get("ds_user_id"):
+            username = f"user_{IG_COOKIES['ds_user_id']}"
+    except Exception:
+        username = "unknown"
+
+    print(f"  Login berhasil! (user: {username})\n")
     return True
 
 
 # ══════════════════════════════════════════════════════════════
 #  TUTUP POPUP
 # ══════════════════════════════════════════════════════════════
-
 def tutup_popup(driver):
     xpaths = [
         "//button[contains(text(),'Tidak Sekarang')]",
@@ -225,21 +266,12 @@ def tutup_popup(driver):
 # ══════════════════════════════════════════════════════════════
 #  CARI POSTINGAN BERDASARKAN KEYWORD
 # ══════════════════════════════════════════════════════════════
-
-def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
-    """
-    Buka halaman pencarian Instagram, ketik keyword,
-    lalu kumpulkan URL postingan dari hasil pencarian.
-    Mengembalikan list shortcode.
-    """
+def cari_postingan(driver, keyword: str, maks_post: int) -> list:
     print(f"  Mencari postingan dengan keyword: '{keyword}'")
     url_hasil = []
 
-    # ── Coba via URL explore/search ───────────────────────────
-    # Encode keyword untuk URL
     keyword_encoded = keyword.replace(" ", "%20")
     search_url = f"https://www.instagram.com/explore/search/keyword/?q={keyword_encoded}"
-
     try:
         driver.get(search_url)
         jeda(5, 8)
@@ -251,7 +283,6 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
     if not cek_sesi_aktif(driver):
         return []
 
-    # Scroll beberapa kali untuk load lebih banyak postingan
     for scroll in range(5):
         try:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -259,13 +290,11 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
         except Exception:
             break
 
-        # Ambil semua link postingan yang sudah muncul
         try:
             links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/p/']")
             for link in links:
                 href = link.get_attribute("href")
                 if href and "/p/" in href:
-                    # Ekstrak shortcode dari URL
                     match = re.search(r"/p/([^/?]+)", href)
                     if match:
                         sc = match.group(1)
@@ -276,12 +305,11 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
 
         if len(url_hasil) >= maks_post:
             break
-
         print(f"  Scroll {scroll+1}: {len(url_hasil)} postingan ditemukan", end="\r")
 
     print(f"\n  Ditemukan {len(url_hasil)} postingan untuk keyword '{keyword}'")
 
-    # ── Fallback: via kolom pencarian di navbar ────────────────
+    # Fallback via navbar search
     if not url_hasil:
         print("  Mencoba via kolom pencarian navbar...")
         try:
@@ -289,7 +317,6 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
             jeda(3, 5)
             tutup_popup(driver)
 
-            # Klik ikon Search di sidebar
             search_icon_xpaths = [
                 "//a[@href='/explore/']",
                 "//span[contains(text(),'Search')]",
@@ -313,22 +340,20 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
                 print("  Tidak bisa klik ikon Search.")
                 return []
 
-            # Ketik keyword di input pencarian
             input_el = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "input[placeholder*='Search'], input[aria-label*='Search'], input[aria-label*='Cari']"))
+                EC.presence_of_element_located((By.CSS_SELECTOR,
+                    "input[placeholder*='Search'], input[aria-label*='Search'], input[aria-label*='Cari']"
+                ))
             )
             input_el.clear()
             for ch in keyword:
                 input_el.send_keys(ch)
                 time.sleep(random.uniform(0.05, 0.15))
             jeda(2, 3)
-
-            # Tekan Enter atau pilih tab "Posts"
             input_el.send_keys(Keys.RETURN)
             jeda(3, 5)
             tutup_popup(driver)
 
-            # Scroll dan kumpulkan postingan
             for _ in range(5):
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 jeda(2, 3)
@@ -345,7 +370,6 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
                     break
 
             print(f"  Fallback: {len(url_hasil)} postingan ditemukan")
-
         except Exception as e:
             print(f"  Fallback pencarian gagal: {e}")
 
@@ -355,9 +379,7 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list[str]:
 # ══════════════════════════════════════════════════════════════
 #  AMBIL KOMENTAR DARI SATU POSTINGAN
 # ══════════════════════════════════════════════════════════════
-
-def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
-    """Buka postingan dan ambil komentar beserta username & caption."""
+def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
     url = f"https://www.instagram.com/p/{shortcode}/"
     print(f"    Membuka: {url}")
 
@@ -365,11 +387,14 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
         driver.get(url)
     except Exception as e:
         print(f"    Gagal buka URL: {e}")
-        return []
+        # ✅ FIX: return dict kosong agar konsisten dengan pemanggil
+        return {"username": "-", "caption": shortcode, "likes": 0,
+                "comments": 0, "tanggal": "-", "link": url, "komentar": []}
 
     jeda(6, 9)
     if not cek_sesi_aktif(driver):
-        return []
+        return {"username": "-", "caption": shortcode, "likes": 0,
+                "comments": 0, "tanggal": "-", "link": url, "komentar": []}
 
     tutup_popup(driver)
 
@@ -387,47 +412,30 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
     # Ambil username
     try:
         username = driver.find_element(
-            By.XPATH,
-            "//header//a[contains(@href,'/')]"
+            By.XPATH, "//header//a[contains(@href,'/')]"
         ).text.strip()
-
     except Exception:
         username = "-"
-    
 
+    # Ambil likes
     likes = 0
     try:
-
-        sections = driver.find_elements(
-            By.XPATH,
-            "//section//span"
-        )
-
+        sections = driver.find_elements(By.XPATH, "//section//span")
         for s in sections:
-
             txt = s.text.strip()
-
             angka = re.sub(r"[^\d]", "", txt)
-
             if angka:
-
                 likes = int(angka)
-
                 break
-
     except Exception:
-
         likes = 0
 
     # Ambil tanggal
     try:
-        tanggal = driver.find_element(
-            By.TAG_NAME,
-            "time"
-        ).get_attribute("datetime")
+        tanggal = driver.find_element(By.TAG_NAME, "time").get_attribute("datetime")
     except Exception:
         tanggal = "-"
-        
+
     # Klik "Lihat semua komentar"
     try:
         btn = WebDriverWait(driver, 8).until(
@@ -438,13 +446,11 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
         )
         btn.click()
         jeda(2, 3)
-    except TimeoutException:
-        pass
-    except Exception:
+    except (TimeoutException, Exception):
         pass
 
-    komentar  = []
-    sudah     = set()
+    komentar = []
+    sudah = set()
     tidak_bertambah = 0
 
     def kumpulkan():
@@ -472,7 +478,12 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
                         continue
                     if t and t not in sudah and len(t) > 2 and not t.startswith("@"):
                         sudah.add(t)
-                        komentar.append({"text": t, "caption": caption, "shortcode": shortcode, "link_postingan": url})
+                        komentar.append({
+                            "text": t,
+                            "caption": caption,
+                            "shortcode": shortcode,
+                            "link_postingan": url
+                        })
                 if komentar:
                     break
 
@@ -481,9 +492,7 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
     while len(komentar) < maks:
         if not cek_sesi_aktif(driver):
             break
-
         sebelum = len(komentar)
-
         try:
             btn_muat = driver.find_element(
                 By.XPATH,
@@ -501,7 +510,6 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
             break
 
         kumpulkan()
-
         if len(komentar) == sebelum:
             tidak_bertambah += 1
             if tidak_bertambah >= 4:
@@ -509,13 +517,11 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
         else:
             tidak_bertambah = 0
 
-    jumlah_komentar = len(komentar)
-
     return {
         "username": username,
         "caption": caption,
         "likes": likes,
-        "comments": jumlah_komentar,
+        "comments": len(komentar),
         "tanggal": tanggal,
         "link": url,
         "komentar": komentar[:maks]
@@ -525,7 +531,6 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> list[dict]:
 # ══════════════════════════════════════════════════════════════
 #  MAIN
 # ══════════════════════════════════════════════════════════════
-
 def main():
     # Validasi cookie
     kosong = [k for k, v in IG_COOKIES.items() if not v]
@@ -537,11 +542,7 @@ def main():
         return
 
     driver = buat_driver()
-
-    # Menyimpan seluruh komentar
     semua_data = []
-
-    # Menyimpan metadata postingan
     semua_postingan = []
 
     try:
@@ -554,33 +555,27 @@ def main():
             print(f"{'─'*50}")
 
             shortcodes = cari_postingan(driver, keyword, MAKS_POST_PER_KEYWORD)
-
             if not shortcodes:
                 print(f"  Tidak ada postingan ditemukan untuk '{keyword}'")
                 continue
 
             for i, sc in enumerate(shortcodes, 1):
                 print(f"\n  [{i}/{len(shortcodes)}] Postingan: {sc}")
-
                 if not cek_sesi_aktif(driver):
                     print("  Browser tidak aktif, melewati.")
                     continue
 
-                post = ambil_komentar_post(
-                    driver,
-                    sc,
-                    MAKS_KOMENTAR_PER_POST
-                )
+                post = ambil_komentar_post(driver, sc, MAKS_KOMENTAR_PER_POST)
 
                 semua_postingan.append({
-                    "keyword": keyword,
-                    "shortcode": sc,
+                    "keyword"       : keyword,
+                    "shortcode"     : sc,
                     "link_postingan": post["link"],
-                    "username": post["username"],
-                    "caption": post["caption"],
-                    "tanggal": post["tanggal"],
-                    "likes": post["likes"],
-                    "comments": post["comments"]
+                    "username"      : post["username"],
+                    "caption"       : post["caption"],
+                    "tanggal"       : post["tanggal"],
+                    "likes"         : post["likes"],
+                    "comments"      : post["comments"],
                 })
 
                 for k in post["komentar"]:
@@ -588,17 +583,16 @@ def main():
                     teks_bersih = bersihkan_teks(teks_asli)
                     label, skor = cek_sentimen(teks_bersih)
                     topik       = deteksi_topik(teks_asli)
-
                     semua_data.append({
-                        "keyword"    : keyword,
-                        "shortcode"  : sc,
+                        "keyword"       : keyword,
+                        "shortcode"     : sc,
                         "link_postingan": k.get("link_postingan", ""),
-                        "caption"    : k.get("caption", ""),
-                        "teks_asli"  : teks_asli,
-                        "teks_bersih": teks_bersih,
-                        "sentimen"   : label,
-                        "skor"       : skor,
-                        "topik"      : topik,
+                        "caption"       : k.get("caption", ""),
+                        "teks_asli"     : teks_asli,
+                        "teks_bersih"   : teks_bersih,
+                        "sentimen"      : label,
+                        "skor"          : skor,
+                        "topik"         : topik,
                     })
 
                 jeda(3, 6)
@@ -606,7 +600,6 @@ def main():
     except Exception as e:
         print(f"\nError tidak terduga: {e}")
         update_status("instagram", False, f"Error: {str(e)[:100]}")
-
     finally:
         try:
             driver.quit()
@@ -622,85 +615,44 @@ def main():
         update_status("instagram", False, "Tidak ada data — cookie expired atau diblokir")
         return
 
-    # ── Simpan ────────────────────────────────────────────────
-    df = pd.DataFrame(semua_data)
+    # Simpan output
+    df      = pd.DataFrame(semua_data)
     df_post = pd.DataFrame(semua_postingan)
 
-    df_post.to_csv(
-        "output/gresik_ig_postingan.csv",
-        index=False,
-        encoding="utf-8-sig"
+    df_post.to_csv("output/gresik_ig_postingan.csv", index=False, encoding="utf-8-sig")
+
+    df[["keyword", "shortcode", "link_postingan", "teks_asli",
+        "teks_bersih", "sentimen", "skor", "topik"]].to_csv(
+        "output/gresik_ig_sentimen.csv", index=False, encoding="utf-8-sig"
     )
-
-    df = df[
-        [
-            "keyword",
-            "shortcode",
-            "link_postingan",
-            "teks_asli",
-            "teks_bersih",
-            "sentimen",
-            "skor",
-            "topik"
-        ]
-    ]
-
-    df.to_csv(
-        "output/gresik_ig_sentimen.csv",
-        index=False,
-        encoding="utf-8-sig"
-    )
-
-
-    hasil_json = []
-
-    for row in semua_data:
-        hasil_json.append({
-            "keyword": row["keyword"],
-            "shortcode": row["shortcode"],
-            "link_postingan": row["link_postingan"],
-            "teks_asli": row["teks_asli"],
-            "teks_bersih": row["teks_bersih"],
-            "sentimen": row["sentimen"],
-            "skor": row["skor"],
-            "topik": row["topik"]
-        })
 
     with open("output/gresik_ig_komentar.json", "w", encoding="utf-8") as f:
-        json.dump(
-            hasil_json,
-            f,
-            ensure_ascii=False,
-            indent=2
-        )
+        json.dump(semua_data, f, ensure_ascii=False, indent=2)
 
-    # ── Ringkasan ─────────────────────────────────────────────
+    # Ringkasan
     total = len(df)
     print(f"\n{'='*47}")
     print(f"  HASIL ANALISIS SENTIMEN — KEYWORD SEARCH")
     print(f"{'='*47}")
     print(f"  Total komentar : {total}")
-
     print(f"\n  Sentimen:")
     for lbl, jml in df["sentimen"].value_counts().items():
         bar = "█" * int(jml / total * 30)
         print(f"  {lbl:10s} {jml:4d} ({jml/total*100:5.1f}%)  {bar}")
-
     print(f"\n  Topik terpopuler:")
     for topik, jml in df["topik"].value_counts().head(5).items():
         print(f"  {topik:15s} {jml:4d} komentar")
-
     print(f"\n  Hasil per keyword:")
     for kw, grp in df.groupby("keyword"):
         print(f"  '{kw}' → {len(grp)} komentar dari {grp['shortcode'].nunique()} postingan")
-
     print(f"\n  File disimpan:")
     print(f"  output/gresik_ig_sentimen.csv")
     print(f"  output/gresik_ig_postingan.csv")
     print(f"  output/gresik_ig_komentar.json")
-    update_status("instagram", True, f"Berhasil {total} komentar dari {df['shortcode'].nunique()} postingan")
+
+    update_status("instagram", True,
+        f"Berhasil {total} komentar dari {df['shortcode'].nunique()} postingan")
 
 
 if __name__ == "__main__":
-
     main()

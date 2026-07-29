@@ -27,7 +27,7 @@
   .charts-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:1.25rem; }
   .card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; }
   .card-title { font-size:13px; color:#52514e; margin-bottom:12px; }
-  .chart-wrap { position:relative; height:220px; }
+  .chart-wrap { position:relative; height:220px; display:flex; align-items:center; justify-content:center; }
   .legend { display:flex; gap:14px; justify-content:center; margin-top:10px; flex-wrap:wrap; }
   .legend span { display:flex; align-items:center; gap:4px; font-size:12px; color:#52514e; }
   .legend-dot { width:10px; height:10px; border-radius:2px; display:inline-block; }
@@ -127,8 +127,31 @@ function kpi(label, val, cls) {
 
 // ── Donut chart ───────────────────────────────────
 function renderDonut(d) {
-    const ctx = document.getElementById("donutChart").getContext("2d");
-    if (donutInst) donutInst.destroy();
+    const canvas = document.getElementById("donutChart");
+    const ctx = canvas.getContext("2d");
+    if (donutInst) { donutInst.destroy(); donutInst = null; }
+
+    // Kalau belum ada ulasan sama sekali, tampilkan pesan alih-alih chart kosong
+    if (!d.total_ulasan || d.total_ulasan === 0) {
+        canvas.style.display = "none";
+        let kosong = document.getElementById("donut-kosong");
+        if (!kosong) {
+            kosong = document.createElement("p");
+            kosong.id = "donut-kosong";
+            kosong.className = "loading";
+            canvas.parentNode.appendChild(kosong);
+        }
+        kosong.textContent = "Belum ada ulasan untuk tempat ini.";
+        kosong.style.display = "block";
+        document.getElementById("legend-donut").innerHTML = "";
+        return;
+    }
+
+    // Ada data → tampilkan chart seperti biasa, sembunyikan pesan kosong kalau ada
+    canvas.style.display = "block";
+    const kosong = document.getElementById("donut-kosong");
+    if (kosong) kosong.style.display = "none";
+
     donutInst = new Chart(ctx, {
         type: "doughnut",
         data: {

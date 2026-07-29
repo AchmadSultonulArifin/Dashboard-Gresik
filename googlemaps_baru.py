@@ -386,7 +386,8 @@ KATEGORI_MAP = {
     "pengadilan": "Pemerintahan",
     "rsud": "Kesehatan", "rsu": "Kesehatan", "puskesmas": "Kesehatan",
     "klinik": "Kesehatan", "apotek": "Kesehatan", "rumah_sakit": "Kesehatan",
-    "sma": "Pendidikan", "smk": "Pendidikan", "smp": "Pendidikan",
+    "sma": "Pendidikan", "smk": "Pendidikan", "smp": "Pendidikan","upt": "Pendidikan",
+    "Upt": "Pendidikan",
     "universitas": "Pendidikan", "kampus": "Pendidikan", "sekolah": "Pendidikan",
     "madrasah": "Pendidikan", "pesantren": "Pendidikan",
     "disdukcapil": "Pelayanan Publik", "samsat": "Pelayanan Publik",
@@ -405,10 +406,61 @@ KATEGORI_MAP = {
 
 
 def get_kategori(folder_name: str) -> str:
-    for key, kat in KATEGORI_MAP.items():
-        if key in folder_name:
+    # Prioritas 1: dari master CSV
+    if os.path.exists(MASTER_FILE):
+        try:
+            df_master = pd.read_csv(MASTER_FILE, encoding="utf-8-sig")
+            for _, row in df_master.iterrows():
+                if get_folder(str(row["nama"])) == folder_name:
+                    return str(row["kategori"])
+        except Exception:
+            pass
+
+    # Prioritas 2: dari ulasan_mentah.json (ada field kategori)
+    mentah_path = os.path.join(OUTPUT_DIR, folder_name, "ulasan_mentah.json")
+    if os.path.exists(mentah_path):
+        try:
+            with open(mentah_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if data.get("kategori"):
+                return data["kategori"]
+        except Exception:
+            pass
+
+    # Prioritas 3: tebak dari nama folder (keyword matching)
+    keywords_pendidikan = ["sdn", "sd_", "smpn", "smp_", "sman", "sma_", "smkn",
+                           "smk_", "mts", "man_", "mi_", "upt_sd", "upt_smp",
+                           "upt_sma", "upt_smk", "negeri", "sekolah", "madrasah",
+                           "pesantren", "universitas", "kampus", "akademi"]
+    keywords_kesehatan  = ["puskesmas", "pkm", "rsud", "rsu_", "rsia", "rs_",
+                           "klinik", "apotek", "rumah_sakit"]
+    keywords_pemda      = ["kantor", "dinas", "kecamatan", "kelurahan", "bupati",
+                           "sekretariat", "dprd", "polsek", "polres", "koramil",
+                           "kodim", "kejaksaan", "pengadilan", "kec_", "kel_"]
+    keywords_publik     = ["disdukcapil", "samsat", "mall_pelayanan", "imigrasi",
+                           "bpjs", "kantor_pos", "kua", "bpn", "pajak"]
+    keywords_perbankan  = ["bank", "bri", "bni", "bca", "mandiri", "btn", "bpr",
+                           "pegadaian", "koperasi", "atm", "brilink"]
+    keywords_wisata     = ["wisata", "pantai", "taman", "museum", "makam",
+                           "masjid", "waduk", "alam"]
+    keywords_olahraga   = ["stadion", "gor_", "lapangan", "kolam_renang", "sport"]
+    keywords_industri   = ["petrokimia", "semen", "pabrik", "pelabuhan", "terminal"]
+
+    checks = [
+        (keywords_pendidikan, "Pendidikan"),
+        (keywords_kesehatan,  "Kesehatan"),
+        (keywords_pemda,      "Pemerintahan"),
+        (keywords_publik,     "Pelayanan Publik"),
+        (keywords_perbankan,  "Perbankan"),
+        (keywords_wisata,     "Wisata"),
+        (keywords_olahraga,   "Olahraga"),
+        (keywords_industri,   "Industri"),
+    ]
+    for keywords, kat in checks:
+        if any(kw in folder_name for kw in keywords):
             return kat
-    return "Lainnya"
+
+    return "Lainnya" 
 
 
 def clean_text(text: str) -> str:

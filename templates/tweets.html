@@ -81,7 +81,7 @@
             <thead>
                 <tr style="background:#f9fafb;">
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:110px;">Tanggal</th>
-                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:100px;">User</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:80px;">User</th>
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;">Tweet</th>
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:100px;">Topik</th>
                     <th style="padding:10px 12px;text-align:center;color:#6b7280;font-weight:600;white-space:nowrap;width:90px;">Sentimen</th>
@@ -96,7 +96,7 @@
                 <td style="padding:10px 12px;white-space:nowrap;">
                     <span style="font-size:12px;color:#374151;font-weight:500;">@{{ t.username }}</span>
                 </td>
-                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:0;overflow:hidden;">
+                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:400px;word-break:break-word;">
                     {% if t.teks_asli is string %}
                         {{ t.teks_asli[:150] }}{% if t.teks_asli|length > 150 %}...{% endif %}
                     {% else %}-{% endif %}

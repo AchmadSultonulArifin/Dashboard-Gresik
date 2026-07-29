@@ -3,7 +3,7 @@
     "key": "agen_bni46_stokis_4jovem_kota_baru_driyorejo",
     "kategori": "Perbankan",
     "tempat": "Agen BNI46 & Stokis 4Jovem Kota Baru Driyorejo",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -16,7 +16,7 @@
     "key": "agen_brilink_fm_payment",
     "kategori": "Perbankan",
     "tempat": "AGEN BRILINK FM PAYMENT",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -40,7 +40,7 @@
   },
   {
     "key": "alun_alun_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Alun-Alun Gresik",
     "rating": 4.5,
     "total_ulasan": 11,
@@ -53,42 +53,42 @@
   },
   {
     "key": "ambeng_ambeng_internasional_stadium",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Ambeng-ambeng Internasional Stadium",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "ant_bank_bca_896_ajbs_gresik",
     "kategori": "Perbankan",
     "tempat": "ANT Bank BCA 896-AJBS Gresik",
-    "rating": 2,
+    "rating": 2.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bank_bca_067p_gresik",
     "kategori": "Perbankan",
     "tempat": "ATM Bank BCA 067P-Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bank_bca_072z_indomaret_sembayat",
@@ -120,59 +120,59 @@
     "key": "atm_bank_bca_1332_gresik",
     "kategori": "Perbankan",
     "tempat": "ATM Bank BCA 1332-Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bank_bca_3892_gresik",
     "kategori": "Perbankan",
     "tempat": "ATM Bank BCA 3892-Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bank_bca_3896_gresik",
     "kategori": "Perbankan",
     "tempat": "ATM Bank BCA 3896-Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bank_bri",
     "kategori": "Perbankan",
     "tempat": "ATM Bank BRI",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bank_central_asia_bca",
     "kategori": "Perbankan",
     "tempat": "ATM Bank Central Asia (BCA)",
-    "rating": 1,
+    "rating": 1.0,
     "total_ulasan": 2,
     "positif": 2,
     "netral": 0,
@@ -185,7 +185,7 @@
     "key": "atm_bank_mandiri",
     "kategori": "Perbankan",
     "tempat": "ATM Bank Mandiri",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
@@ -195,23 +195,23 @@
     "persen_negatif": 0.0
   },
   {
+    "key": "atm_bca",
     "kategori": "Perbankan",
     "tempat": "ATM BCA",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 2,
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "atm_bca"
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bca_balongpanggang",
     "kategori": "Perbankan",
     "tempat": "ATM BCA Balongpanggang",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
@@ -224,7 +224,7 @@
     "key": "atm_bca_indomaret_cerme",
     "kategori": "Perbankan",
     "tempat": "ATM BCA Indomaret Cerme",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
@@ -234,17 +234,17 @@
     "persen_negatif": 0.0
   },
   {
+    "key": "atm_bca_metropolitan_cileungsi",
     "kategori": "Perbankan",
     "tempat": "ATM BCA Metropolitan Cileungsi",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
     "negatif": 0,
     "persen_positif": 100.0,
     "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "key": "atm_bca_metropolitan_cileungsi"
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bni_alun_alun_sedayu",
@@ -260,6 +260,7 @@
     "persen_negatif": 0.0
   },
   {
+    "key": "atm_bni_dukun",
     "kategori": "Perbankan",
     "tempat": "ATM BNI DUKUN",
     "rating": 3.4,
@@ -269,47 +270,46 @@
     "negatif": 0,
     "persen_positif": 100.0,
     "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "key": "atm_bni_dukun"
+    "persen_negatif": 0.0
   },
   {
+    "key": "atm_bni_gebang_lor",
     "kategori": "Perbankan",
     "tempat": "ATM BNI Gebang Lor",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "atm_bni_gebang_lor"
+    "persen_negatif": 100.0
   },
   {
+    "key": "atm_bni_giant_gkb",
     "kategori": "Perbankan",
     "tempat": "ATM BNI GIANT GKB",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "atm_bni_giant_gkb"
+    "persen_negatif": 100.0
   },
   {
     "key": "atm_bni_kk_manyar",
     "kategori": "Perbankan",
     "tempat": "ATM BNI KK MANYAR",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bni_kln_bungah",
@@ -325,30 +325,30 @@
     "persen_negatif": 33.3
   },
   {
+    "key": "atm_bni_malindo",
     "kategori": "Perbankan",
     "tempat": "ATM BNI MALINDO",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 2,
     "positif": 1,
     "netral": 1,
     "negatif": 0,
     "persen_positif": 50.0,
     "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "key": "atm_bni_malindo"
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bni_pertokoan_bungah",
     "kategori": "Perbankan",
     "tempat": "ATM BNI PERTOKOAN BUNGAH",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bni_perum_gka",
@@ -393,33 +393,33 @@
     "key": "atm_bni_wringinanom",
     "kategori": "Perbankan",
     "tempat": "ATM BNI wringinanom",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_bri_indomaret",
     "kategori": "Perbankan",
     "tempat": "ATM BRI Indomaret",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_mandiri_alfamart_jawa_gresik",
     "kategori": "Perbankan",
     "tempat": "ATM Mandiri Alfamart Jawa Gresik",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 9,
     "positif": 0,
     "netral": 4,
@@ -432,14 +432,14 @@
     "key": "atm_mandiri_gsk_im_ujungpangkah",
     "kategori": "Perbankan",
     "tempat": "ATM Mandiri GSK IM UJUNGPANGKAH",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "atm_mandiri_gsk_pr_pdkpermatasuci",
@@ -469,9 +469,9 @@
   },
   {
     "key": "aulia_yasmin_fadhillah",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Aulia yasmin & Fadhillah",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -484,83 +484,83 @@
     "key": "bagian_administrasi_pembangunan_sekretariat_daerah_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Bagian Administrasi Pembangunan Sekretariat Daerah Kabupaten Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "bagian_hukum_sekretariat_daerah_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Bagian Hukum Sekretariat Daerah Kabupaten Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 5,
     "positif": 0,
     "netral": 2,
     "negatif": 3,
     "persen_positif": 0.0,
     "persen_netral": 40.0,
-    "persen_negatif": 60.0,
-    "key": "bagian_hukum_sekretariat_daerah_kabupaten_gresik"
+    "persen_negatif": 60.0
   },
   {
     "key": "bagian_kesejahteraan_rakyat_sekretariat_daerah_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Bagian Kesejahteraan Rakyat Sekretariat Daerah Kabupaten Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bagian_organisasi_sekretariat_daerah_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Bagian Organisasi Sekretariat Daerah Kabupaten Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "bagian_pengadaan_barang_jasa_sekretariat_daerah_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Bagian Pengadaan Barang/Jasa Sekretariat Daerah Kabupaten Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 5,
     "positif": 0,
     "netral": 1,
     "negatif": 4,
     "persen_positif": 0.0,
     "persen_netral": 20.0,
-    "persen_negatif": 80.0,
-    "key": "bagian_pengadaan_barang_jasa_sekretariat_daerah_kabupaten_gresik"
+    "persen_negatif": 80.0
   },
   {
     "key": "balai_desa_kepuhklagen",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "BALAI DESA KEPUHKLAGEN",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "balai_desa_pedagangan",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Balai Desa Pedagangan",
     "rating": 4.2,
     "total_ulasan": 2,
@@ -573,7 +573,7 @@
   },
   {
     "key": "bandar_grissee",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "BANDAR GRISSEE",
     "rating": 4.7,
     "total_ulasan": 9,
@@ -601,7 +601,7 @@
     "key": "bank_bni_cerme",
     "kategori": "Perbankan",
     "tempat": "BANK BNI CERME",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 17,
     "positif": 0,
     "netral": 0,
@@ -614,27 +614,27 @@
     "key": "bank_bni_green_garden_gresik",
     "kategori": "Perbankan",
     "tempat": "BANK BNI GREEN GARDEN GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bni_jiipe",
     "kategori": "Perbankan",
     "tempat": "BANK BNI JIIPE",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bni_menganti",
@@ -650,6 +650,7 @@
     "persen_negatif": 100.0
   },
   {
+    "key": "bank_bri_atm_indomaret_balong_pangga",
     "kategori": "Perbankan",
     "tempat": "Bank BRI ATM - INDOMARET BALONG PANGGA",
     "rating": 3.5,
@@ -659,49 +660,49 @@
     "negatif": 0,
     "persen_positif": 100.0,
     "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "key": "bank_bri_atm_indomaret_balong_pangga"
+    "persen_negatif": 0.0
   },
   {
+    "key": "bank_bri_atm_indomaret_benjeng_gresik",
     "kategori": "Perbankan",
     "tempat": "Bank BRI ATM - INDOMARET BENJENG GRESIK",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "bank_bri_atm_indomaret_benjeng_gresik"
+    "persen_negatif": 100.0
   },
   {
     "key": "bank_bri_atm_indomaret_ujung_pangka",
     "kategori": "Perbankan",
     "tempat": "Bank BRI ATM - INDOMARET UJUNG PANGKA",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bri_atm_pt_sasmita_abadi_gloves",
     "kategori": "Perbankan",
     "tempat": "Bank BRI ATM - PT. SASMITA ABADI GLOVES",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "bank_bri_cabang_veteran_selatan",
     "kategori": "Perbankan",
     "tempat": "Bank BRI Cabang Veteran Selatan",
     "rating": 2.6,
@@ -711,53 +712,52 @@
     "negatif": 3,
     "persen_positif": 45.5,
     "persen_netral": 27.3,
-    "persen_negatif": 27.3,
-    "key": "bank_bri_cabang_veteran_selatan"
+    "persen_negatif": 27.3
   },
   {
     "key": "bank_bri_crm_bri_unit_legundi",
     "kategori": "Perbankan",
     "tempat": "Bank BRI CRM - BRI UNIT LEGUNDI",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bri_crm_sby_unit_legundi_gresik_surabaya",
     "kategori": "Perbankan",
     "tempat": "Bank BRI CRM - SBY UNIT LEGUNDI GRESIK SURABAYA",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bri_crm_unit_kota_kusuma",
     "kategori": "Perbankan",
     "tempat": "Bank BRI CRM - UNIT KOTA KUSUMA",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bri_kcp_driyorejo",
     "kategori": "Perbankan",
     "tempat": "Bank BRI KCP Driyorejo",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 17,
     "positif": 10,
     "netral": 4,
@@ -796,16 +796,17 @@
     "key": "bank_bri_teras_pasar_benjeng",
     "kategori": "Perbankan",
     "tempat": "Bank BRI TERAS Pasar Benjeng",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "bank_bri_unit_balongpanggang",
     "kategori": "Perbankan",
     "tempat": "Bank BRI Unit Balongpanggang",
     "rating": 3.4,
@@ -815,10 +816,10 @@
     "negatif": 5,
     "persen_positif": 50.0,
     "persen_netral": 25.0,
-    "persen_negatif": 25.0,
-    "key": "bank_bri_unit_balongpanggang"
+    "persen_negatif": 25.0
   },
   {
+    "key": "bank_bri_unit_benjeng",
     "kategori": "Perbankan",
     "tempat": "Bank BRI Unit Benjeng",
     "rating": 4.3,
@@ -828,8 +829,7 @@
     "negatif": 3,
     "persen_positif": 55.6,
     "persen_netral": 11.1,
-    "persen_negatif": 33.3,
-    "key": "bank_bri_unit_benjeng"
+    "persen_negatif": 33.3
   },
   {
     "key": "bank_bri_unit_dukun_gresik",
@@ -872,16 +872,16 @@
   },
   {
     "key": "bank_bri_unit_kota_kusuma_bawean",
-    "kategori": "Perbankan",
+    "kategori": "Pendidikan",
     "tempat": "Bank BRI UNIT Kota Kusuma Bawean",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bank_bri_unit_manyar_gresik",
@@ -900,7 +900,7 @@
     "key": "bank_bri_unit_multiplaza",
     "kategori": "Perbankan",
     "tempat": "Bank BRI Unit Multiplaza",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 4,
     "positif": 1,
     "netral": 1,
@@ -1030,7 +1030,7 @@
     "key": "bank_mandiri_kcp_gresik_jiipe",
     "kategori": "Perbankan",
     "tempat": "BANK MANDIRI KCP GRESIK JIIPE",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 22,
     "positif": 1,
     "netral": 0,
@@ -1066,6 +1066,7 @@
     "persen_negatif": 74.1
   },
   {
+    "key": "bank_mandiri_kcp_semarang_pandanaran",
     "kategori": "Perbankan",
     "tempat": "Bank Mandiri KCP Semarang Pandanaran",
     "rating": 4.9,
@@ -1075,8 +1076,7 @@
     "negatif": 19,
     "persen_positif": 5.0,
     "persen_netral": 0.0,
-    "persen_negatif": 95.0,
-    "key": "bank_mandiri_kcp_semarang_pandanaran"
+    "persen_negatif": 95.0
   },
   {
     "key": "bank_mandiri_taspen_kcp_gresik",
@@ -1093,7 +1093,7 @@
   },
   {
     "key": "bank_mandiri_usman_sadar",
-    "kategori": "Pendidikan",
+    "kategori": "Perbankan",
     "tempat": "Bank Mandiri Usman Sadar",
     "rating": 4.9,
     "total_ulasan": 27,
@@ -1158,9 +1158,9 @@
   },
   {
     "key": "banyu_biru_lowayu",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Banyu Biru Lowayu",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 15,
     "positif": 7,
     "netral": 1,
@@ -1170,7 +1170,8 @@
     "persen_negatif": 46.7
   },
   {
-    "kategori": "Lainnya",
+    "key": "bawean_cantik_official",
+    "kategori": "Wisata",
     "tempat": "Bawean Cantik Official",
     "rating": 4.6,
     "total_ulasan": 6,
@@ -1179,8 +1180,7 @@
     "negatif": 4,
     "persen_positif": 16.7,
     "persen_netral": 16.7,
-    "persen_negatif": 66.7,
-    "key": "bawean_cantik_official"
+    "persen_negatif": 66.7
   },
   {
     "key": "bca",
@@ -1199,14 +1199,14 @@
     "key": "bca_kcp_benowo",
     "kategori": "Perbankan",
     "tempat": "BCA KCP Benowo",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bca_kcp_gresik",
@@ -1238,14 +1238,14 @@
     "key": "bca_kcp_kas_menganti",
     "kategori": "Perbankan",
     "tempat": "BCA KCP Kas Menganti",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bca_kcu_gresik",
@@ -1264,7 +1264,7 @@
     "key": "bd_ismari_hastuti",
     "kategori": "Kesehatan",
     "tempat": "Bd Ismari Hastuti",
-    "rating": 2,
+    "rating": 2.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
@@ -1275,16 +1275,16 @@
   },
   {
     "key": "bidan_kunti",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "Bidan Kunti",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bmt_mandiri_sejahtera_jawa_timur",
@@ -1316,7 +1316,7 @@
     "key": "bni_46_kartini",
     "kategori": "Perbankan",
     "tempat": "BNI 46 Kartini",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 19,
     "positif": 5,
     "netral": 0,
@@ -1326,43 +1326,43 @@
     "persen_negatif": 73.7
   },
   {
+    "key": "bni_atm",
     "kategori": "Perbankan",
     "tempat": "BNI ATM",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
     "negatif": 0,
     "persen_positif": 100.0,
     "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "key": "bni_atm"
+    "persen_negatif": 0.0
   },
   {
     "key": "bni_atm_gallery",
     "kategori": "Perbankan",
     "tempat": "BNI ATM GALLERY",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bni_balongpanggang",
     "kategori": "Perbankan",
     "tempat": "Bni Balongpanggang",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bni_bungah",
@@ -1394,27 +1394,27 @@
     "key": "bni_graha_puncak",
     "kategori": "Perbankan",
     "tempat": "BNI Graha Puncak",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bni_northern_california",
     "kategori": "Perbankan",
     "tempat": "BNI Northern California",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bni_petrokimia_gresik",
@@ -1430,6 +1430,7 @@
     "persen_negatif": 77.8
   },
   {
+    "key": "bni_southern_colorado",
     "kategori": "Perbankan",
     "tempat": "BNI Southern Colorado",
     "rating": 3.5,
@@ -1439,8 +1440,7 @@
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 88.9,
-    "persen_negatif": 11.1,
-    "key": "bni_southern_colorado"
+    "persen_negatif": 11.1
   },
   {
     "key": "bni_wonrd_bank",
@@ -1456,32 +1456,33 @@
     "persen_negatif": 0.0
   },
   {
+    "key": "bpjs_al_hisyam",
     "kategori": "Pelayanan Publik",
     "tempat": "BPJS AL HISYAM",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "bpjs_al_hisyam"
+    "persen_negatif": 100.0
   },
   {
+    "key": "bpjs_kesehatan_cabang_gresik",
     "kategori": "Pelayanan Publik",
     "tempat": "BPJS Kesehatan Cabang Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 21,
     "positif": 1,
     "netral": 0,
     "negatif": 20,
     "persen_positif": 4.8,
     "persen_netral": 0.0,
-    "persen_negatif": 95.2,
-    "key": "bpjs_kesehatan_cabang_gresik"
+    "persen_negatif": 95.2
   },
   {
+    "key": "bpjs_ketenagakerjaan_gresik",
     "kategori": "Pelayanan Publik",
     "tempat": "BPJS Ketenagakerjaan Gresik",
     "rating": 4.4,
@@ -1491,10 +1492,10 @@
     "negatif": 16,
     "persen_positif": 15.4,
     "persen_netral": 23.1,
-    "persen_negatif": 61.5,
-    "key": "bpjs_ketenagakerjaan_gresik"
+    "persen_negatif": 61.5
   },
   {
+    "key": "bpjs_ketenagakerjaan_gresik_driyorejo",
     "kategori": "Pelayanan Publik",
     "tempat": "BPJS Ketenagakerjaan Gresik Driyorejo",
     "rating": 4.7,
@@ -1504,38 +1505,37 @@
     "negatif": 16,
     "persen_positif": 20.0,
     "persen_netral": 16.0,
-    "persen_negatif": 64.0,
-    "key": "bpjs_ketenagakerjaan_gresik_driyorejo"
+    "persen_negatif": 64.0
   },
   {
+    "key": "bpjs_pt",
     "kategori": "Pelayanan Publik",
     "tempat": "BPJS. PT",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "bpjs_pt"
+    "persen_negatif": 0.0
   },
   {
     "key": "bpm_as_syifa_sifaun_nadliroh_amd_keb",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "bpm as-syifa sifaun nadliroh amd.keb",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "bpn_kabupaten_gresik",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pemerintahan",
     "tempat": "BPN Kabupaten Gresik",
     "rating": 4.2,
     "total_ulasan": 26,
@@ -1573,6 +1573,7 @@
     "persen_negatif": 66.7
   },
   {
+    "key": "bri_unit_wringinanom",
     "kategori": "Perbankan",
     "tempat": "BRI Unit Wringinanom",
     "rating": 2.7,
@@ -1582,10 +1583,10 @@
     "negatif": 3,
     "persen_positif": 45.5,
     "persen_netral": 27.3,
-    "persen_negatif": 27.3,
-    "key": "bri_unit_wringinanom"
+    "persen_negatif": 27.3
   },
   {
+    "key": "bridgeport_soccer_fields",
     "kategori": "Perbankan",
     "tempat": "Bridgeport Soccer Fields",
     "rating": 4.1,
@@ -1595,8 +1596,7 @@
     "negatif": 6,
     "persen_positif": 10.0,
     "persen_netral": 30.0,
-    "persen_negatif": 60.0,
-    "key": "bridgeport_soccer_fields"
+    "persen_negatif": 60.0
   },
   {
     "key": "bsi_bank_syariah_indonesia",
@@ -1613,7 +1613,7 @@
   },
   {
     "key": "bukit_kapur_suci",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Bukit Kapur Suci",
     "rating": 4.3,
     "total_ulasan": 11,
@@ -1625,7 +1625,8 @@
     "persen_negatif": 72.7
   },
   {
-    "kategori": "Lainnya",
+    "key": "bukit_larangan",
+    "kategori": "Wisata",
     "tempat": "Bukit Larangan",
     "rating": 4.2,
     "total_ulasan": 17,
@@ -1634,12 +1635,11 @@
     "negatif": 14,
     "persen_positif": 0.0,
     "persen_netral": 17.6,
-    "persen_negatif": 82.4,
-    "key": "bukit_larangan"
+    "persen_negatif": 82.4
   },
   {
     "key": "bukit_songkro_wringinanom",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Bukit Songkro Wringinanom",
     "rating": 4.3,
     "total_ulasan": 16,
@@ -1651,7 +1651,8 @@
     "persen_negatif": 81.2
   },
   {
-    "kategori": "Lainnya",
+    "key": "bulengan_grejeg",
+    "kategori": "Wisata",
     "tempat": "Bulengan Grejeg",
     "rating": 4.4,
     "total_ulasan": 9,
@@ -1660,25 +1661,24 @@
     "negatif": 6,
     "persen_positif": 0.0,
     "persen_netral": 33.3,
-    "persen_negatif": 66.7,
-    "key": "bulengan_grejeg"
+    "persen_negatif": 66.7
   },
   {
     "key": "bumdes_sukarasa_mandiri_agen_resmi_pt_pos_indonesia",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pendidikan",
     "tempat": "Bumdes Sukarasa Mandiri Agen Resmi Pt Pos Indonesia",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "buyos_sport_center",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "BUYOS SPORT CENTER",
     "rating": 4.5,
     "total_ulasan": 15,
@@ -1693,33 +1693,33 @@
     "key": "cdm_bank_bca_902k_sutomo_gresik",
     "kategori": "Perbankan",
     "tempat": "CDM Bank BCA 902K-Sutomo Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "ct_valley_bni",
     "kategori": "Perbankan",
     "tempat": "CT Valley BNI",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "ct_valley_bni"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "damkar_gresik_pos_driyorejo",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pemerintahan",
     "tempat": "DAMKAR Gresik pos Driyorejo",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 4,
     "positif": 0,
     "netral": 0,
@@ -1729,7 +1729,8 @@
     "persen_negatif": 100.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "danau_kastoba",
+    "kategori": "Wisata",
     "tempat": "Danau Kastoba",
     "rating": 4.5,
     "total_ulasan": 16,
@@ -1738,8 +1739,7 @@
     "negatif": 9,
     "persen_positif": 12.5,
     "persen_netral": 31.2,
-    "persen_negatif": 56.2,
-    "key": "danau_kastoba"
+    "persen_negatif": 56.2
   },
   {
     "key": "dinas_kb_pp_dan_pa_kabupaten_gresik",
@@ -1862,7 +1862,7 @@
     "key": "dinas_pendapatan_pengelolaan_keuangan_dan_aset_daerah_pemerintah_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Dinas Pendapatan Pengelolaan Keuangan dan Aset Daerah Pemerintah Kabupaten Gresik",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 4,
     "positif": 1,
     "netral": 1,
@@ -1906,9 +1906,9 @@
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "dinas_pu_gresik",
@@ -1927,7 +1927,7 @@
     "key": "dinas_sosial_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "DINAS SOSIAL KABUPATEN GRESIK",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 2,
     "positif": 1,
     "netral": 1,
@@ -1951,9 +1951,9 @@
   },
   {
     "key": "diskoperindag_kabupaten_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "DISKOPERINDAG Kabupaten Gresik",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 1,
@@ -1964,7 +1964,7 @@
   },
   {
     "key": "dispendukcapil",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik",
     "rating": 4.4,
     "total_ulasan": 40,
@@ -1977,7 +1977,7 @@
   },
   {
     "key": "drs_kolam_renang_futsal",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "DRS-Kolam Renang & Futsal",
     "rating": 3.8,
     "total_ulasan": 8,
@@ -1989,21 +1989,21 @@
     "persen_negatif": 75.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "dukun_elektro",
+    "kategori": "Wisata",
     "tempat": "Dukun Elektro",
     "rating": 4.3,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "dukun_elektro"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "dynasty_water_park",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Dynasty Water Park",
     "rating": 4.3,
     "total_ulasan": 12,
@@ -2031,7 +2031,7 @@
     "key": "ella_skincare_gresik",
     "kategori": "Kesehatan",
     "tempat": "Ella Skincare Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 26,
     "positif": 0,
     "netral": 0,
@@ -2042,7 +2042,7 @@
   },
   {
     "key": "erde_clinic",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "eRDe Clinic",
     "rating": 4.5,
     "total_ulasan": 29,
@@ -2054,6 +2054,7 @@
     "persen_negatif": 93.1
   },
   {
+    "key": "excellent_school_pg_tk_sd_smp",
     "kategori": "Pendidikan",
     "tempat": "Excellent School ( PG, TK, SD, SMP )",
     "rating": 4.3,
@@ -2063,12 +2064,11 @@
     "negatif": 20,
     "persen_positif": 15.4,
     "persen_netral": 7.7,
-    "persen_negatif": 76.9,
-    "key": "excellent_school_pg_tk_sd_smp"
+    "persen_negatif": 76.9
   },
   {
     "key": "exotic_mengare",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Exotic Mengare",
     "rating": 4.5,
     "total_ulasan": 12,
@@ -2080,34 +2080,8 @@
     "persen_negatif": 91.7
   },
   {
-    "kategori": "Lainnya",
-    "tempat": "Federal Territory Election Office",
-    "rating": 4.3,
-    "total_ulasan": 5,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 4,
-    "persen_positif": 0.0,
-    "persen_netral": 20.0,
-    "persen_negatif": 80.0,
-    "key": "federal_territory_election_office"
-  },
-  {
-    "kategori": "Lainnya",
-    "tempat": "Friends University",
-    "rating": 4.6,
-    "total_ulasan": 15,
-    "positif": 1,
-    "netral": 4,
-    "negatif": 10,
-    "persen_positif": 6.7,
-    "persen_netral": 26.7,
-    "persen_negatif": 66.7,
-    "key": "friends_university"
-  },
-  {
     "key": "gapura_karang_ploso",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Gapura KARANG PLOSO",
     "rating": 4.5,
     "total_ulasan": 3,
@@ -2120,7 +2094,7 @@
   },
   {
     "key": "gapura_kedung_sambi",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Gapura KEDUNG SAMBI",
     "rating": 3.9,
     "total_ulasan": 3,
@@ -2132,33 +2106,34 @@
     "persen_negatif": 66.7
   },
   {
-    "kategori": "Lainnya",
+    "key": "garden_park_sidowungu_barat",
+    "kategori": "Wisata",
     "tempat": "Garden park sidowungu barat",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "garden_park_sidowungu_barat"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gedung_bulutangkis_indoor_tanggulrejo",
+    "kategori": "Olahraga",
     "tempat": "Gedung Bulutangkis Indoor Tanggulrejo",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "gedung_bulutangkis_indoor_tanggulrejo"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gedung_olahraga_sidayu",
+    "kategori": "Olahraga",
     "tempat": "Gedung Olahraga Sidayu",
     "rating": 4.1,
     "total_ulasan": 11,
@@ -2167,25 +2142,24 @@
     "negatif": 5,
     "persen_positif": 54.5,
     "persen_netral": 0.0,
-    "persen_negatif": 45.5,
-    "key": "gedung_olahraga_sidayu"
+    "persen_negatif": 45.5
   },
   {
-    "kategori": "Lainnya",
+    "key": "gedung_porkes_unja",
+    "kategori": "Olahraga",
     "tempat": "Gedung PORKES UNJA",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "gedung_porkes_unja"
+    "persen_negatif": 0.0
   },
   {
     "key": "gelora_17_agustus_balongpanggang",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Gelora 17 Agustus Balongpanggang",
     "rating": 4.2,
     "total_ulasan": 11,
@@ -2197,21 +2171,21 @@
     "persen_negatif": 54.5
   },
   {
-    "kategori": "Lainnya",
+    "key": "gelora_putrabaru_c_f",
+    "kategori": "Olahraga",
     "tempat": "Gelora (Putrabaru C.F)",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 0,
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "gelora_putrabaru_c_f"
+    "persen_negatif": 100.0
   },
   {
     "key": "gmt_stadion_parikesit",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "GMT Stadion PariKesit",
     "rating": 4.6,
     "total_ulasan": 15,
@@ -2223,7 +2197,8 @@
     "persen_negatif": 93.3
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_ambeng_ambeng_watangrejo",
+    "kategori": "Olahraga",
     "tempat": "GOR Ambeng Ambeng Watangrejo",
     "rating": 4.4,
     "total_ulasan": 3,
@@ -2232,11 +2207,11 @@
     "negatif": 1,
     "persen_positif": 66.7,
     "persen_netral": 0.0,
-    "persen_negatif": 33.3,
-    "key": "gor_ambeng_ambeng_watangrejo"
+    "persen_negatif": 33.3
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_bulutangkis_pb_restu_28",
+    "kategori": "Olahraga",
     "tempat": "Gor bulutangkis pb restu 28",
     "rating": 4.7,
     "total_ulasan": 14,
@@ -2245,12 +2220,11 @@
     "negatif": 12,
     "persen_positif": 7.1,
     "persen_netral": 7.1,
-    "persen_negatif": 85.7,
-    "key": "gor_bulutangkis_pb_restu_28"
+    "persen_negatif": 85.7
   },
   {
     "key": "gor_bulutangkis_semen_gresik",
-    "kategori": "Industri",
+    "kategori": "Olahraga",
     "tempat": "GOR Bulutangkis Semen Gresik",
     "rating": 4.8,
     "total_ulasan": 19,
@@ -2262,7 +2236,8 @@
     "persen_negatif": 78.9
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_bulutangkis_sumengko_gor_pb_yai",
+    "kategori": "Olahraga",
     "tempat": "GOR BULUTANGKIS SUMENGKO/GOR PB YAI",
     "rating": 4.8,
     "total_ulasan": 4,
@@ -2271,25 +2246,24 @@
     "negatif": 3,
     "persen_positif": 25.0,
     "persen_netral": 0.0,
-    "persen_negatif": 75.0,
-    "key": "gor_bulutangkis_sumengko_gor_pb_yai"
+    "persen_negatif": 75.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_dwi_utomo",
+    "kategori": "Olahraga",
     "tempat": "Gor Dwi Utomo",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 1,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 50.0,
-    "persen_negatif": 50.0,
-    "key": "gor_dwi_utomo"
+    "persen_negatif": 50.0
   },
   {
     "key": "gor_giri_krida",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Gor Giri Krida",
     "rating": 4.3,
     "total_ulasan": 21,
@@ -2301,7 +2275,8 @@
     "persen_negatif": 57.1
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_graha_sriti_agung",
+    "kategori": "Olahraga",
     "tempat": "GOR GRAHA SRITI AGUNG",
     "rating": 4.4,
     "total_ulasan": 9,
@@ -2310,11 +2285,11 @@
     "negatif": 5,
     "persen_positif": 11.1,
     "persen_netral": 33.3,
-    "persen_negatif": 55.6,
-    "key": "gor_graha_sriti_agung"
+    "persen_negatif": 55.6
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_juni_jaya_sport",
+    "kategori": "Olahraga",
     "tempat": "GOR JUNI JAYA SPORT",
     "rating": 4.5,
     "total_ulasan": 12,
@@ -2323,37 +2298,37 @@
     "negatif": 5,
     "persen_positif": 33.3,
     "persen_netral": 25.0,
-    "persen_negatif": 41.7,
-    "key": "gor_juni_jaya_sport"
+    "persen_negatif": 41.7
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_kidang_palih",
+    "kategori": "Olahraga",
     "tempat": "GOR Kidang Palih",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "gor_kidang_palih"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_mugi_bangkit",
+    "kategori": "Olahraga",
     "tempat": "GOR MUGI BANGKIT",
     "rating": 4.2,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "gor_mugi_bangkit"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_new_kampret",
+    "kategori": "Olahraga",
     "tempat": "GOR NEW KAMPRET",
     "rating": 4.3,
     "total_ulasan": 13,
@@ -2362,11 +2337,11 @@
     "negatif": 9,
     "persen_positif": 23.1,
     "persen_netral": 7.7,
-    "persen_negatif": 69.2,
-    "key": "gor_new_kampret"
+    "persen_negatif": 69.2
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_nicky_futsal",
+    "kategori": "Olahraga",
     "tempat": "GOR Nicky Futsal",
     "rating": 4.3,
     "total_ulasan": 2,
@@ -2375,24 +2350,24 @@
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "gor_nicky_futsal"
+    "persen_negatif": 100.0
   },
   {
     "key": "gor_pemuda_menara",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "GOR PEMUDA MENARA",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_raden_kromo_widjojo",
+    "kategori": "Olahraga",
     "tempat": "GOR Raden Kromo Widjojo",
     "rating": 4.7,
     "total_ulasan": 5,
@@ -2401,11 +2376,11 @@
     "negatif": 4,
     "persen_positif": 20.0,
     "persen_netral": 0.0,
-    "persen_negatif": 80.0,
-    "key": "gor_raden_kromo_widjojo"
+    "persen_negatif": 80.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_serba_guna_duduk",
+    "kategori": "Olahraga",
     "tempat": "GOR serba guna Duduk",
     "rating": 4.5,
     "total_ulasan": 1,
@@ -2414,25 +2389,24 @@
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "gor_serba_guna_duduk"
+    "persen_negatif": 100.0
   },
   {
     "key": "gor_serbaguna_singgasari",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "GOR serbaguna \"SINGGASARI\"",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "gor_sriwijaya",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Gor Sriwijaya",
     "rating": 4.3,
     "total_ulasan": 13,
@@ -2444,21 +2418,21 @@
     "persen_negatif": 61.5
   },
   {
-    "kategori": "Lainnya",
+    "key": "gor_tjakrindo_masters_hall",
+    "kategori": "Kesehatan",
     "tempat": "GOR Tjakrindo Masters Hall",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 15,
     "positif": 0,
     "netral": 1,
     "negatif": 14,
     "persen_positif": 0.0,
     "persen_netral": 6.7,
-    "persen_negatif": 93.3,
-    "key": "gor_tjakrindo_masters_hall"
+    "persen_negatif": 93.3
   },
   {
     "key": "gor_tridharma_petrokimia_gresik",
-    "kategori": "Industri",
+    "kategori": "Olahraga",
     "tempat": "GOR Tridharma Petrokimia Gresik",
     "rating": 4.6,
     "total_ulasan": 13,
@@ -2471,20 +2445,20 @@
   },
   {
     "key": "gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "gresik_universal_science",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Gresik Universal Science",
     "rating": 4.6,
     "total_ulasan": 14,
@@ -2499,7 +2473,7 @@
     "key": "griya_sehat_ahsan_pengobatan_alternatif_paz_alkasaw_jantung_saraf_kejepit_gerd_stroke_diabetes_autis_speech_delay",
     "kategori": "Kesehatan",
     "tempat": "Griya Sehat Ahsan : Pengobatan Alternatif PAZ ALKASAW Jantung, Saraf Kejepit, GERD, Stroke, Diabetes, Autis, Speech delay",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 28,
     "positif": 3,
     "netral": 2,
@@ -2509,20 +2483,21 @@
     "persen_negatif": 82.1
   },
   {
+    "key": "gunung_pegat_makam_mbah_romo",
     "kategori": "Wisata",
     "tempat": "Gunung pegat makam mbah Romo",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 8,
     "positif": 1,
     "netral": 2,
     "negatif": 5,
     "persen_positif": 12.5,
     "persen_netral": 25.0,
-    "persen_negatif": 62.5,
-    "key": "gunung_pegat_makam_mbah_romo"
+    "persen_negatif": 62.5
   },
   {
-    "kategori": "Lainnya",
+    "key": "gunung_teletubbies_kepuh_bawean",
+    "kategori": "Wisata",
     "tempat": "Gunung Teletubbies Kepuh Bawean",
     "rating": 4.9,
     "total_ulasan": 4,
@@ -2531,12 +2506,11 @@
     "negatif": 3,
     "persen_positif": 0.0,
     "persen_netral": 25.0,
-    "persen_negatif": 75.0,
-    "key": "gunung_teletubbies_kepuh_bawean"
+    "persen_negatif": 75.0
   },
   {
     "key": "hartuki_cakbechan_antique",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Hartuki / Cakbechan Antique",
     "rating": 3.8,
     "total_ulasan": 2,
@@ -2548,34 +2522,21 @@
     "persen_negatif": 50.0
   },
   {
-    "key": "house_pets_allowed",
-    "kategori": "Lainnya",
-    "tempat": "House | Pets allowed",
-    "rating": null,
-    "total_ulasan": 0,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
-  },
-  {
     "key": "immigration_lounge_icon_mall_gresik",
     "kategori": "Lainnya",
     "tempat": "Immigration Lounge Icon Mall Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "indo_bola_futsal",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Indo Bola Futsal",
     "rating": 3.7,
     "total_ulasan": 20,
@@ -2588,7 +2549,7 @@
   },
   {
     "key": "inspektorat_kabupaten_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Inspektorat Kabupaten Gresik",
     "rating": 4.8,
     "total_ulasan": 11,
@@ -2601,20 +2562,20 @@
   },
   {
     "key": "irigasi_sawah_dsn_sumber",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Irigasi Sawah Dsn. Sumber",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "islamic_center_balongpanggang_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Islamic Center Balongpanggang Gresik",
     "rating": 4.7,
     "total_ulasan": 19,
@@ -2626,7 +2587,8 @@
     "persen_negatif": 73.7
   },
   {
-    "kategori": "Lainnya",
+    "key": "jeep_erte_pitu",
+    "kategori": "Wisata",
     "tempat": "jeep erte pitu",
     "rating": 3.7,
     "total_ulasan": 5,
@@ -2635,12 +2597,11 @@
     "negatif": 3,
     "persen_positif": 40.0,
     "persen_netral": 0.0,
-    "persen_negatif": 60.0,
-    "key": "jeep_erte_pitu"
+    "persen_negatif": 60.0
   },
   {
     "key": "jerat_lanjeng",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Jerat Lanjeng",
     "rating": 4.4,
     "total_ulasan": 14,
@@ -2653,20 +2614,20 @@
   },
   {
     "key": "kabupaten_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Kabupaten Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kampung_kemasan",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Kampung Kemasan",
     "rating": 4.7,
     "total_ulasan": 15,
@@ -2676,19 +2637,6 @@
     "persen_positif": 13.3,
     "persen_netral": 33.3,
     "persen_negatif": 53.3
-  },
-  {
-    "key": "kandang_entok_mas_udin",
-    "kategori": "Lainnya",
-    "tempat": "Kandang Entok Mas Udin",
-    "rating": 5,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 0.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 100.0
   },
   {
     "key": "kantor_badan_pendapatan_pengelolaan_keuangan_dan_aset_daerah_bppkad_kab_gresik",
@@ -2756,6 +2704,7 @@
     "persen_negatif": 76.9
   },
   {
+    "key": "kantor_desa_gelam",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Desa Gelam",
     "rating": 3.4,
@@ -2765,8 +2714,7 @@
     "negatif": 3,
     "persen_positif": 16.7,
     "persen_netral": 33.3,
-    "persen_negatif": 50.0,
-    "key": "kantor_desa_gelam"
+    "persen_negatif": 50.0
   },
   {
     "key": "kantor_desa_kedamean",
@@ -2785,20 +2733,20 @@
     "key": "kantor_desa_kesambenkulon",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Desa Kesambenkulon",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_desa_kesambenwetan",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Desa KesambenWETAN",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -2821,6 +2769,7 @@
     "persen_negatif": 50.0
   },
   {
+    "key": "kantor_desa_mulung",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Desa Mulung",
     "rating": 4.5,
@@ -2830,8 +2779,7 @@
     "negatif": 2,
     "persen_positif": 20.0,
     "persen_netral": 40.0,
-    "persen_negatif": 40.0,
-    "key": "kantor_desa_mulung"
+    "persen_negatif": 40.0
   },
   {
     "key": "kantor_desa_sidorukun",
@@ -2873,17 +2821,17 @@
     "persen_negatif": 25.0
   },
   {
+    "key": "kantor_desa_telukjatidawang",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Desa Telukjatidawang",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "kantor_desa_telukjatidawang"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_desa_yosowilangun",
@@ -2902,7 +2850,7 @@
     "key": "kantor_dinas_aparatur_desa_dekatagung",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Dinas Aparatur Desa Dekatagung",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -2925,6 +2873,7 @@
     "persen_negatif": 71.4
   },
   {
+    "key": "kantor_dprd_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Kantor DPRD Kabupaten Gresik",
     "rating": 4.3,
@@ -2934,11 +2883,11 @@
     "negatif": 7,
     "persen_positif": 20.0,
     "persen_netral": 10.0,
-    "persen_negatif": 70.0,
-    "key": "kantor_dprd_kabupaten_gresik"
+    "persen_negatif": 70.0
   },
   {
-    "kategori": "Pemerintahan",
+    "key": "kantor_imigrasi_kelas_i_non_tpi_jakarta_pusat",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Imigrasi Kelas I Non TPI Jakarta Pusat",
     "rating": 4.1,
     "total_ulasan": 28,
@@ -2947,8 +2896,7 @@
     "negatif": 22,
     "persen_positif": 10.7,
     "persen_netral": 10.7,
-    "persen_negatif": 78.6,
-    "key": "kantor_imigrasi_kelas_i_non_tpi_jakarta_pusat"
+    "persen_negatif": 78.6
   },
   {
     "key": "kantor_kecamatan_driyorejo",
@@ -3003,19 +2951,20 @@
     "persen_negatif": 25.0
   },
   {
+    "key": "kantor_kelurahan_desa_tenggor",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Desa Tenggor",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "kantor_kelurahan_desa_tenggor"
+    "persen_negatif": 100.0
   },
   {
+    "key": "kantor_kelurahan_karangpoh",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Karangpoh",
     "rating": 4.3,
@@ -3025,8 +2974,7 @@
     "negatif": 1,
     "persen_positif": 50.0,
     "persen_netral": 0.0,
-    "persen_negatif": 50.0,
-    "key": "kantor_kelurahan_karangpoh"
+    "persen_negatif": 50.0
   },
   {
     "key": "kantor_kelurahan_karangturi",
@@ -3071,7 +3019,7 @@
     "key": "kantor_kelurahan_kebungson",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Kebungson",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -3081,6 +3029,7 @@
     "persen_negatif": 100.0
   },
   {
+    "key": "kantor_kelurahan_kemuteran",
     "kategori": "Pemerintahan",
     "tempat": "Kantor kelurahan kemuteran",
     "rating": 3.3,
@@ -3090,40 +3039,39 @@
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "kantor_kelurahan_kemuteran"
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_kelurahan_kepuh_klagen",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Kepuh Klagen",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "kantor_kelurahan_kesamben_wetan",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Kesamben Wetan",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "kantor_kelurahan_kesamben_wetan"
+    "persen_negatif": 100.0
   },
   {
     "key": "kantor_kelurahan_lumpur",
     "kategori": "Pemerintahan",
     "tempat": "Kantor KELURAHAN lumpur",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 3,
     "positif": 0,
     "netral": 2,
@@ -3133,6 +3081,7 @@
     "persen_negatif": 33.3
   },
   {
+    "key": "kantor_kelurahan_ngargosari",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Ngargosari",
     "rating": 3.7,
@@ -3142,8 +3091,7 @@
     "negatif": 1,
     "persen_positif": 50.0,
     "persen_netral": 0.0,
-    "persen_negatif": 50.0,
-    "key": "kantor_kelurahan_ngargosari"
+    "persen_negatif": 50.0
   },
   {
     "key": "kantor_kelurahan_ngipik",
@@ -3162,7 +3110,7 @@
     "key": "kantor_kelurahan_pekauman",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Pekauman",
-    "rating": 2,
+    "rating": 2.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
@@ -3188,7 +3136,7 @@
     "key": "kantor_kelurahan_sidomoro",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Sidomoro",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 4,
     "positif": 0,
     "netral": 1,
@@ -3211,6 +3159,7 @@
     "persen_negatif": 66.7
   },
   {
+    "key": "kantor_kelurahan_tenggulunan",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Tenggulunan",
     "rating": 4.6,
@@ -3220,10 +3169,10 @@
     "negatif": 4,
     "persen_positif": 14.3,
     "persen_netral": 28.6,
-    "persen_negatif": 57.1,
-    "key": "kantor_kelurahan_tenggulunan"
+    "persen_negatif": 57.1
   },
   {
+    "key": "kantor_kelurahan_tlogopatut",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Tlogopatut",
     "rating": 3.8,
@@ -3233,36 +3182,36 @@
     "negatif": 0,
     "persen_positif": 50.0,
     "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "key": "kantor_kelurahan_tlogopatut"
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_kelurahan_tlogopojok",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kelurahan Tlogopojok",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_kelurahan_trate",
     "kategori": "Pemerintahan",
     "tempat": "KANTOR KELURAHAN TRATE",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "kantor_kementerian_agama_kabupaten_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kementerian Agama Kabupaten Gresik",
     "rating": 4.3,
@@ -3272,8 +3221,7 @@
     "negatif": 20,
     "persen_positif": 0.0,
     "persen_netral": 28.6,
-    "persen_negatif": 71.4,
-    "key": "kantor_kementerian_agama_kabupaten_gresik"
+    "persen_negatif": 71.4
   },
   {
     "key": "kantor_kepala_desa_banjaran",
@@ -3331,7 +3279,7 @@
     "key": "kantor_kepala_desa_mojosarirejo",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kepala Desa Mojosarirejo",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 5,
     "positif": 1,
     "netral": 2,
@@ -3383,7 +3331,7 @@
     "key": "kantor_kepala_desa_sumput",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kepala Desa Sumput",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 2,
     "positif": 1,
     "netral": 0,
@@ -3422,7 +3370,7 @@
     "key": "kantor_kepala_desa_wringinanom",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kepala Desa Wringinanom",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
@@ -3445,19 +3393,20 @@
     "persen_negatif": 40.9
   },
   {
+    "key": "kantor_kotaku_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Kantor KOTAKU Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "kantor_kotaku_gresik"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "kantor_pemerintah_desa_daun",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Pemerintah Desa Daun",
     "rating": 4.3,
@@ -3467,8 +3416,7 @@
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "kantor_pemerintah_desa_daun"
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_pemerintah_desa_tenaru",
@@ -3485,9 +3433,9 @@
   },
   {
     "key": "kantor_pos_agen_pos_agfa_sumput",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos (Agen Pos) Agfa Sumput",
-    "rating": 1,
+    "rating": 1.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
@@ -3498,7 +3446,7 @@
   },
   {
     "key": "kantor_pos_agen_pos_anggun_jaya",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos (Agen Pos) Anggun Jaya",
     "rating": 2.6,
     "total_ulasan": 2,
@@ -3511,33 +3459,33 @@
   },
   {
     "key": "kantor_pos_agen_pos_drs_fierdyo_as",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos (Agen Pos) Drs.Fierdyo AS",
-    "rating": 2,
+    "rating": 2.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_pos_agen_pos_gang_macan",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos (Agen Pos) Gang Macan",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kantor_pos_balongpanggang",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Balongpanggang",
     "rating": 2.5,
     "total_ulasan": 11,
@@ -3550,7 +3498,7 @@
   },
   {
     "key": "kantor_pos_benjeng",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Benjeng",
     "rating": 3.4,
     "total_ulasan": 8,
@@ -3563,7 +3511,7 @@
   },
   {
     "key": "kantor_pos_bungah",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Bungah",
     "rating": 2.8,
     "total_ulasan": 21,
@@ -3576,7 +3524,7 @@
   },
   {
     "key": "kantor_pos_cerme",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Cerme",
     "rating": 2.6,
     "total_ulasan": 10,
@@ -3589,7 +3537,7 @@
   },
   {
     "key": "kantor_pos_dukun",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Dukun",
     "rating": 3.6,
     "total_ulasan": 12,
@@ -3602,7 +3550,7 @@
   },
   {
     "key": "kantor_pos_gresik",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Gresik",
     "rating": 3.5,
     "total_ulasan": 21,
@@ -3615,7 +3563,7 @@
   },
   {
     "key": "kantor_pos_gresik_manyar",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Gresik Manyar",
     "rating": 2.5,
     "total_ulasan": 22,
@@ -3628,7 +3576,7 @@
   },
   {
     "key": "kantor_pos_gresik_pelabuhan",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Gresik Pelabuhan",
     "rating": 4.2,
     "total_ulasan": 6,
@@ -3641,7 +3589,7 @@
   },
   {
     "key": "kantor_pos_menganti",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Menganti",
     "rating": 2.8,
     "total_ulasan": 25,
@@ -3654,7 +3602,7 @@
   },
   {
     "key": "kantor_pos_panceng",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Panceng",
     "rating": 3.9,
     "total_ulasan": 8,
@@ -3667,7 +3615,7 @@
   },
   {
     "key": "kantor_pos_pps",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos PPS",
     "rating": 4.1,
     "total_ulasan": 11,
@@ -3680,7 +3628,7 @@
   },
   {
     "key": "kantor_pos_sidayu",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Sidayu",
     "rating": 3.6,
     "total_ulasan": 20,
@@ -3693,7 +3641,7 @@
   },
   {
     "key": "kantor_pos_ujungpangkah",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor Pos Ujungpangkah",
     "rating": 4.1,
     "total_ulasan": 5,
@@ -3705,6 +3653,7 @@
     "persen_negatif": 60.0
   },
   {
+    "key": "kantor_pusat_kawasan_industri_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Pusat Kawasan Industri Gresik",
     "rating": 4.3,
@@ -3714,105 +3663,78 @@
     "negatif": 9,
     "persen_positif": 0.0,
     "persen_netral": 18.2,
-    "persen_negatif": 81.8,
-    "key": "kantor_pusat_kawasan_industri_gresik"
+    "persen_negatif": 81.8
   },
   {
     "key": "kantor_samsat_bawean",
-    "kategori": "Pemerintahan",
+    "kategori": "Pelayanan Publik",
     "tempat": "Kantor SAMSAT Bawean",
     "rating": 4.7,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
-  },
-  {
-    "key": "kantorpos_bandung_antapani",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantorpos Bandung Antapani",
-    "rating": 4.2,
-    "total_ulasan": 23,
-    "positif": 2,
-    "netral": 2,
-    "negatif": 19,
-    "persen_positif": 8.7,
-    "persen_netral": 8.7,
-    "persen_negatif": 82.6
-  },
-  {
-    "kategori": "Lainnya",
-    "tempat": "Kebun Teh Nglinggo",
-    "rating": 4.5,
-    "total_ulasan": 11,
-    "positif": 3,
-    "netral": 0,
-    "negatif": 8,
-    "persen_positif": 27.3,
+    "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 72.7,
-    "key": "kebun_teh_nglinggo"
+    "persen_negatif": 0.0
   },
   {
     "key": "kec_banyuurip",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Kec. Banyuurip",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kec_driyorejo",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Kec. Driyorejo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kec_sidomukti",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Kec. Sidomukti",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kec_tambak",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Kec. Tambak",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "keluarga_desar_upt_smp_negeri_26_gresik",
     "kategori": "Pendidikan",
     "tempat": "keluarga Desar Upt Smp Negeri 26 Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 0,
@@ -3825,7 +3747,7 @@
     "key": "kelurahan_grebek_kebomas",
     "kategori": "Pemerintahan",
     "tempat": "Kelurahan Grebek Kebomas",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
@@ -3835,6 +3757,7 @@
     "persen_negatif": 0.0
   },
   {
+    "key": "kelurahan_sidomukti",
     "kategori": "Pemerintahan",
     "tempat": "Kelurahan Sidomukti",
     "rating": 4.7,
@@ -3844,8 +3767,7 @@
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 50.0,
-    "persen_negatif": 50.0,
-    "key": "kelurahan_sidomukti"
+    "persen_negatif": 50.0
   },
   {
     "key": "kelurahan_sukorame",
@@ -3862,42 +3784,42 @@
   },
   {
     "key": "kemah_hw_hizboel_waton",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Kemah HW Hizboel Waton",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kepuh_tlk",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "Kepuh Tlk.",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kesambenwetan",
     "kategori": "Lainnya",
     "tempat": "Kesambenwetan",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "klinik_apotek_semen_gresik_gkb",
@@ -3965,6 +3887,7 @@
     "persen_negatif": 92.9
   },
   {
+    "key": "klinik_jamsostek_116",
     "kategori": "Kesehatan",
     "tempat": "Klinik Jamsostek 116",
     "rating": 4.3,
@@ -3974,10 +3897,10 @@
     "negatif": 16,
     "persen_positif": 14.3,
     "persen_netral": 9.5,
-    "persen_negatif": 76.2,
-    "key": "klinik_jamsostek_116"
+    "persen_negatif": 76.2
   },
   {
+    "key": "klinik_kamila_sembayat",
     "kategori": "Kesehatan",
     "tempat": "klinik kamila sembayat",
     "rating": 4.6,
@@ -3987,14 +3910,13 @@
     "negatif": 27,
     "persen_positif": 0.0,
     "persen_netral": 6.9,
-    "persen_negatif": 93.1,
-    "key": "klinik_kamila_sembayat"
+    "persen_negatif": 93.1
   },
   {
     "key": "klinik_kecantikan_clarice_beauty_driyorejo",
     "kategori": "Kesehatan",
     "tempat": "Klinik Kecantikan Clarice Beauty Driyorejo",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 30,
     "positif": 0,
     "netral": 0,
@@ -4069,6 +3991,7 @@
     "persen_negatif": 45.8
   },
   {
+    "key": "klinik_menganti",
     "kategori": "Kesehatan",
     "tempat": "Klinik Menganti",
     "rating": 4.1,
@@ -4078,8 +4001,7 @@
     "negatif": 15,
     "persen_positif": 29.2,
     "persen_netral": 8.3,
-    "persen_negatif": 62.5,
-    "key": "klinik_menganti"
+    "persen_negatif": 62.5
   },
   {
     "key": "klinik_mitra_medicare_driyorejo",
@@ -4111,7 +4033,7 @@
     "key": "klinik_mitra_medicare_suci",
     "kategori": "Kesehatan",
     "tempat": "Klinik Mitra Medicare Suci",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 21,
     "positif": 13,
     "netral": 0,
@@ -4137,16 +4059,17 @@
     "key": "klinik_pelabuhan_gresik",
     "kategori": "Kesehatan",
     "tempat": "Klinik Pelabuhan Gresik",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "klinik_permata_gading",
     "kategori": "Kesehatan",
     "tempat": "Klinik Permata Gading",
     "rating": 4.3,
@@ -4156,8 +4079,7 @@
     "negatif": 25,
     "persen_positif": 3.4,
     "persen_netral": 10.3,
-    "persen_negatif": 86.2,
-    "key": "klinik_permata_gading"
+    "persen_negatif": 86.2
   },
   {
     "key": "klinik_ppk_i_pt_petrokimia_gresik",
@@ -4186,7 +4108,8 @@
     "persen_negatif": 80.8
   },
   {
-    "kategori": "Kesehatan",
+    "key": "klinik_pratama_dinayla_utama_98",
+    "kategori": "Pendidikan",
     "tempat": "Klinik Pratama Dinayla Utama 98",
     "rating": 4.5,
     "total_ulasan": 28,
@@ -4195,12 +4118,11 @@
     "negatif": 23,
     "persen_positif": 14.3,
     "persen_netral": 3.6,
-    "persen_negatif": 82.1,
-    "key": "klinik_pratama_dinayla_utama_98"
+    "persen_negatif": 82.1
   },
   {
     "key": "klinik_pratama_medika_43",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "Klinik Pratama Medika 43",
     "rating": 4.6,
     "total_ulasan": 12,
@@ -4213,7 +4135,7 @@
   },
   {
     "key": "klinik_pratama_mitra_medika",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "KLINIK PRATAMA MITRA MEDIKA",
     "rating": 4.8,
     "total_ulasan": 23,
@@ -4355,34 +4277,34 @@
     "persen_negatif": 78.6
   },
   {
+    "key": "kmu_gresik_pusat",
     "kategori": "Lainnya",
     "tempat": "KMU Gresik Pusat",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 20,
     "positif": 7,
     "netral": 0,
     "negatif": 13,
     "persen_positif": 35.0,
     "persen_netral": 0.0,
-    "persen_negatif": 65.0,
-    "key": "kmu_gresik_pusat"
+    "persen_negatif": 65.0
   },
   {
     "key": "kolam_pancing_ghorit",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "Kolam pancing ghorit",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "kolam_pancing_mieayam_pasinan",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "KOLAM PANCING MIEAYAM PASINAN",
     "rating": 4.5,
     "total_ulasan": 15,
@@ -4395,22 +4317,22 @@
   },
   {
     "key": "kth_mutiara_madu",
-    "kategori": "Lainnya",
+    "kategori": "Wisata",
     "tempat": "KTH Mutiara Madu",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "lapangan_baon_dusun_miru",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Lapangan Baon Dusun Miru",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -4420,7 +4342,8 @@
     "persen_negatif": 100.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "lapangan_bola_trisakti_cibubur_bogor_timur",
+    "kategori": "Olahraga",
     "tempat": "Lapangan Bola Trisakti Cibubur (Bogor Timur)",
     "rating": 4.6,
     "total_ulasan": 13,
@@ -4429,11 +4352,11 @@
     "negatif": 10,
     "persen_positif": 0.0,
     "persen_netral": 23.1,
-    "persen_negatif": 76.9,
-    "key": "lapangan_bola_trisakti_cibubur_bogor_timur"
+    "persen_negatif": 76.9
   },
   {
-    "kategori": "Lainnya",
+    "key": "lapangan_kepuhklagen",
+    "kategori": "Olahraga",
     "tempat": "Lapangan KEPUHKLAGEN",
     "rating": 4.7,
     "total_ulasan": 16,
@@ -4442,12 +4365,11 @@
     "negatif": 15,
     "persen_positif": 6.2,
     "persen_netral": 0.0,
-    "persen_negatif": 93.8,
-    "key": "lapangan_kepuhklagen"
+    "persen_negatif": 93.8
   },
   {
     "key": "lapangan_olah_raga",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Lapangan Olah Raga",
     "rating": 4.4,
     "total_ulasan": 6,
@@ -4459,7 +4381,8 @@
     "persen_negatif": 83.3
   },
   {
-    "kategori": "Lainnya",
+    "key": "lapangan_tanjungan_la_stadium",
+    "kategori": "Olahraga",
     "tempat": "Lapangan Tanjungan ( LA STADIUM)",
     "rating": 4.7,
     "total_ulasan": 4,
@@ -4468,86 +4391,72 @@
     "negatif": 3,
     "persen_positif": 25.0,
     "persen_netral": 0.0,
-    "persen_negatif": 75.0,
-    "key": "lapangan_tanjungan_la_stadium"
+    "persen_negatif": 75.0
   },
   {
     "key": "ma_darul_ma_arif_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "MA Darul Ma'arif Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "ma_himayatul_islam_kebuntelukdalam",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "MA.HIMAYATUL ISLAM kebuntelukdalam",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
-  },
-  {
-    "key": "majista_aesthetic_clinic",
-    "kategori": "Lainnya",
-    "tempat": "มาจิสต้า คลินิก อารีย์ Majista Aesthetic Clinic",
-    "rating": 4.8,
-    "total_ulasan": 6,
-    "positif": 0,
-    "netral": 2,
-    "negatif": 4,
     "persen_positif": 0.0,
-    "persen_netral": 33.3,
-    "persen_negatif": 66.7
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "makam_desa_slempit",
     "kategori": "Wisata",
     "tempat": "Makam Desa Slempit",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 1,
     "netral": 1,
     "negatif": 0,
     "persen_positif": 50.0,
     "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "key": "makam_desa_slempit"
+    "persen_negatif": 0.0
   },
   {
     "key": "makam_dusun_ngembung",
     "kategori": "Wisata",
     "tempat": "Makam dusun ngembung",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "makam_dusun_ngepung",
     "kategori": "Wisata",
     "tempat": "Makam Dusun Ngepung",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "makam_keramat_mbah_wira_i_salah_satu_punggawa_kerajaan_demak",
@@ -4563,6 +4472,7 @@
     "persen_negatif": 70.0
   },
   {
+    "key": "makam_mbah_sayyid_abdullah",
     "kategori": "Wisata",
     "tempat": "Makam mbah sayyid abdullah",
     "rating": 4.8,
@@ -4572,8 +4482,7 @@
     "negatif": 7,
     "persen_positif": 0.0,
     "persen_netral": 46.2,
-    "persen_negatif": 53.8,
-    "key": "makam_mbah_sayyid_abdullah"
+    "persen_negatif": 53.8
   },
   {
     "key": "makam_panjang",
@@ -4642,7 +4551,7 @@
   },
   {
     "key": "mall_pelayanan_publik_kabupaten_gresik",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pemerintahan",
     "tempat": "Mall Pelayanan Publik Kabupaten Gresik",
     "rating": 4.3,
     "total_ulasan": 23,
@@ -4655,16 +4564,16 @@
   },
   {
     "key": "man_2_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "MAN 2 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "mandiri_atm_giant_spm_gresik_kota_baru",
@@ -4709,14 +4618,14 @@
     "key": "mandiri_mitra_usaha",
     "kategori": "Perbankan",
     "tempat": "Mandiri Mitra Usaha",
-    "rating": 2,
+    "rating": 2.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "masjid_jami_gresik",
@@ -4732,20 +4641,8 @@
     "persen_negatif": 81.8
   },
   {
-    "kategori": "Lainnya",
-    "tempat": "McKale Center",
-    "rating": 4.7,
-    "total_ulasan": 13,
-    "positif": 0,
-    "netral": 7,
-    "negatif": 6,
-    "persen_positif": 0.0,
-    "persen_netral": 53.8,
-    "persen_negatif": 46.2,
-    "key": "mckale_center"
-  },
-  {
-    "kategori": "Lainnya",
+    "key": "muji_jaya_meubel_1",
+    "kategori": "Pendidikan",
     "tempat": "muji jaya meubel ( 1 )",
     "rating": 4.8,
     "total_ulasan": 6,
@@ -4754,21 +4651,20 @@
     "negatif": 5,
     "persen_positif": 0.0,
     "persen_netral": 16.7,
-    "persen_negatif": 83.3,
-    "key": "muji_jaya_meubel_1"
+    "persen_negatif": 83.3
   },
   {
+    "key": "museum_galery_rafasya",
     "kategori": "Wisata",
     "tempat": "Museum galery rafasya",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
     "negatif": 0,
     "persen_positif": 100.0,
     "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "key": "museum_galery_rafasya"
+    "persen_negatif": 0.0
   },
   {
     "key": "museum_joko_samudro",
@@ -4800,14 +4696,14 @@
     "key": "museum_kartawijaya",
     "kategori": "Wisata",
     "tempat": "Museum Kartawijaya",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "museum_pusaka",
@@ -4836,19 +4732,6 @@
     "persen_negatif": 66.7
   },
   {
-    "kategori": "Lainnya",
-    "tempat": "Mustang Motorcycle Products",
-    "rating": 3.9,
-    "total_ulasan": 22,
-    "positif": 0,
-    "netral": 13,
-    "negatif": 9,
-    "persen_positif": 0.0,
-    "persen_netral": 59.1,
-    "persen_negatif": 40.9,
-    "key": "mustang_motorcycle_products"
-  },
-  {
     "key": "naavagreen_gresik",
     "kategori": "Kesehatan",
     "tempat": "Naavagreen Gresik",
@@ -4865,27 +4748,14 @@
     "key": "ngipik",
     "kategori": "Lainnya",
     "tempat": "Ngipik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
-  },
-  {
-    "kategori": "Lainnya",
-    "tempat": "NOTARIS PPAT - BUDI HARIYANTO, S.H., M.Kn - IKN",
-    "rating": 5,
-    "total_ulasan": 24,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 24,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "notaris_ppat_budi_hariyanto_s_h_m_kn_ikn"
+    "persen_negatif": 0.0
   },
   {
     "key": "p_t_bank_rakyat_indonesia",
@@ -4943,14 +4813,14 @@
     "key": "pantai_jinggan",
     "kategori": "Wisata",
     "tempat": "Pantai Jinggan",
-    "rating": 5,
-    "total_ulasan": 0,
+    "rating": 5.0,
+    "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "pantai_kerrong",
@@ -5018,6 +4888,7 @@
     "persen_negatif": 88.9
   },
   {
+    "key": "pantai_punagaan",
     "kategori": "Wisata",
     "tempat": "Pantai Punagaan",
     "rating": 4.6,
@@ -5027,8 +4898,7 @@
     "negatif": 14,
     "persen_positif": 5.6,
     "persen_netral": 16.7,
-    "persen_negatif": 77.8,
-    "key": "pantai_punagaan"
+    "persen_negatif": 77.8
   },
   {
     "key": "pantai_ria",
@@ -5044,6 +4914,7 @@
     "persen_negatif": 50.0
   },
   {
+    "key": "pantai_somor_somor",
     "kategori": "Wisata",
     "tempat": "Pantai Somor-somor",
     "rating": 4.4,
@@ -5053,10 +4924,10 @@
     "negatif": 8,
     "persen_positif": 15.4,
     "persen_netral": 23.1,
-    "persen_negatif": 61.5,
-    "key": "pantai_somor_somor"
+    "persen_negatif": 61.5
   },
   {
+    "key": "pantai_tanjung_ghe_en",
     "kategori": "Wisata",
     "tempat": "Pantai Tanjung Ghe'en",
     "rating": 4.6,
@@ -5066,23 +4937,23 @@
     "negatif": 17,
     "persen_positif": 4.8,
     "persen_netral": 14.3,
-    "persen_negatif": 81.0,
-    "key": "pantai_tanjung_ghe_en"
+    "persen_negatif": 81.0
   },
   {
+    "key": "pantai_teletubbies_pulau_bawean",
     "kategori": "Wisata",
     "tempat": "Pantai Teletubbies, Pulau Bawean",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "pantai_teletubbies_pulau_bawean"
+    "persen_negatif": 100.0
   },
   {
+    "key": "pantai_teluk_mur_bawean",
     "kategori": "Wisata",
     "tempat": "Pantai Teluk Mur Bawean",
     "rating": 4.7,
@@ -5092,25 +4963,24 @@
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "pantai_teluk_mur_bawean"
+    "persen_negatif": 100.0
   },
   {
     "key": "parkir_motor_bpjs_kesehatan_gresik",
     "kategori": "Pelayanan Publik",
     "tempat": "Parkir MOtor BPJS Kesehatan Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "pemadam_kebakaran_kabupaten_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Pemadam Kebakaran Kabupaten Gresik",
     "rating": 4.6,
     "total_ulasan": 22,
@@ -5122,21 +4992,21 @@
     "persen_negatif": 54.5
   },
   {
-    "kategori": "Lainnya",
+    "key": "pemerintah_kab_daerah_tingkat_ii_gresik",
+    "kategori": "Pemerintahan",
     "tempat": "Pemerintah Kab Daerah Tingkat II Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "pemerintah_kab_daerah_tingkat_ii_gresik"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "pemkab_gresik_desa_gapurosukolilo",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Pemkab Gresik Desa Gapurosukolilo",
     "rating": 3.3,
     "total_ulasan": 10,
@@ -5148,6 +5018,7 @@
     "persen_negatif": 20.0
   },
   {
+    "key": "perisai_bpjs_ketenagakerjaan",
     "kategori": "Pelayanan Publik",
     "tempat": "PERISAI BPJS KETENAGAKERJAAN",
     "rating": 4.8,
@@ -5157,8 +5028,7 @@
     "negatif": 4,
     "persen_positif": 0.0,
     "persen_netral": 20.0,
-    "persen_negatif": 80.0,
-    "key": "perisai_bpjs_ketenagakerjaan"
+    "persen_negatif": 80.0
   },
   {
     "key": "perumahan_griya_kencana_driyorejo_kabupaten_gresik",
@@ -5188,20 +5058,20 @@
   },
   {
     "key": "polindes_diponggo",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "Polindes Diponggo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "polindes_tenaru_driyorejo_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "Polindes Tenaru Driyorejo Gresik",
     "rating": 4.2,
     "total_ulasan": 1,
@@ -5226,7 +5096,8 @@
     "persen_negatif": 0.0
   },
   {
-    "kategori": "Pelayanan Publik",
+    "key": "pos_copler",
+    "kategori": "Wisata",
     "tempat": "Pos Copler",
     "rating": 4.6,
     "total_ulasan": 2,
@@ -5235,8 +5106,7 @@
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 50.0,
-    "persen_negatif": 50.0,
-    "key": "pos_copler"
+    "persen_negatif": 50.0
   },
   {
     "key": "pos_indonesia",
@@ -5253,7 +5123,7 @@
   },
   {
     "key": "pos_pantau_polowijo_gosari",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pemerintahan",
     "tempat": "Pos Pantau Polowijo Gosari",
     "rating": 4.2,
     "total_ulasan": 10,
@@ -5266,9 +5136,9 @@
   },
   {
     "key": "pos_pphh_wilayah_gresik_1",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pemerintahan",
     "tempat": "Pos pphh wilayah Gresik 1",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 0,
@@ -5279,22 +5149,22 @@
   },
   {
     "key": "pos_relawan_wisata_bawean",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Wisata",
     "tempat": "POS RELAWAN WISATA BAWEAN",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "posbankum_kelurahan_bintaro",
     "kategori": "Pemerintahan",
     "tempat": "POSBANKUM KELURAHAN BINTARO",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 8,
     "positif": 0,
     "netral": 2,
@@ -5305,9 +5175,9 @@
   },
   {
     "key": "poskamladu_gresik",
-    "kategori": "Pelayanan Publik",
+    "kategori": "Pemerintahan",
     "tempat": "Poskamladu Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -5317,7 +5187,8 @@
     "persen_negatif": 100.0
   },
   {
-    "kategori": "Pelayanan Publik",
+    "key": "poskesdes_ardimulyo",
+    "kategori": "Kesehatan",
     "tempat": "Poskesdes Ardimulyo",
     "rating": 3.7,
     "total_ulasan": 1,
@@ -5326,14 +5197,13 @@
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "poskesdes_ardimulyo"
+    "persen_negatif": 100.0
   },
   {
     "key": "praktek_mandiri_ners_aris_nasution_cht",
     "kategori": "Kesehatan",
     "tempat": "Praktek Mandiri Ners. Aris Nasution. Cht",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 0,
@@ -5359,7 +5229,7 @@
     "key": "pt_bank_mandiri_persero_tbk",
     "kategori": "Perbankan",
     "tempat": "PT. Bank Mandiri Persero Tbk",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 1,
     "netral": 0,
@@ -5385,7 +5255,7 @@
     "key": "pt_bisma_indo_raya",
     "kategori": "Pendidikan",
     "tempat": "PT.BISMA INDO RAYA",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 11,
     "positif": 0,
     "netral": 4,
@@ -5395,7 +5265,8 @@
     "persen_negatif": 63.6
   },
   {
-    "kategori": "Lainnya",
+    "key": "pt_citra_catur_utama_karya",
+    "kategori": "Pemerintahan",
     "tempat": "PT. CITRA CATUR UTAMA KARYA",
     "rating": 4.4,
     "total_ulasan": 17,
@@ -5404,10 +5275,10 @@
     "negatif": 11,
     "persen_positif": 5.9,
     "persen_netral": 29.4,
-    "persen_negatif": 64.7,
-    "key": "pt_citra_catur_utama_karya"
+    "persen_negatif": 64.7
   },
   {
+    "key": "pt_langgeng_makmur_aluminium",
     "kategori": "Lainnya",
     "tempat": "PT. Langgeng Makmur Aluminium",
     "rating": 4.3,
@@ -5417,12 +5288,11 @@
     "negatif": 10,
     "persen_positif": 23.5,
     "persen_netral": 17.6,
-    "persen_negatif": 58.8,
-    "key": "pt_langgeng_makmur_aluminium"
+    "persen_negatif": 58.8
   },
   {
     "key": "pt_mandiri_utama_finance_gresik",
-    "kategori": "Perbankan",
+    "kategori": "Pendidikan",
     "tempat": "PT. Mandiri Utama Finance Gresik",
     "rating": 3.7,
     "total_ulasan": 23,
@@ -5448,7 +5318,7 @@
   },
   {
     "key": "pt_surganya_motor_indonesia_cab_surabaya",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "PT. Surganya Motor Indonesia (Cab.Surabaya)",
     "rating": 4.8,
     "total_ulasan": 14,
@@ -5460,7 +5330,8 @@
     "persen_negatif": 21.4
   },
   {
-    "kategori": "Lainnya",
+    "key": "pulau_bawean",
+    "kategori": "Wisata",
     "tempat": "Pulau Bawean",
     "rating": 4.5,
     "total_ulasan": 11,
@@ -5469,11 +5340,11 @@
     "negatif": 10,
     "persen_positif": 9.1,
     "persen_netral": 0.0,
-    "persen_negatif": 90.9,
-    "key": "pulau_bawean"
+    "persen_negatif": 90.9
   },
   {
-    "kategori": "Lainnya",
+    "key": "pulau_cena",
+    "kategori": "Wisata",
     "tempat": "Pulau Cena",
     "rating": 4.5,
     "total_ulasan": 2,
@@ -5482,8 +5353,7 @@
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "pulau_cena"
+    "persen_negatif": 100.0
   },
   {
     "key": "puskesmas_alun_alun",
@@ -5502,7 +5372,7 @@
     "key": "puskesmas_benjeng",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Benjeng",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 22,
     "positif": 9,
     "netral": 1,
@@ -5528,7 +5398,7 @@
     "key": "puskesmas_cerme",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Cerme",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 15,
     "positif": 1,
     "netral": 1,
@@ -5539,7 +5409,7 @@
   },
   {
     "key": "puskesmas_dadapkuning",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "PUSKESMAS DADAPKUNING",
     "rating": 4.3,
     "total_ulasan": 22,
@@ -5604,9 +5474,9 @@
   },
   {
     "key": "puskesmas_karangandong",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "PUSKESMAS KARANGANDONG",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 26,
     "positif": 1,
     "netral": 0,
@@ -5642,7 +5512,8 @@
     "persen_negatif": 92.9
   },
   {
-    "kategori": "Kesehatan",
+    "key": "puskesmas_kesamben_kulon",
+    "kategori": "Pendidikan",
     "tempat": "PUSKESMAS KESAMBEN KULON",
     "rating": 4.3,
     "total_ulasan": 25,
@@ -5651,8 +5522,7 @@
     "negatif": 22,
     "persen_positif": 8.0,
     "persen_netral": 4.0,
-    "persen_negatif": 88.0,
-    "key": "puskesmas_kesamben_kulon"
+    "persen_negatif": 88.0
   },
   {
     "key": "puskesmas_manyar",
@@ -5671,7 +5541,7 @@
     "key": "puskesmas_mentaras",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Mentaras",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 18,
     "positif": 5,
     "netral": 1,
@@ -5710,14 +5580,14 @@
     "key": "puskesmas_pembantu_desa_kramat",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Pembantu Desa Kramat",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "puskesmas_pembantu_pustu_desa_lebak",
@@ -5734,16 +5604,16 @@
   },
   {
     "key": "puskesmas_pembantu_pustu_kupang",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "Puskesmas Pembantu (Pustu) Kupang",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "puskesmas_sangkapura_gresik",
@@ -5773,7 +5643,7 @@
   },
   {
     "key": "puskesmas_singosari",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "Puskesmas Singosari",
     "rating": 3.8,
     "total_ulasan": 25,
@@ -5812,16 +5682,16 @@
   },
   {
     "key": "pustu_kepuh_teluk",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "PUSTU Kepuh Teluk",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "rs_randegansari_husada",
@@ -5918,7 +5788,7 @@
     "key": "rumah_belajar_riska_sd_sma",
     "kategori": "Pendidikan",
     "tempat": "Rumah Belajar Riska SD-SMA",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -5931,7 +5801,7 @@
     "key": "rumah_sakit_bayt_al_musaadah",
     "kategori": "Kesehatan",
     "tempat": "Rumah Sakit Bayt Al-Musaadah",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 1,
@@ -6085,9 +5955,9 @@
   },
   {
     "key": "rumah_sehat_cahaya_raga",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "Rumah Sehat Cahaya Raga",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
@@ -6100,7 +5970,7 @@
     "key": "samsat_gresik",
     "kategori": "Pelayanan Publik",
     "tempat": "SAMSAT Gresik",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 15,
     "positif": 2,
     "netral": 6,
@@ -6163,7 +6033,7 @@
   },
   {
     "key": "sangkopi_badminton_arena",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Sangkopi Badminton Arena",
     "rating": 4.7,
     "total_ulasan": 12,
@@ -6178,183 +6048,183 @@
     "key": "sd_muhammadiyah_kompleks_gresik_sd_mugres_kampus_a",
     "kategori": "Pendidikan",
     "tempat": "SD Muhammadiyah Kompleks Gresik (SD MUGRES) -Kampus A",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sd_muhammadiyah_manyar_gresik_sdmm",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SD Muhammadiyah Manyar Gresik (SDMM)",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sd_nahdlatul_ulama_1_trate_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SD Nahdlatul Ulama - 1 Trate Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sd_negeri_2_sukomulyo_gkb",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SD Negeri 2 Sukomulyo GKB",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sd_negeri_sidorukun_upt_sd_negeri_11_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SD Negeri Sidorukun ( UPT SD Negeri 11 Gresik )",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sd_semen_gresik",
-    "kategori": "Industri",
+    "kategori": "Pendidikan",
     "tempat": "SD Semen Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sd_setia_budhi",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SD SETIA BUDHI",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sdn_2_kepuh_teluk",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SDN 2 Kepuh Teluk",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sdn_2_tanjungori",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SDN 2 Tanjungori",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sdn_grejeg_upt_sdn_363_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SDN Grejeg (UPT SDN 363 Gresik)",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sdn_kebomas",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SDN Kebomas",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sdn_kepuh_teluk_i",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SDN Kepuh Teluk I",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sdn_lumpur",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SDN Lumpur",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sekolah_dasar_muhammadiyah_3_gresik",
     "kategori": "Pendidikan",
     "tempat": "Sekolah Dasar Muhammadiyah 3 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sekolah_menengah_kejuruan_smk_manba_ul_ulum_kampus_1",
@@ -6373,43 +6243,44 @@
     "key": "sekolah_sma_45_gresik",
     "kategori": "Pendidikan",
     "tempat": "Sekolah SMA 45 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sekretariat_pasukan_khusus_sma_negeri_1_sidayu",
-    "kategori": "Pemerintahan",
+    "kategori": "Pendidikan",
     "tempat": "Sekretariat Pasukan Khusus SMA Negeri 1 Sidayu",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Pemerintahan",
+    "key": "sekretariat_staba",
+    "kategori": "Lainnya",
     "tempat": "Sekretariat STABA",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "sekretariat_staba"
+    "persen_negatif": 100.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "sendang_pengayom",
+    "kategori": "Wisata",
     "tempat": "sendang pengayom",
     "rating": 4.5,
     "total_ulasan": 1,
@@ -6418,23 +6289,23 @@
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "sendang_pengayom"
+    "persen_negatif": 100.0
   },
   {
     "key": "sindhuarta",
     "kategori": "Lainnya",
     "tempat": "Sindhuarta",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "situs_giri_kedaton_makam_raden_supeno",
     "kategori": "Wisata",
     "tempat": "Situs Giri Kedaton & Makam Raden Supeno",
     "rating": 4.6,
@@ -6444,398 +6315,397 @@
     "negatif": 11,
     "persen_positif": 7.7,
     "persen_netral": 7.7,
-    "persen_negatif": 84.6,
-    "key": "situs_giri_kedaton_makam_raden_supeno"
+    "persen_negatif": 84.6
   },
   {
     "key": "sma_al_azhar_menganti",
     "kategori": "Pendidikan",
     "tempat": "Sma Al-azhar Menganti",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_al_furqon_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMA AL-FURQON DRIYOREJO",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_al_muniroh",
     "kategori": "Pendidikan",
     "tempat": "SMA AL MUNIROH",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_assaadah",
     "kategori": "Pendidikan",
     "tempat": "SMA Assaadah",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_dan_mts_raden_fatah_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMA DAN MTs. RADEN FATAH DRIYOREJO",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_darul_ulum_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMA DARUL ULUM DRIYOREJO",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_muhammadiyah_10_gkb_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA Muhammadiyah 10 GKB GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_muhammadiyah_1_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA Muhammadiyah 1 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_muhammadiyah_2_sangkapura",
     "kategori": "Pendidikan",
     "tempat": "SMA Muhammadiyah 2 Sangkapura",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_nahdlatul_ulama_2_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA NAHDLATUL ULAMA 2 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_balongpanggang",
     "kategori": "Pendidikan",
     "tempat": "SMA Negeri 1 Balongpanggang",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_cerme",
     "kategori": "Pendidikan",
     "tempat": "SMA Negeri 1 Cerme",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_dukun",
     "kategori": "Pendidikan",
     "tempat": "SMA Negeri 1 Dukun",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA Negeri 1 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_kebomas_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA NEGERI 1 KEBOMAS - GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_manyar",
     "kategori": "Pendidikan",
     "tempat": "SMA Negeri 1 Manyar",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_negeri_1_sidayu",
     "kategori": "Pendidikan",
     "tempat": "SMA Negeri 1 Sidayu",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_nu_1_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA NU 1 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_pgri_kedamean",
     "kategori": "Pendidikan",
     "tempat": "SMA PGRI Kedamean",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_semen_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMA SEMEN GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_sunan_giri_menganti",
     "kategori": "Pendidikan",
     "tempat": "SMA Sunan Giri Menganti",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_yasmu_manyar",
     "kategori": "Pendidikan",
     "tempat": "Sma Yasmu Manyar",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sma_ypm_4_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMA YPM 4 Driyorejo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sman_1_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMAN 1 DRIYOREJO",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sman_1_kedamean",
     "kategori": "Pendidikan",
     "tempat": "SMAN 1 Kedamean",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sman_1_menganti_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMAN 1 Menganti Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sman_1_sangkapura",
     "kategori": "Pendidikan",
     "tempat": "SMAN 1 Sangkapura",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sman_1_wringinanom",
     "kategori": "Pendidikan",
     "tempat": "SMAN 1 Wringinanom",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "smk_al_amin_mojowuku",
     "kategori": "Pendidikan",
     "tempat": "SMK AL AMIN Mojowuku",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "smk_al_amin_mojowuku"
+    "persen_negatif": 100.0
   },
   {
     "key": "smk_al_azhar_menganti",
     "kategori": "Pendidikan",
     "tempat": "SMK AL AZHAR Menganti",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_al_hadi_gresik",
@@ -6877,6 +6747,7 @@
     "persen_negatif": 0.0
   },
   {
+    "key": "smk_bina_insan_mandiri",
     "kategori": "Pendidikan",
     "tempat": "SMK BINA INSAN MANDIRI",
     "rating": 4.5,
@@ -6886,8 +6757,7 @@
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "smk_bina_insan_mandiri"
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_dharma_wanita_gresik",
@@ -6906,7 +6776,7 @@
     "key": "smk_hasan_jufri",
     "kategori": "Pendidikan",
     "tempat": "SMK Hasan Jufri",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 4,
     "positif": 0,
     "netral": 1,
@@ -6916,17 +6786,17 @@
     "persen_negatif": 75.0
   },
   {
+    "key": "smk_islam_al_muhajirin",
     "kategori": "Pendidikan",
     "tempat": "SMK Islam Al-Muhajirin",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 8,
     "positif": 2,
     "netral": 2,
     "negatif": 4,
     "persen_positif": 25.0,
     "persen_netral": 25.0,
-    "persen_negatif": 50.0,
-    "key": "smk_islam_al_muhajirin"
+    "persen_negatif": 50.0
   },
   {
     "key": "smk_islamic_qon",
@@ -6945,14 +6815,14 @@
     "key": "smk_ma_arif_nu",
     "kategori": "Pendidikan",
     "tempat": "Smk Ma'arif Nu",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_ma_arif_nu_driyorejo",
@@ -6971,14 +6841,14 @@
     "key": "smk_ma_arif_nu_sunan_giri_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMK Ma'arif NU Sunan Giri Driyorejo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_muhammadiyah_1_gresik",
@@ -7049,14 +6919,14 @@
     "key": "smk_negeri_1_duduksampeyan",
     "kategori": "Pendidikan",
     "tempat": "SMK NEGERI 1 DUDUKSAMPEYAN",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_negeri_1_sidayu",
@@ -7101,14 +6971,14 @@
     "key": "smk_one_mondoluku_wringin_anom",
     "kategori": "Pendidikan",
     "tempat": "SMK one Mondoluku Wringin Anom",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_pgri_1_gresik",
@@ -7127,7 +6997,7 @@
     "key": "smk_pgri_1_gresik_kampus_b",
     "kategori": "Pendidikan",
     "tempat": "SMK PGRI 1 GRESIK KAMPUS B",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 0,
@@ -7153,14 +7023,14 @@
     "key": "smk_pgri_2_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMK PGRI 2 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_pgri_nurul_ihsan",
@@ -7176,6 +7046,7 @@
     "persen_negatif": 77.8
   },
   {
+    "key": "smk_raden_paku",
     "kategori": "Pendidikan",
     "tempat": "SMK RADEN PAKU",
     "rating": 4.5,
@@ -7185,8 +7056,7 @@
     "negatif": 5,
     "persen_positif": 0.0,
     "persen_netral": 37.5,
-    "persen_negatif": 62.5,
-    "key": "smk_raden_paku"
+    "persen_negatif": 62.5
   },
   {
     "key": "smk_semen_gresik",
@@ -7231,20 +7101,20 @@
     "key": "smk_yasmu",
     "kategori": "Pendidikan",
     "tempat": "SMK Yasmu",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smk_ypi_darussalam_1_cerme",
     "kategori": "Pendidikan",
     "tempat": "SMK YPI DARUSSALAM 1 CERME",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 14,
     "positif": 1,
     "netral": 1,
@@ -7257,118 +7127,118 @@
     "key": "smp_al_fatah_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMP Al Fatah Driyorejo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_al_illiyin",
     "kategori": "Pendidikan",
     "tempat": "SMP AL-ILLIYIN",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_darul_islam_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP DARUL ISLAM GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_dharma_bhakti_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP DHARMA BHAKTI GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_islam_nurul_qidami",
     "kategori": "Pendidikan",
     "tempat": "SMP Islam Nurul Qidami",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_islam_watestanjung",
     "kategori": "Pendidikan",
     "tempat": "SMP Islam Watestanjung",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_islamic_qon",
     "kategori": "Pendidikan",
     "tempat": "SMP ISLAMIC QON",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_ma_arif_gempol_sma_nu_3_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP MA'ARIF GEMPOL & SMA NU 3 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_maarif_nu_miftahul_ulum",
     "kategori": "Pendidikan",
     "tempat": "smp maarif nu miftahul ulum",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_miami_scalp_elite",
@@ -7387,118 +7257,118 @@
     "key": "smp_muhammadiyah_12_gkb_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP Muhammadiyah 12 GKB Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_muhammadiyah_1_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP MUHAMMADIYAH 1 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_negeri_1_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP Negeri 1 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_negeri_4_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP NEGERI 4 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_negeri_8_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP Negeri 8 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_nu_1_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP NU 1 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_pgri_1_ciputat",
     "kategori": "Pendidikan",
     "tempat": "SMP PGRI 1 Ciputat",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_pgri_2_denpasar",
     "kategori": "Pendidikan",
     "tempat": "SMP PGRI 2 Denpasar",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_pgri_2_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMP PGRI 2 Driyorejo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_pgri_wringinanom",
@@ -7517,111 +7387,111 @@
     "key": "smp_semen_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMP Semen Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_sma_islamiyah_bawean",
     "kategori": "Pendidikan",
     "tempat": "SMP-SMA ISLAMIYAH BAWEAN",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_udkp_kedamean",
     "kategori": "Pendidikan",
     "tempat": "SMP UDKP Kedamean",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_yimi_gresik_full_day_school",
     "kategori": "Pendidikan",
     "tempat": "Smp Yimi Gresik Full Day School",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smp_ypm_5_driyorejo",
     "kategori": "Pendidikan",
     "tempat": "SMP YPM-5 Driyorejo",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smpn_2_wringinanom",
     "kategori": "Pendidikan",
     "tempat": "SMPN 2 WRINGINANOM",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "smpn_5_gresik",
     "kategori": "Pendidikan",
     "tempat": "SMPN 5 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "spem14_driyorejo_smp_muhammadiyah_14",
     "kategori": "Pendidikan",
     "tempat": "SPEM14 Driyorejo (SMP Muhammadiyah 14 )",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sppg_cangkir",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SPPG Cangkir",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 11,
     "positif": 0,
     "netral": 0,
@@ -7632,59 +7502,46 @@
   },
   {
     "key": "sppg_karangasem_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SPPG KARANGASEM GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sppg_puncak_anomsari_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "SPPG PUNCAK ANOMSARI GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
-  },
-  {
-    "key": "sri_karpaga_ganapathi_temple",
-    "kategori": "Lainnya",
-    "tempat": "Sri Karpaga Ganapathi Temple",
-    "rating": 5,
-    "total_ulasan": 11,
-    "positif": 0,
-    "netral": 4,
-    "negatif": 7,
     "persen_positif": 0.0,
-    "persen_netral": 36.4,
-    "persen_negatif": 63.6
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "stadion_badak_arena_volly_ball_club",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Badak Arena Volly Ball Club",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "stadion_gelora_bung_karno",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Gelora Bung Karno",
     "rating": 4.8,
     "total_ulasan": 17,
@@ -7696,7 +7553,8 @@
     "persen_negatif": 82.4
   },
   {
-    "kategori": "Lainnya",
+    "key": "stadion_gelora_bung_tomo_surabaya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Gelora Bung Tomo Surabaya",
     "rating": 4.6,
     "total_ulasan": 10,
@@ -7705,12 +7563,11 @@
     "negatif": 9,
     "persen_positif": 10.0,
     "persen_netral": 0.0,
-    "persen_negatif": 90.0,
-    "key": "stadion_gelora_bung_tomo_surabaya"
+    "persen_negatif": 90.0
   },
   {
     "key": "stadion_gelora_joko_samudro_gjs",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Gelora Joko Samudro (GJS)",
     "rating": 4.4,
     "total_ulasan": 10,
@@ -7723,19 +7580,20 @@
   },
   {
     "key": "stadion_joko_slining",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Joko Slining",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "stadion_klaka_indah_daun_timur",
+    "kategori": "Olahraga",
     "tempat": "Stadion Klaka Indah Daun Timur",
     "rating": 4.4,
     "total_ulasan": 2,
@@ -7744,12 +7602,11 @@
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "stadion_klaka_indah_daun_timur"
+    "persen_negatif": 100.0
   },
   {
     "key": "stadion_pelemwatu",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Pelemwatu",
     "rating": 4.4,
     "total_ulasan": 11,
@@ -7762,7 +7619,7 @@
   },
   {
     "key": "stadion_petrokimia_gresik",
-    "kategori": "Industri",
+    "kategori": "Olahraga",
     "tempat": "Stadion Petrokimia Gresik",
     "rating": 4.4,
     "total_ulasan": 10,
@@ -7775,7 +7632,7 @@
   },
   {
     "key": "stadion_psb_bunut_randegansari_noto_jiro",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion PSB Bunut Randegansari (NOTO JIRO)",
     "rating": 3.7,
     "total_ulasan": 2,
@@ -7788,7 +7645,7 @@
   },
   {
     "key": "stadion_putra_raharja_fc_sidoraharjo",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Putra Raharja Fc Sidoraharjo",
     "rating": 4.9,
     "total_ulasan": 4,
@@ -7801,9 +7658,9 @@
   },
   {
     "key": "stadion_randu_alas_gading_watu",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "stadion randu alas gading watu",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 2,
     "positif": 0,
     "netral": 0,
@@ -7814,20 +7671,20 @@
   },
   {
     "key": "stadion_riazore_turirejo_kedamean",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion RIAZORE TURIREJO- KEDAMEAN",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "stadion_semen_gresik",
-    "kategori": "Industri",
+    "kategori": "Olahraga",
     "tempat": "Stadion Semen Gresik",
     "rating": 4.2,
     "total_ulasan": 15,
@@ -7840,9 +7697,9 @@
   },
   {
     "key": "stadion_sumberame",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Stadion Sumberame",
-    "rating": 3,
+    "rating": 3.0,
     "total_ulasan": 2,
     "positif": 2,
     "netral": 0,
@@ -7853,7 +7710,7 @@
   },
   {
     "key": "stai_hasan_jufri",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "STAI Hasan Jufri",
     "rating": 4.9,
     "total_ulasan": 5,
@@ -7866,7 +7723,7 @@
   },
   {
     "key": "stit_raden_santri_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "STIT Raden Santri Gresik",
     "rating": 4.8,
     "total_ulasan": 3,
@@ -7881,56 +7738,57 @@
     "key": "sumber",
     "kategori": "Lainnya",
     "tempat": "Sumber",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sumengko",
     "kategori": "Lainnya",
     "tempat": "Sumengko",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "sumput",
     "kategori": "Lainnya",
     "tempat": "Sumput",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "sunset_view_langgatan",
+    "kategori": "Wisata",
     "tempat": "Sunset View Langgatan",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "sunset_view_langgatan"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "telaga_ngipik",
+    "kategori": "Wisata",
     "tempat": "Telaga Ngipik",
     "rating": 4.1,
     "total_ulasan": 14,
@@ -7939,76 +7797,63 @@
     "negatif": 12,
     "persen_positif": 14.3,
     "persen_netral": 0.0,
-    "persen_negatif": 85.7,
-    "key": "telaga_ngipik"
+    "persen_negatif": 85.7
   },
   {
-    "kategori": "Lainnya",
+    "key": "telaga_perengan",
+    "kategori": "Wisata",
     "tempat": "Telaga Perengan",
-    "rating": 4,
+    "rating": 4.0,
     "total_ulasan": 15,
     "positif": 2,
     "netral": 0,
     "negatif": 13,
     "persen_positif": 13.3,
     "persen_netral": 0.0,
-    "persen_negatif": 86.7,
-    "key": "telaga_perengan"
+    "persen_negatif": 86.7
   },
   {
     "key": "teras_bri_link_melayani_transaksi_semua_bank",
     "kategori": "Perbankan",
     "tempat": "Teras Bri Link Melayani Transaksi Semua Bank",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
+    "key": "teras_bri_pasar_cipete",
     "kategori": "Perbankan",
     "tempat": "Teras BRI Pasar Cipete",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "teras_bri_pasar_cipete"
-  },
-  {
-    "key": "the_regent_group",
-    "kategori": "Lainnya",
-    "tempat": "The Regent Group",
-    "rating": null,
-    "total_ulasan": 0,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "tlk_jatidawang",
     "kategori": "Lainnya",
     "tempat": "Tlk. Jatidawang",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "toko_hinata",
+    "kategori": "Wisata",
     "tempat": "Toko Hinata",
     "rating": 4.9,
     "total_ulasan": 2,
@@ -8017,8 +7862,7 @@
     "negatif": 2,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "toko_hinata"
+    "persen_negatif": 100.0
   },
   {
     "key": "toko_semangat_pagi",
@@ -8035,9 +7879,9 @@
   },
   {
     "key": "trisakti_ketanen_soccerfield",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "Trisakti Ketanen Soccerfield",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 5,
     "positif": 1,
     "netral": 0,
@@ -8047,20 +7891,21 @@
     "persen_negatif": 80.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "tugu_matosin",
+    "kategori": "Wisata",
     "tempat": "Tugu Matosin",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "tugu_matosin"
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Industri",
+    "key": "ugd_rs_petrokimia_gresik",
+    "kategori": "Kesehatan",
     "tempat": "UGD RS Petrokimia Gresik",
     "rating": 4.2,
     "total_ulasan": 21,
@@ -8069,21 +7914,7 @@
     "negatif": 15,
     "persen_positif": 23.8,
     "persen_netral": 4.8,
-    "persen_negatif": 71.4,
-    "key": "ugd_rs_petrokimia_gresik"
-  },
-  {
-    "key": "united_community",
-    "kategori": "Lainnya",
-    "tempat": "United Community",
-    "rating": 4,
-    "total_ulasan": 4,
-    "positif": 0,
-    "netral": 4,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0
+    "persen_negatif": 71.4
   },
   {
     "key": "universitas_gresik",
@@ -8102,30 +7933,31 @@
     "key": "upt_dinas_pekerjaan_umum_wilayah_bawean",
     "kategori": "Pemerintahan",
     "tempat": "UPT DINAS PEKERJAAN UMUM WILAYAH BAWEAN",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_negeri_386_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pemerintahan",
     "tempat": "UPT Negeri 386 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "upt_pengelolaan_pendapatan_daerah_gresik",
+    "kategori": "Pemerintahan",
     "tempat": "UPT Pengelolaan Pendapatan Daerah Gresik",
     "rating": 3.5,
     "total_ulasan": 22,
@@ -8134,12 +7966,11 @@
     "negatif": 8,
     "persen_positif": 45.5,
     "persen_netral": 18.2,
-    "persen_negatif": 36.4,
-    "key": "upt_pengelolaan_pendapatan_daerah_gresik"
+    "persen_negatif": 36.4
   },
   {
     "key": "upt_puskesmas_balongpanggang",
-    "kategori": "Kesehatan",
+    "kategori": "Pendidikan",
     "tempat": "UPT Puskesmas Balongpanggang",
     "rating": 4.4,
     "total_ulasan": 18,
@@ -8167,538 +7998,525 @@
     "key": "upt_puskesmas_tambak",
     "kategori": "Kesehatan",
     "tempat": "UPT Puskesmas Tambak",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_12_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 12 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_15_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "Upt Sd Negeri 15 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_1_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "Upt Sd Negeri 1 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "kategori": "Lainnya",
+    "key": "upt_sd_negeri_245_gresik",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 245 Gresik",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0,
-    "key": "upt_sd_negeri_245_gresik"
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_30_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 30 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_326_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 326 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_32_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 32 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_336_gresik_ex_sdn_2_kebuntelukdalam",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 336 Gresik (Ex. SDN 2 Kebuntelukdalam)",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_349_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 349 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_354_gresik_ex_sdn_6_sidogedungbatu",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 354 Gresik ex Sdn 6 Sidogedungbatu",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_364_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 364 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_365_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 365 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_366_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 366 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_368_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD Negeri 368 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_370_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 370 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_374_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 374 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_376_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 376 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_380_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 380 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_381_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 381 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_382_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 382 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sd_negeri_6_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 6 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sdn_373_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SDN 373 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_sdn_43_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPT SDN 43 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_10_gresik",
     "kategori": "Pendidikan",
     "tempat": "Upt Smp Negeri 10 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_12_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP Negeri 12 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_17_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP NEGERI 17 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_20_gresik",
     "kategori": "Pendidikan",
     "tempat": "Upt Smp Negeri 20 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_25_gresik",
     "kategori": "Pendidikan",
     "tempat": "Upt Smp Negeri 25 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_2_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP Negeri 2 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_33_bambe",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP Negeri 33 Bambe",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_34_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP Negeri 34 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_3_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP Negeri 3 Gresik",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_7_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP NEGERI 7 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smp_negeri_satu_atap_sangkapura",
     "kategori": "Pendidikan",
     "tempat": "UPT SMP NEGERI SATU ATAP SANGKAPURA",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smpn_19_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMPN 19 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smpn_22_gresik",
     "kategori": "Pendidikan",
     "tempat": "UPT SMPN 22 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "upt_smpn_6_gresik_ex_smp_negeri_1_sidayu",
     "kategori": "Pendidikan",
     "tempat": "UPT SMPN 6 Gresik (ex SMP Negeri 1 Sidayu)",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
     "key": "uptsd_negeri_367_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Pendidikan",
     "tempat": "UPTSD NEGERI 367 GRESIK",
-    "rating": null,
+    "rating": 0.0,
     "total_ulasan": 0,
     "positif": 0,
     "netral": 0,
     "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
+    "persen_positif": 0.0,
+    "persen_netral": 0.0,
+    "persen_negatif": 0.0
   },
   {
-    "key": "us_comptroller_of_the_currency",
-    "kategori": "Lainnya",
-    "tempat": "US Comptroller of the Currency",
-    "rating": 5,
-    "total_ulasan": 0,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 0,
-    "persen_netral": 0,
-    "persen_negatif": 0
-  },
-  {
-    "kategori": "Lainnya",
+    "key": "waduk_kedamean_2",
+    "kategori": "Wisata",
     "tempat": "waduk kedamean 2",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 0,
     "negatif": 1,
     "persen_positif": 0.0,
     "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "key": "waduk_kedamean_2"
+    "persen_negatif": 100.0
   },
   {
     "key": "waduk_stadion_desa_slempit",
-    "kategori": "Lainnya",
+    "kategori": "Olahraga",
     "tempat": "WADUK STADION DESA SLEMPIT",
     "rating": 4.9,
     "total_ulasan": 14,
@@ -8710,6 +8528,7 @@
     "persen_negatif": 64.3
   },
   {
+    "key": "wagos_wisata_alam_gosari",
     "kategori": "Wisata",
     "tempat": "Wagos Wisata Alam Gosari",
     "rating": 4.4,
@@ -8719,23 +8538,10 @@
     "negatif": 8,
     "persen_positif": 42.1,
     "persen_netral": 15.8,
-    "persen_negatif": 42.1,
-    "key": "wagos_wisata_alam_gosari"
+    "persen_negatif": 42.1
   },
   {
-    "kategori": "Lainnya",
-    "tempat": "West Wichita Family Optometrists",
-    "rating": 4.9,
-    "total_ulasan": 25,
-    "positif": 0,
-    "netral": 12,
-    "negatif": 13,
-    "persen_positif": 0.0,
-    "persen_netral": 48.0,
-    "persen_negatif": 52.0,
-    "key": "west_wichita_family_optometrists"
-  },
-  {
+    "key": "wisata_bukit_surowiti",
     "kategori": "Wisata",
     "tempat": "Wisata Bukit Surowiti",
     "rating": 4.4,
@@ -8745,10 +8551,10 @@
     "negatif": 12,
     "persen_positif": 0.0,
     "persen_netral": 7.7,
-    "persen_negatif": 92.3,
-    "key": "wisata_bukit_surowiti"
+    "persen_negatif": 92.3
   },
   {
+    "key": "wisata_mangrove_hijau_daun",
     "kategori": "Wisata",
     "tempat": "Wisata Mangrove Hijau Daun",
     "rating": 4.5,
@@ -8758,10 +8564,10 @@
     "negatif": 11,
     "persen_positif": 7.1,
     "persen_netral": 14.3,
-    "persen_negatif": 78.6,
-    "key": "wisata_mangrove_hijau_daun"
+    "persen_negatif": 78.6
   },
   {
+    "key": "wisata_mangrove_mengare_warakas",
     "kategori": "Wisata",
     "tempat": "Wisata Mangrove Mengare (WARAKAS)",
     "rating": 4.6,
@@ -8771,10 +8577,10 @@
     "negatif": 6,
     "persen_positif": 0.0,
     "persen_netral": 25.0,
-    "persen_negatif": 75.0,
-    "key": "wisata_mangrove_mengare_warakas"
+    "persen_negatif": 75.0
   },
   {
+    "key": "wisata_pantai_hippo_sidorejo",
     "kategori": "Wisata",
     "tempat": "Wisata pantai hippo sidorejo",
     "rating": 4.6,
@@ -8784,10 +8590,10 @@
     "negatif": 11,
     "persen_positif": 33.3,
     "persen_netral": 5.6,
-    "persen_negatif": 61.1,
-    "key": "wisata_pantai_hippo_sidorejo"
+    "persen_negatif": 61.1
   },
   {
+    "key": "wisata_religi_sunan_giri",
     "kategori": "Wisata",
     "tempat": "Wisata Religi Sunan Giri",
     "rating": 4.8,
@@ -8797,10 +8603,10 @@
     "negatif": 6,
     "persen_positif": 9.1,
     "persen_netral": 36.4,
-    "persen_negatif": 54.5,
-    "key": "wisata_religi_sunan_giri"
+    "persen_negatif": 54.5
   },
   {
+    "key": "wisata_syifa",
     "kategori": "Wisata",
     "tempat": "Wisata Syifa",
     "rating": 4.4,
@@ -8810,38 +8616,24 @@
     "negatif": 9,
     "persen_positif": 37.5,
     "persen_netral": 6.2,
-    "persen_negatif": 56.2,
-    "key": "wisata_syifa"
+    "persen_negatif": 56.2
   },
   {
-    "kategori": "Lainnya",
-    "tempat": "WOK WOW Chinese Takeaway",
-    "rating": 3.6,
-    "total_ulasan": 29,
-    "positif": 2,
-    "netral": 6,
-    "negatif": 21,
-    "persen_positif": 6.9,
-    "persen_netral": 20.7,
-    "persen_negatif": 72.4,
-    "key": "wok_wow_chinese_takeaway"
-  },
-  {
+    "key": "work_shop_smk_link_and_match_garudafood",
     "kategori": "Pendidikan",
     "tempat": "Work shop SMK link and match garudafood",
-    "rating": 5,
+    "rating": 5.0,
     "total_ulasan": 1,
     "positif": 0,
     "netral": 1,
     "negatif": 0,
     "persen_positif": 0.0,
     "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "key": "work_shop_smk_link_and_match_garudafood"
+    "persen_negatif": 0.0
   },
   {
     "key": "yellow_clinic_gresik",
-    "kategori": "Lainnya",
+    "kategori": "Kesehatan",
     "tempat": "Yellow Clinic Gresik",
     "rating": 4.9,
     "total_ulasan": 22,

@@ -3,12 +3,12 @@
   "tempat": "Inspektorat Kabupaten Gresik",
   "rating": 4.8,
   "total_ulasan": 11,
-  "positif": 0,
+  "positif": 11,
   "netral": 0,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "mantul mantap betul",
       "teks_final": "bagus bagus betul",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9903
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan ramah, alhamdulillah memberikan manfaat",
       "teks_final": "pelayanan ramah alhamdulillah memberikan manfaat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan dan responnya sangat sangat bagus dan welcome",
       "teks_final": "pelayanan responnya bagus welcome",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "pelayanan sangat bagus dan stafnya cepat bertindak, acara yg diselenggarakan selalu ontime dan memuat materi yg berbobot.",
       "teks_final": "pelayanan bagus stafnya cepat bertindak acara diselenggarakan selalu ontime memuat materi berbobot",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempatnya nyaman dan bersih, Pelayanannya ramah dan sangat membantu",
       "teks_final": "tempatnya nyaman bersih pelayanannya ramah membantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tempatnya nyaman, pegawai ramah",
       "teks_final": "tempatnya nyaman pegawai ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "bagus sekali",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "tempatnya nyaman , bagus",
       "teks_final": "tempatnya nyaman bagus",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bagus pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bersih dan nyaman",
       "teks_final": "bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Work work work....",
       "teks_final": "work work work",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9336
     }
   ]

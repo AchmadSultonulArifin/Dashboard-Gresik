@@ -3,12 +3,12 @@
   "tempat": "Klinik Panglima Sudirman",
   "rating": 4.1,
   "total_ulasan": 13,
-  "positif": 6,
+  "positif": 8,
   "netral": 1,
-  "negatif": 6,
-  "persen_positif": 46.2,
+  "negatif": 4,
+  "persen_positif": 61.5,
   "persen_netral": 7.7,
-  "persen_negatif": 46.2,
+  "persen_negatif": 30.8,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "pelayanan kurang",
       "teks_final": "pelayanan kurang",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9968
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tolong ya buat dokter anggi pelayanannya jgn judes” sama orangtua saya 🙂‍↔️ tlng sedikit ada etika dan adab sama orang tua ya mbakk. Dan yg saya herankan lagi kmren di diagnosa sama dokter sebelumnya gejala usus buntu dan badannya lemes masih an setelah obatnya hbs.  Dan dtng kesana lagi  ini malah kata dia gpp gk usah rujukan. Ini cuman kembung aja😣😣😣",
       "teks_final": "tolong ya buat dokter anggi pelayanannya jgn judes sama orangtua tlng sedikit etika adab sama orang tua ya mbakk herankan kmren diagnosa sama dokter sebelumnya gejala usus buntu badannya lemes an obatnya hbs dtng kesana malah kata gpp usah rujukan cuman kembung aja",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9959
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Semoga klinik pangsud semakin maju",
       "teks_final": "semoga klinik pangsud semakin maju",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9392
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Petugasnya baik saya sudah lama jadi pasien di klinik pangsud semoga klinik pangsud semakin jaya",
       "teks_final": "petugasnya baik lama jadi pasien klinik pangsud semoga klinik pangsud semakin jaya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9431
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sangt mengecewakan , dtg jm 18.00 mau ganti perban luka bukn diabet tapi ditolak dg alsan perawat sudh pulang, pdhl jm krjh tutup jam 20.00.",
       "teks_final": "sangt mengecewakan dtg jm mau ganti perban luka bukn diabet ditolak alsan perawat sudh pulang pdhl jm krjh tutup jam",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9932
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Saya adlh pasien yang sdh hampir 11tahun disini pelayanan bagus dan ramah....",
       "teks_final": "adlh pasien hampir 11tahun disini pelayanan bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Mantap, pelayanan nya ramah, klinik nya bersih dan nyaman 🥰🥰🥰🥰🥰🥰🥰",
       "teks_final": "bagus pelayanan ramah klinik bersih nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan baik,petugas ramah,👍",
       "teks_final": "pelayanan baik petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Jam 8.15 masih belum buka.  Bad service",
       "teks_final": "jam buka bad service",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8027
     }
   ]

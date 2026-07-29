@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Industri",
   "rating": 4.5,
   "total_ulasan": 22,
-  "positif": 8,
+  "positif": 12,
   "netral": 3,
-  "negatif": 11,
-  "persen_positif": 36.4,
+  "negatif": 7,
+  "persen_positif": 54.5,
   "persen_netral": 13.6,
-  "persen_negatif": 50.0,
+  "persen_negatif": 31.8,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Saya saat periksa di poli rawat jalan.. Alhamdulillah semua petugasnya ramah - ramah.dokterny juga baik.. Pokoknya puskesmas driyorejo terbaik..👍",
       "teks_final": "periksa poli rawat jalan alhamdulillah semua petugasnya ramah ramah dokterny baik pokoknya puskesmas driyorejo terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan oke tak sampai 1 jam udah selesai memang oke 👍👍👍👍👍",
       "teks_final": "pelayanan oke tak sampai jam udah selesai memang oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.97
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ini puskesmas dokternya tega2!! Susah sekali ngasi rujukan ,lansia dengan riwayat penyakit kronis ga dikasi rujukan,disuru kontrol di puskesmas,kontrol di puskesmas obat kronis rutinanya g di kasi sama sekali,maksudnya apa!!!! Bayar BPJS kelas 1 dpt pelayan macem gini!!mempersulit org bkal dipesulit kehidupanya,ingat karma itu ada!",
       "teks_final": "puskesmas dokternya tega2 susah ngasi rujukan lansia riwayat penyakit kronis dikasi rujukan disuru kontrol puskesmas kontrol puskesmas obat kronis rutinanya kasi sama maksudnya apa bayar bpjs kelas dpt pelayan macem gini mempersulit org bkal dipesulit kehidupanya ingat karma",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9971
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Jelas - jelas anak saya sudah mau 1 bulan rawat jalan dengan obat, tidak ada hasil. Nunggu hasil lab dahak 1 mingguan sudah 1 minggu mau ambil eh disuruh nunggu lagi masih dikerjakan dipuskesmas alun - alun. Lah buat apa nunggu lama - lama klo emg dikerjakan dipuskesmas alun - alun langsung aja kalo gtu saya ke puskesmas alun - alun. Dan aku menolak diksih obat lagi saya langsung minta surat rujukan. Gongnya sampai RS dicek lab ternyata HB Leukosit anak saya rendah sama ada paparan Virus yg tinggi.. cuma bisa ngelus dada, gak sat set",
       "teks_final": "jelas jelas anak mau bulan rawat jalan obat hasil nunggu hasil lab dahak mingguan minggu mau ambil eh disuruh nunggu dikerjakan dipuskesmas alun alun buat apa nunggu lama lama emg dikerjakan dipuskesmas alun alun langsung aja kalo gtu puskesmas alun alun aku menolak diksih obat langsung minta surat rujukan gongnya sampai rumah sakit dicek lab ternyata hb leukosit anak rendah sama paparan virus tinggi cuma ngelus dada sat set",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9839
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanan kurang satset (lama) kurang cekatan",
       "teks_final": "pelayanan kurang satset lama kurang cekatan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9957
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Maasyaa allah dokter, bidan dan semua karyawannya ramah-ramah, tempatnya bersih",
       "teks_final": "maasyaa allah dokter bidan semua karyawannya ramah ramah tempatnya bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "kurang satset kemari saya kesini sama istri mau cek kehamilan malah di oper ke pukesmas alun\" dari pukesmas alun\" suruh ke pukesmas industri balik lagi ke industri suruh ke pukesmas gending. pukesmas industri terkesan menyepelekan pasien",
       "teks_final": "kurang satset kemari kesini sama istri mau cek kehamilan malah oper pukesmas alun pukesmas alun suruh pukesmas industri balik industri suruh pukesmas gending pukesmas industri terkesan menyepelekan pasien",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9953
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan sangat amat memuaskan dari dokternya bidannya, petugas loketnya juga serta admin media sosialnya semuanya gercep dalam menangani pasien, fast respon banget, pelayanan ramah, sangat membantu dalam hal mendesak, sempet ada kendala dalam hal BPJS yg nonaktif GK sampe sehari udah aktif kembali tanpa riwa riwi kesana kemari, terimakasih Puskesmas industri 👍👍👍👍♥️♥️",
       "teks_final": "pelayanan amat memuaskan dokternya bidannya petugas loketnya serta admin media sosialnya semuanya gercep menangani pasien fast respon banget pelayanan ramah membantu hal mendesak sempet kendala hal bpjs nonaktif sampe sehari udah aktif kembali tanpa riwa riwi kesana kemari terimakasih puskesmas industri",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Alhamdulillah pelayanan puskesmas industri bagus .semoga kedepanya lebih baik lagi 👍👍👍",
       "teks_final": "alhamdulillah pelayanan puskesmas industri bagus semoga kedepanya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9879
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan yang bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "pelayanan baik,",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "pertama kali kesini karena mau cek kesehatan gratis dari pemerintah. all good mulai dari pelayanan dan tenaga medis",
       "teks_final": "pertama kali kesini mau cek kesehatan gratis pemerintah all good mulai pelayanan tenaga medis",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.607
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Terbaik",
       "teks_final": "terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanannya kurang, dokter di poli anak kurang ramah datengnya telat, minta rujukan di persulit, nada bicara membentak pasien, ga ada sopan sopannya👎🏼",
       "teks_final": "pelayanannya kurang dokter poli anak kurang ramah datengnya telat minta rujukan persulit nada bicara membentak pasien sopan sopannya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9953
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Minggu kemarin antar anak berobat, namun pelayanan tidak ramah. Dokter poli anak terlambat, penjelasan kurang informatif, nada bicara membentak. Tidak menghargai sesama nakes. Minta rujukan dipersulit. Masak suruh pasiennya input sendiri diagnosis penyakitnya apa, dokter/nakes tidak menguasai bidang diagnosis & rujukan. Diatas peraturan itu ada yg namanya kebijakan. Tak patut dicontoh sebagai nakes pelayan masyarakat. 👎🏾",
       "teks_final": "minggu kemarin antar anak berobat pelayanan ramah dokter poli anak terlambat penjelasan kurang informatif nada bicara membentak menghargai sesama nakes minta rujukan dipersulit masak suruh pasiennya input sendiri diagnosis penyakitnya apa dokter nakes menguasai bidang diagnosis rujukan diatas peraturan namanya kebijakan tak patut dicontoh sebagai nakes pelayan masyarakat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9892
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan dr umum kurang memuaskan, orang sakit tegorokan sama vertigo kok cuman di cek teleskop saja kanan kiri sudah ambil obat Kock betul",
       "teks_final": "pelayanan umum kurang memuaskan orang sakit tegorokan sama vertigo kok cuman cek teleskop saja kanan kiri ambil obat kock betul",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9976
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Loket cepat dan ramah",
       "teks_final": "loket cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {

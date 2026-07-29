@@ -3,12 +3,12 @@
   "tempat": "Pos Pantau Polowijo Gosari",
   "rating": 4.2,
   "total_ulasan": 10,
-  "positif": 0,
+  "positif": 8,
   "netral": 1,
-  "negatif": 9,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 80.0,
   "persen_netral": 10.0,
-  "persen_negatif": 90.0,
+  "persen_negatif": 10.0,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -29,7 +29,7 @@
       "Ulasan": "Mantul",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Keren banget viewnya laut dan perbukitan, pokoknya keren",
       "teks_final": "bagus banget viewnya laut perbukitan pokoknya bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "nice view",
       "teks_final": "nice view",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9912
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "View point sunset",
       "teks_final": "view point sunset",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9392
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Indah",
       "teks_final": "indah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Spot bagus untuk melihat desa Banyuurip dari atas, kita bisa lihat view sawah, pantai, dan panorama desa secara luas. Nice place pokoknya😁",
       "teks_final": "spot bagus melihat desa banyuurip atas lihat view sawah pantai panorama desa secara luas nice place pokoknya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Terlihat indah senja di atas sini",
       "teks_final": "terlihat indah senja atas sini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9881
     }
   ]

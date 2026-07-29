@@ -3,12 +3,12 @@
   "tempat": "Klinik Mata KMU Gresik",
   "rating": 4.9,
   "total_ulasan": 20,
-  "positif": 4,
+  "positif": 13,
   "netral": 3,
-  "negatif": 13,
-  "persen_positif": 20.0,
+  "negatif": 4,
+  "persen_positif": 65.0,
   "persen_netral": 15.0,
-  "persen_negatif": 65.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Sangat memuaskan perawatannya,dokternya dn perawatnya sangat ramah dn sopan",
       "teks_final": "memuaskan perawatannya dokternya dn perawatnya ramah dn sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9899
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "2x kesana nunggu dokternya lama padahl dokternya rama, untuk antrian Bpjs dan umum kenpa antrianya samaaaa??? Dan gk hanya saya yang mengeluh tentang pelayanan ini. Untuk parkir mobil sulit banget",
       "teks_final": "2x kesana nunggu dokternya lama padahl dokternya rama antrian bpjs umum kenpa antrianya samaaaa hanya mengeluh tentang pelayanan parkir mobil sulit banget",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanannya sangat oke. Sprti d rs mata yg prnh saya knjungi di Surabaya Sudah benar\" terstruktur alurnya mulai dari pendaftaran sampai penerimaan surat rujukan, sehingga tidak bgitu lama menunggu Pelayanan perawat, admin, dan dokter sangat ramah dan memuaskan Semogaa sehat sehat selalu semuanya ya ☺️🙏🏻",
       "teks_final": "pelayanannya oke sprti rumah sakit mata prnh knjungi surabaya benar terstruktur alurnya mulai pendaftaran sampai penerimaan surat rujukan sehingga bgitu lama menunggu pelayanan perawat admin dokter ramah memuaskan semogaa sehat sehat selalu semuanya ya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9764
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan sangat memuaskan sudah berkali-kali dapat pelayanan di kmu Admin juga sangat membantu ketika ada yang saya tanyakan",
       "teks_final": "pelayanan memuaskan berkali kali pelayanan kmu admin membantu tanyakan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8494
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Aplikasi  yang menyulitkan  bagi pasien  yg sudah tua.",
       "teks_final": "aplikasi menyulitkan bagi pasien tua",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9854
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan sangat memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan bagus, stafnya gercep dan baik”, terus tingkatkan layanan Terimakasih",
       "teks_final": "pelayanan bagus stafnya gercep baik terus tingkatkan layanan terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Mantep pelayanan nya",
       "teks_final": "mantep pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Tidak ada bedanya pelayanan eksekutif dengan biasa. Saran pilih layanan yang biasa saja lebih murah",
       "teks_final": "bedanya pelayanan eksekutif biasa saran pilih layanan biasa saja murah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.879
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan sprt kluarga sndr & cukup memuaskan, bisa menggunakan bpjs & kis",
       "teks_final": "pelayanan sprt kluarga sndr cukup memuaskan menggunakan bpjs kis",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9812
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Namanya fasilitas kesehatan pasti antri. Tapi saya merasakan pelayanan makin baik. Dari pendaftaran sampai kasir semua ramah dan sangat membantu. Terima kasih KMU",
       "teks_final": "namanya fasilitas kesehatan pasti antrian merasakan pelayanan makin baik pendaftaran sampai kasir semua ramah membantu terima kasih kmu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "pelayanan nya sangat bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sengaja ke sini antar ibu malam setelah magrib krn bertepatan dengan Ramadhan.. pelayanan prima.. petugas ramah.. terima kasih.. semoga sehat selalu",
       "teks_final": "sengaja sini antar ibu malam magrib bertepatan ramadhan pelayanan prima petugas ramah terima kasih semoga sehat selalu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8859
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan sangat memuaskan, hasil operasi maksimal, Alhamdulillah bapak saya terang kembali",
       "teks_final": "pelayanan memuaskan hasil operasi maksimal alhamdulillah bapak terang kembali",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9633
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Harus SELALU JALAN dari gressmall karena parkirannya kecil. Informasi yang diberikan antara petugas satu dengan yang lain selalu tidak sinkron, berakhir menunggu sia2 dan akhirnya pulang. Percumalah bikin layanan eksklusif, executive atau apalah itu namanya kalau hobi buang2 waktu pelanggan 👎👎👎",
       "teks_final": "harus selalu jalan gressmall parkirannya kecil informasi diberikan antara petugas satu lain selalu sinkron berakhir menunggu sia2 akhirnya pulang percumalah bikin layanan eksklusif executive apalah namanya hobi buang2 waktu pelanggan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9936
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan baik semua",
       "teks_final": "pelayanan baik semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "pelayanan nya baik, para perawat nya ramah dan disini pelayanan nya cepat dan tanggap",
       "teks_final": "pelayanan baik para perawat ramah disini pelayanan cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     }
   ]

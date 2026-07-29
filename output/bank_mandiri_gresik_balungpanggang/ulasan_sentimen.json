@@ -3,12 +3,12 @@
   "tempat": "Bank Mandiri Gresik Balungpanggang",
   "rating": 4.9,
   "total_ulasan": 30,
-  "positif": 1,
+  "positif": 29,
   "netral": 1,
-  "negatif": 28,
-  "persen_positif": 3.3,
+  "negatif": 0,
+  "persen_positif": 96.7,
   "persen_netral": 3.3,
-  "persen_negatif": 93.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayan cepat dan ramah",
       "teks_final": "pelayan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tealernya baik,ramah,dll",
       "teks_final": "tealernya baik ramah dll",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9833
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayan sangat memuaskan",
       "teks_final": "pelayan memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan oke.",
       "teks_final": "pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Layanan sangat sat set mantap pak Yanuar",
       "teks_final": "layanan sat set bagus pak yanuar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9875
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Atasi penbukaan rekening makin cepet joss mandiri balongpanggang",
       "teks_final": "atasi penbukaan rekening makin cepet joss mandiri balongpanggang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8365
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan sangat cepat ga sampe 5 menit udah kelar ganti kartu jos jiss pak",
       "teks_final": "pelayanan cepat sampe menit udah kelar ganti kartu bagus jiss pak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.972
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanan cepat dan security ramah",
       "teks_final": "pelayanan cepat security ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "tempatnya nyaman dan pengedukasian nya sangat cepat di pahami",
       "teks_final": "tempatnya nyaman pengedukasian cepat pahami",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Security sangat mengedukasi dan tanggap pengurusan tidak perlu ke ca nya joss jiss",
       "teks_final": "security mengedukasi tanggap pengurusan perlu ca joss jiss",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9019
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Security nya josss sangat cepat tanggap nya josss jisss",
       "teks_final": "security josss cepat tanggap josss jisss",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9914
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Tempatnya nyaman dingin dan pegawai nya ramah jossht pokok e",
       "teks_final": "tempatnya nyaman dingin pegawai ramah jossht pokok",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Tempat nya sangat nyaman dan pelayanan sangat joss trimakasi mas pras pelayananya",
       "teks_final": "tempat nyaman pelayanan joss trimakasi mas pras pelayananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9915
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan sangat cepat dan cara mengedukasi sangat joss pak satpam",
       "teks_final": "pelayanan cepat cara mengedukasi joss pak satpam",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan yang bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Layanann baikk",
       "teks_final": "layanann baikk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9876
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Tempat nyaman dan security cs nya sangat cepat memberikan arahan",
       "teks_final": "tempat nyaman security cs cepat memberikan arahan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9499
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanan sat set dan sangat membantu josss",
       "teks_final": "pelayanan sat set membantu josss",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "pelayanan disini sangat memuaskan, sangat membantu, tempatnya nyaman dan bersih.",
       "teks_final": "pelayanan disini memuaskan membantu tempatnya nyaman bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan sangat cepat dan memuaskan nasabah josss",
       "teks_final": "pelayanan cepat memuaskan nasabah josss",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan super cepat dan security cs nya sangat tanggap menangani permasalahan",
       "teks_final": "pelayanan super cepat security cs tanggap menangani permasalahan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9921
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Pelayanan super cepat dan sangat membatu",
       "teks_final": "pelayanan super cepat membatu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Pelayanan cepat dan nyaman pembuatan rekening sangat cepat dan jadi lebih praktis melalui Livin",
       "teks_final": "pelayanan cepat nyaman pembuatan rekening cepat jadi praktis melalui livin",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9711
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Pelayanan super cepat dan sangat membantu keperluan saya sebagai nasabah",
       "teks_final": "pelayanan super cepat membantu keperluan sebagai nasabah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -337,7 +337,7 @@
       "Ulasan": "Tempat nyaman bersih dan dingin makin betah untuk pemgurusan per bank an",
       "teks_final": "tempat nyaman bersih dingin makin betah pemgurusan per bank an",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     }
   ]

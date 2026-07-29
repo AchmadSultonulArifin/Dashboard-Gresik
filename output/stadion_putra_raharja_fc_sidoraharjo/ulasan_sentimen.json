@@ -3,12 +3,12 @@
   "tempat": "Stadion Putra Raharja Fc Sidoraharjo",
   "rating": 4.9,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 3,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 25.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Lapangan bola yg bagus,perlu perawatan n perbaikan sarana di sekitarnya",
       "teks_final": "lapangan bola bagus perlu perawatan perbaikan sarana sekitarnya",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6557
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Joss",
       "teks_final": "joss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     }
   ]

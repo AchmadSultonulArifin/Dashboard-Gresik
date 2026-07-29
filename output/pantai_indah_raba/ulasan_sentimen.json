@@ -3,12 +3,12 @@
   "tempat": "Pantai Indah Raba",
   "rating": 4.9,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 2,
   "netral": 2,
-  "negatif": 1,
-  "persen_positif": 25.0,
+  "negatif": 0,
+  "persen_positif": 50.0,
   "persen_netral": 50.0,
-  "persen_negatif": 25.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Cukup menarik pantai ini Ada perahu nelayan yang bersandar disetiap sudut desa",
       "teks_final": "cukup menarik pantai perahu nelayan bersandar disetiap sudut desa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9164
     },
     {

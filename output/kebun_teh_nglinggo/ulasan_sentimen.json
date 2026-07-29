@@ -3,12 +3,12 @@
   "tempat": "Kebun Teh Nglinggo",
   "rating": 4.5,
   "total_ulasan": 11,
-  "positif": 3,
+  "positif": 10,
   "netral": 0,
-  "negatif": 8,
-  "persen_positif": 27.3,
+  "negatif": 1,
+  "persen_positif": 90.9,
   "persen_netral": 0.0,
-  "persen_negatif": 72.7,
+  "persen_negatif": 9.1,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Kebun teh e ga begitu luas... Sebenarnya bagus kalo ditaga dengan baik",
       "teks_final": "kebun teh begitu luas sebenarnya bagus kalo ditaga baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Salah satu wisata kebun teh dengan pemandangan asri, fasilitas lumayan lengkap, dan sudah banyak penunjuk jalan. Untuk akses kendaraan bisa mengguakan roda dua atau roda empat tetapi harus dengan keadaan prima karena akses yang menanjak.",
       "teks_final": "salah satu wisata kebun teh pemandangan asri fasilitas lumayan lengkap banyak penunjuk jalan akses kendaraan mengguakan roda dua roda empat harus keadaan prima akses menanjak",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Akses lumayan susah. Kebun teh nya juga sedikit. Pemandangan oke, banyak cafe2 juga",
       "teks_final": "akses lumayan susah kebun teh sedikit pemandangan oke banyak cafe2",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9873
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "first time kesini , mohon untuk memberi saran untuk meningkatkan pelayanan mulai dari tempat parkir , hingga tour guide yang seharusnya siap menunggu dari atas jika para pengunjung parkir diatas, semua demi kenyamanan pengunjung untuk wisata yang semoga bisa lestari, tempat luas ,hijau , disarankan lebih bagus datang pagi ,",
       "teks_final": "first time kesini mohon memberi saran meningkatkan pelayanan mulai tempat parkir hingga tour guide seharusnya siap menunggu atas para pengunjung parkir diatas semua demi kenyamanan pengunjung wisata semoga lestari tempat luas hijau disarankan bagus datang pagi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9293
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Suasana enak sedap di pandang dekat gunung udara dingin dan sejuk, resto di atas gunung. Makanan dan minuman. Beli tiket Rp 50 rb, dapat Snack dan Es Teh. Salam Sehat. AntonDPD.",
       "teks_final": "suasana enak sedap pandang dekat gunung udara dingin sejuk resto atas gunung makanan minuman beli tiket rp rb snack es teh salam sehat antondpd",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9817
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Referensi tempat wisata yang tidak jauh dari Kota Yogyakarta, dengan kualitas udara yang cukup bersih, sejuk, rimbun dan rute perjalanan yang indah.  Selain menikmati pemandangan kebun teh, bisa pula mencicipi teh sangrai khas Kulon progo dan tracking di Gunung Jaran.  Klo mau yang lebih exclusive bisa ke bukit menoreh.  Saran saya, bisa membawa makanan berat, nanti untuk jajanan bisa ke warung-warung setempat yang menyediakan mie, mendoan, pisang goreng, dan geblek.",
       "teks_final": "referensi tempat wisata jauh kota yogyakarta kualitas udara cukup bersih sejuk rimbun rute perjalanan indah selain menikmati pemandangan kebun teh mencicipi teh sangrai khas kulon progo tracking gunung jaran mau exclusive bukit menoreh saran membawa makanan berat nanti jajanan warung warung setempat menyediakan mie mendoan pisang goreng geblek",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9871
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Adem",
       "teks_final": "adem",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {

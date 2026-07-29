@@ -3,12 +3,12 @@
   "tempat": "Pos pphh wilayah Gresik 1",
   "rating": 5,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 2,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -18,7 +18,7 @@
       "Ulasan": "Woke",
       "teks_final": "woke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5495
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sip",
       "teks_final": "sip",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9767
     }
   ]

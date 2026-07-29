@@ -3,12 +3,12 @@
   "tempat": "Kelurahan Sukorame",
   "rating": 3.2,
   "total_ulasan": 3,
-  "positif": 0,
+  "positif": 2,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Banyak perubahan dalam pelayanan semakin baik",
       "teks_final": "banyak perubahan pelayanan semakin baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9847
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan ditingkatkan",
       "teks_final": "pelayanan ditingkatkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8702
     }
   ]

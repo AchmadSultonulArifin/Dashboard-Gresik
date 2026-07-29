@@ -3,12 +3,12 @@
   "tempat": "Gor Sriwijaya",
   "rating": 4.3,
   "total_ulasan": 13,
-  "positif": 3,
+  "positif": 10,
   "netral": 2,
-  "negatif": 8,
-  "persen_positif": 23.1,
+  "negatif": 1,
+  "persen_positif": 76.9,
   "persen_netral": 15.4,
-  "persen_negatif": 61.5,
+  "persen_negatif": 7.7,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "cocok buat main badminton bareng temen kantor",
       "teks_final": "cocok buat main badminton bareng temen kantor",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Tempat yang bagus buat main bulutangkis,",
       "teks_final": "tempat bagus buat main bulutangkis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Plis lah buat yang punya atau yang ngelola ni tempat minimal tiap bearap jam itu di bersihin dong Masak iya tiap² latihan kalo ga ada bungkus makanan kalo ga abu sama putung rokok Jorok bgt",
       "teks_final": "plis buat punya ngelola ni tempat minimal tiap bearap jam bersihin masak iya tiap latihan kalo bungkus makanan kalo abu sama putung rokok jorok banget",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9975
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lap bagus",
       "teks_final": "lap bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9404
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Lumayan buat nyari keri. Get",
       "teks_final": "lumayan buat nyari keri get",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9478
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tempatnya mantaab foto dibawah teman2 Pepege sdg Latber IV.🏸👍",
       "teks_final": "tempatnya mantaab foto dibawah teman2 pepege sdg latber iv",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9389
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Tempat olahraga yg bersih dan nyaman",
       "teks_final": "tempat olahraga bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Mantab",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Mantab bro",
       "teks_final": "mantab bro",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     }
   ]

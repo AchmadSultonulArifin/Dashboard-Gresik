@@ -3,12 +3,12 @@
   "tempat": "Universitas Gresik",
   "rating": 4.5,
   "total_ulasan": 12,
-  "positif": 0,
+  "positif": 9,
   "netral": 3,
-  "negatif": 9,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Dosennya ramah ,baik hati,fleksibel bagi kami yang kuliah sambil kerja",
       "teks_final": "dosennya ramah baik hati fleksibel bagi kuliah sambil kerja",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9857
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Gedung yang bagus, rapi dan bersih. Berada di tengah kota dibelakang kantor dinas pendidikan kabupaten Gresik.",
       "teks_final": "gedung bagus rapi bersih berada tengah kota dibelakang kantor dinas pendidikan kabupaten gresik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Kampusnya memang tidak begitu terlihat dari jalan raya karena masuk gang. Namun setelah mengenal dan kuliah disini ternyata kampus yang patut dan perlu dibanggakan secara kualitas pembelajaran dan tenaga pengajar yang profesional",
       "teks_final": "kampusnya memang begitu terlihat jalan raya masuk gang mengenal kuliah disini ternyata kampus patut perlu dibanggakan secara kualitas pembelajaran tenaga pengajar profesional",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bismillah semogah unigres tambah besar dan ilmu pengetahuan bermanfaat dan barokah ...aamiin.",
       "teks_final": "bismillah semogah unigres tambah besar ilmu pengetahuan bermanfaat barokah aamiin",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.97
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Kebersihan dijaga dg apik",
       "teks_final": "kebersihan dijaga apik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Fakultas Hukum fakultas pilihanku. dosen berpengalaman, waktu perkuliahan bisa pagi, sore, malam. kelas nyaman, ac, wifi lancar. akreditasi baik sekali.",
       "teks_final": "fakultas hukum fakultas pilihanku dosen berpengalaman waktu perkuliahan pagi sore malam kelas nyaman ac wifi lancar akreditasi baik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9464
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "terimakasih",
       "teks_final": "terimakasih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9149
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Kampusnya keren, top👍👍👍",
       "teks_final": "kampusnya bagus top",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Kampusnya ahli hukum Gresik yg alumninya tersebar di Indonesia.... 👍👌",
       "teks_final": "kampusnya ahli hukum gresik alumninya tersebar indonesia",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5
     },
     {

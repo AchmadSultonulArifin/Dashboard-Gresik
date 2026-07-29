@@ -3,12 +3,12 @@
   "tempat": "Klinik Jamsostek 116",
   "rating": 4.3,
   "total_ulasan": 21,
-  "positif": 3,
+  "positif": 16,
   "netral": 2,
-  "negatif": 16,
-  "persen_positif": 14.3,
+  "negatif": 3,
+  "persen_positif": 76.2,
   "persen_netral": 9.5,
-  "persen_negatif": 76.2,
+  "persen_negatif": 14.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan nya cepatt , akuratt dokter nya ramah",
       "teks_final": "pelayanan cepatt akuratt dokter ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9884
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Memuaskan",
       "teks_final": "memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan yg memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Alhamdulillah,semakin baik pelayanannya,dan perlu dipertahankan ato ditingkan lagi",
       "teks_final": "alhamdulillah semakin baik pelayanannya perlu dipertahankan ato ditingkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9738
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "baikk",
       "teks_final": "baikk",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.976
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanannya sangat bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya bagus dan cepat",
       "teks_final": "pelayanannya bagus cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayan sangat memuaskan",
       "teks_final": "pelayan memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan bagus dan cepat. Petugas ramah👍",
       "teks_final": "pelayanan bagus cepat petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Sangat bagus...",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "pelayanan nya oke",
       "teks_final": "pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan klinik jamsostek 116 sangat memuaskan 👍",
       "teks_final": "pelayanan klinik jamsostek memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Sip pelayanan obatnya cepat tingkatkan👍",
       "teks_final": "sip pelayanan obatnya cepat tingkatkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9773
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan buruk",
       "teks_final": "pelayanan buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan yang sangat menyedihkan,, lama bnget, dan selalu buat esmosi😄, ,,,, ,,, masa selamanya begitu,,,, 😩",
       "teks_final": "pelayanan menyedihkan lama bnget selalu buat esmosi masa selamanya begitu",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Bp Jamsostek 116 pelayanannya sangat sangat buruk,sangat tidak memuaskan pelanggan. Banyak pengalaman menyedihkan yg sy dpt😓😪 Lebih baik ke bp yg lain yg lebih berkualitas pelayanan nya.",
       "teks_final": "bp jamsostek pelayanannya buruk memuaskan pelanggan banyak pengalaman menyedihkan dpt baik bp lain berkualitas pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9973
     }
   ]

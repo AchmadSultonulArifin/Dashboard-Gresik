@@ -3,12 +3,12 @@
   "tempat": "PUSKESMAS PANCENG",
   "rating": 4.5,
   "total_ulasan": 29,
-  "positif": 0,
+  "positif": 29,
   "netral": 0,
-  "negatif": 29,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan sangat baik&memuaskan",
       "teks_final": "pelayanan baik memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sangat baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sangat puas untuk pelayanan di puskesmah panceng",
       "teks_final": "puas pelayanan puskesmah panceng",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9877
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanannya sangat baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan sangat baik. Pegawainya ramah semua..",
       "teks_final": "pelayanan baik pegawainya ramah semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Kesan saya selama berobat di Puskesmas Panceng sangat baik. Pelayanan yang diberikan ramah, cepat, dan petugas kesehatan melayani pasien dengan sopan serta penuh perhatian. Proses pendaftaran cukup mudah, ruang tunggu bersih dan nyaman, serta dokter dan perawat memberikan penjelasan mengenai kondisi kesehatan dan pengobatan dengan jelas sehingga mudah dipahami. Saya merasa puas dengan pelayanan yang diberikan dan berharap kualitas pelayanan di Puskesmas Panceng dapat terus dipertahankan serta ditingkatkan.",
       "teks_final": "kesan selama berobat puskesmas panceng baik pelayanan diberikan ramah cepat petugas kesehatan melayani pasien sopan serta penuh perhatian proses pendaftaran cukup mudah ruang tunggu bersih nyaman serta dokter perawat memberikan penjelasan mengenai kondisi kesehatan pengobatan jelas sehingga mudah dipahami merasa puas pelayanan diberikan berharap kualitas pelayanan puskesmas panceng terus dipertahankan serta ditingkatkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9386
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya baik  pooll dan petugasnya rama2",
       "teks_final": "pelayanannya baik pooll petugasnya rama2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "baik dan terjaga",
       "teks_final": "baik terjaga",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9927
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan bagus dokter dan perawat ramah2",
       "teks_final": "pelayanan bagus dokter perawat ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sangat memuaskan",
       "teks_final": "memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya sangat baik sekali",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanannya sangat baik,petugasnya ramah2",
       "teks_final": "pelayanannya baik petugasnya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Alhamdulillah dapat pelayanan yang memuaskan",
       "teks_final": "alhamdulillah pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan ny sangat baik",
       "teks_final": "pelayanan ny baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanannya MasyaAllah luar bisa perawatnya juga rama2... Alhamdulillah... Terimakasih...",
       "teks_final": "pelayanannya masyaallah luar perawatnya rama2 alhamdulillah terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9899
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan yg baik & memuaskan",
       "teks_final": "pelayanan baik memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Perawatnya ramah\"",
       "teks_final": "perawatnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Profesional dikedepankan",
       "teks_final": "profesional dikedepankan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.822
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan bagus, ramah, dan perawatnya enak di ajak komunikasi terkait perkembangan pasien.",
       "teks_final": "pelayanan bagus ramah perawatnya enak ajak komunikasi terkait perkembangan pasien",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanannya sangat baik'dr dan perawatnya ramah2",
       "teks_final": "pelayanannya baik perawatnya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Untuk pelayanan sudah bagus.",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanan mantap, ruang inap nyaman",
       "teks_final": "pelayanan bagus ruang inap nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanannya bagus baik baik orangnya",
       "teks_final": "pelayanannya bagus baik baik orangnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "pelayanannya sangat baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "puas",
       "teks_final": "puas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Layanan sangat baik dan memuaskan peeawat dan dan dokternya sgt ramah",
       "teks_final": "layanan baik memuaskan peeawat dokternya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Top markotop... Semua perawat dan dokter jaga sangat solid dalam penanganan PASIEN, TERIMAKASIH utk semua temaga MEDIS PUSKESMAS PANCENG",
       "teks_final": "top markotop semua perawat dokter jaga solid penanganan pasien terimakasih semua temaga medis puskesmas panceng",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.987
     }
   ]

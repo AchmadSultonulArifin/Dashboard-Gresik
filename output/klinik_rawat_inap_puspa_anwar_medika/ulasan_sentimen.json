@@ -3,12 +3,12 @@
   "tempat": "Klinik Rawat Inap Puspa Anwar Medika",
   "rating": 4.9,
   "total_ulasan": 28,
-  "positif": 4,
+  "positif": 24,
   "netral": 1,
-  "negatif": 23,
-  "persen_positif": 14.3,
+  "negatif": 3,
+  "persen_positif": 85.7,
   "persen_netral": 3.6,
-  "persen_negatif": 82.1,
+  "persen_negatif": 10.7,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanannya sangat memuaskan, perawatnya sopan,ramah, dan cekatan",
       "teks_final": "pelayanannya memuaskan perawatnya sopan ramah cekatan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Baik,",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "sangat puas pelayan baik",
       "teks_final": "puas pelayan baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanannya sangat memuaskan dan juga memuaskan, prasarananya sangat baik ... Pelayanannya antara dokter dan perawat terhadap pasien sangat baik sekali dan ramah tamah😚",
       "teks_final": "pelayanannya memuaskan memuaskan prasarananya baik pelayanannya antara dokter perawat terhadap pasien baik ramah tamah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9837
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan nya bagus .....",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "mantap pelayanannya,, 👌",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya okee Dokter & Perawatnya ramah2 Thankyou",
       "teks_final": "pelayanannya okee dokter perawatnya ramah2 thankyou",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan sangat ramah dan memuaskan, sukses selalu untuk seluruh team klinik Puspa Anwar Medika",
       "teks_final": "pelayanan ramah memuaskan sukses selalu seluruh team klinik puspa anwar medika",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9158
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan nya baik. Prwat dn dokternya ramah. Sopan Penanganan nya sngt cepat",
       "teks_final": "pelayanan baik prwat dn dokternya ramah sopan penanganan sngt cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9881
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan baik , sangat cepat panangannya , dokter dan perawat sangat ramah sekali",
       "teks_final": "pelayanan baik cepat panangannya dokter perawat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya baik sangat memuaskan.perawat dan dokter sopan.",
       "teks_final": "pelayanannya baik memuaskan perawat dokter sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9896
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Alhamdulilah... Selamat sore..Pengalaman luar biasa berobat di sini! Dari bagian pendaftaran sampai dokter, semuanya sangat ramah dan membantu. Tempatnya bersih, nyaman, dan bikin tenang. Pelayanan yang benar-benar memanusiakan pasien. Terima kasih!\"  Untuk dokternya Masya allah... Sangat puas dengan konsultasinya. Dokternya komunikatif, penjelasannya detail dan mudah dimengerti, tidak terburu-buru. Saya merasa didengarkan dan diberikan solusi terbaik. Klinik yang sangat profesional!😊😊😊😊😊",
       "teks_final": "alhamdulilah selamat sore pengalaman luar biasa berobat sini bagian pendaftaran sampai dokter semuanya ramah membantu tempatnya bersih nyaman bikin tenang pelayanan benar benar memanusiakan pasien terima kasih dokternya masya allah puas konsultasinya dokternya komunikatif penjelasannya detail mudah dimengerti terburu buru merasa didengarkan diberikan solusi terbaik klinik profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayan bagus dokter sama perawat Rama rama",
       "teks_final": "pelayan bagus dokter sama perawat rama rama",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Alhamdulillahh selama periksaa di puspa anwar medika .. Saya merasaa cocokk dengan pelayanan perawatan dari dokter yang ada disana ... Semoga semaki  sukses dan lancarr buat semua perawat dan dokternya juga",
       "teks_final": "alhamdulillahh selama periksaa puspa anwar medika merasaa cocokk pelayanan perawatan dokter disana semoga semaki sukses lancarr buat semua perawat dokternya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9761
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Bagus pelayanananya",
       "teks_final": "bagus pelayanananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayananya baik sekalai",
       "teks_final": "pelayananya baik sekalai",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "perawat dan dokternya ramah skali, nyaman",
       "teks_final": "perawat dokternya ramah skali nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayananya nyaman baik ,pokoknya mantab",
       "teks_final": "pelayananya nyaman baik pokoknya mantab",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Suka sama pelayanannya..... Dokternya baik dan perawatnya juga baik,,,, terbaik 👌👍",
       "teks_final": "suka sama pelayanannya dokternya baik perawatnya baik terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "pelayanan cepat, petugasnya ramah,cantik apalagi bagian farmasi pelayanan sangat cepat dan detail dalam menjelaskan",
       "teks_final": "pelayanan cepat petugasnya ramah cantik apalagi bagian farmasi pelayanan cepat detail menjelaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Dari pertama kali daftar udah lama. Ditambah lagi menunggu giliran antrian, luama pool. Saya sadar urutannya memang belakang,namun saya kecewa dengan pemanggilan yang tidak sesuai antrian. Beberapa nomer antrian yang seharusnya dipanggil dari tadi namun tidak muncul dan tiba tiba muncul dengan seenak hati minta didahulukan. Saya kecewa dengan sistem  yang seperti ini.",
       "teks_final": "pertama kali daftar udah lama ditambah menunggu giliran antrian luama pool sadar urutannya memang belakang kecewa pemanggilan sesuai antrian beberapa nomer antrian seharusnya dipanggil tadi muncul tiba tiba muncul seenak hati minta didahulukan kecewa sistem seperti",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9966
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanannya sangat Sabar sekali dan ramah sekali, salut dengan Ratingnya ternyata memang nyata, petugas dari cek antrian sampai dokternya sangat baik , kagum dengan pelayanan di klinik ini,",
       "teks_final": "pelayanannya sabar ramah salut ratingnya ternyata memang nyata petugas cek antrian sampai dokternya baik kagum pelayanan klinik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Kesini jenguk aja sih, yang jaga parkir baik banget ⭐⭐⭐⭐⭐",
       "teks_final": "kesini jenguk aja jaga parkir baik banget",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9753
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Perawatan pasien ok, tapi mungkin lain kali ketika ada pasien sakit dan ada keluarga yang jaga sekiranya berisik harap suster/dokter/staff klinik bisa tegur. Apalagi kamar sharing, justru kamar sharing harus tau kesadaran diri dari diri sendiri, dan kalau ada yang ga tau diri setidaknya pihak klinik menegur biar ngerti, yang butuh kenyamanan pasien biar cepet pulih butuh istirahat ekstra. Terimakasih.",
       "teks_final": "perawatan pasien oke mungkin lain kali pasien sakit keluarga jaga sekiranya berisik harap suster dokter staff klinik tegur apalagi kamar sharing justru kamar sharing harus tau kesadaran diri diri sendiri tau diri setidaknya pihak klinik menegur biar ngerti butuh kenyamanan pasien biar cepet pulih butuh istirahat ekstra terimakasih",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5658
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Pelayanan kurang bagus",
       "teks_final": "pelayanan kurang bagus",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     }
   ]

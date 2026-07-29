@@ -3,12 +3,12 @@
   "tempat": "Trisakti Ketanen Soccerfield",
   "rating": 5,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 5,
   "netral": 0,
-  "negatif": 4,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 80.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Mantap saya pernah main bola di sana... Lapangan sangat nyaman di gunakan, rumput sangat merata.  Sedikit saran mungkin bisa di kasih jaring di bagian barat lapangan agar tendangan bola yg melenceng tidak sampai ke jalan raya.  Over all - good Lapangan Trisakti Ketanen the best.",
       "teks_final": "bagus pernah main bola sana lapangan nyaman gunakan rumput merata sedikit saran mungkin kasih jaring bagian barat lapangan agar tendangan bola melenceng sampai jalan raya over all good lapangan trisakti ketanen the best",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Paket komplit...!!!",
       "teks_final": "paket komplit",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lapangan sangat bagus dan berkualitas, rumput juga sangat bagus di rawat, mantaap kak 🥰",
       "teks_final": "lapangan bagus berkualitas rumput bagus rawat mantaap kak",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Rumputnya bagus serasa main di Camp Nou 😁",
       "teks_final": "rumputnya bagus serasa main camp nou",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     }
   ]

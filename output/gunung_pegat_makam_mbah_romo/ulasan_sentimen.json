@@ -3,12 +3,12 @@
   "tempat": "Gunung pegat makam mbah Romo",
   "rating": 5,
   "total_ulasan": 8,
-  "positif": 1,
+  "positif": 6,
   "netral": 2,
-  "negatif": 5,
-  "persen_positif": 12.5,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 62.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -29,7 +29,7 @@
       "Ulasan": "Tempatnya sejuk, tenang, nyamman...",
       "teks_final": "tempatnya sejuk tenang nyamman",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Diketinggian 44 mdpl, tempat yang tenang untuk ber-tafakur dan mengolah energi.",
       "teks_final": "diketinggian mdpl tempat tenang ber tafakur mengolah energi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8096
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Asik buat menghening",
       "teks_final": "asik buat menghening",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Mantab",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     }
   ]

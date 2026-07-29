@@ -3,12 +3,12 @@
   "tempat": "DINAS SOSIAL KABUPATEN GRESIK",
   "rating": 4,
   "total_ulasan": 2,
-  "positif": 1,
+  "positif": 0,
   "netral": 1,
-  "negatif": 0,
-  "persen_positif": 50.0,
+  "negatif": 1,
+  "persen_positif": 0.0,
   "persen_netral": 50.0,
-  "persen_negatif": 0.0,
+  "persen_negatif": 50.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Tolong bantu rakyat susah dengan bangga hati ya\"akan dapat amalan yg banyak\" dari orang yg di tolong",
       "teks_final": "tolong bantu rakyat susah bangga hati ya amalan banyak orang tolong",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9845
     },
     {

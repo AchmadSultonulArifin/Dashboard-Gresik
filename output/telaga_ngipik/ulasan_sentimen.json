@@ -3,12 +3,12 @@
   "tempat": "Telaga Ngipik",
   "rating": 4.1,
   "total_ulasan": 14,
-  "positif": 2,
+  "positif": 11,
   "netral": 0,
-  "negatif": 12,
-  "persen_positif": 14.3,
+  "negatif": 3,
+  "persen_positif": 78.6,
   "persen_netral": 0.0,
-  "persen_negatif": 85.7,
+  "persen_negatif": 21.4,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Telaga Ngipik menjadi salah satu tempat yang cocok untuk bersantai bersama keluarga. Saat kami berkunjung, kami memilih menikmati makan siang di area sekitar telaga sambil menikmati suasana terbuka. Anginnya cukup kencang sehingga udara terasa lebih sejuk dan nyaman, apalagi di tengah cuaca Gresik yang biasanya panas. Pemandangan telaganya juga cukup bagus dan memberikan suasana yang tenang. Memang, saat kami datang posisi tempat duduk menghadap ke arah TPA, sehingga sedikit mengurangi nilai estetikanya. Namun, secara keseluruhan pengalaman berkunjung tetap menyenangkan karena suasananya nyaman untuk berkumpul bersama keluarga. Semoga ke depannya penataan kawasan di sekitar telaga terus ditingkatkan agar semakin menarik sebagai tempat wisata dan ruang terbuka untuk masyarakat. Tetap layak dikunjungi jika ingin bersantai atau menikmati suasana sore di Gresik.",
       "teks_final": "telaga ngipik menjadi salah satu tempat cocok bersantai bersama keluarga berkunjung memilih menikmati makan siang area sekitar telaga sambil menikmati suasana terbuka anginnya cukup kencang sehingga udara terasa sejuk nyaman apalagi tengah cuaca gresik biasanya panas pemandangan telaganya cukup bagus memberikan suasana tenang memang datang posisi tempat duduk menghadap arah tpa sehingga sedikit mengurangi nilai estetikanya secara keseluruhan pengalaman berkunjung tetap menyenangkan suasananya nyaman berkumpul bersama keluarga semoga depannya penataan kawasan sekitar telaga terus ditingkatkan agar semakin menarik sebagai tempat wisata ruang terbuka masyarakat tetap layak dikunjungi ingin bersantai menikmati suasana sore gresik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Suasananya tenang dan menenangkan",
       "teks_final": "suasananya tenang menenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Mantab",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lagi banyak pikiran enak banget ke sini",
       "teks_final": "banyak pikiran enak banget sini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Bagus..banyak yg mancing",
       "teks_final": "bagus banyak mancing",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Ada penjaringan ikan skala besar yg dapat merugikan pemacing lain, penjaringan yg dilakukan besar2an uda sseperti tambak pribadi, mohon pihak terkain untuk ditindak lanjut , karena mengaggu kenyamanann umum",
       "teks_final": "penjaringan ikan skala besar merugikan pemacing lain penjaringan dilakukan besar2an uda sseperti tambak pribadi mohon pihak terkain ditindak lanjut mengaggu kenyamanann umum",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9426
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Cocok buat mancing",
       "teks_final": "cocok buat mancing",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "untuk view dan suasana bagus  tapi perlu perbanyak tenant makanan snack minuman  sayang sekali untuk dlagoon sekarang sepi perlu perombakan",
       "teks_final": "view suasana bagus perlu perbanyak tenant makanan snack minuman sayang dlagoon sekarang sepi perlu perombakan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8294
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Haup",
       "teks_final": "haup",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8565
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Tempat untuk mancing cocok ama keluarga meski dapat ikan kecil",
       "teks_final": "tempat mancing cocok ama keluarga meski ikan kecil",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     }
   ]

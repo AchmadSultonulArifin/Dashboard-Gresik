@@ -3,12 +3,12 @@
   "tempat": "BCA KCP Gresik",
   "rating": 4.6,
   "total_ulasan": 21,
-  "positif": 2,
+  "positif": 16,
   "netral": 4,
-  "negatif": 15,
-  "persen_positif": 9.5,
+  "negatif": 1,
+  "persen_positif": 76.2,
   "persen_netral": 19.0,
-  "persen_negatif": 71.4,
+  "persen_negatif": 4.8,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Orang luar daerah kurang di layanin",
       "teks_final": "orang luar daerah kurang layanin",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.996
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanannya ramah semua, mulai dari satpam sampai customer servicenya 🙂",
       "teks_final": "pelayanannya ramah semua mulai satpam sampai customer servicenya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanannya baik. Petugas ramah senyum. Setiap pagi selalu dimulai dengan salam serentak. Tempatnya luas. AC sejuk. Hindari jam istirahat karena petugasnya lebih sedikit dan kadang antrean penuh sesak. Saran: siapkan slip atau hal-hal yang diperlukan dari rumah untuk mempercepat antrean. Jangan baru disiapkan saat sudah di depan teller/CS.",
       "teks_final": "pelayanannya baik petugas ramah senyum setiap pagi selalu dimulai salam serentak tempatnya luas ac sejuk hindari jam istirahat petugasnya sedikit kadang antrean penuh sesak saran siapkan slip hal hal diperlukan rumah mempercepat antrean jangan disiapkan depan teller cs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5761
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "joooossee",
       "teks_final": "joooossee",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.985
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus, Ramah, Pelayanan cepat",
       "teks_final": "bagus ramah pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Teller nya banyak, pelayanannya sangat baik. ATM nya juga banyak, jadi kalau antri nggak lama-lama. Lokasi strategis, dekat dengan tempat kerjaku Parkir luas.",
       "teks_final": "teller banyak pelayanannya baik atm banyak jadi antrian lama lama lokasi strategis dekat tempat kerjaku parkir luas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9841
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "deket rumah mesin atm nya juga banyak parkir luas sekali muat motor dan mobil banyak lokasinya pun strategis karena byk dilalui kendaraan bisa tarik dan setor tunai",
       "teks_final": "deket rumah mesin atm banyak parkir luas muat motor mobil banyak lokasinya strategis banyak dilalui kendaraan tarik setor tunai",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.983
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Cepet",
       "teks_final": "cepet",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Ini cabang BCA favorit saya... se ain Dekat rumah, dekat kantor dan parkir mobil dan motor leluasa",
       "teks_final": "cabang bca favorit se ain dekat rumah dekat kantor parkir mobil motor leluasa",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5519
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Temapatnya enak dan transaksinyapun nyaman",
       "teks_final": "temapatnya enak transaksinyapun nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan memuaskan. Stafnya cekatan dan tanggap",
       "teks_final": "pelayanan memuaskan stafnya cekatan tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "salah satu bank besar BCA yang ada dikota gresik. berlokasi dipinggir jalan raya besar jadi memudahkan pengendara melintas melihat. meskipun dipinggir jalan raya untuk lokasi parkir terbilang sangat luas dan tidak memakai badan jalan, dan tidak seperti bank lainnya.. disini kita perlu membayar fee parkir. disini ada beberapa atm yang bisa digunakan juga, dan untuk tellernya juga terdapat banyak jadi kita tidak perlu menunggu lama. karyawan mulai satpam hingga karyawannya ramah. ruangan bersih dan sejuk.",
       "teks_final": "salah satu bank besar bca dikota gresik berlokasi dipinggir jalan raya besar jadi memudahkan pengendara melintas melihat meskipun dipinggir jalan raya lokasi parkir terbilang luas memakai badan jalan seperti bank lainnya disini perlu membayar fee parkir disini beberapa atm digunakan tellernya terdapat banyak jadi perlu menunggu lama karyawan mulai satpam hingga karyawannya ramah ruangan bersih sejuk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Bagus 👍👍",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Saya suka satpam dan pegawainya ramah sama nasaba",
       "teks_final": "suka satpam pegawainya ramah sama nasaba",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan baik. Antriannya cepat",
       "teks_final": "pelayanan baik antriannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     }
   ]

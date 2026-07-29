@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Panceng",
   "rating": 3.9,
   "total_ulasan": 8,
-  "positif": 2,
+  "positif": 6,
   "netral": 0,
-  "negatif": 6,
-  "persen_positif": 25.0,
+  "negatif": 2,
+  "persen_positif": 75.0,
   "persen_netral": 0.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Nggak rekomen buat yang mau kirim barang ke luar negeri ribet banget plus dipersulit",
       "teks_final": "rekomen buat mau kirim barang luar negeri ribet banget plus dipersulit",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9961
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan ramah dan cepat",
       "teks_final": "pelayanan ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "udah jelas no pengiriman 19B malah ditulis 196 , gajelas",
       "teks_final": "udah jelas no pengiriman 19b malah ditulis gajelas",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.989
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanannya baik sangat ramah",
       "teks_final": "pelayanannya baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Petugasnya ramah",
       "teks_final": "petugasnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan semakin ok.",
       "teks_final": "pelayanan semakin oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "mudah dan cpatt",
       "teks_final": "mudah cpatt",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.98
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Bridgeport Soccer Fields",
   "rating": 4.1,
   "total_ulasan": 10,
-  "positif": 1,
+  "positif": 5,
   "netral": 3,
-  "negatif": 6,
-  "persen_positif": 10.0,
+  "negatif": 2,
+  "persen_positif": 50.0,
   "persen_netral": 30.0,
-  "persen_negatif": 60.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Not as advertised on the map, at least not anymore and I'm guessing is cos it hasn't been maintained. The fields are not marked and so are the parking lot. Cool place to chill off though or kick ball around.",
       "teks_final": "not as advertised on the map at least not anymore and guessing is cos it hasn been maintained the fields are not marked and so are the parking lot cool place to chill off though or kick ball around",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.4916
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Nice and clean fields",
       "teks_final": "nice and clean fields",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9847
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "So fun and the food is delicious! Love it!",
       "teks_final": "so fun and the food is delicious love it",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9914
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Fun way of spending the weekend",
       "teks_final": "fun way of spending the weekend",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7655
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Nice pitch for soccer. One of the best in town and cheap to rent",
       "teks_final": "nice pitch for soccer one of the best in town and cheap to rent",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9291
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Nice park.",
       "teks_final": "nice park",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {

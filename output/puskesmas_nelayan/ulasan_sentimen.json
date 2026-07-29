@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Nelayan",
   "rating": 3.9,
   "total_ulasan": 24,
-  "positif": 13,
+  "positif": 12,
   "netral": 1,
-  "negatif": 10,
-  "persen_positif": 54.2,
+  "negatif": 11,
+  "persen_positif": 50.0,
   "persen_netral": 4.2,
-  "persen_negatif": 41.7,
+  "persen_negatif": 45.8,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "dokter di poli gigi jahat banget. sudah mah sakit gigi di bentak bentak, pokok nya judes banget ngmng nya gak bisa santai, marah marah Mulu",
       "teks_final": "dokter poli gigi jahat banget mah sakit gigi bentak bentak pokok judes banget ngmng santai marah marah mulu",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9984
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "kalo ga niat ngelayanin pasien mending pulang aja daripada ngasih mimik muka judes begitu. ga semua orang ngerti kondisi kamu, dengan kamu begitu aja nandain kalau ga profesional dalam bekerja. mending priksa di tempat lain aja",
       "teks_final": "kalo niat ngelayanin pasien mending pulang aja daripada ngasih mimik muka judes begitu semua orang ngerti kondisi begitu aja nandain profesional bekerja mending priksa tempat lain aja",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9939
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "gak tau dari kalian peduli review atau gak, tapi keramahannya tolong yah, di sini saya berobat bukan mau mengajak anda berkompetisi kehebatan, bikin nggak nyaman aja, saya di sini pasien gitu, lagi sakit dijudesin bikin sedih, jadi males",
       "teks_final": "tau kalian peduli review keramahannya tolong yah sini berobat bukan mau mengajak berkompetisi kehebatan bikin nyaman aja sini pasien gitu sakit dijudesin bikin sedih jadi males",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.997
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pasien BPJS malah disuruh bikin surat pengantar dulu RT, padahal pasien sudah 3 kali datang periksa dan hanya dikasih obat pereda nyeri, proses nya dibikin ribet intinya",
       "teks_final": "pasien bpjs malah disuruh bikin surat pengantar dulu rt padahal pasien kali datang periksa hanya dikasih obat pereda nyeri proses dibikin ribet intinya",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9893
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan sangat lambat,,, dr yg tugas juga jauh dri kata rama....+lagi ruang tunggu sangat tdk nyaman....trutama utk bu dr. Yg pakek kupluk agak tua...mohon agar lbh ramah dan jaga nama baik gelar dr ....kami disana butuh berbat bukan utk di omongin nadah tinggi .....aq yakin anda seorng dr. Lbh paham .kalo pasien bapil uda pasti pendengaran berkurng.....jdi gk salah kalo pasien kurng jelas penrtanyaan anda ..tpi anda langsung menyaut dg nada tinggi ....sehat sellau ilbu dr. 🤧🤧🤧",
       "teks_final": "pelayanan lambat tugas jauh dri kata rama ruang tunggu nyaman trutama bu pakek kupluk agak tua mohon agar ramah jaga nama baik gelar disana butuh berbat bukan omongin nadah tinggi aq yakin seorng paham kalo pasien bapil uda pasti pendengaran berkurng jdi salah kalo pasien kurng jelas penrtanyaan langsung menyaut nada tinggi sehat sellau ilbu",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.966
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan lama",
       "teks_final": "pelayanan lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9973
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "pelayanan tanggap. ramah.sangat inovatif",
       "teks_final": "pelayanan tanggap ramah inovatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "SAYA PAKE UMUM...NUNGGU ANTRIAN AJA 1 JAM...NUNGGU OBAT 1JAM SETENGAH... APA IYA BEROBAT HARUS NUNGGU LAMA",
       "teks_final": "pake umum nunggu antrian aja jam nunggu obat 1jam setengah apa iya berobat harus nunggu lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9837
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanannya sangat memuaskan. penanganan cepat.",
       "teks_final": "pelayanannya memuaskan penanganan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan yg ramah dan cepat dengan tenaga yg profesional serta ditunjang dg sarana dan prasarana yg memadai. jadi nyaman berobat di Puskesmas nelayan ini",
       "teks_final": "pelayanan ramah cepat tenaga profesional serta ditunjang sarana prasarana memadai jadi nyaman berobat puskesmas nelayan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Ada yg ramah, ada yang biasa, ada yg jutek. Biasanya yg jutek PNS nya. Bu dokter nya ngedumel kalo ada periksa hari Sabtu jam 10.",
       "teks_final": "ramah biasa jutek biasanya jutek pns bu dokter ngedumel kalo periksa hari sabtu jam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9956
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Terimakasih puskesmas nelayan, respon baik dr tenaga medis nya ke pasien Jgn berhenti berbenah diri, menerima kritik dan saran dr pasien utk lbh baik kedepan nya Keren untuk Bu bidan KOMALIYA",
       "teks_final": "terimakasih puskesmas nelayan respon baik tenaga medis pasien jgn berhenti berbenah diri menerima kritik saran pasien baik kedepan bagus bu bidan komaliya",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9533
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Berobat malah diomelin tidak ramah, minta surat keterangan berobat tidak dikasih.",
       "teks_final": "berobat malah diomelin ramah minta surat keterangan berobat dikasih",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9471
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Bagian farmasi tolong diganti saja , resep gak sesuai yg ditulis dokter nya malah dikasih obat lain , alhasil gak sembuh malah parah , dan ambil obat nya juga lama bnget , saya beli di apotik malah sembuh",
       "teks_final": "bagian farmasi tolong diganti saja resep sesuai ditulis dokter malah dikasih obat lain alhasil sembuh malah parah ambil obat lama bnget beli apotik malah sembuh",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9922
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan yg ramah,,",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Alhamdulillah. Pelayanan sangat memuaskan.kebersian sangat dijaga",
       "teks_final": "alhamdulillah pelayanan memuaskan kebersian dijaga",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Aku berobat ke kia pakai daftar online jkn mobile lebih cepat dan nyaman lhi",
       "teks_final": "aku berobat kia pakai daftar online jkn mobile cepat nyaman lhi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5032
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Alhamdulillah pelayanan di puskesmas Nelayan tambah Joss, tempatnya asri, bersih dan nyaman",
       "teks_final": "alhamdulillah pelayanan puskesmas nelayan tambah joss tempatnya asri bersih nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "mantap joss",
       "teks_final": "bagus joss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     }
   ]

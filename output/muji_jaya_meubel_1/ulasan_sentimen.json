@@ -3,12 +3,12 @@
   "tempat": "muji jaya meubel ( 1 )",
   "rating": 4.8,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 4,
   "netral": 1,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 66.7,
   "persen_netral": 16.7,
-  "persen_negatif": 83.3,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Godd",
       "teks_final": "godd",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8587
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Service toko memuaskan, barang lengkap untuk Springbed BIGLAND, Kasur Busa BIGFOAM order ukuran khusus pun dilayani dengan cepat. Kursi & lemari Plastik Napolly kualitasnya juga WOW oke banget.",
       "teks_final": "service toko memuaskan barang lengkap springbed bigland kasur busa bigfoam order ukuran khusus dilayani cepat kursi lemari plastik napolly kualitasnya wow oke banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "mebel terlengkap...  banyak berbagai merek mebel berkwalitas... dan memuaskan",
       "teks_final": "mebel terlengkap banyak berbagai merek mebel berkwalitas memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9759
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "SAMSAT PAYMENT CERME",
   "rating": 2.9,
   "total_ulasan": 13,
-  "positif": 6,
+  "positif": 3,
   "netral": 4,
-  "negatif": 3,
-  "persen_positif": 46.2,
+  "negatif": 6,
+  "persen_positif": 23.1,
   "persen_netral": 30.8,
-  "persen_negatif": 23.1,
+  "persen_negatif": 46.2,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -29,7 +29,7 @@
       "Ulasan": "pelayanan baik dan ramah serta cepat mantapp",
       "teks_final": "pelayanan baik ramah serta cepat mantapp",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Alhamdulillah pelayanan cepat dan petugasnya ramah  Kantor kecil antrian sampai diluar",
       "teks_final": "alhamdulillah pelayanan cepat petugasnya ramah kantor kecil antrian sampai diluar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan buruk, tidak memberikan arahan kepada customer",
       "teks_final": "pelayanan buruk memberikan arahan kepada customer",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9941
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayaan tidak ramah, ngateli pegawai e mbentak2",
       "teks_final": "pelayaan ramah ngateli pegawai mbentak2",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9927
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pegawai ne mbentak2 ngateli",
       "teks_final": "pegawai ne mbentak2 ngateli",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9966
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bad attitude, for services",
       "teks_final": "bad attitude for services",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.905
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Tgl 5-01-22, petugas cewek.nya judes g sopan, ganti aj malu-maluin samsat",
       "teks_final": "tgl petugas cewek judes sopan ganti aj malu maluin samsat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9981
     },
     {

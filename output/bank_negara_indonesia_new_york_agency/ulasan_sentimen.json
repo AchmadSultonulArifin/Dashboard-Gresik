@@ -3,12 +3,12 @@
   "tempat": "Bank Negara Indonesia New York Agency",
   "rating": 3.1,
   "total_ulasan": 18,
-  "positif": 6,
+  "positif": 2,
   "netral": 9,
-  "negatif": 3,
-  "persen_positif": 33.3,
+  "negatif": 7,
+  "persen_positif": 11.1,
   "persen_netral": 50.0,
-  "persen_negatif": 16.7,
+  "persen_negatif": 38.9,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Indonesia",
       "teks_final": "indonesia",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8579
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Customer Service tidak dapat dihubungi sama sekali. Petunjuk terkait pelayanan juga sangat minim.",
       "teks_final": "customer service dihubungi sama petunjuk terkait pelayanan minim",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5406
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sangat buruk, lambat respon",
       "teks_final": "buruk lambat respon",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pelayanan sangat kurang untuk bikin appoitment aja susahnya minta ampun kesian orang yang jauh dari luar new york ingin ke bni new york susah aksesnya",
       "teks_final": "pelayanan kurang bikin appoitment aja susahnya minta ampun kesian orang jauh luar new york ingin bni new york susah aksesnya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9975
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Terrible,  tried to call no one answer. Whatsup also no answer it’s not represent Indonesian people. Very very bad",
       "teks_final": "terrible tried to call no one answer whatsup also no answer its not represent indonesian people very very bad",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9072
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Zero star , I would given to this bank , cause the customer service is sucked, never pick up the call & the relationship department also sucked , they treated their customer very rude, I call relationship departmen his name Jerry he said cause I can not connect to the customer service , I ask him to transfer me to the customer service , but what he do instead , he hung up my phone call after he said he has work to do. funny, he didn’t  think I have work to do too, i already waste my time just to call you, how come you guys can work in the relationship department with the attitude like that. very disappointed.",
       "teks_final": "zero star would given to this bank cause the customer service is sucked never pick up the call the relationship department also sucked they treated their customer very rude call relationship departmen his name jerry he said cause can not connect to the customer service ask him to transfer me to the customer service but what he do instead he hung up my phone call after he said he has work to do funny he didnt think have work to do too already waste my time just to call you how come you guys can work in the relationship department with the attitude like that very disappointed",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.427
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan sangan kurang, menghubungi berkali kali tidak ada jawaban",
       "teks_final": "pelayanan sangan kurang menghubungi berkali kali jawaban",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9925
     },
     {

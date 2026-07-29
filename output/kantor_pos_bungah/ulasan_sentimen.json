@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Bungah",
   "rating": 2.8,
   "total_ulasan": 21,
-  "positif": 11,
+  "positif": 5,
   "netral": 5,
-  "negatif": 5,
-  "persen_positif": 52.4,
+  "negatif": 11,
+  "persen_positif": 23.8,
   "persen_netral": 23.8,
-  "persen_negatif": 23.8,
+  "persen_negatif": 52.4,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Jam kerja kok tutup gimana sih? Padahal mau ambil paket buru2 mau dipake",
       "teks_final": "jam kerja kok tutup gimana padahal mau ambil paket buru2 mau dipake",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9934
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan sangat lama dan tidak ramah, tidak ada antrean sama sekali tapi disuruh menunggu panggilan, dan saya datang lebih dulu tapi mendahulukan orang yang datang setelah saya",
       "teks_final": "pelayanan lama ramah antrean sama disuruh menunggu panggilan datang dulu mendahulukan orang datang",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9941
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan dan pengiriman cepat. Petugas ramah",
       "teks_final": "pelayanan pengiriman cepat petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Expedisi kok gak sesuai waktu masak jam set 2 tutup padahal waktu jam kerja",
       "teks_final": "expedisi kok sesuai waktu masak jam set tutup padahal waktu jam kerja",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9005
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Banyak promo promo menarik😍😍kirim 2 kg cukup bayar 1 kg😍😍",
       "teks_final": "banyak promo promo menarikkirim kg cukup bayar kg",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6902
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanannya sangat ramah jika kirim surat dan barang dsni",
       "teks_final": "pelayanannya ramah kirim surat barang dsni",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9885
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Barang saya kapan di antar ke rumah..padahal posisi barang sudah di kantor pos bungah ?? Kok gk di antar? Why? Kalian di bayar jadi kerja yg bener !!",
       "teks_final": "barang kapan antar rumah padahal posisi barang kantor pos bungah kok antar why kalian bayar jadi kerja bener",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5904
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanannya mantab",
       "teks_final": "pelayanannya mantab",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sudah 5 hari kirim paket dari surabaya gak sampai 2 padahal yg ke Lombok dan Bali sudah sampai, heran saya dg orang2 di kantor pos ini makan gaji buta mereka mau gajinya saja kerjanya g mau. Kl saya yg jg atasannya sdh saya pecat Kepalanya",
       "teks_final": "hari kirim paket surabaya sampai padahal lombok bali sampai heran orang2 kantor pos makan gaji buta mau gajinya saja kerjanya mau atasannya pecat kepalanya",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9976
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "gak jelas dan gak niat, barang ga sampe2 ternyata nyantol di kantornya dan gak dihubungi, mestinya diantar atau paling tidak ditelpon biar diambil sendiri lah, harus diperbaiki agar tidak kalah dg pengiriman lain,,",
       "teks_final": "jelas niat barang sampe2 ternyata nyantol kantornya dihubungi mestinya diantar paling ditelpon biar diambil sendiri harus diperbaiki agar kalah pengiriman lain",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9971
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan ramah 😊",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "perlu di benahi untuk kantor pos Bungah.. pelayanan pengiriman barang mengecewakan.. barang sering gak di kirim ke alamat, dan selalu meminta penerima yg datang ke kantor pos untuk ambil paket. padahal setiap kiriman itu ada biaya...kerja yg bener doonk.. jangan rusak Citra kantor Pos dengan kinerja oknum petugas yg gak jelas..",
       "teks_final": "perlu benahi kantor pos bungah pelayanan pengiriman barang mengecewakan barang sering kirim alamat selalu meminta penerima datang kantor pos ambil paket padahal setiap kiriman biaya kerja bener doonk jangan rusak citra kantor pos kinerja oknum petugas jelas",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9953
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Buat kariyawan pos,tolong yang bertanggung jawab dong....paket udah datang kok belum diantarkan ke penerima sah nya....",
       "teks_final": "buat kariyawan pos tolong bertanggung jawab paket udah datang kok diantarkan penerima sah",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7834
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "pelayanan tidak baik, kurin tidak sopan...pengiriman sering telat masak harus ke kantor buat menanyakan status pengiriman kalau gak gitu gak dikirim kirim....kurir banyak alasan pdahal disity tertera alamat dan nomr telpon jelas...Tolong diperbaiki sistem dan etika kerja di kantor pos Bungah Gresik..Terimkasih",
       "teks_final": "pelayanan baik kurin sopan pengiriman sering telat masak harus kantor buat menanyakan status pengiriman gitu dikirim kirim kurir banyak alasan pdahal disity tertera alamat nomr telpon jelas tolong diperbaiki sistem etika kerja kantor pos bungah gresik terimkasih",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9132
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Saya nunggu paket dari bali pdahal udah nyampe di pos bungah dri tgl 29 tpi sampek skrng belum diantar ke rumah. Kok jancuk sih pak sampean",
       "teks_final": "nunggu paket bali pdahal udah nyampe pos bungah dri tgl sampek skrng diantar rumah kok jancuk pak sampean",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7432
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Nunggu paketan dari benjeng ke bungah udah 5 hari ngk nyampe2 saya cek resi masi proses. Kemarin dari kebomas ke bungah baru 2 hari sudah sampai. Entah apa yg merasukimu🤷‍♂️🤷‍♂️",
       "teks_final": "nunggu paketan benjeng bungah udah hari ngk nyampe2 cek resi masi proses kemarin kebomas bungah hari sampai entah apa merasukimu",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9836
     },
     {

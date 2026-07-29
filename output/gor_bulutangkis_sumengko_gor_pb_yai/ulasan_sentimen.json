@@ -3,12 +3,12 @@
   "tempat": "GOR BULUTANGKIS SUMENGKO/GOR PB YAI",
   "rating": 4.8,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 4,
   "netral": 0,
-  "negatif": 3,
-  "persen_positif": 25.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "joss lapangan nya bersih dan suci",
       "teks_final": "joss lapangan bersih suci",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9875
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "lapangan lumayan bagus, parkir masih terlalu minim",
       "teks_final": "lapangan lumayan bagus parkir terlalu minim",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7015
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "GOR bersih baik ownernya",
       "teks_final": "gor bersih baik ownernya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     }
   ]

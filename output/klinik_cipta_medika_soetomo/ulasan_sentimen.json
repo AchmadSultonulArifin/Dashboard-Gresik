@@ -3,12 +3,12 @@
   "tempat": "Klinik Cipta Medika Soetomo",
   "rating": 4.8,
   "total_ulasan": 14,
-  "positif": 1,
+  "positif": 12,
   "netral": 1,
-  "negatif": 12,
-  "persen_positif": 7.1,
+  "negatif": 1,
+  "persen_positif": 85.7,
   "persen_netral": 7.1,
-  "persen_negatif": 85.7,
+  "persen_negatif": 7.1,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan sudah baik ditingkatkan lagi pelayanannya terbaik",
       "teks_final": "pelayanan baik ditingkatkan pelayanannya terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9917
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Petugasnya baik dan sopan",
       "teks_final": "petugasnya baik sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9869
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "sudah baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Alhamdulilah dapat pemeriksaan rutin",
       "teks_final": "alhamdulilah pemeriksaan rutin",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9088
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Ramah baik dan gercep",
       "teks_final": "ramah baik gercep",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Dokternya sekarang beda2 sama yg dulu,  sekarang dokternya tidak seramah dulu 😌",
       "teks_final": "dokternya sekarang beda2 sama dulu sekarang dokternya seramah dulu",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9941
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Baik puas",
       "teks_final": "baik puas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9927
     }
   ]

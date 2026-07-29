@@ -3,12 +3,12 @@
   "tempat": "Klinik Pratama Dinayla Utama 98",
   "rating": 4.5,
   "total_ulasan": 28,
-  "positif": 4,
+  "positif": 23,
   "netral": 1,
-  "negatif": 23,
-  "persen_positif": 14.3,
+  "negatif": 4,
+  "persen_positif": 82.1,
   "persen_netral": 3.6,
-  "persen_negatif": 82.1,
+  "persen_negatif": 14.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Lambat sekali",
       "teks_final": "lambat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan cepat tempat jg nyaman",
       "teks_final": "pelayanan cepat tempat nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanannya bagus, cepat dan ramah,",
       "teks_final": "pelayanannya bagus cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan baik & ramah,terima kasih.",
       "teks_final": "pelayanan baik ramah terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9865
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Bersih palayanan baik",
       "teks_final": "bersih palayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan baik dokter juga ramah pokoknya the best dech",
       "teks_final": "pelayanan baik dokter ramah pokoknya the best dech",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "udah daftar online di apk MobileJKN biar dapet nomor urut kecil dan cepet dipanggil, biar ga ngantri. tapi ternyata pemanggilan ke ruang dokternya sesuai dengan kedatangan (in case yang ngantri banyak). misal; aku udh dateng dan nunjukin bukti kalau sudah daftar online dengan nomor antrian kecil, tapi tetap nunggu lama, yang dipanggil nomor2 gede dulu (yang udh dateng duluan), aku yg nomor kecil ditaroh diakhir wkwkwk  udah berkali2 diginiin. terus apa gunanya nomor antriaan? jujur sebel",
       "teks_final": "udah daftar online apk mobilejkn biar dapet nomor urut kecil cepet dipanggil biar antrian ternyata pemanggilan ruang dokternya sesuai kedatangan in case antrian banyak misal aku udh dateng nunjukin bukti daftar online nomor antrian kecil tetap nunggu lama dipanggil nomor2 gede dulu udh dateng duluan aku nomor kecil ditaroh diakhir udah berkali2 diginiin terus apa gunanya nomor antriaan jujur sebel",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9866
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan ramah, sangat puas",
       "teks_final": "pelayanan ramah puas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Menurut saya si sangat baik pelayanannya, untuk mbak² yg ada di pendaftaran sangat baik dan rama kepada pasien terutama dokter umumnya jg sangat baik dan bijaksana kepada pasien",
       "teks_final": "menurut si baik pelayanannya mbak pendaftaran baik rama kepada pasien terutama dokter umumnya baik bijaksana kepada pasien",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9298
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanan top... ramah.. daftr online bpjs nga usah pake antri.. rutin periksa diabetes..sebulan sekali",
       "teks_final": "pelayanan top ramah daftr online bpjs nga usah pake antrian rutin periksa diabetes sebulan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9866
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "perawat nya ramah', dokternya ngejelasin nya detail, dan pelayanan nya sangat baik",
       "teks_final": "perawat ramah dokternya ngejelasin detail pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9718
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Perawatnya ramah² apalagi dokternya baik dan ramah,dan pelayanan nya sangat baik",
       "teks_final": "perawatnya ramah apalagi dokternya baik ramah pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "mbak\" perawat dan dokternya baik dan sangat ramah sekali, pelayanannya juga sangat baik",
       "teks_final": "mbak perawat dokternya baik ramah pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9903
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Bagian pendaftaran nya gak Ramah sama sekali hanya tanya malah bergumang gak jelas.  Kyk gak punya attitude.   Takut para pasien kabur GK berobat disana karna attitude bagian pendaftaran.  Saya sangat kecewa",
       "teks_final": "bagian pendaftaran ramah sama hanya tanya malah bergumang jelas kyk punya attitude takut para pasien kabur berobat disana karna attitude bagian pendaftaran kecewa",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9972
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Untuk dokter gigi nya kurang sekali, ketus kalau bicara dengan pasien, tidak ramah sama sekali, untuk mbak mbak yg di depan okee banget, ramah sekali pelayanan nya, kekurangan nya di dokter gigi, tolong di perbaiki",
       "teks_final": "dokter gigi kurang ketus bicara pasien ramah sama mbak mbak depan okee banget ramah pelayanan kekurangan dokter gigi tolong perbaiki",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.977
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelanyanannya bagus dokternya ramah sekali apalagi untuk anak yg usianya masih balita...terima kasih...🙏",
       "teks_final": "pelanyanannya bagus dokternya ramah apalagi anak usianya balita terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan the best 1000/10, dsni nerima bpjs juga lokasi terdekat dri rumah drancang trimakasih",
       "teks_final": "pelayanan the best dsni nerima bpjs lokasi terdekat dri rumah drancang trimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9359
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Tempatnya nyaman bersih dan pelayanan OK",
       "teks_final": "tempatnya nyaman bersih pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Cepat tanggap baik",
       "teks_final": "cepat tanggap baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.991
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "mbak2 dan masnya selalu menerima dengan baik, suka bercanda, warm heart lah. Karena seringnya saya datang malam hari sepulang kerja keadaan capek dan kurang sehat, dapat pelayanan baik itu jd \"adem\" aja hati. mbak2 dan masnya (yg malam) ga ada jarak sama kami (pasien), ramah pula sama anak2/bayi. dokternya juga ramah semuanya. semoga Allah memberi keberkahan untuk kalian semua",
       "teks_final": "mbak2 masnya selalu menerima baik suka bercanda warm heart seringnya datang malam hari sepulang kerja keadaan capek kurang sehat pelayanan baik jd adem aja hati mbak2 masnya malam jarak sama pasien ramah sama anak2 bayi dokternya ramah semuanya semoga allah memberi keberkahan kalian semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Bagus pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanannya bagus dan rs nya bersih",
       "teks_final": "pelayanannya bagus rumah sakit bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan cepat, dokternya sangat ramah dan enak untuk konsultasi, pegawai lainnya jga ramah dan sangat membantu.",
       "teks_final": "pelayanan cepat dokternya ramah enak konsultasi pegawai lainnya jga ramah membantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Klinik terpecaya pelayanan bagus",
       "teks_final": "klinik terpecaya pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Klinik Langganan peserta BPJS , Pelayanan cepat , dokter ramah dan komunikatif.",
       "teks_final": "klinik langganan peserta bpjs pelayanan cepat dokter ramah komunikatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9707
     }
   ]

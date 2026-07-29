@@ -3,12 +3,12 @@
   "tempat": "Excellent School ( PG, TK, SD, SMP )",
   "rating": 4.3,
   "total_ulasan": 26,
-  "positif": 4,
+  "positif": 20,
   "netral": 2,
-  "negatif": 20,
-  "persen_positif": 15.4,
+  "negatif": 4,
+  "persen_positif": 76.9,
   "persen_netral": 7.7,
-  "persen_negatif": 76.9,
+  "persen_negatif": 15.4,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -29,7 +29,7 @@
       "Ulasan": "Sekolah macam apa ini woy guru jarang masuk, minim fasilitas,toiletnya ga nyala airnya, dikit dikit denda, ac-nya sering mati,sekolahnya sering mati listrik karna ga dibayar hadehh jelek banget ini",
       "teks_final": "sekolah macam apa woy guru jarang masuk minim fasilitas toiletnya nyala airnya dikit dikit denda ac sering mati sekolahnya sering mati listrik karna dibayar hadehh jelek banget",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "saya dulu alumni ini...dan jujur saja selama saya sekolah di smp excellent saya diberikan berbagai ilmu bermanfaat, pengalaman, dan guru-guru maupun staffnya juga ramah-ramah semua",
       "teks_final": "dulu alumni jujur saja selama sekolah smp excellent diberikan berbagai ilmu bermanfaat pengalaman guru guru maupun staffnya ramah ramah semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sekolah saya dulu tempat yang memberikan banyak pengalaman saya belajar berbagai ilmu, mengenal teman-teman baru, serta dibimbing oleh guru-guru yang baik dan sabar. Sekolah tersebut juga mengajarkan saya untuk disiplin, bertanggung jawab, dan bekerja sama dengan orang lain.",
       "teks_final": "sekolah dulu tempat memberikan banyak pengalaman belajar berbagai ilmu mengenal teman teman serta dibimbing guru guru baik sabar sekolah tersebut mengajarkan disiplin bertanggung jawab bekerja sama orang lain",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.98
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "guru-gurunya ramah, sabar, baik",
       "teks_final": "guru gurunya ramah sabar baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "sistem pembelajarannya baik, guru-gurunya juga ramah, banyak kegiatan positif untuk mengembangkan potensi siswa. Semoga semakin maju dan terus mencetak generasi berprestasi.",
       "teks_final": "sistem pembelajarannya baik guru gurunya ramah banyak kegiatan positif mengembangkan potensi siswa semoga semakin maju terus mencetak generasi berprestasi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9903
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pak tarom belum tumbuh rambut kebanyakan yapping,kamar mandi jorok kadang ada t4i,gurunya tidak ramah, ac nya ga dingin giliran diminta perbaiki ga di perbaiki malah yapping sih botak, ga sesuai sama yang ada di iklan, lebih anehnya lagi ketika saya minta token listrik si botak bilang \"siapa yang habisin tokennya\" yah listrik lah siapa lagi,pembagian kelasnya ga adil ada kelas unggulan sama ga lah tujuannya buat sekolah malah pake kelas unggulan malah tambah mahal lagi kalo kelas unggulan cari untung banget si botak,terus makannan kantinnya ada yang dipanasi lagi jadi agak ga enak, nyesel anak saya sekolah disini",
       "teks_final": "pak tarom tumbuh rambut kebanyakan yapping kamar mandi jorok kadang t4i gurunya ramah ac dingin giliran diminta perbaiki perbaiki malah yapping botak sesuai sama iklan anehnya minta token listrik si botak bilang siapa habisin tokennya yah listrik siapa pembagian kelasnya adil kelas unggulan sama tujuannya buat sekolah malah pake kelas unggulan malah tambah mahal kalo kelas unggulan cari untung banget si botak terus makannan kantinnya dipanasi jadi agak enak nyesel anak sekolah disini",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7456
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sekolah yang siswanya banyak dan ramah ramah gurunya, tempatnya luas full AC semua kelasnya Mantap ada ekstra angklung dll",
       "teks_final": "sekolah siswanya banyak ramah ramah gurunya tempatnya luas full ac semua kelasnya bagus ekstra angklung dll",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sekolah mulai dari pg-tk-sd-smp Lapangannya luas,tempatnya bersih",
       "teks_final": "sekolah mulai pg tk sd smp lapangannya luas tempatnya bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Beli buku Dan es waku Smp excellent sekolahku Pak billy favoritku",
       "teks_final": "beli buku es waku smp excellent sekolahku pak billy favoritku",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6167
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sekolah bersih, jajanannya jangan lengkap dan banyak, orangnya juga seru\", ilmu yang saya dapatkan dari sini juga bermanfaat, tidak menyesal saya bersekolah disini selama 3 tahun  Parkirannya juga sangat luas, banyak jajanan enak\", gurunya ramah, staff nya juga ramah, toilet bersih, kantin jajanannya enak\", kelasnya bersih, anak anaknya rajin, solidaritas cukup tinggi disini, disini baik guru dan murid cukup andil, AC nya juga dingin  Seperti pada digambar kelas 7a, kelasnya bersih dan rapi dan juga bagus, itu tandanya guru excellent berhasil mengajarkan mereka untuk bersih, rapi, nyaman dan kerjasama",
       "teks_final": "sekolah bersih jajanannya jangan lengkap banyak orangnya seru ilmu dapatkan sini bermanfaat menyesal bersekolah disini selama tahun parkirannya luas banyak jajanan enak gurunya ramah staff ramah toilet bersih kantin jajanannya enak kelasnya bersih anak anaknya rajin solidaritas cukup tinggi disini disini baik guru murid cukup andil ac dingin seperti digambar kelas 7a kelasnya bersih rapi bagus tandanya guru excellent berhasil mengajarkan bersih rapi nyaman kerjasama",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9387
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Sekolah nya bagus, rapi, bersih Guru\" Nya juga baik\" Gak ada bulying Nantinya bersih lengkap pokoknyaaa 🤗",
       "teks_final": "sekolah bagus rapi bersih guru baik bulying nantinya bersih lengkap pokoknyaaa",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "sekolahnya bener bener bersih dan rapi,sampah nya muinim dan solid,tidak membully dan penuh kerja sama",
       "teks_final": "sekolahnya bener bener bersih rapi sampah muinim solid membully penuh kerja sama",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.993
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "sekolah nya bagus tempat nya sangat bersih cocok untuk anak anda untuk sekolah di sini murid nya semua ramah",
       "teks_final": "sekolah bagus tempat bersih cocok anak sekolah sini murid semua ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "SMP excellent sangat bagus Dan banyak fasilitas Dan bagus",
       "teks_final": "smp excellent bagus banyak fasilitas bagus",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Sekolahnya sangat baik dan asri , dan banyak fasilitas nya yang baik dan rapi",
       "teks_final": "sekolahnya baik asri banyak fasilitas baik rapi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9917
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Visi misi sekolahnya keren",
       "teks_final": "visi misi sekolahnya bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Administrasinya sangat bagusss dan gurunya juga baik",
       "teks_final": "administrasinya bagusss gurunya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Sekolah ini memang hebat. Berbeda Ras, agama dan bahasa ibu, tapi begitu indah Damai. Guru2 dan staf nya juga ramah2 dan welcome...🥰",
       "teks_final": "sekolah memang hebat berbeda ras agama bahasa ibu begitu indah damai guru2 staf ramah2 welcome",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "sekolahnya nyaman untuk belajar,gurunya baik baik enak saat menggajar,siswa nya semuanya displin.",
       "teks_final": "sekolahnya nyaman belajar gurunya baik baik enak menggajar siswa semuanya displin",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9339
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Gurunya ramah',muridnya rukun',sekolah nya disiplin, tepat waktu, parkirannya rapi",
       "teks_final": "gurunya ramah muridnya rukun sekolah disiplin tepat waktu parkirannya rapi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "sekolahnya valid no debat, gurunya chill sekolah nya relate banget sama anak sekarang",
       "teks_final": "sekolahnya valid no debat gurunya chill sekolah relate banget sama anak sekarang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6842
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "sekolahnya nyaman, dan sekolah hebat temennya seru\" juga, dan memberikan pengalaman yang menarik",
       "teks_final": "sekolahnya nyaman sekolah hebat temennya seru memberikan pengalaman menarik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "kamar mandi kotor, kantin jorok, guru guru tidak ramah, makanan tidak higienis, fasilitas sekolah kurang memadai.",
       "teks_final": "kamar mandi kotor kantin jorok guru guru ramah makanan higienis fasilitas sekolah kurang memadai",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9975
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "sekolahnya kotor, guru guru tidak ramah, menyesal saya sekolah disini.",
       "teks_final": "sekolahnya kotor guru guru ramah menyesal sekolah disini",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     }
   ]

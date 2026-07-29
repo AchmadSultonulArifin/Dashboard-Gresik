@@ -3,12 +3,12 @@
   "tempat": "DAMKAR Gresik pos Driyorejo",
   "rating": 5,
   "total_ulasan": 4,
-  "positif": 0,
+  "positif": 4,
   "netral": 0,
-  "negatif": 4,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -18,7 +18,7 @@
       "Ulasan": "Respon cepat, terima kasih sudah membantu menangkap ular di rumah. Semoga lancar berkah rezekinya dan selalu dalam perlindungan Allah dalam bertugas.",
       "teks_final": "respon cepat terima kasih membantu menangkap ular rumah semoga lancar berkah rezekinya selalu perlindungan allah bertugas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9348
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Terima kasih semoga rezekinya lancar dan sehat selalu",
       "teks_final": "terima kasih semoga rezekinya lancar sehat selalu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9373
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Cepet banget.....terimakasih bapak2 pemadam ...selalu diberi kesehatan.....rejeki barokah......kalian orang2 yang sangat berjasa 😇😇😇",
       "teks_final": "cepet banget terimakasih bapak2 pemadam selalu diberi kesehatan rejeki barokah kalian orang2 berjasa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9857
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Cepet bgt responnya, terimakasih",
       "teks_final": "cepet banget responnya terimakasih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9784
     }
   ]

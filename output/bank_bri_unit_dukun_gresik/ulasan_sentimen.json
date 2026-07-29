@@ -3,12 +3,12 @@
   "tempat": "Bank BRI UNIT Dukun Gresik",
   "rating": 2.9,
   "total_ulasan": 15,
-  "positif": 3,
+  "positif": 5,
   "netral": 2,
-  "negatif": 10,
-  "persen_positif": 20.0,
+  "negatif": 8,
+  "persen_positif": 33.3,
   "persen_netral": 13.3,
-  "persen_negatif": 66.7,
+  "persen_negatif": 53.3,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Tidak Recomend banget , bikin rekening baru kartunya bisa kosong dijanjiin 2mingguan setelah kembali lagi katanya masih kosong sampek 2 bulanan lagi baru ada , tidak ada solusi sama sekali terus gimana mau transaksi kalau gak ada kartunya , sudah minta ke cabang2 lain dipusat2 katanya suruh ke unitnya pas waktu bikin rekening , mau nabung aja ribet dilempar2",
       "teks_final": "recomend banget bikin rekening kartunya kosong dijanjiin 2mingguan kembali katanya kosong sampek bulanan solusi sama terus gimana mau transaksi kartunya minta cabang2 lain dipusat2 katanya suruh unitnya pas waktu bikin rekening mau nabung aja ribet dilempar2",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9483
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanannya cepat",
       "teks_final": "pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Satpam galak. Nanyai nasabah kayak introgasi terpidana",
       "teks_final": "satpam galak nanyai nasabah kayak introgasi terpidana",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.995
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "BRI yg selalu ramah dengan nasabah baik lansia maupun muda",
       "teks_final": "bri selalu ramah nasabah baik lansia maupun muda",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9781
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Satpam yang baru besar dan tidak ramah sama sekali sama pelanggan. Ramahan satpam yang dulu,sangat ramah dan bijak, yang sedikit pendek orangnya",
       "teks_final": "satpam besar ramah sama sama pelanggan ramahan satpam dulu ramah bijak sedikit pendek orangnya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.783
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Makin mantab Pelayanannya",
       "teks_final": "makin mantab pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Salah satu bank yg ada di kecamatan dukun yang tiap hari selalu ramai.",
       "teks_final": "salah satu bank kecamatan dukun tiap hari selalu ramai",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7355
     }
   ]

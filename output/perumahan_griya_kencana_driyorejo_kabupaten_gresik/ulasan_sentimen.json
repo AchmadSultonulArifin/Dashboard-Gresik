@@ -3,12 +3,12 @@
   "tempat": "Perumahan Griya Kencana Driyorejo Kabupaten Gresik",
   "rating": 4.3,
   "total_ulasan": 11,
-  "positif": 0,
+  "positif": 11,
   "netral": 0,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Sangat ramah",
       "teks_final": "ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Perumahan adem ayem tentrem sembarang murah",
       "teks_final": "perumahan adem ayem tentrem sembarang murah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "City jooosss",
       "teks_final": "city jooosss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9082
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus rumahnya",
       "teks_final": "bagus rumahnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lokasi aman dan nyaman",
       "teks_final": "lokasi aman nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sederhana namun indah dan penuh kedamaian",
       "teks_final": "sederhana indah penuh kedamaian",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Lingkungan yang masih asri sebagai tempat hunian",
       "teks_final": "lingkungan asri sebagai tempat hunian",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9907
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Tambah rame",
       "teks_final": "tambah rame",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     }
   ]

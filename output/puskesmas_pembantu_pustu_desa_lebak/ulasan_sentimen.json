@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Pembantu (PUSTU) Desa Lebak",
   "rating": 4.7,
   "total_ulasan": 3,
-  "positif": 1,
+  "positif": 2,
   "netral": 1,
-  "negatif": 1,
-  "persen_positif": 33.3,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 33.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan kesehatan yang baik dan sangat bagus",
       "teks_final": "pelayanan kesehatan baik bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "Kantor Kecamatan Driyorejo",
   "rating": 3.4,
   "total_ulasan": 19,
-  "positif": 8,
+  "positif": 9,
   "netral": 3,
-  "negatif": 8,
-  "persen_positif": 42.1,
+  "negatif": 7,
+  "persen_positif": 47.4,
   "persen_netral": 15.8,
-  "persen_negatif": 42.1,
+  "persen_negatif": 36.8,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "PELAYANAN RUWET DAN TIDAK INFORMATIF PECAT SAJA SELURUH KARYAWAN DISITU!!  GRESIK SELATAN PELAYAN CATATAN SIPIL SELURUHNYA RUWET",
       "teks_final": "pelayanan ruwet informatif pecat saja seluruh karyawan disitu gresik selatan pelayan catatan sipil seluruhnya ruwet",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9976
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanannya buruk . Pegawainya tukang marah marah terus terutama yang melayani pembuatan KTP",
       "teks_final": "pelayanannya buruk pegawainya tukang marah marah terus terutama melayani pembuatan ktp",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan penuh perhatian dan menyenangkan.",
       "teks_final": "pelayanan penuh perhatian menyenangkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Masa iya bikin ktp gabisa alasanya trouble.malah disuruh ke kantor kecamatan kedamaean",
       "teks_final": "masa iya bikin ktp gabisa alasanya trouble malah disuruh kantor kecamatan kedamaean",
       "topik": "Administrasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.969
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bikin E-KTP main lempar sana lempar sini. 👎🏽",
       "teks_final": "bikin ktp main lempar sana lempar sini",
       "topik": "Administrasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9923
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Ruwet berkas udah ada TTD malah d tahan pelayanan nol",
       "teks_final": "ruwet berkas udah ttd malah tahan pelayanan nol",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan baik dan cepat",
       "teks_final": "pelayanan baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Banyak manfaatnya",
       "teks_final": "banyak manfaatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayan buruk,, tambah dibulet buletno suu",
       "teks_final": "pelayan buruk tambah dibulet buletno suu",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayann OK. Tempat sejuk n terlihat dri jl raya",
       "teks_final": "pelayann oke tempat sejuk terlihat dri jl raya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Halaman cukup luas, pelayanan cepat, suasana teduh dan nyaman. jalan di luar sering di lalui truck besar.",
       "teks_final": "halaman cukup luas pelayanan cepat suasana teduh nyaman jalan luar sering lalui truck besar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9901
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Nice place",
       "teks_final": "nice place",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {

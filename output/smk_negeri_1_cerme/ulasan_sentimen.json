@@ -3,12 +3,12 @@
   "tempat": "SMK Negeri 1 Cerme",
   "rating": 4.7,
   "total_ulasan": 14,
-  "positif": 3,
+  "positif": 11,
   "netral": 1,
-  "negatif": 10,
-  "persen_positif": 21.4,
+  "negatif": 2,
+  "persen_positif": 78.6,
   "persen_netral": 7.1,
-  "persen_negatif": 71.4,
+  "persen_negatif": 14.3,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "SMK SIAP SUKSES - Teknik Komputer & Jaringan",
       "teks_final": "smk siap sukses teknik komputer jaringan",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6623
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus .",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempatnya luas",
       "teks_final": "tempatnya luas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "SENANG SEKALIIII BISA DITERIMA DISEKOLAH SMKN 1 CERME INII PADA JURUSAN DKV 🖤🎨🖌️🖍️🖼️, BINTANG ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ SAYA MENDAPAT BANYAK TEMAN DISINI ( karena saya extrovert🤭🤭 ) TEMAN TEMAN SAYAA BAIK HATI SEMUANYAA, kaya, baik hati, tidak sombong, murah senyum, pelajarannya mudah asix, menyenangkan, jajan dikantinnya enak enak, kelasnya ADEMMMM SERRRR BISTIII UDA BER AC BERKIPAS BERWIFII🤩🤩 EKSTRAKULIKULERNYA JUGA SERUUU SEMUAA‼️‼️ AYOOOOO ADIK ADIKK JOINN DKV SMKNICE🖤🖼️🖍️🖌️🎨✨",
       "teks_final": "senang sekaliiii diterima disekolah smkn cerme inii jurusan dkv bintang mendapat banyak teman disini extrovert teman teman sayaa baik hati semuanyaa kaya baik hati sombong murah senyum pelajarannya mudah asix menyenangkan jajan dikantinnya enak enak kelasnya ademmmm serrrr bistiii uda ber ac berkipas berwifii ekstrakulikulernya seruuu semuaa ayooooo adik adikk joinn dkv smknice",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9886
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Satu2nya SMK negeri di kota Gresik. Banyak pilihan kompetensi kejuruan. Khusus jurusan TKJ, salam \"Tang Krimping\" dari TKJ SMK NU Gresik.",
       "teks_final": "satu2nya smk negeri kota gresik banyak pilihan kompetensi kejuruan khusus jurusan tkj salam tang krimping tkj smk nu gresik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6297
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "satpam minus attitude",
       "teks_final": "satpam minus attitude",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9964
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "tolong jagalah attitude satpam nya",
       "teks_final": "tolong jagalah attitude satpam",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6429
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Kata anak saya sendiri,  smkn 1 cerme gresik adalah sekolah yang keren, modern..... Dan suasana pembelajaran yang menyenangkan.",
       "teks_final": "kata anak sendiri smkn cerme gresik sekolah bagus modern suasana pembelajaran menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "sekolah terfavorit, dulu saya berusaha mati\"an agar bisa diterima disini.. sempat ragu bisa diterima apa tidak karena saingannya lumayan berat..dan akhirnya bisa lulus dgn jurusan Kimia Analis dr sekolah tercinta ini.. terimakasih SMKN 1 Cerme sudah mau menerima dan mendidik saya dgn  baik.",
       "teks_final": "sekolah terfavorit dulu berusaha mati an agar diterima disini sempat ragu diterima apa saingannya lumayan berat akhirnya lulus jurusan kimia analis sekolah tercinta terimakasih smkn cerme mau menerima mendidik baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9299
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Alhamdulillah keren SMK ini",
       "teks_final": "alhamdulillah bagus smk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Banyak sekali pengalaman yang didapat",
       "teks_final": "banyak pengalaman didapat",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9799
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Excellent 👍",
       "teks_final": "excellent",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     }
   ]

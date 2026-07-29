@@ -3,12 +3,12 @@
   "tempat": "Kantorpos Bandung Antapani",
   "rating": 4.2,
   "total_ulasan": 23,
-  "positif": 2,
+  "positif": 18,
   "netral": 2,
-  "negatif": 19,
-  "persen_positif": 8.7,
+  "negatif": 3,
+  "persen_positif": 78.3,
   "persen_netral": 8.7,
-  "persen_negatif": 82.6,
+  "persen_negatif": 13.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sekarang udh bagus ya pelayanannya. Mantap, semua bisa ditransaksikan.",
       "teks_final": "sekarang udh bagus ya pelayanannya bagus semua ditransaksikan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Parkir memadai, layanan bagus👍🏻",
       "teks_final": "parkir memadai layanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tolonggggg pelayannya ya ramah kantor pos kan kantor pelayanan  sedekitnya harus ramah dikit lahhh tegur lahhh atau ga bilang sebentar lahhh ini mahhh udh mah di masker saya bilang beli materai aja ga ngomong juga2 kaya ga punya mulut aja pakkkkkkkkk halooooooo pakkkkk saya mu beli materaiiiii jangan di diemmmm malam bantuin cap in yg org lain coba ngomong bentar bu ehhh malahhhh so coollllll  malessss bangettt yaaa ke kantor posss padahal deket banget dari rumah ...ganti dong orgnya yg muda2 barang kali kl yg muda mah ramah2",
       "teks_final": "tolonggggg pelayannya ya ramah kantor pos kan kantor pelayanan sedekitnya harus ramah dikit lahhh tegur lahhh bilang sebentar lahhh mahhh udh mah masker bilang beli materai aja ngomong juga2 kaya punya mulut aja pakkkkkkkkk halooooooo pakkkkk mu beli materaiiiii jangan diemmmm malam bantuin cap in org lain coba ngomong bentar bu ehhh malahhhh so coollllll malessss bangettt yaaa kantor posss padahal deket banget rumah ganti orgnya muda2 barang kali muda mah ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9208
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bangunannya sudah tua tapi terpelihara. Parkir sangat luas. Pelayanan ramah, ruang tunggu banyak dan luas.",
       "teks_final": "bangunannya tua terpelihara parkir luas pelayanan ramah ruang tunggu banyak luas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9872
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan yang cepat, sangat membantu. Petugasnya sangat ramah dan hangat.",
       "teks_final": "pelayanan cepat membantu petugasnya ramah hangat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanannya sangat ramah. Waktu pencairan BSU bawa persyaratan, langsung cairrrrr mantapppp 🔥🔥",
       "teks_final": "pelayanannya ramah waktu pencairan bsu bawa persyaratan langsung cairrrrr mantapppp",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan nya ramah, bapak nya baik banget, pencairan dana BSU juga satset langsung cair, tempatnya juga nyaman",
       "teks_final": "pelayanan ramah bapak baik banget pencairan dana bsu satset langsung cair tempatnya nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bapaknya ramah bangettt, pelayanan cepatt , tempat parkir lumayan luas, deket fotocopy, kang parkirnya juga cukup ramah",
       "teks_final": "bapaknya ramah bangettt pelayanan cepatt tempat parkir lumayan luas deket fotocopy kang parkirnya cukup ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanannya cepat & baik",
       "teks_final": "pelayanannya cepat baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan nya sangat ramah tempat nyaman terimakasih",
       "teks_final": "pelayanan ramah tempat nyaman terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "waktu pencairan dana BSU ke kantor pos antapani pelayanannya sangat cepat dan ramah, cuma bawa ktp asli dan fc ktp langsung cairrrrr mantull",
       "teks_final": "waktu pencairan dana bsu kantor pos antapani pelayanannya cepat ramah cuma bawa ktp asli fc ktp langsung cairrrrr mantull",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9801
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "petugas nya ramah",
       "teks_final": "petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanannya ramah sekali",
       "teks_final": "pelayanannya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Kirim paket aman dan cepat",
       "teks_final": "kirim paket aman cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9874
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pas ke situ hari minggu tutup. Padahal ada tulisannya hari minggu buka jam 8.00-18.00.. Mengecewakan!!!!!",
       "teks_final": "pas situ hari minggu tutup padahal tulisannya hari minggu buka jam mengecewakan",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9942
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Kantor pos dari jaman saya smp nih, tahun 93-an... selalu ke sini kalo mau kirim surat ke penpals di berbagai kota (anak-anak jaman sekarang mah ngga tau sahabat pena kali, ya? XD).  Dan kantornya masih buka sampe sekarang, dong. Syukurnya, saya selalu dapat petugas yang ramah juga dan ngga pernah ada masalah dengan paket kiriman pos -selalu nyampe ke alamat penerima, asalkan lengkap aja alamat + kode pos 😄",
       "teks_final": "kantor pos jaman smp nih tahun an selalu sini kalo mau kirim surat penpals berbagai kota anak anak jaman sekarang mah tau sahabat pena kali ya xd kantornya buka sampe sekarang syukurnya selalu petugas ramah pernah masalah paket kiriman pos selalu nyampe alamat penerima asalkan lengkap aja alamat kode pos",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9834
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "fast respon petugas loketnya dan ramah ramah kebersihan kantornya sangat terjaga",
       "teks_final": "fast respon petugas loketnya ramah ramah kebersihan kantornya terjaga",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9883
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Cepat tanggap",
       "teks_final": "cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     }
   ]

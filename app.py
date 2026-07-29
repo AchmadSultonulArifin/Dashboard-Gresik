@@ -29,6 +29,7 @@ login_manager.login_message  = "Silakan login terlebih dahulu."
 
 # Twitter
 CSV_PATH = "output/gresik_sentimen.csv"
+STATUS_FILE_PATH = "output/scrape_status.json"
 
 # Instagram
 INSTAGRAM_POST = "output/gresik_ig_postingan.csv"
@@ -79,6 +80,7 @@ def inject_update_terakhir():
         update_twitter=update_twitter,
         update_gmaps=update_gmaps,
         update_instagram=update_instagram,
+        scrape_status=load_scrape_status(),
     )
 
 def load_data():
@@ -126,6 +128,16 @@ def load_data():
     except Exception as e:
         print("Error membaca CSV:", e)
         return pd.DataFrame()
+
+def load_scrape_status():
+    """Baca status terakhir scraping semua platform."""
+    if not os.path.exists(STATUS_FILE_PATH):
+        return {}
+    try:
+        with open(STATUS_FILE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
     
 # ══════════════════════════════════════════════════════════════
 # GANTI fungsi load_instagram() yang lama dengan ini

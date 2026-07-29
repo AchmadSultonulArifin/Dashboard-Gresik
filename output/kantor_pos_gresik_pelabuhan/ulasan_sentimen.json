@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Gresik Pelabuhan",
   "rating": 4.2,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 2,
   "netral": 3,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 33.3,
   "persen_netral": 50.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "pelayanannya enak, cepet.. beli prangko dan kirim kirim barang bisa..",
       "teks_final": "pelayanannya enak cepet beli prangko kirim kirim barang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan cukup memuaskan. Bangunan merupakan salah satu cagar budaya, sehingga berbeda dengan Kantor Pos lainnya.",
       "teks_final": "pelayanan cukup memuaskan bangunan merupakan salah satu cagar budaya sehingga berbeda kantor pos lainnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9769
     }
   ]

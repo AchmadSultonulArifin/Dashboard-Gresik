@@ -3,12 +3,12 @@
   "tempat": "Kantor Kelurahan Pekauman",
   "rating": 2,
   "total_ulasan": 1,
-  "positif": 1,
+  "positif": 0,
   "netral": 0,
-  "negatif": 0,
-  "persen_positif": 100.0,
+  "negatif": 1,
+  "persen_positif": 0.0,
   "persen_netral": 0.0,
-  "persen_negatif": 0.0,
+  "persen_negatif": 100.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Parkirnya susah",
       "teks_final": "parkirnya susah",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9966
     }
   ]

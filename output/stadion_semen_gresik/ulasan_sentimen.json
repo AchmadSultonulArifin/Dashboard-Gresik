@@ -3,12 +3,12 @@
   "tempat": "Stadion Semen Gresik",
   "rating": 4.2,
   "total_ulasan": 15,
-  "positif": 0,
+  "positif": 10,
   "netral": 4,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 66.7,
   "persen_netral": 26.7,
-  "persen_negatif": 73.3,
+  "persen_negatif": 6.7,
   "ulasan": [
     {
       "Kategori": "Industri",
@@ -18,7 +18,7 @@
       "Ulasan": "Salah satu lapangan sepakbola di Gersik Jawa Timur, terletak di kawasan PT Semen Gresik tidak jauh dari Stadion Gelora Joko Samudro, stadion cukup luas dan nyaman, penerangan bagus serta memiliki fasilitas pendukung yang cukup lengkap untuk ukuran lapangan sepakbola yang biasa mengadakan turnamen grassroot",
       "teks_final": "salah satu lapangan sepakbola gersik jawa timur terletak kawasan pt semen gresik jauh stadion gelora joko samudro stadion cukup luas nyaman penerangan bagus serta memiliki fasilitas pendukung cukup lengkap ukuran lapangan sepakbola biasa mengadakan turnamen grassroot",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9796
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Lapangannya bagus, fasilitas lengkap",
       "teks_final": "lapangannya bagus fasilitas lengkap",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Stadion tua banget di gresik, ada di area perumahan dinas semen gresik jalan ra.kartini. Dulu masuknya lewat grbang yang ada di dalam perumahan dinas, tapi sekarang 2025 akhir udah ngga boleh lagi. Masuk nya lewat depan, yang mana itu parkir mobilnya sangat tidak proper ya, terbatas dan sempit sekali. Parkir motornya juga ngga aman2 banget. Untuk kualitas rumput lapangannya, cukup bagus, ada mushola, toilet, kantin. Shelter juga cukup untuk penunggu anak2 latihan. Kalau ada latihan malam hari jugaa lampu2nya masih cukup mendukung",
       "teks_final": "stadion tua banget gresik area perumahan dinas semen gresik jalan ra kartini dulu masuknya lewat grbang perumahan dinas sekarang akhir udah boleh masuk lewat depan mana parkir mobilnya proper ya terbatas sempit parkir motornya aman2 banget kualitas rumput lapangannya cukup bagus mushola toilet kantin shelter cukup penunggu anak2 latihan latihan malam hari jugaa lampu2nya cukup mendukung",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lapangan oke. Stadion besar",
       "teks_final": "lapangan oke stadion besar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8885
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Lapangan bagus dan luas",
       "teks_final": "lapangan bagus luas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Stadion legendaris pada jaman masih smp... Sering d buat acara konser dll",
       "teks_final": "stadion legendaris jaman smp sering buat acara konser dll",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7471
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "View nya bagus sekali",
       "teks_final": "view bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Tempat menyalurkan hobi",
       "teks_final": "tempat menyalurkan hobi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9748
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "rumputnya nyaman empuk cuman kurang tempt duduk",
       "teks_final": "rumputnya nyaman empuk cuman kurang tempt duduk",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9927
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Lapangan enak dipakai. Perlu perawatan di mck. Perlu tribun atau tempat berteduh buat pemain maupun penonton",
       "teks_final": "lapangan enak dipakai perlu perawatan mck perlu tribun tempat berteduh buat pemain maupun penonton",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.924
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "BNI 46 Kartini",
   "rating": 4,
   "total_ulasan": 19,
-  "positif": 5,
+  "positif": 16,
   "netral": 0,
-  "negatif": 14,
-  "persen_positif": 26.3,
+  "negatif": 3,
+  "persen_positif": 84.2,
   "persen_netral": 0.0,
-  "persen_negatif": 73.7,
+  "persen_negatif": 15.8,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Super lama pelayanannya.",
       "teks_final": "super lama pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8126
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan top pokoknya",
       "teks_final": "pelayanan top pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan bisa dibilang baik, teller dan cs nya ramah ...",
       "teks_final": "pelayanan dibilang baik teller cs ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9788
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "petugas bnilife nya cantik",
       "teks_final": "petugas bnilife cantik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9824
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Layanan cepat sekali",
       "teks_final": "layanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Cukup baik",
       "teks_final": "cukup baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.983
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan CS nya sangat memuaskan",
       "teks_final": "pelayanan cs memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Parkir luas dan bagus, layanannya sangat memuaskan....terimakasih.👍👍👍",
       "teks_final": "parkir luas bagus layanannya memuaskan terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Alhamdullilah",
       "teks_final": "alhamdullilah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9728
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Tellernya ramah",
       "teks_final": "tellernya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan oke fasilitas parkir sgt luas",
       "teks_final": "pelayanan oke fasilitas parkir luas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9901
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Cepat pelayanannya",
       "teks_final": "cepat pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Alhamdulillah",
       "teks_final": "alhamdulillah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "meja teller ada 5 tp teller cuman 2, lama buangaet,,,,lelet",
       "teks_final": "meja teller teller cuman lama buangaet lelet",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "minta ampun dehhhh......2 jam lebih nunggu utk ke CS, ayolah pak...buk...ditingkatkan kwalitas pelayanannya, please....",
       "teks_final": "minta ampun dehhhh jam nunggu cs ayolah pak buk ditingkatkan kwalitas pelayanannya please",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9837
     }
   ]

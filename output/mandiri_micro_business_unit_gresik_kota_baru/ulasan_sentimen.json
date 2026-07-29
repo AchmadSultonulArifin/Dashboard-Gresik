@@ -3,12 +3,12 @@
   "tempat": "Mandiri Micro Business Unit Gresik Kota Baru",
   "rating": 2.7,
   "total_ulasan": 28,
-  "positif": 17,
+  "positif": 7,
   "netral": 2,
-  "negatif": 9,
-  "persen_positif": 60.7,
+  "negatif": 19,
+  "persen_positif": 25.0,
   "persen_netral": 7.1,
-  "persen_negatif": 32.1,
+  "persen_negatif": 67.9,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan payah lemot kali pun",
       "teks_final": "pelayanan payah lemot kali",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9983
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan sangat baik dan petugasnya juga ramah",
       "teks_final": "pelayanan baik petugasnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan sangat lambat CS cuma 1, dengan layout kantor yg baru menurut saya malah sangat gak efektif utk pelayanan pelanggan. Bikin pelayanan lebih kambat dari pada layout kantor yg lama",
       "teks_final": "pelayanan lambat cs cuma layout kantor menurut malah efektif pelayanan pelanggan bikin pelayanan kambat layout kantor lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9951
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan lamaaa dan lama sekalii",
       "teks_final": "pelayanan lamaaa lama sekalii",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lama sekali layanan nya lelet hmm 1 jm lebih antri ya padahal orang cuma 3😄",
       "teks_final": "lama layanan lelet hmm jm antrian ya padahal orang cuma",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9899
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Satpam nya ngga ramah... mending kalian ke cabang lainnya deh",
       "teks_final": "satpam ramah mending kalian cabang lainnya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.517
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Teller dan cs sangat ramahh… pelayanannya juga sangat baik.. walaupun antrian banyak tapi tetep kondusif dan cepat…",
       "teks_final": "teller cs ramahh pelayanannya baik walaupun antrian banyak tetep kondusif cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan CS sangat baik Memberikan solusi dg tepat Josss untuk bank mandiri cabang manyar",
       "teks_final": "pelayanan cs baik memberikan solusi tepat josss bank mandiri cabang manyar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9808
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya bagus, cs dan teller ramah, tanggap dan solutif 👍👍👍",
       "teks_final": "pelayanannya bagus cs teller ramah tanggap solutif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Kok lelet banget ya Pelayanan nya,.. Padahal kantor di jantung kota",
       "teks_final": "kok lelet banget ya pelayanan padahal kantor jantung kota",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Lemot kabeh ga mari mari antri 2 jam cuma dapet 4 orang",
       "teks_final": "lemot kabeh mari mari antrian jam cuma dapet orang",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9981
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan lambat sekali cs cuma 1 antri 3 orang lebih dari 1 jam",
       "teks_final": "pelayanan lambat cs cuma antrian orang jam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9962
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan CS nya lelet banget, dari Jam 13.00 sampe' jam 14.45 baru dilayani. Itu pun hanya 1 CS yg di buka",
       "teks_final": "pelayanan cs lelet banget jam sampe jam dilayani hanya cs buka",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9975
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan nya lelet sekali trutama CS nya beda sm cabang mandiri kartini,mengantri harus menunggu di luar! Ad bbrp Org baru dtg langsung disuruh masuk .hari jumat kesini jam stgh12 alasan orngnya masih meeting bla\". smakin g jls!!!!",
       "teks_final": "pelayanan lelet trutama cs beda sama cabang mandiri kartini mengantri harus menunggu luar ad bbrp org dtg langsung disuruh masuk hari jumat kesini jam stgh12 alasan orngnya meeting bla smakin jls",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9949
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Tambah cs lah kalo mau memperbagus layanannya Istirahat gantian tapi pelayanan cust tetap jalan max 15-30 menit pelayanan per cust bukan 1 jam lebih. Perbaiki",
       "teks_final": "tambah cs kalo mau memperbagus layanannya istirahat gantian pelayanan cust tetap jalan max menit pelayanan per cust bukan jam perbaiki",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5009
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan super lambat. Antrian CS 2 jam lebih.",
       "teks_final": "pelayanan super lambat antrian cs jam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9936
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan lama",
       "teks_final": "pelayanan lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9973
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Teller cuma satu, padahal rame orang antri",
       "teks_final": "teller cuma satu padahal rame orang antrian",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9951
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan enak, satpam ramah",
       "teks_final": "pelayanan enak satpam ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Pelayanan sangat lama.. sangat tidak rekomen tau gtu mndng d tempat lain",
       "teks_final": "pelayanan lama rekomen tau gtu mndng tempat lain",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9945
     }
   ]

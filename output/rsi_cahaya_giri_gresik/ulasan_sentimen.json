@@ -3,12 +3,12 @@
   "tempat": "RSI Cahaya Giri Gresik",
   "rating": 4.9,
   "total_ulasan": 30,
-  "positif": 0,
+  "positif": 30,
   "netral": 0,
-  "negatif": 30,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan memuaska",
       "teks_final": "pelayanan memuaska",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.979
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan opname nya disini gampang, makasih ngeh, semoga jaya selalu untuk rumah sakitnya 👍👍👍",
       "teks_final": "pelayanan opname disini gampang makasih ngeh semoga jaya selalu rumah sakitnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.982
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Alhamdulillah pelayanannya sangat baik",
       "teks_final": "alhamdulillah pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanan sangat baik, kamar rawat inap bersih",
       "teks_final": "pelayanan baik kamar rawat inap bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9875
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Terimakasih selama rawat inap di sini saya sangat puas",
       "teks_final": "terimakasih selama rawat inap sini puas",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Disini pelayanannya cepat, sudah pernah rawat inap disini, tapi baru nyoba untuk ke poli matanya, terima kasih cahaya giri sukses selalu",
       "teks_final": "disini pelayanannya cepat pernah rawat inap disini nyoba poli matanya terima kasih cahaya giri sukses selalu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9767
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "pelaynan baik",
       "teks_final": "pelaynan baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan terbaik di RSI Cahaya giri Terima kasih",
       "teks_final": "pelayanan terbaik rsi cahaya giri terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9472
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Terima kasih cahaya giri atas pelayanan nya Kedua kali anak saya rawat inap disini, Alhamdulillah selalu baik dan memuaskan pelayanan nya",
       "teks_final": "terima kasih cahaya giri atas pelayanan kedua kali anak rawat inap disini alhamdulillah selalu baik memuaskan pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9783
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan bagus, mbak mbak depan juga sangat membantu saya dalam pendaftaran aplikasi jkn",
       "teks_final": "pelayanan bagus mbak mbak depan membantu pendaftaran aplikasi jkn",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9911
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Hbs opname disini petugas rawat inapnya ramah ramah",
       "teks_final": "hbs opname disini petugas rawat inapnya ramah ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9874
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "langganan periksa disini, pelayanannya bagus, selalu saya bawa kesini kalau keluarga sakit, terima kasih mbak mbak dan dokter nya 🙏",
       "teks_final": "langganan periksa disini pelayanannya bagus selalu bawa kesini keluarga sakit terima kasih mbak mbak dokter",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9841
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanannya sangat baik dan cepat Tempatnya juga nyaman",
       "teks_final": "pelayanannya baik cepat tempatnya nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Petugas pelayanannya ramah tamah",
       "teks_final": "petugas pelayanannya ramah tamah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan bagus saya dibantu daftarkan jkn, suami saya mau periksa ke poli mata",
       "teks_final": "pelayanan bagus dibantu daftarkan jkn suami mau periksa poli mata",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9687
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Rawat inap disini Alhamdulillah dirawat sampai sembuh. Petugas, perawat, dan dokternya semuanya ramah",
       "teks_final": "rawat inap disini alhamdulillah dirawat sampai sembuh petugas perawat dokternya semuanya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9905
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Terima kasih untuk pelayanannya, semoga makin jaya buat rs ini",
       "teks_final": "terima kasih pelayanannya semoga makin jaya buat rumah sakit",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.983
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan poli mata cepet, ga punya antrian online dibantu sampai punya, terima kasih buat petugas nya 🫰",
       "teks_final": "pelayanan poli mata cepet punya antrian online dibantu sampai punya terima kasih buat petugas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7684
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanan terbaik, petugas ramah",
       "teks_final": "pelayanan terbaik petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Terima kasih banyak atas pelayanan dan bantuan jkn nya",
       "teks_final": "terima kasih banyak atas pelayanan bantuan jkn",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8221
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "rawat inap disini nyaman pelayanannya enak dan baik semua petugasnya",
       "teks_final": "rawat inap disini nyaman pelayanannya enak baik semua petugasnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Terima kasih atas pelayanan terbaik nya",
       "teks_final": "terima kasih atas pelayanan terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9685
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "petugas ramah",
       "teks_final": "petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Pelayanan ramah banget, dokternya juga super detail menjelaskan ke pasie",
       "teks_final": "pelayanan ramah banget dokternya super detail menjelaskan pasie",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Pelayanan rs nya gercep petugasnya juga baik dan rs nya juga bersih dan nyaman",
       "teks_final": "pelayanan rumah sakit gercep petugasnya baik rumah sakit bersih nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {
@@ -337,7 +337,7 @@
       "Ulasan": "Pelayanan sangat memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     }
   ]

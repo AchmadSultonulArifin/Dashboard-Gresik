@@ -3,12 +3,12 @@
   "tempat": "Museum Sunan Giri",
   "rating": 4.4,
   "total_ulasan": 15,
-  "positif": 2,
+  "positif": 10,
   "netral": 3,
-  "negatif": 10,
-  "persen_positif": 13.3,
+  "negatif": 2,
+  "persen_positif": 66.7,
   "persen_netral": 20.0,
-  "persen_negatif": 66.7,
+  "persen_negatif": 13.3,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Jam10.55 museum tutup pegawai di depan nyantai rokokan gaji tetep lamcar",
       "teks_final": "jam10 museum tutup pegawai depan nyantai rokokan gaji tetep lamcar",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7351
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pertama kali berkunjung kesini. Setelah sekian lama berziarah baru tau kalau ada museum. 🙈 Mnrt saya tempatnya nyaman, bersih, ada ruangan utk membaca buku ber-AC pula. Koleksi museum nya lumayan lengkap. Ada sunan Giri corner. Petugasnya ramah, dan sangat edukatif (tadi beliau menjelaskan dengan baik). Yuk yg mau ziarah sekalian nambah2 ilmu pengetahuan, bisa banget mampir ke museum ini. Masih 1 lokasi kok dengan arah ke makam Sunan Giri.. Sukses selalu.. Semoga koleksi nya makin lengkap..",
       "teks_final": "pertama kali berkunjung kesini sekian lama berziarah tau museum mnrt tempatnya nyaman bersih ruangan membaca buku ber ac koleksi museum lumayan lengkap sunan giri corner petugasnya ramah edukatif tadi beliau menjelaskan baik yuk mau ziarah sekalian nambah2 ilmu pengetahuan banget mampir museum lokasi kok arah makam sunan giri sukses selalu semoga koleksi makin lengkap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempat yg bersih dan indah dan tempat pelatihan satpam yg luar biasa",
       "teks_final": "tempat bersih indah tempat pelatihan satpam luar biasa",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tempat mudah dijangkau karena berada di kawasan wisata religi sunan Giri, tempat yang penting untuk edukasi, memamerkan banyak peninggalan barang dan informasi sejarah di kabupaten Gresik, perkembangan agama islam dan kolonial. Tempat nya bagus, nyaman bagi pengunjung dewasa dan anak-anak, sudah ada fasilitas wifi. Ada toilet nya juga. Jika berkunjung gratis hanya mengisi buku tamu. Untuk koleksi semoga bisa bertambah. Semoga kedepan nya bisa dilengkapi diorama museum (Diorama ini berfungsi sebagai wahana visual untuk menyajikan informasi, sering kali dipadukan dengan latar belakang, patung, dan berbagai perincian untuk menciptakan adegan yang hidup dan realistis)",
       "teks_final": "tempat mudah dijangkau berada kawasan wisata religi sunan giri tempat penting edukasi memamerkan banyak peninggalan barang informasi sejarah kabupaten gresik perkembangan agama islam kolonial tempat bagus nyaman bagi pengunjung dewasa anak anak fasilitas wifi toilet berkunjung gratis hanya mengisi buku tamu koleksi semoga bertambah semoga kedepan dilengkapi diorama museum diorama berfungsi sebagai wahana visual menyajikan informasi sering kali dipadukan latar belakang patung berbagai perincian menciptakan adegan hidup realistis",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9182
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Gresik selayaknya berbangga punya sejarah yang panjang dan seksi untuk diulas. Sebagai titik pertemuan antar budaya dan etnis pada masa lalu hingga sekarang, tentunya Gresik memiliki peninggalan cagar budaya yang  menawan.  Areanya tidak terlalu luas. Namun, yang dipamerkan cukup tertata rapi dan penjelasannya lengkap. Benda museumnya mulai dari masa klasik Hindu-Buddha, periode Islam, dan era kolonial. Semuanya terangkum dalam satu gedung.  Saat kemari, saya diberi brosur deskripsi, serta dijelaskan tentang alur kunjungan. Petugasnya ramah dan murah senyum. Layanan prima. Jangan khawatir, hawanya juga sejuk kok.  Tempat ini sangat cocok untuk anak sekolah, penggiat sejarah dan budaya, akademisi, juga warga Gresik sendiri dan sekitarnya. Semoga semakin berkembang dan tetap lestari.",
       "teks_final": "gresik selayaknya berbangga punya sejarah panjang seksi diulas sebagai titik pertemuan antar budaya etnis masa lalu hingga sekarang tentunya gresik memiliki peninggalan cagar budaya menawan areanya terlalu luas dipamerkan cukup tertata rapi penjelasannya lengkap benda museumnya mulai masa klasik hindu buddha periode islam era kolonial semuanya terangkum satu gedung kemari diberi brosur deskripsi serta dijelaskan tentang alur kunjungan petugasnya ramah murah senyum layanan prima jangan khawatir hawanya sejuk kok tempat cocok anak sekolah penggiat sejarah budaya akademisi warga gresik sendiri sekitarnya semoga semakin berkembang tetap lestari",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan sangat ramah dan dingin (karena pakai ac). Cocok buat yang habis ziarah langsung mempelajari sejarah dan budaya gresik",
       "teks_final": "pelayanan ramah dingin pakai ac cocok buat habis ziarah langsung mempelajari sejarah budaya gresik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "4 Maret 2025 lalu saya berkunjung ke Museum Sunan Giri sekira pukul 11 siang. Waktu saya ke sana berbarengan ada kunjungan dari 2 orang, laki-laki dan perempuan sepertinya sedang mengulik info mengenai Museum Sunan Giri. 2 orang tersebut banyak ngobrol dengan salah satu petugas yang waktu itu terlihat masih muda berseragam warna putih. Yasudah, saya sebagai pengunjung umum sibuk membaca informasi-informasi saja yang ada di sekitar lobi. Di meja resepsionis, ada 4 atau 5 mahasiswa. Sepertinya mereka sedang magang di Museum Sunan Giri. Saat masih ada kunjungan dari 2 orang yang saya sebutkan sebelumnya, para mahasiswa tersebut bersikap sangat wajar. Duduk tenang sambil mendengarkan petugas berseragam putih sedang mengobrol dengan 2 pengunjung tersebut. Kemudian, 2 pengunjung itu berpamitan sambil sepertinya memberikan bingkisan kepada petugas berseragam putih. Tidak lama dari itu, saya naik ke lantai 2. Kebetulan saya datang bersama adik saya yang masih SD. Kalau tidak salah, pengunjung hanya saya dan adik saya. Jadi, di Museum Sunan Giri itu hanya ada saya, adik saya, dan beberapa mahasiswa magang tersebut. Saya juga tidak melihat petugas berseragam putih ada di dalam museum, entah ke mana. Mungkin keluar mengantar 2 pengunjung sebelumnya. Saat saya ada di lantai 2 sedang sibuk membaca dan melihat koleksi museum, entah apa yang dibicarakan oleh para mahasiswa magang di meja resepsionis, mereka bicara sangat keras sambil juga tertawa terbahak-bahak. Kebetulan juga waktu itu azan zuhur berkumandang. Namun mereka tetep saja terbahak-bahak. Sejujurnya saya sangat terganggu dengan sikap para mahasiswa magang tersebut. Merasa tidak nyaman, saya memutuskan pulang. Saat baru turun dari tangga, betapa kagetnya karena kaki salah satu mahasiswa diangkat ke meja resepsionis. Saya rasa itu sudah amat sangat tidak sopan. Jadi, demi kenyamanan pengunjung, mohon petugas mengingatkan dan menegur para mahasiswa agar tidak bertindak seperti itu lagi. Mohon maaf, saya sangat kecewa siang itu.",
       "teks_final": "maret lalu berkunjung museum sunan giri sekira pukul siang waktu sana berbarengan kunjungan orang laki laki perempuan sepertinya sedang mengulik info mengenai museum sunan giri orang tersebut banyak ngobrol salah satu petugas waktu terlihat muda berseragam warna putih yasudah sebagai pengunjung umum sibuk membaca informasi informasi saja sekitar lobi meja resepsionis mahasiswa sepertinya sedang magang museum sunan giri kunjungan orang sebutkan sebelumnya para mahasiswa tersebut bersikap wajar duduk tenang sambil mendengarkan petugas berseragam putih sedang mengobrol pengunjung tersebut kemudian pengunjung berpamitan sambil sepertinya memberikan bingkisan kepada petugas berseragam putih lama naik lantai kebetulan datang bersama adik sd salah pengunjung hanya adik jadi museum sunan giri hanya adik beberapa mahasiswa magang tersebut melihat petugas berseragam putih museum entah mana mungkin keluar mengantar pengunjung sebelumnya lantai sedang sibuk membaca melihat koleksi museum entah apa dibicarakan para mahasiswa magang meja resepsionis bicara keras sambil tertawa terbahak bahak kebetulan waktu azan zuhur berkumandang tetep saja terbahak bahak sejujurnya terganggu sikap para mahasiswa magang tersebut merasa nyaman memutuskan pulang turun tangga betapa kagetnya kaki salah satu mahasiswa diangkat meja resepsionis rasa amat sopan jadi demi kenyamanan pengunjung mohon petugas mengingatkan menegur para mahasiswa agar bertindak seperti mohon maaf kecewa siang",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.566
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tempat nyaman, sejuk, bersih, sayang banget sepi, padahal tempatnya edukatif. Cocok untuk anak-anak belajar tentang sejarah",
       "teks_final": "tempat nyaman sejuk bersih sayang banget sepi padahal tempatnya edukatif cocok anak anak belajar tentang sejarah",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayananya ramah tempatnya nyman dan bersih",
       "teks_final": "pelayananya ramah tempatnya nyman bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Luar Biasa! Menurut saya Museum Sunan Giri ini sangat cocok menjadi bahan edukasi dan belajar sejarah yang ada di Kabupaten Gresik.  Museum ini menyimpan beberapa peninggalan arkeologi dan history yang ada di Gresik.  Dan hal unik yang belum banyak diketahui masyarakat yakni adanya fragmen sajadah yang digunakan sunan giri dalam melaksanakan sholat. Bukan hanya itu,  di museum ini terdapat 3 ruang pamer.  Ada ruang pamer hindu budha,   ruang pamer kolonial dan ruang pamer pengaruh islam. Beberapa koleksi dari periode klasik perkembangan awal agama islam dan kolonial seperti replika keris kolo munyeng,  pelana kuda, dan lain sebagainya juga tersimpan rapih disana. Semoga peninggalan tersebut tetap terjaga dan museum ini sangat rekomended untuk kita kunjungi!",
       "teks_final": "luar biasa menurut museum sunan giri cocok menjadi bahan edukasi belajar sejarah kabupaten gresik museum menyimpan beberapa peninggalan arkeologi history gresik hal unik banyak diketahui masyarakat yakni adanya fragmen sajadah digunakan sunan giri melaksanakan sholat bukan hanya museum terdapat ruang pamer ruang pamer hindu budha ruang pamer kolonial ruang pamer pengaruh islam beberapa koleksi periode klasik perkembangan awal agama islam kolonial seperti replika keris kolo munyeng pelana kuda lain sebagainya tersimpan rapih disana semoga peninggalan tersebut tetap terjaga museum rekomended kunjungi",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9607
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Terkesan bagus",
       "teks_final": "terkesan bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     }
   ]

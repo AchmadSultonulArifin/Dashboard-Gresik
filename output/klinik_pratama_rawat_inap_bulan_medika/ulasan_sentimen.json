@@ -3,12 +3,12 @@
   "tempat": "KLINIK PRATAMA RAWAT INAP BULAN MEDIKA",
   "rating": 4.9,
   "total_ulasan": 14,
-  "positif": 0,
+  "positif": 13,
   "netral": 0,
-  "negatif": 14,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 92.9,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 7.1,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Alhamdulillah dilayani dengan baik, tarif nya terjangkau👍",
       "teks_final": "alhamdulillah dilayani baik tarif terjangkau",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "kliniknya masih baruu, tempat bersih nyaman, pelayanannya cepat juga ramah",
       "teks_final": "kliniknya baruu tempat bersih nyaman pelayanannya cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan lengkap dan cepat, petugas2nya ramah 👍🏼",
       "teks_final": "pelayanan lengkap cepat petugas2nya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Fasilitasnya yang modern, lengkap, nyaman dengan tarif yang terjangkau untuk kebutuhan medis umum serta rawat inap dan ugd ambulance yang stay 24 jam seperti rumah sakit serta dokter yang komunikatif dan perawatnya cantik² juga😍 👍👍",
       "teks_final": "fasilitasnya modern lengkap nyaman tarif terjangkau kebutuhan medis umum serta rawat inap ugd ambulance stay jam seperti rumah sakit serta dokter komunikatif perawatnya cantik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Lokasi berada di \"one stop services\", ada indomaret, 8presso caffe dan fitness, ada Musholla dan toilet. Pelayanan Klinik lengkap dan baik",
       "teks_final": "lokasi berada one stop services indomaret 8presso caffe fitness musholla toilet pelayanan klinik lengkap baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7549
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanannya cepat, dokter dan perawatnya ramah.....",
       "teks_final": "pelayanannya cepat dokter perawatnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya ramah dan cepat, dokter dan petugasnya sangat komunikatif sekali.",
       "teks_final": "pelayanannya ramah cepat dokter petugasnya komunikatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanannya sangat memuaskan, semua pegawai ramah dan harganya terjangkau 😍",
       "teks_final": "pelayanannya memuaskan semua pegawai ramah harganya terjangkau",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Good service..",
       "teks_final": "good service",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Tempat ternyaman ,dr pelayanan dan dokter2nya sabar2 .thanks .",
       "teks_final": "tempat ternyaman pelayanan dokter2nya sabar2 thanks",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanannya bagus,cepat ramah, tempatnya nyaman dan sangat bersih",
       "teks_final": "pelayanannya bagus cepat ramah tempatnya nyaman bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan bagus👍",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pertama kali kesini nyobain promo cek kesehatan gratis , pelayanannya bagus banget 😍",
       "teks_final": "pertama kali kesini nyobain promo cek kesehatan gratis pelayanannya bagus banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     }
   ]

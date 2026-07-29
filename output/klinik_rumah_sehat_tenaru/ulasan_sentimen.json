@@ -3,12 +3,12 @@
   "tempat": "Klinik Rumah Sehat Tenaru",
   "rating": 4.8,
   "total_ulasan": 23,
-  "positif": 1,
+  "positif": 18,
   "netral": 4,
-  "negatif": 18,
-  "persen_positif": 4.3,
+  "negatif": 1,
+  "persen_positif": 78.3,
   "persen_netral": 17.4,
-  "persen_negatif": 78.3,
+  "persen_negatif": 4.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Alhamdulillah keluarga saya stroke, Terapi di rumah sehat Tenaru sekarang sudah bisa jalan...",
       "teks_final": "alhamdulillah keluarga stroke terapi rumah sehat tenaru sekarang jalan",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6162
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Alhamdulillah, keluarga saya banyak yg cocok berobat di Rumah sehat Tenaru",
       "teks_final": "alhamdulillah keluarga banyak cocok berobat rumah sehat tenaru",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9917
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Alhamdulillah habis terapi Al fasdu, memang beda fasdhu di sini, harus melalui screnning dulu, bila memenuhi syarat bisa di lakukan tindakan fasdhu, jadi tidak semua pasien bisa di fasdhu, tenaga berkompeten dan profesional",
       "teks_final": "alhamdulillah habis terapi al fasdu memang beda fasdhu sini harus melalui screnning dulu bila memenuhi syarat lakukan tindakan fasdhu jadi semua pasien fasdhu tenaga berkompeten profesional",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9743
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Khitan, Pelayanan di Rumah Sehat Tenaru petugas nya sangat ramah dan baik. the best lah 🤩🙏",
       "teks_final": "khitan pelayanan rumah sehat tenaru petugas ramah baik the best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Tenaga Akupuntur profesional, mantap...",
       "teks_final": "tenaga akupuntur profesional bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9884
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan cepat, jarak terdekat dari rumah👍👍👍👍",
       "teks_final": "pelayanan cepat jarak terdekat rumah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9577
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Lumayan",
       "teks_final": "lumayan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Tempatnya bersih pelayanan bintang 4 sukses ya",
       "teks_final": "tempatnya bersih pelayanan bintang sukses ya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan bagus harga bisa dinego",
       "teks_final": "pelayanan bagus harga dinego",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Mantap.....",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Klinik rumah sehat tenaru tempat yang paling tepat untuk pengobatan orang sakit maupun orang sehat loh, pelayananya sangat ramah, selain memiliki perawatan medis ternyata ada obat herbal, dan berbagai macam terapi juga Loh disini 😍",
       "teks_final": "klinik rumah sehat tenaru tempat paling tepat pengobatan orang sakit maupun orang sehat loh pelayananya ramah selain memiliki perawatan medis ternyata obat herbal berbagai macam terapi loh disini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "klinik rumah sehat tenaru pelayananya sangat rama memiliki perawatan medis, herbal, dan berbagai macam terapi, Jaga kesehatanmu sebelum datang sakitmu.",
       "teks_final": "klinik rumah sehat tenaru pelayananya rama memiliki perawatan medis herbal berbagai macam terapi jaga kesehatanmu datang sakitmu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9345
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan sangat Ramah dan Profesional. Cepat dalam Tindakan Pelayanan Kompak para Tenaga medis nya. Para Terapist nya... Wow... mantap  sangat Berpengalaman dalam Menerapi  Pokok e klinik Rumah Sehat Tenaru Kebanggaan Masyarakat Nanti nya",
       "teks_final": "pelayanan ramah profesional cepat tindakan pelayanan kompak para tenaga medis para terapist wow bagus berpengalaman menerapi pokok klinik rumah sehat tenaru kebanggaan masyarakat nanti",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "klinik rumah sehat tenaru sangat ndhe bast.. pelayanan nya sangat baik dan memuaskan.",
       "teks_final": "klinik rumah sehat tenaru ndhe bast pelayanan baik memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Wah mantap selain medis juga melayani terapi juga, seperti fasdhu, bekam, Akupuntur, lintah  Pelayanan memuaskan, bu dhe sakit lutut selain di terapi juga di suntik lutunya alhmadulillah perkembaganya memuaskan....",
       "teks_final": "wah bagus selain medis melayani terapi seperti fasdhu bekam akupuntur lintah pelayanan memuaskan bu dhe sakit lutut selain terapi suntik lutunya alhmadulillah perkembaganya memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan sepenuh hati, petugasnya full senyum, kita bisa milih senang perawatan dengan medis atau herbal... Manteb pokok eee",
       "teks_final": "pelayanan sepenuh hati petugasnya full senyum milih senang perawatan medis herbal manteb pokok eee",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Melayani home care (perawan dirumah) 24jam, mantap.... sukses terus rumah sehat Tenaru",
       "teks_final": "melayani home care perawan dirumah 24jam bagus sukses terus rumah sehat tenaru",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9769
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Toko SEMANGAT PAGI",
   "rating": 4.5,
   "total_ulasan": 7,
-  "positif": 0,
+  "positif": 5,
   "netral": 1,
-  "negatif": 6,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 71.4,
   "persen_netral": 14.3,
-  "persen_negatif": 85.7,
+  "persen_negatif": 14.3,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Barang nya lengkap, lebih murah dari toko\" sebelah 😁",
       "teks_final": "barang lengkap murah toko sebelah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Developer tanggap",
       "teks_final": "developer tanggap",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9835
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tempat  belanja keperluan sehari2",
       "teks_final": "tempat belanja keperluan sehari2",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5963
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Lumayan lengkap...",
       "teks_final": "lumayan lengkap",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Tempatnya bersih. Penataannya rapi. Cuma mungkin bisa ditambah lagi isi barang2 yang dijual. Biar makin lengkap 😁✌️",
       "teks_final": "tempatnya bersih penataannya rapi cuma mungkin ditambah isi barang2 dijual biar makin lengkap",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     }
   ]

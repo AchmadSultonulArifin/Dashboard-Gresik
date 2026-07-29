@@ -3,12 +3,12 @@
   "tempat": "Makam Panjang",
   "rating": 4.8,
   "total_ulasan": 7,
-  "positif": 0,
+  "positif": 5,
   "netral": 2,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 71.4,
   "persen_netral": 28.6,
-  "persen_negatif": 71.4,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "sangt perfect",
       "teks_final": "sangt perfect",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8877
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pemandangan bagus, pantai pandai ombak tenang , banyak jualan jajan n kopi, suasana tenang",
       "teks_final": "pemandangan bagus pantai pandai ombak tenang banyak jualan jajan kopi suasana tenang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "bagus bgt tempatnya, cuma kurang tempat² yg indah buat foto²",
       "teks_final": "bagus banget tempatnya cuma kurang tempat indah buat foto",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "wisata sdh sangat tertata dan terkelola..",
       "teks_final": "wisata tertata terkelola",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9886
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Wisata religi",
       "teks_final": "wisata religi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {

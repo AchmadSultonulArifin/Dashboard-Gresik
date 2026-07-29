@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Alun-Alun",
   "rating": 3.9,
   "total_ulasan": 24,
-  "positif": 6,
+  "positif": 15,
   "netral": 5,
-  "negatif": 13,
-  "persen_positif": 25.0,
+  "negatif": 4,
+  "persen_positif": 62.5,
   "persen_netral": 20.8,
-  "persen_negatif": 54.2,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan Bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Untuk proses minta rujukan sangat mudah dan dokter serta stafnya sangat baik dan membantu kpd pasien",
       "teks_final": "proses minta rujukan mudah dokter serta stafnya baik membantu kpd pasien",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9141
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Saya setiap bulan berkunjung ke puskesmas alun alun untuk berobat dan minta rujukan. Pelayanan dari pendaftaran hingga poli sangat lancar dengan komunikasi pegawai yang ramah. Terimakasih puskesmas alun alun",
       "teks_final": "setiap bulan berkunjung puskesmas alun alun berobat minta rujukan pelayanan pendaftaran hingga poli lancar komunikasi pegawai ramah terimakasih puskesmas alun alun",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8256
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "proses perpanjangan rujukan nya terbilang cepat top banget",
       "teks_final": "proses perpanjangan rujukan terbilang cepat top banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Suasana dg kekeluargaan yg kental terutama poli usila... Trimaksih",
       "teks_final": "suasana kekeluargaan kental terutama poli usila trimaksih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9182
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan oke",
       "teks_final": "pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayan di loket tanggap, cepat, dan ramah. Pelayanan di poli dan farmasi  juga cukup cepat mengingat antrian yang mengular. Fasilitas sudah diperbaharui menjadi lebih baik dan modern. Cuma memberi saran untuk toiletnya mungkin ada pembersihan secara rutin saja. Sudah cocok disini dari zaman masih anak anak. Tingkatkan terus, good job 👍",
       "teks_final": "pelayan loket tanggap cepat ramah pelayanan poli farmasi cukup cepat mengingat antrian mengular fasilitas diperbaharui menjadi baik modern cuma memberi saran toiletnya mungkin pembersihan secara rutin saja cocok disini zaman anak anak tingkatkan terus good job",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9757
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "bagus pelayanan baik cepat",
       "teks_final": "bagus pelayanan baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "saya sering ke poli lansia mengurus surat rujukan. pelayanan nya mantap sat set🤝",
       "teks_final": "sering poli lansia mengurus surat rujukan pelayanan bagus sat set",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5841
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Staff - staff ramah,pelayanan terbaik,cekatan,rujukan tdk berbelit - belit,ruangan yg bersih,perhankan terus pelayanan terbaik untuk masyarakat,good jobs puskemas alun - alun Gresik",
       "teks_final": "staff staff ramah pelayanan terbaik cekatan rujukan berbelit belit ruangan bersih perhankan terus pelayanan terbaik masyarakat good jobs puskemas alun alun gresik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9821
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "saya pasien rutin berkunjung untuk berobat darah tinggi dan Dm . dibpoli usia lanjut. penangan dan pelayann sangat baik . berasa seperti keluarga. terimkasih puskesmas alun alun the best",
       "teks_final": "pasien rutin berkunjung berobat darah tinggi dm dibpoli usia lanjut penangan pelayann baik berasa seperti keluarga terimkasih puskesmas alun alun the best",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9912
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Terhitung sudah 1 bulan lebih dari kedatangan saya yg pertama hingga saat ini adl sudah yg kesekian kalinya masih belum ada kejelasan ttg sakit saya ini apa ... Keluhan awal ada di telinga . Telinga saya terasa seperti buntu tidak dapat mendengar dg sempurna. Di kasi obat tetes hingga 2 kali kunjungan. Tapi masih belum juga sembuh. Menyusul badan panas tinggi, pusing hebat, meriang panas dingin dan mual ( muntah 1 x ), badan juga terasa cekot2 ( nyeri ) Dari hasil diagnosis, saya dinyatakan  THIPUS Gol 1 dan dehidrasi. Opname di puskesmas ( infus ) selama ± 3 hari ( KAMIS SIANG ) Saat itu badan saya sudah agak mendingan dan saya diperbolehkan pulang ( MINGGU SIANG ) Setelah 1 minggu dirumah, telinga saya  sakit lagi dan bengkak . Untuk yg kesekian kalinya saya periksa lagi kepuskesmas . Di suruh cek Lab periksa gula darah dan dahak pdhal saya TDK ada keluhan batuk dan tidak BS mengeluarkan dahak.  Mengenai apa yg sudah saya alami ttg pelayanan di puskesmas yg menurut saya, lambat dalam penanganannya tolong , agar saya bisa mendapat penanganan yg lebih maksimal dari dr spesial RS yg lebih berkompeten menangani keluhan saya, agar keluhan saya tidak semakin berkepanjangan.  Pertanyaannya : MENGAPA PIHAK PUSKESMAN BERTAHAN DGN TIDAK MEMBERIKAN RUJUKAN KEPADA SAYA AGAR BISA MELANJUTKAN PENGOBATAN DI RS DENGAN DOKTER SPESIALIS YG MEMANG BIDANGNYA SESUAI DGN KELUHAN SAYA ?  Pasien atas nama : Muhammad Rifqi Alamat : Jl.Pahlawan",
       "teks_final": "terhitung bulan kedatangan pertama hingga adl kesekian kalinya kejelasan tentang sakit apa keluhan awal telinga telinga terasa seperti buntu mendengar sempurna kasi obat tetes hingga kali kunjungan sembuh menyusul badan panas tinggi pusing hebat meriang panas dingin mual muntah badan terasa cekot2 nyeri hasil diagnosis dinyatakan thipus gol dehidrasi opname puskesmas infus selama hari kamis siang badan agak mendingan diperbolehkan pulang minggu siang minggu dirumah telinga sakit bengkak kesekian kalinya periksa kepuskesmas suruh cek lab periksa gula darah dahak pdhal keluhan batuk bs mengeluarkan dahak mengenai apa alami tentang pelayanan puskesmas menurut lambat penanganannya tolong agar mendapat penanganan maksimal spesial rumah sakit berkompeten menangani keluhan agar keluhan semakin berkepanjangan pertanyaannya mengapa pihak puskesman bertahan memberikan rujukan kepada agar melanjutkan pengobatan rumah sakit dokter spesialis memang bidangnya sesuai keluhan pasien atas nama muhammad rifqi alamat jl pahlawan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9268
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Alhamdulillah penanganan cepat di ugd nya.. Pegawainnya baik baik Diarahkan dg sabar",
       "teks_final": "alhamdulillah penanganan cepat ugd pegawainnya baik baik diarahkan sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9433
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Penanganan lambat jedah antar pasien hampir 20 menit",
       "teks_final": "penanganan lambat jedah antar pasien hampir menit",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8752
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "perawat ugd yg super rama, cekatan, puasss banget berobat ke sini..",
       "teks_final": "perawat ugd super rama cekatan puasss banget berobat sini",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Antrian lama bet skrng GK Kya dulu cepet d Thun 2024",
       "teks_final": "antrian lama bet skrng kya dulu cepet thun",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9963
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "PELAYANAN JELEK!! Udah tau ada orang didepan resepsionis malah asik ngobrol ! Jawaban juga judes gak enak !! TOLONG KALAU GAK BISA DI BAGIAN PELAYANAN GAUSH DIBAGIAN PELAYANAN , KITA MAU BEROBAT MALAH PELAYANAN KE MASYARAKAT JELEK !!",
       "teks_final": "pelayanan jelek udah tau orang didepan resepsionis malah asik ngobrol jawaban judes enak tolong bagian pelayanan gaush dibagian pelayanan mau berobat malah pelayanan masyarakat jelek",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     }
   ]

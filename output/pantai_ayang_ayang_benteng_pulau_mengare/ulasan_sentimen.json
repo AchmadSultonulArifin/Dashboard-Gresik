@@ -3,12 +3,12 @@
   "tempat": "Pantai Ayang-ayang Benteng Pulau Mengare",
   "rating": 4.2,
   "total_ulasan": 17,
-  "positif": 2,
+  "positif": 8,
   "netral": 4,
-  "negatif": 11,
-  "persen_positif": 11.8,
+  "negatif": 5,
+  "persen_positif": 47.1,
   "persen_netral": 23.5,
-  "persen_negatif": 64.7,
+  "persen_negatif": 29.4,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -29,7 +29,7 @@
       "Ulasan": "Tak terawat",
       "teks_final": "tak terawat",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.997
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Bisa bikin kangen ayang ayang",
       "teks_final": "bikin kangen ayang ayang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Alhamdulillah banyak membantu",
       "teks_final": "alhamdulillah banyak membantu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9856
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Good lah",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tempat nya bagus buat foto dan berkemah , tapi akses jalan nya Kurang baik",
       "teks_final": "tempat bagus buat foto berkemah akses jalan kurang baik",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9147
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Ya lumayan untuk skedar healing",
       "teks_final": "ya lumayan skedar healing",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7368
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Ndak ketemu jalan masuknya, malah dimasukin ke rumah orang",
       "teks_final": "ndak ketemu jalan masuknya malah dimasukin rumah orang",
       "topik": "Infrastruktur",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9873
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sangat indah dan exotic pulaunya",
       "teks_final": "indah exotic pulaunya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Tempat mancing yg masih alami...",
       "teks_final": "tempat mancing alami",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.982
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pantai ayang-ayang merupakan salah satu destinasi yang di miliki oleh exotic mengare. Jika melihat Hutan mangrove ini bisa dilihat saat menaiki kapal klotok dari dermaga Mengare menuju Exotic Mengare.",
       "teks_final": "pantai ayang ayang merupakan salah satu destinasi miliki exotic mengare melihat hutan mangrove dilihat menaiki kapal klotok dermaga mengare menuju exotic mengare",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8622
     }
   ]

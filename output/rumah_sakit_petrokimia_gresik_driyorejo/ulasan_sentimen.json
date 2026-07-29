@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Petrokimia Gresik Driyorejo",
   "rating": 4.5,
   "total_ulasan": 27,
-  "positif": 3,
+  "positif": 24,
   "netral": 1,
-  "negatif": 23,
-  "persen_positif": 11.1,
+  "negatif": 2,
+  "persen_positif": 88.9,
   "persen_netral": 3.7,
-  "persen_negatif": 85.2,
+  "persen_negatif": 7.4,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Alhamdulillah pengalaman melahirkan di sini sangat luar biasa dokter bidan dan tim perawat sangat profesional ruangannya bersih nyaman . Perjuangan di bayar dengan lunas oleh kelahiran bayi perempuan pertama yang gemoy. Terimakasih RS.petro kimia Gresik terimakasih dokter bidan dan segala perawat yg bekerja disini kami bangga pada kalian",
       "teks_final": "alhamdulillah pengalaman melahirkan sini luar biasa dokter bidan tim perawat profesional ruangannya bersih nyaman perjuangan bayar lunas kelahiran bayi perempuan pertama gemoy terimakasih rumah sakit petro kimia gresik terimakasih dokter bidan segala perawat bekerja disini bangga kalian",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bidan nya ramah2, fasilitas bagus, pelayanannya top☺",
       "teks_final": "bidan ramah2 fasilitas bagus pelayanannya top",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ngeluh sakit di ulu hati kanan eh discreening stetoskop doang trs didiagnosa gerd, dikasih obat nyeri, di suruh pulang. Karena masih sakit bgt n terus2an, coba pindah ke darjo, di usg ternyata batu empedu :\" NAHLOOO :\" Pdhal bela2in ke Petro di jam 1 pagi",
       "teks_final": "ngeluh sakit ulu hati kanan eh discreening stetoskop doang trs didiagnosa gerd dikasih obat nyeri suruh pulang sakit banget terus2an coba pindah darjo usg ternyata batu empedu nahlooo pdhal bela2in petro jam pagi",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9736
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Terbaik dehh pokoknya... 👍👍👍👍👍",
       "teks_final": "terbaik dehh pokoknya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Hari ini kontrol ke poli gigi anak RS Petrokimia Gresik Driyorejo.. pelayanan sangat memuaskan. Dokternya ramah, komunikatif. Tidak membuat anak takut. Senyum ceria bersama dental center RS Petrokimia Gresik Driyorejo",
       "teks_final": "hari kontrol poli gigi anak rumah sakit petrokimia gresik driyorejo pelayanan memuaskan dokternya ramah komunikatif membuat anak takut senyum ceria bersama dental center rumah sakit petrokimia gresik driyorejo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6907
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Instalasi farmasi super lama. Padahal pakai umum tapi tetep aja nunggu berjam2. Sudah pernah kasih kritik saran tapi sepertinya ga ada improvement. Mau pakai jasa kirim obat pun ga bisa karena invoicenya ga langsung dikasih, baru dibuat setelah/bareng sama pembuatan obat.",
       "teks_final": "instalasi farmasi super lama padahal pakai umum tetep aja nunggu berjam2 pernah kasih kritik saran sepertinya improvement mau pakai jasa kirim obat invoicenya langsung dikasih dibuat bareng sama pembuatan obat",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7889
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Alhamdulillah bulan juni kmaren saya melahirkan anak pertama saya di rs petro penanganan dari dokternya cepat, bu bidannya ramah dan informatif, rs nya bersih nyaman, di bantu proses pembuatan akte dan kk gratisssss, semoga sukses selalu untuk rs petro dan para petugas, tenaga medis yg ada diladalmnya sehat selalu aamiin 🤲",
       "teks_final": "alhamdulillah bulan juni kmaren melahirkan anak pertama rumah sakit petro penanganan dokternya cepat bu bidannya ramah informatif rumah sakit bersih nyaman bantu proses pembuatan akte kk gratisssss semoga sukses selalu rumah sakit petro para petugas tenaga medis diladalmnya sehat selalu aamiin",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9919
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sangat rekomendasi untuk pelayanan yang ramah, kepengurudan surat lahir di bantu samapai selesai tanpa adanya biaya atau free",
       "teks_final": "rekomendasi pelayanan ramah kepengurudan surat lahir bantu samapai selesai tanpa adanya biaya free",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9252
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanannya sangat baik , perawat juga sangat telaten dalam merawat pasien , trimakasih",
       "teks_final": "pelayanannya baik perawat telaten merawat pasien trimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8435
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya baik puas dokternya ramah, bidannya baik juga proses cepat",
       "teks_final": "pelayanannya baik puas dokternya ramah bidannya baik proses cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanannya sangat baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pengalaman melahirkan istri saya di ruang bersalin RS Petrokimia Gresik Driyorejo sangat memuaskan. pelayanannya bagus.bidan dan dokternya ramah semua. kamarnya juga nyaman dan bersih. terima kasih rs petro",
       "teks_final": "pengalaman melahirkan istri ruang bersalin rumah sakit petrokimia gresik driyorejo memuaskan pelayanannya bagus bidan dokternya ramah semua kamarnya nyaman bersih terima kasih rumah sakit petro",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9832
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan cepat, tanggap,baik dan tempat bersih",
       "teks_final": "pelayanan cepat tanggap baik tempat bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Teruntuk ruang bersalin Pelayanannya cukup bagus lancar aman tepat waktu mengatasi semua cukup sangat bagus sekali pokoknya the bestlah 👍👍",
       "teks_final": "teruntuk ruang bersalin pelayanannya cukup bagus lancar aman tepat waktu mengatasi semua cukup bagus pokoknya the bestlah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Sangat bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan sudah bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Satpam di sini sangat membantu saat kami datang membawa anak yang sedang sakit. Keramahan staf benar-benar terasa.",
       "teks_final": "satpam sini membantu datang membawa anak sedang sakit keramahan staf benar benar terasa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9888
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Proses persalinan di sini sangat tenang. Perawatnya sabar sekali membimbing saya, fasilitas kamarnya juga sangat bersih.",
       "teks_final": "proses persalinan sini tenang perawatnya sabar membimbing fasilitas kamarnya bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Terima kasih untuk tim dokter dan perawat yang ramah dalam membantu proses persalinan istri saya. Sangat puas dengan pelayanannya.",
       "teks_final": "terima kasih tim dokter perawat ramah membantu proses persalinan istri puas pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Terimaksih banyak untuk RS Petrokimia Gresik Driyorejo atas layanan fisioterapi dan timkes terapi wicara yg membimbing dengan penuh kesabaran dan ketelatenan. Perkembangan dan senyuman anak saya bahagia hari ini adalah berkat kesabaran dan ketelatenan para timkes.khususx kak avril 🙏🙏🤲 Semangat juga buat para orang tua usaha tidak akan megkhianati hasil",
       "teks_final": "terimaksih banyak rumah sakit petrokimia gresik driyorejo atas layanan fisioterapi timkes terapi wicara membimbing penuh kesabaran ketelatenan perkembangan senyuman anak bahagia hari berkat kesabaran ketelatenan para timkes khususx kak avril semangat buat para orang tua usaha megkhianati hasil",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9729
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "sudah 3kali ini pelayanan sangat baik dan susternya juga ramah²",
       "teks_final": "3kali pelayanan baik susternya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan dan penanganan sangat cepat dan tanggap serta perawat yang bertugas sangat ramah dalam menjelaskan dan merawat saya terimakasih banyakk..Rs Petrokimia semoga berkembang dan semakin maju Aamiinnn....",
       "teks_final": "pelayanan penanganan cepat tanggap serta perawat bertugas ramah menjelaskan merawat terimakasih banyakk rumah sakit petrokimia semoga berkembang semakin maju aamiinnn",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9868
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan anya memuaskan, cepat tanggap",
       "teks_final": "pelayanan anya memuaskan cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Perawat nya baik banget ,Rahma , pelayanan sangat bagus sekali",
       "teks_final": "perawat baik banget rahma pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     }
   ]

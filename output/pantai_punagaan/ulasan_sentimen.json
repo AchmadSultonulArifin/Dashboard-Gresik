@@ -3,12 +3,12 @@
   "tempat": "Pantai Punagaan",
   "rating": 4.6,
   "total_ulasan": 18,
-  "positif": 1,
+  "positif": 14,
   "netral": 3,
-  "negatif": 14,
-  "persen_positif": 5.6,
+  "negatif": 1,
+  "persen_positif": 77.8,
   "persen_netral": 16.7,
-  "persen_negatif": 77.8,
+  "persen_negatif": 5.6,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -29,7 +29,7 @@
       "Ulasan": "Wonderful place👍",
       "teks_final": "wonderful place",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9888
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Spot mancing istimewa''",
       "teks_final": "spot mancing istimewa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Paling cocok buat healing",
       "teks_final": "paling cocok buat healing",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "indah tenang.... sayang belum ada aliran listrik dan tak ada jangkauan signal",
       "teks_final": "indah tenang sayang aliran listrik tak jangkauan signal",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9582
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "If you have soul of traveller and have fund to explorer sea and beach...I recomended this place and this island....ganbatte",
       "teks_final": "if you have soul of traveller and have fund to explorer sea and beach recomended this place and this island ganbatte",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5662
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pemandangan under water so beautiful, terumbu karangnya cantik cantik. Ada juga air terjunnya... Wajib ke sini sih",
       "teks_final": "pemandangan under water so beautiful terumbu karangnya cantik cantik air terjunnya wajib sini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Ikannya segar enak.baget...rekomendit",
       "teks_final": "ikannya segar enak baget rekomendit",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9979
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "berbelanja lebih lengkap dan siap di antar",
       "teks_final": "berbelanja lengkap siap antar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7069
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Selain menikmati keindahan pantai, pengunjung juga dapat melakukan aktivitas snorkeling untuk menjelajahi keanekaragaman hayati bawah laut di sekitar Pantai Punagaan. Bagi yang ingin merasakan suasana pantai yang tenang dan alami, Pantai Punagaan di Selayar ini layak menjadi pilihan destinasi wisata Anda.  Untuk gambaran lebih jelas mengenai keindahan Pantai Punagaan, berikut adalah video yang dapat Anda tonton:",
       "teks_final": "selain menikmati keindahan pantai pengunjung melakukan aktivitas snorkeling menjelajahi keanekaragaman hayati bawah laut sekitar pantai punagaan bagi ingin merasakan suasana pantai tenang alami pantai punagaan selayar layak menjadi pilihan destinasi wisata gambaran jelas mengenai keindahan pantai punagaan berikut video tonton",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9531
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Asik banget, bisa langsung berenang dan banyak ikan-ikan",
       "teks_final": "asik banget langsung berenang banyak ikan ikan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "the best lah kalo punagaan",
       "teks_final": "the best kalo punagaan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Best view  n experience",
       "teks_final": "best view experience",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9762
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Sangat seruh dan banyak hal baru disana",
       "teks_final": "seruh banyak hal disana",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     }
   ]

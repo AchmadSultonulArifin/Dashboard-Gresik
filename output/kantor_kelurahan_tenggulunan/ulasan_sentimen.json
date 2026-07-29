@@ -3,12 +3,12 @@
   "tempat": "Kantor Kelurahan Tenggulunan",
   "rating": 4.6,
   "total_ulasan": 7,
-  "positif": 1,
+  "positif": 5,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 14.3,
+  "negatif": 0,
+  "persen_positif": 71.4,
   "persen_netral": 28.6,
-  "persen_negatif": 57.1,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Tempat tinggal ku. Alhamdulillah dari kecil sampai sekarang masih tetap di Tenggulunan tercinta 👌👍. Terimakasih BarokahAllah 🤲.",
       "teks_final": "tempat tinggal ku alhamdulillah kecil sampai sekarang tetap tenggulunan tercinta terimakasih barokahallah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9889
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {

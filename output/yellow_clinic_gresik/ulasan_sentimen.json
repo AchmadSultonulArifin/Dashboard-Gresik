@@ -3,12 +3,12 @@
   "tempat": "Yellow Clinic Gresik",
   "rating": 4.9,
   "total_ulasan": 22,
-  "positif": 0,
+  "positif": 22,
   "netral": 0,
-  "negatif": 22,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Kamis MCU..jumat udah siap hasilnya",
       "teks_final": "kamis mcu jumat udah siap hasilnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8635
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "tempatnya bersih, pelayanannya ramah",
       "teks_final": "tempatnya bersih pelayanannya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Baik, ramah, tulus, sopan,",
       "teks_final": "baik ramah tulus sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9574
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan sangat memuaskan.., petugas.nya sangat ramah dan informatif",
       "teks_final": "pelayanan memuaskan petugas ramah informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Petugasnya ramah cantik2, terimakasih yellow clinic",
       "teks_final": "petugasnya ramah cantik2 terimakasih yellow clinic",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "👍💯 pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Ptugas ramah oke",
       "teks_final": "ptugas ramah oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9925
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan nya baik petugas ramah dan klinik bersih",
       "teks_final": "pelayanan baik petugas ramah klinik bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanananya mantap",
       "teks_final": "pelayanananya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayaanan cukup baik",
       "teks_final": "pelayaanan cukup baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9873
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan yg sangat baik..petugas ramah²",
       "teks_final": "pelayanan baik petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan puas terima kasih",
       "teks_final": "pelayanan puas terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayan sangat ramah dan sangat sopan...",
       "teks_final": "pelayan ramah sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Penanganan Sangat Cepat, Pelayanan Sangat Ramah, Josss",
       "teks_final": "penanganan cepat pelayanan ramah josss",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan yang sangat baik ...",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Bagus nyaman pelayanan cepat",
       "teks_final": "bagus nyaman pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan yang sangat bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "pelayan sangat bagus",
       "teks_final": "pelayan bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Sangat memuaskan pelayanannya",
       "teks_final": "memuaskan pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Gelora 17 Agustus Balongpanggang",
   "rating": 4.2,
   "total_ulasan": 11,
-  "positif": 1,
+  "positif": 6,
   "netral": 4,
-  "negatif": 6,
-  "persen_positif": 9.1,
+  "negatif": 1,
+  "persen_positif": 54.5,
   "persen_netral": 36.4,
-  "persen_negatif": 54.5,
+  "persen_negatif": 9.1,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Tempatnya bgus",
       "teks_final": "tempatnya bgus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sip",
       "teks_final": "sip",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9767
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sayang haya digunakan upacara",
       "teks_final": "sayang haya digunakan upacara",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.3807
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Lumayan",
       "teks_final": "lumayan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sangat menyenangkan",
       "teks_final": "menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {

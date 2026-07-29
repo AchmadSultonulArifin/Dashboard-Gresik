@@ -8,6 +8,15 @@
     </p>
 </div>
 
+{% set status = scrape_status.get('instagram') %}
+{% if status %}
+<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;margin:10px 0;
+    {% if status.success %}background:#d1fae5;color:#065f46;{% else %}background:#fee2e2;color:#991b1b;{% endif %}">
+    {% if status.success %}✅ Berhasil{% else %}❌ Gagal{% endif %}
+    <span style="font-weight:400;opacity:0.8;">— {{ status.last_run }}</span>
+</div>
+{% endif %}
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 
 <style>

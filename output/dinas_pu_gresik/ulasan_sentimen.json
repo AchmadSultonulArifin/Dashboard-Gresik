@@ -3,12 +3,12 @@
   "tempat": "Dinas PU Gresik",
   "rating": 3.7,
   "total_ulasan": 16,
-  "positif": 3,
+  "positif": 9,
   "netral": 4,
-  "negatif": 9,
-  "persen_positif": 18.8,
+  "negatif": 3,
+  "persen_positif": 56.2,
   "persen_netral": 25.0,
-  "persen_negatif": 56.2,
+  "persen_negatif": 18.8,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan ramah dan tempat nyaman",
       "teks_final": "pelayanan ramah tempat nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Dinas Pekerjaan Umum dan Tata Ruang Kabupaten Gresik. Gresik semakin lebih baik!",
       "teks_final": "dinas pekerjaan umum tata ruang kabupaten gresik gresik semakin baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7162
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Just some stars...",
       "teks_final": "just some stars",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8129
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Dan begitu banyak keluhan dari warga gresik. Dimanakah anda sebagai pihak yang berwenang dalam perbaikan jalan di gresik. Apakah tak ada pengamat jalan raya di instansi ini.",
       "teks_final": "begitu banyak keluhan warga gresik dimanakah sebagai pihak berwenang perbaikan jalan gresik apakah tak pengamat jalan raya instansi",
       "topik": "Infrastruktur",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.787
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Top",
       "teks_final": "top",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Halaman parkir luas , gedung nya bersih rapi , pelayanan baik",
       "teks_final": "halaman parkir luas gedung bersih rapi pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.992
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "kerjanya lamban",
       "teks_final": "kerjanya lamban",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9976
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Dengan kerjasama yang bagus akan terwujud administrasi yang baik. Akhir - Akhir tahun banyak pegawai yang kerja keras hingga lembur larut malam, demi untuk menyelesaikan semua pekerjaan baik yang di lapangan dan yang dikantornya masing-masing bidang agar dapat tercipta keselarasan kesejahteraan bersama. Untuk itu kita semua khususnya warga Gresik selalu dukung lah pemerintah kita kerja kerja dan kerja, janganlah terlalu banyak menyalahkan,lebih baik kita kerjasama walaupun tidak bisa dengan materi, usulan pikiran positif untuk membangun kota kita agar supaya anak cucu kelak dapat meneruskan perjuangan demi perjuangan yang belum dapat dilaksanakan. Ayolah berbondong bondong menyongsong tanah air kita semua untuk memajukan negara Indonesia,.merdeka Tanpa adanya partisipasi dari semua pihak takkan terwujudlah kebaikan bersama Mantap jiwa dan raga...... Semoga kita semua dalam lindungan Allah SWT Amin.",
       "teks_final": "kerjasama bagus terwujud administrasi baik akhir akhir tahun banyak pegawai kerja keras hingga lembur larut malam demi menyelesaikan semua pekerjaan baik lapangan dikantornya masing masing bidang agar tercipta keselarasan kesejahteraan bersama semua khususnya warga gresik selalu dukung pemerintah kerja kerja kerja janganlah terlalu banyak menyalahkan baik kerjasama walaupun materi usulan pikiran positif membangun kota agar supaya anak cucu kelak meneruskan perjuangan demi perjuangan dilaksanakan ayolah berbondong bondong menyongsong tanah air semua memajukan negara indonesia merdeka tanpa adanya partisipasi semua pihak takkan terwujudlah kebaikan bersama bagus jiwa raga semoga semua lindungan allah swt amin",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9363
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Strategis banget, depan pintu tol Kebomas",
       "teks_final": "strategis banget depan pintu tol kebomas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Asri",
       "teks_final": "asri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Wisata Religi Sunan Giri",
   "rating": 4.8,
   "total_ulasan": 11,
-  "positif": 1,
+  "positif": 7,
   "netral": 4,
-  "negatif": 6,
-  "persen_positif": 9.1,
+  "negatif": 0,
+  "persen_positif": 63.6,
   "persen_netral": 36.4,
-  "persen_negatif": 54.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -40,7 +40,7 @@
       "Ulasan": "Parkir rapi hrga standart. Toilet umum di depan bersih, air melimpah, hrg standart. Htm 0rp. Beberapa infaQ seikhlas nya (ujung tangga atas, masuk area makam, dan masuk pendopo makam). Disediakan buku yasin tahlil di dlm makam utama. Jalur turun dri makam utama dibelokkan masuk pasar cinderamata (standart oleh2. Baju,accesories,mainan anak,kue kering) atau bisa lanjut jalur atas ke area masjid. Suasana overall nyaman, cuma parkir kurang bersih. Setelah ujung tangga juga ada pedagang makanan dan minuman.",
       "teks_final": "parkir rapi hrga standart toilet umum depan bersih air melimpah hrg standart htm 0rp beberapa infaq seikhlas ujung tangga atas masuk area makam masuk pendopo makam disediakan buku yasin tahlil makam utama jalur turun dri makam utama dibelokkan masuk pasar cinderamata standart oleh2 baju accesories mainan anak kue kering lanjut jalur atas area masjid suasana overall nyaman cuma parkir kurang bersih ujung tangga pedagang makanan minuman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9687
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Wisata sunan giri gak pernah bosan sowan ke makan sunan giri Gresik..walau tempatnya ada di atas gunung ..semangat terus...",
       "teks_final": "wisata sunan giri pernah bosan sowan makan sunan giri gresik walau tempatnya atas gunung semangat terus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.956
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Enaknya tuh ziarah dengan keluarga, kerabat ataupun ramai-ramai ☺️",
       "teks_final": "enaknya tuh ziarah keluarga kerabat ataupun ramai ramai",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9697
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bagus rapih",
       "teks_final": "bagus rapih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     }
   ]

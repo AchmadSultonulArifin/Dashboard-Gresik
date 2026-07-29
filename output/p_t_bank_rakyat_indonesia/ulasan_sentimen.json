@@ -3,12 +3,12 @@
   "tempat": "P T Bank Rakyat Indonesia",
   "rating": 3.6,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 4,
   "netral": 1,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 66.7,
   "persen_netral": 16.7,
-  "persen_negatif": 83.3,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Melayani setulus hati, semoga bisa nabung disana dan ketemu keponakan",
       "teks_final": "melayani setulus hati semoga nabung disana ketemu keponakan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9748
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Melayani Setulus Hati 🙏",
       "teks_final": "melayani setulus hati",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9339
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus dan membantu",
       "teks_final": "bagus membantu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     }
   ]

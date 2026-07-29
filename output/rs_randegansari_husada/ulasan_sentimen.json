@@ -3,12 +3,12 @@
   "tempat": "RS Randegansari Husada",
   "rating": 4.3,
   "total_ulasan": 23,
-  "positif": 1,
+  "positif": 22,
   "netral": 0,
-  "negatif": 22,
-  "persen_positif": 4.3,
+  "negatif": 1,
+  "persen_positif": 95.7,
   "persen_netral": 0.0,
-  "persen_negatif": 95.7,
+  "persen_negatif": 4.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan sangat lemot kelihatan keadaan darurat kok gak ada tindakan gak ada solusi sama sekali penyebab ayah saya sampai meninggal",
       "teks_final": "pelayanan lemot kelihatan keadaan darurat kok tindakan solusi sama penyebab ayah sampai meninggal",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9951
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanannya baik , mbak\"nya ramah",
       "teks_final": "pelayanannya baik mbak ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan rs husada sangan memuaskan sekali, pelayanan juga ramah",
       "teks_final": "pelayanan rumah sakit husada sangan memuaskan pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Rumah Sakit nya bersih, pelayanan baik dan ramah",
       "teks_final": "rumah sakit bersih pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanannya ramah, dan sangat informatif",
       "teks_final": "pelayanannya ramah informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan sangat bagus, dan ramah2..",
       "teks_final": "pelayanan bagus ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Booth Jobfair informatif dan menarik",
       "teks_final": "booth jobfair informatif menarik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9886
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan sangat baik..",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan baik dan fasilitas terawat dengan baik",
       "teks_final": "pelayanan baik fasilitas terawat baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9692
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Fasilitas rumah sakitnya mencukupi dan pelayanannya juga memuaskan",
       "teks_final": "fasilitas rumah sakitnya mencukupi pelayanannya memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan memuaskan dan cepat",
       "teks_final": "pelayanan memuaskan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya sangat bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "mantapp kak",
       "teks_final": "mantapp kak",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "mantapp",
       "teks_final": "mantapp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Mantab",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Semoga semakin kualitas nya bertambah",
       "teks_final": "semoga semakin kualitas bertambah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9716
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Sangat recomended",
       "teks_final": "recomended",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "ramah pelayanan nya",
       "teks_final": "ramah pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan luar biasa",
       "teks_final": "pelayanan luar biasa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan bagus, ramah",
       "teks_final": "pelayanan bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayanan luar biasa",
       "teks_final": "pelayanan luar biasa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     }
   ]

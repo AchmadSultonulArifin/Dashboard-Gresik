@@ -3,12 +3,12 @@
   "tempat": "PT. CITRA CATUR UTAMA KARYA",
   "rating": 4.4,
   "total_ulasan": 17,
-  "positif": 1,
+  "positif": 10,
   "netral": 5,
-  "negatif": 11,
-  "persen_positif": 5.9,
+  "negatif": 2,
+  "persen_positif": 58.8,
   "persen_netral": 29.4,
-  "persen_negatif": 64.7,
+  "persen_negatif": 11.8,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Sangat baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Luar biasa",
       "teks_final": "luar biasa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sangat terpercaya.....",
       "teks_final": "terpercaya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Sukses bersama mami alimah",
       "teks_final": "sukses bersama mami alimah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9841
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sukses bersama Yana CCUK kediri",
       "teks_final": "sukses bersama yana ccuk kediri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9547
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "mantul",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bad",
       "teks_final": "bad",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9929
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Terpercaya. Proses lancar cepat. Loushenya Ramah bikin gemes..... aku mau proses ke 2x nya.",
       "teks_final": "terpercaya proses lancar cepat loushenya ramah bikin gemes aku mau proses 2x",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan Yang Baik 👍👍👍",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pt ccuk selalu yang terdepan dalam pelayanan, imissyou",
       "teks_final": "pt ccuk selalu terdepan pelayanan imissyou",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.967
     }
   ]

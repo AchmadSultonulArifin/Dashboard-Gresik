@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Unit Kedamean",
   "rating": 3.4,
   "total_ulasan": 19,
-  "positif": 13,
+  "positif": 7,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 68.4,
+  "negatif": 10,
+  "persen_positif": 36.8,
   "persen_netral": 10.5,
-  "persen_negatif": 21.1,
+  "persen_negatif": 52.6,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan nya selalu lama, jika ada perubahan jadwal dalam layanan tertentu tidak diinfokan dengan jelas, sehingga harus bolak balik pulang atau balik lagi ke bank nya😞",
       "teks_final": "pelayanan selalu lama perubahan jadwal layanan tertentu diinfokan jelas sehingga harus bolak balik pulang balik bank",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6628
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "pekerja ramah dan asik , gaul.  kantor keren",
       "teks_final": "pekerja ramah asik gaul kantor bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan super duper lama",
       "teks_final": "pelayanan super duper lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kurang suka disini. Orang orang bebas mendahului. Padahal saya sudah antri. Jadi malah pulang terakhir karena sering di selat. Padahal ya sama2 pentingnya.. dan saya urusannyansebentar. Mana kondisi saya hamil. Lagi teler malah dahulukan yang lain yang jelas2 sehat. Tolong buat CS buat lebih profesional..mendahulukan sesuai dg nomor antrian..dan tegas menolak yang tb2 datang padahal ga antri.",
       "teks_final": "kurang suka disini orang orang bebas mendahului padahal antrian jadi malah pulang terakhir sering selat padahal ya sama2 pentingnya urusannyansebentar mana kondisi hamil teler malah dahulukan lain jelas2 sehat tolong buat cs buat profesional mendahulukan sesuai nomor antrian tegas menolak tb2 datang padahal antrian",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9944
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanannya sangat lama",
       "teks_final": "pelayanannya lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan lamban skali. Nunggu CS dari jam 12.an smpe jam 13.22 msh tdk dilayani. Pdhl cuma mau gnti krtu ATM.",
       "teks_final": "pelayanan lamban skali nunggu cs jam an smpe jam dilayani pdhl cuma mau gnti krtu atm",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9946
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayananx lemootttt sekali...kl ambil uang bnyak meskipun sdh pesan tapi bsoknya juga masih belum tentu ada...saya pesan hari senin katanya kalau sdh siap akan dihubungi..tapi smpai hari sabtu juga tdk ada kabar..kl d bank lain hari ini pesan bsokx sdh bs d ambil..bahkan ada yg tdk pakai pesan meskipum nominalx besar bs langsung di ambil",
       "teks_final": "pelayananx lemootttt ambil uang bnyak meskipun pesan bsoknya tentu pesan hari senin katanya siap dihubungi smpai hari sabtu kabar bank lain hari pesan bsokx bs ambil bahkan pakai pesan meskipum nominalx besar bs langsung ambil",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9847
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Gara2 bagian unitnya di ganti. PELAYANAN BOBROK BANGET. SAYA BUAT BRI JUNIO JELAS2 D WEB RESMI BRI TIDAK ADA BIAYA ADMIN BAGI ANAK <12THN SEDANGKAN ANAK SY UMUR 1,5THN ADA ADMINNYA. CS SUPER LELET MALAH NRIMA TLP DR ORG YG MAU PINJEM UANG. GAK D KASIH INFO BLA BLA GINI GITU MALAH KITA YG HRUS TNYA. BEDA SM YG DULU RAMAH DAN D KASIH PENJELASAN. SEMUA BANK SEPERTI ITU. NYESEL POKOKNYA !!!!!!",
       "teks_final": "gara2 bagian unitnya ganti pelayanan bobrok banget buat bri junio jelas2 web resmi bri biaya admin bagi anak 12thn sedangkan anak umur 5thn adminnya cs super lelet malah nrima tlp org mau pinjem uang kasih info bla bla gini gitu malah hrus tnya beda sama dulu ramah kasih penjelasan semua bank seperti nyesel pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9908
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Terimakasih BANK BRI cabang kedamean",
       "teks_final": "terimakasih bank bri cabang kedamean",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.69
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayananya lelet banget . tidak di rekomendasikan .bisa berjam jam anda antri",
       "teks_final": "pelayananya lelet banget rekomendasikan berjam jam antrian",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9977
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Teller nya LELET,  ISTIRAHAT DRI JAM 12 SAMPE. JM 13.30  , ITU ISTIRAHAT APA TIDUR.",
       "teks_final": "teller lelet istirahat dri jam sampe jm istirahat apa tidur",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9947
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {

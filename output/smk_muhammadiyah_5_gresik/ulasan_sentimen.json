@@ -3,12 +3,12 @@
   "tempat": "SMK MUHAMMADIYAH 5 GRESIK",
   "rating": 4.7,
   "total_ulasan": 8,
-  "positif": 0,
+  "positif": 5,
   "netral": 3,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 62.5,
   "persen_netral": 37.5,
-  "persen_negatif": 62.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Masih bertumbuh sekolahnya, semoga menjadi lebih baik lagi",
       "teks_final": "bertumbuh sekolahnya semoga menjadi baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9777
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sangat terbaik nyaman,mari bersekolah di SMK MUH 05 GRESIK",
       "teks_final": "terbaik nyaman mari bersekolah smk muh gresik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8818
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sekolah jurusan pertanian dan peternakan yang programnya inovatif",
       "teks_final": "sekolah jurusan pertanian peternakan programnya inovatif",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9725
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Mantap! Sekolah prospektif",
       "teks_final": "bagus sekolah prospektif",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     }
   ]

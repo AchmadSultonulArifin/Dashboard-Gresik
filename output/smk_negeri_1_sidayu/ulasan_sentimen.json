@@ -3,12 +3,12 @@
   "tempat": "SMK Negeri 1 Sidayu",
   "rating": 4.4,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 3,
   "netral": 2,
-  "negatif": 2,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 60.0,
   "persen_netral": 40.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -29,7 +29,7 @@
       "Ulasan": "Super",
       "teks_final": "super",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "SMKN Sidayu maju terus",
       "teks_final": "smkn sidayu maju terus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6708
     }
   ]

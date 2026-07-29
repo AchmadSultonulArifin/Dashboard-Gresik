@@ -3,12 +3,12 @@
   "tempat": "SMK RADEN PAKU",
   "rating": 4.5,
   "total_ulasan": 8,
-  "positif": 0,
+  "positif": 4,
   "netral": 3,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 50.0,
   "persen_netral": 37.5,
-  "persen_negatif": 62.5,
+  "persen_negatif": 12.5,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -40,7 +40,7 @@
       "Ulasan": "Sekolah dengan Saranan lengkap sekolah luas apalagi sekarang banyak tanaman2 jadi makin cantik",
       "teks_final": "sekolah saranan lengkap sekolah luas apalagi sekarang banyak tanaman2 jadi makin cantik",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Belajar las",
       "teks_final": "belajar las",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8937
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Muridnya banyak. Ini smk pariwisata atau teknik sih. Make up muridnya waow 🤣🤣",
       "teks_final": "muridnya banyak smk pariwisata teknik make up muridnya waow",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9236
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Nyaman luas, sarana lengkap",
       "teks_final": "nyaman luas sarana lengkap",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     }
   ]

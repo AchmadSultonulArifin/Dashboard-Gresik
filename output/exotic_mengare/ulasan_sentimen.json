@@ -3,12 +3,12 @@
   "tempat": "Exotic Mengare",
   "rating": 4.5,
   "total_ulasan": 12,
-  "positif": 0,
+  "positif": 10,
   "netral": 1,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 83.3,
   "persen_netral": 8.3,
-  "persen_negatif": 91.7,
+  "persen_negatif": 8.3,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Masjidnya bersih",
       "teks_final": "masjidnya bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus..",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "tempat membuka tabir pencerahan di mana saya hamba Allah yg dulu nya merasa paling dekat dgn Allah setelah sering berkunjung ke tempat makam mbah kanjeng sunan ampel , hamba ini merasa  masih paling banyak dosa - dosa yg hamba perbuat . tempat yg penuh banyak karomah nya . karena ada makam wali Allah yg sangat mulia . mudah\"an jenengan sedoyo bila ke sana mengalami spiritual yg sama . amin 🤲",
       "teks_final": "tempat membuka tabir pencerahan mana hamba allah dulu merasa paling dekat allah sering berkunjung tempat makam mbah kanjeng sunan ampel hamba merasa paling banyak dosa dosa hamba perbuat tempat penuh banyak karomah makam wali allah mulia mudah an jenengan sedoyo bila sana mengalami spiritual sama amin",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9261
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempat nya bagus",
       "teks_final": "tempat bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Menyenangkan",
       "teks_final": "menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Liburan mantab",
       "teks_final": "liburan mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Keren suasananya klo mlm",
       "teks_final": "bagus suasananya mlm",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "bagus tempatnya",
       "teks_final": "bagus tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bener bener exotic, hanya dengan 30rb bisa naik armada penyebrangan PP & menikmati adventure keliling pulau...",
       "teks_final": "bener bener exotic hanya 30rb naik armada penyebrangan pp menikmati adventure keliling pulau",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9921
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Tempat mancing dan heling",
       "teks_final": "tempat mancing heling",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9021
     }
   ]

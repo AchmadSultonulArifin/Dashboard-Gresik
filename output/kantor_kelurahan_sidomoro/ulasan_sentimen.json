@@ -3,12 +3,12 @@
   "tempat": "Kantor Kelurahan Sidomoro",
   "rating": 5,
   "total_ulasan": 4,
-  "positif": 0,
+  "positif": 3,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan sangat bagus dan cepat tempatnya pun bersih dan rapi pelayan masyarakat yang amaanah",
       "teks_final": "pelayanan bagus cepat tempatnya bersih rapi pelayan masyarakat amaanah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bersih",
       "teks_final": "bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Nice place.",
       "teks_final": "nice place",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {

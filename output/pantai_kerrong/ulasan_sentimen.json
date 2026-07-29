@@ -3,12 +3,12 @@
   "tempat": "Pantai Kerrong",
   "rating": 4.7,
   "total_ulasan": 8,
-  "positif": 0,
+  "positif": 8,
   "netral": 0,
-  "negatif": 8,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Nice place im from malaysia surprised to see so many beautiful places in Bawean",
       "teks_final": "nice place im from malaysia surprised to see so many beautiful places in bawean",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9408
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Masih menjadi lokasi favorit untuk menghabiskan waktu bersama keluarga hanya saja mungkin bisa sedikit dijaga kebersihan dan toiletnya",
       "teks_final": "menjadi lokasi favorit menghabiskan waktu bersama keluarga hanya saja mungkin sedikit dijaga kebersihan toiletnya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "The view is superb and you can see two different color of the sea and also you can see the island which is noko island if im not mistaken, i think I’m not having a chance to go those white sand island but if you come here give it a chance!!! They said it was one of the wonderful place if you came to the bawean island. There is a fee to go this place which 5000rp per motorcycle if im not mistaken. There is shop also inside there to get a snack and drinks.",
       "teks_final": "the view is superb and you can see two different color of the sea and also you can see the island which is noko island if im not mistaken think im not having chance to go those white sand island but if you come here give it chance they said it was one of the wonderful place if you came to the bawean island there is fee to go this place which 5000rp per motorcycle if im not mistaken there is shop also inside there to get snack and drinks",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5584
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pathway : Easy access for solo tourist.Because it connected to look out point and stair to access downstair to beach area.  Place : A small pier that stretches around 300 meter to the sea.The sea water is clear,you can see the bottom of the sea clearly and this area still have wildlife.",
       "teks_final": "pathway easy access for solo tourist because it connected to look out point and stair to access downstair to beach area place small pier that stretches around meter to the sea the sea water is clear you can see the bottom of the sea clearly and this area still have wildlife",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5283
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pantai yang ada di bawean Bisa melihat pulau gili dan noko Pantainya cukup bersih namun rumputnya tumbuh tinggi tidak dibersihkan Kalo mau mandi bisa bilas di tepi pantai sudah disiapkan tempat bilas, airnya mengalir",
       "teks_final": "pantai bawean melihat pulau gili noko pantainya cukup bersih rumputnya tumbuh tinggi dibersihkan kalo mau mandi bilas tepi pantai disiapkan tempat bilas airnya mengalir",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9877
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Tempat keren dipulau bawean suasana alamnya masih asri",
       "teks_final": "tempat bagus dipulau bawean suasana alamnya asri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "just may be the other name for Pantai Mombhul since it's located just side by side. has many angles for u to photo shoot. bring ur own food there n enjoy the view",
       "teks_final": "just may be the other name for pantai mombhul since it located just side by side has many angles for to photo shoot bring ur own food there enjoy the view",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5617
     }
   ]

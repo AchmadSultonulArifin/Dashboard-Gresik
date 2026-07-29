@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Gending",
   "rating": 4.6,
   "total_ulasan": 24,
-  "positif": 4,
+  "positif": 20,
   "netral": 0,
-  "negatif": 20,
-  "persen_positif": 16.7,
+  "negatif": 4,
+  "persen_positif": 83.3,
   "persen_netral": 0.0,
-  "persen_negatif": 83.3,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "PELAYANAN ORANG LAB PALING PARAH!!!",
       "teks_final": "pelayanan orang lab paling parah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan Klaster Ibu Hamil dan Nifas sangat baik, saat saya melakukan tes kesehatan Calon Pengantin di sini para petugasnya ramah dan informatif, sangat recommended.",
       "teks_final": "pelayanan klaster ibu hamil nifas baik melakukan tes kesehatan calon pengantin sini para petugasnya ramah informatif recommended",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan puskesmas gending makin maju dengan inovasi pendaftaran online biar antri tidak berebut selalu maju doa baik untuk puskesmas gending",
       "teks_final": "pelayanan puskesmas gending makin maju inovasi pendaftaran online biar antrian berebut selalu maju doa baik puskesmas gending",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9156
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan laboratorium cukup cepat dan prosesnya tertata dengan baik. Petugas juga memberikan arahan yang jelas sehingga pemeriksaan berjalan lancar 👍👍",
       "teks_final": "pelayanan laboratorium cukup cepat prosesnya tertata baik petugas memberikan arahan jelas sehingga pemeriksaan berjalan lancar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9678
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan lansia Pelayanan Poli Lansia sangat ramah dan petugasnya sabar dalam melayani pasien lanjut usia. Pemeriksaan dilakukan dengan baik dan penjelasannya mudah dipahami.",
       "teks_final": "pelayanan lansia pelayanan poli lansia ramah petugasnya sabar melayani pasien lanjut usia pemeriksaan dilakukan baik penjelasannya mudah dipahami",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.976
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan KIA di puskesmas sangat baik dan petugasnya ramah. Bidan memberikan penjelasan dengan sabar sehingga ibu dan keluarga merasa lebih tenang saat pemeriksaan.",
       "teks_final": "pelayanan kia puskesmas baik petugasnya ramah bidan memberikan penjelasan sabar sehingga ibu keluarga merasa tenang pemeriksaan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9356
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Selasa kemarin 14 juli 2026 prtama kalinya saya ke puskesmas untuk meminta surat bebas NAPSA dan surat keterangan sehat Awal2 takut klo djutekin petugas puskesmas.. Tp trnyta beda lo d puskesmas gending, dr pendaftaran, trus ke poli anak, IGD sampai dg kasir pembayaran smuanya ramah dan bersikap profesional sih mnurutq.. Trima kasih untuk puskesmas Gending",
       "teks_final": "selasa kemarin juli prtama kalinya puskesmas meminta surat bebas napsa surat keterangan sehat awal2 takut djutekin petugas puskesmas trnyta beda puskesmas gending pendaftaran trus poli anak igd sampai kasir pembayaran smuanya ramah bersikap profesional mnurutq trima kasih puskesmas gending",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6186
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "alhamdulillaj puskesmas gending sekarang bisa bayarvdengan q ris jadi walau kita gak bawa uang tunai bisa pembayaran online dan pemeriksaan murah dsn terjsngkau trimakasihhh",
       "teks_final": "alhamdulillaj puskesmas gending sekarang bayarvdengan ris jadi walau bawa uang tunai pembayaran online pemeriksaan murah dsn terjsngkau trimakasihhh",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9227
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Alhamdulillah barusan berobat di puskesmas gending dan periksa laborat karena panas 2 hari alhamdulillah pelayanan cepat dan ramah petugas laboratnya semoga lebih baik dan banyak inovasi",
       "teks_final": "alhamdulillah barusan berobat puskesmas gending periksa laborat panas hari alhamdulillah pelayanan cepat ramah petugas laboratnya semoga baik banyak inovasi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Semalam saya ngantar ortu ke UGD Pelayanan cepat sat set dan ramah cekatan Semoga puskesmas gending tambah jaya",
       "teks_final": "semalam ngantar ortu ugd pelayanan cepat sat set ramah cekatan semoga puskesmas gending tambah jaya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9229
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Banyak yang harus dibenahi, mulai dari ketelitian, salah membaca data untuk fasilitas kesehatan itu fatal, apalagi ibu ibu yang ada di lab parah banget gada ramah ramahnya, perasaan paling santai dia dari yang lain.",
       "teks_final": "banyak harus dibenahi mulai ketelitian salah membaca data fasilitas kesehatan fatal apalagi ibu ibu lab parah banget gada ramah ramahnya perasaan paling santai lain",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8872
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Parah banget petugas labnya yang tua, mau pengambilan sampel darah buat cek lab masak dia makan jajan diatas meja, langsung disuruh duduk gak pakai cuci tangan kek apa langsung aja duduk diambil sampelnya, gemesin banget bayi vintage itu",
       "teks_final": "parah banget petugas labnya tua mau pengambilan sampel darah buat cek lab masak makan jajan diatas meja langsung disuruh duduk pakai cuci tangan kek apa langsung aja duduk diambil sampelnya gemesin banget bayi vintage",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9882
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Awal periksa di Puskesmas Gending itu petugasnya ramaaah pooolll, baik dan tidak membeda2kan, semua antri tertib ke poli masing2, dokternya telaten, perawat dan bidan nyaa sabar dan kalau memberi penjelasan detail tapi mudah d mengerti pasien. UGD nya jg 24 jam pelayanan nya ramah dan pemeriksaan cepat tapi tepat. Tempatnya bersih dan ramah anak juga saat menunggu antrian, Sekarang malah untuk pembayaran di Puskesmas Gending bisa pakai QRIS, waahh makiin mantap kan, karena bisa lebih cepat tanpa nunggu kembalian..The Best laaahhh Puskesmas Gending.. semoga makin banyak inovasi nyaa dan pelayanan nya tetap terbaiiikk yaaa..",
       "teks_final": "awal periksa puskesmas gending petugasnya ramaaah pooolll baik membeda2kan semua antrian tertib poli masing2 dokternya telaten perawat bidan nyaa sabar memberi penjelasan detail mudah mengerti pasien ugd jam pelayanan ramah pemeriksaan cepat tepat tempatnya bersih ramah anak menunggu antrian sekarang malah pembayaran puskesmas gending pakai qris waahh makiin bagus kan cepat tanpa nunggu kembalian the best laaahhh puskesmas gending semoga makin banyak inovasi nyaa pelayanan tetap terbaiiikk yaaa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan di puskesmas semakin baik dan modern. Kehadiran mesin antrean online yang baru sangat membantu karena proses pendaftaran menjadi lebih cepat, rapi, dan tertata. Pasien jadi lebih mudah mengambil nomor antrean tanpa harus berdesakan, sehingga waktu tunggu terasa lebih efisien.  Petugas juga ramah, sigap membantu jika ada pasien yang belum memahami cara menggunakan mesin antrean. Semoga inovasi seperti ini terus dipertahankan dan ditingkatkan agar pelayanan kepada masyarakat semakin nyaman dan berkualitas. Terima kasih untuk seluruh tenaga kesehatan dan petugas yang telah memberikan pelayanan terbaik.✨✨✨",
       "teks_final": "pelayanan puskesmas semakin baik modern kehadiran mesin antrean online membantu proses pendaftaran menjadi cepat rapi tertata pasien jadi mudah mengambil nomor antrean tanpa harus berdesakan sehingga waktu tunggu terasa efisien petugas ramah sigap membantu pasien memahami cara menggunakan mesin antrean semoga inovasi seperti terus dipertahankan ditingkatkan agar pelayanan kepada masyarakat semakin nyaman berkualitas terima kasih seluruh tenaga kesehatan petugas telah memberikan pelayanan terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.982
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Puskesmas Gending semakin hari semakin baik, dalam segi pelayanan, sdm,sarana dan prasarananya juga. Masyarakat semakin terbantu dengan kehadiran Puskesmas Gending yang semakin keren dan oke. Kami warga Gending bangga kepada kalian🥰",
       "teks_final": "puskesmas gending semakin hari semakin baik segi pelayanan sdm sarana prasarananya masyarakat semakin terbantu kehadiran puskesmas gending semakin bagus oke warga gending bangga kepada kalian",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan sangat ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan sangat baik, cepat",
       "teks_final": "pelayanan baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan Ibu dan Anak sangat memuaskan dan komunikatif",
       "teks_final": "pelayanan ibu anak memuaskan komunikatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan cepat jam sesuai",
       "teks_final": "pelayanan cepat jam sesuai",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.986
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Bidan bagian poli kia ketus kalo ngomong 🙏🏻",
       "teks_final": "bidan bagian poli kia ketus kalo ngomong",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5148
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanannya sukak banget, pegawainya ramah, murah senyum, pelayanan jg cepat. Pokonya sukakkk bingittt TOP",
       "teks_final": "pelayanannya sukak banget pegawainya ramah murah senyum pelayanan cepat pokonya sukakkk bingittt top",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.998
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "sangat baik sekalih, pelayanan yang ramah dan tentunya murah di kantong",
       "teks_final": "baik sekalih pelayanan ramah tentunya murah kantong",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "puskesmas gending sangat bagus pelayanannya, dan baik-baik semua kok🤎",
       "teks_final": "puskesmas gending bagus pelayanannya baik baik semua kok",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "tarifnya murce sekaliehh, pegawainya murah senyum anak magangnya juga ramahh dan cantikkkk😘😘🥰",
       "teks_final": "tarifnya murce sekaliehh pegawainya murah senyum anak magangnya ramahh cantikkkk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     }
   ]

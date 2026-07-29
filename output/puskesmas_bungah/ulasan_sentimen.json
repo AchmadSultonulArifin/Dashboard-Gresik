@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Bungah",
   "rating": 4.3,
   "total_ulasan": 25,
-  "positif": 3,
+  "positif": 21,
   "netral": 1,
-  "negatif": 21,
-  "persen_positif": 12.0,
+  "negatif": 3,
+  "persen_positif": 84.0,
   "persen_netral": 4.0,
-  "persen_negatif": 84.0,
+  "persen_negatif": 12.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Terima kasih puskesmas Bungah, pelayanan UGD sangat cepat dan dilayani dengan sangat baik",
       "teks_final": "terima kasih puskesmas bungah pelayanan ugd cepat dilayani baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9791
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayan yg sangat buruk sekali...jam 10 pagi sudah tidak mau nanganin masien alasannya hari jum at. Dipintau surat rujukan katanya gak bisa suruh datang besok....pasian 1 jam di ugd gak ditangani....mana pengawasan pemerintah untuk puskesmas\" yg macam ini jahat banget",
       "teks_final": "pelayan buruk jam pagi mau nanganin masien alasannya hari jum at dipintau surat rujukan katanya suruh datang besok pasian jam ugd ditangani mana pengawasan pemerintah puskesmas macam jahat banget",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan sangat bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Dokter internship nya sangat baik, terlebih yg namanya dr. nurul, sangat sabar, walau pasien nya banyak tapi tetap dilayani dengan maksimal 👍🏻👍🏻👍🏻. Seandainya ada jadwal fix biar bisa konsultasi dengan dr. nurul terus",
       "teks_final": "dokter internship baik terlebih namanya nurul sabar walau pasien banyak tetap dilayani maksimal seandainya jadwal fix biar konsultasi nurul terus",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8179
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Ke Poli KIA di PKM Bungah pelayanan memuaskan, petugasnya juga ramah. semoga selalu memberikan yg terbaik buat semua.",
       "teks_final": "poli kia pkm bungah pelayanan memuaskan petugasnya ramah semoga selalu memberikan terbaik buat semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9704
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Kunjungan poli KIA hari ini. Pelayanan nya puas bagus, dokter n perawat nya baik\" sehat selalu para dokter dan perawat puskesmas bungah",
       "teks_final": "kunjungan poli kia hari pelayanan puas bagus dokter perawat baik sehat selalu para dokter perawat puskesmas bungah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9508
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Petugas skrining ga jelas, sudah di skrining dari pagi ga kunjung dipanggil ke pelayanan umum sampe jam 08.30, komplain 2x gak ada tindakan, percuma daftar online dapat antrian awal, toh ga dilayani sesuai antrian dan kedatangan !",
       "teks_final": "petugas skrining jelas skrining pagi kunjung dipanggil pelayanan umum sampe jam komplain 2x tindakan percuma daftar online antrian awal toh dilayani sesuai antrian kedatangan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9512
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Terimah kasih untuk pelayanan di poli umum,sangat ramah dan memuaskan.",
       "teks_final": "terimah kasih pelayanan poli umum ramah memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9912
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sangat baik sekali",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan baik , ramah, memuaskan .",
       "teks_final": "pelayanan baik ramah memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Terimakasih puskesmas bungah pelayanannya baik banget, nakesnya telaten dan sabar",
       "teks_final": "terimakasih puskesmas bungah pelayanannya baik banget nakesnya telaten sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan ramah baik.. Terima kasih",
       "teks_final": "pelayanan ramah baik terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9848
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan dipuskesmas bungah baik,cepat dlm pelayanan dan tenaga medisnya ramah",
       "teks_final": "pelayanan dipuskesmas bungah baik cepat pelayanan tenaga medisnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Setiap moment ada ceritanya,, di kehamilanku anak ke 2 ini sangat terbantu sekali di puskesmas bungah ini... Petugas,perawat,dan dokternya ramah jadi serasa aman dan tenang aja periksa dan cek kandungan disini..",
       "teks_final": "setiap moment ceritanya kehamilanku anak terbantu puskesmas bungah petugas perawat dokternya ramah jadi serasa aman tenang aja periksa cek kandungan disini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.993
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Terimakasih atas pelayanan nya dg baik",
       "teks_final": "terimakasih atas pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9541
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Baik pelayanan nya ramah dan cepat di poli kia",
       "teks_final": "baik pelayanan ramah cepat poli kia",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9795
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Terimakasih banyak, pelayanannya luar biasa",
       "teks_final": "terimakasih banyak pelayanannya luar biasa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanannya cepat, ramah, dan nyaman",
       "teks_final": "pelayanannya cepat ramah nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Untuk pelayanannya bagus, dan petugasnya sangat ramah",
       "teks_final": "pelayanannya bagus petugasnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan di puskesmas ini saya sangat nyaman dan puas dengan dokter putri",
       "teks_final": "pelayanan puskesmas nyaman puas dokter putri",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan sangat baik, cepat, dan semuanya sangat ramah",
       "teks_final": "pelayanan baik cepat semuanya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     }
   ]

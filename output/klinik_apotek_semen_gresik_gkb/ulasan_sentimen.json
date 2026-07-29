@@ -3,12 +3,12 @@
   "tempat": "Klinik & Apotek Semen Gresik GKB",
   "rating": 4.8,
   "total_ulasan": 25,
-  "positif": 1,
+  "positif": 23,
   "netral": 1,
-  "negatif": 23,
-  "persen_positif": 4.0,
+  "negatif": 1,
+  "persen_positif": 92.0,
   "persen_netral": 4.0,
-  "persen_negatif": 92.0,
+  "persen_negatif": 4.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayan Cepat Bersih Dokter dan staff Nya Ramah²👍",
       "teks_final": "pelayan cepat bersih dokter staff ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9904
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tingkatkan lagi yaa pelayanannya.,. Sayaangnya mungkin kurang koordinasi Di info tingaal ambil tapi Saya menunggu lama karna kartu anak saya tertinggal 🙏🏻",
       "teks_final": "tingkatkan yaa pelayanannya sayaangnya mungkin kurang koordinasi info tingaal ambil menunggu lama karna kartu anak tertinggal",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9875
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "pelayanan sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan the best, tindakan dgn Drg. Dias super sabar🥰",
       "teks_final": "pelayanan the best tindakan drg dias super sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan dokter gigi bagus,, cepat dan tanggap.. menjelaskan secara detail dan sabar..",
       "teks_final": "pelayanan dokter gigi bagus cepat tanggap menjelaskan secara detail sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "pelayanannya bagus, semuanya ramah semoga konsisten yaa",
       "teks_final": "pelayanannya bagus semuanya ramah semoga konsisten yaa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan cepat dan ramah",
       "teks_final": "pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "dokternya baik bangettt",
       "teks_final": "dokternya baik bangettt",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Sangat rama",
       "teks_final": "rama",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6863
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan staffnya baik² , sukses selalu",
       "teks_final": "pelayanan staffnya baik sukses selalu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan ramah, nyaman👍🏻",
       "teks_final": "pelayanan ramah nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Scallingnya enak",
       "teks_final": "scallingnya enak",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan cepat tempat nyaman",
       "teks_final": "pelayanan cepat tempat nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanannya lengkap, obatnya selalu cocok",
       "teks_final": "pelayanannya lengkap obatnya selalu cocok",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "pelayanan nya bagus dan baik semua",
       "teks_final": "pelayanan bagus baik semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "cepat dan nyaman",
       "teks_final": "cepat nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "tempatnya bagus dan bersih, pelayanannya juga cepat, petugas-petugas ramah dan dokter nya baik",
       "teks_final": "tempatnya bagus bersih pelayanannya cepat petugas petugas ramah dokter baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Tempat bersih, nyaman, pelayannya cepat",
       "teks_final": "tempat bersih nyaman pelayannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "tempatnya bagus, dokternya ramah sekali mantap👍👍👍",
       "teks_final": "tempatnya bagus dokternya ramah bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan memuaskan.. terima kasih dokter dan suster",
       "teks_final": "pelayanan memuaskan terima kasih dokter suster",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9896
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan cepat, tempat bersih, petugas ramah, dokter baik",
       "teks_final": "pelayanan cepat tempat bersih petugas ramah dokter baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     }
   ]

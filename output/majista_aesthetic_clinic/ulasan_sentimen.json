@@ -3,12 +3,12 @@
   "tempat": "มาจิสต้า คลินิก อารีย์ Majista Aesthetic Clinic",
   "rating": 4.8,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 4,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Good clinic",
       "teks_final": "good clinic",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Perfect ดูเเลดีมากค่ะ",
       "teks_final": "perfect",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "ตัดสินใจถูกมากเลยค่ะ  ที่มาใช้บริการ  ประทับใจมากค่ะ  และคุณหมอฉีดfillerออกมาสวยถูกใจ",
       "teks_final": "filler",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.3384
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Great doctor + excellent services!!",
       "teks_final": "great doctor excellent services",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8685
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Duduk Sampeyan",
   "rating": 3.9,
   "total_ulasan": 23,
-  "positif": 5,
+  "positif": 17,
   "netral": 1,
-  "negatif": 17,
-  "persen_positif": 21.7,
+  "negatif": 5,
+  "persen_positif": 73.9,
   "persen_netral": 4.3,
-  "persen_negatif": 73.9,
+  "persen_negatif": 21.7,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan kurang memuaskan, Ruangan kosong tdk ada pasien  msh disuruh nunggu",
       "teks_final": "pelayanan kurang memuaskan ruangan kosong pasien disuruh nunggu",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9967
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan di kia petugas ramah",
       "teks_final": "pelayanan kia petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Puskesmas dengan pelayanan terburuk ,",
       "teks_final": "puskesmas pelayanan terburuk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9863
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pukesmas duduk penangan nya baik dan Cepat",
       "teks_final": "pukesmas duduk penangan baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6131
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Untuk pelayan ugd sangat memuaskan dan ramah Terutama untuk pegawai ugd yang tinggi. penjelesan tentang penyakit dan cara minum obatnya juga di jelaskan jadi puas berobat di sini.",
       "teks_final": "pelayan ugd memuaskan ramah terutama pegawai ugd tinggi penjelesan tentang penyakit cara minum obatnya jelaskan jadi puas berobat sini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan ugd sangat memuaskan",
       "teks_final": "pelayanan ugd memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Saya berobat di PKM duduk sangan memuaskan di UGD petugasnya ramah nerima curhatan saya",
       "teks_final": "berobat pkm duduk sangan memuaskan ugd petugasnya ramah nerima curhatan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.937
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan sangat tidak ramah. Dokter menyepelekan keluhan pasien. Apalagi dokter bertugas pada hari ini Rabu, 13 Mei 2026. Pukul 15.00. Sebagai dokter omongannya tidak dijaga. Ya meskipun menurut medis sakit yang diderita pasien tidak parah tp tolong omongannya dijaga. Tak lihat di sini banyak yang berkomentar tentang pelayanannya buruk dan admin menjawab akan ada evaluasi tp yang terlihat malah sampai sekarang pun pelayanan tetap nol. Apakah benar” sudah dievaluasi tentang pelayanannya atau cuma omong tok? Sudah 2 kali, dan itu pengalaman saya. Belum dengan pengalaman orang lain yang mungkin banyak dari pengalaman buruk orang lain yang mereka tidak speak up",
       "teks_final": "pelayanan ramah dokter menyepelekan keluhan pasien apalagi dokter bertugas hari rabu mei pukul sebagai dokter omongannya dijaga ya meskipun menurut medis sakit diderita pasien parah tolong omongannya dijaga tak lihat sini banyak berkomentar tentang pelayanannya buruk admin menjawab evaluasi terlihat malah sampai sekarang pelayanan tetap nol apakah benar dievaluasi tentang pelayanannya cuma omong tok kali pengalaman pengalaman orang lain mungkin banyak pengalaman buruk orang lain speak up",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9927
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayan ugd bagus petugasnya ramah",
       "teks_final": "pelayan ugd bagus petugasnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan di poli KIA petugas ramah2 pelayanan sangat memuaskan",
       "teks_final": "pelayanan poli kia petugas ramah2 pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Petugas nya ramah ramah",
       "teks_final": "petugas ramah ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pernah kesini 1x petugas yg di depan smpe ke poli dan di apotik ramah2..",
       "teks_final": "pernah kesini 1x petugas depan smpe poli apotik ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8383
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "kalo cari nakes tolong yang well educated, perkara order gamau nunggu lama kok minta cancel seenak jidat. kalo gamau nunggu lama ya order o sendiri ikut antri di resto biar tahu yang bikin lama ya proses masak, bukan pengantaran. btw nakesmu emg udah viral problematik tuh. perlu di evaluasi",
       "teks_final": "kalo cari nakes tolong well educated perkara order gamau nunggu lama kok minta cancel seenak jidat kalo gamau nunggu lama ya order sendiri ikut antrian resto biar tahu bikin lama ya proses masak bukan pengantaran btw nakesmu emg udah viral problematik tuh perlu evaluasi",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8695
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Saya sangat nyaman dengan pelayanan dipukesmas duduksampeyan dokter dan resepsionisnya ramah,santun🥰",
       "teks_final": "nyaman pelayanan dipukesmas duduksampeyan dokter resepsionisnya ramah santun",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "saya periksa di ruang KIA puskesmas duduksampeyan. Pelayanannya begitu memuaskan dan bu bidannya ramah tamah.. 😀",
       "teks_final": "periksa ruang kia puskesmas duduksampeyan pelayanannya begitu memuaskan bu bidannya ramah tamah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9858
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan ramah dan cepat",
       "teks_final": "pelayanan ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanannya baik dan cepat",
       "teks_final": "pelayanannya baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanannya cepat",
       "teks_final": "pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     }
   ]

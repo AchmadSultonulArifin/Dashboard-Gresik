@@ -3,12 +3,12 @@
   "tempat": "Mall Pelayanan Publik Kabupaten Gresik",
   "rating": 4.3,
   "total_ulasan": 23,
-  "positif": 5,
+  "positif": 14,
   "netral": 8,
-  "negatif": 10,
-  "persen_positif": 21.7,
+  "negatif": 1,
+  "persen_positif": 60.9,
   "persen_netral": 34.8,
-  "persen_negatif": 43.5,
+  "persen_negatif": 4.3,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan cepat, dipermudah, biaya transparan dan perlu ditiru di semua area di Indonesia",
       "teks_final": "pelayanan cepat dipermudah biaya transparan perlu ditiru semua area indonesia",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9677
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Terima kasih atas pelayanan nya",
       "teks_final": "terima kasih atas pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9405
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan yang ribet dan lemot, terutama loket 13 pak sugi suka ilang ilangan orangnya gk niat kerja",
       "teks_final": "pelayanan ribet lemot terutama loket pak sugi suka ilang ilangan orangnya niat kerja",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Mudah cepat plyanannya..",
       "teks_final": "mudah cepat plyanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.989
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Gedung bagus Parkir luas",
       "teks_final": "gedung bagus parkir luas",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan cepat tanpa bingung ninggal baby lama2...  Ngurus kk dan KTP cuma bbrapa menit sudah jadi...",
       "teks_final": "pelayanan cepat tanpa bingung ninggal baby lama2 ngurus kk ktp cuma bbrapa menit jadi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8253
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan memuaskan, cepat, ramah, ada kafetaria juga. Tempatnya adem, bersih.",
       "teks_final": "pelayanan memuaskan cepat ramah kafetaria tempatnya adem bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan sangat cepet Tempat antrian juga nyaman",
       "teks_final": "pelayanan cepet tempat antrian nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "MANTAP",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Bikin ktp baru syaratnya cuma fc kk . Trus lgs foto.. Bsoknya Tinggal ambil kartu KTPnya.. Mantap pelayananya. Terimakasih utk pemerintah👍👍👍🇮🇩🇮🇩🇮🇩",
       "teks_final": "bikin ktp syaratnya cuma fc kk trus lgs foto bsoknya tinggal ambil kartu ktpnya bagus pelayananya terimakasih pemerintah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8693
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Baru tau kalo Gresik udah punya fasilitas pelayanan publik yang sangat ngebantu banget. Semua instansi pelayanan publik dikumpulkan dalam 1 gedung yang nyaman dan aman. Antriannya jauh lebih sepi dari kantor aslinya, jadi kalo ngurus apa2 jadi serba cepet. Fasilitas juga lengkap mulai dari wifi gratis, cafetaria, bahkan ruang laktasi. Semuanya dalam keadaan baik dan bersih. Kursi tunggu juga nyaman banget. Kebetulan kesana buat urus SKCK, jadi diarahkan buat ambil antrian polres dan langsung ditanganin karna ga ada yang antri😬. Ibu2nya ramah banget, asik diajak ngobrol. Dan ternyata mall pelayanan publik ini udah berjalan setahun lebih, yakin bgt banyak orang gresik yang ga tau. Mungkin ini PR buat pemkab buat sosialisasi ke masyarakat. Good job buat gresik udah berani selangkah lebih maju dari kota2 lain✨",
       "teks_final": "tau kalo gresik udah punya fasilitas pelayanan publik ngebantu banget semua instansi pelayanan publik dikumpulkan gedung nyaman aman antriannya jauh sepi kantor aslinya jadi kalo ngurus apa2 jadi serba cepet fasilitas lengkap mulai wifi gratis cafetaria bahkan ruang laktasi semuanya keadaan baik bersih kursi tunggu nyaman banget kebetulan kesana buat urus skck jadi diarahkan buat ambil antrian polres langsung ditanganin karna antrian ibu2nya ramah banget asik diajak ngobrol ternyata mall pelayanan publik udah berjalan setahun yakin banget banyak orang gresik tau mungkin pr buat pemkab buat sosialisasi masyarakat good job buat gresik udah berani selangkah maju kota2 lain",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {

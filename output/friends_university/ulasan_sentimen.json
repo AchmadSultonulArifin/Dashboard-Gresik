@@ -3,12 +3,12 @@
   "tempat": "Friends University",
   "rating": 4.6,
   "total_ulasan": 15,
-  "positif": 1,
+  "positif": 11,
   "netral": 4,
-  "negatif": 10,
-  "persen_positif": 6.7,
+  "negatif": 0,
+  "persen_positif": 73.3,
   "persen_netral": 26.7,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "A gorgeous University! I love the brick and the landscape.",
       "teks_final": "gorgeous university love the brick and the landscape",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8323
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Peaceful area.",
       "teks_final": "peaceful area",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9048
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "A great faith-based education!",
       "teks_final": "great faith based education",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9611
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Love seeing my brother preform",
       "teks_final": "love seeing my brother preform",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9139
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "I love our college family and friends",
       "teks_final": "love our college family and friends",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8943
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Great school. Definitely recommend. The food is even good these days.",
       "teks_final": "great school definitely recommend the food is even good these days",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7996
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "A very beautiful and friendly campus...",
       "teks_final": "very beautiful and friendly campus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "I love the campus and had a lovely time at their fall show !",
       "teks_final": "love the campus and had lovely time at their fall show",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8382
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "The Sebits Auditorium is a really nice performing arts venue.",
       "teks_final": "the sebits auditorium is really nice performing arts venue",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5596
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Love being there supporting my Grandson & all the college scouts looking for talent..",
       "teks_final": "love being there supporting my grandson all the college scouts looking for talent",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6252
     },
     {

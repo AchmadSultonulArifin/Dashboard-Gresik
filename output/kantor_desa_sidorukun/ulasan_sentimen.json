@@ -3,12 +3,12 @@
   "tempat": "Kantor Desa Sidorukun",
   "rating": 4.4,
   "total_ulasan": 12,
-  "positif": 0,
+  "positif": 9,
   "netral": 3,
-  "negatif": 9,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -40,7 +40,7 @@
       "Ulasan": "best ever",
       "teks_final": "best ever",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Kantor Desa pada umumnya, rindang karna banyak pepohonan",
       "teks_final": "kantor desa umumnya rindang karna banyak pepohonan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9561
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kelurahan Sidorukun Is The best",
       "teks_final": "kelurahan sidorukun is the best",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9859
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tingkatkan pelayanannya.",
       "teks_final": "tingkatkan pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.974
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lurah,e sabar seru",
       "teks_final": "lurah sabar seru",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9826
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Bersih asri dan pelayanan bagus 👌👍👍👍👍👍👍",
       "teks_final": "bersih asri pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Kantor balai desa tempat rembug-an warga dan pengurus kelurahan sidorukun. Kelurahan ini barusan menyelesaikain pesta demokrasi dengan pemilihan kepala desa. Dengan dua calon yaitu Bpk. Aspug ( 01 ) dan Bpk. Hery ( 02 ) dan yang terpilih yaitu calon no1. Selamat atas terpilihnya beliau, semoga amanah, jujur dan selalu mengayomi warga dalam mengemban tugas hingga 5 tahun kedepan. Guyub dan Rukun selalu untuk semua warga, pengurus RT-RW dan perangkat desa sidorukun. Bismillah 🔥",
       "teks_final": "kantor balai desa tempat rembug an warga pengurus kelurahan sidorukun kelurahan barusan menyelesaikain pesta demokrasi pemilihan kepala desa dua calon yaitu bpk aspug bpk hery terpilih yaitu calon no1 selamat atas terpilihnya beliau semoga amanah jujur selalu mengayomi warga mengemban tugas hingga tahun kedepan guyub rukun selalu semua warga pengurus rt rw perangkat desa sidorukun bismillah",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8345
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Kantor desa yang terletak didalam area gang sidorukun .. tempatnya luas dan bisa menampung cukup masyarakat sekitar untuk melakukan kegiatan yg berhubungan dg desa sidorukun.",
       "teks_final": "kantor desa terletak didalam area gang sidorukun tempatnya luas menampung cukup masyarakat sekitar melakukan kegiatan berhubungan desa sidorukun",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.826
     }
   ]

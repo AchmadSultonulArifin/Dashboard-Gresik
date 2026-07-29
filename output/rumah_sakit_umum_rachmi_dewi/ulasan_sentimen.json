@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Umum Rachmi Dewi",
   "rating": 4.5,
   "total_ulasan": 23,
-  "positif": 0,
+  "positif": 23,
   "netral": 0,
-  "negatif": 23,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Senam disini sangat menyenangkan, rumah sakit yg melayani dengan sangat baik dan ramah🥰 sukses selalu Rachmi dewi",
       "teks_final": "senam disini menyenangkan rumah sakit melayani baik ramah sukses selalu rachmi dewi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9888
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Rachmi Dewi sangat nyaman🥰👍",
       "teks_final": "rachmi dewi nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9296
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Rachmi Dewi sangat jos♥️🥰",
       "teks_final": "rachmi dewi bagus",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9428
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Senam sehat disini sangat seru instrukturnya jos... Karyawanya juga sangat ramahh😍🥰sangat nyaman sukses selalu rachmi dewi",
       "teks_final": "senam sehat disini seru instrukturnya bagus karyawanya ramahhsangat nyaman sukses selalu rachmi dewi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sangat bagus pelayanannya mantab sekali 😘❤️",
       "teks_final": "bagus pelayanannya mantab",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "pelayanan bagus dan di tunjang dengan dokter yang sangat bagus dan profesional DR.Maya Sri K.",
       "teks_final": "pelayanan bagus tunjang dokter bagus profesional maya sri",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9925
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pengalaman kontrol hamil dan senam hamil di rs rachmi dewi pelayanannya baik dan memuaskan, penjelasannya juga oke",
       "teks_final": "pengalaman kontrol hamil senam hamil rumah sakit rachmi dewi pelayanannya baik memuaskan penjelasannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9824
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Senam Prenatal Yoga disini sangat recomended, selain itu dapat materi yang beragam juga, mulai dari persiapan persalinan, nifas, sampai cara merawat newborn. Selain itu, setiap kedatangan ada hadiah hadiah menarik lainnya💖 love bgt sama pelayanannya💖",
       "teks_final": "senam prenatal yoga disini recomended selain materi beragam mulai persiapan persalinan nifas sampai cara merawat newborn selain setiap kedatangan hadiah hadiah menarik lainnya love banget sama pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan nya bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pengalaman melahirkan di RSU Rachmi dewi sangat nyaman, dg  Dr Vita Maya yg sangat cekatan, perawat, bidan & seluruh staffnya ramah + makan rumah sakit nya juga enak enak tdk seperti sedang ranap d RS 😃😃",
       "teks_final": "pengalaman melahirkan rsu rachmi dewi nyaman vita maya cekatan perawat bidan seluruh staffnya ramah makan rumah sakit enak enak seperti sedang ranap rumah sakit",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya the best dokternya juga ramah\"   Terbaik pokoknya 🥰🥰",
       "teks_final": "pelayanannya the best dokternya ramah terbaik pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sangat terbantu dengan adanya program senam hamil, harganya pun terjangkau",
       "teks_final": "terbantu adanya program senam hamil harganya terjangkau",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Senam nya menyenangkan sekali",
       "teks_final": "senam menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan baik, fasilitas lengkap dan nyaman",
       "teks_final": "pelayanan baik fasilitas lengkap nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Sehat itu Murah.. Keren Rsu Rachmi dewi.. bikin sehat para Ibu ibu smua.. biar kuat hadapin kenyataan hidup.. makasih makin sukses ya..",
       "teks_final": "sehat murah bagus rsu rachmi dewi bikin sehat para ibu ibu smua biar kuat hadapin kenyataan hidup makasih makin sukses ya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9864
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Seru banget senam di RSU rachmi dewi",
       "teks_final": "seru banget senam rsu rachmi dewi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Rekomendasi buat yang masih takut priksa dll karna perawat di sini pelayanan nya bagus , buat yang takut jdi tenang 😭🫠",
       "teks_final": "rekomendasi buat takut priksa dll karna perawat sini pelayanan bagus buat takut jdi tenang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanannya oke sekali ternyata disini luar biasa baik bangett pelayanan dan semua karyawanya semua care hal hal kecill🥰sukses selalu Rachmi dewi",
       "teks_final": "pelayanannya oke ternyata disini luar biasa baik bangett pelayanan semua karyawanya semua care hal hal kecillsukses selalu rachmi dewi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Luar biasa service excellent, Speechless pelayanannya beyond my expectation. Pas lihat SLOGAN utamanya ternyata \"SMILE AND CARE\". Pantesan. Baik perawatnya, Customer servicenya, satpamnya, admin WA nya, dokternya, tim Cleaningnya SELALU SMILE. dan semuanya itu memikirkan kenyamanan pasien dengan SMILE. Saat memberi informasinya juga sangat jelas, komunikasi dengan pasien juga selalu ramah dan memberi afirmasi positif agar pasien tidak takut , tdk tegang & tidak kesakitan. Gercep juga kalau ada butuh apa². Oiya satu lagi yg paling sukanya ada akses WIFI GRATIS. hehehe. Meskipun kadang TIMBUL TENGGELAM, tp lumayan lah membantu banget. Kalo butuh camilan atau makanan - makanan ringan ada kantin di halaman belakang, tapi sayangnya gak ada makanan beratnya, tapi no problem - lah bisa pesen lewat aplikasi jg kok. Halaman parkir juga sangat luas bisa dibuat main bola juga. Hehehe. Untuk makanan udah dapet 3x sehari untuk pasien, menunya gonta ganti, enak dan bergizi. Bener2 MBG Banget. Hehehe Semoga RSU RACHMI DEWI semakin MAJU dan BERKAH selalu. 🥰",
       "teks_final": "luar biasa service excellent speechless pelayanannya beyond my expectation pas lihat slogan utamanya ternyata smile and care pantesan baik perawatnya customer servicenya satpamnya admin wa dokternya tim cleaningnya selalu smile semuanya memikirkan kenyamanan pasien smile memberi informasinya jelas komunikasi pasien selalu ramah memberi afirmasi positif agar pasien takut tegang kesakitan gercep butuh apa oiya satu paling sukanya akses wifi gratis hehehe meskipun kadang timbul tenggelam lumayan membantu banget kalo butuh camilan makanan makanan ringan kantin halaman belakang sayangnya makanan beratnya no problem pesen lewat aplikasi kok halaman parkir luas dibuat main bola hehehe makanan udah dapet 3x sehari pasien menunya gonta ganti enak bergizi bener2 mbg banget hehehe semoga rsu rachmi dewi semakin maju berkah selalu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Tempatnya nyaman dan tenang. Parkirannya luas. Pelayanannya cepat dan pegawainya ramah. Sukses selalu Rachmi Dewi😊😊",
       "teks_final": "tempatnya nyaman tenang parkirannya luas pelayanannya cepat pegawainya ramah sukses selalu rachmi dewi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9924
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pergamakali HSG di RS Rachmi Dewi, pelayanannya ramah.. awalnya takut banget tapi ternyata terlalui dengan sangat baik.. dokter dan  staff sangat telaten dan sabar",
       "teks_final": "pergamakali hsg rumah sakit rachmi dewi pelayanannya ramah awalnya takut banget ternyata terlalui baik dokter staff telaten sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.971
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayanan oke banget",
       "teks_final": "pelayanan oke banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     }
   ]

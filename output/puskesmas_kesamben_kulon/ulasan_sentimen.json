@@ -3,12 +3,12 @@
   "tempat": "PUSKESMAS KESAMBEN KULON",
   "rating": 4.3,
   "total_ulasan": 25,
-  "positif": 2,
+  "positif": 22,
   "netral": 1,
-  "negatif": 22,
-  "persen_positif": 8.0,
+  "negatif": 2,
+  "persen_positif": 88.0,
   "persen_netral": 4.0,
-  "persen_negatif": 88.0,
+  "persen_negatif": 8.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Best ramah semua",
       "teks_final": "best ramah semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Nyaman dan bersih pelayanan bagus",
       "teks_final": "nyaman bersih pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "menyenangkan",
       "teks_final": "menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Selain pelayanannya yang bagus, Fasilitasnyapun semakin baik",
       "teks_final": "selain pelayanannya bagus fasilitasnyapun semakin baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sekarang pelayanan sudah ada perbaikan,pelayanan sangat memuaskan mulai dari dokter perawat dll ramah dan baik",
       "teks_final": "sekarang pelayanan perbaikan pelayanan memuaskan mulai dokter perawat dll ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9857
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan baik & Sangat membantu masyarakat sekitar",
       "teks_final": "pelayanan baik membantu masyarakat sekitar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9856
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan ya cepat dan ramah",
       "teks_final": "pelayanan ya cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Perawat giginya ramah 🫶",
       "teks_final": "perawat giginya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Saat berobat di puskesmas kesamben kulon mulai dari pendaftaran, dokter, perawatnya sampai apotik petugasnya ramah* dan informatif.",
       "teks_final": "berobat puskesmas kesamben kulon mulai pendaftaran dokter perawatnya sampai apotik petugasnya ramah informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9917
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Terimakasih untuk para perawat dan Bu bidan telah membantu saya dan keluarga kecil saya dengan sangat baik❤️❤️❤️ dan untuk alm.bu evi semoga Allah tempatkan pada surganya, selama hidup, beliau telah berjasa menolong anak bayi sy saat berjuang kala di DR SOETOMO Surabaya🤲❤️",
       "teks_final": "terimakasih para perawat bu bidan telah membantu keluarga kecil baik alm bu evi semoga allah tempatkan surganya selama hidup beliau telah berjasa menolong anak bayi berjuang kala soetomo surabaya",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9366
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sangat baik pelayanan nya",
       "teks_final": "baik pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9878
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Petugas ramah dan sopan, pelayanan yg baik 👍",
       "teks_final": "petugas ramah sopan pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9854
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanane di ugd tolong di perbaiki di omongi juga ojo galak\" nek nakoni pasien",
       "teks_final": "pelayanane ugd tolong perbaiki omongi ojo galak nek nakoni pasien",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9966
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Petugas loketnya ramah sekali. Semoga semakin ditingkatkan lagi👍",
       "teks_final": "petugas loketnya ramah semoga semakin ditingkatkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.99
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Berobat 3x Krn batuk pilek, makasih banyak",
       "teks_final": "berobat 3x batuk pilek makasih banyak",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5249
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "dokternya ok",
       "teks_final": "dokternya oke",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9871
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Iberobat di puskesmas di layani dg baik",
       "teks_final": "iberobat puskesmas layani baik",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6172
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Terimakasih , ramah2 pegawainya",
       "teks_final": "terimakasih ramah2 pegawainya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Istri saya di marahi sama salah satu bidan di puskesmas ini saya mohon dengan sangat untuk di perbaiki untuk pelayanan bidan nya dalam hal komunikasi",
       "teks_final": "istri marahi sama salah satu bidan puskesmas mohon perbaiki pelayanan bidan hal komunikasi",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9812
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Best untuk pelayanannya 🥰",
       "teks_final": "best pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Rawat inap nyaman, pelayanannya bagus, ac nya sejuk, ada playground jg buat anak² dan semua gratis 👍",
       "teks_final": "rawat inap nyaman pelayanannya bagus ac sejuk playground buat anak semua gratis",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan nya mantap",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     }
   ]

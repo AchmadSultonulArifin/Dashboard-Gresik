@@ -3,12 +3,12 @@
   "tempat": "jeep erte pitu",
   "rating": 3.7,
   "total_ulasan": 5,
-  "positif": 2,
+  "positif": 4,
   "netral": 0,
-  "negatif": 3,
-  "persen_positif": 40.0,
+  "negatif": 1,
+  "persen_positif": 80.0,
   "persen_netral": 0.0,
-  "persen_negatif": 60.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Cocok utk edukasi",
       "teks_final": "cocok edukasi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {

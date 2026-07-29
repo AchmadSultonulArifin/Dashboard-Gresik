@@ -3,12 +3,12 @@
   "tempat": "SMK PGRI 1 Gresik Kampus C",
   "rating": 4.8,
   "total_ulasan": 7,
-  "positif": 1,
+  "positif": 5,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 14.3,
+  "negatif": 0,
+  "persen_positif": 71.4,
   "persen_netral": 28.6,
-  "persen_negatif": 57.1,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Bagus lengkap",
       "teks_final": "bagus lengkap",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Km mandi, ruang ber ac, rapi, bersih dan nyaman",
       "teks_final": "km mandi ruang ber ac rapi bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9544
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sangat recomended mantap pelayanannya👍",
       "teks_final": "recomended bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Teknik siaganya sangat joss,cepat respon",
       "teks_final": "teknik siaganya joss cepat respon",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {

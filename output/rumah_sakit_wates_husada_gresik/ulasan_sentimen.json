@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Wates Husada Gresik",
   "rating": 4.8,
   "total_ulasan": 27,
-  "positif": 4,
+  "positif": 25,
   "netral": 0,
-  "negatif": 23,
-  "persen_positif": 14.8,
+  "negatif": 2,
+  "persen_positif": 92.6,
   "persen_netral": 0.0,
-  "persen_negatif": 85.2,
+  "persen_negatif": 7.4,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanan sangat bagus dan baik",
       "teks_final": "pelayanan bagus baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan di ruang bersalin sangat baik, bidan dan perawat bayinya pun baik\" dan ramah\"",
       "teks_final": "pelayanan ruang bersalin baik bidan perawat bayinya baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.94
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempatnya bersih dan nyaman",
       "teks_final": "tempatnya bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Nyaman disini pelayanan enak",
       "teks_final": "nyaman disini pelayanan enak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bidan baik.",
       "teks_final": "bidan baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9754
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Terimakasih",
       "teks_final": "terimakasih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9149
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan bagus. Perawat nya juga gercep tiap ada keluhan. Puas pokoknya.",
       "teks_final": "pelayanan bagus perawat gercep tiap keluhan puas pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Alhamdulillah pelayanan memuaskan sat2, perawat sangat ramah2, semoga selalu amanah",
       "teks_final": "alhamdulillah pelayanan memuaskan sat2 perawat ramah2 semoga selalu amanah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9901
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bagus pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan kurang ramah",
       "teks_final": "pelayanan kurang ramah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan baik cepat bersih",
       "teks_final": "pelayanan baik cepat bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "baik saya suka",
       "teks_final": "baik suka",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Dari awal pelayanan baik ramah sabar",
       "teks_final": "awal pelayanan baik ramah sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9829
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan cukup memuaskan. Fasilitas mantap... Sukses selau",
       "teks_final": "pelayanan cukup memuaskan fasilitas bagus sukses selau",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Jos pelayanann tidak mengecewakam",
       "teks_final": "bagus pelayanann mengecewakam",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Dokter igd nya kurg ramah, jutek. akhirnya puter balik cari rs yg langsung bisa nangani bpjs tnpa ribet dan pelayanan ramah, uda ga mood ngadepin dokternya. Mhon di evaluasi",
       "teks_final": "dokter igd kurg ramah jutek akhirnya puter balik cari rumah sakit langsung nangani bpjs tnpa ribet pelayanan ramah uda mood ngadepin dokternya mhon evaluasi",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9508
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Penangganan cepat sangat baik",
       "teks_final": "penangganan cepat baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9806
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Terimakasih pelayanannya sangat memuaskan",
       "teks_final": "terimakasih pelayanannya memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Sangat baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan baik dan memuaskan",
       "teks_final": "pelayanan baik memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Terimakasih atas pelayannya yang sangat memuaskan dan humanis",
       "teks_final": "terimakasih atas pelayannya memuaskan humanis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9908
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan nya baik sekali,ramah ,dan dokternya juga penjelasannya baik lancar semoga kedepannya juga tambah baik lagi terimakasih sudah melayani keluarga kami dengan baik",
       "teks_final": "pelayanan baik ramah dokternya penjelasannya baik lancar semoga kedepannya tambah baik terimakasih melayani keluarga baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9847
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Cukup memuaskan pelayanannya.. Kamar rawat inap sekarang juga jauh lebih enak. Tingkatkan terus kualitas RSnya. Terimakasih",
       "teks_final": "cukup memuaskan pelayanannya kamar rawat inap sekarang jauh enak tingkatkan terus kualitas rsnya terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.904
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Mantap betul",
       "teks_final": "bagus betul",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Bagus untuk keseluruhan",
       "teks_final": "bagus keseluruhan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     }
   ]

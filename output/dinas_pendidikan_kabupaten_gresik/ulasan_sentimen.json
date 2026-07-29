@@ -3,12 +3,12 @@
   "tempat": "Dinas Pendidikan Kabupaten Gresik",
   "rating": 4.1,
   "total_ulasan": 13,
-  "positif": 3,
+  "positif": 5,
   "netral": 4,
-  "negatif": 6,
-  "persen_positif": 23.1,
+  "negatif": 4,
+  "persen_positif": 38.5,
   "persen_netral": 30.8,
-  "persen_negatif": 46.2,
+  "persen_negatif": 30.8,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Gedung bagus Pelayanan baik",
       "teks_final": "gedung bagus pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Terimakasih dispendukcapil kab Gresik Keren. Pelayanan prima",
       "teks_final": "terimakasih dispendukcapil kab gresik bagus pelayanan prima",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9786
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Ikut seleksi jalur hafidz nomor wa di formulir tidak di hubungi, kata panitia tes petik suruh datang jam 08:30 ..sampai di kantor dinas jadwal keluar dan ternyata ikut sesi sore. Siapa gak kecewa?",
       "teks_final": "ikut seleksi jalur hafidz nomor wa formulir hubungi kata panitia tes petik suruh datang jam sampai kantor dinas jadwal keluar ternyata ikut sesi sore siapa kecewa",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9909
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tempatnya di tengah tengah kota gresik. Tempatnya sangat bersih rajin juga petugas pelayanannya sangat memuaskan jika ada masalah pendidikan bisa langsung komplain kwe sana pasti di tindak lanjuti. Tempat parkir juga luas dan rapi. Pokoknya twmpat nya bagus",
       "teks_final": "tempatnya tengah tengah kota gresik tempatnya bersih rajin petugas pelayanannya memuaskan masalah pendidikan langsung komplain kwe sana pasti tindak lanjuti tempat parkir luas rapi pokoknya twmpat bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "layanan ramah, tempat parkir luas berada di belakang gedung, ruang aula sangat luas",
       "teks_final": "layanan ramah tempat parkir luas berada belakang gedung ruang aula luas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9834
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pegawai disini semua makan gaji buta, saya doakan semoga panjang umur dan segera di beri hidayah  SEGERALAH BERTOBAT SELAGI UMUR MASIH ADA",
       "teks_final": "pegawai disini semua makan gaji buta doakan semoga panjang umur segera beri hidayah segeralah bertobat selagi umur",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9764
     },
     {

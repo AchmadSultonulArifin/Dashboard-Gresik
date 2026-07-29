@@ -3,12 +3,12 @@
   "tempat": "Dinas Penanaman Modal dan PTSP Kabupaten Gresik",
   "rating": 4.4,
   "total_ulasan": 17,
-  "positif": 1,
+  "positif": 9,
   "netral": 7,
-  "negatif": 9,
-  "persen_positif": 5.9,
+  "negatif": 1,
+  "persen_positif": 52.9,
   "persen_netral": 41.2,
-  "persen_negatif": 52.9,
+  "persen_negatif": 5.9,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan sudah bagus tapi perlu ditingkatkan lagi...",
       "teks_final": "pelayanan bagus perlu ditingkatkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9549
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "kemarin ngurus pelaporan LKPM di loket pojok OSS, terima kasih sudah di pandu input laporan LKPM sampai dengan selesai. petugasnya jos..semoga selalu di tingkatkan pelayanannya.",
       "teks_final": "kemarin ngurus pelaporan lkpm loket pojok oss terima kasih pandu input laporan lkpm sampai selesai petugasnya bagus semoga selalu tingkatkan pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7263
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Saya kecewa dengan pelayanan bagian imb, imb apotek saya belum selesai juga sudah hampir 1 tahun lebih..sya sudah berkali2 menghubungi bagian imb dari bulan agustus 2024, sampai sekrang september 2025 imb saya belum juga selesai..padahal saya sudah bayar SKR dari tahun lalu juga..tapi belum selesai2..tolong diperbaiki pelayanannya..ibu2 di byar negara untuk melayani masyarakat bukan mempersulit masyarakat.😒",
       "teks_final": "kecewa pelayanan bagian imb imb apotek selesai hampir tahun sya berkali2 menghubungi bagian imb bulan agustus sampai sekrang september imb selesai padahal bayar skr tahun lalu selesai2 tolong diperbaiki pelayanannya ibu2 byar negara melayani masyarakat bukan mempersulit masyarakat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Lumayan cukup proses nya",
       "teks_final": "lumayan cukup proses",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9688
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya cepat dan jelas",
       "teks_final": "pelayanannya cepat jelas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Ramah pelayanannya",
       "teks_final": "ramah pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanannya sudah bagus. Namun perlu dipercepat penyelesaian izinnya",
       "teks_final": "pelayanannya bagus perlu dipercepat penyelesaian izinnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9635
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Responsif",
       "teks_final": "responsif",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "masih proses lebih baik",
       "teks_final": "proses baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9837
     }
   ]

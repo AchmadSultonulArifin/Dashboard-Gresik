@@ -2,12 +2,12 @@
   "tempat": "Kantor Bupati Gresik",
   "rating": 4.3,
   "total_ulasan": 32,
-  "positif": 7,
+  "positif": 17,
   "netral": 10,
-  "negatif": 15,
-  "persen_positif": 21.9,
+  "negatif": 5,
+  "persen_positif": 53.1,
   "persen_netral": 31.2,
-  "persen_negatif": 46.9,
+  "persen_negatif": 15.6,
   "ulasan": [
     {
       "Nama Reviewer": "Afif Machrus",
@@ -15,7 +15,7 @@
       "Tanggal": "2026-07-05T02:24:18.840Z",
       "Ulasan": "Gressiik",
       "teks_final": "gressiik",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5746
     },
     {
@@ -33,7 +33,7 @@
       "Tanggal": "2026-06-27T16:32:43.371Z",
       "Ulasan": "Gedung yang megah bersih dan luas . Pelayanan bagus.  Parkiran luas, ada lapangan yang luas. Ada tenaga keamanan dari pol PP",
       "teks_final": "gedung megah bersih luas pelayanan bagus parkiran luas lapangan luas tenaga keamanan pol pp",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9924
     },
     {
@@ -42,7 +42,7 @@
       "Tanggal": "2026-06-13T17:09:10.662Z",
       "Ulasan": "Luar biasa acara ini dan para peserta sangat antusias mengikuti program ini dan siap untuk agenda berikutnya sesuai amanah yang diiemvan",
       "teks_final": "luar biasa acara para peserta antusias mengikuti program siap agenda berikutnya sesuai amanah diiemvan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9897
     },
     {
@@ -51,7 +51,7 @@
       "Tanggal": "2026-05-24T23:22:11.719Z",
       "Ulasan": "Perhatikan jalan sebelah, jalan tidak rata tanpa perbaikan",
       "teks_final": "perhatikan jalan sebelah jalan rata tanpa perbaikan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7433
     },
     {
@@ -78,7 +78,7 @@
       "Tanggal": "2026-04-05T08:43:41.503Z",
       "Ulasan": "PDAM banyumu gak masok, matekan",
       "teks_final": "pdam banyumu masok matekan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9856
     },
     {
@@ -87,7 +87,7 @@
       "Tanggal": "2026-04-01T06:29:34.374Z",
       "Ulasan": "Tempat olah raga pagi hari sejuk dan banyak pepohonan dan tempat pelayanan masyarakat",
       "teks_final": "tempat olah raga pagi hari sejuk banyak pepohonan tempat pelayanan masyarakat",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -105,7 +105,7 @@
       "Tanggal": "2022-07-19T10:26:40.847Z",
       "Ulasan": "Suasana asri dan hijau. Halaman luas. Disediakan juga akses untuk pengguna kursi roda. Di dalam komplek kantor bupati ada beberapa dinas lain seperti dinas kesehatan, dinas pertanian, dinas koperasi, bahkan ada MPP (mal pelayanan publik) dan bank jatim",
       "teks_final": "suasana asri hijau halaman luas disediakan akses pengguna kursi roda komplek kantor bupati beberapa dinas lain seperti dinas kesehatan dinas pertanian dinas koperasi bahkan mpp mal pelayanan publik bank jatim",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5641
     },
     {
@@ -114,7 +114,7 @@
       "Tanggal": "2022-07-07T06:01:47.508Z",
       "Ulasan": "Tolong kalau memang bayar parkir ditulisin aja bayar. Jangan ditulis gratis pakai cek STNK. Tulisan dan kenyataan tidak sesuai. Mending dilepas aja tulisan gratisnya. Bukan masalah nominalnya. Masalahnya ngeluarin sepeda gak dibantu. Tukang parkir cuma duduk doang. Ada tulisan cek STNK juga nggak dicek. Mohon pemkab untuk evaluasi",
       "teks_final": "tolong memang bayar parkir ditulisin aja bayar jangan ditulis gratis pakai cek stnk tulisan kenyataan sesuai mending dilepas aja tulisan gratisnya bukan masalah nominalnya masalahnya ngeluarin sepeda dibantu tukang parkir cuma duduk doang tulisan cek stnk dicek mohon pemkab evaluasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9841
     },
     {
@@ -150,7 +150,7 @@
       "Tanggal": "2022-04-05T12:07:10.164Z",
       "Ulasan": "Pelayanan BKD (di lantai 3 kalau tidak salah) tidak maksimal. SK pensiunan milik ayah lama sekali prosesx berbulan-bulan. Pdahal daerah lain tidak selama itu. Dari temen yg ikut P3K, infonya penerbitan SK lama sekali pdhal daerah lain di jatim sudah bekerja malah. Wallahua'lam, semoga ada perbaikan",
       "teks_final": "pelayanan bkd lantai salah maksimal sk pensiunan milik ayah lama prosesx berbulan bulan pdahal daerah lain selama temen ikut p3k infonya penerbitan sk lama pdhal daerah lain jatim bekerja malah wallahua lam semoga perbaikan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8475
     },
     {
@@ -159,7 +159,7 @@
       "Tanggal": "2022-03-28T04:16:56.633Z",
       "Ulasan": "Tempatnya bagus dan luas, pelayanannya kooperatif",
       "teks_final": "tempatnya bagus luas pelayanannya kooperatif",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -177,7 +177,7 @@
       "Tanggal": "2021-09-25T10:50:21.200Z",
       "Ulasan": "Tempatnya asri dan nyaman",
       "teks_final": "tempatnya asri nyaman",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -186,7 +186,7 @@
       "Tanggal": "2021-06-03T06:47:24.514Z",
       "Ulasan": "Kantor bupati dan kantor beberapa dinas-dinas. Cukup rindang dan pelayanan dinasnya sangat memuaskan. Masjidnya berjarak dan tentu dingin. Ada tempat fotokopinya",
       "teks_final": "kantor bupati kantor beberapa dinas dinas cukup rindang pelayanan dinasnya memuaskan masjidnya berjarak tentu dingin tempat fotokopinya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9838
     },
     {
@@ -195,7 +195,7 @@
       "Tanggal": "2021-04-28T05:14:12.682Z",
       "Ulasan": "Pelayananya ramah sejuk dan nyaman",
       "teks_final": "pelayananya ramah sejuk nyaman",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -222,7 +222,7 @@
       "Tanggal": "2020-11-30T03:42:21.776Z",
       "Ulasan": "Didalamnya terdapat bank jatim..yg pelayanannya super super lambat...alias lemot polll....",
       "teks_final": "didalamnya terdapat bank jatim pelayanannya super super lambat alias lemot polll",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9951
     },
     {
@@ -231,7 +231,7 @@
       "Tanggal": "2020-11-27T22:42:38.779Z",
       "Ulasan": "Megah",
       "teks_final": "megah",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -240,7 +240,7 @@
       "Tanggal": "2020-11-09T11:01:45.252Z",
       "Ulasan": "Besar sekali kantor bupatinya 👍👍",
       "teks_final": "besar kantor bupatinya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7589
     },
     {
@@ -249,7 +249,7 @@
       "Tanggal": "2020-11-04T00:30:48.231Z",
       "Ulasan": "Good",
       "teks_final": "good",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -267,7 +267,7 @@
       "Tanggal": "2020-10-03T14:20:43.533Z",
       "Ulasan": "One of the nicest place to jog. Especially in the afternoon....",
       "teks_final": "one of the nicest place to jog especially in the afternoon",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6357
     },
     {
@@ -276,7 +276,7 @@
       "Tanggal": "2020-06-19T01:49:44.405Z",
       "Ulasan": "Taman luas. Parkir luas. Lapangan luas. Ada masjid. Pohon rindang.. Tmpat yg asri.. 👍",
       "teks_final": "taman luas parkir luas lapangan luas masjid pohon rindang tmpat asri",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9888
     },
     {
@@ -294,7 +294,7 @@
       "Tanggal": "2020-01-03T05:33:34.290Z",
       "Ulasan": "pusat pemerintahan kabupaten gresik gedungnya besar dan megah didepan gedung ada halaman yang cukup luas biasanya digunakan untuk apel dan upacara parkir kendaraan ada di sisi kanan dan kiri gedung",
       "teks_final": "pusat pemerintahan kabupaten gresik gedungnya besar megah didepan gedung halaman cukup luas biasanya digunakan apel upacara parkir kendaraan sisi kanan kiri gedung",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9835
     }
   ]

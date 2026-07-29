@@ -3,12 +3,12 @@
   "tempat": "Klinik Cipta Medika GKB",
   "rating": 4.6,
   "total_ulasan": 19,
-  "positif": 0,
+  "positif": 17,
   "netral": 1,
-  "negatif": 18,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 89.5,
   "persen_netral": 5.3,
-  "persen_negatif": 94.7,
+  "persen_negatif": 5.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "\"Pelayanan yang di Klinik cipta medika GKB ternyata lebih memuaskan ya dibandingkan yang di cipta medika Kedanyang.  dokter Sofi nya ramah, penjelasan penyakitnya mudah dipahami oleh pasien. Pemeriksaan Labnya juga di klinik tsb. Tidak seperti dokter keky yang kosong itu, tidak jelas pasiennya kenapa dan mau diapakan.  Mohon Evaluasi tenaga dokter nya, jangan asal rekrut ya. Saya ikut menyampaikan ke sekitar saya untuk rekomendasi klinik cipta medika GKB ini.  Namun untuk cipta medika Kedanyang, maaf saya sudah speechless. Terutama yang namanya sudah saya sebut ber kali kali itu.  Andaikan dokter keky masih berpraktek disitu dan masih berperilaku sama, tidak menutup kemungkinan saya sampaikan ke BPJS nya langsung di MJKN.",
       "teks_final": "pelayanan klinik cipta medika gkb ternyata memuaskan ya dibandingkan cipta medika kedanyang dokter sofi ramah penjelasan penyakitnya mudah dipahami pasien pemeriksaan labnya klinik tsb seperti dokter keky kosong jelas pasiennya kenapa mau diapakan mohon evaluasi tenaga dokter jangan asal rekrut ya ikut menyampaikan sekitar rekomendasi klinik cipta medika gkb cipta medika kedanyang maaf speechless terutama namanya sebut ber kali kali andaikan dokter keky berpraktek disitu berperilaku sama menutup kemungkinan sampaikan bpjs langsung mjkn",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5482
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Ok juga utk berobat dn Rama tama dgn pasien'",
       "teks_final": "oke berobat dn rama tama pasien",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7048
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan bagus, udah jadi faskes langganan keluarga",
       "teks_final": "pelayanan bagus udah jadi faskes langganan keluarga",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Terima kasih. Pelayanan pendaftaran dan Dr Sofia Aulina Ramah dan baik",
       "teks_final": "terima kasih pelayanan pendaftaran sofia aulina ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9601
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pelayanan sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanannya cepet ga pake lama, Mantapz",
       "teks_final": "pelayanannya cepet pake lama mantapz",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sangat membantu sekali apalagi pelayanannya cepat dan tanggap, dekat dengan rumah lagi",
       "teks_final": "membantu apalagi pelayanannya cepat tanggap dekat rumah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan Dokter, petugas, apotik enak... cepat & ramah, ruang tunggu & periksa dokter sejuk dan nyaman, terutama Dokter Sofi yg sangat perhatian terhadap pasien nya, bravo Dok👍🙏",
       "teks_final": "pelayanan dokter petugas apotik enak cepat ramah ruang tunggu periksa dokter sejuk nyaman terutama dokter sofi perhatian terhadap pasien bravo dok",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Nice 医疗服务untuk tetap dipertahankan",
       "teks_final": "nice tetap dipertahankan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9785
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan ramah apalagi dokter sofia nya ruamah puoolll",
       "teks_final": "pelayanan ramah apalagi dokter sofia ruamah puoolll",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Ramah, Responsif dan Solutif",
       "teks_final": "ramah responsif solutif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Klinik yang sangat rekomendasi, pelayanan bintang lima sejauh ini memuaskan dokternya ramah,paramedisnya gercep,Topp pertahankan terus pelayanannya",
       "teks_final": "klinik rekomendasi pelayanan bintang lima sejauh memuaskan dokternya ramah paramedisnya gercep topp pertahankan terus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9915
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Semua pegawai klinik baik administrasi, petugas apotik, dokter bahkan tukang parkir semuanya sangat ramah didalam memberikan pelayanan terhadap kami sebagai pasien, semoga hal2 yg positif bisa dipertahankan dan apabila ada hal2 yg di rasa kurang baik kedepanya  bisa diperbaiki",
       "teks_final": "semua pegawai klinik baik administrasi petugas apotik dokter bahkan tukang parkir semuanya ramah didalam memberikan pelayanan terhadap sebagai pasien semoga hal2 positif dipertahankan apabila hal2 rasa kurang baik kedepanya diperbaiki",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9737
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan bagus dokter nya profesional",
       "teks_final": "pelayanan bagus dokter profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayananya bagus, baik apoteker maupun dokternya sangat memuaskan. Dr. Sofi salah satu dr. Favorit keluarga saya, resep obat yang diberikan alhamdulillah cocok untuk keluarga saya, terutama anak anak saya. Terima kasih klinik cipta medika. Berkah lancar sejahtera",
       "teks_final": "pelayananya bagus baik apoteker maupun dokternya memuaskan sofi salah satu favorit keluarga resep obat diberikan alhamdulillah cocok keluarga terutama anak anak terima kasih klinik cipta medika berkah lancar sejahtera",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanannya oke .",
       "teks_final": "pelayanannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     }
   ]

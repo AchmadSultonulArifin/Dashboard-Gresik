@@ -3,12 +3,12 @@
   "tempat": "Dinas Pariwisata dan Kebudayaan Kabupaten Gresik",
   "rating": 4.4,
   "total_ulasan": 9,
-  "positif": 1,
+  "positif": 3,
   "netral": 5,
-  "negatif": 3,
-  "persen_positif": 11.1,
+  "negatif": 1,
+  "persen_positif": 33.3,
   "persen_netral": 55.6,
-  "persen_negatif": 33.3,
+  "persen_negatif": 11.1,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pentas sekali di sana",
       "teks_final": "pentas sana",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7807
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "terbaik",
       "teks_final": "terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Wah kecewa deh... Kesana 2x di hari yang berbeda cuman 'diping-pong' dengan macam-macam alasan... Padahal saya dari luar kota.. Sama sekali tidak ada yang tahu info-infonya Damar Kurung.. Pulang dengan hampa",
       "teks_final": "wah kecewa kesana 2x hari berbeda cuman diping pong macam macam alasan padahal luar kota sama tahu info infonya damar kurung pulang hampa",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {

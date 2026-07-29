@@ -3,12 +3,12 @@
   "tempat": "Mandiri ATM Giant SPM Gresik Kota Baru",
   "rating": 3.9,
   "total_ulasan": 16,
-  "positif": 0,
+  "positif": 7,
   "netral": 5,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 4,
+  "persen_positif": 43.8,
   "persen_netral": 31.2,
-  "persen_negatif": 68.8,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Very convenient.",
       "teks_final": "very convenient",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "parkir luas..ada bnyak atm.e..",
       "teks_final": "parkir luas bnyak atm",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8493
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "ATM disini selalu ramai. Dekat dengan Giant dan pusat\" keramaian",
       "teks_final": "atm disini selalu ramai dekat giant pusat keramaian",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Banyak nya atm berjajar disitu Alhamdulillah ndak terlalu antri .. nyaman ...",
       "teks_final": "banyak atm berjajar disitu alhamdulillah ndak terlalu antrian nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9854
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lokasi bersebelahan dengan giant gkb, dan berseberangan dengan kampoeng steak.. atm disini ada banyak dari berbagai bank, untuk bri sangat disayangkan gak ada penarikan nominal 50rb disini. Disini masih banyak pengemis dan orang orang yang meminta sumbangan, kadang pengunjung pun tidak rapi saat memarkirkan kendaraan.",
       "teks_final": "lokasi bersebelahan giant gkb berseberangan kampoeng steak atm disini banyak berbagai bank bri disayangkan penarikan nominal 50rb disini disini banyak pengemis orang orang meminta sumbangan kadang pengunjung rapi memarkirkan kendaraan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8897
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tempat mengambil uang tunai melalui mesin... Dekat dengan tempat belanja Giant.. pilihan bank cukup lengkap..",
       "teks_final": "tempat mengambil uang tunai melalui mesin dekat tempat belanja giant pilihan bank cukup lengkap",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7026
     },
     {

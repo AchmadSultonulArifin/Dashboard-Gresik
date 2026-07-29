@@ -3,12 +3,12 @@
   "tempat": "Kantor Desa Gelam",
   "rating": 3.4,
   "total_ulasan": 6,
-  "positif": 1,
+  "positif": 4,
   "netral": 2,
-  "negatif": 3,
-  "persen_positif": 16.7,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayan baik, sesuai dengan jam dan juga ramah. Pelayanan cukup cepat dan tidak berbelit belit disini. Parkirnya luas dan mudah dijangkau Ada wifi juga yang lumayan cepat Sayang masih ada oknum oknum di sini yang berkedok membantu mengurus Baik itu KTP maupun surat lainnya. Lebih baik urus sendiri saja, lebih cepat dan gratis kok.",
       "teks_final": "pelayan baik sesuai jam ramah pelayanan cukup cepat berbelit belit disini parkirnya luas mudah dijangkau wifi lumayan cepat sayang oknum oknum sini berkedok membantu mengurus baik ktp maupun surat lainnya baik urus sendiri saja cepat gratis kok",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8469
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tempat Pelayanan Yang Baik",
       "teks_final": "tempat pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan baik. Tempat lumayan nyaman.",
       "teks_final": "pelayanan baik tempat lumayan nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {

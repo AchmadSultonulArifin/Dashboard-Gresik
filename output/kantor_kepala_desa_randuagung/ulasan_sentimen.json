@@ -3,12 +3,12 @@
   "tempat": "Kantor Kepala Desa Randuagung",
   "rating": 4.4,
   "total_ulasan": 5,
-  "positif": 0,
+  "positif": 1,
   "netral": 3,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 20.0,
   "persen_netral": 60.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {

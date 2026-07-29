@@ -3,12 +3,12 @@
   "tempat": "SMK YPI DARUSSALAM 1 CERME",
   "rating": 5,
   "total_ulasan": 14,
-  "positif": 1,
+  "positif": 13,
   "netral": 1,
-  "negatif": 12,
-  "persen_positif": 7.1,
+  "negatif": 0,
+  "persen_positif": 92.9,
   "persen_netral": 7.1,
-  "persen_negatif": 85.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Jos",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Lokasi strategis",
       "teks_final": "lokasi strategis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempat pendidikan yg unggul nyaman .ber ac",
       "teks_final": "tempat pendidikan unggul nyaman ber ac",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9913
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sangat strategis",
       "teks_final": "strategis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sekolah yang bagus",
       "teks_final": "sekolah bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sekolah SMK TERBAIK DI GRESIK SELATAN",
       "teks_final": "sekolah smk terbaik gresik selatan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9588
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "darsa 1 terbaik",
       "teks_final": "darsa terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Terbaikk",
       "teks_final": "terbaikk",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sekolah ne lumayan bersih,asri juga luas tempatnya,cocok buat yang mau cari SMK Dengan spot yang bersih, sekolah swasta yg bisa saya rekomendasikan👍",
       "teks_final": "sekolah ne lumayan bersih asri luas tempatnya cocok buat mau cari smk spot bersih sekolah swasta rekomendasikan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Jos",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sekolah ini sangat bagus, fasilitasnya sangat lengkap dan juga sekolahnya sangat bersih, juga saat sudah lulus sekolah kita bisa mendapatkan kesempatan bekerja di PT PT ternama.",
       "teks_final": "sekolah bagus fasilitasnya lengkap sekolahnya bersih lulus sekolah mendapatkan kesempatan bekerja pt pt ternama",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.983
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sekolah nya keren",
       "teks_final": "sekolah bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     }
   ]

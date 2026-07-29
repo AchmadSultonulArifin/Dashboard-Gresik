@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Unit Kartini",
   "rating": 4.1,
   "total_ulasan": 24,
-  "positif": 7,
+  "positif": 16,
   "netral": 4,
-  "negatif": 13,
-  "persen_positif": 29.2,
+  "negatif": 4,
+  "persen_positif": 66.7,
   "persen_netral": 16.7,
-  "persen_negatif": 54.2,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan terbaik, bagus, ramah, cepat, sangat membantu, terimakasih staff BRI Unit Kartini",
       "teks_final": "pelayanan terbaik bagus ramah cepat membantu terimakasih staff bri unit kartini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9876
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Enak,tersedia parkir luas,jg ada atm pecahan 50rb dan setor tunai.",
       "teks_final": "enak tersedia parkir luas atm pecahan 50rb setor tunai",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan baik satpan ,, ramah,, CS nya ,, ramah cepat ,, to the poin  tempat strategis,,, terimakasih kepada semua kru yg bertugas  Sangat membantu,,",
       "teks_final": "pelayanan baik satpan ramah cs ramah cepat to the poin tempat strategis terimakasih kepada semua kru bertugas membantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9915
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan kurang memuaskan. Antrian juga kurang teratur.",
       "teks_final": "pelayanan kurang memuaskan antrian kurang teratur",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Selalu siyaap melayanai kebutuhan perbankkan nasabahnya......",
       "teks_final": "selalu siyaap melayanai kebutuhan perbankkan nasabahnya",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6955
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pernah ada sesuatu yang menyenangkan di sini",
       "teks_final": "pernah sesuatu menyenangkan sini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8681
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan teller nya super sangat lama",
       "teks_final": "pelayanan teller super lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9843
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Salah satu bank yang berada di kota Blitar. Letaknya strategis berada di pinggir jalan raya menuju makam Bung Karno dekat dengan Indomaret. Tempat ini mempunyai ATM yang buka 24 jam dan mempunyai 3 mesin ATM. Lokasi parkir luas dan gratis serta terdapat satpam yang berjaga di tempat tersebut.",
       "teks_final": "salah satu bank berada kota blitar letaknya strategis berada pinggir jalan raya menuju makam bung karno dekat indomaret tempat mempunyai atm buka jam mempunyai mesin atm lokasi parkir luas gratis serta terdapat satpam berjaga tempat tersebut",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9703
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Good bank",
       "teks_final": "good bank",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9924
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Bagus, pelayanan nya juga cukup ramah. Mbak Mbak e C's juga cakep-cakep. Tempatnya strategist rapi bersih nyaman, namanya juga bank. Tempat parkir juga cukup besar Dan luas untuk sekelas BRI unit. Secara umum ok tempat nya. Jadi ya.. recommended..",
       "teks_final": "bagus pelayanan cukup ramah mbak mbak cakep cakep tempatnya strategist rapi bersih nyaman namanya bank tempat parkir cukup besar luas sekelas bri unit secara umum oke tempat jadi ya recommended",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9981
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "kantor unit kartini. ramah pelayananya",
       "teks_final": "kantor unit kartini ramah pelayananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.991
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Great ATM service.",
       "teks_final": "great atm service",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9789
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "GOR NEW KAMPRET",
   "rating": 4.3,
   "total_ulasan": 13,
-  "positif": 3,
+  "positif": 9,
   "netral": 1,
-  "negatif": 9,
-  "persen_positif": 23.1,
+  "negatif": 3,
+  "persen_positif": 69.2,
   "persen_netral": 7.7,
-  "persen_negatif": 69.2,
+  "persen_negatif": 23.1,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Kurang profesional dlm pelayanan booking, respon booking via wa lambat banget dan dilempar ke org lain. Sdh booking sesuai jadwal yg disepakati, eh malah GOR nya msh gelap, tertutup sama sekali tdk ada yg jaga. Kocak emg..  Thumbs down..",
       "teks_final": "kurang profesional pelayanan booking respon booking via wa lambat banget dilempar org lain booking sesuai jadwal disepakati eh malah gor gelap tertutup sama jaga kocak emg thumbs down",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "oke",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Main badminton",
       "teks_final": "main badminton",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8416
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lapangam bersih dan nyaman.",
       "teks_final": "lapangam bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempat olahraga terfavorit, lapangan luas, orangnya ramah fasilitas sangat memuaskan 👍👍👍👍👍",
       "teks_final": "tempat olahraga terfavorit lapangan luas orangnya ramah fasilitas memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Parkir luas dan lapangan ada 4 line.",
       "teks_final": "parkir luas lapangan line",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7713
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Good place",
       "teks_final": "good place",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Nomer pemesanan adalah nomer penipuan, mending langsung ke gor untuk biaya penyewaan",
       "teks_final": "nomer pemesanan nomer penipuan mending langsung gor biaya penyewaan",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9888
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bersih dan nyaman",
       "teks_final": "bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {

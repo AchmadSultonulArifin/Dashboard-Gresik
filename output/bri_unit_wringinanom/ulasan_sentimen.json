@@ -3,12 +3,12 @@
   "tempat": "BRI Unit Wringinanom",
   "rating": 2.7,
   "total_ulasan": 11,
-  "positif": 5,
+  "positif": 3,
   "netral": 3,
-  "negatif": 3,
-  "persen_positif": 45.5,
+  "negatif": 5,
+  "persen_positif": 27.3,
   "persen_netral": 27.3,
-  "persen_negatif": 27.3,
+  "persen_negatif": 45.5,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan ramah, antrean panjang sekali",
       "teks_final": "pelayanan ramah antrean panjang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9121
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan sangat buruk",
       "teks_final": "pelayanan buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "PelAyanan buruk",
       "teks_final": "pelayanan buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Kok belom ada survei juga ya pengajuan dari bulan Februari sampai April blom ada juga kabaran",
       "teks_final": "kok belom survei ya pengajuan bulan februari sampai april blom kabaran",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9101
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pengajuan KUR disini kenapa lambat ya. Pengajuan dari tanggal 15 Januari sampai sekarang tanggal 16 Februari di survey pun belum. Marketing slow respon. Tolong di perbaiki pelayanannya ya..",
       "teks_final": "pengajuan kur disini kenapa lambat ya pengajuan tanggal januari sampai sekarang tanggal februari survey marketing slow respon tolong perbaiki pelayanannya ya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9804
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Buruk",
       "teks_final": "buruk",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "Sangkopi Badminton Arena",
   "rating": 4.7,
   "total_ulasan": 12,
-  "positif": 0,
+  "positif": 10,
   "netral": 1,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 83.3,
   "persen_netral": 8.3,
-  "persen_negatif": 91.7,
+  "persen_negatif": 8.3,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Lapanganya Lumayan untuk athlit pemula,buat latihan rame² juga oke",
       "teks_final": "lapanganya lumayan athlit pemula buat latihan rame oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Tempatnya nyaman,,cocok buat ngopi sambil nunggu maen badminton.",
       "teks_final": "tempatnya nyaman cocok buat ngopi sambil nunggu maen badminton",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Joz",
       "teks_final": "joz",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9815
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bersih dan terjangkau",
       "teks_final": "bersih terjangkau",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Murah , lapangan banyak , parkiran luas , recomended lah",
       "teks_final": "murah lapangan banyak parkiran luas recomended",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Mam enak dg paksu",
       "teks_final": "mam enak paksu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bagus,luas , nyaman n sewanya juga murah ... recommended deh pokoknya ayo ramaikan",
       "teks_final": "bagus luas nyaman sewanya murah recommended pokoknya ayo ramaikan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan owner baik dan ramah",
       "teks_final": "pelayanan owner baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Warung depan sang kopi enak ayam bkarny tmpat luas parkirny badminton arena jg ada",
       "teks_final": "warung depan sang kopi enak ayam bkarny tmpat luas parkirny badminton arena",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9681
     }
   ]

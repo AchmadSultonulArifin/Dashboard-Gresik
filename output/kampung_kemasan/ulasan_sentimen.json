@@ -3,12 +3,12 @@
   "tempat": "Kampung Kemasan",
   "rating": 4.7,
   "total_ulasan": 15,
-  "positif": 2,
+  "positif": 10,
   "netral": 5,
-  "negatif": 8,
-  "persen_positif": 13.3,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 53.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Nuansa vintage dan historis yang masih terjaga, semoga tetap di pertahankan dan dirawat untuk menjaga nilai historisnya",
       "teks_final": "nuansa vintage historis terjaga semoga tetap pertahankan dirawat menjaga nilai historisnya",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Kampung yang dulu biasa saya lewati. kampunya adem, apalagi jalan di kampungnya dulu masih tanah belum di paving, bangunan terlihat kokoh dan ada kesan bangunan belanda.",
       "teks_final": "kampung dulu biasa lewati kampunya adem apalagi jalan kampungnya dulu tanah paving bangunan terlihat kokoh kesan bangunan belanda",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sangat bagus dan menunjukkan budaya dari kota Gresik",
       "teks_final": "bagus menunjukkan budaya kota gresik",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Dari Pasar Kota kita jln kaki menuju Kampung Kemasan, bangunan kuno tapi bagus bgt. Seperti kota lama ya...",
       "teks_final": "pasar kota jln kaki menuju kampung kemasan bangunan kuno bagus banget seperti kota lama ya",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Kampung yang sangat unik dan bersejarah.",
       "teks_final": "kampung unik bersejarah",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9924
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Kota lama gresik mantap",
       "teks_final": "kota lama gresik bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9908
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Kampung sejarah di daerah Gresik, rumah yang ada masih kuno sekali peninggalan sejarah dulu, fasilitas sudah memadai,mudah diakses,dan terdapat banyak gang lain yang bisa dikunjungi juga",
       "teks_final": "kampung sejarah daerah gresik rumah kuno peninggalan sejarah dulu fasilitas memadai mudah diakses terdapat banyak gang lain dikunjungi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9587
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Bagus buat spot foto👍👍",
       "teks_final": "bagus buat spot foto",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {

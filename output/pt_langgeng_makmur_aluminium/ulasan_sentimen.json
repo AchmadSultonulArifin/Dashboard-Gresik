@@ -3,12 +3,12 @@
   "tempat": "PT. Langgeng Makmur Aluminium",
   "rating": 4.3,
   "total_ulasan": 17,
-  "positif": 4,
+  "positif": 8,
   "netral": 3,
-  "negatif": 10,
-  "persen_positif": 23.5,
+  "negatif": 6,
+  "persen_positif": 47.1,
   "persen_netral": 17.6,
-  "persen_negatif": 58.8,
+  "persen_negatif": 35.3,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "pabrik dengan komitmen terbaik",
       "teks_final": "pabrik komitmen terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9888
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pabrik mbokne ancok cok",
       "teks_final": "pabrik mbokne ancok cok",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9955
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Barang kualitas bagus tapi harga bersahabat. Plastik pembungkus juga gampang dilepas, sudah ada perbaikan dari tahun ke tahun. Jadi gak menyulitkan tukang saya. Big aplause untuk Luxurium, barangnya memuaskan banget👏👏👍",
       "teks_final": "barang kualitas bagus harga bersahabat plastik pembungkus gampang dilepas perbaikan tahun tahun jadi menyulitkan tukang big aplause luxurium barangnya memuaskan banget",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sangat puas",
       "teks_final": "puas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "harga bersahabat tapi kualitas luar biasa. anti rayap dan kuat",
       "teks_final": "harga bersahabat kualitas luar biasa anti rayap kuat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Aluminium dari luxurium ini ternyata bagus juga ya produknya. Harganya juga bersahabat. Recomended lah. Next pembangunan rumah selanjutnya pakek aluminium dari luxurium lagi lah 😍😍😍",
       "teks_final": "aluminium luxurium ternyata bagus ya produknya harganya bersahabat recomended next pembangunan rumah selanjutnya pakek aluminium luxurium",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Luxurium nya joss tenan..produk berkualitas harganya jg bersaing...",
       "teks_final": "luxurium joss tenan produk berkualitas harganya bersaing",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Barang Bagus Harga Seduluran...",
       "teks_final": "barang bagus harga seduluran",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9758
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "KALO NIAT JUALAN, KACA NGAPAIN DI TIPE X, STIKER PROTEK JG SUSAH DIBUKA. NAMBA2IN KERJAAN AJA",
       "teks_final": "kalo niat jualan kaca ngapain tipe stiker protek susah dibuka namba2in kerjaan aja",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9825
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Proses muat terlalu lama karena banyak pekerja akhirnya jadi ajang untuk bercanda",
       "teks_final": "proses muat terlalu lama banyak pekerja akhirnya jadi ajang bercanda",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9957
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Barang bagus harga bersahabat",
       "teks_final": "barang bagus harga bersahabat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Barang nya jelek untuk proteknya susah di buka mending pakek bahan yg biasa aja dari pada merknya PT.langgeng makmur aluminium",
       "teks_final": "barang jelek proteknya susah buka mending pakek bahan biasa aja merknya pt langgeng makmur aluminium",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9819
     },
     {

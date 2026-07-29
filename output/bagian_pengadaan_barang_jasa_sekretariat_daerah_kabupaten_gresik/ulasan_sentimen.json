@@ -3,12 +3,12 @@
   "tempat": "Bagian Pengadaan Barang/Jasa Sekretariat Daerah Kabupaten Gresik",
   "rating": 5,
   "total_ulasan": 5,
-  "positif": 0,
+  "positif": 4,
   "netral": 1,
-  "negatif": 4,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 80.0,
   "persen_netral": 20.0,
-  "persen_negatif": 80.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "responsif, ruangan dingin lg wangi",
       "teks_final": "responsif ruangan dingin lg wangi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan ramah dan responsif",
       "teks_final": "pelayanan ramah responsif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "pelayanan ramah, tanggap, dan membantu sekali",
       "teks_final": "pelayanan ramah tanggap membantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan cepat dan informatif",
       "teks_final": "pelayanan cepat informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     }
   ]

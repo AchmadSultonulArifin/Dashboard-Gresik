@@ -3,12 +3,12 @@
   "tempat": "RS. Surya Medika",
   "rating": 4.6,
   "total_ulasan": 19,
-  "positif": 0,
+  "positif": 19,
   "netral": 0,
-  "negatif": 19,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan nya sangat baik, Perawat nya sabar\" sigap-sigap juga",
       "teks_final": "pelayanan baik perawat sabar sigap sigap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9857
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan rumah sakit sudah sangat baik, perawat, Staff dan dokter sangat ramah. Tanggapan kepada pasien selalu cepat dan tanggap dalam melayani. Sedikit kritik dan saran dari saya dari keluarga pasien; untuk penjelasan tentang saat pemberian obat mohon lebih pelan-pelan lagi, karena saya cukup kesulitan mencerna. Lebihnya sudah baik sekali, Terima kasih.",
       "teks_final": "pelayanan rumah sakit baik perawat staff dokter ramah tanggapan kepada pasien selalu cepat tanggap melayani sedikit kritik saran keluarga pasien penjelasan tentang pemberian obat mohon pelan pelan cukup kesulitan mencerna lebihnya baik terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6499
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Alhamdulillah pelayanan kesehatan baik dan ramah",
       "teks_final": "alhamdulillah pelayanan kesehatan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9919
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "pelayanan nya cepat sangat bagus ramah dan baik",
       "teks_final": "pelayanan cepat bagus ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayan sangat bagus",
       "teks_final": "pelayan bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "pelayanan nya baik selalu tepat waktu dan juga tidak ada kendala apa pun",
       "teks_final": "pelayanan baik selalu tepat waktu kendala apa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9773
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pelayanan sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya bagus, .",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanannya Oke Tenaga medisnya baik 👍🏻",
       "teks_final": "pelayanannya oke tenaga medisnya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "puas sekali berobat disini selain pelayananya  baik perawatnya juga ramah tamah  dalam merawat pasien. alhamdulilah nenek sya sehat sampay aaat ini .terimakasih atas semuanya . semoga terus begini ya 🙏🙏😊😊👍👍👍👍👍👍",
       "teks_final": "puas berobat disini selain pelayananya baik perawatnya ramah tamah merawat pasien alhamdulilah nenek sya sehat sampay aaat terimakasih atas semuanya semoga terus begini ya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9884
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya bagus, Gercep, perawat dan dokternya ramah",
       "teks_final": "pelayanannya bagus gercep perawat dokternya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanan yang sangat baik.perawat dan dokternya rama2 sangat responsif terhadap pasien.terima kasih banyak atas pelayanannya.",
       "teks_final": "pelayanan baik perawat dokternya rama2 responsif terhadap pasien terima kasih banyak atas pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.989
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sukses selalu, tingkatkan pelayanan dan fasilitas.. 🫰🫰🫰",
       "teks_final": "sukses selalu tingkatkan pelayanan fasilitas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.978
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayanan baik, nakesnya gercep dan ramah",
       "teks_final": "pelayanan baik nakesnya gercep ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "pelayanan sangat baik, dokter memberikan penjelasan dengan baik",
       "teks_final": "pelayanan baik dokter memberikan penjelasan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.915
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan bagus ramah lumayan cepat . Lahiran anak pertama disini dan rencana lahiran anak ke 2 kesini lagi",
       "teks_final": "pelayanan bagus ramah lumayan cepat lahiran anak pertama disini rencana lahiran anak kesini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9941
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Alhamdulillah pelayanan sat set . Perawat juga ramah Kamar cukup bersih Sejauh ini sudah cukup memuaskan untuk perdana ranap disini. Semoga sukses selalu RS surya medika",
       "teks_final": "alhamdulillah pelayanan sat set perawat ramah kamar cukup bersih sejauh cukup memuaskan perdana ranap disini semoga sukses selalu rumah sakit surya medika",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9789
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Sangat baik. Pelayanan nya sangat ramah",
       "teks_final": "baik pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     }
   ]

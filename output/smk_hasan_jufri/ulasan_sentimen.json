@@ -3,12 +3,12 @@
   "tempat": "SMK Hasan Jufri",
   "rating": 5,
   "total_ulasan": 4,
-  "positif": 0,
+  "positif": 3,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Bangga jadi Alumni di SMK Hasan Jufri",
       "teks_final": "bangga jadi alumni smk hasan jufri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9877
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sukses terus",
       "teks_final": "sukses terus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9898
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "keren sekolah hasan jufri",
       "teks_final": "bagus sekolah hasan jufri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {

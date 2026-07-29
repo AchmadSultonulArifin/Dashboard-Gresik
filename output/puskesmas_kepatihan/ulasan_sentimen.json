@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Kepatihan",
   "rating": 4.4,
   "total_ulasan": 28,
-  "positif": 1,
+  "positif": 26,
   "netral": 1,
-  "negatif": 26,
-  "persen_positif": 3.6,
+  "negatif": 1,
+  "persen_positif": 92.9,
   "persen_netral": 3.6,
-  "persen_negatif": 92.9,
+  "persen_negatif": 3.6,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Peyalan luarbiasa",
       "teks_final": "peyalan luarbiasa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan bpjs di puskesmas kepatihan sangat bagus dan mengedukasi dengan baik. Terimakasih banyak dan sukses selalu buat petugas dan buat puskesmas kepatihan semakin berkembang",
       "teks_final": "pelayanan bpjs puskesmas kepatihan bagus mengedukasi baik terimakasih banyak sukses selalu buat petugas buat puskesmas kepatihan semakin berkembang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Mau ke poli gigi aja smpe balik 2x gak di tolak karena kuota penuh Pertama karena puskesmas pindah sy tidak tau, smpe ke lokasi yg baru di tolak karena kesiangan dsruh balik besok pagi. Hari ini sy balik lagi jm 9 smpe lokasi di tolak lagi katanya sudah penuh. Sebenere niat buka gak seh polo gigi nya itu!!!",
       "teks_final": "mau poli gigi aja smpe balik 2x tolak kuota penuh pertama puskesmas pindah tau smpe lokasi tolak kesiangan dsruh balik besok pagi hari balik jm smpe lokasi tolak katanya penuh sebenere niat buka seh polo gigi",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8406
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanan di poli anak bagus satset dan penjelasan dari dokter jelas",
       "teks_final": "pelayanan poli anak bagus satset penjelasan dokter jelas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9814
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayan puskesmas pengaktifan BPJS Nya Ramah",
       "teks_final": "pelayan puskesmas pengaktifan bpjs ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9864
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Alhamdulillah di Puskesmas Kepatihan dibantu untuk pengurusan BPJS dg sangat ramah dan jelas... Periksa jd lebih mudah... Terimakasih...",
       "teks_final": "alhamdulillah puskesmas kepatihan dibantu pengurusan bpjs ramah jelas periksa jd mudah terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8928
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "pelayanannya baik dan cepat",
       "teks_final": "pelayanannya baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan ramah baik",
       "teks_final": "pelayanan ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "pelayanan di poli anak sangat bagus dokternya sangat ramah dan baik",
       "teks_final": "pelayanan poli anak bagus dokternya ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan di poli anak sangat ramah . Panggilan anttiannya cepat. Penjelasan sakit dan solusinya sangat jelas dan membantu mama muda seperti saya",
       "teks_final": "pelayanan poli anak ramah panggilan anttiannya cepat penjelasan sakit solusinya jelas membantu mama muda seperti",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9759
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "pelayanan maksimal, staf ramah di ruangan anak bagian uhc, sangat memuaskan, trima kasih",
       "teks_final": "pelayanan maksimal staf ramah ruangan anak bagian uhc memuaskan trima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9811
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pegawai bpjs di pukesmas kepatihan pelayanannya okeeee bgttt",
       "teks_final": "pegawai bpjs pukesmas kepatihan pelayanannya okeeee bgttt",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Bagus banget pelayanan nya doker nya ramah",
       "teks_final": "bagus banget pelayanan doker ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Sangat baik dan ramah petugas.nya juga baik baik dan penjelasan.nya mudah difahami dan di mengerti oleh pasien... terima kasih",
       "teks_final": "baik ramah petugas baik baik penjelasan mudah difahami mengerti pasien terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7232
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanann sangat-sangat baikk..",
       "teks_final": "pelayanann baikk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9919
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "pendaftarannya sangat cepat dan pelayanan di kia dewasa sangat bagus",
       "teks_final": "pendaftarannya cepat pelayanan kia dewasa bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "pelayanan baik bagus ramah",
       "teks_final": "pelayanan baik bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Terima kasih kepada Puskesmas Kepatihan atas dedikasinya dalam melayani masyarakat. Edukasi kesehatan yang diberikan menjadi bekal penting bagi warga untuk memahami pola hidup sehat, menjaga kebersihan, serta melakukan deteksi dini terhadap berbagai risiko penyakit.  Edukasi hari ini adalah investasi kesehatan untuk masa depan.  Puskesmas Kepatihan tidak hanya memberikan pelayanan kesehatan yang baik dan profesional, tetapi juga aktif dalam memberikan edukasi kesehatan kepada masyarakat.  Berbagai informasi mengenai pola hidup bersih dan sehat (PHBS), pencegahan penyakit, imunisasi, kesehatan ibu dan anak, gizi keluarga, hingga pemeriksaan kesehatan rutin disampaikan dengan bahasa yang mudah dipahami oleh warga.  Kegiatan edukasi yang dilakukan sangat membantu masyarakat untuk lebih sadar akan pentingnya menjaga kesehatan sejak dini. Tenaga kesehatan juga dikenal ramah, sabar, serta siap memberikan penjelasan dan solusi yang bermanfaat bagi masyarakat yang membutuhkan informasi kesehatan.  Melalui edukasi yang berkelanjutan, Puskesmas Kepatihan turut berperan dalam menciptakan lingkungan yang lebih sehat, meningkatkan kualitas hidup masyarakat, serta mendukung terwujudnya keluarga yang sehat, mandiri, dan sejahtera.  Terima kasih atas dedikasi dan pengabdiannya kepada masyarakat. Semoga Puskesmas Kepatihan terus menjadi pusat pelayanan dan edukasi kesehatan yang terpercaya bagi warga Menganti dan sekitarnya.  Edukasi kesehatan hari ini adalah investasi kesehatan untuk masa depan yang lebih baik. Berdampak sangat baik untuk semuanya.",
       "teks_final": "terima kasih kepada puskesmas kepatihan atas dedikasinya melayani masyarakat edukasi kesehatan diberikan menjadi bekal penting bagi warga memahami pola hidup sehat menjaga kebersihan serta melakukan deteksi dini terhadap berbagai risiko penyakit edukasi hari investasi kesehatan masa depan puskesmas kepatihan hanya memberikan pelayanan kesehatan baik profesional aktif memberikan edukasi kesehatan kepada masyarakat berbagai informasi mengenai pola hidup bersih sehat phbs pencegahan penyakit imunisasi kesehatan ibu anak gizi keluarga hingga pemeriksaan kesehatan rutin disampaikan bahasa mudah dipahami warga kegiatan edukasi dilakukan membantu masyarakat sadar pentingnya menjaga kesehatan sejak dini tenaga kesehatan dikenal ramah sabar serta siap memberikan penjelasan solusi bermanfaat bagi masyarakat membutuhkan informasi kesehatan melalui edukasi berkelanjutan puskesmas kepatihan turut berperan menciptakan lingkungan sehat meningkatkan kualitas hidup masyarakat serta mendukung terwujudnya keluarga sehat mandiri sejahtera terima kasih atas dedikasi pengabdiannya kepada masyarakat semoga puskesmas kepatihan terus menjadi pusat pelayanan edukasi kesehatan terpercaya bagi warga menganti sekitarnya edukasi kesehatan hari investasi kesehatan masa depan baik berdampak baik semuanya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6037
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan puskesmas kepatihan ramah semua petugasnya, d jelaskan dengan baik",
       "teks_final": "pelayanan puskesmas kepatihan ramah semua petugasnya jelaskan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan pendaftarannya ramah sekali, saya rela rumah jauh buat kesini karena pelayanan ramah",
       "teks_final": "pelayanan pendaftarannya ramah rela rumah jauh buat kesini pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayanan di puskesmas kepatihan sangat baik dan khususnya di poli anak, saya konsultasi dengan dokter yang ramah dan cepat, obatnya juga langsung di berikan",
       "teks_final": "pelayanan puskesmas kepatihan baik khususnya poli anak konsultasi dokter ramah cepat obatnya langsung berikan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8996
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "pelayanan di poli anak bagus dan pemanggilan nya cepat ...",
       "teks_final": "pelayanan poli anak bagus pemanggilan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan bagus, cepat, orang\" Puskesmas nya juga ramah nggk ada yg ketus",
       "teks_final": "pelayanan bagus cepat orang puskesmas ramah nggk ketus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9808
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan nya ramah juga baik Enak kalo ngomong Pokok nyaaa ramahhh banget",
       "teks_final": "pelayanan ramah baik enak kalo ngomong pokok nyaaa ramahhh banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "pelayanan baik . pelayanan di bpjsnyapun baik untuk membantunya",
       "teks_final": "pelayanan baik pelayanan bpjsnyapun baik membantunya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Puskesmas kepatihan top pelayanan pendaftaran ramah banget sangat membantu",
       "teks_final": "puskesmas kepatihan top pelayanan pendaftaran ramah banget membantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     }
   ]

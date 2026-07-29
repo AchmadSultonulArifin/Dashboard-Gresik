@@ -3,12 +3,12 @@
   "tempat": "BANK BNI MENGANTI",
   "rating": 4.1,
   "total_ulasan": 23,
-  "positif": 0,
+  "positif": 23,
   "netral": 0,
-  "negatif": 23,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Tempat nya nyaman dan suasananya tenang, pegawainya ramah2 🙏🏻",
       "teks_final": "tempat nyaman suasananya tenang pegawainya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Walaupun rame antrian, tapi tetap cepat melayani",
       "teks_final": "walaupun rame antrian tetap cepat melayani",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9862
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "BNI memang Rajanya Bank",
       "teks_final": "bni memang rajanya bank",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9612
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pegawainya ramah ramah.. baik baik.. helping bgt.. cepat dan nyaman bersih tempatnya.. sukses ya BNI 🤗",
       "teks_final": "pegawainya ramah ramah baik baik helping banget cepat nyaman bersih tempatnya sukses ya bni",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan sangat ramah sekali",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sip",
       "teks_final": "sip",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9767
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pegawainya ramah ramah",
       "teks_final": "pegawainya ramah ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Ok sip",
       "teks_final": "oke sip",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6692
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanan super wes pokoknya. .",
       "teks_final": "pelayanan super wes pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan bagus cepat mbaknya ramahhh 👍👍",
       "teks_final": "pelayanan bagus cepat mbaknya ramahhh",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Good lah cs nya rama ... suopan... mbak ria mantul",
       "teks_final": "good cs rama suopan mbak ria bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9866
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanannya terbaikk 👍👍",
       "teks_final": "pelayanannya terbaikk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan baik ramah cepet, ruangannya bersih gak sempit... Dipertahankan ya👍🏻",
       "teks_final": "pelayanan baik ramah cepet ruangannya bersih sempit dipertahankan ya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8721
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Mbaknya cepet pelayanannya baik suka",
       "teks_final": "mbaknya cepet pelayanannya baik suka",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanannya baik ramah cekatan.. Mbaknya cantik😘rapi",
       "teks_final": "pelayanannya baik ramah cekatan mbaknya cantikrapi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9908
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Ok sip",
       "teks_final": "oke sip",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6692
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayan bagus",
       "teks_final": "pelayan bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Lokasi strategis. Trimakasih",
       "teks_final": "lokasi strategis trimakasih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "trimakasih bni menganti. 👍🙏",
       "teks_final": "trimakasih bni menganti",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7591
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "trimakasih bni ☺️🙏",
       "teks_final": "trimakasih bni",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9003
     }
   ]

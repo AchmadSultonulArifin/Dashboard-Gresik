@@ -3,12 +3,12 @@
   "tempat": "SMK PGRI 1 GRESIK KAMPUS B",
   "rating": 5,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 2,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Kampus B SMK PGRI 1 Gresik Nyaman dan bersih",
       "teks_final": "kampus smk pgri gresik nyaman bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus, rapi & bersih",
       "teks_final": "bagus rapi bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     }
   ]

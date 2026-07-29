@@ -3,12 +3,12 @@
   "tempat": "Gedung Olahraga Sidayu",
   "rating": 4.1,
   "total_ulasan": 11,
-  "positif": 6,
+  "positif": 11,
   "netral": 0,
-  "negatif": 5,
-  "persen_positif": 54.5,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 45.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Lumayan bagus, murah, ada toilet.",
       "teks_final": "lumayan bagus murah toilet",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Lumayan lah.... Murah...",
       "teks_final": "lumayan murah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Menarik. Tempatnya luas.",
       "teks_final": "menarik tempatnya luas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Luas dan adem",
       "teks_final": "luas adem",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tempatnya yang strategis menjadikan gedung ini multi fungsi, di samping sebagai Gedung Olah Raga juga kadang di gunakan resepsi, tempat lomba dan lainnya",
       "teks_final": "tempatnya strategis menjadikan gedung multi fungsi samping sebagai gedung olah raga kadang gunakan resepsi tempat lomba lainnya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {

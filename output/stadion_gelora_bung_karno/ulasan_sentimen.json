@@ -3,12 +3,12 @@
   "tempat": "Stadion Gelora Bung Karno",
   "rating": 4.8,
   "total_ulasan": 17,
-  "positif": 1,
+  "positif": 15,
   "netral": 2,
-  "negatif": 14,
-  "persen_positif": 5.9,
+  "negatif": 0,
+  "persen_positif": 88.2,
   "persen_netral": 11.8,
-  "persen_negatif": 82.4,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "nyaman buat lari",
       "teks_final": "nyaman buat lari",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ada sewa sepeda walaupun gak bisa dipakai di track luar gelora jadi hanya di luar pagar. Nongkrong di Alfa atau Indomaret selepas jogging buat nambah kalori. Ada area Gym terbuka juga. Banyak2 istighfar karna banyak yang pakaiannya kurang bahan saat olahraga 😂. Ada tempat penitipan tas sistem aplikasi Paxel dan ada toiletumumj serta jajanan jug aafa.",
       "teks_final": "sewa sepeda walaupun dipakai track luar gelora jadi hanya luar pagar nongkrong alfa indomaret selepas jogging buat nambah kalori area gym terbuka banyak2 istighfar karna banyak pakaiannya kurang bahan olahraga tempat penitipan tas sistem aplikasi paxel toiletumumj serta jajanan jug aafa",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9129
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bisa akses dari gate 6 untuk oehalan kaki. Ramai yang olah raga terutama sore jelang malam selepas jam kerja dan ada sewa sepeda. Ada tempat nongkrong dinAlfamart atau indomaret. Ada Gym juga.",
       "teks_final": "akses gate oehalan kaki ramai olah raga terutama sore jelang malam selepas jam kerja sewa sepeda tempat nongkrong dinalfamart indomaret gym",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9636
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Ramai sekali di saat jam menjelang sore sampe malam banyak yg joging ccok buat cuci mata😁",
       "teks_final": "ramai jam menjelang sore sampe malam banyak joging ccok buat cuci mata",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8343
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Gede banget, cukup ramai tapi masih ada space yang enjoyable ada berbagai foodtruck. Mau olahraga sendiri atau ramai-ramai cukup menyenangkan",
       "teks_final": "gede banget cukup ramai space enjoyable berbagai foodtruck mau olahraga sendiri ramai ramai cukup menyenangkan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Kebanggan kita",
       "teks_final": "kebanggan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9857
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Nice place",
       "teks_final": "nice place",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Tempat nya adem, karna banyak pohon nya, tersedia toilet. Pokoknya bagus deh",
       "teks_final": "tempat adem karna banyak pohon tersedia toilet pokoknya bagus",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Sport Center yg punya smart locker buanyak. Fasilitas lengkap dan mudah diakses.",
       "teks_final": "sport center punya smart locker buanyak fasilitas lengkap mudah diakses",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.934
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "spacious, clean",
       "teks_final": "spacious clean",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Always tempat favorit utk jogging bareng BESTie 😘😘",
       "teks_final": "always tempat favorit jogging bareng bestie",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7224
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Asik buat jogging",
       "teks_final": "asik buat jogging",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pengalaman Google Terbaik walu cita² saya ingin kerja di google pas masih SMK, tetapi takdir saya memang harus tinggal dibekasi",
       "teks_final": "pengalaman google terbaik walu cita ingin kerja google pas smk takdir memang harus tinggal dibekasi",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.865
     }
   ]

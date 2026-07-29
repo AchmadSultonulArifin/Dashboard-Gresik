@@ -3,12 +3,12 @@
   "tempat": "SMK Negeri 1 Driyorejo",
   "rating": 4.2,
   "total_ulasan": 9,
-  "positif": 3,
+  "positif": 4,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 33.3,
+  "negatif": 3,
+  "persen_positif": 44.4,
   "persen_netral": 22.2,
-  "persen_negatif": 44.4,
+  "persen_negatif": 33.3,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Suasana nya jauh dari bisingan.jadi cocok buat aktifitas belajar dan mengajar",
       "teks_final": "suasana jauh bisingan jadi cocok buat aktifitas belajar mengajar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7283
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sangat jauhh saya tidak sanggup",
       "teks_final": "jauhh sanggup",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9943
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempat Luas,, halaman juga OKE,,, Sarana olahraga jg ada,,, Suasana Sangat Mendukung tuk menimba ILMU,, Semoga Lulusan SMK ini, berguna dan Bermanfaat Bagi Bangsa ini serta Berbakti Kepada Orang Tuanya",
       "teks_final": "tempat luas halaman oke sarana olahraga suasana mendukung tuk menimba ilmu semoga lulusan smk berguna bermanfaat bagi bangsa serta berbakti kepada orang tuanya",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9866
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Terbaik lah.. Adem.. Terus berkembang.",
       "teks_final": "terbaik adem terus berkembang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9925
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "sekolahnya bagus sekali dapat bnyak pengalaman mantap men",
       "teks_final": "sekolahnya bagus bnyak pengalaman bagus men",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Kamar mandi bau",
       "teks_final": "kamar mandi bau",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9972
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sekolah luas, tapi didepan sekolah tidak ada lampu penerangan. Kalau mulai malam horor, kayak makam, nggak ada lampu penerangan. Berisik. Lumayan sering buat acara, pagi udah musik jedag jedug. Kadang entah tim drumband atau suporter, kalau latihan nggak kenal sekolah ditengah perumahan warga. Keras sekali gebukannya bisa sampai 1 jam.an. Kalau ada acara jalan sehat, sering kali sampah berserakan dijalan depan sekolah tidak dibersihkan.",
       "teks_final": "sekolah luas didepan sekolah lampu penerangan mulai malam horor kayak makam lampu penerangan berisik lumayan sering buat acara pagi udah musik jedag jedug kadang entah tim drumband suporter latihan kenal sekolah ditengah perumahan warga keras gebukannya sampai jam an acara jalan sehat sering kali sampah berserakan dijalan depan sekolah dibersihkan",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9176
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "PERISAI BPJS KETENAGAKERJAAN",
   "rating": 4.8,
   "total_ulasan": 5,
-  "positif": 0,
+  "positif": 4,
   "netral": 1,
-  "negatif": 4,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 80.0,
   "persen_netral": 20.0,
-  "persen_negatif": 80.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -29,7 +29,7 @@
       "Ulasan": "mantappppp",
       "teks_final": "mantappppp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "lanjutkan anak muda",
       "teks_final": "lanjutkan anak muda",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9618
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Jempollll",
       "teks_final": "jempollll",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9934
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Lakukan untuk kepedulian terhadap sesama.",
       "teks_final": "lakukan kepedulian terhadap sesama",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6364
     }
   ]

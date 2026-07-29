@@ -3,12 +3,12 @@
   "tempat": "GOR Nicky Futsal",
   "rating": 4.3,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 1,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 50.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 50.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Sangat menyenangkan bukan",
       "teks_final": "menyenangkan bukan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {

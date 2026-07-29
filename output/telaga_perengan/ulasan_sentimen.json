@@ -3,12 +3,12 @@
   "tempat": "Telaga Perengan",
   "rating": 4,
   "total_ulasan": 15,
-  "positif": 2,
+  "positif": 12,
   "netral": 0,
-  "negatif": 13,
-  "persen_positif": 13.3,
+  "negatif": 3,
+  "persen_positif": 80.0,
   "persen_netral": 0.0,
-  "persen_negatif": 86.7,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Telaga Perengan terletak disebelah barat Telaga Ngipik... Spot mancing mania bagi yg hobi...",
       "teks_final": "telaga perengan terletak disebelah barat telaga ngipik spot mancing mania bagi hobi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6896
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Spott mancing tanpa mengecewakan.",
       "teks_final": "spott mancing tanpa mengecewakan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Spot e mantap bolo",
       "teks_final": "spot bagus bolo",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Seru banget dah pakok nya",
       "teks_final": "seru banget dah pakok",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Apik\"",
       "teks_final": "apik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Suasananya sejuk sekali",
       "teks_final": "suasananya sejuk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Jos",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sunrise sama sunset bagus disini",
       "teks_final": "sunrise sama sunset bagus disini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Tempat mancing yg bagus spootnya mantap jossnya",
       "teks_final": "tempat mancing bagus spootnya bagus jossnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Tempat wisata keluarga untuk memancing dan camping",
       "teks_final": "tempat wisata keluarga memancing camping",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8985
     },
     {

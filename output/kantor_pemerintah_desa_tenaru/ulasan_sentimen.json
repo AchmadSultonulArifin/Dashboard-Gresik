@@ -3,12 +3,12 @@
   "tempat": "Kantor Pemerintah Desa Tenaru",
   "rating": 3.1,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 2,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 25.0,
+  "negatif": 1,
+  "persen_positif": 50.0,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -40,7 +40,7 @@
       "Ulasan": "Bersih dan tertata rapi",
       "teks_final": "bersih tertata rapi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {

@@ -8,6 +8,14 @@
         🕒 Data terakhir diperbarui: <strong style="color:#4f46e5;">{{ update_twitter }}</strong>
     </p>
 </div>
+{% set status = scrape_status.get('twitter') %}
+{% if status %}
+<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;margin-bottom:16px;
+    <{% if status.success %}background:#d1fae5;color:#065f46;{% else %}background:#fee2e2;color:#991b1b;{% endif %}">
+    {% if status.success %}✅ Berhasil{% else %}❌ Gagal{% endif %}
+    <span style="font-weight:400;opacity:0.8;">— {{ status.last_run }}</span>
+</div>
+{% endif %}
 
 <!-- KPI -->
 <div class="stat-grid" style="margin-bottom:20px;">
@@ -93,10 +101,10 @@
                 <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:12px;">
                     {{ t.tanggal }}
                 </td>
-                <td style="padding:10px 12px;white-space:nowrap;">
+                <td style="padding:10px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:80px;">
                     <span style="font-size:12px;color:#374151;font-weight:500;">@{{ t.username }}</span>
                 </td>
-                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:400px;word-break:break-word;">
+                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:500px;word-break:break-word;">
                     {% if t.teks_asli is string %}
                         {{ t.teks_asli[:150] }}{% if t.teks_asli|length > 150 %}...{% endif %}
                     {% else %}-{% endif %}

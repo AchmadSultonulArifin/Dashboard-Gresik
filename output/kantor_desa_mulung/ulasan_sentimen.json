@@ -3,12 +3,12 @@
   "tempat": "Kantor Desa Mulung",
   "rating": 4.5,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 3,
   "netral": 2,
-  "negatif": 2,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 60.0,
   "persen_netral": 40.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Kantor kelurahan yg luas dengan pelayanan yg ramah",
       "teks_final": "kantor kelurahan luas pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {

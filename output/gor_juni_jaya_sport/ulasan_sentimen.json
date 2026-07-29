@@ -3,12 +3,12 @@
   "tempat": "GOR JUNI JAYA SPORT",
   "rating": 4.5,
   "total_ulasan": 12,
-  "positif": 4,
+  "positif": 7,
   "netral": 3,
-  "negatif": 5,
-  "persen_positif": 33.3,
+  "negatif": 2,
+  "persen_positif": 58.3,
   "persen_netral": 25.0,
-  "persen_negatif": 41.7,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Berisik banget",
       "teks_final": "berisik banget",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9981
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "tempat latihan badminton setelah kerja lapangan bagus dan terjangkau",
       "teks_final": "tempat latihan badminton kerja lapangan bagus terjangkau",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Harga tergolong murah untuk sewa per-jam nya, namun lokasi tidak strategis dan sempat nyasar ke kuburan. Jam setelah maghrib-menjelang tengah malam ramai, dan yang antri untuk booking jam selanjutnya juga menunggu didalam jadi hawa terasa sesak dan panas bercampur bau keringat",
       "teks_final": "harga tergolong murah sewa per jam lokasi strategis sempat nyasar kuburan jam maghrib menjelang tengah malam ramai antrian booking jam selanjutnya menunggu didalam jadi hawa terasa sesak panas bercampur bau keringat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "review jujur dari pengalaman saya : - terdapat 3 lapangan - sewa lapangan harga 25 ribu per jamnya - kondisi lapangan bagus dan terawat - disini menyediakan makanan dan minuman - menjual kok juga apabila tidak punya kok",
       "teks_final": "review jujur pengalaman terdapat lapangan sewa lapangan harga ribu per jamnya kondisi lapangan bagus terawat disini menyediakan makanan minuman menjual kok apabila punya kok",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bersih&berkarpet...",
       "teks_final": "bersih berkarpet",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Masalah lapangan sih bagus nyaman tempat parkir aman kantin oke, cuma masalah bookingnya agak ga sesuai campur aduk masuk semua konyol",
       "teks_final": "masalah lapangan bagus nyaman tempat parkir aman kantin oke cuma masalah bookingnya agak sesuai campur aduk masuk semua konyol",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6221
     },
     {

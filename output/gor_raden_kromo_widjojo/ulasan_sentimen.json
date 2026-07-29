@@ -3,12 +3,12 @@
   "tempat": "GOR Raden Kromo Widjojo",
   "rating": 4.7,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 5,
   "netral": 0,
-  "negatif": 4,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 80.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Rabu pagi ramai pengunjung...",
       "teks_final": "rabu pagi ramai pengunjung",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8411
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "sangat enak sekali tempatnya buat olahraga",
       "teks_final": "enak tempatnya buat olahraga",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Salah satu tempat multifungsi yang berlokasikan di pojok timur dan utara alun alun (depan koramil) Sidayu. Di sekitar SOR juga terdapat taman bermain bagi anak anak. Tempat sampah cukup banyak di beberapa titik.  Catatan untuk para pengunjung, harap menjaga kebersihan dengan membuang sampah pada tempat yang telah disediakan.",
       "teks_final": "salah satu tempat multifungsi berlokasikan pojok timur utara alun alun depan koramil sidayu sekitar sor terdapat taman bermain bagi anak anak tempat sampah cukup banyak beberapa titik catatan para pengunjung harap menjaga kebersihan membuang sampah tempat telah disediakan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9755
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "ATM Bank Central Asia (BCA)",
   "rating": 1,
   "total_ulasan": 2,
-  "positif": 2,
+  "positif": 0,
   "netral": 0,
-  "negatif": 0,
-  "persen_positif": 100.0,
+  "negatif": 2,
+  "persen_positif": 0.0,
   "persen_netral": 0.0,
-  "persen_negatif": 0.0,
+  "persen_negatif": 100.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sekalinya buka pelayanan dari CS a.n. eli*****h jelek bgt hahaha ga ramah sekali pada 2 juni 2022 pukul 8.45",
       "teks_final": "sekalinya buka pelayanan cs eli jelek banget hahaha ramah juni pukul",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "kantor cabang gak berguna, kerjaan nya tutup mulu.. masak operasional cuma 2 jam doang. mending gak usah buka sekalian",
       "teks_final": "kantor cabang berguna kerjaan tutup mulu masak operasional cuma jam doang mending usah buka sekalian",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9905
     }
   ]

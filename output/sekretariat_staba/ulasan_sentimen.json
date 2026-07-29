@@ -3,12 +3,12 @@
   "tempat": "Sekretariat STABA",
   "rating": 5,
   "total_ulasan": 1,
-  "positif": 0,
+  "positif": 1,
   "netral": 0,
-  "negatif": 1,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Senang skli bsa mnyalurkan hobi&mnanbah byk sodara di dlm keluarga besar STABA utk para Riders&Bikers. Notes : Sekretariat STABA adalah bukan kantor pemerintahan.",
       "teks_final": "senang skli bsa mnyalurkan hobi mnanbah banyak sodara keluarga besar staba para riders bikers notes sekretariat staba bukan kantor pemerintahan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9538
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "PT. BANK RAKYAT INDONESIA (Persero), Tbk",
   "rating": 3.5,
   "total_ulasan": 23,
-  "positif": 10,
+  "positif": 4,
   "netral": 9,
-  "negatif": 4,
-  "persen_positif": 43.5,
+  "negatif": 10,
+  "persen_positif": 17.4,
   "persen_netral": 39.1,
-  "persen_negatif": 17.4,
+  "persen_negatif": 43.5,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Ini gmn ya kl punya aplikasi blm settle jgn di publis ngerepotin dan ngerugiin kita bangett, udah cs Qlola susah banget di hubungin, setiap kali sistem update terus tp malah gak bisa di gunaain ,ini bukan di mempermudah nasabah tp malah nyusahin nasabah yg menimbulkan kerugian",
       "teks_final": "gmn ya punya aplikasi settle jgn publis ngerepotin ngerugiin bangett udah cs qlola susah banget hubungin setiap kali sistem update terus malah gunaain bukan mempermudah nasabah malah nyusahin nasabah menimbulkan kerugian",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9955
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "UANG GA DI TERIMA ATM TERTELAN! DANA GA DIKEMBALIKAN? GIMANA SOP NYA? RUGI NASABAH! EVALUASI APA YANG DILAKUKAN TIAP MINGGU BULAN TAHUN? JAWAB!",
       "teks_final": "uang terima atm tertelan dana dikembalikan gimana sop rugi nasabah evaluasi apa dilakukan tiap minggu bulan tahun jawab",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8031
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "🌶️ Hijau Padang Ymmu!",
       "teks_final": "hijau padang ymmu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9524
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "tempatnya bagus",
       "teks_final": "tempatnya bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tidak puas belum selesai",
       "teks_final": "puas selesai",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan dan sistemnya sangat buruk, cs wa sm telpon gk tidak di respon dan gk ngasih solusi apa”, saldo kepotong tp pembayaran masih pending sampai 23 hari bilangnya 14 h kerja smpe skrg belum ada kepastian ”. Bikin emosi jiwa, iya uang gak seberapa tapi bisa ongkos 1 bulan di jakarta,  Sangat burukkkkkkkkk🤬",
       "teks_final": "pelayanan sistemnya buruk cs wa sama telpon respon ngasih solusi apa saldo kepotong pembayaran pending sampai hari bilangnya kerja smpe sekarang kepastian bikin emosi jiwa iya uang seberapa ongkos bulan jakarta burukkkkkkkkk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "saya tadi mengisi data dan saya meminjam uang online dan saya di suruh bayar 150 dan saya ngak mau mau nya di potong aja 150k dan dia ngak mau dan saya lihat komentar dari sebelah katanya banyak penipunya di atm bri dan mulai detik ini saya ngak akan mau mengunakan atm bri dikarenakan banyak penipu  yang berkedok baik....bye bri mending pakai mandiri lebih aman kalok ngak bni lebih aman",
       "teks_final": "tadi mengisi data meminjam uang online suruh bayar ngak mau mau potong aja 150k ngak mau lihat komentar sebelah katanya banyak penipunya atm bri mulai detik ngak mau mengunakan atm bri dikarenakan banyak penipu berkedok baik bye bri mending pakai mandiri aman kalok ngak bni aman",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.995
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Sya hanya minta kejujuran dari pihak bang ,apa pengajuan KUR BRI ini hrus byar dlu ACC, awalnya sya ajukan pinjaman dn pihak BRI ini bilang byar dlu 100 Bru bisa cair ,sya tggu tunggu akhirnya di suruh bayar lagi 550 ribu sdah sya byar lagi.setelah itu saya dpat info Blang tdak bisa pencairan. Lagi hrus bayar dlu uang asuransi sebesar  1.450 ribu .,ktka sya bilang sya TDK mau lgi biar balikin duit saya malah sya di ancam  akn di bekukan ke setiap bank apapun dn Sruh bayar denda ,tlong pihak BRI kasi tanggapan.",
       "teks_final": "sya hanya minta kejujuran pihak bang apa pengajuan kur bri hrus byar dlu acc awalnya sya ajukan pinjaman dn pihak bri bilang byar dlu bru cair sya tggu tunggu akhirnya suruh bayar ribu sdah sya byar dpat info blang tdak pencairan hrus bayar dlu uang asuransi sebesar ribu ktka sya bilang sya mau lgi biar balikin duit malah sya ancam akn bekukan setiap bank apapun dn sruh bayar denda tlong pihak bri kasi tanggapan",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9276
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "ribet",
       "teks_final": "ribet",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Kelewatan! Oknum bagian kartu kredit BRI Pusat ini. Sembarangan menerbitkan kartu kredit tanpa sepengetahuan nasabah. Padahal Nasabah tidak pernah mengajukan permohonan kartu kredit, tiba-tiba muncul di BI ID. Oknum seperti ini mesti ditindak secara hukum. Karena berpotensi merugikan nasabah. Tolong lah manajamen BRI jangan menekan karyawan dengan target yang gak masuk akal, sehingga karyawannya karena terdesak dipasang target yg gak masuk akal, mencoba mencari celah2 yang menyimpang. salah satunya tanpa persetujuan nasabah menerbitkan kartu kredit. Manajemennya sangat buruk dan rusak",
       "teks_final": "kelewatan oknum bagian kartu kredit bri pusat sembarangan menerbitkan kartu kredit tanpa sepengetahuan nasabah padahal nasabah pernah mengajukan permohonan kartu kredit tiba tiba muncul bi id oknum seperti mesti ditindak secara hukum berpotensi merugikan nasabah tolong manajamen bri jangan menekan karyawan target masuk akal sehingga karyawannya terdesak dipasang target masuk akal mencoba mencari celah2 menyimpang salah satunya tanpa persetujuan nasabah menerbitkan kartu kredit manajemennya buruk rusak",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "udah pada tahu kalo BRI sistemnya bobrok, ada customer kehilangan uang aja malah ga di kembalikan uangnya itu aja nasabah prioritas coba kalo nasabah biasa haduh ampun, tercemar jelek bank BRI di Indonesia aku juga mau pindah ke bank yg lebih aman. mohon maaf ya BRI 🤣😁 karna kesalahmu sendiri yg mengakibatkan nasabah pada kabur 🙏",
       "teks_final": "udah tahu kalo bri sistemnya bobrok customer kehilangan uang aja malah kembalikan uangnya aja nasabah prioritas coba kalo nasabah biasa haduh ampun tercemar jelek bank bri indonesia aku mau pindah bank aman mohon maaf ya bri karna kesalahmu sendiri mengakibatkan nasabah kabur",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9971
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Maaf tanya apa bener BRI kur berikan pinjaman tanpa jaminan",
       "teks_final": "maaf tanya apa bener bri kur berikan pinjaman tanpa jaminan",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6757
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan dan sistemnya bobrok, cs wa sm telpon gk berfungsi dan gk ngasih solusi apa”, kok bisa saldo kepotong tp pembayaran masih pending berhari”. Kacau sekali sistem kalian",
       "teks_final": "pelayanan sistemnya bobrok cs wa sama telpon berfungsi ngasih solusi apa kok saldo kepotong pembayaran pending berhari kacau sistem kalian",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9966
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Bagus cs satpamnya baik",
       "teks_final": "bagus cs satpamnya baik",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9826
     }
   ]

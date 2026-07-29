@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Cerme",
   "rating": 4,
   "total_ulasan": 15,
-  "positif": 1,
+  "positif": 11,
   "netral": 1,
-  "negatif": 13,
-  "persen_positif": 6.7,
+  "negatif": 3,
+  "persen_positif": 73.3,
   "persen_netral": 6.7,
-  "persen_negatif": 86.7,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanan nya kurang baik,, masa anak saya sudah kesakitan tapi masih bisa di tolok alasan nya antiran udah penuh,, pagi” saya udah effort ke lokasi astagfirullah,, kejam",
       "teks_final": "pelayanan kurang baik masa anak kesakitan tolok alasan antiran udah penuh pagi udah effort lokasi astagfirullah kejam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanannya cepat,perawat n bidan nya ramah ramah dan murah senyum",
       "teks_final": "pelayanannya cepat perawat bidan ramah ramah murah senyum",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Alhamdulillah hari ini di puskesmas Cerme sambil nunggu hasil Lab kita bisa nonton Pil Dun.. Ruang tggu nyaman",
       "teks_final": "alhamdulillah hari puskesmas cerme sambil nunggu hasil lab nonton pil dun ruang tggu nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8735
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanannya bagus cepat,, dokternya ramah dan baik",
       "teks_final": "pelayanannya bagus cepat dokternya ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pelayan dipuskesmas cerme sangat memuaskan",
       "teks_final": "pelayan dipuskesmas cerme memuaskan",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9898
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayananya baik",
       "teks_final": "pelayananya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "pelayanannya cepet ,pokoknya best",
       "teks_final": "pelayanannya cepet pokoknya best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan yang memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan nya sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan cepat,Tenaga kesehatan juga Rama, fasilitas memadai",
       "teks_final": "pelayanan cepat tenaga kesehatan rama fasilitas memadai",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8998
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "Klinik Kecantikan Clarice Beauty Driyorejo",
   "rating": 5,
   "total_ulasan": 30,
-  "positif": 0,
+  "positif": 30,
   "netral": 0,
-  "negatif": 30,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sangat nyaman dan terjangkau,, kakak2 nya juga ramah sekali",
       "teks_final": "nyaman terjangkau kakak2 ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Treatments disini rekomendasi banget, facialnya bersih dan staffnya ramah banget semua di jelasin dengan detaill",
       "teks_final": "treatments disini rekomendasi banget facialnya bersih staffnya ramah banget semua jelasin detaill",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Perawatan nyaman, ekstraksi ga sakit sama sekali.. worth it banget",
       "teks_final": "perawatan nyaman ekstraksi sakit sama worth it banget",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "pelayanan super ramah, informatif dan tempatnya nyaman bersih, rekom bgt buat yg suka perawatan",
       "teks_final": "pelayanan super ramah informatif tempatnya nyaman bersih rekom banget buat suka perawatan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanan super ramah, informatif, dan memuaskan. tempatnya bersih dan nyaman. tempat me time terbaikkk🩷🩷🩷",
       "teks_final": "pelayanan super ramah informatif memuaskan tempatnya bersih nyaman tempat me time terbaikkk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "tempat nya nyaman,bersih,pelayanan sangat baik,next balik lagi👍🏻",
       "teks_final": "tempat nyaman bersih pelayanan baik next balik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan memuaskan dan perawatan yang baik",
       "teks_final": "pelayanan memuaskan perawatan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Kliniknya bersih Pelayanannya ramah Treatmentnya ramah di kantong best pokoknyaaa 🥰🥰🥰🥰🥰 Ga sia sia jauh-jauh perawatan disini hehe",
       "teks_final": "kliniknya bersih pelayanannya ramah treatmentnya ramah kantong best pokoknyaaa sia sia jauh jauh perawatan disini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bagus, pelayanan nya juga ramah",
       "teks_final": "bagus pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanannya sangat memuaskan 👌",
       "teks_final": "pelayanannya memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan ya bagus .., pegawai ya Rama sekali",
       "teks_final": "pelayanan ya bagus pegawai ya rama",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "treatment lengkap dan nyaman, tempatnya juga nyaman",
       "teks_final": "treatment lengkap nyaman tempatnya nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "pelayanan memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanannya ramah, lembut dan penjelasannya mudah di pahami",
       "teks_final": "pelayanannya ramah lembut penjelasannya mudah pahami",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Sangat recomended staffnya ramah",
       "teks_final": "recomended staffnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "pelayanannya baik dan terapisnya sangat ramah",
       "teks_final": "pelayanannya baik terapisnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Tempatny bersih, nyaman, terapisny ramah2, alatny canggih.",
       "teks_final": "tempatny bersih nyaman terapisny ramah2 alatny canggih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "good experience, helpful staff👍🏻",
       "teks_final": "good experience helpful staff",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9708
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Tempatnya bersih dan nyaman. Pelayanan juga okeee bangeeetttt👍🏻recomended bangettt✨",
       "teks_final": "tempatnya bersih nyaman pelayanan okeee bangeeettttrecomended bangettt",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Treatment disini nyaman sekali .. perawatnya ramah\" dan nggak sakit sama sekali",
       "teks_final": "treatment disini nyaman perawatnya ramah sakit sama",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "staf ramah dan sangat nyaman untuk ruangannya",
       "teks_final": "staf ramah nyaman ruangannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Tempat bersih nyaman, higienis, pelayanan ramah, harga terjangkau dan sangat rekomendasiiiiii.",
       "teks_final": "tempat bersih nyaman higienis pelayanan ramah harga terjangkau rekomendasiiiiii",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanan okeee",
       "teks_final": "pelayanan okeee",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "pelayanannya bagus dan nyaman",
       "teks_final": "pelayanannya bagus nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanannya oke banget stafnya ramah semua treatmentnya juga bagus",
       "teks_final": "pelayanannya oke banget stafnya ramah semua treatmentnya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Nyaman",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Treatment nya Sangat nyaman sekali dan perawat nya juga ramah sekali tempatnya juga nyaman dan enak bgtt",
       "teks_final": "treatment nyaman perawat ramah tempatnya nyaman enak bgtt",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "pelayanan baik ramah, mantepp bgt",
       "teks_final": "pelayanan baik ramah mantepp banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Sanggat ramah dan pelayanan baik",
       "teks_final": "sanggat ramah pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9483
     },
     {
@@ -337,7 +337,7 @@
       "Ulasan": "recommend banget treatment di clarice beauty, yuk buruan kesini dan cobain langsung",
       "teks_final": "recommend banget treatment clarice beauty yuk buruan kesini cobain langsung",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9271
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Gor Giri Krida",
   "rating": 4.3,
   "total_ulasan": 21,
-  "positif": 3,
+  "positif": 13,
   "netral": 6,
-  "negatif": 12,
-  "persen_positif": 14.3,
+  "negatif": 2,
+  "persen_positif": 61.9,
   "persen_netral": 28.6,
-  "persen_negatif": 57.1,
+  "persen_negatif": 9.5,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Toko nya Ninja badminton sport bagus lengkap dan",
       "teks_final": "toko ninja badminton sport bagus lengkap",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9806
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Salah satu tempat utk para peminat olahraga Badminton, dulu waktu anak2 msh kecil pernah ikut les belajar badminton disini, krn kesibukan sekolah akhirnya tdk berlanjut, tapi msh tetap rame yg ikut berlatih serta group2  yg sewa Tempat utk olahraga Badminton, recommended buat teman2 yg domisilinya di Gresik kota",
       "teks_final": "salah satu tempat para peminat olahraga badminton dulu waktu anak2 kecil pernah ikut les belajar badminton disini kesibukan sekolah akhirnya berlanjut tetap rame ikut berlatih serta group2 sewa tempat olahraga badminton recommended buat teman2 domisilinya gresik kota",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Joss",
       "teks_final": "joss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "awas banyak penipuan mending booking langsung di tempat saja saya baru ketipu anjinggg",
       "teks_final": "awas banyak penipuan mending booking langsung tempat saja ketipu anjinggg",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Ada 2 lapangan, parkiran luas, utk motor masuk di dekat lapangan Tennis di belakangnya. Utk latian harus member dahulu, soalnya jam nya sudah full. Ada kantin di dalam gedung badminton nya. Lantai nya Kayu, lampunya tidak terlalu terang tapi cukup. Buka dari pagi, hari senin sampai minggu.",
       "teks_final": "lapangan parkiran luas motor masuk dekat lapangan tennis belakangnya latian harus member dahulu soalnya jam full kantin gedung badminton lantai kayu lampunya terlalu terang cukup buka pagi hari senin sampai minggu",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8873
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "2 lapangan ada yempat untuk menonton, parkiran lumayan luas, ada lapangan tenes juga",
       "teks_final": "lapangan yempat menonton parkiran lumayan luas lapangan tenes",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9866
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "sejuk",
       "teks_final": "sejuk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Rame orang yang datang walaupun kurang terawat",
       "teks_final": "rame orang datang walaupun kurang terawat",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7809
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Tempatnya cukup strategis di tengah kota.. fasilitas nya juga cukup baik. Dekat dengan Pujasera, makanan kaki lima yg sangat banyak, dan harga terjangkau",
       "teks_final": "tempatnya cukup strategis tengah kota fasilitas cukup baik dekat pujasera makanan kaki lima banyak harga terjangkau",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Mantab...",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Luas lapangan e",
       "teks_final": "luas lapangan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9485
     }
   ]

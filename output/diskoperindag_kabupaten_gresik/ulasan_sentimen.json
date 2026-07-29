@@ -3,12 +3,12 @@
   "tempat": "DISKOPERINDAG Kabupaten Gresik",
   "rating": 3,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 1,
   "netral": 1,
-  "negatif": 1,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 50.0,
   "persen_netral": 50.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "Makam Keramat Mbah Wira'i,salah Satu Punggawa Kerajaan Demak",
   "rating": 4.8,
   "total_ulasan": 10,
-  "positif": 1,
+  "positif": 8,
   "netral": 2,
-  "negatif": 7,
-  "persen_positif": 10.0,
+  "negatif": 0,
+  "persen_positif": 80.0,
   "persen_netral": 20.0,
-  "persen_negatif": 70.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Tenang dan asri",
       "teks_final": "tenang asri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Alhamdulillah... Berada di pemakaman umum,desa tlogobedah Menganti Gresik... Suasananya adem ayem... udaranya sejuk dan segar.... Membuat kita betah berlama-lama dzikir...",
       "teks_final": "alhamdulillah berada pemakaman umum desa tlogobedah menganti gresik suasananya adem ayem udaranya sejuk segar membuat betah berlama lama dzikir",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bersih dan sejuk",
       "teks_final": "bersih sejuk",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Menyenangkan",
       "teks_final": "menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Doa",
       "teks_final": "doa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9448
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Syahdu",
       "teks_final": "syahdu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "KLINIK PRATAMA MITRA MEDIKA",
   "rating": 4.8,
   "total_ulasan": 23,
-  "positif": 2,
+  "positif": 20,
   "netral": 0,
-  "negatif": 21,
-  "persen_positif": 8.7,
+  "negatif": 3,
+  "persen_positif": 87.0,
   "persen_netral": 0.0,
-  "persen_negatif": 91.3,
+  "persen_negatif": 13.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Saya senang datang ke klinik mitra Medika dokter dan perawat nya ramah pelayanan bagus. Terimakasih",
       "teks_final": "senang datang klinik mitra medika dokter perawat ramah pelayanan bagus terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Kalo ada keluhan apa” selalu berkunjung ke klinik pratama mitra medika, pelayanan nya baik, ramah, dan selalu cocok sama obat nya. Sukses selalu buat klinik mitra medika, selalu berikan pelayanan yang baik dan prima. Salam sehat.",
       "teks_final": "kalo keluhan apa selalu berkunjung klinik pratama mitra medika pelayanan baik ramah selalu cocok sama obat sukses selalu buat klinik mitra medika selalu berikan pelayanan baik prima salam sehat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9722
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sangat baik, layanan joss. Dokter dan staffnya markotop",
       "teks_final": "baik layanan joss dokter staffnya markotop",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Ramah",
       "teks_final": "ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan oke bagus dan ramah",
       "teks_final": "pelayanan oke bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "karang gigi bersihhh",
       "teks_final": "karang gigi bersihhh",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9889
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan bagus ramah sukses slalu",
       "teks_final": "pelayanan bagus ramah sukses slalu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9934
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sangat puas",
       "teks_final": "puas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Alhamdulillah bisa berobat di klinik Mitra medika sukapura,,, pelayanannya baik cepat",
       "teks_final": "alhamdulillah berobat klinik mitra medika sukapura pelayanannya baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9834
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Dokternya ramah,, penanganan cepat..sayah suka",
       "teks_final": "dokternya ramah penanganan cepat sayah suka",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya sangat amat baik",
       "teks_final": "pelayanannya amat baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan bagus, cepet. Dokternya menjelaskan dengan baik dan mudah dipahami",
       "teks_final": "pelayanan bagus cepet dokternya menjelaskan baik mudah dipahami",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Dokter nya baik ,staf nya ramah dan pelayanan nya sangat bagus",
       "teks_final": "dokter baik staf ramah pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan bagus, dokter profesional. Tempatnya juga nyaman",
       "teks_final": "pelayanan bagus dokter profesional tempatnya nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan nya baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Baguss pelayanan nya👍",
       "teks_final": "baguss pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Puas dan menyenangkan.",
       "teks_final": "puas menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Dokter baik ramah tempat bersih",
       "teks_final": "dokter baik ramah tempat bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanannya sangat bagus dan memuaskan",
       "teks_final": "pelayanannya bagus memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Dokter umumnya salah kasih  diagnosis sakit saya",
       "teks_final": "dokter umumnya salah kasih diagnosis sakit",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9534
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pake biaya umum BKN asuransi..obatnya g paten! SDH 2x mnm g ada prubahn SM skli suhu bdan ttp panas.ongkosnya LBH mahal dr RS firdaus.",
       "teks_final": "pake biaya umum bkn asuransi obatnya paten 2x mnm prubahn sama skli suhu bdan ttp panas ongkosnya mahal rumah sakit firdaus",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9918
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayanannya oke, dokter dan staffnya ramah2!!",
       "teks_final": "pelayanannya oke dokter staffnya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     }
   ]

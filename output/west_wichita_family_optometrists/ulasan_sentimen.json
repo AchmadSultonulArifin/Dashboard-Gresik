@@ -3,12 +3,12 @@
   "tempat": "West Wichita Family Optometrists",
   "rating": 4.9,
   "total_ulasan": 25,
-  "positif": 0,
+  "positif": 13,
   "netral": 12,
-  "negatif": 13,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 52.0,
   "persen_netral": 48.0,
-  "persen_negatif": 52.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -51,7 +51,7 @@
       "Ulasan": "The Goddard staff is very friendly and efficient. I have confidence in their care.",
       "teks_final": "the goddard staff is very friendly and efficient have confidence in their care",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7261
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Friendly and informative staff and doctors. Always a great experience when we go for our yearly exams.",
       "teks_final": "friendly and informative staff and doctors always great experience when we go for our yearly exams",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6826
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "The staff was amazing in getting my entire family scheduled even when I had to switch appointments around. The dr was amazing. We have a very wiggly nonverbal 4 year old and Dr. Lamp was so kind and accommodating.",
       "teks_final": "the staff was amazing in getting my entire family scheduled even when had to switch appointments around the was amazing we have very wiggly nonverbal year old and lamp was so kind and accommodating",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6608
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Super friendly and always accommodating!!",
       "teks_final": "super friendly and always accommodating",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9852
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Always a wonderful visit! Dr. Richmond has seen our whole family since my kids were little. He always takes the greatest care of us!",
       "teks_final": "always wonderful visit richmond has seen our whole family since my kids were little he always takes the greatest care of us",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7863
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Super fast and efficient, friendly, always on time! Great for 4 back to back appts!",
       "teks_final": "super fast and efficient friendly always on time great for back to back appts",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.987
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "The folks at WWFO are great, very nice. They are very easy to talk to and make you feel like family.",
       "teks_final": "the folks at wwfo are great very nice they are very easy to talk to and make you feel like family",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9015
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Enjoyed my visit from beginning to the end. Everyone super polite and wanted to make sure I was taken care of the entire time.",
       "teks_final": "enjoyed my visit from beginning to the end everyone super polite and wanted to make sure was taken care of the entire time",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.79
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "We have been going here for over 20 yrs and always have a great experience! The ladies always explain everything throughly, assist with picking glasses out, and provide honest feedback. The doctors are great! (Today we saw Dr. Richmond)  We have seen most of them and they are full of information and take time to answer all my zillion questions and I never feel rushed. Today was perhaps the busiest day I have ever seen (some were standing), and the office ladies and gentlemen stayed calm and professional and got everyone taken care of quickly. Good work ya'll!",
       "teks_final": "we have been going here for over yrs and always have great experience the ladies always explain everything throughly assist with picking glasses out and provide honest feedback the doctors are great today we saw richmond we have seen most of them and they are full of information and take time to answer all my zillion questions and never feel rushed today was perhaps the busiest day have ever seen some were standing and the office ladies and gentlemen stayed calm and professional and got everyone taken care of quickly good work ya ll",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4664
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "This was my second visit to this office. I was greeted with a welcome, and a smile. My wait time was practically nonexistent. All of my questions about the tests that were being done were answered thoroughly. The doctor was very prompt. He Listened to all of my concerns. And addressed each one of them individually.  The young woman that helped me pick out glasses was extremely friendly and very very helpful. I was treated with the upmost respect from the moment I walked in the door until I walked out. I would highly recommend this office.",
       "teks_final": "this was my second visit to this office was greeted with welcome and smile my wait time was practically nonexistent all of my questions about the tests that were being done were answered thoroughly the doctor was very prompt he listened to all of my concerns and addressed each one of them individually the young woman that helped me pick out glasses was extremely friendly and very very helpful was treated with the upmost respect from the moment walked in the door until walked out would highly recommend this office",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5595
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "I have been a patient for years and they simply keep me coming back.  Their process is efficient but not rushed. The Drs have been thorough, personal, and answered any questions I have had. Most recent visit was with Dr Randall. He is great. Have also used several others with the same result. Monica, one of their Opticians, is tops in my book!  She is friendly, helpful and great to work with.",
       "teks_final": "have been patient for years and they simply keep me coming back their process is efficient but not rushed the drs have been thorough personal and answered any questions have had most recent visit was with randall he is great have also used several others with the same result monica one of their opticians is tops in my book she is friendly helpful and great to work with",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6083
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Good good yes this eye dr n this place, thanks thanks 😊",
       "teks_final": "good good yes this eye this place thanks thanks",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8902
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Great experience. In and out quickly and staff is super friendly.  Love Dr. Becker!",
       "teks_final": "great experience in and out quickly and staff is super friendly love becker",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9793
     }
   ]

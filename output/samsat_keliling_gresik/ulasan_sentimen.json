@@ -3,12 +3,12 @@
   "tempat": "SAMSAT KELILING GRESIK",
   "rating": 3.5,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 3,
   "netral": 3,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 50.0,
   "persen_netral": 50.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pelayanan Publik",
@@ -18,7 +18,7 @@
       "Ulasan": "Bermanfaat",
       "teks_final": "bermanfaat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan cepat meskipun antri...",
       "teks_final": "pelayanan cepat meskipun antrian",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Siiip.....bayar pajak kendaraan jadi lebih mudah dan cepat.semoga tetep ada  mobil samsat keliling di situ untuk melayani masyarakat yang mau bayar pajak",
       "teks_final": "siiip bayar pajak kendaraan jadi mudah cepat semoga tetep mobil samsat keliling situ melayani masyarakat mau bayar pajak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9465
     }
   ]

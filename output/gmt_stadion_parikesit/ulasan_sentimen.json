@@ -3,12 +3,12 @@
   "tempat": "GMT Stadion PariKesit",
   "rating": 4.6,
   "total_ulasan": 15,
-  "positif": 1,
+  "positif": 14,
   "netral": 0,
-  "negatif": 14,
-  "persen_positif": 6.7,
+  "negatif": 1,
+  "persen_positif": 93.3,
   "persen_netral": 0.0,
-  "persen_negatif": 93.3,
+  "persen_negatif": 6.7,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Istimewa mantull",
       "teks_final": "istimewa mantull",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Lapangan nya bagus",
       "teks_final": "lapangan bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Jozzzz",
       "teks_final": "jozzzz",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9758
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lapangan desa yg terawat SITIMEWAH 🤌👍",
       "teks_final": "lapangan desa terawat sitimewah",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8524
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Lapangan sepak bola yang terawat dengan view luar biasa indah",
       "teks_final": "lapangan sepak bola terawat view luar biasa indah",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lapangan bagus ,suasana bagus , tempat strategis , fasilitas ada ruang ganti dan tolilet ,",
       "teks_final": "lapangan bagus suasana bagus tempat strategis fasilitas ruang ganti tolilet",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Lapangan bola yg bagus n perlu perawatan kembali selama musim kemarau",
       "teks_final": "lapangan bola bagus perlu perawatan kembali selama musim kemarau",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4596
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Very good pitch. Locals are friendly, and the team we played against (local) was super fair and good skills.",
       "teks_final": "very good pitch locals are friendly and the team we played against local was super fair and good skills",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9654
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Lapangan bagus, tapi sayang masih ada sedikit genangan di beberapa titik, drainase mungkin bisa direnovasi",
       "teks_final": "lapangan bagus sayang sedikit genangan beberapa titik drainase mungkin direnovasi",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5794
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bagus lapangannya, terawat 👍🏻👍🏻",
       "teks_final": "bagus lapangannya terawat",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Enak,sambel nya uleg fres",
       "teks_final": "enak sambel uleg fres",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Rumput sudah hijau cukup rata standar ... Ada parkiran cukup... Ada ruang ganti dan toilet... Benci pemain sederhana.... Tribun penonton sebelah utara... U/ tingkat kecamatan layak mempertandingkan kelas kabupaten.",
       "teks_final": "rumput hijau cukup rata standar parkiran cukup ruang ganti toilet benci pemain sederhana tribun penonton sebelah utara tingkat kecamatan layak mempertandingkan kelas kabupaten",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.975
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Tepat",
       "teks_final": "tepat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     }
   ]

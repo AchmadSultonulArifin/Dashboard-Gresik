@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Menganti",
   "rating": 2.8,
   "total_ulasan": 25,
-  "positif": 13,
+  "positif": 6,
   "netral": 7,
-  "negatif": 5,
-  "persen_positif": 52.0,
+  "negatif": 12,
+  "persen_positif": 24.0,
   "persen_netral": 28.0,
-  "persen_negatif": 20.0,
+  "persen_negatif": 48.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pengiriman lelet. Lama sekali",
       "teks_final": "pengiriman lelet lama",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pak agus ramah saat melayani pengambilan pensiun nenek..",
       "teks_final": "pak agus ramah melayani pengambilan pensiun nenek",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9276
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tolong ini kurirnya kesasar dihutan ta ?",
       "teks_final": "tolong kurirnya kesasar dihutan ta",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.993
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "ATUR KURIRNYA MASAK PENGIRIMAN NDAK MAU HUBUNGI  PEMBELI LANGSUNG RETUR AJA  BUAT APA KITA BAYAR BIAYA PENGIRIMAN KALO KERJANYA KAYAK GITU  SEKARANG JAMAN CANGGIH OE HP SUDAH ADA",
       "teks_final": "atur kurirnya masak pengiriman ndak mau hubungi pembeli langsung retur aja buat apa bayar biaya pengiriman kalo kerjanya kayak gitu sekarang jaman canggih oe hp",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9578
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Kirim dokumen lbih aman",
       "teks_final": "kirim dokumen lbih aman",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.987
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "pengiriman apa ini lama banget",
       "teks_final": "pengiriman apa lama banget",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pengiriman lambat banget kalah sama JNT JNE SICEPAT LION",
       "teks_final": "pengiriman lambat banget kalah sama jnt jne sicepat lion",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9972
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Parah sekali, hari biasa jm set 12 sudah istrahat suruh balik jm 1",
       "teks_final": "parah hari biasa jm set istrahat suruh balik jm",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.992
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "pelayanan sangat buruk . para karyawan nya pada sibuk main hp sendiri. lelet .. sangat² buruk",
       "teks_final": "pelayanan buruk para karyawan sibuk main hp sendiri lelet buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "tutup permanen",
       "teks_final": "tutup permanen",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9758
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan sangat bagus, petugas nya ramah dan komunikatif Parkir berbayar 2 ribu motor, 5 ribu mobil",
       "teks_final": "pelayanan bagus petugas ramah komunikatif parkir berbayar ribu motor ribu mobil",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9841
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan buruk... mending kantor Pos di pegang swasta saja  biar pelayananya berubah..",
       "teks_final": "pelayanan buruk mending kantor pos pegang swasta saja biar pelayananya berubah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9977
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Sangatt lelet pengantaranya,, sungguh\" lemott 😠",
       "teks_final": "sangatt lelet pengantaranya sungguh lemott",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9981
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Tukang parkir annoying titik.",
       "teks_final": "tukang parkir annoying titik",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9266
     }
   ]

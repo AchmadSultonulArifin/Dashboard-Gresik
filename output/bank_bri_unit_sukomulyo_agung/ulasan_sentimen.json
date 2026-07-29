@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Unit Sukomulyo Agung",
   "rating": 3.1,
   "total_ulasan": 12,
-  "positif": 5,
+  "positif": 3,
   "netral": 2,
-  "negatif": 5,
-  "persen_positif": 41.7,
+  "negatif": 7,
+  "persen_positif": 25.0,
   "persen_netral": 16.7,
-  "persen_negatif": 41.7,
+  "persen_negatif": 58.3,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan buruk,,, gak ada yg bisa dibanggakan .. udah dikasih tau aq mau bikin buku rekening dibank,,malah dipaksa satpam bikin online dia yg benerin,,disuruh kluar dari antrian,,terus aq gak mau bikin online ..malah disuruh antri lagi .. .. pelayanan burukk .. 0 semua 0",
       "teks_final": "pelayanan buruk dibanggakan udah dikasih tau aq mau bikin buku rekening dibank malah dipaksa satpam bikin online benerin disuruh kluar antrian terus aq mau bikin online malah disuruh antrian pelayanan burukk semua",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Saya ganti hp dan jadinya lupa username. Udah dateng ke kantor BRI GKB 2 kali gabisa dong,katanya gangguan mbankingnya. Chat cs juga nyuruhnya dateng ke kantor terdekat. Masa kalah gitu loh sama bca yang semua serba online. Mana pelayanannya sangat buruk, serba lama. Udah antre tapi ternyata gabisa",
       "teks_final": "ganti hp jadinya lupa username udah dateng kantor bri gkb kali gabisa katanya gangguan mbankingnya chat cs nyuruhnya dateng kantor terdekat masa kalah gitu loh sama bca semua serba online mana pelayanannya buruk serba lama udah antre ternyata gabisa",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Buruk sekali pelayanan unit ini kepada nasabahnya, kasian ngeliat seorang ibu tua panas-panasan disuruh bersihin kursi yg mungkin memang kotor karena suaminya yg juga sudah tua",
       "teks_final": "buruk pelayanan unit kepada nasabahnya kasian ngeliat seorang ibu tua panas panasan disuruh bersihin kursi mungkin memang kotor suaminya tua",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9983
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "susah sekali menghubungi kantor BRI ini , padahal uda berkali* telfon tapi tidak ada respon",
       "teks_final": "susah menghubungi kantor bri padahal uda berkali telfon respon",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9839
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pengajuan Kredit lebih cepat dr dugaan awal. Matooh 👍",
       "teks_final": "pengajuan kredit cepat dugaan awal matooh",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4993
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan sangat buruk, teller tidak ada etika dengan custumer. Perlu dievaluasi",
       "teks_final": "pelayanan buruk teller etika custumer perlu dievaluasi",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5982
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "salah satu bank yang berlokasi di dalam perumahan gresik kota baru (gkb). setiap harinya sangat ramai. karyawan ramah.",
       "teks_final": "salah satu bank berlokasi perumahan gresik kota gkb setiap harinya ramai karyawan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9654
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Tempat aman",
       "teks_final": "tempat aman",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {

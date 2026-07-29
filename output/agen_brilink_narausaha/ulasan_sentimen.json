@@ -3,12 +3,12 @@
   "tempat": "Agen BRILink Narausaha",
   "rating": 4.1,
   "total_ulasan": 8,
-  "positif": 1,
+  "positif": 3,
   "netral": 3,
-  "negatif": 4,
-  "persen_positif": 12.5,
+  "negatif": 2,
+  "persen_positif": 37.5,
   "persen_netral": 37.5,
-  "persen_negatif": 50.0,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Menjual banyak kebutuhan ATK, Fotokopi, Print, Topup, dll. Bisa tanya2 tentang Laptop rusak, jaringan internet juga disini karena ownernya Ahli IT. mantap...",
       "teks_final": "menjual banyak kebutuhan atk fotokopi print topup dll tanya2 tentang laptop rusak jaringan internet disini ownernya ahli it bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.469
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Mantap, penjual ramah, tempat bersih. Very good 👍👍👍",
       "teks_final": "bagus penjual ramah tempat bersih very good",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sip",
       "teks_final": "sip",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9767
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "MAPS salah alamat hhhh",
       "teks_final": "maps salah alamat hhhh",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.995
     }
   ]

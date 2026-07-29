@@ -3,12 +3,12 @@
   "tempat": "KMU Gresik Pusat",
   "rating": 4,
   "total_ulasan": 20,
-  "positif": 7,
+  "positif": 13,
   "netral": 0,
-  "negatif": 13,
-  "persen_positif": 35.0,
+  "negatif": 7,
+  "persen_positif": 65.0,
   "persen_netral": 0.0,
-  "persen_negatif": 65.0,
+  "persen_negatif": 35.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "lama poll pelayanannya antrinya😭🥲",
       "teks_final": "lama poll pelayanannya antrinya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Kalau anda menggunakan pembiayaan umum, mending cari klinik mata yg lain 😊",
       "teks_final": "menggunakan pembiayaan umum mending cari klinik mata lain",
       "topik": "Administrasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5085
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "sangat memuaskan",
       "teks_final": "memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Harusnya yg tidak berkepentingan tidak duduk di ruang tunggu kasihan pasien lainnya tidak ada tempat duduk,layanan eksklusif juga sama kyak layanan bpjs mana yg katanya layanan unggulan prioritas,katanya bebas antri tp ya ttp antri",
       "teks_final": "harusnya berkepentingan duduk ruang tunggu kasihan pasien lainnya tempat duduk layanan eksklusif sama kyak layanan bpjs mana katanya layanan unggulan prioritas katanya bebas antrian ya ttp antrian",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.988
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan tolong diperbaiki",
       "teks_final": "pelayanan tolong diperbaiki",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9792
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan sangat mesmuaskan, staff ramah dan penjelasan dokternya sangat bagus. Mohon untuk di pertahnkan pelayanan yg sudah sangat bagus ini",
       "teks_final": "pelayanan mesmuaskan staff ramah penjelasan dokternya bagus mohon pertahnkan pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9808
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan nya sangat ramah dan perhatian sama pasien ,murah senyum  tempat nya sangat nyaman",
       "teks_final": "pelayanan ramah perhatian sama pasien murah senyum tempat nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan baik, ramah, dan bagus. Ada air putih dan cemilan gratis juga. 👌",
       "teks_final": "pelayanan baik ramah bagus air putih cemilan gratis",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9902
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sangat mengecewakan, dari jam 4 sore sampai jam 7 malam lebih buang buang waktu di dalam KMU . Pasien di tetesi mata oleh petugas tidak dijelaskan berapa lama nunggu. Sampai dokter se enaknya sendiri meninggalkan ruangan, tidak menyelesaikan pemeriksaan pasien yang antri sejak sore. Dokter istirahat magrib sambung isya' masih belum kembali ke ruang dokter. Harusnya dokter dan petugas menyelesaikan pemeriksaan pasien yg antri mulai sore. baru di tinggal istirahat",
       "teks_final": "mengecewakan jam sore sampai jam malam buang buang waktu kmu pasien tetesi mata petugas dijelaskan berapa lama nunggu sampai dokter se enaknya sendiri meninggalkan ruangan menyelesaikan pemeriksaan pasien antrian sejak sore dokter istirahat magrib sambung isya kembali ruang dokter harusnya dokter petugas menyelesaikan pemeriksaan pasien antrian mulai sore tinggal istirahat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7856
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Alhamdulillah",
       "teks_final": "alhamdulillah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan bagus, memuaskan",
       "teks_final": "pelayanan bagus memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan yang ramah dari setiap dokter yang bertugas, mulai satpam resepsionis sampai 5 dokter semua ramah. Tempatnya juga sejuk dan ada gratis air mineral juga camilan. Recommended pokoknya periksa disini",
       "teks_final": "pelayanan ramah setiap dokter bertugas mulai satpam resepsionis sampai dokter semua ramah tempatnya sejuk gratis air mineral camilan recommended pokoknya periksa disini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9981
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan cepat, teliti, pegawai ramah, ga pernah lupa 3S (Senyum, salam, sapa)",
       "teks_final": "pelayanan cepat teliti pegawai ramah pernah lupa 3s senyum salam sapa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9104
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "pelayanannya ramah bngttt",
       "teks_final": "pelayanannya ramah bngttt",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "bagus dan ramah",
       "teks_final": "bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "pelayanannya sangat baik, perawat dan dokter ramah saat menangani pasien",
       "teks_final": "pelayanannya baik perawat dokter ramah menangani pasien",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Konsul aja byar mahal ga dapat  obat pula Dokternya kurang disiplin tepat waktu",
       "teks_final": "konsul aja byar mahal obat dokternya kurang disiplin tepat waktu",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     }
   ]

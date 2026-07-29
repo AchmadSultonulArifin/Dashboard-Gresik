@@ -3,12 +3,12 @@
   "tempat": "Banyu Biru Lowayu",
   "rating": 4,
   "total_ulasan": 15,
-  "positif": 7,
+  "positif": 11,
   "netral": 1,
-  "negatif": 7,
-  "persen_positif": 46.7,
+  "negatif": 3,
+  "persen_positif": 73.3,
   "persen_netral": 6.7,
-  "persen_negatif": 46.7,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "“Tempatnya enak dan nyaman, airnya jernih dan segar. Cocok buat santai bareng keluarga. Suasananya juga masih alami, jadi bikin betah. Aksesnya cukup mudah, parkir juga tersedia. Recommended buat yang mau cari tempat refreshing di sekitar Gresik.”",
       "teks_final": "tempatnya enak nyaman airnya jernih segar cocok buat santai bareng keluarga suasananya alami jadi bikin betah aksesnya cukup mudah parkir tersedia recommended buat mau cari tempat refreshing sekitar gresik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.998
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Tempat tidak terawat sama sekali, kotor dan sepi",
       "teks_final": "tempat terawat sama kotor sepi",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sendang Ki Ageng banyu biru merupakan tempat pemandian alami yg terawat dan terjaga, suasana alam sejuk dan teduh berada di antara persawahan kulturnya benar2 alami,.",
       "teks_final": "sendang ki ageng banyu biru merupakan tempat pemandian alami terawat terjaga suasana alam sejuk teduh berada antara persawahan kulturnya benar2 alami",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sedih, sekarang air sudah tidak seperti dulu lagi",
       "teks_final": "sedih sekarang air seperti dulu",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9956
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Wisata bocil renang dll Nongki yg tua Okok okokan Murah meriah",
       "teks_final": "wisata bocil renang dll nongki tua okok okokan murah meriah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "sumber air yg banyak manfaat bisa nyembuhin gatel dikulit sekaligus wisata, cocok banget kalo kesini pagi hari atau sore hari viewnya bagus poll",
       "teks_final": "sumber air banyak manfaat nyembuhin gatel dikulit sekaligus wisata cocok banget kalo kesini pagi hari sore hari viewnya bagus poll",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9979
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Lain dengan yg dahulu",
       "teks_final": "lain dahulu",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7344
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sangat teduh dan asri",
       "teks_final": "teduh asri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Rekomendasi",
       "teks_final": "rekomendasi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9903
     },
     {

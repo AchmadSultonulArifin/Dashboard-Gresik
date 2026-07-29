@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Sangkapura, Gresik",
   "rating": 4.3,
   "total_ulasan": 15,
-  "positif": 2,
+  "positif": 9,
   "netral": 4,
-  "negatif": 9,
-  "persen_positif": 13.3,
+  "negatif": 2,
+  "persen_positif": 60.0,
   "persen_netral": 26.7,
-  "persen_negatif": 60.0,
+  "persen_negatif": 13.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -40,7 +40,7 @@
       "Ulasan": "Bagian pendaftarannya cepat dan tanggap",
       "teks_final": "bagian pendaftarannya cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9904
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Petugasnya ramah2",
       "teks_final": "petugasnya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan nya the best",
       "teks_final": "pelayanan the best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan di poli gigi keren, dokter giginya ramah dan komunikatif sekali. Jaya terus puskesmas sangkapura",
       "teks_final": "pelayanan poli gigi bagus dokter giginya ramah komunikatif jaya terus puskesmas sangkapura",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9882
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanannya cepat, baik, ramah, informasi yang cukup. Untuk bu dokter giginya enak sekali kalau diajakin komunikasi. Semoga berjaya puskesmas sangkapura",
       "teks_final": "pelayanannya cepat baik ramah informasi cukup bu dokter giginya enak diajakin komunikasi semoga berjaya puskesmas sangkapura",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Susah cari Dokter Gigi sy udh 4 kali dpt hasil nihil Dokternya selalu GK ad",
       "teks_final": "susah cari dokter gigi udh kali dpt hasil nihil dokternya selalu ad",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.951
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Senang",
       "teks_final": "senang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Ruangan lumayan bagus, tp pelayanan kurang bagus dan perlu diperbaiki, masih banyak petugas/vaksinator yg asyik mengobrol sedangkan antrian yg akan vaksin masih banyak.",
       "teks_final": "ruangan lumayan bagus pelayanan kurang bagus perlu diperbaiki banyak petugas vaksinator asyik mengobrol sedangkan antrian vaksin banyak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.922
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Puskesmas Bawean, Pelayanan terbaikkkk",
       "teks_final": "puskesmas bawean pelayanan terbaikkkk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     }
   ]

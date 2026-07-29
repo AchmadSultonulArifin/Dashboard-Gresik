@@ -3,12 +3,12 @@
   "tempat": "Kantor Kecamatan Gresik",
   "rating": 4.1,
   "total_ulasan": 12,
-  "positif": 4,
+  "positif": 7,
   "netral": 3,
-  "negatif": 5,
-  "persen_positif": 33.3,
+  "negatif": 2,
+  "persen_positif": 58.3,
   "persen_netral": 25.0,
-  "persen_negatif": 41.7,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan Kecamatan Gresik terus meningkat semakin baik dan berorientasi melayani masyarakat",
       "teks_final": "pelayanan kecamatan gresik terus meningkat semakin baik berorientasi melayani masyarakat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.919
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempat nya sebelum lampu merah perlimaan Untuk urusan KTP, KK, di sebelah kiri pintu masuk Tempat nya bagus, adem, ada ac nya, ada playground buat anak anak juga Pelayanannya cepet bagus, petugas nya juga sigap Untuk parkiran motor ada di dalam kantor, untuk parkiran mobil ada di luar kantor, agak susah karena dekat banget sama lampu merah",
       "teks_final": "tempat lampu merah perlimaan urusan ktp kk sebelah kiri pintu masuk tempat bagus adem ac playground buat anak anak pelayanannya cepet bagus petugas sigap parkiran motor kantor parkiran mobil luar kantor agak susah dekat banget sama lampu merah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kantor Kecamatan Gresik Good Jobdisk",
       "teks_final": "kantor kecamatan gresik good jobdisk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9591
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan lambat butuh ttd pak camat gak mari\" kakean acara tolong diperbaiki pelayanannya bos",
       "teks_final": "pelayanan lambat butuh ttd pak camat mari kakean acara tolong diperbaiki pelayanannya bos",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9284
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Udah Nunggu 2jam Malah trobel hadeh",
       "teks_final": "udah nunggu 2jam malah trobel hadeh",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan Malam harinya keren",
       "teks_final": "pelayanan malam harinya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Tempat pelayanan nyaman, pelayanan ok. Rimbun, sejuk",
       "teks_final": "tempat pelayanan nyaman pelayanan oke rimbun sejuk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {

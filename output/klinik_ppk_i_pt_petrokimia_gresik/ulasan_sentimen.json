@@ -3,12 +3,12 @@
   "tempat": "Klinik PPK I PT Petrokimia Gresik",
   "rating": 4.3,
   "total_ulasan": 19,
-  "positif": 4,
+  "positif": 15,
   "netral": 0,
-  "negatif": 15,
-  "persen_positif": 21.1,
+  "negatif": 4,
+  "persen_positif": 78.9,
   "persen_netral": 0.0,
-  "persen_negatif": 78.9,
+  "persen_negatif": 21.1,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pengalaman yang baik untuk di ppk 1",
       "teks_final": "pengalaman baik ppk",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9862
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan nya sangat bagus staf, perawat dan dokter nya sangat ramah",
       "teks_final": "pelayanan bagus staf perawat dokter ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan buruk, petugas poli eksklusif tidak ada di tempatnya. Ditanyakan ke petugas yang lain disuruh tunggu. Di tunggu 1 jam masih belum ada 🥱 Pakai asuransi di poli eksklusif malah di ikutkan antrean BPJS. 🤣 Setelah itu tunggu lagi buat injeksi obat di ruang tindakan, udah nunggu sejam ternyata petugasnya gak ada. 🤣",
       "teks_final": "pelayanan buruk petugas poli eksklusif tempatnya ditanyakan petugas lain disuruh tunggu tunggu jam pakai asuransi poli eksklusif malah ikutkan antrean bpjs tunggu buat injeksi obat ruang tindakan udah nunggu sejam ternyata petugasnya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9948
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan ramah, sukses selalu klinik PPK I petrokimia gresik!!!!",
       "teks_final": "pelayanan ramah sukses selalu klinik ppk petrokimia gresik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.971
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Semoga semakin sukses, bermanfaat untuk masyarakat, dan selalu ramah kakak\"nya",
       "teks_final": "semoga semakin sukses bermanfaat masyarakat selalu ramah kakak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9798
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan ramah, cepat, lingkungan bersih dan profesional",
       "teks_final": "pelayanan ramah cepat lingkungan bersih profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Terimakasih klinik ppk pelayanan baik sekali",
       "teks_final": "terimakasih klinik ppk pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9813
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Perawatnya baik sabar",
       "teks_final": "perawatnya baik sabar",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9871
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan sudah baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan baik, admin poli gigi fast respon",
       "teks_final": "pelayanan baik admin poli gigi fast respon",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8433
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Layanan poli Gigi terbaik,  gercep petugas poli gigi nya. Thaks kakak",
       "teks_final": "layanan poli gigi terbaik gercep petugas poli gigi thaks kakak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8212
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Kalau kata saya sat set wat wet sih, setelah beberapa kali nganter aja, sekarang jadi pasiennya Cukup memuaskan mulai dari administrasi, nurse, dokter sampai farmasi",
       "teks_final": "kata sat set wat wet beberapa kali nganter aja sekarang jadi pasiennya cukup memuaskan mulai administrasi nurse dokter sampai farmasi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9168
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayanan ramah, cepat, dokternya juga enak banget kalau jelasin",
       "teks_final": "pelayanan ramah cepat dokternya enak banget jelasin",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "pelayanannya sangat baik, dokternya ramah... mulai dari pendaftaran sampai petugas apotik ramah semua. Terima kasih buat PPK 1 PT. Petrokimia Gresik. semoga selalu dapat memberikan pertolongan yg terbaik",
       "teks_final": "pelayanannya baik dokternya ramah mulai pendaftaran sampai petugas apotik ramah semua terima kasih buat ppk pt petrokimia gresik semoga selalu memberikan pertolongan terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9731
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Ruwet",
       "teks_final": "ruwet",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9923
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Minta rujukan ke dokter mata saja dipersulit, Malah disuruh periksa ke optik, lalu surat perksa optik di bawa ke ppk Trus kira kira fungsinya apa faskes I PPK ini Sudah antri 2jam ujung ujungnya dapat jawaban seperti itu, buan buang waktu saja",
       "teks_final": "minta rujukan dokter mata saja dipersulit malah disuruh periksa optik lalu surat perksa optik bawa ppk trus kira kira fungsinya apa faskes ppk antrian 2jam ujung ujungnya jawaban seperti buan buang waktu saja",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.957
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan sangat tidak memuaskan Hanya minta rujukan ke dokter mata saja dipersulit, malah disuruh ke optik untuk periksa , baru surat periksa dibawa ke ppk Trus FUNGSINYA  apa pelayanan faskes PPK ini, hanya minta rujukan agar bisa periksa ke klinik mata atau dokter mata saja dipersulit. Dan untuk dokter pelayanan(umum) masih magang atau baru lulus Alurnya gak jelas Layanan kepuasan pelanggan juga ditutup scan barcode yg terbatas maaf saya komplain di map",
       "teks_final": "pelayanan memuaskan hanya minta rujukan dokter mata saja dipersulit malah disuruh optik periksa surat periksa dibawa ppk trus fungsinya apa pelayanan faskes ppk hanya minta rujukan agar periksa klinik mata dokter mata saja dipersulit dokter pelayanan umum magang lulus alurnya jelas layanan kepuasan pelanggan ditutup scan barcode terbatas maaf komplain map",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9707
     }
   ]

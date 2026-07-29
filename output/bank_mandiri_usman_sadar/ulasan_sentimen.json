@@ -3,12 +3,12 @@
   "tempat": "Bank Mandiri Usman Sadar",
   "rating": 4.9,
   "total_ulasan": 27,
-  "positif": 2,
+  "positif": 25,
   "netral": 2,
-  "negatif": 23,
-  "persen_positif": 7.4,
+  "negatif": 0,
+  "persen_positif": 92.6,
   "persen_netral": 7.4,
-  "persen_negatif": 85.2,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan yang sangat bagus dan memuaskan",
       "teks_final": "pelayanan bagus memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan cepat, ramah. Tempatnya bersih..",
       "teks_final": "pelayanan cepat ramah tempatnya bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanannya memuaskan",
       "teks_final": "pelayanannya memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "CS nya ramah security nya Humoris",
       "teks_final": "cs ramah security humoris",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9628
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan sangat memuaskan sipp",
       "teks_final": "pelayanan memuaskan sipp",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "pelayanan nya cepat good",
       "teks_final": "pelayanan cepat good",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Ramah",
       "teks_final": "ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya bagus sangat memuaskan Gak antri terlalu panjang Ramah banget customer service nya",
       "teks_final": "pelayanannya bagus memuaskan antrian terlalu panjang ramah banget customer service",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.94
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanannya cepat",
       "teks_final": "pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "baik, cepat",
       "teks_final": "baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9418
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan ramah dan gercep",
       "teks_final": "pelayanan ramah gercep",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanannya ramah banget, proses nya juga cepet👍👍👍",
       "teks_final": "pelayanannya ramah banget proses cepet",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan cepat .",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan baikk",
       "teks_final": "pelayanan baikk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Alhamdulillah saya cocok sama bank mandiri 👍",
       "teks_final": "alhamdulillah cocok sama bank mandiri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "segala setoran aman",
       "teks_final": "segala setoran aman",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9908
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Mantapppp",
       "teks_final": "mantapppp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Terbantu banget.",
       "teks_final": "terbantu banget",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Petugas ramah dan pelayanan cepat",
       "teks_final": "petugas ramah pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanannya ramah dan cepat pertahankan sudah bagus",
       "teks_final": "pelayanannya ramah cepat pertahankan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "mantap pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Pelayanan cepat dan petugas sangat ramah. Saya dibantu penggantian ATM dan dibantu edukasi aplikasi livin",
       "teks_final": "pelayanan cepat petugas ramah dibantu penggantian atm dibantu edukasi aplikasi livin",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5384
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "PT.BISMA INDO RAYA",
   "rating": 5,
   "total_ulasan": 11,
-  "positif": 0,
+  "positif": 7,
   "netral": 4,
-  "negatif": 7,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 63.6,
   "persen_netral": 36.4,
-  "persen_negatif": 63.6,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Semoga semakin goooo maju",
       "teks_final": "semoga semakin goooo maju",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9789
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ikut bangga dengan hasil produk yang berbasis bahan baku negeri sendiri... Maju terus inovasi anak negri",
       "teks_final": "ikut bangga hasil produk berbasis bahan baku negeri sendiri maju terus inovasi anak negri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pekerjaan Bagus ... maju terus dan semangat",
       "teks_final": "pekerjaan bagus maju terus semangat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9927
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Cat markanya oke, rambunya berkualitas",
       "teks_final": "cat markanya oke rambunya berkualitas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan bagu, cepat, barang lengkap.",
       "teks_final": "pelayanan bagu cepat barang lengkap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9908
     }
   ]

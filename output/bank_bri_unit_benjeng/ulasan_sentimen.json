@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Unit Benjeng",
   "rating": 4.3,
   "total_ulasan": 9,
-  "positif": 5,
+  "positif": 7,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 55.6,
+  "negatif": 1,
+  "persen_positif": 77.8,
   "persen_netral": 11.1,
-  "persen_negatif": 33.3,
+  "persen_negatif": 11.1,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya terlalu lama,bahkan lama banget",
       "teks_final": "pelayanannya terlalu lama bahkan lama banget",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9984
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Oke lah",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sangat nyaman bgt",
       "teks_final": "nyaman banget",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Bank nya kecil , antrinya panjang. Tapi untuk pelayanan Cs, teller, dan satpamnya lumayan ramah.",
       "teks_final": "bank kecil antrinya panjang pelayanan cs teller satpamnya lumayan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     }
   ]

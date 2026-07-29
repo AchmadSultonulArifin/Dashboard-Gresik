@@ -3,12 +3,12 @@
   "tempat": "ATM BNI DUKUN",
   "rating": 3.4,
   "total_ulasan": 3,
-  "positif": 3,
+  "positif": 2,
   "netral": 0,
-  "negatif": 0,
-  "persen_positif": 100.0,
+  "negatif": 1,
+  "persen_positif": 66.7,
   "persen_netral": 0.0,
-  "persen_negatif": 0.0,
+  "persen_negatif": 33.3,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Hhmmm tulisan 24 jam. Ambil jam 6 pagi malah kunci tutupan. Kesel bangeeeeet. Padahal lagi butuh",
       "teks_final": "hhmmm tulisan jam ambil jam pagi malah kunci tutupan kesel bangeeeeet padahal butuh",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9968
     },
     {

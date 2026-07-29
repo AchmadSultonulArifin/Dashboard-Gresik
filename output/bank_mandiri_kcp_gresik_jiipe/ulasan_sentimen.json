@@ -3,12 +3,12 @@
   "tempat": "BANK MANDIRI KCP GRESIK JIIPE",
   "rating": 5,
   "total_ulasan": 22,
-  "positif": 1,
+  "positif": 22,
   "netral": 0,
-  "negatif": 21,
-  "persen_positif": 4.5,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 95.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Kantornya bagus pelayanan ramah dan cepat",
       "teks_final": "kantornya bagus pelayanan ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "makasih mandiri jiipe csnya terbaik",
       "teks_final": "makasih mandiri jiipe csnya terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9908
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan bagus dan cepat mandiri jiipe mantap",
       "teks_final": "pelayanan bagus cepat mandiri jiipe bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan sangat ramah dan cepat kantornya bagus",
       "teks_final": "pelayanan ramah cepat kantornya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Csnya gercep ama ramah, makasih mas cs",
       "teks_final": "csnya gercep ama ramah makasih mas cs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9361
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan ramah dan murah senyum, terimakasih mbk teller cantik",
       "teks_final": "pelayanan ramah murah senyum terimakasih mbk teller cantik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan cepat dan ramah",
       "teks_final": "pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan yang sangat bagus dan ramah",
       "teks_final": "pelayanan bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan sangat ramah dan membantu untuk penarikan dana bsu, maturnuwun mbk riyah",
       "teks_final": "pelayanan ramah membantu penarikan dana bsu maturnuwun mbk riyah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9394
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan cepat dan ramah",
       "teks_final": "pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan sangat ramah dan tempatnya sangat bagus sekali",
       "teks_final": "pelayanan ramah tempatnya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanannya oke dan cepat",
       "teks_final": "pelayanannya oke cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Trimakasih pelayanan nya cepat antrinya GK lama . Pertahankan keramahan petugas ya . Mulai dari satpam, teler smpai cs Alhamdulillah ramah semua",
       "teks_final": "trimakasih pelayanan cepat antrinya lama pertahankan keramahan petugas ya mulai satpam teler smpai cs alhamdulillah ramah semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9772
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanannya sangat ramah dan sangat memuaskan",
       "teks_final": "pelayanannya ramah memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Nyaman dan Integritas luar biasa",
       "teks_final": "nyaman integritas luar biasa",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Cabangnya bagus pelayanan cepat dan ramah mantap",
       "teks_final": "cabangnya bagus pelayanan cepat ramah bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Tempatnya luas dan bersih",
       "teks_final": "tempatnya luas bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "MANTAPP",
       "teks_final": "mantapp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Jos jis",
       "teks_final": "bagus jis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan nya cepat dan ramah, meskipun jauh tapi gpp",
       "teks_final": "pelayanan cepat ramah meskipun jauh gpp",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9724
     }
   ]

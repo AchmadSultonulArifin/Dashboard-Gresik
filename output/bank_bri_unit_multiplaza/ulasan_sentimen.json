@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Unit Multiplaza",
   "rating": 4,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 2,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 25.0,
+  "negatif": 1,
+  "persen_positif": 50.0,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Super duper lemot, kecewa banget sebaikknya bisa di pisah mana cs buat pencairan mana cs buat komplain/bikin rekening baru....",
       "teks_final": "super duper lemot kecewa banget sebaikknya pisah mana cs buat pencairan mana cs buat komplain bikin rekening",
       "topik": "Administrasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan disini memuaskan. Antriannya rapi. Satpamnya baik.",
       "teks_final": "pelayanan disini memuaskan antriannya rapi satpamnya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Salah satu pusat bank BRI di Gresik dengan pelayanan yang cukup memuaskan",
       "teks_final": "salah satu pusat bank bri gresik pelayanan cukup memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9918
     }
   ]

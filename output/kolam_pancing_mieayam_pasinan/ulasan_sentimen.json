@@ -3,12 +3,12 @@
   "tempat": "KOLAM PANCING MIEAYAM PASINAN",
   "rating": 4.5,
   "total_ulasan": 15,
-  "positif": 1,
+  "positif": 11,
   "netral": 2,
-  "negatif": 12,
-  "persen_positif": 6.7,
+  "negatif": 2,
+  "persen_positif": 73.3,
   "persen_netral": 13.3,
-  "persen_negatif": 80.0,
+  "persen_negatif": 13.3,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Suasana nyaman",
       "teks_final": "suasana nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "josjisss",
       "teks_final": "josjisss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kolam opo iki? mosok ket mlebu durung noto stik wes di tarik , ambe mancing ganok pelepasan e , iwak gak jelas akeh cepret e kyk mancing ng kali , gak recomend blas , ket pisan rene wes gak berkesan blas.",
       "teks_final": "kolam opo iki mosok ket mlebu durung noto stik wes tarik ambe mancing ganok pelepasan iwak jelas akeh cepret kyk mancing ng kali recomend blas ket pisan rene wes berkesan blas",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9392
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Bagus baik",
       "teks_final": "bagus baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Ok baik",
       "teks_final": "oke baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7421
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Kolam cukup Luas utk tegekan...... Ikannya besar. Ada warkop. Ada mi ayam Ada kopi Ada mi Ada teh",
       "teks_final": "kolam cukup luas tegekan ikannya besar warkop mi ayam kopi mi teh",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9855
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Ikan babon\"mantap",
       "teks_final": "ikan babon bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Mantab anti boncos,ikane babon2 , makan dan minum murah,pemilik ramah,pelepasannya real 👍🏻",
       "teks_final": "mantab anti boncos ikane babon2 makan minum murah pemilik ramah pelepasannya real",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pengelola ramah, bisa pesan kopi, es dan mie ayam secara mudah",
       "teks_final": "pengelola ramah pesan kopi es mie ayam secara mudah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7051
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pemilik Ramah...komunikasi lancar serta murah meriah malah dpt bonus utk yg oertana kali datang",
       "teks_final": "pemilik ramah komunikasi lancar serta murah meriah malah dpt bonus oertana kali datang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Ikan ya besar dan, matap tarikayan",
       "teks_final": "ikan ya besar matap tarikayan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5088
     }
   ]

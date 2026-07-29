@@ -3,12 +3,12 @@
   "tempat": "PUSKESMAS DADAPKUNING",
   "rating": 4.3,
   "total_ulasan": 22,
-  "positif": 3,
+  "positif": 17,
   "netral": 3,
-  "negatif": 16,
-  "persen_positif": 13.6,
+  "negatif": 2,
+  "persen_positif": 77.3,
   "persen_netral": 13.6,
-  "persen_negatif": 72.7,
+  "persen_negatif": 9.1,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan ramah baik semua tapi tolonggg tukang parkirnya ... bad atitude bgt ! klok g diganti atau tegur si ini parah bgt bnyk yg kecewa  percuma pelayanan baik tpi tukang parkirnya gitu Jumat 12 juni 2026",
       "teks_final": "pelayanan ramah baik semua tolonggg tukang parkirnya bad atitude banget klok diganti tegur si parah banget bnyk kecewa percuma pelayanan baik tukang parkirnya gitu jumat juni",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayan ramah..sat set pokoe jos..semangat selalu pak buk dokter matursuWon",
       "teks_final": "pelayan ramah sat set pokoe bagus semangat selalu pak buk dokter matursuwon",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanannya jelek dan tidak ramah",
       "teks_final": "pelayanannya jelek ramah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "tempat nya bagus dan pelayanannya sangat baik",
       "teks_final": "tempat bagus pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "pelayanan nya ramaa ,tempatt nya bagus,pelayanan nya cepat",
       "teks_final": "pelayanan ramaa tempatt bagus pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan. Sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "pelayanannya cepat dan ramah",
       "teks_final": "pelayanannya cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Puas dengan pelayanannya,cepat",
       "teks_final": "puas pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayanan nya baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Saya sangat mengapresiasi pelayanan yang diberikan oleh Puskesmas ini. Seluruh staf, mulai dari bagian pendaftaran, perawat, hingga dokter, sangat ramah dan membantu. Proses pelayanan juga cukup cepat dan tertata dengan baik, sehingga pasien tidak perlu menunggu terlalu lama. Selain itu, suasana di ruang tunggu bersih dan nyaman. Terima kasih kepada seluruh petugas yang telah bekerja dengan sepenuh hati. Semoga pelayanan yang baik ini terus dipertahankan dan semakin ditingkatkan ke depannya.",
       "teks_final": "mengapresiasi pelayanan diberikan puskesmas seluruh staf mulai bagian pendaftaran perawat hingga dokter ramah membantu proses pelayanan cukup cepat tertata baik sehingga pasien perlu menunggu terlalu lama selain suasana ruang tunggu bersih nyaman terima kasih kepada seluruh petugas telah bekerja sepenuh hati semoga pelayanan baik terus dipertahankan semakin ditingkatkan depannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9819
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "pelayanan cepat, karyawan ramah, puas sekali",
       "teks_final": "pelayanan cepat karyawan ramah puas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Layanan sangat cepat, pegawainya rama tamah dan mudah saat pemeriksaan apapun serta panduan nya lengkap",
       "teks_final": "layanan cepat pegawainya rama tamah mudah pemeriksaan apapun serta panduan lengkap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9614
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Minta rujukan pelayanan cepat,minta tolong sekalian di daftarkan petugasnya langsung cepat tanggap melayani",
       "teks_final": "minta rujukan pelayanan cepat minta tolong sekalian daftarkan petugasnya langsung cepat tanggap melayani",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4903
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "layanan yang sangat baik",
       "teks_final": "layanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     }
   ]

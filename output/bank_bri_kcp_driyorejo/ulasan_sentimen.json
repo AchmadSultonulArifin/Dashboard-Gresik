@@ -3,12 +3,12 @@
   "tempat": "Bank BRI KCP Driyorejo",
   "rating": 3,
   "total_ulasan": 17,
-  "positif": 10,
+  "positif": 4,
   "netral": 4,
-  "negatif": 3,
-  "persen_positif": 58.8,
+  "negatif": 9,
+  "persen_positif": 23.5,
   "persen_netral": 23.5,
-  "persen_negatif": 17.6,
+  "persen_negatif": 52.9,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "mw buka tabungan kok malah suruh nunggu jam istrhat juga sudah 13.30 pelayanan kurang baik",
       "teks_final": "mw buka tabungan kok malah suruh nunggu jam istrhat pelayanan kurang baik",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9957
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Lemot",
       "teks_final": "lemot",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "gunanya nomor antrian gaada, kalah saya yang pinjaman, antri nomor awal malah gadidulukan sesuai.",
       "teks_final": "gunanya nomor antrian gaada kalah pinjaman antrian nomor awal malah gadidulukan sesuai",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9852
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "BANK ndak bisa bedakan ATM Ketelan sama hilang. Ini bank BUMN pelayanan rakyat malah bikin ribet rakyat  Save rakyat indonesia BANK ndak berpihak ke rakyat harus di tindak",
       "teks_final": "bank ndak bedakan atm ketelan sama hilang bank bumn pelayanan rakyat malah bikin ribet rakyat save rakyat indonesia bank ndak berpihak rakyat harus tindak",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "teller cuma 1. padahal meja nya 2. lambat. ga sat set wat wet",
       "teks_final": "teller cuma padahal meja lambat sat set wat wet",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9847
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan kurang ramah, lelet dan tidak jelas, udah antri lama berjam2 untuk upgrade atm ternyata stelah sya tanyakan kembali malah bilang tidak bisa... seharusnya klo tidak bisa bilang lebih awal... dab setau sya pelayanan bank tidak seperti ini... mohon untuk dievaluasi pelayanan di BRI KCP Driyorejo ini... terimakasih",
       "teks_final": "pelayanan kurang ramah lelet jelas udah antrian lama berjam2 upgrade atm ternyata stelah sya tanyakan kembali malah bilang seharusnya bilang awal dab setau sya pelayanan bank seperti mohon dievaluasi pelayanan bri kcp driyorejo terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9701
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Mohon pelayanan agak dipercepat, dan teller ditambah. Diluar yg antri kepanasan pak.. Kasihan kalau pakde budhe yg sudah tua, ngantri diluar kepanasan.",
       "teks_final": "mohon pelayanan agak dipercepat teller ditambah diluar antrian kepanasan pak kasihan pakde budhe tua antrian diluar kepanasan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {

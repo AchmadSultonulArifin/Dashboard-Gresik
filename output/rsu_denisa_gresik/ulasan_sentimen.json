@@ -3,12 +3,12 @@
   "tempat": "RSU Denisa Gresik",
   "rating": 4.8,
   "total_ulasan": 30,
-  "positif": 4,
+  "positif": 24,
   "netral": 2,
-  "negatif": 24,
-  "persen_positif": 13.3,
+  "negatif": 4,
+  "persen_positif": 80.0,
   "persen_netral": 6.7,
-  "persen_negatif": 80.0,
+  "persen_negatif": 13.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan di RSU Denisa Gresik sangat baik. Dokter, perawat, dan seluruh petugas ramah, sopan, serta sigap dalam melayani pasien. Proses pelayanan cukup cepat, fasilitas bersih dan nyaman. Terima kasih atas pelayanan yang profesional dan memuaskan.",
       "teks_final": "pelayanan rsu denisa gresik baik dokter perawat seluruh petugas ramah sopan serta sigap melayani pasien proses pelayanan cukup cepat fasilitas bersih nyaman terima kasih atas pelayanan profesional memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9911
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Saya sangat mengapresiasi pelayanan dari Dr. Rio dan seluruh tim. Dokter sangat informatif, mendengarkan keluhan dengan saksama, dan memberikan penjelasan sangat jelas. Penanganan medisnya juga cepat saat melahirkan anak pertama. Terima kasih banyak atas dedikasinya! Semoga persalinan kedua nanti dilancarkan bersama Rs Denisa.",
       "teks_final": "mengapresiasi pelayanan rio seluruh tim dokter informatif mendengarkan keluhan saksama memberikan penjelasan jelas penanganan medisnya cepat melahirkan anak pertama terima kasih banyak atas dedikasinya semoga persalinan kedua nanti dilancarkan bersama rumah sakit denisa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9605
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sangat mengecewakan. Pelayanan dokter yg jaga di IGD shift malam tidak ramah dan petugasnya kurang kompeten. Saat pengambilan darah dan jarum infus ditangan gagal sampai 3 kali dan sampe pembulu darah anak saya pecah",
       "teks_final": "mengecewakan pelayanan dokter jaga igd shift malam ramah petugasnya kurang kompeten pengambilan darah jarum infus ditangan gagal sampai kali sampe pembulu darah anak pecah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9973
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan cepat dan ramah",
       "teks_final": "pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan admin bagian depan, perawat dan dokter rio super top markotop Semenjak tau ada dr kandungan yg sangat2 informatif disini, dari kehamilan 4 bulan sampe skrg dan insyaAllah rencana lahiran juga maunya disini sama dr rio gak mau pindah2 ke yg lainn Sukses teruss rs denisa",
       "teks_final": "pelayanan admin bagian depan perawat dokter rio super top markotop semenjak tau kandungan sangat2 informatif disini kehamilan bulan sampe sekarang insyaallah rencana lahiran maunya disini sama rio mau pindah2 lainn sukses teruss rumah sakit denisa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan ramah dan cepat Pertama kali ke rsu denisa, dilayani dengan baik. Diarahkan, dan diingatkan apabila ada jadwal kontrol kembali",
       "teks_final": "pelayanan ramah cepat pertama kali rsu denisa dilayani baik diarahkan diingatkan apabila jadwal kontrol kembali",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9194
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanannya mantap bgtt di rsu denisa..udah langganan usg disini sama dokter rio, super super ramah dan penjelasannya sangat detail🙏",
       "teks_final": "pelayanannya bagus bgtt rsu denisa udah langganan usg disini sama dokter rio super super ramah penjelasannya detail",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan sangat ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Dr Obgynnya sangaatt ramaahh, komunikatif.. pelayanannya baik, bidan dan perawatnya ramah\" 🥰",
       "teks_final": "obgynnya sangaatt ramaahh komunikatif pelayanannya baik bidan perawatnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pertama kali periksa ke RS Denisa sangat nyaman, pelayanan ramah dan cepat, petugasnya sangat responsif. Tempat tunggu nyaman, rapi dan bersih. Dokter beserta perawat sabar, menjelaskan secara sabar dan detail.",
       "teks_final": "pertama kali periksa rumah sakit denisa nyaman pelayanan ramah cepat petugasnya responsif tempat tunggu nyaman rapi bersih dokter beserta perawat sabar menjelaskan secara sabar detail",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8506
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Nyaman dan pelayanan dokter obgyn beserta perawatnya ramah",
       "teks_final": "nyaman pelayanan dokter obgyn beserta perawatnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Dari awal kehamilan selalu periksa di RSU Denisa Gresik pelayanannya sangat bagus, dokter2 nya juga baik, kasih penjelasan secara detail membuat saya sangat suka priksa disini👍",
       "teks_final": "awal kehamilan selalu periksa rsu denisa gresik pelayanannya bagus dokter2 baik kasih penjelasan secara detail membuat suka priksa disini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pengalaman di rumah sakit denisa, pelayanan sudah cukup baik, petugas ramah, cepat tanggap, tidak berbelit Belit sehingga mempermudah pasien untuk segera ditangani. Lingkungannya bersih, dan nyaman.",
       "teks_final": "pengalaman rumah sakit denisa pelayanan cukup baik petugas ramah cepat tanggap berbelit belit sehingga mempermudah pasien segera ditangani lingkungannya bersih nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pengalaman pertama kali melahirkan diwaktu anak pertama ku dulu.. Sungguh baik perawatan nya untuk dokternya juga ramah dan perawat \"disana juga ramah jadi kayak saudara sendiri sangat welcome",
       "teks_final": "pengalaman pertama kali melahirkan diwaktu anak pertama ku dulu sungguh baik perawatan dokternya ramah perawat disana ramah jadi kayak saudara sendiri welcome",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "PELAYANAN PENDAFTAARANYA SANGAT KURANG BAIK AGAK JUDES WAKTU MENJELASKANYA MOHON DI PERBAIKI LAGI",
       "teks_final": "pelayanan pendaftaaranya kurang baik agak judes waktu menjelaskanya mohon perbaiki",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9935
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Saya sangat puas melakukan pemeriksaan kehamilan dengan dr. Rio Obsatrya, Sp.OG di Rumah Sakit Umum Denisa Gresik. dr. Rio selalu ramah, friendly, dan membuat pasien merasa nyaman selama konsultasi. Beliau juga sangat informatif dalam menjelaskan kondisi kehamilan, hasil USG, serta menjawab setiap pertanyaan dengan sabar dan jelas sehingga saya merasa lebih tenang dan memahami perkembangan kehamilan dengan baik.  Pelayanan di RSU Denisa Gresik juga baik, proses pendaftaran cukup mudah dan stafnya membantu. Terima kasih kepada dr. Rio dan seluruh tim yang telah memberikan pelayanan terbaik.",
       "teks_final": "puas melakukan pemeriksaan kehamilan rio obsatrya sp og rumah sakit umum denisa gresik rio selalu ramah friendly membuat pasien merasa nyaman selama konsultasi beliau informatif menjelaskan kondisi kehamilan hasil usg serta menjawab setiap pertanyaan sabar jelas sehingga merasa tenang memahami perkembangan kehamilan baik pelayanan rsu denisa gresik baik proses pendaftaran cukup mudah stafnya membantu terima kasih kepada rio seluruh tim telah memberikan pelayanan terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.986
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan disini sangat baik dan ramah sekali. Tempatnya sangat luas bersih dan nyaman, petugasnya pun banyak baik hati dan ramah sekaliii",
       "teks_final": "pelayanan disini baik ramah tempatnya luas bersih nyaman petugasnya banyak baik hati ramah sekaliii",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanannya memuaskan dari Dokter, perawat dan administrasi. Dr anak pertama,kedua SC di sini skrg  mau ke3 jg rencana mau SC disini Terima kasih rsu Denisa 😊😊",
       "teks_final": "pelayanannya memuaskan dokter perawat administrasi anak pertama kedua sc sini sekarang mau ke3 rencana mau sc disini terima kasih rsu denisa",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8317
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Alhamdulillah pengalaman hamil pertama periksa  pelayanannya ramah dan dokternya juga baik banyak menjelaskan dengan detail,terimakasih atas pelayanannya🙏",
       "teks_final": "alhamdulillah pengalaman hamil pertama periksa pelayanannya ramah dokternya baik banyak menjelaskan detail terimakasih atas pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.989
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Hamil pertama nyari nyari info tempat usg yang enak di gresik. Akhirnya di rekomendasikan sama temen di rsu denisa. Sudah beberapa kali usg disini. Tempatnya nyaman,pelayanan ramah dan cepat. Dan dokter nya pun ramah banget penjelasannya detail tanpa perlu ditanya dan pastinya humble pol banyak guyonnya jadi bikin nyaman saat usg",
       "teks_final": "hamil pertama nyari nyari info tempat usg enak gresik akhirnya rekomendasikan sama temen rsu denisa beberapa kali usg disini tempatnya nyaman pelayanan ramah cepat dokter ramah banget penjelasannya detail tanpa perlu ditanya pastinya humble pol banyak guyonnya jadi bikin nyaman usg",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Dokter Rio ramah sekali, informatif, pelayanan rumah sakit profesional",
       "teks_final": "dokter rio ramah informatif pelayanan rumah sakit profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9785
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Baru mau usg di sini ,selama pendaftaran pelayanan nya sangat baik dan respon nya cepat☺️",
       "teks_final": "mau usg sini selama pendaftaran pelayanan baik respon cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8571
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "alhamdulillah saya dilayani dgn baik",
       "teks_final": "alhamdulillah dilayani baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9871
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Dokter poli kandungan jadwalnya seharusnya jam 19:00 sudah mulai tapi sampai 19:45 lebih belum datang kasian para bumil pada nunggu luamaaaa..sekaliii mana pinggang buat duduk lama sakit capekk apalagi yang usia kandungannya udah 8 bulan",
       "teks_final": "dokter poli kandungan jadwalnya seharusnya jam mulai sampai datang kasian para bumil nunggu luamaaaa sekaliii mana pinggang buat duduk lama sakit capekk apalagi usia kandungannya udah bulan",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9933
     },
     {
@@ -337,7 +337,7 @@
       "Ulasan": "untuk pelayanan pendaftaranya sangat lambat sekali dan penjelasanya sangat susah di mengerti apalagi yg mas masnya kurang rama sekali dalam pelayananya maaf kasih reting bintang 1 dulu kak",
       "teks_final": "pelayanan pendaftaranya lambat penjelasanya susah mengerti apalagi mas masnya kurang rama pelayananya maaf kasih reting bintang dulu kak",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9966
     }
   ]

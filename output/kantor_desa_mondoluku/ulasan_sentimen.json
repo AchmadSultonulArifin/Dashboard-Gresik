@@ -3,12 +3,12 @@
   "tempat": "Kantor Desa Mondoluku",
   "rating": 4.7,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 1,
   "netral": 1,
-  "negatif": 1,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 50.0,
   "persen_netral": 50.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Bik dn bersahaja",
       "teks_final": "bik dn bersahaja",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9904
     }
   ]

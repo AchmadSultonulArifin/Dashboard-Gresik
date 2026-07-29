@@ -3,12 +3,12 @@
   "tempat": "Stadion Klaka Indah Daun Timur",
   "rating": 4.4,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 2,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Lokasi yang sangat strategis untuk warga berkumpul, berolahraga, hingga menikmati berbagai acara olahraga bersama. Suasana yang hidup menjadikannya pusat aktivitas dan kebersamaan masyarakat.  #Baweanesia2025",
       "teks_final": "lokasi strategis warga berkumpul berolahraga hingga menikmati berbagai acara olahraga bersama suasana hidup menjadikannya pusat aktivitas kebersamaan masyarakat",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Stadion yang yang strategis untuk kita kunjungi baik untuk berlomba atau persahabatan.  Pemainnya ramah-ramah dan disini juga dekat dengan tempat ibadah..  Jadi jangan hawatir bermain kesini karena ibadahmu tidak akan berkurang..",
       "teks_final": "stadion strategis kunjungi baik berlomba persahabatan pemainnya ramah ramah disini dekat tempat ibadah jadi jangan hawatir bermain kesini ibadahmu berkurang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.981
     }
   ]

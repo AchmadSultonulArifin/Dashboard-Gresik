@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Semen Gresik",
   "rating": 4.8,
   "total_ulasan": 18,
-  "positif": 0,
+  "positif": 16,
   "netral": 2,
-  "negatif": 16,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 88.9,
   "persen_netral": 11.1,
-  "persen_negatif": 88.9,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Layanan bagus di ruang RPS",
       "teks_final": "layanan bagus ruang rps",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "bagus banget pelayanannya..... mantap syekaliiiii",
       "teks_final": "bagus banget pelayanannya bagus syekaliiiii",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Untuk petugas keamanan rs semen gresik 1.kedisiplinan:berpakaian rapi,atribut lengkap,sesuai standar aturan dn sikap tubuh tegap dn siaga 2.pelayanan dn keramahan: menerapkan senyum salam sapa pada pengunjung dn siap membantu membawakan brankar pasien dn menunjukkan arah poli dengan sopan 3.keamanan:cepat tanggap merespont situasi darurat di lingkungan rumah sakit",
       "teks_final": "petugas keamanan rumah sakit semen gresik kedisiplinan berpakaian rapi atribut lengkap sesuai standar aturan dn sikap tubuh tegap dn siaga pelayanan dn keramahan menerapkan senyum salam sapa pengunjung dn siap membantu membawakan brankar pasien dn menunjukkan arah poli sopan keamanan cepat tanggap merespont situasi darurat lingkungan rumah sakit",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.628
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Menurut sy pribadi rs semen termasuk rs yg cukup lengkap dan juga pelayanan sangat memuaskan...sy sdh berkali2 berobat di sana...ada hal yg paling berkesan bagi sy di saat sy dirumah singgah tidak bisa naik ke tempat kemoterapy ..pk satpam dilapori sama istri sy.. langsung diambilkan bed dan didorong sampai atas tempat kemo...tanpa imbalan apapun...sy sampai terharu ....salut buat semua satpam rssg..mudah2an panjenengan semua diberikan rizki yg melimpah...aminn",
       "teks_final": "menurut pribadi rumah sakit semen termasuk rumah sakit cukup lengkap pelayanan memuaskan berkali2 berobat sana hal paling berkesan bagi dirumah singgah naik tempat kemoterapy pk satpam dilapori sama istri langsung diambilkan bed didorong sampai atas tempat kemo tanpa imbalan apapun sampai terharu salut buat semua satpam rssg mudah2an panjenengan semua diberikan rizki melimpah aminn",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9918
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanannya sangat memuaskan dan Perawatnya ramah2.",
       "teks_final": "pelayanannya memuaskan perawatnya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Terima kasih RS Semen Gresik atas pelayanan dan perawatannya selama saya rawat inap dan operasi Sinus disini terutama tidak dipungut biaya sepeserpun saat memakai asuransi perusahaan. Semua perawat disini ramah\" dan komunikatif saat ditanya maupun menjelaskan. Big thanks Pak Subandji yg sudah mengoperasi dan para perawat semua yg sudah merawat terutama mas fajar, mbak lilik dan mbak satya. Sebagai bekerja di pelayanan kesehatan tidak lupa selalu memakai \"kata ajaib\" (Permisi, Maaf, Tolong dan Terima kasih) saya sangat mengapresiasinya.  Untuk kamar bersih dan ada staff kebersihan setiap hari datang untuk membersihkan. Fasilitas disini juga sudah lengkap dan mendukung baik di kamar maupun alat\" operasinya.  Semoga selalu dijaga untuk kinerja dan kualitas pelayanan untuk RS Semen Gresik. Terima kasih 👍",
       "teks_final": "terima kasih rumah sakit semen gresik atas pelayanan perawatannya selama rawat inap operasi sinus disini terutama dipungut biaya sepeserpun memakai asuransi perusahaan semua perawat disini ramah komunikatif ditanya maupun menjelaskan big thanks pak subandji mengoperasi para perawat semua merawat terutama mas fajar mbak lilik mbak satya sebagai bekerja pelayanan kesehatan lupa selalu memakai kata ajaib permisi maaf tolong terima kasih mengapresiasinya kamar bersih staff kebersihan setiap hari datang membersihkan fasilitas disini lengkap mendukung baik kamar maupun alat operasinya semoga selalu dijaga kinerja kualitas pelayanan rumah sakit semen gresik terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9228
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sangat responsif",
       "teks_final": "responsif",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sangat memuaskan sekali, semakin sukses rumah sakit semen gresik",
       "teks_final": "memuaskan semakin sukses rumah sakit semen gresik",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9613
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Terimakasih atas pelayanan yang diberikan",
       "teks_final": "terimakasih atas pelayanan diberikan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9276
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Al hamdulillah, IGD nya bagus cepat respon. Pelayanan rawat inap di Pavilion 1 sangat baik, perawatnya ramah ramah dan dokter spesialisnya bagus, trimakasih semuanya.",
       "teks_final": "al hamdulillah igd bagus cepat respon pelayanan rawat inap pavilion baik perawatnya ramah ramah dokter spesialisnya bagus trimakasih semuanya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9696
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayanan sangat ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "pelayanan sangat memuaskan. fasilitas rumah sakit bersih dan nyaman",
       "teks_final": "pelayanan memuaskan fasilitas rumah sakit bersih nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Terimakasih 🙏🏻",
       "teks_final": "terimakasih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9149
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "pelayanan terbaik",
       "teks_final": "pelayanan terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "terimakasih atas pelayanannya, semoga selalu konsisten",
       "teks_final": "terimakasih atas pelayanannya semoga selalu konsisten",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9693
     }
   ]

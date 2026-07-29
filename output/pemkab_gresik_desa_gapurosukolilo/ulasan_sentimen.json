@@ -3,12 +3,12 @@
   "tempat": "Pemkab Gresik Desa Gapurosukolilo",
   "rating": 3.3,
   "total_ulasan": 10,
-  "positif": 4,
+  "positif": 2,
   "netral": 4,
-  "negatif": 2,
-  "persen_positif": 40.0,
+  "negatif": 4,
+  "persen_positif": 20.0,
   "persen_netral": 40.0,
-  "persen_negatif": 20.0,
+  "persen_negatif": 40.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Kota industri tapi masyarakat gresiknya sendiri susah dapat kerja, entry level pun di isi orang dari luar gresik",
       "teks_final": "kota industri masyarakat gresiknya sendiri susah kerja entry level isi orang luar gresik",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9963
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Alun alun gresik kumuh kotor pedagang amburadul lebih jadi pasar malam dr pada alun2 kota... Kalau orang2 pemkab yg tanganin alun2 gak sanggup lebih baik mundur...sadar diri",
       "teks_final": "alun alun gresik kumuh kotor pedagang amburadul jadi pasar malam alun2 kota orang2 pemkab tanganin alun2 sanggup baik mundur sadar diri",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9972
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Mohon di perbaiki di sunan giri banyak pungli masuk ajah di tarik infaq 2 kali blom biaya parkir 150k",
       "teks_final": "mohon perbaiki sunan giri banyak pungli masuk ajah tarik infaq kali blom biaya parkir 150k",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9906
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tolong diperbaiki parkir area depan makam sunan malik ibrahim. Tarif mobil 10.000 giliran diminta karcis \"Katanya iya diambilan dulu\". Begitu dibayar, ditungguin, tukang parkir gak berani balik kasih karcis 🤣 PARKIR LIAR TOLONG DITINDAK",
       "teks_final": "tolong diperbaiki parkir area depan makam sunan malik ibrahim tarif mobil giliran diminta karcis katanya iya diambilan dulu begitu dibayar ditungguin tukang parkir berani balik kasih karcis parkir liar tolong ditindak",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9442
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Nyaman..",
       "teks_final": "nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Bagian Hukum Sekretariat Daerah Kabupaten Gresik",
   "rating": 5,
   "total_ulasan": 5,
-  "positif": 0,
+  "positif": 3,
   "netral": 2,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 60.0,
   "persen_netral": 40.0,
-  "persen_negatif": 60.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "datang ke sini dilayani dengan baik. Orang-orangnya enak diajak komunikasi dan informasinya jelas. mantapp wes👍👍",
       "teks_final": "datang sini dilayani baik orang orangnya enak diajak komunikasi informasinya jelas mantapp wes",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan di Bagian Hukum Sekretariat Daerah Kabupaten Gresik sangat baik. Petugas ramah, informatif, dan membantu menjelaskan prosedur dengan jelas. Proses administrasi berjalan tertib dan profesional.",
       "teks_final": "pelayanan bagian hukum sekretariat daerah kabupaten gresik baik petugas ramah informatif membantu menjelaskan prosedur jelas proses administrasi berjalan tertib profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7543
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pengurusan dokumen berjalan lancar🤩. Petugas sangat kooperatif dan komunikatif. Terima kasih atas pelayanan yang prima dan profesional🥇.",
       "teks_final": "pengurusan dokumen berjalan lancar petugas kooperatif komunikatif terima kasih atas pelayanan prima profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.94
     }
   ]

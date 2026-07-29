@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Cabang Veteran Selatan",
   "rating": 2.6,
   "total_ulasan": 11,
-  "positif": 5,
+  "positif": 3,
   "netral": 3,
-  "negatif": 3,
-  "persen_positif": 45.5,
+  "negatif": 5,
+  "persen_positif": 27.3,
   "persen_netral": 27.3,
-  "persen_negatif": 27.3,
+  "persen_negatif": 45.5,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan sangat bagus ,walau agak lama menunggu tp pelayanan sangat ramah",
       "teks_final": "pelayanan bagus walau agak lama menunggu pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Saya ke bank BRI ini pukul 09:45 Tujuan ke CS Saya menunggu hampir 1 jam. Saya no urut 16. Menunggu pelayanan yg terlebih dahulu ( No 15). CS nya open cuman 1 meja. Hampir 1 jam kemudian ada customer yg datang dan langsung ke Meja CS yg kosong, dan langsung di layani. Tanpa no antrian dan tanpa menunggu. Katanya ngk perlu pakai no Antrian karena sudah sering kluar masuk di bank ini. Prosedur nya TDK berjalan.",
       "teks_final": "bank bri pukul tujuan cs menunggu hampir jam no urut menunggu pelayanan terlebih dahulu no cs open cuman meja hampir jam kemudian customer datang langsung meja cs kosong langsung layani tanpa no antrian tanpa menunggu katanya ngk perlu pakai no antrian sering kluar masuk bank prosedur berjalan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6556
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "tukang parkirnya maksa...kan kita biasa transaksi non tunai malah ngotot minta uang parkiran petugas nya juga JUTEK ngak ada senyum",
       "teks_final": "tukang parkirnya maksa kan biasa transaksi non tunai malah ngotot minta uang parkiran petugas jutek ngak senyum",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tanggal 18 ke bri veteran selatan nyessel kesana pegawainya tidak ada yg ramah terutama CSnya sumpah juddess marah2 lg sm nasabah, security nya tidak welcom 🤣. Nggak usah kerja deh kalau mau pasang muka juddes. Tau gitu sy kecabang lain baru kali ini ke Bri pelayanya buruk. Otw pindah bank.",
       "teks_final": "tanggal bri veteran selatan nyessel kesana pegawainya ramah terutama csnya sumpah juddess marah2 lg sama nasabah security welcom usah kerja mau pasang muka juddes tau gitu kecabang lain kali bri pelayanya buruk otw pindah bank",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan lama harusnya sistem diperbaiki, jgn sedikit2 error, sedikit2 terblokir ...the worst bank in indonesia",
       "teks_final": "pelayanan lama harusnya sistem diperbaiki jgn sedikit2 error sedikit2 terblokir the worst bank in indonesia",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9912
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Melayani dengan setuju hati",
       "teks_final": "melayani setuju hati",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9755
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pelayanan lamaaaaaaaaaaaaaa. sudah lama, tidak gesit lagi",
       "teks_final": "pelayanan lamaaaaaaaaaaaaaa lama gesit",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Petugas jaga malam yang ramah. Makasih Pak ILyas 👍👍👍",
       "teks_final": "petugas jaga malam ramah makasih pak ilyas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9285
     },
     {

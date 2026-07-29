@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Petrokimia Gresik",
   "rating": 4.8,
   "total_ulasan": 13,
-  "positif": 0,
+  "positif": 10,
   "netral": 3,
-  "negatif": 10,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 76.9,
   "persen_netral": 23.1,
-  "persen_negatif": 76.9,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan nya baik meskipun pakai bpjs (igd petrokimia)",
       "teks_final": "pelayanan baik meskipun pakai bpjs igd petrokimia",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9787
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Terbaik pelayanan semua pelayanannya",
       "teks_final": "terbaik pelayanan semua pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pengalaman pertama ke IGD Petro ibu saya merasa tenang nyaman selama penanganan",
       "teks_final": "pengalaman pertama igd petro ibu merasa tenang nyaman selama penanganan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7138
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "pelayanan IGD baik",
       "teks_final": "pelayanan igd baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Terima kasih RS Petrokimia Gresik, pelayanan sangat memuaskan, sukses selalu RS Petrokimia Gresik",
       "teks_final": "terima kasih rumah sakit petrokimia gresik pelayanan memuaskan sukses selalu rumah sakit petrokimia gresik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9814
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan nya sangat memuaskan, wa ke pelanggan pasien di bls dengan cepat. Perawat, pegawai, dokternya sangat sabar dan baik hati. Saya berobat di sini selama 3 thn sangat terbantu dan blm pernah kecewa. Semoga kedepan nya semakin baik lagi. Terima kasih.",
       "teks_final": "pelayanan memuaskan wa pelanggan pasien bls cepat perawat pegawai dokternya sabar baik hati berobat sini selama thn terbantu pernah kecewa semoga kedepan semakin baik terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9062
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan juara!",
       "teks_final": "pelayanan juara",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan ranap nya baik sekali, ramah dan sabar menghadapi anak saya yg sekecil ini 🫶🏻",
       "teks_final": "pelayanan ranap baik ramah sabar menghadapi anak sekecil",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9883
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sangat bagus, bersih , wangi. Yang paling utama dokternya ramaaaaah sangat informatif, staffnya jg sangat baik. Terbaikkk lah abyakta. Joss",
       "teks_final": "bagus bersih wangi paling utama dokternya ramaaaaah informatif staffnya baik terbaikkk abyakta joss",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     }
   ]

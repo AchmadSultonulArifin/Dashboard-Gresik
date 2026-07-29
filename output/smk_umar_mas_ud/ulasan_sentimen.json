@@ -3,12 +3,12 @@
   "tempat": "SMK Umar Mas'ud",
   "rating": 4.6,
   "total_ulasan": 12,
-  "positif": 0,
+  "positif": 10,
   "netral": 2,
-  "negatif": 10,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 83.3,
   "persen_netral": 16.7,
-  "persen_negatif": 83.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -29,7 +29,7 @@
       "Ulasan": "Tetap semangat untuk memajukan generasi bangsa",
       "teks_final": "tetap semangat memajukan generasi bangsa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9657
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Umar Mas'ud sebuah lembaga pengagas pendidikan formal pertama d p bawean,dan kami percayakan dua anak kami menimba disini,smg tambah enovatif kreatif aktif,berakhlak,maju SMK Umar Mas'ud.",
       "teks_final": "umar mas ud sebuah lembaga pengagas pendidikan formal pertama bawean percayakan dua anak menimba disini smg tambah enovatif kreatif aktif berakhlak maju smk umar mas ud",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7437
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelopor sekolah SMK di pulau Bawean,sebagai sumbangsih PD bangsa ini mencerdaskan generasi bangsa,yayasan penggagas pendidikan Tertua di p.bawean,smg tambah maju",
       "teks_final": "pelopor sekolah smk pulau bawean sebagai sumbangsih bangsa mencerdaskan generasi bangsa yayasan penggagas pendidikan tertua bawean smg tambah maju",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9427
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Lahan parkir luas di tengah kota",
       "teks_final": "lahan parkir luas tengah kota",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8174
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Banyak pengalaman yg di dapat. Karana d smk umar mas'ud adalah lembaga pendidikan yg focus menyiapkan siswa yg siap bekerja sekaligus kuliah, selain itu smk umar mas'ud membuat program unggulan seperti TAHFIDZ. EKSTRAKULIKULER. Dan pengembangan IT ( Informasi Dan Teknologi) karana kami kejuruan Teknik Komputer Dan jaringan, untuk lebih luasnya kami tunggu d SMK UM. SMK Bisa..🙏",
       "teks_final": "banyak pengalaman karana smk umar mas ud lembaga pendidikan focus menyiapkan siswa siap bekerja sekaligus kuliah selain smk umar mas ud membuat program unggulan seperti tahfidz ekstrakulikuler pengembangan it informasi teknologi karana kejuruan teknik komputer jaringan luasnya tunggu smk um smk",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5467
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Asyik dan menyenangkan",
       "teks_final": "asyik menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Mantapp",
       "teks_final": "mantapp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "SMK Bisa!!!",
       "teks_final": "smk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6244
     }
   ]

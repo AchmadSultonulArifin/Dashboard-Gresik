@@ -3,12 +3,12 @@
   "tempat": "PT. Mandiri Utama Finance Gresik",
   "rating": 3.7,
   "total_ulasan": 23,
-  "positif": 8,
+  "positif": 13,
   "netral": 1,
-  "negatif": 14,
-  "persen_positif": 34.8,
+  "negatif": 9,
+  "persen_positif": 56.5,
   "persen_netral": 4.3,
-  "persen_negatif": 60.9,
+  "persen_negatif": 39.1,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayan ok",
       "teks_final": "pelayan oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan buruk. Buang2 waktu. Fak",
       "teks_final": "pelayanan buruk buang2 waktu fak",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9983
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanannya oke",
       "teks_final": "pelayanannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "PARAH BANGET KELAKUAN KASIR ATAS NAMA IVA DAN KAWAN KAWANNYA!!! BEBERAPA HARI LALU SAYA MAU BAYAR ANGSURAN NUNGGU DARI JAM 12 SAMPAI SETENGAH 2. PADAHAL ISTIRAHAT MEREKA SAMPAI JAM 1 SAJA!!! GAADA PERMINTAAN MAAF KARENA TELAT MELAYANI! DIKANTOR HANYA ADA CS YG MEMINTA MAAF DAN BERUSAHA MENENANGKAN SAYA. MEREKA DATANF KE KANTOR PUN SEROMBONGAN SEPERTI HABIS REKREASI! SANGAT BURUK PELAYANANNYA! MOHON DIPERBAIKI KARENA KITA SEBAGAI NASABAH DIRUGIKAN WAKTUNYA!",
       "teks_final": "parah banget kelakuan kasir atas nama iva kawan kawannya beberapa hari lalu mau bayar angsuran nunggu jam sampai setengah padahal istirahat sampai jam saja gaada permintaan maaf telat melayani dikantor hanya cs meminta maaf berusaha menenangkan datanf kantor serombongan seperti habis rekreasi buruk pelayanannya mohon diperbaiki sebagai nasabah dirugikan waktunya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Satpam nya TIDAK KOOPERATIF. Mau masuk tanya tanya untuk pengajian kredit, malah diajak omong di luar dan dia bingung sendiri.",
       "teks_final": "satpam kooperatif mau masuk tanya tanya pengajian kredit malah diajak omong luar bingung sendiri",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9962
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Wkwkw baru telat hitungan hari, 2 hari aja udah di samperin kerumah. Dan yg nyamperin nggk enak bnget debtkolektornya🤣 mau asal tarik aja, lesing lainnya nggk ada tuh yg sampek gini pdhl cuman 2-4 hari🤣🤣 mending lari lesing lain deh sebelum nyesel",
       "teks_final": "wkwkw telat hitungan hari hari aja udah samperin kerumah nyamperin nggk enak bnget debtkolektornya mau asal tarik aja lesing lainnya nggk tuh sampek gini pdhl cuman hari mending lari lesing lain nyesel",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9931
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Proses selama pengajuan kredit cepat, pelayanannya juga ramah, sudah kedua kalinya pengajuan disini dan angsuran sesuai dengan keinginan saya. Selama menjadi nasabah yg tidak pernah terlambat bayar cicilannya, tidak akan dipersulit kok untuk pengajuan kredit yg lainnya 😊 Terimakasih MUF Gresik,sukses selalu 🙏🏻",
       "teks_final": "proses selama pengajuan kredit cepat pelayanannya ramah kedua kalinya pengajuan disini angsuran sesuai keinginan selama menjadi nasabah pernah terlambat bayar cicilannya dipersulit kok pengajuan kredit lainnya terimakasih muf gresik sukses selalu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tidak Recommended telat bayar di ancam di tarik.. mau di bayar di persulit..",
       "teks_final": "recommended telat bayar ancam tarik mau bayar persulit",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9943
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "TIDAK RECOMMENDED SAYA TELAT HARI SUDAH DI ANCAM MAU DITARIK.. PADAHAL ADA ITIKAD BAIK BUAT BAYAR UNIT ADA ALAMAT SESUAI.. SAYA TIDAK KABUR.. TANPA ADA KUNJUNGAN KE DOMISILI OLEH KOLEKTOR SUDAH MAIN MAU DI TARIK.. PARAH MANDIRI UTAMA FINANCE KAYAK PINJOL",
       "teks_final": "recommended telat hari ancam mau ditarik padahal itikad baik buat bayar unit alamat sesuai kabur tanpa kunjungan domisili kolektor main mau tarik parah mandiri utama finance kayak pinjol",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9946
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Mau bayar angsuran di persulit.. baru kali ini leasing nasabah mau bayar di persulit..👎",
       "teks_final": "mau bayar angsuran persulit kali leasing nasabah mau bayar persulit",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9927
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Kendaraan di ambil tidak ada keterlambatan ini kementrian harus menutup merugikan konsumen",
       "teks_final": "kendaraan ambil keterlambatan kementrian harus menutup merugikan konsumen",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9052
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "JOSSSS",
       "teks_final": "jossss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "bunga ringan dan proses cepat sat set no rewel...",
       "teks_final": "bunga ringan proses cepat sat set no rewel",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9548
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "CS dan Kasir Ramah, pelayanan cepat, selama bayar angsuran lancar sesuai perjanjian tidak akan ada kekecewaan",
       "teks_final": "cs kasir ramah pelayanan cepat selama bayar angsuran lancar sesuai perjanjian kekecewaan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9869
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Mantap pelayanan sangat memuaskan",
       "teks_final": "bagus pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Securitiya informatif",
       "teks_final": "securitiya informatif",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9828
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayananannya ramah, proses nya cepat juga, sangat direkomendasikan",
       "teks_final": "pelayananannya ramah proses cepat direkomendasikan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan cepat dan memuaskan.",
       "teks_final": "pelayanan cepat memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Staff ramah, pelayanan cepat, dan memuaskan 👍🏻",
       "teks_final": "staff ramah pelayanan cepat memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan ramah...proses nya cpt...good job 🤗",
       "teks_final": "pelayanan ramah proses cpt good job",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9927
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "memuaskan",
       "teks_final": "memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     }
   ]

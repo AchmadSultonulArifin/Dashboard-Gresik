@@ -3,12 +3,12 @@
   "tempat": "Bank Mandiri Gedung Utama Semen Gresik",
   "rating": 4.8,
   "total_ulasan": 22,
-  "positif": 0,
+  "positif": 20,
   "netral": 2,
-  "negatif": 20,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 90.9,
   "persen_netral": 9.1,
-  "persen_negatif": 90.9,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya ok",
       "teks_final": "pelayanannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "pelayanannya cepat",
       "teks_final": "pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanannya ramah",
       "teks_final": "pelayanannya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "nice service is given by mbk devita ayu puji lestari",
       "teks_final": "nice service is given by mbk devita ayu puji lestari",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5403
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Karyawan di cabang ini super duper top. Mulai dari security, cs, teller, hingga atasannya. Ramah dan sat set dalam menangani keluhan nasabah. Tetap pegang kredibilitas tersebut ya",
       "teks_final": "karyawan cabang super duper top mulai security cs teller hingga atasannya ramah sat set menangani keluhan nasabah tetap pegang kredibilitas tersebut ya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9804
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan cepat, staf ramah, mantap",
       "teks_final": "pelayanan cepat staf ramah bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bersih, nyaman, pelayanan cepat",
       "teks_final": "bersih nyaman pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Cepat dan tanggap",
       "teks_final": "cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Layanan ok dan cepat",
       "teks_final": "layanan oke cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan cs teller cepat dan ramah oke",
       "teks_final": "pelayanan cs teller cepat ramah oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9897
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan cs oke teller oke semua ramah dan cepat good mandiri",
       "teks_final": "pelayanan cs oke teller oke semua ramah cepat good mandiri",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9846
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan bagus dan cepat mantapp",
       "teks_final": "pelayanan bagus cepat mantapp",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sangart ramah",
       "teks_final": "sangart ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Cepat untuk kualitas dan pelayanan",
       "teks_final": "cepat kualitas pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan baik, cepat, tempat nyaman, gercep",
       "teks_final": "pelayanan baik cepat tempat nyaman gercep",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanannya ok",
       "teks_final": "pelayanannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "pelayanan bagus ramah dan cekatan rekomended pelayanannya joss",
       "teks_final": "pelayanan bagus ramah cekatan rekomended pelayanannya joss",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Buka rekening disini dipandu dengan cepat, petugasnya juga bantu menjelaskan sangat detail ramah Topp dehh buat cabang inii👍🏻👍🏻",
       "teks_final": "buka rekening disini dipandu cepat petugasnya bantu menjelaskan detail ramah topp dehh buat cabang inii",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8932
     }
   ]

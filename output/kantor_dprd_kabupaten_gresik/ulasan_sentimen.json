@@ -3,12 +3,12 @@
   "tempat": "Kantor DPRD Kabupaten Gresik",
   "rating": 4.3,
   "total_ulasan": 10,
-  "positif": 2,
+  "positif": 7,
   "netral": 1,
-  "negatif": 7,
-  "persen_positif": 20.0,
+  "negatif": 2,
+  "persen_positif": 70.0,
   "persen_netral": 10.0,
-  "persen_negatif": 70.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Tempatnya strategis dekat alun alun dan dekat rumah dinas bapak. Wabup",
       "teks_final": "tempatnya strategis dekat alun alun dekat rumah dinas bapak wabup",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9921
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "DPRD nya pada kemana ini daerah pinggiran Menganti Pelem watu Gresik ini air PAM Gresik mati hidup mati dan  banyak matinya kok nggak ada respon klu tidak mampu berikan pada Pemkot Surabaya",
       "teks_final": "dprd kemana daerah pinggiran menganti pelem watu gresik air pam gresik mati hidup mati banyak matinya kok respon mampu berikan pemkot surabaya",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9756
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "COBA ANGGOTA DPRD NYA MUNCUL SURUH BELI BUKU BUKU BINATANG, SUPAYA TAU KALO GAJAH BENTUK NYA GIMANA SAMA GAK SAMA ICON YANG DIA BUAT 🤣 Ngabisin duit banyak tapi lupa gak punya konsep",
       "teks_final": "coba anggota dprd muncul suruh beli buku buku binatang supaya tau kalo gajah bentuk gimana sama sama icon buat ngabisin duit banyak lupa punya konsep",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9507
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tempat yang nyaman",
       "teks_final": "tempat nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempatnya sejuk, nyaman dan juga bersih",
       "teks_final": "tempatnya sejuk nyaman bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Ramah dalam melayani masyarakat",
       "teks_final": "ramah melayani masyarakat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tempat idaman para pelaku politik daerah kabupaten greaik",
       "teks_final": "tempat idaman para pelaku politik daerah kabupaten greaik",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5976
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     }
   ]

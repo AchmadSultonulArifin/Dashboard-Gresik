@@ -3,12 +3,12 @@
   "tempat": "ATM BNI PERUM GKA",
   "rating": 4.5,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 2,
   "netral": 3,
-  "negatif": 1,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 40.0,
   "persen_netral": 60.0,
-  "persen_negatif": 20.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Dimana tempatnya",
       "teks_final": "dimana tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7765
     },
     {

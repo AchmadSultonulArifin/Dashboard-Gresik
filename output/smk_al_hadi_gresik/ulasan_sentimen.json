@@ -3,12 +3,12 @@
   "tempat": "SMK Al Hadi Gresik",
   "rating": 4.9,
   "total_ulasan": 21,
-  "positif": 0,
+  "positif": 20,
   "netral": 1,
-  "negatif": 20,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 95.2,
   "persen_netral": 4.8,
-  "persen_negatif": 95.2,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sekolah yang Menyenagkan jangan lupa mampir kesekolahan ku ya  SMK Asik Ima'an Dukun Gresik",
       "teks_final": "sekolah menyenagkan jangan lupa mampir kesekolahan ku ya smk asik ima an dukun gresik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8582
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bangga menjadi siswa Al hadi Gresik",
       "teks_final": "bangga menjadi siswa al hadi gresik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Bangga jadi bagian SMK ASIK",
       "teks_final": "bangga jadi bagian smk asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Saya sangat puas KI( KUNJUNGAN INDUSTRI) Saya juga mendapat pengalaman banyak dari MMTC Yogyakarta",
       "teks_final": "puas ki kunjungan industri mendapat pengalaman banyak mmtc yogyakarta",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8947
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Berbagai memang menyenangkan",
       "teks_final": "berbagai memang menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Belajar menyenangkan SMK ASIK Keren",
       "teks_final": "belajar menyenangkan smk asik bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "SMK AL HADI KEREN",
       "teks_final": "smk al hadi bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9898
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Alhamdulillah bisa sekolah Di SMK ASIK semoga dapat ilmu yang manfaat dibimbing guru2 profesional",
       "teks_final": "alhamdulillah sekolah smk asik semoga ilmu manfaat dibimbing guru2 profesional",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9912
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "senang sekali bisa nyambung dan terkoneksi dengan SMK AL HADI Gresik,  bimbingan  guru sangat sabar dan juga ramah. Dan untuk pemesanan piala, merchandise pastinya sahabatan dan langganan dengan makaprint. Semoga makin lancar",
       "teks_final": "senang nyambung terkoneksi smk al hadi gresik bimbingan guru sabar ramah pemesanan piala merchandise pastinya sahabatan langganan makaprint semoga makin lancar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9863
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "SMK Al Hadi Gresik merupakan salah satu SMK di Kab Gresik yang membuat saya bisa mengembangkan bakat dan minat saya. Guru-guru di SMK Al Hadi juga masih muda-muda dan juga berkompeten dalam bidangnya. Semoga SMK Al Hadi ke depannya semakin berkembang.😍🫶",
       "teks_final": "smk al hadi gresik merupakan salah satu smk kab gresik membuat mengembangkan bakat minat guru guru smk al hadi muda muda berkompeten bidangnya semoga smk al hadi depannya semakin berkembang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9479
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sekolah ku keren",
       "teks_final": "sekolah ku bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sekolah Al-hadi sangat nyaman dan cara penyampaian mode belajarnya mudah dipahami serta gurunya asik-asik dan mode belajarnya asik",
       "teks_final": "sekolah al hadi nyaman cara penyampaian mode belajarnya mudah dipahami serta gurunya asik asik mode belajarnya asik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "sekolahnya asik",
       "teks_final": "sekolahnya asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Saya suka sekolah disini karena sekolahnya keren baguss",
       "teks_final": "suka sekolah disini sekolahnya bagus baguss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Sekolahnya asik",
       "teks_final": "sekolahnya asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Aku senang sekali sekolah di SMK alhadi gresik",
       "teks_final": "aku senang sekolah smk alhadi gresik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9919
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Bangga menjadi siswa SMK Al Hadi Gresik , sekolahnya keren",
       "teks_final": "bangga menjadi siswa smk al hadi gresik sekolahnya bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Sekolah ku keren,asik",
       "teks_final": "sekolah ku bagus asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Bangga sekolah di SMK Al Hadi Gresik karena asik",
       "teks_final": "bangga sekolah smk al hadi gresik asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     }
   ]

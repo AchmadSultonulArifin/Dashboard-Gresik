@@ -3,12 +3,12 @@
   "tempat": "ATM Bank BCA 072Z-Indomaret Sembayat",
   "rating": 4.3,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 3,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 25.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Semakin lengkap barangnya👍",
       "teks_final": "semakin lengkap barangnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9897
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan yg sangat rama",
       "teks_final": "pelayanan rama",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9757
     },
     {

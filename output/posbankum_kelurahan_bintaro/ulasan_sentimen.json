@@ -3,12 +3,12 @@
   "tempat": "POSBANKUM KELURAHAN BINTARO",
   "rating": 5,
   "total_ulasan": 8,
-  "positif": 0,
+  "positif": 6,
   "netral": 2,
-  "negatif": 6,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Terima kasih kepada pak Agus Setyoko, luar biasa pelayanan beliau. Saya tidak bisa menemui langsung, pak Agus telpon malam itu juga. Memberikan penjelasan hukum yang membuat saya dan sekeluarga tenang. Sekali lagi terima kasih pak Agus, sehat selalu pak",
       "teks_final": "terima kasih kepada pak agus setyoko luar biasa pelayanan beliau menemui langsung pak agus telpon malam memberikan penjelasan hukum membuat sekeluarga tenang terima kasih pak agus sehat selalu pak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9746
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pak Agus Setyoko, dari PosBanKum kelurahan Bintaro, orang nya sangat responsif, penjelasan nya sangat jelas dan membantu, support pada tahapan² yg akan dijalani pemohon arahan, sejauh kapasitas nya, terima kasih banyak pak Agus Setyoko, amanah dan maju terus bersama PosBanKum",
       "teks_final": "pak agus setyoko posbankum kelurahan bintaro orang responsif penjelasan jelas membantu support tahapan dijalani pemohon arahan sejauh kapasitas terima kasih banyak pak agus setyoko amanah maju terus bersama posbankum",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8018
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Saya, Detary Chaira yang tinggal di Rawamangun Jakarta Timur. Sangat berterima kasih kepada Ketua Posbakum di Kelurahan Bintaro Bapak Agus Setyoko. Sudah membantu saya dengan banyak informasi tentang hukum, menjelaskan banyak hal terkait Program Posbakum, sangat ramah, detail dan membantu saya. Semoga Kelurahan Bintaro, Team Posbakum dan semua pihak sukses dan bisa jadi contoh bagi team Posbakum di Kelurahan lain di wilayah Indonesia. Saya bukan warga nya sangat terbantu. Terima kasih dan salam🙏",
       "teks_final": "detary chaira tinggal rawamangun jakarta timur berterima kasih kepada ketua posbakum kelurahan bintaro bapak agus setyoko membantu banyak informasi tentang hukum menjelaskan banyak hal terkait program posbakum ramah detail membantu semoga kelurahan bintaro team posbakum semua pihak sukses jadi contoh bagi team posbakum kelurahan lain wilayah indonesia bukan warga terbantu terima kasih salam",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8552
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Terima kasih sudah adanya' pisbankum di kelurahan Bintaro, moga bermanfaat utk masyarakat",
       "teks_final": "terima kasih adanya pisbankum kelurahan bintaro moga bermanfaat masyarakat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.847
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Terima kasih sudah memberikan pencerahan",
       "teks_final": "terima kasih memberikan pencerahan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5647
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sukses posbankum kelurahan bintaro",
       "teks_final": "sukses posbankum kelurahan bintaro",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9717
     }
   ]

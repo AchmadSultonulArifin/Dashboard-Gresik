@@ -3,12 +3,12 @@
   "tempat": "Federal Territory Election Office",
   "rating": 4.3,
   "total_ulasan": 5,
-  "positif": 0,
+  "positif": 4,
   "netral": 1,
-  "negatif": 4,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 80.0,
   "persen_netral": 20.0,
-  "persen_negatif": 80.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Operator telefon sgt membantu dan mesra.. senang berurusan .",
       "teks_final": "operator telefon membantu mesra senang berurusan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8817
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Tempat cari rezki",
       "teks_final": "tempat cari rezki",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8545
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Best",
       "teks_final": "best",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Selesai urusan tukar alamat mengundi.. Faster, easy,and very friendly staff!",
       "teks_final": "selesai urusan tukar alamat mengundi faster easy and very friendly staff",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7002
     }
   ]

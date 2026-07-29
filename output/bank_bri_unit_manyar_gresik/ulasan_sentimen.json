@@ -3,12 +3,12 @@
   "tempat": "Bank BRI UNIT Manyar Gresik",
   "rating": 3.5,
   "total_ulasan": 20,
-  "positif": 10,
+  "positif": 7,
   "netral": 5,
-  "negatif": 5,
-  "persen_positif": 50.0,
+  "negatif": 8,
+  "persen_positif": 35.0,
   "persen_netral": 25.0,
-  "persen_negatif": 25.0,
+  "persen_negatif": 40.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Cepat",
       "teks_final": "cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9794
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagian teller cuma satu. Kalo jam istirahat. istirahat semua. Kita nunggu dari jam 1 smpek jam 2. Kalo bisa ada pengantinya 1 lah kalo jam istirahat, jadi bagian teller gak kosong.",
       "teks_final": "bagian teller cuma satu kalo jam istirahat istirahat semua nunggu jam smpek jam kalo pengantinya kalo jam istirahat jadi bagian teller kosong",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9125
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan lambat karena teller.nya cuma 1 antrian berjam\" padahal hanya beberapa orang Satpam ramah Atm sering trobel",
       "teks_final": "pelayanan lambat teller cuma antrian berjam padahal hanya beberapa orang satpam ramah atm sering trobel",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9969
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "antrian lama ,g rekomen kalo cari pinjaman modal disini...bunga nya kecil tapi biaya pengurusan banyak..",
       "teks_final": "antrian lama rekomen kalo cari pinjaman modal disini bunga kecil biaya pengurusan banyak",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8979
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "13:18 Jum'at 8 November 2019. Mau setor Tunai Via teller, Karena Mesin CDM sering saya lihat eror Mulu jadi takut. Udah hampir setengah 2, antrian teller udah banyak, kursi antrian teller udah diduduki bokong semua, mbak² Teller tak Kunjung datang. Kemana?? Emang abis Isi jadwal ceramah khotbah Jum'at?? 2 Petugas CS aja udah melayani Nasabah,, sama² perempuan. padahal Sisa Waktu Pelayanan Normal tinggal 1 Jam 30 Menit Lagi.",
       "teks_final": "jum at november mau setor tunai via teller mesin cdm sering lihat eror mulu jadi takut udah hampir setengah antrian teller udah banyak kursi antrian teller udah diduduki bokong semua mbak teller tak kunjung datang kemana emang abis isi jadwal ceramah khotbah jum at petugas cs aja udah melayani nasabah sama perempuan padahal sisa waktu pelayanan normal tinggal jam menit",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9849
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "alhamdulillah",
       "teks_final": "alhamdulillah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Juru parkirnya kurang ajar... Mending nggak usah juru parkir",
       "teks_final": "juru parkirnya kurang ajar mending usah juru parkir",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "parkir motor 3 menit kena tarif 2rb, heran gw mending g usah jukir bang udah ada satpam juga #hadeh",
       "teks_final": "parkir motor menit kena tarif 2rb heran mending usah jukir bang udah satpam",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9885
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "heran gw pelayanan buruk bangetttttt... komplain via twitter g nyambung dah very bad pokoknya",
       "teks_final": "heran pelayanan buruk bangetttttt komplain via twitter nyambung dah very bad pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9983
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan baik , pak satpam ga perlu repot atur antrian..",
       "teks_final": "pelayanan baik pak satpam perlu repot atur antrian",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9677
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Mantab",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     }
   ]

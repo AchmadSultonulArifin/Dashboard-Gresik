@@ -3,12 +3,12 @@
   "tempat": "Pantai Pesisir Mulyorejo",
   "rating": 3.9,
   "total_ulasan": 9,
-  "positif": 1,
+  "positif": 7,
   "netral": 0,
-  "negatif": 8,
-  "persen_positif": 11.1,
+  "negatif": 2,
+  "persen_positif": 77.8,
   "persen_netral": 0.0,
-  "persen_negatif": 88.9,
+  "persen_negatif": 22.2,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -29,7 +29,7 @@
       "Ulasan": "Salah satu pantai dengan kebersihannya yang dijaga",
       "teks_final": "salah satu pantai kebersihannya dijaga",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Bagus untuk bersantai",
       "teks_final": "bagus bersantai",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus buat nenangin pikiran",
       "teks_final": "bagus buat nenangin pikiran",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pantai dalegan namanya, terletak di desa Dalegan Kecamatan Panceng Kabupaten Gresik. Nama lainnya adalah WISID (Wisata Segoro Indah)",
       "teks_final": "pantai dalegan namanya terletak desa dalegan kecamatan panceng kabupaten gresik nama lainnya wisid wisata segoro indah",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9129
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Sejuk",
       "teks_final": "sejuk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sangat sejuk dan nyaman pemadaangannya",
       "teks_final": "sejuk nyaman pemadaangannya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     }
   ]

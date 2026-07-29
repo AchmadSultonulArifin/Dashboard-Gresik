@@ -3,12 +3,12 @@
   "tempat": "BANK MANDIRI KCP GRESIK CERME",
   "rating": 4.7,
   "total_ulasan": 25,
-  "positif": 1,
+  "positif": 23,
   "netral": 1,
-  "negatif": 23,
-  "persen_positif": 4.0,
+  "negatif": 1,
+  "persen_positif": 92.0,
   "persen_netral": 4.0,
-  "persen_negatif": 92.0,
+  "persen_negatif": 4.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanan ramah dan cepat",
       "teks_final": "pelayanan ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "MANTAB",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Keren poll",
       "teks_final": "bagus poll",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus poll pelayanannya",
       "teks_final": "bagus poll pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan pegawainya ramah",
       "teks_final": "pelayanan pegawainya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanannya ramah",
       "teks_final": "pelayanannya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "terbaik",
       "teks_final": "terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "cs nya baik dan ganteng",
       "teks_final": "cs baik ganteng",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9866
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "bagus poll cs",
       "teks_final": "bagus poll cs",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9862
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Berbelit belit cs e uang katanya fix kembali tunggu berhari\" ternyata zonk mungkin diembat kali kecewa bgt sama mandiri",
       "teks_final": "berbelit belit cs uang katanya fix kembali tunggu berhari ternyata zonk mungkin diembat kali kecewa banget sama mandiri",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan terbaik",
       "teks_final": "pelayanan terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan ramah,,,,terbaik di gresik",
       "teks_final": "pelayanan ramah terbaik gresik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan cepat. Dan csnya baik",
       "teks_final": "pelayanan cepat csnya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayanan sangat sangat membantu semua staff nya ramah ramah",
       "teks_final": "pelayanan membantu semua staff ramah ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan nya baik, ramah dan semoga sukses",
       "teks_final": "pelayanan baik ramah semoga sukses",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9813
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan cs sangat ramah dan baik",
       "teks_final": "pelayanan cs ramah baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9874
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Sangat sopan dan halus pelayanannya. terima kasih.",
       "teks_final": "sopan halus pelayanannya terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9802
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "untuk layangan cepet banget",
       "teks_final": "layangan cepet banget",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9912
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Baik, sangat membantu saat penggantian kartu ATM baru, ramah dan sabar. Terimakasih",
       "teks_final": "baik membantu penggantian kartu atm ramah sabar terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.785
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "pelayanan bagus cepat",
       "teks_final": "pelayanan bagus cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Cepat cs",
       "teks_final": "cepat cs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9324
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayananya ramah",
       "teks_final": "pelayananya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "pelayanan ya ramah, mbak mbak nya asik",
       "teks_final": "pelayanan ya ramah mbak mbak asik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanannya sangat baik, semua petugasnya rama",
       "teks_final": "pelayanannya baik semua petugasnya rama",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     }
   ]

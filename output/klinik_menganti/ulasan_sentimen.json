@@ -3,12 +3,12 @@
   "tempat": "Klinik Menganti",
   "rating": 4.1,
   "total_ulasan": 24,
-  "positif": 7,
+  "positif": 17,
   "netral": 2,
-  "negatif": 15,
-  "persen_positif": 29.2,
+  "negatif": 5,
+  "persen_positif": 70.8,
   "persen_netral": 8.3,
-  "persen_negatif": 62.5,
+  "persen_negatif": 20.8,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -29,7 +29,7 @@
       "Ulasan": "Dokternya tidak ramah bagian obat paling ramahh yallah Bu dokter jadi org terlalu GIMANA GITU KE PASIEN ,Lupa pakai masker dikira apaan sehh,minta surat dokter sudahh",
       "teks_final": "dokternya ramah bagian obat paling ramahh yallah bu dokter jadi org terlalu gimana gitu pasien lupa pakai masker dikira apaan sehh minta surat dokter sudahh",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9493
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Semua pelayanan nya baik dokter, admin, perawat nya pada baik baik, cepat, ramah, pokoknya sat set banget. Rekomendasi bangett 👍",
       "teks_final": "semua pelayanan baik dokter admin perawat baik baik cepat ramah pokoknya sat set banget rekomendasi bangett",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan sangat lama, semuanya lama, admin, dokter lama, dokternya sering telat. Waktu didalam konsultasi dokter juga kebanyakan ngobrol sama perawatnya.",
       "teks_final": "pelayanan lama semuanya lama admin dokter lama dokternya sering telat waktu didalam konsultasi dokter kebanyakan ngobrol sama perawatnya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9959
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "perawat di klinik Menganti sangat ramah dan baik kepada semua pasien, pelayanan juga cepat dan baik. Rekomendasi banget klinik ini deh 👍",
       "teks_final": "perawat klinik menganti ramah baik kepada semua pasien pelayanan cepat baik rekomendasi banget klinik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan ramah, dokter komunikatif, klinik bersih. Pendaftaran mudah dan cepat. Puas berobat di sini.",
       "teks_final": "pelayanan ramah dokter komunikatif klinik bersih pendaftaran mudah cepat puas berobat sini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "recommend banget, yg sakit berobat kesini aja. petugasnya ramah pelayanan nya juga cepat 👌🏻",
       "teks_final": "recommend banget sakit berobat kesini aja petugasnya ramah pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan di klinik ini menurut aku memuaskan. Pendaftarannya cepat, petugasnya sigap, jadi pasien nggak kelamaan nunggu.",
       "teks_final": "pelayanan klinik menurut aku memuaskan pendaftarannya cepat petugasnya sigap jadi pasien kelamaan nunggu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9476
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Menurut aku pelayanannya bagus. Dari awal datang sampai selesai diperiksa dilayanin dengan baik. Tempatnya juga bersih dan nyaman.",
       "teks_final": "menurut aku pelayanannya bagus awal datang sampai selesai diperiksa dilayanin baik tempatnya bersih nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "pelayanan enak banget petugasnya ramah baik cantik, daftarnya juga cepet jadi ga nunggu lama dokternya juga ramah dan baik semua",
       "teks_final": "pelayanan enak banget petugasnya ramah baik cantik daftarnya cepet jadi nunggu lama dokternya ramah baik semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "pelayanann kurang baik, antrian berantakan saya datang lebih dulu tapi tidak diberikan nomor antrian malah ambil tumpukan paling atas yang diberi antrian tolong diperbaiki pelayanan adminnya",
       "teks_final": "pelayanann kurang baik antrian berantakan datang dulu diberikan nomor antrian malah ambil tumpukan paling atas diberi antrian tolong diperbaiki pelayanan adminnya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Bener\"kecewa bgt,minta surat ijin kerja gak bisa Padahal saya uda bilang kalau batuk,flu,badan lemes,tp tetep gak bisa Kl gak sakit beneran gak mungkin lah saya berobat,cuma di ksh surat berobat Apa nggu pasien agak parah dl baru di ksh surat ijin kerja😁 Mungkin di kiranya saya sakit bohongan kali ya",
       "teks_final": "bener kecewa banget minta surat ijin kerja padahal uda bilang batuk flu badan lemes tetep sakit beneran mungkin berobat cuma ksh surat berobat apa nggu pasien agak parah dl ksh surat ijin kerja mungkin kiranya sakit bohongan kali ya",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanannya lambat adminya juga lambat,. Tingkatkan pelayanannya dan jangan beda faskes dan umum",
       "teks_final": "pelayanannya lambat adminya lambat tingkatkan pelayanannya jangan beda faskes umum",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9943
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Kliniknya bagus bersih pegawainya ramah, dokternya juga ramah dan tegas menjelaskan dan yg paling penting untuk kalang kayak saya murah 😂. Pokoknya the best 👍",
       "teks_final": "kliniknya bagus bersih pegawainya ramah dokternya ramah tegas menjelaskan paling penting kalang kayak murah pokoknya the best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9979
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Terimakasih, sudah dilayani dengan baik, pertahankan ya.",
       "teks_final": "terimakasih dilayani baik pertahankan ya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7526
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Tempatnya sangat nyaman, bersih, pelayanannya menyenangkan, petugas pendaftaran, dokter, dan petugas farmasinya semua sangat baik dalam memberi pelayanan, semoga selalu terus terjaga pelayanan nya dg baik",
       "teks_final": "tempatnya nyaman bersih pelayanannya menyenangkan petugas pendaftaran dokter petugas farmasinya semua baik memberi pelayanan semoga selalu terus terjaga pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Suka periksa di klinik Pratama Menganti, tempat nyaman, dokter baik, admin rapi, ikut program Prolanis hipertensi bpjs yg sangat membantu dan mendukung hidup sehat matur nuwun",
       "teks_final": "suka periksa klinik pratama menganti tempat nyaman dokter baik admin rapi ikut program prolanis hipertensi bpjs membantu mendukung hidup sehat matur nuwun",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.96
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanannya baik, dokternya ramah, familiar, pelayanan adminnya cepat dan responsip, petugas obatnya informatif",
       "teks_final": "pelayanannya baik dokternya ramah familiar pelayanan adminnya cepat responsip petugas obatnya informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Baik baik aja,selama ini saya blm merasa ada yg kurang ataupun menemuui  pegawai klinik baik dokter maupun lainya ,makasih smoga seterusnya aman lancar.",
       "teks_final": "baik baik aja selama merasa kurang ataupun menemuui pegawai klinik baik dokter maupun lainya makasih smoga seterusnya aman lancar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7747
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan baik cepat dan ramah",
       "teks_final": "pelayanan baik cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan profesional,baik dan cepat pertahankan predikat terbaik ini semoga kedepannya makin maju dan ruang tunggu nya bisa di perbesar dan nyaman",
       "teks_final": "pelayanan profesional baik cepat pertahankan predikat terbaik semoga kedepannya makin maju ruang tunggu perbesar nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9865
     }
   ]

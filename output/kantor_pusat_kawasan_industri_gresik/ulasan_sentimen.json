@@ -3,12 +3,12 @@
   "tempat": "Kantor Pusat Kawasan Industri Gresik",
   "rating": 4.3,
   "total_ulasan": 11,
-  "positif": 0,
+  "positif": 6,
   "netral": 2,
-  "negatif": 9,
-  "persen_positif": 0.0,
+  "negatif": 3,
+  "persen_positif": 54.5,
   "persen_netral": 18.2,
-  "persen_negatif": 81.8,
+  "persen_negatif": 27.3,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -40,7 +40,7 @@
       "Ulasan": "Lokasi yg strategis",
       "teks_final": "lokasi strategis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Luas",
       "teks_final": "luas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Sangat puas skali",
       "teks_final": "puas skali",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Mantap kayak naik ijen",
       "teks_final": "bagus kayak naik ijen",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     }
   ]

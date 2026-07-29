@@ -3,12 +3,12 @@
   "tempat": "Indo Bola Futsal",
   "rating": 3.7,
   "total_ulasan": 20,
-  "positif": 7,
+  "positif": 8,
   "netral": 4,
-  "negatif": 9,
-  "persen_positif": 35.0,
+  "negatif": 8,
+  "persen_positif": 40.0,
   "persen_netral": 20.0,
-  "persen_negatif": 45.0,
+  "persen_negatif": 40.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Ps an nya sih mantep",
       "teks_final": "ps an mantep",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Semoga kedepannya lapangan nya lebih bersih dan penerangan nya Diterangkan ya ka . Serta kamar mandi nya juga semoga bisa lebih baik lagi dan berfungsi . Aamiin 😇🙏",
       "teks_final": "semoga kedepannya lapangan bersih penerangan diterangkan ya ka serta kamar mandi semoga baik berfungsi aamiin",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9134
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Rental ps stik nya busuk, lapangan futsal gelap, lampu ga di nyalain semua wc ga fungsi bola nya lonjong not rekomen, kaya lapangan majapahit",
       "teks_final": "rental ps stik busuk lapangan futsal gelap lampu nyalain semua wc fungsi bola lonjong not rekomen kaya lapangan majapahit",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9964
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Jangan kesini tempatnya hororr",
       "teks_final": "jangan kesini tempatnya hororr",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9982
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tidak ramah sekali masa bermain 1 jam disuruh main 2 jam setelah tau kita main cuman 1 jam di mahalin jadi 10k padahal harga aslinya 5k perjam!!!!",
       "teks_final": "ramah masa bermain jam disuruh main jam tau main cuman jam mahalin jadi 10k padahal harga aslinya 5k perjam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9941
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Mahal, penjual tidak ramah, maksa",
       "teks_final": "mahal penjual ramah maksa",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9946
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "jangan pernah main ps nya stick nya kentang,penjual tidak ramah dan memaksa untuk bermain 2 jam padahal kita cuma mau main 1 jam nya mahal 10 ribu padahal di tulisan nya cuma 5 ribu per jam",
       "teks_final": "jangan pernah main ps stick kentang penjual ramah memaksa bermain jam padahal cuma mau main jam mahal ribu padahal tulisan cuma ribu per jam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9943
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Memuaskan bascamp yang asyik",
       "teks_final": "memuaskan bascamp asyik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sangat ramai",
       "teks_final": "ramai",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9755
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Harganya terjangkau,tempat parkirnya luas,recommend sekali",
       "teks_final": "harganya terjangkau tempat parkirnya luas recommend",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Tempat nya nyaman ada fasilitas wifi nya",
       "teks_final": "tempat nyaman fasilitas wifi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9911
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Murah mntb tv nya besar dan psnya selalu update",
       "teks_final": "murah mntb tv besar psnya selalu update",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9911
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Sumpek",
       "teks_final": "sumpek",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.997
     }
   ]

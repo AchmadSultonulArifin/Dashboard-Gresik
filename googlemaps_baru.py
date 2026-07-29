@@ -512,6 +512,42 @@ def predict_sentiment(pipe, text: str) -> dict:
         return {"label": "Error", "score": 0.0}
 
 
+# ════════════════════════════════════════════════════════════════
+# KOREKSI SENTIMEN BERDASARKAN BINTANG
+# ════════════════════════════════════════════════════════════════
+# Model IndoBERT terkadang salah membaca teks ulasan pendek/ambigu
+# (misal: teks positif tapi diberi label "Negatif"). Fungsi ini
+# mengoreksi hasil model menggunakan rating bintang sebagai sinyal
+# tambahan yang lebih bisa dipercaya karena diisi langsung oleh user.
+#
+# Aturan:
+#   - Bintang 4 atau 5  -> kuat condong Positif.
+#                          Jika model bilang "Negatif", diubah jadi "Positif".
+#   - Bintang 1 atau 2  -> kuat condong Negatif.
+#                          Jika model bilang "Positif", diubah jadi "Negatif".
+#   - Bintang 3, 0, atau kosong/tidak valid -> tidak ada sinyal kuat,
+#                          hasil model dibiarkan apa adanya.
+# ════════════════════════════════════════════════════════════════
+
+def koreksi_dengan_bintang(label_model: str, bintang) -> str:
+    try:
+        bintang = int(bintang)
+    except (ValueError, TypeError):
+        return label_model
+
+    if bintang >= 4:
+        if label_model == "Negatif":
+            return "Positif"
+        return label_model
+    elif bintang <= 2 and bintang >= 1:
+        if label_model == "Positif":
+            return "Negatif"
+        return label_model
+    else:
+        # bintang == 3, atau bintang == 0 / tidak ada data
+        return label_model
+
+
 def load_indobert():
     print("\n🤖 Memuat model IndoBERT...")
     MODEL_NAME = "mdhugol/indonesia-bert-sentiment-classification"
@@ -630,6 +666,12 @@ def analisis_sentimen(pipe=None):
         df["sentimen"]       = [s["label"] for s in sentiments]
         df["sentimen_score"] = [s["score"] for s in sentiments]
 
+        # ── Koreksi sentimen berdasarkan bintang ──────────────
+        df["sentimen"] = [
+            koreksi_dengan_bintang(label, bintang)
+            for label, bintang in zip(df["sentimen"], df["Bintang"])
+        ]
+
         total_u = len(df)
         positif = int((df["sentimen"] == "Positif").sum())
         netral  = int((df["sentimen"] == "Netral").sum())
@@ -725,6 +767,12 @@ def process_per_tempat(results: list, pipe):
         sentiments           = [predict_sentiment(pipe, t) for t in df["teks_final"]]
         df["sentimen"]       = [s["label"] for s in sentiments]
         df["sentimen_score"] = [s["score"] for s in sentiments]
+
+        # ── Koreksi sentimen berdasarkan bintang ──────────────
+        df["sentimen"] = [
+            koreksi_dengan_bintang(label, bintang)
+            for label, bintang in zip(df["sentimen"], df["Bintang"])
+        ]
 
         total   = len(df)
         positif = int((df["sentimen"] == "Positif").sum())
@@ -913,20 +961,20 @@ if __name__ == "__main__":
         print("🚀 Menjalankan semua tahap pipeline...\n")
 
         # Tahap 1
-        # cari_tempat()
+        cari_tempat()
 
         # Tahap 2
-        #results = scrape_google_maps()
+        results = scrape_google_maps()
 
         # Tahap 3 — pakai process_per_tempat jika ada results dari scrape,
         # atau analisis_sentimen jika hanya perlu proses folder yang ada
-        #if results:
-            #pipe = load_indobert()
-            #process_per_tempat(results, pipe)
-        #else:
-            #analisis_sentimen()
+        if results:
+            pipe = load_indobert()
+            process_per_tempat(results, pipe)
+        else:
+            analisis_sentimen()
 
         # Tahap 4
-        #scan_output()
+        scan_output()
 
         print("\n🎉 Semua tahap selesai!")

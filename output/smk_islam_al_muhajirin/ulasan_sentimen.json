@@ -3,12 +3,12 @@
   "tempat": "SMK Islam Al-Muhajirin",
   "rating": 4,
   "total_ulasan": 8,
-  "positif": 2,
+  "positif": 4,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 25.0,
+  "negatif": 2,
+  "persen_positif": 50.0,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -29,7 +29,7 @@
       "Ulasan": "Buruk",
       "teks_final": "buruk",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "SMK Islam Al-Muhajirin depok akreditasi A, guru-guru nya baik, sekolah aman nyaman & islami..🙏",
       "teks_final": "smk islam al muhajirin depok akreditasi guru guru baik sekolah aman nyaman islami",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9563
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Insya allah anak saya bisa bergabung menimbah ilmu disini. Amin yra",
       "teks_final": "insya allah anak bergabung menimbah ilmu disini amin yra",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9023
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Alhamdulillah tempat yang menyenangkan untuk belajar ilmu komputer",
       "teks_final": "alhamdulillah tempat menyenangkan belajar ilmu komputer",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {

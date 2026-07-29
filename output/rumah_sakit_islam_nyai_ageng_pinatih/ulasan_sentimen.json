@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Islam Nyai Ageng Pinatih",
   "rating": 4.9,
   "total_ulasan": 24,
-  "positif": 1,
+  "positif": 22,
   "netral": 1,
-  "negatif": 22,
-  "persen_positif": 4.2,
+  "negatif": 1,
+  "persen_positif": 91.7,
   "persen_netral": 4.2,
-  "persen_negatif": 91.7,
+  "persen_negatif": 4.2,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sangat baik dan bijaksana",
       "teks_final": "baik bijaksana",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.978
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Tempat yang sangat nyaman , perawat nya baik dan dokter yang cepat tanggap",
       "teks_final": "tempat nyaman perawat baik dokter cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Saya rutin periksa ke dokter zayadi perawatan sesuai yang saya minta setiap kali kunjungan dan saya rasa senang sekali gigi saya seperti kayak baru lgi rasanya enteng enggak sakit lagi, dokter zayadi kalau meriksa enak sekali enggak ada rasa sakit pokoknya rekomen banget",
       "teks_final": "rutin periksa dokter zayadi perawatan sesuai minta setiap kali kunjungan rasa senang gigi seperti kayak lgi rasanya enteng enggak sakit dokter zayadi meriksa enak enggak rasa sakit pokoknya rekomen banget",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.993
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sangat puas dengan pelayananya",
       "teks_final": "puas pelayananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Terbaik",
       "teks_final": "terbaik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Assalamu'alaikum Alhamdulillah sudah beberapa kali ke poli gigi Dokter Zayadi. Beliau sangat ramah, penanganannya juga cepat dan teliti. Terimakasih dok  Untuk pelayanan RS nya juga ramah dan cepat.",
       "teks_final": "assalamu alaikum alhamdulillah beberapa kali poli gigi dokter zayadi beliau ramah penanganannya cepat teliti terimakasih dok pelayanan rumah sakit ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9563
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelaynan baik",
       "teks_final": "pelaynan baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9892
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "pelayananya 👍👍👍👍👍",
       "teks_final": "pelayananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9924
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "pelayanan sangat jelas dan informatif, sangat membantu untuk pasien yang baru pertama kali datang ke rumah sakit",
       "teks_final": "pelayanan jelas informatif membantu pasien pertama kali datang rumah sakit",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.858
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sangat baik sekali",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Rumah sakit pelayanan bagus ramah.",
       "teks_final": "rumah sakit pelayanan bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan baik dan rekomended",
       "teks_final": "pelayanan baik rekomended",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Perawatan gigi di dokter zayadi disambi sholawatan.  Joss,  ga sakit sama sekali.  Sangat rekomendasi sekali periksa gigi d dokter zayadi. Mantapp",
       "teks_final": "perawatan gigi dokter zayadi disambi sholawatan joss sakit sama rekomendasi periksa gigi dokter zayadi mantapp",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9835
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "RS bersih dan pelayanan sangat baik",
       "teks_final": "rumah sakit bersih pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9907
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan yang sangat bagus, mantapp. Lanjutkann",
       "teks_final": "pelayanan bagus mantapp lanjutkann",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanannya sangat baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Lamaaaaa",
       "teks_final": "lamaaaaa",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan sangat baik ..",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan baik, rawat inap juga bagus",
       "teks_final": "pelayanan baik rawat inap bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Saya periksa ke dokter gigi Ahmad Zayadi sudah lama dan udah langganan lama. Dokter Zayadi kalau nyabut gigi tidak sakit enak diajak konsultasi. Pokoknya intinya terbaik lah dan rekomendasi banget 🥰",
       "teks_final": "periksa dokter gigi ahmad zayadi lama udah langganan lama dokter zayadi nyabut gigi sakit enak diajak konsultasi pokoknya intinya terbaik rekomendasi banget",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Penaganan cepat dan ramah.. Proses mudah..",
       "teks_final": "penaganan cepat ramah proses mudah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9497
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Terima kasih rs nyai aging pinatih , 21 hari yang lalu saya lahiran di sana , Alhamdulillah pelayanannya saya suka sekali , dan menangani nya juga gercep , dari perawat saat inap , pelayanan pengantar makanan , pelayan tensi dan smuanya ramah2 , trimksihh juga buat dokter wulan sudah mendampingi proses persalinan , Setelah pasien pulang pun ada tim bidan yang  mengecek kondisi ibu stelah bersalin , masyallah bgt bener2 pelayanannya trimksih yA Semoga sukses rs nya makin maju , smpai ketemuu lgi ,semoga klo hamil lgi bakal usg rutin di rs Pinatih,",
       "teks_final": "terima kasih rumah sakit nyai aging pinatih hari lalu lahiran sana alhamdulillah pelayanannya suka menangani gercep perawat inap pelayanan pengantar makanan pelayan tensi smuanya ramah2 trimksihh buat dokter wulan mendampingi proses persalinan pasien pulang tim bidan mengecek kondisi ibu stelah bersalin masyallah banget bener2 pelayanannya trimksih ya semoga sukses rumah sakit makin maju smpai ketemuu lgi semoga hamil lgi bakal usg rutin rumah sakit pinatih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9863
     }
   ]

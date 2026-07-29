@@ -3,12 +3,12 @@
   "tempat": "Bank BRI Unit Balongpanggang",
   "rating": 3.4,
   "total_ulasan": 20,
-  "positif": 10,
+  "positif": 7,
   "netral": 5,
-  "negatif": 5,
-  "persen_positif": 50.0,
+  "negatif": 8,
+  "persen_positif": 35.0,
   "persen_netral": 25.0,
-  "persen_negatif": 25.0,
+  "persen_negatif": 40.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan nya keren 😍",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Mantap. Semakin perbaikan pelayanan.",
       "teks_final": "bagus semakin perbaikan pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9855
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tolong dipercepat dalam pelayanan, saya buka rekening baru aja 3 jam🙏🏼 Udah m bangking belum terdaftar sudah disuruh munddur dari CS nya, disuruh tunggu dirumah. Ini sampek rumah ya gabakalan bisalah!",
       "teks_final": "tolong dipercepat pelayanan buka rekening aja jam udah bangking terdaftar disuruh munddur cs disuruh tunggu dirumah sampek rumah ya gabakalan bisalah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9245
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kurang ramah dalam pelayanan terhadap nasabah, satpam tidak mematuhi protokol kesehatan tapi giliran nasabah tidak menggunakan masker di tegur dengan tidak sopan, tolong diperbaiki, terimakasih",
       "teks_final": "kurang ramah pelayanan terhadap nasabah satpam mematuhi protokol kesehatan giliran nasabah menggunakan masker tegur sopan tolong diperbaiki terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9908
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan sangat buruk, apalagi satpamnya seperti tidak punya etika bicara dgn pelanggan. Mungkin perlu di lakukan servis excellent. Pelayanan jauh dgn bank BRI yg ada di pusat kota👎👎👎",
       "teks_final": "pelayanan buruk apalagi satpamnya seperti punya etika bicara pelanggan mungkin perlu lakukan servis excellent pelayanan jauh bank bri pusat kota",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9944
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan customer servis yang sangat lambat sehingga waktu saya terbuang sia2 hanya menunggu di tempat ini..! Mohon di tingkatkan lagi untuk masalah pelayanannya.....",
       "teks_final": "pelayanan customer servis lambat sehingga waktu terbuang sia2 hanya menunggu tempat mohon tingkatkan masalah pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9945
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "sangat buruk. not recomended lah. ATM setor tunai sering gak fungsi. Tombol2 nya juka keras. rawan salah pin",
       "teks_final": "buruk not recomended atm setor tunai sering fungsi tombol2 juka keras rawan salah pin",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9961
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Senin, 17 Juni 2019. Pelayanan sangat lambat dalam pengurusan rekening baru dan saya menghabiskan sebagian besar waktu saya di sini. Mungkin dikarenakan pegawai masih baru. Seharusnya staff senior ada dan membimbing pegawainya yg baru. Mohon kedepannya lebih baik lagi",
       "teks_final": "senin juni pelayanan lambat pengurusan rekening menghabiskan sebagian besar waktu sini mungkin dikarenakan pegawai seharusnya staff senior membimbing pegawainya mohon kedepannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9689
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Bank BRI Unit Balongpanggang, selalu rame Dan rame, baik itu Bank nya atau ATM nya, tapi sekarang sudah lumayan Karena jumlah ATM nya ditambah, Ada sekitar 4 buah ATM namun masih saja antri Dan antri, untuk parkir kendaraan cukup luas lah, tersedia untuk roda 4 Dan roda 2.",
       "teks_final": "bank bri unit balongpanggang selalu rame rame baik bank atm sekarang lumayan jumlah atm ditambah sekitar buah atm saja antrian antrian parkir kendaraan cukup luas tersedia roda roda",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.991
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Bagus cepat",
       "teks_final": "bagus cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan lambat, nasabahnya banyak tapi tidak diimbangi dengan tempat yg kurang luas.",
       "teks_final": "pelayanan lambat nasabahnya banyak diimbangi tempat kurang luas",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {

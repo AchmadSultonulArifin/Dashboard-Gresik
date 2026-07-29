@@ -3,12 +3,12 @@
   "tempat": "RSUD Gresik Sehati",
   "rating": 4.9,
   "total_ulasan": 25,
-  "positif": 3,
+  "positif": 15,
   "netral": 10,
-  "negatif": 12,
-  "persen_positif": 12.0,
+  "negatif": 0,
+  "persen_positif": 60.0,
   "persen_netral": 40.0,
-  "persen_negatif": 48.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya cepat, dokter dan perawatnya ramah",
       "teks_final": "pelayanannya cepat dokter perawatnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "baru berdiri, sudah mulai rame. mantap",
       "teks_final": "berdiri mulai rame bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Rumah sakit nya keren petugas ramah pelayanan oke🥰",
       "teks_final": "rumah sakit bagus petugas ramah pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Puji syukur, sudah ada RSUD di kedamaian, uda banyak perumahan baru juga disekitar nya, \"Setulus hati melayani\" 🙏🙏",
       "teks_final": "puji syukur rsud kedamaian uda banyak perumahan disekitar setulus hati melayani",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9617
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "RS baru di Gresik Selatan.....Smg bs berproses lebih baik dan memiliki progress yang bagus untuk bisa memberikan pelayanan kesehatan terutama kepada masyarakat sekitar.",
       "teks_final": "rumah sakit gresik selatan smg bs berproses baik memiliki progress bagus memberikan pelayanan kesehatan terutama kepada masyarakat sekitar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.856
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Rs dg kepedulian dan kekeluargaan yg tinggi. Terimakasih untuk peran dan kepedulian dari semua lini di rs gresik sehati. Semoga rsud gresik sehati semakin solid dan semakin memberi kontribusi baik dalam pelayanan kesehatan.",
       "teks_final": "rumah sakit kepedulian kekeluargaan tinggi terimakasih peran kepedulian semua lini rumah sakit gresik sehati semoga rsud gresik sehati semakin solid semakin memberi kontribusi baik pelayanan kesehatan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9454
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "pelayanannya baik semua petugasnya cepat dan tanggap, juli kmrin dtg skitar jam 3 subuh ke bagian IGD mulai dri sekuriti smpai pegawainya langsung sigap membantu semoga kedepannya untuk dokter dan fasilitasnya bisa cepat dilengkapi dan kmrin ternyata bisa pake bpjs tpi harap sabar krna masih baru jdi mngkin tidak secepat RS lainnya",
       "teks_final": "pelayanannya baik semua petugasnya cepat tanggap juli kmrin dtg skitar jam subuh bagian igd mulai dri sekuriti smpai pegawainya langsung sigap membantu semoga kedepannya dokter fasilitasnya cepat dilengkapi kmrin ternyata pake bpjs harap sabar krna jdi mngkin secepat rumah sakit lainnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9886
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Semoga RSGS membawa manfaat untuk melayani dan menolong warga sekitar 😇",
       "teks_final": "semoga rsgs membawa manfaat melayani menolong warga sekitar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.935
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Petugas nya ramah, lingkungan nya asri bebas polusi",
       "teks_final": "petugas ramah lingkungan asri bebas polusi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanan IGD bagus, enak diajak komunikasi, cepat tepat waktu jam 7 sudah mulai pelayanan sehingga peserta tertib pelaksanaan lancar, petugas ramah dan sopan.kedepanya semoga cepat kerja sama dengan BPJS",
       "teks_final": "pelayanan igd bagus enak diajak komunikasi cepat tepat waktu jam mulai pelayanan sehingga peserta tertib pelaksanaan lancar petugas ramah sopan kedepanya semoga cepat kerja sama bpjs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "pelayanan ramah sat set terimakasih pegawai rsgs",
       "teks_final": "pelayanan ramah sat set terimakasih pegawai rsgs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9713
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Rumah sakit baru wilayah selatan, dokter spesialisnya baik-baik dan ramah dalam pelayanan 👍🏻",
       "teks_final": "rumah sakit wilayah selatan dokter spesialisnya baik baik ramah pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9788
     }
   ]

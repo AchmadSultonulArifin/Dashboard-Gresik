@@ -3,12 +3,12 @@
   "tempat": "Praktek Mandiri Ners. Aris Nasution. Cht",
   "rating": 5,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 2,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Dokter Aris Ramah sekali dan enak di ajak konsultasi..",
       "teks_final": "dokter aris ramah enak ajak konsultasi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9578
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Recomendet",
       "teks_final": "recomendet",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     }
   ]

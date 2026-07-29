@@ -3,12 +3,12 @@
   "tempat": "Kantor Kelurahan Karangturi",
   "rating": 4.2,
   "total_ulasan": 6,
-  "positif": 1,
+  "positif": 5,
   "netral": 1,
-  "negatif": 4,
-  "persen_positif": 16.7,
+  "negatif": 0,
+  "persen_positif": 83.3,
   "persen_netral": 16.7,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan Ramah, suku cadang Lengakap bisa indent sparepart langka....",
       "teks_final": "pelayanan ramah suku cadang lengakap indent sparepart langka",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8521
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sejuk",
       "teks_final": "sejuk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Mantul",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {

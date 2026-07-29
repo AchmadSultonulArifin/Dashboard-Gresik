@@ -3,12 +3,12 @@
   "tempat": "klinik kamila sembayat",
   "rating": 4.6,
   "total_ulasan": 29,
-  "positif": 0,
+  "positif": 27,
   "netral": 2,
-  "negatif": 27,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 93.1,
   "persen_netral": 6.9,
-  "persen_negatif": 93.1,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayan baik petugas ramah",
       "teks_final": "pelayan baik petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9872
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "SDH baik pelayanan ny",
       "teks_final": "baik pelayanan ny",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9935
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Petugas pendaftaran baik,dokter gigi ramah",
       "teks_final": "petugas pendaftaran baik dokter gigi ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9221
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Petugas ramah sekali",
       "teks_final": "petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "pelayanan bagus saya dibntu pendaftrn jkn ke r s",
       "teks_final": "pelayanan bagus dibntu pendaftrn jkn",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Ok bagus",
       "teks_final": "oke bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9869
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Petugasnya baik baik",
       "teks_final": "petugasnya baik baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9643
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bagus. Pelayanannya ramah dan cepat",
       "teks_final": "bagus pelayanannya ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sudah bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan dokter gigi bagus",
       "teks_final": "pelayanan dokter gigi bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Petugas ny ramah2",
       "teks_final": "petugas ny ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan dan petugas baik",
       "teks_final": "pelayanan petugas baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Alhamdulillah pelayanan baik",
       "teks_final": "alhamdulillah pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "petugasnya baik dan ramah, tempatnya bersih",
       "teks_final": "petugasnya baik ramah tempatnya bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan yang ramah dan memuaskan, dokter juga enak dalam menjelaskan",
       "teks_final": "pelayanan ramah memuaskan dokter enak menjelaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanannya ramah, petugasnya komunikatif. Untuk berobat umum dan cek kesehatan dasar pakai BPJS cukup membantu dan tidak ribet. Konsultasi dengan Dokternya juga jelas.",
       "teks_final": "pelayanannya ramah petugasnya komunikatif berobat umum cek kesehatan dasar pakai bpjs cukup membantu ribet konsultasi dokternya jelas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Wes apik pelayanane",
       "teks_final": "wes apik pelayanane",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9599
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan memuaskan. Dokternya ramah dan penjelasannya dapat dipahami. Perawat dan petugas farmasinya juga ramah",
       "teks_final": "pelayanan memuaskan dokternya ramah penjelasannya dipahami perawat petugas farmasinya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanannya enak, cepat dan mudah Dokter nya juga luwes dan jelas dalam penjelasan",
       "teks_final": "pelayanannya enak cepat mudah dokter luwes jelas penjelasan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan sdh bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Pekerjanya ramah, sigap, dan profesional",
       "teks_final": "pekerjanya ramah sigap profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9934
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Pelayanan nya bagus, perawat ramah, dokter nya juga menjelaskan dengan jelas dan sabar",
       "teks_final": "pelayanan bagus perawat ramah dokter menjelaskan jelas sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9917
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     }
   ]

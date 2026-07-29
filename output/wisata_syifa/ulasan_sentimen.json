@@ -3,12 +3,12 @@
   "tempat": "Wisata Syifa",
   "rating": 4.4,
   "total_ulasan": 16,
-  "positif": 6,
+  "positif": 12,
   "netral": 1,
-  "negatif": 9,
-  "persen_positif": 37.5,
+  "negatif": 3,
+  "persen_positif": 75.0,
   "persen_netral": 6.2,
-  "persen_negatif": 56.2,
+  "persen_negatif": 18.8,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -51,7 +51,7 @@
       "Ulasan": "Bagus tempatnya",
       "teks_final": "bagus tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "tempat isata sederhna  namun nyaman",
       "teks_final": "tempat isata sederhna nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Liburan bersama keluarga, fasilitas lengkap banyak fasilitas umum yg tersedia, tenang makanan juga banyak disini cocok buat liburan bersama keluarga.",
       "teks_final": "liburan bersama keluarga fasilitas lengkap banyak fasilitas umum tersedia tenang makanan banyak disini cocok buat liburan bersama keluarga",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Kurang menarik, serta tidak ada wahana yg baru serta kurangnya perawatan wisata",
       "teks_final": "kurang menarik serta wahana serta kurangnya perawatan wisata",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9894
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Alhamdulillah",
       "teks_final": "alhamdulillah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Wisata Alam👍",
       "teks_final": "wisata alam",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Tempat yg cocok untuk melepaskan lelah",
       "teks_final": "tempat cocok melepaskan lelah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pantai Syifa",
       "teks_final": "pantai syifa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9689
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pengunjung wisata Syifa terjadi kemunduran.dimungkinkan banyak bermunculan wisata wisata yg baru",
       "teks_final": "pengunjung wisata syifa terjadi kemunduran dimungkinkan banyak bermunculan wisata wisata",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6779
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Bagus indah natural mangruf inspiratif",
       "teks_final": "bagus indah natural mangruf inspiratif",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     }
   ]

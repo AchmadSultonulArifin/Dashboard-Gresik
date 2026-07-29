@@ -3,12 +3,12 @@
   "tempat": "kantor Kelurahan Singosari",
   "rating": 4.6,
   "total_ulasan": 3,
-  "positif": 0,
+  "positif": 2,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan baik banget Mbak pelayanannya ramah banget udah cantik baik ramah jujur juga, perfect banget Semoga rejeki mbak nya lancar karir nya naik, tolong pihak yg terkait mbaknya kasi privilege dong, org dengan kejujuran dan integritas harus di junjung tinggi",
       "teks_final": "pelayanan baik banget mbak pelayanannya ramah banget udah cantik baik ramah jujur perfect banget semoga rejeki mbak lancar karir naik tolong pihak terkait mbaknya kasi privilege org kejujuran integritas harus junjung tinggi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9815
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Dua kali ikut vaksin covid 19 di tempat ini. Tempatnya luas bagus dan juga petugasnya ramah ramah.",
       "teks_final": "dua kali ikut vaksin covid tempat tempatnya luas bagus petugasnya ramah ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     }
   ]

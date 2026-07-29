@@ -3,12 +3,12 @@
   "tempat": "Dinas Pemberdayaan Masyarakat dan Desa Kabupaten Gresik",
   "rating": 4.9,
   "total_ulasan": 10,
-  "positif": 0,
+  "positif": 9,
   "netral": 1,
-  "negatif": 9,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 90.0,
   "persen_netral": 10.0,
-  "persen_negatif": 90.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pengalaman berkunjung ke kantor Dinas PMD sangat positif. Petugas melayani dengan sopan, sabar, dan memberikan penjelasan yang mudah dipahami. Terima kasih atas pelayanannya.",
       "teks_final": "pengalaman berkunjung kantor dinas pmd positif petugas melayani sopan sabar memberikan penjelasan mudah dipahami terima kasih atas pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9344
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Memberikan fasilitas yang baik dan sangat membantu untuk segala urusan terkait desa yang ada di Kabupaten Gresik",
       "teks_final": "memberikan fasilitas baik membantu segala urusan terkait desa kabupaten gresik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6357
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Gedungnya baru, toiletnya bersih, dan pelayanan informasi nya cepat dan tanggap",
       "teks_final": "gedungnya toiletnya bersih pelayanan informasi cepat tanggap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Semua permasalahan dan keluhan yang berkaitan dengan desa bisa teratasi dengan baik dan mendapatakan solusi yang solutif oleh pegawai di dinas ini",
       "teks_final": "semua permasalahan keluhan berkaitan desa teratasi baik mendapatakan solusi solutif pegawai dinas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5564
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "mantep",
       "teks_final": "mantep",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan cepat dan ramah, ada fasilitas koperasi dan juga wifi",
       "teks_final": "pelayanan cepat ramah fasilitas koperasi wifi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9836
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Wonge ramah2 dan murah senyum, segala informasi pasti dijelaskan dengan baik",
       "teks_final": "wonge ramah2 murah senyum segala informasi pasti dijelaskan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "kantor bersih ,pelayanan ramah dan cepat",
       "teks_final": "kantor bersih pelayanan ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "PETUGASNYA RAMAH ,PELAYANANNYA CEPAT, KANTOR BERSIH, TOP DEH,,,",
       "teks_final": "petugasnya ramah pelayanannya cepat kantor bersih top",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     }
   ]

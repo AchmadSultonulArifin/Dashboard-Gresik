@@ -3,12 +3,12 @@
   "tempat": "Klinik Satelit Kalimantan",
   "rating": 4.1,
   "total_ulasan": 18,
-  "positif": 3,
+  "positif": 15,
   "netral": 1,
-  "negatif": 14,
-  "persen_positif": 16.7,
+  "negatif": 2,
+  "persen_positif": 83.3,
   "persen_netral": 5.6,
-  "persen_negatif": 77.8,
+  "persen_negatif": 11.1,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanannya bagus semua staff bisa terjun di satu layanan ke layanan yang lain. terutama di bagian satpam dan petugas pendaftaran, satpam saja bisa mendaftarkan ini keren patut di pertahankan–juga saya pernah dibantu mas satpamnya dari tidak punya akun mobile jkn sampai saya bisa mendapatkan antrian online. ✨👍  namun sangat disayangkan untuk panggilan dokter/poli sangat lama sekali, daftar jam 07.30 dipanggil 09.35. di ugd juga sering petugasnya ketawa2 padahal ada yang sakit. sepertinya yang harus jadi perhatian dari manajemen adalah petugas bagian poli dan ugd.",
       "teks_final": "pelayanannya bagus semua staff terjun satu layanan layanan lain terutama bagian satpam petugas pendaftaran satpam saja mendaftarkan bagus patut pertahankanjuga pernah dibantu mas satpamnya punya akun mobile jkn sampai mendapatkan antrian online disayangkan panggilan dokter poli lama daftar jam dipanggil ugd sering petugasnya ketawa2 padahal sakit sepertinya harus jadi perhatian manajemen petugas bagian poli ugd",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7247
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "puas pelayanannya sangat baik",
       "teks_final": "puas pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Menurut saya sudah baik pelayanan nya",
       "teks_final": "menurut baik pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8938
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Di sini antrian poli umum BPJS kurang terorganisir jadi pasti lama nunggunya dan kurang efektif ,apalagi saat dokter sedang istirahat,tidak ada pemberitahuan sama sekali ke pasien,sehingga pasien menunggu dengan tidak jelas",
       "teks_final": "sini antrian poli umum bpjs kurang terorganisir jadi pasti lama nunggunya kurang efektif apalagi dokter sedang istirahat pemberitahuan sama pasien sehingga pasien menunggu jelas",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9827
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Promo pembersihan karang gigi dengan dokter arinil,sangat nyaman dan mantab",
       "teks_final": "promo pembersihan karang gigi dokter arinil nyaman mantab",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9911
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan ramah, sukses selalu klinik satelit kalimantan!!!!",
       "teks_final": "pelayanan ramah sukses selalu klinik satelit kalimantan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9885
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Semoga semakin sukses, kakak\"nya tetap ramah, bermanfaat bagi masyarakat",
       "teks_final": "semoga semakin sukses kakak tetap ramah bermanfaat bagi masyarakat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9622
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan ramah, cepat dan profesional",
       "teks_final": "pelayanan ramah cepat profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Klinik satelit pelayanan lebih baik",
       "teks_final": "klinik satelit pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9899
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Harganya nya terjangkau",
       "teks_final": "harganya terjangkau",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanannya oke",
       "teks_final": "pelayanannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "pelayanan makin bagus",
       "teks_final": "pelayanan makin bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan sudah baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Kemarin periksa kesini dan di injeksi,,pas penyuntikan terjadi kesalahan,,jadi pembuluh darah pecah dan bengkak,udah seminggu masih sakit,,dan sebelumnya disuruh datang kembali kalo masih sakit,,,pas datang kembali ternyata ada biaya lagi,beli obat lagi,,,saya kira ada pertanggung jawaban,ternyata tidak,,okelah jika itu tidak ada,,saya masih mampu untuk bayar,tapi udah males,,karena perkataan dokternya,kita datang berobat biar sembuh,oke sakitnya sembuh ,,tapi ganti sakit karena kesalahan tadi,,,dan dokternya bilang ya itu resiko,,,lahhhh?????? masak orang sakit datang  berobat biar sembuh malah di suruh nanggung resiko",
       "teks_final": "kemarin periksa kesini injeksi pas penyuntikan terjadi kesalahan jadi pembuluh darah pecah bengkak udah seminggu sakit sebelumnya disuruh datang kembali kalo sakit pas datang kembali ternyata biaya beli obat kira pertanggung jawaban ternyata okelah mampu bayar udah males perkataan dokternya datang berobat biar sembuh oke sakitnya sembuh ganti sakit kesalahan tadi dokternya bilang ya resiko lahhhh masak orang sakit datang berobat biar sembuh malah suruh nanggung resiko",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9945
     }
   ]

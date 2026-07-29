@@ -3,12 +3,12 @@
   "tempat": "GOR Ambeng Ambeng Watangrejo",
   "rating": 4.4,
   "total_ulasan": 3,
-  "positif": 2,
+  "positif": 3,
   "netral": 0,
-  "negatif": 1,
-  "persen_positif": 66.7,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 33.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -40,7 +40,7 @@
       "Ulasan": "Gedung olahraga serbaguna, fasilitas nya cukup mumpuni.  Bisa disewa untuk acara pesta pernikahan",
       "teks_final": "gedung olahraga serbaguna fasilitas cukup mumpuni disewa acara pesta pernikahan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9711
     }
   ]

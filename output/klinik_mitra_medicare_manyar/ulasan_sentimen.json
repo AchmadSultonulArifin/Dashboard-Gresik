@@ -3,12 +3,12 @@
   "tempat": "klinik mitra medicare manyar",
   "rating": 4.8,
   "total_ulasan": 16,
-  "positif": 0,
+  "positif": 14,
   "netral": 2,
-  "negatif": 14,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 87.5,
   "persen_netral": 12.5,
-  "persen_negatif": 87.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Staff dan dokternya ramah dan best banget sama pasien",
       "teks_final": "staff dokternya ramah best banget sama pasien",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Awalnya faskes bpjs ku di mmc suci, tp bulan kemaren periksa ke mmc manyar karna darurat dan yg paling deket dr kos, ternyata di sini nakes nya ramah bgttt, beda sama nakes di mmc suci yg judes poll Tanpa berpikir panjang pindah faskes di mmc mayar deh",
       "teks_final": "awalnya faskes bpjs ku mmc suci bulan kemaren periksa mmc manyar karna darurat paling deket kos ternyata sini nakes ramah bgttt beda sama nakes mmc suci judes poll tanpa berpikir panjang pindah faskes mmc mayar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7389
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan Ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan bagus, dokter dan perawat nya ramah2😊",
       "teks_final": "pelayanan bagus dokter perawat ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Tempatnya bersih nyaman pelayanan nya juga ramah",
       "teks_final": "tempatnya bersih nyaman pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan Baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan baik, petugas e ramah² 👍👍👍👍👍",
       "teks_final": "pelayanan baik petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan memuaskan ramah ramah petugasnya",
       "teks_final": "pelayanan memuaskan ramah ramah petugasnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan cepat, ramah dan tempat nyaman",
       "teks_final": "pelayanan cepat ramah tempat nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sangat membantu dan pelayanan sangat ramah",
       "teks_final": "membantu pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan oke",
       "teks_final": "pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     }
   ]

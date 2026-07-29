@@ -3,12 +3,12 @@
   "tempat": "Stadion Gelora Joko Samudro (GJS)",
   "rating": 4.4,
   "total_ulasan": 10,
-  "positif": 2,
+  "positif": 8,
   "netral": 2,
-  "negatif": 6,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 80.0,
   "persen_netral": 20.0,
-  "persen_negatif": 60.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Bersih mlm lampu terang luar parkirnya rapi",
       "teks_final": "bersih mlm lampu terang luar parkirnya rapi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Stadion Bagus, Rumput Enak, Gejos JosJis bolo!",
       "teks_final": "stadion bagus rumput enak gejos josjis bolo",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9907
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "kereen",
       "teks_final": "kereen",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9915
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sarananya oke",
       "teks_final": "sarananya oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Alhamdulillah",
       "teks_final": "alhamdulillah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Ada warkop lesehan depan gelora meet pagar, mantap kopinya joss",
       "teks_final": "warkop lesehan depan gelora meet pagar bagus kopinya joss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     }
   ]

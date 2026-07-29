@@ -3,12 +3,12 @@
   "tempat": "RSUD Ibnu Sina Gresik",
   "rating": 4.2,
   "total_ulasan": 29,
-  "positif": 2,
+  "positif": 26,
   "netral": 2,
-  "negatif": 25,
-  "persen_positif": 6.9,
+  "negatif": 1,
+  "persen_positif": 89.7,
   "persen_netral": 6.9,
-  "persen_negatif": 86.2,
+  "persen_negatif": 3.4,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Alhamdulillah selama berobat di Ibnu Sina proses cepat dan pelayanan baik sekali,sukses selalu untuk akreditasi yg akan datang.sukses paripurna.",
       "teks_final": "alhamdulillah selama berobat ibnu sina proses cepat pelayanan baik sukses selalu akreditasi datang sukses paripurna",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9859
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Rs yang sangat recomended,pelayanan terbaik..dokter dan perawat,cepat tanggap dan sangat kekeluargaan.",
       "teks_final": "rumah sakit recomended pelayanan terbaik dokter perawat cepat tanggap kekeluargaan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Klinik psikologi baik",
       "teks_final": "klinik psikologi baik",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Alhamdulillah  suami berada di R.Dahlia.. pelayanan  sangat bagus, memuaskan ,ramah, sabar,  dan ruangan bersih... Terimakasih buat petugas R.Dahlia👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾",
       "teks_final": "alhamdulillah suami berada dahlia pelayanan bagus memuaskan ramah sabar ruangan bersih terimakasih buat petugas dahlia",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9882
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Terima kasih ruang dahlia tempat nya bersih dan nyaman.. 🙏🙏",
       "teks_final": "terima kasih ruang dahlia tempat bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9915
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "puas untuk pelayanannya Terimakasih",
       "teks_final": "puas pelayanannya terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Perawat maupun dokter cara menangani nya disini baik dan ramah",
       "teks_final": "perawat maupun dokter cara menangani disini baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7111
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sangat bagus pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Terima kasih atas pelayanan diruang dahlia terhadap ibu saya kamarnya dingin dan nyaman",
       "teks_final": "terima kasih atas pelayanan diruang dahlia terhadap ibu kamarnya dingin nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9793
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Dokter dan perawat semua baik dan ramah2. Terima kasih sudah memberikan pelayanan yg baik.",
       "teks_final": "dokter perawat semua baik ramah2 terima kasih memberikan pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.987
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Terima kasih buat perawat ruang dahlia yang ramah dan baik2",
       "teks_final": "terima kasih buat perawat ruang dahlia ramah baik2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8137
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Terima kasih atas perawatan diruang dahlia perawat sama dokternya baik2 .ruangannya dingin dan nyaman",
       "teks_final": "terima kasih atas perawatan diruang dahlia perawat sama dokternya baik2 ruangannya dingin nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9783
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "perawatnya cukup rama, ruangnya cukup nyaman",
       "teks_final": "perawatnya cukup rama ruangnya cukup nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9921
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Baik sangat baik cukup bersih dan nyaman",
       "teks_final": "baik baik cukup bersih nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.956
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan sangat baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Baik smua. Perawat juga perhatian n baik..terima kasih banyk smua perawat",
       "teks_final": "baik smua perawat perhatian baik terima kasih banyk smua perawat",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6431
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Terimakasih Ibnu Sina diruang Dahlia pelayanan slalu menyenangkan, kebersihan terjaga",
       "teks_final": "terimakasih ibnu sina diruang dahlia pelayanan slalu menyenangkan kebersihan terjaga",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9871
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Terima kasih atas pelayanan ruang Dahlia atas perawatan bapak saya perawatnya baik2 makasih Ibnu sina",
       "teks_final": "terima kasih atas pelayanan ruang dahlia atas perawatan bapak perawatnya baik2 makasih ibnu sina",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6055
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Untuk kamar dahlia tempatnya nyaman dan pelayanannya bagus",
       "teks_final": "kamar dahlia tempatnya nyaman pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Saat saya di rawat di rs ibnu sina terutama di ruangan dahlia pelayanan.nya sangat bagus dokter dan perawatnya pun sangat ramah terhadap pasien .",
       "teks_final": "rawat rumah sakit ibnu sina terutama ruangan dahlia pelayanan bagus dokter perawatnya ramah terhadap pasien",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "ruang an dahlia sangat nyaman dan bersih",
       "teks_final": "ruang an dahlia nyaman bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9915
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Terima kasih atas perawatan suami saya diruang Dahlia perawat dan dokter ramah 2",
       "teks_final": "terima kasih atas perawatan suami diruang dahlia perawat dokter ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9196
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Ruang dahlia sangat bagus dan nyaman perawatnya respon baik dan sopan pokoknya topp",
       "teks_final": "ruang dahlia bagus nyaman perawatnya respon baik sopan pokoknya topp",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Ruang Dahlia nyaman perawatannya bagus",
       "teks_final": "ruang dahlia nyaman perawatannya bagus",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "SMK Nurul Islam Gresik",
   "rating": 4.7,
   "total_ulasan": 20,
-  "positif": 5,
+  "positif": 14,
   "netral": 0,
-  "negatif": 15,
-  "persen_positif": 25.0,
+  "negatif": 6,
+  "persen_positif": 70.0,
   "persen_netral": 0.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 30.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Hadi elek kick aja sok alim",
       "teks_final": "hadi elek kick aja sok alim",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9973
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sekolah Anti kritik,muridnya semua disuruh rating bintang 5 kualitas bintang 1😂",
       "teks_final": "sekolah anti kritik muridnya semua disuruh rating bintang kualitas bintang",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9941
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "sekolah nub hama",
       "teks_final": "sekolah nub hama",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9608
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Menurut saya pribadi disekolah ini jurusan yang bagus itu teknik instalasi tenaga listrik dan perkantoran,untuk teknik mesinnya alat\"nya sudah memadai,tetapi ada salah satu guru dari teknik permesinan yang menurutku bermasalah dan sangat tidak cocok menjadi teladan untuk murid\"nya,saranku sih segera pensiunkan guru tersebut/ganti dengan guru yang lain saja",
       "teks_final": "menurut pribadi disekolah jurusan bagus teknik instalasi tenaga listrik perkantoran teknik mesinnya alat memadai salah satu guru teknik permesinan menurutku bermasalah cocok menjadi teladan murid saranku segera pensiunkan guru tersebut ganti guru lain saja",
       "topik": "Administrasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9757
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sekolah pusat keunggulan",
       "teks_final": "sekolah pusat keunggulan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9666
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "SMK Nurul Islam keren",
       "teks_final": "smk nurul islam bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9902
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sekolah kejuruan yg sangat kompeten",
       "teks_final": "sekolah kejuruan kompeten",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9793
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sekolah nya nyaman dan asri",
       "teks_final": "sekolah nyaman asri",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Saya senang sekolah di smk nuris karna banyak teman",
       "teks_final": "senang sekolah smk nuris karna banyak teman",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.991
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Saya cinta dengan sekolahan smk nurul islam",
       "teks_final": "cinta sekolahan smk nurul islam",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.974
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sekolahan yg luar biasa, menarik dan bisa mendapatkan lebih banyak teman dari sekolah sini dan anak² disini juga baik².",
       "teks_final": "sekolahan luar biasa menarik mendapatkan banyak teman sekolah sini anak disini baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sekolah an nya bagus Aku rekomendasikan kalian untuk mendaftar sekolah disini",
       "teks_final": "sekolah an bagus aku rekomendasikan kalian mendaftar sekolah disini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9829
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Saya sekolah di sini dan saya sangat senang belajar teknik mesin",
       "teks_final": "sekolah sini senang belajar teknik mesin",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.99
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Saya senang sekolah di SMK Nurul Islam jurus tekin mesin",
       "teks_final": "senang sekolah smk nurul islam jurus tekin mesin",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9425
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Saya seneng sekolah di sini ☺",
       "teks_final": "seneng sekolah sini",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "No coment",
       "teks_final": "no coment",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.976
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "sekolahannya bagus, nyaman, fasilitasnya baik, best pokoknya",
       "teks_final": "sekolahannya bagus nyaman fasilitasnya baik best pokoknya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Sekolah yang baguss😍😍",
       "teks_final": "sekolah baguss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9934
     }
   ]

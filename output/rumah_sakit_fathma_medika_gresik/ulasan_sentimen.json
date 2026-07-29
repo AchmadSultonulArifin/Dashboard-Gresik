@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Fathma Medika Gresik",
   "rating": 4.3,
   "total_ulasan": 26,
-  "positif": 2,
+  "positif": 22,
   "netral": 1,
-  "negatif": 23,
-  "persen_positif": 7.7,
+  "negatif": 3,
+  "persen_positif": 84.6,
   "persen_netral": 3.8,
-  "persen_negatif": 88.5,
+  "persen_negatif": 11.5,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Trimakasi",
       "teks_final": "trimakasi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8655
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Terimakasih buat RS nyaa",
       "teks_final": "terimakasih buat rumah sakit nyaa",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.946
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Periksa di dr. Rio Obsatrya, dokternya baik, sabar, memuaskan, penjelasannya mendetail",
       "teks_final": "periksa rio obsatrya dokternya baik sabar memuaskan penjelasannya mendetail",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6683
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan Bagus dan Ramah dr.Anggrainy sangat sabar TERIMA KASIH",
       "teks_final": "pelayanan bagus ramah anggrainy sabar terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9843
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pengalaman periksa gigi  disini sama Dokter Jayanti Rosa pelayananya baik dokternya juga ramah.. kemudahan penggunaan Bpjs juga.. Terimakasih 🙏",
       "teks_final": "pengalaman periksa gigi disini sama dokter jayanti rosa pelayananya baik dokternya ramah kemudahan penggunaan bpjs terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9458
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tempat nya bersih perawat nya ramah",
       "teks_final": "tempat bersih perawat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "pelayanan bagus, cepat ..perawatnya ramah, rawat inap juga mudah pakai bpjs..",
       "teks_final": "pelayanan bagus cepat perawatnya ramah rawat inap mudah pakai bpjs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Rumah sakit ini pelayanannya sangat baik. Di Hesti juga sangaaat....baik",
       "teks_final": "rumah sakit pelayanannya baik hesti sangaaat baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Rumah sakit nya Bersih,perawat nya baik² dan Ramah",
       "teks_final": "rumah sakit bersih perawat baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9852
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan cukup baik, semua staff ramah mulai dari satpam, kasir, sampai staff poli semuanya sangat baik. Dokter rio juga sangat recomended, ramah, komunikatif, cara menjelaskan mudah dipahami. Sangat puas periksa di RS Fathma Medika👍",
       "teks_final": "pelayanan cukup baik semua staff ramah mulai satpam kasir sampai staff poli semuanya baik dokter rio recomended ramah komunikatif cara menjelaskan mudah dipahami puas periksa rumah sakit fathma medika",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9899
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Dokter Paru nya Joss Mantab...👌",
       "teks_final": "dokter paru joss mantab",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Baru tau kalau habis melahirkan cesar langsung disuruh pake GURITA . HELLOOOO INI UDAH 2026 SAYYYYYY . Semua dokter aja melarang pake gurita disini malah diwajibkan pake gurita. Sampe rumah jaitan langsung nyeri rembes luka darah dan nanah. Bener bener pelayanan yg sangat Bad!!!",
       "teks_final": "tau habis melahirkan cesar langsung disuruh pake gurita helloooo udah sayyyyyy semua dokter aja melarang pake gurita disini malah diwajibkan pake gurita sampe rumah jaitan langsung nyeri rembes luka darah nanah bener bener pelayanan bad",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.973
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan Gercep, dokter, bidan dan perawat ramah",
       "teks_final": "pelayanan gercep dokter bidan perawat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9878
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Bagus, bersih, dokter dan perawat maupun satpam juga sangat ramah Sudah pernah kontrol usg dan lahiran anak pertama disini pelayanan oke Anak ke 2 ini juga kontrol dan usg disini Sukses selalu RSFM",
       "teks_final": "bagus bersih dokter perawat maupun satpam ramah pernah kontrol usg lahiran anak pertama disini pelayanan oke anak kontrol usg disini sukses selalu rsfm",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Saya sangat puas dengan pelayanan di RS Fathma Medika. Dokter dan perawatnya ramah, profesional, serta memberikan penjelasan yang mudah dipahami. Proses pendaftaran cukup cepat dan fasilitas rumah sakit bersih serta nyaman. Petugas juga sigap dalam membantu pasien dan keluarga. Semoga kualitas pelayanan yang sudah baik ini terus dipertahankan dan semakin ditingkatkan. Terima kasih kepada seluruh tenaga medis dan staf RS Fathma Medika atas dedikasinya.",
       "teks_final": "puas pelayanan rumah sakit fathma medika dokter perawatnya ramah profesional serta memberikan penjelasan mudah dipahami proses pendaftaran cukup cepat fasilitas rumah sakit bersih serta nyaman petugas sigap membantu pasien keluarga semoga kualitas pelayanan baik terus dipertahankan semakin ditingkatkan terima kasih kepada seluruh tenaga medis staf rumah sakit fathma medika atas dedikasinya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9839
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan cepat",
       "teks_final": "pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan ramah, prosesnya cepat",
       "teks_final": "pelayanan ramah prosesnya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Sangat bagus pelayananya",
       "teks_final": "bagus pelayananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan dokternya sangat bagus dan sangat memuaskan dr. Vinodini Perawat\" Nya juga saya suka",
       "teks_final": "pelayanan dokternya bagus memuaskan vinodini perawat suka",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "pelayanannya sangat baik dan tempat rawat inapnya jg nyaman",
       "teks_final": "pelayanannya baik tempat rawat inapnya nyaman",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Sangat memuaskan Di pelayanan, perawat ramah.",
       "teks_final": "memuaskan pelayanan perawat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9913
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Tidak profesional (Poli anak) 1. Jadwal dokter jam 08.00, tapi dokternya tidak ada sampek dengan 09.30 2. Tidak responship 3. Pelayanan sangat kurang, pasien disuru nunggu berjam2 hanya untuk nunggu dokter 4. Perawat tidak ramah  Bintang ⭐ Dikira cuma dokter aja yang kerja, pasien juga harus kerja Buruk sekali",
       "teks_final": "profesional poli anak jadwal dokter jam dokternya sampek responship pelayanan kurang pasien disuru nunggu berjam2 hanya nunggu dokter perawat ramah bintang dikira cuma dokter aja kerja pasien harus kerja buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9977
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Ini pengalaman saya saat persalinan di rumah sakit fathma medika, saya sc Metode eracs tap block , alhamdulillah minim banget rasa nyerinya dibanding sc saya yang pertama dulu , kemarin 2,5 jam setelah sc eracs tap block saya sudah bisa duduk 7 jam stelan sc sudah bisa jalan , dan untuk pelayanannya sangat baik gercep juga para bidan dan nakes nya 🥰🥰🥰",
       "teks_final": "pengalaman persalinan rumah sakit fathma medika sc metode eracs tap block alhamdulillah minim banget rasa nyerinya dibanding sc pertama dulu kemarin jam sc eracs tap block duduk jam stelan sc jalan pelayanannya baik gercep para bidan nakes",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9895
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanannya bagus smua semoga kedepannya lebih baik",
       "teks_final": "pelayanannya bagus smua semoga kedepannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     }
   ]

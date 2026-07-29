@@ -3,12 +3,12 @@
   "tempat": "BNI BUNGAH",
   "rating": 3.4,
   "total_ulasan": 23,
-  "positif": 11,
+  "positif": 10,
   "netral": 0,
-  "negatif": 12,
-  "persen_positif": 47.8,
+  "negatif": 13,
+  "persen_positif": 43.5,
   "persen_netral": 0.0,
-  "persen_negatif": 52.2,
+  "persen_negatif": 56.5,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Parah bener saya buka tabungan baru sudah 10 kali lebih pontang panting dari Madura ke Bangkalan lamanya minta ampun sudah hampir 1 tahun lamanya ke sana hanya tanya apakah sudah apa belum klok tau sampai selama ini ngak akan buat di sana,semisal dulu emang ngak ada kepentingan yang mengharuskan buat di sana males buat",
       "teks_final": "parah bener buka tabungan kali pontang panting madura bangkalan lamanya minta ampun hampir tahun lamanya sana hanya tanya apakah apa klok tau sampai selama ngak buat sana semisal dulu emang ngak kepentingan mengharuskan buat sana males buat",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9959
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanannya sangat lama sekali. CS hanya satu dan antrian banyak sekali. 1 jam hanya dapet 2 nomer saja. Heran sudah banyak keluhan tapi sistemnya masih tetap buruk",
       "teks_final": "pelayanannya lama cs hanya satu antrian banyak jam hanya dapet nomer saja heran banyak keluhan sistemnya tetap buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9981
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Cs nya cantik plus ramah",
       "teks_final": "cs cantik plus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9907
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kebersihan dan Kenyamanan",
       "teks_final": "kebersihan kenyamanan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.971
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan baik dan cepat",
       "teks_final": "pelayanan baik cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan ramah, cepat & menguntungkan.. Mantaabb BNI Bungah",
       "teks_final": "pelayanan ramah cepat menguntungkan mantaabb bni bungah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "CS nya cantik",
       "teks_final": "cs cantik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9914
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan mantap",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan KCP Bungah sip banget! Buka rekening dan trial mobile banking sangat cepat dan tanggap. Terimakasih BNI🥰",
       "teks_final": "pelayanan kcp bungah sip banget buka rekening trial mobile banking cepat tanggap terimakasih bni",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9828
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya cepat",
       "teks_final": "pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan di BNI KCP Bungah Gresik semua staff pegawai ramah, baik, sopan, rajin dan teliti..... sukses selalu buat semua pegawai BNI KCP Bungah Gresik Jawa Timur",
       "teks_final": "pelayanan bni kcp bungah gresik semua staff pegawai ramah baik sopan rajin teliti sukses selalu buat semua pegawai bni kcp bungah gresik jawa timur",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9673
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Bank dengan pelayanan paling parah, lemot, lelet, gak efisien, semua dah pokoknya.., apalagi bagian CS, nglayanin 1 nasabah buka rekening baru aja 1 jam sendiri.. 😓 blum antrinya yg gk karu2an.., CKPTW aja lah.. gak bakalan kesini lagi.. mending buka tabungan d BC* aja.. pelayanan cepet banget.. 😝",
       "teks_final": "bank pelayanan paling parah lemot lelet efisien semua dah pokoknya apalagi bagian cs nglayanin nasabah buka rekening aja jam sendiri blum antrinya karu2an ckptw aja bakalan kesini mending buka tabungan bc aja pelayanan cepet banget",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9895
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Hari Jum'at kesini sekitar jam setengah 9 pagi Alhamdulillah tidak seberapa ramai, pelayanan sangat bagus, cepat (untuk ukuran daerah yang agak jauh dari kota) dan memuaskan. Ada petugas satpam yang juga sangat membantu. Semoga BNI menambah lagi cabangnya untuk wilayah paling utara (Panceng/Sekapuk/Sidayu).",
       "teks_final": "hari jum at kesini sekitar jam setengah pagi alhamdulillah seberapa ramai pelayanan bagus cepat ukuran daerah agak jauh kota memuaskan petugas satpam membantu semoga bni menambah cabangnya wilayah paling utara panceng sekapuk sidayu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9782
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "bank terlemot!!! terlalu ruwet prosedurnya. gak bakal lagi pakai jasa bank ini",
       "teks_final": "bank terlemot terlalu ruwet prosedurnya bakal pakai jasa bank",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9967
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Bad, pegawai buka seenaknya, gila sih ini",
       "teks_final": "bad pegawai buka seenaknya gila",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Tolonglah manager bank BNI bungah, harusnya di review lg sistemnya, udah tau BNI gresik utara cm di bungah, nambah CS kek klo nasabahnya banyak begitu sampe saya malas sekali klo ke BNI bungah, terpaksa krn terdekat, antri dr pagi sampe jam 2 siang udah mo pingsan krn kelaparan, jd kdg mending ke greskot wlopun jauh pelayanan cepat, coba klo di bungah pasti msh antri! CS nya cm 2 kdg jg 1 nya ga nglayani jd cuma 1. Klo ke bni bungah pikir2 100x",
       "teks_final": "tolonglah manager bank bni bungah harusnya review lg sistemnya udah tau bni gresik utara cm bungah nambah cs kek nasabahnya banyak begitu sampe malas bni bungah terpaksa terdekat antrian pagi sampe jam siang udah mo pingsan kelaparan jd kdg mending greskot wlopun jauh pelayanan cepat coba bungah pasti antrian cs cm kdg nglayani jd cuma bni bungah pikir2 100x",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9801
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan bnr2 kacau, antri dari jam 8 smp jam 12 blm kepanggil, tolonglah diperbaiki sistemnya biar ndak merugikan. kasian yg mau aktivitas jd terganggu grgr nunggu antrian lemot gini. hadehh",
       "teks_final": "pelayanan bnr2 kacau antrian jam smp jam kepanggil tolonglah diperbaiki sistemnya biar ndak merugikan kasian mau aktivitas jd terganggu grgr nunggu antrian lemot gini hadehh",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan lambat dan beberapa pegawai datang diatas jam operasional ini cabang bank atau antri sembako lambat kayak siput sehingga banyak yang pulang mohon atasan dari bank bni menegur pengawai cabang bni bungah yang sangat mengecewakan atau tambah pegawai untuk mempercepat pelayanan",
       "teks_final": "pelayanan lambat beberapa pegawai datang diatas jam operasional cabang bank antrian sembako lambat kayak siput sehingga banyak pulang mohon atasan bank bni menegur pengawai cabang bni bungah mengecewakan tambah pegawai mempercepat pelayanan",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9955
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Suwine ra umum. Antre jam 8 ket bukak sampek jam 2 urung dipanggil. Lemot pelayane + jumlah pegawaine sitik.",
       "teks_final": "suwine ra umum antre jam ket bukak sampek jam urung dipanggil lemot pelayane jumlah pegawaine sitik",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9763
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "astaga, pelayanan macam apa ini. lemot bener2 lemot antrian CSnya. agenda kacau gara2 ngantri disini",
       "teks_final": "astaga pelayanan macam apa lemot bener2 lemot antrian csnya agenda kacau gara2 antrian disini",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9983
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Antrian cs-nya lama banget gada obat",
       "teks_final": "antrian cs lama banget gada obat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9976
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Sukomulyo",
   "rating": 4.4,
   "total_ulasan": 25,
-  "positif": 10,
+  "positif": 11,
   "netral": 5,
-  "negatif": 10,
-  "persen_positif": 40.0,
+  "negatif": 9,
+  "persen_positif": 44.0,
   "persen_netral": 20.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 36.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya dengan baik dan ramah, dan cepat , bertahan terus buat kedepan nya Terimakasih puskemas sukomulyo🙏🏻",
       "teks_final": "pelayanannya baik ramah cepat bertahan terus buat kedepan terimakasih puskemas sukomulyo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9669
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "UGD pelayanman sore nya lembut. Baik",
       "teks_final": "ugd pelayanman sore lembut baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9916
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ke ugd Pelayanan nya ramah dan cekatan",
       "teks_final": "ugd pelayanan ramah cekatan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9899
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan di UGD Puskesmas Sukomulyo sangat baik. Gercep dan solutif banget🥰",
       "teks_final": "pelayanan ugd puskesmas sukomulyo baik gercep solutif banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9897
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Ada satu petugas igd yang sering bilang,\"kenapa gak di bawa ke poli\" Trs tugase igd ngapain klo semua di bawa ke poli,ini sudah ke tiga kali nya saya ke igd dan ketemu petugas itu selalu bad respon. Dan kata suami juga sering bilang ke pasien lainya kalo pas periksa ke igd",
       "teks_final": "satu petugas igd sering bilang kenapa bawa poli trs tugase igd ngapain semua bawa poli tiga kali igd ketemu petugas selalu bad respon kata suami sering bilang pasien lainya kalo pas periksa igd",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8157
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan yang sangat baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "UGD nya pelayananya kurang ramah.",
       "teks_final": "ugd pelayananya kurang ramah",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9976
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Mungkin bisa lebih ramah lagi ya kepada pasien khususnya imunisasi. Buk bidan, namanya bawa anak pasti riweh. Sabar dikit gausah digupuh gupuh in. Dan jangan pilih kasih, senyum Bu senyum itu ibadah",
       "teks_final": "mungkin ramah ya kepada pasien khususnya imunisasi buk bidan namanya bawa anak pasti riweh sabar dikit gausah digupuh gupuh in jangan pilih kasih senyum bu senyum ibadah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.972
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pagi-pagi sudah ramai di sini. Petugas nya ramah dan memberikan informasi dengan jelas. Tempatnya bersih dan rapi, tersedia petunjuk jelas untuk ruangan-ruangan poli nya. Parkir diatur dengan begitu baik.",
       "teks_final": "pagi pagi ramai sini petugas ramah memberikan informasi jelas tempatnya bersih rapi tersedia petunjuk jelas ruangan ruangan poli parkir diatur begitu baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9829
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "biasa nya kalo sakit selalu periksa kesini tapi hari ini cek lab petugas sangat sangat judes ambil sampel darah gak ada aba\" dan tanya nunggu berapa lama dijwab dengan judes sama petuags ibu\" tolong kalo pun rame setidaknya jangan perlakukan pasien seperti hewan di ambil darah seenaknya!!! dan waktu tunggu sangat lama nunggu di komplain baru ada respon!!!",
       "teks_final": "biasa kalo sakit selalu periksa kesini hari cek lab petugas judes ambil sampel darah aba tanya nunggu berapa lama dijwab judes sama petuags ibu tolong kalo rame setidaknya jangan perlakukan pasien seperti hewan ambil darah seenaknya waktu tunggu lama nunggu komplain respon",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9881
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Dateng pagi² jam 7 biar ga antri, malah tes lab lemot lama ternyata jam set8 lebih dokternya baru dateng, belum nunggu hasilnya juga lama lagii",
       "teks_final": "dateng pagi jam biar antrian malah tes lab lemot lama ternyata jam set8 dokternya dateng nunggu hasilnya lama lagii",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9968
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Apa yg mau diharapkan dari instansi pemerintah ?? Sudah pasti ZONK !!! Daftar di jkn mobile keterangan tutup pkl 11.30 sampe puskesmas jam 10.30 dibilang SUDAH TUTUP !!! Heloo !!! Kalian tdk tau sejauh apa kedatangan kami masih ada waktu 1 jam namun ditolak !! Alangkah baiknya jika ditanya terlebih dahulu daftar ke poli mana ??  Di cek ke poli terkait ada brp antrian apa masih bsa menerima 1 pasien lagi mengingat pasien sdh melakukan pendaftaran via JKN MOBILE saya rasa itu lebih melegakan !! Di kesempatan laon tengah malam datang ke UGD karna luka robek di jari tangan anak di jaga oleh dokter jaga laki\" membersihkan lukanya sangat tdk hati\" anak saya yang notabene betah sakit sampai nangis jejeritan tapi masih tetap di pencet2 di gosok menggunakan kasa di bagian luka percuma datang ke ugd puskesmas ujung\"nya pergi ke ugd rs ditangani perawat lebih lembut lebih hati\" dan mendapatkan jahitan di puskesmas hanya di plester dg alasan tdk bsa melakukan penjahitan kalau ada bintang - akan aq kasih bintang - 2026 kerja masih gitu\" aja !!!",
       "teks_final": "apa mau diharapkan instansi pemerintah pasti zonk daftar jkn mobile keterangan tutup pkl sampe puskesmas jam dibilang tutup heloo kalian tau sejauh apa kedatangan waktu jam ditolak alangkah baiknya ditanya terlebih dahulu daftar poli mana cek poli terkait brp antrian apa bsa menerima pasien mengingat pasien melakukan pendaftaran via jkn mobile rasa melegakan kesempatan laon tengah malam datang ugd karna luka robek jari tangan anak jaga dokter jaga laki membersihkan lukanya hati anak notabene betah sakit sampai nangis jejeritan tetap pencet2 gosok menggunakan kasa bagian luka percuma datang ugd puskesmas ujung pergi ugd rumah sakit ditangani perawat lembut hati mendapatkan jahitan puskesmas hanya plester alasan bsa melakukan penjahitan bintang aq kasih bintang kerja gitu aja",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7357
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Ini puskesmas yg bikin saya kesel muak asli udh gak gbsa berkata\"",
       "teks_final": "puskesmas bikin kesel muak asli udh gbsa berkata",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan baik , sudah periksa ke dokter spesialis panas gk turun.. langsung ganti ke faskes 1 ke pkm sukomulyo besoknya panasnya turun .. dokter dan pegawainya ramah 🥰",
       "teks_final": "pelayanan baik periksa dokter spesialis panas turun langsung ganti faskes pkm sukomulyo besoknya panasnya turun dokter pegawainya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9869
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Jelek benget pelayanannya,, Perlu belajar banyak perawat dan dokternya terutama belajar attitude",
       "teks_final": "jelek benget pelayanannya perlu belajar banyak perawat dokternya terutama belajar attitude",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9953
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan puskesmas ini parah, menyedihkan, attitude sangat buruk...  Istri Sakit mau minta surat rujukan ke igd rumah sakit malah diomelin iya kalau cuman perawatnya, dokter dan petugasnya juga ketus judes minta ampun, pdhl kondisi istri butuh segera ditangani.  Kita ini orang awan yg tdk mengerti alur BPJS, harusnya sabar & tetap sopan memberi edukasi penjelasan, bukan malah dikata2in ama itu si dokter berjilbab msh muda ama perawat, pakek nada tinggi pulak.  Bisa ga sih ramah sama pasien, kita ini pake bpjs kelas 1 juga bayar enggak gratis, dan semua pegawai puskesmas digaji dari pajak yg kita bayar ke pemerintah...  Perbaiki akhlakmu, perbaiki attitudemu dalam melayani, maka kualitas hidupmu akan menjadi semakin baik...",
       "teks_final": "pelayanan puskesmas parah menyedihkan attitude buruk istri sakit mau minta surat rujukan igd rumah sakit malah diomelin iya cuman perawatnya dokter petugasnya ketus judes minta ampun pdhl kondisi istri butuh segera ditangani orang awan mengerti alur bpjs harusnya sabar tetap sopan memberi edukasi penjelasan bukan malah dikata2in ama si dokter berjilbab muda ama perawat pakek nada tinggi pulak ramah sama pasien pake bpjs kelas bayar enggak gratis semua pegawai puskesmas digaji pajak bayar pemerintah perbaiki akhlakmu perbaiki attitudemu melayani maka kualitas hidupmu menjadi semakin baik",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9929
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Tolong ya mbak pegawai puskesmas yg sudah merobohkan sepeda saya tadi tanpa rasa bersalah dan minta maaf , dimana attitude nyaaa?? Sampai soto saya yg ada di dalam jok Sampek jatuh semua kebawah, helm saya pecah kacanya, sepeda saya baret , saya gak minta ganti rugi setidaknya anda punya attitude untuk minta maaf bukan malah tukang parkir yg minta maaf. Kalau memang gak bisa ngeluarin sepeda itu minta tolong tukang parkir jangan malah melibatkan sepeda orang lain !",
       "teks_final": "tolong ya mbak pegawai puskesmas merobohkan sepeda tadi tanpa rasa bersalah minta maaf dimana attitude nyaaa sampai soto jok sampek jatuh semua kebawah helm pecah kacanya sepeda baret minta ganti rugi setidaknya punya attitude minta maaf bukan malah tukang parkir minta maaf memang ngeluarin sepeda minta tolong tukang parkir jangan malah melibatkan sepeda orang lain",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9912
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan cepat, ramah. Tapi untuk ruang tunggu kurang luas. Juga ada lantai 2. Tempat bersih, memanfaatkan pencahayaan dari asbes transparan jadi tidak terlalu gelap. Semoga kedepannya menjadi semakin baik lagi",
       "teks_final": "pelayanan cepat ramah ruang tunggu kurang luas lantai tempat bersih memanfaatkan pencahayaan asbes transparan jadi terlalu gelap semoga kedepannya menjadi semakin baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9526
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Alhamdulillah pelayanan cepat dan sat set, petugas nya juga ramah. Makasih dr Inna 🥰",
       "teks_final": "alhamdulillah pelayanan cepat sat set petugas ramah makasih inna",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9642
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Dinas Kesehatan Kabupaten Gresik",
   "rating": 3.6,
   "total_ulasan": 13,
-  "positif": 2,
+  "positif": 7,
   "netral": 5,
-  "negatif": 6,
-  "persen_positif": 15.4,
+  "negatif": 1,
+  "persen_positif": 53.8,
   "persen_netral": 38.5,
-  "persen_negatif": 46.2,
+  "persen_negatif": 7.7,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "perkenalkan saya Ibu maya santiawaty , pemerhati sanitasi dan sanitarian juga. mohon ijin , terkait lingkungan di mboro menganti,,, terkait RPH ayam. Saya ingin tahu lebih banyak mohon saget DM saya melalui instagram @mayasantiasanitarian, karena sebagai sanitarian saya sangat prihatin dengan kondisi estetika bau yang menyengat. Semoga kedepannya makin sukses dinas kesehatan. salam sanitarian. salam sehat",
       "teks_final": "perkenalkan ibu maya santiawaty pemerhati sanitasi sanitarian mohon ijin terkait lingkungan mboro menganti terkait rph ayam ingin tahu banyak mohon saget dm melalui instagram sebagai sanitarian prihatin kondisi estetika bau menyengat semoga kedepannya makin sukses dinas kesehatan salam sanitarian salam sehat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5085
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan baik 👌",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Instansi penyelenggara bidang kesehatan yg menaungi puskesmas di Gresik dg pelayanan yg sangat baik. Sebagai PJ TB jg sering bgt rapat disini, validasi data, monitoring, dll. Dibimbing wasor dn kooordinator2 yg ramah2. Dg ruangan yg nyaman dn makin bagus tata ruangnya. Cuma Ndak ada eskalatornya.. JD KLO rapat di lt.3 capek naikin tangganya😅",
       "teks_final": "instansi penyelenggara bidang kesehatan menaungi puskesmas gresik pelayanan baik sebagai pj tb sering banget rapat disini validasi data monitoring dll dibimbing wasor dn kooordinator2 ramah2 ruangan nyaman dn makin bagus tata ruangnya cuma ndak eskalatornya jd rapat lt capek naikin tangganya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Di mohon orang2 gila yg berada di kampung2 untuk di berikan pelayanan, karena sangat mengganggu orang lain atau tetangga sekitar,tolong..",
       "teks_final": "mohon orang2 gila berada kampung2 berikan pelayanan mengganggu orang lain tetangga sekitar tolong",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9954
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Gedung bagus Ruangan aula pertemuan luas Sanitasi lebih dirawat lagi",
       "teks_final": "gedung bagus ruangan aula pertemuan luas sanitasi dirawat",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9833
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sejuk tempatnya",
       "teks_final": "sejuk tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Sipp9",
       "teks_final": "sipp9",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9729
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "ATM Mandiri Alfamart Jawa Gresik",
   "rating": 4,
   "total_ulasan": 9,
-  "positif": 0,
+  "positif": 3,
   "netral": 4,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 2,
+  "persen_positif": 33.3,
   "persen_netral": 44.4,
-  "persen_negatif": 55.6,
+  "persen_negatif": 22.2,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Recomended, personil nya ramah-ramah, Harganya lebih murah, bisa pesen gratis ongkir juga, mantap pokoknya 👍",
       "teks_final": "recomended personil ramah ramah harganya murah pesen gratis ongkir bagus pokoknya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.998
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus pelayanan nya, recomended 👍",
       "teks_final": "bagus pelayanan recomended",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Memudahkan top up e-toll",
       "teks_final": "memudahkan top up toll",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6335
     },
     {

@@ -3,12 +3,12 @@
   "tempat": "Kantor Kepala Desa Wedoroanom",
   "rating": 4.5,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 3,
   "netral": 2,
-  "negatif": 2,
-  "persen_positif": 20.0,
+  "negatif": 0,
+  "persen_positif": 60.0,
   "persen_netral": 40.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Oke jg ada musholla nya",
       "teks_final": "oke musholla",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7281
     },
     {

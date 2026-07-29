@@ -3,12 +3,12 @@
   "tempat": "Wagos Wisata Alam Gosari",
   "rating": 4.4,
   "total_ulasan": 19,
-  "positif": 8,
+  "positif": 12,
   "netral": 3,
-  "negatif": 8,
-  "persen_positif": 42.1,
+  "negatif": 4,
+  "persen_positif": 63.2,
   "persen_netral": 15.8,
-  "persen_negatif": 42.1,
+  "persen_negatif": 21.1,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -40,7 +40,7 @@
       "Ulasan": "Sangat memuaskan",
       "teks_final": "memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sdh lama tutup",
       "teks_final": "lama tutup",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9959
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Gokil",
       "teks_final": "gokil",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Tempat wisata alam yang nyaman dan cocok untuk liburan keluarga. Suasana masih asri, udara segar, dan cukup bersih. Fasilitas lumayan lengkap dan harga tiket terjangkau. Cocok datang saat libur nasional, tapi tetap nyaman karena tidak terlalu antre. Recommended 👍",
       "teks_final": "tempat wisata alam nyaman cocok liburan keluarga suasana asri udara segar cukup bersih fasilitas lumayan lengkap harga tiket terjangkau cocok datang libur nasional tetap nyaman terlalu antre recommended",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9981
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "UMKM ES LATTE JUAL MINUMAN ES COKLAT SUSU NYA BASI,, BUSUK ,, NGILER D JUAL KE PENGUNJUNG..",
       "teks_final": "umkm es latte jual minuman es coklat susu basi busuk ngiler jual pengunjung",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9926
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sebenere tempat tsb cukup Bagus dan layak dikembangkan utk lebih maju dan banyak pengunjung Cocok bagi anak2 dan kluarga",
       "teks_final": "sebenere tempat tsb cukup bagus layak dikembangkan maju banyak pengunjung cocok bagi anak2 kluarga",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Kurang terawat",
       "teks_final": "kurang terawat",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9977
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Tidak sesuai dengan foto2 yang ada disosmed kebersihan kurang terjaga, tanaman2 bnyak yng layu, dan tidak terjaga dan wahana permainan banyak yang tutup",
       "teks_final": "sesuai foto2 disosmed kebersihan kurang terjaga tanaman2 bnyak yng layu terjaga wahana permainan banyak tutup",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9703
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "sepi saya datang dari surabaya mungkin karena saya datang pas hari senin harpitnas , spot foto bagus meski sebagian tampak mulai tidak terawat tpi masih kategori bersih tetap masih ok untuk di kunjungi",
       "teks_final": "sepi datang surabaya mungkin datang pas hari senin harpitnas spot foto bagus meski sebagian tampak mulai terawat kategori bersih tetap oke kunjungi",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9919
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "bagus murah terjangkau di gresik utara, bisa berenang, makan dan ikan terapi",
       "teks_final": "bagus murah terjangkau gresik utara berenang makan ikan terapi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Tempatnya luas, banyak ruang santai.nya, ada kolam, gazebo bbrp wahana, spot foto yg diatas jg bagus tp agak kurat terawat dibbrp titik, Krn tanaman pagarnya nyampur dg rumput liar. Kamar mandi.nya bersih, tempat sampah jg banyak petugas kebersihan jg gercep",
       "teks_final": "tempatnya luas banyak ruang santai kolam gazebo bbrp wahana spot foto diatas bagus agak kurat terawat dibbrp titik tanaman pagarnya nyampur rumput liar kamar mandi bersih tempat sampah banyak petugas kebersihan gercep",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9873
     }
   ]

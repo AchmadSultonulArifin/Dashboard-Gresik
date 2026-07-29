@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Eka Husada",
   "rating": 4.1,
   "total_ulasan": 24,
-  "positif": 2,
+  "positif": 20,
   "netral": 2,
-  "negatif": 20,
-  "persen_positif": 8.3,
+  "negatif": 2,
+  "persen_positif": 83.3,
   "persen_netral": 8.3,
-  "persen_negatif": 83.3,
+  "persen_negatif": 8.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan di kasir lamban sekali",
       "teks_final": "pelayanan kasir lamban",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9974
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan sangat cepat, memuaskan , perawat , dan ramah kepada pasien2 yang baru",
       "teks_final": "pelayanan cepat memuaskan perawat ramah kepada pasien2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9899
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "kami sangat terbantu dengan adanya Rs Eka Husada yang bisa membantu menangani .Karyawan karyawan kami yang sakit. terima kasih. Rs Eka Husada",
       "teks_final": "terbantu adanya rumah sakit eka husada membantu menangani karyawan karyawan sakit terima kasih rumah sakit eka husada",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8606
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Anakku menjalani rehap lumayan lama di poli Rehap Medik, untuk aku yg jauh dri rumah, tp pelayanan memuaskan, sampai ditahap anakku lulus terapi, saya pribadi merasa sedih harus berpisah dengan terapisnya. Krna kita sebagai pasien merasa nyaman dengan terapisnya saat menjelaskan gimana step\" perkembangn anak. Terima kasih atas pelayananya selama ini, semoga kedepanya semakin berkembang dan terbaik, untuk RS di wilayah Menganti dan sekitarnya. Salam warga Driyorejo 🙏",
       "teks_final": "anakku menjalani rehap lumayan lama poli rehap medik aku jauh dri rumah pelayanan memuaskan sampai ditahap anakku lulus terapi pribadi merasa sedih harus berpisah terapisnya krna sebagai pasien merasa nyaman terapisnya menjelaskan gimana step perkembangn anak terima kasih atas pelayananya selama semoga kedepanya semakin berkembang terbaik rumah sakit wilayah menganti sekitarnya salam warga driyorejo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8831
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayananya sangat baik dan memuaskan",
       "teks_final": "pelayananya baik memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya cepat, stafnya ramah semua",
       "teks_final": "pelayanannya cepat stafnya ramah semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Rumah sakit yang luas, bersih dan mantap pelayanannya. RS paling top di menganti",
       "teks_final": "rumah sakit luas bersih bagus pelayanannya rumah sakit paling top menganti",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Saya terapi di Eka Husada, alat2nya bgus.. perawatnya ramah.. dokternya ramah.. bintang 5 deh..",
       "teks_final": "terapi eka husada alat2nya bgus perawatnya ramah dokternya ramah bintang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "penjelasan tentang obat di farmasinya sangat bagus dan mudah dimengerti, mas mas dan mbak mbaknya sangat berpengalaman👍",
       "teks_final": "penjelasan tentang obat farmasinya bagus mudah dimengerti mas mas mbak mbaknya berpengalaman",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9849
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "pelayanan farmasi sudah baik cepat, petugasnya ramah-ramah dan penjelasannya informatif",
       "teks_final": "pelayanan farmasi baik cepat petugasnya ramah ramah penjelasannya informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9904
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "RS Eka Husada pelayanan yang cepat, tanggap, ramah, dan profesional. Tenaga medisnya sangat kompeten dan selalu mengutamakan kenyamanan serta keselamatan pasien. Fasilitas yang disediakan juga modern dan bersih, sehingga membuat proses perawatan menjadi lebih tenang. The best🌟",
       "teks_final": "rumah sakit eka husada pelayanan cepat tanggap ramah profesional tenaga medisnya kompeten selalu mengutamakan kenyamanan serta keselamatan pasien fasilitas disediakan modern bersih sehingga membuat proses perawatan menjadi tenang the best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Akses mudah, dan lingkungan bersih",
       "teks_final": "akses mudah lingkungan bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayananya ramah bgt , dokternya juga solutif. Kamar inapnya bersih berasa staycation",
       "teks_final": "pelayananya ramah banget dokternya solutif kamar inapnya bersih berasa staycation",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Rawat inapnya full ac perawatnya ramah2",
       "teks_final": "rawat inapnya full ac perawatnya ramah2",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "pelayanan memuaskan👍",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanannya oke 👌🏻",
       "teks_final": "pelayanannya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanannya cepat",
       "teks_final": "pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanann terbaikk",
       "teks_final": "pelayanann terbaikk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "bersih",
       "teks_final": "bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "PT Sangkaya Makmur Abadi (PT SMA)",
   "rating": 4.5,
   "total_ulasan": 16,
-  "positif": 4,
+  "positif": 10,
   "netral": 4,
-  "negatif": 8,
-  "persen_positif": 25.0,
+  "negatif": 2,
+  "persen_positif": 62.5,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 12.5,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -29,7 +29,7 @@
       "Ulasan": "Makasih yg Uda mengunjungi",
       "teks_final": "makasih uda mengunjungi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6593
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Ramah sopan",
       "teks_final": "ramah sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Jos jiss",
       "teks_final": "bagus jiss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus bersih dan Ramah",
       "teks_final": "bagus bersih ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Oke",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Tempatnya bersih, Bos dan karyawanya ramah",
       "teks_final": "tempatnya bersih bos karyawanya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Ok maksi",
       "teks_final": "oke maksi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6488
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Proses muat lama antri di srobot termo terus",
       "teks_final": "proses muat lama antrian srobot termo terus",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9169
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Proses muat lama & dan banyak pungli",
       "teks_final": "proses muat lama banyak pungli",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9977
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Manntappp",
       "teks_final": "manntappp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9359
     },
     {

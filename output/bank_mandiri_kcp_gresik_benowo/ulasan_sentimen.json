@@ -3,12 +3,12 @@
   "tempat": "Bank Mandiri KCP Gresik Benowo",
   "rating": 4.7,
   "total_ulasan": 25,
-  "positif": 5,
+  "positif": 20,
   "netral": 1,
-  "negatif": 19,
-  "persen_positif": 20.0,
+  "negatif": 4,
+  "persen_positif": 80.0,
   "persen_netral": 4.0,
-  "persen_negatif": 76.0,
+  "persen_negatif": 16.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan ruamah sekaliii, selalu dibantu sama Bu Lady, terimaksih :)))",
       "teks_final": "pelayanan ruamah sekaliii selalu dibantu sama bu lady terimaksih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8705
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanannya cepat dan sangat ramah. Saya sangat terbantu",
       "teks_final": "pelayanannya cepat ramah terbantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Keren untuk security.nya. pagi ini saya ke mesin ATM untuk penarikan uang tapi terkendala kartu saya rusak. Berhubung saya terburu2, saya dibantu oleh pak satpam untuk penarikan uang tanpa kartu di mesin ATM. Saya sangat terbantu sekali. Sehat2 ya pak",
       "teks_final": "bagus security pagi mesin atm penarikan uang terkendala kartu rusak berhubung terburu2 dibantu pak satpam penarikan uang tanpa kartu mesin atm terbantu sehat2 ya pak",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5033
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "pelayanan nyaa cepatt cs tellar tanggap terimakasih",
       "teks_final": "pelayanan nyaa cepatt cs tellar tanggap terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9812
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan ramah, tapi lama bangeetttt Udah nunggu lama ternyata kendala masih berlanjut dan harus balik lagi besok nya Buang buang waktu huh",
       "teks_final": "pelayanan ramah lama bangeetttt udah nunggu lama ternyata kendala berlanjut harus balik besok buang buang waktu huh",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9914
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "pelayanan cepet dan solutif teler cs security sangat membantu",
       "teks_final": "pelayanan cepet solutif teler cs security membantu",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.981
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan lama. Padhl udah kosomg di cs. Tp ndak dipanggil panggil. Antrian no 2. Jam 08.36 Masih belom juga dipanggil. Pdhl yg Nomor 1 udah selesai Dr jam 8.15",
       "teks_final": "pelayanan lama padhl udah kosomg cs ndak dipanggil panggil antrian no jam belom dipanggil pdhl nomor udah selesai jam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9837
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Tempatnya bersih,adem tp bngung cara ngantrinya gak ada nomer antrian.. dan antrian pnjng",
       "teks_final": "tempatnya bersih adem bngung cara ngantrinya nomer antrian antrian pnjng",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "pelayanan memuaskan, tempat nyaman dan solutif",
       "teks_final": "pelayanan memuaskan tempat nyaman solutif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Good excellent pelayannya ramah semua dari security, teller sampe cs",
       "teks_final": "good excellent pelayannya ramah semua security teller sampe cs",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan sangat lelet antri cs SMPK Berjam jam pdhl sepi orang hanya sedikit cuman kasih masukan aj biar cepet pelayanan nya biar tidak mengecewakan orang karna terlalu lama menunggu. Terimakasih",
       "teks_final": "pelayanan lelet antrian cs smpk berjam jam pdhl sepi orang hanya sedikit cuman kasih masukan aj biar cepet pelayanan biar mengecewakan orang karna terlalu lama menunggu terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan sangat lambat hanya 1 orang cs yang mengcover 2 komputer, untuk 1 nomer antrian saja bisa sampai 1 jm lebih",
       "teks_final": "pelayanan lambat hanya orang cs mengcover komputer nomer antrian saja sampai jm",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9857
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Csnya ramah, tellernya gesit",
       "teks_final": "csnya ramah tellernya gesit",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9883
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Cs pelayan cepat tanggap teramah yg ada",
       "teks_final": "cs pelayan cepat tanggap teramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9903
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Saya tukar uang ULE disini. Mba teller nyaa sangat membantu, terus ramah juga waktu melayani tukar uang. Saya dibantuu dapat ULE. Terima kasih pelayanannya. Good",
       "teks_final": "tukar uang ule disini mba teller nyaa membantu terus ramah waktu melayani tukar uang dibantuu ule terima kasih pelayanannya good",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9871
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Ke cs dan ke teller. Mbak mbak nya ramah semua. Good",
       "teks_final": "cs teller mbak mbak ramah semua good",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.99
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Transaksi tariknya cepat, mba nya ramah",
       "teks_final": "transaksi tariknya cepat mba ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9946
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Teller ramahh, pelayanan cepat, sangat helpfull dan informatif menjawab prtanyaan sy",
       "teks_final": "teller ramahh pelayanan cepat helpfull informatif menjawab prtanyaan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9751
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "First experience. Good",
       "teks_final": "first experience good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9861
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Pelayanan cepat ramah setor cepat",
       "teks_final": "pelayanan cepat ramah setor cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9905
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Pelayanan baik , teller nya ramah 🙏🏽",
       "teks_final": "pelayanan baik teller ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9934
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pertama kali ke sini, tellernya cpt transaksinya. Sangat informatif juga waktu sy tanya. Sgt membantu. Terima kasih",
       "teks_final": "pertama kali sini tellernya cpt transaksinya informatif waktu tanya membantu terima kasih",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6387
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Terimakasih Pelayanannya terbaik Teller Ramah dan cantikk",
       "teks_final": "terimakasih pelayanannya terbaik teller ramah cantikk",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     }
   ]

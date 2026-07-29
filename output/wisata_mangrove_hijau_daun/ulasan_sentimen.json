@@ -3,12 +3,12 @@
   "tempat": "Wisata Mangrove Hijau Daun",
   "rating": 4.5,
   "total_ulasan": 14,
-  "positif": 1,
+  "positif": 11,
   "netral": 2,
-  "negatif": 11,
-  "persen_positif": 7.1,
+  "negatif": 1,
+  "persen_positif": 78.6,
   "persen_netral": 14.3,
-  "persen_negatif": 78.6,
+  "persen_negatif": 7.1,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "asri banget",
       "teks_final": "asri banget",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "tempatnya bagus rindang dan segar. cocok buat healing di menaranya bisa menikmati kehijauan mangrovenya dan angin segarnya.",
       "teks_final": "tempatnya bagus rindang segar cocok buat healing menaranya menikmati kehijauan mangrovenya angin segarnya",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Ekowisata mangrove Hijau Daun, + mangrove track, gardu pandang, canoeing, mancing, beach tracking + sejuk, gazebo sangat luas + masyarakat ramah + tempat belajar konservasi + bisa request untuk bikin event atau field trip + ada homestay + kontak ada di IGnya: Hijau Daun ecotourism",
       "teks_final": "ekowisata mangrove hijau daun mangrove track gardu pandang canoeing mancing beach tracking sejuk gazebo luas masyarakat ramah tempat belajar konservasi request bikin event field trip homestay kontak ignya hijau daun ecotourism",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5479
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempat pembibitan mangrove.. Pohon api dan nipah.. Tenang dan bisa menikmati kicauan burung.. Ada gardu pandangnya.",
       "teks_final": "tempat pembibitan mangrove pohon api nipah tenang menikmati kicauan burung gardu pandangnya",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9802
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Menarik untuk edukasi mangrove dan berwisata",
       "teks_final": "menarik edukasi mangrove berwisata",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9853
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pemandangan yang bagus di tambah udara khas pesisir dan banyak pohon rindang",
       "teks_final": "pemandangan bagus tambah udara khas pesisir banyak pohon rindang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "suasana nya nyaman,  udara segar serta pemandangan sungguh luar biasa indah. tenang kan hati dan pikiran.. ploongggggg dan adem...",
       "teks_final": "suasana nyaman udara segar serta pemandangan sungguh luar biasa indah tenang kan hati pikiran ploongggggg adem",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9979
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Nice",
       "teks_final": "nice",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Jalan akses kesana nya kurang luas",
       "teks_final": "jalan akses kesana kurang luas",
       "topik": "Infrastruktur",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9928
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Mangrove Hijau Daun tempat untuk menikmati sinar matahari dan tempat untuk berfoto",
       "teks_final": "mangrove hijau daun tempat menikmati sinar matahari tempat berfoto",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9438
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Mangrove tertata rapi👍🏽👍🏽👍🏽👨‍💻",
       "teks_final": "mangrove tertata rapi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9889
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Mungkin ini tempat wisata paling bersih di Bawean. Peringatan untuk pengunjung agar tertib untuk tidak membuang sampah sembarangan, tidak merusak habitat asli, dan peringatan lainnya tersebar di semua penjuru. Semoga masyarakat mendapat pembelajaran setelah mengunjungi tempat wisata ini. Bahwa jangan hanya untuk foto foto saja. Tapi kita harus perduli terhadap lingkungan tempat kita tinggal.",
       "teks_final": "mungkin tempat wisata paling bersih bawean peringatan pengunjung agar tertib membuang sampah sembarangan merusak habitat asli peringatan lainnya tersebar semua penjuru semoga masyarakat mendapat pembelajaran mengunjungi tempat wisata bahwa jangan hanya foto foto saja harus perduli terhadap lingkungan tempat tinggal",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9362
     }
   ]

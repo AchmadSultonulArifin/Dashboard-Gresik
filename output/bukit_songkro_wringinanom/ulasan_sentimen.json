@@ -3,12 +3,12 @@
   "tempat": "Bukit Songkro Wringinanom",
   "rating": 4.3,
   "total_ulasan": 16,
-  "positif": 1,
+  "positif": 13,
   "netral": 2,
-  "negatif": 13,
-  "persen_positif": 6.2,
+  "negatif": 1,
+  "persen_positif": 81.2,
   "persen_netral": 12.5,
-  "persen_negatif": 81.2,
+  "persen_negatif": 6.2,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Menyenangkan",
       "teks_final": "menyenangkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Suka dengan kontur tanah yg berwarna. Dan pemandangan yg segar.",
       "teks_final": "suka kontur tanah berwarna pemandangan segar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9914
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sangat indah mempesona",
       "teks_final": "indah mempesona",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Kmrn msh 59mdpl Skrg sdh 1089mdpl Cepet bgt tumbuhnya😁",
       "teks_final": "kmrn 59mdpl sekarang 1089mdpl cepet banget tumbuhnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9275
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Luar Biasa Guys....",
       "teks_final": "luar biasa guys",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Rekreasi murah dan menantang goweser",
       "teks_final": "rekreasi murah menantang goweser",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9158
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "wisata khusus musim kemarau,padahal kalau lagi musim hujan hijau banget tapi jalan masih susah untuk musim hujan",
       "teks_final": "wisata khusus musim kemarau padahal musim hujan hijau banget jalan susah musim hujan",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.851
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Cocok untuk mencari ketenangan",
       "teks_final": "cocok mencari ketenangan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Tempat wisata baru daerah wringin anom yg keren abis.Mirip kaya ranu manduro ngoro",
       "teks_final": "tempat wisata daerah wringin anom bagus abis mirip kaya ranu manduro ngoro",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Cocok buat gowes, tanjakan lumayan, alam masih alami",
       "teks_final": "cocok buat gowes tanjakan lumayan alam alami",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Asri cocok buat goes",
       "teks_final": "asri cocok buat goes",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "BANK BNI CERME",
   "rating": 4,
   "total_ulasan": 17,
-  "positif": 0,
+  "positif": 17,
   "netral": 0,
-  "negatif": 17,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan sangat baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan sangat baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Cukup bersahabat dan pelayana  cukup memuaskan",
       "teks_final": "cukup bersahabat pelayana cukup memuaskan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Walau rame, tapi santai... Pelayanan nya ramah,... Dengan d bantu satpam",
       "teks_final": "walau rame santai pelayanan ramah bantu satpam",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9735
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan ramah dari CS Teller Satpam, Dan Jukir nya baik hati ☺️",
       "teks_final": "pelayanan ramah cs teller satpam jukir baik hati",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9496
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Bni Cerme Mantap 👍👍",
       "teks_final": "bni cerme bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Bagus tempatx, nyaman. Pelayanan cepat",
       "teks_final": "bagus tempatx nyaman pelayanan cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan bagus teler ramah",
       "teks_final": "pelayanan bagus teler ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan cepat .teller dan cs ramah",
       "teks_final": "pelayanan cepat teller cs ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9868
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Good job",
       "teks_final": "good job",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.993
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "sangat baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Ada ATM setor tunai yg sangat membanggakan",
       "teks_final": "atm setor tunai membanggakan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9789
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Petugas ramah dan sigap dalam membantu nasabah. Sip deh",
       "teks_final": "petugas ramah sigap membantu nasabah sip",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9826
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayananya cepat dan ramah",
       "teks_final": "pelayananya cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Teller dan Customer service nya memberikan pelayanan yang memuaskan",
       "teks_final": "teller customer service memberikan pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9086
     }
   ]

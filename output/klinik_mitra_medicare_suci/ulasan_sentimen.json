@@ -3,12 +3,12 @@
   "tempat": "Klinik Mitra Medicare Suci",
   "rating": 4,
   "total_ulasan": 21,
-  "positif": 13,
+  "positif": 10,
   "netral": 0,
-  "negatif": 8,
-  "persen_positif": 61.9,
+  "negatif": 11,
+  "persen_positif": 47.6,
   "persen_netral": 0.0,
-  "persen_negatif": 38.1,
+  "persen_negatif": 52.4,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Resepsionis tidak ramah, namanya orang tidak tahu dan bertanya kok jawabannya malah bentak\" tidak enak. Pokoknya tidak rekomended banget. Mending cari klinik lain saja. Resepsionis seperti itu kok masih dipertahankan. Kayak kenak darah tinggi tuh resepsionis. Aneh!!",
       "teks_final": "resepsionis ramah namanya orang tahu bertanya kok jawabannya malah bentak enak pokoknya rekomended banget mending cari klinik lain saja resepsionis seperti kok dipertahankan kayak kenak darah tinggi tuh resepsionis aneh",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9939
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Buka 24 jam, tapi ga ada tanda² kehidupan Semuanya beristarahat didalam, harus dipanggil panggil Pelayanan tidak ramah, bahkan menatap mata pun engga Padahal pake asuransi apalagi yang pke bpjs Udah gitu ditolak lagi , padahal dari asuransinya tertera seluruh faskes yang bekerja sama Malah disamain kek bpjs harus di faskesnya 🙂‍↕️ Kalo males kerja dirumah aja deh mba🙃",
       "teks_final": "buka jam tanda kehidupan semuanya beristarahat didalam harus dipanggil panggil pelayanan ramah bahkan menatap mata engga padahal pake asuransi apalagi pke bpjs udah gitu ditolak padahal asuransinya tertera seluruh faskes bekerja sama malah disamain kek bpjs harus faskesnya kalo males kerja dirumah aja mba",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8021
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Petugas jaga jam 18.00 ga ada Istirahat bareng2.... Pasien nunggu lama. Tolong diperbaiki dalam pelayanannya",
       "teks_final": "petugas jaga jam istirahat bareng2 pasien nunggu lama tolong diperbaiki pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9407
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "pelayanan gk ramah sumpah ngeselin yaampun padahal sama pengunjung kyk gitu",
       "teks_final": "pelayanan ramah sumpah ngeselin yaampun padahal sama pengunjung kyk gitu",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6159
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan buruk",
       "teks_final": "pelayanan buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Tempatnya nyaman, dokternya juga nyaman, enak penjelasannya, komunikatif. Hanya mba2 resepsionisnya saja yang mungkin bisa di training lagi agar bisa lebih ramah. Karena yang datang berobat itu orang sedang sakit, mohon jangan ditambah jadi sakit hati karena diomelin. Biar makin oke pelayanannya.",
       "teks_final": "tempatnya nyaman dokternya nyaman enak penjelasannya komunikatif hanya mba2 resepsionisnya saja mungkin training agar ramah datang berobat orang sedang sakit mohon jangan ditambah jadi sakit hati diomelin biar makin oke pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9716
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pegawai responsif & sangat ramah",
       "teks_final": "pegawai responsif ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9933
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "bagian pelayanan lama",
       "teks_final": "bagian pelayanan lama",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.6587
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "pelayanan dari dr.nur Rahma sangat memuaskan, penjelasannya sangat detail dan mudah dipahami sangat² bagus sekali pelayanannya ⭐⭐⭐⭐⭐",
       "teks_final": "pelayanan nur rahma memuaskan penjelasannya detail mudah dipahami bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan sangat baik, tenaga medis ramah , respon yg sangat cepat. Terimakash",
       "teks_final": "pelayanan baik tenaga medis ramah respon cepat terimakash",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9805
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan di Klinik Pratama Mitra Medicare sangat memuaskan. Para staff atau pegawainya ramah. Proses pendaftaran cepat dan tidak perlu menunggu lama. Tempatnya bersih, nyaman, dan tertata rapi. Sangat direkomendasikan untuk yang mencari pelayanan kesehatan dengan pelayanan yang okee.",
       "teks_final": "pelayanan klinik pratama mitra medicare memuaskan para staff pegawainya ramah proses pendaftaran cepat perlu menunggu lama tempatnya bersih nyaman tertata rapi direkomendasikan mencari pelayanan kesehatan pelayanan okee",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "pelayanan ramah, dokternya juga komunikatif 👍🏻",
       "teks_final": "pelayanan ramah dokternya komunikatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan nya memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "dateng keluhan sakit kepala mual panas, pengen tau penyakit apa, kata dokternya pusing nya pusing biasa,ga terlalu bahaya, setelah menebus obat yang mahal dan sampai hari ke 4 tambah parah dan cek di klinik lain ternyata kena dbd, kapok udah di klinik ini dokter nya cuek, pas saya tanya lagi penyakit nya apa dokter nya bilang mau kamu gimana😭😭😭😂😂",
       "teks_final": "dateng keluhan sakit kepala mual panas pengen tau penyakit apa kata dokternya pusing pusing biasa terlalu bahaya menebus obat mahal sampai hari tambah parah cek klinik lain ternyata kena dbd kapok udah klinik dokter cuek pas tanya penyakit apa dokter bilang mau gimana",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9953
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Untuk pelayanan pasien bpjs bener2 nol sekali, sy demam udah 3 hari masak diperiksa cuma di stetoskop aja dada sm perut mana cuma dikasih obat demam 6 vitamin cm 3 lagi.. meskipun bpjs kita juga byr ya mbak tiap bulannya udah lama kek gitu pula smpe skrg masih sakit gamau kesitu lagi udah 5 harinya gini trs masih sm aja",
       "teks_final": "pelayanan pasien bpjs bener2 nol demam udah hari masak diperiksa cuma stetoskop aja dada sama perut mana cuma dikasih obat demam vitamin cm meskipun bpjs byr ya mbak tiap bulannya udah lama kek gitu smpe sekarang sakit gamau kesitu udah harinya gini trs sama aja",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9633
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Cmn dapat obat 2 biji doang. Dan setelah di cek ternyata tertera 10 biji obat ,di aplikasi JKN riwayat pelayanan. Mau korupsi ta..",
       "teks_final": "cmn obat biji doang cek ternyata tertera biji obat aplikasi jkn riwayat pelayanan mau korupsi ta",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7977
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Kliniknya bagus, pelayananya ramah tetapi pasien terganggu ada anak karyawan menangis",
       "teks_final": "kliniknya bagus pelayananya ramah pasien terganggu anak karyawan menangis",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.796
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "dokter cuek banget.. gk informatif sama sekali, apa karenabpjs?? tp ndak juga.. dokter 1 nya infomatif banget.. kmrn dateng pertama , malah di mundurin jd nomer 3.. bapak yang awal saya yang bantuin buat print tiket karena belom skrining diJKN.. bapaknya bingung, juga cs tidak ada..jd saya bantu nuntun gimana caranya",
       "teks_final": "dokter cuek banget informatif sama apa karenabpjs ndak dokter infomatif banget kmrn dateng pertama malah mundurin jd nomer bapak awal bantuin buat print tiket belom skrining dijkn bapaknya bingung cs jd bantu nuntun gimana caranya",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9892
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Sakit pusing sama mual muntah, berobat kesini pas nebus obatnya kena 215ribu gara2 dikasih antibiotik yang harganya mahal",
       "teks_final": "sakit pusing sama mual muntah berobat kesini pas nebus obatnya kena 215ribu gara2 dikasih antibiotik harganya mahal",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.996
     }
   ]

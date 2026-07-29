@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Dukun",
   "rating": 3.6,
   "total_ulasan": 12,
-  "positif": 5,
+  "positif": 7,
   "netral": 0,
-  "negatif": 7,
-  "persen_positif": 41.7,
+  "negatif": 5,
+  "persen_positif": 58.3,
   "persen_netral": 0.0,
-  "persen_negatif": 58.3,
+  "persen_negatif": 41.7,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "kurir gamau kirim paket saya, gimana sih udah kerjaan dia malah gamau ngirim",
       "teks_final": "kurir gamau kirim paket gimana udah kerjaan malah gamau ngirim",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9944
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan nya kurang, sangat lambat sekali",
       "teks_final": "pelayanan kurang lambat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9902
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "cepat ramah",
       "teks_final": "cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.993
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sangat bermanfaat untuk patokan google map pulang kampung",
       "teks_final": "bermanfaat patokan google map pulang kampung",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9554
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pegawai ramah👍🏻👍🏻👍🏻",
       "teks_final": "pegawai ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Mantab pelayanannya",
       "teks_final": "mantab pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Barang aku udh 3 minggu numpuk disana. Padahal rumahku Tebuwung ngga dikirim kirim",
       "teks_final": "barang aku udh minggu numpuk disana padahal rumahku tebuwung dikirim kirim",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.975
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Recomended",
       "teks_final": "recomended",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "PAKAI THE NEXT DAY GA SAMPAI SAMPAI UDAH GITU KANG POS NYA TUKANG KIBUL MASA KIRIM BARANG SEHARGA 102K DIBILANG 162K DAN SAYA PAKAI PLUS ASURANSI TAPI GA D ASURANSIKAN!!!",
       "teks_final": "pakai the next day sampai sampai udah gitu kang pos tukang kibul masa kirim barang seharga 102k dibilang 162k pakai plus asuransi asuransikan",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9492
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Selalu sampai disini barang dari luar negeri",
       "teks_final": "selalu sampai disini barang luar negeri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9316
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Bukit Kapur Suci",
   "rating": 4.3,
   "total_ulasan": 11,
-  "positif": 2,
+  "positif": 9,
   "netral": 1,
-  "negatif": 8,
-  "persen_positif": 18.2,
+  "negatif": 1,
+  "persen_positif": 81.8,
   "persen_netral": 9.1,
-  "persen_negatif": 72.7,
+  "persen_negatif": 9.1,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Bukit bebatuan kapur putih yang menarik dan estetik untuk photo photo yang instagramable. Cocok untuk aktifitas gowes atau sekedar photo2 dengan latar bukit kapur yang indah",
       "teks_final": "bukit bebatuan kapur putih menarik estetik photo photo instagramable cocok aktifitas gowes sekedar photo2 latar bukit kapur indah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Wonderful Place in Gresik City ❤️",
       "teks_final": "wonderful place in gresik city",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9721
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tempatnya bagus banget suasana indah",
       "teks_final": "tempatnya bagus banget suasana indah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9978
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "SEWAIN BUS PARIWISATA TER NYAMAN",
       "teks_final": "sewain bus pariwisata ter nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9853
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Tempat bagus, tinggal dikelola lebih baik lagi terutama akses jalan masuknya",
       "teks_final": "tempat bagus tinggal dikelola baik terutama akses jalan masuknya",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bersih",
       "teks_final": "bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9951
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Bagus loh tempatnya",
       "teks_final": "bagus loh tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     }
   ]

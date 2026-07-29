@@ -3,12 +3,12 @@
   "tempat": "Klinik Pratama Medika 43",
   "rating": 4.6,
   "total_ulasan": 12,
-  "positif": 3,
+  "positif": 7,
   "netral": 3,
-  "negatif": 6,
-  "persen_positif": 25.0,
+  "negatif": 2,
+  "persen_positif": 58.3,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Memang benar yg disampaikan kak diyan. Aneh kenapa BPJS aktif sesuai faskes kok sewaktu ambil obat nyeri dan radang aja disuruh bayar. Kalau bayar terus apa gunanya urus punya BPJS ini??",
       "teks_final": "memang benar disampaikan kak diyan aneh kenapa bpjs aktif sesuai faskes kok sewaktu ambil obat nyeri radang aja disuruh bayar bayar terus apa gunanya urus punya bpjs",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9854
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Dokter dan bagian administrasi yg sangat ramah apalagi dokter nya baik betuuuul",
       "teks_final": "dokter bagian administrasi ramah apalagi dokter baik betuuuul",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Selalu berobat disini..dokter dan pegawainya ramah ramah..baik sopan...terima kasih sudah melayani dg sabar.......",
       "teks_final": "selalu berobat disini dokter pegawainya ramah ramah baik sopan terima kasih melayani sabar",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9849
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Trimakasih semua pelayanan baik Staf sama dokternya ramah santun santun, biaya sangat terjangkau Poli gigi ok",
       "teks_final": "trimakasih semua pelayanan baik staf sama dokternya ramah santun santun biaya terjangkau poli gigi oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9924
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Ngasih surat rujukan salah,, jadi harus balik 2kali. Minta tolong agar lebih teliti lagi staf nya. Ini sangat merugikan pasien loo,,",
       "teks_final": "ngasih surat rujukan salah jadi harus balik 2kali minta tolong agar teliti staf merugikan pasien loo",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.995
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanannya angat baik, manajemennya bagus banget, dokter sangat ramah, farmasi sangat berkualitas",
       "teks_final": "pelayanannya angat baik manajemennya bagus banget dokter ramah farmasi berkualitas",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan oke 👍",
       "teks_final": "pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan cepat dan ramah",
       "teks_final": "pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {

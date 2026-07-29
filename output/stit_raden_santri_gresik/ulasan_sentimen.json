@@ -3,12 +3,12 @@
   "tempat": "STIT Raden Santri Gresik",
   "rating": 4.8,
   "total_ulasan": 3,
-  "positif": 1,
+  "positif": 2,
   "netral": 1,
-  "negatif": 1,
-  "persen_positif": 33.3,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 33.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Sekolah tarbiah yang sangat luar biasa mencetak 80% orang orang hebat di gresik",
       "teks_final": "sekolah tarbiah luar biasa mencetak orang orang hebat gresik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9901
     },
     {

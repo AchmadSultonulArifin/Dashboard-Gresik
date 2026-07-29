@@ -3,12 +3,12 @@
   "tempat": "ATM Mandiri GSK PR PDKPERMATASUCI",
   "rating": 3.8,
   "total_ulasan": 4,
-  "positif": 2,
+  "positif": 1,
   "netral": 2,
-  "negatif": 0,
-  "persen_positif": 50.0,
+  "negatif": 1,
+  "persen_positif": 25.0,
   "persen_netral": 50.0,
-  "persen_negatif": 0.0,
+  "persen_negatif": 25.0,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -29,7 +29,7 @@
       "Ulasan": "Penanganan mandiri lambat",
       "teks_final": "penanganan mandiri lambat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9875
     },
     {

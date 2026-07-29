@@ -3,12 +3,12 @@
   "tempat": "Klinik RS Semen Gresik Veteran",
   "rating": 4.8,
   "total_ulasan": 17,
-  "positif": 3,
+  "positif": 12,
   "netral": 3,
-  "negatif": 11,
-  "persen_positif": 17.6,
+  "negatif": 2,
+  "persen_positif": 70.6,
   "persen_netral": 17.6,
-  "persen_negatif": 64.7,
+  "persen_negatif": 11.8,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan ramah.. Terima kasih",
       "teks_final": "pelayanan ramah terima kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9881
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan terbaik, petugas ramah",
       "teks_final": "pelayanan terbaik petugas ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Waktu tunggu lama dari datang - dokter - sampai  menerima obat...",
       "teks_final": "waktu tunggu lama datang dokter sampai menerima obat",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5112
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayananyaa baik",
       "teks_final": "pelayananyaa baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "dokter dan petugass sangat ramah, pelayanan baik, hati” dan cepatt satset",
       "teks_final": "dokter petugass ramah pelayanan baik hati cepatt satset",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9803
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Kecewa dari anak pertama kesini bahkan minta rujukan ke klinik semen ini  Terakhir kmrn sy kesana anak sy posisi sakit pelayananny lama sekali  anak sy kedua sampe menggigil sama dokterny sampe d kasih obat panas leeat dubur ,kita nunggu ada 3 jam an  ( kalo sampe ankku kejang kmrn ntah apa yg terjadi )  sejak d renovasi  Tdk seperti yg dl ,better dl deh gak d renovasi pelayanan sat set  Org sakit g butuh klinik bagus tapi butuh pelayanan yg bagus",
       "teks_final": "kecewa anak pertama kesini bahkan minta rujukan klinik semen terakhir kmrn kesana anak posisi sakit pelayananny lama anak kedua sampe menggigil sama dokterny sampe kasih obat panas leeat dubur nunggu jam an kalo sampe ankku kejang kmrn ntah apa terjadi sejak renovasi seperti dl better dl renovasi pelayanan sat set org sakit butuh klinik bagus butuh pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9951
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanan offline sangat cekatan, dan oke, Pelayanan online melalui WhatsApp juga fastresp san dan membantu, semoga terus ditingkatkan, mantabb",
       "teks_final": "pelayanan offline cekatan oke pelayanan online melalui whatsapp fastresp san membantu semoga terus ditingkatkan mantabb",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9759
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanan memuaskan sekali",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan ramah",
       "teks_final": "pelayanan ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {

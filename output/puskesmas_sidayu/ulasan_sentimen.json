@@ -3,12 +3,12 @@
   "tempat": "Puskesmas Sidayu",
   "rating": 3.9,
   "total_ulasan": 19,
-  "positif": 11,
+  "positif": 6,
   "netral": 1,
-  "negatif": 7,
-  "persen_positif": 57.9,
+  "negatif": 12,
+  "persen_positif": 31.6,
   "persen_netral": 5.3,
-  "persen_negatif": 36.8,
+  "persen_negatif": 63.2,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya lama banget, udh ada dokternya dan udah antri banyak tapi tetep gak dipanggil-panggil padahal udah jam operasional",
       "teks_final": "pelayanannya lama banget udh dokternya udah antrian banyak tetep dipanggil panggil padahal udah jam operasional",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Kurang prefesional",
       "teks_final": "kurang prefesional",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9932
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "puskesmas terburuk, pelayanan buruk",
       "teks_final": "puskesmas terburuk pelayanan buruk",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.997
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan untuk ibu hamil sangat lama sekali Padahal tidak antri TPI untuk USG  membutuhkan waktu lebih dari 3 jam",
       "teks_final": "pelayanan ibu hamil lama padahal antrian usg membutuhkan waktu jam",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.954
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pengalaman melahirkan anak pertama disini pakai bpjs alhamdulillah bidannya baik”, sabar nghadepin pasien, anak lahir langsung diajari menyusui, suasana juga nyaman, makasih buat bidan” yg sudah membantu🫶🏻 melahirkan di faskes 1 pelayanannya cukup baik kok, makanan nya ya lumayan enak hehe",
       "teks_final": "pengalaman melahirkan anak pertama disini pakai bpjs alhamdulillah bidannya baik sabar nghadepin pasien anak lahir langsung diajari menyusui suasana nyaman makasih buat bidan membantu melahirkan faskes pelayanannya cukup baik kok makanan ya lumayan enak",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Kinerja dokternya kurang satset, istri saya periksa tes lab tapi tidak dikasih print hasil test lab terus tulisan yg di buku kia tidak ditulis harus ngomong dulu baru dikasih hasil lab tapi nulisnya hasil lab fi buku juga keliru  Tolong diperbaiki lagi untuk kedepannya",
       "teks_final": "kinerja dokternya kurang satset istri periksa tes lab dikasih print hasil test lab terus tulisan buku kia ditulis harus ngomong dulu dikasih hasil lab nulisnya hasil lab fi buku keliru tolong diperbaiki kedepannya",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9937
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan ramah dan cepat... terimakasih Hasil lab pun keluar cepat",
       "teks_final": "pelayanan ramah cepat terimakasih hasil lab keluar cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9803
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Tolonggg dengan sangat\"pelayanan d perbaiki dengan BAIK!!!!!!",
       "teks_final": "tolonggg pelayanan perbaiki baik",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9572
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Petugas pendaftarannya jutek poll, riweh, nggak senyum sama sekali. Yg bikin males ke puskesmas ya gini",
       "teks_final": "petugas pendaftarannya jutek poll riweh senyum sama bikin males puskesmas ya gini",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "org2 yg g berattitude DAN g berkompeten skolah lg aj, nanti sy bayari klu mau",
       "teks_final": "org2 berattitude berkompeten skolah lg aj nanti bayari mau",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9492
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "habis nganterin adik vaksin dosis 2 disini dan memang adek saya gk bawa kertas vaksin yg pertama di karenakan hilang... nakes yg bagian lain pelayanan nya bagus dan memaklumi klo kartu vaksin nya hilang TAPI TIDAK BERLAKU UNTUK MBK NAKES YG BAGIAN TENSI DARAH SEMPAT BICARA DENGAN NADA TINGGI KE ADEK SAYA GRGR KARTU NYA HILANG....  SAYA RASA SEBAGAI NAKES KURANG ETIS MENEGUR PASIEN DENGAN NADA TINGGI DI DEPAN BANYAK ORANG YG ANTRI VAKSIN..!!! kejadian tgl 24 agustus 2022 sekitar jm 09.15 pagi, tlg attitude nya dlm menangani pasien di perbaiki terutama pasien lansia.",
       "teks_final": "habis nganterin adik vaksin dosis disini memang adek bawa kertas vaksin pertama karenakan hilang nakes bagian lain pelayanan bagus memaklumi kartu vaksin hilang berlaku mbk nakes bagian tensi darah sempat bicara nada tinggi adek grgr kartu hilang rasa sebagai nakes kurang etis menegur pasien nada tinggi depan banyak orang antrian vaksin kejadian tgl agustus sekitar jm pagi tlg attitude menangani pasien perbaiki terutama pasien lansia",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9115
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "hbs vaksin disana, Nakes nya ga ber attitude, vaksin sm mama saya yg udh tua gatau prosedur dijelasin sambil bentak2 dan nyolot matanya. yg pake kacamata bagian tensi. pecat aja nakes kok attitude nya seperti jualan pindang",
       "teks_final": "hbs vaksin disana nakes ber attitude vaksin sama mama udh tua gatau prosedur dijelasin sambil bentak2 nyolot matanya pake kacamata bagian tensi pecat aja nakes kok attitude seperti jualan pindang",
       "topik": "Fasilitas",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9959
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Mantab",
       "teks_final": "mantab",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Tidak jelas dan tidak ramah, marah2",
       "teks_final": "jelas ramah marah2",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9977
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Puskesmas sidayu pelayanan nya baik top bgt",
       "teks_final": "puskesmas sidayu pelayanan baik top banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pernah periksa di poli IVA.. Alhamdulillah pelayanan ramah dan memuaskan...",
       "teks_final": "pernah periksa poli iva alhamdulillah pelayanan ramah memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9134
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanannya memuaskan petugas ramah sip deh... Ada kenangan di pengambilan obat... Terimas kasih...",
       "teks_final": "pelayanannya memuaskan petugas ramah sip kenangan pengambilan obat terimas kasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9627
     }
   ]

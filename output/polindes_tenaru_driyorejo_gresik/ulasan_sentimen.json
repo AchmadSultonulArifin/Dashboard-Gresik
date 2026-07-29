@@ -3,12 +3,12 @@
   "tempat": "Polindes Tenaru Driyorejo Gresik",
   "rating": 4.2,
   "total_ulasan": 1,
-  "positif": 0,
+  "positif": 1,
   "netral": 0,
-  "negatif": 1,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "A nice suburban place",
       "teks_final": "nice suburban place",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9739
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Benjeng",
   "rating": 3.4,
   "total_ulasan": 8,
-  "positif": 2,
+  "positif": 6,
   "netral": 2,
-  "negatif": 4,
-  "persen_positif": 25.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanannya baik, petugasnya ramah",
       "teks_final": "pelayanannya baik petugasnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan cepat dan ramah.",
       "teks_final": "pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Mantap pelayanannya",
       "teks_final": "bagus pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Kurirnya ramah, paket selalu sampai kalo tulis alamat yang lengkap rt/rw Dsn. dan Desanya, dan nama sertakan nama ortu biar mudah dicarinya sama pak pos.",
       "teks_final": "kurirnya ramah paket selalu sampai kalo tulis alamat lengkap rt rw dsn desanya nama sertakan nama ortu biar mudah dicarinya sama pak pos",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9691
     },
     {

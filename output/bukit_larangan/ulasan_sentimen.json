@@ -3,12 +3,12 @@
   "tempat": "Bukit Larangan",
   "rating": 4.2,
   "total_ulasan": 17,
-  "positif": 0,
+  "positif": 12,
   "netral": 3,
-  "negatif": 14,
-  "persen_positif": 0.0,
+  "negatif": 2,
+  "persen_positif": 70.6,
   "persen_netral": 17.6,
-  "persen_negatif": 82.4,
+  "persen_negatif": 11.8,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Indah tanpa bayar",
       "teks_final": "indah tanpa bayar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Alam yg asri",
       "teks_final": "alam asri",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pemandangan yang indah",
       "teks_final": "pemandangan indah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Cocok buat jalan pagi dan bersepeda",
       "teks_final": "cocok buat jalan pagi bersepeda",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Asik",
       "teks_final": "asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9975
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "View bagus saat pagi & sore hari.",
       "teks_final": "view bagus pagi sore hari",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Keren dan alami",
       "teks_final": "bagus alami",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Bukan tempat wisata. Ini adalah area tambang phospat yang terletak di gunung larangan. View cukup bagus, mengahadap ke laut. Rekomended jika kesini ketika matahari terbit.  Jalan belum aspal, paling cocok naik motor.",
       "teks_final": "bukan tempat wisata area tambang phospat terletak gunung larangan view cukup bagus mengahadap laut rekomended kesini matahari terbit jalan aspal paling cocok naik motor",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Donat kentang donat",
       "teks_final": "donat kentang donat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8333
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pemandangannya bagus, tapi sayang jalannya kurang bagus",
       "teks_final": "pemandangannya bagus sayang jalannya kurang bagus",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6316
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Iya",
       "teks_final": "iya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8034
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "View nya paling bagus buat tempat sekitar",
       "teks_final": "view paling bagus buat tempat sekitar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     }
   ]

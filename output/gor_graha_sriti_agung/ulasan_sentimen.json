@@ -3,12 +3,12 @@
   "tempat": "GOR GRAHA SRITI AGUNG",
   "rating": 4.4,
   "total_ulasan": 9,
-  "positif": 1,
+  "positif": 6,
   "netral": 3,
-  "negatif": 5,
-  "persen_positif": 11.1,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 55.6,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Gor nya berkualitas",
       "teks_final": "gor berkualitas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "bagus lapangan.nya, ada kamar mandi, ada tribun penonton, dan didpan ada warung kopi..😊",
       "teks_final": "bagus lapangan kamar mandi tribun penonton didpan warung kopi",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7809
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Lapangan enak, pencahayaan oke , fasilitas oke",
       "teks_final": "lapangan enak pencahayaan oke fasilitas oke",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Nyaman bersih dan ah mantab",
       "teks_final": "nyaman bersih ah mantab",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Gedung serbaguna mantab !!!",
       "teks_final": "gedung serbaguna mantab",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     }
   ]

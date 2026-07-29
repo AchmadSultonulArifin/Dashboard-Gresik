@@ -3,12 +3,12 @@
   "tempat": "SMK Ma'arif NU Driyorejo",
   "rating": 4.4,
   "total_ulasan": 23,
-  "positif": 8,
+  "positif": 12,
   "netral": 5,
-  "negatif": 10,
-  "persen_positif": 34.8,
+  "negatif": 6,
+  "persen_positif": 52.2,
   "persen_netral": 21.7,
-  "persen_negatif": 43.5,
+  "persen_negatif": 26.1,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sekolah hebat dengan biaya yang paling murah sedriyorejo tapi menghasilkan lulisan yang unggul",
       "teks_final": "sekolah hebat biaya paling murah sedriyorejo menghasilkan lulisan unggul",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9825
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sekolah yang gak support murid nya, mau nya terima jadi murid yg berprestasi. mending cari sekolah agak mahal dikit dari pada sekolah disini. Yang bintang 5 wajib di pertanyakan",
       "teks_final": "sekolah support murid mau terima jadi murid berprestasi mending cari sekolah agak mahal dikit sekolah disini bintang wajib pertanyakan",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9931
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Tempat menimba ilmu yang tepat karena disini dididik disiplin dan menjadi siswa yg berkepribadian yang baik serta berkualitas....👍",
       "teks_final": "tempat menimba ilmu tepat disini dididik disiplin menjadi siswa berkepribadian baik serta berkualitas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9713
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sekolah yg luar biasa biayah murah dn terbukti setiap lomba sll memboyong trophy sebagai bukti kesuksesannya...!",
       "teks_final": "sekolah luar biasa biayah murah dn terbukti setiap lomba sll memboyong trophy sebagai bukti kesuksesannya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "bauk",
       "teks_final": "bauk",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9972
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "tidak pernah ada evaluasi soalnya banyak orang tua yg keberatan soal biaya yang tidak penting",
       "teks_final": "pernah evaluasi soalnya banyak orang tua keberatan soal biaya penting",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7294
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "khusus untuk siswa sd mending jangan sekolah di mts maarif sini, gurunya pada gak niat ngajar, apalagi guru PKN kasih nilai di sama ratakan satu sekolah, kalo sama rata nilai 90 gapapa, ini di 83 84,dimana letak logika nya bro",
       "teks_final": "khusus siswa sd mending jangan sekolah mts maarif sini gurunya niat ngajar apalagi guru pkn kasih nilai sama ratakan satu sekolah kalo sama rata nilai gapapa dimana letak logika bro",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9616
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "SMK Bisa",
       "teks_final": "smk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6244
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Smk dengan 7 jurusan yang punya SPP paling murah, cuma 100 ribu saja",
       "teks_final": "smk jurusan punya spp paling murah cuma ribu saja",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5481
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "SMK ma'arif NU merupakan sekolah yang berkualitas ditunjang dengan fasilitas yang lengkap, dan biaya terjangkau,  Yukk join sekarang juga sebelum kehabisan kuota !!! Jangan lupa ya  Sekolah murah tapi kualitas ndak murahan pokonya",
       "teks_final": "smk ma arif nu merupakan sekolah berkualitas ditunjang fasilitas lengkap biaya terjangkau yukk join sekarang kehabisan kuota jangan lupa ya sekolah murah kualitas ndak murahan pokonya",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9882
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sekolah biaya murah, fasilitas lengkap",
       "teks_final": "sekolah biaya murah fasilitas lengkap",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9869
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "biaya nya murahhh",
       "teks_final": "biaya murahhh",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Sekolahnya murah, fasilitas lengkap👍 top",
       "teks_final": "sekolahnya murah fasilitas lengkap top",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Tempat sekolah strategis dan guru guru yang berkualitas",
       "teks_final": "tempat sekolah strategis guru guru berkualitas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9872
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "terlalu banyak biaya yg tidak penting .",
       "teks_final": "terlalu banyak biaya penting",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9957
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "Guru TIDAK niat mengajar, anak lagi ujian bukannya suruh ngerjain pelan\" yg teliti, Malah disuruh cepat\" TIDAK usah di pikir Dan pilih asal aja, Pdhal ujian matematika, rata2 semua guru nya begitu",
       "teks_final": "guru niat mengajar anak ujian bukannya suruh ngerjain pelan teliti malah disuruh cepat usah pikir pilih asal aja pdhal ujian matematika rata2 semua guru begitu",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9682
     }
   ]

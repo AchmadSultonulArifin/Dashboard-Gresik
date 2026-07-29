@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Umum Walisongo 1 Gresik",
   "rating": 4.9,
   "total_ulasan": 30,
-  "positif": 0,
+  "positif": 29,
   "netral": 1,
-  "negatif": 29,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 96.7,
   "persen_netral": 3.3,
-  "persen_negatif": 96.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Dokter sama perawatnya gk ada yang judes dan disana tempat nya luas dan bersih jadi betah",
       "teks_final": "dokter sama perawatnya judes disana tempat luas bersih jadi betah",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8072
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanannya sangat bagus,,pegawainya semua baik dan ramah,,",
       "teks_final": "pelayanannya bagus pegawainya semua baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanannya bagus perawatnya ramah2 org tua saya dirawat di sunan bonang tempatnya selalu bersih.. makanannya enak2 mantap",
       "teks_final": "pelayanannya bagus perawatnya ramah2 org tua dirawat sunan bonang tempatnya selalu bersih makanannya enak2 bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pengalaman saya melahirkan di rumah sakit wali 9 dengan cara operasi caesar sungguh tidak semenakutkan, dr spog nya sngt baik, ramah juga pelayanannya terjamin, perawat nakes nya juga dan stelah oprasi tdak sesakit yang sya bayangkan trnyta perawatanya sungguh baik selama di Rs wali 9, terimakasih Rumah sakit wali 9 semoga tmbah jaya dan suksess🥰🤗",
       "teks_final": "pengalaman melahirkan rumah sakit wali cara operasi caesar sungguh semenakutkan spog sngt baik ramah pelayanannya terjamin perawat nakes stelah oprasi tdak sesakit sya bayangkan trnyta perawatanya sungguh baik selama rumah sakit wali terimakasih rumah sakit wali semoga tmbah jaya suksess",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9875
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan bagus polll",
       "teks_final": "pelayanan bagus polll",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan ramah, fasilitas lengkap, dokter dan medisnya cekatan semua",
       "teks_final": "pelayanan ramah fasilitas lengkap dokter medisnya cekatan semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9936
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "RS terdebest 😍 pelayanan memuaskan 👍🏻",
       "teks_final": "rumah sakit terdebest pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9873
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan nya bagus,Tenaga medis memberikan informasi dengan jelas, lengkap dan mudah dipahami",
       "teks_final": "pelayanan bagus tenaga medis memberikan informasi jelas lengkap mudah dipahami",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9855
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Dokter dan perawatnya ramah ramah",
       "teks_final": "dokter perawatnya ramah ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Baru 2 hari pulang setelah operasi SC disini.. sangat puas dengan pelayanannya yang diberikan, salah satu rumah sakit langganan keluarga saya kalau ada keluhan selalu disini",
       "teks_final": "hari pulang operasi sc disini puas pelayanannya diberikan salah satu rumah sakit langganan keluarga keluhan selalu disini",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9824
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Pelayanannya sangat baik.. saya melahirkan disini secara SC bidan, perawat, dokternya sangat ramah bintang 5 mantaaaaap buat RSU wali songo",
       "teks_final": "pelayanannya baik melahirkan disini secara sc bidan perawat dokternya ramah bintang mantaaaaap buat rsu wali songo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Istri saya habis melahirkan di sini, pelayanannya sangat bagus.",
       "teks_final": "istri habis melahirkan sini pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Pelayanannya sangat baik, petugas juga ramah2, cepat dalam menangani. Dokter dan pegawainya baik2, ruangannya juga nyaman. Terimakasih rsu walisongo",
       "teks_final": "pelayanannya baik petugas ramah2 cepat menangani dokter pegawainya baik2 ruangannya nyaman terimakasih rsu walisongo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "kamarbersih, pelayanannya baik",
       "teks_final": "kamarbersih pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Mbk2 bidannya sangat ramah sekali, dokter nya juga kalau menjelaskan sangat detail, pelayanan rsu wali songo terbaik.",
       "teks_final": "mbk2 bidannya ramah dokter menjelaskan detail pelayanan rsu wali songo terbaik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9891
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Pelayanan di rumah sakit ini sangat luar biasa! Dari mulai pendaftaran hingga penanganan di poli, semua staf sangat ramah, informatif, dan sabar menghadapi pasien. Dokter yang bertugas juga menjelaskan diagnosa dan tindakan dengan sangat detail dan mudah dipahami.",
       "teks_final": "pelayanan rumah sakit luar biasa mulai pendaftaran hingga penanganan poli semua staf ramah informatif sabar menghadapi pasien dokter bertugas menjelaskan diagnosa tindakan detail mudah dipahami",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9882
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan sangat bagus, cepat, mulai dari IGD sampai ke ruang bersalin sangat baik pelayanannya dan Bidan dokter sangat ramah, ruangannya sangat bersih dan rapi",
       "teks_final": "pelayanan bagus cepat mulai igd sampai ruang bersalin baik pelayanannya bidan dokter ramah ruangannya bersih rapi",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan sangat baik, profesional. Dokter, bidan,perawat sangat ramah dan sabar membantu pasien.",
       "teks_final": "pelayanan baik profesional dokter bidan perawat ramah sabar membantu pasien",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9843
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Pelayanan bagus perawatnya juga ramah nggak judes, semakin baik kedepanya sukses selalu ra Walisongo 1 Gresik",
       "teks_final": "pelayanan bagus perawatnya ramah judes semakin baik kedepanya sukses selalu ra walisongo gresik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9931
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Rumah sakitnya bersih dan pelayanan baik terimakasih Walisongo",
       "teks_final": "rumah sakitnya bersih pelayanan baik terimakasih walisongo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "rumah sakit Walisongo perawat dan dokter nya baik ramah pelayanannya juga cepat",
       "teks_final": "rumah sakit walisongo perawat dokter baik ramah pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.989
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "pelayanannya sangat bagus, dokter dan bidan nya sangat ramah, terimakasih RSU wali Songo",
       "teks_final": "pelayanannya bagus dokter bidan ramah terimakasih rsu wali songo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Pelayanan sangat baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan baik Kamar pasien bersih",
       "teks_final": "pelayanan baik kamar pasien bersih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9894
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Sangat responsif.. bagus bgt playananya",
       "teks_final": "responsif bagus banget playananya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Sangat puas",
       "teks_final": "puas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -326,7 +326,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -337,7 +337,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     }
   ]

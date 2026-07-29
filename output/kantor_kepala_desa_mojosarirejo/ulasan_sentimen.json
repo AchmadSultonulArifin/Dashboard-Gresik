@@ -3,12 +3,12 @@
   "tempat": "Kantor Kepala Desa Mojosarirejo",
   "rating": 4,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 2,
   "netral": 2,
-  "negatif": 2,
-  "persen_positif": 20.0,
+  "negatif": 1,
+  "persen_positif": 40.0,
   "persen_netral": 40.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -51,7 +51,7 @@
       "Ulasan": "semoga lebih maju kedepannya..",
       "teks_final": "semoga maju kedepannya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9702
     },
     {

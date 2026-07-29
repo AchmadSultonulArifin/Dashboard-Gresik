@@ -3,12 +3,12 @@
   "tempat": "KLINIK RI AL-MUBAROK",
   "rating": 4.7,
   "total_ulasan": 12,
-  "positif": 0,
+  "positif": 12,
   "netral": 0,
-  "negatif": 12,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sangat memuaskan penangananya",
       "teks_final": "memuaskan penangananya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "sangat ramah dan baik petugasnya",
       "teks_final": "ramah baik petugasnya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Pelayanan baik ramah, semoga kedepan bisa maju dan sukses",
       "teks_final": "pelayanan baik ramah semoga kedepan maju sukses",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9878
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Trimakasih pelayanan cepat dan ramah",
       "teks_final": "trimakasih pelayanan cepat ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9846
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan oke baik ramah",
       "teks_final": "pelayanan oke baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan yang sangat baik dan cepat dan pegawainya Rama Rama semua",
       "teks_final": "pelayanan baik cepat pegawainya rama rama semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.99
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan baik,ramah\"",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sangat ramah",
       "teks_final": "ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanannya cepet gercep mantap",
       "teks_final": "pelayanannya cepet gercep bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanannya sangat baik dan ramah",
       "teks_final": "pelayanannya baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9959
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "petugas nya ramah penanganan nya juga cepatt",
       "teks_final": "petugas ramah penanganan cepatt",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9821
     }
   ]

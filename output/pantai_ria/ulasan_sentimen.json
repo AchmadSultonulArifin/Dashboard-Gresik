@@ -3,12 +3,12 @@
   "tempat": "Pantai Ria",
   "rating": 4.2,
   "total_ulasan": 8,
-  "positif": 4,
+  "positif": 5,
   "netral": 0,
-  "negatif": 4,
-  "persen_positif": 50.0,
+  "negatif": 3,
+  "persen_positif": 62.5,
   "persen_netral": 0.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 37.5,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Belajsr mobil disini ena lebar",
       "teks_final": "belajsr mobil disini ena lebar",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6935
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sayang sekali sekarang menjadi sepi dan terkesan terbengkalai tidak terawat, tanpa ada terobosan baru dari pihak pengelola untuk menarik wisatawan kembali, padahal disini banyak kenangan masa kecil saya dulu sampai sekarang menginjak kepala 3",
       "teks_final": "sayang sekarang menjadi sepi terkesan terbengkalai terawat tanpa terobosan pihak pengelola menarik wisatawan kembali padahal disini banyak kenangan masa kecil dulu sampai sekarang menginjak kepala",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9428
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tmbah mangkrakkkk,, justruuu terkesan semrawutt",
       "teks_final": "tmbah mangkrakkkk justruuu terkesan semrawutt",
       "topik": "Administrasi",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9929
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Cocok untuk berlibur",
       "teks_final": "cocok berlibur",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Tempat wisata, tempat yg tenang dihari biasa untuk mencari udara segar dan menikmati jajanan kuliner Kupang lontong dan es degannya harga terjangkau",
       "teks_final": "tempat wisata tempat tenang dihari biasa mencari udara segar menikmati jajanan kuliner kupang lontong es degannya harga terjangkau",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.998
     }
   ]

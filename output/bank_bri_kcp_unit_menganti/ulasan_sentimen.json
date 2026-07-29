@@ -3,12 +3,12 @@
   "tempat": "Bank Bri Kcp Unit Menganti",
   "rating": 3.8,
   "total_ulasan": 7,
-  "positif": 2,
+  "positif": 5,
   "netral": 0,
-  "negatif": 5,
-  "persen_positif": 28.6,
+  "negatif": 2,
+  "persen_positif": 71.4,
   "persen_netral": 0.0,
-  "persen_negatif": 71.4,
+  "persen_negatif": 28.6,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanan baik dan ramah",
       "teks_final": "pelayanan baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "satpam,cs dan petugas lainya sangat ramah apalagi satpamnya sigap sekali",
       "teks_final": "satpam cs petugas lainya ramah apalagi satpamnya sigap",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan cs nya gak nyaman sekali Buruk sekali pelayanannya",
       "teks_final": "pelayanan cs nyaman buruk pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9973
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Jempol buat pak security,selalu respek pada nasabah,dan taat prokes untuk cs terkesan lambat menangani atau memang sudah prosedur?",
       "teks_final": "jempol buat pak security selalu respek nasabah taat prokes cs terkesan lambat menangani memang prosedur",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9722
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Sudah 3hari atm setor tunai rusak belum di perbaiki",
       "teks_final": "3hari atm setor tunai rusak perbaiki",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8303
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Cs, teller, dan satpam nya ramah dan sigap dalam pelayanan nya... The best lah",
       "teks_final": "cs teller satpam ramah sigap pelayanan the best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Selalu ramai nasabah Tetapi salut dengan satpam nya meskipun ramai tetap konsisten menjaga protokol kesehatan Tetap membatasi nasabah yang ada di dalam ruangan Dan jika melihat ada kerumunan di depan teller, satpam sigap mengingatkan Ini penting mengingat masa sekarang masih pandemi Costumer servis dan teller nya juga ramah dan bersahabat Lahan parkir meskipun sudah luas tetap selalu penuh",
       "teks_final": "selalu ramai nasabah salut satpam meskipun ramai tetap konsisten menjaga protokol kesehatan tetap membatasi nasabah ruangan melihat kerumunan depan teller satpam sigap mengingatkan penting mengingat masa sekarang pandemi costumer servis teller ramah bersahabat lahan parkir meskipun luas tetap selalu penuh",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9848
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Lapangan Olah Raga",
   "rating": 4.4,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 4,
   "netral": 1,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 1,
+  "persen_positif": 66.7,
   "persen_netral": 16.7,
-  "persen_negatif": 83.3,
+  "persen_negatif": 16.7,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Tempat sehat untuk cari kringat",
       "teks_final": "tempat sehat cari kringat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9834
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Semoga bermanfaat",
       "teks_final": "semoga bermanfaat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8285
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Sipp",
       "teks_final": "sipp",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9838
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "lapangan voly",
       "teks_final": "lapangan voly",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7111
     }
   ]

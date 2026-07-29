@@ -3,12 +3,12 @@
   "tempat": "Kantor Kepala Desa Driyorejo",
   "rating": 4.2,
   "total_ulasan": 3,
-  "positif": 0,
+  "positif": 1,
   "netral": 2,
-  "negatif": 1,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 33.3,
   "persen_netral": 66.7,
-  "persen_negatif": 33.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Good",
       "teks_final": "good",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {

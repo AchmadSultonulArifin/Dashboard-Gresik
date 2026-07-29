@@ -3,12 +3,12 @@
   "tempat": "SPPG Cangkir",
   "rating": 5,
   "total_ulasan": 11,
-  "positif": 0,
+  "positif": 11,
   "netral": 0,
-  "negatif": 11,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "sangat keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Menu makanannya bervariasi, enak banget dan bergizi. Nafsu makan jadi lebih meningkat, dan kebersihan makanan juga sangat terjaminn. Besttt bangettt5",
       "teks_final": "menu makanannya bervariasi enak banget bergizi nafsu makan jadi meningkat kebersihan makanan terjaminn besttt bangettt5",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.998
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "pelayanan sppg in sangat memuaskan",
       "teks_final": "pelayanan sppg in memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Menakjubkan",
       "teks_final": "menakjubkan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "menunya banyak variasi,tetapi tetap mengutamakan cita rasa. Semoga konsisten sampai kedepannya❤",
       "teks_final": "menunya banyak variasi tetap mengutamakan cita rasa semoga konsisten sampai kedepannya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Menunya variatif, penanganannya baik, ramah & fast respon 🤗",
       "teks_final": "menunya variatif penanganannya baik ramah fast respon",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.992
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Mas\" Driver nya Ganteng\"",
       "teks_final": "mas driver ganteng",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9905
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "🥺Drivernya Baik& Ramah Tamah",
       "teks_final": "drivernya baik ramah tamah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9913
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Jos jis",
       "teks_final": "bagus jis",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9923
     }
   ]

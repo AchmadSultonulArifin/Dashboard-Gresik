@@ -3,12 +3,12 @@
   "tempat": "Klinik Mitra Medicare Driyorejo",
   "rating": 4.2,
   "total_ulasan": 21,
-  "positif": 5,
+  "positif": 10,
   "netral": 4,
-  "negatif": 12,
-  "persen_positif": 23.8,
+  "negatif": 7,
+  "persen_positif": 47.6,
   "persen_netral": 19.0,
-  "persen_negatif": 57.1,
+  "persen_negatif": 33.3,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Saya masih gak iklas berobat disini malah di usir !! Petugas judes , antrian gak jelas !!",
       "teks_final": "iklas berobat disini malah usir petugas judes antrian jelas",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Penanganan lambat, masak istirahat 2 jam setengah,, orang yang tadinya sakit malah sekarat",
       "teks_final": "penanganan lambat masak istirahat jam setengah orang tadinya sakit malah sekarat",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9955
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pembersihan karang gigi anak saya bagus, petugas dan dokternya ramah dan informatif",
       "teks_final": "pembersihan karang gigi anak bagus petugas dokternya ramah informatif",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Baru pertama kali ikut scaling, nyaman, rapi dokter gigi nya sabar dan ramah.. Sukses selalu mmc driyorejo",
       "teks_final": "pertama kali ikut scaling nyaman rapi dokter gigi sabar ramah sukses selalu mmc driyorejo",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8455
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Alhamdulillah pilih Faskes disini dan baru pertama kali kesini dan Alhasil pelayanan sangat Ramah, Dokter melayani dengan baik. BPJS maupun Umum sama2 dilayani sebagai mana mestinya. Pertahankan dan sukses selalu untuk Klinik Mitra Medicare 🙏",
       "teks_final": "alhamdulillah pilih faskes disini pertama kali kesini alhasil pelayanan ramah dokter melayani baik bpjs maupun umum sama2 dilayani sebagai mana mestinya pertahankan sukses selalu klinik mitra medicare",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9885
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Nyaman bersih dan pelayanannya baik ramah",
       "teks_final": "nyaman bersih pelayanannya baik ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya ramah semua tenaga medis sangat baik sekali, pertama scaling gigi dilayani dengan baik, cepat, dan tidak sakit",
       "teks_final": "pelayanannya ramah semua tenaga medis baik pertama scaling gigi dilayani baik cepat sakit",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "bagus ayu DM muda tobrut tobrut",
       "teks_final": "bagus ayu dm muda tobrut tobrut",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7873
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "bagus , sesuai nyaman tindakan dsini wenak ayu2 adem dokter muda muda",
       "teks_final": "bagus sesuai nyaman tindakan dsini wenak ayu2 adem dokter muda muda",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9895
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "petugas konternya ketus-ketus. aturannya ruwet.",
       "teks_final": "petugas konternya ketus ketus aturannya ruwet",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9933
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Datang jam 17.30 an .. dokter istirahat sampek jam 19.00 . Wajar?",
       "teks_final": "datang jam an dokter istirahat sampek jam wajar",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.5265
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Bagus,fast respon,ramah",
       "teks_final": "bagus fast respon ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9819
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Susah banget ngasih surat rujukan, padahal dokter jelas jelas ngasih tapi si mbak” depan ga mau kasih karna alasan sakit nya ga masuk kategori, ga parah, dan yaa malah di suruh ke ugd sendiri dong, sakit dari senin sampe ketemu senin kata e ga parah, dokter aja ngasih, sama dokter di suruh nunggu karna pas mau ngetik ternyata keyboard nya lemot error pas udah nunggu malah di bilang ga bisa ngasih, terus akhir nya ke puskesmas dekat rumah, langsung mau ngasih tapi ga bisa karna faskes ikut mmc jadi harus sini yg kasih, 2 kali kyk gini, yg pertama juga ga mau ngasih akhir nya pergi sendiri ke ugd rs dan berakhir opname 4 hari, tolong ya tolong pelayanan lebih di tingkat kan lagi, dan dari cerita temen” yg faskes nya disini juga punya cerita yang sama, padahal kita bpjs juga bayar loh, tiap bulan kena potongan tapi minta rujukan aja ga di kasih”, dan yaa saya memutus kan pindah faskes",
       "teks_final": "susah banget ngasih surat rujukan padahal dokter jelas jelas ngasih si mbak depan mau kasih karna alasan sakit masuk kategori parah yaa malah suruh ugd sendiri sakit senin sampe ketemu senin kata parah dokter aja ngasih sama dokter suruh nunggu karna pas mau ngetik ternyata keyboard lemot error pas udah nunggu malah bilang ngasih terus akhir puskesmas dekat rumah langsung mau ngasih karna faskes ikut mmc jadi harus sini kasih kali kyk gini pertama mau ngasih akhir pergi sendiri ugd rumah sakit berakhir opname hari tolong ya tolong pelayanan tingkat kan cerita temen faskes disini punya cerita sama padahal bpjs bayar loh tiap bulan kena potongan minta rujukan aja kasih yaa memutus kan pindah faskes",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9855
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Kliniknya bener2 bersih dan pelayanan paling oke dari semua klinik di driyo👍🏻 Plus petugasnya cantik2 semua",
       "teks_final": "kliniknya bener2 bersih pelayanan paling oke semua klinik driyo plus petugasnya cantik2 semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     }
   ]

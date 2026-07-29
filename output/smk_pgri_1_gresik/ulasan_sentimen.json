@@ -3,12 +3,12 @@
   "tempat": "SMK PGRI 1 GRESIK",
   "rating": 4.7,
   "total_ulasan": 12,
-  "positif": 1,
+  "positif": 7,
   "netral": 4,
-  "negatif": 7,
-  "persen_positif": 8.3,
+  "negatif": 1,
+  "persen_positif": 58.3,
   "persen_netral": 33.3,
-  "persen_negatif": 58.3,
+  "persen_negatif": 8.3,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -40,7 +40,7 @@
       "Ulasan": "Tambah sukses & maju... mantap",
       "teks_final": "tambah sukses maju bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9938
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Resepsionis dan satpam nya ramah",
       "teks_final": "resepsionis satpam ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.992
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Sekolah",
       "teks_final": "sekolah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4308
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "sekolah tercinta, DPIB selalu di hati♥️",
       "teks_final": "sekolah tercinta dpib selalu hati",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9739
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Tolong anak didikmu diurus sing bener. Ojok gawe dolanan kerjoaneh uwong. Atas nama vivian alamat banjarsari. Sebagai guru kandanonoh ojok meneng ae.",
       "teks_final": "tolong anak didikmu diurus sing bener ojok gawe dolanan kerjoaneh uwong atas nama vivian alamat banjarsari sebagai guru kandanonoh ojok meneng ae",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9781
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sekolah kejuruan swasta favorit di gresik. Menyediakan berbagai jurusan dan fasilitas modern. Selain itu juga memiliki kerjasama dengan berbagai perusahaan ternama sehingga menjamin lulusan memiliki kompetensi di dunia industri dan dunia usaha.",
       "teks_final": "sekolah kejuruan swasta favorit gresik menyediakan berbagai jurusan fasilitas modern selain memiliki kerjasama berbagai perusahaan ternama sehingga menjamin lulusan memiliki kompetensi dunia industri dunia usaha",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8978
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Sekolah dengan kualitas terbaik di kelasnya",
       "teks_final": "sekolah kualitas terbaik kelasnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     }
   ]

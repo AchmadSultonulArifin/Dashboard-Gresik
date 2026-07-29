@@ -3,12 +3,12 @@
   "tempat": "Bulengan Grejeg",
   "rating": 4.4,
   "total_ulasan": 9,
-  "positif": 0,
+  "positif": 6,
   "netral": 3,
-  "negatif": 6,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Bagoes",
       "teks_final": "bagoes",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8686
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Keren dan bagus pemandangannya",
       "teks_final": "bagus bagus pemandangannya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempat ini sangat bagus untuk di kunjungi Tempatnya berada di bawah pengunungan sangat sejuk untuk di nikmati",
       "teks_final": "tempat bagus kunjungi tempatnya berada bawah pengunungan sejuk nikmati",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Salah satu Alternatif Destinasi Wisata Air...  Air Sumber yang dimiliki wisata ini, menyebabkan air sangat segar dan alami...  Wahana yang dimiliki juga cukup representatif bagi semua kalangan, ada Wahana anak-anak, remaja, maupun Dewasa...  Selain itu spot tempat duduk juga sangat baik, walaupun perlu diperbanyak jumlahnya...  Semoga pengurus dapat selalu punya ide dalam pengembangan dan selalu punya inovasi baru untuk meningkatkan jumlah kunjungan...",
       "teks_final": "salah satu alternatif destinasi wisata air air sumber dimiliki wisata menyebabkan air segar alami wahana dimiliki cukup representatif bagi semua kalangan wahana anak anak remaja maupun dewasa selain spot tempat duduk baik walaupun perlu diperbanyak jumlahnya semoga pengurus selalu punya ide pengembangan selalu punya inovasi meningkatkan jumlah kunjungan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "bagus ,indah dan sejuk",
       "teks_final": "bagus indah sejuk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Memang masih tahap pengembangan... Tapi sudah lebih dari cukup lahhh Untuk standart kolam renang . . .",
       "teks_final": "memang tahap pengembangan cukup lahhh standart kolam renang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8067
     }
   ]

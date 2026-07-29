@@ -3,12 +3,12 @@
   "tempat": "Dinas Komunikasi dan Informatika Kabupaten Gresik",
   "rating": 4.4,
   "total_ulasan": 5,
-  "positif": 0,
+  "positif": 2,
   "netral": 3,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 40.0,
   "persen_netral": 60.0,
-  "persen_negatif": 40.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Orang nya ramah",
       "teks_final": "orang ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9948
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "lokasi tengah kota .. kantornya kecil",
       "teks_final": "lokasi tengah kota kantornya kecil",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6754
     }
   ]

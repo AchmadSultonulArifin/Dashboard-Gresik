@@ -3,12 +3,12 @@
   "tempat": "Lapangan Bola Trisakti Cibubur (Bogor Timur)",
   "rating": 4.6,
   "total_ulasan": 13,
-  "positif": 0,
+  "positif": 10,
   "netral": 3,
-  "negatif": 10,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 76.9,
   "persen_netral": 23.1,
-  "persen_negatif": 76.9,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Lapangannya bagus....",
       "teks_final": "lapangannya bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Lapangan bola nya luas, rumput cenderung terawat. Yang kurang hanya tribun penontonnya aja. Tersedia toilet dan mushola.",
       "teks_final": "lapangan bola luas rumput cenderung terawat kurang hanya tribun penontonnya aja tersedia toilet mushola",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9783
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "lapangannya bagus dan rata",
       "teks_final": "lapangannya bagus rata",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.997
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lapangan cukup terawat. Toilet kalau bisa lebih diperhatikan lagi 🙏🙏🙏🙏",
       "teks_final": "lapangan cukup terawat toilet diperhatikan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.925
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Lapangan nya enk, rumput bagus, ada tukang jajanan juga musolah dan kamar mandi bersih.",
       "teks_final": "lapangan enk rumput bagus tukang jajanan musolah kamar mandi bersih",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9925
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Cukup luas rumput terawat...saat ada event makanan dan minumannya harga standard",
       "teks_final": "cukup luas rumput terawat event makanan minumannya harga standard",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9642
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Sejuk tempatnya",
       "teks_final": "sejuk tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "rekomendasi layanan Pijat kerumah therapis nya profesional dan ramah",
       "teks_final": "rekomendasi layanan pijat kerumah therapis profesional ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9698
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "seru banget main di sini, lapangannya bagus rumput rata",
       "teks_final": "seru banget main sini lapangannya bagus rumput rata",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Rindang banget sejuk, enak untuk tujuan sepeda selain untuk sepak bola.",
       "teks_final": "rindang banget sejuk enak tujuan sepeda selain sepak bola",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     }
   ]

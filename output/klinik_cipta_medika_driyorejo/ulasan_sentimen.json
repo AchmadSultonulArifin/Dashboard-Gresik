@@ -3,12 +3,12 @@
   "tempat": "Klinik Cipta Medika Driyorejo",
   "rating": 4.1,
   "total_ulasan": 22,
-  "positif": 4,
+  "positif": 18,
   "netral": 1,
-  "negatif": 17,
-  "persen_positif": 18.2,
+  "negatif": 3,
+  "persen_positif": 81.8,
   "persen_netral": 4.5,
-  "persen_negatif": 77.3,
+  "persen_negatif": 13.6,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "pelayanan bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sy sekeluarga berobat Klinik Cipta Medika mulai th 2012 Dokter umumnya 👍 terutama dr.Agatha Dokter giginya juga TOP terutama drg.Binti Apalagi perawat & Apotekernya semua Ramah² dan baik Terima kasih banyak sdh memberikan pelayanan pd kami selama ini dgn baik🙏",
       "teks_final": "sekeluarga berobat klinik cipta medika mulai th dokter umumnya terutama agatha dokter giginya top terutama drg binti apalagi perawat apotekernya semua ramah baik terima kasih banyak memberikan pelayanan selama baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9804
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Cepat karena bisa ambil antrian online dan pelayanan dokter bagus juga ramah",
       "teks_final": "cepat ambil antrian online pelayanan dokter bagus ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Klinik gigi enak",
       "teks_final": "klinik gigi enak",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "klinik nya enak",
       "teks_final": "klinik enak",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Cocok berobat di sini",
       "teks_final": "cocok berobat sini",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9954
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Alhamdulillah sdh 10 tahun ikut klinik ini enak poli gigi dn poli umum.",
       "teks_final": "alhamdulillah tahun ikut klinik enak poli gigi dn poli umum",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6812
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanan bagus 👍",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Dokter nya ramah",
       "teks_final": "dokter ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Klinik baik",
       "teks_final": "klinik baik",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.984
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan sangat memuaskan",
       "teks_final": "pelayanan memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Saya sudah 4 tahun berobat di klinik Cipta Medika ini. Biasanya saya dulu ke dokter pribadi, suatu saat dokter langganan tutup, terpaksa saya cari tempat lain. Akhirnya saya ke Klinik Cipta Medika ini dan syukurlah sampai sekarang saya kalau berobat pasti ke sini. Tempatnya bersih, pelayanannya bagus dan, dokter ramah, plus humoris. Dan yang penting pengobatannya tepat. Maju terus buat Klinik Cipta Medika, kedepannya semakin berkembang. Menjadi berkat kesembuhan bagi semua orang.",
       "teks_final": "tahun berobat klinik cipta medika biasanya dulu dokter pribadi suatu dokter langganan tutup terpaksa cari tempat lain akhirnya klinik cipta medika syukurlah sampai sekarang berobat pasti sini tempatnya bersih pelayanannya bagus dokter ramah plus humoris penting pengobatannya tepat maju terus buat klinik cipta medika kedepannya semakin berkembang menjadi berkat kesembuhan bagi semua orang",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9926
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "sya prnah tambal gigi d klinik ini hasil nya bagus & sangat memuaskan plyanannya",
       "teks_final": "sya prnah tambal gigi klinik hasil bagus memuaskan plyanannya",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9852
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Alhamdulillah sy sering perawatan gigi hasil bagus.",
       "teks_final": "alhamdulillah sering perawatan gigi hasil bagus",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9939
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Klinik nya enak baik poli gigi dn poli umum.",
       "teks_final": "klinik enak baik poli gigi dn poli umum",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9881
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Meskipun jadwal praktek dokter sore dimulai pukul 4.30, tapi dokter tiba di lokasi hampir jam 6. Menunggu bagi orang sakit adalah bukan hal remeh. Mohon bisa lebih diperbaiki lagi pelayanannya.",
       "teks_final": "meskipun jadwal praktek dokter sore dimulai pukul dokter tiba lokasi hampir jam menunggu bagi orang sakit bukan hal remeh mohon diperbaiki pelayanannya",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7757
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Pelayanan dokter giginya buruk & menjengkelkan!!! Kok gak diganti aja sih dari dulu ... rata2 banyak pasien yang mengeluh lhooo ... Pernah dr nya nangani priksa gigi anak saya disambi lihat youtube & ngisi2 formulir online. dan sore tadi anak sy priksa gigi berlubang malah kulit tepi bibir anak sy kesedot bor jadi agak ngelupas jelas perih lho ... cuma minta maaf & diksh vitamin",
       "teks_final": "pelayanan dokter giginya buruk menjengkelkan kok diganti aja dulu rata2 banyak pasien mengeluh lhooo pernah nangani priksa gigi anak disambi lihat youtube ngisi2 formulir online sore tadi anak priksa gigi berlubang malah kulit tepi bibir anak kesedot bor jadi agak ngelupas jelas perih lho cuma minta maaf diksh vitamin",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.995
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "dokter giginya baik ,pelayanannya bagus, terimakasih.",
       "teks_final": "dokter giginya baik pelayanannya bagus terimakasih",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "dokter dan mbak-mbak perawatnya ramah-ramah. pelayanannya juga cepat👍🏻",
       "teks_final": "dokter mbak mbak perawatnya ramah ramah pelayanannya cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.994
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "TIDAK SOPANNNNNNN MBANYA DIDEPAN!! PASIEN KALO GA SAKIT JUGA GA DATANG BEROBAT, ORANG SAKIT MALAH SURUH NGERTIIN MOODNYA ANEH!!!",
       "teks_final": "sopannnnnnn mbanya didepan pasien kalo sakit datang berobat orang sakit malah suruh ngertiin moodnya aneh",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9929
     }
   ]

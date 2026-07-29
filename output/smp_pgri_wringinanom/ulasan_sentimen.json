@@ -3,12 +3,12 @@
   "tempat": "SMP PGRI Wringinanom",
   "rating": 2.2,
   "total_ulasan": 20,
-  "positif": 17,
+  "positif": 4,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 85.0,
+  "negatif": 15,
+  "persen_positif": 20.0,
   "persen_netral": 5.0,
-  "persen_negatif": 10.0,
+  "persen_negatif": 75.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -29,7 +29,7 @@
       "Ulasan": "SMP Bot",
       "teks_final": "smp bot",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8722
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "BODOHH",
       "teks_final": "bodohh",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9981
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Murid nya kek anjing !",
       "teks_final": "murid kek anjing",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Lose",
       "teks_final": "lose",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9945
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "SEKOLAH TIDAK BERMUTU JIKALAU TIDAK MENINDAK TEGAS MURID YANG SALAH, BERDAMAI BUKANLAH SOLUSI. Sekolah harusnya bertindak tegas terhadap murid. Tugas sekolah adalah meluruskan akhlak murid, membentuk budi pekerti, dan menanamkan kebaikan.",
       "teks_final": "sekolah bermutu jikalau menindak tegas murid salah berdamai bukanlah solusi sekolah harusnya bertindak tegas terhadap murid tugas sekolah meluruskan akhlak murid membentuk budi pekerti menanamkan kebaikan",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.8401
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Kejadian persekusi siswa terhadap gurunya tidak akan terlupakan, miris sekali adab siswanya.",
       "teks_final": "kejadian persekusi siswa terhadap gurunya terlupakan miris adab siswanya",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9955
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Miris",
       "teks_final": "miris",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9962
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Semoga Bapak Nur Khalim mendapatkan berkah atas kejadian ini. Tetap semangat bapak...",
       "teks_final": "semoga bapak nur khalim mendapatkan berkah atas kejadian tetap semangat bapak",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7213
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Ini siswa bajingan namanya,,, gak punya sopan santun dan adab sama guru ... Persis kayak PKI... Kalo ketemu injak ajak bocahnya biar punya adab sama yg lebih tua....",
       "teks_final": "siswa bajingan namanya punya sopan santun adab sama guru persis kayak pki kalo ketemu injak ajak bocahnya biar punya adab sama tua",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9978
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Semoga langsung dikeluarkan murid yang kurang ajarnya",
       "teks_final": "semoga langsung dikeluarkan murid kurang ajarnya",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9889
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Untuk pak gurunya mohon dipertegas dalam mendidik muridnya. Keluarin aja dr sekolahan, pindahin dipondok biar di ruqiyah biar tobat biar punya adab yg baik.",
       "teks_final": "pak gurunya mohon dipertegas mendidik muridnya keluarin aja sekolahan pindahin dipondok biar ruqiyah biar tobat biar punya adab baik",
       "topik": "Kesehatan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9668
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Saya sendiri tidak tahu kronologi kejadian itu.  Disamping siswa yg persekusi gurunya scra urakan ada beberapa siswa yg jg tidak mempunyai sopan santun . Miris,,  jika anak pelaku persekusi itu tidak diberi efek jera.  Sangat disayangkan seorang guru diperlakukan seperti itu.  sangat-sangat buruk.  Urakan.  Tolong Sekolah memberikan hukuman  efek jera,,  biar kejadian ini tidak terulang lagi.",
       "teks_final": "sendiri tahu kronologi kejadian disamping siswa persekusi gurunya scra urakan beberapa siswa mempunyai sopan santun miris anak pelaku persekusi diberi efek jera disayangkan seorang guru diperlakukan seperti buruk urakan tolong sekolah memberikan hukuman efek jera biar kejadian terulang",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9936
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "Enak banget tinggal berdamai aja. Anak kayak gitu harus dikasih sanksi kalo ga akan jadi sampah masyarakat. Emang sekolah ini ga malu mencetak sampah masyarakat. Hukum anaknya dong.",
       "teks_final": "enak banget tinggal berdamai aja anak kayak gitu harus dikasih sanksi kalo jadi sampah masyarakat emang sekolah malu mencetak sampah masyarakat hukum anaknya",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9965
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "anak bajingan biadab patut dikasih pelajaran",
       "teks_final": "anak bajingan biadab patut dikasih pelajaran",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.997
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "PARAH.... Bagaimana bisa seorang gurus dilecehkan dan di injak2 harga dirinya oleh seorang siswa.....seharusnya pihak sekolah menindak tegas siswa terrsebut (Drop Out saja tu siswa).",
       "teks_final": "parah bagaimana seorang gurus dilecehkan injak2 harga dirinya seorang siswa seharusnya pihak sekolah menindak tegas siswa terrsebut drop out saja tu siswa",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.998
     },
     {

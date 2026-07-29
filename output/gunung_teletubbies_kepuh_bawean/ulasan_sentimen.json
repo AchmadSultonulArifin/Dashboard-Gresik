@@ -3,12 +3,12 @@
   "tempat": "Gunung Teletubbies Kepuh Bawean",
   "rating": 4.9,
   "total_ulasan": 4,
-  "positif": 0,
+  "positif": 3,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 75.0,
   "persen_netral": 25.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Sangat indah,asri,rindang",
       "teks_final": "indah asri rindang",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sunset d pulau bawean",
       "teks_final": "sunset pulau bawean",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6333
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "mantap banget tempat nya sob",
       "teks_final": "bagus banget tempat sob",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     }
   ]

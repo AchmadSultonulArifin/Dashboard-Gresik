@@ -3,12 +3,12 @@
   "tempat": "Rumah Sakit Muhammadiyah Gresik",
   "rating": 4.7,
   "total_ulasan": 28,
-  "positif": 0,
+  "positif": 27,
   "netral": 1,
-  "negatif": 27,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 96.4,
   "persen_netral": 3.6,
-  "persen_negatif": 96.4,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "Terimakasih pelayanannya.. Terimakasih dr. Erik sudah  di bantu operasi Best",
       "teks_final": "terimakasih pelayanannya terimakasih erik bantu operasi best",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9048
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "melahirkan anak pertama disini untuk pelayanannya sangat memuaskan dijelaskan dan sangat diperhatikan",
       "teks_final": "melahirkan anak pertama disini pelayanannya memuaskan dijelaskan diperhatikan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9942
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Selama opname di RS Muhammadiyah Gresik, mendapat pelayanan yang bagus dan cekatan dari dokter Erick selaku dokter bedah.",
       "teks_final": "selama opname rumah sakit muhammadiyah gresik mendapat pelayanan bagus cekatan dokter erick selaku dokter bedah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7941
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Staf, perawat, dokter, semuanya ramah. Penanganan cepat. Semoga selalu bekerja sepenuh hati, semoga barokah dan sukses selalu. Aamiin",
       "teks_final": "staf perawat dokter semuanya ramah penanganan cepat semoga selalu bekerja sepenuh hati semoga barokah sukses selalu aamiin",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9682
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan cepat, Ramah , BPJS friendly tanpa membedakan pasien. RS bersih banget",
       "teks_final": "pelayanan cepat ramah bpjs friendly tanpa membedakan pasien rumah sakit bersih banget",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9968
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan baik.. perawat ramah” serta dokternya juga baik. Kemarin sama dokter erik",
       "teks_final": "pelayanan baik perawat ramah serta dokternya baik kemarin sama dokter erik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9851
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Alhamdulillah pelayanan nya oke.",
       "teks_final": "alhamdulillah pelayanan oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9934
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Semangat dan lebih baik lagi dalam pelayanan Perawat dan bidan sabar baik tlaten sama pasien Dokter ramah baik menyenangkan",
       "teks_final": "semangat baik pelayanan perawat bidan sabar baik tlaten sama pasien dokter ramah baik menyenangkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9846
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Pelayanan nya baik, Bubid nya ramah ramah, Peduli, dan penanganan nya sangat baik, Terimakasih Rumah Sakit Muhammadiyah Gresik, Semoga selalu sukses🤍🙏🏻",
       "teks_final": "pelayanan baik bubid ramah ramah peduli penanganan baik terimakasih rumah sakit muhammadiyah gresik semoga selalu sukses",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9032
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Pelayanan Alhamdulillah bagus memuaskan",
       "teks_final": "pelayanan alhamdulillah bagus memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Alhamdulillah nyaman dokter anaknya wenak pwoll . Perawatnya ruamah2 .. smoga semakin maju jaya dan berkah rs Muhammadiyah gresik 🥰",
       "teks_final": "alhamdulillah nyaman dokter anaknya wenak pwoll perawatnya ruamah2 smoga semakin maju jaya berkah rumah sakit muhammadiyah gresik",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9745
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Pelayanan yang baik",
       "teks_final": "pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "baik",
       "teks_final": "baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9844
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Tanggap",
       "teks_final": "tanggap",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9855
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Pelayanan nya sangat bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -194,7 +194,7 @@
       "Ulasan": "perawat dan dokternya sangat baik pelayanan profesional",
       "teks_final": "perawat dokternya baik pelayanan profesional",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9318
     },
     {
@@ -205,7 +205,7 @@
       "Ulasan": "Sangat informatif dan ramah",
       "teks_final": "informatif ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -216,7 +216,7 @@
       "Ulasan": "Pelayanan nya bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -227,7 +227,7 @@
       "Ulasan": "Pelayanan Rapih , suster dan dokter nya ramah\",di layani dengan baik",
       "teks_final": "pelayanan rapih suster dokter ramah layani baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9854
     },
     {
@@ -238,7 +238,7 @@
       "Ulasan": "Bagus perawatan nya",
       "teks_final": "bagus perawatan",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9952
     },
     {
@@ -249,7 +249,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -260,7 +260,7 @@
       "Ulasan": "pelayanan nya baguss, cepet juga",
       "teks_final": "pelayanan baguss cepet",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -271,7 +271,7 @@
       "Ulasan": "Pelayanan rumah sakit Muhammadiyah Gresik saya beri nilai 90. Bagus ramah semua",
       "teks_final": "pelayanan rumah sakit muhammadiyah gresik beri nilai bagus ramah semua",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9944
     },
     {
@@ -282,7 +282,7 @@
       "Ulasan": "Masyaallah alhamdulillah terima kasih sudah memberikan pelayanan maksimal, ramah dan transparan. Semoga konsisten dan semakin maju RSMG😇",
       "teks_final": "masyaallah alhamdulillah terima kasih memberikan pelayanan maksimal ramah transparan semoga konsisten semakin maju rsmg",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9722
     },
     {
@@ -293,7 +293,7 @@
       "Ulasan": "Pelayanan dan penanganannya sangat bagus.",
       "teks_final": "pelayanan penanganannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -304,7 +304,7 @@
       "Ulasan": "Pelayanan baik , perawatnya ramah , dokternya juga",
       "teks_final": "pelayanan baik perawatnya ramah dokternya",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -315,7 +315,7 @@
       "Ulasan": "Dokter n perawatx ramah\" Baik sopan",
       "teks_final": "dokter perawatx ramah baik sopan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9727
     }
   ]

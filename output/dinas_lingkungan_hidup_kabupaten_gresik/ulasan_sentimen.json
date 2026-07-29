@@ -3,12 +3,12 @@
   "tempat": "Dinas Lingkungan Hidup Kabupaten Gresik",
   "rating": 3.5,
   "total_ulasan": 10,
-  "positif": 1,
+  "positif": 3,
   "netral": 6,
-  "negatif": 3,
-  "persen_positif": 10.0,
+  "negatif": 1,
+  "persen_positif": 30.0,
   "persen_netral": 60.0,
-  "persen_negatif": 30.0,
+  "persen_negatif": 10.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya çepat jelas dan memuaskan",
       "teks_final": "pelayanannya epat jelas memuaskan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9963
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Menganti banyak yang bakar sampah tiap hari. Ini sumber penyakit. Dinas lingkungan hidup jangan tutup mata, keliling beri penyuluhab kalau berulang hukumannya siapkan. Kurang taman dan banyak tanaman liat tidak tertata, kurang pohon pelan2 diganti pabrik dan perumahan semua.",
       "teks_final": "menganti banyak bakar sampah tiap hari sumber penyakit dinas lingkungan hidup jangan tutup mata keliling beri penyuluhab berulang hukumannya siapkan kurang taman banyak tanaman liat tertata kurang pohon pelan2 diganti pabrik perumahan semua",
       "topik": "Keamanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9934
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Pelayanan ramah cepat",
       "teks_final": "pelayanan ramah cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pelayanannya bagus",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {

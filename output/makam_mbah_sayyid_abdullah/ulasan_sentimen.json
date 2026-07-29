@@ -3,12 +3,12 @@
   "tempat": "Makam mbah sayyid abdullah",
   "rating": 4.8,
   "total_ulasan": 13,
-  "positif": 0,
+  "positif": 7,
   "netral": 6,
-  "negatif": 7,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 53.8,
   "persen_netral": 46.2,
-  "persen_negatif": 53.8,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -29,7 +29,7 @@
       "Ulasan": "Suasana adem",
       "teks_final": "suasana adem",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9964
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Bengkel pembuatan mesin amanah dsn terpercaya",
       "teks_final": "bengkel pembuatan mesin amanah dsn terpercaya",
       "topik": "Keamanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9289
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Panas luar biasa, wahana joss👍👍",
       "teks_final": "panas luar biasa wahana joss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9943
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Mantap",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sangat support banget buat bertawassul bermuwajjahah dan tafaqqur.. Suasana dan tempat sangat memadai proses ruhani seorang salikin yang ingin bertaqorrub ilallah  .. Buka 24 jam dan petugas kebersihan selalu ada tiap hari .. SEMOGA semakin ditambah keberkahan orang yang istiqomah sowan ke makam mbah sayyid abdullah.. Dan segala hajad nya dikabulkan oleh allah azza jalaluh..",
       "teks_final": "support banget buat bertawassul bermuwajjahah tafaqqur suasana tempat memadai proses ruhani seorang salikin ingin bertaqorrub ilallah buka jam petugas kebersihan selalu tiap hari semoga semakin ditambah keberkahan orang istiqomah sowan makam mbah sayyid abdullah segala hajad dikabulkan allah azza jalaluh",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9885
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Makam yang terawat",
       "teks_final": "makam terawat",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9909
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Tempat nyaman",
       "teks_final": "tempat nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     }
   ]

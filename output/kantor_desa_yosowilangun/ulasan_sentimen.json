@@ -3,12 +3,12 @@
   "tempat": "Kantor Desa Yosowilangun",
   "rating": 4.9,
   "total_ulasan": 7,
-  "positif": 0,
+  "positif": 3,
   "netral": 4,
-  "negatif": 3,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 42.9,
   "persen_netral": 57.1,
-  "persen_negatif": 42.9,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "Desa Yosowilangun, salah satu desa yang berada di tengah pemukiman perumahan namun kini mampu menunjukkan potensinya sebagai salah satu desa terbaik di Gresik.",
       "teks_final": "desa yosowilangun salah satu desa berada tengah pemukiman perumahan kini mampu menunjukkan potensinya sebagai salah satu desa terbaik gresik",
       "topik": "Administrasi",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9789
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Bangunan baru, Ruangan baru, suasana nyaman bersih serta pelayanan yg lumayan responsif dan ramah serta cepat.",
       "teks_final": "bangunan ruangan suasana nyaman bersih serta pelayanan lumayan responsif ramah serta cepat",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9945
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Pelayanan prima ... lanjutkan",
       "teks_final": "pelayanan prima lanjutkan",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9928
     }
   ]

@@ -3,12 +3,12 @@
   "tempat": "Lapangan KEPUHKLAGEN",
   "rating": 4.7,
   "total_ulasan": 16,
-  "positif": 1,
+  "positif": 16,
   "netral": 0,
-  "negatif": 15,
-  "persen_positif": 6.2,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 93.8,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Lapangan cukup empuk",
       "teks_final": "lapangan cukup empuk",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9947
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Terawat",
       "teks_final": "terawat",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.993
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Terawat dan luas",
       "teks_final": "terawat luas",
       "topik": "Kesehatan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9932
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Lapangan Desa yang bagus. Kebersihan juga oke. Cuma tempat duduk yang kurang.",
       "teks_final": "lapangan desa bagus kebersihan oke cuma tempat duduk kurang",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.81
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Lapangannya luas dan sangat beraroma pedesaan.. Jg tersedia berbagai fasilitas",
       "teks_final": "lapangannya luas beraroma pedesaan tersedia berbagai fasilitas",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9732
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Fasilitas Olah Raga cukup luas",
       "teks_final": "fasilitas olah raga cukup luas",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9858
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Untuk kategori lapangan desa kebersihan sangat bagus. Fasilitas ada tempat duduk penonton, ada lapangan volley juga",
       "teks_final": "kategori lapangan desa kebersihan bagus fasilitas tempat duduk penonton lapangan volley",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9779
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Top",
       "teks_final": "top",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Sip lapangannya",
       "teks_final": "sip lapangannya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9773
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Bagus, terawat dan lumayan bersih walaupun masih ada sampah pentol dan jajanan berceceran dipinggir lapangan 👌",
       "teks_final": "bagus terawat lumayan bersih walaupun sampah pentol jajanan berceceran dipinggir lapangan",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9889
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Mantaaf",
       "teks_final": "mantaaf",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "very new yard for volleyball and soccer.",
       "teks_final": "very new yard for volleyball and soccer",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5581
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Sangat perfect",
       "teks_final": "perfect",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9937
     },
     {
@@ -172,7 +172,7 @@
       "Ulasan": "Lapangan bagus dan terawat👍🏻👍🏻👍🏻  hanya saja belum ad kamar mandi atau toilet buat pemain sepak bola atau penonton",
       "teks_final": "lapangan bagus terawat hanya saja ad kamar mandi toilet buat pemain sepak bola penonton",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9651
     },
     {
@@ -183,7 +183,7 @@
       "Ulasan": "Cukup baik untuk dibuat permainan sepak bola",
       "teks_final": "cukup baik dibuat permainan sepak bola",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8878
     }
   ]

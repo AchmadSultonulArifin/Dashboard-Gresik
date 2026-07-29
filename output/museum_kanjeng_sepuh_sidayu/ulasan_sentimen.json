@@ -3,12 +3,12 @@
   "tempat": "Museum Kanjeng Sepuh Sidayu",
   "rating": 4.5,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 2,
   "netral": 4,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 33.3,
   "persen_netral": 66.7,
-  "persen_negatif": 33.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Bagus ada pemandunya, tidak ada tiket masuk, ada beberapa koleksi senjata perang, dan benda personal. Perpustakaan mini juga. Semoga museum terus berkembang dan berproses untuk menambah edukasi masyarakat tentang sejarah.",
       "teks_final": "bagus pemandunya tiket masuk beberapa koleksi senjata perang benda personal perpustakaan mini semoga museum terus berkembang berproses menambah edukasi masyarakat tentang sejarah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9886
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Tempat ibadah yg asik",
       "teks_final": "tempat ibadah asik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9973
     },
     {

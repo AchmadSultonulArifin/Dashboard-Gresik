@@ -3,12 +3,12 @@
   "tempat": "Kantor Cabang Dinas Pendidikan Wilayah Gresik",
   "rating": 4.3,
   "total_ulasan": 13,
-  "positif": 1,
+  "positif": 9,
   "netral": 2,
-  "negatif": 10,
-  "persen_positif": 7.7,
+  "negatif": 2,
+  "persen_positif": 69.2,
   "persen_netral": 15.4,
-  "persen_negatif": 76.9,
+  "persen_negatif": 15.4,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanannya bagus.",
       "teks_final": "pelayanannya bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9974
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Salah satu kantor yg enak buat santai2..hehe",
       "teks_final": "salah satu kantor enak buat santai2",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Mudah dijangkau, pelayanan bagus",
       "teks_final": "mudah dijangkau pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "jooss..",
       "teks_final": "jooss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9603
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Pelayanan prima",
       "teks_final": "pelayanan prima",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9953
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Tempatnya bagus",
       "teks_final": "tempatnya bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Tempatnya tidak begitu terlihat dari jalan",
       "teks_final": "tempatnya begitu terlihat jalan",
       "topik": "Infrastruktur",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8577
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Alhamdulillah selalu dapt pelayanan yg baik.",
       "teks_final": "alhamdulillah selalu dapt pelayanan baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9863
     },
     {

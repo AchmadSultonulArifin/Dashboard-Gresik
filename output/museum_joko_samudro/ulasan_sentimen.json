@@ -3,12 +3,12 @@
   "tempat": "MUSEUM JOKO SAMUDRO",
   "rating": 4.6,
   "total_ulasan": 2,
-  "positif": 0,
+  "positif": 2,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 100.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -18,7 +18,7 @@
       "Ulasan": "Pelayanannya baik",
       "teks_final": "pelayanannya baik",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan baik, rute sangat mudah dicari bila bingung tanya aja sama orang sekitar mazkhusnul jaket udah banyak yg tau",
       "teks_final": "pelayanan baik rute mudah dicari bila bingung tanya aja sama orang sekitar mazkhusnul jaket udah banyak tau",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9355
     }
   ]

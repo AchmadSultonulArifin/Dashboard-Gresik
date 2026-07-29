@@ -3,12 +3,12 @@
   "tempat": "McKale Center",
   "rating": 4.7,
   "total_ulasan": 13,
-  "positif": 0,
+  "positif": 6,
   "netral": 7,
-  "negatif": 6,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 46.2,
   "persen_netral": 53.8,
-  "persen_negatif": 46.2,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Nicely aid our. Seats are comfortable",
       "teks_final": "nicely aid our seats are comfortable",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9839
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "For the 2026 Eller Business School graduation, McKale Center facilitated and managed this event with utmost professionalism. Parking crowd control and student accommodations were top-tier! Great Job UofA! Bear Down! Suit up! Congrats to ALL graduates!",
       "teks_final": "for the eller business school graduation mckale center facilitated and managed this event with utmost professionalism parking crowd control and student accommodations were top tier great job uofa bear down suit up congrats to all graduates",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.5441
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Great atmosphere.  BEAR DOWN !",
       "teks_final": "great atmosphere bear down",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8032
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Great atmosphere, great game!!",
       "teks_final": "great atmosphere great game",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9435
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Very interesting how you walk in and the court is below the ground level. Not a bad seat in the arena. It isn’t Allen Fieldhouse… but it’ll do",
       "teks_final": "very interesting how you walk in and the court is below the ground level not bad seat in the arena it isnt allen fieldhouse but itll do",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6943
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "McKale always a good time",
       "teks_final": "mckale always good time",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9783
     },
     {

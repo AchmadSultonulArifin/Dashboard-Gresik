@@ -3,12 +3,12 @@
   "tempat": "SMK Taruna Jaya Gresik",
   "rating": 4.6,
   "total_ulasan": 6,
-  "positif": 0,
+  "positif": 5,
   "netral": 1,
-  "negatif": 5,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 83.3,
   "persen_netral": 16.7,
-  "persen_negatif": 83.3,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "Sekolah",
       "teks_final": "sekolah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4308
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Saya juga lulusan SMK Taruna jaya tahun 2003, sekolah penuh dengan kenangan, dan Alhamdulillah saya bisa masuk perusahan yg cukup baik di kota Gresik ini  dengan ijasah SMK taruna jaya ini , semangat buat SMK TARUNA JAYA semoga bisa mencetak penerus bangsa yang yg berkualitas 🙏🙏",
       "teks_final": "lulusan smk taruna jaya tahun sekolah penuh kenangan alhamdulillah masuk perusahan cukup baik kota gresik ijasah smk taruna jaya semangat buat smk taruna jaya semoga mencetak penerus bangsa berkualitas",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9721
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sekolah yg sangat luar biasa. Mencetak anak bangsa, hingga lulus. Belum dapat ijazah namun sudah bisa bekerja.",
       "teks_final": "sekolah luar biasa mencetak anak bangsa hingga lulus ijazah bekerja",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9111
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Recommended buat sekolah kejuruan. Biaya terjangkau",
       "teks_final": "recommended buat sekolah kejuruan biaya terjangkau",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9971
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "SMEA",
       "teks_final": "smea",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6344
     }
   ]

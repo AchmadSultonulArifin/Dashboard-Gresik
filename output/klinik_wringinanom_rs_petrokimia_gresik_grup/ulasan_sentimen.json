@@ -3,12 +3,12 @@
   "tempat": "Klinik Wringinanom (RS Petrokimia Gresik Grup)",
   "rating": 4.4,
   "total_ulasan": 14,
-  "positif": 3,
+  "positif": 13,
   "netral": 0,
-  "negatif": 11,
-  "persen_positif": 21.4,
+  "negatif": 1,
+  "persen_positif": 92.9,
   "persen_netral": 0.0,
-  "persen_negatif": 78.6,
+  "persen_negatif": 7.1,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -18,7 +18,7 @@
       "Ulasan": "dokternya ramah tempat kliniknya bersih CEPAT COCOK/SEMBUH",
       "teks_final": "dokternya ramah tempat kliniknya bersih cepat cocok sembuh",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "pelayanan joss",
       "teks_final": "pelayanan joss",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Pelayanan cepat, petugas Ramah, sangat puas dengan pelayanan di klinik WringinAnom",
       "teks_final": "pelayanan cepat petugas ramah puas pelayanan klinik wringinanom",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9412
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Semua nakes ramah...",
       "teks_final": "semua nakes ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9929
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanannya baik dan ramah, recommended 👍",
       "teks_final": "pelayanannya baik ramah recommended",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Masakan e enak... Sedep, masakan selain nasi krawu juga lezat, laziz, haujek",
       "teks_final": "masakan enak sedep masakan selain nasi krawu lezat laziz haujek",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9956
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Rasanya tidak cocok akan tetapi harganya mahal Apa mungkin karena tempatnya yang Terkesan di pinggir jalan raya",
       "teks_final": "rasanya cocok harganya mahal apa mungkin tempatnya terkesan pinggir jalan raya",
       "topik": "Infrastruktur",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.7472
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Lumayan, harga bersahabat",
       "teks_final": "lumayan harga bersahabat",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9965
     },
     {
@@ -128,7 +128,7 @@
       "Ulasan": "Josss",
       "teks_final": "josss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9958
     },
     {
@@ -139,7 +139,7 @@
       "Ulasan": "Enak masakanya",
       "teks_final": "enak masakanya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9977
     },
     {
@@ -150,7 +150,7 @@
       "Ulasan": "Yummy.. nice food..",
       "teks_final": "yummy nice food",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9962
     },
     {
@@ -161,7 +161,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     }
   ]

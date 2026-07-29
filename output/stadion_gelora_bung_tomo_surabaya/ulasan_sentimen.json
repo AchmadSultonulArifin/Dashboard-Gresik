@@ -3,12 +3,12 @@
   "tempat": "Stadion Gelora Bung Tomo Surabaya",
   "rating": 4.6,
   "total_ulasan": 10,
-  "positif": 1,
+  "positif": 10,
   "netral": 0,
-  "negatif": 9,
-  "persen_positif": 10.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 90.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "first time diajak nribun, SERUUU💚",
       "teks_final": "first time diajak nribun seruuu",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9917
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Mantap stadion standar fifa",
       "teks_final": "bagus stadion standar fifa",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.986
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Stadion modern, Parkir Luas, Akses Jalan Tol",
       "teks_final": "stadion modern parkir luas akses jalan tol",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.667
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Stadion bertaraf internasional . Kereenn",
       "teks_final": "stadion bertaraf internasional kereenn",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9877
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "lapangannya bagus dan juga bersihh topp",
       "teks_final": "lapangannya bagus bersihh topp",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9972
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "tambah gacor fasilitas e",
       "teks_final": "tambah gacor fasilitas",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.98
     },
     {
@@ -106,7 +106,7 @@
       "Ulasan": "Serasa hawa San Siro",
       "teks_final": "serasa hawa san siro",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7602
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "KING PERSIB",
       "teks_final": "king persib",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8682
     }
   ]

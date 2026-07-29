@@ -3,12 +3,12 @@
   "tempat": "Kantor Badan Pendapatan Pengelolaan Keuangan dan Aset Daerah \"BPPKAD\" Kab. Gresik",
   "rating": 4.3,
   "total_ulasan": 10,
-  "positif": 3,
+  "positif": 7,
   "netral": 2,
-  "negatif": 5,
-  "persen_positif": 30.0,
+  "negatif": 1,
+  "persen_positif": 70.0,
   "persen_netral": 20.0,
-  "persen_negatif": 50.0,
+  "persen_negatif": 10.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -18,7 +18,7 @@
       "Ulasan": "Pegawainnya ramah",
       "teks_final": "pegawainnya ramah",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9967
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Pelayanan nya bagus",
       "teks_final": "pelayanan bagus",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9969
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Ok",
       "teks_final": "oke",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9063
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Pelayanan agak lambat di bank Jatim.",
       "teks_final": "pelayanan agak lambat bank jatim",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9927
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Asiik",
       "teks_final": "asiik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.8666
     },
     {
@@ -117,7 +117,7 @@
       "Ulasan": "Sesuai protokol kesehatan",
       "teks_final": "sesuai protokol kesehatan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6756
     }
   ]

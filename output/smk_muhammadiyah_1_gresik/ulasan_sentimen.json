@@ -3,12 +3,12 @@
   "tempat": "SMK Muhammadiyah 1 Gresik",
   "rating": 4.8,
   "total_ulasan": 8,
-  "positif": 0,
+  "positif": 7,
   "netral": 1,
-  "negatif": 7,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 87.5,
   "persen_netral": 12.5,
-  "persen_negatif": 87.5,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Pendidikan",
@@ -18,7 +18,7 @@
       "Ulasan": "waw keren",
       "teks_final": "waw bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9966
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Alhamdulillah : )",
       "teks_final": "alhamdulillah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9893
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Bikin betah tempatnya",
       "teks_final": "bikin betah tempatnya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9976
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Baguss",
       "teks_final": "baguss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9955
     },
     {
@@ -73,7 +73,7 @@
       "Ulasan": "Joss",
       "teks_final": "joss",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9957
     },
     {
@@ -84,7 +84,7 @@
       "Ulasan": "Best school👍",
       "teks_final": "best school",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9922
     },
     {
@@ -95,7 +95,7 @@
       "Ulasan": "Pusat keunggulan",
       "teks_final": "pusat keunggulan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9918
     }
   ]

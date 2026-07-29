@@ -3,12 +3,12 @@
   "tempat": "Lapangan Tanjungan ( LA STADIUM)",
   "rating": 4.7,
   "total_ulasan": 4,
-  "positif": 1,
+  "positif": 4,
   "netral": 0,
-  "negatif": 3,
-  "persen_positif": 25.0,
+  "negatif": 0,
+  "persen_positif": 100.0,
   "persen_netral": 0.0,
-  "persen_negatif": 75.0,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -18,7 +18,7 @@
       "Ulasan": "Lumayan bagus lapangan nya",
       "teks_final": "lumayan bagus lapangan",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9949
     },
     {
@@ -29,7 +29,7 @@
       "Ulasan": "Sangat bagus meskipun hujan masih bisa bermain dengan baik",
       "teks_final": "bagus meskipun hujan bermain baik",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9827
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Aman dan nyaman",
       "teks_final": "aman nyaman",
       "topik": "Fasilitas",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.996
     },
     {

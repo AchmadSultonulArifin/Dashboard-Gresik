@@ -3,12 +3,12 @@
   "tempat": "Gapura KEDUNG SAMBI",
   "rating": 3.9,
   "total_ulasan": 3,
-  "positif": 0,
+  "positif": 2,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 0.0,
+  "negatif": 0,
+  "persen_positif": 66.7,
   "persen_netral": 33.3,
-  "persen_negatif": 66.7,
+  "persen_negatif": 0.0,
   "ulasan": [
     {
       "Kategori": "Lainnya",
@@ -29,7 +29,7 @@
       "Ulasan": "Kampung berjuta cerita 🥰 ,  sippp pokoknya",
       "teks_final": "kampung berjuta cerita sippp pokoknya",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.995
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Sangat baiklah",
       "teks_final": "baiklah",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.7296
     }
   ]

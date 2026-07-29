@@ -3,12 +3,12 @@
   "tempat": "Bni wonrd Bank",
   "rating": 4.2,
   "total_ulasan": 3,
-  "positif": 1,
+  "positif": 0,
   "netral": 2,
-  "negatif": 0,
-  "persen_positif": 33.3,
+  "negatif": 1,
+  "persen_positif": 0.0,
   "persen_netral": 66.7,
-  "persen_negatif": 0.0,
+  "persen_negatif": 33.3,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -18,7 +18,7 @@
       "Ulasan": "Petugss nya cuma 1, pelayanan terhambat lama bgtt",
       "teks_final": "petugss cuma pelayanan terhambat lama bgtt",
       "topik": "Pelayanan",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9979
     },
     {

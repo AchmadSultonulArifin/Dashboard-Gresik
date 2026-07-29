@@ -3,12 +3,12 @@
   "tempat": "Kantor Pos Ujungpangkah",
   "rating": 4.1,
   "total_ulasan": 5,
-  "positif": 1,
+  "positif": 3,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 20.0,
+  "negatif": 1,
+  "persen_positif": 60.0,
   "persen_netral": 20.0,
-  "persen_negatif": 60.0,
+  "persen_negatif": 20.0,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -29,7 +29,7 @@
       "Ulasan": "pertama kali kirim barang lewat kantor pos, bagus sih prosesnya juga cepat, tapi ada kesalahan ngetik nama penerima nya, maklum ya mungkin mas nya ga fokus karna masih puasa, tapi selebihnya oke sih 😭👍👍",
       "teks_final": "pertama kali kirim barang lewat kantor pos bagus prosesnya cepat kesalahan ngetik nama penerima maklum ya mungkin mas fokus karna puasa selebihnya oke",
       "topik": "Pelayanan",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.4524
     },
     {
@@ -40,7 +40,7 @@
       "Ulasan": "Hati hati sama yang jaga. Sedang puber kedua. Lebih baik tidak memberikan nomer handphone dan kalaupun terpaksa tahu. Jangan di respon atau block saja!",
       "teks_final": "hati hati sama jaga sedang puber kedua baik memberikan nomer handphone kalaupun terpaksa tahu jangan respon block saja",
       "topik": "Lainnya",
-      "sentimen": "Positif",
+      "sentimen": "Negatif",
       "sentimen_score": 0.9567
     },
     {
@@ -51,7 +51,7 @@
       "Ulasan": "Keren",
       "teks_final": "bagus",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.9961
     },
     {
@@ -62,7 +62,7 @@
       "Ulasan": "Kampung ku oh kampung ku",
       "teks_final": "kampung ku oh kampung ku",
       "topik": "Lainnya",
-      "sentimen": "Negatif",
+      "sentimen": "Positif",
       "sentimen_score": 0.6927
     }
   ]

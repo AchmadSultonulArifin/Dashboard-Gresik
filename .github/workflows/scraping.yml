@@ -1,5 +1,4 @@
 name: Scraping Gresik Otomatis
-
 on:
   schedule:
     - cron: "0 0 * * 1"
@@ -11,18 +10,20 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - uses: actions/setup-python@v6        # ✅ fix: v5 → v6 (Node.js 24)
         with:
-          python-version: "3.14"
+          python-version: "3.12"             # ✅ fix: 3.14 → 3.12 (3.14 belum rilis)
+
       - name: Install library
         run: |
           pip install twscrape pandas
           pip install Sastrawi
           pip install torch --index-url https://download.pytorch.org/whl/cpu
           pip install transformers
+
       - name: Jalankan scraping
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
@@ -30,6 +31,7 @@ jobs:
           AUTH_TOKEN_2: ${{ secrets.AUTH_TOKEN_2 }}
           CT0_2: ${{ secrets.CT0_2 }}
         run: python scrape.py
+
       - name: Push hasil ke repo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -41,7 +43,6 @@ jobs:
           git commit -m "data: update Twitter Gresik $(date +'%Y-%m-%d')" || echo "no changes"
           git push
 
-
   scrape-instagram:
     needs: scrape
     if: always()
@@ -49,7 +50,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - uses: actions/setup-python@v6        # ✅ fix: v5 → v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -63,12 +65,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
           google-chrome --version
+
       - name: Install Library
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-          
+
       - name: Jalankan Scraping Instagram
         continue-on-error: true
         env:
@@ -80,16 +83,19 @@ jobs:
           IG_DID:        ${{ secrets.IG_DID }}
           IG_RUR:        ${{ secrets.IG_RUR }}
         run: python Instagram.py
+
       - name: Push Hasil
         if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ fix: tambah auth
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}  # ✅ fix: set URL dengan token
           git pull --rebase origin main
           git add output/
           git diff --staged --quiet || git commit -m "Update Instagram Gresik $(date +'%Y-%m-%d')"
           git push
-
 
   scrape-googlemaps:
     needs: scrape-instagram
@@ -98,7 +104,8 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - uses: actions/setup-python@v6        # ✅ fix: v5 → v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -117,11 +124,15 @@ jobs:
           APIFY_API_TOKEN_2: ${{ secrets.APIFY_API_TOKEN_2 }}
           APIFY_API_TOKEN_3: ${{ secrets.APIFY_API_TOKEN_3 }}
         run: python googlemaps_baru.py
+
       - name: Push Hasil
         if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ fix: tambah auth
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}  # ✅ fix: set URL dengan token
           git pull --rebase origin main
           git add output/
           git diff --staged --quiet || git commit -m "Update Google Maps Gresik $(date +'%Y-%m-%d')"

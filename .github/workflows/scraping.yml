@@ -79,7 +79,7 @@ jobs:
           IG_MID:        ${{ secrets.IG_MID }}
           IG_DID:        ${{ secrets.IG_DID }}
           IG_RUR:        ${{ secrets.IG_RUR }}
-        run: python Instagram_baru.py
+        run: python Instagram.py
       - name: Push Hasil
         if: always()
         run: |
@@ -108,7 +108,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-          
+
       - name: Jalankan Scraping Google Maps
         continue-on-error: true
         env:
@@ -116,7 +116,7 @@ jobs:
           APIFY_API_TOKEN_1: ${{ secrets.APIFY_API_TOKEN_1 }}
           APIFY_API_TOKEN_2: ${{ secrets.APIFY_API_TOKEN_2 }}
           APIFY_API_TOKEN_3: ${{ secrets.APIFY_API_TOKEN_3 }}
-        run: python gmaps_pipeline.py scan
+        run: python googlemaps_baru.py
       - name: Push Hasil
         if: always()
         run: |

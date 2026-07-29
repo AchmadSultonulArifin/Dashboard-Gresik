@@ -40,7 +40,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:39:33.981Z",
+  "scrapedAt": "2026-07-29T13:58:44.379Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -52,14 +52,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
@@ -79,6 +71,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
     }
   ],
   "peopleAlsoSearch": [],

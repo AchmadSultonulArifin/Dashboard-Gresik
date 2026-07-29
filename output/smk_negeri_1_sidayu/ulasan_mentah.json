@@ -34,13 +34,13 @@
   ],
   "fid": "0x2e77e41b60ee6d55:0xe5714a6cca0558b9",
   "cid": "16533077538160072889",
-  "reviewsCount": 77,
+  "reviewsCount": 78,
   "reviewsDistribution": {
     "oneStar": 7,
     "twoStar": 2,
     "threeStar": 5,
     "fourStar": 3,
-    "fiveStar": 60
+    "fiveStar": 61
   },
   "imagesCount": 48,
   "imageCategories": [
@@ -48,7 +48,7 @@
     "Oleh pemilik",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T13:05:00.063Z",
+  "scrapedAt": "2026-07-29T11:58:41.928Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,14 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.00 to 15.30"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 15.30"
-    },
     {
       "day": "Rabu",
       "hours": "07.00 to 15.30"
@@ -87,14 +79,22 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 15.30"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 15.30"
     }
   ],
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK Maskumambang 1 Dukun",
-      "reviewsCount": 10,
-      "totalScore": 4.2
+      "reviewsCount": 11,
+      "totalScore": 4.3
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -111,13 +111,13 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK Negeri 1 Cerme",
-      "reviewsCount": 285,
+      "reviewsCount": 287,
       "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK Negeri 1 Driyorejo",
-      "reviewsCount": 156,
+      "reviewsCount": 157,
       "totalScore": 4.2
     }
   ],
@@ -150,7 +150,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn5zus26s-3dH52DVuVEh5YUO8KIZomrlfyQttYUVVY70-oJzzgOtamThzLEOwa3DpUg4boM4Yvnrg6lG7TCd1k90Jw9IUCIiO8LrK2LKekEwdQ17Ra9JNA1kvswNkFGbKVfQGhnw=w436-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRfIEIqKtiRAnW0mKKxkJ8gybFO_ZKuuNe8OaVmMQpxhSeBTr7XLXi8wr8Z7cZb_4pp5JE5FVGXjprhMfBvHOGM-7D-Q-md2cEW0KkWEvcFb3efLCrtX4ZM15KPOB86hiDzV2qxg=w436-h240-k-no",
   "kgmid": "/g/1hm52jhtd",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -163,6 +163,32 @@
   "ownerUpdates": [],
   "imageUrls": [],
   "reviews": [
+    {
+      "reviewerId": "112828996988496237235",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112828996988496237235?hl=id",
+      "name": "Mohannad",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVD-KBRymKAPY5T44eUAPGR7EoMvlWScpQpVJB3NEK5T1LX5JXP=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "18 jam lalu",
+      "publishedAtDate": "2026-07-28T17:13:06.727Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21OdmVHSnNUek5uVnpGUVFUaFZaMFZCUzJRM1puYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OdmVHSnNUek5uVnpGUVFUaFZaMFZCUzJRM1puYxAB!2m1!1s0x0:0xe5714a6cca0558b9!3m1!1s2@1:CAIQACodChtycF9oOmNveGJsTzNnVzFQQThVZ0VBS2Q3Znc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
     {
       "reviewerId": "117524593451764165630",
       "reviewerUrl": "https://www.google.com/maps/contrib/117524593451764165630?hl=id",
@@ -406,7 +432,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWQbTw5MIaaehs7LOVe5PZn2Aq4UjPuiUXXXdS-OIF-ZkDxTgw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "setahun lalu",
+      "publishAt": "2 tahun lalu",
       "publishedAtDate": "2024-07-26T05:21:25.026Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNiMnV2cTJRRRAB",
@@ -536,7 +562,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXW2xcjmaqw4XGyY0NCelRrpUbPYGaHg_F-N__C8aDwKeOKC882=s1920-c-rp-mo-ba12-br100",
       "text": "Super",
       "textTranslated": null,
-      "publishAt": "2 tahun lalu",
+      "publishAt": "3 tahun lalu",
       "publishedAtDate": "2023-07-27T02:12:57.368Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwME02Wjl3RRAB",
@@ -599,11 +625,11 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPhjTSVF1pIsOOg78R2bvxcYkNNXDFdhptSrtrWFQOZyRDebRczSxLzLKGiALgrz-HSuXU2KRpgtnPQTDdCEGxYiscKbPQ9OBOsYq088S5c9Y6qwHUv06O_no7pZ6h9J7N-OW6HUg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP_enY317TZ6YMnXGSLh-1iXOHfj08oVw-ypMBjYBXL2N18JbdgNjdh-_6LLUdUd_Rxg7WNBMkVdOgvJ4hLyjiFpgF4PQqiBE1jDpbGmxmRiP-XO1TMOxTstBavi2sBRWrngbA_=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOu_ogXG_mEG2N8i67Etlx4b38gRCL_mEnmKRnFhIEUx4E9y_bJ7BcD3njJDFpJuAyeaEHxupWAn7pqOytrGdya294MdbHu0N2HmTGR6MMqu_pBwoW9EFNjQkhht96y7MzAjeiRSw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPY6qWTechKZL0ipM_s3HV61_jAxi_L4Dc9W9H12WYGr4I4R5Ymde3hnddI5Nl9iMrv23GcyYYP3VKGN2G-uzy99dHe6z3BuW4AR1kURoyIE6jSZPAvNOV5OYpFewOT1tNgqx9S=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPC581qHuf3bEAcC-nmRRun1ZasNx_ichI1ONM8VMgpIEpV30CoexcfTf-Tqd4TtfbcRDMATGFNZYJp4dlAVWQlV9Y5CW-W5UQy4QTtUJo3dKHmgpiw6LGGskd8ZZUuFCIcHuWc3w=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPt3WbcGi9PjQdKOxxjNwuOBSXSB3OySIXeKmi5D5KVuFxzL8miFrJm0S3f-ook8_pyOZ2O7cc-b6MTXSYVcSAjLNHTDdc5Op3qE78VeoywfCwgwLba3WMj74P4MuRmYddoFO-d_g=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNIfO-RVNcxNkjn4kCbJuPQ3jW-9n6qWxeEmP1VGObqt0loUbL_Tf4shUc7b3EDnJqJ7nVb7LSJy76BV4bYdbPFTPRIkUeuXhnb8l9igdoRngw0VDbXvPwJNnxG0l5fJIci86Ph=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPLiQsVex7cROpdvKOcLbMl8LYPdrBQ7cy6uC1aHY_6WlLKpDEzIuOn3TyIYdgG5cXXIjDkDiryGkjlNw1CwB1jCsHfw_lxB0DxCazIXflxGQl8X1VkIGMVeIWi-J4aZ9CJBI3oGw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNtvsORH1FqOZbwpwhK1ot05mV06VmpPeyzGMB4ksIUv2w5HAfPksH4CgvKQRvNKd3iL88_7OzGNPAJ11HaYIMtGCu9i7GbmMD-tMmkv4WCvcaHUrPPcOwrrkTt1OaLu7W_K-Hv=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMjYztHSSRZydI6o3gxtGvhH3L9H7Qrgcer23lKKtMFD8Fs5VeN_NlAadEc2f3mkIIBpyXfoQuMee94kQ5Zet71WihhMDZ1X8AL2187HCNCNRH3HJ9A7oPGy0TIZTZz-kuEZN7Yqw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -615,7 +641,7 @@
       "reviewerId": "104434203644468594525",
       "reviewerUrl": "https://www.google.com/maps/contrib/104434203644468594525?hl=id",
       "name": "Yani Took",
-      "reviewerNumberOfReviews": 4,
+      "reviewerNumberOfReviews": 5,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXbohp1bbRFIIAS6IljKkMcuiifjp-WnkhDrhwtg5R3CVeA5g8n=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -813,7 +839,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOI0EWi_a5skzcIqJYzUZEuyC1MoqDyJZ7xITtxTYz7mb1SmZ0Lur8Hug30U8CW6BXOnq4n7QBDlapxNoPHos0OXumG7r0wb_pYIu5XTLh5yn2fNNHUCI34eIGA4yXw4bBDFflp=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOIbMjNaKZa1rLv2YfUQBkqKYOwanphy3SzfSDmoM9E7YACh6mTFUbEnhiOU6kuEVBEb1zPz5SeXFzofr2kpP2CViTz8mgSUGV539Jx_WnYrd7UV3AfOP9wFcv307Ae0rrk_FX7=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -915,32 +941,6 @@
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURHMzRxVURBEAE!2m1!1s0x0:0xe5714a6cca0558b9!3m1!1s2@1:CIHM0ogKEICAgIDG34qUDA%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 4,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "101472921181798631439",
-      "reviewerUrl": "https://www.google.com/maps/contrib/101472921181798631439?hl=id",
-      "name": "Annisa'ul Muthoharoh",
-      "reviewerNumberOfReviews": 0,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWAv2Yw03FlCC-bKZ3GyAzxaJPKPtwqwwNID64Qrav0FlySy1rr=s1920-c-rp-mo-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "4 tahun lalu",
-      "publishedAtDate": "2021-12-04T07:55:12.287Z",
-      "likesCount": 0,
-      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURHcGJ5VHlRRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURHcGJ5VHlRRRAB!2m1!1s0x0:0xe5714a6cca0558b9!3m1!1s2@1:CIHM0ogKEICAgIDGpbyTyQE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
       "rating": null,
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,

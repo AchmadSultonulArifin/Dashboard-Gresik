@@ -47,7 +47,7 @@
     "Eksterior",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T15:05:46.359Z",
+  "scrapedAt": "2026-07-29T14:26:39.403Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,14 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
@@ -86,6 +78,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -146,7 +146,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmC2Vqero0LbOJ9vLePl7AKEoom9Rnz6hJRMcN_h4Cui7MggD4wW52CHYPeO3yQX5ZlCkITSvdLQhravUUIEOCy9Izm1lVGKazAjb-4ojO-iVmjOKbS5usy4pPyToCfOYszuZz30Q=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnynFNeAnx9gGLO0kuec7_arMJJwiCvuDDg1AgqswnmYOki_FkTGwXMdo9EtNgHPbxXdPNcswi6Cn9U9VE8V5wiFWpyIkH1BmYSbK7oBW_xVDwW1I0mVbKG9q7M5o4oe4ADa7XY4Q=w426-h240-k-no",
   "kgmid": "/g/1hm6kn_c8",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -283,7 +283,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO2o9tl8WyoiEcSYpst5vFr7c1UqcGO645CQrEcQpZfsF-16Zib88EQJ-LZ9JEDcO_kmGiIAB2zYHwtUHsatnmG9FMOpHfra6sMi-Ik714Jj9RbjtJQgK8g3U332VWJuqCT0NTdSg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMQJOs7lJCr0hDqIRTFpTUtgnlqWOFCbvaEYziXezEd9IPJdSu-3mQqTiSSzo2HwRT6rulOJtIyZ7Kzym8K7XpkoZ6Ebdzp_Z6A4nFzpzCyLmimseLEsp_plV_lb3RXv6KgKDUx5A=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -789,7 +789,7 @@
       "reviewerId": "107380667759339929305",
       "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
       "name": "yudi oke",
-      "reviewerNumberOfReviews": 4306,
+      "reviewerNumberOfReviews": 4305,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
       "text": "Bank & atm bri.",

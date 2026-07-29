@@ -32,13 +32,13 @@
   ],
   "fid": "0x2dd8005cdd2d7189:0x593947ea3b602ae2",
   "cid": "6429249014392171234",
-  "reviewsCount": 26,
+  "reviewsCount": 27,
   "reviewsDistribution": {
     "oneStar": 5,
     "twoStar": 0,
     "threeStar": 1,
     "fourStar": 2,
-    "fiveStar": 18
+    "fiveStar": 19
   },
   "imagesCount": 18,
   "imageCategories": [
@@ -47,7 +47,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T12:23:24.062Z",
+  "scrapedAt": "2026-07-29T10:45:12.288Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,14 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 19.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 19.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 19.00"
@@ -86,6 +78,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 19.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 19.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -162,7 +162,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWny6vu2VggSexw3k6nQvaODk9yW9BLfIkCabdkj2SHqGhdNaS5hWfMsSH8G1G1k026XJqeFLz-ro6thOQYmw0rp3PjAYVxp86xQ4FU-TDcxmO80iMlq3W_QTNUvCo2bqkkk_eN1uQ=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmewokVgjUIrHVfTUBCTFR6A8wLzDTd9143_HZ__X6dacjr4lRtoN608WhWetkJGPKrTrqGcqMUl3-krOLhsFWCyUuYRgKaD8tjoUdR66amXkaChcFGC2xD8PBJcECzs7kNN8uFgQ=w408-h725-k-no",
   "kgmid": "/g/11b6dxcljp",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -175,6 +175,32 @@
   "ownerUpdates": [],
   "imageUrls": [],
   "reviews": [
+    {
+      "reviewerId": "104889423833871955711",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104889423833871955711?hl=id",
+      "name": "Akhmad Zainudin",
+      "reviewerNumberOfReviews": 48,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIXJyZANs2vyXMo_yYH6eKML2YdAbZdlerll6Oz5QfHLPrsnw=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "11 jam lalu",
+      "publishedAtDate": "2026-07-28T22:53:01.640Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4NFQxODFUbEZqTFVWTFoyaE1RVFJ3UkRZd2MyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4NFQxODFUbEZqTFVWTFoyaE1RVFJ3UkRZd2MyYxAB!2m1!1s0x0:0x593947ea3b602ae2!3m1!1s2@1:CAIQACodChtycF9oOkx4T181TlFjLUVLZ2hMQTRwRDYwc2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
     {
       "reviewerId": "102289118934092001723",
       "reviewerUrl": "https://www.google.com/maps/contrib/102289118934092001723?hl=id",
@@ -387,7 +413,7 @@
       "reviewerId": "107310224469533173772",
       "reviewerUrl": "https://www.google.com/maps/contrib/107310224469533173772?hl=id",
       "name": "ahmad artha (Artha)",
-      "reviewerNumberOfReviews": 156,
+      "reviewerNumberOfReviews": 157,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW76HsFq8hzQc9cQHJ5_sEB3e0LuvE4odwtUfU--kismg1BjYpwdg=s1920-c-rp-mo-ba12-br100",
       "text": "Harusnya ada nomer antrian",
@@ -543,7 +569,7 @@
       "reviewerId": "115675546373580087121",
       "reviewerUrl": "https://www.google.com/maps/contrib/115675546373580087121?hl=id",
       "name": "yandi wiryawicaksana",
-      "reviewerNumberOfReviews": 13,
+      "reviewerNumberOfReviews": 14,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUddFsQNb51naV6NC8CISL9t5r3v2l439VCO27BPSlIOZA1drTcFw=s1920-c-rp-mo-ba12-br100",
       "text": "Untuk mengurus perubahan data KK bisa di sini. Antri nya cukup singkat tapi rawan diserobot orang karena nomor antrian tidak diberlakukan, mungkin akan diberlakukan nomor antrian kalau ramai pengunjung.\n\nTukang parkirnya baik.\nAda sudut baca dan mainan anak-anak.\nAda sedikit minuman yang dijual di kulkas.",
@@ -559,10 +585,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPAmAYYfdwEdveifH5MFYliUIL2mFaQh-lg6HWNwOt1NvXHjRyMfTn2Wo-b87JdTccYwtqm7WgYFHRIGjlD6jl6_mvAnKX_2sVyVgQAs6EYHYA8qtCo_7NLjH5up4sddwoHvUI=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMFheeNVc55lvyZ0w4SsVWhHoEX_aYlwS5wGfKWf7-mQsjQCdDFnSbmhr4vueaypVaGhnwmeoa8VX17PDi45uOYres5X2ZdHx97FNqJWARYDcxdYHDs_uAf2yTzHE-s0FzZ2yfX=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNXKvYexq43nh5VaFu94N3N-H0Nb0WfZvPeo7CUKVCPj96h19o03JRAfT4Lxn-2Ty5SmiyzrmdUEqe1Lhongy_DHC89sfcMR8Wt0OSlU7JqghKZxvWG_2cnzRjfxkU5vF210JHL=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNs7puA16W_cCMoLgcq1AwH5Ri3Yrw60RPlD4QMMxvE-j_MsfpJlLLnAMg_kGfYmP-JUUNAGZZptHfW-OnBTdc5Mta_k62nX2IR9nEBGuFOsUgRGCvgVQzaxdB9JlvOe6hS98GxsA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN3roM6l4EOEW54cwaGlV4HHV97c9RrkaglzGslfK328slPh_25Ozi8mXu7AJPB_oAXiF3LExA9CzcCemy152JuQI0lhlg7GD-RiQ17Za2pjuVmjm43bhKPhQ8xyfZ140GCJ2g=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNsbKhdMGG0HMF_Fx9Rrp9D5pk95puCjM8a_Z-7KLpcKs07ExViCMuqIjSapUQZuTA6hL_UrSeAuyZd_xfm8zmuGelfUS04fxcORCzYfCA4oqBjIbUaXebZfMYKn92ZT0axXGX1=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMBP_xkq4vCohphq1fir-dyTWfsjMy89b0OsY-D01AZxF97o9Xqm55S6adwTqnTF8J_xxTvsXwUjka4ajgIaIMFVjfObrnarStgFfu-t8quU_bxmpIyjqs2BOQWnypekx6jb4tt=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMr23CAkyyLcte5IZuIomBxnPCQnWbVMXgxZk-ULfMqJHiPqFGelHarYeLDsTjJw7z73NAqJuCQZm8RBAzMuLAOQ3yvmMRBZRP8e8Pu9rGbLP-y7pSkNA1VgtbVcfCbyC_sFqKL5Q=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -798,10 +824,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOLZsnMuYN5RqEnkJmjiwtpSeCJ3N9DDKh5q1qxvUFpC4_WIPpeS3lCZqN0VsJuDoYdp1zVJKEUzkOyc_d_QtfcI8I69Y4jPbIDP275K4nT4mAhHjuJ4Icc3LoE0hqprYgHjjmP=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPMjWtGziIqXjlq_eA7fWuxIdaBmOwBrwnBLPPfG6LQt6IOOYI_uTi_iu1A8Urc2I1pMp_Y_huyatTW-a0OOtWsmtByxRbKSobnTeAz7dMEAC5SU2gtVtdm4HIoxM6Vi8l_UOaJVw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP0yBIBSF-xVVEEcLmulTHGTYGxYnBWf6fYdoSUdCF1a62NzNBOys8LDKlPDgrWyofzwl9TWKzetBXH9R4ifR4L--8FxWiKl6p0_RhoaoQOrgPDbE5sADv-aKx2vqvp7wqSjO7i=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOgkLwLqcSYkg_2pgjm1jq9a_-CX8Ems-TcQJxRwgHwCRHHzOLnN1K5WUYO7AkpEkoVAQprEBLkWFrMpldecTlzQ_6xJRl7tNpEgiyWeSPtc4k-ix3fetytn7nv2-i9nWuq93Z7vw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPEs3-0r_y7SU0nMuRONFAqjnRRrKbmOM1NAOlFOBhnBUt3gJAYRr74Q9F7dVZh3WOGaLdO1clOIqTlAwm5cYhXy0yDkwgqHmZLLRl9Rsf0TeMKSQP_uLYPx6s1da0nE081gA7X=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmML8VXehCcvtYZaBCyousXgFfKhyqPCQ3v4VRdscGhJ3IIeFD1t9E0ExnjYoE1SsX_gmIGtZSaN-YcXuIc__90Z9Uy_hUj8yyNhXr8a9lSbxAHoWifLfqsn-xuQZ0z0GOyftVJaiA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN0FeXag3M75AH4IDp2eNOZxFZB2NIe_sBFifeolKtRVQ5XOJF7_em4-LBk5VMMCFwRsijtX4G7y8YO2ZVs-45WbrKctmPdpdmblLWD9Y6mvrsMi8H1CZcQmuIFKqAgrlIK_gJA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO7GBx1jB5LOGRK4flcPHkdu2I0oOwDJcJU_JQ1xrAN-t5bVBQSuL8xJS0D7Z-XFLTPuH1INxZRLxzWFlqFyhozCuR7MLudHEh2VAv8QGktRCwnWHjZIwtU24yh5ZMyPbBTFkZrrw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -829,7 +855,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP5Osz9aeVF7zV92udAUnebv5a-jYhWFbhQbNU3i00Hnom8TPGBxy635mb7_e5Ri8urOnxQcUKfF6HVedSDvrseuG5ZPvo7XxJa5Yh94yjVCUajuorip2cPJUukv9g1nYAptQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM3yWOPhrLeRSYZ16-8RQUDfdEofiXS-LvrJSum3qgWWDsiBjVAYFIuBM4_sgotCJksO-BSVIIMqSgOsgCb7V3kn5ZNyNQz_C7ax6xnt9ySJ5eqP4b-Bdq4eXsI216gkP7rnA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

@@ -1,0 +1,811 @@
+{
+  "title": "ATM BNI DUKUN",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "ATM",
+  "address": "Kalirejo, Segoromadu, Kebomas, Kabupaten Gresik, Jawa Timur 61155, Indonesia",
+  "neighborhood": "Kalirejo, Segoromadu, Kebomas",
+  "street": null,
+  "city": "Kabupaten Gresik",
+  "postalCode": "61155",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "website": "http://www.bni.co.id/",
+  "phone": "+62 21 57899999",
+  "phoneUnformatted": "+622157899999",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.0067949,
+    "lng": 112.5077077
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "XGV5+73 Kalirejo, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 3.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJZ-Ta75Hkdy4Rw8ub_S8zT2c",
+  "categories": [
+    "ATM",
+    "Bank"
+  ],
+  "fid": "0x2e77e491efdae467:0x674f332ffd9bcbc3",
+  "cid": "7444224990278044611",
+  "reviewsCount": 5,
+  "reviewsDistribution": {
+    "oneStar": 2,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 3
+  },
+  "imagesCount": 5,
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-07-29T13:40:24.616Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 17
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 17
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 17
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Rabu",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Jumat",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "09.00 to 22.00"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI",
+      "reviewsCount": 2,
+      "totalScore": 3
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BNI ATM",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI SPBU",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI ROOMO",
+      "reviewsCount": 3,
+      "totalScore": 2.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "ATM BNI Rest Area Kebomas",
+      "reviewsCount": 2,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": false
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=ATM%20BNI%20DUKUN&query_place_id=ChIJZ-Ta75Hkdy4Rw8ub_S8zT2c",
+  "searchPageUrl": "https://www.google.com/maps/search/ATM%20BNI%20DUKUN?hl=id",
+  "searchString": "ATM BNI DUKUN",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlVTtg1roFZQDwYnEyLqja_oqLnzlAjeLpcFmyiBAo79_gvbKfCyUYuU1amSwioUcJlSiaoHaQXct4PYebsfZlBMYc4JHKnz_4As1ssqCS5Y7qHPQt6ctz4EMzTY8hB=w408-h544-k-no",
+  "kgmid": "/g/11bbwpt_wl",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "112050202786283407548",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112050202786283407548?hl=id",
+      "name": "Alfa Fatih",
+      "reviewerNumberOfReviews": 15,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVdDRfk5sMxOhR-uY4pQAfWzwBDCkfuw1y_j3fRyVicIlwPmnwD=s1920-c-rp-mo-ba12-br100",
+      "text": "Hhmmm tulisan 24 jam. Ambil jam 6 pagi malah kunci tutupan. Kesel bangeeeeet. Padahal lagi butuh",
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2022-08-15T22:58:51.513Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR1M0txcW1BRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR1M0txcW1BRRAB!2m1!1s0x0:0x674f332ffd9bcbc3!3m1!1s2@1:CIHM0ogKEICAgIDu3KqqmAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110205903528717833149",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110205903528717833149?hl=id",
+      "name": "Royyan Firdaus",
+      "reviewerNumberOfReviews": 26,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXJ7vOhalRZK_dQ8aqoVFD4_cKULOrkH1MBcVp6NxaEbfNS_2zq=s1920-c-rp-mo-ba12-br100",
+      "text": "Sayang blm ada setor tunainya. Hanya tarik tunai",
+      "textTranslated": "Sayangnya, saat ini belum ada fasilitas deposit tunai. Hanya penarikan tunai.",
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2021-08-07T01:39:23.686Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNhN2Yyd293RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNhN2Yyd293RRAB!2m1!1s0x0:0x674f332ffd9bcbc3!3m1!1s2@1:CIHM0ogKEICAgICa7f2wowE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPi5ppqZlbWgjeRQJmB5htWC9OkVQ8JefrLBjddXgPbieeSeAPs-4_pQ9n0keu4x1adI3ulyKTOhIjHyO290RSHELXidQc6HP1US89sarlsmGZ4d5mIYrI2fH7Q1FIn=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMV6_qkQn9KsJ3I2CZc14dB4Tv6y-sCqON11WUKK4UnaubJ5N35KlzRI-y2bj6bkBo317jweh0jkMd5wNxD8SbgtLIYaGLg8-QmXFvbhX5otMm9y2YPoa895DSCK1nm2557l4riZg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOGwQ7WDtx74wGHEk1bqAu8gaeaLpUUmfYQrfpIGWR2EfsFuJYpDzybtr6cYzv-s5ud4CBv_3_NOrDnYnlZ5AEzGYGwszIREbzsBdSmTmKULJyehtcZaMWt6rFxtctYuHEWRkTi=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "ms",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "102664478211885578111",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102664478211885578111?hl=id",
+      "name": "Sandy Herjuna",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWEcFDgRBmZw8UzW0XOIugm-L3p4KSEXtWLnPnG3Y1AJJ2KeCgkoQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2018-03-29T04:03:18.579Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBOTkyVmR3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNBOTkyVmR3EAE!2m1!1s0x0:0x674f332ffd9bcbc3!3m1!1s2@1:CIHM0ogKEICAgICA992Vdw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103359704293087504411",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103359704293087504411?hl=id",
+      "name": "EM Farih",
+      "reviewerNumberOfReviews": 306,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLQIBsh22-bcOm_yiNczvHhCw6upgXrl6CGyOt1l86y4GlpiqwC=s1920-c-rp-mo-ba12-br100",
+      "text": "Satu2nya ATM BNI di Dukun",
+      "textTranslated": null,
+      "publishAt": "9 tahun lalu",
+      "publishedAtDate": "2017-01-16T00:30:29.046Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBMy1yQzR3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNBMy1yQzR3RRAB!2m1!1s0x0:0x674f332ffd9bcbc3!3m1!1s2@1:CIHM0ogKEICAgICA3-rC4wE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107380667759339929305",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
+      "name": "yudi oke",
+      "reviewerNumberOfReviews": 4305,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "10 tahun lalu",
+      "publishedAtDate": "2016-06-07T10:02:16.434Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNncGZtZDZBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNncGZtZDZBRRAB!2m1!1s0x0:0x674f332ffd9bcbc3!3m1!1s2@1:CIHM0ogKEICAgICgpfmd6AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Perbankan"
+}

@@ -40,7 +40,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T13:54:00.839Z",
+  "scrapedAt": "2026-07-29T13:13:37.085Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -499,14 +499,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "07.00 to 15.30"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 15.30"
-    },
-    {
       "day": "Rabu",
       "hours": "07.00 to 15.30"
     },
@@ -525,6 +517,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 15.30"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 15.30"
     }
   ],
   "peopleAlsoSearch": [
@@ -559,7 +559,12 @@
       "totalScore": 0
     }
   ],
-  "placesTags": [],
+  "placesTags": [
+    {
+      "title": "Makanan & Minuman",
+      "count": 1
+    }
+  ],
   "reviewsTags": [],
   "additionalInfo": {
     "Aksesibilitas": [
@@ -575,7 +580,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZwdIAnKCQiswYH4Lb-SwC_FmrPswHCt9utWllqY75P_TaGcBmaFMkFl3OpiQWiv_mWYaAzJNTJTQ3w_wTSBnwit_HWwg5zSQrq9Xf7D8ngl8TRRjfqQgjacB8hFIhKv3dJp0h=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTr-glyenf2J_eOaYIG7TgfzegYZw10j6qc0CUM_WwuRZ0Ra-aorWlxUbXZ-izEpysu3cUMme6O1E0xdYotvE8xs9LPqKIu2t2dbV3J6Q53dx4XcITu77N8LjJ9etFvWXKT10j=w426-h240-k-no",
   "kgmid": "/g/1tj5b1_f",
   "questionsAndAnswers": [],
   "webResults": [],

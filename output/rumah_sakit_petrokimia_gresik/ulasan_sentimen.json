@@ -2,14 +2,47 @@
   "kategori": "Kesehatan",
   "tempat": "Rumah Sakit Petrokimia Gresik",
   "rating": 4.8,
-  "total_ulasan": 10,
+  "total_ulasan": 13,
   "positif": 0,
-  "netral": 2,
-  "negatif": 8,
+  "netral": 3,
+  "negatif": 10,
   "persen_positif": 0.0,
-  "persen_netral": 20.0,
-  "persen_negatif": 80.0,
+  "persen_netral": 23.1,
+  "persen_negatif": 76.9,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Mega Nur Laila",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T06:28:45.702Z",
+      "Ulasan": "Pelayanan nya baik meskipun pakai bpjs (igd petrokimia)",
+      "teks_final": "pelayanan baik meskipun pakai bpjs igd petrokimia",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9787
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Yanti Nur",
+      "Bintang": 4,
+      "Tanggal": "2026-07-21T20:01:04.137Z",
+      "Ulasan": "Nakes ramah2..cm syng utk kantin wrung yg dblkng RS mbogok.masa bli mie ayam 2 es teh 1 dhargai 45rb🤦🏻‍♀️pdhl mie ayam TDK sprti mie ayam PD umumnya.mie ayam RS mie kuah",
+      "teks_final": "nakes ramah2 cm syng kantin wrung dblkng rumah sakit mbogok masa bli mie ayam es teh dhargai 45rbpdhl mie ayam sprti mie ayam umumnya mie ayam rumah sakit mie kuah",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6862
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "MUHAMAD HARIS HASBULLAH",
+      "Bintang": 5,
+      "Tanggal": "2026-07-20T10:27:43.597Z",
+      "Ulasan": "Terbaik pelayanan semua pelayanannya",
+      "teks_final": "terbaik pelayanan semua pelayanannya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Zach Zac",
@@ -89,17 +122,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Grace Imanuella M",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T04:16:37.595Z",
-      "Ulasan": "Langganan banget untuk selalu ke RSPG. Untuk pelayanan dan fasilitas yang diberikan selalu best. Sebagai pasien Dr. Eka dan Dr. Harmono sangat2 recomended dan akuu bisa sarankan ke teman-teman yang lain.",
-      "teks_final": "langganan banget selalu rspg pelayanan fasilitas diberikan selalu best sebagai pasien eka harmono sangat2 recomended akuu sarankan teman teman lain",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9965
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "mchmmd syafii",
       "Bintang": 5,
       "Tanggal": "2026-07-17T02:12:19.599Z",
@@ -111,14 +133,25 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Vidya Aryanti",
+      "Nama Reviewer": "HANZ Family",
       "Bintang": 5,
-      "Tanggal": "2026-07-17T01:31:37.427Z",
-      "Ulasan": "Pelayanan tercepat, pelayanan terbaik.. the best rs petro abyakta.. semua pegawai ramah sekali",
-      "teks_final": "pelayanan tercepat pelayanan terbaik the best rumah sakit petro abyakta semua pegawai ramah",
+      "Tanggal": "2026-07-16T10:32:53.871Z",
+      "Ulasan": "Pelayanan ranap nya baik sekali, ramah dan sabar menghadapi anak saya yg sekecil ini 🫶🏻",
+      "teks_final": "pelayanan ranap baik ramah sabar menghadapi anak sekecil",
       "topik": "Pelayanan",
       "sentimen": "Negatif",
-      "sentimen_score": 0.9918
+      "sentimen_score": 0.9883
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Javanese Boy",
+      "Bintang": 5,
+      "Tanggal": "2026-07-16T04:24:21.454Z",
+      "Ulasan": "Sangat bagus, bersih , wangi. Yang paling utama dokternya ramaaaaah sangat informatif, staffnya jg sangat baik. Terbaikkk lah abyakta. Joss",
+      "teks_final": "bagus bersih wangi paling utama dokternya ramaaaaah informatif staffnya baik terbaikkk abyakta joss",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9972
     }
   ]
 }

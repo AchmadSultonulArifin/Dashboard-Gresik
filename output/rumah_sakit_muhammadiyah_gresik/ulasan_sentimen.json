@@ -2,14 +2,36 @@
   "kategori": "Kesehatan",
   "tempat": "Rumah Sakit Muhammadiyah Gresik",
   "rating": 4.7,
-  "total_ulasan": 29,
-  "positif": 1,
-  "netral": 0,
-  "negatif": 28,
-  "persen_positif": 3.4,
-  "persen_netral": 0.0,
-  "persen_negatif": 96.6,
+  "total_ulasan": 28,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 27,
+  "persen_positif": 0.0,
+  "persen_netral": 3.6,
+  "persen_negatif": 96.4,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Hadi Kurniawan",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T04:16:09.174Z",
+      "Ulasan": "Terimakasih pelayanannya.. Terimakasih dr. Erik sudah  di bantu operasi Best",
+      "teks_final": "terimakasih pelayanannya terimakasih erik bantu operasi best",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9048
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "16_Dwi Wulandari",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T02:12:38.674Z",
+      "Ulasan": "melahirkan anak pertama disini untuk pelayanannya sangat memuaskan dijelaskan dan sangat diperhatikan",
+      "teks_final": "melahirkan anak pertama disini pelayanannya memuaskan dijelaskan diperhatikan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Preni Nupiyanti",
@@ -45,6 +67,17 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "Prisma Sugiharti",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T04:03:21.506Z",
+      "Ulasan": "Untuk keseluruhan rsmg mulai dr segi pelayanan perawat dn dokter baik dan ramah. Fasilitas juga lengkap, bersih dan nyaman.. dan selalu ada murottal yg bikin sejuk  Masukan ny, mngkn utk perawat boleh sdkit toleransi jika pasien minta tolong dampingi ke toilet🙏",
+      "teks_final": "keseluruhan rsmg mulai segi pelayanan perawat dn dokter baik ramah fasilitas lengkap bersih nyaman selalu murottal bikin sejuk masukan ny mngkn perawat boleh sdkit toleransi pasien minta tolong dampingi toilet",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5178
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Amanda Febriyanti",
       "Bintang": 5,
       "Tanggal": "2026-07-17T03:26:00.080Z",
@@ -53,6 +86,17 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9851
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ikal Pq Lintang",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T03:18:27.266Z",
+      "Ulasan": "Alhamdulillah pelayanan nya oke.",
+      "teks_final": "alhamdulillah pelayanan oke",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9934
     },
     {
       "Kategori": "Kesehatan",
@@ -67,6 +111,17 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "hafifatus cahyani",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T02:58:40.446Z",
+      "Ulasan": "Pelayanan nya baik, Bubid nya ramah ramah, Peduli, dan penanganan nya sangat baik, Terimakasih Rumah Sakit Muhammadiyah Gresik, Semoga selalu sukses🤍🙏🏻",
+      "teks_final": "pelayanan baik bubid ramah ramah peduli penanganan baik terimakasih rumah sakit muhammadiyah gresik semoga selalu sukses",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9032
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Nurul Istikoma",
       "Bintang": 5,
       "Tanggal": "2026-07-15T02:25:30.155Z",
@@ -75,6 +130,17 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9953
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Dieny Retnoningtyasa",
+      "Bintang": 5,
+      "Tanggal": "2026-07-15T02:20:03.626Z",
+      "Ulasan": "Alhamdulillah nyaman dokter anaknya wenak pwoll . Perawatnya ruamah2 .. smoga semakin maju jaya dan berkah rs Muhammadiyah gresik 🥰",
+      "teks_final": "alhamdulillah nyaman dokter anaknya wenak pwoll perawatnya ruamah2 smoga semakin maju jaya berkah rumah sakit muhammadiyah gresik",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9745
     },
     {
       "Kategori": "Kesehatan",
@@ -89,6 +155,17 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "Supri Yanto",
+      "Bintang": 5,
+      "Tanggal": "2026-07-15T02:09:11.912Z",
+      "Ulasan": "baik",
+      "teks_final": "baik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9844
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Mustofa Mustofa",
       "Bintang": 5,
       "Tanggal": "2026-07-15T02:06:18.946Z",
@@ -97,6 +174,17 @@
       "topik": "Infrastruktur",
       "sentimen": "Negatif",
       "sentimen_score": 0.9855
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Asmaul Fauzia",
+      "Bintang": 5,
+      "Tanggal": "2026-07-15T01:37:45.306Z",
+      "Ulasan": "Pelayanan nya sangat bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
     },
     {
       "Kategori": "Kesehatan",
@@ -122,6 +210,28 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nurul Mufidah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-14T04:22:27.749Z",
+      "Ulasan": "Pelayanan nya bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "alesya comel",
+      "Bintang": 5,
+      "Tanggal": "2026-07-14T04:02:58.404Z",
+      "Ulasan": "Pelayanan Rapih , suster dan dokter nya ramah\",di layani dengan baik",
+      "teks_final": "pelayanan rapih suster dokter ramah layani baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9854
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Bu Rosida",
       "Bintang": 5,
       "Tanggal": "2026-07-14T03:45:56.496Z",
@@ -139,6 +249,17 @@
       "Ulasan": "Bagus",
       "teks_final": "bagus",
       "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "nurlaily",
+      "Bintang": 5,
+      "Tanggal": "2026-07-14T03:36:26.537Z",
+      "Ulasan": "pelayanan nya baguss, cepet juga",
+      "teks_final": "pelayanan baguss cepet",
+      "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9961
     },
@@ -196,138 +317,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9727
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Rudi Hartono",
-      "Bintang": 5,
-      "Tanggal": "2026-07-13T02:52:56.002Z",
-      "Ulasan": "Pelayanan bagus dgn pak Erick sabar orangnya",
-      "teks_final": "pelayanan bagus pak erick sabar orangnya",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9935
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "umul khoiroh Mukhlisyotin",
-      "Bintang": 5,
-      "Tanggal": "2026-07-13T02:33:27.914Z",
-      "Ulasan": "Alhamdulillah mantap",
-      "teks_final": "alhamdulillah bagus",
-      "topik": "Lainnya",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9949
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "mohammad salihuddin",
-      "Bintang": 5,
-      "Tanggal": "2026-07-13T02:28:44.020Z",
-      "Ulasan": "Pelayanan sangat puas, perawat ramah dan sangat membantu",
-      "teks_final": "pelayanan puas perawat ramah membantu",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9902
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Citra M",
-      "Bintang": 4,
-      "Tanggal": "2026-07-12T04:35:13.990Z",
-      "Ulasan": "Tempatnya bersih, pelayanan memuaskan",
-      "teks_final": "tempatnya bersih pelayanan memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.997
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Ulul Farichin",
-      "Bintang": 5,
-      "Tanggal": "2026-07-11T03:59:56.840Z",
-      "Ulasan": "Layanan Dr. Eric sangat baik dan sabar",
-      "teks_final": "layanan eric baik sabar",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9799
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Dewa G",
-      "Bintang": 5,
-      "Tanggal": "2026-07-10T00:39:00.624Z",
-      "Ulasan": "Alhamdulillah bagus pelayanannya",
-      "teks_final": "alhamdulillah bagus pelayanannya",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9964
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Bionsai 88",
-      "Bintang": 5,
-      "Tanggal": "2026-07-10T00:35:17.924Z",
-      "Ulasan": "Mama saya di rawat oleh dokter arik di ruangan arofah lantai 4 RS MUHAMMADIYAH GRESIK, perawatan dokter dan para perawat sangan ramah dan membantu sangat di rekomend banget buat para keluarga yg mau mencari rumah sakit terbaik di gresik",
-      "teks_final": "mama rawat dokter arik ruangan arofah lantai rumah sakit muhammadiyah gresik perawatan dokter para perawat sangan ramah membantu rekomend banget buat para keluarga mau mencari rumah sakit terbaik gresik",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9913
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Aura Mei",
-      "Bintang": 1,
-      "Tanggal": "2026-07-08T20:11:14.168Z",
-      "Ulasan": "Aku msh ingat waktu anak ke2 sakit usia 9bln, riwayat kejang dan muntaber slama 7hari pdahalnya hari ke 3 sakit aku uda aku bawa ke dr agus salim. Anakku dilab dan disuruh rawat jalan dirmh pdahal anakku uda lemes. Tp krn lab msh normal disuruh plg pdahal aku minta ranap, akhirnya selang sehari anakku ga sadar diri aku larikan ke RS bunder dan disitu anakku kaya bertaruh nyawa pasang infus dll ksulitan krn dehidrasi berat akhirnya aku ditnya knpa baru dibawa ksini. Aku jelasin klo sehari sblmya hbs dr igd RS muhamadiyah ini, pdahal aku uda jelasin anaknya keadaanya sesuai yg aku ceritain di atas uda lemes seharian tp gadikasih rawat inap jahaaat jahaatt bgt.. Anakku akhirnya opname hampir 8hari di bunder smpe sebulan ankku , jgn smpe terulang lg kejadian ini. Pdahl aku uda percaya bgt dr lahiran ank ke 1 , 2 dan skrg aku beralih ke petro. Bener benerr pelayanan jauuh lbh baik cepatt..",
-      "teks_final": "aku ingat waktu anak ke2 sakit usia 9bln riwayat kejang muntaber slama 7hari pdahalnya hari sakit aku uda aku bawa agus salim anakku dilab disuruh rawat jalan dirmh pdahal anakku uda lemes lab normal disuruh paling pdahal aku minta ranap akhirnya selang sehari anakku sadar diri aku larikan rumah sakit bunder disitu anakku kaya bertaruh nyawa pasang infus dll ksulitan dehidrasi berat akhirnya aku ditnya knpa dibawa ksini aku jelasin sehari sblmya hbs igd rumah sakit muhamadiyah pdahal aku uda jelasin anaknya keadaanya sesuai aku ceritain atas uda lemes seharian gadikasih rawat inap jahaaat jahaatt banget anakku akhirnya opname hampir 8hari bunder smpe sebulan ankku jgn smpe terulang lg kejadian pdahl aku uda percaya banget lahiran ank sekarang aku beralih petro bener benerr pelayanan jauuh baik cepatt",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.8419
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Jacky Alfarizi",
-      "Bintang": 5,
-      "Tanggal": "2026-07-08T10:46:35.339Z",
-      "Ulasan": "Rumah sakit yang bagus pelayanannya , bidan , perawat dan dokternya ramahh dan baik .. top markotop",
-      "teks_final": "rumah sakit bagus pelayanannya bidan perawat dokternya ramahh baik top markotop",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9972
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Alfi Aprillia",
-      "Bintang": 5,
-      "Tanggal": "2026-07-08T02:57:30.472Z",
-      "Ulasan": "Fasilitasnya nyaman dan bersih dokter dan perawatnya juga ramah²",
-      "teks_final": "fasilitasnya nyaman bersih dokter perawatnya ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9967
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Rys Merys",
-      "Bintang": 5,
-      "Tanggal": "2026-07-08T02:50:20.367Z",
-      "Ulasan": "Pelayanan nya cepat dan ramah",
-      "teks_final": "pelayanan cepat ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9955
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Dul Gembuk",
-      "Bintang": 5,
-      "Tanggal": "2026-07-08T02:47:05.637Z",
-      "Ulasan": "Pelayanan cukup memuaskan",
-      "teks_final": "pelayanan cukup memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9958
     }
   ]
 }

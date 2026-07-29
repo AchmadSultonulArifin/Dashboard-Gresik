@@ -48,7 +48,7 @@
     "Di dalam",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:45:13.283Z",
+  "scrapedAt": "2026-07-29T14:05:36.671Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,14 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
@@ -87,6 +79,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -164,7 +164,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnVijjp-IsQPr0MSMhn7Rkz61LCTs55iLtwdhch1eqaQXwdNfbEKLmUkwOrcC6pri7LqoOY2FA3YsNyxQaopxi-WadadaSlqpNySf_u6PBmJ-eBYDUV9oQ_qjhYCuvvSobr_yOC=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWny3S3ka8kbCmQo0nAbyuM_I3z7pVggOJ2IxclBKdmPiyCma2x282vUlHxYT1R9IRTokyn1Fx7kfQgg6AGpd_vjx3KsuYEX7TKvuu4t5tY57OCj2yXVKqHKpeLYwWQ4ZpnFAo7J=w408-h544-k-no",
   "kgmid": "/g/1pzs4cwtg",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -327,7 +327,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmODTJNdGDsjy7zJcg0v9oOq5NfRjh3lr-jAyvQzLvVJXJssY-v9GTh-XkaYHNok9Q0HAwRXb9_mreUVXUmo1GFu_3HERes75Py20RcRMe3T1iu5qfXSuMeLJoddhqhyZjcaoTxM=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMxpH_vLZx6RHs_7K8PFNAGJ1xGBosnwWL_1IotFU14MqsNvczB1nmmOkmBzwJ33ZQiXAxtfIkzVLRtx4UT9mwZ30I1QZBItmcNXDqHuMzkZ5_vDgEVFByR9OP_w2HrD-SOI2hI=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -417,7 +417,7 @@
       "reviewerId": "104187333364423263868",
       "reviewerUrl": "https://www.google.com/maps/contrib/104187333364423263868?hl=id",
       "name": "Ligo 88",
-      "reviewerNumberOfReviews": 164,
+      "reviewerNumberOfReviews": 163,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWl09ek2BUsApxHE3QmRIm6yY9vQheIVau_8eaVJ1HCpQCf1E3N=s1920-c-rp-mo-ba12-br100",
       "text": "Satpamnya ramah,pelayanan cepat.",
@@ -443,7 +443,7 @@
       "reviewerId": "113720146982089546598",
       "reviewerUrl": "https://www.google.com/maps/contrib/113720146982089546598?hl=id",
       "name": "Yasmin Wida",
-      "reviewerNumberOfReviews": 7,
+      "reviewerNumberOfReviews": 6,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU1S1gSjnnOpHoPx0w8Yy1NJYQryRacbaMTHjngKjplwTSkWuGM=s1920-c-rp-mo-br100",
       "text": null,
@@ -641,7 +641,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPp3RJ1AA_cJmF3LY8bhzLyMBF3oxqLSMRhg9TKvSYrroVDDv7HVa2BrgcSpeVn-QrBktbBdri--e8nz2iLXTCoFccKHg2FdFlXh9QvNeCzGKC35BVrnL2hcg7eB4w_bOGkI9oLPQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPgEwhkCfiRDdv0_dJx4d05aVB0vMv-pesf6wM7pgfFSuFXC8c6i3qaBfIDq22XpVtTw1BXqy3lVrAg3RMesHnDthcGHMEh8ffn4pS7QNPKCU5P3W7Lc8CpN9W9Br1GdqvdoWRzqw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -679,9 +679,9 @@
       "reviewerId": "115775653924699018182",
       "reviewerUrl": "https://www.google.com/maps/contrib/115775653924699018182?hl=id",
       "name": "Octaveani Tiono",
-      "reviewerNumberOfReviews": 1455,
+      "reviewerNumberOfReviews": 1456,
       "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW8tPeNk_RYuCpbamFV_HZkK4CaeL-cLWelQ0o7_ltGGYe2_KM=s1920-c-rp-mo-ba12-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWRkccg8YzzfFnXE6l7L4qwqQTVmQcNQImt0oN51B3eh9SkSR0=s1920-c-rp-mo-ba12-br100",
       "text": "KCU Bank BCA yang ada di Gresik.\ngedungnya cukup besar, letaknya juga berada di jalan utama.\nDibagi menjadi 2 lantai dimana CSO dan teller ada dilantai satu, sedangkan untuk BCA prioritas ada di lantai 2.\nSelain itu juga di KCU ini melayani transaksi valas dan syariah.\nPelayanan dari security hingga staffnya ramah.\nUntuk mesin ATM berada di gedung sampingnya dimana banyak mesin ATM yang disediakan.\nUntuk lahan parkir memang terbatas jika banyak mobil, tapi ada supir yang bisa membantu jika emang mobil kita menghalangi mobil yang akan keluar.",
       "textTranslated": null,
       "publishAt": "5 tahun lalu",
@@ -809,7 +809,7 @@
       "reviewerId": "113983023669539186324",
       "reviewerUrl": "https://www.google.com/maps/contrib/113983023669539186324?hl=id",
       "name": "Yuni Niarti",
-      "reviewerNumberOfReviews": 123,
+      "reviewerNumberOfReviews": 124,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLtGIYAJDcyqkfbZNf1M3L7maa37tpqHLdcEU7ZKoAK7wq-TA=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -939,7 +939,7 @@
       "reviewerId": "114267609107136570838",
       "reviewerUrl": "https://www.google.com/maps/contrib/114267609107136570838?hl=id",
       "name": "achmad muttaqin",
-      "reviewerNumberOfReviews": 168,
+      "reviewerNumberOfReviews": 173,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXHZ5p3JGO_lBhHdshwOIvw5gzaAxkcSvlS_k0G3NDwIBSANLk=s1920-c-rp-mo-ba12-br100",
       "text": null,

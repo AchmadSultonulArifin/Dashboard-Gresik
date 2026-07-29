@@ -12,6 +12,28 @@
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "Tanti Rahayu",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T04:32:02.194Z",
+      "Ulasan": "Alhamdulillah selama berobat di Ibnu Sina proses cepat dan pelayanan baik sekali,sukses selalu untuk akreditasi yg akan datang.sukses paripurna.",
+      "teks_final": "alhamdulillah selama berobat ibnu sina proses cepat pelayanan baik sukses selalu akreditasi datang sukses paripurna",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9859
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nur 0505",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T07:03:59.695Z",
+      "Ulasan": "Rs yang sangat recomended,pelayanan terbaik..dokter dan perawat,cepat tanggap dan sangat kekeluargaan.",
+      "teks_final": "rumah sakit recomended pelayanan terbaik dokter perawat cepat tanggap kekeluargaan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Rachma Oriza Sativany",
       "Bintang": 5,
       "Tanggal": "2026-07-20T02:58:59.625Z",
@@ -306,28 +328,6 @@
       "topik": "Fasilitas",
       "sentimen": "Negatif",
       "sentimen_score": 0.9959
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "juwanto wanto",
-      "Bintang": 5,
-      "Tanggal": "2026-07-06T02:40:38.160Z",
-      "Ulasan": "Ruang Dahlia sangat nyaman, semua faselitas terpenuhi, respon perawat cepat pokoknya pasien dan keluarganya nyaman",
-      "teks_final": "ruang dahlia nyaman semua faselitas terpenuhi respon perawat cepat pokoknya pasien keluarganya nyaman",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.991
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Ipank Mprut",
-      "Bintang": 5,
-      "Tanggal": "2026-07-06T00:40:12.624Z",
-      "Ulasan": "Terima kasih atas pelayanan d ruang Dahlia semoga ke depan nya memberikan pelayanan yang jauh lebih baik lagi",
-      "teks_final": "terima kasih atas pelayanan ruang dahlia semoga depan memberikan pelayanan jauh baik",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.8623
     }
   ]
 }

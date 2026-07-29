@@ -12,6 +12,17 @@
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "rtno",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T03:02:34.119Z",
+      "Ulasan": "pelayanan sangat bagus dan baik",
+      "teks_final": "pelayanan bagus baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Tanjilul Setro",
       "Bintang": 5,
       "Tanggal": "2026-07-18T05:01:17.077Z",
@@ -295,17 +306,6 @@
       "topik": "Lainnya",
       "sentimen": "Negatif",
       "sentimen_score": 0.9938
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sholikhah W",
-      "Bintang": 5,
-      "Tanggal": "2026-05-05T03:16:33.527Z",
-      "Ulasan": "Pelayanan sangat baik meski saya pakai BPJS , petugasnya ramah2,,, Kamarnya juga bersih.",
-      "teks_final": "pelayanan baik meski pakai bpjs petugasnya ramah2 kamarnya bersih",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9961
     }
   ]
 }

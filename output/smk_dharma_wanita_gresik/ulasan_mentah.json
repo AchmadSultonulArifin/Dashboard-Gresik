@@ -47,7 +47,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T12:59:21.679Z",
+  "scrapedAt": "2026-07-29T11:47:14.261Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,14 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.00 to 14.15"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 14.15"
-    },
     {
       "day": "Rabu",
       "hours": "07.00 to 14.15"
@@ -86,6 +78,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 14.15"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 14.15"
     }
   ],
   "peopleAlsoSearch": [
@@ -144,7 +144,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmAj1xbx7fpPtxAt3Pv4EZGizYEEmdCTTlOmMP4uxAEAkZhWdiQcrwnjGzTl8tHTniCcpCqBZjOQbPGD4ZIuu0-hDclYSiAyYwmvyr4AJTFEch9OTMbG9MyYiPHhDoJdm36A-ivag=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlq8jMA5qGV_OsSbOheKJ6CDtwn4uXLzVzdsnzj0aXyigZ0TZkhSg_7eJ-mFKd1smQs8lmexR1_nNZ8ikhkgLspdO_1NxksMTuK0ulGJs41vIt-_6MrBVebu1IeWmQiBgojHVj89g=w408-h306-k-no",
   "kgmid": "/g/1pzxw1t4v",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -343,7 +343,7 @@
       "reviewerId": "104340852326396751293",
       "reviewerUrl": "https://www.google.com/maps/contrib/104340852326396751293?hl=id",
       "name": "Rizqi Fajrul Falah",
-      "reviewerNumberOfReviews": 8,
+      "reviewerNumberOfReviews": 9,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXgzWwtTW8u6tAR1M5tD0r_TgUEE7U0lUrUQsQBkxUZDoeehZ25=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -489,7 +489,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPsVcmAy3fFJYegrNRjX5c_Uw87JPYBnmR61TouF9TEd0SZs9FBwIxMQi4icEWZzIJSBDiPPAK6G5Y2qpp_W9XGpL_QX32YND_meByhxgxAM3Z6ylSsw3iMs_Rw-VXdN7PN1Y7lOA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOokBRCuHqfjmUtRGohlo0aqn7OvkJZgd-6y_pFJIcLstBR9o8ipAU0PeWsdCvwPoD0PIulInVCjWihGWQrzXdZEYwEtiIHTEEWg3iibA5fwqPGsuAH74daMuvK5jMgMqxxreXvng=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -527,7 +527,7 @@
       "reviewerId": "106337293762970439491",
       "reviewerUrl": "https://www.google.com/maps/contrib/106337293762970439491?hl=id",
       "name": "Muh. Nurul huda",
-      "reviewerNumberOfReviews": 66,
+      "reviewerNumberOfReviews": 65,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUBiusMjhjDNywlXiKcquU_EPEERYi4c2cTWx8qlw4bhyv1aqqj=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -919,7 +919,7 @@
       "reviewerId": "105554347099851158299",
       "reviewerUrl": "https://www.google.com/maps/contrib/105554347099851158299?hl=id",
       "name": "Adetyaprayuga Prayuga",
-      "reviewerNumberOfReviews": 0,
+      "reviewerNumberOfReviews": 1,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX6VvuuH9AHrAHDepXGKKLqtl9YZz507jnVcq0EAM5OyBGA50GT=s1920-c-rp-mo-br100",
       "text": null,

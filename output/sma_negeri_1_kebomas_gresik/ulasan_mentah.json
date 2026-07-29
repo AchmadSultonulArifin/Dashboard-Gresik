@@ -42,7 +42,7 @@
     "Oleh pemilik",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T12:52:11.885Z",
+  "scrapedAt": "2026-07-29T11:27:20.313Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,14 +54,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "06.45 to 15.15"
-    },
-    {
-      "day": "Selasa",
-      "hours": "06.45 to 15.15"
-    },
     {
       "day": "Rabu",
       "hours": "06.45 to 15.15"
@@ -81,6 +73,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "06.45 to 15.15"
+    },
+    {
+      "day": "Selasa",
+      "hours": "06.45 to 15.15"
     }
   ],
   "peopleAlsoSearch": [
@@ -123,15 +123,6 @@
   ],
   "reviewsTags": [],
   "gasPrices": [],
-  "url": "https://www.google.com/maps/search/?api=1&query=SMA%20NEGERI%201%20KEBOMAS%20-%20GRESIK&query_place_id=ChIJSeSoe8__dy4RMpgHfvpIjwo",
-  "searchPageUrl": "https://www.google.com/maps/search/SMA%20NEGERI%201%20KEBOMAS%20-%20GRESIK?hl=id",
-  "searchString": "SMA NEGERI 1 KEBOMAS - GRESIK",
-  "language": "id",
-  "rank": 1,
-  "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3Eh5BqWRGXf39QlLcOu-0OA8c1RAXiyCHoKBdOliwa9rajB3TVdRFHdakIJtEGz3YllcQYgwpAROxuXpojYPGvq4-FpKP0JTRKQaxxYoiPJkKymUv7GD-OStoETAnO4jTc2dvAA=w408-h467-k-no",
-  "kgmid": "/g/12hvhl43b",
-  "questionsAndAnswers": [],
   "updatesFromCustomers": {
     "text": "Risoles Mayo by Kantin 11 RaZa Jaya",
     "language": "id",
@@ -144,11 +135,20 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmO2-1xvQxgJTtr2ivMKPHJjylKnKIxMM-3nV8ACxipVtiap7N5KSmsMLhDDCpvRSRaWTdVbr4Oh6E2mW9OGj8f-godLWbfBGWIWeevZvk5w5VvJ1BlezT27SX1z911nQFogmvSIOA=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOVOJHm0BdhfjkzWjwq3wsdqyVxDWK01cU9b3XWNbTHi4VOhONlHJhN6fQQ9k6YbNkr0Mb6jJLG5rLou9W-9iYmSFA9oRE8wipLKQZcjGVHmtn8sxIxr6_tLwqRMmYfSijlqk4qLw=k-no",
         "postDate": "2 tahun lalu"
       }
     ]
   },
+  "url": "https://www.google.com/maps/search/?api=1&query=SMA%20NEGERI%201%20KEBOMAS%20-%20GRESIK&query_place_id=ChIJSeSoe8__dy4RMpgHfvpIjwo",
+  "searchPageUrl": "https://www.google.com/maps/search/SMA%20NEGERI%201%20KEBOMAS%20-%20GRESIK?hl=id",
+  "searchString": "SMA NEGERI 1 KEBOMAS - GRESIK",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlxCHRPR5zmuEfpmck4ity8Mvfl5K-mg0MumpodR6dXuzcBY-Vi58CJgHSA49Esg63s5Pvn1zxXTYoBFUNl0jBoABgwscNlBYUs1dYwnezFg0Kl_2CwkSperNS4_hYToTTATreGSw=w408-h467-k-no",
+  "kgmid": "/g/12hvhl43b",
+  "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
   "tableReservationProviders": [],

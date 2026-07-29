@@ -35,13 +35,20 @@
   "fid": "0x89c25a171856e937:0x7202f2451bc6c0c4",
   "cid": "8215395048909881540",
   "reviewsCount": 17,
+  "reviewsDistribution": {
+    "oneStar": 5,
+    "twoStar": 1,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 11
+  },
   "imagesCount": 18,
   "imageCategories": [
     "Semua",
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T15:15:14.030Z",
+  "scrapedAt": "2026-07-29T14:41:39.526Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,14 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "09.00 to 17.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "09.00 to 17.00"
-    },
     {
       "day": "Rabu",
       "hours": "09.00 to 17.00"
@@ -80,6 +79,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "09.00 to 17.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "09.00 to 17.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -124,20 +131,13 @@
   },
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=P%20T%20Bank%20Rakyat%20Indonesia&query_place_id=ChIJN-lWGBdawokRxMDGG0XyAnI",
-  "searchPageUrl": "https://www.google.com/maps/search/Bank%20Bri?hl=id",
-  "searchString": "Bank Bri",
+  "searchPageUrl": "https://www.google.com/maps/search/Bank%20Rakyat%20Indonesia,%20PT.%20Tbk?hl=id",
+  "searchString": "Bank Rakyat Indonesia, PT. Tbk",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmlL_EUfUSGT-uqQEkIR5HaOZzdOXvxpkmJdCYQ8s1xTrhBwD7ME7s-DZ871e_gzHY-DE4csBHsTlHNcWZLB59ZsX5yMgqhmT4gcUCRKFmI39HQd5-_AiUVPGAt6fKM_WrLz6K9BYI2mxs=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlTpjM7tzM9wTGhqMrWSkzaZl62Gd2m5uI0g2-yu5S8_2D0NzQs5sBPGOC2WBBnAizdIkZCsFViAjMQ5-nK5LuWqW0xGduul4Q5y33QP5OCyPixCbNLHL5GdH_4NqJfUShdcSROT8mwZg8=w408-h725-k-no",
   "kgmid": "/g/1th0z8cs",
-  "reviewsDistribution": {
-    "oneStar": 5,
-    "twoStar": 1,
-    "threeStar": 0,
-    "fourStar": 0,
-    "fiveStar": 11
-  },
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -184,7 +184,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjViMa5ObXj91424zPuqCJyKeyvBq_FsjA-fnxoK7GXqZEQ--jaJ=s1920-c-rp-mo-br100",
       "text": "Melayani setulus hati, semoga bisa nabung disana dan ketemu keponakan",
       "textTranslated": null,
-      "publishAt": "Diedit 2 bulan lalu",
+      "publishAt": "Diedit 3 bulan lalu",
       "publishedAtDate": "2026-04-29T07:01:17.740Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNubjR5dHRRRRAB",
@@ -548,7 +548,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV8KBiyWG0NsjawoGm-AXFnOdqHxeCaFEKW1qWcVewCK7zf_RSY=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "8 tahun lalu",
+      "publishAt": "9 tahun lalu",
       "publishedAtDate": "2017-07-22T06:19:18.589Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURBeGN1MlZnEAE",

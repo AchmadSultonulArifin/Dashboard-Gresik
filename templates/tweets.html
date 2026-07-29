@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-
+{% block title %}Twitter{% endblock %}
 {% block content %}
+
 <div style="margin-bottom:20px;">
     <h1 style="font-size:24px;font-weight:700;color:#111827;margin:0;">🐦 Twitter</h1>
     <p style="font-size:13px;color:#6b7280;margin:4px 0 0 0;">
@@ -8,213 +9,195 @@
     </p>
 </div>
 
+<!-- KPI -->
 <div class="stat-grid" style="margin-bottom:20px;">
-
-    <div class="stat total">
+    <div class="stat">
         <div class="angka">{{ total }}</div>
         <div class="label">Total Tweet</div>
     </div>
-
-    <div class="stat positif">
-        <div class="angka">{{ sentimen.get('positif',0) }}</div>
+    <div class="stat">
+        <div class="angka" style="color:#16a34a;">{{ sentimen.get('positif',0) }}</div>
         <div class="label">Positif</div>
     </div>
-
-    <div class="stat netral">
-        <div class="angka">{{ sentimen.get('netral',0) }}</div>
+    <div class="stat">
+        <div class="angka" style="color:#9ca3af;">{{ sentimen.get('netral',0) }}</div>
         <div class="label">Netral</div>
     </div>
-
-    <div class="stat negatif">
-        <div class="angka">{{ sentimen.get('negatif',0) }}</div>
+    <div class="stat">
+        <div class="angka" style="color:#dc2626;">{{ sentimen.get('negatif',0) }}</div>
         <div class="label">Negatif</div>
     </div>
-
 </div>
 
-<div class="grid-2">
+<!-- Charts -->
+<div style="display:grid;grid-template-columns:1fr 280px;gap:16px;margin-bottom:20px;">
 
+    <!-- Bar chart sentimen per hari — lebar -->
+    <div class="card" style="margin-bottom:0;">
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">Sentimen per Hari</h2>
+        <canvas id="chartHari" height="120"></canvas>
+    </div>
+
+    <!-- Donut chart — kecil -->
+    <div class="card" style="margin-bottom:0;">
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:10px;">Distribusi Sentimen</h2>
+        <div style="position:relative;height:160px;">
+            <canvas id="chartPie"></canvas>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:6px;margin-top:12px;">
+            <div style="display:flex;align-items:center;justify-content:space-between;font-size:12px;">
+                <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#16a34a;margin-right:6px;"></span>Positif</span>
+                <strong>{{ sentimen.get('positif',0) }}</strong>
+            </div>
+            <div style="display:flex;align-items:center;justify-content:space-between;font-size:12px;">
+                <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#9ca3af;margin-right:6px;"></span>Netral</span>
+                <strong>{{ sentimen.get('netral',0) }}</strong>
+            </div>
+            <div style="display:flex;align-items:center;justify-content:space-between;font-size:12px;">
+                <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#dc2626;margin-right:6px;"></span>Negatif</span>
+                <strong>{{ sentimen.get('negatif',0) }}</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Topik -->
+<div class="card" style="margin-bottom:20px;">
+    <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">Topik Terpopuler</h2>
+    <canvas id="chartTopik" height="80"></canvas>
+</div>
+
+<!-- Tabel tweet -->
 <div class="card">
-
-<h2>Sentimen per Hari</h2>
-
-<canvas id="chartHari"></canvas>
-
-</div>
-
-<div class="card">
-
-<h2>Distribusi Sentimen</h2>
-
-<canvas id="chartPie"></canvas>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h2>Topik Terpopuler</h2>
-
-<canvas id="chartTopik"></canvas>
-
-</div>
-
-<div class="card">
-
-    <h2>Semua Tweet ({{ total }} total)</h2>
-
-    <input
-        type="text"
-        id="cari"
-        placeholder="Cari tweet..."
-        style="width:100%;padding:8px;margin:10px 0;"
-    >
-
-    <table>
-
-        <thead>
-            <tr>
-                <th>Tanggal</th>
-                <th>User</th>
-                <th>Tweet</th>
-                <th>Topik</th>
-                <th>Sentimen</th>
-            </tr>
-        </thead>
-
-        <tbody id="tabelBody">
-
-        {% for t in data %}
-
-            <tr>
-
-                <td>{{ t.tanggal }}</td>
-
-                <td>@{{ t.username }}</td>
-
-                <td>
-
-                  {% if t.teks_asli is string %}
-
-                      {{ t.teks_asli[:100] }}
-
-                      {% if t.teks_asli|length > 100 %}
-                          ...
-                      {% endif %}
-
-                  {% else %}
-
-                      -
-
-                  {% endif %}
-
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin:0;">
+            Semua Tweet <span style="color:#6b7280;font-weight:400;">({{ total }})</span>
+        </h2>
+        <input type="text" id="cari" placeholder="🔍 Cari tweet..."
+            style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;width:240px;outline:none;">
+    </div>
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-size:13px;">
+            <thead>
+                <tr style="background:#f9fafb;">
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:110px;">Tanggal</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:100px;">User</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;">Tweet</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:100px;">Topik</th>
+                    <th style="padding:10px 12px;text-align:center;color:#6b7280;font-weight:600;white-space:nowrap;width:90px;">Sentimen</th>
+                </tr>
+            </thead>
+            <tbody id="tabelBody">
+            {% for t in data %}
+            <tr style="border-bottom:1px solid #f1f5f9;transition:.15s;" onmouseover="this.style.background='#f9fafb'" onmouseout="this.style.background=''">
+                <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:12px;">
+                    {{ t.tanggal }}
                 </td>
-
-                <td>{{ t.topik }}</td>
-
-                <td>{{ t.sentimen }}</td>
-
+                <td style="padding:10px 12px;white-space:nowrap;">
+                    <span style="font-size:12px;color:#374151;font-weight:500;">@{{ t.username }}</span>
+                </td>
+                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:0;overflow:hidden;">
+                    {% if t.teks_asli is string %}
+                        {{ t.teks_asli[:150] }}{% if t.teks_asli|length > 150 %}...{% endif %}
+                    {% else %}-{% endif %}
+                </td>
+                <td style="padding:10px 12px;white-space:nowrap;">
+                    <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;padding:3px 8px;border-radius:20px;font-weight:500;">
+                        {{ t.topik }}
+                    </span>
+                </td>
+                <td style="padding:10px 12px;text-align:center;">
+                    {% if t.sentimen == 'positif' %}
+                        <span style="font-size:11px;background:#d1fae5;color:#065f46;padding:3px 10px;border-radius:20px;font-weight:600;">Positif</span>
+                    {% elif t.sentimen == 'negatif' %}
+                        <span style="font-size:11px;background:#fee2e2;color:#991b1b;padding:3px 10px;border-radius:20px;font-weight:600;">Negatif</span>
+                    {% else %}
+                        <span style="font-size:11px;background:#f3f4f6;color:#374151;padding:3px 10px;border-radius:20px;font-weight:600;">Netral</span>
+                    {% endif %}
+                </td>
             </tr>
-
-        {% endfor %}
-
-        </tbody>
-
-    </table>
-
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <script>
-
 const chartData = {{ chart_data|tojson }};
-
-const warna = {
-    positif:"#16a34a",
-    netral:"#9ca3af",
-    negatif:"#dc2626"
-};
-
+const warna = { positif:"#16a34a", netral:"#9ca3af", negatif:"#dc2626" };
 const tanggal = [...new Set(chartData.map(x=>x.tanggal))];
+const label   = ["positif","netral","negatif"];
 
-const label = ["positif","netral","negatif"];
-
-const datasets = label.map(function(s){
-
-    return {
-
-        label:s,
-
-        data:tanggal.map(function(t){
-
-            let d = chartData.find(x=>x.tanggal==t && x.sentimen==s);
-
-            return d ? d.jumlah : 0;
-
-        }),
-
-        backgroundColor:warna[s]
-
-    }
-
-});
-
-new Chart(document.getElementById("chartHari"),{
-
+// Bar chart
+new Chart(document.getElementById("chartHari"), {
     type:"bar",
-
     data:{
-
-        labels:tanggal,
-
-        datasets:datasets
-
+        labels: tanggal,
+        datasets: label.map(s => ({
+            label: s,
+            data: tanggal.map(t => {
+                const d = chartData.find(x => x.tanggal===t && x.sentimen===s);
+                return d ? d.jumlah : 0;
+            }),
+            backgroundColor: warna[s],
+            borderRadius: 4,
+        }))
+    },
+    options:{
+        responsive:true, maintainAspectRatio:true,
+        plugins:{ legend:{ position:"bottom", labels:{ font:{size:11} }}},
+        scales:{
+            x:{ stacked:true, grid:{display:false}, ticks:{font:{size:11}} },
+            y:{ stacked:true, grid:{color:"#f1f5f9"}, ticks:{font:{size:11}} }
+        }
     }
-
 });
 
+// Donut chart
 const sentimen = {{ sentimen|tojson }};
-
-new Chart(document.getElementById("chartPie"),{
-
+new Chart(document.getElementById("chartPie"), {
     type:"doughnut",
-
     data:{
-
-        labels:Object.keys(sentimen),
-
+        labels: Object.keys(sentimen),
         datasets:[{
-
-            data:Object.values(sentimen),
-
-            backgroundColor:Object.keys(sentimen).map(x=>warna[x])
-
+            data: Object.values(sentimen),
+            backgroundColor: Object.keys(sentimen).map(x => warna[x]||"#e5e7eb"),
+            borderWidth: 3, borderColor:"#fff", hoverOffset:4
         }]
-
+    },
+    options:{
+        responsive:true, maintainAspectRatio:false, cutout:"68%",
+        plugins:{ legend:{display:false} }
     }
-
 });
 
+// Topik chart
 const topik = {{ topik|tojson }};
-
-new Chart(document.getElementById("chartTopik"),{
-
+new Chart(document.getElementById("chartTopik"), {
     type:"bar",
-
     data:{
-
-        labels:Object.keys(topik),
-
+        labels: Object.keys(topik),
         datasets:[{
-
-            data:Object.values(topik)
-
+            data: Object.values(topik),
+            backgroundColor:"#4f46e5", borderRadius:4
         }]
-
+    },
+    options:{
+        responsive:true, maintainAspectRatio:true, indexAxis:"y",
+        plugins:{ legend:{display:false} },
+        scales:{
+            x:{ grid:{color:"#f1f5f9"}, ticks:{font:{size:11}} },
+            y:{ grid:{display:false}, ticks:{font:{size:11}} }
+        }   
     }
-
 });
 
+// Pencarian tabel
+document.getElementById("cari").addEventListener("input", function(){
+    const q = this.value.toLowerCase();
+    document.querySelectorAll("#tabelBody tr").forEach(row => {
+        row.style.display = row.innerText.toLowerCase().includes(q) ? "" : "none";
+    });
+});
 </script>
-
 {% endblock %}

@@ -48,7 +48,7 @@
     "Di dalam",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:47:31.946Z",
+  "scrapedAt": "2026-07-29T14:12:53.808Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,14 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 15.30"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.30"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 15.30"
@@ -87,18 +79,18 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.30"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.30"
     }
   ],
   "additionalOpeningHours": {
     "ATM BNI KLN BUNGAH": [
-      {
-        "day": "Senin",
-        "hours": "Buka 24 jam"
-      },
-      {
-        "day": "Selasa",
-        "hours": "Buka 24 jam"
-      },
       {
         "day": "Rabu",
         "hours": "Buka 24 jam"
@@ -117,6 +109,14 @@
       },
       {
         "day": "Minggu",
+        "hours": "Buka 24 jam"
+      },
+      {
+        "day": "Senin",
+        "hours": "Buka 24 jam"
+      },
+      {
+        "day": "Selasa",
         "hours": "Buka 24 jam"
       }
     ]
@@ -187,7 +187,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnk0wk5rRIvqXZfO2HRny90qqvb3kuFSwwTHSiZZ1QXBxnkWUonlcCbP9ZVUlQ-y3jIQMWhRSliF0DgVxJ-_d1nJkiFWsfT-Br6nA9jy-JqtHRjDj-U-kmky8zSsqhRivCTigTkzg=w427-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnWL0khnYZ2SlZYZyepjM1HH6FdKPdcE1StGoa7RAnMvSPlhyCIVplU2Um3vhMQG1FH7pnnSA6kR7uvdIMPGRRRz1SW2kecbkBLEELgldyT-v7AxiBrU2gMTIjZi2rD6VJ6zv5Tiw=w427-h240-k-no",
   "kgmid": "/g/1hm2gy0np",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -256,7 +256,7 @@
       "reviewerId": "108981393686934015932",
       "reviewerUrl": "https://www.google.com/maps/contrib/108981393686934015932?hl=id",
       "name": "thoriq hakam",
-      "reviewerNumberOfReviews": 8,
+      "reviewerNumberOfReviews": 7,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI-Aotq-Jf_1QNpXx0q0sbLW-mbRdL4gJbgr0OhMc1vzzKveg=s1920-c-rp-mo-br100",
       "text": "Pelayanannya sangat lama sekali. CS hanya satu dan antrian banyak sekali. 1 jam hanya dapet 2 nomer saja. Heran sudah banyak keluhan tapi sistemnya masih tetap buruk",
@@ -402,7 +402,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMQqR1MXKoiKotd0cNSrVBecgcWcaH-kNDe_uXGXWCUMo7IyHNHWzcSBPxDJB3cV1n__UelTdQjyHPPN3Dd3fTyiLlJU0GYawIQ_9RGl0oikWhUI9KlR3VU_80NLLkeisX0vJt67A=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNsBdliijQDb-9uU-CdUoKbIJ0oXIFhSISMARE5jlLbMixPN6xt1ca2EY--jzhJmHIBEIlzn01hYZrOV_bgB-U2v88wA5M0pO391ndxe7hO8L_WiVoV8X0WdJGzHZkvfULg0zUlNQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -466,7 +466,7 @@
       "reviewerId": "105994180038148524697",
       "reviewerUrl": "https://www.google.com/maps/contrib/105994180038148524697?hl=id",
       "name": "Maulany Sajo",
-      "reviewerNumberOfReviews": 4,
+      "reviewerNumberOfReviews": 3,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK6ruRhUjdnP878TyYDUYWVwl_3fWjfi8UCEIco1cf1mQTBPo4=s1920-c-rp-mo-br100",
       "text": "Pelayanan KCP Bungah sip banget! Buka rekening dan trial mobile banking sangat cepat dan tanggap. Terimakasih BNI🥰",
@@ -872,7 +872,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUlhWVsO_tv7B97kkBnunw8xiM-yAL1A_dRKezrL2Nbzy8FEzG8Xd6USxVHrq2aucTW2o4D04rIcIRO1KeagZ5wPCxYi2rQIgYVJZwqz5mc8jIb-EQ9MZ-ZxiKi8EIYQYZ3Ng=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMngwMc8phZuugooAvonuVYfsDN1zazbS0SbxjH7kF9cN9sS3ZV_DK2ZdWDnTibV9RA8nCsvFgpS0EJVmh4dmpj9IXBQFkCLhdw3zsmwNklIasOr_AlfNfn4zJULVh9pBggRLI=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -941,7 +941,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWLY9Hw1xZQH8DaK95L8ap7IoNUM79vQm_L1YafS0RiqlUrqRDd=s1920-c-rp-mo-br100",
       "text": "Cabang BNI paling gak nyaman.\nAntri doang 1 jam 40 menit, ga efisien\nBuang waktu bangett",
       "textTranslated": null,
-      "publishAt": "4 tahun lalu",
+      "publishAt": "5 tahun lalu",
       "publishedAtDate": "2021-07-22T07:52:14.541Z",
       "likesCount": 3,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNhaU16LXNnRRAB",

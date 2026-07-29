@@ -681,6 +681,12 @@ def process_per_tempat(results: list, pipe):
         rating  = place.get("totalScore", "")
 
         print(f"   ⭐ Rating  : {rating}")
+
+        # ✅ Tambah pengecekan total == 0
+        if total == 0:
+            print("   ⚠️  Semua ulasan kosong setelah preprocessing, skip.")
+            continue
+
         print(f"   ✅ Positif : {positif} ({positif / total * 100:.1f}%)")
         print(f"   ➖ Netral  : {netral}  ({netral  / total * 100:.1f}%)")
         print(f"   ❌ Negatif : {negatif} ({negatif / total * 100:.1f}%)")

@@ -39,7 +39,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:31:28.258Z",
+  "scrapedAt": "2026-07-29T13:52:36.328Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -739,14 +739,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
     },
@@ -764,6 +756,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -783,8 +783,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "ATM Mandiri SBY GD RUKOKEBRAON",
-      "reviewsCount": 13,
-      "totalScore": 2.8
+      "reviewsCount": 14,
+      "totalScore": 2.7
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -808,7 +808,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntvPJgKUaalmeYh1RjhPn3vq2oJv-uL71zY-cgGqfoyNNAvT78SSrzZvKjErc6rrJJML-aJvKNlM1Nb2wmmy6mnnl45DLXyIJHo1xbaG3_iQOd7RrzQsFJtRe7QKe_QZTO6IYt=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlNG2l2aaMHuwmx3dh-oX4tM79n-NMzm6WRI3KrsXd8KB_G1H2mFt9XX-PigLzkdKURhf9adKNaUPfIXS4ZVzrDn2Iek6qvdMXqkXsZy2fxM_gI-Z5CPm-osPsD8Qoyrk5kn0T5=w426-h240-k-no",
   "kgmid": "/g/1pzrw88_k",
   "reviewsDistribution": {
     "oneStar": 0,
@@ -978,8 +978,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNR_HHrUsnjYkBJRqB35A2boLRXdZwzRgxUyo4dZbuEnvIQ1gA2bXldEKNmTR9v4v77T2b4k3h1sa2mcWHkuQtg_gJQdzkx9sGePH_Wt0pRKjrrhJqj7p5gDzoFbsh2jNYeN8fE=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNPf-y2n8lp1OUAmoh5kBNQzTWzTRr0P-Enf3Cyf8nvCZl0QlgGmHOhhuSi8p1aHDPqP6ecfzL1ZZUMNBcjDpJI_RPSyqtI6zoGzkMnKzFahWPBnXSDmKZraY5YP9-y-ANBuuEM=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNh_xxfZn5U_Lr4ugKl4H3DTTx8q1FfIfxIpeEHExmV9JljJFckugK-VVWMGbUyS-3xz1MSzv_p5EzYPDWKsOYrPw4XCpR64TiJwN7LKOMbl7kq_epbcZInwuzlBkJb3-3UPn4g=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNbu8MoxYoE-epx3LH4BWM-Ap892alvwGcNCEsEfZI4N57hgoIw0WmeYdo1bMtjyoL1vSiy_oVVAyaQJxpfFUVG_nu3udpL4WA4pw0mg3bI4yeWO3Wy4bVkMrQLSyabjbm6Cb-p=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

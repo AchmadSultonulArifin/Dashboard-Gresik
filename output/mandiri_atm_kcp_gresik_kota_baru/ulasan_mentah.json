@@ -40,7 +40,7 @@
     "Semua",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T15:44:14.804Z",
+  "scrapedAt": "2026-07-29T14:46:54.375Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -740,14 +740,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
     },
@@ -765,6 +757,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -810,7 +810,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAuSKpHzViOE9LM-PW7i8GvtHGJ7e61CpDReQW09pJ1Ai-Dj-M9aXqfamcQNpt2goF15E8eiWSHCt-jm8VWH_vpAWb14DTrGVUJZRGMrR0q-Yxl7joIx7u1rBWG-NOGHlZ0BJi=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlYNDq5zwYzCNV9Q7oB5OZCL75-MQGFR2trf91Ta96R4luLpjRZPRpflWMXRF5swBbbihUMe3Ewhbr2JkOPzHPMWxJ9bfiyscfIqh1KTRw78hU7tgrg0VfmYV7-vRustrPJINMb=w408-h725-k-no",
   "kgmid": "/g/1ygbb6s4m",
   "reviewsDistribution": {
     "oneStar": 0,
@@ -876,7 +876,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMrmCd6gPDPYIn93Lk1HA8dmLNUNCfkSQFkBPTHZHHzLlEuBoUPxO7C6ioP1u2erWTt259DKsmXqA-zWNBvn1iyD9a2dA40mRPJxw2RDBXgsSIORUi9x4mjAXouK-Pr34ZlDDGC=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP5-FXBGCgkAtG_g4TmqSpfnWh54O-SYk7ccIkMJMVefAFaeTLVp0NYYGBss9x1TwWn-IUSiseAijyaPt8tUxOS_3WZzsoct_c3Brd3QYeYxKnJexIPip14ADUbnSh5dmPoedBM=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

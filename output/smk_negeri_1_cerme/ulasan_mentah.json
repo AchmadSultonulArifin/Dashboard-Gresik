@@ -32,21 +32,21 @@
   ],
   "fid": "0x2e7801a865e11481:0xe785e336f1e142",
   "cid": "65167930546053442",
-  "reviewsCount": 286,
+  "reviewsCount": 287,
   "reviewsDistribution": {
     "oneStar": 8,
     "twoStar": 2,
     "threeStar": 6,
     "fourStar": 30,
-    "fiveStar": 240
+    "fiveStar": 241
   },
-  "imagesCount": 332,
+  "imagesCount": 334,
   "imageCategories": [
     "Semua",
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T13:03:55.468Z",
+  "scrapedAt": "2026-07-29T11:55:33.728Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,14 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.00 to 15.40"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 15.40"
-    },
     {
       "day": "Rabu",
       "hours": "07.00 to 15.40"
@@ -85,19 +77,27 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 15.40"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 15.40"
     }
   ],
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK Negeri 1 Driyorejo",
-      "reviewsCount": 156,
+      "reviewsCount": 157,
       "totalScore": 4.2
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK YPI DARUSSALAM 1 CERME",
-      "reviewsCount": 167,
+      "reviewsCount": 172,
       "totalScore": 5
     },
     {
@@ -140,18 +140,18 @@
     },
     {
       "title": "TKJ",
-      "count": 4
+      "count": 5
     },
     {
       "title": "kimia",
       "count": 4
     },
     {
-      "title": "satpam",
+      "title": "industri",
       "count": 3
     },
     {
-      "title": "industri",
+      "title": "satpam",
       "count": 3
     },
     {
@@ -182,7 +182,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmbT9ekJQLbg6n425UfqPdv9aIDnhdZkKW__CqSJ2bW76Z6dQ_nYN9Y9sDEH66mvQvY_G19XdlIc-QaSg2QAQJmu5K1SFv_S5riLGxWO6YaYspzMf8K9wojlkQgsSFHDW3tVP3c9Q=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlbmJmexgu4uTZp4vy4o-EnC32TyJsudwdGNBDgqq7THDKOGxAlDmsKsknmrTF8tHHRKyY12OT0-wv6Fd32BouaXMOoYYo760vatiEgrR0429K-IJAwNAorY-YYkJROUU0wevATVA=w408-h306-k-no",
   "kgmid": "/g/11c2pdsx_y",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -196,15 +196,41 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "111719002830138499083",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111719002830138499083?hl=id",
+      "name": "Poenk Choee",
+      "reviewerNumberOfReviews": 75,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUF3xRdXEe3vn4z7HMtYUzyVBTValr2-AUdkRJ_RuLiySMHwy4=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "1 hari lalu",
+      "publishedAtDate": "2026-07-28T05:42:21.649Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGQlFraGhlbkpwWTNoVFVWWTFUV05ZVGw5RE1rRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGQlFraGhlbkpwWTNoVFVWWTFUV05ZVGw5RE1rRRAB!2m1!1s0x0:0xe785e336f1e142!3m1!1s2@1:CAIQACodChtycF9oOkFBQkhhenJpY3hTUVY1TWNYTl9DMkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "115316473825604787127",
       "reviewerUrl": "https://www.google.com/maps/contrib/115316473825604787127?hl=id",
       "name": "Muhammad Febri Nurdiansyah",
-      "reviewerNumberOfReviews": 0,
+      "reviewerNumberOfReviews": 1,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXX4KYc3_ql0S1abC4_ZyRfZ14mXGid9i_bbqLkV5AXHHmW5Mfl=s1920-c-rp-mo-br100",
       "text": "SMK SIAP SUKSES\n- Teknik Komputer & Jaringan",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-12T15:47:44.857Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21SeGFITkJhbWRWTUZGRmQwb3lOMW94ZG5OaWNrRRAB",
@@ -215,8 +241,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOBzSx2LXT8Ccym6APNaPQ0Cg-4ke1UvyvqWEADVPGeeS6vDrmPsZPT5oib5QbWSIYCoGRypz3lTsExDA1fdGrJ7ROiNAtuAFNp8BsjKe40_i4cm8N8HivNv76vk-Un3mgfDdCmOUE0QhuV=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMkGb91GeuxBINTbLP5h97Sgg37y0f3yHPs6BF-zrTZvlPqOEZJO05hpkCBVYtZcSLHSwsQ32MWBB14suuM4Yh3eoc-fN6x_7rKlDiymNUApw4NZYxScoEQ20Z1y2wumbxlOC7jGLndAnno=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPrTESjqpbSAgHPKJGQFbTwWV75bGKTC09ozCnP_sjkKHbcgBsXfic0Xhsh3e3lQCBChMvx0Cx7RGssnWgGSOcdzNLXl9gnz0cnOW9h9co7gKArJ-m3A0RwCF45Bo6-0rmeCEc9ZO3LTaOZ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM5RrXGgpqZrsb1eEpwteoWJofvYo-lo5EgFPS6x9NbofMgSptU8BQIuTKhqsti6KofdMkHZwdnuAf-UjsZy2wmC6Out7vOgnbvNFhwUjd-Wpcr-xcdbOohB3u8R7l5cgUIFV4sv50qpntH=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -233,7 +259,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocItt20y0f--UAxFQGlxVNKSd2s6ujICJWxirZfo596EsQpJYw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-05T06:03:07.171Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKQ1JFcFpOSFY0WlZJMU9HMWhSRXhhV0VWRWVXYxAB",
@@ -259,7 +285,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXIffjxJmgWpkA_ZTIDC-jcR4hjrxWNgD5G97mCjCWSdqn0Gi_tNA=s1920-c-rp-mo-ba12-br100",
       "text": "Bagus .",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-02T02:18:21.289Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psSlEzcHJVVk5uUzFaVFVYWmxZUzAxUld0dlJVRRAB",
@@ -285,7 +311,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVH_eUkZlhIhIM8SSgzKcAnUroF2gEb_ie_BK_g3th6FcApD5QSKw=s1920-c-rp-mo-ba12-br100",
       "text": "Tempatnya luas",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-27T03:52:15.558Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsdlMyVk5lVTlJZW1JelVIcHFZM0J4VXpFMGIyYxAB",
@@ -311,7 +337,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXQjepOfeyWBI2zt3zKF2q6xURLZpXxiozTA2ziZ27zyQO8wVaBqQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-23T04:21:52.418Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wSlowdHNiRmhRY0UxbE5ERkVlV0ZvUlhaU1NXYxAB",
@@ -400,8 +426,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMxnPxVAS5VCI8lreb9SjGzNwVNaranjdwAMH49pZ1GpG6r9kwCds5Yi-0I50OwOWhWhtVSNQgX2ywT4GLA5yXISQgHEeuOLXAWyiRi8X5BVhsYBl3VRr75rHj3HTQlaub6TsDH6mJPazSl=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM9az-eMPS41zPHcCvpU84ZA1NbaIv1PjIAumRRTKkdToIDdvmWOGL5Ab6FcKEYCcvO_hOZ2d6kd8LBiZY9FCDMTgZ-RgeMI_Y8aNiFj6VVijqd86B9tF6NyXF_tAvFWMAtU1SDYOJEddU=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM92arqUZ8Ba8FqB51qmo5-ZPoB0Fzb556uEEO2VRpiOAV2nQM6RyvWNBBVUGNtO265UR8bdAP02XXme7RJohalg86bjGcHTNCbPpJWTKyFkNL8sb3GyNgIy26JSUj2POtRmgm07VEc5M3n=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPelAdIYqY1iquoHg08rAGfvy2QxA2W-1J64T27kSIk6a9u01NRNrc6nJkndHzY4MaYc4WIF8dhjOD2dbar4TohAtY39oih6w3pIv18to-ImwJfmRYMyO9PktJXUqX3Fq02cEEd9Gzptb4=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -470,7 +496,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4BAT3fA5g30LDCqrpG4cU1IgpRWjwkcy0wS4WHOoGbXR8Tw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "9 bulan lalu",
+      "publishAt": "10 bulan lalu",
       "publishedAtDate": "2025-09-24T06:55:30.652Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25GQkxXdGZlWEZLZDFGNE5YSkRaaTB6VXpSUFdYYxAB",
@@ -715,8 +741,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO5YPGwK9EWjocwdXBde-W-LxCI9eTWbKjwHjLqOwHDhNLqWMs9CZYVnxUimenOwo49-eu7JvlNkHzRVHKp_KLk3gFtDO15jQYY1q_Frx94dGcfH2SAwSfRX4w8_JXvgf2b7sU2=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOqM1PdSpJuYzVxdFyRqNN4oU6ZAq2DPhWNs9mzf7inofY1LoG3waTIHnj1HLuieDpNl8NhAz054G9ej-1UY80MCDLgj7rzOLts8MkQmi9vHwU1H0LGtT-O427bD5vb_scun0s6=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP3FpIkLhiV7F49f3ovUmxJC832ruDepE5Ad7gQaD-nnXUu_CJjZmfAPmkeJNTy4x-orEr1x8Iz7lXiOevNKG1QssIUTV2RhH8nBYXCH7gDOZt8kw-ifQL3lXvHQhrsWVQZsWtI=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPJL43ak5QstC6bJ0S8R1eju8FEpg35WJDdp7rgjo50qobhSGZNjsxiyHr1Y4QzdxdtJAhYf2zFGNB3SairK0ktg7aBwHV4Lyjk93_JDPOH2rzBE2kfn97gv356UyO3w1dHNeLW=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -754,7 +780,7 @@
       "reviewerId": "107469265545809810878",
       "reviewerUrl": "https://www.google.com/maps/contrib/107469265545809810878?hl=id",
       "name": "Faisol Hezim (Faishol Hasyim)",
-      "reviewerNumberOfReviews": 331,
+      "reviewerNumberOfReviews": 330,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUckNE5orvFcwDdrrWtShy1-Q9rgB7t-2qmcnZIp_8vrTvxNYc2rQ=s1920-c-rp-mo-ba12-br100",
       "text": "Alhamdulillah keren SMK ini",
@@ -780,7 +806,7 @@
       "reviewerId": "101521675468993987326",
       "reviewerUrl": "https://www.google.com/maps/contrib/101521675468993987326?hl=id",
       "name": "Mas Husyam",
-      "reviewerNumberOfReviews": 18,
+      "reviewerNumberOfReviews": 19,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWXi5uexFznDHh-kKfxM0NjoMuvDy9aGzulx6oWcZ47VNSSYSoe=s1920-c-rp-mo-ba12-br100",
       "text": "Dulu saya harus berusaha dan bersiang buat masuk sekolah favorit di sini...apalagi jurusan listrik,jurusan paling keren dan masuk kelas S...sekarang karna kebodohan pemerintah yg menerapkan zonasi jd kualitas sekolah negri terbaik di pertanyakan!!\nSemoga pemerintah menghapus sistem zonasi yg membuat kualitas sdm daya saing generasi z meningkat",
@@ -957,32 +983,6 @@
       "visitedIn": null,
       "originalLanguage": null,
       "translatedLanguage": null
-    },
-    {
-      "reviewerId": "115402167254922511808",
-      "reviewerUrl": "https://www.google.com/maps/contrib/115402167254922511808?hl=id",
-      "name": "Alif Mardiana Devi",
-      "reviewerNumberOfReviews": 5,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVLbvisY-7LUSCzrU4umm9xeUCIuVZdZVYOLaS2A-yghzh3KRo1qQ=s1920-c-rp-mo-ba12-br100",
-      "text": "Excellent 👍",
-      "textTranslated": "Sangat bagus 👍",
-      "publishAt": "2 tahun lalu",
-      "publishedAtDate": "2024-06-21T03:11:25.476Z",
-      "likesCount": 0,
-      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNMNmJxd0NnEAE",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNMNmJxd0NnEAE!2m1!1s0x0:0xe785e336f1e142!3m1!1s2@1:CIHM0ogKEICAgICL6bqwCg%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "en",
-      "translatedLanguage": "id"
     }
   ],
   "leadsEnrichment": [],

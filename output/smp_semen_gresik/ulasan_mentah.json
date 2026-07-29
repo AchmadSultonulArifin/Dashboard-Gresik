@@ -40,7 +40,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T13:21:47.498Z",
+  "scrapedAt": "2026-07-29T12:28:58.572Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -426,14 +426,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "07.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 15.00"
-    },
-    {
       "day": "Rabu",
       "hours": "07.00 to 15.00"
     },
@@ -452,18 +444,18 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 15.00"
     }
   ],
   "additionalOpeningHours": {
     "Jam layanan online": [
-      {
-        "day": "Senin",
-        "hours": "07.00–15.00"
-      },
-      {
-        "day": "Selasa",
-        "hours": "07.00–15.00"
-      },
       {
         "day": "Rabu",
         "hours": "07.00–15.00"
@@ -483,6 +475,14 @@
       {
         "day": "Minggu",
         "hours": "Tutup"
+      },
+      {
+        "day": "Senin",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Selasa",
+        "hours": "07.00–15.00"
       }
     ]
   },
@@ -508,7 +508,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK Semen Gresik",
-      "reviewsCount": 57,
+      "reviewsCount": 58,
       "totalScore": 4.5
     },
     {
@@ -547,7 +547,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7aPwg71F1aa6lTVax8TYrQNzDfHkvJC-XxnwE1S4qKcpCEk-yxYc6NEESjA_rHO50B3UV3Dul9xaNK0RRNgKSbr7-Z1LpWtU1eqPDKN9r-FGAC3KNngCgmQjxcKWts9eboYn3qQ=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl732KZeIorEKd7_v0ZT2B7AlnoXfFVG6eMk3S8YD9nisy8fpV0FPF2WOmcM4yjBlLARBNhjSSgoFZHi22V5e00WXDE07qBpfEdrcbXSwFKNXzgQR3UZAY8a1BwgNFgajIoqsdWrA=w426-h240-k-no",
   "kgmid": "/g/1hm681bvw",
   "questionsAndAnswers": [],
   "webResults": [],

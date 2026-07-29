@@ -33,13 +33,13 @@
   ],
   "fid": "0x2dd800f56728f54f:0x308f567d531787ea",
   "cid": "3499110531755116522",
-  "reviewsCount": 54,
+  "reviewsCount": 52,
   "reviewsDistribution": {
     "oneStar": 0,
     "twoStar": 1,
     "threeStar": 1,
-    "fourStar": 4,
-    "fiveStar": 48
+    "fourStar": 3,
+    "fiveStar": 47
   },
   "imagesCount": 49,
   "imageCategories": [
@@ -47,7 +47,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T13:00:21.707Z",
+  "scrapedAt": "2026-07-29T11:48:49.786Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,14 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.00 to 16.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 16.00"
-    },
     {
       "day": "Rabu",
       "hours": "07.00 to 16.00"
@@ -86,14 +78,22 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 16.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 16.00"
     }
   ],
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK Nurul Islam Gresik",
-      "reviewsCount": 143,
-      "totalScore": 4.7
+      "reviewsCount": 144,
+      "totalScore": 4.8
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -160,7 +160,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwTqofpej_wqN1SufwGqxu5FPxva8VKazgGAbRE_qc31GGKaH9cU95m-UuqEKSruewzIwqFzOvbD7wl24sG_JwQziTXVHc7r_xM-XKUfGXtcyUhpH3Tszp2CrjsQ5Jx3iA1V0=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmCR3C1tX-4UeFGGh2uo2MXMgPQGQquQHd6pwrUHawv50ZqKGBZlqKz0aT_b3kxq5LmF9ZLNnrvP1ikX1lAWIP5Y2J1humevOZeWyOcvDcmCUZ4Yb5Rzi_Cnp44tpI0L-lsd-o=w408-h306-k-no",
   "kgmid": "/g/11lhvn8nwy",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -182,7 +182,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJcMEmxS2G4aOqMV2t7OHMUdthPnkj8BkW6d--Aa_mnldnaSA=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "1 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-19T10:51:17.268Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WNmNFbHlWSHB4UlVkWGJVTjZNMDFFUjJNMVYyYxAB",
@@ -208,7 +208,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWr3edTD2KuImMaWzheuXaCyVLfiKwZOpQmQxFhbSf7s1VFjS9o6Q=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "Diedit sebulan lalu",
+      "publishAt": "Diedit 2 bulan lalu",
       "publishedAtDate": "2026-05-23T11:28:27.315Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xobWMwRjFlVlpqTTIxZmNERkxaakJDU1VWM2FFRRAB",
@@ -234,7 +234,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKrdymy4p6XfHX25OcbzoG4RJz5WwqmNv4vsLWK4PiGaXVTzw=s1920-c-rp-mo-br100",
       "text": "Alhamdulillah\nTerbaik",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-23T09:45:59.497Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25CMmVFMVpSVmhNVTFaS2VYWnJiRGRmVDFVelpVRRAB",
@@ -286,7 +286,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXbhzXgahpaZsd85PwxhqnY6_MHTpQfDZddqBBC3dZ0EASvtIU=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-03-26T08:11:46.171Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5cGRXTmpSV3RQZVhCVU1VazJXV3hSWkZoWFozYxAB",
@@ -338,7 +338,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV871nKze5a3Wo-vDtvU0efPsJ2VZMQ6bfMZukPTLKw-2zO3hY=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-02-26T04:24:11.687Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21Fd1pERkVXRmRDZFVJdGQwTTNaVFZ5VFZGNFRrRRAB",
@@ -453,7 +453,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMG7EWmAxzk2PN2NzotssT8Jcn_Jhk_5hYho4wApJhCj78cyFycUIVWxzbR0U5itUlXS4ZUth3S11grNn2vVKDC3PVYSzocCCyjPKUifbVOfIcd7dPbNrLgt9wLWR-BuFZPvCTn=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPXwcyLRRhZL3m8kTqNDNRolq8D2q_F69wP5Y6WgZ3ycbpguewg-PPdntCBelFe5U-HfKijbmcKa_jknxhC325ixN69B3sHajBOiPShE0MwUhRYledV_S1Vr3I5ZMxLDJSA4YKJ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -533,9 +533,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM0cyPnsIIZq_Nc4EKnVGhKSEygnmJAN6vGIu6aTbxxRSdt9OHIDj1XFgaO_C4pPI6o8Zmm9ufiSPp_Nm_l_It3TsxrunfLHJcDZ0vZbyjX4TCEvcczSlmGntOGGThgUqZI_SQ3_A=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMze9gAppm_zOK0v8jYPeVhgVxga2xvwcoXxvJaw_pxB8m235aeSj9Y3z0Ul-yPQHsJ5wDAN2zBydvgE_fxi7QbK7-DmlW2QxML8pOwvchVXUP-kSasmSHGNP61ftKo8L392lw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOSXdGGXMYhtShRrGuS26i0My7ZDmNdoDsjIV08AAAxY7e9y2n5Qsf_SpOG0Un-h_2wxs4YFYpdYtNe5X1yLC6HlzInWtbAekd4OCVKpW2y7Ko8ohh6lze5ugl2i4x5lhOF50m5pw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpm8K73Y7RY8ytN8VdHQdv5gYVXGxr5JRY16zkeFeVJOVkPTdHKvAMmZHQ_pFRqWo_foeG7sW-5FKe5RplOEE7hDYuTsUw-AsR4XU4AvL5Ql9zrVtrG07wk6l_m1kQGx72_veD9Q=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM5NHZFA8IdVfHiIH_X9qm3NDMNd02igp-CsrFDnM1SPs9Pl-ITebM_W6fgxe5nDcIGZPcLxaKf4Z6aQWsmedNIMoi1fQDnmAik5r_U_VSJ81szUdO89CxXjuLS6Ya8oPcVUw4=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPomd7tk5a3z7IrbpXBGT936R0fbr6r3UG-fRFAYxLBDFngRxCWLGcgFJU_q9civxAZnJEgziQyTx1e5Uoid0s8Xnr5ThIScJN_O4E-rp2pMvJqLYgxbcVIiUWzUL-zLeFI8P1HDQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -589,8 +589,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOzwWtFy6dSxyJZkPGsFG889AS4ymNwSp9fkODTRJVA8D6olvwQjzYhn6ZnA2IfpXod32yrnWfUbPRGRrAx1NFa72u81bLHn9mb2fdS9LZxjnLE5rdUGyZWWuA636vSkGPU2jmw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN1lRhDcULG1JnhzP6fxszsEoGybB7NS4Hqa6LznReiEz33KZT-nEiFc6kl0Ea0vWYL7AdrlkXGZ_Z5hPE7aQ0IGdjELf-W6K7al8XwyGlv11bRkD9Oi9j86tHtBb6v9waE2cb5=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOJ_D_6d5bhf4hnGua1y3Fv_UCFVfNpoVMLIXc1maMfCl44NO-Pd9e77l5wq0VlLOQJkff2lWmueTq0xZ0978qLaulsuTdGr4JQJoKSPYm1OnErhotvO8SBCN_XP23MpzXHgVFE=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOCtXSuwLvJtBQVl_ZtnAiUrt_i6dKM1Gj-YirA_hLsMGWAp-_Et7BnMXc9foWBD5YDR1StiGzrWxZcoj56V_RB0Ox-VTQuxzUAyz5UnWtSK_YJXTLtR5tH6fouYUsYMyLaivwA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -644,11 +644,11 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNSOFJUKKH-BEqTj_Kc2AVYPWHj19cbfgXL6VMKqb3N1xVKR-yYltZZTzjK44FtAck-cfTF7ZeTinmAGmgAhIqpXWu0zpmVYQQ2otdQzEjzrb9WZNtSMpN0T0hW5n9GYs-Bx6uw7w=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOYE3-86uc5eExT0SIvSiqLL8QCF96UkMS6y5Z_giEEzLVlWtoFyXNDB9noojZgdxW3kYoXyGf-e3YMqUs9DKWsamBpTSJQOHCzpVIOM1bFRouE7OQJCKVaqw5GMQ5KfIyJNKs=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPDoM2TwmXReTUr1vy85jDo7J2-aUMQrzdk_Jpc6HuFerlSv5UzMS8_Q63fBA2nlZqMvkwo6kEG14nZDAEpQ6kU5fmVB53B3rT3WtSr8b6pZAB2OayiR8nBi1K90-SauBTuQ1g=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOJcSsQAPgMs2kmXvKvZxu4qr04H3t1735ISeVZnfxRQ9kUBrEhqb41pGCyRxZCpHcJvd6K_Kv5PKVqcGq6OV2cuQ6BLXyx8FgNvdkGWHUtPYDlf3_ciaITnMqivsBfqjGyynNcVA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOCVWt1-WhY23asvZl3_pxutKu0RWUU0IXVs_SCcQa6sXh-QhM-iERK1GmKAVK1bewCQWpv8WJ4PKu0RcGXjfUVu_BtFgo4Hv8gAKwAssKeUZxSgWajHoKkCie89lwdopRaoRaL=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYp942rCgWNvvcgrXhDC1CfRNxxpYUmzi2bGJthjS3I0tJu8VX2H8tAPSRj4Q9H7nNNBKuUApZmOjr_jTh96wPpfjSNlurZGGnbxdn3YsO_eUdXCZpBiV07bJW0ZuckGk77zsn1w=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMgZTxsn2A0GBLOM21_4bF7DAh0mC6jrbPmgQciyyX6eCUYOAhIpgqHBpAVj2U4Rjt3Mw-7A3Pm_ey5zyxI0xD16c25En2FXjswUSJp2gqc2g_RIGHYL2y5eIIjN20dTuF8sRY=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNO5TbwLc1ZgpatPYmLrmaMydXcsSnUvZ4Qve_me9dgbpwhjJQmPFW2-N_wW9NEEiyyGk5Kn1xlYt5br3zHe2wjCmkH_uOkNwo-4jxutPMIOWkmU_lgDzKYc9BMOi8GvAay7dw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOj0r89gYgG3G2u8Q9P-vO-OGh82Odn0XAow76A7rEp1sRXQ5dM_ibhF8jrDGEyGIXueKDiLAGxQecljCdEWePbXVhwf-Ufm8d6yjx4g4s7kog5MfQsHmrPU6E1dAfGc9505Z1qMA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNK5s97lPkEjsLFAVs2N7KsepApXgVgqknklZJmRGcq-ImGn5H-OeSpEI7WRC3Akedtl447wOy9JYx0uOyQDQ7YXCFOjaHaTDHVjd0h8XrcH0UpIOIBQeDT1API2-pAIlD_Kdq4=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -676,14 +676,14 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNmlz09IDdpHGdUBnBkEpoIvlTG0U1HL2EcNMszs7xjwyl3wqYJUrKcRl0DkYclB-kluDTyblMUwYweuhAUkoj1E2LJA_JtfFZYg1tKe9GwmiRj0YbEqHUtUOW1VdYNnFbi6ScyeA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNyxf9tapibByEMJAVTYSXFqnAqMDCrPA-V6xN6__h24OdabgZtG9cNTR2gIxBTQwM5XPnLfzp01cENxdBO0EVvPbHu5h5LHrmNIY3EwAYcDdeUvk2WSj_rHcrxrFKBigoMprR8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN5SF8qJKMjxptc5BWHrUiCWSDkpVhfwCMiOchaD14g3Ux7kV8hqeg71LhUoodaKIQFHnd3KMsi1hEO7dGujktsXAp3yk1HDz2dmw2FaGZ2XPlg6rS673WeNrsBbV9YwPwtfX0QSg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMQkMuhvUcDtIkaT3PaEejHJqtgaOsPEqCHDKctIPamwDHuDeZAnphr9ZkLkGBnP7aKGTtTYv2Bbikq2Rq2_lkpkhFx8Ag2T2RAPUkxqQnwIiaNgBG5SP8BtbnEEudLXBKoZ2nv=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmONmw0Q4pKO_JX_GbOk9l7xOyoRXcBB4VP33uwcLzUkcCIjBzApQ5q-Dl7jl2M6HaOgrnuOj1Iiu9f2U2C_6--YMiURXZeDpEnx9jFyU7tHu8i_HJqm75W2IV8YnfGyFQNz-BW8AA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO-DQOy5Hwapr9c88XievhM9yxibcRuz4e1pN_GtF3G_TCx_B3fTgMuUuB6ofFJdTd6WFh2MBZ2cuaohg62HxDS1NSnbcSa8x4Zy3EEhb62cxRgmNLklnEyCOG-HGIzlanUWQGF=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM8grLXUoero2bMOVuseObPVB6MGjVdbiYq2tCTnmtzWvRI-2XYT5Pxl8NRBcvSPJp7OJKWWdz1OmZg4szg2bkzqpzy3KZgTzUonN7KZHUDmi7ba-RbLQxmBiK5ppo7_MPk_kpB0g=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMfEQEVlCLAXT3gdWQGD1JHybpKmiO6VmkAELnm_ovAkV2c5F3mtm6Qz5Sg6mr_rFhDQBDBPTPlD1LuOhTiTpGzACmbsKzv87zDcj3bE-cS2iy7i2DRgsP8HnXsZlqAmu1i2KA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOnUl37bixTOc5M_JHceBpVhlXBq5U5D4NNjasirPfcC8j99KNufa4q_66cBFp0nObfM1EKRCjQJtYX-GebyJNbRBjZ6ed6P74whYe-lyu_OxaRwkpOlj-VRBgpr8SH-Eb74_f3Cg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNhtSfV2oSwnSFl8a8M2WCvAV8WmHxSwzyTI7W6z8Gm8HnVJNRQViMsB5VyQ1VKr-4RBQkXwcS8XrxD7U_RM8jetExPoljf2GjMTr6YnjvGdRsWmGbyT4v1u4MHc0ugKAIVBfPb=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPmegDhPsuFroS5TDGMvHUUQ1VUjpc7hGB9GQOmMadUZ9zqqx2i8BZOu0fBUdW0keHrFCLHVL2yhcDGi13HZJYKMW6tjnYjzgFbGqlXAglny0ptNAjuMeDUya_jEs78bR0bBr-jsg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPIMut_-LmFqLBmsXEvJcaZ-FbWpONnoJgaWiXaY7IjZllQrWf_eG9DcOxTO8GU2mx4X20vh6UUIAa5EhcvFMi3smdRclbBITbwIVLWJNXs5-l7AHee4W4-d8YT-RANxH577g2s=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMHvFr9xF3djflwYVmFturn9s98zTo1Tag14GmV8bNELmPOE96fC-Ni0qt_sp0OaRoDY-Zufa3zdnkrpm-6rMYnciY05dXqtN2qWVRrBhvi1RtZo58H89NoFHCyOjm-SROse1cdSg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOaglxVNebc_BzkUIk6LdpZKaoENO0Qsa2f1CQQzmaLMN3yMnn8DDuFoauiPUIl_06RRbI_hbffzpCjWMha2k5coFCDqP6QgtL10KoFh5rKlYkQNNZqcViluLh6DNWPCmpTrdpk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPomRAdJDWAFe2UkmtqP1kpadXor-cKJrI04FVBAa31YoIloIfFIUgRm8jWN0ZiJ0Mq-CwJw0pQx_g237YAyzJB0fD1BoqfnymX2f-tkAtKggIlKQe-wV1YdsPRJ4dLNtN3ru3NFA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNRFsaiIINJhk7WEzb6nZVVEEx176AHyRXUCZ6-z3jS_Av2ae55kFz0bHuinrcI0x_8mW8ymPzpbtN5SBtjsE4o3Mh3uKLIzsd1mLBa2zq0VkCu19u4MgVtrfdEmv7-3_m41Aw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -971,7 +971,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNcvC7BDyVsOsydURb8L98dskO3ra_u0bxH18tG1okaHZzFOGZTsJ-1q-Eo1y-2wQ9mEphguDb5bmZqXkRr4YaSuXeEYYrIV8AdbJD2sFAsaRUQYwUp8yfHwfsW2eRF61LdZEhDuQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOQ9vR7Ph55zKSSX9ZpUiaGedHumyMeMtZW5lmHJHoP-DBoDUfJm8GmLD9M9OccVwZGbEi9Pg0ODmQ3ACUoeGOlKhBlM4OYs7Vpsq61dYXxMQP88l_LHYJRf3n3DBikkna254Y-zQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

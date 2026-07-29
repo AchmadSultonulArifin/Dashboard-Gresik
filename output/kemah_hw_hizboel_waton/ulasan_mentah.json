@@ -37,7 +37,7 @@
   "imageCategories": [
     "Semua"
   ],
-  "scrapedAt": "2026-07-20T15:58:15.831Z",
+  "scrapedAt": "2026-07-29T15:06:25.213Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -45,7 +45,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -737,14 +737,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
     },
@@ -762,6 +754,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -806,7 +806,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWluTN21KN4b5lc2klK461SDNrUec8vr6hdNOgYsktyxgvYinHqdI2c7P4CdOBPn0_Epn5ELREhis2zzZ8d0L7w8MvUhood2zEF-hMDiKyezGtaehAqdP3e3YNR3IwtUhnh3Q8dd=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmgKjn0iiprDL7NygakAnDnzaB65fbKBI9y2fbi-YIe7JK2LAwypijGscpcWwU7JX8rYQzwBP7HMcddE7l3IDcJz8YEows5KFSBrYZKdLwHIaO4aNsIEUQRTJcbwPqWU43GtXnt=w426-h240-k-no",
   "kgmid": "/g/11h_yrhj5t",
   "questionsAndAnswers": [],
   "webResults": [],

@@ -34,7 +34,7 @@
   ],
   "fid": "0x2dd80041e0dc15d1:0x66f35b7ef47c6f0f",
   "cid": "7418373612035141391",
-  "reviewsCount": 567,
+  "reviewsCount": 571,
   "imagesCount": 88,
   "imageCategories": [
     "Semua",
@@ -42,7 +42,7 @@
     "Di dalam",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T15:43:21.712Z",
+  "scrapedAt": "2026-07-29T14:46:17.372Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,14 +54,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
@@ -81,18 +73,18 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
     }
   ],
   "additionalOpeningHours": {
     "Mandiri ATM KCP Gresik": [
-      {
-        "day": "Senin",
-        "hours": "Buka 24 jam"
-      },
-      {
-        "day": "Selasa",
-        "hours": "Buka 24 jam"
-      },
       {
         "day": "Rabu",
         "hours": "Buka 24 jam"
@@ -111,6 +103,14 @@
       },
       {
         "day": "Minggu",
+        "hours": "Buka 24 jam"
+      },
+      {
+        "day": "Senin",
+        "hours": "Buka 24 jam"
+      },
+      {
+        "day": "Selasa",
         "hours": "Buka 24 jam"
       }
     ]
@@ -137,8 +137,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Bank Syariah Indonesia KC Gresik Kartini",
-      "reviewsCount": 268,
-      "totalScore": 4.5
+      "reviewsCount": 175,
+      "totalScore": 4.2
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -209,20 +209,20 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlM4vd7vDb__bs-N_3zA6dL1Cu6yNCKnuTHzYcE3v4yeYQ6OQ0pzASb77-cB_eLv87BRnFxjkyO5gmFO9Y9NQTEkLYcntJ3PVIY0bqTT_ud3EwDkwN22cBIJN3bRAxdCrDpd5qDcZr7wMTg=w408-h408-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnbX3FLMd7feCQVFVw9ZSIz4OZwB1ExmzHK11Eelk9kBxIKzQeIkkZV2brXuxRIRSt4kry5-n4WP8Gbsq2Tq6r7Tn35II1GCQxpLiznfqKU01P3BWOpe-xMONNo3P5yO0sQvGINci1BTM5g=w408-h408-k-no",
   "kgmid": "/g/1tdmxy55",
   "reviewsDistribution": {
     "oneStar": 70,
     "twoStar": 11,
     "threeStar": 14,
     "fourStar": 25,
-    "fiveStar": 447
+    "fiveStar": 451
   },
   "questionsAndAnswers": [],
   "updatesFromCustomers": {
     "text": "pelayanannya sangat cepat pegawainya ramah tempatnya juga sangat nyaman semoga sukses selalu bank mandiri😍",
     "language": "id",
-    "postDate": "2 bulan lalu",
+    "postDate": "3 bulan lalu",
     "postedBy": {
       "name": "24. Siska Dwi Rahma",
       "url": "https://www.google.com/maps/contrib/108071443785933335882?hl=id",
@@ -231,8 +231,8 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmM-W0YKfSOHnv9EA-fZ0Gjb2eghRx1xdyyDr0-dgUh3S_wMuSieVAGynWzzPbYicTJR8j0TZ4U1F4qGROBSo2WijbTloUDiC7QAq3Fvt0Z7LtPm-fSjwSVJxfVKzmCf28b2JxYE6vWI6cYa=k-no",
-        "postDate": "2 bulan lalu"
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNsdXohMg_ffZBHixwLscIP0p9ydxA8_UQZMVouNoFh2RO9HFlFtVpaXB_sfJnszZa0NS1VFsJRtyjFS4DaoMzkKB6dRzGpjyjI97wCYaQ9NPTXfIs2-aG8GlO9ICMMZoQETnz8ucsYhbzs=k-no",
+        "postDate": "3 bulan lalu"
       }
     ]
   },
@@ -247,6 +247,110 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "101083921471305069587",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101083921471305069587?hl=id",
+      "name": "data bank",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI0ScHwvnpvBXvO34qzxYVwxUMg7WhPcQa1kDXnrAL89LY2RQ=s1920-c-rp-mo-br100",
+      "text": "Pelayanan bagus",
+      "textTranslated": null,
+      "publishAt": "5 hari lalu",
+      "publishedAtDate": "2026-07-24T04:13:34.747Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tad2JsUjNWRzFaUlZFMFJtRTVXV2xQTkRKR1ZVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tad2JsUjNWRzFaUlZFMFJtRTVXV2xQTkRKR1ZVRRAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOkZwblR3VG1ZRVE0RmE5WWlPNDJGVUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-24T09:20:14.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116474085601440054048",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116474085601440054048?hl=id",
+      "name": "nabil",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXPKXEp8gjxrsNtXFhymHYrq1hmCu-Lli5DX8w-e0JV1pdUGlHJ3A=s1920-c-rp-mo-br100",
+      "text": "Pelayanan maksimal dan sangat  baik",
+      "textTranslated": null,
+      "publishAt": "5 hari lalu",
+      "publishedAtDate": "2026-07-24T04:13:15.991Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21Rd1RsaEtkMWxzVVcxek0wMTRhVTFNWjA5NGJXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Rd1RsaEtkMWxzVVcxek0wMTRhVTFNWjA5NGJXYxAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOmQwTlhKd1lsUW1zM014aU1MZ094bWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-24T09:20:15.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100093923464882410573",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100093923464882410573?hl=id",
+      "name": "Abdul Latif",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIRf9UpecYNh9RuvrjfRHjE1VufXKITHszlFe3q1Rxr96_0nQ=s1920-c-rp-mo-br100",
+      "text": "Terima kasih atas pelayanan yang yg baik\nSukses selalu yach\nBravo",
+      "textTranslated": null,
+      "publishAt": "5 hari lalu",
+      "publishedAtDate": "2026-07-24T03:38:41.993Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT20xQlNFcHFUVXhRV205bFlXcG5XRmwzVVZSNmIwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xQlNFcHFUVXhRV205bFlXcG5XRmwzVVZSNmIwRRAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOm1BSEpqTUxQWm9lYWpnWFl3UVR6b0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-24T09:20:24.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100480156717931455717",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100480156717931455717?hl=id",
+      "name": "Raniahmad Raniahmad123",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIGASOgfBG1VzUST910Z11W53NAu4QXiaiwblwivcjrzTSRIQ=s1920-c-rp-mo-br100",
+      "text": "Pelayanan sekarang sangat ramah sekali mbaknya",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-21T09:33:02.923Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KNVdpMUxjRGRrTUV4MVNqQlRTMmc0ZFd4Tk1YYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KNVdpMUxjRGRrTUV4MVNqQlRTMmc0ZFd4Tk1YYxAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOnJ5Wi1LcDdkMEx1SjBTS2g4dWxNMXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-21T11:38:57.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "114617186004222541770",
       "reviewerUrl": "https://www.google.com/maps/contrib/114617186004222541770?hl=id",
       "name": "Moch As'ad",
@@ -255,7 +359,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWMbmlM5xbtJsfsHG91LniKbazoBr3eTyvc6jsqA2lc0ZcV9tVHXg=s1920-c-rp-mo-br100",
       "text": "Pelayanan cepat dan stafnya ramah” pokok top dehh",
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-16T05:42:18.411Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25ObVJIQnVTVXB4UldGMVdWWmZUV0Y0UVRGRk9IYxAB",
@@ -281,7 +385,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKDmgZSUpDYNe8s0DUjpUuymWtLFrDq4OCuj-Y6SF6Tzn5NKg=s1920-c-rp-mo-br100",
       "text": "Terima kasih banyak atas bantuannya",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-10T02:49:08.346Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kak5GaERiRzlPUW5nMWFVeHBhRFpHUmtJelJGRRAB",
@@ -307,7 +411,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVK2oNUnF3l57ZMIWa2MqiICjdJnkQRJH9k-bp8kgPgQG39KPc=s1920-c-rp-mo-br100",
       "text": "sangatt hepfull dan cepat, terima kasih ❤️",
       "textTranslated": "Sangat senang dan cepat, terima kasih ❤️",
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-07T06:34:12.795Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205eE0zb3lURWh6ZW5KS2NpMXRiblJFTXkwdFpFRRAB",
@@ -333,7 +437,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUVHD6QFYpOZcU_GoOnhy339rHVL2bR6DUrHiiin-EiyQFD8N4=s1920-c-rp-mo-br100",
       "text": "pelayanan cepat dan sangat baik",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-07T06:24:33.505Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21kdUxXSTJiVVZ0UjJ0VU9TMXhUVFJpUTJOdFExRRAB",
@@ -359,7 +463,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW3AMzxYAK-EGNy7kkoz-hEYag5eEZJswi5XD-QAEvfuR_yM7RI=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-04T12:41:42.970Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKSVMxOUxTekIyTVhoaU4yaHZPR2hXVFVJMVQwRRAB",
@@ -385,7 +489,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVFbahncOortUZDsLa_l1U__eIfi09er9ktGc4o1FpAEcjjDxl6=s1920-c-rp-mo-ba12-br100",
       "text": "Tempat parkir sangat terbatas. Pegawai ramah dan siap membantu.",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-28T20:31:37.070Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KQ2R6aHVYMEZzZEhObWIzUktTbGhEUkhrM01HYxAB",
@@ -408,10 +512,10 @@
       "name": "Ivan Nandasyah",
       "reviewerNumberOfReviews": 3,
       "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV2TxVICKLGA4rpkk2YTcpj0wvaO8_hJXw35VjbreVc7ACjLb2e=s1920-c-rp-mo-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW5VUC_TNYBt5FZuZ2gQZMEvthgy9Kav4kiA5E0Q-VDhynA63jK=s1920-c-rp-mo-br100",
       "text": "Bank yang paling membantu. Tanpa perlu ribet langsung terbantu masalah sampai selesai.",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-24T12:20:05.775Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21odlJ6YzFZblpTV0VOYVJuRnBTbEV6WjBsalozYxAB",
@@ -434,10 +538,10 @@
       "name": "Ivan Nandasyah",
       "reviewerNumberOfReviews": 17,
       "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKGNwUnQQRdZWEUHrk3HypxZaN9YPp9sJKWqbM8qlYQQVzUkQ=s1920-c-rp-mo-ba12-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUT6iwORrfqRvqoDfS_27tSJ_uOu6PHNFPscfUcHwxS3KYa9qsT=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanannya ramah, solutif, dan cepat. Sekali datang langsung terselesaikan.",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-24T12:18:56.803Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKRllXeG5iamsxTkdOdU5FNVpjM2xEU0hobWVYYxAB",
@@ -463,7 +567,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI9CiIzmX7oaaxY3Bsv2WPOns3VkJR9qsnKTbHAH0pbCEVJaC8=s1920-c-rp-mo-br100",
       "text": "Pelayanannya sangat ramah, cepat dan tanggap, CS juga solutif dalam menanggapi keluhan",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-23T02:51:50.135Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25Gb1FXNWhjV1ZaZGxocGEwNU9ZbVpwV1ZVMFRtYxAB",
@@ -552,7 +656,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOLXE-_qWpGTl9pHk5WkO1pMB4HmKIJKFJ_1C1ADbOmlNA8aye_BIz_42oToCTJfl29yHpQx9Ru-D7j4Xf0WpvXMoOxVyAmVizfgIQmJ6HeT5vD6oyKIPoWjzHWLzj1YBUBWQjT_yrPri8=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNZFjjL3lvg25G6QGVjIjVf9P2k09kIg_C8EEElXr-UEGr9CBcIAa41r21IvGq__uQSPGKAk9lW4GoYkC-9Kd7z2kqYK1HIGh9DuRG6__MPnC0UBdY7DW7jNyjYu9QZ9vzhX-VBCupmURI=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -595,7 +699,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXWE1L1soYRghU8IeA2QM1dLece4BHCH7EcVSW6vTVtylGWekU=s1920-c-rp-mo-br100",
       "text": "Pelayanan cs baik dan ramah",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-25T01:15:01.064Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21oeFVWbDZTVU5yYWs4Mk16aE5YMGxqWVVKVmFtYxAB",
@@ -621,7 +725,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVbptLtCQtIfVV0Lkn_E6SVzU4z-3Mqip5CyKF6t5r6HxJo7FDVXQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-22T04:03:58.975Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKMU5HVktORXhXV1VGa1IzQXllSEZhZGxWRE1IYxAB",
@@ -632,7 +736,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPT0sVvIpP5jQrGctHxi3e2mY8xTPDppmP5nlH-eNRA8ZHTKYTozZr7drxgjxuZ4RB6_8vNmgnvFUXqV_OJbpXrgZPpTnS84JO8SQQzZ72K1hEuGohFwNNBfOVhq2SaDD1awHJnynhzK2Km=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNajj-UZLf7zZ9Do1FMglUWgj0csfaaAwX_X4NMDp3932glqkADV4ZgmeekzqBdAuJgyLwD2eQNbYrIoVA3vA4qVfi2vdpK00wZXwsZjLJjTz6pwhNsHR2pl5e_u6tofEW9SUriGCqqlqy-=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -738,7 +842,7 @@
       "responseFromOwnerDate": "2026-05-18T05:11:37.000Z",
       "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNge2J33SAtD0LfROYuVb_x-V48f0k_ARexanvYQOXFbynanHP8EmMOREho12vHqZD-eDcCxb1q9Yp0gmCLSI5e4bfEuw5GW6IrCmXNtQ3jax4MSUrYsos8fFbHUwVHoKVSvQY8wGM6hB4=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNOqjsbFaNezihbgS64Uc-3nsm9CNL7-Hl0pTCM9o2V7W3lODjnsKaSLcuB-S8jgLlxefmJ_UJ8RhjoM6489-l2D9CbVlHkdh-jEz-94ERhTK-rF2o3qivJvr7J6WA6zje-ncsoEwDg6JM=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -920,110 +1024,6 @@
       "stars": 5,
       "rating": null,
       "responseFromOwnerDate": "2026-04-30T02:57:26.000Z",
-      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "100525706184867219710",
-      "reviewerUrl": "https://www.google.com/maps/contrib/100525706184867219710?hl=id",
-      "name": "Nitalia",
-      "reviewerNumberOfReviews": 2,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVcbQ_X63nNg0D2EjiHXhF8POMoz-7yzFVigeKTaFkGmQFMO_8=s1920-c-rp-mo-br100",
-      "text": "Pelayanannya bagus dan cepat",
-      "textTranslated": null,
-      "publishAt": "2 bulan lalu",
-      "publishedAtDate": "2026-04-30T01:31:32.431Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxVVZYTkxWWGhhU1V0dllXTTVTV3hEU0hVMWJHYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxVVZYTkxWWGhhU1V0dllXTTVTV3hEU0hVMWJHYxAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOk1UVXNLVXhaSUtvYWM5SWxDSHU1bGc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": "2026-04-30T02:57:24.000Z",
-      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "104999867483013901054",
-      "reviewerUrl": "https://www.google.com/maps/contrib/104999867483013901054?hl=id",
-      "name": "Mutta Kiyah",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ5zoTbXOvKOJh_C6gPtpzmHOdLkBP7ELu3ZzNc8sdwXgtCkA=s1920-c-rp-mo-br100",
-      "text": "Livin di security",
-      "textTranslated": null,
-      "publishAt": "2 bulan lalu",
-      "publishedAtDate": "2026-04-30T01:30:41.219Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25veE1HbHVaMWhVYW5GaGVYUm1PRWRXZWs5aVpsRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25veE1HbHVaMWhVYW5GaGVYUm1PRWRXZWs5aVpsRRAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOnoxMGluZ1hUanFheXRmOEdWek9iZlE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": "2026-04-30T02:57:21.000Z",
-      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "114929532301380376911",
-      "reviewerUrl": "https://www.google.com/maps/contrib/114929532301380376911?hl=id",
-      "name": "safira widyaningrum",
-      "reviewerNumberOfReviews": 4,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXwQcHNh6EUCH_8cBPuKM_PODsy9qqPfLHbdYXJ-iv0c0WboeMc=s1920-c-rp-mo-br100",
-      "text": "cs lama",
-      "textTranslated": null,
-      "publishAt": "2 bulan lalu",
-      "publishedAtDate": "2026-04-29T07:17:15.083Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25GcFdWSnJkSGw0YW5wb04xYzRTVGc1Tkd4aWNGRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GcFdWSnJkSGw0YW5wb04xYzRTVGc1Tkd4aWNGRRAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOnFpWVJrdHl4anpoN1c4STg5NGxicFE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 1,
-      "rating": null,
-      "responseFromOwnerDate": "2026-04-29T08:58:31.000Z",
-      "responseFromOwnerText": "Terima kasih atas ulasan yang Bapak/Ibu sampaikan. Kami mohon maaf apabila pengalaman layanan yang diterima belum sepenuhnya memenuhi harapan. Masukan Bapak/Ibu menjadi perhatian dan komitmen kami untuk peningkatan kualitas layanan kedepannya.  By Service Quality Area Gresik.",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "104426379901314449206",
-      "reviewerUrl": "https://www.google.com/maps/contrib/104426379901314449206?hl=id",
-      "name": "Javir Ak",
-      "reviewerNumberOfReviews": 2,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJXs9DuEiUxVZnlHdlJffuUnzVd7vuuRz7gMjJZhiMuyV3S6g=s1920-c-rp-mo-br100",
-      "text": "Membantu pergantian kartu",
-      "textTranslated": null,
-      "publishAt": "2 bulan lalu",
-      "publishedAtDate": "2026-04-28T06:12:56.675Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21GVWVVeHlNVWRvVGtKR2JUUldTbmRhU25aMFRsRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21GVWVVeHlNVWRvVGtKR2JUUldTbmRhU25aMFRsRRAB!2m1!1s0x0:0x66f35b7ef47c6f0f!3m1!1s2@1:CAIQACodChtycF9oOmFUeUxyMUdoTkJGbTRWSndaSnZ0TlE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": "2026-04-29T05:14:25.000Z",
       "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif dari Bapak/Ibu. Kami senang dapat melayani dan terus berupaya menghadirkan pengalaman terbaik di setiap kesempatan.  By Service Quality Area Gresik.",
       "reviewImageUrls": [],
       "reviewContext": {},

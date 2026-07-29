@@ -46,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:23:24.130Z",
+  "scrapedAt": "2026-07-29T13:48:51.244Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,7 +54,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLiveText": "Sekarang: Sibuk seperti biasanya",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -578,14 +578,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "07.00 to 22.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 22.00"
-    },
-    {
       "day": "Rabu",
       "hours": "07.00 to 22.00"
     },
@@ -603,6 +595,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "07.00 to 22.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 22.00"
+    },
+    {
+      "day": "Selasa",
       "hours": "07.00 to 22.00"
     }
   ],
@@ -695,7 +695,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN8kpt2HrDFjFdGd_XcBM26AdSEGKhmuto_1lC4jv6r6JbIC2Ah0SxQG4tHMKbjZjRvqbRNzmkq4OkBVc3X9sD4JEeY3Wheh83JZvUV9uelY2_HP_9bFufHSHmPw2e--7wSd7c=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMjbxaEwbMZDts1bvxtOmDNYx-Ql-JTvRuD_-89OE8ZRcYv4nOgCRz-I-2Yt1ZId23fWj9h_OuEKeLPG2ljr0odi_g8TfpKkqf3NpRqHvqMtTEO_bfVVpeeaTf8FjIts9LfZcU=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -712,7 +712,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXtUOlzCtB8_dSC3Dz1Hla1pHirKcxvzclA-2xGqFRuDwm89a1Y=s1920-c-rp-mo-ba12-br100",
       "text": "Apa ad setor tunai",
       "textTranslated": "Apa itu setoran tunai?",
-      "publishAt": "6 tahun lalu",
+      "publishAt": "7 tahun lalu",
       "publishedAtDate": "2019-07-26T09:05:16.126Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVb1pidXN3RRAB",
@@ -764,7 +764,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXOSTkjrzNqUlYutTnDjP-3rpHsAGuCqIN8lJT80JSQGmVi6tuVdg=s1920-c-rp-mo-ba12-br100",
       "text": "Atm indomart",
       "textTranslated": null,
-      "publishAt": "8 tahun lalu",
+      "publishAt": "9 tahun lalu",
       "publishedAtDate": "2017-07-28T17:10:26.652Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNBcktic1VBEAE",

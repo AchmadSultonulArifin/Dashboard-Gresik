@@ -2,14 +2,80 @@
   "kategori": "Kesehatan",
   "tempat": "Rumah Sakit Islam Nyai Ageng Pinatih",
   "rating": 4.9,
-  "total_ulasan": 22,
-  "positif": 3,
+  "total_ulasan": 24,
+  "positif": 1,
   "netral": 1,
-  "negatif": 18,
-  "persen_positif": 13.6,
-  "persen_netral": 4.5,
-  "persen_negatif": 81.8,
+  "negatif": 22,
+  "persen_positif": 4.2,
+  "persen_netral": 4.2,
+  "persen_negatif": 91.7,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ahmad Rohman",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T03:22:56.993Z",
+      "Ulasan": "Sangat baik dan bijaksana",
+      "teks_final": "baik bijaksana",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.978
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Muhammad Jamary",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T02:15:03.180Z",
+      "Ulasan": "Tempat yang sangat nyaman , perawat nya baik dan dokter yang cepat tanggap",
+      "teks_final": "tempat nyaman perawat baik dokter cepat tanggap",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9937
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Muna Waro",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T08:40:45.261Z",
+      "Ulasan": "Saya rutin periksa ke dokter zayadi perawatan sesuai yang saya minta setiap kali kunjungan dan saya rasa senang sekali gigi saya seperti kayak baru lgi rasanya enteng enggak sakit lagi, dokter zayadi kalau meriksa enak sekali enggak ada rasa sakit pokoknya rekomen banget",
+      "teks_final": "rutin periksa dokter zayadi perawatan sesuai minta setiap kali kunjungan rasa senang gigi seperti kayak lgi rasanya enteng enggak sakit dokter zayadi meriksa enak enggak rasa sakit pokoknya rekomen banget",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.993
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Beni beni",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T06:00:51.688Z",
+      "Ulasan": "Sangat puas dengan pelayananya",
+      "teks_final": "puas pelayananya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sri Wahyuni",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T01:36:21.144Z",
+      "Ulasan": "Terbaik",
+      "teks_final": "terbaik",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Safinatu Najati",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T01:26:09.307Z",
+      "Ulasan": "Assalamu'alaikum Alhamdulillah sudah beberapa kali ke poli gigi Dokter Zayadi. Beliau sangat ramah, penanganannya juga cepat dan teliti. Terimakasih dok  Untuk pelayanan RS nya juga ramah dan cepat.",
+      "teks_final": "assalamu alaikum alhamdulillah beberapa kali poli gigi dokter zayadi beliau ramah penanganannya cepat teliti terimakasih dok pelayanan rumah sakit ramah cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9563
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Anisah Rahayu",
@@ -122,17 +188,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Lilik Sakinah",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T02:44:57.574Z",
-      "Ulasan": "Luar biasa bagusssssss",
-      "teks_final": "luar biasa bagusssssss",
-      "topik": "Lainnya",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.997
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "eka ratnamayasari",
       "Bintang": 5,
       "Tanggal": "2026-07-16T04:08:47.381Z",
@@ -199,6 +254,17 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Nama Reviewer": "ammar azmi",
+      "Bintang": 5,
+      "Tanggal": "2026-07-14T04:27:19.142Z",
+      "Ulasan": "Penaganan cepat dan ramah.. Proses mudah..",
+      "teks_final": "penaganan cepat ramah proses mudah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9497
+    },
+    {
+      "Kategori": "Kesehatan",
       "Nama Reviewer": "Syafa Laela",
       "Bintang": 5,
       "Tanggal": "2026-07-14T02:12:28.876Z",
@@ -207,50 +273,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9863
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "asmaul asmaul0011",
-      "Bintang": 5,
-      "Tanggal": "2026-07-13T11:19:54.828Z",
-      "Ulasan": "Pasien lama dr zayadi, saya kembali lagi untuk cabut gigi untuk kesekian kalinya, pelayanan top kalau cabut tidak terasa sakit emang tidak salah saya berlangganan ke dr zayadi",
-      "teks_final": "pasien lama zayadi kembali cabut gigi kesekian kalinya pelayanan top cabut terasa sakit emang salah berlangganan zayadi",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9848
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Abdul Hayyi",
-      "Bintang": 5,
-      "Tanggal": "2026-07-12T11:13:27.078Z",
-      "Ulasan": "Pelayanan dokter igd top banget. Penjelasan mudah dipahami dan pengamannya cepat adminitarix tidak ribett mudah dan ramah.",
-      "teks_final": "pelayanan dokter igd top banget penjelasan mudah dipahami pengamannya cepat adminitarix ribett mudah ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.98
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "GusAfif Travel Umroh Gresik",
-      "Bintang": 2,
-      "Tanggal": "2026-07-11T03:46:29.328Z",
-      "Ulasan": "Dulu RS ini dokternya bagus sikap dan cara menjelaskan ke pasiennya. Tapi makin kesini makin ga bagus kualitas dokter IGD nya.  Mertua nya kakak saya yang meninggal, ternyata dokternya tidur gak bisa dibangunkan. Entah namanya kiki atau keki kami tidak ngeh ya, hanya mendengar pembicaraan dari perawatnya saja. Ya tau memang kondisinya sudah menurun. Minimal harapan keluarga itu ya didampingi dokter, turut bela sungkawa, dijelaskan dengan baik lah lewat sikap dan kata-kata gitu loh. Sungkan jadinya sama saudara sudah merekomendasikan dirawat disini.  LaLu kebetulan istri saya habis ikut pertemuan muslimat, ingin meriksakan anak karna klinik sudah tutup, jadi saya diminta antarkan ke IGD. Duh yaa maaf dokter laki yang kulitnya gelap, ujuk ujuk disuruh opname sama dokternya, kata istri 'bisa pakek bpjs pa'. Iya tau gratis, tapi tolonglah dijelaskan kenapa harus opname, curiganya anak saya sakit apa, ya meskipun sakit sepele batuk sama muntah baru sore ini dan malamnya ini ga bisa tidur, kan bisa dijelaskan baik buruknya dulu. Kan kalau banyak baiknya mending anak saya tidak perlu di infus. Takut saya kejadian seperti mertua kakak saya.  Tapi yasudah, karna saya kerja malam, ya saya iyakan kemauan istri saya. Tapi nya ini dokter laki berisik ya, anak saya mau istirahat itu ya nggak bisa tenang.  Sudahlah saya harap bisa jadi evaluasi terutama beliau ini ya. Sangat disayangkan kalo ngasal milih dokternya. Padahal dokter lain yang dulu priksa istri saya bagus sikap dan komunikasinya, informatif juga meskipun sakitnya tidak parah. Lha ini kok makin kesini makin kesana kualitas dokternya.",
-      "teks_final": "dulu rumah sakit dokternya bagus sikap cara menjelaskan pasiennya makin kesini makin bagus kualitas dokter igd mertua kakak meninggal ternyata dokternya tidur dibangunkan entah namanya kiki keki ngeh ya hanya mendengar pembicaraan perawatnya saja ya tau memang kondisinya menurun minimal harapan keluarga ya didampingi dokter turut bela sungkawa dijelaskan baik lewat sikap kata kata gitu loh sungkan jadinya sama saudara merekomendasikan dirawat disini lalu kebetulan istri habis ikut pertemuan muslimat ingin meriksakan anak karna klinik tutup jadi diminta antarkan igd duh yaa maaf dokter laki kulitnya gelap ujuk ujuk disuruh opname sama dokternya kata istri pakek bpjs pa iya tau gratis tolonglah dijelaskan kenapa harus opname curiganya anak sakit apa ya meskipun sakit sepele batuk sama muntah sore malamnya tidur kan dijelaskan baik buruknya dulu kan banyak baiknya mending anak perlu infus takut kejadian seperti mertua kakak yasudah karna kerja malam ya iyakan kemauan istri dokter laki berisik ya anak mau istirahat ya tenang sudahlah harap jadi evaluasi terutama beliau ya disayangkan kalo ngasal milih dokternya padahal dokter lain dulu priksa istri bagus sikap komunikasinya informatif meskipun sakitnya parah lha kok makin kesini makin kesana kualitas dokternya",
-      "topik": "Kesehatan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.7272
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "SITI AISYAHM AISYAH",
-      "Bintang": 5,
-      "Tanggal": "2026-07-10T03:54:16.521Z",
-      "Ulasan": "Pelayanan bagus",
-      "teks_final": "pelayanan bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9969
     }
   ]
 }

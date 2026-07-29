@@ -45,7 +45,7 @@
     "Semua",
     "Video"
   ],
-  "scrapedAt": "2026-07-20T16:19:14.046Z",
+  "scrapedAt": "2026-07-29T15:16:03.000Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,14 +57,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 18.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 18.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 18.00"
@@ -83,6 +75,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "08.00 to 18.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 18.00"
+    },
+    {
+      "day": "Selasa",
       "hours": "08.00 to 18.00"
     }
   ],
@@ -108,8 +108,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Pantai Bato Cellong",
-      "reviewsCount": 22,
-      "totalScore": 4.6
+      "reviewsCount": 23,
+      "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -140,19 +140,19 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOzGmThb1xKaKZD-vEDKJ4ZamXacnmXNomxL8z0Pz3-FdNSRvXrsRJjaneHmAZlb8OaQf4Z2pi55n-w3x0sSMMDeVEpHAZr_wNoESvMqUjx1N2R5ouQ5iHryXL1rU9gqSG_ZkAtlh0ZdOcA=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPlJoBkOv37nmqCcnAhiNUFjivPzjr7idkwZhlgMjQTCC2xm_0nGldkF_Tq9wjsU3FW7AfOvZ3RhJiV-FTr2W5J86kQRWPHCsbqEn7PwGTjto49dRPJEyOJRFq_HZcpMq93jN5Hvpts8xOp=k-no",
         "postDate": "2 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPd8ye4v2NY3g_Cptvwuucocbk67acWIMK_wM8XBZqB-SVfFhpaYPmPbgpCr8JdFOMveFoeUWfZz51WAUNYBi_p_HYn-kJ2LtybmLidskcyX4DqqO2afIbjFLazI6-vNSKKca9qqKZzR0E=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNks2oGFER0mAIHr6UW1bDncw-D8digEWOSp_upLQxSb7__14ljEycrtvVccPPBZ7Uyardn4hcoQE5FUWVxl1vp9OV4JEDyRtFTltmrr2HWTpn0sRT9JiNpSb194i6FNdMPAC_Opngi12U=k-no",
         "postDate": "2 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNYAsRrr5mUfHaDhasfEFs-1aamJxJchu3t-IM5E74zAJyRjbLNVrWyh23tiuQ9pFhrAF-auE-LN-O0woN3k_uPF4uJ9T3BzMjgW8NTUG1gH3LRjcEvveRlFgXS1iFYBdn7tYfREJd6gMQ=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPQK8l4QSntsDxSzuj9bV5wCjt2aTVp8HXmv0c1i6hwbbnDYaRMh9yRvDTsMb0gpUk7GSX2UWWC-R_peokn2GxJskvF1qhwrq1CrnxIQTZw2SowgfoAKozEI-_E2-7FA1HNv4GfD8jCOd8=k-no",
         "postDate": "2 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNSJ9ot-VXKq-cf-1qVZJHpG0JU3o9sWB58gXpEALOUCvs9kCFkn3ib6tsVwTmfJBaShQut8fY_zikiXtCH6qaV46BbxDvGKZlP18nT_wZAXY0QMRZOmbE53Z8p3hs3p4eGexQcyrbLBw-O=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOuCvGeivvwiVvOUVcTvZzq7Q76hSw7gaBxJMu3oO7zpeOiKXf2dozDGJu9z4q16j0tf-quT1q8fbL5Tn4JAzunPu6EMrjbeoBwlHpZy8p_7mddL1dotrWQ-jvaNa1l4josBDJhKhbYfOIQ=k-no",
         "postDate": "2 bulan lalu"
       }
     ]
@@ -163,7 +163,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmOBauJOhnLIzEIHbbGWIj4JS9UKomFADL3zyuc9tfaW93NkN-GFI0U8bLvZzR77dnOwGKY5WCZ_AFc_WNURBqKpW26wxni2cykErv97WgtPC_SsCnM4WJONPzGNKyykxBYDFG71w=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmDmkXeKdhWntJJgj8-_nJdQ0uojodJkqBDiLl7oeE1miWToA2D_ye_rCKHGFKqk7cJU8aC503qiyb_iWqvjJ8pqnbwQnSUz70Zc4WAWEPVtChx-QZJPOyJGkUBRrEmyv09zl827w=w408-h306-k-no",
   "kgmid": "/g/11fhyq5dyc",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -185,7 +185,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWFQI_ND8-leQA3QYHoVD6alycihypn6B-VI_ly7vHHRH7vBMk=s1920-c-rp-mo-ba12-br100",
       "text": "Beto Elong adalah salah satu tempat wisata pantai yg langsung berhadapan dg Noko Selayar yg berpasir putih dan merupakan tempat pavorit bagi wisatawan yg suka explor laut dan pantai dg aneka jenis terumbu karang yg masih alami",
       "textTranslated": null,
-      "publishAt": "Diedit 3 minggu lalu",
+      "publishAt": "Diedit sebulan lalu",
       "publishedAtDate": "2026-06-23T22:20:29.155Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNacUlTNGFnEAE",
@@ -196,8 +196,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMJUxLcdIhc8EfJti2vLLV78FN7_0NFSKWcLVNdjnZWRjJoWpfFXKqeDnd3irZTygexgqF4nANX3wt1-FH8p4GlbZIfUZDNTcJgFNSxAwGFR5hKeeelzMrCasN417Cccvn67zweZ-i9Wc4=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPMluBTWPAnkRzxhx2ybZpangR3RkexUtkDak4riFgP93b4stlXEXhgCgmvnniavlFBwG8fisdeh_x6O4qMNRTlI0Xh-BvfPq4rsgxFjLY20SpRHbQHJDSt8_23ltXddZFiCQ9EU_apqlwN=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNEQUObqo_Eba__w8YNm-Vf3xjhvj0B7hwxwQ04XKzUVtnBMutIXflFOW4-0QDLO9gDd1GHXP02FHnAruZ_sCnHAjmf2p4Czvfi3FecQljickisCCq4vC8IHbrL8bxnhZeDW0P3Fo9BDGM=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPEHTrdjNPMbfc7BXrGdDrL713I8LDcGaIKP_yUuN6cRYybgRGHSqiR1aLzfhzaJlpHa3a8OwllUEwl2yA6a2cH_6oD4uTdbTgZ6a5KOT1IDakyjh8kc7YBqWm8elnT_iBw9ioKJHNvwBSH=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari biasa",
@@ -362,7 +362,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNtWUvhrbEF6heXBODAvfISsBNSVLuYdFDEE-bCvj6YbtR3YjN3jwWc1EidB81jRoUyt2b9Og9BbqGMQvhAHI0qpOrKoMTaOAnenQ3B7-fjjNSKo0bG0mwubTw72vNEpbaR1mM=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNgy0R70P0_hdUloF4xJy-M_GPLEcrLLi4tawFTD5_nBuvITzi2aobYAn9eRTRUCFOgXXRbMrYoMPipSVNoFkev5U19kxoJCtkP8W_9UzqXLQxHg0cEIuIzJwoqXx3uUcGvXZ8=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -442,7 +442,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMc9Rhsy8dOpiX5SgDsVLgkSmqUejNJS_MoIBRp01dZTorj2GmwJbdSsgX0twJKZ3b4Sv85S1oU0Sl6UXSwM7tNtXOiwUkVi7jTQRUIg2OTmBoICtAqpBxyTy_c_584HJPcPkFa=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMeX1sDqnUcL1QGXtapJc7-3o9WX8wLXnwy0zpFwZP8rVOH1bVPRoZrkQIY1efvwoyhwUL_qJGP42bJMte_8Jf_4lrUAJPlWbgV2rz5k3y17xdfYx_ftZ-p4RGBU3IesSd_fzY9=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

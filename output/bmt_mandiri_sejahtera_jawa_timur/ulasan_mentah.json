@@ -40,7 +40,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:45:49.202Z",
+  "scrapedAt": "2026-07-29T14:07:56.981Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -52,14 +52,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.30 to 14.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.30 to 14.00"
-    },
     {
       "day": "Rabu",
       "hours": "07.30 to 14.00"
@@ -79,6 +71,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.30 to 14.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.30 to 14.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -117,12 +117,12 @@
   "reviewsTags": [],
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=BMT%20Mandiri%20Sejahtera%20Jawa%20Timur&query_place_id=ChIJ647SJwP9dy4Ri7eDcEkQnoc",
-  "searchPageUrl": "https://www.google.com/maps/search/BMT%20Mandiri%20Sejahtera%20Jatim?hl=id",
-  "searchString": "BMT Mandiri Sejahtera Jatim",
+  "searchPageUrl": "https://www.google.com/maps/search/BMT%20Mandiri%20Sejahtera?hl=id",
+  "searchString": "BMT Mandiri Sejahtera",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlEo1NqTC3kfcSkljId9fR1zeXRI-XvYvcuS-w_MGSfy1MZOrZ2vIcWZTcUdGJjyMQxXeGe6GY5DdFjfynG73EwffvbS9oyDYdKZPm2tQXFyY_mz5nQ31JuTYz3tEBdgqq_fqW6=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnfd6Q33udTXuN7d0aOYcEfZehlIfvdIW9TPKuM562YBzGVDCVbP6m06Xvg5fmXZj1DeJjYlzBHgvRJMF_YqUAehzSwymYj15rjSLsrmIHTZdxUceGqcGiWHDVG9u5rwcJBcvRX=w426-h240-k-no",
   "kgmid": "/g/11b6dqh3gy",
   "reviewsDistribution": {
     "oneStar": 3,
@@ -151,7 +151,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUwykqC_Prl-UxsU5nexBXL9WjEmEX9zd5fKLBk9oz_B5eixMED=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-05T12:17:13.300Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xOU1ZsRkVSamd0WDNoVlRVeEVWelkyUkRGVmJHYxAB",
@@ -292,7 +292,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUqhEHHh0W4z-ncXQw3BRZj9qbOApysnJXuUrMRZQpso4l6IpyTlZhRa7szLwTNnaeDx4E6KNsARP9RMPyuO7zpgN2oahcBBjAVIlzDsrIrjAr0XYwLXEwGT215Tvoydzw8621ley-2sdc=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPre4_0S0sW2OKi-qZWsftaHEpIib_AQyyztp_QWd8gTiCD3P4QlQPA2Gn5KduMPuNKNIks04hu-8dKr_IJkBnWdNfoxdmOcpeztmVf6NBi0KFuZCXdTYRSPYnHduXsX2Tblp8KzpMtty_H=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -436,7 +436,7 @@
       "name": "Aji Nugraha",
       "reviewerNumberOfReviews": 11,
       "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUHB6NsfqW7Sawo7CrnXrCT6zUBjWIcY-KXQ83bdgXfldxgHasQaQ=s1920-c-rp-mo-ba12-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWdlZIOL225SPCCWQhv0BOkYCX_SvsecebILjnf7RFQrlnqOJT9nw=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
       "publishAt": "8 tahun lalu",

@@ -38,7 +38,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T13:28:57.089Z",
+  "scrapedAt": "2026-07-29T12:40:31.988Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -570,14 +570,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "09.00 to 17.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "09.00 to 17.00"
-    },
-    {
       "day": "Rabu",
       "hours": "09.00 to 17.00"
     },
@@ -595,6 +587,14 @@
     },
     {
       "day": "Minggu",
+      "hours": "09.00 to 17.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "09.00 to 17.00"
+    },
+    {
+      "day": "Selasa",
       "hours": "09.00 to 17.00"
     }
   ],
@@ -644,7 +644,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuowWASEUXwdtmLRJcFOX8xYEKlIZtRWlSVpAF_mGX6FBQoLBAoSTVPR4lwVajFOqBr8G2eGOWI5t0D7sxqgMWlB0zX7xUTDqJ-f9Ny-ZqFdy3M64acCfiKIeTIKJAiE95u4tS=w424-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmLnU3o_m6VApoViNsjrUwywLetTGX1JhcKIgJWg0ncCFHVvn3Orq90I5CK4a6HbvSSoG9bEnnRvSxRi-VlmYrLHQD8NZTOANcFdNNqcTpTeUuWXU3bE9Xcr2CcyLrzrJS3P_66=w424-h240-k-no",
   "kgmid": "/g/11c5h1ztg0",
   "questionsAndAnswers": [],
   "webResults": [],

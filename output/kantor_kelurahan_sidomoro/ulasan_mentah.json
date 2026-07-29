@@ -46,7 +46,7 @@
     "Bendera",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T12:28:19.826Z",
+  "scrapedAt": "2026-07-29T10:51:18.841Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,14 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 16.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
@@ -85,6 +77,14 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 16.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -135,7 +135,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEZVAeFZEl5ADzQ6FBU-SR4a-Dt6chgxDzZIofDS6f1UjWsOtQ8ifhwGTmd73FSKQ7IZyWC6MPHYGbuovebXasG6oBhnFBesCqgBd3lD-SUt1dHWAN9OQss23eadAH0MehpG1emR5VHrCZEtlQQPJ_AO6euu-YXFmDPMy_jHWbdWtn_VWrAw0pgBCmxUCbL_VMJC54=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhE9QGDmIvioSDoPmr20BTkhyfzf0Oo-qPbuip0ajIn9JfgbY88u3SMa1_gbiIZ_zjffom3zGHo9qbAJ1q6P16J8urqIqd9J0S_JAXbzwZJOKfn2K9OUa2mWne0FS3TAVjgZOCt1jPIEIRn8Vyp18JE1o4Ramnt4dBRKxO-q9gcsbGOM__dL2ZwtTr6YEhzycSX4kmA=w408-h306-k-no",
   "kgmid": "/g/1hm2f6_f3",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -204,7 +204,7 @@
       "reviewerId": "108871414140525168649",
       "reviewerUrl": "https://www.google.com/maps/contrib/108871414140525168649?hl=id",
       "name": "Firdha Ayu Atika",
-      "reviewerNumberOfReviews": 65,
+      "reviewerNumberOfReviews": 66,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXZSuHBgo9F9jFI5ucsGSeUtfzd32HyRqMMry9CuF0F7jZqeVgB=s1920-c-rp-mo-ba12-br100",
       "text": "Nice place.",
@@ -220,7 +220,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO_O6L0yvN9NwlIXPrQRrmPLQ0k7nW0H_opLh_zQsoTIo0cKf4_cTAiCP8SVEqpHm-HipInZKeG9UD6uaoqGpgptz5C1f1qrxGmmEnDJrrmpcMZGvCAcPVmwAcuwuhi6XabpzyjsQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP35RgO1XPyDwKzBAddiR3BwEyHPrxfTuh9ghny_ZlCplBI1dJQ796Y5Nk7h61ZMaSwWhR2LKtYhgy39xeNWqpH5fOqGrwcAS3_EeXSGKPVu2gd3xWgnL3HX2uvXrsKUTRuPtonRQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -232,7 +232,7 @@
       "reviewerId": "107380667759339929305",
       "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
       "name": "yudi oke",
-      "reviewerNumberOfReviews": 4306,
+      "reviewerNumberOfReviews": 4305,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
       "text": "Kantor Kelurahan Sidomoro.",

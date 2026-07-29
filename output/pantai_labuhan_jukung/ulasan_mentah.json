@@ -32,8 +32,8 @@
   ],
   "fid": "0x2e4794d855860b85:0xb5dce6222d97ea34",
   "cid": "13104602050209507892",
-  "reviewsCount": 2476,
-  "imagesCount": 5034,
+  "reviewsCount": 2475,
+  "imagesCount": 5056,
   "imageCategories": [
     "Semua",
     "Terbaru",
@@ -41,7 +41,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T16:20:42.848Z",
+  "scrapedAt": "2026-07-29T15:18:01.237Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -573,14 +573,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "07.00 to 17.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 17.00"
-    },
-    {
       "day": "Rabu",
       "hours": "07.00 to 17.00"
     },
@@ -599,19 +591,27 @@
     {
       "day": "Minggu",
       "hours": "07.00 to 17.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 17.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 17.00"
     }
   ],
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Pantai krui",
-      "reviewsCount": 500,
+      "reviewsCount": 503,
       "totalScore": 4.6
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Pantai Tembakak Krui",
-      "reviewsCount": 294,
+      "reviewsCount": 296,
       "totalScore": 4.5
     },
     {
@@ -623,7 +623,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Pantai Batu Tihang",
-      "reviewsCount": 618,
+      "reviewsCount": 620,
       "totalScore": 4.6
     }
   ],
@@ -744,14 +744,14 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk3Yj2c-6kSlsCJE2QjkP1A7hcsmDOuS4KYUcxh-7JK-CDrY6DXcD3xILWE74Op7KEBGnJup7tOKxSOCap4J3dDXeO_nnFJM04G-ubsyOZvv3MP1s08hdxc-g1VuFJwEoOHNWFH=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlv5KNcn-J4y4d9C3klWqcSw3nKljXOkjoh-j1_3dlQKLsdqpmcFlmN6nGJQAXZtv4nWZ2hGAfBB1UHZaIpRdXlc-2YpCXq9JAmekZ_55jYFSpQtgRRNeklTvjd0UbtikKYzjGs=w408-h306-k-no",
   "kgmid": "/g/11dxl7tyyh",
   "reviewsDistribution": {
     "oneStar": 74,
     "twoStar": 53,
     "threeStar": 176,
     "fourStar": 429,
-    "fiveStar": 1744
+    "fiveStar": 1743
   },
   "questionsAndAnswers": [],
   "updatesFromCustomers": {
@@ -766,11 +766,11 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOBkvEIWZzgy7jupIyEqecFzWUX0u_vI6efwg0wQp9AMSCRzSqCQuUPIv2DAojtKCW0aqtH0bS4NTcSH6g5Aycz2utuwCBeBJpvia5mPK4vbyP2VGB1HQJZerR4mK8REvSnfcE0DJGCvD90=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPTtGPb0sARO3UPEnkMgp3tIRIelTbanINnttcKgTUgPSr2W745PuR2JybxbzV1g5CZFsroxi6-z1lLtnEhiSe3vklhPlitDKR943BFfOdGTykh8-skRXr0M85MgzGrm-YC-LZnhePXZ_FF=k-no",
         "postDate": "2 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPHFvbocnkx_hhwwfLte9VSCVU8IeM2k4eV23M4wJChlxWVcfWjPY45-Nu-VNiYsDLYgG5Dl9o-3Qg1fxibALAhBHIEFRkyACF5-lMDo0OAS7IIrlgiojtTl83HYIFjh1XZOQFBCn6I37Q=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOJygN_Q0WemLzRLUeR-CUjOcLFz0VOxV2Tyk6pB0f3bW8ErTbM50cznsgBlBH6jT3IcKmCbiwZiJZ2MT7vltPB7JfLpogrdj7fMXRk7LTCXlmzM99ptINpX3yEowpXfH_JlvF6Cb6iTi0=k-no",
         "postDate": "2 bulan lalu"
       }
     ]
@@ -794,6 +794,55 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "107723601775077709175",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107723601775077709175?hl=id",
+      "name": "Idris Tiswadi (Haibidristis)",
+      "reviewerNumberOfReviews": 246,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVfxp3LuWDfJGEaY2HTWvNCUpzWjMJqmaSbm7ortXe-nfwc53HCnQ=s1920-c-rp-mo-ba12-br100",
+      "text": "Kenangan di Pesisir Barat. Salah satu sunset terbaik di Lampung. Terima kasih .",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-22T09:44:52.911Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21GdlZVYzBZM2xGWldoUWJXSk1UVTg0TkhoMVNFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21GdlZVYzBZM2xGWldoUWJXSk1UVTg0TkhoMVNFRRAB!2m1!1s0x0:0xb5dce6222d97ea34!3m1!1s2@1:CAIQACodChtycF9oOmFvVUc0Y3lFZWhQbWJMTU84NHh1SEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM7Apyna22SIrFoyg1fmiLc6GmrmPaLXZhoKDJYCIHCzU9KMhSHpIAWSPDgI9ODhE4WfSBRU8YXL8ZWxGBTH5BRjqH3IT-xd7QEthF93Na1h6G3lOc2ZOWFUGwyiQxZY8vYSFBiRMucSFyM=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMqU8tTrcf_bOMi4eDiRv9LkpgBRD98xQSrqflzoPt2sG0aY5oFM7Pxx2T-iYrLouJq9PK9QpCbLRKainIcx6ujtVf3NJkHwvX4ebuT1sV1lYscOdtMtKDWqD62OkO-dbS5SbZyRo03Z_hi=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPnEeaeErL4tN_BhI2HfC5GYG6o9Lb4x8fbEmWosWWZhBh6TY74JtqXt7lB9uAvhZC_A78GLqt3Z37rPBTzNSUTXF_ZrAzFphiQYBmZnYMOmyg7ny6yWioigkhEhQo4hCx6A8EqVp5XqRM=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMEdx0yPz0rZw0YMhZnoAqICdTnC7fRA3iUG8MMnMdcZ6pw2qk5jQzFGD2pLcKc3IDFOvW-_3sSLn7tliYTDazT53LU57DVds-fotQnak0D1nq_nNpaCn4TOoEvV1i1ozR04-gDweST0Qs=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4A9dTXgZA91_1iwAuue0wBU6255HO1DOlRudmTSrnuS7Z9kUtPTUVy2SSnmtL9mpbLKnh8DBOYjwUwkrJbeZXm-9XRPalz81stS3aqq3yziTmmm6Mwl53Gc6VTxARwYUGwGC-O-cYXu8=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP46J62OzCHsWrbzRUZoLE7mc_EnxGZmEphrXOdtULIqrw5O6qIpgdnNK_SLbNnQsUzGJHerqO5BLAc-3oqzeviDtOpOGLRKYcNZ0kWbAMUSxsO-0T1aEYUqPJETvZ6SJaomguVNaCa23pc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPHW10Maqc8Nakzkdl0s0TCGCSVY_mEwWijf_oCFQ-QprICFixMGXlFMoc9g_Gne1dJOXHR51O0VhIQBVZ1wF1xrGvP7lkh4I3kUyDhAHS9pAvkqNcV11bcmbf0pJten4PwlKiTjS5Jfuxx=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMBYPCmgcjijG53OPSfzh79LjODDlFue0_E-mpfiH8gJ2WX6tSKlS0b4hyc3qTBoayLcnJu7yo-5GV0XbeuI-ECecw2A3IewCqbkMuI58GWGbdQJR5aiPaes4ZkcfxNbVaoYOnAz-w3ukY=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNvAedJlo0mQldx6UUPu4oe1p_XiDMtTWj6rbIE8Ac19DCa5_u-rrgbQcKoEuxEvyT8_2olnorKNZk2PIHmgGZvlplu8b35aimlkHHPn7sD2GjH1_aq_Aco3qzwy8oHng4s02QShN8l7gCY=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP_OuE2fenlj7XUnJuuXTdyBfYvpKlANwskGSMHg9-LO6H-hCUWJaZBZLijhN7SN-XZpLmmpqw30q02VJQpMDbuKPw4U1wsJiFyamY4ghzPDftNvEUmz1ZIw46ljR4t82pQk9yDjJ8tCoc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPTHMnNsVBGdxJYy7P4O9LLiAIRLSeghoAHSPW8XB1KWyiMJzxaFkUVwGfYOWVpcsKX7W2DihVf7qs5mojI3AiuFdT7tgDRcot1vNlRZo0UAhuWvP8ZyhcyIDRuyoVqVnDG5gim1CDN1vHk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO7zzmyN1BYmKZivghRWZaUs-lsTkDTZ83Q-C3eSgxhpQUimIaaXe1fJyEXhLBmAmdil1OxSiT6GxRFcgOmEwaFkobzasY1vkK3uwLpoQf-ij6J_-MgRMuBV_XjLZxN7dEmHtYefZ4CtN7H=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPiJUu_KtCO3wjf4cWNubS_M_PBoHCgC7ecWLbmqsNFpKsL3lqUQtBvprtvAKsnj8G_nSW3vIwJ0bbCTDUQoaTu1m-WissjgO9siuIR_qIIvN1jpNfjENMgGRKaga9dmS5YBUro8A72Mj1x=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHxgSRB2OH-qa3vGa_A5T9ff8Vgax_bOgFtQP3xWri-PEyANjaK_DFjKgkuuiaLe44zu1TTwre7kF8gEcV9zxWjEwkA6p5r23ce3J4m99I-SBNZoHfUeD4UcGDKaT18G96Y-uxSdKw4KAU=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNYzRy__7IWSxbDqysmhGEX_tTEds5Ls8U2Xc9Htnj5DQ1Bke3Ga7tDhOMqo90qEB07WrcE4-xSCwWgEbN71J41Tv2jQVHSRBo3FJ2K-0JOk3M1DtlLpQgjSG107MFrnoFEdELUapy-m6kc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNEOuJi4sL883k4in7YMvEFAR9g94P94_P1KNrrRpXkglaKYqxawKMPVEuvPgqRxqZg63G9yqsexIDtzZD-l-dfBM2fYhMosWaelRgF63c_-cP0KnmRDmme0kfzL6AduKz9Y2UGFsBnssRK=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOlQzx2pTnQpKjtO3Vy2wnDBSxgtdLQX3uTdOBHFXFnVJ9loAS_PCN4o3ypI8tb5nMJK7oOcTJ9Mv8ffYmxBSa0KUlE9DvCB47i32UwQQOXg51QBFR8angSYHGbX14Vhpx-seoFxKXfWPsA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMGRs43hqerY_zzAdilw1CkiYuLAM6gsnhxXMPBOmFn_iTSWNt9hbWT6YY_vLUZ2zJ1B64jgZM_w6eqZZAa02bO1uhTvf70IDSK3sBLQQNucxk1xIjxffVBm_KEHDpe5xQ9RmP55VKbYb8o=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNTk0HlP0RJVO0qVfIq9CtNm4tt3ZJPHoBsBHaelqAVqglqEuJgYJLviMZa-IufK-Mvezl_FzSiv74Mp8c0zeZWKblaX3bEtFnaPRooywCg8pT8B9hI69sLRvlsDXWHn2ajOhRRT34UE1__=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNu7IQuxXG4dBhKB3xEihrUYEghn4BWDXcVMUDPJJflrdZWXY4BIPaZvXqs61l76olgHPEyktxiR2j_Msb8nI8_pw4plHMJdn_3DcJNpWbY5c5UWc7IQXCw36-Ul_RdK4i6Od1ydfB66dfI=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMMXPsRj735I_mEo59giyzCQgptqScYMmpkybhqviOe9a0JOCbtC1X6o-h48FKt-Um23jYxnDAGAVO3bbZCPxoMAWyHB48w5nN6pPE1Wc8B0kHF9b3ZqBzBWFq-2gH966ld8PEsBIhPm6uk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfYpuzA5oq-2yQFY0UjjfJsshrEt3VIyLPtiWzLmTn6z_dgnbKjqi0zpfl-bkkAE9emywWKE3vcdrdvGGSH-wWytpXx1L0wT_L6aimWBBXuN1sGBLS3LnGhM0QXCemDx_yjnlrMfaf4q2n=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "101267763927254889725",
       "reviewerUrl": "https://www.google.com/maps/contrib/101267763927254889725?hl=id",
       "name": "artha uly",
@@ -802,7 +851,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKxauCYs1MgBIixa5W69m97CgR0CCYpeAsXasMghZTp4m0LVzVl=s1920-c-rp-mo-ba12-br100",
       "text": "Pantainya bersih. Suasananya itu beda aja. Makanannya harga standar ngga ngegetok. Buat santai2 murmer emang cocok banget",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-15T07:01:55.306Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paU1lqZ3dURWxqUjJ0Q2EyNHpSMHgxVlVKSlFVRRAB",
@@ -828,7 +877,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJe52EAM3OrEjSPEyubUs1uD-1ExiXJdgqUgb-dgZ0SKfPCew=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "6 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-14T08:41:20.629Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWWFIweGpRemRuT0VWNVRqZzNZaTB6VVhNNVJGRRAB",
@@ -839,9 +888,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMXR24i5xP2TMHQ0-ZwWQgCoWxX8ePdhAUuS8xg1WbIec0KOzl7FnAl-_QOOEdKfY9duTAnGFatybWPuBLkSadYlXKPpEv3p7Ma52h5Ba3fIdVct30Ou88nVS1BE5HiVxb1IHHOHw9XcOwA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMiFij8fR6UeNjOG4IcCjLrJaPlyNij0UAek6jU7skdhoTMYUvRGfF8kI-fePzgi8TJpOozJ5HrQPdnm8r75t9JcSSkEvTeI6sn6onrNMm-Jv568p0zdd832nwifPB0gmkZ_ymHmqKs5Cw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMd777p_PrtcFYQMNfx8H81hXHlM-vpRZpcbiDsIRK6cQr7FO3boHD2vh81z4YRvTy52GG5l18c3KQbHTlyyWtbsZF9AhCJZsUK7bKkIo_lxjphfVmu1F1VudgslEw_QrBoi8lKRBlf16U0=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOO79MMQhfvdre0HEKmhf2-tlTHw-52R99Wpf8mtcuP6vLgRHa5v2CGW1lBqdtMxEO4Pc8ueVqT3cIZ0GEQJIsWvtEMWaGNb3a83gve3e50X10ljY7ZnmKW1r63dZNmKVtmahjVFyouR17f=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMgkSJo70gpUXm8N6eEwCfCge-WxlIGPXtf8jUlnTBPGxi0zQ9IM7XmKRnawCfE6LKZzq7QGJ2EqHzejUFKvrtIfogZBwkb-66ebHo86MbwGcn6J3vb1m9RjQz_DIGf_b2fYU0maRYmkKI=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNf6hwRMshYwcZShHCN-9DV7vSuMCAEKfPWPq2gcig9uA4euA4wwgA4KMCBVU4U8ZfIprDIV07HRPqSF0U895EvHB-HDIjby2qfCLYTBCI9ZRwAMDJf2aYLq-0DMQTch44CckqdVfwnARxw=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -853,15 +902,15 @@
       "translatedLanguage": null
     },
     {
-      "reviewerId": "114661770305620628763",
-      "reviewerUrl": "https://www.google.com/maps/contrib/114661770305620628763?hl=id",
-      "name": "Rahmat Saputra",
+      "reviewerId": "117477474370156608469",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117477474370156608469?hl=id",
+      "name": "AwTrans Travel Rahmat Saperu",
       "reviewerNumberOfReviews": 3,
       "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUUJ_KD0hAzKE--O8ro4vPwxRW83cWjt2VDaULb2sBJEmOUXyg=s1920-c-rp-mo-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUIZ10mn9-shyHrNevxv_5rVd_N8yVgNFoTwSsnlmBccqHrGA8=s1920-c-rp-mo-br100",
       "text": "Ramai banyak wisata kuliner tempatnya enak buat nyantai bisa sambil berenang dipinggiran pantai",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-12T01:08:28.703Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwdk9FZEJTM2xhTkd4M01YaHBMVVJoWlMxcmVYYxAB",
@@ -872,7 +921,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPKkeb4FHbbs1PzMHXlC3eE8bJNqqAX0flIbvq7x0t5fI2FDTJ6exWfYIVEP7SIQ4slhIilhvMg8nqUzBsZs20L6qNCP6BtOXOmdB1-2mOqg-JBn1sygWzrpfii_QLXAXnwfYLVPAwO3Xc=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNCBavPijxEbnkXzAYSiJtT1TymGr-a4D4xw2FDLVqItxwx7x9-KnknW3_mFTj2eTAuG5ve7Ne8ioB68ab5W1aC1vx90IaR4lc0feuTijK44qZL-uPpG129DBKhsM1yem9cOjj4S6d0aAM=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -888,12 +937,12 @@
       "reviewerId": "105296462081799827614",
       "reviewerUrl": "https://www.google.com/maps/contrib/105296462081799827614?hl=id",
       "name": "Alghazali Yunita",
-      "reviewerNumberOfReviews": 7,
+      "reviewerNumberOfReviews": 9,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJoXaySzC87pzeId69eMnlyzKYweZ5RAB0ky_jFRkdU1BkMrw=s1920-c-rp-mo-br100",
       "text": "Pantai yang indah untuk melihat sunset",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-11T10:52:07.969Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5SmMyUkhlRVZXYVRKNlVqY3RabE5aZDIxQmIyYxAB",
@@ -904,7 +953,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpifnRR_1WI2KVRcc8_bxeNs0xXfYduM-sQ3tzkRc1F9vfmM6oJQakW0luP5rmhKHRgQS3BW-lgF8fro29-8wpULVeqc8MJbLgF0g4Z_JDnI8nCQzFh5DXy_KkGWXRcnyHfw_9L0_hM0HR=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUQ-04tTPp4j3_9cNWnyvvwea2KvApzKldpkE70hLPCgGiqPyggrGQwuDkayPhdxpNCnkF7WnElWzRULUciYl_NU0Dtv9LhBpjsWsG8_0wydA2m69Y3VH3WvPuD9xU16K7ViffP5bjmlq0=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -924,7 +973,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVyQPVaLNzm4nL4CIB-lNCfNDIKx8Ucrnu0JbSF6kBQ3sN-YiA90w=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-10T15:50:23.959Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xaTWIwOXlOVzlaT1dWbE5ESlJWR2MzZUUxbE4yYxAB",
@@ -935,7 +984,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO00YnWXfAMYKDmno0y5s8pFQFgrX4YZCI9jZyKtOeKiNlrWkh-eFypX6k9pdPbX5SR6AskcwbGQOPHi39K2UACuoYV9SsSHthZG7Q82wb3wuzwQ2I0KSnm42NTXc6ADkpGwYE2YvR5yN2w=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNK99uUGBsFttkbdYKIhCmrUwWQm4qHQvoa3b5mSv8fViDPjQZBTE0g5jIn_9-byt3HwqAd68wgc17TRKggxJqoHspJuittJYTC4PLqsRJOKLF2HRbiW3eQQQBXv0GwyDVOSa1fxqvgNEom=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari libur nasional",
@@ -956,7 +1005,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU67SsebKQ6OvBig8fnGnPnEJLvFuc-Zs1O1CrYmAP5AJ608OSu=s1920-c-rp-mo-ba12-br100",
       "text": "Tempat nya msh alami, pada saat berkunjung tidak terlalu ramai, berasa pantai pribadi, hanya ada beberapa turis asing yg sedang bermain surfing",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-10T00:00:21.376Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pNM00yOHhlRmx3VDFKbVpEUkJWVkZXYzFwU05WRRAB",
@@ -981,12 +1030,12 @@
       "reviewerId": "106162085085966638071",
       "reviewerUrl": "https://www.google.com/maps/contrib/106162085085966638071?hl=id",
       "name": "Aia Putri",
-      "reviewerNumberOfReviews": 2,
+      "reviewerNumberOfReviews": 3,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLIw1zZdPHbVOm9yBGjRXxYYJXtccYf5uU3XB6rP-aGP7xj_g=s1920-c-rp-mo-br100",
       "text": "Sangat menyengkan dan indah",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-07T10:23:37.011Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pCNlFYUm9TVEZXYm5SRVpYUlJaV3RNVTFCNmEwRRAB",
@@ -1016,7 +1065,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK9BdeJIVg3xr_IUyC-GjYY1qQIwbJdEDj-uC83zusBLY_DqAhc=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-06T10:34:45.772Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWYVlrTk5NMWw2YmpkalQyVm9SSEZIWVhObWVYYxAB",
@@ -1042,7 +1091,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV7lEhgDhNoX74uGSGsT9DNMkqw81tQAwQn1invn-ZGf1U3xSDO=s1920-c-rp-mo-ba12-br100",
       "text": "Bagus untuk bersantai bersama keluarga dan sahabat dekat",
       "textTranslated": null,
-      "publishAt": "Diedit 2 minggu lalu",
+      "publishAt": "Diedit 3 minggu lalu",
       "publishedAtDate": "2026-07-06T02:33:39.479Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNxdkpXa0F3EAE",
@@ -1053,8 +1102,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMfD0r8EwSdut-5g56lVffOe1twXCETG0DvgZbrDfGs6qCxoYlpVfGlgCUUt0UN2e34tqLMHKb7gJEHjmPFvysfDphaDBG65UnmbGAz5fgyx3Hu36HscIujZtUvVqKUN3b09o4=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOFED5D2if97PATnxS_0BIG5mDbiZ9GQZHJ70OTNrEFn8vwSmKDP5448oYwLnuGwrONMmiQsh0Q8pGexoxQPnXuLEvwvzgefxJP2NPn0wZQ9JBebdyYiN6zPK8IBRyhxCyzfhampA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMosds7cvclqBkamfaC4b3uaauSMxGnFbhScZTRAdwL_Zf0yJvbyCcMdCFawC5pADmq74ceFWDPef8Gps4Vdfz_H7ktehztHs0dJpUi37gqu-zwogp51VMPvth5KmpCkbBAfig=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNMvDTpCaL0RpNo80sih3yRxc3GWEbNdWwKAjnrGZMFrUzO2wVUWxKV3R2rotITM84FRMBfOrMfbYtBaabYS-z_7rh16zSlPT9p_TpnM4JUSQ1WSaHxM1O1ac247SQFM6wuLrRDyw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1071,7 +1120,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLvDiAVh9RBxqBBuxbXUYTi_nnM_HKjE3hRRygHYAW_X7q-DQ=s1920-c-rp-mo-ba12-br100",
       "text": "Pantai nya bagus, pasir halus banget. Dan masuk nya ga bayar, ga kayak di pesawaran arah klara, padahal dipinggir jalan tp suruh bayar 10k. Mantap pokoknya pesisir barat, ga banyak minta' duit, jalan bagus mulus, kemana mana dekat, dan sudah ada maxim, sayang nya org jauh katanya ga boleh renang disini, gapapa deh, yg penting bisa nikmatin indahnya alam.",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-05T06:40:44.291Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xOcFFscGhNSHBhYTJGYUxXUkRiWFJxUlcxa01WRRAB",
@@ -1082,28 +1131,28 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPB2RL31LKzAxdxNXR4vukEKFE9CFBKITbdHQKS8SKp7Kb5lyHhUGZB7uBXDMh-hQkS3xPtvXjZqOFJf5AyBravyVSQ2A1cSU-FAydGPz6cixi7YKGakFEJnbxXwQFKfW7Tk16oGavPTEpJ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOLPgJwY3MU__2V9HrQgZiQI_1OOLo1d4feL_QDA4UpaXGIUjm27kuQ3BxfZbrM-H6WE4Oqm2DnNUR3CoX8zVATsFsGFC86rIOfr28QvERnpV9c_8zESDHyv09sosNbeVirRgy8kqT0x_W9=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPtV4MqR6K47qNgbc90NUBUU3_HMbuwmS_YBuu5MdzddW-44s39kBCx7czWI2b-qkcfLNJq5i6mzI0SKZh4cY6h23rl8qDliR3LCQulg92MD5de6CeoaGSIm8trBkL_2H9_Bmv-rCDNEPFF=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOQonZRrIjVPc0ddgY5PrplRWih-Y6IFKvh_PAFFaClod4TT6a0voh9-NtbkmE_pl9RXuirWadUWCUI_Hh9SiuNHD5p4aHA0MqU4Jcj_AkbVxMXaV4hc6p_LstYIqEIl_xQBTJKvXMK-wbY=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNRP1EEueT1Nr9AZbBkEFMtyP1ND8HymLfZ-qMB2PPj1Ulc7jGZDhKzyzbqEPDa-THddAYLM6jDVucYIaQaj-LS-LyEZbQ-EmLDHuEREcqR32TT3SmZIZDaen6xshTQ_7tcWmPEK2J5m8Qq=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNYPdr6XPsTqdx2cVEH80Rd4pNOdAzGCdx9_YPaj0Bb0G-u-rvI2wFlWOndug5DfdhNg6UCANf47sQREwrUUxz6Jy7J_2Zj6-ZAep5vQCTXzs1Pzh4x1ICXKBj6K6SBWhBxqP4RE5F9e6h8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO0SX1R0gaz8CSq1DYns0Z5S_2S1GyFMIg94agbE8r7KZk2wxOyPLGEtzi5vLicUvPstmz68g1OTGDct9vrH_1DrDAozgANz_zL8WvPiObHKZmP7OsokC1EvGwIwt1_l03_61h8RBSBPUTk=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNOY_zIdk7q5cKLNsvrDcW2Uc-wQqIlVi0oqJhqVJFsOjNBoE7sTVMS7ZgubCPbefuterrpDO134ECgT1JgF0B0FVB34mKJ8RKw8CbT4sTkgGc3lpC0s31eCMxXLm9aqE1kexPO9LGDUCw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPCv4hMJ_pui_CbpZHepY9ZBY79gEW1AQAUVkBmZeMtfIVy6Ehdq0F54VFfHMBoQV09m4YGMT74Ok1zQSePAiitZhV9qfwcDC_Nq2PjONgx9AX_grWK91IPedl5E5MmOrLJnLBXNKGz-xWS=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM-eHeRqd02VFegnzJ0BmJ51FAXCFTmZO29fl5MaoTMndXsX3zksz_IT0NPSDubBP1tJ-H1ZMxFJqsVfuwxRN28izjQTzijg2HoeGCyrAqRFmMCzdRpKIYknzhK6quTjRKecRZiiM3Ub5C5=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNYfDIpSlSBo9QlNqwVHuD22hnWZcl3Mahh2YelYqIoRa8hPYFsUzsn56TEhWRttg071AKmMWOVpmk6WPVCk3eSOpnDjYI6d9emPOHSD-1yKrYLW-Jf9JjfvHBHgg6Lc3uGnbwwDiCqfkY6=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPXpHttYypmcbK8cb2F1WrYEewrs3WipIN6YFkjGG-NavpYFL02hKXlXy_ykLKW906a2N4KOr32YwmZVSeG06sr2ex9k9VIgCpT8yzpHrpf5WCZbVA7YaRzr-h6YTPvorG9eu6mOvHe5ss=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPj2d3G1HQs-gppPlY2-yhamtUsRvABCXvEVZXuR6lhhQYDSYA5-S5Y_Ly3optAXJbcLS8UVMM0omP5opuSPQUbX7nsl_FT51D4ccKbKdCyQSRBgmJ9ljYBfZOlWMCsmGVV4b3XVxIA1plj=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMBfXtDfVg-o8YlJaq7E-pBYFXuUKGuDxy1FRS81fk0_mjxV-OYlVCTLF2j0k0NbAcIbIyib6GxF5ZWuIt1UWEcMapQ4QGjiPWW-6_yBep75DpMajWJvjZ_zpxL-QBv0C0TFPME0xLpPFw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM7N0R-OjwYyGdeOYIowmcm2H3alDW-ahKD9hR2_a_JEhPFjgtc5u0bXfMWy1zgitoWThBCGiCwUbjOcpjRVzTU2zcNRTIHH6AzT4Ty6WAGWNCETai9demQ7twUy9TMZJ_5rQeDxdF6ibea=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNEG22SnlaalIrdg0Bv2sZoR_YA-cW5bgriW9NW15KlDwPtNhpLbl9bqpZ_fhd8ZugyIlVRSe0VDBDsSVY-9W0VPaUrpYDlsjXZ9inUBbn07uFe2KI7e51FJdHBUvD6oYI7_z1H5n1Nwde5=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPogZ11RosGwbnYiYy6G10Fmg_-9JhBiUZ1MBCQk12oOSsKtKDe5OLSbukwi9sawrm1curlqnkmF4lfcMSB_9JfxZe9ozbopwaOv-W0tMCYYaF7x2b3eE8UZxJe7M5nf_uaSdZ5_pmohQta=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNyfnLyslqnCSszlM2C4WWvbA54oux_w0t-IfpaA-TjD79SH0CHWv3YiI716NBKV-zZOthnh2auIo0a-SzhvHMzBaH2GD9HsIRQG8IIJdu8FXjphSyUbLeSG6B-hbERmbMleqLN5g_XpmvN=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMI5LKyYpQrV2BqVOngxtbX6sXHalkwdN14eOl8CmANb68Oac_KFy5ZzUJ1kR-OT-iT2paOc7Q4hw7CjB64RMg8SioxTsqzdQKbs6x76BHtw0hWpIuiDeVlhEk31e6jy1qbKGFDJrvL74N7=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOAqpzDV19voFo10cum5Gj-KtMde7k2Xi3Ij_IiJ0Dbjs6Vvbi3Nn45n5fqDgaCl5WstX3Y0JfWM_cgu5WIxGVRhSg0lDpsVqtFuylNfWlR11yxpcDDvg52g0kGys4HC6Lifr6ZY3PESfE=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPPJh4-C440HCbEc8baThI4X2WePGULDYfdaI6JPZDsDmmnutl0dfcVnYb3I18HxU44uDwwZyFSM9C4YQKBPvxq8BzF3tQNU2padxMKQ9EEePamAdcAQEEdkObrHHM77FaTgl1sj15gA7kc=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNHmxV5VSTWM6hjBZncXF--AhzSlp6RZ0kKLEMPAatnESCLs9fVcyNAPLnQGKv_pVam4usBG7Zn-6jCX0eyZFyuv_yHcxrqnIXQii6KS30rA9DZzvD1HDvuEhZQBVl3-ubnlcJI72No7II_=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNSQovw3JFt9TCHENAK84yI0bGt6on8XRJ0J__M42YTUQ_b-TBAKuXpr9zmxWY7UI7bf7093SEWQO5sLbCSxpJIpt3q1FewyUhyggyfaX3hhazizj-qEpUnyosClij30W4eZPgm8g0H_LpN=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPTCk1l1CwgQSy4TsHzyzzW8Stk2xVETTuy3zrAo2pw4RiM74D5E_e5hbtjgnmkje7twUIMeyhd0NeckX2yz8La3FnGLP9aXpF-icpRCHLfBnd-yQszUV_6q2OqHoIYjcBNvPzMZcoxmQFE=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMTXvh-gG8E1GON-lz4JuqjYp-P2jzsrJ4LdgPC1fz5_nIp8nTpqDAW220HfzKWlZl3mgVBCl6zTB55HilBwA6V4clPTKRW_j-lXqsZdabTPlxJFhSEms5YiO4l37YsF_dFulgTda4LxvGm=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNW1hmxzs2elNTCONNWgQQ0RhN5Nilh220qj3E1-Gn2Op1mKsJ5n8ixbotj2wYVe5fDAJ-zyNEUMAtgokMFPmQZmKMAZjhi564eH2qbsZkZqqXJvjpkGj769ehbCFSsvTc68oBATc0YxmqM=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMhFpceCoMXfeeXw-tNYGD7yMsLhITIPKH0-FASLSiwIaTrMMcgTxTTbuPNqWycFxBBgUt-4uMhPD9YIMTFPhv-9lChwUhk4Pd7b5NHkJLrtyUllKnt0HlwI87g2f743DI5e7NY6fn7344X=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP82ipC9Q7lFQXmpeKQ_sVOS2R23RXu0j7artnmir81Gv4R1fjHkO023tR1xJgRx7FsdjliIx7mVaCPAh7MhSe4AXa1vmlEVU8WkAlWu9UCYWmmsHdCJgaz6RRk2SMheWv-d_87pkxlmNBt=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO7V9BNKlK7p4_yO45BsnIyWKe5SAtM0mmvbz5Kx7ZzZkY6G7GavAWkM7bz4ZHsSdL4hALE759YZkYZhhK_D38ynGugglAa70x4L_Fkvo-CvayOjciYTYeGafAkG16aJGUzXtLWUV-AGFtU=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOCKe-p-OCRfVtIR_bVa8wbv1oXDY4eyFSOvu4bqhvG-Ue-ylbzhmHHZ-5ZSnomvYkA1OQkZKFXH4sxcLv4N7lN-YV_eXlficyCOqNrnYmuaZDMD5h8kxt8Bflqp2vQ8flUsViFWS2OZHc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPT1NafDDuPKCMW6SuRr4oOkeuulmcaqgYRoXt0sBD6cl4p25sG5mJTbDa0RlHywcKvHn7fgAhzNZEFx5DlFju7sQeHVZif955FM-IQZ6Mkooe9JjxqpTYW0BnZgY7lf8blaKaoCZQqd_Vl=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHhJTErreSGmvDXv3_w2bVrOooKhAkY9JkfKQT0Kzt-VxSZu3oivXEZmsOR-ENX5JinLfrji-x_2Lxi1FOmaJm-CjwM3RFNSOpb89kwuSJMRbj5TR4kljWpVKmMuPy9joPxC4xKWB4zGZ2=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMEernU0pjksBgF6Qe_L9gzpqZA6wFdXGCuwn4W1PZ-oPUSM6nIEMFNVZa2pjNVzz5V2-hL_D9-wcOS5crASKljj-uxFNFqJ1lpYtUkwngKNtjBCsn-pehxlQcgoxEN-44TE0ckCBoJ0c_5=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPqoFtbxrgsRb6G4GSL3LkXFTWA4fFgXzFNFrUYagaZlXvGwh3ebZkwrwCpey-5Cxei-O1qA7R9kGKTf2qq3O4tUh0ouZspAsBpDxIFFP7qMWShP4hDK_4EJOu-gM7E23kXMf0tP28dTnw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOan-68P5h3_-OkRuxpcPkQJ3QWDVmIzJP0BuJAi_bsOuqpce4_s8jDTCey5fSC0P0e3wBkoR189OthyYOMK1ErXkkx5rPRRvicpTxjHhHNGeL8TN9rFf8p92FFtlRJGvVvMSaocVwRCXcc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmODPE-sYzahaLmYbENr9In9Py2qfSPcUYUPTe8ncNel8cNyuOMEVXh3q98lpwQaPQKL-IlGjjNiBqJrDP-OY_wcBCAq0TzzPxmGWVa9BYzzDeGuKq_haSMmvz5t-a526y0_kZ0cP7n7y28=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMl19COERT2KjgNrTAa5p2XiJ5eeT-r0F9l1rWM9_kqQk2QHwAZ-OyPON_bYLsLcwz5vuIqAe0Vyw-6rKX-EF4602f3YZTtmuhptK8OHwjrNMycERFBJI6pB94YElACiEvVCgNtYX07WSIm=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPHjqLREX3kXF6Z7LH8V2ELqLEdetcdhuLeaTPyKcEsM00IG9EjafzWeNd1tEtNBHHHm1HDALZ63kZuzVUr2y1sQ_v7YYDaIglDCb1joEolfGhr43dEw-U7bTPMqDwrzJWygqrQENbckWkP=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM7KJPjr1vUdB-CyIU8lWjfWVHkstI2r1gYlnVjhmmE3UhmYyZO4NxbMQti99ko3ZCbbv7czm9Tjx2RXvori1A0z9tpBrgE82e28yKVkNRvSn2YbysIvm1tTpRN5wfZYDrgSkH3loknPgeq=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNppGZtbHS29oDP4WcJYkOtcpQ4vOm6Klt-fgH2EjrPrir4XfXr6ZBlDk3SVowngrhv6POxZZFmRm0LrhvKErxac-Xr0waeRgdHTNCLE7KCpGD83wqgm2VAf91l4-9dWpj7YhYW7HHCAtrq=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM73qm8TtLxCmVbhkLaZ6h3UGY_5dSljEX1B0DQdg4gpZyOI7NFDd7QecST2-G2_6FYhAxKpVAk3bdjVrZA_oMDZVTDkbQ5eQ6FRTA_p-cP1BrqCbnuzrbnn0keN_i3-AWVDNmofp6CeE94=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNJHP2Nh1mI_BqLg3F3vqEKqCBJRwQxpPsCUdaX6w1Wu_SnvDraM6wOHPOkdlLFArviEsPmFA9rVSfxzV4XL5BbUt7tCwwntcUF-pCiySbW8I2xJw0UX4Rt_xRJDWZ-L_o7zMMnbn8DhhQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPF79qN_oB_TPXKu7Ke1eSIKwnwtm0VwotYg18mxfQ_WWuf1fZI8XjbLL7uE1IR8RTcG4pn7ELkkM1z1mKSTDTcEdCQX-sjqM5EsTv0pjp3ydq8s36A2Z3vr2u5DNGtI2fvDmCE-qgpIgJH=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM-9qxcLuXB3zTcbORLznmkJdDOp8cN7q0r1y4RxMrFAYfe6Qv6JJGkzuUogNMhjSUZ6hC1ipP10R8pOR3spY-0qKNWczt697hNKWo_7G0kGE-II40kfP6LVKu96nlTMDaxOhSpjeN8syuc=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1120,7 +1169,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWwKwHWvlA3XbnGtfszRZGnhgKyiecHvyxkQFgAKGS4Z1xbS7D2=s1920-c-rp-mo-ba12-br100",
       "text": "Pantai yg indah,bersih dan nyaman.",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-03T05:35:13.334Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sUmRtWkRkWE5FVVVWSVlVdEZYMGhFVFZCSmNtYxAB",
@@ -1150,7 +1199,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXzArYDEOdB87fP9oQqLfGHRbDI98f2Ln7XSG1mHRzFcn1BXAfo=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-02T11:54:25.111Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xVMk0waE5WVk5rVURBM2FXRkZhbXhWV1VoWVRIYxAB",
@@ -1180,7 +1229,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVMeLOucVrqZzXC9_UeI1yYh_62-o4XZuaXupYxtdtxkUj0GScR=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-02T09:10:52.155Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sblNucHVjMnRyZGxSM2JVOUlXRVEwWWw5eVJYYxAB",
@@ -1206,7 +1255,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLNtPXMVw6iRE9tHQEXOr8W675Chdqsy79ig6TE1u4MfhYJWQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-06-30T08:31:27.370Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tFMVkyMW9ZVlZzUkZwRlJsZDFZalJDWDBWMGVuYxAB",
@@ -1232,7 +1281,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVWiUemxr74S00fZUQ28D3DKSnGiWk0fqkm2nInixojYSIF0ECN=s1920-c-rp-mo-ba12-br100",
       "text": "Pantai labuhan jukung sangat indah dan banyak turis yang berselancar disana",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-06-29T15:32:54.381Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205NVgxSkRUVUZNTjFsWE1ERkpjRGRHUzBscWRYYxAB",
@@ -1243,7 +1292,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM_knEXAoTuxuYUoD429dVW0mBUmQeWPPWEsZvrGG-HGUQQTZDjl_bGJ9PNYMHxcCrNzpdz0T3Du0vTX1xk58CES-8JuyAgxLHg5RlKhCh0-xVF-Lej4WU56DZgUNPSSEHO_56vOXQHvSze=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOUdMRtdZGmyq-PvDi9bMfSYWq9GtV5yPShfytcSwu2bmKabQzspwcNlF1Ca3xfCzLRZ9whf1euNEElJHBujGl9QD9hIfj_M3zcmaI8xUCZhK2_ARyIw2y2sRsZT5XWEr6l7KfI_SBNbfA_=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari libur nasional",
@@ -1264,7 +1313,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWXMadIXT00fcsN2V9ei6cb-jLkSaYtm8RnEIbjsDicYJNa554=s1920-c-rp-mo-ba12-br100",
       "text": "bener2 lokasi yang aman untuk turis dan welcome untuk orang2 berlibur\nharga2 makanan standar untuk lokal dan standar untuk turis luar",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-29T03:56:21.290Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1RFJtaHpTaTFQWlhGMWQyMDBSR1Z3VUZwUmRrRRAB",
@@ -1275,7 +1324,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOybcKUAR2JTinn3oxvY7dFpbAF5NyHegWYExP4VMSF7oT_23PWbgi4z3sOY_9-pCAaRKLiHkpurmlLvfNEqAbW0wBRV2d_1sUbGhFQpKygx_3Vy_tp1jN7Y6quhbtU_8B44vxso20_vxc=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMuaJA1c4G4eQZ92Rnn4_oMeL-gghyprVB-wcc25zMLglY5UW0upYrF2yrs8HTAP6DRu92KN0sYnUNjvGzI2qvtuONqSqyt425Q73Gt_PhKCwBSJqKmAj9817OLzjuunSCntfuePhb0ob4=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1292,7 +1341,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLmxVOhPR5qC22vnWsN8TqipkIRrtfNZQJ4fOQHv4HzZxwSaQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-28T06:45:49.188Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21wNVpVTjVVRk5YUWtjdFdVdEpVRUpKUlhSdFpWRRAB",
@@ -1318,7 +1367,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUZ8z_IXX3QunPJA31CLLqF7NDz2Y5YSLqwqyO62D05SBgpN2Y=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-26T15:07:40.621Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paR01tWnJaMFIzVGxKQ1JWUXhaakJ0ZFd3NGVIYxAB",
@@ -1344,7 +1393,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUGm2LAGl50aXXszMyCaF30cpvppAA6zj5tpkY3cM9Xo6utik0NLA=s1920-c-rp-mo-ba12-br100",
       "text": "- Ya lumayan lah buat nyantai minum Bir.\n- Biaya 20rb masuk pakai mobil.\n- Kurang cocok bagi yang suka estetika.\n- Dilarang mandi di laut (Polri).",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-25T05:35:12.092Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25GSlpXUkVjMlo1T0ZaTFp6SnRlV1IxVjFoc1MyYxAB",
@@ -1355,12 +1404,12 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNeTVPrYwgXI1DyWcla5DLxSvwMdk9brbfh6IVmd5xjlL3ugMCn6NaoiTKNqkt8D8LUPeZ0MLartFWecsr0YylKHQ5w2l_ZIxnHq-YUC6uAB6TtXhNP1s0abv5RN9acDk7l3AzEm-eJ2Mc=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPDTgX7cCV_NmNXcZqQOqQ0czptMiFAPxEn98UAREYrPb5MYCKRjNOI55h4sVWYRpSG7jompzr5L_ERhB9uLN6XTx4CAf6sHG9JHGLYPHRa5luge72nslee5UyWyyX6c821TMuz-XWUv4_I=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM_cExmr_GQ1N6mGtg28ZV43G0SviLJFX-2CCfykwW7_tSyjuE5ghhpjeEwz1_t_7Hzv2KXnV9oPg4ktIVzb_NSKlYG_32LxJV4vM7tunekNaQpXZAVg1MaJrfqfP7dr8cf424HJIJgXt0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNWLHJR6zf_RazqYqPnb8nnSbLN96ERsPJOMuWbOaUM9PhgNsTlAyIa5EayjiB40O9n6ZuzZEVzKJU_jPAuBi2M2yGOKPaF30qTZTDi0NSev2268FYivSmYTi8ikYVQLoQhwk7Bd2Ji3fHe=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOkuob73GWn9hno3nQkzSl3hUK0QDbOA-xGNoW5UNq59Ukl-eVbg-pdrxDoVlb7ZO5odLF7tbNqtcFXHaRjpvbMkqMRjZQD4ILCTS_KWBLjsxBEaizlLW5ntB_PoEMPxL4ok4DzJsMluqiX=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMLGz2MqSYqYBTN9eDVZtri2yR7FKU8q4Xs6UVVlf3aJ_Yk65KuNwlGqXUf3OsjfZbVCM_o52zLFmp9WQhyucz1cHsLKddgiQN2ZgSwRbBuf3XmR2fSdpoEGs-4sLVUBIGgMa_CoX9_Qw0L=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO3ZuUORDaLu6QC-6CsDARIfjgRJLHBgkBQBEWCY_Jm2xlX0CQpX3xuNSLlElrieZRAmdAeTPNF3YcJrsb8O625LXXUxS8rLJ0Tbkt-wV9UxvVSQ86hAudM9UXcL27IWM1xu2o-6wF2eWE=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMNpVCfzOXVExc3G-QcL_lFSt-ufUKX2rRVMupZTNPvzoRewuX87WSF3UgvLPzHCNylFCNOIztmaMTs08P2OLNMgP6MMVs3wRLXLm5qyINB-L1YmPcGUQdIox9--PYspqEqNjOnov2XV6Ys=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNmzLYvvplayPeUQWUsmzaY8byfdwLOiwxLh2kyxaajhV3NE7rahm6HfPO17LmB6HWTad_0haJ-ctPPIJyy83f8Ry94pOIuephV7yPL256mD6M7VgdBP1Pkkq8EFPNSSWQkUN111K1oFX0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOGHnfcb_uKs-6Sc3MpNihRG7PkdXGwd43cxoBqKU4qhV-NOCen7YqfaSlJZbS3aB85_8_ky3ffNIwGP3OEoUNHETt1jIKHtHIvJJiguodNxMGk1mmFld4Dr6I3hJ8XFzhC8LYOD3quo7kY=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMM2TJ8Zlfpu9DIfx-GAf5cvtKCVO3REqVlHn6wY2bc3ttKTUxxqtByXuJrhNsoGtG93V8wUrHdmFEPllh6BKmYXHQ-_icQD6pM3fFVY-YqmTMcIBVdgUjc6YmNq2s_ZQNcVRaqSwV_t5Xl=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMNwW-TvhNJnsAO-0w8uwpb1nMZaKijHlI5NZn90nunf6eU5Nh5ms9_2uOEqWZJEZdFZCqNOyyZeqkks5MSqjRvpPh_ucHXl1dLfiBWhSr-z_yIEagl5GCdHk30zOQQTKBiUSpmdG5EzbGR=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari biasa",
@@ -1392,7 +1441,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMkXGQ1IWRM5Y-8YwYJSynaCh8Tp08eXy_TxTk4Yj4LPdQthuQddx4lwmxZw0vH9aOMckos-1wjHjxPrOw6z_2-qLn1TugFTFD1giULpNf4Uk293WP18wNxjDRYE9FaSzOojpNaPqtthIvT=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOMxgwyu0tiT7ZQtA73TC-wmNCCS2_lAJgie-W_K7Ku0_VS7uvP3XACMqkmo-kXNq_qbCoMismEozDYVlvI3EToih-dp6un9Tbi5fTZIzBxBRUzODmgjV2B2wXPcFiV_4p2RBlTMULqZk9h=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -1424,9 +1473,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNbjKdBVTmy5OtHydhwID9rpcYCsJ88sjWhiwN6BzwoDPozKtSrPjf3SB2hBEEhaGpZS5EgJS0710cpXTteljkgQyAPK-FeVYQ-FbgsXkACvuLZsaO-t_InyY2XYlSpQATtJ28ewdwtJuc=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4IRdJ0u_6K5N5A1fC8sYGAsoAswufgxkpCfUtxKR4wn0ge2QPgW33JdSt32puJ7WCMWSMBjIcCe_vGJZg2JkwejOH9IiItfB4qPj6pSw31vJZvbjKH0668vVegPa1B2JWdSg3nV82kqc=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMsu3cxDqoSujyndzHTBHpHKQCkiIrFno6S0_2Hbyest0naQJb-r_gg5M0RDxXrK-eT2Btdj3i16XizXO9vLev4cFWhzxbpYioDar2QPybUenFMMjFjxdPkoMrDr-RKgh9k00E7QJJ5B44r=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMrcNOrF_ZAyZfCC_GLTUCXyOwXYe_GaSNlnTX9es3bgDUKXvum3peUmPzODnRJmFrQnjXRVgpmmMcfCY2FtjQ-zTU3Jj2to0nUWKAwuHcZ74sV725GP0F4VaXYRIVgZ6OclF0MfovwlcY=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO-_s0KjZN9StDD5smfq9fPyoCpaDvQuz60vTuKoGE6D6OHCQ3BPUhLvvx9laRDlK1t_79T66tnKSgrlaRyQ981zthdKS_UtEnDESiJcprVoHRSZgfWtqVKBN_VSos9cYgXOSQLdsS1Cis=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNYoExrHvUKw-KpJ3wrSxiYUAoJn6HIi1lA-843e8ggyRhZAaxmL8f8O5aigxkXPjRcylxTBONaU3cfHe7je5i1zX9Pe1aqrc_F9C0RxBDcAUCgQlPQ7f_X6GpTgLU6IOycRE8zmKIYutJ_=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1454,7 +1503,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP31cHtSYzfpX3uUfYh9Yw2rVr7I_rJOdEN27ZcS7qQJW5Eug2QKYVVTFEa5unIxS2pjyqk9rUisldiI153IS68fTADDN3TobTg8-CEA9I10WUDj25T0Ax-EvOD3iqe9M4jgdSsHtVtphGa=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPI-y06hcwBP1ggqo8EIYCJhBrBlCjBoPey98DriLJB4YorJMWbi7HQSNaMF_yuZ2txPTSgWTZax6WQjPhLiEFcY9kDO1dRFzuKhGJPCZpHJcEpXrSHLRl20vGoJc7lWCv6D0O6efj4jpE8=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -1512,16 +1561,16 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPpYMMbeUc6tkTOMhxYKZMFkifUP8gH4hIhPYTnJ_FKb5rmIb4RHp3fEQY8wy7PJGsmdbmQ_nd4OWcA9H6oPa6hJEySqoDsQbnKxHdrWPJ7Z1ls_5OqBlNedzNgbDWqUnDCPoEqe0pQ4vSH=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMjkrCrh3pYfB4irnhqoiOawB7-UK7Bamd9lggqYdwQiY0E2xBgFQ_eC5YszfWA7uJ5lNMmNmuXFMpeyCPWcnpUGosPAFVTVx6T7GW6nL8GUawn2d0l2w-1xoNyB51qFV-0B1RgDjJgCXZ7=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNX5eETQQc6awpyYXda8i3bi7a_Ig9rAfpkf4Cla7St0XLqHmvEM527NgldI-Tk4BZxRhmmxki4FPDKC69XMAn2vc3V9VWI2IgQw290zYdSHY3y91ouRAjYZ43gSmYguwrZfwYQgefFPmfm=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOO6vU7HwahKl0Y-4LBmnle_NfRyqvbw7hSEJ-5yKQh655NSHX1ZYeWthk4kWMpheBqOoP6AubKN42Ncp_QldebihMYt4WeiyBcNkufEwuwoVRjhP21ilXMKDcAVFk9f8LaIr-S-Q8dWOHe=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNSFyZtjZ035sHHzKCEe2qQXYv_xleDff55yYaS5o930cZzk-ICyWMOR5fXL9JfXY-_qsXECRUFNU18OcoQzvXU1GMTro6f45cuvESackyjnTFYlq9OPVOO8wllu6adL15UUMnINigE2ITV=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM4OngLbIoH_jgdyGPccU1yGDCfH0M_OKZI1oG65SbZePofCmge2Bbb5XHhh3caL-Uh5A43W4BMXYbrZmHCzCFE-HD0tcQMQ6EWT1FMGSIFKCYizFTIGtWKtNyRkPlDMqCUkSvLfsUuqGKZ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPhVKWj_heJnCL21G64IME6MAlJj0T_2IiDCwHiLaZOUo78xoUwLhSWHr6-u8wON0eWBMLlAzbJZAV8ag88FKKcHJMZkNs4-MM9Q4OUuPhpoM2e8S84n1IqlWiouOLyHzgwKeZpSvzFBI0N=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMS5396-Ub4v0TWQVKtmLGqgMvyJdIwAe-eFRomvPaTmTBgLTg8bEX8evauppVUkG_ZjIz4lBpUtplzhSFmtTVJu0paCIPDRobyYiX2UDGuCYpVZ2wqTezgA718dsoy9f8Z_Nj1mzEtikk=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNS23QwaPMI-SsY-Wyel0PIPXLTV9YwKwVFzDzj86wUOns_-HugSfBv0lOyOptkQJ4423NB6XpIFASxKOyA-SXeyqRkpz043wDoqV08oNHZkVTGL1TfQTPHWKPa0YonpExeN2mrF2WEFPP9=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNHaTSyUYvJDkP5vrSCvSP5KrqMGmN-jrh2OcvUuTdyOcEs_VduTTGY-jiUWOVa9hrlwpHGjZPRBQtUTKK_X0rLSrrWjQynPbDj1Ll9mYXSLY2-kOmtE1CAcaPiCDDSrQPXncAkD4_pO2f9=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO3qej-JM2HuQegxROgsi3aKRYvvq92fvazNO7vvOl1j-975wVz2OuagsEQSYa2tdfVc2p0xcDEdiOzwz7IgeyduZyTBlN-QwurO73AvlrvXpSi5M7fGCuJsZsWKQhWMsMlWxu4vSzZJvU7=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNE9-lZrRlurTu1Ux87MtHafnLN1_XTFYbiLPqqATm-AGqkR4DQTJVPzdu1YaatuVqpoUcyaIgR3xx0SVg9PV92eohIg1uEwzMD2ZtlhOB1KayYYYCPD8pIdPGE8xpP_3d0AOI18vUldt62=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPd-ofdSyNGRUOLDYkbmJI3ecv9e0_0WA9lNhIGrvd72rDnjmxCHNsf_b3OcqjL-pQQKAKZ8MvBhdpI5HnQO8GcMrMhvPdsO58z2qhqX-NorhTiX2aSAkiJR20x7l_SuQCUOuxRTCkbVsEg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOuKq3vieICx-Axl2vSkJgIOUWcbBrR1oEDVbGc9iaoyN5wwwV7_kS-PzWSvs7tAsGqNeJiYCtqdFxayl-QA82RXIUkTZQP5alEyIuYELIdILxxHr_xXcSkEQCgXMDVgurDgwRLah_ZrVFU=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNvBkKGirslSv9MIqbsXRiq2xVvmIWg7xPmYyU29NkNBGJQUo5E-4IdEdWLfiT7Bd-ukNySEXwaE2hPJbK2WPo_9EB8bo6UF1UsYlxNsI_ROQwzga9pDvK6STiQU_C7_gEBHsWPz4_Em37x=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP32DZQCUAieSoo5NBsO4rh9q3vz0l3HSS62kzoLNhFQLdx1NYDWrf-GOZJfVInGnZ17x0zLC3ThSK3mfRB2xrPSqYyb-pr0b6YPVLpD6tFCHp7XYtUEVQ0DscV9_4A27tV_zAB0NgzoKJ8=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUIVU5vdnG_3jaZm2Xh5WbfnocVytX9Ei_4apUq8ACedjca0D-mGcAiJId-fzviUDwP8GUwDkcNEh-d2uAFtutysb_3TPp89NZ3H6pXoICY3uVzBcVIWWLrFvN3hOW-XNPAl3QL2l4ua01=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPu63dDMbFeDDG94-_mroSBNGNLoHDVY1RYDFSgh3DaTEdqVbj8iyyJJO4IeNfdKzPBTBL45Jb7cmoN2g66TOdfLpuZLZ2fYzZWyJchfOKnLuWgC6yHTQhB2LyM6R0ErBk2_AeQhokToBc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNmWY0jSi0U93Yk48ccU4cOdpOGFPqUHwpe0b2K4au3W19wY044fyJS2_zKiMmo5eUgJPY0FtpsLO_e_KVzL56HwJhiT5viwnUID27LSNfM6WxVf2vpXcJMD5Iuw0FoRYXwwAz7YnXCy9FK=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPbYIbqxBgS0cOZKCOcuzLEDS4QmpCHSpldhLfdeMoweLN7y_sLf8PIug1m0XYNWOi9lRC4sI9s3q_P5faKE4XwqZe18eJHiOXN3PKOT0NDarFsX7q5gqVCj_K_Uketktv3v11ImrnQrpQA=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -1537,7 +1586,7 @@
       "reviewerId": "103018341194597152076",
       "reviewerUrl": "https://www.google.com/maps/contrib/103018341194597152076?hl=id",
       "name": "Kian Amboro",
-      "reviewerNumberOfReviews": 9,
+      "reviewerNumberOfReviews": 10,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW1x7qC8Uk3cfoOWCNzD9yDYklOPUwJyP-jJblep--HUppLnV0=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -1611,9 +1660,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOEzIDunRlO8g_9KRMqJ-zV5kdC13_qldXntnz7674u3ci49VT98fqSEFXBKfmbtVPSk4eDrun9zZgBfW9zS1oakVFsLhKrMaR5EQwGKOUvdqV9O_H9GzZNzmch8HAzJ4pHT1ZUCMzHQIRR=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNphe9Hhh9OdB6_lpv-QB3cjppFxfZz024Lsz1QH899moInc55VydLG7xZW82Y27rBZ6X58x44ZI_IbfLb3vMjF_LbrEDfB5a8eKc4wlOBs4NRJJN5acF1HRqiJBbEG1Vrb1RUQdMSOdeU=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOOyk0USL0zZDUjdWjT9A3I6beNLAbWPoMaaZdIMGYQDN8uzAHyXt6-lWdawR2yY29kVUjU3vFFNjQB-gqfLL1by4VWlmpSaVazFjYhkDAeutq7RILhDToEriiG1oRPbAm2cUpQVRWmyAgW=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOoyOGqIqvYyU_Y1bm_OP-H-FJQM4zKyMw0FmZzUI1YkAWjAGKUUJqCgs2t6WZLtoNTMvt9lDVqSiK2TWzT0z2t4dwvNixWPDQhJ5wRDW4pmGJzKIkoJAhCV8LoDUAM0da-2bGMJ5BOjL9S=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNAihqQbjzZJE5oo3fZlpoc2cgODGQ0QKoBiqjPGhH4llIHANsB2zjfQo85l19ztI2I4VE9UWgEEZLTwor446Ph2qmC_iA51oQbfC5Wk6JfdGbKnEsY56B3RKf93V8VsvAeOhemfvcb4fI=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMRajmTG-g9DjNKhPOStLmo3pnhXNYGRc6mZiu21unbruNCUJJC_ylc-Z99Y9BPyYLklBvXochXQKFAMZd_HZss-sxAptKOf8xOWJVePZbwgYvISI4fxMxKWx8z7ealKdZ0PfivjDpMJTBn=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1625,7 +1674,7 @@
       "reviewerId": "105162326575815370606",
       "reviewerUrl": "https://www.google.com/maps/contrib/105162326575815370606?hl=id",
       "name": "-D-",
-      "reviewerNumberOfReviews": 186,
+      "reviewerNumberOfReviews": 189,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK3X9QPqPF3MVacctWRpk270TFOOy5cYu-gdBHaoMowtu5wzQ=s1920-c-rp-mo-ba12-br100",
       "text": "Sangat baguus banget, ombaknya cukup besar tapi gak mengurangi keindahan pemandangannya.\nAda beberapa spot foto.\nMasuknya bayar htm 20k kendaraan roda 4\nAda beberapa tenant makanan juga\nBener bener pantai lautnya indah banget",
@@ -1641,12 +1690,12 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPbwUObpdDS70rOV4UQnxleADdZSgF8vei65ab2htdYMY7cuQ06d7NAZAeVC_6OPXbOAag5TlPQtYf9KRmPOQh3LpIcVaVd5__6UrEIgekzQs0BMt8SDAbIvsbkna8llUI0YilSo5ex2sPE=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOrL3FbQFAXcxebTYipXGzCqVZe_m_BRvY5iAAYUQesdzdJ9ZBn9FzJfg7rNg6k5EQt25cNlaUEiLH7jrKcmvk7dZqpv4CH8EwrC_YdShzxAnWiBb7PJLG_Cez2rK5iNJ4xjhix4TaKL6-Y=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNFkbpClhK3FDb9akJoGLGP4dtS6AZpoOsUO4yAp84tlps6lDOyNOvuCv9lzyAzCEx5j-_yun4enG8hx7itj-1s0Wloq5VQ2PYV5ohqb4B6xjOQ0ORSjg98H1cJhnFaWOr_QYcLOBmK5jvz=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOVJ7TomGm4rQtkWPHG5DxVUoIKJw1QLyGkW5tCmKaWGjg2osukHhtDC7zyyDQy_tYjgP4DGBC_1KuWOrqdfXcxBMANVY034WVOk2O4m8OOq_a8D6D1e9slEPm9vS__A-4J-yKEUF3uI9Ml=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNoprOOKVMbIipS5i5aunNSezffPg7hphaJvjx17V4QJfFzWKaFLqn85aeynGLDUojUkHwC8XfygSyGzP6blzDh_d0xWKEu_tJiyWEtBoGbFJEE2l2pX_Fzc21P38IiY5vYyhzTPqzfyIA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPOPZxXc52FG8Y7mO4mdwx4eSFCd2MPb1ZVGKUYHa3Wb55cohdzNR_cTb_9xx5UgXgE57YLmV7NiajNNI4FHEHAlvE9WiUv52LfGKc63FG-wMhaVnslw4dm6lzAexyulENXGv8SbPOroPeD=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMi7Zu1_SLdKl81Q8JAtLtVCkKqliRk0IT-YYB_e8LUHU3ZSxv8a1GyGtrA3ukUXdqoSuXKvaZNzCnBpSFmyepjYh_xOB3U5QjzZbzO2Iv2FpVORQKEnTJJlT2pD5euOD0F7fmaHDXDo05_=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNngOxrnXpU-sjhAPVLunQuPBYXrQyIim_LgryG2vZjAbRlyS0Q5vNdwj1wQvU4-AxK3jG8AKoAHPN3M10OscOtJbeQmQFlSJqyu5znQh4Cg5YDEVueUW7GflgCuiKyRjjUzUSNUlOiW3G2=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNABruuSgMeEvDvLYKLb3qqoX-J8YnVyyp6DPl_m65eV61ycORrc6UYLvmTbbNpsq9fyCH8eqoYQCmvq4IrZON5z7SekXtnW5YilbNKJqBcYzxfPDtuXPBMgKMcP2hLjVWqIO5ruEpcdVcw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPs8gjQFmW3WPmL8e70dwi_GEQMazGD1S4OZVZ8scKEsr98DOQCGp2p0XDEJvRRWumVgSUOwCxY3u55dUfBOmFkU2fXlRwKFcd3h0LoNtUtsgWoJDpod4pvtc_Ru9ToSGYDZXmPFvxeC0eB=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO0DYuhB452ejovQwXZoZ79WJNRBQx4idLZm0pd0vaLnvM19l6Q1NjfgF5Xt7uktSkkpcmz9QNwfv0oHMDjtxM_0jGdeqoSGob_pcjEdevYrKz6L_V0gL8aBl6_5JtTohIpycpRfsZ7fx0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOSG0Dyy1ctXEui2SwcES35FiV-l4IfgfM8Wa8oGH_UBoS-G-mZl3nUNEFUMC6z7BkXw6QHSs8UGM5zZvuGslEmDx5qkwFUhy4cK_LMwnWTUdQq1PMi7pm7dHfSW4oCW7WRkszcM0LI8RaM=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari libur nasional",
@@ -1679,34 +1728,6 @@
       "responseFromOwnerText": null,
       "reviewImageUrls": [],
       "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "113649904699797104997",
-      "reviewerUrl": "https://www.google.com/maps/contrib/113649904699797104997?hl=id",
-      "name": "Andi Odang",
-      "reviewerNumberOfReviews": 3,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX_CQ3mJKuZ9usmewdW15INitQlx9CNiN4VGsYVQKL_UPLIVdgZvg=s1920-c-rp-mo-ba12-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "sebulan lalu",
-      "publishedAtDate": "2026-05-31T14:24:35.556Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tJdGVFTnBPV1puTmxOclZ6bE5PRGhxWHpKRlpGRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tJdGVFTnBPV1puTmxOclZ6bE5PRGhxWHpKRlpGRRAB!2m1!1s0x0:0xb5dce6222d97ea34!3m1!1s2@1:CAIQACodChtycF9oOkIteENpOWZnNlNrVzlNODhqXzJFZFE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 4,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {
-        "Waktu kunjungan": "Hari biasa"
-      },
       "reviewDetailedRating": {},
       "visitedIn": null,
       "originalLanguage": null,

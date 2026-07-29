@@ -1,0 +1,69 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Petro Graha Medika",
+  "rating": 4.5,
+  "total_ulasan": 5,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 4,
+  "persen_positif": 20.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 80.0,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Cica Oktavia",
+      "Bintang": 1,
+      "Tanggal": "2025-09-20T05:15:48.816Z",
+      "Ulasan": "Poli obgyn jam 10, jam 12 dokter belum datang Astagfirullah...",
+      "teks_final": "poli obgyn jam jam dokter datang astagfirullah",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9561
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Eva Santoso",
+      "Bintang": 4,
+      "Tanggal": "2025-08-20T13:38:28.190Z",
+      "Ulasan": "Sangat rekomen Perawat ramah Termpat terbaru semua Tdk beda bedakan pasien Dipertahankan kwalitasnya",
+      "teks_final": "rekomen perawat ramah termpat terbaru semua beda bedakan pasien dipertahankan kwalitasnya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.954
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "DTV Danyang TV",
+      "Bintang": 4,
+      "Tanggal": "2023-07-29T09:01:00.179Z",
+      "Ulasan": "Lumayan",
+      "teks_final": "lumayan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ummi Musyafiroh",
+      "Bintang": 5,
+      "Tanggal": "2022-06-07T13:02:18.274Z",
+      "Ulasan": "Pelayanan memuaskan.. Perawat ramah, tempat kamar bagus, nyaman, dan bersih.. Perawat tanggap gak lelet.. Makanan nya sangat baik dan enak",
+      "teks_final": "pelayanan memuaskan perawat ramah tempat kamar bagus nyaman bersih perawat tanggap lelet makanan baik enak",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8082
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nurul Huda",
+      "Bintang": 5,
+      "Tanggal": "2019-08-24T02:14:10.169Z",
+      "Ulasan": "good",
+      "teks_final": "good",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9942
+    }
+  ]
+}

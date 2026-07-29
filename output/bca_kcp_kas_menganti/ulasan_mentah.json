@@ -40,7 +40,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T14:44:49.136Z",
+  "scrapedAt": "2026-07-29T14:04:54.128Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -426,14 +426,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.00"
-    },
-    {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
     },
@@ -452,9 +444,17 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
     }
   ],
-  "openingHoursBusinessConfirmationText": "Dikonfirmasi dengan panggilan telepon 7 minggu yang lalu",
+  "openingHoursBusinessConfirmationText": "Dikonfirmasi dengan panggilan telepon 8 minggu yang lalu",
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -477,7 +477,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Bank Mandiri KCP Gresik Menganti",
-      "reviewsCount": 350,
+      "reviewsCount": 357,
       "totalScore": 4.9
     },
     {
@@ -511,7 +511,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eWn1BhY_VyIOcEX74BP5TA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=311.5398&pitch=0&thumbfov=100",
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eWn1BhY_VyIOcEX74BP5TA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=348.87607&pitch=0&thumbfov=100",
   "kgmid": "/g/11vkhzp4lc",
   "questionsAndAnswers": [],
   "webResults": [],

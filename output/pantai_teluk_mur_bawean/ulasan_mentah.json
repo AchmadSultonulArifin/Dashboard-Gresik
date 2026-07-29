@@ -1,0 +1,960 @@
+{
+  "title": "Pantai Teluk Mur Bawean",
+  "subTitle": null,
+  "description": null,
+  "price": null,
+  "categoryName": "Taman bermain",
+  "address": "7P4F+CV, Kepuh Tlk., Tambak, Kabupaten Gresik, Jawa Timur 61182, Indonesia",
+  "neighborhood": "Kepuh Teluk, Tambak",
+  "street": "7P4F+CV",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61182",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "",
+  "phoneUnformatted": "",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -5.7439899,
+    "lng": 112.7247322
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": null,
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJxc_n0pNb3y0RLgRq6wp-j0I",
+  "categories": [
+    "Taman bermain"
+  ],
+  "fid": "0x2ddf5b93d2e7cfc5:0x428f7e0aeb6a042e",
+  "cid": "4796190713537233966",
+  "reviewsCount": 6,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 1,
+    "fourStar": 0,
+    "fiveStar": 5
+  },
+  "imagesCount": 17,
+  "imageCategories": [
+    "Semua",
+    "Video"
+  ],
+  "scrapedAt": "2026-07-29T15:22:26.155Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 4,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 42
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 4,
+        "occupancyPercent": 14
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 14
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 23
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 4,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 57
+      }
+    ],
+    "We": [
+      {
+        "hour": 4,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 52
+      }
+    ],
+    "Th": [
+      {
+        "hour": 4,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 14
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 14
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 57
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 4,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 95
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 4,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 14
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 23
+      }
+    ]
+  },
+  "openingHours": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Pantai Teletubbies, Pulau Bawean",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Mombhul Beach Bawean",
+      "reviewsCount": 26,
+      "totalScore": 4.3
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Tasek Tanean Bawean",
+      "reviewsCount": 63,
+      "totalScore": 4.4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "WISATA MANGROVE TELLOK PERMAI",
+      "reviewsCount": 8,
+      "totalScore": 4.6
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Bukit Alam Bawean",
+      "reviewsCount": 3,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Pantai%20Teluk%20Mur%20Bawean&query_place_id=ChIJxc_n0pNb3y0RLgRq6wp-j0I",
+  "searchPageUrl": "https://www.google.com/maps/search/Pantai%20Teluk%20Mur%20Bawean?hl=id",
+  "searchString": "Pantai Teluk Mur Bawean",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpoD6YOslUtXdphF1k_n-WGZGPRrPas-wgs6lGA8-7CuFNNq_gatA4MzQyct9OyrpWQJSVt2tjYhnNjPFFhs1umDSZvStckSzEOWMy5BV9qe_MwXKT8WP43W86LTCuUfNTUhK4=w426-h240-k-no",
+  "kgmid": "/g/11smvcwszb",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "103482270831262204035",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103482270831262204035?hl=id",
+      "name": "Rafi Balter",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXOofJijA9l9oDYAgoDMw3TeM6PIpXcCXm7IRg8AkDs_V-LTtHj=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-01-27T09:31:09.506Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURfbTZ2NW5BRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURfbTZ2NW5BRRAB!2m1!1s0x0:0x428f7e0aeb6a042e!3m1!1s2@1:CIHM0ogKEICAgID_m6v5nAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113436060996802281402",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113436060996802281402?hl=id",
+      "name": "Faranita nada",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI0vK1HAhvjTdaourQ1rAf0LpWDw1IWP7qG0-2FjzfogLU4=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-07-18T09:36:19.106Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURyaWNuUUhREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURyaWNuUUhREAE!2m1!1s0x0:0x428f7e0aeb6a042e!3m1!1s2@1:CIHM0ogKEICAgIDricnQHQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106335132564891461226",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106335132564891461226?hl=id",
+      "name": "Ziyada Harisqa",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIRBjSZ-ld93oCLJgRLJcxNS1o-4y3wTegrgdsb50QsmMv_og=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-07-18T07:12:32.571Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURyc2ZHNEFREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURyc2ZHNEFREAE!2m1!1s0x0:0x428f7e0aeb6a042e!3m1!1s2@1:CIHM0ogKEICAgIDrsfG4AQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115641550153310720647",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115641550153310720647?hl=id",
+      "name": "Khristian W M",
+      "reviewerNumberOfReviews": 525,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJnq6_mnuHmS0Ucmhvkjv3_kwohM3sLF4j9RPu3A_3eiqhfReLO=s1920-c-rp-mo-ba12-br100",
+      "text": "Kebersihannya perlu lebih dijaga lagi",
+      "textTranslated": "Kebersihan perlu lebih dijaga.",
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-07-10T12:49:34.491Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURPbFpDMWF3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURPbFpDMWF3EAE!2m1!1s0x0:0x428f7e0aeb6a042e!3m1!1s2@1:CIHM0ogKEICAgIDOlZC1aw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 3,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "ms",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "109919215077678601971",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109919215077678601971?hl=id",
+      "name": "Dia Kayla",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVVs1cj0-yL8902MBjj5u31iNxBCbH2y6Kj8hnFcogs5RdzGM2t=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-02-20T03:23:36.659Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNXclA2YUhBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNXclA2YUhBEAE!2m1!1s0x0:0x428f7e0aeb6a042e!3m1!1s2@1:CIHM0ogKEICAgICWrP6aHA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111550100595656372214",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111550100595656372214?hl=id",
+      "name": "Queen Azzahra",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ1jGy7fnvrXR7vCjxpOxBTAPl7n9yqolmubLCjlDmuJt9ayA=s1920-c-rp-mo-br100",
+      "text": "Like",
+      "textTranslated": "Menyukai",
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-02-02T05:27:24.662Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURtNmFYWGlBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURtNmFYWGlBRRAB!2m1!1s0x0:0x428f7e0aeb6a042e!3m1!1s2@1:CIHM0ogKEICAgIDm6aXXiAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    }
+  ],
+  "leadsEnrichment": [],
+  "kategori": "Wisata"
+}

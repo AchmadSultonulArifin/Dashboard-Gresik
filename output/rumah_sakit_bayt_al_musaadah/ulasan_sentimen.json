@@ -1,0 +1,36 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Rumah Sakit Bayt Al-Musaadah",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Al Fikrah Institute",
+      "Bintang": 5,
+      "Tanggal": "2025-02-22T17:17:06.811Z",
+      "Ulasan": "Top",
+      "teks_final": "top",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Handoko Eshawe",
+      "Bintang": 5,
+      "Tanggal": "2025-01-31T06:09:36.378Z",
+      "Ulasan": "Masih dalam proses pembangunan",
+      "teks_final": "proses pembangunan",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.525
+    }
+  ]
+}

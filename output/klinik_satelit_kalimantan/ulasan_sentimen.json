@@ -3,13 +3,24 @@
   "tempat": "Klinik Satelit Kalimantan",
   "rating": 4.1,
   "total_ulasan": 18,
-  "positif": 4,
+  "positif": 3,
   "netral": 1,
-  "negatif": 13,
-  "persen_positif": 22.2,
+  "negatif": 14,
+  "persen_positif": 16.7,
   "persen_netral": 5.6,
-  "persen_negatif": 72.2,
+  "persen_negatif": 77.8,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Victory S",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T15:00:26.092Z",
+      "Ulasan": "pelayanannya bagus semua staff bisa terjun di satu layanan ke layanan yang lain. terutama di bagian satpam dan petugas pendaftaran, satpam saja bisa mendaftarkan ini keren patut di pertahankan–juga saya pernah dibantu mas satpamnya dari tidak punya akun mobile jkn sampai saya bisa mendapatkan antrian online. ✨👍  namun sangat disayangkan untuk panggilan dokter/poli sangat lama sekali, daftar jam 07.30 dipanggil 09.35. di ugd juga sering petugasnya ketawa2 padahal ada yang sakit. sepertinya yang harus jadi perhatian dari manajemen adalah petugas bagian poli dan ugd.",
+      "teks_final": "pelayanannya bagus semua staff terjun satu layanan layanan lain terutama bagian satpam petugas pendaftaran satpam saja mendaftarkan bagus patut pertahankanjuga pernah dibantu mas satpamnya punya akun mobile jkn sampai mendapatkan antrian online disayangkan panggilan dokter poli lama daftar jam dipanggil ugd sering petugasnya ketawa2 padahal sakit sepertinya harus jadi perhatian manajemen petugas bagian poli ugd",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.7247
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Nifa Gresik",
@@ -196,17 +207,6 @@
       "topik": "Kesehatan",
       "sentimen": "Positif",
       "sentimen_score": 0.9945
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Luthfi MuhammadNur",
-      "Bintang": 1,
-      "Tanggal": "2026-06-12T01:14:20.278Z",
-      "Ulasan": "Aturan nya pendaftaran sering berubah. Terakhir asam lambung naik dada sesak panas. Ke UGD Sruh ke poli umum dulu, sdah daftar online tidak dipanggil ternyata harus lapor loket dulu. Sdah daftar loket tdak di panggil 1jam lebih. Saat sdah di panggil ke poli 3 ternyata surat mengarah ke poli 1 dan di suruh antri lagi hampir 3 jam nahan dada panas dan sesak. Akhirnya saya pulang dengan rasa kecewa penanganan dr klinik satelit. BPJS kelas 1 saja pelayanan seperti ini apalagi 2 dan 3.",
-      "teks_final": "aturan pendaftaran sering berubah terakhir asam lambung naik dada sesak panas ugd sruh poli umum dulu sdah daftar online dipanggil ternyata harus lapor loket dulu sdah daftar loket tdak panggil 1jam sdah panggil poli ternyata surat mengarah poli suruh antrian hampir jam nahan dada panas sesak akhirnya pulang rasa kecewa penanganan klinik satelit bpjs kelas saja pelayanan seperti apalagi",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9964
     }
   ]
 }

@@ -1,150 +1,87 @@
 import json
 import os
 import re
+import pandas as pd
 
 OUTPUT_DIR   = "output"
 SUMMARY_FILE = "output/semua_tempat_summary.json"
+MASTER_FILE  = "output/master_tempat.csv"
 
-KATEGORI_MAP = {
-    # Pemerintahan
-    "kantor"        : "Pemerintahan",
-    "dinas"         : "Pemerintahan",
-    "kecamatan"     : "Pemerintahan",
-    "kelurahan"     : "Pemerintahan",
-    "bupati"        : "Pemerintahan",
-    "sekretariat"   : "Pemerintahan",
-    "dprd"          : "Pemerintahan",
-    "polisi"        : "Pemerintahan",
-    "polsek"        : "Pemerintahan",
-    "polres"        : "Pemerintahan",
-    "koramil"       : "Pemerintahan",
-    "kodim"         : "Pemerintahan",
-    "kejaksaan"     : "Pemerintahan",
-    "pengadilan"    : "Pemerintahan",
-    # Kesehatan
-    "rumah_sakit"   : "Kesehatan",
-    "rsud"          : "Kesehatan",
-    "rsu"           : "Kesehatan",
-    "puskesmas"     : "Kesehatan",
-    "klinik"        : "Kesehatan",
-    "apotek"        : "Kesehatan",
-    "laboratorium"  : "Kesehatan",
-    # Pendidikan
-    "sma"           : "Pendidikan",
-    "smk"           : "Pendidikan",
-    "smp"           : "Pendidikan",
-    "sd_negeri"     : "Pendidikan",
-    "universitas"   : "Pendidikan",
-    "kampus"        : "Pendidikan",
-    "sekolah"       : "Pendidikan",
-    "madrasah"      : "Pendidikan",
-    "pesantren"     : "Pendidikan",
-    # Pelayanan Publik
-    "disdukcapil"   : "Pelayanan Publik",
-    "dispendukcapil": "Pelayanan Publik",
-    "samsat"        : "Pelayanan Publik",
-    "mall_pelayanan": "Pelayanan Publik",
-    "imigrasi"      : "Pelayanan Publik",
-    "bpjs"          : "Pelayanan Publik",
-    "pos"           : "Pelayanan Publik",
-    "kua"           : "Pelayanan Publik",
-    "bpn"           : "Pelayanan Publik",
-    "pajak"         : "Pelayanan Publik",
-    "bea_cukai"     : "Pelayanan Publik",
-    # Perbankan
-    "bank"          : "Perbankan",
-    "bri"           : "Perbankan",
-    "bni"           : "Perbankan",
-    "bca"           : "Perbankan",
-    "mandiri"       : "Perbankan",
-    "btn"           : "Perbankan",
-    "bjb"           : "Perbankan",
-    "bpd"           : "Perbankan",
-    "bpr"           : "Perbankan",
-    "cimb"          : "Perbankan",
-    "danamon"       : "Perbankan",
-    "pegadaian"     : "Perbankan",
-    "koperasi"      : "Perbankan",
-    "atm"           : "Perbankan",
-    "brilink"       : "Perbankan",
-    # Wisata
-    "wisata"        : "Wisata",
-    "pantai"        : "Wisata",
-    "taman"         : "Wisata",
-    "museum"        : "Wisata",
-    "makam"         : "Wisata",
-    "masjid"        : "Wisata",
-    # Industri
-    "petrokimia"    : "Industri",
-    "semen"         : "Industri",
-    "pabrik"        : "Industri",
-    "pelabuhan"     : "Industri",
-    "terminal"      : "Industri",
-}
+def get_folder(nama):
+    return re.sub(r'[^a-z0-9]+', '_', nama.lower()).strip('_')
 
-def get_kategori(folder_name: str) -> str:
-    for key, kat in KATEGORI_MAP.items():
-        if key in folder_name:
-            return kat
-    return "Lainnya"
+# ── Load master CSV untuk mapping nama → kategori ──
+master_map = {}
+if os.path.exists(MASTER_FILE):
+    df_master = pd.read_csv(MASTER_FILE, encoding="utf-8-sig")
+    for _, row in df_master.iterrows():
+        key = get_folder(str(row["nama"]))
+        master_map[key] = {
+            "kategori": str(row.get("kategori", "Lainnya")),
+            "nama"    : str(row["nama"]),
+        }
+print(f"✅ Master loaded: {len(master_map)} tempat")
 
-summary = []
-skipped = []
+summary  = []
+skipped  = []
+folders  = sorted(os.listdir(OUTPUT_DIR))
 
-for folder_name in sorted(os.listdir(OUTPUT_DIR)):
+for folder_name in folders:
     folder_path = os.path.join(OUTPUT_DIR, folder_name)
-    
-    # Skip jika bukan folder
     if not os.path.isdir(folder_path):
         continue
-    
-    # Coba baca ulasan_sentimen.json dulu
+
     json_sentimen = os.path.join(folder_path, "ulasan_sentimen.json")
     json_mentah   = os.path.join(folder_path, "ulasan_mentah.json")
-    
+
+    # Ambil kategori & nama dari master CSV
+    master_info = master_map.get(folder_name, {})
+    kategori    = master_info.get("kategori", "Lainnya")
+    nama_master = master_info.get("nama", "")
+
     if os.path.exists(json_sentimen):
         with open(json_sentimen, "r", encoding="utf-8") as f:
             data = json.load(f)
+        nama = data.get("tempat") or nama_master or folder_name
         summary.append({
             "key"           : folder_name,
-            "kategori"      : data.get("kategori") or get_kategori(folder_name),
-            "tempat"        : data.get("tempat", folder_name),
-            "rating"        : data.get("rating", 0),
-            "total_ulasan"  : data.get("total_ulasan", 0),
-            "positif"       : data.get("positif", 0),
-            "netral"        : data.get("netral", 0),
-            "negatif"       : data.get("negatif", 0),
-            "persen_positif": data.get("persen_positif", 0),
-            "persen_netral" : data.get("persen_netral", 0),
-            "persen_negatif": data.get("persen_negatif", 0),
+            "kategori"      : kategori,
+            "tempat"        : nama,
+            "rating"        : float(data.get("rating") or 0),
+            "total_ulasan"  : int(data.get("total_ulasan") or 0),
+            "positif"       : int(data.get("positif") or 0),
+            "netral"        : int(data.get("netral") or 0),
+            "negatif"       : int(data.get("negatif") or 0),
+            "persen_positif": float(data.get("persen_positif") or 0),
+            "persen_netral" : float(data.get("persen_netral") or 0),
+            "persen_negatif": float(data.get("persen_negatif") or 0),
         })
-        print(f"✅ {data.get('tempat', folder_name)}")
+        print(f"✅ {nama} [{kategori}]")
 
     elif os.path.exists(json_mentah):
-        # Ada mentah tapi belum diproses sentimen
         with open(json_mentah, "r", encoding="utf-8") as f:
             data = json.load(f)
+        nama = data.get("title") or nama_master or folder_name
         summary.append({
             "key"           : folder_name,
-            "kategori"      : get_kategori(folder_name),
-            "tempat"        : data.get("title", folder_name),
-            "rating"        : data.get("totalScore", 0),
-            "total_ulasan"  : data.get("reviewsCount", 0),
+            "kategori"      : kategori,
+            "tempat"        : nama,
+            "rating"        : float(data.get("totalScore") or 0),
+            "total_ulasan"  : int(data.get("reviewsCount") or 0),
             "positif"       : 0,
             "netral"        : 0,
             "negatif"       : 0,
-            "persen_positif": 0,
-            "persen_netral" : 0,
-            "persen_negatif": 0,
+            "persen_positif": 0.0,
+            "persen_netral" : 0.0,
+            "persen_negatif": 0.0,
         })
-        print(f"⚠️  {data.get('title', folder_name)} (belum diproses sentimen)")
+        print(f"⚠️  {nama} [{kategori}] (belum diproses sentimen)")
     else:
         skipped.append(folder_name)
 
-# Simpan summary
 with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
     json.dump(summary, f, ensure_ascii=False, indent=2)
 
 print(f"\n✅ Summary dibuat: {len(summary)} tempat")
-print(f"⛔ Skip (tidak ada JSON): {len(skipped)} folder")
-print(f"💾 Tersimpan di {SUMMARY_FILE}")
+print(f"⛔ Skip: {len(skipped)} folder")
+print(f"💾 {SUMMARY_FILE}")

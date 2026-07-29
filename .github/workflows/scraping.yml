@@ -2,68 +2,54 @@ name: Scraping Gresik Otomatis
 
 on:
   schedule:
-    - cron: "0 0 * * 1"   # Setiap Senin pukul 00:00 UTC
-  workflow_dispatch:        # Bisa dijalankan manual
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-# ======================================================
-# TWITTER
-# ======================================================
-  scrape-twitter:
+  scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 60     # ← batas waktu 60 menit, hindari hang selamanya
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4.2.2   # ← fix Node.js 20 deprecated
-
-      - name: Setup Python
-        uses: actions/setup-python@v5.6.0   # ← fix Node.js 20 deprecated
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-          cache: "pip"
-
-      - name: Install Library
+          python-version: "3.14"
+      - name: Install library
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install twscrape pandas
+          pip install Sastrawi
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-
-      - name: Jalankan Scraping Twitter
+          pip install transformers
+      - name: Jalankan scraping
         env:
-          PYTHONUNBUFFERED: 1
-          AUTH_TOKEN:   ${{ secrets.AUTH_TOKEN }}
-          CT0:          ${{ secrets.CT0 }}
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          CT0: ${{ secrets.CT0 }}
           AUTH_TOKEN_2: ${{ secrets.AUTH_TOKEN_2 }}
-          CT0_2:        ${{ secrets.CT0_2 }}
-        run: |
-          python scrape.py
-
-      - name: Push Hasil
-        if: always()   # ← tetap push meski scraping sebagian gagal
+          CT0_2: ${{ secrets.CT0_2 }}
+        run: python scrape.py
+      - name: Push hasil ke repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add output/
-          git diff --staged --quiet || git commit -m "Update Twitter $(date +'%Y-%m-%d')"
+          git commit -m "data: update Twitter Gresik $(date +'%Y-%m-%d')" || echo "no changes"
           git push
 
-# ======================================================
-# INSTAGRAM
-# ======================================================
+
   scrape-instagram:
-    needs: scrape-twitter
-    if: always()   # ← tetap jalan meski Twitter gagal
+    needs: scrape
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4.2.2
-
-      - name: Setup Python
-        uses: actions/setup-python@v5.6.0
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
@@ -71,15 +57,20 @@ jobs:
       - name: Install Chrome
         run: |
           sudo apt-get update
+          sudo apt-get install -y wget gnupg ca-certificates
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list'
+          sudo apt-get update
           sudo apt-get install -y google-chrome-stable
-
+          google-chrome --version
       - name: Install Library
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-
+          
       - name: Jalankan Scraping Instagram
+        continue-on-error: true
         env:
           PYTHONUNBUFFERED: 1
           IG_SESSIONID:  ${{ secrets.IG_SESSIONID }}
@@ -88,9 +79,7 @@ jobs:
           IG_MID:        ${{ secrets.IG_MID }}
           IG_DID:        ${{ secrets.IG_DID }}
           IG_RUR:        ${{ secrets.IG_RUR }}
-        run: |
-          python Instagram_baru.py
-
+        run: python Instagram_baru.py
       - name: Push Hasil
         if: always()
         run: |
@@ -98,23 +87,18 @@ jobs:
           git config user.email "actions@github.com"
           git pull --rebase origin main
           git add output/
-          git diff --staged --quiet || git commit -m "Update Instagram $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Update Instagram Gresik $(date +'%Y-%m-%d')"
           git push
 
-# ======================================================
-# GOOGLE MAPS
-# ======================================================
+
   scrape-googlemaps:
     needs: scrape-instagram
-    if: always()   # ← tetap jalan meski Instagram gagal
+    if: always()
     runs-on: ubuntu-latest
-    timeout-minutes: 120   # Google Maps butuh waktu lebih lama
+    timeout-minutes: 120
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4.2.2
-
-      - name: Setup Python
-        uses: actions/setup-python@v5.6.0
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
@@ -124,16 +108,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-
+          
       - name: Jalankan Scraping Google Maps
+        continue-on-error: true
         env:
           PYTHONUNBUFFERED: 1
           APIFY_API_TOKEN_1: ${{ secrets.APIFY_API_TOKEN_1 }}
           APIFY_API_TOKEN_2: ${{ secrets.APIFY_API_TOKEN_2 }}
           APIFY_API_TOKEN_3: ${{ secrets.APIFY_API_TOKEN_3 }}
-        run: |
-          python googlemaps.py
-
+        run: python gmaps_pipeline.py scan
       - name: Push Hasil
         if: always()
         run: |
@@ -141,5 +124,5 @@ jobs:
           git config user.email "actions@github.com"
           git pull --rebase origin main
           git add output/
-          git diff --staged --quiet || git commit -m "Update Google Maps $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Update Google Maps Gresik $(date +'%Y-%m-%d')"
           git push

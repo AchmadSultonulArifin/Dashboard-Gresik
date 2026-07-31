@@ -42,6 +42,14 @@ SUMMARY_FILE = "output/semua_tempat_summary.json"
 #  Facebook
 FACEBOOK_SENTIMEN = "output/data_sentimen_gresik.csv"
 
+# Upload Foto Profil
+UPLOAD_FOLDER_FOTO = os.path.join("static", "foto_profil")
+os.makedirs(UPLOAD_FOLDER_FOTO, exist_ok=True)
+EKSTENSI_DIIZINKAN = {"png", "jpg", "jpeg", "webp"}
+
+def ekstensi_valid(filename):
+    return "." in filename and filename.rsplit(".", 1)[1].lower() in EKSTENSI_DIIZINKAN
+
 # ── Context Processor: tersedia di semua template ──
 @app.context_processor
 def inject_update_terakhir():
@@ -737,6 +745,7 @@ class User(UserMixin, db.Model):
     email      = db.Column(db.String(100), unique=True, nullable=False)
     password   = db.Column(db.String(255), nullable=False)
     role       = db.Column(db.String(20), default="user")
+    foto       = db.Column(db.String(255), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
 
 #LOGIN USER
@@ -872,6 +881,48 @@ def profile():
             current_user.email    = email_baru
             db.session.commit()
             flash("Profil berhasil diperbarui.", "success")
+            return redirect(url_for("profile"))
+
+        # ── Upload foto profil ──
+        elif aksi == "upload_foto":
+            file = request.files.get("foto")
+
+            if not file or file.filename == "":
+                flash("Tidak ada file yang dipilih.", "danger")
+                return redirect(url_for("profile"))
+
+            if not ekstensi_valid(file.filename):
+                flash("Format file tidak didukung. Gunakan PNG, JPG, atau WEBP.", "danger")
+                return redirect(url_for("profile"))
+
+            from werkzeug.utils import secure_filename
+            ext = file.filename.rsplit(".", 1)[1].lower()
+            nama_file = f"user_{current_user.id}.{ext}"
+            path_simpan = os.path.join(UPLOAD_FOLDER_FOTO, nama_file)
+
+            # ── Hapus foto profil ──
+        elif aksi == "hapus_foto":
+            if current_user.foto:
+                path_foto = os.path.join(UPLOAD_FOLDER_FOTO, current_user.foto)
+                if os.path.exists(path_foto):
+                    os.remove(path_foto)
+                current_user.foto = None
+                db.session.commit()
+                flash("Foto profil berhasil dihapus.", "success")
+            else:
+                flash("Belum ada foto profil untuk dihapus.", "danger")
+            return redirect(url_for("profile"))
+
+            # Hapus foto lama jika beda ekstensi
+            if current_user.foto:
+                path_lama = os.path.join(UPLOAD_FOLDER_FOTO, current_user.foto)
+                if os.path.exists(path_lama) and current_user.foto != nama_file:
+                    os.remove(path_lama)
+
+            file.save(path_simpan)
+            current_user.foto = nama_file
+            db.session.commit()
+            flash("Foto profil berhasil diperbarui.", "success")
             return redirect(url_for("profile"))
 
         # ── Ganti password ──

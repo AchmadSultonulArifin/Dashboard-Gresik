@@ -175,18 +175,29 @@
       box-shadow: 0 0 0 3px rgba(45,111,212,0.12);
     }
 
+    /* Input password butuh ruang ekstra di kanan untuk ikon mata */
+    input[type="password"] {
+      padding-right: 5rem;
+    }
+
     /* Toggle password */
     .toggle-pw {
       position: absolute;
-      right: 0.9rem; top: 50%;
+      right: 0.75rem;
+      top: 50%;
       transform: translateY(-50%);
-      background: none; border: none;
-      cursor: pointer; padding: 0;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
       color: var(--gray-text);
-      display: flex; align-items: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
     }
     .toggle-pw:hover { color: var(--blue-mid); }
-    .toggle-pw svg { width: 18px; height: 18px; }
+    .toggle-pw svg { width: 18px; height: 18px; pointer-events: none; }
 
     /* Forgot */
     .forgot-row {

@@ -1,0 +1,378 @@
+{% extends "base.html" %}
+{% block title %}Profil Saya{% endblock %}
+{% block content %}
+
+<style>
+  :root {
+    --pf-blue-dark:  #0D2B5E;
+    --pf-blue-mid:   #1A4A9E;
+    --pf-blue-light: #2D6FD4;
+    --pf-gold:       #C8A84B;
+    --pf-ink:        #16233F;
+    --pf-muted:      #6B7793;
+    --pf-line:       #E3E7F0;
+    --pf-bg-soft:    #F6F8FC;
+    --pf-red:        #C0392B;
+    --pf-green:      #1F7A4D;
+  }
+
+  .pf-wrap { max-width: 760px; }
+
+  .pf-head {
+    margin-bottom: 28px;
+  }
+  .pf-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--pf-gold);
+    margin-bottom: 6px;
+  }
+  .pf-head h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--pf-ink);
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .pf-head p {
+    font-size: 13.5px;
+    color: var(--pf-muted);
+    margin-top: 6px;
+  }
+
+  /* ── Hero identity strip ── */
+  .pf-hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 28px 30px;
+    border-radius: 16px;
+    background: linear-gradient(120deg, var(--pf-blue-dark) 0%, var(--pf-blue-mid) 65%, var(--pf-blue-light) 100%);
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .pf-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 88% 20%, rgba(200,168,75,0.28), transparent 42%),
+      radial-gradient(circle at 15% 110%, rgba(255,255,255,0.10), transparent 50%);
+    pointer-events: none;
+  }
+  .pf-avatar {
+    position: relative;
+    z-index: 1;
+    width: 76px; height: 76px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.12);
+    border: 2px solid rgba(255,255,255,0.35);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px; font-weight: 800; color: #fff;
+    overflow: hidden;
+  }
+  .pf-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+  .pf-identity { position: relative; z-index: 1; min-width: 0; }
+  .pf-identity .nama {
+    font-size: 20px; font-weight: 800; color: #fff; letter-spacing: -0.01em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .pf-meta-row { display: flex; align-items: center; gap: 10px; margin-top: 7px; flex-wrap: wrap; }
+  .pf-role-badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.03em;
+    padding: 3px 11px; border-radius: 20px;
+    background: rgba(200,168,75,0.22); color: #F2E2AC;
+    border: 1px solid rgba(200,168,75,0.4);
+    text-transform: capitalize;
+  }
+  .pf-role-badge svg { width: 11px; height: 11px; }
+  .pf-since { font-size: 12px; color: rgba(255,255,255,0.65); }
+
+  /* ── Section cards ── */
+  .pf-section {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid var(--pf-line);
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+  .pf-section-head {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 20px 26px 16px;
+  }
+  .pf-section-icon {
+    width: 34px; height: 34px; border-radius: 9px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--pf-bg-soft); color: var(--pf-blue-mid);
+  }
+  .pf-section-icon svg { width: 17px; height: 17px; }
+  .pf-section-head h2 {
+    font-size: 14.5px; font-weight: 700; color: var(--pf-ink); margin: 0;
+  }
+  .pf-section-head .sub { font-size: 12.5px; color: var(--pf-muted); margin-top: 2px; }
+
+  .pf-section-body { padding: 4px 26px 24px; }
+
+  /* Divider between sub-forms in same card (not used but reserved) */
+  .pf-divider { height: 1px; background: var(--pf-line); margin: 0 26px; }
+
+  /* ── Foto uploader ── */
+  .pf-file-drop {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 16px;
+    border: 1.5px dashed var(--pf-line);
+    border-radius: 10px;
+    background: var(--pf-bg-soft);
+  }
+  .pf-file-drop input[type="file"] {
+    font-size: 12.5px; color: var(--pf-muted); font-family: inherit;
+  }
+  .pf-file-drop input[type="file"]::file-selector-button {
+    padding: 7px 14px; margin-right: 12px;
+    border: none; border-radius: 7px;
+    background: var(--pf-blue-mid); color: #fff;
+    font-size: 12px; font-weight: 600; font-family: inherit;
+    cursor: pointer; transition: background .15s;
+  }
+  .pf-file-drop input[type="file"]::file-selector-button:hover { background: var(--pf-blue-dark); }
+
+  /* ── Form fields ── */
+  .pf-field { margin-bottom: 16px; }
+  .pf-field label {
+    display: block; font-size: 12px; font-weight: 700; color: var(--pf-ink);
+    letter-spacing: 0.01em; margin-bottom: 6px;
+  }
+  .pf-field input {
+    width: 100%; padding: 10px 13px;
+    border: 1.5px solid var(--pf-line); border-radius: 9px;
+    font-size: 13.5px; font-family: inherit; color: var(--pf-ink);
+    background: var(--pf-bg-soft);
+    outline: none; transition: border-color .15s, background .15s, box-shadow .15s;
+  }
+  .pf-field input:focus {
+    border-color: var(--pf-blue-light); background: #fff;
+    box-shadow: 0 0 0 3px rgba(45,111,212,0.12);
+  }
+  .pf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 620px) { .pf-row { grid-template-columns: 1fr; } .pf-hero { flex-wrap: wrap; } }
+
+  .pf-hint { font-size: 11.5px; color: var(--pf-muted); margin-top: 5px; }
+
+  /* ── Buttons ── */
+  .pf-btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 10px 22px;
+    background: linear-gradient(135deg, var(--pf-blue-mid), var(--pf-blue-light));
+    color: #fff; border: none; border-radius: 9px;
+    font-size: 13px; font-weight: 700; font-family: inherit;
+    cursor: pointer; letter-spacing: 0.01em;
+    box-shadow: 0 3px 10px rgba(26,74,158,0.25);
+    transition: transform .12s, box-shadow .15s, opacity .15s;
+  }
+  .pf-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(26,74,158,0.32); }
+  .pf-btn:active { transform: translateY(0); }
+  .pf-btn svg { width: 14px; height: 14px; }
+
+  /* ── Flash ── */
+  .pf-flash {
+    display: flex; align-items: center; gap: 9px;
+    padding: 11px 16px; border-radius: 10px;
+    font-size: 13px; font-weight: 600; margin-bottom: 18px;
+  }
+  .pf-flash.danger  { background:#FDF2F1; color:var(--pf-red);   border:1px solid #F4CFC8; }
+  .pf-flash.success { background:#EFF8F2; color:var(--pf-green); border:1px solid #C6E5D3; }
+  .pf-flash svg { width: 15px; height: 15px; flex-shrink: 0; }
+</style>
+
+<div class="pf-wrap">
+
+  <div class="pf-head">
+    <div class="pf-eyebrow">Pengaturan Akun</div>
+    <h1>Profil Saya</h1>
+    <p>Kelola identitas, foto, dan keamanan akun Anda di Dashboard Gresik.</p>
+  </div>
+
+  <!-- Flash messages -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="pf-flash {{ category }}">
+          {% if category == 'danger' %}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          {% else %}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          {% endif %}
+          {{ message }}
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <!-- Hero identity -->
+  <div class="pf-hero">
+    <div class="pf-avatar">
+      {% if current_user.foto %}
+        <img src="{{ url_for('static', filename='foto_profil/' + current_user.foto) }}" alt="Foto profil">
+      {% else %}
+        {{ current_user.username[0]|upper if current_user.username else "?" }}
+      {% endif %}
+    </div>
+    <div class="pf-identity">
+      <div class="nama">{{ current_user.username }}</div>
+      <div class="pf-meta-row">
+        <span class="pf-role-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          {{ current_user.role }}
+        </span>
+        <span class="pf-since">
+          Bergabung sejak {{ current_user.created_at.strftime("%d %B %Y") if current_user.created_at else "-" }}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Foto Profil -->
+  <div class="pf-section">
+    <div class="pf-section-head">
+      <div class="pf-section-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </div>
+      <div>
+        <h2>Foto Profil</h2>
+        <div class="sub">PNG, JPG, atau WEBP — maksimal 2MB.</div>
+      </div>
+    </div>
+    <div class="pf-section-body">
+      <form method="POST" action="{{ url_for('profile') }}" enctype="multipart/form-data">
+        <input type="hidden" name="aksi" value="upload_foto">
+        <div class="pf-file-drop">
+          <input type="file" name="foto" accept=".png,.jpg,.jpeg,.webp" required>
+        </div>
+        <div style="margin-top:16px; display:flex; gap:10px;">
+          <button type="submit" class="pf-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            Unggah Foto
+          </button>
+        </div>
+      </form>
+
+      {% if current_user.foto %}
+      <form method="POST" action="{{ url_for('profile') }}" style="margin-top:10px;"
+            onsubmit="return confirm('Hapus foto profil ini?');">
+        <input type="hidden" name="aksi" value="hapus_foto">
+        <button type="submit" class="pf-btn" style="background:#fff; color:#C0392B; border:1.5px solid #F4CFC8; box-shadow:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          Hapus Foto
+        </button>
+      </form>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Informasi Profil -->
+  <div class="pf-section">
+    <div class="pf-section-head">
+      <div class="pf-section-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </div>
+      <div>
+        <h2>Informasi Profil</h2>
+        <div class="sub">Perbarui nama pengguna dan alamat email Anda.</div>
+      </div>
+    </div>
+    <div class="pf-section-body">
+      <form method="POST" action="{{ url_for('profile') }}">
+        <input type="hidden" name="aksi" value="update_profile">
+        <div class="pf-row">
+          <div class="pf-field">
+            <label for="username">Nama Pengguna</label>
+            <input type="text" id="username" name="username" value="{{ current_user.username }}" required>
+          </div>
+          <div class="pf-field">
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="email" value="{{ current_user.email }}" required>
+          </div>
+        </div>
+        <button type="submit" class="pf-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Simpan Perubahan
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Ganti Password -->
+  <div class="pf-section">
+    <div class="pf-section-head">
+      <div class="pf-section-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      </div>
+      <div>
+        <h2>Ganti Kata Sandi</h2>
+        <div class="sub">Gunakan kata sandi kuat yang belum pernah dipakai sebelumnya.</div>
+      </div>
+    </div>
+    <div class="pf-section-body">
+      <form method="POST" action="{{ url_for('profile') }}" id="form-password">
+        <input type="hidden" name="aksi" value="ganti_password">
+
+        <div class="pf-field">
+          <label for="password_lama">Kata Sandi Saat Ini</label>
+          <input type="password" id="password_lama" name="password_lama" required>
+        </div>
+
+        <div class="pf-row">
+          <div class="pf-field">
+            <label for="password_baru">Kata Sandi Baru</label>
+            <input type="password" id="password_baru" name="password_baru" minlength="8" required>
+          </div>
+          <div class="pf-field">
+            <label for="konfirmasi_baru">Konfirmasi Kata Sandi Baru</label>
+            <input type="password" id="konfirmasi_baru" name="konfirmasi_baru" minlength="8" required>
+            <p class="pf-hint" id="hint-konfirmasi"></p>
+          </div>
+        </div>
+
+        <button type="submit" class="pf-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Ubah Kata Sandi
+        </button>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const pw   = document.getElementById('password_baru');
+  const pw2  = document.getElementById('konfirmasi_baru');
+  const hint = document.getElementById('hint-konfirmasi');
+  const form = document.getElementById('form-password');
+
+  function cekKecocokan() {
+    if (pw2.value.length === 0) { hint.textContent = ''; return true; }
+    if (pw.value !== pw2.value) {
+      hint.textContent = 'Kata sandi tidak cocok.';
+      hint.style.color = '#C0392B';
+      return false;
+    }
+    hint.textContent = 'Kata sandi cocok.';
+    hint.style.color = '#1F7A4D';
+    return true;
+  }
+
+  pw.addEventListener('input', cekKecocokan);
+  pw2.addEventListener('input', cekKecocokan);
+
+  form.addEventListener('submit', function (e) {
+    if (!cekKecocokan()) e.preventDefault();
+  });
+</script>
+
+{% endblock %}

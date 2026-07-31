@@ -13,7 +13,7 @@
   .kpi .val { font-size:24px; font-weight:500; color:#111827; }
   .kpi .sub { font-size:11px; color:#b0aea8; margin-top:3px; }
   .row2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:1.25rem; }
-  .row3 { display:grid; grid-template-columns:2fr 1fr; gap:12px; margin-bottom:1.25rem; }
+  .row3 { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:1.25rem; }
   .card { background:#fff; border:0.5px solid #e1e0d9; border-radius:12px; padding:1rem 1.25rem; }
   .card-title { font-size:13px; color:#52514e; margin-bottom:14px; display:flex; align-items:center; gap:6px; }
   .platform-row { display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:0.5px solid #f1efe8; }
@@ -70,7 +70,6 @@
     <div class="kpi">
       <div class="lbl">📷 Postingan Instagram</div>
       <div class="val">{{ total_instagram | default(0) }}</div>
-      <div class="sub">{{ total_like | default(0) }} total likes</div>
     </div>
     <div class="kpi">
       <div class="lbl" style="color:#3b6d11;">😊 Rata-rata skor sentimen</div>
@@ -78,9 +77,8 @@
       <div class="sub">Skala 0–1 Twitter</div>
     </div>
     <div class="kpi">
-      <div class="lbl">💬 Total komentar IG</div>
+      <div class="lbl">💬 Total komentar Instagram</div>
       <div class="val">{{ total_comment | default(0) }}</div>
-      <div class="sub">Rata-rata {{ rata_like | default(0) }} likes/post</div>
     </div>
   </div>
 

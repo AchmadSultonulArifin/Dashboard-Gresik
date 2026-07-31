@@ -227,6 +227,9 @@ async function renderUlasan(key) {
                         <span class="badge" style="background:#eef3ff;color:#2d5be3;">${u.topik||""}</span>
                         <span class="bintang">${"★".repeat(u["Bintang"]||0)}${"☆".repeat(5-(u["Bintang"]||0))}</span>
                     </div>
+                    <p style="font-size:11px;color:#898781;margin:2px 0 4px;">
+                        🕒 ${u["Tanggal"] ? new Date(u["Tanggal"]).toLocaleDateString("id-ID",{day:"numeric",month:"long",year:"numeric"}) : "-"}
+                    </p>
                     <p class="ulasan-teks">${u["Ulasan"]||"-"}</p>
                 </div>
             </div>`).join("");

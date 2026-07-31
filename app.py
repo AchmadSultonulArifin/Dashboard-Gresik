@@ -813,6 +813,7 @@ def forgot_password():
         else:
             flash("Email tidak terdaftar.", "danger")
     return render_template("forgot_password.html")
+
 #ROUTE RESET PASSWORD
 @app.route("/reset-password", methods=["GET", "POST"])
 def reset_password():
@@ -836,6 +837,67 @@ def reset_password():
         flash("Terjadi kesalahan.", "danger")
     return render_template("reset_password.html")
 
+#ROUTE PROFIL
+@app.route("/profile", methods=["GET", "POST"])
+@login_required
+def profile():
+    if request.method == "POST":
+        aksi = request.form.get("aksi")
+
+        # ── Ubah informasi profil (username & email) ──
+        if aksi == "update_profile":
+            username_baru = request.form.get("username", "").strip()
+            email_baru    = request.form.get("email", "").strip()
+
+            if not username_baru or not email_baru:
+                flash("Nama pengguna dan email tidak boleh kosong.", "danger")
+                return redirect(url_for("profile"))
+
+            # Cek username/email bentrok dengan user lain
+            cek_username = User.query.filter(
+                User.username == username_baru, User.id != current_user.id
+            ).first()
+            cek_email = User.query.filter(
+                User.email == email_baru, User.id != current_user.id
+            ).first()
+
+            if cek_username:
+                flash("Nama pengguna sudah digunakan.", "danger")
+                return redirect(url_for("profile"))
+            if cek_email:
+                flash("Email sudah digunakan.", "danger")
+                return redirect(url_for("profile"))
+
+            current_user.username = username_baru
+            current_user.email    = email_baru
+            db.session.commit()
+            flash("Profil berhasil diperbarui.", "success")
+            return redirect(url_for("profile"))
+
+        # ── Ganti password ──
+        elif aksi == "ganti_password":
+            password_lama   = request.form.get("password_lama", "")
+            password_baru   = request.form.get("password_baru", "")
+            konfirmasi_baru = request.form.get("konfirmasi_baru", "")
+
+            if not bcrypt.check_password_hash(current_user.password, password_lama):
+                flash("Kata sandi lama salah.", "danger")
+                return redirect(url_for("profile"))
+
+            if password_baru != konfirmasi_baru:
+                flash("Konfirmasi kata sandi baru tidak cocok.", "danger")
+                return redirect(url_for("profile"))
+
+            if len(password_baru) < 8:
+                flash("Kata sandi baru minimal 8 karakter.", "danger")
+                return redirect(url_for("profile"))
+
+            current_user.password = bcrypt.generate_password_hash(password_baru).decode("utf-8")
+            db.session.commit()
+            flash("Kata sandi berhasil diubah.", "success")
+            return redirect(url_for("profile"))
+
+    return render_template("profile.html")
 
 #Restart Token
 @app.route("/settings/token/<platform>", methods=["POST"])

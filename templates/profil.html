@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+{% block title %}Profil Saya{% endblock %}
+{% block content %}
+
+<div style="margin-bottom:20px;">
+    <h1 style="font-size:24px;font-weight:700;color:#111827;margin:0;">👤 Profil Saya</h1>
+    <p style="font-size:13px;color:#6b7280;margin:4px 0 0 0;">Kelola informasi akun dan kata sandi Anda.</p>
+</div>
+
+<style>
+  .profile-container { max-width: 720px; }
+  .profile-card {
+    background:#fff; border-radius:12px; padding:1.5rem 1.75rem;
+    border:0.5px solid #e1e0d9; margin-bottom:20px;
+  }
+  .profile-card h2 {
+    font-size:15px; font-weight:600; color:#111827; margin-bottom:4px;
+  }
+  .profile-card .subtitle { font-size:12px; color:#6b7280; margin-bottom:18px; }
+
+  .avatar-row { display:flex; align-items:center; gap:16px; margin-bottom:22px; }
+  .avatar-circle {
+    width:64px; height:64px; border-radius:50%;
+    background:linear-gradient(135deg,#1A4A9E,#2D6FD4);
+    color:#fff; display:flex; align-items:center; justify-content:center;
+    font-size:24px; font-weight:700; flex-shrink:0;
+  }
+  .avatar-info .nama { font-size:16px; font-weight:600; color:#111827; }
+  .avatar-info .peran {
+    display:inline-block; margin-top:4px; font-size:11px; font-weight:600;
+    padding:2px 10px; border-radius:20px; background:#eef3ff; color:#2d5be3;
+    text-transform:capitalize;
+  }
+  .avatar-info .sejak { font-size:12px; color:#898781; margin-top:4px; }
+
+  .form-group { margin-bottom:14px; }
+  .form-group label {
+    display:block; font-size:12.5px; font-weight:600; color:#374151; margin-bottom:5px;
+  }
+  .form-group input {
+    width:100%; padding:9px 12px; border:1.5px solid #e5e7eb; border-radius:8px;
+    font-size:13.5px; font-family:inherit; outline:none; transition:border-color .15s;
+    background:#fafafa;
+  }
+  .form-group input:focus { border-color:#2D6FD4; background:#fff; }
+  .form-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media(max-width:600px){ .form-row{ grid-template-columns:1fr; } }
+
+  .btn-submit {
+    padding:9px 20px; background:linear-gradient(135deg,#1A4A9E,#2D6FD4);
+    color:#fff; border:none; border-radius:8px; font-size:13.5px; font-weight:600;
+    font-family:inherit; cursor:pointer; transition:opacity .15s;
+  }
+  .btn-submit:hover { opacity:0.9; }
+
+  .flash {
+    display:flex; align-items:center; gap:8px; padding:10px 14px; border-radius:8px;
+    font-size:13px; font-weight:500; margin-bottom:16px;
+  }
+  .flash.danger  { background:#FFF5F5; color:#E53E3E; border:1px solid #FED7D7; }
+  .flash.success { background:#F0FFF4; color:#38A169; border:1px solid #C6F6D5; }
+
+  .hint { font-size:11.5px; color:#9ca3af; margin-top:4px; }
+</style>
+
+<div class="profile-container">
+
+  <!-- Flash messages -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="flash {{ category }}">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <!-- Kartu ringkasan akun -->
+  <div class="profile-card">
+    <div class="avatar-row">
+      <div class="avatar-circle">{{ current_user.username[0]|upper if current_user.username else "?" }}</div>
+      <div class="avatar-info">
+        <div class="nama">{{ current_user.username }}</div>
+        <span class="peran">{{ current_user.role }}</span>
+        <div class="sejak">
+          Bergabung sejak
+          {{ current_user.created_at.strftime("%d %B %Y") if current_user.created_at else "-" }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form: Informasi Profil -->
+  <div class="profile-card">
+    <h2>Informasi Profil</h2>
+    <p class="subtitle">Perbarui nama pengguna dan alamat email Anda.</p>
+
+    <form method="POST" action="{{ url_for('profile') }}">
+      <input type="hidden" name="aksi" value="update_profile">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="username">Nama Pengguna</label>
+          <input type="text" id="username" name="username" value="{{ current_user.username }}" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Alamat Email</label>
+          <input type="email" id="email" name="email" value="{{ current_user.email }}" required>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-submit">Simpan Perubahan</button>
+    </form>
+  </div>
+
+  <!-- Form: Ganti Password -->
+  <div class="profile-card">
+    <h2>Ganti Kata Sandi</h2>
+    <p class="subtitle">Gunakan kata sandi yang kuat dan belum pernah dipakai sebelumnya.</p>
+
+    <form method="POST" action="{{ url_for('profile') }}" id="form-password">
+      <input type="hidden" name="aksi" value="ganti_password">
+
+      <div class="form-group">
+        <label for="password_lama">Kata Sandi Saat Ini</label>
+        <input type="password" id="password_lama" name="password_lama" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="password_baru">Kata Sandi Baru</label>
+          <input type="password" id="password_baru" name="password_baru" minlength="8" required>
+        </div>
+        <div class="form-group">
+          <label for="konfirmasi_baru">Konfirmasi Kata Sandi Baru</label>
+          <input type="password" id="konfirmasi_baru" name="konfirmasi_baru" minlength="8" required>
+          <p class="hint" id="hint-konfirmasi"></p>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-submit">Ubah Kata Sandi</button>
+    </form>
+  </div>
+
+</div>
+
+<script>
+  const pw   = document.getElementById('password_baru');
+  const pw2  = document.getElementById('konfirmasi_baru');
+  const hint = document.getElementById('hint-konfirmasi');
+  const form = document.getElementById('form-password');
+
+  function cekKecocokan() {
+    if (pw2.value.length === 0) { hint.textContent = ''; return true; }
+    if (pw.value !== pw2.value) {
+      hint.textContent = 'Kata sandi tidak cocok.';
+      hint.style.color = '#E53E3E';
+      return false;
+    }
+    hint.textContent = 'Kata sandi cocok.';
+    hint.style.color = '#38A169';
+    return true;
+  }
+
+  pw.addEventListener('input', cekKecocokan);
+  pw2.addEventListener('input', cekKecocokan);
+
+  form.addEventListener('submit', function (e) {
+    if (!cekKecocokan()) e.preventDefault();
+  });
+</script>
+
+{% endblock %}

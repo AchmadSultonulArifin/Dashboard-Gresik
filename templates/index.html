@@ -41,7 +41,73 @@
   .bar-track { height:6px; background:#f1efe8; border-radius:3px; overflow:hidden; }
   .bar-fill  { height:100%; border-radius:3px; }
   .section-label { font-size:11px; font-weight:600; color:#b0aea8; letter-spacing:.06em; text-transform:uppercase; margin-bottom:10px; }
-  @media(max-width:700px){ .kpi-grid{grid-template-columns:repeat(2,1fr);} .row2,.row3{grid-template-columns:1fr;} }
+
+  /* ── Modal ── */
+  #modalTempat {
+    display:none; position:fixed; inset:0; z-index:9999;
+    background:rgba(0,0,0,0.45);
+    align-items:flex-start; justify-content:center;
+    padding:24px 12px; overflow-y:auto;
+  }
+  #modalTempat.aktif { display:flex; }
+  .modal-box {
+    background:#fff; border-radius:14px; border:0.5px solid #e1e0d9;
+    width:min(680px,96vw); position:relative;
+    padding:1.5rem 1.75rem; margin:auto;
+  }
+  .modal-tutup {
+    position:absolute; top:14px; right:16px;
+    background:none; border:none; font-size:20px;
+    cursor:pointer; color:#6b7280; line-height:1;
+  }
+  .modal-tutup:hover { color:#111827; }
+  .modal-kpi-grid {
+    display:grid; grid-template-columns:repeat(3,1fr);
+    gap:8px; margin-bottom:1rem;
+  }
+  .modal-kpi-box { border-radius:10px; padding:12px 14px; text-align:center; }
+  .modal-bar-track {
+    height:8px; border-radius:4px; overflow:hidden;
+    display:flex; gap:2px; margin-bottom:1.25rem;
+  }
+  .modal-bar-seg { transition:width .4s; }
+  .modal-divider { border-top:0.5px solid #f1efe8; margin:1.1rem 0; }
+  .modal-section-label {
+    font-size:11px; font-weight:600; color:#6b7280;
+    letter-spacing:.06em; text-transform:uppercase; margin-bottom:10px;
+  }
+  /* Grid 2 kolom untuk chart */
+  .modal-chart-grid {
+    display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:1rem;
+  }
+  .modal-chart-box {
+    background:#f9fafb; border:0.5px solid #f1efe8;
+    border-radius:10px; padding:12px 14px;
+  }
+  .modal-chart-title {
+    font-size:11px; font-weight:600; color:#6b7280;
+    letter-spacing:.05em; text-transform:uppercase; margin-bottom:10px;
+  }
+  .modal-chart-wrap { position:relative; height:160px; }
+  /* Chart lebar penuh */
+  .modal-chart-box.full { grid-column: 1 / -1; }
+  .modal-chart-box.full .modal-chart-wrap { height:150px; }
+
+  .ulasan-item { padding:10px 12px; border-radius:8px; margin-bottom:8px; }
+  .ulasan-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:5px; }
+  .nama-tempat-link {
+    color:#4f46e5; text-decoration:none;
+    font-size:14px; font-weight:500; cursor:pointer;
+  }
+  .nama-tempat-link:hover { text-decoration:underline; }
+
+  @media(max-width:600px){
+    .kpi-grid { grid-template-columns:repeat(2,1fr); }
+    .row2,.row3 { grid-template-columns:1fr; }
+    .modal-kpi-grid { grid-template-columns:repeat(3,1fr); }
+    .modal-chart-grid { grid-template-columns:1fr; }
+    .modal-chart-box.full { grid-column:1; }
+  }
 </style>
 
 <div class="home-wrap">
@@ -82,10 +148,8 @@
     </div>
   </div>
 
-  <!-- Row 2: Sentimen Twitter + Status Platform -->
+  <!-- Row 2 -->
   <div class="row2">
-
-    <!-- Distribusi Sentimen Twitter -->
     <div class="card">
       <p class="card-title">📊 Distribusi sentimen Twitter</p>
       {% set pos = sentimen.get('positif', 0) %}
@@ -93,69 +157,43 @@
       {% set neg = sentimen.get('negatif', 0) %}
       {% set tot = pos + net + neg if (pos + net + neg) > 0 else 1 %}
       <div class="bar-wrap">
-        <div class="bar-label">
-          <span>😊 Positif</span>
-          <span style="color:#3b6d11;font-weight:500;">{{ pos }} ({{ (pos/tot*100)|round(1) }}%)</span>
-        </div>
+        <div class="bar-label"><span>😊 Positif</span><span style="color:#3b6d11;font-weight:500;">{{ pos }} ({{ (pos/tot*100)|round(1) }}%)</span></div>
         <div class="bar-track"><div class="bar-fill" style="width:{{ (pos/tot*100)|round(1) }}%;background:#1baf7a;"></div></div>
       </div>
       <div class="bar-wrap">
-        <div class="bar-label">
-          <span>😐 Netral</span>
-          <span style="color:#854f0b;font-weight:500;">{{ net }} ({{ (net/tot*100)|round(1) }}%)</span>
-        </div>
+        <div class="bar-label"><span>😐 Netral</span><span style="color:#854f0b;font-weight:500;">{{ net }} ({{ (net/tot*100)|round(1) }}%)</span></div>
         <div class="bar-track"><div class="bar-fill" style="width:{{ (net/tot*100)|round(1) }}%;background:#eda100;"></div></div>
       </div>
       <div class="bar-wrap">
-        <div class="bar-label">
-          <span>😠 Negatif</span>
-          <span style="color:#a32d2d;font-weight:500;">{{ neg }} ({{ (neg/tot*100)|round(1) }}%)</span>
-        </div>
+        <div class="bar-label"><span>😠 Negatif</span><span style="color:#a32d2d;font-weight:500;">{{ neg }} ({{ (neg/tot*100)|round(1) }}%)</span></div>
         <div class="bar-track"><div class="bar-fill" style="width:{{ (neg/tot*100)|round(1) }}%;background:#e34948;"></div></div>
       </div>
-
-      <!-- Mini chart tren harian -->
       <p class="card-title" style="margin-top:16px;">📈 Tren sentimen harian</p>
       <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
     </div>
 
-    <!-- Status Platform -->
     <div class="card">
       <p class="card-title">🔌 Status platform</p>
       <div class="platform-row">
         <div class="plat-icon" style="background:#e6f1fb;">🐦</div>
-        <div style="flex:1;">
-          <div class="plat-name">Twitter</div>
-          <div class="plat-stat">{{ total | default(0) }} tweet • update: {{ update_twitter }}</div>
-        </div>
+        <div style="flex:1;"><div class="plat-name">Twitter</div><div class="plat-stat">{{ total | default(0) }} tweet • update: {{ update_twitter }}</div></div>
         {% if total > 0 %}<span class="badge badge-pos">Aktif</span>{% else %}<span class="badge badge-net">Kosong</span>{% endif %}
       </div>
       <div class="platform-row">
         <div class="plat-icon" style="background:#faeeda;">📷</div>
-        <div style="flex:1;">
-          <div class="plat-name">Instagram</div>
-          <div class="plat-stat">{{ total_instagram | default(0) }} postingan • update: {{ update_instagram }}</div>
-        </div>
+        <div style="flex:1;"><div class="plat-name">Instagram</div><div class="plat-stat">{{ total_instagram | default(0) }} postingan • update: {{ update_instagram }}</div></div>
         {% if total_instagram > 0 %}<span class="badge badge-pos">Aktif</span>{% else %}<span class="badge badge-net">Kosong</span>{% endif %}
       </div>
       <div class="platform-row">
         <div class="plat-icon" style="background:#eaf3de;">🗺️</div>
-        <div style="flex:1;">
-          <div class="plat-name">Google Maps</div>
-          <div class="plat-stat">Update: {{ update_gmaps }}</div>
-        </div>
+        <div style="flex:1;"><div class="plat-name">Google Maps</div><div class="plat-stat">Update: {{ update_gmaps }}</div></div>
         <span class="badge badge-pos">Aktif</span>
       </div>
       <div class="platform-row">
         <div class="plat-icon" style="background:#fcebeb;">📘</div>
-        <div style="flex:1;">
-          <div class="plat-name">Facebook</div>
-          <div class="plat-stat">Data scraping terpisah</div>
-        </div>
+        <div style="flex:1;"><div class="plat-name">Facebook</div><div class="plat-stat">Data scraping terpisah</div></div>
         <span class="badge badge-net">Manual</span>
       </div>
-
-      <!-- Topik terpopuler -->
       <p class="card-title" style="margin-top:18px;">🏷️ Topik terpopuler (Twitter)</p>
       {% if topik %}
         {% for t, n in topik.items() %}
@@ -170,10 +208,8 @@
     </div>
   </div>
 
-  <!-- Row 3: Tweet Viral + Aktivitas -->
+  <!-- Row 3 -->
   <div class="row3">
-
-    <!-- Tweet Viral -->
     <div class="card">
       <p class="card-title">🔥 Tweet dengan likes terbanyak</p>
       {% if tweet_viral %}
@@ -185,9 +221,7 @@
           <div style="flex:1;min-width:0;">
             <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:3px;">
               <span style="font-size:12px;font-weight:500;color:#374151;">@{{ t.username }}</span>
-              <span class="badge {% if t.sentimen=='positif' %}badge-pos{% elif t.sentimen=='negatif' %}badge-neg{% else %}badge-net{% endif %}">
-                {{ t.sentimen }}
-              </span>
+              <span class="badge {% if t.sentimen=='positif' %}badge-pos{% elif t.sentimen=='negatif' %}badge-neg{% else %}badge-net{% endif %}">{{ t.sentimen }}</span>
               <span style="font-size:11px;color:#898781;">❤️ {{ t.likes | int }}</span>
             </div>
             <p style="font-size:12px;color:#52514e;margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;">
@@ -201,7 +235,6 @@
       {% endif %}
     </div>
 
-    <!-- Postingan Instagram Terbaru + Info -->
     <div class="card">
       <p class="card-title">📷 Postingan Instagram terbaru</p>
       {% if post_terbaru %}
@@ -220,93 +253,187 @@
       {% endif %}
     </div>
   </div>
-<!-- ── Ringkasan Google Maps per Kategori ── -->
-{% if ringkasan_gmaps %}
-<div class="card">
-  <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;">
-    🗺️ Top 5 Tempat Terbaik per Kategori
-  </h3>
 
-  {% for kategori, tempat_list in ringkasan_gmaps.items() %}
-  <div style="margin-bottom:24px;">
-    <div style="font-size:12px;font-weight:700;color:#6b7280;text-transform:uppercase;
-                letter-spacing:.06em;margin-bottom:10px;padding-bottom:6px;
-                border-bottom:2px solid #f3f4f6;">
-      {{ kategori }}
+  <!-- Ringkasan Google Maps -->
+  {% if ringkasan_gmaps %}
+  <div class="card" style="margin-bottom:1.25rem;">
+    <h3 style="font-size:16px;font-weight:700;margin-bottom:4px;">🗺️ Top 5 Tempat Terbaik per Kategori</h3>
+    <p style="font-size:12px;color:#898781;margin:0 0 16px;">Klik nama tempat untuk melihat analisis lengkap beserta grafik.</p>
+    {% for kategori, tempat_list in ringkasan_gmaps.items() %}
+    <div style="margin-bottom:24px;">
+      <div style="font-size:12px;font-weight:700;color:#6b7280;text-transform:uppercase;
+                  letter-spacing:.06em;margin-bottom:10px;padding-bottom:6px;
+                  border-bottom:2px solid #f3f4f6;">{{ kategori }}</div>
+      <table style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr>
+            <th style="text-align:left;width:28px;font-size:12px;color:#9ca3af;padding:0 0 8px;">#</th>
+            <th style="text-align:left;font-size:12px;color:#9ca3af;padding:0 0 8px;">Nama Tempat</th>
+            <th style="text-align:center;width:80px;font-size:12px;color:#9ca3af;padding:0 0 8px;">⭐ Rating</th>
+            <th style="text-align:center;width:100px;font-size:12px;color:#9ca3af;padding:0 0 8px;">😊 Positif</th>
+            <th style="text-align:center;width:80px;font-size:12px;color:#9ca3af;padding:0 0 8px;">📝 Ulasan</th>
+            <th style="text-align:center;width:80px;font-size:12px;color:#9ca3af;padding:0 0 8px;">🏆 Skor</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for t in tempat_list %}
+          <tr style="border-top:0.5px solid #f3f4f6;">
+            <td style="color:#9ca3af;font-size:13px;padding:8px 0;">{{ loop.index }}</td>
+            <td style="padding:8px 8px 8px 0;">
+              <a href="#" class="nama-tempat-link"
+                 onclick="bukaTempat('{{ t.key }}', '{{ t.nama | e }}'); return false;">
+                {{ t.nama }}
+              </a>
+            </td>
+            <td style="text-align:center;padding:8px 0;font-weight:600;font-size:13px;">{{ t.rating }}</td>
+            <td style="text-align:center;padding:8px 0;">
+              <span style="background:#d1fae5;color:#065f46;padding:3px 8px;border-radius:20px;font-size:12px;font-weight:600;">{{ t.persen_positif }}%</span>
+            </td>
+            <td style="text-align:center;color:#6b7280;font-size:13px;padding:8px 0;">{{ t.total_ulasan }}</td>
+            <td style="text-align:center;padding:8px 0;font-weight:700;color:#4f46e5;font-size:13px;">{{ t.skor_gabungan }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th style="text-align:left;width:30px;">#</th>
-          <th style="text-align:left;">Nama Tempat</th>
-          <th style="text-align:center;width:80px;">⭐ Rating</th>
-          <th style="text-align:center;width:100px;">😊 Positif</th>
-          <th style="text-align:center;width:90px;">📝 Ulasan</th>
-          <th style="text-align:center;width:90px;">🏆 Skor</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for t in tempat_list %}
-        <tr>
-          <td style="color:#9ca3af;font-size:13px;">{{ loop.index }}</td>
-          <td>
-            <a href="/googlemaps/{{ t.key }}"
-               style="color:#4f46e5;text-decoration:none;font-size:14px;font-weight:500;">
-              {{ t.nama }}
-            </a>
-          </td>
-          <td style="text-align:center;">
-            <span style="font-weight:600;">{{ t.rating }}</span>
-          </td>
-          <td style="text-align:center;">
-            <span style="background:#d1fae5;color:#065f46;padding:3px 8px;
-                         border-radius:20px;font-size:12px;font-weight:600;">
-              {{ t.persen_positif }}%
-            </span>
-          </td>
-          <td style="text-align:center;color:#6b7280;font-size:13px;">
-            {{ t.total_ulasan }}
-          </td>
-          <td style="text-align:center;">
-            <span style="font-weight:700;color:#4f46e5;">{{ t.skor_gabungan }}</span>
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
-{% endif %}
-</div>
+  {% endif %}
+
+</div><!-- end .home-wrap -->
+
+
+<!-- ════════════════════════════════════════════
+     MODAL DETAIL TEMPAT GOOGLE MAPS
+════════════════════════════════════════════ -->
+<div id="modalTempat" onclick="tutupModalJika(event)">
+  <div class="modal-box">
+    <button class="modal-tutup" onclick="tutupModal()" aria-label="Tutup">✕</button>
+
+    <!-- Header -->
+    <div style="margin-bottom:1rem;padding-right:28px;">
+      <h2 id="modalNama" style="font-size:17px;font-weight:700;color:#111827;margin:0 0 4px;line-height:1.4;"></h2>
+      <div id="modalMeta" style="font-size:13px;color:#6b7280;"></div>
+    </div>
+
+    <!-- Loading -->
+    <div id="modalLoading" style="text-align:center;padding:3rem 1rem;color:#9ca3af;font-size:13px;">
+      <div style="font-size:28px;margin-bottom:8px;">⏳</div>Memuat data ulasan…
+    </div>
+
+    <!-- Error -->
+    <div id="modalError" style="display:none;text-align:center;padding:3rem 1rem;">
+      <div style="font-size:28px;margin-bottom:8px;">⚠️</div>
+      <p style="font-size:13px;color:#a32d2d;margin:0;">Data tidak ditemukan untuk tempat ini.</p>
+    </div>
+
+    <!-- Konten -->
+    <div id="modalKonten" style="display:none;">
+
+      <!-- KPI 3 kolom -->
+      <div class="modal-kpi-grid">
+        <div class="modal-kpi-box" style="background:#eaf3de;">
+          <div style="font-size:11px;color:#3b6d11;margin-bottom:4px;">😊 Positif</div>
+          <div id="mPositif" style="font-size:22px;font-weight:700;color:#3b6d11;"></div>
+          <div id="mPctPos"  style="font-size:11px;color:#3b6d11;margin-top:2px;"></div>
+        </div>
+        <div class="modal-kpi-box" style="background:#faeeda;">
+          <div style="font-size:11px;color:#854f0b;margin-bottom:4px;">😐 Netral</div>
+          <div id="mNetral" style="font-size:22px;font-weight:700;color:#854f0b;"></div>
+          <div id="mPctNet"  style="font-size:11px;color:#854f0b;margin-top:2px;"></div>
+        </div>
+        <div class="modal-kpi-box" style="background:#fcebeb;">
+          <div style="font-size:11px;color:#a32d2d;margin-bottom:4px;">😠 Negatif</div>
+          <div id="mNegatif" style="font-size:22px;font-weight:700;color:#a32d2d;"></div>
+          <div id="mPctNeg"  style="font-size:11px;color:#a32d2d;margin-top:2px;"></div>
+        </div>
+      </div>
+
+      <!-- Bar proporsi -->
+      <div class="modal-bar-track">
+        <div id="barPos" class="modal-bar-seg" style="background:#1baf7a;"></div>
+        <div id="barNet" class="modal-bar-seg" style="background:#eda100;"></div>
+        <div id="barNeg" class="modal-bar-seg" style="background:#e34948;"></div>
+      </div>
+
+      <div class="modal-divider"></div>
+
+      <!-- ── 4 CHART ── -->
+      <p class="modal-section-label">📊 Analisis visual</p>
+
+      <div class="modal-chart-grid">
+
+        <!-- Chart 1: Donut sentimen -->
+        <div class="modal-chart-box">
+          <div class="modal-chart-title">Distribusi sentimen</div>
+          <div class="modal-chart-wrap">
+            <canvas id="chartDonut"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 2: Bar bintang -->
+        <div class="modal-chart-box">
+          <div class="modal-chart-title">Distribusi bintang</div>
+          <div class="modal-chart-wrap">
+            <canvas id="chartBintang"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 3: Line tren per minggu (lebar penuh) -->
+        <div class="modal-chart-box full">
+          <div class="modal-chart-title">Tren sentimen per minggu</div>
+          <div class="modal-chart-wrap">
+            <canvas id="chartTren"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 4: Bar topik (lebar penuh) -->
+        <div class="modal-chart-box full">
+          <div class="modal-chart-title">Topik terpopuler</div>
+          <div class="modal-chart-wrap">
+            <canvas id="chartTopik"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-divider"></div>
+
+      <!-- Ulasan terbaru -->
+      <p class="modal-section-label">Ulasan terbaru</p>
+      <div id="mUlasan"></div>
+
+      <!-- Footer tombol -->
+      <div style="margin-top:1.25rem;display:flex;justify-content:space-between;align-items:center;">
+        <span style="font-size:12px;color:#9ca3af;">Menampilkan maks. 5 ulasan terbaru</span>
+        <a id="linkDetail" href="#" style="font-size:13px;padding:8px 18px;
+           background:#4f46e5;color:#fff;border-radius:8px;
+           text-decoration:none;font-weight:500;">Lihat semua ulasan →</a>
+      </div>
+
+    </div><!-- end #modalKonten -->
+  </div><!-- end .modal-box -->
+</div><!-- end #modalTempat -->
+
 
 <script>
-// ── Tren Sentimen Harian ──
+/* ══════════════════════════════════
+   CHART TREN BERANDA
+══════════════════════════════════ */
 const rawChart = {{ chart_data | tojson }};
-
 const tanggalSet = [...new Set(rawChart.map(d => d.tanggal))].sort();
-const sentPos = tanggalSet.map(tgl => {
-  const r = rawChart.find(d => d.tanggal === tgl && d.sentimen === 'positif');
+const mkSeries = s => tanggalSet.map(tgl => {
+  const r = rawChart.find(d => d.tanggal === tgl && d.sentimen === s);
   return r ? r.jumlah : 0;
 });
-const sentNet = tanggalSet.map(tgl => {
-  const r = rawChart.find(d => d.tanggal === tgl && d.sentimen === 'netral');
-  return r ? r.jumlah : 0;
-});
-const sentNeg = tanggalSet.map(tgl => {
-  const r = rawChart.find(d => d.tanggal === tgl && d.sentimen === 'negatif');
-  return r ? r.jumlah : 0;
-});
-
-const ctx = document.getElementById('trendChart').getContext('2d');
-new Chart(ctx, {
+new Chart(document.getElementById('trendChart').getContext('2d'), {
   type: 'line',
   data: {
     labels: tanggalSet,
     datasets: [
-      { label:'Positif', data:sentPos, borderColor:'#1baf7a', backgroundColor:'rgba(27,175,122,.08)', tension:.35, fill:true, pointRadius:2, borderWidth:2 },
-      { label:'Netral',  data:sentNet, borderColor:'#eda100', backgroundColor:'rgba(237,161,0,.08)',   tension:.35, fill:true, pointRadius:2, borderWidth:2 },
-      { label:'Negatif', data:sentNeg, borderColor:'#e34948', backgroundColor:'rgba(227,73,72,.08)',   tension:.35, fill:true, pointRadius:2, borderWidth:2 },
+      { label:'Positif', data:mkSeries('positif'), borderColor:'#1baf7a', backgroundColor:'rgba(27,175,122,.08)', tension:.35, fill:true, pointRadius:2, borderWidth:2 },
+      { label:'Netral',  data:mkSeries('netral'),  borderColor:'#eda100', backgroundColor:'rgba(237,161,0,.08)',   tension:.35, fill:true, pointRadius:2, borderWidth:2 },
+      { label:'Negatif', data:mkSeries('negatif'), borderColor:'#e34948', backgroundColor:'rgba(227,73,72,.08)',   tension:.35, fill:true, pointRadius:2, borderWidth:2 },
     ]
   },
   options: {
@@ -318,5 +445,315 @@ new Chart(ctx, {
     }
   }
 });
+
+
+/* ══════════════════════════════════
+   MODAL GOOGLE MAPS + 4 CHART
+══════════════════════════════════ */
+const WARNA_BG  = { positif:'#eaf3de', netral:'#faeeda', negatif:'#fcebeb' };
+const WARNA_TXT = { positif:'#3b6d11', netral:'#854f0b', negatif:'#a32d2d' };
+
+// Simpan instance chart agar bisa di-destroy sebelum dibuat ulang
+let chartInstances = {};
+
+function destroyCharts() {
+  Object.values(chartInstances).forEach(c => { if (c) c.destroy(); });
+  chartInstances = {};
+}
+
+function norm(s) { return (s || '').toLowerCase().trim(); }
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/* Konversi tanggal ISO ke label "YYYY-Www" (tahun-minggu) */
+function isoKeWeek(isoStr) {
+  if (!isoStr) return null;
+  try {
+    const d = new Date(isoStr);
+    if (isNaN(d)) return null;
+    // Hitung minggu ISO-8601
+    const tmp = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    tmp.setUTCDate(tmp.getUTCDate() + 4 - (tmp.getUTCDay() || 7));
+    const yearStart = new Date(Date.UTC(tmp.getUTCFullYear(), 0, 1));
+    const week = Math.ceil((((tmp - yearStart) / 86400000) + 1) / 7);
+    return `${tmp.getUTCFullYear()}-W${String(week).padStart(2,'0')}`;
+  } catch(e) { return null; }
+}
+
+function bukaTempat(key, nama) {
+  const modal = document.getElementById('modalTempat');
+
+  // Reset
+  document.getElementById('modalNama').textContent      = nama;
+  document.getElementById('modalMeta').textContent      = 'Memuat…';
+  document.getElementById('modalLoading').style.display = 'block';
+  document.getElementById('modalKonten').style.display  = 'none';
+  document.getElementById('modalError').style.display   = 'none';
+  document.getElementById('linkDetail').href = '/googlemaps/' + key;
+  destroyCharts();
+
+  modal.classList.add('aktif');
+  document.body.style.overflow = 'hidden';
+
+  fetch('/api/googlemaps/' + encodeURIComponent(key))
+    .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+    .then(data => {
+      const ulasan = data.ulasan || [];
+
+      /* ── Hitung sentimen ── */
+      const pos = ulasan.filter(u => norm(u.sentimen) === 'positif').length;
+      const net = ulasan.filter(u => norm(u.sentimen) === 'netral').length;
+      const neg = ulasan.filter(u => norm(u.sentimen) === 'negatif').length;
+      const tot = pos + net + neg || 1;
+
+      /* ── Meta ── */
+      const rating = data.rating !== undefined ? data.rating : '-';
+      document.getElementById('modalMeta').textContent =
+        '⭐ Rating: ' + rating + '  •  📝 ' + tot + ' ulasan';
+
+      /* ── KPI ── */
+      document.getElementById('mPositif').textContent = pos;
+      document.getElementById('mNetral').textContent  = net;
+      document.getElementById('mNegatif').textContent = neg;
+      document.getElementById('mPctPos').textContent  = (pos/tot*100).toFixed(1) + '%';
+      document.getElementById('mPctNet').textContent  = (net/tot*100).toFixed(1) + '%';
+      document.getElementById('mPctNeg').textContent  = (neg/tot*100).toFixed(1) + '%';
+
+      /* ── Bar proporsi ── */
+      document.getElementById('barPos').style.width = (pos/tot*100).toFixed(1) + '%';
+      document.getElementById('barNet').style.width = (net/tot*100).toFixed(1) + '%';
+      document.getElementById('barNeg').style.width = (neg/tot*100).toFixed(1) + '%';
+
+      /* ══════════════════════════════════════
+         CHART 1 — Donut sentimen
+      ══════════════════════════════════════ */
+      chartInstances.donut = new Chart(
+        document.getElementById('chartDonut').getContext('2d'), {
+        type: 'doughnut',
+        data: {
+          labels: ['Positif', 'Netral', 'Negatif'],
+          datasets: [{
+            data: [pos, net, neg],
+            backgroundColor: ['#1baf7a', '#eda100', '#e34948'],
+            borderWidth: 0,
+            hoverOffset: 4
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          cutout: '62%',
+          plugins: {
+            legend: { position:'bottom', labels:{ font:{size:11}, boxWidth:10, padding:10 } },
+            tooltip: {
+              callbacks: {
+                label: ctx => {
+                  const v = ctx.parsed;
+                  return ' ' + ctx.label + ': ' + v + ' (' + (v/tot*100).toFixed(1) + '%)';
+                }
+              }
+            }
+          }
+        }
+      });
+
+      /* ══════════════════════════════════════
+         CHART 2 — Bar distribusi bintang (1–5)
+      ══════════════════════════════════════ */
+      const bintangCount = [1,2,3,4,5].map(b =>
+        ulasan.filter(u => Math.round(parseFloat(u.Bintang)||0) === b).length
+      );
+      chartInstances.bintang = new Chart(
+        document.getElementById('chartBintang').getContext('2d'), {
+        type: 'bar',
+        data: {
+          labels: ['⭐ 1','⭐ 2','⭐ 3','⭐ 4','⭐ 5'],
+          datasets: [{
+            label: 'Ulasan',
+            data: bintangCount,
+            backgroundColor: ['#e34948','#f97316','#eda100','#84cc16','#1baf7a'],
+            borderRadius: 5,
+            borderSkipped: false
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend:{ display:false } },
+          scales: {
+            x: { grid:{ display:false }, ticks:{ font:{size:11} } },
+            y: {
+              beginAtZero: true,
+              ticks: { stepSize:1, font:{size:10} },
+              grid: { color:'#f1efe8' }
+            }
+          }
+        }
+      });
+
+      /* ══════════════════════════════════════
+         CHART 3 — Line tren sentimen per minggu
+      ══════════════════════════════════════ */
+      // Kelompokkan ulasan per minggu per sentimen
+      const weekMap = {};
+      ulasan.forEach(u => {
+        const wk = isoKeWeek(u.Tanggal);
+        if (!wk) return;
+        if (!weekMap[wk]) weekMap[wk] = { positif:0, netral:0, negatif:0 };
+        const s = norm(u.sentimen);
+        if (weekMap[wk][s] !== undefined) weekMap[wk][s]++;
+      });
+      const weeks = Object.keys(weekMap).sort();
+      const mkWeekSeries = s => weeks.map(w => weekMap[w][s] || 0);
+
+      // Label singkat: ambil tanggal Senin dari nomor minggu
+      const weekLabels = weeks.map(w => {
+        const [yr, wn] = w.split('-W').map(Number);
+        // Senin minggu ke-wn di tahun yr
+        const jan4 = new Date(yr, 0, 4);
+        const monday = new Date(jan4);
+        monday.setDate(jan4.getDate() - (jan4.getDay()||7) + 1 + (wn-1)*7);
+        return monday.toLocaleDateString('id-ID', { day:'numeric', month:'short' });
+      });
+
+      chartInstances.tren = new Chart(
+        document.getElementById('chartTren').getContext('2d'), {
+        type: 'line',
+        data: {
+          labels: weekLabels.length ? weekLabels : ['(tidak ada data)'],
+          datasets: [
+            { label:'Positif', data:mkWeekSeries('positif'), borderColor:'#1baf7a', backgroundColor:'rgba(27,175,122,.1)', tension:.35, fill:true, pointRadius:3, borderWidth:2 },
+            { label:'Netral',  data:mkWeekSeries('netral'),  borderColor:'#eda100', backgroundColor:'rgba(237,161,0,.1)',   tension:.35, fill:true, pointRadius:3, borderWidth:2 },
+            { label:'Negatif', data:mkWeekSeries('negatif'), borderColor:'#e34948', backgroundColor:'rgba(227,73,72,.1)',   tension:.35, fill:true, pointRadius:3, borderWidth:2 },
+          ]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { position:'bottom', labels:{ font:{size:11}, boxWidth:10, padding:10 } }
+          },
+          scales: {
+            x: { ticks:{ font:{size:9}, maxRotation:45 }, grid:{ display:false } },
+            y: { beginAtZero:true, ticks:{ stepSize:1, font:{size:10} }, grid:{ color:'#f1efe8' } }
+          }
+        }
+      });
+
+      /* ══════════════════════════════════════
+         CHART 4 — Bar topik terpopuler
+      ══════════════════════════════════════ */
+      const topikMap = {};
+      ulasan.forEach(u => {
+        const t = (u.topik || '').trim();
+        if (t) topikMap[t] = (topikMap[t] || 0) + 1;
+      });
+      // Urutkan descending, ambil top 8
+      const topikSorted = Object.entries(topikMap)
+        .sort((a,b) => b[1]-a[1])
+        .slice(0, 8);
+      const topikLabels = topikSorted.map(e => e[0]);
+      const topikData   = topikSorted.map(e => e[1]);
+
+      // Warna bergantian biru-ungu
+      const topikWarna = topikLabels.map((_,i) =>
+        ['#4f46e5','#7c3aed','#0ea5e9','#06b6d4','#6366f1','#8b5cf6','#38bdf8','#22d3ee'][i % 8]
+      );
+
+      chartInstances.topik = new Chart(
+        document.getElementById('chartTopik').getContext('2d'), {
+        type: 'bar',
+        data: {
+          labels: topikLabels.length ? topikLabels : ['(tidak ada topik)'],
+          datasets: [{
+            label: 'Jumlah ulasan',
+            data: topikData.length ? topikData : [0],
+            backgroundColor: topikWarna,
+            borderRadius: 5,
+            borderSkipped: false
+          }]
+        },
+        options: {
+          indexAxis: 'y',   // horizontal bar
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend:{ display:false } },
+          scales: {
+            x: { beginAtZero:true, ticks:{ stepSize:1, font:{size:10} }, grid:{ color:'#f1efe8' } },
+            y: { ticks:{ font:{size:11} }, grid:{ display:false } }
+          }
+        }
+      });
+
+      /* ══════════════════════════════════════
+         ULASAN TERBARU (5)
+      ══════════════════════════════════════ */
+      const sorted = ulasan.slice().sort((a, b) => {
+        return (b.Tanggal ? new Date(b.Tanggal) : 0) - (a.Tanggal ? new Date(a.Tanggal) : 0);
+      });
+      const sample = sorted.slice(0, 5);
+
+      if (sample.length === 0) {
+        document.getElementById('mUlasan').innerHTML =
+          '<p style="font-size:13px;color:#9ca3af;text-align:center;padding:1rem;">Tidak ada ulasan tersedia.</p>';
+      } else {
+        const html = sample.map(u => {
+          const sent     = norm(u.sentimen);
+          const bg       = WARNA_BG[sent]  || '#f9fafb';
+          const txtCol   = WARNA_TXT[sent] || '#374151';
+          const bintang  = Math.min(5, Math.round(parseFloat(u.Bintang)||0));
+          const isiTeks  = (u.Ulasan || u.teks_final || '').trim();
+          const potongan = isiTeks.length > 200 ? isiTeks.substring(0,200)+'…' : isiTeks;
+          const nama_rev = u['Nama Reviewer'] || 'Anonim';
+          let tglStr = '';
+          if (u.Tanggal) {
+            try { tglStr = new Date(u.Tanggal).toLocaleDateString('id-ID',{day:'numeric',month:'short',year:'numeric'}); }
+            catch(e){}
+          }
+          return `
+            <div class="ulasan-item" style="background:${bg};">
+              <div class="ulasan-header">
+                <div style="display:flex;align-items:center;gap:8px;">
+                  <div style="width:26px;height:26px;border-radius:50%;background:${txtCol};
+                              display:flex;align-items:center;justify-content:center;
+                              font-size:11px;font-weight:600;color:#fff;flex-shrink:0;">
+                    ${escHtml(nama_rev.charAt(0).toUpperCase())}
+                  </div>
+                  <span style="font-size:12px;font-weight:500;color:${txtCol};">${escHtml(nama_rev)}</span>
+                </div>
+                <div style="text-align:right;">
+                  ${bintang > 0 ? `<div style="font-size:12px;color:${txtCol};">${'⭐'.repeat(bintang)}</div>` : ''}
+                  ${tglStr ? `<div style="font-size:11px;color:#9ca3af;margin-top:1px;">${tglStr}</div>` : ''}
+                </div>
+              </div>
+              <p style="font-size:13px;color:#374151;margin:6px 0 0;line-height:1.6;">
+                ${escHtml(potongan) || '<em style="color:#9ca3af;">Tidak ada teks ulasan.</em>'}
+              </p>
+              ${u.topik ? `<div style="margin-top:6px;"><span style="font-size:11px;background:#e0e7ff;color:#3730a3;padding:2px 8px;border-radius:20px;">${escHtml(u.topik)}</span></div>` : ''}
+            </div>`;
+        }).join('');
+        document.getElementById('mUlasan').innerHTML = html;
+      }
+
+      document.getElementById('modalLoading').style.display = 'none';
+      document.getElementById('modalKonten').style.display  = 'block';
+    })
+    .catch(() => {
+      document.getElementById('modalLoading').style.display = 'none';
+      document.getElementById('modalError').style.display   = 'block';
+    });
+}
+
+function tutupModal() {
+  document.getElementById('modalTempat').classList.remove('aktif');
+  document.body.style.overflow = '';
+  destroyCharts();
+}
+
+function tutupModalJika(e) {
+  if (e.target === document.getElementById('modalTempat')) tutupModal();
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupModal(); });
 </script>
 {% endblock %}

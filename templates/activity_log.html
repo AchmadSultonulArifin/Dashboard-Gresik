@@ -1,0 +1,258 @@
+{% extends "base.html" %}
+{% block title %}Log Aktivitas{% endblock %}
+
+{% block content %}
+<style>
+/* ===== Halaman Log Aktivitas ===== */
+.log-toolbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
+.log-updated{
+    font-size:13px;
+    color:#666;
+    background:white;
+    padding:8px 14px;
+    border-radius:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.06);
+}
+.stat.sukses .angka{ color:#16a34a; }
+.stat.gagal .angka{ color:#dc2626; }
+.stat.berjalan .angka{ color:#d97706; }
+
+.filter-form{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px;
+    align-items:end;
+}
+@media (max-width:900px){
+    .filter-form{ grid-template-columns:repeat(2,1fr); }
+}
+.filter-form label{
+    display:block;
+    font-size:12px;
+    font-weight:600;
+    color:#555;
+    margin-bottom:6px;
+}
+.filter-form select, .filter-form input[type="text"]{
+    width:100%;
+    padding:9px 12px;
+    border:1.5px solid #e5e7eb;
+    border-radius:8px;
+    font-size:13px;
+    outline:none;
+    transition:.2s;
+}
+.filter-form select:focus, .filter-form input[type="text"]:focus{
+    border-color:#4f46e5;
+    box-shadow:0 0 0 3px rgba(79,70,229,.1);
+}
+.filter-reset{
+    display:inline-block;
+    margin-top:10px;
+    font-size:12px;
+    color:#6b7280;
+    text-decoration:none;
+}
+.filter-reset:hover{ color:#4f46e5; }
+
+.badge{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+.badge-platform{ background:#f3f4f6; color:#374151; text-transform:capitalize; }
+.badge-sukses{ background:#d1fae5; color:#065f46; }
+.badge-gagal{ background:#fee2e2; color:#991b1b; }
+.badge-berjalan{ background:#fef3c7; color:#92400e; }
+
+.log-empty{
+    text-align:center;
+    color:#999;
+    padding:50px 20px;
+    font-size:14px;
+}
+.log-waktu{ color:#888; font-size:12px; white-space:nowrap; }
+.log-ket{ font-size:13px; color:#333; }
+
+.pagination{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:16px;
+    padding-top:16px;
+    border-top:1px solid #f0f0f0;
+}
+.pagination-info{ font-size:13px; color:#666; }
+.pagination-links{
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+}
+.pagination-links a, .pagination-links span{
+    display:inline-block;
+    min-width:32px;
+    text-align:center;
+    padding:6px 10px;
+    border-radius:8px;
+    font-size:13px;
+    text-decoration:none;
+    color:#374151;
+    background:#f3f4f6;
+}
+.pagination-links a:hover{ background:#e5e7eb; }
+.pagination-links .current{
+    background:#4f46e5;
+    color:white;
+    font-weight:600;
+}
+.pagination-links .disabled{
+    color:#c0c0c0;
+    background:#f9fafb;
+    pointer-events:none;
+}
+.pagination-links .ellipsis{
+    background:none;
+    color:#c0c0c0;
+}
+</style>
+
+<div class="log-toolbar">
+    <div class="log-updated">🕒 Update terakhir: {{ log_terakhir }}</div>
+</div>
+
+<!-- ── Ringkasan ── -->
+<div class="stat-grid" style="margin-bottom:20px;">
+    <div class="stat">
+        <div class="angka">{{ total_log }}</div>
+        <div class="label">Total Log</div>
+    </div>
+    <div class="stat sukses">
+        <div class="angka">{{ total_sukses }}</div>
+        <div class="label">Sukses</div>
+    </div>
+    <div class="stat gagal">
+        <div class="angka">{{ total_gagal }}</div>
+        <div class="label">Gagal</div>
+    </div>
+    <div class="stat berjalan">
+        <div class="angka">{{ total_berjalan }}</div>
+        <div class="label">Berjalan</div>
+    </div>
+</div>
+
+<!-- ── Filter ── -->
+<div class="card">
+    <form method="get" action="{{ url_for('activity_log') }}" class="filter-form">
+        <div>
+            <label>Platform</label>
+            <select name="platform">
+                <option value="" {% if not filter_platform %}selected{% endif %}>Semua Platform</option>
+                <option value="twitter" {% if filter_platform == 'twitter' %}selected{% endif %}>Twitter</option>
+                <option value="instagram" {% if filter_platform == 'instagram' %}selected{% endif %}>Instagram</option>
+                <option value="googlemaps" {% if filter_platform == 'googlemaps' %}selected{% endif %}>Google Maps</option>
+                <option value="facebook" {% if filter_platform == 'facebook' %}selected{% endif %}>Facebook</option>
+            </select>
+        </div>
+        <div>
+            <label>Status</label>
+            <select name="status">
+                <option value="" {% if not filter_status %}selected{% endif %}>Semua Status</option>
+                <option value="sukses" {% if filter_status == 'sukses' %}selected{% endif %}>Sukses</option>
+                <option value="gagal" {% if filter_status == 'gagal' %}selected{% endif %}>Gagal</option>
+                <option value="berjalan" {% if filter_status == 'berjalan' %}selected{% endif %}>Berjalan</option>
+            </select>
+        </div>
+        <div style="grid-column:span 2;">
+            <label>Cari keterangan</label>
+            <input type="text" name="q" value="{{ filter_q }}" placeholder="Cari kata kunci...">
+        </div>
+        <div style="grid-column:1 / -1;">
+            <button type="submit" class="btn btn-primary">Terapkan Filter</button>
+            {% if filter_platform or filter_status or filter_q %}
+            <a href="{{ url_for('activity_log') }}" class="filter-reset">✕ Hapus semua filter</a>
+            {% endif %}
+        </div>
+    </form>
+</div>
+
+<!-- ── Tabel Log ── -->
+<div class="card">
+    <table>
+        <thead>
+            <tr>
+                <th style="width:150px;">Waktu</th>
+                <th style="width:120px;">Platform</th>
+                <th style="width:150px;">Aktivitas</th>
+                <th style="width:110px;">Status</th>
+                <th>Keterangan</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in logs %}
+            <tr>
+                <td class="log-waktu">{{ log.waktu.strftime("%d %b %Y %H:%M") }}</td>
+                <td><span class="badge badge-platform">{{ log.platform }}</span></td>
+                <td style="text-transform:capitalize;">{{ log.aktivitas }}</td>
+                <td>
+                    {% if log.status == 'sukses' %}
+                        <span class="badge badge-sukses">Sukses</span>
+                    {% elif log.status == 'gagal' %}
+                        <span class="badge badge-gagal">Gagal</span>
+                    {% else %}
+                        <span class="badge badge-berjalan">Berjalan</span>
+                    {% endif %}
+                </td>
+                <td class="log-ket">{{ log.keterangan or "-" }}</td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="5" class="log-empty">
+                    📭 Belum ada log aktivitas yang cocok dengan filter ini.
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- ── Pagination ── -->
+    {% if total_pages > 1 %}
+    <div class="pagination">
+        <div class="pagination-info">Halaman {{ current_page }} dari {{ total_pages }}</div>
+        <div class="pagination-links">
+            {% if current_page > 1 %}
+                <a href="{{ url_for('activity_log', page=current_page-1, platform=filter_platform, status=filter_status, q=filter_q) }}">‹ Sebelumnya</a>
+            {% else %}
+                <span class="disabled">‹ Sebelumnya</span>
+            {% endif %}
+
+            {% for p in range(1, total_pages + 1) %}
+                {% if p == current_page %}
+                    <span class="current">{{ p }}</span>
+                {% elif p == 1 or p == total_pages or (p >= current_page - 1 and p <= current_page + 1) %}
+                    <a href="{{ url_for('activity_log', page=p, platform=filter_platform, status=filter_status, q=filter_q) }}">{{ p }}</a>
+                {% elif p == current_page - 2 or p == current_page + 2 %}
+                    <span class="ellipsis">…</span>
+                {% endif %}
+            {% endfor %}
+
+            {% if current_page < total_pages %}
+                <a href="{{ url_for('activity_log', page=current_page+1, platform=filter_platform, status=filter_status, q=filter_q) }}">Berikutnya ›</a>
+            {% else %}
+                <span class="disabled">Berikutnya ›</span>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

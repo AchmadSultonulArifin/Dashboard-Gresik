@@ -220,7 +220,64 @@
       {% endif %}
     </div>
   </div>
+<!-- ── Ringkasan Google Maps per Kategori ── -->
+{% if ringkasan_gmaps %}
+<div class="card">
+  <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;">
+    🗺️ Top 5 Tempat Terbaik per Kategori
+  </h3>
 
+  {% for kategori, tempat_list in ringkasan_gmaps.items() %}
+  <div style="margin-bottom:24px;">
+    <div style="font-size:12px;font-weight:700;color:#6b7280;text-transform:uppercase;
+                letter-spacing:.06em;margin-bottom:10px;padding-bottom:6px;
+                border-bottom:2px solid #f3f4f6;">
+      {{ kategori }}
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align:left;width:30px;">#</th>
+          <th style="text-align:left;">Nama Tempat</th>
+          <th style="text-align:center;width:80px;">⭐ Rating</th>
+          <th style="text-align:center;width:100px;">😊 Positif</th>
+          <th style="text-align:center;width:90px;">📝 Ulasan</th>
+          <th style="text-align:center;width:90px;">🏆 Skor</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for t in tempat_list %}
+        <tr>
+          <td style="color:#9ca3af;font-size:13px;">{{ loop.index }}</td>
+          <td>
+            <a href="/googlemaps/{{ t.key }}"
+               style="color:#4f46e5;text-decoration:none;font-size:14px;font-weight:500;">
+              {{ t.nama }}
+            </a>
+          </td>
+          <td style="text-align:center;">
+            <span style="font-weight:600;">{{ t.rating }}</span>
+          </td>
+          <td style="text-align:center;">
+            <span style="background:#d1fae5;color:#065f46;padding:3px 8px;
+                         border-radius:20px;font-size:12px;font-weight:600;">
+              {{ t.persen_positif }}%
+            </span>
+          </td>
+          <td style="text-align:center;color:#6b7280;font-size:13px;">
+            {{ t.total_ulasan }}
+          </td>
+          <td style="text-align:center;">
+            <span style="font-weight:700;color:#4f46e5;">{{ t.skor_gabungan }}</span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 </div>
 
 <script>

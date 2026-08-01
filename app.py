@@ -90,6 +90,49 @@ def inject_update_terakhir():
         update_instagram=update_instagram,
         scrape_status=load_scrape_status(),
     )
+def catat_log(platform, aktivitas, status, keterangan=""):
+    try:
+        log = ActivityLog(platform=platform, aktivitas=aktivitas, status=status, keterangan=keterangan)
+        db.session.add(log)
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        print("Gagal mencatat log:", e)
+
+
+# Cache mtime terakhir tiap file (di memori, reset saat app restart)
+_LAST_FILE_STATE = {}
+
+def deteksi_perubahan_file(platform, path, aktivitas="scraping"):
+    """Bandingkan mtime file sekarang vs sebelumnya. Kalau beda -> catat log."""
+    if not os.path.exists(path):
+        return
+    mtime = os.path.getmtime(path)
+    kunci = f"{platform}_{aktivitas}"
+    if _LAST_FILE_STATE.get(kunci) == mtime:
+        return  # belum ada perubahan
+    _LAST_FILE_STATE[kunci] = mtime
+
+    total = 0
+    try:
+        if path.endswith(".csv"):
+            total = len(pd.read_csv(path))
+        elif path.endswith(".json"):
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            total = len(data) if isinstance(data, list) else 1
+    except Exception as e:
+        catat_log(platform, aktivitas, "gagal", f"Gagal membaca file: {e}")
+        return
+
+    catat_log(platform, aktivitas, "sukses", f"{total} data terdeteksi di {os.path.basename(path)}")
+
+
+def cek_semua_platform():
+    deteksi_perubahan_file("twitter", CSV_PATH)
+    deteksi_perubahan_file("instagram", INSTAGRAM_POST)
+    deteksi_perubahan_file("googlemaps", SUMMARY_FILE)
+    deteksi_perubahan_file("facebook", FACEBOOK_SENTIMEN)
 
 def load_data():
     """Membaca data CSV dengan aman"""
@@ -369,7 +412,8 @@ def index():
         rata_skor=rata_skor,
         post_terbaru=post_terbaru,
         ringkasan_tw = ringkasan_twitter(),
-        ringkasan_ig = ringkasan_instagram()
+        ringkasan_ig = ringkasan_instagram(),
+        ringkasan_gmaps=ringkasan_gmaps()
     )
 
 #TWEET
@@ -611,6 +655,33 @@ def instagram():
         ringkasan=ringkasan.to_dict("records")
     )
 
+def ringkasan_gmaps():
+    #"""Ambil 5 tempat terbaik per kategori berdasarkan rating + persen_positif."""
+    semua = load_google_maps()
+    if not semua:
+        return {}
+
+    # Hitung skor gabungan: 60% rating (dinormalisasi ke 0-100) + 40% persen_positif
+    for t in semua:
+        skor_rating   = (float(t.get("rating", 0)) / 5) * 100
+        skor_positif  = float(t.get("persen_positif", 0))
+        t["skor_gabungan"] = round((skor_rating * 0.6) + (skor_positif * 0.4), 1)
+
+    # Kelompokkan per kategori, ambil top 5
+    dari_kategori = {}
+    for t in semua:
+        kat = t.get("kategori", "Lainnya")
+        if kat not in dari_kategori:
+            dari_kategori[kat] = []
+        dari_kategori[kat].append(t)
+
+    hasil = {}
+    for kat, tempat_list in dari_kategori.items():
+        top5 = sorted(tempat_list, key=lambda x: x["skor_gabungan"], reverse=True)[:5]
+        hasil[kat] = top5
+
+    return hasil
+
 
 # Route overview 
 @app.route("/googlemaps")
@@ -758,6 +829,15 @@ def load_user(user_id):
     except (ValueError, TypeError):
         return None
 
+# ── Model Activity Log ─────────────────────────────
+class ActivityLog(db.Model):
+    __tablename__ = "activity_log"
+    id         = db.Column(db.Integer, primary_key=True)
+    platform   = db.Column(db.String(30), nullable=False)   # twitter, instagram, googlemaps, facebook
+    aktivitas  = db.Column(db.String(50), nullable=False)   # scraping, analisis_sentimen, dll
+    status     = db.Column(db.String(20), nullable=False)   # sukses, gagal, berjalan
+    keterangan = db.Column(db.String(255), nullable=True)
+    waktu      = db.Column(db.DateTime, server_default=db.func.now())
 
 # ── Buat tabel jika belum ada ──────────────────────
 with app.app_context():
@@ -1159,6 +1239,50 @@ def facebook():
         jumlah_urgensi_tinggi=jumlah_urgensi_tinggi,
     )
 
+@app.route("/activity_log")
+@login_required
+def activity_log():
+    cek_semua_platform()  # deteksi perubahan file terbaru sebelum ditampilkan
+
+    filter_platform = request.args.get("platform", "")
+    filter_status    = request.args.get("status", "")
+    filter_q         = request.args.get("q", "")
+    page             = request.args.get("page", 1, type=int)
+    per_page         = 20
+
+    query = ActivityLog.query
+    if filter_platform:
+        query = query.filter_by(platform=filter_platform)
+    if filter_status:
+        query = query.filter_by(status=filter_status)
+    if filter_q:
+        query = query.filter(ActivityLog.keterangan.ilike(f"%{filter_q}%"))
+
+    query = query.order_by(ActivityLog.waktu.desc())
+    total_log = query.count()
+    logs = query.offset((page - 1) * per_page).limit(per_page).all()
+
+    total_sukses   = ActivityLog.query.filter_by(status="sukses").count()
+    total_gagal    = ActivityLog.query.filter_by(status="gagal").count()
+    total_berjalan = ActivityLog.query.filter_by(status="berjalan").count()
+    total_pages    = (total_log + per_page - 1) // per_page
+
+    log_terakhir = logs[0].waktu.strftime("%d %B %Y %H:%M") if logs else "-"
+
+    return render_template(
+        "activity_log.html",
+        logs=logs,
+        total_sukses=total_sukses,
+        total_gagal=total_gagal,
+        total_berjalan=total_berjalan,
+        total_log=total_log,
+        filter_platform=filter_platform,
+        filter_status=filter_status,
+        filter_q=filter_q,
+        current_page=page,
+        total_pages=total_pages,
+        log_terakhir=log_terakhir,
+    )
 
 @app.route("/api/facebook")
 @login_required

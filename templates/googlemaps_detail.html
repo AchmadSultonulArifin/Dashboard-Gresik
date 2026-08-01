@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+{% block title %}{{ data.tempat | default('Detail Tempat') }}{% endblock %}
+
+{% block content %}
+<style>
+.detail-back {
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    font-size:13px;
+    color:#6b7280;
+    text-decoration:none;
+    margin-bottom:16px;
+    padding:7px 12px;
+    background:white;
+    border:0.5px solid #e1e0d9;
+    border-radius:8px;
+    transition:.2s;
+}
+.detail-back:hover { background:#f3f4f6; color:#374151; }
+
+.detail-header {
+    background:white;
+    border:0.5px solid #e1e0d9;
+    border-radius:12px;
+    padding:20px 24px;
+    margin-bottom:16px;
+}
+.detail-nama {
+    font-size:22px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:4px;
+}
+.detail-meta {
+    font-size:13px;
+    color:#6b7280;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+    margin-bottom:16px;
+}
+.detail-meta span { display:flex; align-items:center; gap:4px; }
+
+/* Stat cards */
+.detail-stat-grid {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-bottom:16px;
+}
+@media(max-width:700px){ .detail-stat-grid{ grid-template-columns:repeat(2,1fr); } }
+.detail-stat {
+    background:white;
+    border:0.5px solid #e1e0d9;
+    border-radius:10px;
+    padding:14px 16px;
+    text-align:center;
+}
+.detail-stat .angka { font-size:24px; font-weight:700; margin-bottom:4px; }
+.detail-stat .label { font-size:12px; color:#6b7280; }
+
+/* Bar sentimen */
+.bar-wrap { margin-bottom:10px; }
+.bar-label { display:flex; justify-content:space-between; font-size:12px; color:#52514e; margin-bottom:4px; }
+.bar-track { height:7px; background:#f1efe8; border-radius:4px; overflow:hidden; }
+.bar-fill  { height:100%; border-radius:4px; }
+
+/* Badge */
+.badge {
+    display:inline-block;
+    padding:3px 10px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+.badge-pos  { background:#d1fae5; color:#065f46; }
+.badge-neg  { background:#fee2e2; color:#991b1b; }
+.badge-net  { background:#fef3c7; color:#92400e; }
+
+/* Filter bar */
+.filter-bar {
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+    margin-bottom:14px;
+}
+.filter-btn {
+    padding:6px 14px;
+    border-radius:20px;
+    border:1px solid #e5e7eb;
+    background:white;
+    font-size:12px;
+    font-weight:600;
+    color:#6b7280;
+    cursor:pointer;
+    transition:.2s;
+}
+.filter-btn:hover { background:#f3f4f6; }
+.filter-btn.active { background:#4f46e5; color:white; border-color:#4f46e5; }
+
+/* Tabel ulasan */
+.ulasan-card {
+    background:white;
+    border:0.5px solid #e1e0d9;
+    border-radius:12px;
+    padding:20px 24px;
+}
+.ulasan-item {
+    padding:12px 0;
+    border-bottom:0.5px solid #f1efe8;
+}
+.ulasan-item:last-child { border-bottom:none; }
+.ulasan-top {
+    display:flex;
+    align-items:center;
+    gap:8px;
+    flex-wrap:wrap;
+    margin-bottom:6px;
+}
+.ulasan-nama { font-size:13px; font-weight:600; color:#111827; }
+.ulasan-bintang { color:#f59e0b; font-size:12px; }
+.ulasan-tanggal { font-size:11px; color:#9ca3af; margin-left:auto; }
+.ulasan-teks { font-size:13px; color:#374151; line-height:1.6; margin-bottom:6px; }
+.ulasan-footer { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.topik-tag {
+    font-size:11px;
+    padding:2px 8px;
+    border-radius:6px;
+    background:#f3f4f6;
+    color:#6b7280;
+}
+.skor-tag {
+    font-size:11px;
+    color:#9ca3af;
+    margin-left:auto;
+}
+
+/* Empty state */
+.empty-state {
+    text-align:center;
+    padding:40px 20px;
+    color:#9ca3af;
+    font-size:14px;
+}
+</style>
+
+<!-- Tombol kembali -->
+<a href="/googlemaps" class="detail-back">← Kembali ke Google Maps</a>
+
+<!-- Header tempat -->
+<div class="detail-header">
+    <div class="detail-nama">🗺️ {{ data.tempat | default(key) }}</div>
+    <div class="detail-meta">
+        <span>📂 {{ data.kategori | default('Lainnya') }}</span>
+        <span>⭐ Rating {{ data.rating | default(0) }}</span>
+        <span>📝 {{ data.total_ulasan | default(0) }} ulasan dianalisis</span>
+    </div>
+
+    <!-- Bar distribusi sentimen -->
+    {% set pos = data.persen_positif | default(0) %}
+    {% set net = data.persen_netral  | default(0) %}
+    {% set neg = data.persen_negatif | default(0) %}
+    <div class="bar-wrap">
+        <div class="bar-label">
+            <span>😊 Positif</span>
+            <span style="color:#065f46;font-weight:600;">{{ data.positif | default(0) }} ({{ pos }}%)</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:{{ pos }}%;background:#1baf7a;"></div></div>
+    </div>
+    <div class="bar-wrap">
+        <div class="bar-label">
+            <span>😐 Netral</span>
+            <span style="color:#92400e;font-weight:600;">{{ data.netral | default(0) }} ({{ net }}%)</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:{{ net }}%;background:#eda100;"></div></div>
+    </div>
+    <div class="bar-wrap">
+        <div class="bar-label">
+            <span>😠 Negatif</span>
+            <span style="color:#991b1b;font-weight:600;">{{ data.negatif | default(0) }} ({{ neg }}%)</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:{{ neg }}%;background:#e34948;"></div></div>
+    </div>
+</div>
+
+<!-- Stat grid -->
+<div class="detail-stat-grid">
+    <div class="detail-stat">
+        <div class="angka">{{ data.total_ulasan | default(0) }}</div>
+        <div class="label">Total Ulasan</div>
+    </div>
+    <div class="detail-stat">
+        <div class="angka" style="color:#065f46;">{{ data.positif | default(0) }}</div>
+        <div class="label">Positif</div>
+    </div>
+    <div class="detail-stat">
+        <div class="angka" style="color:#92400e;">{{ data.netral | default(0) }}</div>
+        <div class="label">Netral</div>
+    </div>
+    <div class="detail-stat">
+        <div class="angka" style="color:#991b1b;">{{ data.negatif | default(0) }}</div>
+        <div class="label">Negatif</div>
+    </div>
+</div>
+
+<!-- Daftar ulasan -->
+<div class="ulasan-card">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:16px;">
+        <p style="font-size:14px;font-weight:700;color:#111827;margin:0;">💬 Daftar Ulasan</p>
+        <div class="filter-bar" id="filterBar">
+            <button class="filter-btn active" onclick="filterUlasan('semua', this)">Semua</button>
+            <button class="filter-btn" onclick="filterUlasan('Positif', this)">😊 Positif</button>
+            <button class="filter-btn" onclick="filterUlasan('Netral', this)">😐 Netral</button>
+            <button class="filter-btn" onclick="filterUlasan('Negatif', this)">😠 Negatif</button>
+        </div>
+    </div>
+
+    <div id="ulasanList">
+        {% if data.ulasan %}
+            {% for u in data.ulasan %}
+            <div class="ulasan-item" data-sentimen="{{ u.sentimen | default('Netral') }}">
+                <div class="ulasan-top">
+                    <!-- Avatar inisial -->
+                    <div style="width:30px;height:30px;border-radius:50%;
+                                background:linear-gradient(135deg,#4f46e5,#7c3aed);
+                                display:flex;align-items:center;justify-content:center;
+                                font-size:12px;font-weight:700;color:white;flex-shrink:0;">
+                        {{ (u['Nama Reviewer'] or '?')[0].upper() }}
+                    </div>
+                    <span class="ulasan-nama">{{ u['Nama Reviewer'] | default('Anonim') }}</span>
+                    <span class="ulasan-bintang">
+                        {% set bintang = u['Bintang'] | int %}
+                        {% for i in range(bintang) %}⭐{% endfor %}
+                    </span>
+                    <span class="badge
+                        {% if u.sentimen == 'Positif' %}badge-pos
+                        {% elif u.sentimen == 'Negatif' %}badge-neg
+                        {% else %}badge-net{% endif %}">
+                        {{ u.sentimen | default('Netral') }}
+                    </span>
+                    <span class="ulasan-tanggal">
+                        {{ u['Tanggal'][:10] if u['Tanggal'] else '-' }}
+                    </span>
+                </div>
+                <div class="ulasan-teks">{{ u['Ulasan'] | default('-') }}</div>
+                <div class="ulasan-footer">
+                    <span class="topik-tag">🏷️ {{ u.topik | default('Lainnya') }}</span>
+                    <span class="skor-tag">Skor: {{ "%.2f"|format(u.sentimen_score | float) }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="empty-state">
+                📭 Belum ada ulasan yang dianalisis untuk tempat ini.
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+function filterUlasan(sentimen, btn) {
+    // Update tombol aktif
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Filter item
+    document.querySelectorAll('.ulasan-item').forEach(item => {
+        if (sentimen === 'semua') {
+            item.style.display = '';
+        } else {
+            item.style.display = item.dataset.sentimen === sentimen ? '' : 'none';
+        }
+    });
+}
+</script>
+{% endblock %}

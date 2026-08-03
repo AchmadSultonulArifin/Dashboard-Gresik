@@ -2,3 +2,5 @@
 venv/
 __pycache__/
 ig_session/
+browser/state.json
+*.log

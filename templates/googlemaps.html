@@ -173,6 +173,22 @@ function warnaSentimen(d) {
 }
 
 // ── Peta ───────────────────────────────────────────
+// Batas wilayah Kabupaten Gresik (daratan + Pulau Bawean di utara).
+// Titik lat/lng di luar area ini dianggap salah scrape (mis-match Google Maps)
+// dan tidak akan ditampilkan di peta.
+const GRESIK_BOUNDS = {
+    latMin: -7.65, latMax: -5.55,   // mencakup daratan Gresik s/d Pulau Bawean
+    lngMin: 112.20, lngMax: 112.95
+};
+
+function dalamAreaGresik(d) {
+    if (!d.latitude || !d.longitude) return false;
+    const lat = parseFloat(d.latitude), lng = parseFloat(d.longitude);
+    if (isNaN(lat) || isNaN(lng)) return false;
+    return lat >= GRESIK_BOUNDS.latMin && lat <= GRESIK_BOUNDS.latMax
+        && lng >= GRESIK_BOUNDS.lngMin && lng <= GRESIK_BOUNDS.lngMax;
+}
+
 function initPeta() {
     petaInst = L.map('peta').setView([-7.1566, 112.6532], 11); // pusat: Gresik
 
@@ -191,7 +207,7 @@ function renderMarkers(list) {
 
     const bounds = [];
     list.forEach(d => {
-        if (!d.latitude || !d.longitude) return; // skip kalau lat/lng kosong
+        if (!dalamAreaGresik(d)) return; // skip kalau lat/lng kosong atau di luar area Gresik
 
         const marker = L.circleMarker([d.latitude, d.longitude], {
             radius: 7,

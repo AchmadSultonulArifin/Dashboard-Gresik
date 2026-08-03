@@ -738,6 +738,8 @@ def load_google_maps() -> list:
                 "persen_positif": float(t.get("persen_positif") or 0),
                 "persen_netral" : float(t.get("persen_netral") or 0),
                 "persen_negatif": float(t.get("persen_negatif") or 0),
+                "latitude"      : t.get("latitude"),
+                "longitude"     : t.get("longitude"),
             })
         return hasil
     except Exception as e:

@@ -19,6 +19,10 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 
+<!-- Leaflet untuk peta -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <style>
 
   .container{ width:100%; padding:25px; }
@@ -52,6 +56,16 @@
   .bintang { font-size:12px; color:#eda100; }
   .ulasan-teks { font-size:13px; color:#52514e; }
   .loading { text-align:center; color:#898781; padding:20px; font-size:13px; }
+
+  /* ── Peta ── */
+  .peta-card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; margin-bottom:1.25rem; }
+  #peta { height:420px; width:100%; border-radius:8px; z-index:0; }
+  .peta-legend { display:flex; gap:16px; margin-top:10px; flex-wrap:wrap; }
+  .peta-legend span { display:flex; align-items:center; gap:6px; font-size:12px; color:#52514e; }
+  .peta-dot { width:12px; height:12px; border-radius:50%; display:inline-block; border:1px solid #333; }
+  .leaflet-popup-content b { font-size:13px; }
+  .leaflet-popup-content a { color:#2d5be3; text-decoration:none; font-size:12px; }
+
   @media(max-width:600px){ .kpi-row{grid-template-columns:repeat(2,1fr);} .charts-row{grid-template-columns:1fr;} }
 </style>
 
@@ -71,6 +85,18 @@
   </div>
 
   <div class="kpi-row" id="kpi-row"></div>
+
+  <!-- ── Peta sebaran tempat ── -->
+  <div class="peta-card">
+    <p class="card-title">Peta sebaran tempat &amp; sentimen</p>
+    <div id="peta"></div>
+    <div class="peta-legend">
+      <span><span class="peta-dot" style="background:#1baf7a"></span>Dominan Positif</span>
+      <span><span class="peta-dot" style="background:#eda100"></span>Dominan Netral</span>
+      <span><span class="peta-dot" style="background:#e34948"></span>Dominan Negatif</span>
+      <span><span class="peta-dot" style="background:#9ca3af"></span>Belum ada ulasan</span>
+    </div>
+  </div>
 
   <div class="charts-row">
     <div class="card">
@@ -102,6 +128,9 @@ const DATA = {{ tempat|tojson }};
 
 let donutInst = null, barInst = null;
 let kategoriAktif = "";
+let petaInst = null;
+let markerLayer = null;
+const markerById = {};
 
 const kategoriSelect = document.getElementById("kategori");
 const tempatSelect   = document.getElementById("pilih-tempat");
@@ -132,6 +161,79 @@ function renderKPI(d) {
 
 function kpi(label, val, cls) {
     return `<div class="kpi-card"><p class="label">${label}</p><p class="value ${cls}">${val}</p></div>`;
+}
+
+// ── Warna marker berdasarkan sentimen dominan ─────
+function warnaSentimen(d) {
+    if (!d.total_ulasan || d.total_ulasan === 0) return "#9ca3af"; // abu-abu: belum ada ulasan
+    const pp = d.persen_positif || 0, pn = d.persen_netral || 0, pg = d.persen_negatif || 0;
+    if (pp >= pn && pp >= pg) return "#1baf7a";
+    if (pg >= pp && pg >= pn) return "#e34948";
+    return "#eda100";
+}
+
+// ── Peta ───────────────────────────────────────────
+function initPeta() {
+    petaInst = L.map('peta').setView([-7.1566, 112.6532], 11); // pusat: Gresik
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 19
+    }).addTo(petaInst);
+
+    markerLayer = L.layerGroup().addTo(petaInst);
+    renderMarkers(DATA);
+}
+
+function renderMarkers(list) {
+    markerLayer.clearLayers();
+    Object.keys(markerById).forEach(k => delete markerById[k]);
+
+    const bounds = [];
+    list.forEach(d => {
+        if (!d.latitude || !d.longitude) return; // skip kalau lat/lng kosong
+
+        const marker = L.circleMarker([d.latitude, d.longitude], {
+            radius: 7,
+            fillColor: warnaSentimen(d),
+            color: "#333",
+            weight: 1,
+            fillOpacity: 0.85
+        });
+
+        marker.bindPopup(`
+            <b>${d.nama}</b><br>
+            ${d.kategori}<br>
+            ⭐ ${d.rating || 0} (${d.total_ulasan || 0} ulasan)<br>
+            ${d.total_ulasan ? `👍 ${(d.persen_positif||0).toFixed(1)}% &nbsp; 😐 ${(d.persen_netral||0).toFixed(1)}% &nbsp; 👎 ${(d.persen_negatif||0).toFixed(1)}%` : "Belum ada ulasan"}<br>
+            <a href="#" onclick="pilihDariPeta('${d.id}');return false;">Lihat detail di dashboard →</a>
+        `);
+
+        marker.on('click', () => pilihDariPeta(d.id));
+
+        marker.addTo(markerLayer);
+        markerById[d.id] = marker;
+        bounds.push([d.latitude, d.longitude]);
+    });
+
+    if (bounds.length) {
+        petaInst.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
+    }
+}
+
+// Dipanggil saat marker/link di popup diklik → sinkron ke dropdown & chart
+function pilihDariPeta(id) {
+    const d = DATA.find(x => x.id === id);
+    if (!d) return;
+
+    kategoriSelect.value = d.kategori;
+    kategoriAktif = d.kategori;
+    loadTempat(kategoriAktif);
+    tempatSelect.value = id;
+
+    render(id);
+
+    document.getElementById("kpi-row").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 // ── Donut chart ───────────────────────────────────
@@ -263,5 +365,6 @@ tempatSelect.addEventListener("change", function() {
 kategoriAktif = daftarKategori[0];
 loadTempat(kategoriAktif);
 render(tempatSelect.value);
+initPeta();
 </script>
 {% endblock %}

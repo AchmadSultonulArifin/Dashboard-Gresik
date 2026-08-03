@@ -83,6 +83,32 @@ def get_folder(nama: str) -> str:
     return re.sub(r'[^a-z0-9]+', '_', nama.lower()).strip('_')
 
 
+def get_lokasi(folder_name: str, place: dict = None):
+    """
+    Ambil (latitude, longitude) suatu tempat.
+    Prioritas 1: dari dict 'place' yang diberikan (field location.lat/lng),
+    biasanya berasal dari ulasan_mentah.json yang baru saja dibaca.
+    Prioritas 2: fallback baca langsung dari output/<folder_name>/ulasan_mentah.json
+    """
+    if place and isinstance(place, dict):
+        loc = place.get("location") or {}
+        lat = loc.get("lat")
+        lng = loc.get("lng")
+        if lat is not None and lng is not None:
+            return lat, lng
+
+    mentah_path = os.path.join(OUTPUT_DIR, folder_name, "ulasan_mentah.json")
+    if os.path.exists(mentah_path):
+        try:
+            with open(mentah_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            loc = data.get("location") or {}
+            return loc.get("lat"), loc.get("lng")
+        except Exception:
+            pass
+    return None, None
+
+
 def update_status(platform: str, success: bool, message: str = ""):
     status = {}
     if os.path.exists(STATUS_FILE):
@@ -600,6 +626,10 @@ def analisis_sentimen(pipe=None):
         if os.path.exists(json_sentimen):
             with open(json_sentimen, "r", encoding="utf-8") as f:
                 data = json.load(f)
+            lat = data.get("latitude")
+            lng = data.get("longitude")
+            if lat is None or lng is None:
+                lat, lng = get_lokasi(folder_name)
             all_summary.append({
                 "key"           : folder_name,
                 "kategori"      : data.get("kategori") or get_kategori(folder_name),
@@ -612,6 +642,8 @@ def analisis_sentimen(pipe=None):
                 "persen_positif": data.get("persen_positif", 0),
                 "persen_netral" : data.get("persen_netral", 0),
                 "persen_negatif": data.get("persen_negatif", 0),
+                "latitude"      : lat,
+                "longitude"     : lng,
             })
             print(f"[{i + 1}/{total}] 📂 Load: {data.get('tempat', folder_name)}")
             continue
@@ -627,6 +659,7 @@ def analisis_sentimen(pipe=None):
         nama    = place.get("title", folder_name)
         reviews = place.get("reviews", [])
         kat     = get_kategori(folder_name)
+        lat, lng = get_lokasi(folder_name, place)
 
         print(f"[{i + 1}/{total}] 🔍 Proses: {nama} ({len(reviews)} ulasan)")
 
@@ -636,6 +669,7 @@ def analisis_sentimen(pipe=None):
                 "rating": place.get("totalScore", 0), "total_ulasan": 0,
                 "positif": 0, "netral": 0, "negatif": 0,
                 "persen_positif": 0, "persen_netral": 0, "persen_negatif": 0,
+                "latitude": lat, "longitude": lng,
             })
             continue
 
@@ -689,6 +723,8 @@ def analisis_sentimen(pipe=None):
             "persen_positif": round(positif / total_u * 100, 1) if total_u else 0,
             "persen_netral" : round(netral  / total_u * 100, 1) if total_u else 0,
             "persen_negatif": round(negatif / total_u * 100, 1) if total_u else 0,
+            "latitude"      : lat,
+            "longitude"     : lng,
             "ulasan"        : df[[
                 "Kategori", "Nama Reviewer", "Bintang", "Tanggal",
                 "Ulasan", "teks_final", "topik", "sentimen", "sentimen_score"
@@ -731,9 +767,11 @@ def process_per_tempat(results: list, pipe):
 
     for place in results:
         nama    = place.get("title", "unknown")
-        folder  = os.path.join(OUTPUT_DIR, get_folder(nama))
+        folder_name = get_folder(nama)
+        folder  = os.path.join(OUTPUT_DIR, folder_name)
         os.makedirs(folder, exist_ok=True)
         reviews = place.get("reviews", [])
+        lat, lng = get_lokasi(folder_name, place)
 
         print(f"\n📍 {nama}")
         if not reviews:
@@ -806,6 +844,8 @@ def process_per_tempat(results: list, pipe):
             "persen_positif": round(positif / total * 100, 1),
             "persen_netral" : round(netral   / total * 100, 1),
             "persen_negatif": round(negatif  / total * 100, 1),
+            "latitude"      : lat,
+            "longitude"     : lng,
             "ulasan"        : df[[
                 "Kategori", "Nama Reviewer", "Bintang", "Tanggal",
                 "Ulasan", "teks_final", "topik", "sentimen", "sentimen_score"
@@ -819,7 +859,7 @@ def process_per_tempat(results: list, pipe):
 
         all_summary.append({
             **{k: v for k, v in summary.items() if k != "ulasan"},
-            "key": get_folder(nama),
+            "key": folder_name,
         })
 
     with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
@@ -874,6 +914,10 @@ def scan_output():
             with open(json_sentimen, "r", encoding="utf-8") as f:
                 data = json.load(f)
             nama = data.get("tempat") or nama_master or folder_name
+            lat = data.get("latitude")
+            lng = data.get("longitude")
+            if lat is None or lng is None:
+                lat, lng = get_lokasi(folder_name)
             summary.append({
                 "key"           : folder_name,
                 "kategori"      : kategori,
@@ -886,6 +930,8 @@ def scan_output():
                 "persen_positif": float(data.get("persen_positif") or 0),
                 "persen_netral" : float(data.get("persen_netral") or 0),
                 "persen_negatif": float(data.get("persen_negatif") or 0),
+                "latitude"      : lat,
+                "longitude"     : lng,
             })
             print(f"✅ {nama} [{kategori}]")
 
@@ -893,6 +939,7 @@ def scan_output():
             with open(json_mentah, "r", encoding="utf-8") as f:
                 data = json.load(f)
             nama = data.get("title") or nama_master or folder_name
+            lat, lng = get_lokasi(folder_name, data)
             summary.append({
                 "key"           : folder_name,
                 "kategori"      : kategori,
@@ -905,6 +952,8 @@ def scan_output():
                 "persen_positif": 0.0,
                 "persen_netral" : 0.0,
                 "persen_negatif": 0.0,
+                "latitude"      : lat,
+                "longitude"     : lng,
             })
             print(f"⚠️  {nama} [{kategori}] (belum diproses sentimen)")
 

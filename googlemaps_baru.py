@@ -83,30 +83,87 @@ def get_folder(nama: str) -> str:
     return re.sub(r'[^a-z0-9]+', '_', nama.lower()).strip('_')
 
 
+# Batas wilayah Kabupaten Gresik: daratan + Pulau Bawean di utara.
+# Koordinat di luar rentang ini dianggap salah scrape (mis-match Google Maps).
+GRESIK_LAT_MIN, GRESIK_LAT_MAX = -7.65, -5.55
+GRESIK_LNG_MIN, GRESIK_LNG_MAX = 112.20, 112.95
+
+# Kota tetangga yang harus ditolak meski koordinatnya masih dekat/tumpang
+# tindih dengan area Gresik (mis. Surabaya bertetangga langsung).
+KOTA_DITOLAK = ["surabaya", "sidoarjo", "lamongan", "mojokerto", "bangkalan"]
+
+
+def dalam_area_gresik(lat, lng) -> bool:
+    try:
+        lat = float(lat)
+        lng = float(lng)
+    except (TypeError, ValueError):
+        return False
+    return GRESIK_LAT_MIN <= lat <= GRESIK_LAT_MAX and GRESIK_LNG_MIN <= lng <= GRESIK_LNG_MAX
+
+
+def kota_valid(data: dict) -> bool:
+    """
+    Cek field city/address pada dict data mentah (hasil scrape Apify).
+    True  -> aman (eksplisit Gresik, atau tidak ada info kota).
+    False -> ditolak (kotanya salah satu KOTA_DITOLAK, mis. Surabaya).
+    """
+    city    = str(data.get("city") or "").lower()
+    address = str(data.get("address") or "").lower()
+    gabungan = f"{city} {address}"
+
+    if "gresik" in gabungan:
+        return True
+
+    for kota in KOTA_DITOLAK:
+        if kota in gabungan:
+            return False
+
+    return True
+
+
 def get_lokasi(folder_name: str, place: dict = None):
     """
-    Ambil (latitude, longitude) suatu tempat.
-    Prioritas 1: dari dict 'place' yang diberikan (field location.lat/lng),
-    biasanya berasal dari ulasan_mentah.json yang baru saja dibaca.
-    Prioritas 2: fallback baca langsung dari output/<folder_name>/ulasan_mentah.json
-    """
-    if place and isinstance(place, dict):
-        loc = place.get("location") or {}
-        lat = loc.get("lat")
-        lng = loc.get("lng")
-        if lat is not None and lng is not None:
-            return lat, lng
+    Ambil (latitude, longitude) suatu tempat, sekaligus divalidasi:
+      1. Harus berada dalam batas wilayah Kabupaten Gresik/Bawean.
+      2. Field city/address tidak boleh menyebut kota tetangga
+         (Surabaya, Sidoarjo, dll) — kasus mis-match Google Maps.
 
-    mentah_path = os.path.join(OUTPUT_DIR, folder_name, "ulasan_mentah.json")
-    if os.path.exists(mentah_path):
-        try:
-            with open(mentah_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            loc = data.get("location") or {}
-            return loc.get("lat"), loc.get("lng")
-        except Exception:
-            pass
-    return None, None
+    Prioritas 1: dari dict 'place' yang diberikan (biasanya baru saja
+    dibaca dari ulasan_mentah.json).
+    Prioritas 2: fallback baca langsung dari
+    output/<folder_name>/ulasan_mentah.json
+
+    Mengembalikan (None, None) jika data tidak valid/tidak lolos validasi.
+    """
+    data = place if (place and isinstance(place, dict)) else None
+
+    if data is None:
+        mentah_path = os.path.join(OUTPUT_DIR, folder_name, "ulasan_mentah.json")
+        if os.path.exists(mentah_path):
+            try:
+                with open(mentah_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except Exception:
+                data = None
+
+    if data is None:
+        return None, None
+
+    loc = data.get("location") or {}
+    lat = loc.get("lat")
+    lng = loc.get("lng")
+
+    if lat is None or lng is None:
+        return None, None
+
+    if not dalam_area_gresik(lat, lng):
+        return None, None
+
+    if not kota_valid(data):
+        return None, None
+
+    return lat, lng
 
 
 def update_status(platform: str, success: bool, message: str = ""):
@@ -969,14 +1026,76 @@ def scan_output():
 
 
 # ════════════════════════════════════════════════════════════════
+# TAHAP 5 — BERSIHKAN KOORDINAT (untuk summary yang sudah ada)
+# ════════════════════════════════════════════════════════════════
+
+def bersihkan_koordinat():
+    """
+    Tahap 5: Validasi ulang latitude/longitude pada
+    semua_tempat_summary.json yang SUDAH ADA, tanpa perlu scrape
+    atau proses sentimen ulang. Berguna untuk membersihkan data lama
+    yang tersimpan sebelum validasi area/kota ditambahkan ke get_lokasi().
+
+    Untuk setiap tempat, koordinat divalidasi ulang lewat get_lokasi()
+    (baca ulang output/<key>/ulasan_mentah.json). Kalau tidak lolos
+    (di luar area Gresik/Bawean, atau kotanya Surabaya/Sidoarjo/dll),
+    latitude/longitude dikosongkan (None).
+    """
+    print("\n" + "=" * 60)
+    print("TAHAP 5 — BERSIHKAN KOORDINAT")
+    print("=" * 60)
+
+    if not os.path.exists(SUMMARY_FILE):
+        print(f"⚠️  {SUMMARY_FILE} belum ada, jalankan tahap 'scan' dulu.")
+        return
+
+    backup_path = SUMMARY_FILE + ".bak"
+    with open(SUMMARY_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    with open(backup_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"💾 Backup dibuat: {backup_path}")
+
+    total       = len(data)
+    dibersihkan = []
+
+    for tempat in data:
+        key       = tempat.get("key", "")
+        nama      = tempat.get("tempat", key)
+        lat_lama  = tempat.get("latitude")
+        lng_lama  = tempat.get("longitude")
+
+        if lat_lama is None or lng_lama is None:
+            continue  # sudah kosong, lewati
+
+        lat_baru, lng_baru = get_lokasi(key)  # divalidasi ulang lewat get_lokasi
+
+        if lat_baru is None or lng_baru is None:
+            dibersihkan.append(f"  - {nama}  (lat={lat_lama}, lng={lng_lama})")
+            tempat["latitude"]  = None
+            tempat["longitude"] = None
+
+    with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"\n✅ Total tempat        : {total}")
+    print(f"✅ Koordinat dibersihkan: {len(dibersihkan)}")
+    if dibersihkan:
+        print("\nTempat yang koordinatnya dikosongkan:")
+        print("\n".join(dibersihkan))
+    print(f"\n💾 {SUMMARY_FILE}")
+
+
+# ════════════════════════════════════════════════════════════════
 # ENTRY POINT
 # ════════════════════════════════════════════════════════════════
 
 TAHAP_MAP = {
-    "cari"    : "Tahap 1 — Cari Tempat",
-    "scrape"  : "Tahap 2 — Scrape Ulasan",
-    "sentimen": "Tahap 3 — Analisis Sentimen",
-    "scan"    : "Tahap 4 — Scan Output",
+    "cari"      : "Tahap 1 — Cari Tempat",
+    "scrape"    : "Tahap 2 — Scrape Ulasan",
+    "sentimen"  : "Tahap 3 — Analisis Sentimen",
+    "scan"      : "Tahap 4 — Scan Output",
+    "bersihkan" : "Tahap 5 — Bersihkan Koordinat",
 }
 
 if __name__ == "__main__":
@@ -1005,6 +1124,9 @@ if __name__ == "__main__":
     elif tahap == "scan":
         scan_output()
 
+    elif tahap == "bersihkan":
+        bersihkan_koordinat()
+
     else:
         # Jalankan semua tahap secara berurutan
         print("🚀 Menjalankan semua tahap pipeline...\n")
@@ -1025,5 +1147,8 @@ if __name__ == "__main__":
 
         # Tahap 4
         scan_output()
+
+        # Tahap 5 — jaga-jaga, bersihkan koordinat yang mungkin lolos
+        bersihkan_koordinat()
 
         print("\n🎉 Semua tahap selesai!")

@@ -32,13 +32,13 @@
   ],
   "fid": "0x2dd80063aaaaaaab:0x4252e298d4620452",
   "cid": "4779131300619617362",
-  "reviewsCount": 931,
+  "reviewsCount": 930,
   "reviewsDistribution": {
     "oneStar": 59,
     "twoStar": 36,
     "threeStar": 141,
     "fourStar": 171,
-    "fiveStar": 524
+    "fiveStar": 523
   },
   "imagesCount": 598,
   "imageCategories": [
@@ -47,7 +47,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T15:26:23.004Z",
+  "scrapedAt": "2026-08-06T16:55:01.307Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -56,7 +56,7 @@
   "checkOutDate": null,
   "hotelAds": [],
   "popularTimesLiveText": "Tidak seramai biasanya",
-  "popularTimesLivePercent": 3,
+  "popularTimesLivePercent": 0,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -747,10 +747,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -772,6 +768,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -818,7 +818,7 @@
       "count": 9
     },
     {
-      "title": "orang",
+      "title": "cafe",
       "count": 9
     },
     {
@@ -826,15 +826,11 @@
       "count": 8
     },
     {
-      "title": "mujair",
-      "count": 7
-    },
-    {
       "title": "pemandangan",
-      "count": 7
+      "count": 8
     },
     {
-      "title": "danau",
+      "title": "mujair",
       "count": 7
     },
     {
@@ -848,6 +844,10 @@
     {
       "title": "hobi",
       "count": 6
+    },
+    {
+      "title": "panas",
+      "count": 5
     }
   ],
   "additionalInfo": {
@@ -873,11 +873,11 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmO9N4cCBjhfS_cSQy_plrCuN1Vc0QD49HaWjkuTuevnQLIdzLlL94X7jLPwbjNQ1QHgk1YIY_3Na0a5ZE-1L-Aa7Y1Q4V8HEq-L1UiRf0it_BMWBTYTZK1FcsW7lB6n7nIUNU6UvA=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOvOGNrVMsvH1w6RJMliEYsM_4O5EMxvgHhof61gdN3Nnl94PK_jSW9pduEHrmz1HYpRlQqVvMbO-ZtdpymHqR-EGXRPGoOBgPYwBX3hlmFZCFRM0HZkwYTGlcD5pvjsrdOnUTa9A=k-no",
         "postDate": "setahun lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPz8nh29YuY7omc7vERu4S0dg-q8QtSBrImIqMg63cZUxJeqFrw3V9Nhlx27iEaDi63ruPgw4VmSKbDqXwXy9IENAz87Lj2HM_NRGNGIAJoYfWdj4dehIuwf3KMRSzJRO2O7NI3=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmN7mEQ6XYlIAwi3iDPCkSj0O-FWZKo28vuUljNcPRbZefIdP8g5eL_0HA_6WcJ4BHWFbA_giOKLXMq-SIba-1tJAp6Uz6U0bGxZRSoEecKFCMsbEqwkbm0gCLhEQnF27WO7-PAc=k-no",
         "postDate": "setahun lalu"
       }
     ]
@@ -888,7 +888,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnXu41kcJFJhBF3c9C0-HHO9xXryHrUTvWipUqvVTpnlZVczNbOt9VMPTcSsGfXWHhBNvsNbir_NLF-zBGCQ7EAy8CAERsI_7GVpfDnyWX21_4MjwsZ8_x-FXUjOuI4JhE1EI7Jkw=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhKggY6aYvL705svfscbt6r7zyjfhy0oOBylfsnjBELAURuLbNZM7w99KyN0IM6I6h7ecltdkRbOn8rGlxwun8ru8EjrgF087SJrw7CVA9ulghurELEBGitXujDlrm-eY9E6uMYQ=w408-h306-k-no",
   "kgmid": "/g/11cjvvps4f",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -905,12 +905,12 @@
       "reviewerId": "106078204820402690251",
       "reviewerUrl": "https://www.google.com/maps/contrib/106078204820402690251?hl=id",
       "name": "Mohammad Juli Hermanto",
-      "reviewerNumberOfReviews": 448,
+      "reviewerNumberOfReviews": 450,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV2oVFkJu95Dvhww23rTvaEQiRh51qQYyAdxSaXaWA7xWjK10QQ=s1920-c-rp-mo-ba12-br100",
       "text": "Telaga Ngipik menjadi salah satu tempat yang cocok untuk bersantai bersama keluarga. Saat kami berkunjung, kami memilih menikmati makan siang di area sekitar telaga sambil menikmati suasana terbuka. Anginnya cukup kencang sehingga udara terasa lebih sejuk dan nyaman, apalagi di tengah cuaca Gresik yang biasanya panas.\nPemandangan telaganya juga cukup bagus dan memberikan suasana yang tenang. Memang, saat kami datang posisi tempat duduk menghadap ke arah TPA, sehingga sedikit mengurangi nilai estetikanya. Namun, secara keseluruhan pengalaman berkunjung tetap menyenangkan karena suasananya nyaman untuk berkumpul bersama keluarga.\nSemoga ke depannya penataan kawasan di sekitar telaga terus ditingkatkan agar semakin menarik sebagai tempat wisata dan ruang terbuka untuk masyarakat. Tetap layak dikunjungi jika ingin bersantai atau menikmati suasana sore di Gresik.",
       "textTranslated": null,
-      "publishAt": "1 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-28T05:32:44.740Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWSldtaE9aV05TZFdKd1RDMTFTSG95VWpFMVdGRRAB",
@@ -921,9 +921,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMe63oBnH1QiWXzo5y22yOMid3iqzddd2z9B75DGq0CR91wl4zuP4i6ZmkqopnFWfFNRVJpxKfP5nNz2MKhEDu9HjVxaJURmNnjpR3fSybAdO6ynFjfStw-TYJYF8pxQmViL-h94dpAKkp2=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPpzAk8_FEcidk4EAgMcnTv23gcwSNlUT0RNNClQ_6LsKPi0muxqBzqBCoMMNkGJrQ7pbHv5O1mM4NalPAt8DNps0uIt0vZ2vzI-0Ul27VrM3xJ-nAWs9dzzy3ytgX1qSs642cbuAL_ucnT=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP66DwEw0VMB75J1yEEJkKmZESTZZI_r6kDZyOfOxulCxNjNQ4E5OHBAztCrD55xHOTPu-tysw8pHcntLqLzWHoUyFZuCQ7EJtomC-UDPVblmhQ6_aSffMvS9MZBq5f0LYlcCOsOrGQwGU=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNEP7qK5nOX0qUHtP5c74oY1Zo_rSeRVKmHtNZuTGME70Ny9pcErmw5wEZcfIy53dmLY7InKv5zgQcTTD7r5kMZFJDCe7eJslxRuOFVGA_NLGwPIC0Gcjsh1-GxmmNanz6cuKU_DOU9-WhR=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMqqx2TWl3iueo5ys2PTgBP5WwRYrwpj5YEZ2b5wOCbPjfqy3lBMfsuK2SbBfEExlcDfFj81WedfCqq-uaNf02-P3lCQy7hHuUgYT7cgtyw_yIGPHLlcUSd4hM-efDn5Rnou1deXheoAm-a=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMyVUY5SCadV8W3hXIlu2YqqF959OUMDrt7MKFCmgZETnDlN_yno0Z39DAqcN-35eV50cjQ6FVgPvXsn2EA__k-NF7A1wIRWtxATbN85sGOldyt_VatwbSigooz68zUM695Fo0Yn-LcEoQ=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -944,7 +944,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVUk5RaTiRdCXvB9zXI-G0RyN9Hlgp_SFpFFTgtM6rA0MoUHlYG=s1920-c-rp-mo-ba12-br100",
       "text": "Suasananya tenang dan menenangkan",
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-26T02:49:19.826Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21Gek1rdFpWblpYWldOWVdHSXdhalppVGpVM01VRRAB",
@@ -955,9 +955,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOa2Y1tFcM3L9nYZkD5sGHwUhzrAI74hR9XyUNiyc4hh8ROkbTVm_GLKmvULSZjNK17KjUD-dgRqQTEHQW-xeDAySoMbU1TYhNe9neDKgvLSX4hLDaZdRU1_Q1D7vamVRIz5LSQVmw4_W8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHsaXqPda-gc4j0sorTnxlRzj4dZkM3y7oToqGF8Ws11o0yIwF_rwN1SKbHUopaVjjL41k4zSZoZTU1L_vEqNljV4Sl6wcnDK5GlYNWNl4yEHLH3nqXiVhVarhH3hWYRud5mNuc-920kI=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPTrW5BmAJmGxGgQIGDktfyJqLbjODVwcaugXXxiqIr4wM-DH9ALIDr4y0bWuwVlBhjMA_A6CvDETum4HI6l15WKbx8Oe4O6G0ZwahYK4m-TVq5wLfjLScXXAVSw6PmZmh-QlT5cNFznUA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMwyKieRZx7y9GuoiOu6TsUZipPcHnzjcOkiRXj4ySNdWLs4D9YitHdVQXRYDbZHUl5AeoCdHinUGDUjff5iPNq0zmK0nklWSyoG9nJ1aUnCbolBXz1fPj2VfDpbXD2uhnmk8v4oSGp2tk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOgtr_Y90jitPY3OkTbPTFmu4tRyIUbcxhZeNWCXBkdukHXPF3U8paOX3MY1DOWtQlL3NWyNNqmvCOfmZrPoCmSRtqAHY7GVQSEmWT_Vhf_3daNb0w9XEqVXMmbp5n3WXrESApnllNLTkk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMAa0cLHUyrgoj_cTq4h99ESDBSargrUxQo9OEw-hyDWRAW7OXetdPzeszzO_-GyLwmraa0VMB4OzfmKRNd5SJpRC-SkROSq6-fH14vwAUaii8WFsedX44bLAC-eBM6dQQn_xkgrO9Gzhk=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1041,7 +1041,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO1FozjpQJL_KR8RV-ChlozP6liuxG_84IwWLd6KcgLmVtUYezWCw-DfjDCsNzkwCFUWD5T5N76h-Q5B7oUi_HheqDntirlaN-CJ77nbE0Yrl-2NSTGzyDwP-GDEU2u0CXVYpnG4BqJ58IR=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPN2ZDxwc0nLPXsFTOffkX_wQszEBIXKDmBXOHABiC9I74IQQoNw0DyThlUJb4VohGTfgO3JWeTcBAmkIZ5trlPr763-xn9q7c8ClNHa__Lk6MDZvy2QiL-eU5x772VtCNd2yeGm9Mlww7p=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1088,7 +1088,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLPj_M-yKEn3kK6D30VwxuOMSyg4X_JGjolH-tDhrRUHjg4Fg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-03-31T10:01:41.773Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkUWVETjNjRnBXV0hGcFlVdFhOMlZtZFZkSVpHYxAB",
@@ -1147,7 +1147,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLRHIN31MI2ZPTgWxTelDvOmksVEO4XrGDz-Be-5qnM-EI5cg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-02-02T23:55:20.630Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21FNVFXVnpaV0paU0hSR1FrWkdiblJaZG5nME4zYxAB",
@@ -1184,8 +1184,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNNFty1-Jy4qoeaG_TpSoBtmkAz_Su-7Y0NOKetnRREOvTdPL2srqVcFiNCJM2xQJxbLw3Gr4xdvov1TT7VzVREGEx7_vPV_waon5UBgeOEyzX5qpSYX8UtUE0x5yXScbckci0-lAK8IzCU=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP_x0jFC7mZPKF_Yi24QFRgSW4hfFUqIBf6lbz9DtnY8vnR7luVmLuWExKOdPclkl03eHJEfTaMDBTdOw-nu_IXKnZBqs3FAVtR5UM1ZvCwIYtbqxc6TVsImP2X1Gg5_0lrpQCYftkMfIhD=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMoTLpgZ0-WxwB3c-x8NBxbhen43qkBCu9KAiZWUaVZKmyyle7U9DE1lrZsZOUdILGX5JP8yEn835e4m46NRTnGBGI-Z3tN5O-1eEi5yoccTMvussdxeYBPaQ-PMM-edPjdnLlpWYchkXE9=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNcs5_GSVgqhJ3a3yiNk4G20fmhY2ZC1RvNazVHJmkW1qtHrdzCM7jkqBOv_moqi6Nq6MvQS_S4WKEBKgqcIwcj0ckVTKDy96hTAXT3_nCdROGi44kUziQqjp2b_5Lf8nIJ-PFbDR2k4ngW=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1202,7 +1202,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL4A_y0C9XrGwqg16GK9Yxfw0T-lbH1Ksgw1hbohyyM5rPCcA=s1920-c-rp-mo-ba12-br100",
       "text": "Bagus..banyak yg mancing",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-04T10:43:01.213Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aWmNHdFVjMnQ2U1ZCM1oySkNTa055V1hKdk5WRRAB",
@@ -1228,7 +1228,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJnzP7OAx1bcoosxIOXi4APRW_pFdX-TtvnRZu26unSft6Tlg=s1920-c-rp-mo-br100",
       "text": "Apa boleh mancing malam setelah selese kerja",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-02T10:47:08.832Z",
       "likesCount": 1,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2twa2MyWk5XbVpCV1ZkclVVSTFjV1prVG05ck9WRRAB",
@@ -1321,7 +1321,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN46HXSyOYiHEH9RPi3CuAmr07Xisr6LVKRDJtMMVlC8R5RaRG5fJRCBQHLi5rzXQIbV76GCHxRhBOa2YwwDJZEgYxRmp8nZF756SOdwNMEHmj70dk4J5nWtZBqmbmlLcVPqeihqST93Fpq=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUNGj6R3CgNK2snaFJrz7HsUiqffO6BES6MINmPTHYsIEmJYxaiBmaV3Sz8Tell6Xu1bHJsUuHSJ-SOlTDqgdfYIfxp0qUfLPUPkX4YtT9qRtj_u4gKO3ypYGzfYFDj2c2CBsiwEE-rV8l=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1349,11 +1349,11 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNrW7OYl7Xx0J8pJFsW4x_j_6mpMbX6_dfOQgAhM61VaGYC0G-ChImd12dpxlN1vbzZqcZKQgnu4qDYdTT6IOhxlEb5BjjsC44wtevuYLIx4C0yMvcUjpzWsXS-2xNkXqIbSXuS-1cXD9bh=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOWHqitZsFPdvQtNXzxJ2iHeXDD0aAcVIzDEMoqQpNQY9hfceo0gf4K-jZcGCzUhgGNkmZawDdy77pP0a5OxN30UCZ5oY8KJR4yrRucpu7H6zvCc8VacOOh-Uc9xgL2DV4Nx0Z8ZJ6fGcX3=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpApAGywWJngfnvd2rHb2YNZoxES7FHHmoiBl4e_U12zsjm2lbj4o66n8axzYv_2Z5w2pTCA_IqdubhWYXILGnjwT5zI9a_ju9V6glK6XvtfSfMSnQom5Wlgqdi0GJ2S1KDEtDehA29YOa=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMHisE8B4nk9B6R8tLZ-yl10vmbREelf6m4_0mroR3tj4FkUzxXI789ncwTR-j2qELzZ7zUqaRG_i-8yb2FYIGmAQn-c8IReqKq78uuh_Di29rFQxK40FafIxJGCu6lOE88KQFcQE5WXDo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMcfiEJ6l3bQdssIQmkEo90FlbDy-QzTxqb-GrS8fQwpqsZRw4tIK-eE7iwZ_Z0j1UZTCbH8u_pK3zIKpeLmxrZqE5TvdFMfbLX_HPivazGf1K_c24MqvsUTfnCMwYjtBaMDSUOX9ygSQg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNC55OCUtLc4wDoZMcnQp624WncStAJQ-x7a4VbEqNwMZiqNZL2VSqAgOQRvTGM3drfZHFNM1S-WisZ0WcexDjbxUi-clZhmAYHkg-BMQJ1Q51v7sKT019ZnX-L0YI5gkb68IP3RE_NkYGS=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOqKqAm4gu430qhKsgdti_wzGj1592K-SuYqXFabmivC-R5n1gSwzSdlprKvpwvsp7OqQCwXsksW1imb8cpQsvxbV1RhiHZ-KG2sAFwoKFLxGg1DHIf3l7896yTXRWZM1bUjyDqh7_Vb5GV=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOyDVOg7ppyXcwyEQmL9BgjF542z_rwnyY926pysQHFLqyostEhQAGKPMiyEPvTNdj0ekLhIMdRjmpYopncgmCd73gIM75lAZdbbDcP9XiH3u6NetqsQ-Ef2fYR6EtrDEJV2W7sEWzEXRnl=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOy7eV6cI2MDdEh4JUyBi-MwSP75rhmIWDUF3AshzoXHfd6dVcZcBYGfX6GPjJiP_L7uJ3ZoikZZYUv_phBgPYSHHYonj4HCcqmkG4rQWucbx-9080mBbi3Esl9HTmgiXIfZgXPJ42_tfw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmND94_BnOKOx3PgmYyia-jMqpS7RHZP3CDqqjjhxtjwgnLljWJCIZzBQQHctQCo06rm_Xg4JHj8ztq2gXPkKyBp4WcFG33hpcarNNO69AceFow9B1QgJQ7ecWmF4K-VtaAvKAwGzd1V0VI=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1452,7 +1452,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXbhsyYFebkakICASQhbIO5L8O_ylOh8RqH9Zatfm-mF-mw1m8e=s1920-c-rp-mo-ba12-br100",
       "text": "untuk view dan suasana bagus  tapi perlu perbanyak tenant makanan snack minuman  sayang sekali untuk dlagoon sekarang sepi perlu perombakan",
       "textTranslated": null,
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-04T08:02:32.302Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkNlJHWlZTMk5FUW1GVFJYWnNNR1ZoT1Vkb1duYxAB",
@@ -1482,7 +1482,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX0r320jh4rJ-PzCbpKuMS2jYps5vn3tnraSGGah7MP1IJraR4=s1920-c-rp-mo-br100",
       "text": "Haup",
       "textTranslated": "Hauppauge",
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-03T14:30:24.016Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21NMGNWbGxhVlJGVGpKWldYRjZhVXRJVVdoNWVGRRAB",
@@ -1655,8 +1655,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOj0pGjzDuwA5UVlcAOO1jEAxkkThiixVJJwEt-H8mR5tfiZRXR8fIpv2q4UK4DPFea37PeZ8CykDm5NIq6nlYpg1Hq5F-26KeAF9Ag-6tzKEdZEPw2FTi4aDvUcFCwu09-Qj9g=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPAc2-bfm7K1ZIQ_5FwBnRj-iios_srhADNvApG5NAKa9584c29RqIV0VoT34HpeL_413bs04m05qW7WHJnrRVlXADjWWcK75H4FsD5JV4jMtWgCeoBIUS8LXNUGNeSUB9ZO3tF=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOMt36RUHf7n3vN6vj96UtuTA-9RCJ39q2P5jhSIVFq6XMCA5OtWzMSOdYj1pastFYTjcBYHFMy4Xd6Ya6BtEitj4fLcePC1tyRqUVuUWn4apXr945aD35Zyb2CikUCsVheO1tL=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMAC6WPX3wHUdCdLMSL7eTdK4x2wxXUkE0kdHJieB4l89Hfhf9Wc__ExH7GVRcmHxY6qOR4amtOGBqeDYpvE0_tvhVwkz79k7avar6nFcdJf3HIKX88THgsbWOMcW8csQf0ICva=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

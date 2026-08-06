@@ -39,7 +39,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:53:48.946Z",
+  "scrapedAt": "2026-08-06T15:31:00.076Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -47,7 +47,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Sibuk seperti biasanya",
+  "popularTimesLiveText": null,
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -571,10 +571,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "07.00 to 22.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 22.00"
     },
@@ -596,6 +592,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "07.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "07.00 to 22.00"
     }
   ],

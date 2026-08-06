@@ -42,7 +42,7 @@
   },
   "imagesCount": 0,
   "imageCategories": [],
-  "scrapedAt": "2026-07-29T13:27:10.146Z",
+  "scrapedAt": "2026-08-06T15:16:41.439Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -742,10 +742,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -767,6 +763,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],

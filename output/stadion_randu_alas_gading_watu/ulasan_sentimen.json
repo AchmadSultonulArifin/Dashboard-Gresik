@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Olahraga",
   "tempat": "stadion randu alas gading watu",
   "rating": 5,
   "total_ulasan": 2,
@@ -9,9 +9,11 @@
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -7.2762911,
+  "longitude": 112.5591806,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Saiful Arif",
       "Bintang": 5,
       "Tanggal": "2022-10-04T13:03:33.267Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9919
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Ppras Erys",
       "Bintang": 5,
       "Tanggal": "2022-10-03T07:43:06.529Z",

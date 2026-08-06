@@ -1,17 +1,63 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Wisata",
   "tempat": "Dynasty Water Park",
   "rating": 4.3,
-  "total_ulasan": 12,
-  "positif": 7,
+  "total_ulasan": 15,
+  "positif": 10,
   "netral": 2,
   "negatif": 3,
-  "persen_positif": 58.3,
-  "persen_netral": 16.7,
-  "persen_negatif": 25.0,
+  "persen_positif": 66.7,
+  "persen_netral": 13.3,
+  "persen_negatif": 20.0,
+  "latitude": -7.1409986,
+  "longitude": 112.6149747,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Vivi Emilia",
+      "Bintang": 5,
+      "Tanggal": "2026-08-04T22:17:41.601Z",
+      "Ulasan": "Seru dan sangat memuaskan, cocok untuk liburan bersama keluarga 🤩",
+      "teks_final": "seru memuaskan cocok liburan bersama keluarga",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Faraz Ganteng",
+      "Bintang": 5,
+      "Tanggal": "2026-07-29T22:01:48.806Z",
+      "Ulasan": "Kolam renang bermacam macam dan tidak kecil, cocok kalau dibuat berenang bersama keluarga 😍",
+      "teks_final": "kolam renang bermacam macam kecil cocok dibuat berenang bersama keluarga",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9829
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Akhmad Zainudin",
+      "Bintang": 5,
+      "Tanggal": "2026-07-28T22:33:12.384Z",
+      "Ulasan": "Ok semua dengan harga yg terjangkau dan dekat dari rumah. Lebih ok lagi klo boleh bawa makanan dari luar sih.heheh",
+      "teks_final": "oke semua harga terjangkau dekat rumah oke boleh bawa makanan luar heheh",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "محمد علي الشريف",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T12:01:49.000Z",
+      "Ulasan": "Makanan yang sangat, sangat enak.",
+      "teks_final": "makanan enak",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Wisata",
       "Nama Reviewer": "Irma Nurmala Sari",
       "Bintang": 5,
       "Tanggal": "2026-07-17T02:41:08.917Z",
@@ -22,7 +68,7 @@
       "sentimen_score": 0.8379
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "azzahraa",
       "Bintang": 2,
       "Tanggal": "2026-07-11T02:51:45.233Z",
@@ -33,7 +79,7 @@
       "sentimen_score": 0.995
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Arif Prasetyo (Arifdinamo)",
       "Bintang": 5,
       "Tanggal": "2026-07-07T22:27:58.500Z",
@@ -44,7 +90,7 @@
       "sentimen_score": 0.993
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Eko Purnomo",
       "Bintang": 5,
       "Tanggal": "2026-07-05T03:34:40.978Z",
@@ -55,7 +101,7 @@
       "sentimen_score": 0.9923
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Robymas",
       "Bintang": 4,
       "Tanggal": "2026-07-04T05:07:02.057Z",
@@ -66,7 +112,7 @@
       "sentimen_score": 0.9706
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Wahyu Nur Wijayanto",
       "Bintang": 4,
       "Tanggal": "2026-06-23T10:45:02.493Z",
@@ -77,7 +123,7 @@
       "sentimen_score": 0.9496
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Rohas Pablo",
       "Bintang": 2,
       "Tanggal": "2026-06-12T04:50:31.860Z",
@@ -88,7 +134,7 @@
       "sentimen_score": 0.9947
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Pak Yan",
       "Bintang": 2,
       "Tanggal": "2026-06-11T01:57:06.281Z",
@@ -99,7 +145,7 @@
       "sentimen_score": 0.9938
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Yuning Meiriati",
       "Bintang": 4,
       "Tanggal": "2026-06-06T08:11:52.294Z",
@@ -110,7 +156,7 @@
       "sentimen_score": 0.9976
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Nadya Putri",
       "Bintang": 1,
       "Tanggal": "2026-06-03T03:45:23.856Z",
@@ -121,7 +167,7 @@
       "sentimen_score": 0.9933
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Dina Ratna",
       "Bintang": 5,
       "Tanggal": "2026-05-31T06:44:27.530Z",
@@ -130,17 +176,6 @@
       "topik": "Fasilitas",
       "sentimen": "Positif",
       "sentimen_score": 0.9971
-    },
-    {
-      "Kategori": "Lainnya",
-      "Nama Reviewer": "Lutfy syaifullah",
-      "Bintang": 5,
-      "Tanggal": "2026-05-16T08:12:06.845Z",
-      "Ulasan": "Masih menjadi andalan warga gresik",
-      "teks_final": "menjadi andalan warga gresik",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9806
     }
   ]
 }

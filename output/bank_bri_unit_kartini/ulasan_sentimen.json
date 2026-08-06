@@ -9,6 +9,8 @@
   "persen_positif": 66.7,
   "persen_netral": 16.7,
   "persen_negatif": 16.7,
+  "latitude": null,
+  "longitude": null,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -53,17 +55,6 @@
       "topik": "Fasilitas",
       "sentimen": "Positif",
       "sentimen_score": 0.9892
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Imam Haryono",
-      "Bintang": 5,
-      "Tanggal": "2021-04-07T20:00:04.803Z",
-      "Ulasan": "Pelayanan bagus",
-      "teks_final": "pelayanan bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9969
     },
     {
       "Kategori": "Perbankan",
@@ -273,6 +264,17 @@
       "topik": "Fasilitas",
       "sentimen": "Positif",
       "sentimen_score": 0.9945
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "muhamad “Muhammad” nurcholis",
+      "Bintang": 4,
+      "Tanggal": "2016-09-26T21:54:30.223Z",
+      "Ulasan": "Layanan ramah, khas bri",
+      "teks_final": "layanan ramah khas bri",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9942
     }
   ]
 }

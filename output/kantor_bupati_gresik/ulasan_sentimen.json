@@ -1,14 +1,16 @@
 {
   "kategori": "Pemerintahan",
   "tempat": "Kantor Bupati Gresik",
-  "rating": 4.3,
-  "total_ulasan": 17,
-  "positif": 7,
+  "rating": 4.4,
+  "total_ulasan": 16,
+  "positif": 6,
   "netral": 6,
   "negatif": 4,
-  "persen_positif": 41.2,
-  "persen_netral": 35.3,
-  "persen_negatif": 23.5,
+  "persen_positif": 37.5,
+  "persen_netral": 37.5,
+  "persen_negatif": 25.0,
+  "latitude": -7.1708537,
+  "longitude": 112.5996763,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -185,17 +187,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.8475
-    },
-    {
-      "Kategori": "Pemerintahan",
-      "Nama Reviewer": "MOHAMMAD THOYYIBAH",
-      "Bintang": 5,
-      "Tanggal": "2022-03-28T04:16:56.633Z",
-      "Ulasan": "Tempatnya bagus dan luas, pelayanannya kooperatif",
-      "teks_final": "tempatnya bagus luas pelayanannya kooperatif",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.997
     }
   ]
 }

@@ -1,0 +1,115 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Makam keramat panjang pakuhaji",
+  "rating": 4.6,
+  "total_ulasan": 9,
+  "positif": 7,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 77.8,
+  "persen_netral": 11.1,
+  "persen_negatif": 11.1,
+  "latitude": null,
+  "longitude": null,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Hasan Assegaf",
+      "Bintang": 5,
+      "Tanggal": "2026-02-06T06:13:17.987Z",
+      "Ulasan": "Malam jumat selalu hadir",
+      "teks_final": "malam jumat selalu hadir",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.846
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Yudhi Ubaidillah",
+      "Bintang": 5,
+      "Tanggal": "2026-01-28T06:45:04.220Z",
+      "Ulasan": "Bagua",
+      "teks_final": "bagua",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9417
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Sariman Aziz",
+      "Bintang": 5,
+      "Tanggal": "2025-12-21T04:31:19.687Z",
+      "Ulasan": "Mantap",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Habil",
+      "Bintang": 5,
+      "Tanggal": "2025-12-21T01:24:48.771Z",
+      "Ulasan": "Sangat cocok untuk ziarah",
+      "teks_final": "cocok ziarah",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Idrapuss",
+      "Bintang": 1,
+      "Tanggal": "2025-08-06T15:32:34.706Z",
+      "Ulasan": "Blm jls idntts nya msh meragukan.",
+      "teks_final": "jls idntts meragukan",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9428
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Su marni",
+      "Bintang": 5,
+      "Tanggal": "2024-12-19T11:31:10.792Z",
+      "Ulasan": "Maqomnya panjang jika bebelian harus uang pas krn disini menanamkan ke jujuran",
+      "teks_final": "maqomnya panjang bebelian harus uang pas disini menanamkan jujuran",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7879
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "irul somplak",
+      "Bintang": 5,
+      "Tanggal": "2024-10-15T08:36:12.728Z",
+      "Ulasan": "penjual nya ramah",
+      "teks_final": "penjual ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Agim Moedin",
+      "Bintang": 5,
+      "Tanggal": "2024-09-28T13:39:43.710Z",
+      "Ulasan": "Tempat nya enak buat berziarah dan berzikir dan istirahat di masjid",
+      "teks_final": "tempat enak buat berziarah berzikir istirahat masjid",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Ndang Hidayat",
+      "Bintang": 5,
+      "Tanggal": "2024-09-24T04:35:34.120Z",
+      "Ulasan": "Tujuan Penziarah Kaum Muslimin Muslimat",
+      "teks_final": "tujuan penziarah kaum muslimin muslimat",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9097
+    }
+  ]
+}

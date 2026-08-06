@@ -2,14 +2,60 @@
   "kategori": "Kesehatan",
   "tempat": "Puskesmas Manyar",
   "rating": 4.6,
-  "total_ulasan": 28,
-  "positif": 22,
-  "netral": 4,
+  "total_ulasan": 26,
+  "positif": 19,
+  "netral": 5,
   "negatif": 2,
-  "persen_positif": 78.6,
-  "persen_netral": 14.3,
-  "persen_negatif": 7.1,
+  "persen_positif": 73.1,
+  "persen_netral": 19.2,
+  "persen_negatif": 7.7,
+  "latitude": -7.1234618,
+  "longitude": 112.6058903,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Vico SATRIA 48",
+      "Bintang": 3,
+      "Tanggal": "2026-08-03T03:10:29.970Z",
+      "Ulasan": "Kekurangan petugas yang mengarahkan, terutama untuk pasien baru yang belum mengetahui alurnya",
+      "teks_final": "kekurangan petugas mengarahkan terutama pasien mengetahui alurnya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.729
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Edward Lalado",
+      "Bintang": 5,
+      "Tanggal": "2026-07-31T15:27:32.744Z",
+      "Ulasan": "Kalau minggu cek kesehatan catin buka ta?",
+      "teks_final": "minggu cek kesehatan catin buka ta",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9943
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ismatul Adyba",
+      "Bintang": 5,
+      "Tanggal": "2026-07-31T07:23:43.947Z",
+      "Ulasan": "Pelayanan subkhanalloh luar biasa cepat ramah dan gak bertele tele gak ruwet.. Bukan faskes sana tp diterima dengan sangat baik di poli psikolog program unggulan. Terima kasih banyak puskesmas manyar poli psikolog luar biasa muanteb",
+      "teks_final": "pelayanan subkhanalloh luar biasa cepat ramah bertele tele ruwet bukan faskes sana diterima baik poli psikolog program unggulan terima kasih banyak puskesmas manyar poli psikolog luar biasa muanteb",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9927
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "durrotun nadlifah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-23T04:59:40.093Z",
+      "Ulasan": "Overall bagus terarah dari segala sesuatu nya , ramah, memuaskan dari segi apapun dari mulai staff di pendaftaran ada bu wulan, pelayanan di KIA, lab, dokter gigi dr.anggia, USG dr.andre, kasir dan yang lain 🥰",
+      "teks_final": "overall bagus terarah segala sesuatu ramah memuaskan segi apapun mulai staff pendaftaran bu wulan pelayanan kia lab dokter gigi anggia usg andre kasir lain",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9885
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Andi 26",
@@ -251,72 +297,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9806
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "KazuEste",
-      "Bintang": 5,
-      "Tanggal": "2025-11-15T00:50:11.465Z",
-      "Ulasan": "Bagus dan sangat informatif",
-      "teks_final": "bagus informatif",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9957
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Rumput Hijau offxcxall",
-      "Bintang": 5,
-      "Tanggal": "2025-11-15T00:43:38.975Z",
-      "Ulasan": "dokter dipoli gigi sangat ramah, komunikatif, tindakan jg nyaman",
-      "teks_final": "dokter dipoli gigi ramah komunikatif tindakan nyaman",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9701
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Nisa Mbull",
-      "Bintang": 5,
-      "Tanggal": "2025-11-10T03:03:13.717Z",
-      "Ulasan": "Kebetulan saya merupakan pasien faskes bungah dan tidak periksa disana karena poli tutup untu pemeriksaan catin, alhamdulillah ketika saya ke puskesmas manyar diterima dengan pelayanan sangat baik sekali, ibu bidannya sangat humble dan murah senyum. Sehat selalu ibu❤️",
-      "teks_final": "kebetulan merupakan pasien faskes bungah periksa disana poli tutup untu pemeriksaan catin alhamdulillah puskesmas manyar diterima pelayanan baik ibu bidannya humble murah senyum sehat selalu ibu",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9908
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Maslichatun Najwa",
-      "Bintang": 5,
-      "Tanggal": "2025-11-03T10:22:49.910Z",
-      "Ulasan": "periksa hamil+usg. pelayanannya sudah bagus. pak dokternya baik. dr. andrey. menjelaskan dg detail. tidak buru buru. semoga bisa dipertahankan",
-      "teks_final": "periksa hamil usg pelayanannya bagus pak dokternya baik andrey menjelaskan detail buru buru semoga dipertahankan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9868
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "jerry Dhita",
-      "Bintang": 5,
-      "Tanggal": "2025-11-03T01:51:26.602Z",
-      "Ulasan": "pelayanan usg sangat ramah dngn dr myta dan dr andre",
-      "teks_final": "pelayanan usg ramah dngn myta andre",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9801
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Silvi Ayu",
-      "Bintang": 5,
-      "Tanggal": "2025-10-17T11:59:14.960Z",
-      "Ulasan": "sangat ramah pelayanan nya dan sangat baik 🙏",
-      "teks_final": "ramah pelayanan baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.995
     }
   ]
 }

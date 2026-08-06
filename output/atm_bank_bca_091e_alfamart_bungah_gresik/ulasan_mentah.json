@@ -46,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:49:20.079Z",
+  "scrapedAt": "2026-08-06T15:26:32.326Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,7 +54,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Sibuk seperti biasanya",
+  "popularTimesLiveText": null,
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -578,10 +578,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "07.00 to 22.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 22.00"
     },
@@ -603,6 +599,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "07.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "07.00 to 22.00"
     }
   ],
@@ -684,7 +684,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWT4ntdg7CHEWv-Par2ZWpOL8riUhclpomUZ7dAsKw8uB-OR2I=s1920-c-rp-mo-ba12-br100",
       "text": "buka 24 jam\nyg melayani kurang ramah\ntidak ada toilet, atau memang tidak boleh numpang meski sdh belanja..tidak jelas juga",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-07-30T20:16:45.339Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1MGV1SEtBEAE",
@@ -695,7 +695,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPMQZO8jxpjaR6QJ0ETroFoyaiBaKdX8jFngO_NBp23EDp4SW0nAYT6KK2NTgJyW3kVrNwjYON-K-lP_EYr6V6gnqROzeHsPzfOeSDo2d4J3GIGCSgkN5ZXIdIJxbagiqeBuO_l=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMcj6Av_1CuBa0iuuMoGzzUn-JQCzDj-Rpj_eIr8uiL_3pE2ckla4-3-fUYPYs53YoMbZsYq-LTISmkTtdkiuOZVbxGfzFN5r97zXU6hhEEGacIJBRDSWjekLZk0DKZZw9XPm7u=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

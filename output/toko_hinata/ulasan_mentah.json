@@ -38,7 +38,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T15:27:48.823Z",
+  "scrapedAt": "2026-08-06T16:56:09.286Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -570,10 +570,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "06.00 to 20.00"
-    },
-    {
       "day": "Kamis",
       "hours": "06.00 to 20.00"
     },
@@ -595,6 +591,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "06.00 to 20.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "06.00 to 20.00"
     }
   ],
@@ -680,7 +680,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL1McZgCU7bL_7By4CYSnkOBP0UEGtioX_33OgmDyCte02ahg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-03-06T13:25:26.405Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21VemNFUTBUSGxITXpKM2JHUlpiV1E1ZFRkclFWRRAB",
@@ -769,7 +769,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNRsaKt8dbFsA1OJ8dUeVjXXko8VgxZOLdgmwOV6LI9F1QT0R4ox1PqFM0Ic0M-pjuYBzjNIh-ZKxWnJBuJuv2PLVhYpPUPseqOCPk9wf5IQsKX6Wts25Lug8bTQTPseHbyrt6J=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPuz3FKBfxPtQn-0xbAB13eQyLIW96_zoVoQUFchwV8tM1pikCMmV53dmXEuXdi9NC-gKaw5FIC5HI6CxWaFoN6V2vqOe9r0TYXekMsaTS3R60aZIE4-ah12-90eArbw_OLtwtR=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -781,7 +781,7 @@
       "reviewerId": "114762808842298585477",
       "reviewerUrl": "https://www.google.com/maps/contrib/114762808842298585477?hl=id",
       "name": "Nicho Ibrahimovic",
-      "reviewerNumberOfReviews": 26,
+      "reviewerNumberOfReviews": 25,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVq8popSPOp6X0SpRYGo6nkYrEfF-mExJ9tpYgEDc2fmO_50ncLZA=s1920-c-rp-mo-ba12-br100",
       "text": null,

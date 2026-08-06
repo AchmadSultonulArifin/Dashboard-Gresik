@@ -1,5 +1,5 @@
 {
-  "kategori": "Pemerintahan",
+  "kategori": "Pelayanan Publik",
   "tempat": "Kantor Pos Gresik Pelabuhan",
   "rating": 4.2,
   "total_ulasan": 6,
@@ -9,9 +9,11 @@
   "persen_positif": 33.3,
   "persen_netral": 50.0,
   "persen_negatif": 16.7,
+  "latitude": -7.1544644,
+  "longitude": 112.657418,
   "ulasan": [
     {
-      "Kategori": "Pemerintahan",
+      "Kategori": "Pelayanan Publik",
       "Nama Reviewer": "Poenk Choee",
       "Bintang": 5,
       "Tanggal": "2024-10-13T09:41:51.169Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9304
     },
     {
-      "Kategori": "Pemerintahan",
+      "Kategori": "Pelayanan Publik",
       "Nama Reviewer": "Ahmad Fahmi",
       "Bintang": 5,
       "Tanggal": "2024-05-13T06:58:20.655Z",
@@ -33,7 +35,7 @@
       "sentimen_score": 0.9972
     },
     {
-      "Kategori": "Pemerintahan",
+      "Kategori": "Pelayanan Publik",
       "Nama Reviewer": "Ebith Joenaidi",
       "Bintang": 5,
       "Tanggal": "2023-06-26T03:57:09.857Z",
@@ -44,7 +46,7 @@
       "sentimen_score": 0.9168
     },
     {
-      "Kategori": "Pemerintahan",
+      "Kategori": "Pelayanan Publik",
       "Nama Reviewer": "Hello Yello",
       "Bintang": 3,
       "Tanggal": "2020-06-20T07:29:03.788Z",
@@ -55,7 +57,7 @@
       "sentimen_score": 0.8581
     },
     {
-      "Kategori": "Pemerintahan",
+      "Kategori": "Pelayanan Publik",
       "Nama Reviewer": "KPJ Bojonegoro",
       "Bintang": 5,
       "Tanggal": "2018-02-11T11:50:28.298Z",
@@ -66,7 +68,7 @@
       "sentimen_score": 0.9963
     },
     {
-      "Kategori": "Pemerintahan",
+      "Kategori": "Pelayanan Publik",
       "Nama Reviewer": "Firdha Ayu Atika",
       "Bintang": 4,
       "Tanggal": "2018-02-04T10:03:18.391Z",

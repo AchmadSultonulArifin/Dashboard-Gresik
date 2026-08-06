@@ -41,14 +41,15 @@
     "fourStar": 0,
     "fiveStar": 6
   },
-  "imagesCount": 6,
+  "imagesCount": 8,
   "imageCategories": [
     "Semua",
+    "Terbaru",
     "Eksterior",
     "Di dalam",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T14:15:40.727Z",
+  "scrapedAt": "2026-08-06T15:43:11.157Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,10 +61,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 15.00"
@@ -86,6 +83,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 15.00"
     }
   ],
@@ -155,7 +156,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnvUNmry4EzvgxP4BoD0QM60fyxVUNLnAM_WrDXIHKxOV5k8pTHGZYiD52XIPY6DwFt9UvmnAvVaWAVzy7sFYGzIaVAdMzXLs3JQGHkLiwTHjX0V1LGFbEtVIwL63tRDNIB6n__=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmncqE0dxHdrz0APp_2lIDZSIIlfu4zpgz8KvFksUWyY_4Wia620XpxPs98lwl1BaM1I3I80Pz4UwFls-9rQoPun0RVumcOE-g2yhCaOnuBrAF33afKaI6QaBBysQPPskVmeG95gmWsDf7T=w408-h544-k-no",
   "kgmid": "/g/1ptyt6ry3",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -281,7 +282,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX8k6Shp4dpqifnPlboExJH20qQYUpMSYLEVqaPFAjPnAmyr-PH=s1920-c-rp-mo-br100",
       "text": "Pelayanan sangat buruk",
       "textTranslated": null,
-      "publishAt": "4 tahun lalu",
+      "publishAt": "5 tahun lalu",
       "publishedAtDate": "2021-08-05T23:29:51.610Z",
       "likesCount": 3,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNhdGVlZVh3EAE",
@@ -437,7 +438,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKXXQ6795D5OpH-g4HwZZpk2u5XJ_ylPTwZsMAmbdIQ4tpb6A=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 tahun lalu",
+      "publishAt": "6 tahun lalu",
       "publishedAtDate": "2020-08-04T03:46:59.596Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQ4cjRMYmpRRRAB",

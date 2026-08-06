@@ -88,11 +88,6 @@ def get_folder(nama: str) -> str:
 GRESIK_LAT_MIN, GRESIK_LAT_MAX = -7.65, -5.55
 GRESIK_LNG_MIN, GRESIK_LNG_MAX = 112.20, 112.95
 
-# Kota tetangga yang harus ditolak meski koordinatnya masih dekat/tumpang
-# tindih dengan area Gresik (mis. Surabaya bertetangga langsung).
-KOTA_DITOLAK = ["surabaya", "sidoarjo", "lamongan", "mojokerto", "bangkalan"]
-
-
 def dalam_area_gresik(lat, lng) -> bool:
     try:
         lat = float(lat)
@@ -104,22 +99,27 @@ def dalam_area_gresik(lat, lng) -> bool:
 
 def kota_valid(data: dict) -> bool:
     """
-    Cek field city/address pada dict data mentah (hasil scrape Apify).
-    True  -> aman (eksplisit Gresik, atau tidak ada info kota).
-    False -> ditolak (kotanya salah satu KOTA_DITOLAK, mis. Surabaya).
-    """
-    city    = str(data.get("city") or "").lower()
-    address = str(data.get("address") or "").lower()
-    gabungan = f"{city} {address}"
+    Whitelist approach: hanya terima tempat yang EKSPLISIT menyebut
+    'gresik' atau 'bawean' di field city/address/state.
 
-    if "gresik" in gabungan:
+    Kalau semua field kota kosong -> dibiarkan (tidak ada info, tidak
+    bisa dibuktikan salah) supaya tempat valid yang datanya tidak
+    lengkap tidak ikut terbuang.
+
+    Kalau field kota ada isinya tapi tidak menyebut gresik/bawean
+    sama sekali -> TOLAK (mis. Cileungsi, Bogor, Surabaya, dll).
+    """
+    city    = str(data.get("city")    or "").lower().strip()
+    address = str(data.get("address") or "").lower().strip()
+    state   = str(data.get("state")   or "").lower().strip()
+    gabungan = f"{city} {address} {state}".strip()
+
+    # Tidak ada info kota sama sekali -> biarkan
+    if not gabungan:
         return True
 
-    for kota in KOTA_DITOLAK:
-        if kota in gabungan:
-            return False
-
-    return True
+    # Ada info kota -> wajib menyebut gresik atau bawean
+    return any(kata in gabungan for kata in ["gresik", "bawean"])
 
 
 def get_lokasi(folder_name: str, place: dict = None):
@@ -462,85 +462,157 @@ TOPIC_RULES = {
 LABEL_MAP = {"LABEL_0": "Negatif", "LABEL_1": "Netral", "LABEL_2": "Positif"}
 
 KATEGORI_MAP = {
+
     "kantor": "Pemerintahan", "dinas": "Pemerintahan", "kecamatan": "Pemerintahan",
+
     "kelurahan": "Pemerintahan", "bupati": "Pemerintahan", "sekretariat": "Pemerintahan",
+
     "dprd": "Pemerintahan", "polsek": "Pemerintahan", "polres": "Pemerintahan",
+
     "koramil": "Pemerintahan", "kodim": "Pemerintahan", "kejaksaan": "Pemerintahan",
-    "pengadilan": "Pemerintahan",
+
+    "pengadilan": "Pemerintahan","Kantor Desa":"Pemerintahan","Kantor Kepala Desa":"Pemerintahan",
+
     "rsud": "Kesehatan", "rsu": "Kesehatan", "puskesmas": "Kesehatan",
-    "klinik": "Kesehatan", "apotek": "Kesehatan", "rumah_sakit": "Kesehatan",
+
+    "klinik": "Kesehatan", "apotek": "Kesehatan", "rumah_sakit": "Kesehatan","BPJS": "Kesehatan",
+
     "sma": "Pendidikan", "smk": "Pendidikan", "smp": "Pendidikan","upt": "Pendidikan",
+
     "Upt": "Pendidikan",
+
     "universitas": "Pendidikan", "kampus": "Pendidikan", "sekolah": "Pendidikan",
+
     "madrasah": "Pendidikan", "pesantren": "Pendidikan",
+
     "disdukcapil": "Pelayanan Publik", "samsat": "Pelayanan Publik",
+
     "mall_pelayanan": "Pelayanan Publik", "imigrasi": "Pelayanan Publik",
+
     "bpjs": "Pelayanan Publik", "pos": "Pelayanan Publik", "kua": "Pelayanan Publik",
+
     "bpn": "Pelayanan Publik", "pajak": "Pelayanan Publik",
-    "brilink": "Perbankan", "atm": "Perbankan", "bank": "Perbankan",
-    "bri": "Perbankan", "bni": "Perbankan", "bca": "Perbankan",
+
+    "brilink": "Perbankan", "atm": "Perbankan", "bank": "Perbankan","ATM": "Perbankan",
+
+    "bri": "Perbankan", "bni": "Perbankan", "bca": "Perbankan","Bank": "Perbankan",
+
     "mandiri": "Perbankan", "btn": "Perbankan", "bpr": "Perbankan",
+
     "pegadaian": "Perbankan", "koperasi": "Perbankan",
+
     "wisata": "Wisata", "pantai": "Wisata", "taman": "Wisata",
+
     "museum": "Wisata", "makam": "Wisata", "masjid": "Wisata",
+
     "petrokimia": "Industri", "semen": "Industri", "pabrik": "Industri",
+
     "pelabuhan": "Industri", "terminal": "Industri",
+
+    "Gor":"Olahraga","Gor":"Olahraga",
+
 }
 
-
 def get_kategori(folder_name: str) -> str:
+
     # Prioritas 1: dari master CSV
+
     if os.path.exists(MASTER_FILE):
+
         try:
+
             df_master = pd.read_csv(MASTER_FILE, encoding="utf-8-sig")
+
             for _, row in df_master.iterrows():
+
                 if get_folder(str(row["nama"])) == folder_name:
+
                     return str(row["kategori"])
+
         except Exception:
+
             pass
 
     # Prioritas 2: dari ulasan_mentah.json (ada field kategori)
+
     mentah_path = os.path.join(OUTPUT_DIR, folder_name, "ulasan_mentah.json")
+
     if os.path.exists(mentah_path):
+
         try:
+
             with open(mentah_path, "r", encoding="utf-8") as f:
+
                 data = json.load(f)
+
             if data.get("kategori"):
+
                 return data["kategori"]
+
         except Exception:
+
             pass
 
     # Prioritas 3: tebak dari nama folder (keyword matching)
+
     keywords_pendidikan = ["sdn", "sd_", "smpn", "smp_", "sman", "sma_", "smkn",
+
                            "smk_", "mts", "man_", "mi_", "upt_sd", "upt_smp",
+
                            "upt_sma", "upt_smk", "negeri", "sekolah", "madrasah",
+
                            "pesantren", "universitas", "kampus", "akademi"]
+
     keywords_kesehatan  = ["puskesmas", "pkm", "rsud", "rsu_", "rsia", "rs_",
-                           "klinik", "apotek", "rumah_sakit"]
+
+                           "klinik", "apotek", "rumah_sakit","BPJS"]
+
     keywords_pemda      = ["kantor", "dinas", "kecamatan", "kelurahan", "bupati",
+
                            "sekretariat", "dprd", "polsek", "polres", "koramil",
+
                            "kodim", "kejaksaan", "pengadilan", "kec_", "kel_"]
+
     keywords_publik     = ["disdukcapil", "samsat", "mall_pelayanan", "imigrasi",
+
                            "bpjs", "kantor_pos", "kua", "bpn", "pajak"]
+
     keywords_perbankan  = ["bank", "bri", "bni", "bca", "mandiri", "btn", "bpr",
-                           "pegadaian", "koperasi", "atm", "brilink"]
+
+                           "pegadaian", "koperasi", "atm", "brilink","agen"]
+
     keywords_wisata     = ["wisata", "pantai", "taman", "museum", "makam",
+
                            "masjid", "waduk", "alam"]
-    keywords_olahraga   = ["stadion", "gor_", "lapangan", "kolam_renang", "sport"]
+
+    keywords_olahraga   = ["stadion", "gor_", "lapangan", "kolam_renang", "sport","Gor","GOR","Gedung"]
+
     keywords_industri   = ["petrokimia", "semen", "pabrik", "pelabuhan", "terminal"]
 
     checks = [
+
         (keywords_pendidikan, "Pendidikan"),
+
         (keywords_kesehatan,  "Kesehatan"),
+
         (keywords_pemda,      "Pemerintahan"),
+
         (keywords_publik,     "Pelayanan Publik"),
+
         (keywords_perbankan,  "Perbankan"),
+
         (keywords_wisata,     "Wisata"),
+
         (keywords_olahraga,   "Olahraga"),
+
         (keywords_industri,   "Industri"),
+
     ]
+
     for keywords, kat in checks:
+
         if any(kw in folder_name for kw in keywords):
+
             return kat
 
     return "Lainnya" 

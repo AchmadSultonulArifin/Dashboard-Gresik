@@ -33,23 +33,24 @@
   ],
   "fid": "0x2e77ff006f418655:0xce6c044321bf4ace",
   "cid": "14874268355673410254",
-  "reviewsCount": 74,
+  "reviewsCount": 75,
   "reviewsDistribution": {
     "oneStar": 4,
     "twoStar": 1,
     "threeStar": 3,
     "fourStar": 13,
-    "fiveStar": 53
+    "fiveStar": 54
   },
-  "imagesCount": 107,
+  "imagesCount": 108,
   "imageCategories": [
     "Semua",
-    "Stadion",
+    "Terbaru",
     "Video",
+    "Stadion",
     "Sepak bola",
     "Oleh pemilik"
   ],
-  "scrapedAt": "2026-07-20T11:15:01.751Z",
+  "scrapedAt": "2026-08-06T13:19:19.140Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,8 +58,8 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Ramai seperti biasa",
-  "popularTimesLivePercent": 83,
+  "popularTimesLiveText": "Tidak seramai biasanya",
+  "popularTimesLivePercent": 3,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -609,18 +610,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "06.00 to 00.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "06.00 to 00.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "06.00 to 00.00"
-    },
-    {
       "day": "Kamis",
       "hours": "06.00 to 00.00"
     },
@@ -634,6 +623,18 @@
     },
     {
       "day": "Minggu",
+      "hours": "06.00 to 00.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "06.00 to 00.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "06.00 to 00.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "06.00 to 00.00"
     }
   ],
@@ -682,7 +683,7 @@
   "reviewsTags": [
     {
       "title": "luas",
-      "count": 12
+      "count": 13
     },
     {
       "title": "parkir",
@@ -749,11 +750,11 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMXilbaELpvKjJZbAjbXn9WlqMjQuLHD9voQPBELRaOsdaIELg7bYlAWLdYRLDxDvLroNTMb9xYzyAz5E3ujPVDGx8zo0saX_UADevY1p_yEWwPN22HXJd1GCaHhhg1HMib6I0IJl_-vwk=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMH-jBmObNARav-NFfOrkByzHWaof25dl9SaBH5e-I4U2ZmfBBXP0PjzxsnndQ-pxGR0Ve1QzWP5HS-F5zeXeX5O-RAHQmDgBwAV3G1sJvhlt7c7wK3xb2BbBMBfDeoG-SFi-LhgYmCni4=k-no",
         "postDate": "2 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNAltlJdtDkAwv5K6e7FLzMlMqUW-lWQcfxBx4OQ2u9KAT-kbVifLqvOU4lnsDt4xjoBUM9X1WikIZMGz74zKBhhy8NmiN47hUjEhenNb-U9O7WN7WmMViV230i6B8_Axb5QLgH59getvI=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNHaeEzwQYu6u0Fqha65T7vxTFeSDFqL6_8kJVIhnIHq1c8YZonOb053YH4DAPF1Jr3iL2Z2x3W2cu2GwJdNftOwynGbKaHRYbb0aNlMiZUPlGKIzpcK5iR_m4KtE2GpjfVm6e5RDmEX18=k-no",
         "postDate": "2 bulan lalu"
       }
     ]
@@ -764,7 +765,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnA9oSq68aBDzuZaXPQLNyrudEu4696OfDZC2BCi8P2VfzJqn6bYreP2k7h9ZCamCFo2Ky3fRzfc25PcVoBmpiugQJYBmZeNIXcuqyLJVI5TNUZSfF_2T1O_5eVfQRmQ6_tJV0bupeQVeqD=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn61WLhrXFHqe22MgaKbAfzVZenWL45Fzrpi9xI0Vimiw85pjbkGzt5-nwGbBqpCfkzlwE6SC6Lim2pnuSMaEHk7CzTogyg14tWOgZUJQ1gH_lpPGF4JvFOBf857UsITi6Mv0P3rYuO4dCr=w408-h306-k-no",
   "kgmid": "/g/11lz_0vjp0",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -778,6 +779,34 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "117097070666061163214",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117097070666061163214?hl=id",
+      "name": "Rio Yuniars",
+      "reviewerNumberOfReviews": 113,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUPZFBmo4qnXv0ZSKOIG_2_1bM77MyMmE25lr9ndjj9Jb606J_TIg=s1920-c-rp-mo-ba12-br100",
+      "text": "BUMDEs terkeren",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-07-20T15:33:01.423Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25BNGFYZ3RWbUZIY1daUFUwZEhUVnBNYTNndFoxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25BNGFYZ3RWbUZIY1daUFUwZEhUVnBNYTNndFoxRRAB!2m1!1s0x0:0xce6c044321bf4ace!3m1!1s2@1:CAIQACodChtycF9oOnA4aXgtVmFHcWZPU0dHTVpMa3gtZ1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYRE67_AdGaYj4zWu8ujoeuQw5NxMgKE1ITy3GU3LggF5C2Nla9KEcBRcXMnaVy8JHQhell1j7KKydwky1_yRGaESbGMoxyQQNmYOpCGsjvbolacbm_56n1U6LV3_e9Qi2p0d57SpQmL0=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "104416415553573088075",
       "reviewerUrl": "https://www.google.com/maps/contrib/104416415553573088075?hl=id",
       "name": "puji rahayu",
@@ -786,7 +815,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVilPXmsAojTTygxXheKNAcgj5ePFB6IfUVdIthYNE2IZpGjzvR=s1920-c-rp-mo-br100",
       "text": "Ruanganya enak, bersih, luas dan nyaman. Bisa booking lewat online juga.",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-12T12:27:43.631Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wWFZqYzNaVVpXZFY4MGVqaG1Ra3Q1Ym5GWVdVRRAB",
@@ -812,7 +841,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLAe0iGEpsxgRazYQgorNe65CzgeEap0Xqy6fjzOnJFpaG3yg=s1920-c-rp-mo-br100",
       "text": "Tempat nya luas..parkir nya juga\nDan berada di dalam kampung..aman untuk anak2 ..atau buat acara HAUL",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-11T02:55:18.451Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sMFdFdHFSWGcyUTBKdFZIVjVWV2QxV2paWE1HYxAB",
@@ -838,7 +867,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX0-j1QNucZY-Rgs5iKxEgNUh21shvaeBXVmhwuv5T7eAHi_WWe=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-09T14:08:32.833Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOalEyUldOV3M1WHkwdFNsZHNjbXBHUzI5cFYyYxAB",
@@ -859,12 +888,12 @@
       "reviewerId": "103016343022604957479",
       "reviewerUrl": "https://www.google.com/maps/contrib/103016343022604957479?hl=id",
       "name": "Cheppy Hapsari",
-      "reviewerNumberOfReviews": 9,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXwNl3eip2J-OY9aMUX0DznSmF1QvzYyoCHDiA3pXusJc8XfxlC=s1920-c-rp-mo-br100",
+      "reviewerNumberOfReviews": 10,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXwNl3eip2J-OY9aMUX0DznSmF1QvzYyoCHDiA3pXusJc8XfxlC=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-30T14:34:01.834Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aV1FVaG9NbGRLZWswelRHRlhNRVppZFRoYWEyYxAB",
@@ -953,7 +982,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO-WXsIxi6JHCMDbgAixyeRaNq3_9U3uGRh2IUE2ku9axCfEnu599FMSfenTYH5Fwf1AwWftgEHTBZrGL65X37hrkT0Bn2saOIAdHzSS7t6W5YVtcQQGoHj6VtNbRk6P81JfsX8tOQPv4Lf=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPHwjamW_acrjF7TLLxO0ptEN8UIkhoIMaVW-nbgEkFXQxpqtGjSaauHxCyy6ltlCXJJIzI5nTlT04TE_BxJPdGnrvte14uFUkmtxGRqaduAy7yGeo3L9mtcOaw7H1u2LgYXOgf774j_w0q=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -970,7 +999,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ5Z6PpCWJNXE5fKdlCa9QBPqYPxjo5fGPNxnWXi8orsPIx2Q=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-05T21:13:40.068Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1aU5tMWpZM1phV1dwRk5YWTJPRk5rZW5OTFVtYxAB",
@@ -996,7 +1025,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWgkmLJu-4XkmY1dDDwHZ4y2zBIxNr8jkS4SoeGdxT863v5N8Sm=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-24T14:18:20.485Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT20xYWJuQnlPRTB0VEhoclVGTlpkMHRNYmxnNGNGRRAB",
@@ -1059,9 +1088,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPIFSkwa2lcf_jJSE_7d8pJQPyjspuIh9glnW6n7qB6lPEoJf4cbV9IEl6S-8obHpGpWnedObNvQMAYyxD63toGiS5hcVpJbZorS8s0WSpXNMeT8q-3MbJZRl_KCOdKa_xaudvW2VvaFejq=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM1fsvU-5A_pbMlf7rsFJLvjeWixTtxwJPkZuGkFHOvJKajogb-LyXXDdyseiNN85B4rBOXlwnZFSu0vIoY-up5CeBLFLmbpH6paqbLQ9MjO2chTrbE8gprdyKFPj963uPputty2zbkhK0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4_ir6Qj7zhBtCxyK2_00hicjCo-OvAVg3yHmpMfTq5WVOtmGW4boYF99RIgpuAdmj0U99oYsR-VDZgaufqNOXWd6ImRKFvWFw0O8DpLlS2EvJ14F2u9Ml4E0Fotmg5kA1kbjhFmaEpWFS=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNY1VN7Ik5IdqcGeo3jgza2BLkNxRVbTFGuLv291XamfSgTmaWlYiFclynZowR1KrXM1q8-G_72_5ef63urbmpDQW5Nl4t3Ron0ctHPHRp5YnMEVYK6GVOBfdUifkSJx0HtvNCm8HOiiXjU=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOAWapgFl1qPwhbmmas6BPXeMMj_K65TuCiiU488yG3UsQweJ7Esrb4JrNXxHsJZ78EDqrfg1GOj0yggejcynghBdkIDV5P2J4Lg7cjmtaGXqjLMqHfhdrvhJUOuHmXhp08AA5OC5WjYLI=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMQrdVUu_QM8Km3QqN15UmyG_6xoXczoepnPdM4V8b71Qwv4YyKH0iF1toFQU8IN4C7IAggIDbxG7q0TqvfrMt-RfY6DJ8rIIgoXjI9cRlBVBBU7F834N4_RzwEcZ-xyOfLV-yTD5_-_-Kb=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1130,7 +1159,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUCd9UyLZXzo4wD_q13dd5L8tIJSZo8NDs6V2_A6v9J5SQiyN9Z=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-04-26T06:55:33.211Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGQmJGcEtkR05rTlhsTldGaEtXRFF6UlhNeVYxRRAB",
@@ -1156,7 +1185,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXYiD0thUwlv0o3uEWeFVQ0ghbkc-2PXDjyKuZg2OFFLCl63kRqSw=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-04-22T04:59:09.615Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ad1RHd3pSblpIVFRjelZXbEljeTFvTlhOVlJHYxAB",
@@ -1182,7 +1211,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXS8CnhMfilVe3imogaZ8UatTjy6NutgyEi9D_em5UYvp-CUJXt=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-03-25T09:29:12.452Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oMlExVXRRVEpwVEdWbWJqTXhjR2R1UXpSb2RtYxAB",
@@ -1229,12 +1258,12 @@
       "reviewerId": "115293276578481439488",
       "reviewerUrl": "https://www.google.com/maps/contrib/115293276578481439488?hl=id",
       "name": "Zunan Haris",
-      "reviewerNumberOfReviews": 82,
+      "reviewerNumberOfReviews": 81,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUTTvyH5t4r-LebUOajwAgzLkLc6ztm8p3y8G6nCVcGwOF82VHdmg=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-02-27T21:07:19.344Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oT2RqTm1kVzlMWkVsWFpVZHpNR0ZUVW1wMExWRRAB",
@@ -1260,7 +1289,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVxfPfAMs3-HGbD9SHCceGBjOVq_Cca_Vn5yzBvV6k5VEPLoj8=s1920-c-rp-mo-ba12-br100",
       "text": "Buyos Sport Center tempat yang cocok untuk olahraga bareng teman atau keluarga. Fasilitasnya cukup lengkap dan area parkirnya luas, jadi nyaman saat datang rame-rame. Proses booking juga cukup mudah dan pelayanannya ramah.\nUntuk lapangan badminton, secara umum sudah cukup baik dan nyaman digunakan. Namun saat terakhir bermain, kondisi lantainya terlihat agak kotor. Semoga ke depannya setelah lapangan dipakai acara, bisa dibersihkan secara maksimal & rutin agar lebih nyaman dan aman saat bermain, terutama untuk menghindari risiko terpeleset.\nSecara keseluruhan tetap recommended buat yang cari tempat olahraga dengan harga yang reasonable dan lokasi yang mudah dijangkau 👍",
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-02-24T13:48:32.851Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWV1VrMVZiM2xXWm1Wb2QwdDJlVkpNTFhOeU9WRRAB",
@@ -1271,8 +1300,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOe8a_ok9egSvzpwRPhzC-U6SunYN06aV5jDlw1-vfM4BuAxIrkZ3em5xSGQ2ACsMZLmU8YPDrwXp6NqhlPorMRfkvBi_WSVUKbLk9QHMa67Van_NVWtgQNMmveL_wjVfExBV4Kn1LvtuYr=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOoxZg21JH59HUVT5FQGsC5L-_v--M2CXejLgaI10LosIu5VI5zaJXjhQrEu1sfSwG2En26FGHncG3dUdoaUv1K78H3ao0CvC4TGXeW73xDcDwCnO9vNkr9-hG38TPM662Kbxd3l8F6yHkK=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM8S_3XMPl6mDMVuJ4WR0O30iyCU6koQcGDMKpdWLaNQ91lgR3y500Zdi3-PkdTzt9ipR_ziuI4RNDzs6Gs5dU6gXjqq6oiAODCQB_lQzr0jWISDPcU32rez1nYQa_N8oAUvWa7I4qSJkDw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPmZoZhEodR3hx4OjZ7m9yzxTRyHmPaR5Tc5GhCEZ-olfc-bUOpvfEZmx62YnyZWfPJe77tTFfK0-wsaJnjlsiro8AzHiYUE2W5AIz9pquBvbAd1TxeJU9jFttJj0V8gSC8mk0pSQbr6bNP=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1362,7 +1391,7 @@
       "reviewerId": "107481936157703060677",
       "reviewerUrl": "https://www.google.com/maps/contrib/107481936157703060677?hl=id",
       "name": "Agus Riyanto",
-      "reviewerNumberOfReviews": 116,
+      "reviewerNumberOfReviews": 117,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXk5pft6cJCrZDrsgWRD9XeYlEMgw1KLaCR_adLExwgFrzPLmbR=s1920-c-rp-mo-ba12-br100",
       "text": "Tempat luas, parkir jg luas lokasi strategis ditengah kota jadi mudah dicari.",
@@ -1388,7 +1417,7 @@
       "reviewerId": "105972845929275008032",
       "reviewerUrl": "https://www.google.com/maps/contrib/105972845929275008032?hl=id",
       "name": "Kusminto",
-      "reviewerNumberOfReviews": 6,
+      "reviewerNumberOfReviews": 7,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKVnQwM-FZcZ5a9lCb_zbEi3Ludzd-k6j8YDRifB9-BMZh5Mg=s1920-c-rp-mo-ba12-br100",
       "text": "bagus bersih asri luas",
@@ -1523,7 +1552,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI_A3c5HLF3phnCRlwGoFVaIdtPa347b2AzQ86jjDr-mL4xYQ=s1920-c-rp-mo-br100",
       "text": "𝚃𝚎𝚖𝚙𝚊𝚝 𝚗𝚢𝚊 𝚋𝚊𝚐𝚞𝚜 𝚗 𝚖𝚎𝚠𝚊𝚑",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-05T04:27:46.308Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSQ01HOTZVVzl5YjNwcWRGSmxMVE51UjJsMVFuYxAB",
@@ -1538,32 +1567,6 @@
       "reviewDetailedRating": {},
       "visitedIn": null,
       "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "109819156862408678825",
-      "reviewerUrl": "https://www.google.com/maps/contrib/109819156862408678825?hl=id",
-      "name": "Ardi Arianto",
-      "reviewerNumberOfReviews": 20,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUQkJgawp-w-ClLgBh9c67TJdvi4FptxQbhzD1sC_aJuOZVBlQCJQ=s1920-c-rp-mo-ba12-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "6 bulan lalu",
-      "publishedAtDate": "2025-12-28T22:15:02.813Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGVlJIRm9ibnB2YTBwb1FWcExiR05pZVRkSWRFRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGVlJIRm9ibnB2YTBwb1FWcExiR05pZVRkSWRFRRAB!2m1!1s0x0:0xce6c044321bf4ace!3m1!1s2@1:CAIQACodChtycF9oOkFVRHFobnpva0poQVpLbGNieTdIdEE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
       "translatedLanguage": null
     }
   ],

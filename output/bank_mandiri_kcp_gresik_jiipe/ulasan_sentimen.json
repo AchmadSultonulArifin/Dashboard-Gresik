@@ -2,14 +2,71 @@
   "kategori": "Perbankan",
   "tempat": "BANK MANDIRI KCP GRESIK JIIPE",
   "rating": 5,
-  "total_ulasan": 22,
-  "positif": 22,
+  "total_ulasan": 16,
+  "positif": 16,
   "netral": 0,
   "negatif": 0,
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -7.0839496,
+  "longitude": 112.6046975,
   "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "jannatul ma'wa",
+      "Bintang": 5,
+      "Tanggal": "2026-08-04T03:03:06.415Z",
+      "Ulasan": "Masuk mandiri seperti masuk di hotel bintang lima dg pelayanan yg sangat  prima seluruh staf mandiri memberikan pelayanan yg sangat luar biasa bagus mulai dari satpam, CS , TELLER  dan lainnya nya sangat bagus sekali .. terimakasih mandiri ..semoga terus  jaya",
+      "teks_final": "masuk mandiri seperti masuk hotel bintang lima pelayanan prima seluruh staf mandiri memberikan pelayanan luar biasa bagus mulai satpam cs teller lainnya bagus terimakasih mandiri semoga terus jaya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9916
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "pt haidrnt",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T05:27:21.697Z",
+      "Ulasan": "Pelayanan sangat ramah dibantu mbk riyah untuk transaksi perusahaan mantap",
+      "teks_final": "pelayanan ramah dibantu mbk riyah transaksi perusahaan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "dicky ardiansyah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T05:25:35.082Z",
+      "Ulasan": "Pelayanan sangat ramah dan cepat dibantu mbk teller riyah dan mas bayu security yang gagah",
+      "teks_final": "pelayanan ramah cepat dibantu mbk teller riyah mas bayu security gagah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9282
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "dicky ajg",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T05:23:52.895Z",
+      "Ulasan": "Tellernya sangat ramah dan cantik dan sangat membantu untuk bertransaksi mandiri jiipe jos🤩",
+      "teks_final": "tellernya ramah cantik membantu bertransaksi mandiri jiipe bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Criz Lovely",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T02:33:05.940Z",
+      "Ulasan": "Kantor bagus dan pelayanan cepat dan ramah",
+      "teks_final": "kantor bagus pelayanan cepat ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9951
+    },
     {
       "Kategori": "Perbankan",
       "Nama Reviewer": "Zumaidah official",
@@ -130,127 +187,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.8361
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Florensia Jeane",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T05:34:02.035Z",
-      "Ulasan": "Pelayanan cepat dan ramah",
-      "teks_final": "pelayanan cepat ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9955
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Novita Sari",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T04:32:33.005Z",
-      "Ulasan": "Pelayanan sangat ramah dan tempatnya sangat bagus sekali",
-      "teks_final": "pelayanan ramah tempatnya bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9975
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Ibrohim Bagus",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T04:11:16.835Z",
-      "Ulasan": "Pelayanannya oke dan cepat",
-      "teks_final": "pelayanannya oke cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9969
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Nur Hasanah",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T04:09:09.627Z",
-      "Ulasan": "Trimakasih pelayanan nya cepat antrinya GK lama . Pertahankan keramahan petugas ya . Mulai dari satpam, teler smpai cs Alhamdulillah ramah semua",
-      "teks_final": "trimakasih pelayanan cepat antrinya lama pertahankan keramahan petugas ya mulai satpam teler smpai cs alhamdulillah ramah semua",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9772
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "uswatul karimah",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T03:32:02.998Z",
-      "Ulasan": "Pelayanannya sangat ramah dan sangat memuaskan",
-      "teks_final": "pelayanannya ramah memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9967
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Bilal Ramadhan",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T02:07:52.806Z",
-      "Ulasan": "Nyaman dan Integritas luar biasa",
-      "teks_final": "nyaman integritas luar biasa",
-      "topik": "Fasilitas",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9969
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Rif'atut Tarbiyah",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T02:04:10.074Z",
-      "Ulasan": "Cabangnya bagus pelayanan cepat dan ramah mantap",
-      "teks_final": "cabangnya bagus pelayanan cepat ramah bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9967
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Maiza Chuzem",
-      "Bintang": 5,
-      "Tanggal": "2026-06-29T09:22:22.241Z",
-      "Ulasan": "Tempatnya luas dan bersih",
-      "teks_final": "tempatnya luas bersih",
-      "topik": "Fasilitas",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9973
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Erdogan Yassaran",
-      "Bintang": 5,
-      "Tanggal": "2026-06-29T08:30:31.749Z",
-      "Ulasan": "MANTAPP",
-      "teks_final": "mantapp",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9972
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Lutfi Pradana",
-      "Bintang": 5,
-      "Tanggal": "2026-06-29T04:08:18.750Z",
-      "Ulasan": "Jos jis",
-      "teks_final": "bagus jis",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9923
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Nad Zahid",
-      "Bintang": 5,
-      "Tanggal": "2026-06-29T03:21:25.016Z",
-      "Ulasan": "Pelayanan nya cepat dan ramah, meskipun jauh tapi gpp",
-      "teks_final": "pelayanan cepat ramah meskipun jauh gpp",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9724
     }
   ]
 }

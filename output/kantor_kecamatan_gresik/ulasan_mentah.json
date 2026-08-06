@@ -47,7 +47,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T10:45:12.288Z",
+  "scrapedAt": "2026-08-06T14:09:34.313Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 19.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 19.00"
@@ -85,6 +81,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 19.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 19.00"
     }
   ],
@@ -162,7 +162,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmewokVgjUIrHVfTUBCTFR6A8wLzDTd9143_HZ__X6dacjr4lRtoN608WhWetkJGPKrTrqGcqMUl3-krOLhsFWCyUuYRgKaD8tjoUdR66amXkaChcFGC2xD8PBJcECzs7kNN8uFgQ=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlA5Gqav8fvZX97VQYvmx6TEaSTf0MeggcSxXJyHffqeWIMYBOQHe4oPaNvDXXL_mKEaECnGSumBAxxiHeWc5k3XhJw-jYNTqRW3rUV2ONGJ73oPugputKN8iWPRcGv7dgC4Th9HA=w408-h725-k-no",
   "kgmid": "/g/11b6dxcljp",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -179,12 +179,12 @@
       "reviewerId": "104889423833871955711",
       "reviewerUrl": "https://www.google.com/maps/contrib/104889423833871955711?hl=id",
       "name": "Akhmad Zainudin",
-      "reviewerNumberOfReviews": 48,
+      "reviewerNumberOfReviews": 55,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIXJyZANs2vyXMo_yYH6eKML2YdAbZdlerll6Oz5QfHLPrsnw=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "11 jam lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-28T22:53:01.640Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4NFQxODFUbEZqTFVWTFoyaE1RVFJ3UkRZd2MyYxAB",
@@ -205,12 +205,12 @@
       "reviewerId": "102289118934092001723",
       "reviewerUrl": "https://www.google.com/maps/contrib/102289118934092001723?hl=id",
       "name": "pulauBIRU 4",
-      "reviewerNumberOfReviews": 233,
+      "reviewerNumberOfReviews": 232,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWI4978pgvY1PVbmi0Tw7nevDIQ6SkrBho3xtCUEWppuJx_SIcmGg=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-31T01:19:20.983Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT210dU1rbDVka1ZCYlc1S2NHOUZUbEpNVEc1dU5uYxAB",
@@ -262,7 +262,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUXfB-j8mj0Vof8CHy0AO8RFu-8Jx_7Gwh9uOyvGkW2KIJwfuvZ=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-04T04:57:33.603Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xoR1VtSlNXbVZaT0RONk9WRm9lblJQUkhaRlRsRRAB",
@@ -314,7 +314,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXG1p7ukscVa7IYRyy0gZ3tyhIIdhyFBLmqho5UsYo7nqXL3Ia8mA=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "9 bulan lalu",
+      "publishAt": "10 bulan lalu",
       "publishedAtDate": "2025-10-02T15:01:24.107Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4R1UzSmxRbGhSZGpGR1luaDFiM0ZIUlc1aFFrRRAB",
@@ -413,7 +413,7 @@
       "reviewerId": "107310224469533173772",
       "reviewerUrl": "https://www.google.com/maps/contrib/107310224469533173772?hl=id",
       "name": "ahmad artha (Artha)",
-      "reviewerNumberOfReviews": 157,
+      "reviewerNumberOfReviews": 158,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW76HsFq8hzQc9cQHJ5_sEB3e0LuvE4odwtUfU--kismg1BjYpwdg=s1920-c-rp-mo-ba12-br100",
       "text": "Harusnya ada nomer antrian",
@@ -585,10 +585,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN3roM6l4EOEW54cwaGlV4HHV97c9RrkaglzGslfK328slPh_25Ozi8mXu7AJPB_oAXiF3LExA9CzcCemy152JuQI0lhlg7GD-RiQ17Za2pjuVmjm43bhKPhQ8xyfZ140GCJ2g=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNsbKhdMGG0HMF_Fx9Rrp9D5pk95puCjM8a_Z-7KLpcKs07ExViCMuqIjSapUQZuTA6hL_UrSeAuyZd_xfm8zmuGelfUS04fxcORCzYfCA4oqBjIbUaXebZfMYKn92ZT0axXGX1=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMBP_xkq4vCohphq1fir-dyTWfsjMy89b0OsY-D01AZxF97o9Xqm55S6adwTqnTF8J_xxTvsXwUjka4ajgIaIMFVjfObrnarStgFfu-t8quU_bxmpIyjqs2BOQWnypekx6jb4tt=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMr23CAkyyLcte5IZuIomBxnPCQnWbVMXgxZk-ULfMqJHiPqFGelHarYeLDsTjJw7z73NAqJuCQZm8RBAzMuLAOQ3yvmMRBZRP8e8Pu9rGbLP-y7pSkNA1VgtbVcfCbyC_sFqKL5Q=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNELWTG26bt3hVw4WW6JBX7XTZ5R6y0dCos2fmgE-NVjvk45-mxmBBQdSqQzf-rMOfMOsWYZwj55ezLVuzIRgKQder0tlts8UCnWbFyxLPgPRBRZ16W94bGLyLxoxsw09VRVv0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM59ZqB3C-fqjYqE2-5CfqR8YYBnSplKOSfwXRmzMIR__e7NeduDPH4jhuBoyHSQd1RwRHUQxs71C3mDb3KWdlg76V3EbnQKGpCWDH5W5vYSi9q5aDKwfLOOqXkRNjkY5wlKrEd=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOz-nn-j2-iSalO_ErqdRdWMGvba7dKvnaFJitkaoOvxYMzf54sfhN6vecuNV8MjaODqPWWZzPhnS7L38lJVsfLOMRpI4L-3hhd2tvhjxD1KV9ZEMztYu1m4pVXsmiYOUNwHqux=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHireIX9MBIPLXBdehg5xshGoVATLFFUT2PY2rjt-rFID6jVHJRR_Pj-B4zB-4Yn4j5SEsnOiIyumqZLq1MzPVd0ETd08LCVZCYZ3JpdhKL0Pyca6Q1gRC1VEq_lQ94C-e07WH-Q=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -824,10 +824,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPEs3-0r_y7SU0nMuRONFAqjnRRrKbmOM1NAOlFOBhnBUt3gJAYRr74Q9F7dVZh3WOGaLdO1clOIqTlAwm5cYhXy0yDkwgqHmZLLRl9Rsf0TeMKSQP_uLYPx6s1da0nE081gA7X=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmML8VXehCcvtYZaBCyousXgFfKhyqPCQ3v4VRdscGhJ3IIeFD1t9E0ExnjYoE1SsX_gmIGtZSaN-YcXuIc__90Z9Uy_hUj8yyNhXr8a9lSbxAHoWifLfqsn-xuQZ0z0GOyftVJaiA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN0FeXag3M75AH4IDp2eNOZxFZB2NIe_sBFifeolKtRVQ5XOJF7_em4-LBk5VMMCFwRsijtX4G7y8YO2ZVs-45WbrKctmPdpdmblLWD9Y6mvrsMi8H1CZcQmuIFKqAgrlIK_gJA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO7GBx1jB5LOGRK4flcPHkdu2I0oOwDJcJU_JQ1xrAN-t5bVBQSuL8xJS0D7Z-XFLTPuH1INxZRLxzWFlqFyhozCuR7MLudHEh2VAv8QGktRCwnWHjZIwtU24yh5ZMyPbBTFkZrrw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMeTSxJgmiGrHqrilqii8RaEeD6YIR9MKSUgQ5es-mM1QO4vDFPuTBsPJlz51CHFCSGM3WXY0JixHks3ewPOz-nZZ4XvkA9sJQNcY4OVkF9Wu_8lIhZDduarR_8PMwJxWH3p1Uo=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO83PDsFZLHeDbxd1AnSaKI4PIYHVN09EDl4sVSrbXsUAJhp-aS3pX3Wq2suqqtSOpgHp7spfVvDxzbPrDeNJTITfp6UMFSdzoP1aTJOSI81HC7UtPlGjawrDr019mVVMUwAJ6hhg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOX1edtRrmvPpj0zADRBWkCPa_dcFWkPbmeEsK2DDGlaN_-2N2-HEGGQUIWjV3enZSEOUNIe-lFICIKXER58PyMqzOWXkUw8CocLGSEh7wi4wtrSiZ6giL40iTO5vI4XE-JaD19=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYp2CqMssA9YDYCD6aoV2W23otQIyyh7OHlUuk5tuP4932xnSkRsBy4P-tAAjSDMwzQryoF6WdBZ0rqS9rpwwhPrOmb9_u-a-3unUuFC3FtjO0Ay9KijZIVOhJwjimg8DmWNtJGQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -855,7 +855,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM3yWOPhrLeRSYZ16-8RQUDfdEofiXS-LvrJSum3qgWWDsiBjVAYFIuBM4_sgotCJksO-BSVIIMqSgOsgCb7V3kn5ZNyNQz_C7ax6xnt9ySJ5eqP4b-Bdq4eXsI216gkP7rnA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPmvAtdR-2NR4bzHpX9LFhwJubtp5fh2vYf7p87ALFrRZ47MfcSoeSGX83ZJBD9aEqHWluu4KbjWGvt4nKwwOJec8-ubw0v7ngK7qk7X69H_vfXj2rkOB2h9y8QaVTe9QyNIw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

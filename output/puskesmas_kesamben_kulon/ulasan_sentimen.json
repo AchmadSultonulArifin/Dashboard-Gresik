@@ -1,7 +1,7 @@
 {
   "kategori": "Kesehatan",
   "tempat": "PUSKESMAS KESAMBEN KULON",
-  "rating": 4.3,
+  "rating": 4.2,
   "total_ulasan": 25,
   "positif": 22,
   "netral": 1,
@@ -9,6 +9,8 @@
   "persen_positif": 88.0,
   "persen_netral": 4.0,
   "persen_negatif": 8.0,
+  "latitude": -7.3528484,
+  "longitude": 112.5080406,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -276,14 +278,14 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "vicky renado",
+      "Nama Reviewer": "Nabilah Fairusiyyah",
       "Bintang": 5,
-      "Tanggal": "2025-10-11T14:43:11.343Z",
-      "Ulasan": "Pelayanan nya mantap",
-      "teks_final": "pelayanan bagus",
+      "Tanggal": "2025-10-09T06:29:52.886Z",
+      "Ulasan": "Pelayanannya cepat dan tepat ❤️",
+      "teks_final": "pelayanannya cepat tepat",
       "topik": "Pelayanan",
       "sentimen": "Positif",
-      "sentimen_score": 0.9969
+      "sentimen_score": 0.9961
     }
   ]
 }

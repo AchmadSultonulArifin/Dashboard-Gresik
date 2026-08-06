@@ -1,17 +1,19 @@
 {
-  "kategori": "Industri",
+  "kategori": "Olahraga",
   "tempat": "Stadion Semen Gresik",
   "rating": 4.2,
-  "total_ulasan": 15,
+  "total_ulasan": 14,
   "positif": 10,
   "netral": 4,
-  "negatif": 1,
-  "persen_positif": 66.7,
-  "persen_netral": 26.7,
-  "persen_negatif": 6.7,
+  "negatif": 0,
+  "persen_positif": 71.4,
+  "persen_netral": 28.6,
+  "persen_negatif": 0.0,
+  "latitude": -7.1700487,
+  "longitude": 112.6502529,
   "ulasan": [
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "YESSY ADILLA",
       "Bintang": 5,
       "Tanggal": "2026-07-17T13:11:59.678Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9796
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Moh Khoirul anam",
       "Bintang": 5,
       "Tanggal": "2026-05-13T00:54:38.567Z",
@@ -33,7 +35,7 @@
       "sentimen_score": 0.9056
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Abdoel Basiq",
       "Bintang": 5,
       "Tanggal": "2026-05-08T04:49:02.926Z",
@@ -44,7 +46,7 @@
       "sentimen_score": 0.9968
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Just baihaki",
       "Bintang": 5,
       "Tanggal": "2026-02-03T11:59:19.504Z",
@@ -55,7 +57,7 @@
       "sentimen_score": 0.9154
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Izzati Winda",
       "Bintang": 4,
       "Tanggal": "2025-12-29T08:15:39.644Z",
@@ -66,7 +68,7 @@
       "sentimen_score": 0.997
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Muh ali erfan",
       "Bintang": 5,
       "Tanggal": "2025-10-14T05:27:49.134Z",
@@ -77,7 +79,7 @@
       "sentimen_score": 0.9774
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Martin Zain Lukman",
       "Bintang": 5,
       "Tanggal": "2025-04-19T06:21:35.699Z",
@@ -88,7 +90,7 @@
       "sentimen_score": 0.8885
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Linda Yuliansari",
       "Bintang": 5,
       "Tanggal": "2025-03-29T03:03:23.585Z",
@@ -99,7 +101,7 @@
       "sentimen_score": 0.9963
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "muhammad wildan",
       "Bintang": 4,
       "Tanggal": "2025-03-25T23:43:48.754Z",
@@ -110,7 +112,7 @@
       "sentimen_score": 0.7471
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Raffa Aulia",
       "Bintang": 5,
       "Tanggal": "2024-10-01T07:23:31.658Z",
@@ -121,7 +123,7 @@
       "sentimen_score": 0.9967
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "erik messi",
       "Bintang": 5,
       "Tanggal": "2024-09-22T08:14:22.825Z",
@@ -132,7 +134,7 @@
       "sentimen_score": 0.9956
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "F Kusuma",
       "Bintang": 5,
       "Tanggal": "2024-07-12T14:38:29.261Z",
@@ -143,7 +145,7 @@
       "sentimen_score": 0.9748
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Azis rafa",
       "Bintang": 4,
       "Tanggal": "2024-07-06T13:38:53.695Z",
@@ -154,7 +156,7 @@
       "sentimen_score": 0.9927
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Dimas Angga Pradiga",
       "Bintang": 4,
       "Tanggal": "2024-06-03T17:00:21.561Z",
@@ -163,17 +165,6 @@
       "topik": "Kesehatan",
       "sentimen": "Positif",
       "sentimen_score": 0.924
-    },
-    {
-      "Kategori": "Industri",
-      "Nama Reviewer": "coa tour moment",
-      "Bintang": 3,
-      "Tanggal": "2024-01-08T10:38:36.515Z",
-      "Ulasan": "Lumayan",
-      "teks_final": "lumayan",
-      "topik": "Lainnya",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9946
     }
   ]
 }

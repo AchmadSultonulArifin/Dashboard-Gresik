@@ -521,7 +521,7 @@ table td{ padding:12px; border-bottom:1px solid #eee; }
       <!-- Tab Twitter -->
       <div class="tab-pane active" id="tab-twitter">
         <div id="status-twitter" class="token-status warn">Memuat status...</div>
-       <form method="POST" action="/settings/token/twitter">
+      <form method="POST" action="{{ url_for('settings_token', platform='twitter') }}">
   <div class="field-group">
     <label>Auth Token (Akun 1)</label>
     <input type="password" name="auth_token" placeholder="auth_token akun pertama" autocomplete="off"/>
@@ -546,7 +546,7 @@ table td{ padding:12px; border-bottom:1px solid #eee; }
       <!-- Tab Instagram -->
       <div class="tab-pane" id="tab-instagram">
         <div id="status-instagram" class="token-status warn">Memuat status...</div>
-        <form method="POST" action="/settings/token/instagram">
+        <form method="POST" action="{{ url_for('settings_token', platform='instagram') }}">
   <div class="field-group">
     <label>Session ID</label>
     <input type="password" name="ig_sessionid" placeholder="sessionid value" autocomplete="off"/>
@@ -579,7 +579,7 @@ table td{ padding:12px; border-bottom:1px solid #eee; }
       <!-- Tab Google Maps -->
       <div class="tab-pane" id="tab-gmaps">
         <div id="status-gmaps" class="token-status warn">Memuat status...</div>
-        <form method="POST" action="/settings/token/gmaps">
+        <form method="POST" action="{{ url_for('settings_token', platform='gmaps') }}">
   <div class="field-group">
     <label>Apify Token 1</label>
     <input type="password" name="apify_token_1" placeholder="apify_api_..." autocomplete="off"/>

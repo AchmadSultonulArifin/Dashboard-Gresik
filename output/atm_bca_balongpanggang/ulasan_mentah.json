@@ -13,7 +13,7 @@
   "countryCode": "ID",
   "phone": "",
   "phoneUnformatted": "",
-  "claimThisBusiness": false,
+  "claimThisBusiness": true,
   "location": {
     "lat": -7.2677362,
     "lng": 112.4479829
@@ -45,7 +45,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:33:14.243Z",
+  "scrapedAt": "2026-08-06T15:19:42.012Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,8 +53,8 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Ramai seperti biasa",
-  "popularTimesLivePercent": 100,
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -577,10 +577,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "07.00 to 22.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 22.00"
     },
@@ -602,6 +598,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "07.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "07.00 to 22.00"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Pendidikan",
   "tempat": "STIT Raden Santri Gresik",
   "rating": 4.8,
   "total_ulasan": 3,
@@ -9,9 +9,11 @@
   "persen_positif": 66.7,
   "persen_netral": 33.3,
   "persen_negatif": 0.0,
+  "latitude": -7.1720284,
+  "longitude": 112.6596011,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Pendidikan",
       "Nama Reviewer": "ayster harzen",
       "Bintang": 5,
       "Tanggal": "2026-02-20T06:28:33.156Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9925
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Pendidikan",
       "Nama Reviewer": "TRI CHAHYANI AMALIA WULAN SARI WULAN SARI",
       "Bintang": 5,
       "Tanggal": "2025-10-17T21:59:18.787Z",
@@ -33,7 +35,7 @@
       "sentimen_score": 0.9901
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Pendidikan",
       "Nama Reviewer": "Ulil Al Kaylani",
       "Bintang": 4,
       "Tanggal": "2021-06-01T06:55:25.442Z",

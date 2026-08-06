@@ -40,7 +40,7 @@
     "Semua",
     "Video"
   ],
-  "scrapedAt": "2026-07-29T14:46:54.375Z",
+  "scrapedAt": "2026-08-06T16:22:30.308Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -48,7 +48,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Sibuk seperti biasanya",
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -740,10 +740,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -765,6 +761,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -810,7 +810,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlYNDq5zwYzCNV9Q7oB5OZCL75-MQGFR2trf91Ta96R4luLpjRZPRpflWMXRF5swBbbihUMe3Ewhbr2JkOPzHPMWxJ9bfiyscfIqh1KTRw78hU7tgrg0VfmYV7-vRustrPJINMb=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm4YDL1pK7qVPiGyo9iHoHRj3hgLFi8SM3Lai2GOCGu20rdf-MuvgIt59VrStdVtk81R96Zr6Xbku1zrMvPLISd7AEcWR5CP4zZo50qHPpuazLPfePGqIfGHUttCnX0aAmjPv60=w408-h725-k-no",
   "kgmid": "/g/1ygbb6s4m",
   "reviewsDistribution": {
     "oneStar": 0,
@@ -876,7 +876,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP5-FXBGCgkAtG_g4TmqSpfnWh54O-SYk7ccIkMJMVefAFaeTLVp0NYYGBss9x1TwWn-IUSiseAijyaPt8tUxOS_3WZzsoct_c3Brd3QYeYxKnJexIPip14ADUbnSh5dmPoedBM=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPbgSFinu3S2jAxaDr2tHyCGraK2duwWlq5YGdJXphN8ZOBcP3eBF01yY2alY_brPSN_-prc13FBG2XcnqWe_0qR7W8eCv-26kS1AicltbvCuZ-TXUNESzcRvyBr4J82_O_O97u=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

@@ -24,7 +24,7 @@
   "plusCode": "RHJW+HH Dahanrejo, Kabupaten Gresik, Jawa Timur, Indonesia",
   "menu": null,
   "servicesLink": null,
-  "totalScore": 4.5,
+  "totalScore": 4.7,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
   "placeId": "ChIJA1x0VMf_dy4RZhyajgI15nE",
@@ -33,20 +33,21 @@
   ],
   "fid": "0x2e77ffc754745c03:0x71e635028e9a1c66",
   "cid": "8207305656027978854",
-  "reviewsCount": 2,
+  "reviewsCount": 3,
   "reviewsDistribution": {
     "oneStar": 0,
     "twoStar": 0,
     "threeStar": 0,
     "fourStar": 1,
-    "fiveStar": 1
+    "fiveStar": 2
   },
-  "imagesCount": 3,
+  "imagesCount": 6,
   "imageCategories": [
     "Semua",
+    "Terbaru",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T12:12:45.044Z",
+  "scrapedAt": "2026-08-06T14:00:10.656Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,18 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.30 to 16.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.30 to 16.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "07.30 to 16.00"
-    },
     {
       "day": "Kamis",
       "hours": "07.30 to 16.00"
@@ -85,14 +74,26 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.30 to 16.00"
     }
   ],
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Perumahan Dinas Petrokimia",
-      "reviewsCount": 17,
-      "totalScore": 2.5
+      "reviewsCount": 19,
+      "totalScore": 2.3
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -140,7 +141,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHdkS4mkdKrqB6FCubR_EiW3oVBYOZiYKoJpXIvMG074kidKAobFhRDtQDZtKL6ZYvwgj4gpCsfUm9X1wYznmNRcBLVXLvABs_33Z_6kuCbVIxZYWcAm8K5XGrE-Ag7cE_In8l=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmeDTUVC1t4FRM_um_anfo9zYVrn0pyID0MHiP9HyKbPBDGEwm67uM9ii5ZoQSu90qqSEAKVsmrhK-lViqZ9QEkl5eNDJ8lrzG6riRCLAWdPg7Ivck-uaaU0V9UMqhkbzC6GCw=w408-h544-k-no",
   "kgmid": "/g/11gf9fb03z",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -153,6 +154,32 @@
   "ownerUpdates": [],
   "imageUrls": [],
   "reviews": [
+    {
+      "reviewerId": "100988040071291300335",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100988040071291300335?hl=id",
+      "name": "Lydia Risky Septiani",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUY80J29hoy767RSpjmyHa9B9zx-aWXcLTbKAJhwHCNCu0dAxji=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "1 hari lalu",
+      "publishedAtDate": "2026-08-05T08:15:07.462Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2twSWIxcFhXWEZPZVZCcGRYRXdaVWx3VFVOYU5WRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twSWIxcFhXWEZPZVZCcGRYRXdaVWx3VFVOYU5WRRAB!2m1!1s0x0:0x71e635028e9a1c66!3m1!1s2@1:CAIQACodChtycF9oOkpIb1pXWXFOeVBpdXEwZUlwTUNaNVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
     {
       "reviewerId": "101707729515236521305",
       "reviewerUrl": "https://www.google.com/maps/contrib/101707729515236521305?hl=id",
@@ -199,7 +226,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOwdgGOxwDNyfv_nCXGbD1GkKu22912PC6iDCULq8g9e_N7thi9piUdOF_JZjV5mbpgrd2CvIdz_X7BZeZoj7_uj96dcWeFjP8Ql0Ar3cdYdcfmG_SmKgAnTYrCk_xnFNFu7SW5=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMDzfQN4TJfIPgq-CnFuRjDDIrzvMP2h4VB8EC8ZewrE8sHE0vO9OeotMLxCQh8E3HBHTmT64nboC65as1lKJq1C38RPl90fOY9xQCaLbsFqcBSKPPvr1Qt3yvMGtEgLT_6ECcJ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

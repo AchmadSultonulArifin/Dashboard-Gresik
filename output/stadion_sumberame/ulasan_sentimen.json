@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Olahraga",
   "tempat": "Stadion Sumberame",
   "rating": 3,
   "total_ulasan": 2,
@@ -9,9 +9,11 @@
   "persen_positif": 0.0,
   "persen_netral": 0.0,
   "persen_negatif": 100.0,
+  "latitude": -7.3997528,
+  "longitude": 112.5160661,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Rosyad Tamrin",
       "Bintang": 1,
       "Tanggal": "2025-10-08T23:59:58.587Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9933
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "nasrul ryskiawan",
       "Bintang": 1,
       "Tanggal": "2024-01-29T16:48:21.382Z",

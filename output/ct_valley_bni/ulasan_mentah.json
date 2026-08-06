@@ -35,8 +35,11 @@
   "cid": "17960603266790509536",
   "reviewsCount": 1,
   "imagesCount": 1,
-  "imageCategories": [],
-  "scrapedAt": "2026-07-29T14:19:44.867Z",
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-06T16:17:54.496Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -48,10 +51,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "10.00 to 18.00"
-    },
     {
       "day": "Kamis",
       "hours": "10.00 to 18.00"
@@ -75,9 +74,44 @@
     {
       "day": "Selasa",
       "hours": "10.00 to 18.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "10.00 to 18.00"
     }
   ],
-  "peopleAlsoSearch": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "CT Business Exchange",
+      "reviewsCount": 3,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Buckland Hills BNI",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Coastal CT BNI",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "CT Referral Partners - BNI Minnechaug",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Northwest Community Bank",
+      "reviewsCount": 30,
+      "totalScore": 4.7
+    }
+  ],
   "placesTags": [],
   "reviewsTags": [],
   "additionalInfo": {
@@ -92,8 +126,8 @@
   },
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=CT%20Valley%20BNI&query_place_id=ChIJied2JX1Z5okR4MvEBIPhQPk",
-  "searchPageUrl": "https://www.google.com/maps/search/Bank%20BNI?hl=id",
-  "searchString": "Bank BNI",
+  "searchPageUrl": "https://www.google.com/maps/search/Bni?hl=id",
+  "searchString": "Bni",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,

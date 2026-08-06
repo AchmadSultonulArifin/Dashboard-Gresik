@@ -2,14 +2,60 @@
   "kategori": "Kesehatan",
   "tempat": "Klinik Satelit Kalimantan",
   "rating": 4.1,
-  "total_ulasan": 18,
-  "positif": 15,
+  "total_ulasan": 15,
+  "positif": 13,
   "netral": 1,
-  "negatif": 2,
-  "persen_positif": 83.3,
-  "persen_netral": 5.6,
-  "persen_negatif": 11.1,
+  "negatif": 1,
+  "persen_positif": 86.7,
+  "persen_netral": 6.7,
+  "persen_negatif": 6.7,
+  "latitude": -7.137846,
+  "longitude": 112.6167968,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "andik andik",
+      "Bintang": 5,
+      "Tanggal": "2026-07-30T04:45:43.186Z",
+      "Ulasan": "Terima Kasih Atas Pelayanan Yang Maximal Pelayanannya Bagus Sekali Petugasnya Ramah Tamah Infrastruktur Bagus Lokasinya Asri",
+      "teks_final": "terima kasih atas pelayanan maximal pelayanannya bagus petugasnya ramah tamah infrastruktur bagus lokasinya asri",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "ghea Gabriellla",
+      "Bintang": 5,
+      "Tanggal": "2026-07-28T08:14:22.559Z",
+      "Ulasan": "Pengalaman berobat di sini sangat menyenangkan. Pelayanan cepat dan memuaskan",
+      "teks_final": "pengalaman berobat sini menyenangkan pelayanan cepat memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.997
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Risda Sufidiana",
+      "Bintang": 5,
+      "Tanggal": "2026-07-28T07:32:38.202Z",
+      "Ulasan": "One of the best place, pelayanannya bagus, dan mudah dapat rujukan",
+      "teks_final": "one of the best place pelayanannya bagus mudah rujukan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Umiriani Selam",
+      "Bintang": 5,
+      "Tanggal": "2026-07-23T01:01:01.918Z",
+      "Ulasan": "Pelayanan sudah baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Victory S",
@@ -130,83 +176,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9948
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Masning Rizqiyah",
-      "Bintang": 5,
-      "Tanggal": "2026-07-02T09:36:22.830Z",
-      "Ulasan": "Klinik satelit pelayanan lebih baik",
-      "teks_final": "klinik satelit pelayanan baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9899
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Gauri Eatery",
-      "Bintang": 5,
-      "Tanggal": "2026-07-02T09:20:59.356Z",
-      "Ulasan": "Harganya nya terjangkau",
-      "teks_final": "harganya terjangkau",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9973
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Siani KPR Mandiri",
-      "Bintang": 5,
-      "Tanggal": "2026-07-02T09:18:06.287Z",
-      "Ulasan": "Pelayanan baik",
-      "teks_final": "pelayanan baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9952
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Anik Anik",
-      "Bintang": 5,
-      "Tanggal": "2026-07-02T09:14:59.564Z",
-      "Ulasan": "Pelayanannya oke",
-      "teks_final": "pelayanannya oke",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9969
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Moonlight Marry",
-      "Bintang": 5,
-      "Tanggal": "2026-06-30T05:07:37.805Z",
-      "Ulasan": "pelayanan makin bagus",
-      "teks_final": "pelayanan makin bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9968
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Ahmad Alidrus",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T07:47:25.441Z",
-      "Ulasan": "Pelayanan sudah baik dan ramah",
-      "teks_final": "pelayanan baik ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.995
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Anggitayeye Putri22",
-      "Bintang": 1,
-      "Tanggal": "2026-06-17T03:13:45.927Z",
-      "Ulasan": "Kemarin periksa kesini dan di injeksi,,pas penyuntikan terjadi kesalahan,,jadi pembuluh darah pecah dan bengkak,udah seminggu masih sakit,,dan sebelumnya disuruh datang kembali kalo masih sakit,,,pas datang kembali ternyata ada biaya lagi,beli obat lagi,,,saya kira ada pertanggung jawaban,ternyata tidak,,okelah jika itu tidak ada,,saya masih mampu untuk bayar,tapi udah males,,karena perkataan dokternya,kita datang berobat biar sembuh,oke sakitnya sembuh ,,tapi ganti sakit karena kesalahan tadi,,,dan dokternya bilang ya itu resiko,,,lahhhh?????? masak orang sakit datang  berobat biar sembuh malah di suruh nanggung resiko",
-      "teks_final": "kemarin periksa kesini injeksi pas penyuntikan terjadi kesalahan jadi pembuluh darah pecah bengkak udah seminggu sakit sebelumnya disuruh datang kembali kalo sakit pas datang kembali ternyata biaya beli obat kira pertanggung jawaban ternyata okelah mampu bayar udah males perkataan dokternya datang berobat biar sembuh oke sakitnya sembuh ganti sakit kesalahan tadi dokternya bilang ya resiko lahhhh masak orang sakit datang berobat biar sembuh malah suruh nanggung resiko",
-      "topik": "Kesehatan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9945
     }
   ]
 }

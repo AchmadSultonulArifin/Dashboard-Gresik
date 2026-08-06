@@ -24,7 +24,7 @@
   "plusCode": "RJH2+QJ Kembangan, Kabupaten Gresik, Jawa Timur, Indonesia",
   "menu": null,
   "servicesLink": null,
-  "totalScore": 4.4,
+  "totalScore": 4.3,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
   "placeId": "ChIJzWbM18b_dy4R0w49mbGJFTg",
@@ -33,19 +33,19 @@
   ],
   "fid": "0x2e77ffc6d7cc66cd:0x381589b1993d0ed3",
   "cid": "4041287636508020435",
-  "reviewsCount": 24,
+  "reviewsCount": 23,
   "reviewsDistribution": {
     "oneStar": 2,
     "twoStar": 0,
     "threeStar": 1,
     "fourStar": 5,
-    "fiveStar": 16
+    "fiveStar": 15
   },
   "imagesCount": 27,
   "imageCategories": [
     "Semua"
   ],
-  "scrapedAt": "2026-07-20T12:10:19.785Z",
+  "scrapedAt": "2026-08-06T13:57:21.652Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,18 +57,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 15.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 15.00"
@@ -84,6 +72,18 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 15.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -114,7 +114,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Dinas Koperasi Usaha Mikro Perindustrian dan Perdagangan Kab. Gresik",
-      "reviewsCount": 12,
+      "reviewsCount": 11,
       "totalScore": 4.4
     }
   ],
@@ -150,7 +150,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnXd8FhxY-DAPNRdMXnbgsXh2xNBXhPNmg3sSOg1vJnHnZwoQxSI1qgo5sEjUSMqc3t9NC12p5jgPwm7qFd1pWwI15cLR2V2SZukZDyr_KwPlicEviCY4878mQVbMKZbSJGDikZ=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmgD8b8rckdUnFU9pBxtR000NIA3FL2G0Mq-YZkiJBVqxTnHNtUaJXvWxq8eVQonlSMufEIBbVAX4BVLMTJ_YRN2Pz7q6npqcEGnS3ZtoP7C_U5_9WO1giYjQj_SdnroTF_3P58=w408-h306-k-no",
   "kgmid": "/g/1pzsx9_86",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -164,6 +164,32 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "107699809853454921509",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107699809853454921509?hl=id",
+      "name": "Ayu Lasmi",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL9iumalIL2u2LfhsHb7iCp9CDr8gPNAlvUu2W2044achFzfg=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-24T09:11:21.533Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21abWNWUlBUbWREVmxsNlNsaHZZekZXUTJvd1kwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21abWNWUlBUbWREVmxsNlNsaHZZekZXUTJvd1kwRRAB!2m1!1s0x0:0x381589b1993d0ed3!3m1!1s2@1:CAIQACodChtycF9oOmZmcVRPTmdDVll6SlhvYzFWQ2owY0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "115429778287008764652",
       "reviewerUrl": "https://www.google.com/maps/contrib/115429778287008764652?hl=id",
       "name": "CV Putra Gemilang",
@@ -172,7 +198,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW_eDiUBdd6ABRA0SRWpg2RwvBdvdFwKsrK2helaK8VSc01xcs=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-30T01:54:20.709Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsalVYUmhOREZ1VFV4VVVIRlNSRVJ5YjBzeFgzYxAB",
@@ -198,7 +224,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV547lwtJocQQOKphGaYDbxt9JDh9fnloAVGx0vZTiGUPPUB4s=s1920-c-rp-mo-br100",
       "text": "Pelayanannya baik",
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-01-22T08:19:02.428Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ab04wWjJUbGRWWnpoSU1HSmFlbEU1VVZWb2JrRRAB",
@@ -224,37 +250,11 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUSfS4iFFYyq0XxY3fztSnbHbbSTOSxxC6036BJtnWeZfeJGMA4=s1920-c-rp-mo-br100",
       "text": "Pelayanan sudah bagus tapi perlu ditingkatkan lagi...",
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-01-22T08:18:00.860Z",
       "likesCount": 1,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwNldrRkdSR3RDTkhKd1MwMUZSRkZQYUdwUGRuYxAB",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwNldrRkdSR3RDTkhKd1MwMUZSRkZQYUdwUGRuYxAB!2m1!1s0x0:0x381589b1993d0ed3!3m1!1s2@1:CAIQACodChtycF9oOlp6WkFGRGtCNHJwS01FRFFPaGpPdnc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "104079515870262847598",
-      "reviewerUrl": "https://www.google.com/maps/contrib/104079515870262847598?hl=id",
-      "name": "bome tech",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVM9M294gkDVrc4E52sj1QbYKYHCcry31EjqbP7AkTekxsFhBc=s1920-c-rp-mo-br100",
-      "text": "kemarin ngurus pelaporan LKPM di loket pojok OSS, terima kasih sudah di pandu input laporan LKPM sampai dengan selesai. petugasnya jos..semoga selalu di tingkatkan pelayanannya.",
-      "textTranslated": null,
-      "publishAt": "6 bulan lalu",
-      "publishedAtDate": "2026-01-08T08:24:57.113Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t0QlRGaHNaRjlXTW5jME1XWlpOV1J0VjI5T1UzYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0QlRGaHNaRjlXTW5jME1XWlpOV1J0VjI5T1UzYxAB!2m1!1s0x0:0x381589b1993d0ed3!3m1!1s2@1:CAIQACodChtycF9oOktBTFhsZF9WMnc0MWZZNWRtV29OU3c%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
@@ -380,7 +380,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW2rYStP1RkVGiKAJpKoC6U0JTjP8dtdgduVVyGniccnsmjkwgN=s1920-c-rp-mo-br100",
       "text": "Dpmptsp dengan mpp nya memberikan layanan publik yang excelent dan ada pojok oss bs bantu bikin nib. Mantabs",
       "textTranslated": null,
-      "publishAt": "10 bulan lalu",
+      "publishAt": "11 bulan lalu",
       "publishedAtDate": "2025-08-28T07:55:57.939Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21RdGVWRjVWbmxaTjFGNGFFSkdSRU13T0RkRlJsRRAB",
@@ -521,7 +521,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN6vPJFeVFKhYgzPousreJgOIO2ULErGZqGElD4QaFOaiYGCFJV31YDsbDQhXZ5LxirTcUB8oIiHYTLRsJwfwoVfFiL9vFsKnlibj8ulLeViIpABtAIRFQ4o6aR1uwQqyGv9qrw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOmWDDTcIyZokloW7PYe3y-m8kGRwBaXNiRFA6aWmhvzbhugD5ltl4yjp2rYBb5iAI8UZUXtI_96aF6lXyEwQeUDblnBaamZPtLBFhZv5T35GHXOD5QAZpym5sBUEXC0dLUxgBK=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -533,7 +533,7 @@
       "reviewerId": "111537666664712042795",
       "reviewerUrl": "https://www.google.com/maps/contrib/111537666664712042795?hl=id",
       "name": "Bambang Setiawan",
-      "reviewerNumberOfReviews": 28,
+      "reviewerNumberOfReviews": 27,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV20fkBPEW3rK66IWMxK_toMUsehAeR0t2QZQuxWRZew4MFqqfa=s1920-c-rp-mo-ba12-br100",
       "text": "mohon ijin bertanya, untuk legalisir IMB apakah juga disini?",
@@ -611,7 +611,7 @@
       "reviewerId": "112337320290412861643",
       "reviewerUrl": "https://www.google.com/maps/contrib/112337320290412861643?hl=id",
       "name": "Ardhiana Yoghisavitrie",
-      "reviewerNumberOfReviews": 350,
+      "reviewerNumberOfReviews": 351,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUskaLnfF4dCCqn3ZNZbzePBgP9tG5_uWhhtve2ga6VObfO6u73=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanannya cepat dan jelas",
@@ -627,34 +627,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPEIDVMF0Bd2JCHG-l9KFPWL9JkU3ael-vQlMFItzmgxIcgMvkl3SBBW6kWGpnrLICFgqP1eE6fkZNfqb09YcD7Vausat0nTqWz0XHdvGhRRDknNV8PIe8zcgWyH0sNp9XzA0UsAA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMIH6Kkd829ofq5GOChJpXQoLcjklSALr0HrMA0qr4iL_bC9YPlAgUHfeqiikCH3eCPJnjl-UP8E35aOjrdsyBHxfhq_NmLEvrxxOJekgLPCcfMY9llhIZ4HyrVvO7vVecbC_8GuA=k-no"
       ],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "111396211092497833198",
-      "reviewerUrl": "https://www.google.com/maps/contrib/111396211092497833198?hl=id",
-      "name": "Dimaz Kurnia",
-      "reviewerNumberOfReviews": 179,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWvC8IVVDmqnnCoEA9ECfgngM39lK3n-xf9jEZ0rNynZVRg_2t-=s1920-c-rp-mo-ba12-br100",
-      "text": "Ramah pelayanannya",
-      "textTranslated": null,
-      "publishAt": "6 tahun lalu",
-      "publishedAtDate": "2019-07-30T13:56:44.381Z",
-      "likesCount": 1,
-      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNVNWN2ZnVRRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNVNWN2ZnVRRRAB!2m1!1s0x0:0x381589b1993d0ed3!3m1!1s2@1:CIHM0ogKEICAgICU5cvfuQE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
       "visitedIn": null,
@@ -707,8 +681,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMCCBZ_WxFaKqnLkNJ857nqPMhVfOJ7b_9hzsWvTwWS5kt1JKnoH0NmU0VW932KvT0ivvqTz5-7S59zoNAu3pOKgN2TNNJd3aKwkwmRQcMtyGm5ErSE2sVzCc96kKw3sH8tarvc=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNsZBuuoJH9soSmgsMar6P3ZV7QFjBbjIqR6dx4vvp-HKkkwnC2Ky06gq9tnDJOKYo88XwRRAxyOzQee8HMAF8NcN3-ajiDQ-9ywmjpvVDHzH-e1ndtzJNOzkhxDcPNyc8eE9Ts3w=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOpINsZCtjDbbumzdPoKOObUbRfT-T7d5byw9SgRttP8fMipgUyb1dElxmJwe03QjDJV1_h1FGxHYuX4AZDNFLxRGQruS4on6SzJhmS-c5M9Mse4gciXOaU6dRhdBsjUNWqfaw8=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNol8yNm3YfGto2M3x8-E3rFFTshTYkPg2jmohtL-QMxa21GVpbVcoUocLnZBp-dN69W6iQuatUrXSZoElK_I2-40pF13lzbC8691h_GV-KUW3A3vGDgw5-L__ktL3S7VfQ0DvmAg=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

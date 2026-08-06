@@ -41,8 +41,12 @@
     "fiveStar": 14
   },
   "imagesCount": 57,
-  "imageCategories": [],
-  "scrapedAt": "2026-07-20T12:07:41.473Z",
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°",
+    "Video"
+  ],
+  "scrapedAt": "2026-08-06T13:55:37.116Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,18 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "07.00 to 15.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 15.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "07.00 to 15.00"
-    },
     {
       "day": "Kamis",
       "hours": "07.00 to 15.00"
@@ -81,9 +73,52 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 15.00"
     }
   ],
-  "peopleAlsoSearch": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Cab Dinas Pekerjaan Umum Gresik Selatan",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Pekerjaan Umum",
+      "reviewsCount": 4,
+      "totalScore": 4.5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Perumahan Dan Kawasan Permukiman Kabupaten Gresik",
+      "reviewsCount": 3,
+      "totalScore": 4.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Tenaga Kerja Kabupaten Gresik",
+      "reviewsCount": 153,
+      "totalScore": 4.2
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Laboratorium Beton Jalan dan Jembatan Dinas Pekerjaan Umum (PU)",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
   "placesTags": [],
   "reviewsTags": [
     {
@@ -91,14 +126,38 @@
       "count": 3
     }
   ],
+  "additionalInfo": {
+    "Fasilitas": [
+      {
+        "Toilet": true
+      }
+    ]
+  },
   "gasPrices": [],
+  "updatesFromCustomers": {
+    "text": "Efek adanya gorong2, tidak menyelesaikan masalah tambah menimbulkan masalah...😌😌😏😏",
+    "language": "id",
+    "postDate": "4 tahun lalu",
+    "postedBy": {
+      "name": "Yulie Dinata",
+      "url": "https://www.google.com/maps/contrib/102268737801025293230?hl=id",
+      "title": "Local Guide",
+      "totalReviews": 12
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNRSM20n74VuJSJcLlElcKbRbngE9-zazH99ruKEmD7BkvmH5ijq9ZfwIr7eeY2DEztRr3RbSZVKX0oKCtyEilpiDDCQpIplXKQ8TRulDc-vuvRJQ8tZMiM-OMMemIf1sIFJH1m6Q=k-no",
+        "postDate": "4 tahun lalu"
+      }
+    ]
+  },
   "url": "https://www.google.com/maps/search/?api=1&query=Dinas%20PU%20Gresik&query_place_id=ChIJdbA_uNv_dy4RM6ljX-ivTXk",
   "searchPageUrl": "https://www.google.com/maps/search/Dinas%20PU%20Gresik?hl=id",
   "searchString": "Dinas PU Gresik",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkdqM9nuQsyt9DvvQdCevnGykgKNzjDAl9Ji9IzQ8xbEGhAHpHFwoQOKIVx0R9FTu7np-EbqhNztSC8VJc5UM81r9_2a0RtDZ1SYmFSlcXvX4Yo4aYAoAaZhuI74NAvhJLGp-_4=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMYYhZ2mJ70s0m62NrBXphUoCsQysq-Bi8hIHP0R5u1u2DVnHzQG9curxfqb_Uucn6XjKR_kmbt2e1apET7GC8qbj_8zzFTyVDHU1-sm7CmGJpyLr3-yxYacmZSjqmbw2WGDDe=w408-h544-k-no",
   "kgmid": "/g/11bcf39v8j",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -183,7 +242,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPTuXAMjen5HvDuNZqTZhCF6Hu7BlVVGgsW0UmwSgVAAP6KtZqCEbSnA3V0Jm351HV4QDeDd1LyG7gCIYaPf6x3vax4Scg817LfgGnqlRW5VKRPhXywqlZcLTTdoteVyHONWVt4=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMXV8j8Bvb39Wo0klMFoXs1osd7i_FzK4RRbnvwxxiLwVpp9xts7LduGVKmFdJCjJX9DKpjJl5OzW5A-9-wiruHZhUyZsmr38EavANvHS5vae9tiTdGcT-7UlFXvAVNx2nDHT1f=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -289,8 +348,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO0PExJi-HD1UytDkF8EccxZe9rhs81EyqBknfM-dE-LnnK8udAW53ASlf85VqVBV7QJ9bljlC8Mxtmxgi9KEM7E_YQ4T-CXlKmul4Y8H1lqsgToSvNtboAf55wRyOAmw0o0pGZ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMC-mPjslI7HkLMqrHCoHDOlizw88zY_vSGxqlERwKvAW2LBmJ15Tni4MibvLURGfNvZhRh_sludJvNSNmjtKS4AVMymzxV3ilqPi0EJ4PUucXzmEk4AZVeuZlYe_RDLwCWLIqV=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4gPKRZDVZT_EUwuvZlY30K4L_8gcbVd5hbE1loiF9JnOGcnavfig3WF0Cc6gUwfnCGhkeFv5mUqAvW9HWHVnZaz8YCp8phsTEj3oOwu6grTKJTXXunkF4D2ISerWVguKao2KQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMVxyJfhUNq9CElOA0i4QmKZkLYZaBe1DrcICjXGbZlGJAfybbhXRssYJSOhil349zOExJhSj3KKsWPjx9se_CjXrnSfg4r1O5FcpsCyYjbmAgvqu-jxNBKaNakdKIG8DU1low8=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -328,7 +387,7 @@
       "reviewerId": "114002468820232107877",
       "reviewerUrl": "https://www.google.com/maps/contrib/114002468820232107877?hl=id",
       "name": "Yahya M Aji",
-      "reviewerNumberOfReviews": 986,
+      "reviewerNumberOfReviews": 988,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWwFEaNA2_LKZCt3x4dTozoKONEA3VDA6yLOrdNebMFxHHHCf6g=s1920-c-rp-mo-ba12-br100",
       "text": "Just some stars...",
@@ -344,7 +403,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM1OtxLo7gvdVteruo2nHAPjAHjNO58Fx_JS34rWR6IMgK25xUKGe7T4gdJfl7WG8GkJSnIThUBCZUnCJfd6nQzIkd92pxZzsdyqxhSUFPZlZm6_TSXXJJ1So3-rz6SGG3Ou-c=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPMgjkALgBfwR6-zN78OaEZ4mOL89IOmWEcY8L6itL2ijDsImBGtoE0e-QXL7guWF-aw6j7qz0cIxNqtc5JpZ1LSOwDiZXYuJlNJ5UtQnC-RZQ5uAyh8kIC-rBBufRYu2RX5Mg=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -356,7 +415,7 @@
       "reviewerId": "114902877265377681188",
       "reviewerUrl": "https://www.google.com/maps/contrib/114902877265377681188?hl=id",
       "name": "Borowers Casanova",
-      "reviewerNumberOfReviews": 178,
+      "reviewerNumberOfReviews": 177,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXA8UYPWwpj_dDAviPe_FwqGYQJpvMncP7mCaVuTmiSUf6hqPBZ6A=s1920-c-rp-mo-ba12-br100",
       "text": "Dan begitu banyak keluhan dari warga gresik.\nDimanakah anda sebagai pihak yang berwenang dalam perbaikan jalan di gresik. Apakah tak ada pengamat jalan raya di instansi ini.",
@@ -566,7 +625,7 @@
       "name": "Ariez Try Sutrisno",
       "reviewerNumberOfReviews": 52,
       "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJUcnb0R4AC2MRmhmCFxG4NiM60Pj4wSjHBh2HXEm6a5kSQHw=s1920-c-rp-mo-ba12-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWYIUsT0XqIgOJw0rSQVlP-nfoCRVR4_eDWLKJn6Gg548DWKl0l_w=s1920-c-rp-mo-ba12-br100",
       "text": "kerjanya lamban",
       "textTranslated": null,
       "publishAt": "8 tahun lalu",
@@ -632,12 +691,12 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP1lJFus1tV3BTaXEtiZi9q-y6edcqsqb-Hzj3oV0-NNQ9SfFXYGtrbb6pUWgnIuJ4ZzincnNqYQqpVgRTSLnCn2pWeCTURoJkXt5vKSizIqSZyJuNo-MTa7HgL1XsPB2nrnJwo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPKGJUtVxo-LZj41AAjacWnQyF4JTAYhrgZJ7RlD7DvS345i5foYSOkfNHlFio9hbB0AX0jLJyCrT8JZw0wXNyPZpWFMqI47z0QEq2BhYuPiffTBNltNiJe2dbOBcrkDZUXMvj0ew=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO32r3g1ZXluwcJJODMQBF3BeOV9Hrc4MHwxM6Odn2yMi4CplR9bg-XIi7c-F2vP3wSmSZIfYXinQnSlDV8yhocqYGTRE8TYEHeRb-JuthBRvfHc0Vi3O5BtNEgid1XNfI6Nu0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPC814-xwRnpuP11dXyXwUAkra30b_mKXL5ea28aJa8Lc0PhjPOAh3r1YLBoSRLk9Tg6dMfZxn2DP26yWiSCAXVtFJww2qLrEX-s2nCxpYDeEDJ6Rat_uT4kDt2LIU3A9oOsQ04=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN6k-57PO5B8yp6g55UGeR1mgAj48mhOms8rVl9HILmI5mvMBOwM_26jM-ZBxlqK-53WKVODHCOWj2UxAxYPTF7qeeyEUiqzr5XMjYDy38WOhDcEkF2ZZhr5m2iJ-wam_oagvQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNVDM8w3QSI5q4YZa-wLZL0w7uVA-giIrqEYhto4VSnxHNCCMO6aL49pOzZjGq3ybV-TwT3-CjfCQk_REiIRpXbVaiCh0PmVkk1mb2Zh7SJF6GWV0aubDO20A2j-vO179amcfGk=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM6nfQD6pOgZuu96YN9fzV8VRqhv71x9Qz1wmfJebgUQWIl3jpAr_GywseRvlvq3t5GjoyqfU8yKMKk5EGnwjBlLxFhEDNZjf4_wMiPZF_x9h5yL3WJuB1Ccnj-NuE-kjrNlJ3t=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPvcssFOKtJvAgP5AomnJz6ns3BS10wJ3hGUmRho8Ed3AdeVPpaQR6xW68P_vaF_drvheWnZPDmzxRSFWxTJvvfWGRadjBFb9dofkVFcDAvO1B7pcbGVxPOquMRWxoDYMj6qNbczw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM-SDPVKo0pUsupjB-LhMK3SMPvABIzucwdfxt6X3ICSSf3izLQ3WEogkIg33qyENkq2Vfgp5C5h84DoDCraHc2av2uzjyy19LiRqVbxNZpgMMSrhIgQfE-Ll_n5jM763Qcw18=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNL3g3CcYAvunHpQ0pelQWvhVYXQGGDxCBBmtyFmvJwU5hORXchd8wt6D7OWRzXrrLqJTBmhIi2UqI7wZZEndXifO2c4vbXGT1GfrLms6_2dvuDi3W7yXHI1kXq5iAuVVdSJ6w0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPhf_1tlCYdy-gJ6__kTOFQCXTA5QRXKy6J91xRbVMjp6zmn0sGSXfktaAPhV92B8sqrRl-Nl1cYbi3miIJ6sn2f3XQIX4XX-UICHlk8sTqX2CRQ0ASWr1ocgKWpJj9hPETKaw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNzf7nM79RL9bE-oIj05tIXHa_h3AXSKh1NNyKdNuclVO43u4JwEO6sUZLY2cY7Pf6zz6dh68AIdRgv8vxnfWHP2E_az5fMJWysCRLjp8zSjAD5HQvK_Pjf8H1B-Tbu-4zI22gg=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -654,7 +713,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWy0gYSHhYU8aeqILG9cbR9zN_ks9u8lFXL87YEI5acA6aMV_JJ=s1920-c-rp-mo-ba12-br100",
       "text": "Strategis banget, depan pintu tol Kebomas",
       "textTranslated": null,
-      "publishAt": "Diedit 8 tahun lalu",
+      "publishAt": "Diedit 9 tahun lalu",
       "publishedAtDate": "2017-08-04T01:55:32.468Z",
       "likesCount": 2,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBOVBPemhBRRAB",
@@ -680,7 +739,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXtyYeirdDr-gA1PGTQfNR6OhXoVL-LjVv-QtzzSXUpA40KFys9=s1920-c-rp-mo-ba12-br100",
       "text": "share knowledge and experience..",
       "textTranslated": "Berbagi pengetahuan dan pengalaman...",
-      "publishAt": "8 tahun lalu",
+      "publishAt": "9 tahun lalu",
       "publishedAtDate": "2017-08-01T06:11:52.525Z",
       "likesCount": 3,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN3c3ByMXVBRRAB",
@@ -706,7 +765,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjViITpwjhV1CDPSwXcOLeDZg01Vi90MYjannf-K3FKgbNuAt2q6Tg=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "8 tahun lalu",
+      "publishAt": "9 tahun lalu",
       "publishedAtDate": "2017-07-28T00:59:52.472Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNReC15VmZ3EAE",

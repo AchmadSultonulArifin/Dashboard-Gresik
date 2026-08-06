@@ -2,14 +2,115 @@
   "kategori": "Kesehatan",
   "tempat": "RS Randegansari Husada",
   "rating": 4.3,
-  "total_ulasan": 23,
-  "positif": 22,
+  "total_ulasan": 24,
+  "positif": 15,
   "netral": 0,
-  "negatif": 1,
-  "persen_positif": 95.7,
+  "negatif": 9,
+  "persen_positif": 62.5,
   "persen_netral": 0.0,
-  "persen_negatif": 4.3,
+  "persen_negatif": 37.5,
+  "latitude": -7.3233053,
+  "longitude": 112.6349915,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "nadia nadia",
+      "Bintang": 5,
+      "Tanggal": "2026-08-04T12:30:54.341Z",
+      "Ulasan": "pelayanan nya baik dan ramah, perawatnyaa juga baik, baik semua",
+      "teks_final": "pelayanan baik ramah perawatnyaa baik baik semua",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9888
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "zahra balqist",
+      "Bintang": 1,
+      "Tanggal": "2026-08-02T02:10:20.105Z",
+      "Ulasan": "pelayanan buruk banget lambat, pasien rujukan di lempar sana sini padahal kondisinya sangat darurat",
+      "teks_final": "pelayanan buruk banget lambat pasien rujukan lempar sana sini padahal kondisinya darurat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9979
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Denisa Putri Rahayu",
+      "Bintang": 1,
+      "Tanggal": "2026-07-31T13:11:24.163Z",
+      "Ulasan": "Rumah sakit buruk",
+      "teks_final": "rumah sakit buruk",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Deni Prasetya",
+      "Bintang": 1,
+      "Tanggal": "2026-07-31T13:10:28.975Z",
+      "Ulasan": "Rumah sakit terburuk yang pernah saya lihat, kasihan saudara saya niat mau periksa perut karena nyeri ditanya bpjs aktif apa tidak setelah dicek aktif pasien di ajak ke usg habis itu di diagnosa usus buntu, malam sekitar jam 19.00 tindakan oprasi pasien minta untuk di bius total tapi tidak di kasih dan akirnya pasien kesakitan terus, yang bikin jengkel besok sore sekitar jam 16.00 didatangi dokter entah itu dokter spesialis atau bukan soalnya ngomong dari jauh dan gak di cek keadaannya pasien bagaimana tiba² bilang \"yang semalem habis oprasi ya? Udah baik bagus boleh pulang\" kemudian di kejarlah sama ortu dan kakak diberi penjelasan tetap kalo pasien sudah baik sudah boleh pulang padahal pasien belum bisa apa² masih kesakitan duduk aja belum bisa, langsung kita lapor ke bpjs terimakasih sudah dibantu alhamdulillah dijelaskan oleh dokter jaga kalo masih sakit masih boleh rawat inap 2-3hari, perawat juga ada yang bikin jengkel masak ditanya dibuat makan masih terasa sakit apa gak baiknya makan bubur aja, jawabnya \"gapapa buk makan nasi aja bebas boleh makan apa aja\" maksudnya? Di buat makan nasi kasar aja terasa diperut/usus bukanya kasih solusi dan dicek malah di membenarkan gak mau ribet akirnya ibuk inisiatif beli bubur sendiri sebelum kemarin ketemu perawat yang bener² baik memanusiakan manusia di cek dan di kasih bubur di rekomendasikan dll. Saya menemukan hal aneh lagi ketika sebelum pulang dan rukuk ke untuk kontrol di Kediri, ibuk di panggil dokter ke ruangan oprasi dibilangin kalau anak ibuk usus buntu (apendiks) itu sudah tidak bermasalah yang bikin sakit itu bekas oprasi yang dulu ususnya lengket dan kalau mau sembuh ibuk harusnya ke RS besar kayak Soetomo, dan ada lagi omongan begini nanti untuk kontrol pertamanya ibuk menggunakan umum baru nanti kontrol ke 2 bisa menggunakan bpjs, aneh kan? Kok bisa dokter ngomong begitu menyalahkan dokter lain sedangkan itu bekas oprasi kecelakaan lama 2,5 tahunan dan kalo memang gabisa menyembuhkan kenapa gak dari awal di rujuk ke RS besar???? Saya pastikan menceritakan kejadian ini dengan sebenar-benarnya supaya buat ditindak lanjut oleh yang berwenang kasihan bila ada korban ketidak nyaman seperti yang dirasakan keluarga saya, terimakasih sudah diperhatikan🙏",
+      "teks_final": "rumah sakit terburuk pernah lihat kasihan saudara niat mau periksa perut nyeri ditanya bpjs aktif apa dicek aktif pasien ajak usg habis diagnosa usus buntu malam sekitar jam tindakan oprasi pasien minta bius total kasih akirnya pasien kesakitan terus bikin jengkel besok sore sekitar jam didatangi dokter entah dokter spesialis bukan soalnya ngomong jauh cek keadaannya pasien bagaimana tiba bilang semalem habis oprasi ya udah baik bagus boleh pulang kemudian kejarlah sama ortu kakak diberi penjelasan tetap kalo pasien baik boleh pulang padahal pasien apa kesakitan duduk aja langsung lapor bpjs terimakasih dibantu alhamdulillah dijelaskan dokter jaga kalo sakit boleh rawat inap 3hari perawat bikin jengkel masak ditanya dibuat makan terasa sakit apa baiknya makan bubur aja jawabnya gapapa buk makan nasi aja bebas boleh makan apa aja maksudnya buat makan nasi kasar aja terasa diperut usus bukanya kasih solusi dicek malah membenarkan mau ribet akirnya ibuk inisiatif beli bubur sendiri kemarin ketemu perawat bener baik memanusiakan manusia cek kasih bubur rekomendasikan dll menemukan hal aneh pulang rukuk kontrol kediri ibuk panggil dokter ruangan oprasi dibilangin anak ibuk usus buntu apendiks bermasalah bikin sakit bekas oprasi dulu ususnya lengket mau sembuh ibuk harusnya rumah sakit besar kayak soetomo omongan begini nanti kontrol pertamanya ibuk menggunakan umum nanti kontrol menggunakan bpjs aneh kan kok dokter ngomong begitu menyalahkan dokter lain sedangkan bekas oprasi kecelakaan lama tahunan kalo memang gabisa menyembuhkan kenapa awal rujuk rumah sakit besar pastikan menceritakan kejadian sebenar benarnya supaya buat ditindak lanjut berwenang kasihan bila korban ketidak nyaman seperti dirasakan keluarga terimakasih diperhatikan",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9754
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ulum Moden",
+      "Bintang": 1,
+      "Tanggal": "2026-07-31T13:07:31.897Z",
+      "Ulasan": "RS gak jelas kasihan saudara saya niat mau periksa perut karena nyeri ditanya bpjs aktif apa tidak setelah dicek aktif pasien di ajak ke usg habis itu di diagnosa usus buntu, malam sekitar jam 19.00 tindakan oprasi pasien minta untuk di bius total tapi tidak di kasih dan akirnya pasien kesakitan terus, yang bikin jengkel besok sore sekitar jam 16.00 didatangi dokter entah itu dokter spesialis atau bukan soalnya ngomong dari jauh dan gak di cek keadaannya pasien bagaimana tiba² bilang \"yang semalem habis oprasi ya? Udah baik bagus boleh pulang\" kemudian di kejarlah sama ortu dan kakak diberi penjelasan tetap kalo pasien sudah baik sudah boleh pulang padahal pasien belum bisa apa² masih kesakitan duduk aja belum bisa, langsung kita lapor ke bpjs terimakasih sudah dibantu alhamdulillah dijelaskan oleh dokter jaga kalo masih sakit masih boleh rawat inap 2-3hari, perawat juga ada yang bikin jengkel masak ditanya dibuat makan masih terasa sakit apa gak baiknya makan bubur aja, jawabnya \"gapapa buk makan nasi aja bebas boleh makan apa aja\" maksudnya? Di buat makan nasi kasar aja terasa diperut/usus bukanya kasih solusi dan dicek malah di membenarkan gak mau ribet akirnya ibuk inisiatif beli bubur sendiri sebelum kemarin ketemu perawat yang bener² baik memanusiakan manusia di cek dan di kasih bubur di rekomendasikan dll. Saya menemukan hal aneh lagi ketika sebelum pulang dan rukuk ke untuk kontrol di Kediri, ibuk di panggil dokter ke ruangan oprasi dibilangin kalau anak ibuk usus buntu (apendiks) itu sudah tidak bermasalah yang bikin sakit itu bekas oprasi yang dulu ususnya lengket dan kalau mau sembuh ibuk harusnya ke RS besar kayak Soetomo, dan ada lagi omongan begini nanti untuk kontrol pertamanya ibuk menggunakan umum baru nanti kontrol ke 2 bisa menggunakan bpjs, aneh kan? Kok bisa dokter ngomong begitu menyalahkan dokter lain sedangkan itu bekas oprasi kecelakaan lama 2,5 tahunan dan kalo memang gabisa menyembuhkan kenapa gak dari awal di rujuk ke RS besar???? Saya pastikan menceritakan kejadian ini dengan sebenar-benarnya supaya buat ditindak lanjut oleh yang berwenang kasihan bila ada korban ketidak nyaman seperti yang dirasakan keluarga saya, terimakasih sudah diperhatikan🙏",
+      "teks_final": "rumah sakit jelas kasihan saudara niat mau periksa perut nyeri ditanya bpjs aktif apa dicek aktif pasien ajak usg habis diagnosa usus buntu malam sekitar jam tindakan oprasi pasien minta bius total kasih akirnya pasien kesakitan terus bikin jengkel besok sore sekitar jam didatangi dokter entah dokter spesialis bukan soalnya ngomong jauh cek keadaannya pasien bagaimana tiba bilang semalem habis oprasi ya udah baik bagus boleh pulang kemudian kejarlah sama ortu kakak diberi penjelasan tetap kalo pasien baik boleh pulang padahal pasien apa kesakitan duduk aja langsung lapor bpjs terimakasih dibantu alhamdulillah dijelaskan dokter jaga kalo sakit boleh rawat inap 3hari perawat bikin jengkel masak ditanya dibuat makan terasa sakit apa baiknya makan bubur aja jawabnya gapapa buk makan nasi aja bebas boleh makan apa aja maksudnya buat makan nasi kasar aja terasa diperut usus bukanya kasih solusi dicek malah membenarkan mau ribet akirnya ibuk inisiatif beli bubur sendiri kemarin ketemu perawat bener baik memanusiakan manusia cek kasih bubur rekomendasikan dll menemukan hal aneh pulang rukuk kontrol kediri ibuk panggil dokter ruangan oprasi dibilangin anak ibuk usus buntu apendiks bermasalah bikin sakit bekas oprasi dulu ususnya lengket mau sembuh ibuk harusnya rumah sakit besar kayak soetomo omongan begini nanti kontrol pertamanya ibuk menggunakan umum nanti kontrol menggunakan bpjs aneh kan kok dokter ngomong begitu menyalahkan dokter lain sedangkan bekas oprasi kecelakaan lama tahunan kalo memang gabisa menyembuhkan kenapa awal rujuk rumah sakit besar pastikan menceritakan kejadian sebenar benarnya supaya buat ditindak lanjut berwenang kasihan bila korban ketidak nyaman seperti dirasakan keluarga terimakasih diperhatikan",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9887
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Shey",
+      "Bintang": 1,
+      "Tanggal": "2026-07-25T05:22:57.107Z",
+      "Ulasan": "Ini gimana sih sistem antriannya ga jelas, daftar awal awal dateng dari jam set 11 malah dapet antrian no akhir, padahal dateng duduk di tempat antrian masih sepi hanya ada 2 orang, yang lain baru datang malah lebih dulu di panggil, gimana dah nunggu sampe jam set 1 pun belum di panggil, sumpah perbaiki dulu sistem antriannya",
+      "teks_final": "gimana sistem antriannya jelas daftar awal awal dateng jam set malah dapet antrian no akhir padahal dateng duduk tempat antrian sepi hanya orang lain datang malah dulu panggil gimana dah nunggu sampe jam set panggil sumpah perbaiki dulu sistem antriannya",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9885
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Selvianita Rusliputri",
+      "Bintang": 1,
+      "Tanggal": "2026-07-23T10:54:31.974Z",
+      "Ulasan": "rs yg jelek kalo menurutku utk pasien bpjs kalo umum ok lah sat set dan bayar di akhir utk rs jaman sekarang tanpa deposit hanya disini tapi buruk klo buat pasien yg gak umum",
+      "teks_final": "rumah sakit jelek kalo menurutku pasien bpjs kalo umum oke sat set bayar akhir rumah sakit jaman sekarang tanpa deposit hanya disini buruk buat pasien umum",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9978
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Achmad Bagas",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T02:58:46.705Z",
+      "Ulasan": "Alhamdulillah pelayanannya ramah, dokter dan susternya juga.. Ruangannya bersih, dapet makan juga, fasilitasnya bagus Terbaik 🫰🏻",
+      "teks_final": "alhamdulillah pelayanannya ramah dokter susternya ruangannya bersih dapet makan fasilitasnya bagus terbaik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9977
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sdl Bogang",
+      "Bintang": 1,
+      "Tanggal": "2026-07-21T03:14:55.955Z",
+      "Ulasan": "Perawat kurang profesional, datang lebih awal malah gak dipanggil², orang yg Baru datang dipanggil duluan. Gak sesuai nomor antrian pendaftaran @poligigi",
+      "teks_final": "perawat kurang profesional datang awal malah dipanggil orang datang dipanggil duluan sesuai nomor antrian pendaftaran",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9918
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Tiyan Hwasyek",
@@ -45,39 +146,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Lisa Puspita 7",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:35:14.857Z",
-      "Ulasan": "Rumah Sakit nya bersih, pelayanan baik dan ramah",
-      "teks_final": "rumah sakit bersih pelayanan baik ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9929
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Novvira Pramita",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:35:05.412Z",
-      "Ulasan": "Pelayanannya ramah, dan sangat informatif",
-      "teks_final": "pelayanannya ramah informatif",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9967
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "annisa salsabila",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:34:23.459Z",
-      "Ulasan": "Pelayanan sangat bagus, dan ramah2..",
-      "teks_final": "pelayanan bagus ramah2",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9969
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "Qonyta Lutfia Putri",
       "Bintang": 5,
       "Tanggal": "2026-07-17T05:29:07.142Z",
@@ -89,61 +157,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Salfy Khilda",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:26:58.606Z",
-      "Ulasan": "Pelayanan sangat baik..",
-      "teks_final": "pelayanan baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9952
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Tsinta Alfiyatin Ni'mah",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:25:12.929Z",
-      "Ulasan": "Pelayanan baik dan fasilitas terawat dengan baik",
-      "teks_final": "pelayanan baik fasilitas terawat baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9692
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Deva Nazikha",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:22:25.995Z",
-      "Ulasan": "Fasilitas rumah sakitnya mencukupi dan pelayanannya juga memuaskan",
-      "teks_final": "fasilitas rumah sakitnya mencukupi pelayanannya memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9954
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Diwi Ashima",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:22:21.796Z",
-      "Ulasan": "Pelayanan memuaskan dan cepat",
-      "teks_final": "pelayanan memuaskan cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9957
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "HEYDAR HERMANSYAH",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:18:43.360Z",
-      "Ulasan": "Pelayanannya sangat bagus",
-      "teks_final": "pelayanannya bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9974
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "aqiilah naisyah",
       "Bintang": 5,
       "Tanggal": "2026-07-17T05:14:09.050Z",
@@ -152,17 +165,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9968
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "04_Annissa zahraa callysta",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T05:13:24.320Z",
-      "Ulasan": "mantap",
-      "teks_final": "bagus",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9961
     },
     {
       "Kategori": "Kesehatan",
@@ -199,28 +201,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Hanik Selena",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T04:44:17.198Z",
-      "Ulasan": "Semoga semakin kualitas nya bertambah",
-      "teks_final": "semoga semakin kualitas bertambah",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9716
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Anita Layliaa",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T04:44:03.445Z",
-      "Ulasan": "Sangat recomended",
-      "teks_final": "recomended",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9975
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "Salwana Dewanti Rahayu",
       "Bintang": 5,
       "Tanggal": "2026-07-17T04:14:32.300Z",
@@ -243,17 +223,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Nur Izzah Khilmiyyah",
-      "Bintang": 5,
-      "Tanggal": "2026-07-17T04:08:20.359Z",
-      "Ulasan": "Pelayanan bagus, ramah",
-      "teks_final": "pelayanan bagus ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9968
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "Aprillia Hidayatunnikmah",
       "Bintang": 5,
       "Tanggal": "2026-07-17T04:07:46.278Z",
@@ -262,6 +231,50 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9958
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Mochamad Aziz Amrozi",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T04:00:46.285Z",
+      "Ulasan": "pelayanannya bagus, terbaik pokoknya, the best",
+      "teks_final": "pelayanannya bagus terbaik pokoknya the best",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nuzulmy",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T04:00:12.399Z",
+      "Ulasan": "Pelayanan terbaik",
+      "teks_final": "pelayanan terbaik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Abid Dary",
+      "Bintang": 5,
+      "Tanggal": "2026-07-17T03:35:05.370Z",
+      "Ulasan": "Mantab",
+      "teks_final": "mantab",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9971
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Yuda Ferdiansyah",
+      "Bintang": 1,
+      "Tanggal": "2026-07-16T16:19:01.260Z",
+      "Ulasan": "PENGANANAN SANGAT LAMBAT HINGGA AYAH MENINGGAL DUNIA SUDAH TAU DARURAT DOKTER RUWET SANGAT SANGAT TIDAK AKURAT",
+      "teks_final": "pengananan lambat hingga ayah meninggal dunia tau darurat dokter ruwet akurat",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9838
     }
   ]
 }

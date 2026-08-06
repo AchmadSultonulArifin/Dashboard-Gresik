@@ -1,15 +1,28 @@
 {
   "kategori": "Perbankan",
   "tempat": "Bank Mandiri KCP Gresik Kota Baru Sumatera",
-  "rating": 4.6,
-  "total_ulasan": 24,
-  "positif": 20,
-  "netral": 4,
+  "rating": 4.7,
+  "total_ulasan": 20,
+  "positif": 17,
+  "netral": 3,
   "negatif": 0,
-  "persen_positif": 83.3,
-  "persen_netral": 16.7,
+  "persen_positif": 85.0,
+  "persen_netral": 15.0,
   "persen_negatif": 0.0,
+  "latitude": -7.1562671,
+  "longitude": 112.6151673,
   "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Muhamad Rosidi",
+      "Bintang": 5,
+      "Tanggal": "2026-07-23T05:56:19.272Z",
+      "Ulasan": "Pelayanan ramah dan baik",
+      "teks_final": "pelayanan ramah baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9951
+    },
     {
       "Kategori": "Perbankan",
       "Nama Reviewer": "Irul Bee17",
@@ -218,61 +231,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9959
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Pinkky Saferen Raquel Exel",
-      "Bintang": 5,
-      "Tanggal": "2026-04-16T02:09:33.675Z",
-      "Ulasan": "Pelayanan cepat sudah serba digital, teller cs security ramah, lingkungan kantor bersih nyaman wangi",
-      "teks_final": "pelayanan cepat serba digital teller cs security ramah lingkungan kantor bersih nyaman wangi",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9876
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "gita sovie rahmaniar",
-      "Bintang": 5,
-      "Tanggal": "2026-04-16T02:06:26.812Z",
-      "Ulasan": "Ruangan nyaman Pelayanan menyenangkan..",
-      "teks_final": "ruangan nyaman pelayanan menyenangkan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9971
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Muhammad Diva Rama",
-      "Bintang": 5,
-      "Tanggal": "2026-04-16T01:59:26.003Z",
-      "Ulasan": "Ramah,Baik, The Best",
-      "teks_final": "ramah baik the best",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9967
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Wanda Sukma",
-      "Bintang": 5,
-      "Tanggal": "2026-04-16T01:58:45.545Z",
-      "Ulasan": "Pelayanan ramahh",
-      "teks_final": "pelayanan ramahh",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9962
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Zia Variabell",
-      "Bintang": 4,
-      "Tanggal": "2026-04-03T02:28:30.813Z",
-      "Ulasan": ",apakah hari ini buka?",
-      "teks_final": "apakah hari buka",
-      "topik": "Lainnya",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9894
     }
   ]
 }

@@ -46,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:43:39.526Z",
+  "scrapedAt": "2026-08-06T15:22:40.297Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -746,10 +746,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -771,6 +767,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],

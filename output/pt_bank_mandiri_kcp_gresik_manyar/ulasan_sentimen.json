@@ -3,13 +3,26 @@
   "tempat": "PT Bank Mandiri KCP Gresik Manyar",
   "rating": 4.7,
   "total_ulasan": 28,
-  "positif": 22,
+  "positif": 21,
   "netral": 5,
-  "negatif": 1,
-  "persen_positif": 78.6,
+  "negatif": 2,
+  "persen_positif": 75.0,
   "persen_netral": 17.9,
-  "persen_negatif": 3.6,
+  "persen_negatif": 7.1,
+  "latitude": -7.1363321,
+  "longitude": 112.6168727,
   "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Q Pheng",
+      "Bintang": 1,
+      "Tanggal": "2026-08-01T00:46:02.378Z",
+      "Ulasan": "Kebijakan mandiri yang ruwet... Mau transfer ke saudara yg menggunakan rekening mandiri lewat teller, tapi disuruh jadi nasabahnya dulu dengan daftar dulu menggunakan digital, . Kan ini pemaksaan... Akhirnya minta tolong teman yg punya mandiri untuk transfer",
+      "teks_final": "kebijakan mandiri ruwet mau transfer saudara menggunakan rekening mandiri lewat teller disuruh jadi nasabahnya dulu daftar dulu menggunakan digital kan pemaksaan akhirnya minta tolong teman punya mandiri transfer",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9556
+    },
     {
       "Kategori": "Perbankan",
       "Nama Reviewer": "Since 2014",
@@ -251,17 +264,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9946
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "firdausi kurniawan",
-      "Bintang": 5,
-      "Tanggal": "2026-02-26T05:27:49.111Z",
-      "Ulasan": "Bangking hall nya keren nyaman dan dingin",
-      "teks_final": "bangking hall bagus nyaman dingin",
-      "topik": "Fasilitas",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9933
     },
     {
       "Kategori": "Perbankan",

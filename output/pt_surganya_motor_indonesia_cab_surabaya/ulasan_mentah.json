@@ -41,7 +41,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T11:03:30.818Z",
+  "scrapedAt": "2026-08-06T14:24:49.403Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,10 +53,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "09.00 to 17.00"
-    },
     {
       "day": "Kamis",
       "hours": "09.00 to 17.00"
@@ -79,6 +75,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "09.00 to 17.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "09.00 to 17.00"
     }
   ],
@@ -143,7 +143,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk9GrP4prYKlKpx_Fk0OjfxRdv-HcutR3Ijntb3DJqdJbQJRe9yhk0P6YF_CgQOyWRTt6EOgmwtt0fEs3lQ8oZMtlaLksTV6QfhKq-S23056CD6g_TzwYaMsp7BvMhL4rQgjkIJ=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlG3Ha4PcvRYbIyUB26mz1EDOS8s8UEXkaTyWepBqQz80MUTde1jsZcwBI9GeWaIQ8n1BkooDBmJwJn30hdFfGbO_D76YBsbDyGd7d1oYI8bhySt0tXDINcEiu7ib3iNtudsfxW=w408-h725-k-no",
   "kgmid": "/g/11t_wjqr19",
   "reviewsDistribution": {
     "oneStar": 1,
@@ -165,7 +165,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPrpo35D3XQ6jHRb_y7lvWw00sviL3FJuPzajEu3nA9GVJgur5uEdW25ISLhtLPKb9wti_vsrKMPe7PFoKMyaWcJMSYbV-uCUWXU_IUY5la3nbhG6AFYfbOgiwWdsSHKE3Y1Oo_O3dyDDA=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPY3_v4s9UQ2SVvuvhmr-8PaR6670AmEHJdOG_BOKzVOq1mosRAF8EjUD8XPxzPE1ZFmi9Gc-SnVwMIXT7DY6bJD6U0V1DZ9bgN24FkyoNtDJOnHFd02McMya0gFYEfOfMtp8NmEk-fvdI=k-no",
         "postDate": "setahun lalu"
       }
     ]
@@ -184,12 +184,12 @@
       "reviewerId": "110590975825778062073",
       "reviewerUrl": "https://www.google.com/maps/contrib/110590975825778062073?hl=id",
       "name": "Damar Supriyanto",
-      "reviewerNumberOfReviews": 2,
+      "reviewerNumberOfReviews": 3,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVlCRC510ihP0tQY-cqFToQ6jgJnJovUkOBx9Qr5MDyTXt6hgo=s1920-c-rp-mo-ba12-br100",
       "text": "Sangat Bagus dan istimewa",
       "textTranslated": null,
-      "publishAt": "4 jam lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-29T06:16:35.559Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxdVkxaDJlVTVJVW1ZM2NIcHlha0ZFTVVSR1NYYxAB",
@@ -267,7 +267,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXYsdkGfPKTIOXP2-heWRhWgt4rercm4RSGtIBAqEj9Qviu_uQc=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-01-30T23:44:45.612Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSUlZsUTJORzlRZUdaMWRIQkZjM0ozVURKTGExRRAB",
@@ -397,7 +397,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVVSeKDdJKyo7yhVodPK7KOdt5Np-QW7bJ53rzsi6312oCb7ME=s1920-c-rp-mo-br100",
       "text": "Apa ada lowongan pekerjaan di PT.surganya motor Indonesia area Surabaya",
       "textTranslated": null,
-      "publishAt": "8 bulan lalu",
+      "publishAt": "9 bulan lalu",
       "publishedAtDate": "2025-11-02T14:41:27.279Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwWGFHNXpibU0wVTJwaFRYVldWbGR3TUdabFJuYxAB",
@@ -434,7 +434,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM2h17cO-hKPAD8rSB3zEs-ZZlV_XADumx43LwGDxKeLy6JM2vCo-sqivn980-5tK-3cH92H2cwWSl5sv5ZkKFGv0HRpPR30iHFKK3kyaQvH4tI9VJH22rPNOnRCPMpX4DixF4j0U42Pg7m=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMH2YztYB_0wp-llIeedU267UJ9Wuon7neD_BfNnbjrU9GBZcrIodx5H_K6wC1AWDVQZqvXU8azQiHXKz4JjgrF8Zd1vhe-BN00FEdgYOAYy7XN5TTJoAUY4VhOkeO6qVI67ajxcanmfQ3X=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

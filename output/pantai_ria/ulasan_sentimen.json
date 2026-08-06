@@ -2,13 +2,15 @@
   "kategori": "Wisata",
   "tempat": "Pantai Ria",
   "rating": 4.2,
-  "total_ulasan": 8,
-  "positif": 5,
+  "total_ulasan": 7,
+  "positif": 4,
   "netral": 0,
   "negatif": 3,
-  "persen_positif": 62.5,
+  "persen_positif": 57.1,
   "persen_netral": 0.0,
-  "persen_negatif": 37.5,
+  "persen_negatif": 42.9,
+  "latitude": null,
+  "longitude": null,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -86,17 +88,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9791
-    },
-    {
-      "Kategori": "Wisata",
-      "Nama Reviewer": "Ragas Lubermanto",
-      "Bintang": 5,
-      "Tanggal": "2025-10-01T07:02:01.204Z",
-      "Ulasan": "Tempat wisata, tempat yg tenang dihari biasa untuk mencari udara segar dan menikmati jajanan kuliner Kupang lontong dan es degannya harga terjangkau",
-      "teks_final": "tempat wisata tempat tenang dihari biasa mencari udara segar menikmati jajanan kuliner kupang lontong es degannya harga terjangkau",
-      "topik": "Administrasi",
-      "sentimen": "Positif",
-      "sentimen_score": 0.998
     }
   ]
 }

@@ -23,7 +23,7 @@
   "plusCode": null,
   "menu": null,
   "servicesLink": null,
-  "totalScore": 2,
+  "totalScore": null,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
   "placeId": "ChIJD1370WMh5C0RwxhVkvXyBP8",
@@ -32,20 +32,10 @@
   ],
   "fid": "0x2de42163d1fb5d0f:0xff04f2f5925518c3",
   "cid": "18376079516114426051",
-  "reviewsCount": 1,
-  "reviewsDistribution": {
-    "oneStar": 0,
-    "twoStar": 1,
-    "threeStar": 0,
-    "fourStar": 0,
-    "fiveStar": 0
-  },
+  "reviewsCount": null,
   "imagesCount": 11,
-  "imageCategories": [
-    "Semua",
-    "Street View & 360°"
-  ],
-  "scrapedAt": "2026-07-29T10:50:17.499Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-06T14:14:50.171Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,10 +47,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 16.30"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 16.30"
@@ -84,40 +70,13 @@
     {
       "day": "Selasa",
       "hours": "08.00 to 16.30"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 16.30"
     }
   ],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kelurahan Pemurus Dalam",
-      "reviewsCount": 4,
-      "totalScore": 4
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kelurahan Pemurus Luar",
-      "reviewsCount": 7,
-      "totalScore": 4.7
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kelurahan Kelayan Dalam",
-      "reviewsCount": 2,
-      "totalScore": 4.5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kelurahan Kertak Hanyar 1",
-      "reviewsCount": 1,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kelurahan",
-      "reviewsCount": 0,
-      "totalScore": 0
-    }
-  ],
+  "peopleAlsoSearch": [],
   "placesTags": [
     {
       "title": "Makanan & Minuman",
@@ -137,11 +96,6 @@
       {
         "Tempat parkir khusus pengguna kursi roda": false
       }
-    ],
-    "Fasilitas": [
-      {
-        "Toilet": true
-      }
     ]
   },
   "gasPrices": [],
@@ -151,7 +105,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGNAbQLuAnsZ_wwnKbzVyu_s6Zt-wF5bJ6B4K4hFt1FYrOvnicDf5GgPFWqzdkM1LwtEZW9I4Wohrzq53EFVRAPiDNQMV_jOCE2xGg4eXTu4ElbUGgIdydVeY4pyOXdUTR-3CtF_zg-IS9o8yc5ZcD8TtCookuEkY6jTOr4aIahEMR9hb2zmT4VzyWgNP0Aq5oF2ow=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHx9kRJZbwmtbbG248EiE3lqSjt2VoHDoiAUe2q8xnRbcUUEo30MxV6sEKmIghPC11o4-p03Hlt3tAm5b9PaCh1bWRRzmo02cd98ZBrI9HvjCUdFBKidDJ6cyNugsUAVTUcU36s5kfRRlh5FMtM4SWkZFNYcH9Q7RR7k_038z-47a1JlG0gRBHrprynZPu8lu_EnVQ=w408-h306-k-no",
   "kgmid": "/g/11b6sy4ttl",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -163,34 +117,7 @@
   },
   "ownerUpdates": [],
   "imageUrls": [],
-  "reviews": [
-    {
-      "reviewerId": "108549320785698575826",
-      "reviewerUrl": "https://www.google.com/maps/contrib/108549320785698575826?hl=id",
-      "name": "Uco Sugianto",
-      "reviewerNumberOfReviews": 529,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU1O53D7UGuRfgM0slmvdBtCRs5ufmI8PmA-TGnIOfNoaXWWto=s1920-c-rp-mo-ba12-br100",
-      "text": "Parkirnya susah",
-      "textTranslated": null,
-      "publishAt": "6 tahun lalu",
-      "publishedAtDate": "2019-08-10T23:36:07.935Z",
-      "likesCount": 1,
-      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURVb05yakRREAE",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURVb05yakRREAE!2m1!1s0x0:0xff04f2f5925518c3!3m1!1s2@1:CIHM0ogKEICAgIDUoNrjDQ%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 2,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    }
-  ],
+  "reviews": [],
   "leadsEnrichment": [],
   "kategori": "Pemerintahan"
 }

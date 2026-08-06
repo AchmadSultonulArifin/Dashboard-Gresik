@@ -3,13 +3,26 @@
   "tempat": "SMK Negeri 1 Driyorejo",
   "rating": 4.2,
   "total_ulasan": 9,
-  "positif": 4,
-  "netral": 2,
+  "positif": 5,
+  "netral": 1,
   "negatif": 3,
-  "persen_positif": 44.4,
-  "persen_netral": 22.2,
+  "persen_positif": 55.6,
+  "persen_netral": 11.1,
   "persen_negatif": 33.3,
+  "latitude": -7.3313345,
+  "longitude": 112.6380035,
   "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "fikri Achmad",
+      "Bintang": 5,
+      "Tanggal": "2026-07-28T23:28:52.061Z",
+      "Ulasan": "sekolahan menarik",
+      "teks_final": "sekolahan menarik",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9951
+    },
     {
       "Kategori": "Pendidikan",
       "Nama Reviewer": "JONI TJK",
@@ -97,17 +110,6 @@
       "topik": "Fasilitas",
       "sentimen": "Negatif",
       "sentimen_score": 0.9176
-    },
-    {
-      "Kategori": "Pendidikan",
-      "Nama Reviewer": "Surat Min",
-      "Bintang": 5,
-      "Tanggal": "2024-04-29T06:01:45.106Z",
-      "Ulasan": "Mau Tanya, PPDB tahun pembelajaran 2024 kapan open?",
-      "teks_final": "mau tanya ppdb tahun pembelajaran kapan open",
-      "topik": "Lainnya",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9929
     }
   ]
 }

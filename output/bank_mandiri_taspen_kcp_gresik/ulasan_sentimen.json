@@ -1,14 +1,16 @@
 {
   "kategori": "Perbankan",
   "tempat": "Bank Mandiri Taspen KCP GRESIK",
-  "rating": 4.3,
-  "total_ulasan": 23,
-  "positif": 15,
-  "netral": 2,
+  "rating": 4.2,
+  "total_ulasan": 22,
+  "positif": 13,
+  "netral": 3,
   "negatif": 6,
-  "persen_positif": 65.2,
-  "persen_netral": 8.7,
-  "persen_negatif": 26.1,
+  "persen_positif": 59.1,
+  "persen_netral": 13.6,
+  "persen_negatif": 27.3,
+  "latitude": -7.1673908,
+  "longitude": 112.6436346,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -50,17 +52,6 @@
       "Tanggal": "2026-03-03T11:49:53.601Z",
       "Ulasan": "pelayanan maksimal tempat nyaman & dingin, untuk otentikasi pensiunan tadi dibantu mas yusuf jadi tidak perlu khawatir tidak bisa absen untuk para pensiunan",
       "teks_final": "pelayanan maksimal tempat nyaman dingin otentikasi pensiunan tadi dibantu mas yusuf jadi perlu khawatir absen para pensiunan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.988
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Dicky Putra",
-      "Bintang": 5,
-      "Tanggal": "2026-03-03T11:48:01.443Z",
-      "Ulasan": "Pelayanan Security sangat baik dan sangat ramah,",
-      "teks_final": "pelayanan security baik ramah",
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.988
@@ -119,17 +110,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9966
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Erlangga Wishaka",
-      "Bintang": 5,
-      "Tanggal": "2025-10-22T05:01:45.376Z",
-      "Ulasan": "Pelayanan Cepat Dan Ramah Asalkan Berkas Lengkap Dijamin Langsung Tertangani",
-      "teks_final": "pelayanan cepat ramah asalkan berkas lengkap dijamin langsung tertangani",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9832
     },
     {
       "Kategori": "Perbankan",
@@ -210,17 +190,6 @@
     },
     {
       "Kategori": "Perbankan",
-      "Nama Reviewer": "Dicky Putra_ Pratama",
-      "Bintang": 5,
-      "Tanggal": "2024-04-19T06:00:40.582Z",
-      "Ulasan": "Pelayanan memuaskan, Security nya sangat ramah",
-      "teks_final": "pelayanan memuaskan security ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9942
-    },
-    {
-      "Kategori": "Perbankan",
       "Nama Reviewer": "Anta Sari",
       "Bintang": 5,
       "Tanggal": "2024-04-19T05:59:47.850Z",
@@ -262,6 +231,28 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Helmi Setyawan",
+      "Bintang": 5,
+      "Tanggal": "2023-04-11T17:52:56.839Z",
+      "Ulasan": "Kantor bank tapi serasa di Coffee n Resto",
+      "teks_final": "kantor bank serasa coffee resto",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9899
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Ratih Andayani",
+      "Bintang": 5,
+      "Tanggal": "2023-04-04T13:23:47.488Z",
+      "Ulasan": "Setiap Tranksaksi / urusan d mudahkan , lancar , Aamiin ...",
+      "teks_final": "setiap tranksaksi urusan mudahkan lancar aamiin",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9784
     }
   ]
 }

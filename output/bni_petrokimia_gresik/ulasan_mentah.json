@@ -46,7 +46,7 @@
     "Di dalam",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T14:14:23.413Z",
+  "scrapedAt": "2026-08-06T15:42:04.985Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 16.00"
@@ -84,6 +80,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 16.00"
     }
   ],
@@ -154,7 +154,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmUabOfWLK0vW4Wzpe5V8XkEPIBqb846Nd9xbbleqBpGVGE3_oEMA0zOsr9y7KBNte_Xnx0T_JuUIgqDyI2IN1m4il_TTjwv7fTxvgulAjNKZCY-rWlwcBCWKrwBNACYRmrRqCH=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlY5mdJj-bULJov8CbLMqR23hFA38OSfY_q3X59kHbvmaIwEbRoTjJkdyuPd_WmDD_-XDQIf6J5OhgAIGehsyv_gzyV3D0HYAXswWOJE99DQOd7R6nV5E_zATvHK1jjt7adRFJ1=w408-h306-k-no",
   "kgmid": "/g/1q67p0vc1",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -566,7 +566,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJE9XvKyhmWP9sqaw4x7MoCHpp3O0NGPwu7MrasQDaIFUKt4g=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "Diedit 3 tahun lalu",
+      "publishAt": "Diedit 4 tahun lalu",
       "publishedAtDate": "2022-08-04T09:54:45.325Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1MllTa19nRRAB",
@@ -592,7 +592,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXm4JAcCCUEOmKXMe_qmNLYg8RVoNZjzYftJxgEzpY_yUwhZk-d=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-01T06:18:40.012Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1bWUtX1NnEAE",
@@ -618,7 +618,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXc_YlwWwJK8U6ZmwBoNNIF6lGaHpvDDYUjSCp31FN9xIg5kQ8t=s1920-c-rp-mo-br100",
       "text": "Pelayanan terbaik, ramah, cepat dan tepat dalam proses transaksi, penyampaian informasi yg jelas. Satpam disini selalu membantu nasabah yg kesulitan ketika mengisi form dan semacamnya, satpam memiliki pengetahuan yg tinggi disini sehingga ketika antrian panjang, satpam sendiri bisa melakukan peran membantu pelayanan dalam menangani nasabahnya dengan baik. Lokasi yg nyaman dengan sistem antrian yg teratur. Good job untuk pegawai di BNI Petrokimia. Terimakasih 🙏🏻",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-01T05:45:36.664Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1bWJ2c2NREAE",
@@ -644,7 +644,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKg3O6586dHTszHkg5JHXd-3103bKzEunIg1HQeLT2BVk49nw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-01T05:30:43.835Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1bVl2Q1VBEAE",
@@ -941,8 +941,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNBbV0Dr3MLrckiD56mi4_yW1bsyjlG7Ol2QtkWIMpOHBsflNPP8yNhDwEhYN_E4VEQsXo3lr6xrm6Q19kmQPUQ6kliG3cXiG4rHefr5jN2rQKVAXdzG-cz17nI2OIUw5VtlW8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMMEiSUGxxTswN9s_Dkt6PNS0PVitgoUiGpIUNGX4YHTdhjMLo5H8ZJBqU7sz9FrO2clsXlhC2XcewL7QJ1qLqORQQf3MvrTiooD2FhTLivJ5OV7P5XAh6BAK31xmm1r8adRjdb=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOb2oO0jIVh59U5MqUUyKCIGj14qYMo6uT87uvusVca8pLdLw7VkzViCT_SFdzEGdywTv_gvzzhPLO4ZDVHdoTemIGB1waUPzlI9RfyF8sGWJ6oRTxqqR-szsN6-yV65sMiP8o=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPlhCsPO7Vo47RSTtYsrGPp6DMXQ-TKFQpdSt5Er0CAiUMTMAhW6CgJM6WXI9Xunc1tvFNUKcVnzHERMLoLVqElKUEaJ-v6cwL6pNBUYaiLFEtse8SFub2XqWBDmSK3Wma8FLJY=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

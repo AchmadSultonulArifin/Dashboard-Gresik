@@ -3,13 +3,37 @@
   "tempat": "Puskesmas Alun-Alun",
   "rating": 3.9,
   "total_ulasan": 24,
-  "positif": 15,
+  "positif": 17,
   "netral": 5,
-  "negatif": 4,
-  "persen_positif": 62.5,
+  "negatif": 2,
+  "persen_positif": 70.8,
   "persen_netral": 20.8,
-  "persen_negatif": 16.7,
+  "persen_negatif": 8.3,
+  "latitude": -7.1584899,
+  "longitude": 112.6551531,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Rizkya Safarina",
+      "Bintang": 5,
+      "Tanggal": "2026-08-06T03:50:19.514Z",
+      "Ulasan": "Sudah 6 tahun saya berobat di sini. Pelayanan nya sangat ramah dan cepat. Sehat2 bu dokter dan nakes nya 🙏❤❤❤",
+      "teks_final": "tahun berobat sini pelayanan ramah cepat sehat2 bu dokter nakes",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9933
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Nia Aisya",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T09:06:33.430Z",
+      "Ulasan": "Pelayanan ramah",
+      "teks_final": "pelayanan ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "maulida ariyani",
@@ -251,28 +275,6 @@
       "topik": "Kesehatan",
       "sentimen": "Positif",
       "sentimen_score": 0.9954
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Yudi Mahendra",
-      "Bintang": 2,
-      "Tanggal": "2026-06-02T23:23:19.064Z",
-      "Ulasan": "Antrian lama bet skrng GK Kya dulu cepet d Thun 2024",
-      "teks_final": "antrian lama bet skrng kya dulu cepet thun",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9963
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Achmad Achmad",
-      "Bintang": 1,
-      "Tanggal": "2026-05-15T03:20:10.015Z",
-      "Ulasan": "PELAYANAN JELEK!! Udah tau ada orang didepan resepsionis malah asik ngobrol ! Jawaban juga judes gak enak !! TOLONG KALAU GAK BISA DI BAGIAN PELAYANAN GAUSH DIBAGIAN PELAYANAN , KITA MAU BEROBAT MALAH PELAYANAN KE MASYARAKAT JELEK !!",
-      "teks_final": "pelayanan jelek udah tau orang didepan resepsionis malah asik ngobrol jawaban judes enak tolong bagian pelayanan gaush dibagian pelayanan mau berobat malah pelayanan masyarakat jelek",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9982
     }
   ]
 }

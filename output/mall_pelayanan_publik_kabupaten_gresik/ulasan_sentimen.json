@@ -1,5 +1,5 @@
 {
-  "kategori": "Pelayanan Publik",
+  "kategori": "Pemerintahan",
   "tempat": "Mall Pelayanan Publik Kabupaten Gresik",
   "rating": 4.3,
   "total_ulasan": 23,
@@ -9,9 +9,11 @@
   "persen_positif": 60.9,
   "persen_netral": 34.8,
   "persen_negatif": 4.3,
+  "latitude": -7.1704394,
+  "longitude": 112.6015214,
   "ulasan": [
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Leonardus Haryosampang G",
       "Bintang": 5,
       "Tanggal": "2023-04-04T01:12:46.059Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9677
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Azundha Rahmadani A.",
       "Bintang": 5,
       "Tanggal": "2023-03-21T04:17:07.952Z",
@@ -33,7 +35,7 @@
       "sentimen_score": 0.9496
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Opa OpA",
       "Bintang": 5,
       "Tanggal": "2023-03-13T01:56:16.057Z",
@@ -44,7 +46,7 @@
       "sentimen_score": 0.9405
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "sumadi bukhori",
       "Bintang": 1,
       "Tanggal": "2023-02-16T00:17:28.037Z",
@@ -55,7 +57,7 @@
       "sentimen_score": 0.998
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Aliaa Nurrahma",
       "Bintang": 5,
       "Tanggal": "2023-02-13T11:05:08.364Z",
@@ -66,7 +68,7 @@
       "sentimen_score": 0.989
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Adit Rahman",
       "Bintang": 3,
       "Tanggal": "2023-01-26T04:17:56.706Z",
@@ -77,7 +79,7 @@
       "sentimen_score": 0.9819
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Imam Safii",
       "Bintang": 5,
       "Tanggal": "2022-07-28T14:34:34.123Z",
@@ -88,7 +90,7 @@
       "sentimen_score": 0.9636
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Muhammad Ahmad",
       "Bintang": 4,
       "Tanggal": "2022-07-27T06:39:59.092Z",
@@ -99,7 +101,7 @@
       "sentimen_score": 0.9955
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Suzy",
       "Bintang": 5,
       "Tanggal": "2022-07-11T04:24:19.208Z",
@@ -110,7 +112,7 @@
       "sentimen_score": 0.8253
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "cahyo subchi",
       "Bintang": 1,
       "Tanggal": "2022-06-17T02:11:32.955Z",
@@ -121,7 +123,7 @@
       "sentimen_score": 0.9194
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Rosari Utomo",
       "Bintang": 5,
       "Tanggal": "2022-06-02T03:34:20.256Z",
@@ -132,7 +134,7 @@
       "sentimen_score": 0.6271
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Ummu Zulfa",
       "Bintang": 5,
       "Tanggal": "2022-05-19T05:32:16.075Z",
@@ -143,7 +145,7 @@
       "sentimen_score": 0.9972
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "rina agustin",
       "Bintang": 2,
       "Tanggal": "2022-05-12T02:09:38.483Z",
@@ -154,7 +156,7 @@
       "sentimen_score": 0.988
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Shafira Rosh",
       "Bintang": 3,
       "Tanggal": "2022-04-13T16:40:47.438Z",
@@ -165,7 +167,7 @@
       "sentimen_score": 0.8767
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Denata Ricko",
       "Bintang": 5,
       "Tanggal": "2022-04-12T03:52:51.804Z",
@@ -176,7 +178,7 @@
       "sentimen_score": 0.9975
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Akhmad muhtadiyn",
       "Bintang": 3,
       "Tanggal": "2022-04-12T02:31:02.576Z",
@@ -187,7 +189,7 @@
       "sentimen_score": 0.628
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "BIBIE HOBI",
       "Bintang": 5,
       "Tanggal": "2022-03-29T05:23:32.455Z",
@@ -198,7 +200,7 @@
       "sentimen_score": 0.9942
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "D3 TM 16 Fareid Piston 07",
       "Bintang": 1,
       "Tanggal": "2022-02-24T05:21:03.306Z",
@@ -209,7 +211,7 @@
       "sentimen_score": 0.886
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Rizki Adi Adha",
       "Bintang": 5,
       "Tanggal": "2022-02-24T04:10:00.431Z",
@@ -220,7 +222,7 @@
       "sentimen_score": 0.5947
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Ikhwanun N",
       "Bintang": 5,
       "Tanggal": "2022-01-27T14:11:49.002Z",
@@ -231,7 +233,7 @@
       "sentimen_score": 0.9961
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Gee_ Hart0",
       "Bintang": 5,
       "Tanggal": "2021-12-29T04:42:57.405Z",
@@ -242,7 +244,7 @@
       "sentimen_score": 0.8693
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Retno Dini",
       "Bintang": 5,
       "Tanggal": "2021-12-15T12:13:06.663Z",
@@ -253,7 +255,7 @@
       "sentimen_score": 0.9974
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "mohammed hassan ali",
       "Bintang": 4,
       "Tanggal": "2021-11-15T21:34:16.228Z",

@@ -1,17 +1,19 @@
 {
-  "kategori": "Industri",
+  "kategori": "Olahraga",
   "tempat": "Stadion Petrokimia Gresik",
   "rating": 4.4,
-  "total_ulasan": 10,
-  "positif": 10,
+  "total_ulasan": 9,
+  "positif": 9,
   "netral": 0,
   "negatif": 0,
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -7.1600757,
+  "longitude": 112.6390256,
   "ulasan": [
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "me",
       "Bintang": 4,
       "Tanggal": "2026-02-09T06:34:59.103Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9905
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Enge Christina",
       "Bintang": 5,
       "Tanggal": "2026-01-16T07:55:09.179Z",
@@ -33,7 +35,7 @@
       "sentimen_score": 0.9865
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Sugeng widodo",
       "Bintang": 5,
       "Tanggal": "2026-01-16T00:26:44.401Z",
@@ -44,7 +46,7 @@
       "sentimen_score": 0.665
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Jagad Bagus",
       "Bintang": 5,
       "Tanggal": "2025-11-14T10:30:25.865Z",
@@ -55,7 +57,7 @@
       "sentimen_score": 0.9975
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "linda kusuma",
       "Bintang": 5,
       "Tanggal": "2025-09-28T01:43:36.688Z",
@@ -66,7 +68,7 @@
       "sentimen_score": 0.9973
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Ghoni Wijaya",
       "Bintang": 5,
       "Tanggal": "2025-07-09T03:24:01.578Z",
@@ -77,7 +79,7 @@
       "sentimen_score": 0.9844
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "MOCH Zainudin",
       "Bintang": 4,
       "Tanggal": "2025-06-20T05:14:24.607Z",
@@ -88,7 +90,7 @@
       "sentimen_score": 0.967
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Galih Rachmadianto",
       "Bintang": 5,
       "Tanggal": "2025-05-30T03:20:00.262Z",
@@ -99,7 +101,7 @@
       "sentimen_score": 0.978
     },
     {
-      "Kategori": "Industri",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "masagus sugasam",
       "Bintang": 5,
       "Tanggal": "2025-05-18T00:07:44.306Z",
@@ -108,17 +110,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9963
-    },
-    {
-      "Kategori": "Industri",
-      "Nama Reviewer": "Niyuzuku Niswa",
-      "Bintang": 5,
-      "Tanggal": "2025-05-04T12:56:01.392Z",
-      "Ulasan": "Stadion sepak bolanya sih standart, biasa aja. Tapi fasilitas sekitarnya (SOR Tri Dharma) sangat bagus dibandingkan fasilitas olahraga untuk umum lainnya di gresik. Terdapat jalur lari/jalan/sepeda yang cukup luas, yang bisa dilewati mobil dan kendaraan besar. Ada lapangan tennis outdoor, lapangan golf mini, lapangan berpasir, lapangan paving(bisa untuk badminton 2 lapangan). Ada lapangan sepakbola juga diluar stadion utama, biasanya untuk sepakbola umum para anak muda. Terdapat Pula besi untuk pull up, dan lainnya. Ada pula ruangan indoor yang merupakan homebase klub voli Gresik Petrokimia Putri. Selain itu, parkirannya sangat luas, sepertinya bisa lebih dari 200 mobil dan bus. Sehingga jika parkir kosong, kadang dimanfaatkan untuk badminton oleh warga. Yang paling membuat nyaman olahraga disini tuh karena pohonnya lebat rindang dan lestari, jadi olahraganya adem sambil dengerin suara burung berkicau. karena itu stadion ini kalau weekend pagi dan sore pasti padat (padat berjalan/jogging ya, bukan macet kayak pasar malem) bagi yang suka rame rame. Dan weekday pun buka pagi dan sore, jadi cocok untuk yang suka ketenangan.",
-      "teks_final": "stadion sepak bolanya standart biasa aja fasilitas sekitarnya sor tri dharma bagus dibandingkan fasilitas olahraga umum lainnya gresik terdapat jalur lari jalan sepeda cukup luas dilewati mobil kendaraan besar lapangan tennis outdoor lapangan golf mini lapangan berpasir lapangan paving badminton lapangan lapangan sepakbola diluar stadion utama biasanya sepakbola umum para anak muda terdapat besi pull up lainnya ruangan indoor merupakan homebase klub voli gresik petrokimia putri selain parkirannya luas sepertinya mobil bus sehingga parkir kosong kadang dimanfaatkan badminton warga paling membuat nyaman olahraga disini tuh pohonnya lebat rindang lestari jadi olahraganya adem sambil dengerin suara burung berkicau stadion weekend pagi sore pasti padat padat berjalan jogging ya bukan macet kayak pasar malem bagi suka rame rame weekday buka pagi sore jadi cocok suka ketenangan",
-      "topik": "Fasilitas",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9938
     }
   ]
 }

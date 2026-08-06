@@ -1,14 +1,16 @@
 {
   "kategori": "Kesehatan",
   "tempat": "UPT. PUSKESMAS SEMBAYAT",
-  "rating": 4.1,
-  "total_ulasan": 19,
-  "positif": 14,
+  "rating": 4,
+  "total_ulasan": 18,
+  "positif": 13,
   "netral": 1,
   "negatif": 4,
-  "persen_positif": 73.7,
-  "persen_netral": 5.3,
-  "persen_negatif": 21.1,
+  "persen_positif": 72.2,
+  "persen_netral": 5.6,
+  "persen_negatif": 22.2,
+  "latitude": -7.0710701,
+  "longitude": 112.5745114,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -20,17 +22,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Puskesmas Sembayat",
-      "Bintang": 5,
-      "Tanggal": "2026-01-30T07:40:55.355Z",
-      "Ulasan": "sangat baik",
-      "teks_final": "baik",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9844
     },
     {
       "Kategori": "Kesehatan",
@@ -166,17 +157,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mohammad Thobi.i",
-      "Bintang": 5,
-      "Tanggal": "2025-10-06T09:42:55.817Z",
-      "Ulasan": "Pelayanan bagus, bisa daftar lewat online tanpa antri, pelayanan jadi cepat petugasnya cekatan dan ramah2..",
-      "teks_final": "pelayanan bagus daftar lewat online tanpa antrian pelayanan jadi cepat petugasnya cekatan ramah2",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.997
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "Roihatut Thoyyibah",
       "Bintang": 5,
       "Tanggal": "2025-10-06T09:36:18.995Z",
@@ -218,6 +198,17 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9966
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Djoni Setiawan",
+      "Bintang": 5,
+      "Tanggal": "2025-10-06T09:29:22.499Z",
+      "Ulasan": "Pelayanan sdh lebih baik,,petugas sdh kompeten sesuai job nya masing-masing",
+      "teks_final": "pelayanan baik petugas kompeten sesuai job masing masing",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9572
     }
   ]
 }

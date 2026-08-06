@@ -38,7 +38,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T10:53:58.401Z",
+  "scrapedAt": "2026-08-06T14:16:26.266Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -50,10 +50,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 15.30"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 15.30"
@@ -76,6 +72,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 15.30"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 15.30"
     }
   ],

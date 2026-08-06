@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Olahraga",
   "tempat": "Stadion PSB Bunut Randegansari (NOTO JIRO)",
   "rating": 3.7,
   "total_ulasan": 2,
@@ -9,9 +9,11 @@
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -7.3278869,
+  "longitude": 112.61465,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "muhammad irfan",
       "Bintang": 5,
       "Tanggal": "2019-06-16T10:26:46.546Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9063
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "FCREEPER CUY",
       "Bintang": 5,
       "Tanggal": "2018-09-28T18:03:15.482Z",

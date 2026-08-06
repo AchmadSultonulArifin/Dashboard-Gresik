@@ -41,12 +41,8 @@
     "fiveStar": 13
   },
   "imagesCount": 15,
-  "imageCategories": [
-    "Semua",
-    "Street View & 360°",
-    "Video"
-  ],
-  "scrapedAt": "2026-07-29T10:42:47.246Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-06T14:07:45.694Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +54,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "07.00 to 16.00"
-    },
     {
       "day": "Kamis",
       "hours": "07.00 to 16.00"
@@ -85,40 +77,13 @@
     {
       "day": "Selasa",
       "hours": "07.00 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 16.00"
     }
   ],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kepala Desa Sukomulyo",
-      "reviewsCount": 10,
-      "totalScore": 4.6
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Desa Kramatinggil",
-      "reviewsCount": 4,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "KANTOR DESA BANYUWANGI",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Desa Giri",
-      "reviewsCount": 2,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Desa Manyar Sidorukun",
-      "reviewsCount": 0,
-      "totalScore": 0
-    }
-  ],
+  "peopleAlsoSearch": [],
   "placesTags": [
     {
       "title": "Makanan & Minuman",
@@ -134,13 +99,6 @@
     }
   ],
   "reviewsTags": [],
-  "additionalInfo": {
-    "Fasilitas": [
-      {
-        "Toilet": true
-      }
-    ]
-  },
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=Kantor%20Desa%20Yosowilangun&query_place_id=ChIJbalOYSn-dy4RSxOdhcWsUg4",
   "searchPageUrl": "https://www.google.com/maps/search/Kantor%20Desa%20Yosowilangun?hl=id",
@@ -148,7 +106,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFzdcDGISpxP54jZc79nKZYIUwYAXZtds093PVLib8FId3haNO_lYy4ZtZjviM1FtMyslemgq84XvhX_8mOiXgBPZfr0oBavAI5D0SH5Vqcb463XDVL1vGpY_PpJlXaRs96pBc=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmu-aAiaKjzY1CvPDlZbiZoW8JdYcrmZJzetR1Q7NgL10XGrqyess5NczZtk32YEJ4IRPTc1Vvv63K3pu3hYQ0Id_yoijuZaM3XYl1QiEEJ1tnPAGU3kPn6WjplSKuRyjwy0KBP=w408-h306-k-no",
   "kgmid": "/g/1pzxpz668",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -165,12 +123,12 @@
       "reviewerId": "101404243590649356211",
       "reviewerUrl": "https://www.google.com/maps/contrib/101404243590649356211?hl=id",
       "name": "lebah berkah",
-      "reviewerNumberOfReviews": 2,
+      "reviewerNumberOfReviews": 3,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIrFOXyhkd61lLQX_JIymqJPJff1YrSmde1_i6zX7aK8A7YfA=s1920-c-rp-mo-br100",
       "text": "Good goverment...maju yosowilangun",
       "textTranslated": null,
-      "publishAt": "1 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-28T06:04:44.423Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pFdFZXRTBhRUpFWW0xbFYwVlBibkpGVUVkeWIzYxAB",
@@ -196,7 +154,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXwNl3eip2J-OY9aMUX0DznSmF1QvzYyoCHDiA3pXusJc8XfxlC=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-30T14:35:50.596Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xGemVrczBWRmM0TTNSbFltWnJkVlZhT1RWWWVrRRAB",
@@ -311,7 +269,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPKAJ9QDCogg4nBeldPzgbyEKEDq0wgAES_WPhJTYsukabHxUKXJtYqamvE-PtilhQm83xD4yOx5PG3K-ZFoBaP5E7oT5cDaYXApRh-yNe2zt47CJVJI24mpaVtwaxjKrmCDqUsxnmg1ifU=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMgFzR37G622i6lGVDuN43IJZGWNDymFRh9wlMLmnVwpR7erl4lGQXBEYHyZQkf0HPBJvWoh11LLNEEFZQsE_KLcUZwXdxmERjjT14TOxZ2sIVHjsywKGCfxMPcXnvm5yaa4csCZtSBQH9c=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -365,12 +323,12 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMR36oco-MLKnyzOF9vqfL9TRqapuHjWVgei4asvYZVSeBMKBe2nueV_bhXWd_26KLY-1M7qqOQSMV-LgldbpKb1hAimfLwBaVV_M7j2vElrjA8UqgCMQMN9ox_-EEum4p8Igx9KQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfTDRP8jsw6Z_iD5k8sbZNPv5xxSHRuxXVUUh6hCVEGeqCKkNcz8yuLqY0z6mBBbsInni2UulEODuFvJM4IVjJUw4_Rbrd5qIpBLr2D7lg-q9lGGR_KlibIOsTcvah_tkqOeNQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNiTilj_OOhN8NM9T2UUzZ6xND_G8H7gWh3n8LdBFiM_L_Noje4O7LhgnzVP4ypw-CMOZwoYb9_4dF783Mv3UiufG0KDYWuByfeV2KntmE8sVJyzEeO_0zCvfV2lAMF_jkrHVvi=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOckIFqAdhGD_FQy5W-XR3lyvtGxtGHyNlmLZLiL870PAE-uFuhF5HvM5aP8KrvSLqcljEvWtKc-xNEPK973N7FKP8i5orH90V-Lr9QNejLgYvY4QnbtE-QR24Sk3_O_9X2DTbK=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfK-bgBequIR7ViNmI5dSByEJ-kQK_G-Jv9FyZPt-Ij-ONfYA7vNixE4B2Uh5Cz4DUk97CNs2fcvWZg6nhcqzN5DHSeT3QUUiXwqW1t4pJ1dTopQP4ixLGhTJrR14v-RJ9E7RP6g=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMdwNS1H3N2jkeZjkBXWhmneP5DE2Hl0w3WLE4BXTJnocnqNv2_XyZe9NYuO9L_c8rQNRMRCkJ49vjeENYWjIszgQTBhxhIC7ccpTeca-BvZFkRroY0_iuiaYzA9Wzg3QdglpE=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN0zDd3Q-q7VhkD6VuXNj_7_VAtyHciLiJguFbMyV2h_fCN8FbpBynlWpq4ure5v0w-3EhOhWUsw2MAbo1NbwT63Tu1C65eMOEfvUBHT7VQi5uj8VWmZQRCP80hMbepDvOSwVSn9g=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP2TGCs5ODiRydIIyN0AjYygchhHo6mzabhduLCZUpNFxD1v3K-eS4orCOaizTQt3m_ronXPqygyvTJ-2MPUZwWwuKuFRQbS54OSEbSaa4raK-CvkQCnRamyGLZSox_tsVcmrq5=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNMiiZUeM64bQ9RiPtyIgey9LKPnQT3C-oc27KXjpH94b3QCjRvd6baYVVWxsyg32fvT3uAfHpFN3U_RMDT7rUCx3o4vR1AlisCMEwiqFNLqQpO24SxAMih8SPftSqIG31BEIrT=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOSixIUkihplRcvDzavQVamS16-ToVfn8ahq4bvZ068hGDCv2-t7kzx3j0Sm59imrRz7tZT5jL_7OZLgm1c7FyORTPSr8w1Rb-8s3opEEZaZK45gI1jW-T_7QQpVvgM9mAYyMGV=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM1_BWL1GaGrzExzxoPBwf0gONLQBamHts7fI2ijnQsRSAwk8XjON7uIhGjkkfc8Rvg3w14fok8M4PECCGvG-Hq_uZh4XpBDENmXw2sM-1Ii3cGAfqJbpeHtvM6r1xQ0mMU8MQNNw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMbsAUZi-i5JTXUOqlzKrBkQp0ztOSFXBSx92VFT2XAdrfLZnLmdA4VhU7duSYiqGX2ov_aA1pabWy_Qab10NnzggjnQDPERLwXF_DgnqoHdlbLAqmR_t-i_xp5ghIl63RZfmE=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -424,9 +382,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP6Qb5_4IWFVFYyx_fJrQlNUDRwPVN7p1HNFvZiIiPqW4F00ATUwk_FsZhs7-DYwzL5e9VI4XJlOvfWD0UaxV3utT4oqIZinfkhqfJ8rbeh9RH_IK9wJ1Mvb0nopmQq0bOFl--19w=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP11RvRoJPX99UARL35lXg6po7kZOh-n1tlBW5JZIICK4H55wK2532p4IKeWmchfMJYIvSQAAl_OSI_duJILYV3Vusjy7tMZqdrSf5orI67gW5Z7xXHZXboW4VztPOUUVQef1ih=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMw6uNUMgyd5KcuggiZCXLtuTv-NJM-XNDdpxjIxfM3xoEUbbWkLNQWxfTzqQ3fbHWXEARcOuhN7-urq2S9lMmVN_eNp-1FmBrU0oR9kyMgjSFt1anL7_RlaZvsvzQmszOz546G3A=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMEekHF_eOcVWkwFURcx5lWZSovqk85tSrqtI8gCr3d_CHNlR8d435m3cS6O_n9F9YGH2OQAzF8gqbzyXoEWq2QsQj0ZnsMqbYBR7_-l1tqFWNK4VPvigi54qoFWSAdz635UG3FXg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNc4hLkimgpxPkmaphBFOPX7O6YKJLSqj5o3tS3H90DUAH_WASpLsJQPku_2Mx3yfFocPUJtIjsIZ9sec4lbyNjXtIgPWn-8sUuQ4VvCV7sg_vqenHDR1Qy9x2FQtIZIInurHYs=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMZnQXGQS1oNCEtIOWYImfgc3vW_CLoLHOTHee9_63r75-rsrEc4FnQfx7aptoQp3uN9QnQilKd63FMdMQnIKwe41qwIl5w024RPNnt7-eD0rByiJNjFfn8HUYQ3IbCZjfwqZllng=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -490,7 +448,7 @@
       "reviewerId": "109605897737576119797",
       "reviewerUrl": "https://www.google.com/maps/contrib/109605897737576119797?hl=id",
       "name": "pawitra channel",
-      "reviewerNumberOfReviews": 299,
+      "reviewerNumberOfReviews": 300,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVXoWzUFu3QmH2NqjTAiAgbav924b91y_4TjRoeeNgH5HYDAgEn=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor desa Yosowilangun. Sering juga menjadi tempat berkegiatan warga desa",
@@ -506,7 +464,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNMry7obtwKZc3_XBbcoy_QyS2h6QUY-92iEbHOhHpOEKNvwLDCzakOkObJHtRucz7CHNuaSvmywlqfOkX1jVRuwn8HY-GCRcQltBacaITckFBSAGVFISRe3lz21n5a2NV-cGpW0w=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMKo8HKe6bTqORdxG9bIoayP456YSjWOTXzxFFhIWchEyZRqomhhuKHFhOApOV2yIteIGDvnwc_MHKsN87H0Z9NpiD3Ao5PEeS2lJKUyKdAZ61sgWgxNJhuWekpEnPqrTpbaBft3w=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

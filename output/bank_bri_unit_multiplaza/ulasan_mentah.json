@@ -24,7 +24,7 @@
   "plusCode": "RJXX+9P Kroman, Kabupaten Gresik, Jawa Timur, Indonesia",
   "menu": null,
   "servicesLink": null,
-  "totalScore": 4,
+  "totalScore": 3.8,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
   "placeId": "ChIJV00SUl8A2C0RQ7LQC84rsdg",
@@ -34,13 +34,13 @@
   ],
   "fid": "0x2dd8005f52124d57:0xd8b12bce0bd0b243",
   "cid": "15614309547031704131",
-  "reviewsCount": 5,
+  "reviewsCount": 4,
   "reviewsDistribution": {
     "oneStar": 0,
     "twoStar": 1,
     "threeStar": 0,
     "fourStar": 2,
-    "fiveStar": 2
+    "fiveStar": 1
   },
   "imagesCount": 10,
   "imageCategories": [
@@ -49,7 +49,7 @@
     "Di dalam",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T14:30:23.383Z",
+  "scrapedAt": "2026-08-06T15:52:51.253Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -61,10 +61,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 15.00"
@@ -87,6 +83,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 15.00"
     }
   ],
@@ -143,7 +143,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHEO63kVywwNHzLRK0gd_2yRFxrJHD7nyDbMeky-UdvF_17-TExXCQMyxpiMQZ5nuBJ7uihHHdKt3nKguCGq7Sc6FtqWUOq4zZAijy1ugHU0ReDTJGQ_RZIha1CUV7oKxlcKnzGrYW15Sh5EFdugkXN9sD7_5Zts6hW1MbiFI5EEXiHFEnV09lUFwOCgOnkgXIdmHs=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFZ32e1iLjP4GOTeAIlfs4em97tZYZLdvQtYIAMUA97akv2R-QqeS_mrdD8p0bXWClnlKncORtW4BeCNdw4HPDSVjRDvoQSor_bMTXF8svn2hEzXZZRyQ04fdzVjRaYEE7qwC_NNfRXdr9tiS0zQHTUDbgsONUSi7Z6N_O4p8RHVznbb7esN0ID2W7mFbU0ApH5gH8=w426-h240-k-no",
   "kgmid": "/g/11b6g8ty2_",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -156,32 +156,6 @@
   "ownerUpdates": [],
   "imageUrls": [],
   "reviews": [
-    {
-      "reviewerId": "100812835221673225633",
-      "reviewerUrl": "https://www.google.com/maps/contrib/100812835221673225633?hl=id",
-      "name": "Suriyo stp pt3s3",
-      "reviewerNumberOfReviews": 23,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUgjWb7XDba8TffTK5X0KRxqf_Y2KZXVh-3Mp2THNSKETFKoMMc=s1920-c-rp-mo-ba12-br100",
-      "text": "Gabungan kami pada rek Suwarno BRI SURIYO/terkirim Irawan sosanto",
-      "textTranslated": null,
-      "publishAt": "3 tahun lalu",
-      "publishedAtDate": "2022-08-24T14:04:02.206Z",
-      "likesCount": 0,
-      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR1MmRHMmdnRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR1MmRHMmdnRRAB!2m1!1s0x0:0xd8b12bce0bd0b243!3m1!1s2@1:CIHM0ogKEICAgIDu2dG2ggE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
     {
       "reviewerId": "106711107031699103972",
       "reviewerUrl": "https://www.google.com/maps/contrib/106711107031699103972?hl=id",
@@ -202,7 +176,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMEyENPXUwDsTH4w6L6b5walCD3XNhSl7R1ryusVEljky7mlnlH2-z2XdoIOW31G1y1gjDcj1SNhlE2620X_sIrv13Cij4ISbm8fTdje-DDR81fdSQOKmZzuemVSaHWbboPwR1O=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNMBLixbVQar1bbgunb0ZYzF7pa3t4WxjeiLfV-sRUoreirSDAtumr36l3KJLNKaQNpLe6wqlzWaGrOsPW3VZ5SinNJ50af3V0wwerdtnxwspky21ZKUUxgTPI5pbcVS3NBvHYS=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -230,8 +204,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOkSxytBdiuZRYPHrQSwz66N4S_3TaG8Q-J1O7fnrfsKBA3XKNhK-C5DcdoL4ABAURxL8DAApxr7arsf5SLpXR8A1VG4KvM0CGqySWzAomkAfiZccmgYPu02bX-wQccffLcqxmX=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNIpz0eiMuyBM6PXXp5-wu1dKvENTrHxtwknaclESVuH2u44OH_M_1WcYf-n0vGrGR_6QPsty1E6KQixPnchsOgUGd_3hmf9dffOUu43yd2Wz01Lzii8UzNLFVP38bwEoac38VI=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMwruUiZYrCwdkCP-MiR87HKZggYScElKbuCYtwHgrO-VgJFXV43V6nFRKKchZkxzhqXZMt5U7Hk55np728aowjehvjc6UgazX8iLxk0rDhZzp3M9B8EVvqLpCu2MR3cIAVD11_=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPgE13PqkqPdLJGldW80_cL1KcfXiK2zxEcd4f7vR5lAkdgp4s8-naZsx_uFlnJNhN9Qr0GphdFaFppEeFYoo-WFDjNACxXvGaDmb2jsL8etXkqdGnBcbxfKNdwmvUmU4ZFjlLl=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

@@ -2,13 +2,15 @@
   "kategori": "Wisata",
   "tempat": "Wisata Mangrove Hijau Daun",
   "rating": 4.5,
-  "total_ulasan": 14,
-  "positif": 11,
+  "total_ulasan": 13,
+  "positif": 10,
   "netral": 2,
   "negatif": 1,
-  "persen_positif": 78.6,
-  "persen_netral": 14.3,
-  "persen_negatif": 7.1,
+  "persen_positif": 76.9,
+  "persen_netral": 15.4,
+  "persen_negatif": 7.7,
+  "latitude": -5.8430727,
+  "longitude": 112.7087694,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -152,17 +154,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9889
-    },
-    {
-      "Kategori": "Wisata",
-      "Nama Reviewer": "Fareeda&Ghulam Story",
-      "Bintang": 5,
-      "Tanggal": "2020-03-13T12:30:03.678Z",
-      "Ulasan": "Mungkin ini tempat wisata paling bersih di Bawean. Peringatan untuk pengunjung agar tertib untuk tidak membuang sampah sembarangan, tidak merusak habitat asli, dan peringatan lainnya tersebar di semua penjuru. Semoga masyarakat mendapat pembelajaran setelah mengunjungi tempat wisata ini. Bahwa jangan hanya untuk foto foto saja. Tapi kita harus perduli terhadap lingkungan tempat kita tinggal.",
-      "teks_final": "mungkin tempat wisata paling bersih bawean peringatan pengunjung agar tertib membuang sampah sembarangan merusak habitat asli peringatan lainnya tersebar semua penjuru semoga masyarakat mendapat pembelajaran mengunjungi tempat wisata bahwa jangan hanya foto foto saja harus perduli terhadap lingkungan tempat tinggal",
-      "topik": "Fasilitas",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9362
     }
   ]
 }

@@ -47,7 +47,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:40:24.616Z",
+  "scrapedAt": "2026-08-06T15:21:31.664Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -55,7 +55,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLiveText": null,
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -579,10 +579,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "09.00 to 22.00"
-    },
-    {
       "day": "Kamis",
       "hours": "09.00 to 22.00"
     },
@@ -604,6 +600,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "09.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "09.00 to 22.00"
     }
   ],
@@ -658,7 +658,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlVTtg1roFZQDwYnEyLqja_oqLnzlAjeLpcFmyiBAo79_gvbKfCyUYuU1amSwioUcJlSiaoHaQXct4PYebsfZlBMYc4JHKnz_4As1ssqCS5Y7qHPQt6ctz4EMzTY8hB=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkalNb3TWeEV97KvqEmwT89oAZnQsMi6OG2rHmlfi4HIfhNj_E-FhtqdZ2q2OpGOJEPBFVFrl65qyJ2XhYDaM7KDXvP8w98xKjEDu8lX2nv1HH-gM3_Apt7tCE6SlcE=w408-h544-k-no",
   "kgmid": "/g/11bbwpt_wl",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -717,9 +717,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPi5ppqZlbWgjeRQJmB5htWC9OkVQ8JefrLBjddXgPbieeSeAPs-4_pQ9n0keu4x1adI3ulyKTOhIjHyO290RSHELXidQc6HP1US89sarlsmGZ4d5mIYrI2fH7Q1FIn=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMV6_qkQn9KsJ3I2CZc14dB4Tv6y-sCqON11WUKK4UnaubJ5N35KlzRI-y2bj6bkBo317jweh0jkMd5wNxD8SbgtLIYaGLg8-QmXFvbhX5otMm9y2YPoa895DSCK1nm2557l4riZg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOGwQ7WDtx74wGHEk1bqAu8gaeaLpUUmfYQrfpIGWR2EfsFuJYpDzybtr6cYzv-s5ud4CBv_3_NOrDnYnlZ5AEzGYGwszIREbzsBdSmTmKULJyehtcZaMWt6rFxtctYuHEWRkTi=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN0u95o6dYlR3IQm-6r0oQYqUbUMXV8kjZZ3MS_eEirNRWQ8VcyHkxaTX55vpCRX7vhc5OsLCiX9wFigl-Ab6wH_BU1Pz05g4xE4EQmubl9fLr9H2shY8jESY6Sz_Oc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmONBwfj5uthzOS-hYdElyJ7y60uxX6YUYg_2896tVhLu33ZouO_hzW__lKcTbpdW6qQP25l-oN8M3aEutwRufQeavkYGVwZzUVWY1bOAR33LHmPbLZ0Y9Sd2K2ejLFq-M9XKbeuPw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmONWBTA59RY9cm_cByTIxsYglgOyyWduGT9CR6YZMyYFd3FtT-lIylTcLUilrgOay1wOPzLytW244mxDxFhYFwZ8-8k-5nBBQpDR0gaqS4kbabfgW3V3YpBNX1UKOXXsPCDyHV6=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

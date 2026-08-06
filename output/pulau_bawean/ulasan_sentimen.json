@@ -1,17 +1,30 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Wisata",
   "tempat": "Pulau Bawean",
   "rating": 4.5,
-  "total_ulasan": 11,
-  "positif": 9,
+  "total_ulasan": 12,
+  "positif": 10,
   "netral": 0,
   "negatif": 2,
-  "persen_positif": 81.8,
+  "persen_positif": 83.3,
   "persen_netral": 0.0,
-  "persen_negatif": 18.2,
+  "persen_negatif": 16.7,
+  "latitude": null,
+  "longitude": null,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Mas Anam - Suka Jalan dan Foto",
+      "Bintang": 5,
+      "Tanggal": "2026-08-01T13:57:25.703Z",
+      "Ulasan": "Selalu kangen buat pulang kampung. Sejak kecil hingga remaja tumbuh di sini.",
+      "teks_final": "selalu kangen buat pulang kampung sejak kecil hingga remaja tumbuh sini",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9953
+    },
+    {
+      "Kategori": "Wisata",
       "Nama Reviewer": "Zacky vicent",
       "Bintang": 5,
       "Tanggal": "2026-06-26T04:04:36.786Z",
@@ -22,7 +35,7 @@
       "sentimen_score": 0.9376
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Martin tremonty",
       "Bintang": 2,
       "Tanggal": "2026-06-23T05:59:07.871Z",
@@ -33,7 +46,7 @@
       "sentimen_score": 0.9902
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Irfan Pervaiz Ismail",
       "Bintang": 3,
       "Tanggal": "2026-06-18T11:17:41.264Z",
@@ -44,7 +57,7 @@
       "sentimen_score": 0.8276
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Isan Nia hidayatullah",
       "Bintang": 5,
       "Tanggal": "2026-06-11T14:42:28.516Z",
@@ -55,7 +68,7 @@
       "sentimen_score": 0.9972
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Mift",
       "Bintang": 5,
       "Tanggal": "2026-05-27T07:05:32.490Z",
@@ -66,7 +79,7 @@
       "sentimen_score": 0.9941
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Abdul Malik",
       "Bintang": 5,
       "Tanggal": "2026-05-09T01:32:01.890Z",
@@ -77,7 +90,7 @@
       "sentimen_score": 0.9733
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Badrus Surur",
       "Bintang": 5,
       "Tanggal": "2026-04-10T01:37:15.502Z",
@@ -88,7 +101,7 @@
       "sentimen_score": 0.9794
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "MUZAMMIL SUHAIMI",
       "Bintang": 5,
       "Tanggal": "2026-03-30T14:37:48.838Z",
@@ -99,7 +112,7 @@
       "sentimen_score": 0.992
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Eko Faizal",
       "Bintang": 5,
       "Tanggal": "2026-03-12T20:31:43.950Z",
@@ -110,7 +123,7 @@
       "sentimen_score": 0.996
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Durrotun Homzah",
       "Bintang": 5,
       "Tanggal": "2026-03-01T04:44:10.981Z",
@@ -121,7 +134,7 @@
       "sentimen_score": 0.9961
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Samsuddin Dien",
       "Bintang": 5,
       "Tanggal": "2026-01-12T11:43:53.111Z",

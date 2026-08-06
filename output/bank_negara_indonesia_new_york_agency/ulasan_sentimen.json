@@ -1,14 +1,16 @@
 {
   "kategori": "Perbankan",
   "tempat": "Bank Negara Indonesia New York Agency",
-  "rating": 3.1,
-  "total_ulasan": 18,
+  "rating": 3,
+  "total_ulasan": 17,
   "positif": 2,
-  "netral": 9,
+  "netral": 8,
   "negatif": 7,
-  "persen_positif": 11.1,
-  "persen_netral": 50.0,
-  "persen_negatif": 38.9,
+  "persen_positif": 11.8,
+  "persen_netral": 47.1,
+  "persen_negatif": 41.2,
+  "latitude": null,
+  "longitude": null,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -196,17 +198,6 @@
       "topik": "Lainnya",
       "sentimen": "Netral",
       "sentimen_score": 0.9908
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Azhari Norman",
-      "Bintang": 5,
-      "Tanggal": "2018-09-05T09:40:15.678Z",
-      "Ulasan": "PT. Bank Negara Indonesia (Persero) Tbk. New York Agency",
-      "teks_final": "pt bank negara indonesia persero tbk new york agency",
-      "topik": "Lainnya",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9974
     }
   ]
 }

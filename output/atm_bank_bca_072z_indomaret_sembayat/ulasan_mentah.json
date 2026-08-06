@@ -46,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:48:51.244Z",
+  "scrapedAt": "2026-08-06T15:26:10.913Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,7 +54,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Sibuk seperti biasanya",
+  "popularTimesLiveText": null,
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -578,10 +578,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "07.00 to 22.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 22.00"
     },
@@ -603,6 +599,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "07.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "07.00 to 22.00"
     }
   ],
@@ -695,7 +695,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMjbxaEwbMZDts1bvxtOmDNYx-Ql-JTvRuD_-89OE8ZRcYv4nOgCRz-I-2Yt1ZId23fWj9h_OuEKeLPG2ljr0odi_g8TfpKkqf3NpRqHvqMtTEO_bfVVpeeaTf8FjIts9LfZcU=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPGtQaZt0O7-qCBAzLJtceFOG16ey5sVfIJhkGWLyjd7QcxNRVWaR0lVHjnLiIp0wrQPoDyacQDaysrb35_Ty_I9A_qtMVV7bxnANVth8A0-wsdSmLNAm7JvnWrNztSjCDpbpo=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -738,7 +738,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUroujJKwkhu4jj9i2UxjZo4PpB6jtjjzSAO_zxERQpdCIafsGG=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanan yg sangat rama",
       "textTranslated": null,
-      "publishAt": "7 tahun lalu",
+      "publishAt": "8 tahun lalu",
       "publishedAtDate": "2018-08-02T07:25:35.118Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBaXZDel93RRAB",

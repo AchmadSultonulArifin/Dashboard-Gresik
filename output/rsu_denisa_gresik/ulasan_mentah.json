@@ -34,23 +34,24 @@
   ],
   "fid": "0x2e77ffc73dd7938d:0xb948dfd915f81a36",
   "cid": "13351167218809313846",
-  "reviewsCount": 1338,
+  "reviewsCount": 1340,
   "reviewsDistribution": {
     "oneStar": 49,
     "twoStar": 12,
     "threeStar": 12,
     "fourStar": 25,
-    "fiveStar": 1240
+    "fiveStar": 1242
   },
-  "imagesCount": 89,
+  "imagesCount": 90,
   "imageCategories": [
     "Semua",
-    "Bangunan",
+    "Terbaru",
     "Video",
+    "Bangunan",
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T11:03:27.001Z",
+  "scrapedAt": "2026-08-06T13:03:13.856Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -62,18 +63,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
@@ -89,37 +78,49 @@
     {
       "day": "Minggu",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
+      "hours": "Buka 24 jAM"
     }
   ],
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Islam Nyai Ageng Pinatih",
-      "reviewsCount": 2539,
+      "reviewsCount": 2591,
       "totalScore": 4.9
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Semen Gresik",
-      "reviewsCount": 4327,
+      "reviewsCount": 4401,
       "totalScore": 4.8
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "RSUD Ibnu Sina Gresik",
-      "reviewsCount": 1801,
+      "reviewsCount": 1826,
       "totalScore": 4.2
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Muhammadiyah Gresik",
-      "reviewsCount": 1885,
+      "reviewsCount": 1937,
       "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Petrokimia Gresik",
-      "reviewsCount": 4767,
+      "reviewsCount": 4818,
       "totalScore": 4.8
     }
   ],
@@ -127,7 +128,7 @@
   "reviewsTags": [
     {
       "title": "pelayanan",
-      "count": 465
+      "count": 464
     },
     {
       "title": "melahirkan",
@@ -135,7 +136,7 @@
     },
     {
       "title": "hamil",
-      "count": 43
+      "count": 44
     },
     {
       "title": "bidan",
@@ -150,15 +151,15 @@
       "count": 8
     },
     {
-      "title": "dg",
-      "count": 8
-    },
-    {
       "title": "daftar",
       "count": 7
     },
     {
       "title": "konseling",
+      "count": 6
+    },
+    {
+      "title": "masyaallah",
       "count": 6
     },
     {
@@ -199,7 +200,7 @@
   "updatesFromCustomers": {
     "text": "Makasih dokter Rio atas pelayanannya sangat ramah rsu denisa",
     "language": "id",
-    "postDate": "7 bulan lalu",
+    "postDate": "8 bulan lalu",
     "postedBy": {
       "name": "Imam Elok",
       "url": "https://www.google.com/maps/contrib/113871466994098506088?hl=id",
@@ -208,8 +209,8 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmM2l5Cx6dxVhr3uSdDHaEuCzuP8uMr-1Y7vFZQaHJvtPcun56ceU1HqjpNjHTlLfQraKxDTVkIMURk_u2CdkCEUO-0epfN0pz4fgHcIt75CAUd8DNrw3gjxnNqbxBSv07w3jc1kGg0AfNLb=k-no",
-        "postDate": "7 bulan lalu"
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPXHrVwleNEXSKUp5yqp0HqfqB84eVzM15ma1QmkuSbXpVDLo5S2BmMOldBruunniNcB3Vxfwi-AQdz9Ui7OqobkcODtLp0PWskTYQrX-0_3h1SGQKPJBHN3PzFIUB9wLDaw0zvcwU0hzPx=k-no",
+        "postDate": "8 bulan lalu"
       }
     ]
   },
@@ -219,7 +220,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkardDFzK-IlSmdLARqww-wwSu8eWa4gL7S2sWFZl7MRhVvAxLuuvAEOCBNWacLsC9epHnDYKaGS_x_nd8PErfbkVu66MfNep3t46oPoA9KUqF4beemz6JKVYewRpIxL4dArxdxag=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl8ZimNYxB5bed2YrW9tPzcvdgDfea9Y-m9gdkN7zNJ7hJ_8jueuoWVYSMtF-mikKxq4IBaNGZIuqQWxCGO-z7fjXnrc7MCajj94xExINMJVYv66YGctXYhOhJRj3rWQ0QUuE_ISQ=w408-h306-k-no",
   "kgmid": "/g/1hm41q_wb",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -233,6 +234,86 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "109743367707005078391",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109743367707005078391?hl=id",
+      "name": "Eva diah Ardiani",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK5KCGYkUXe9H_t-1dryZbqb2flXxbqx012mvBo7mjfSIqT_A=s1920-c-rp-mo-br100",
+      "text": "dr. Obgyn dan asistennya sangat ramah, saat menjelaskan hasil USG sangat detail baget.",
+      "textTranslated": null,
+      "publishAt": "2 jam lalu",
+      "publishedAtDate": "2026-08-06T10:04:44.030Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sTlpsSk9ObWxaYm1sTGJEaFhNbmh2ZDJWSWEyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sTlpsSk9ObWxaYm1sTGJEaFhNbmh2ZDJWSWEyYxAB!2m1!1s0x0:0xb948dfd915f81a36!3m1!1s2@1:CAIQACodChtycF9oOnlNZlJONmlZbmlLbDhXMnhvd2VIa2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101854519644808774154",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101854519644808774154?hl=id",
+      "name": "affliate pribadi",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKazLANSGKp3x37g5xtiuzq_qNXqYbYp4WG4tDUG3cBu-t6hg=s1920-c-rp-mo-br100",
+      "text": "pelayanan farmasi sangat lama, antri lebih dulu justru dapat lebih lama dibandingan antri lebih lama",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-30T10:11:58.716Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5NmVEUXdZWFEwY2xOaFVHaG5hVVF3VFVJeU5IYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5NmVEUXdZWFEwY2xOaFVHaG5hVVF3VFVJeU5IYxAB!2m1!1s0x0:0xb948dfd915f81a36!3m1!1s2@1:CAIQACodChtycF9oOl96eDQwYXQ0clNhUGhnaUQwTUIyNHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-31T05:02:28.000Z",
+      "responseFromOwnerText": "Mohon maaf atas ketidaknyamanannya kak.. Apakah bisa hubungi kami via WA dinomer 081999325533 atau via email pengaduanrsudenisa@gmail.com untuk memberikan informasi lebih lengkap lagi.. Kritik dan saran anda sangat bermanfaat bagi kami demi peningkatan pelayanan kami.. Terima kasih dan Semoga sehat selalu",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNOGTLoy48J12-V82N_HnJWnEtW7lvjqSbl2Uh6Bu4DKGLS9sKaDFRDslo5iQT6ABWwPAiqjXCcW0Po8xqMsoWWZ0oMuo5VrM3rqrCu7C0Z9wYiG53o5uDMapkeXB4v3M8QvoY11XvKTBGH=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111825181357473720341",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111825181357473720341?hl=id",
+      "name": "Balqisya Islammita",
+      "reviewerNumberOfReviews": 8,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVUZlmHx1ePbdF4UkhjsBrB8-ndODKDTmfdMMtanJLebD6m6Wd0=s1920-c-rp-mo-br100",
+      "text": "Dari awal Hamil sampai sekarang selalu ke Denisa, the best lah pelayanannya, apalagi Dr. Rio, dokter yang humble, friendly, udahlah masyaAllah pokoknya 👍🏻🤩🤩 Josss jiss Denisa",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-07-29T01:05:50.721Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sRlRXUmZVWGRJYW5WSlRsVlBjMHgyZDBwMWRHYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sRlRXUmZVWGRJYW5WSlRsVlBjMHgyZDBwMWRHYxAB!2m1!1s0x0:0xb948dfd915f81a36!3m1!1s2@1:CAIQACodChtycF9oOnlFTWRfUXdIanVJTlVPc0x2d0p1dGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-29T04:18:14.000Z",
+      "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "108011105070287664223",
       "reviewerUrl": "https://www.google.com/maps/contrib/108011105070287664223?hl=id",
       "name": "fahmi ashari",
@@ -241,7 +322,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWS4i8zcoxVLmCf-GwUZWM423K7Ee3oYvREkxR7HlGpBmEv2NbHYA=s1920-c-rp-mo-br100",
       "text": "Pelayanan di RSU Denisa Gresik sangat baik. Dokter, perawat, dan seluruh petugas ramah, sopan, serta sigap dalam melayani pasien. Proses pelayanan cukup cepat, fasilitas bersih dan nyaman. Terima kasih atas pelayanan yang profesional dan memuaskan.",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-29T14:36:23.088Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oT1FURkpaUzFSTFZoeGNIcGxVekpDVFV0WmNWRRAB",
@@ -267,7 +348,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW5tM7NKFuYo48XLpzBBrSSRbylb4YliDQcCJpuLpDcibTKmxuW=s1920-c-rp-mo-br100",
       "text": "Saya sangat mengapresiasi pelayanan dari Dr. Rio dan seluruh tim. Dokter sangat informatif, mendengarkan keluhan dengan saksama, dan memberikan penjelasan sangat jelas.\nPenanganan medisnya juga cepat saat melahirkan anak pertama. Terima kasih banyak atas dedikasinya! Semoga persalinan kedua nanti dilancarkan bersama Rs Denisa.",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-26T13:28:30.700Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kSWJqWkpTRnBoUlROdFpqbFpjVkZrYUhBMk9WRRAB",
@@ -293,7 +374,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK_eeRfbiv0XNE5wrIuHrlhlHKfu1Q5M5ff4JOkueqiH49SCA=s1920-c-rp-mo-br100",
       "text": "Alhamdulillah ketemu sama dokter Rio yg Ramah dan memang cukup jelas untuk penjelasanya, Terima Kasih 🥰🥰",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-26T01:38:50.236Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sZmVYZzRiRFZaTkZjM1Mza3hMV05zZFhFMWJFRRAB",
@@ -319,7 +400,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVf0aMOKMYvH-0_8Ub23E6ATFcFMOTx1_yr0O1f6wt1oKGC4ve2=s1920-c-rp-mo-br100",
       "text": "Sangat mengecewakan. Pelayanan dokter yg jaga di IGD shift malam tidak ramah dan petugasnya kurang kompeten. Saat pengambilan darah dan jarum infus ditangan gagal sampai 3 kali dan sampe pembulu darah anak saya pecah",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-25T17:58:18.667Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWU2FIcHVPRXBZYmw5d09VZFFUVkJwYXpkbGFsRRAB",
@@ -345,7 +426,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLGe5L1APWGKVmCwIR1QGP1aZiPSECHSb_R-cRjdiDf_W98WQ=s1920-c-rp-mo-br100",
       "text": "Pelayanan cepat dan ramah",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-25T09:16:02.712Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkeE5uVk5aMjVQTTAxVlJtbDFVRWMzWkVNdE9FRRAB",
@@ -371,7 +452,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKfcIjAZQEKTObzemCYBHoTrpKsKJ3crQNYnfVCwd5WqKplaw=s1920-c-rp-mo-br100",
       "text": "Pelayanan baik",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-25T01:48:11.492Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21jM2NtUkRhMnhyWVZsRU0xZFJRMnBSTkV0aVRtYxAB",
@@ -397,7 +478,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJmyKKcleZQKrGrfk5mOHjZXc82qdpXJEsX3eNcwaKEtfzBtw=s1920-c-rp-mo-br100",
       "text": "Pelayanan admin bagian depan, perawat dan dokter rio super top markotop\nSemenjak tau ada dr kandungan yg sangat2 informatif disini, dari kehamilan 4 bulan sampe skrg dan insyaAllah rencana lahiran juga maunya disini sama dr rio gak mau pindah2 ke yg lainn\nSukses teruss rs denisa",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-24T09:21:40.650Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pCaVUwbG5kWGRvVlMxb09WUkNibmRmZGtkSk1FRRAB",
@@ -408,7 +489,7 @@
       "responseFromOwnerDate": "2026-06-25T03:15:05.000Z",
       "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOFMVHwyo6dm2Vm1C8idhDkCSZwOwAHMw237HQt454dooAk2eqULQYzUKQAciuwkemcedP3dQZ4iew2fVQFYBaBw3sUMIzdY_dHLrCawsK4mxxoHTTy-hIY8CCJQN6VEGlmrojmZSEaiB21=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-RebuIOOkTNfhOM8sD9SmfucopJHJNZ-Qahv5exASevuuP4exkBt0pl52kWWkdvn9zchwtDjWiKRGzlXDePtNRnhdYNZ6J7XiP30c0t4C2HttoLC-9u5ayk-LUcmMOG0Z5ZqhGjUBV9uB=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -425,7 +506,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJcluMmespKsGocbl3xnOhNGp2epukxcmIggBS-C7fOxoHBKmc=s1920-c-rp-mo-br100",
       "text": "Pelayanan ramah dan cepat\nPertama kali ke rsu denisa, dilayani dengan baik. Diarahkan, dan diingatkan apabila ada jadwal kontrol kembali",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-23T02:55:52.856Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21wNlIzbFVkR2RxTlV0SWMxcG1PV1ZGZEd4cFFtYxAB",
@@ -451,7 +532,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIs0y1GRc7srP1N2gbtE57mSUo67Gwntz-nk967ecmqBtU8Wg=s1920-c-rp-mo-br100",
       "text": "bagus",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-23T02:29:15.525Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25sQ1lrWTNOVGRPYWtOeUxYRm1lRU5KWm1WcGQwRRAB",
@@ -477,7 +558,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIIdZDaUNOVTVaImJOW25iH9AzOAOhSv4i9BGNms8fyEW4vpg=s1920-c-rp-mo-br100",
       "text": "Pelayanannya mantap bgtt di rsu denisa..udah langganan usg disini sama dokter rio, super super ramah dan penjelasannya sangat detail🙏",
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-22T06:50:13.467Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1MFRXY3paWFkzYjBjeU4yWk5abk5YZUZSclIyYxAB",
@@ -503,7 +584,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLGU5oBhD1BXSd4hP5zvgnbA3ZY7L1lAT4Qc-mFUafv0twGDA=s1920-c-rp-mo-br100",
       "text": "Pelayanan sangat ramah",
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-21T14:00:54.722Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xscVFqUnJaWEpMTm0xMk5VVm1TVzFoYWtGd1dYYxAB",
@@ -540,7 +621,7 @@
       "responseFromOwnerDate": "2026-06-22T02:54:11.000Z",
       "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP_D2GJQMmxjU_uoYxl3vRQ7EChACL-1lu059Vf5vx0JpGbaxtq8vJA8pUpTq1glT66PgH3swHM3OHoNb5BFU4xplB0FflRRIqWVpuqUGq47EIUp8PeGm-5EnHyh_o5Td65bmUeh8GpWgmJ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPrvw01SghqqRuJCsg1rOi5E3HB3dGctVjQU5f3JX0VhiXBwkDWNA0iYo9rp9AAqwhAM9oS--swGCpV6_jRJZTn749TEhQJ-Pn-iLeRxPUg4DN_hRI6b3q_dWyqMvBG3CX1sb_nWYbJeafc=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -568,7 +649,7 @@
       "responseFromOwnerDate": "2026-06-22T02:54:07.000Z",
       "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOj1P39ExlqhrA62bARLTo-2QxstPD5hhDZRuDxJnXExnpALdQMiQlBkxukIW0m2Td_BjwCfzAwH1CP1-gdTgiXqFB-QxhWIVKpFVHF_0CbJ6nJa8GSj-nl-LSxC7hkOaK0yYKJs9qoNE8=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPgXK0WkjEiHLYIg4p69E5VWsTqkoqwatAJ-0b9_J83cGGaN2wtfSbXkv5TsRJYlBtmK-eA_KMfkl5qZwpFK606xq-9Y7cUGSngsI3rvjkLjrtRPHlNMGB6iFO00W9Wcw_OWyrBfzMj3kA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -707,32 +788,6 @@
       "translatedLanguage": null
     },
     {
-      "reviewerId": "100263194584621484484",
-      "reviewerUrl": "https://www.google.com/maps/contrib/100263194584621484484?hl=id",
-      "name": "ANIS CHOIRUN NISA'",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXZdogpzOw7d8XAYPViYUamujxn3kJnUsfRuTujVHY65o6hhd8F=s1920-c-rp-mo-br100",
-      "text": "PELAYANAN PENDAFTAARANYA SANGAT KURANG BAIK\nAGAK JUDES WAKTU MENJELASKANYA\nMOHON DI PERBAIKI LAGI",
-      "textTranslated": null,
-      "publishAt": "sebulan lalu",
-      "publishedAtDate": "2026-06-17T21:39:40.862Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5NFREbFhaRWszVkd0dE9XSkVUbWszWjJaSGVuYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5NFREbFhaRWszVkd0dE9XSkVUbWszWjJaSGVuYxAB!2m1!1s0x0:0xb948dfd915f81a36!3m1!1s2@1:CAIQACodChtycF9oOl94TDlXZEk3VGttOWJETmk3Z2ZHenc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 1,
-      "rating": null,
-      "responseFromOwnerDate": "2026-07-13T04:30:03.000Z",
-      "responseFromOwnerText": "Mohon maaf atas ketidaknyamanannya kak.. Apakah bisa hubungi kami via WA 081999325533 atau via email pengaduanrsudenisa@gmail.com untuk memberikan informasi lebih lengkap lagi.. Kritik dan saran anda sangat bermanfaat bagi kami, demi peningkatan pelayanan kami.. Terima kasih dan semoga sehat selalu.",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
       "reviewerId": "114914992010490575140",
       "reviewerUrl": "https://www.google.com/maps/contrib/114914992010490575140?hl=id",
       "name": "leili yatur rohma",
@@ -778,7 +833,7 @@
       "responseFromOwnerDate": "2026-06-22T02:53:34.000Z",
       "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMy62hkVMtaCRRvl3NDnNjQDDzwQmow2VR_QMG142Um61qhBGpqnnNQRZpTsIhzinbxq4PArNz3nAWyn72PEkbkfLGzt8oWYDD_0Hk53gbPGh3omyXDtbrBG3czMC-InkxYwlInVZga7k4W=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPMqFtV02cZGv4LnlRTPUuQCIMtm07oWzdVHfSLkgajdfK-EvnXYCG7vuWcQcvvSXctYxsuGlkNdgSClPPeL_-qpQ8mfD08wIPd05cdVsB5TSjzjea-tjWhxPbnc8cu_YpUGIgprS5jqn8f=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -806,7 +861,7 @@
       "responseFromOwnerDate": "2026-06-22T02:53:29.000Z",
       "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOY7R4j4YZpA1PfSR764SbTGHFWFoAzec4QIqIV_4qNt6BeA51ihVIY3R3O4UUlFPYfV60I4Gx9b_hyb6S3-fXXCvmK2nRL1LYtzyYgR15FfUyfNDIk7BDSik0KA1Jv32mCu41qYkrys46c=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOzeZZOnDPDym1tKpvaU1Xla9NGwrSylSvWzut4ElklkH-qHAypK374etKWbN8cyqhGmLWPZfdajCnZGggAATCuLepFtBrhaGZjIPW4YcoBw5CUHyzVkf-9sBEzjo6C-PaICZFvAKNHmSmd=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -860,8 +915,8 @@
       "responseFromOwnerDate": "2026-06-22T02:53:21.000Z",
       "responseFromOwnerText": "Terima kasih banyak atas kepercayaannya pada RSU Denisa Gresik dan apresiasi pada layanan kami.. Semoga sehat selalu",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNW7aAsNAaX-XqP1XmVGS710aybUbxV0nhwotCPMc7e5OKa8e2PEmykK2MuBVAdU3tl_sF2oR64UF4aApIiBeiFkCk3kYsr09g20spCoMD1HlGzNst3Beuu8Jzq2KWeSS7haVXW_TfVO9Lv=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO0tMYEuDxp4cSVTnQcNGHcIstfT3IfuxAV-GTCCcX6n89zMLYkUtAPieRBIgx_pwTjpKQnX6if4u1qro2z4QxNMF2iB5KztUdAqyzjPs8SdowRYngYb5gOVg8PJS9ypyLw_FHhcPKa8qm0=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMnD0WCKOlrb1otN1-WSgpso2FkniGtge5K1IylUDk0Hq2u0mHhubpbRPCqe-5TSXPqIO3gXQJQZG1ixOgszJfKyNFJ632LdnMTqYzwDKYS9XzlE6tyW4NXcI-pLPoYlC74TvkOadDq36a_=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNnjs7vCBslt9c3PADlJC0tgpG4PAA3zemLaNGeumrPQwwLDUhgJpxu5Qv_YC35juUEQj4pblNMH7HBOnB6R55nKhkfNOhX1TW3u-jJO59AJLkR4uUFJOZeDQAwXgP0N9RHmi8hjLBkYwWQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -930,7 +985,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIsKtEQQq8LK2S1Jupw7sV5ETamm0LPXgXxknJqLB0TB5A3WQ=s1920-c-rp-mo-br100",
       "text": "alhamdulillah saya dilayani dgn baik",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-04T02:19:02.674Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwUGFUTkpNa1UyWW10eE9IWmlWa0ZtTWtjNGFFRRAB",
@@ -956,7 +1011,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK9fI4W-AOkeULcIh-8W9K9LOndVnfJlexaJGU2z91tMZ73_7U=s1920-c-rp-mo-br100",
       "text": "Untuk admin Cs online di WhatssApp RS Denisa tdk konsisten dan very make me confuse... unhelpful🫣",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-02T13:49:50.276Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WUVdFWTJkRTVEUzBsQmNqbDNlWG94YTFWSk1HYxAB",
@@ -966,58 +1021,6 @@
       "rating": null,
       "responseFromOwnerDate": "2026-06-03T04:07:18.000Z",
       "responseFromOwnerText": "Mohon maaf atas ketidaknyamanannya kak.. Apakah bisa hubungi kami via WA dinomer 081999325533 atau via email pengaduanrsudenisa@gmail.com untuk memberikan informasi lebih lengkap lagi.. Kritik dan saran anda sangat bermanfaat bagi kami demi peningkatan pelayanan kami.. Terima kasih dan Semoga sehat selalu",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "109106578567384291361",
-      "reviewerUrl": "https://www.google.com/maps/contrib/109106578567384291361?hl=id",
-      "name": "Siti Sholichah",
-      "reviewerNumberOfReviews": 3,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJciKBKV7frmj8EeUp1yJB8OXY6Bq6VU6Po33WIFIFe1yy3DA=s1920-c-rp-mo-br100",
-      "text": "Dokter poli kandungan jadwalnya seharusnya jam 19:00 sudah mulai tapi sampai 19:45 lebih belum datang kasian para bumil pada nunggu luamaaaa..sekaliii mana pinggang buat duduk lama sakit capekk apalagi yang usia kandungannya udah 8 bulan",
-      "textTranslated": null,
-      "publishAt": "sebulan lalu",
-      "publishedAtDate": "2026-06-02T12:47:34.684Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tVd2JtcFpXRlo2VGtvdGJtZENTSE5wZG1OeFJGRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tVd2JtcFpXRlo2VGtvdGJtZENTSE5wZG1OeFJGRRAB!2m1!1s0x0:0xb948dfd915f81a36!3m1!1s2@1:CAIQACodChtycF9oOkUwbmpZWFZ6TkotbmdCSHNpdmNxRFE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 1,
-      "rating": null,
-      "responseFromOwnerDate": "2026-06-03T04:07:22.000Z",
-      "responseFromOwnerText": "Mohon maaf atas ketidaknyamanannya kak.. Apakah bisa hubungi kami via WA dinomer 081999325533 atau via email pengaduanrsudenisa@gmail.com untuk memberikan informasi lebih lengkap lagi.. Kritik dan saran anda sangat bermanfaat bagi kami demi peningkatan pelayanan kami.. Terima kasih dan Semoga sehat selalu",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "105786907278649363091",
-      "reviewerUrl": "https://www.google.com/maps/contrib/105786907278649363091?hl=id",
-      "name": "Anis Choirun Nisa'",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX8Eqw8He7PGVMYEwoMsB-10_N63kBo5CRBAFgJmP0kjyO-uc8=s1920-c-rp-mo-br100",
-      "text": "untuk pelayanan pendaftaranya sangat lambat sekali dan penjelasanya sangat susah di mengerti apalagi yg mas masnya kurang rama sekali dalam pelayananya maaf kasih reting bintang 1 dulu kak",
-      "textTranslated": null,
-      "publishAt": "sebulan lalu",
-      "publishedAtDate": "2026-05-29T22:04:12.132Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tjNGQzcGpWMVpJVUZCWGVqQmtSbWgyY0VRMlJHYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tjNGQzcGpWMVpJVUZCWGVqQmtSbWgyY0VRMlJHYxAB!2m1!1s0x0:0xb948dfd915f81a36!3m1!1s2@1:CAIQACodChtycF9oOkc4d3pjV1ZIUFBXejBkRmh2cEQ2RGc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 1,
-      "rating": null,
-      "responseFromOwnerDate": "2026-07-13T04:33:38.000Z",
-      "responseFromOwnerText": "Mohon maaf atas ketidaknyamanannya kak.. Apakah bisa hubungi kami via WA 081999325533 atau via email pengaduanrsudenisa@gmail.com untuk memberikan informasi lebih lengkap lagi.. Kritik dan saran anda sangat bermanfaat bagi kami demi peningkatan pelayanan kami.. Terima kasih dan semoga sehat selalu.",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},

@@ -1,15 +1,28 @@
 {
   "kategori": "Kesehatan",
   "tempat": "Klinik Mabarrot Hasyimiyah NU Manyar",
-  "rating": 4.8,
+  "rating": 4.7,
   "total_ulasan": 30,
-  "positif": 29,
+  "positif": 28,
   "netral": 0,
-  "negatif": 1,
-  "persen_positif": 96.7,
+  "negatif": 2,
+  "persen_positif": 93.3,
   "persen_netral": 0.0,
-  "persen_negatif": 3.3,
+  "persen_negatif": 6.7,
+  "latitude": -7.1206815,
+  "longitude": 112.6025509,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Adel Raa",
+      "Bintang": 1,
+      "Tanggal": "2026-07-23T11:55:58.994Z",
+      "Ulasan": "Kecewa semalem periksa kesini, mana gak diperiksa sama dokternya cuma ditanya2. Perawat aja yang tensi. Saya dari rumah sudah mengira kalo cacar, tapi dokternya malah gak yakin katanya kalo cacar jelas2 saya bilang sudah demam dari senin dan sempat periksa diklinik lain, karna ini urgent saya pilih klinik ini yg paling dekat. Mana mahal lagi, masak diharga obat saya hitung semua gak sampai 250, tapi diharga semua jadi 250, admin nya 50 jadi 300. Syok kali mending ke spesialis yg jelas2, gak lagi2 deh. Tadinya mau pindah bpjs sini kalo bagus, lah ini sengaja pake umum sambil cek gelombang malah zonk banget 😭",
+      "teks_final": "kecewa semalem periksa kesini mana diperiksa sama dokternya cuma ditanya2 perawat aja tensi rumah mengira kalo cacar dokternya malah yakin katanya kalo cacar jelas2 bilang demam senin sempat periksa diklinik lain karna urgent pilih klinik paling dekat mana mahal masak diharga obat hitung semua sampai diharga semua jadi admin jadi syok kali mending spesialis jelas2 lagi2 tadinya mau pindah bpjs sini kalo bagus sengaja pake umum sambil cek gelombang malah zonk banget",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9957
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "zalita food",
@@ -328,17 +341,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9974
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Adirah Jayagroup",
-      "Bintang": 5,
-      "Tanggal": "2026-04-13T02:39:08.441Z",
-      "Ulasan": "Pelayanannya baik dan ramah serta edukatif dan layanan bpjsnya 24 jam",
-      "teks_final": "pelayanannya baik ramah serta edukatif layanan bpjsnya jam",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9873
     }
   ]
 }

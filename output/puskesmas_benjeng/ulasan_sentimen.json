@@ -1,7 +1,7 @@
 {
   "kategori": "Kesehatan",
   "tempat": "Puskesmas Benjeng",
-  "rating": 4,
+  "rating": 4.1,
   "total_ulasan": 22,
   "positif": 14,
   "netral": 1,
@@ -9,7 +9,20 @@
   "persen_positif": 63.6,
   "persen_netral": 4.5,
   "persen_negatif": 31.8,
+  "latitude": -7.2593754,
+  "longitude": 112.5007158,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Naesya Novita",
+      "Bintang": 5,
+      "Tanggal": "2026-07-29T03:56:23.181Z",
+      "Ulasan": "kemarin periksa hamil sama bu dokter penjelasannya enak. kata bu bidan berangkat pagi saja, tidak antri. ternyata pelayanan cepat, ramah. tes darah dan dokter gigi petugasnya ramah. Terima kasih petugaa puskesmas benjeng",
+      "teks_final": "kemarin periksa hamil sama bu dokter penjelasannya enak kata bu bidan berangkat pagi saja antrian ternyata pelayanan cepat ramah tes darah dokter gigi petugasnya ramah terima kasih petugaa puskesmas benjeng",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9812
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Achmad Anwar",
@@ -240,17 +253,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9743
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Radit",
-      "Bintang": 5,
-      "Tanggal": "2025-11-18T01:21:32.912Z",
-      "Ulasan": "Poli anak puskesmas Benjeng bagus",
-      "teks_final": "poli anak puskesmas benjeng bagus",
-      "topik": "Kesehatan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9879
     }
   ]
 }

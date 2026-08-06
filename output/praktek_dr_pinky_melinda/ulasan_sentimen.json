@@ -1,0 +1,38 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "Praktek dr Pinky Melinda",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.3549371,
+  "longitude": 112.6039007,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Fnu Sldm",
+      "Bintang": 5,
+      "Tanggal": "2025-11-17T11:45:25.511Z",
+      "Ulasan": "Pelayanan bagus dan cepat, recommended",
+      "teks_final": "pelayanan bagus cepat recommended",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9974
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Rezky Regita",
+      "Bintang": 5,
+      "Tanggal": "2023-11-21T05:56:47.563Z",
+      "Ulasan": "assalamuallaikum , pelayanan pengobatan dan informasi yang diberikan dokter pinky sangat edukatif dan informatif, terapinya juga cuman cocok sm dokter cantikku ini, sukses selalu yaa dok :)",
+      "teks_final": "assalamuallaikum pelayanan pengobatan informasi diberikan dokter pinky edukatif informatif terapinya cuman cocok sama dokter cantikku sukses selalu yaa dok",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.965
+    }
+  ]
+}

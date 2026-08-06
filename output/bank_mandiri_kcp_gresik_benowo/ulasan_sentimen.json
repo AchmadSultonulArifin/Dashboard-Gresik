@@ -3,23 +3,47 @@
   "tempat": "Bank Mandiri KCP Gresik Benowo",
   "rating": 4.7,
   "total_ulasan": 25,
-  "positif": 20,
+  "positif": 19,
   "netral": 1,
-  "negatif": 4,
-  "persen_positif": 80.0,
+  "negatif": 5,
+  "persen_positif": 76.0,
   "persen_netral": 4.0,
-  "persen_negatif": 16.0,
+  "persen_negatif": 20.0,
+  "latitude": -7.2372582,
+  "longitude": 112.6046196,
   "ulasan": [
     {
       "Kategori": "Perbankan",
-      "Nama Reviewer": "Angga Ch",
+      "Nama Reviewer": "Marsya Ananda",
       "Bintang": 5,
-      "Tanggal": "2026-07-16T04:58:17.504Z",
-      "Ulasan": "Pelayanan ruamah sekaliii, selalu dibantu sama Bu Lady, terimaksih :)))",
-      "teks_final": "pelayanan ruamah sekaliii selalu dibantu sama bu lady terimaksih",
+      "Tanggal": "2026-08-06T04:27:02.017Z",
+      "Ulasan": "Pelayanan terbaik untuk teller dan cs nya",
+      "teks_final": "pelayanan terbaik teller cs",
       "topik": "Pelayanan",
       "sentimen": "Positif",
-      "sentimen_score": 0.8705
+      "sentimen_score": 0.9861
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Sumardi Agung",
+      "Bintang": 2,
+      "Tanggal": "2026-07-29T08:54:46.454Z",
+      "Ulasan": "Minta bantuan security tapi kyk g niat bntuin tdk ada senyum2 nya jg pda nasabah",
+      "teks_final": "minta bantuan security kyk niat bntuin senyum2 pda nasabah",
+      "topik": "Keamanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.4577
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Tinkerbell Setiawan",
+      "Bintang": 5,
+      "Tanggal": "2026-07-25T07:25:58.245Z",
+      "Ulasan": "Clean and Best customer service",
+      "teks_final": "clean and best customer service",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8562
     },
     {
       "Kategori": "Perbankan",
@@ -262,28 +286,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9934
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Alvina Rahmawati",
-      "Bintang": 5,
-      "Tanggal": "2026-02-18T04:02:58.924Z",
-      "Ulasan": "Pertama kali ke sini, tellernya cpt transaksinya. Sangat informatif juga waktu sy tanya. Sgt membantu. Terima kasih",
-      "teks_final": "pertama kali sini tellernya cpt transaksinya informatif waktu tanya membantu terima kasih",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.6387
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Fachrurrozy Hermawan",
-      "Bintang": 5,
-      "Tanggal": "2026-02-18T03:39:46.325Z",
-      "Ulasan": "Terimakasih Pelayanannya terbaik Teller Ramah dan cantikk",
-      "teks_final": "terimakasih pelayanannya terbaik teller ramah cantikk",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9968
     }
   ]
 }

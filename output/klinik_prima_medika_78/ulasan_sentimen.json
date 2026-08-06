@@ -1,0 +1,27 @@
+{
+  "kategori": "Kesehatan",
+  "tempat": "klinik prima medika 78",
+  "rating": 2.5,
+  "total_ulasan": 1,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "latitude": -7.3817781,
+  "longitude": 112.5757711,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Rizka Olivia",
+      "Bintang": 1,
+      "Tanggal": "2019-03-11T03:54:35.029Z",
+      "Ulasan": "Dokter gigi disini buruk sekali. Alatnya gak steril sama sekali, tempat minum juga bekas pasien lain. Tempat dan alatnya pun kotor banget seperti ga pernah dibersihkan bertahun\". Taplaknya juga, warnanya yg dari putih sampek coklat. Dokternya pun saat melakukan tindakan gakpake handscone. Pasien yg berobat disini gak malah sembuh malah tertular penyakit pasien yg lain. Sangat buruk dan mengecewakan!! Saya tidak menyarankan anda ke dokter gigi disini",
+      "teks_final": "dokter gigi disini buruk alatnya steril sama tempat minum bekas pasien lain tempat alatnya kotor banget seperti pernah dibersihkan bertahun taplaknya warnanya putih sampek coklat dokternya melakukan tindakan gakpake handscone pasien berobat disini malah sembuh malah tertular penyakit pasien lain buruk mengecewakan menyarankan dokter gigi disini",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9953
+    }
+  ]
+}

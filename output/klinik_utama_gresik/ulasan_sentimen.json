@@ -9,7 +9,64 @@
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -7.2427552,
+  "longitude": 112.5622511,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Saskia Maharani",
+      "Bintang": 5,
+      "Tanggal": "2026-08-05T04:06:28.108Z",
+      "Ulasan": "Pelayanannya ramah, cepat",
+      "teks_final": "pelayanannya ramah cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Marantika Pratiwi gobel",
+      "Bintang": 5,
+      "Tanggal": "2026-08-04T04:46:21.538Z",
+      "Ulasan": "Pelayanannya bagus dan tempatnya bersih wangi",
+      "teks_final": "pelayanannya bagus tempatnya bersih wangi",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9978
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Vera Anjar",
+      "Bintang": 5,
+      "Tanggal": "2026-08-01T03:05:19.816Z",
+      "Ulasan": "Pelayanannya 👍",
+      "teks_final": "pelayanannya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "ARIL NUR FADLILLAH",
+      "Bintang": 5,
+      "Tanggal": "2026-08-01T02:55:08.564Z",
+      "Ulasan": "pelayanan sangat baik dan ramah",
+      "teks_final": "pelayanan baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "May delautami",
+      "Bintang": 5,
+      "Tanggal": "2026-08-01T01:42:05.740Z",
+      "Ulasan": "saya sudah menjad pasien di klinik utama gresik ini sudah hampir satu tahun, dari segi pelayanan bagus bangett dan ramah, dan dokter nya juga baik sekalii",
+      "teks_final": "menjad pasien klinik utama gresik hampir satu tahun segi pelayanan bagus bangett ramah dokter baik sekalii",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9938
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Ona Syafitri",
@@ -218,61 +275,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9951
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "lilietha Ruzhyie",
-      "Bintang": 5,
-      "Tanggal": "2026-04-18T02:40:27.909Z",
-      "Ulasan": "Untuk pelayanannya baik",
-      "teks_final": "pelayanannya baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9965
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Keni Nu",
-      "Bintang": 5,
-      "Tanggal": "2026-04-16T05:08:19.482Z",
-      "Ulasan": "Pelayanan gercep ramah sekali mbknya,dokternya juga okeh buat konsultasi dijelasin secara mendetail. Sukses selalu klinik Utama Gresik Terima kasih atas layanannya",
-      "teks_final": "pelayanan gercep ramah mbknya dokternya okeh buat konsultasi dijelasin secara mendetail sukses selalu klinik utama gresik terima kasih atas layanannya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9797
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Gempil Malika",
-      "Bintang": 5,
-      "Tanggal": "2026-04-16T02:37:20.661Z",
-      "Ulasan": "Tempat nyaman, parkir luas, pelayanan Oke! Semoga jodoh berobat di sini.. Aamiin!",
-      "teks_final": "tempat nyaman parkir luas pelayanan oke semoga jodoh berobat sini aamiin",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9952
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Agus Setiyawan",
-      "Bintang": 5,
-      "Tanggal": "2026-04-15T03:00:33.396Z",
-      "Ulasan": "Alhamdulilah pelayanan di kelinik utama gresik sangat baik dan bagus ❤️❤️❤️",
-      "teks_final": "alhamdulilah pelayanan kelinik utama gresik baik bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9906
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "sulaiman mrp",
-      "Bintang": 5,
-      "Tanggal": "2026-04-13T02:23:00.175Z",
-      "Ulasan": "Pelayanan bagus nyaman untuk periksa klinik pratama",
-      "teks_final": "pelayanan bagus nyaman periksa klinik pratama",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9946
     }
   ]
 }

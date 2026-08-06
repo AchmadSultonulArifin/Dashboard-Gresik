@@ -2,14 +2,49 @@
   "kategori": "Perbankan",
   "tempat": "Bank Mandiri Gresik Petrokimia",
   "rating": 4.8,
-  "total_ulasan": 17,
+  "total_ulasan": 18,
   "positif": 15,
-  "netral": 2,
+  "netral": 3,
   "negatif": 0,
-  "persen_positif": 88.2,
-  "persen_netral": 11.8,
+  "persen_positif": 83.3,
+  "persen_netral": 16.7,
   "persen_negatif": 0.0,
+  "latitude": -7.1572086,
+  "longitude": 112.6400069,
   "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Rahastri Rengganis Sukma",
+      "Bintang": 5,
+      "Tanggal": "2026-07-23T03:31:30.246Z",
+      "Ulasan": "Pelayanan bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "tolongin dit",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T14:54:36.658Z",
+      "Ulasan": "aku biasa sm mb april",
+      "teks_final": "aku biasa sama mb april",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.652
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Iman Ohong",
+      "Bintang": 5,
+      "Tanggal": "2026-07-13T05:09:44.628Z",
+      "Ulasan": "Pelayanannya cepat ,ramah dan baik",
+      "teks_final": "pelayanannya cepat ramah baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
     {
       "Kategori": "Perbankan",
       "Nama Reviewer": "NIKEN PURBASARI",
@@ -174,28 +209,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Bismillah Berkah Trans",
-      "Bintang": 5,
-      "Tanggal": "2026-05-11T04:31:29.934Z",
-      "Ulasan": "Pelayanan ramah kantor nyaman",
-      "teks_final": "pelayanan ramah kantor nyaman",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9959
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Novanda Aida Safitri",
-      "Bintang": 5,
-      "Tanggal": "2026-05-06T06:58:51.983Z",
-      "Ulasan": "pelayanan cepat dan ramah syekalii, tempatnya juga bersih dan nyaman🤩🫶🏻",
-      "teks_final": "pelayanan cepat ramah syekalii tempatnya bersih nyaman",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9969
     }
   ]
 }

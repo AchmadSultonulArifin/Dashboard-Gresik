@@ -1,0 +1,71 @@
+{
+  "kategori": "Wisata",
+  "tempat": "Cilukbaa dpn Gressmall GKB",
+  "rating": 5,
+  "total_ulasan": 5,
+  "positif": 3,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 60.0,
+  "persen_netral": 40.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1594575,
+  "longitude": 112.617153,
+  "ulasan": [
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Harun Ar Rasyid",
+      "Bintang": 5,
+      "Tanggal": "2025-11-16T10:47:21.541Z",
+      "Ulasan": "Tolong d tambah lagi fasilitas musholla dan toiletnya",
+      "teks_final": "tolong tambah fasilitas musholla toiletnya",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9764
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "wasis lukito",
+      "Bintang": 5,
+      "Tanggal": "2024-01-21T02:14:26.103Z",
+      "Ulasan": "Area bermain anak, tiket murah, bersih nyaman😊👍",
+      "teks_final": "area bermain anak tiket murah bersih nyaman",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Luki Tokolukito",
+      "Bintang": 5,
+      "Tanggal": "2024-01-21T01:38:58.700Z",
+      "Ulasan": "Area bermain anak.. Murah meriah, bersih👍😊",
+      "teks_final": "area bermain anak murah meriah bersih",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Diar anggrel",
+      "Bintang": 5,
+      "Tanggal": "2023-12-05T06:11:24.083Z",
+      "Ulasan": "Pas lagi di gresik main ke sini deket sma kebomas 😄",
+      "teks_final": "pas gresik main sini deket sma kebomas",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5772
+    },
+    {
+      "Kategori": "Wisata",
+      "Nama Reviewer": "Agung Anoraga",
+      "Bintang": 5,
+      "Tanggal": "2023-09-04T11:05:14.123Z",
+      "Ulasan": "Tempat bermain anak yg asik cocok untuk anak balita..",
+      "teks_final": "tempat bermain anak asik cocok anak balita",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9971
+    }
+  ]
+}

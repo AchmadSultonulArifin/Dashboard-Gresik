@@ -2,14 +2,49 @@
   "kategori": "Perbankan",
   "tempat": "Bank Mandiri KCP Gresik Menganti",
   "rating": 4.9,
-  "total_ulasan": 27,
-  "positif": 20,
+  "total_ulasan": 28,
+  "positif": 21,
   "netral": 7,
   "negatif": 0,
-  "persen_positif": 74.1,
-  "persen_netral": 25.9,
+  "persen_positif": 75.0,
+  "persen_netral": 25.0,
   "persen_negatif": 0.0,
+  "latitude": -7.2956497,
+  "longitude": 112.598185,
   "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Aditya Wahyu Krisora",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T06:54:10.421Z",
+      "Ulasan": "penerbitan kartu cepet tanpa ngantri dibantu sama pak security👍",
+      "teks_final": "penerbitan kartu cepet tanpa antrian dibantu sama pak security",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.994
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Dita Melawati",
+      "Bintang": 5,
+      "Tanggal": "2026-07-23T00:39:17.792Z",
+      "Ulasan": "Bank Mandiri kcp mengantii bestt bangett....pelayananya sangat memuaskan dari mulai satpam n cs kak anisa n kak angga nya semuanya bestt 🥰....konsumen bner2 di pandu n dijelaskan dengan ramah n sabar,sangatt sangatt puasss...kalo ad bintang 10 tak kasih bintang 10 deh..hehehe...Pertahankan 🥰❤️ Terima Kasih",
+      "teks_final": "bank mandiri kcp mengantii bestt bangett pelayananya memuaskan mulai satpam cs kak anisa kak angga semuanya bestt konsumen bner2 pandu dijelaskan ramah sabar sangatt sangatt puasss kalo ad bintang tak kasih bintang hehehe pertahankan terima kasih",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9902
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Mas Ugiik",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T06:50:03.516Z",
+      "Ulasan": "Pelayanan ramah serta sat set 👍😊",
+      "teks_final": "pelayanan ramah serta sat set",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9894
+    },
     {
       "Kategori": "Perbankan",
       "Nama Reviewer": "Faridah Iriayani",
@@ -100,6 +135,17 @@
     },
     {
       "Kategori": "Perbankan",
+      "Nama Reviewer": "Nabil Buah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-13T06:34:41.432Z",
+      "Ulasan": "Pelayanan ramah, tempat dan rservasinya nyaman",
+      "teks_final": "pelayanan ramah tempat rservasinya nyaman",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Perbankan",
       "Nama Reviewer": "RADEN RAWI 2025",
       "Bintang": 5,
       "Tanggal": "2026-07-13T04:18:56.929Z",
@@ -130,6 +176,17 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9847
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "22_ Aliya Alfina Wahyuni",
+      "Bintang": 5,
+      "Tanggal": "2026-07-13T03:01:40.304Z",
+      "Ulasan": "pelayanannya baik dan cepat, penjelasan terkait yang diberikan sangat membantu bagi customer",
+      "teks_final": "pelayanannya baik cepat penjelasan terkait diberikan membantu bagi customer",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9835
     },
     {
       "Kategori": "Perbankan",
@@ -262,50 +319,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.7914
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Anto Anto",
-      "Bintang": 5,
-      "Tanggal": "2026-06-15T03:03:15.600Z",
-      "Ulasan": "Makasi mas angga dah dibantu",
-      "teks_final": "makasi mas angga dah dibantu",
-      "topik": "Lainnya",
-      "sentimen": "Netral",
-      "sentimen_score": 0.779
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Aguspermanaputrazayn Zayn",
-      "Bintang": 5,
-      "Tanggal": "2026-06-12T03:42:49.187Z",
-      "Ulasan": "Pembukaan rekening sangat mudah dan cepat tanpa ngantri",
-      "teks_final": "pembukaan rekening mudah cepat tanpa antrian",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9745
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "cahya bachtiar",
-      "Bintang": 5,
-      "Tanggal": "2026-06-12T01:57:57.718Z",
-      "Ulasan": "sangat cepat ramah",
-      "teks_final": "cepat ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.993
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Asenah Minardi",
-      "Bintang": 5,
-      "Tanggal": "2026-06-12T01:47:41.608Z",
-      "Ulasan": "Pelayanan bagus dan sangat memuaskan Terimakasih layanan",
-      "teks_final": "pelayanan bagus memuaskan terimakasih layanan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9949
     }
   ]
 }

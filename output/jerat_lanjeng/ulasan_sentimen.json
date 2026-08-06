@@ -1,17 +1,30 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Wisata",
   "tempat": "Jerat Lanjeng",
-  "rating": 4.4,
-  "total_ulasan": 14,
+  "rating": 4.3,
+  "total_ulasan": 15,
   "positif": 10,
-  "netral": 2,
+  "netral": 3,
   "negatif": 2,
-  "persen_positif": 71.4,
-  "persen_netral": 14.3,
-  "persen_negatif": 14.3,
+  "persen_positif": 66.7,
+  "persen_netral": 20.0,
+  "persen_negatif": 13.3,
+  "latitude": -5.8608838,
+  "longitude": 112.622698,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
+      "Nama Reviewer": "SuperMan",
+      "Bintang": 1,
+      "Tanggal": "2026-07-25T07:58:03.718Z",
+      "Ulasan": "Bevor man Geld kassiert und rumsitzt sollte man mal ein bisschen saubermachen.",
+      "teks_final": "bevor man geld kassiert und rumsitzt sollte man mal ein bisschen saubermachen",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9485
+    },
+    {
+      "Kategori": "Wisata",
       "Nama Reviewer": "Farizi Hibatul Hakim",
       "Bintang": 5,
       "Tanggal": "2026-05-01T18:29:12.793Z",
@@ -22,7 +35,7 @@
       "sentimen_score": 0.9978
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "ZAINUL ALIM NISSAN SURABAYA",
       "Bintang": 5,
       "Tanggal": "2025-10-26T09:06:17.861Z",
@@ -33,7 +46,7 @@
       "sentimen_score": 0.9876
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Setyo",
       "Bintang": 2,
       "Tanggal": "2025-09-24T22:41:49.614Z",
@@ -44,7 +57,7 @@
       "sentimen_score": 0.9981
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Raymond Lind",
       "Bintang": 3,
       "Tanggal": "2025-07-07T03:25:23.841Z",
@@ -55,7 +68,7 @@
       "sentimen_score": 0.5427
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "aman syah",
       "Bintang": 5,
       "Tanggal": "2025-06-29T04:07:03.389Z",
@@ -66,7 +79,7 @@
       "sentimen_score": 0.9911
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Adi Al Banna",
       "Bintang": 4,
       "Tanggal": "2025-06-17T10:46:58.872Z",
@@ -77,7 +90,7 @@
       "sentimen_score": 0.9885
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Siti Hasanah",
       "Bintang": 5,
       "Tanggal": "2025-04-04T10:11:26.154Z",
@@ -88,7 +101,7 @@
       "sentimen_score": 0.9902
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Saleh Keaz",
       "Bintang": 5,
       "Tanggal": "2025-02-16T12:35:20.145Z",
@@ -99,7 +112,7 @@
       "sentimen_score": 0.692
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Imam Adi",
       "Bintang": 5,
       "Tanggal": "2024-06-18T08:29:05.305Z",
@@ -110,7 +123,7 @@
       "sentimen_score": 0.9976
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Ahmad Fahmi",
       "Bintang": 5,
       "Tanggal": "2023-06-26T06:02:24.851Z",
@@ -121,7 +134,7 @@
       "sentimen_score": 0.9974
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Khairatun Nisa'",
       "Bintang": 5,
       "Tanggal": "2022-09-01T09:13:45.226Z",
@@ -132,7 +145,7 @@
       "sentimen_score": 0.6572
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Channel Inspirasi Bersama",
       "Bintang": 5,
       "Tanggal": "2022-08-15T21:48:12.314Z",
@@ -143,7 +156,7 @@
       "sentimen_score": 0.9917
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Nessa nofelin",
       "Bintang": 2,
       "Tanggal": "2022-05-08T13:11:23.112Z",
@@ -154,7 +167,7 @@
       "sentimen_score": 0.7801
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Ikne MR Vedanta",
       "Bintang": 4,
       "Tanggal": "2022-05-07T13:31:32.192Z",

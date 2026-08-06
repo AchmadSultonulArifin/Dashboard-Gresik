@@ -33,22 +33,21 @@
   ],
   "fid": "0x2e77e6c768199d6b:0xd9b61dc81c51dca1",
   "cid": "15687759097297493153",
-  "reviewsCount": 1762,
+  "reviewsCount": 1763,
   "reviewsDistribution": {
     "oneStar": 64,
     "twoStar": 41,
     "threeStar": 178,
-    "fourStar": 394,
-    "fiveStar": 1085
+    "fourStar": 393,
+    "fiveStar": 1087
   },
-  "imagesCount": 6006,
+  "imagesCount": 6004,
   "imageCategories": [
     "Semua",
-    "Terbaru",
-    "Video",
-    "Oleh pemilik"
+    "Oleh pemilik",
+    "Video"
   ],
-  "scrapedAt": "2026-07-29T15:28:43.884Z",
+  "scrapedAt": "2026-08-06T16:57:56.629Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -580,10 +579,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "08.00 to 16.30"
-    },
-    {
       "day": "Kamis",
       "hours": "08.00 to 16.30"
     },
@@ -606,9 +601,13 @@
     {
       "day": "Selasa",
       "hours": "08.00 to 16.30"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 16.30"
     }
   ],
-  "openingHoursBusinessConfirmationText": "Dikonfirmasi oleh bisnis ini 1 minggu yang lalu",
+  "openingHoursBusinessConfirmationText": "Dikonfirmasi oleh bisnis ini 2 minggu yang lalu",
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -730,7 +729,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmM6oF4_gw3zLdAUZllFDeOwvdwAJF7JfcufeUpymBkSVJPVsBWefbNaxuFXKVxDNB_eFSLyBgZCUpvgZG7l_j2sUTjcesT11-cFGXw1rf0WVRupU0SqvW5c091TS-ptdjEiBBQSP1apDJ8=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOG_-VjcdScMp9nhPnxNukrl7LwfktR2QXiGkReJwtGmcHxNd2KBzfhAzG8kAtgO1353WI-SDpzEUA2he9U9OHdWHORGpcchwmAJU7Oi7wPyYqM-VTm77JBmB8jqPAMlnIVkjBuwjde0FA=k-no",
         "postDate": "7 bulan lalu"
       }
     ]
@@ -741,7 +740,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkPRcwtFoCcGZEWCZ9wOAhwnIlYJgDvh61FkrLFWqbkqlUFfy9OJ0WDculVTmqXcTVORHIR-7ydpDPoeCANr-KguSoSkZF1gzRkUzTC5dcAntDFgC-4y-77YWJg63yVCzGsUa-J=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkPZImBSdlcN8SA0mtkb_iz1RM68yoRXTzrXR848zoskVRIqZUozCauUP4CaI6GfSLmfWzmxwe4_4XxfIbzrrrqWYM5xlqjDUfK6Jh4dZH0Y_3l-Q9Sa82yRrHWASY1bMaPbC0x=w426-h240-k-no",
   "kgmid": "/g/11gfd72n0v",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -755,6 +754,58 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "116632353524009182612",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116632353524009182612?hl=id",
+      "name": "fifin adhim",
+      "reviewerNumberOfReviews": 18,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjULhlz4tm_0ajTfbS8EAsHq0P2Pi6pcuanVuWLDRj4UF1oCgGjN=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 hari lalu",
+      "publishedAtDate": "2026-08-03T00:37:34.402Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aYWFITjBRVmhJWldsNlZubzRiMEpGU2tGWGRtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aYWFITjBRVmhJWldsNlZubzRiMEpGU2tGWGRtYxAB!2m1!1s0x0:0xd9b61dc81c51dca1!3m1!1s2@1:CAIQACodChtycF9oOnZaaHN0QVhIZWl6Vno4b0JFSkFXdmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104432567666970463451",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104432567666970463451?hl=id",
+      "name": "alwan tafsiri",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXZDAU5nvbgyUD9J7uDMdSR6oeNO-fgzwBBok50MaDSHJtIqHtJ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 hari lalu",
+      "publishedAtDate": "2026-08-02T10:50:57.257Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCQlEwTjRaMUY1Ym05c1IyMW5RMUZIVXpKRU1YYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCQlEwTjRaMUY1Ym05c1IyMW5RMUZIVXpKRU1YYxAB!2m1!1s0x0:0xd9b61dc81c51dca1!3m1!1s2@1:CAIQACodChtycF9oOlBBQ0N4Z1F5bm9sR21nQ1FHUzJEMXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "114782325528359728197",
       "reviewerUrl": "https://www.google.com/maps/contrib/114782325528359728197?hl=id",
       "name": "Najmiyatul qomariyah Agustina",
@@ -763,7 +814,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKYklt4dAHvflZLHFfjgkM9oVGpoIsTRxZbLensa4sxwuGGrg=s1920-c-rp-mo-br100",
       "text": "Burleigh Waters protective finish on the tiles. Absolute game changer for this property.",
       "textTranslated": "Lapisan pelindung Burleigh Waters pada ubin. Benar-benar mengubah segalanya untuk properti ini.",
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-12T11:48:02.217Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxT2ExTm1PVFpyZDJWSmJYaFlkbkpWV0VwSlUzYxAB",
@@ -789,7 +840,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXnu4dpwPRdEH3rNVXrV8_SFM4YZz7J0uEuSgJ1f4Dzw5oHzqa4=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-07T05:33:51.583Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205RFZHOWtaSEpFYWtkcmRXWlpjR2c1ZG1sYU4zYxAB",
@@ -815,7 +866,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVXhfyVpEZRXC1EAOF-4I8u6mLItmg3LW_b0uPXzuIOQfcmtFw=s1920-c-rp-mo-ba12-br100",
       "text": "Bagus sich cuma kurang perawatan aja",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-06T23:16:51.977Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGZmRsRXplV0pzVTJNeFVDMDNkVFJqZVhCd1EzYxAB",
@@ -826,8 +877,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQAW72UUvQnmetwgeMdBblQYK35f5Xxxqi9qiR4iYe54x2ILEFioljz2L6Yqqn3a6xiBdQoFFBWaGOQnxdTaa5zVoBT9U-9JTnbryqtfwHkMfDvS8Avo0cw2fOAF-A_yDFcli1RUbPoUM3=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO8dDw4haWuX6k6hAIksauGZNR9bWRum8NPdgJsbzskuCCEci7L6FbFD_K6IC0zpKLr2fpGWC3Miuo28Fbho6w14Rq7eXDdtZnDHkKzQmYVlJ6sw3VNP2wr5mIlaE956iPnnsCm2FLz3nog=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPSJgpmOUgTIRNX3mssfJSugMNQjIJPlbxXMCn58f_ROF5dekI0YyhpWfis67HUsYlp0YZ8vaflMk_igJwbhm20FXpLW_vnyd9LOR_6TDQrgIV4FfAnuzfviIPlDwrKQa90srVZDG0I8FYC=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMbKmc6hsxiGENK5XOt6Gp8fgyQ7uIiRmOWc94CIrUtbmnYoMebYQ7LwgjXX5RZ1GAEpnVpraB5GFWjY8rt7HYGnX0yye6vT3Ws6-IlrZa38XW8f6SZjhi0j34q51WSfZQ5jtgRvURrzOPg=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -848,7 +899,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVOxx4-_pwWRlxgYVQ9pXWqWNaCm9HI6xXAJS1mhOGx4WA75Y4U=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-05T02:27:24.141Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4elExbHFabU5mYjBaa2VFTkNSbWwxY2xkdlVWRRAB",
@@ -902,7 +953,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ5Z6PpCWJNXE5fKdlCa9QBPqYPxjo5fGPNxnWXi8orsPIx2Q=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-05T21:11:26.617Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KSVJ6VmpaM015U1RCNk5IWlFaRlZ4WDBSSFdYYxAB",
@@ -928,7 +979,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW6jT_ee1PbSPyAQrlF1zo7__i8CiwRiLP5zN65XFZFvnL8XRap=s1920-c-rp-mo-ba12-br100",
       "text": "Sdh lama tutup",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-01T11:30:42.560Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tzMmNXMVlhRVZFVWtkdlZWcHNWVVJXTkdwM04wRRAB",
@@ -1061,7 +1112,7 @@
       "reviewerId": "105039360526141562811",
       "reviewerUrl": "https://www.google.com/maps/contrib/105039360526141562811?hl=id",
       "name": "chamim93 1917",
-      "reviewerNumberOfReviews": 446,
+      "reviewerNumberOfReviews": 445,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVUqQz9Bl__O6XulrDkj0F4ocfrH2ViuKXfIX-W29Chx36b39E=s1920-c-rp-mo-ba12-br100",
       "text": "Sebenere tempat tsb cukup\nBagus dan layak dikembangkan utk lebih maju dan banyak pengunjung\nCocok bagi anak2 dan kluarga",
@@ -1133,7 +1184,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNVSa9Y6LFGkY8g3WjFXgRxr6h-Gmk_3sbWsM2Lf9HsS45jqiV5m1S46Gpv7QFGtgzaAVm4s7dxgg0BzRLcGoy5DSMMgvB8rEBaUyOtGujLau6d5-GLld0FtHYm0UJfOdKzHyO6qapo9GIL=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM0nADz6WYEd3X6VM73-hAmo_1-Zrhyflln2-zEMQTfUJSN0jfrUuDYQkIwz2O4X_tc67_jDAYnKVnPyXkEeO2LQoL9qpwe2st8OVb2R09Kz35THVBZasI8TjpaHW0LA9R3jyVjbXwTrO83=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari libur nasional",
@@ -1195,7 +1246,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP-XVpnX5zp7c8i4KgaokdXZSFpacFDuvfV5xEP364btGcvB1brCqVRwv_jH_XGjb4aLPRh8z5xK0sZlmsVeXFqel37P-ZBKXYILm9wP8qmWXCIwbVjzrBLp7AlNJF4z9pfuIeUH5LAkn0=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOnag-tPoz6vQo7-WwT1MkybjTFv9YkKBsPn5xU5CCtVE-a2X4EXsMCajEsAvkeYg3us2VcklTTZgYNfnDKXfPnu7FenbBfL2JaSmyZUmr3MpL74Ea5y1Ud4Xmc7sretwR2zviWz0tm8v0=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Akhir pekan",
@@ -1226,24 +1277,24 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM9ZUFzwJl6Zk5D2bAT09k4m4HHeNrqTLyDMRYi3SqaUX6005IotKhIvFSHsYBs75WwWKc976D427ZpIMZMI6wZBRo0ArMpGmp4wJLl4mfemz-IPmKdlCfY4S09pi8t4OfricglTCvBPpVN=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOOiQwUjdq7WlWTNGJdNn2RZs02cR6p3VIMeacVlHjlZSWIgDwPknKrSjHvrmFOMN4scQKwXvbZ4UU3l2WlFb-r5RU-G43t8FbAQBIMPzELyCuWCBnUF-4ya0ZwzsEBpB-9WWalF3WWDp1c=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOxw0zg-FmxNx9-BHrWtn9nMvBg1fUdsSrqo9OEXxfRvUIQMtEqgZYMrUg6GY3ErTae5tKeLeajItLdmGgchjgjkkIdRFu4Dz6t1dIN_pmBKlJW2xdooyHqVmsCGW00REW8RIS8_7_gzMA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNbR1-X_e6QzsKFOegvHkviOzHhnY736rJzcOa_nwwCOCN73hMmZJqABAKbWXHLc8LMNECIGzxbpTRS5pd-ydxeRXnHYHDtnkOIwLl71fRPMz-89zi2yvNpmQKTB2bdh_43Coj1ujwmA13Y=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMzT7FruozS5eiSVyW1oavfIbuvhPz4v-FF2sFI0lwQCurf4kR7EB8eNxxEKoX4k3ZS7zkIG1cDq56z7Sq-my7A3iqN_t_lRJE27E-4IiU4P4KZITOR5JZwgNLTvlKCZ0Ff23-p4NoaqAQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPhyrUOzGJm8Yjx6_B0VR6zI4Xw_LETtMyH-H7DBaNBAX10HlN_pdTzGpHZGK6YXP0BF9pB4Enztmm0gdQqLHGtZraAeIKF7CpdLcDBYJMaGYb_a2ZZyf0_VSnHSgNRH9JXMM3cC6kaaN8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN141fY85gglsz41JA9waOfRTCyqGOOeVTXiVzJR5PQGsaEDp6xaFEcvEphkstjH6b62C2XWujT7V4qGup9oCdT5HLPSpXPb7NpYJ2U6D_va9KiwE5nkXQwxic2SCZjg_qF0f9l7wcB-Pzi=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM0onpGOF-6b4LlA4dQl4TCRQg3KoOlH79TPiksjpA4HuP1cVym0d9yIkdUEg2mY3Cdijp51Hq8hihPP6Qon-x5-E3vc4bYKxJ6Ei0sfLi_sfc5sXzBnGq8vP1uw3MAyqzwEm5yIK4oAurL=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMMK6pgR38fsUH9vUJUZs5_Chi5RVbMnAtGUoWg86QCYbDB7C0v7mQxubwsayS6caEFMPfGQGjOkSZH7_pwyf6T3KCWbqlEI-Ehf0b4y3Ugq_oJbdF_y3rokw1L7PXnin4GgfqUBzBJxvs=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOGw1fo_OldqUdHIXqUWYolhNeHqdQXNaDJEqLl2QncKdvHjfjvQgUpAIXCFwpSvpJtGyJ5pGNbv3ryfc4f4Y7m6T7iNnfIv_qgsdwko1GxOcN3LYkOxQdQBodNy66R_JzH9frcdVwQplkY=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOZr1Runad1rg1plh8-rqToHRC6wv4XkGmmZoKZJk7QxTec9651UYQF8Rf0OTaPWxC2oYNo9SSLg59crlZCRXH3X9xk8pIMfZXk-Efb-_x1RRJiEZ-ciHLZO6FELwWG18XfhKC4bV_2nD0l=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPehYWH4hLK9mrCZ-MjNXhFhz4X__YigT7_wjNeUWhLFB1pCL6UCv0P7ntSLE2ynLASzfB5JBgj8d3RVUFjNIKgstZC9nk6nXuftxT3hN_zmAAKb8WapY7RGRbPxGcB1V1do8v6bIvHtqdA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNA_E-CUsGfMoAOgpy1K964aD1JOQIWlONOfGbeKfU2omBIeTaAd0PlDs65s2bb2drmYsdAUyiYnkdSPsnD8SIdLMQdBtLc6UBy9XCT1ZsVbjRzyTMgjDGgDm5Kw7L7LR0AaT_Tc31HEGuj=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPqzHKYu_DEw667vg9ZGrO9EhgvNh9hG72tMxku1BIv3apUhC7pqsOF6yGED83IfkVHdlyUCkQ2q5WH8UvGe3msWznLaybHXpVMQugYfsbstRRXmH6OO_rIGbhIWY1bBmmW4HnFMIt2gaI0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN9Y63sd_y0EMZz-jUbQAFuw3q25eYhOu6YUor3fQC8eJAXqWN5M3P-DB98-rC5CLi9xNbAfZHUhGcSvUiDpCrmZWPN-4yf1foEiBh4bDOcv2qq2Ixy8uw6e_LPADnufMH9O_Ww1zAnOtUV=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNJjzmPYiM4AMCtcX0qHp_2Fh6Rj9NcuK52NvcjVoGnic7onzfvqA1U1wSL69N0fZcmKD8aX60N5XChqeOCTywCssKDZJ0P_aOPHJ3s-fPgg2TT1Y0hL3pKEMlw3F2ovsKIliR-qkdwLp4=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmORlab2HOett7PQBxZAUs0vvuEXH3lpsmFJmHeAjD19yn2YeOCZEpEUVCOY811ZSYlhLujOwlLuErN0JORCiYbCDS84Po8OEIG3H6RmaKW-rhAKdA_4WupjOn6l4K-hZCJ_4LVCWsUSec5u=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNv48PfpwWQDuNeZa3pLrs2fRjujNUHNoX9VD2k8GmX5NFy4kugkAw1WRIEqKnb19Dxuaf-fsuOUwEqstU6C5yX4gnWQZHCb9aT_Hyay1caw0Bqh5NFW2DaYRk0O-0gX2hUqybnB4eLdkWN=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO5HyFIDbXcCnhV15eQ5eUCPLPwGYT9HQSdhyHFoXtaZ0MQZH7a6WbXbJxHjRv7hIjjlQ6pFiqqutTRK_sjAf4L2XQhCH7Wi8KgKYWapEUkPvhZ2B3Xspn-s561Q7TuRYiYDP-AcMPZ4Tmu=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPlVBBQWMAZmNpZCqsRnMFwDM91IdrmV3Q9x_W0BlF2hOX5n3lESaieUWQO-oPAEcJQaNRvK2Mpv3qQwgMKmstWCclHNuiBGrv0gdAhpaCBQFjnf_6mIaTbR9fY9Duo60XZ8oJu1OH80ygO=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmObKiB9g_qLd-aJhchqGtQR81mXwcFNF5EmvL5qPKwgYUFY1zueypntL1LW1vHLkSAgjivcIObLJLi79gZKVSu8HBdlkMLSBCao0a3Kj-_MrmERW_ubdhJDWXRn1iFHL1Pv7BZPeuKuD3s=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOR9iZH1Rx91WzvmGyfXD21AEn2oV5QWKxevH1FKvZtdESwxp8rKx_hr3S47YwZHwClhYDtm0D_zVDGmc1Nhk0siSI5qjHpT2xCA3jIKTE3ed88Nomy8IfulUvwetYmLSKuxmmrCgygUCo-=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN6yO9U7aKVqGiVgzW6qiTTakpqo0lDIBBvUtuYGG09GYEWY6C5-KAer9KlCpyuRn4oyM50kp58d0nXeH3PdPtHTB7GtZpVv_p0hkDEzDlj58atyWzCk8oHMJ4Avmd4G0oEvjaLXawb5Uw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMfSwtbwWt3zF9CBGXKh7aVpFDI9hgDi9PJiLpjv1TQzGTsz4kPG54Oq1g8BdA4IFZwvrlMtuRDje69IZEb4-kUqGBO8wdPGwi4RCax4EA-Pu-0r0Vqed9GES3y6u6V9YttydMfi8kAglE=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNrWg2FeiN3ER1GBbxXfQOfZ9FrDCBqEt-83r6ZR8bzuJau-8CYV45FShCPpZdixc28xldrEMcvKMTzY2vjHjSWzxY7qAAmIx8TENBlB2XC_rckhDoOa2iqxue8c48zDFmCili49Q8GdQz3=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPx4J_rKh67ffJ_XvB99l3lI1kiDuoPZaYnNpqQ7hornuIHN9xUn1aHjZz42zu0gHMu7RsoWFo82em4F-eZ39kCKudNz8-AEvRHUuyiL2bvmyFcvBuxYwaUG73FGpsI4J78oJt8xUjCuuiy=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMWV5PxiNC2P7Ub_-6Ymvjaix5BHqR_wl_sgYWPGKEhdApo_9sYklurYOzT_4jeZWa3OpOmVbFW4u-pVbX4m37ij7mf7x7ALrfvCj2c2WGD9H-VD4ZeGnUfopeJ5j2ytlN6FKPbsAjPKrs=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPXxRsrC5s-tT8wi7p5NvDWxPei5oi7wHRBv07uzCciZTBeYZszipZDdEpyAJCOjd6jOTlETH3MYe-au9OC5rmI4uQ9Im-EgIuHZT9umdCcRkUgkNEhFXbeAQzSo_YIVOVSXpE1k8JdiLB9=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNluinJEioED-Bggkqu6sfSb4JbUMbrLYjpukpp-qmi8EehyUVMX7Dp5b6Eal9yD5JF39GnA_xoLeDVdctSrKUR-uvucL8qwFzTZjpsisxPfDtbcstz0eUnOFfQ3SEIrT9RXYlQEAuUEhN4=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN8jv-19HAhT66lil8FvrfdNUyZxVwYSFG-l4-Ux6FZW_TP2xQ3p07HPjBqJT7SPbKZymhJJ1PXURuyvGZKb9O5Qw-gNNZz2hwtyhbHQtXHjm4G-eWAPswuZTJDmnTVv7K4EMLJH21ydl1J=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPgPL1CB0kjzB54xhgEACW--Ta6WJBj_rurHMvtohHHjE_h5BGLpV6J7-jlBIdqbrJZbD62-SHX_Qu9hSewQ5eLUhDrUXR7Z6yHDOVD8ljH6v5Tkbl_0wlzv7TtRbRRU1LI1LXgQWsH_0YL=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOY4EwfvawlBSnkA0BWwf-cvbCjF0zdDZZMfyxgjQhA9NAy5KCXN89WiY9UzZJ1oqImJcHvdZ9vVM5wBvxcvec4r2oxomqL-dHpH05leKhoLIVbs3THP03519qJ-IGiuYfLwDpA_MLBQADD=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpO6XOIsycMHiM621pG4qyoHc4YLYzH-EYXSKWsMW06ujqRikH6Zui-8b8qREIv9iOkke1FkH4py4d-T7EMKISliQW2G3IPWHNORvADhXtW3KxBVelEUTbZlVorv-1o0iYd8WDw0r64oOg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQ-IBfZ8RBjLkuVm9Sc9vTG1YDbOu1M_8HgZHJeZWOTahVezBvvjiFEWDkPfbk7Y0Uo9irEwrbvLR0DYfJbCJZ9RqlftbHJn1qjQ6cYthgbpo77Dexbr4t5UPe52ppUT_qI0v81naVzZk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOxg-QpNW-tCquNR0EwpvFPsuz7zImvfPEOaSxQHWMz08TMxcHYaq23FQndwpO2kgdg1Bf7RFTpqitlYnofBkSmtevLvotOV10tO37qHC3JQpNUothNjqrPPfdujqRpcQpSQyuPQJH1C4sH=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPnr8PVLijlTETOTrFRSnZYDSk71MyFZnlJt5yptvePEX_iSsDIvohM0tsP4F4s3a1FwVmOhKZGtrtL2wrbRKRHBUzJ9y_ah6gyiF4elOVzDSzg_UlVhF3k6rHoPqRZJ6bLGuAb2Db8a945=k-no"
       ],
       "reviewContext": {
         "Waktu kunjungan": "Hari biasa",
@@ -1294,7 +1345,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJX2RL8uL1Zs96il6iu_a1I1ZLUoSnSNz2NeYtNmfvQC7Bisg=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-02-03T14:58:20.144Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCSmRYaE9lbVJ6TlhoUlRWWkdVRFp3VWxwa2JtYxAB",
@@ -1320,7 +1371,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU1QFf04sLcMwvVfODaYIUdiPd9Ef_QNzP0VP54Fx0uJXLocCNC=s1920-c-rp-mo-ba12-br100",
       "text": "disini agak canggung ya karena masih pdkt juga jd bingung cuma jalan sm foto, tempatnya oke tp panas",
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-02-01T06:17:50.568Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aclJuZFVXR3hKWVZCMFptazJUVlF6ZVZWMlRrRRAB",
@@ -1331,8 +1382,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNU6pTOSoDMLaElhdRCxJJ1JDyCL24QQElbo2vQ_c-vdreAHOmavk6oKLmKx1Pxn4gwd53xFTclueYqG-VNV58nT_ZZBWhKqv43jCptb9rOOZu6SNO8e4IRvOKq6eYmribeQ-QHrGAk1IQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPASKIKreoz9poAdw6T0euNKgseC6jSgrXSrAsd4L8rVepBN6Jzyri-yDVR1J9CGG33dB-3p9aneXHnz1PMcz5cnQ7XYVfnjLdYbG_NfKPpk-RbyDme17FVzrEvo_X8XvBqeWGEn--Klj_z=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOQ_4e6MrnBBCPygQ81wpe96rCz1SqZYn_16o35OW3MDaeXMvFVlhPDTDVYysr50hjhMoS7HkDYiyNkXP1sBCQSYoJ7zqrKNgX9oBekHjOnM0EzI73hql66wDLG_6JcSCaLsokRwOSnI6k=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN4bmXFplknAOs8xFEHyFby4bV863jHlheFsS92Q-198WTFGZ7dCGEYDsSoU_jpTkGYRh-tfR2pUUROOtMtvbko3E6Znzooi8zQsXab3sbCPpaPb5F5ZdfB9VOV6NhbdTJ8u8X4rDDD1NXt=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1390,9 +1441,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNOPmKdp1e7mL47BC4_EFetXuThb6ubnLf937aHd6RoJFmEpcocenr9DCvOP4f_0HJgzmff82bWZekFp5yllabna0ZMVUUMC0u24qrVIaKhx8UEily5Pz6884H2rQn_ujS77CGGcJKaMdnW=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNtduhD_3ZGBmeMLa7qSQ3PCyEyVaFlUWNftfwxNNGPmBui_ZlfN1FkKGVF3CPNN3ay4axSYZ2HUkMFV_WMBMtXuWsmWbrFM6mahXnApmKLc8e3pRPX4ry9CqGOOlotgLASDyd5NJtzIO8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNCsi_baaOw3P4eMAZIfhuD6XNExCeXCCNsVywB4LiOWwLX4GWbfrqIEOpbwJLIiTdJX6BL7k0VUf3xNJfXbd9eg-YR0RwAyNswrTSh3CdOraDdFlKmyAmyte0Q364oNxllmyxs29yDscWQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNFk4zPR4JrkUl472BUPydXgLVNS6esfk7ax22gLVxGKQq46fx0f-WIlwM156jJZcMZBpsjnrYuzKK5wYMwOrkef-641BwNg833TUMfGPIo1uYuvRYXDfYkrn8U0VlKiijRa4rg0LInY5MV=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQane0oOmsYBTY9czDfNowVk_pFt0GCD0qDDYj0qqPBzs1R4UZ6d_RS2SW6Ob9e5ObGvX7kYYo7SD8DSoCWS1fUUou6E56Z8AEDM9quv-pHiVSjlFfBOqxKCSe1F3Jr12y6ge-jbd3nVg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMd-tuz1k1Bms0OzZ2A8pKKuTB6UX_t6MUEmAjWcrRMXFp5PgUq08F2qWd8Eiqvqyl30eKLoPIzBIRXQ6oN-vYtXDAXTdMt_xeRfWwIs63G9urFjEeWcnQEr2sVBrWIuLQQU9uFu7PKayV5=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1446,13 +1497,13 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPbP-xmZzybaPRM7rzxX5FPe8dHAYqTNKNfMynUGh_qPoehvji_YlPDbCnN32yAkZe4NNCp5ScK28Pt3OuqjFtlfcklqZ6xRc3-4zA2cesgUEI1sEkiJJaN7B9F62XBuhzbz-1N7-8G1fe6=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYhuA8C7xhuO0je0OIGBm5VY9Hd67kPnS5pSmkTnz902D8WE0PokrFDFVDin0kRtTtK2UJCy-aT0u3IThXzG9nTRUTdTlHDLoEdR1g9aOJkz2Rbt5IofhtjOdo4wPXxSN6X28wmy1XM8g=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP3osDZ3tVlHvKi8PYIGutBPTfOsaBnQ0Q6bghrPVe0Gf8fV5Hp6TPTu7Wlyd62XiNQYw3wAZ5HsqGZFubbDwVWgQr0uFU4ya6hTOZauDcwJ6gY9qWkI5KPrLrnwWAYscfh7NbswOzeRohg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMbHKgGm-OsQE-T1Lq85_q9BADrYxCwNDQxoN6hIzBbWfbSAHR-6-z6pnwwNk-gGnY3Z4NlZdWEEIbGDoS8EeCCcTO8n4V0h6NlcYMp-aONPbWk28TlfMUcG_dR1D4k4znVIu7gsy1xYIYd=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOKDs3nwcodIX_GhNgriFIPhiu_HnkNp2r_naDnYEtii6KkeK9moPMBX4G0RWkKsEVab_6FRyZ0eoAu-uPtR_4YKIc7YAuctvOaAJxh3PmS5mUGNLqCyaUjFtiOBlsAiSOHFhuCMZAOrTa8=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHLcfb3pNqrdAyktSQiEARQTHfQrD10R4_3Q1vUxp6uO3oljhhIohow3eYyhZ4BerjixlnFO9izygJFOz6o58EPu0O5gLh6mefLx1Piu506lhLRu_VbOchmKn4XTbirG_RWn9DkX-mMs3C=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNycoj_GlStW4FRn8TbJXvzp6X-wmHlYrEbAXER-T117d-XkbwJWXikSXgQV2rbNrMlCjbpi1YkBi6o2G1fEA53mSaBhgio_2-Y3prStynJZdilVTKujXqfgGSUnPu4mfxjyA5PXe1HOcND=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMYwQbeCT9U63AvYi7lBKhXty_6JYjjFuNTI6Y_PhULe1TYEg9fAoqLC1wW8Uop5dObOnqzpybV7jpiV7Sz0GvNfzJrAEoqxjdi8u6l1Z366VPoc1skTGbH4eVlaUxh08LVXt_8qbumke8s=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUaJ5mtUIDhgcItIZWddfHTtVSnRtqIFQD1wyOkNWRiJT1JEZSL20_O0p6HCi2wDg3hm_Kjt9ulV6cuWjQgX46MEI5Zzr-FyLu-aWhFntmDuq9K1tIV1TwC4q8VxfG9RLzZobCRzfmtOk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPNNA_GuEymACbG9KTe_aJ9R5cv47Z8nFTcbbGx4rgFhLu3-s6oH9_TNY3g5ITWmQLkxVg1hUFNCKKSU0HV_mTu-RPJnwfmqv8evNzpKKkHLUzNdRUnY2gdJ0cWP0Zo9gGKqflkxiplmczL=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPl3EkFbVWpY8jTs62iXtvKcDWWELCysyh50iTL_g5MDZkOwFGjp_hy3WlNJWxPZAq7hFwyxEdb1c5ra-Eg5XRxO0V9a_sw2RVMkeM3DnHsxoomBnFkFsxYpXQMCHXGLlzeSxQprosZ4z37=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQGCUflq-YeUhAM0O3aRvI9pa6WsgNKN_Oifz6hPaoP1m1y3RC1MwDZM9umDnNHVnldKWBUMSyOWdqNO9coFe8679zKryGYABgGhyiYg8Gayu-pAd2gsY8PhzNqbbeIopZiYUrmoTvKfzb=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPK2unix3ser8TdJ1oWe2UZ9hVIMYdPIjvobK-J4sld6SZHVCqojYqK3caPH-J9VnaNzza6ZiEOWgR_Ht29ywKD2cqm2q3J_QIHaXH3iv8gUtrEVMG2XMw5TbRGJ55uAieypcWAwVuaYzze=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMbvhpN3Sv4xPGLxy3f0K9va70AoFeqaDfifO5V7N_Pj44DSGwSIEe_YvBGc9bPwYllNjBobJP-6snH5VKKRXFrU_-gpsalCvNCFaMOqThJ8peskXpvP4hFMc4uRvdKxSXUqOZEYepWzKwK=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1510,7 +1561,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNna2hh3xC6Hb8I_MUcMDvbv8Bv-famtZFAfbP7yGIVOmu-YPPhw0KtCrxb-ABZGndAzuU8JiEeZ6fbWKhyh9U7PKjAgrxO1XEHjR75VnU8d6mzSHz7zkXfUWN2YPEB9aGXgne0Gkezba_J=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPfPkeyDUcfitgpjXFP3-hJvwGXPPcml3WRW7Dey4mcDPudjDMmvZFxyitsAwvgoF_hUOjfUwABLWxBm5hxcU40DQtQ0nZsCiuF2oTXno7Dpf1djCBib6nj2a2cx5sXNKfO7RRl53xG2AKz=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1568,65 +1619,6 @@
       "reviewDetailedRating": {},
       "visitedIn": null,
       "originalLanguage": null,
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "115535789317554507766",
-      "reviewerUrl": "https://www.google.com/maps/contrib/115535789317554507766?hl=id",
-      "name": "Asroful Anam",
-      "reviewerNumberOfReviews": 4,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUCXpZ2qG6fqXRaMaJR-rF8XeWzjAp_VoXhRiNIbkVv8xGiP2FJ=s1920-c-rp-mo-br100",
-      "text": "sangat menyenankan",
-      "textTranslated": null,
-      "publishAt": "6 bulan lalu",
-      "publishedAtDate": "2026-01-04T06:12:43.526Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsRFl6VmZSamxMWVZWUlExRmxNVWhyTVhCS01sRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsRFl6VmZSamxMWVZWUlExRmxNVWhyTVhCS01sRRAB!2m1!1s0x0:0xd9b61dc81c51dca1!3m1!1s2@1:CAIQACodChtycF9oOklDYzVfRjlLYVVRQ1FlMUhrMXBKMlE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "105808805000329494159",
-      "reviewerUrl": "https://www.google.com/maps/contrib/105808805000329494159?hl=id",
-      "name": "Ulul azmi",
-      "reviewerNumberOfReviews": 63,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWsc4wB7KR-BRlyYD3mYNGHoWE1jiPUvE2piloZHz3jArNPoDqf=s1920-c-rp-mo-ba12-br100",
-      "text": "Tempatnya luas, banyak ruang santai.nya, ada kolam, gazebo bbrp wahana, spot foto yg diatas jg bagus tp agak kurat terawat dibbrp titik, Krn tanaman pagarnya nyampur dg rumput liar. Kamar mandi.nya bersih, tempat sampah jg banyak petugas kebersihan jg gercep",
-      "textTranslated": null,
-      "publishAt": "6 bulan lalu",
-      "publishedAtDate": "2026-01-03T12:42:52.720Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oaU5VbGZOa3BOU201M1VsRk1SRFJOZGs1SVVuYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oaU5VbGZOa3BOU201M1VsRk1SRFJOZGs1SVVuYxAB!2m1!1s0x0:0xd9b61dc81c51dca1!3m1!1s2@1:CAIQACodChtycF9oOnhiNUlfNkpNSm53UlFMRDRNdk5IUnc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 4,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOrsdU1CooKfCQRX13VaKVeWeete1nSz5-DK0pVeN_HLcJn5GMSRx8R5645IBxH98NZ9R5opy1j8bWB8XjFRHCmcdr3OkRs5CVCwc0CQxo7Xt_Yn2l89Ply5I6YAvCm_K5H8Fpd0I4kms_J=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMl7PegEiVvm81oJxomdTwtTlonnp0BcqWNAlMDihv3QjYfum_-cXI2u2be9fWS6D4cV0zO-VIu0ZH6TyWUFH6Z1no3DMIPt7ZWgsxv4QCBuEkANn0feY1fcHtCB_ngNVKEvBy9R-DrzdEz=k-no"
-      ],
-      "reviewContext": {
-        "Waktu kunjungan": "Hari libur nasional",
-        "Waktu antrean": "Tanpa mengantre",
-        "Sebaiknya buat reservasi": "Tidak"
-      },
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
       "translatedLanguage": null
     }
   ],

@@ -34,14 +34,14 @@
   ],
   "fid": "0x2dd80042a936c8e3:0xe41eb2d6b1c83124",
   "cid": "16437772325124321572",
-  "reviewsCount": 215,
+  "reviewsCount": 216,
   "imagesCount": 53,
   "imageCategories": [
     "Semua",
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-07-29T12:02:12.233Z",
+  "scrapedAt": "2026-08-06T14:53:30.372Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,10 +53,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
@@ -79,6 +75,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -104,7 +104,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "SMK NU GRESIK",
-      "reviewsCount": 123,
+      "reviewsCount": 124,
       "totalScore": 4.7
     },
     {
@@ -151,19 +151,19 @@
   },
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=SMK%20PGRI%201%20GRESIK&query_place_id=ChIJ48g2qUIA2C0RJDHIsdayHuQ",
-  "searchPageUrl": "https://www.google.com/maps/search/SMK%20PGRI%201%20GRESIK%20KAMPUS%20D?hl=id",
-  "searchString": "SMK PGRI 1 GRESIK KAMPUS D",
+  "searchPageUrl": "https://www.google.com/maps/search/SMK%20PGRI%201%20GRESIK?hl=id",
+  "searchString": "SMK PGRI 1 GRESIK",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkaOCXY2oVcF94FvS6zjaBPp0DaMjTCvyS4Rz4loi3jKq0gQSYRlTqQ_H1BeG3JEUwzkf563szud0KH9if7YxYXcAmEjIOH0KVmHWMKTGqDl77x1AjYHhYHx6qtBXphmC0MvNDy=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm7Nr287pBfMGFzcQyGjk9ZhnERqdC3D6vZDcz4dzJWdP0pQ5lQs3Gdz1ER3fZvVyYt1pIUaS1kqXYANeerTI0NBVvQPJiBNLV22T2omNNhT-J0mEJONOCROyC6IJMjnDDYmCYV=w408-h306-k-no",
   "kgmid": "/g/1tlx8p1b",
   "reviewsDistribution": {
     "oneStar": 10,
     "twoStar": 0,
     "threeStar": 5,
     "fourStar": 11,
-    "fiveStar": 189
+    "fiveStar": 190
   },
   "questionsAndAnswers": [],
   "webResults": [],
@@ -177,6 +177,32 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "104706755851724761054",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104706755851724761054?hl=id",
+      "name": "ninu semangat",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVS8SMdp_kR2YLjtDHoHH97fv5W8KNF_khWbcCC1JQACv-bwaLe=s1920-c-rp-mo-br100",
+      "text": "Sekolah menengah kejuruan yang bagus",
+      "textTranslated": null,
+      "publishAt": "5 hari lalu",
+      "publishedAtDate": "2026-08-01T01:50:14.512Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xSb2EwZzRRbkpQUmxGSE5GZGliemw0TFhOTmQxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSb2EwZzRRbkpQUmxGSE5GZGliemw0TFhOTmQxRRAB!2m1!1s0x0:0xe41eb2d6b1c83124!3m1!1s2@1:CAIQACodChtycF9oOlRoa0g4QnJPRlFHNFdibzl4LXNNd1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "105395694180898768444",
       "reviewerUrl": "https://www.google.com/maps/contrib/105395694180898768444?hl=id",
       "name": "Nanda Putri",
@@ -185,7 +211,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV0CpPdna7sOECihcMC8loukweGeKAyK-wq9uFmC10ISwNfFH30=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-06-30T08:59:28.282Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOQk9GbFljMDVDYmpWVU5GWlZVMnBwZVZkTk5XYxAB",
@@ -263,7 +289,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW_sfM-FZcFLbpWUqTLUNf1tZhHn1CEPDeZpJYhRUCCUK99gsYNCA=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-06T03:14:22.103Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xaMVFtbHdabWxtWDBzNFJrbFVXV1F5WVdaYU5tYxAB",
@@ -508,7 +534,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM7X1YmOSuaO6LHoWccPK32fI79QyaU4jUf2Y8yxpu2mPFUVHofar0HJz4KvhVvzKkxJkiAJMK-Vae4lyWrcjD5bfsU-ORcBK_1gCVYWFOBkeoTWs6v11JujQt2ZXwPUwlFyPgqV5JjQ1aF=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMJYZ-qOUFxx-WecbSjQ1y0iasaTtJhdRnjfJ4be1oD6tijqY3G7R1klj3uzIXOPxfKE4qnjsKp9_gqxoalnMioiuesg3v1dPQmI8ETwcAgIwPjQIz8_v8qp2jZvxc5I68u3NZqFco_U_S5=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -525,7 +551,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUW6Kf6Wbu0BX4ZlTphm6t_rPP5wA7IQXodxr0IflxqY6Z9YkAY=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "9 bulan lalu",
+      "publishAt": "10 bulan lalu",
       "publishedAtDate": "2025-09-29T14:39:25.578Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSTGMyaHlXVFJDTVdreFkzbFdRMEpUVjJaeE5WRRAB",
@@ -770,8 +796,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOLu5PLWFVT9IxHslqFk59Kagdgl8P9hD7e80-fDgsqxPLvzD7NepQ4CfTKbCiQsIVL0_oTmYj2OlifUcJroIRTFG9dQNOrf6qeAl_BJXj8O9K7oL5T0zA6g7mlGvyrnWypxgI=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPWlyTp-YLEEajJGu2iaPJ2uSiYf3r2cJUHuPTxGwFG9TXwCwXKATqYhoEodcj-x6P_4Mgw7pCUrOC4EsZOmrwCalT6DwBCIy0bqKhVKtD9Up2G_yVrc_R_qfgy9m4jnQA2Ag3F=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNxkKe2J2LFhNiGmumBNhQuofuRf-KgZRAMYWI359OIot27f8HE0uP1toel5nWceREVd5eevO6LZTa3Vi01nj9cTfPKw-MA2-ZpZ9kyRygKoeKV5eBVhclaXpEnEMqKz7HAcms=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMJehZe1hQxf4D9nIYUbX1M7g_Cdv8U2zO71HaxFfUlize6IVGMNT7wWpvGAbm0jd0cC0Gf_e1A57fRTzu7dh8lOJVpJGYot4V6RRbfe8rvoMJwSMJNa6IyWA3K45AfHE3HR03M=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -923,32 +949,6 @@
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNYeXRxTW1BRRAB",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYeXRxTW1BRRAB!2m1!1s0x0:0xe41eb2d6b1c83124!3m1!1s2@1:CIHM0ogKEICAgICXytqMmAE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "102793793185416109269",
-      "reviewerUrl": "https://www.google.com/maps/contrib/102793793185416109269?hl=id",
-      "name": "chocolatemilk",
-      "reviewerNumberOfReviews": 4,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXZVBw-NoPKlH7MoyuLznzGUHv5fzPG7dcI4HcA-EBEvzH6dS0=s1920-c-rp-mo-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "setahun lalu",
-      "publishedAtDate": "2024-09-01T08:59:01.963Z",
-      "likesCount": 0,
-      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNIeE1lT0dBEAE",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNIeE1lT0dBEAE!2m1!1s0x0:0xe41eb2d6b1c83124!3m1!1s2@1:CIHM0ogKEICAgICHxMeOGA%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,

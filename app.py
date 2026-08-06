@@ -688,14 +688,6 @@ def ringkasan_gmaps():
 @login_required
 def googlemaps():
     semua = load_google_maps()
-    
-    # DEBUG — cek tipe data
-    for i, t in enumerate(semua):
-        for k, v in t.items():
-            if v is None or not isinstance(v, (str, int, float, bool, list, dict)):
-                print(f"[{i}] {t.get('nama','?')} -> {k}: {type(v)} = {v}")
-    
-    print(f"Total tempat: {len(semua)}")
     return render_template("googlemaps.html", tempat=semua)
 
 # ✅ Tambahkan route detail ini
@@ -827,7 +819,7 @@ def load_user(user_id):
     if not user_id:
         return None
     try:
-        return User.query.get(int(user_id))
+        return db.session.get(User, int(user_id))
     except (ValueError, TypeError):
         return None
 
@@ -982,19 +974,6 @@ def profile():
             nama_file = f"user_{current_user.id}.{ext}"
             path_simpan = os.path.join(UPLOAD_FOLDER_FOTO, nama_file)
 
-            # ── Hapus foto profil ──
-        elif aksi == "hapus_foto":
-            if current_user.foto:
-                path_foto = os.path.join(UPLOAD_FOLDER_FOTO, current_user.foto)
-                if os.path.exists(path_foto):
-                    os.remove(path_foto)
-                current_user.foto = None
-                db.session.commit()
-                flash("Foto profil berhasil dihapus.", "success")
-            else:
-                flash("Belum ada foto profil untuk dihapus.", "danger")
-            return redirect(url_for("profile"))
-
             # Hapus foto lama jika beda ekstensi
             if current_user.foto:
                 path_lama = os.path.join(UPLOAD_FOLDER_FOTO, current_user.foto)
@@ -1005,6 +984,18 @@ def profile():
             current_user.foto = nama_file
             db.session.commit()
             flash("Foto profil berhasil diperbarui.", "success")
+            return redirect(url_for("profile"))
+
+        elif aksi == "hapus_foto":
+            if current_user.foto:
+                path_foto = os.path.join(UPLOAD_FOLDER_FOTO, current_user.foto)
+                if os.path.exists(path_foto):
+                    os.remove(path_foto)
+                current_user.foto = None
+                db.session.commit()
+                flash("Foto profil berhasil dihapus.", "success")
+            else:
+                flash("Belum ada foto profil untuk dihapus.", "danger")
             return redirect(url_for("profile"))
 
         # ── Ganti password ──
@@ -1094,6 +1085,8 @@ def settings_token(platform):
 
     with open(env_path, 'w') as f:
         f.writelines(lines)
+
+    load_dotenv(override=True)
 
     flash(f"Token {platform} berhasil disimpan.", "success")
     return redirect(request.referrer or url_for('index'))

@@ -13,7 +13,7 @@
   "countryCode": "ID",
   "phone": "",
   "phoneUnformatted": "",
-  "claimThisBusiness": false,
+  "claimThisBusiness": true,
   "location": {
     "lat": -7.3239789,
     "lng": 112.5200085
@@ -46,7 +46,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-07-29T15:07:59.868Z",
+  "scrapedAt": "2026-08-06T16:36:48.259Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,7 +54,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
+  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -746,10 +746,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -771,6 +767,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -825,7 +825,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkjOIOR7KGIG4o33UrdCvuZDAUywSEP8YfZEQVg1BxnQZlK4kwTEsNPdQzkBM3Da1ZXGpFHSliISrPOGqUgA4JhtZqv4K7RzTh2a4m8UpXuuc-IzJkvtO-7aKHekkK7z_Ho8bWC=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnLCBa8MJ92EII0iUaZx8NmJaNRoAUR9cqp5Qw9p9fETGyCdHDQH_vh1YQ14INy5neDox5UC_Zjx5H_V_c_mB9mDP73BGFThT1CUWqtENkIn6rIjE6PfccBEg2TckWCJ-rAyt4o=w426-h240-k-no",
   "kgmid": "/g/11clscg9p_",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -858,7 +858,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMHDf7GFckzJpD-i15HJ8nfnjlMK_1OWKP0biFx3V7y3VGOS3pIuc8pS1YAGkZIrd0Bm4VJsae7q5Co44kUGCZq1WVMKz_V9WCa8BX7oLkypRsrelzqgg4JqRrnFSwpoPVNmGiQpA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOGdE8F9GHnGEMP25WBJZwgOzQM-TJwFY2Q4mhznW-LSZR-X-owfbFDuOW4KkgiRqiTgLucCq1rREfFwcsF37sSBjM4Q93eVIIYyJ-IybJpyQ8uOtwCJy7umutraMCQcPU8ST1yGg=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -964,7 +964,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpWtBCvj-BRJhg1NFKhIvy2U5cIi9d3kzAaruQOOBVKOoG5yD9Qw52wd02hBpCN4Lpt02Q3J7VO2DvehVsu4OvJj835861MgkJ-bMjuELmsx9dDHI48xQJU7N60WsEogOfaiUM=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMuYAcYQotYIMp5nfNbqENNBTOm8duHm7sCn0MXO2sJtwEJsf4VT5DiyldIDISM4zqcav8yd3sROrUgPnJdBSEQ07LWBCzNpTKonqeaYAJGNWDu-RJIpQgtDEa30uymjT1hZFDa=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

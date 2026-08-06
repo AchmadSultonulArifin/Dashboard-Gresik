@@ -2,13 +2,15 @@
   "kategori": "Wisata",
   "tempat": "Wagos Wisata Alam Gosari",
   "rating": 4.4,
-  "total_ulasan": 19,
-  "positif": 12,
+  "total_ulasan": 17,
+  "positif": 10,
   "netral": 3,
   "negatif": 4,
-  "persen_positif": 63.2,
-  "persen_netral": 15.8,
-  "persen_negatif": 21.1,
+  "persen_positif": 58.8,
+  "persen_netral": 17.6,
+  "persen_negatif": 23.5,
+  "latitude": -6.9345318,
+  "longitude": 112.5070911,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -196,28 +198,6 @@
       "topik": "Lainnya",
       "sentimen": "Netral",
       "sentimen_score": 0.7234
-    },
-    {
-      "Kategori": "Wisata",
-      "Nama Reviewer": "Asroful Anam",
-      "Bintang": 5,
-      "Tanggal": "2026-01-04T06:12:43.526Z",
-      "Ulasan": "sangat menyenankan",
-      "teks_final": "menyenankan",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.8832
-    },
-    {
-      "Kategori": "Wisata",
-      "Nama Reviewer": "Ulul azmi",
-      "Bintang": 4,
-      "Tanggal": "2026-01-03T12:42:52.720Z",
-      "Ulasan": "Tempatnya luas, banyak ruang santai.nya, ada kolam, gazebo bbrp wahana, spot foto yg diatas jg bagus tp agak kurat terawat dibbrp titik, Krn tanaman pagarnya nyampur dg rumput liar. Kamar mandi.nya bersih, tempat sampah jg banyak petugas kebersihan jg gercep",
-      "teks_final": "tempatnya luas banyak ruang santai kolam gazebo bbrp wahana spot foto diatas bagus agak kurat terawat dibbrp titik tanaman pagarnya nyampur rumput liar kamar mandi bersih tempat sampah banyak petugas kebersihan gercep",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9873
     }
   ]
 }

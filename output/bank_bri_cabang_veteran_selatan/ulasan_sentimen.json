@@ -1,14 +1,16 @@
 {
   "kategori": "Perbankan",
   "tempat": "Bank BRI Cabang Veteran Selatan",
-  "rating": 2.6,
-  "total_ulasan": 11,
-  "positif": 3,
+  "rating": 2.4,
+  "total_ulasan": 10,
+  "positif": 2,
   "netral": 3,
   "negatif": 5,
-  "persen_positif": 27.3,
-  "persen_netral": 27.3,
-  "persen_negatif": 45.5,
+  "persen_positif": 20.0,
+  "persen_netral": 30.0,
+  "persen_negatif": 50.0,
+  "latitude": null,
+  "longitude": null,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -64,17 +66,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9912
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "prabowo ajie",
-      "Bintang": 5,
-      "Tanggal": "2020-06-13T03:15:09.529Z",
-      "Ulasan": "Melayani dengan setuju hati",
-      "teks_final": "melayani setuju hati",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9755
     },
     {
       "Kategori": "Perbankan",

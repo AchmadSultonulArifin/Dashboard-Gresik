@@ -1,17 +1,52 @@
 {
-  "kategori": "Pelayanan Publik",
+  "kategori": "Pemerintahan",
   "tempat": "BPN Kabupaten Gresik",
   "rating": 4.2,
   "total_ulasan": 26,
-  "positif": 13,
-  "netral": 7,
-  "negatif": 6,
-  "persen_positif": 50.0,
-  "persen_netral": 26.9,
-  "persen_negatif": 23.1,
+  "positif": 14,
+  "netral": 5,
+  "negatif": 7,
+  "persen_positif": 53.8,
+  "persen_netral": 19.2,
+  "persen_negatif": 26.9,
+  "latitude": -7.1690112,
+  "longitude": 112.6027896,
   "ulasan": [
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Max Satria",
+      "Bintang": 3,
+      "Tanggal": "2026-08-06T06:30:36.632Z",
+      "Ulasan": "Secara sistem sudah oke tapi aneh, jam 12:00 - jam 13:00 istirahat. Orang2 sutuh nunggu di luar. Di luar gak di siapkan tempat duduk. Sama jangan lupa download aplikasi sentuh tanah ku, ambil antrian nya online.  Petugas loket investasi tidak datang sampai jam 1:28 siang, 3 loket semua kosong. Warga yang mengantri bingung semua.",
+      "teks_final": "secara sistem oke aneh jam jam istirahat orang2 sutuh nunggu luar luar siapkan tempat duduk sama jangan lupa download aplikasi sentuh tanah ku ambil antrian online petugas loket investasi datang sampai jam siang loket semua kosong warga mengantri bingung semua",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9918
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Exa",
+      "Bintang": 1,
+      "Tanggal": "2026-07-31T06:53:02.834Z",
+      "Ulasan": "Sangat buruk,,, mau minta saran karna surat nggak bisa di urus dan gak jadi² selama 6 thn aja plonga plongo,,, klok nggak bisa kerja nggak usah kerja gak guna",
+      "teks_final": "buruk mau minta saran karna surat urus jadi selama thn aja plonga plongo klok kerja usah kerja guna",
+      "topik": "Administrasi",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9944
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Nama Reviewer": "Rama Sobhita",
+      "Bintang": 5,
+      "Tanggal": "2026-07-22T04:40:37.493Z",
+      "Ulasan": "Pelayanan cukup baik dan mudah untuk diikuti orang awam. Sedikit informasi bagi pengunjung yang ingin proses berkasnya untuk download aplikasi \"Sentuh Tanahku\" di playstore untuk mengambil nomor antrian, karena nomor antrian hanya dari online.  Saya sangat mengapresiasi pelayanannya namun ada sedikit masukan soal pegawai yang bertugas di kloter untuk menyelesaikan kegiatannya sebelum jaga konter (melakukan kegiatan lain) Terimakasih 🙏",
+      "teks_final": "pelayanan cukup baik mudah diikuti orang awam sedikit informasi bagi pengunjung ingin proses berkasnya download aplikasi sentuh tanahku playstore mengambil nomor antrian nomor antrian hanya online mengapresiasi pelayanannya sedikit masukan soal pegawai bertugas kloter menyelesaikan kegiatannya jaga konter melakukan kegiatan lain terimakasih",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6784
+    },
+    {
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Abi faozandi Ibanez",
       "Bintang": 1,
       "Tanggal": "2026-07-16T03:17:19.131Z",
@@ -22,7 +57,7 @@
       "sentimen_score": 0.9561
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Jandri Luwidianto",
       "Bintang": 5,
       "Tanggal": "2026-07-14T09:58:47.007Z",
@@ -33,7 +68,7 @@
       "sentimen_score": 0.9063
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Tania chandra",
       "Bintang": 1,
       "Tanggal": "2026-07-02T03:47:06.708Z",
@@ -44,7 +79,7 @@
       "sentimen_score": 0.9463
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "dinamariya ulfaumami",
       "Bintang": 1,
       "Tanggal": "2026-06-30T05:38:47.923Z",
@@ -55,7 +90,7 @@
       "sentimen_score": 0.9922
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Faradina Mirzana Apriani",
       "Bintang": 5,
       "Tanggal": "2026-05-29T09:19:51.910Z",
@@ -66,7 +101,7 @@
       "sentimen_score": 0.6455
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Indri Kurniawati",
       "Bintang": 5,
       "Tanggal": "2026-05-25T09:50:31.815Z",
@@ -77,7 +112,7 @@
       "sentimen_score": 0.7414
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "willy aditya",
       "Bintang": 5,
       "Tanggal": "2026-05-25T08:33:07.415Z",
@@ -88,7 +123,7 @@
       "sentimen_score": 0.8771
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Azizah Azio",
       "Bintang": 5,
       "Tanggal": "2026-05-25T08:26:31.463Z",
@@ -99,7 +134,7 @@
       "sentimen_score": 0.9949
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Natasha Saridewi Damayanti",
       "Bintang": 5,
       "Tanggal": "2026-05-16T03:48:30.491Z",
@@ -110,7 +145,7 @@
       "sentimen_score": 0.7806
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "ragil saputra",
       "Bintang": 5,
       "Tanggal": "2026-05-13T06:45:31.595Z",
@@ -121,7 +156,7 @@
       "sentimen_score": 0.9948
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Ratih Shinta Sari",
       "Bintang": 1,
       "Tanggal": "2026-04-29T03:55:52.160Z",
@@ -132,7 +167,7 @@
       "sentimen_score": 0.789
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Esther Kusuma",
       "Bintang": 1,
       "Tanggal": "2026-04-23T04:31:49.225Z",
@@ -143,7 +178,7 @@
       "sentimen_score": 0.8923
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Mumtaz S",
       "Bintang": 1,
       "Tanggal": "2026-04-20T12:17:12.467Z",
@@ -154,7 +189,7 @@
       "sentimen_score": 0.651
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Indah Mutiara Fani",
       "Bintang": 5,
       "Tanggal": "2026-04-16T03:20:02.448Z",
@@ -165,7 +200,7 @@
       "sentimen_score": 0.9293
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "darmawan hartanto",
       "Bintang": 5,
       "Tanggal": "2026-04-16T03:19:14.358Z",
@@ -176,7 +211,7 @@
       "sentimen_score": 0.9961
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Irawan Tok",
       "Bintang": 5,
       "Tanggal": "2026-04-16T01:15:46.433Z",
@@ -187,7 +222,7 @@
       "sentimen_score": 0.9284
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Niken Larasati",
       "Bintang": 5,
       "Tanggal": "2026-04-15T03:26:52.414Z",
@@ -198,7 +233,7 @@
       "sentimen_score": 0.9948
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Fita Sari",
       "Bintang": 5,
       "Tanggal": "2026-04-14T03:22:56.777Z",
@@ -209,7 +244,7 @@
       "sentimen_score": 0.9828
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Mochammad Muntoha",
       "Bintang": 5,
       "Tanggal": "2026-04-14T03:12:44.858Z",
@@ -220,7 +255,7 @@
       "sentimen_score": 0.9954
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "mojopahit property",
       "Bintang": 5,
       "Tanggal": "2026-04-14T03:10:16.533Z",
@@ -231,7 +266,7 @@
       "sentimen_score": 0.9863
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Irma Rakhmawati",
       "Bintang": 2,
       "Tanggal": "2026-04-10T02:02:51.961Z",
@@ -242,7 +277,7 @@
       "sentimen_score": 0.9609
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Ilham Ramadhan",
       "Bintang": 5,
       "Tanggal": "2026-04-09T02:04:27.202Z",
@@ -253,7 +288,7 @@
       "sentimen_score": 0.7678
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Pemerintahan",
       "Nama Reviewer": "Ilil Mastullaful Fefi Fani",
       "Bintang": 1,
       "Tanggal": "2026-04-06T02:30:55.157Z",
@@ -262,39 +297,6 @@
       "topik": "Administrasi",
       "sentimen": "Negatif",
       "sentimen_score": 0.9978
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "dedy yanuar abadi",
-      "Bintang": 5,
-      "Tanggal": "2026-03-27T04:15:16.728Z",
-      "Ulasan": "Hari ini saya mencari informasi mengenai pembuatan SHM tanah di BPN gresik bertemu ibu lyas, sangat membantu sekali memberikan informasi dan penjelasan mengenai syarat pengurusan SHM dan info PTSL. Semoga BPN gresik semakin lebih baik dalam melayani masyarakat dan berintegritas untuk membantu kesejahteraan masyarakat juga,No korupsi! Indonesia pasti maju dan bermatabat. Amin",
-      "teks_final": "hari mencari informasi mengenai pembuatan shm tanah bpn gresik bertemu ibu lyas membantu memberikan informasi penjelasan mengenai syarat pengurusan shm info ptsl semoga bpn gresik semakin baik melayani masyarakat berintegritas membantu kesejahteraan masyarakat no korupsi indonesia pasti maju bermatabat amin",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9366
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "cahaya ahmad",
-      "Bintang": 5,
-      "Tanggal": "2026-03-22T00:11:53.740Z",
-      "Ulasan": "Mohon izin bertanya untuk prosedur pengajuan SHM seperti apa ya? Mungkin bisa ditunjukkan.. terima kasih",
-      "teks_final": "mohon izin bertanya prosedur pengajuan shm seperti apa ya mungkin ditunjukkan terima kasih",
-      "topik": "Administrasi",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9882
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "purwoto achmad",
-      "Bintang": 5,
-      "Tanggal": "2026-02-11T16:21:26.759Z",
-      "Ulasan": "Mengurus peningkatan hak milik",
-      "teks_final": "mengurus peningkatan hak milik",
-      "topik": "Lainnya",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9813
     }
   ]
 }

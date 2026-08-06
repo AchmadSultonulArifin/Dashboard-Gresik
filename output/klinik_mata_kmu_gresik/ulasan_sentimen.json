@@ -2,13 +2,15 @@
   "kategori": "Kesehatan",
   "tempat": "Klinik Mata KMU Gresik",
   "rating": 4.9,
-  "total_ulasan": 20,
-  "positif": 13,
+  "total_ulasan": 19,
+  "positif": 12,
   "netral": 3,
   "negatif": 4,
-  "persen_positif": 65.0,
-  "persen_netral": 15.0,
-  "persen_negatif": 20.0,
+  "persen_positif": 63.2,
+  "persen_netral": 15.8,
+  "persen_negatif": 21.1,
+  "latitude": -7.1566001,
+  "longitude": 112.6152261,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -218,17 +220,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9947
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "regita",
-      "Bintang": 5,
-      "Tanggal": "2026-01-28T09:02:48.563Z",
-      "Ulasan": "pelayanan nya baik, para perawat nya ramah dan disini pelayanan nya cepat dan tanggap",
-      "teks_final": "pelayanan baik para perawat ramah disini pelayanan cepat tanggap",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9938
     }
   ]
 }

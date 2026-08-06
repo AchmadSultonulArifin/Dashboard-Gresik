@@ -2,13 +2,15 @@
   "kategori": "Perbankan",
   "tempat": "Bank Mandiri Gresik Sedayu",
   "rating": 4.9,
-  "total_ulasan": 27,
-  "positif": 26,
+  "total_ulasan": 19,
+  "positif": 18,
   "netral": 1,
   "negatif": 0,
-  "persen_positif": 96.3,
-  "persen_netral": 3.7,
+  "persen_positif": 94.7,
+  "persen_netral": 5.3,
   "persen_negatif": 0.0,
+  "latitude": -6.9941387,
+  "longitude": 112.5640619,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -42,39 +44,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9968
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Sandi Willy",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T13:19:47.959Z",
-      "Ulasan": "pelayanan ramah dan cantik cantik",
-      "teks_final": "pelayanan ramah cantik cantik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9965
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Memet M2t",
-      "Bintang": 5,
-      "Tanggal": "2026-05-25T05:49:56.522Z",
-      "Ulasan": "Terima kasih sangat terbantu sekali",
-      "teks_final": "terima kasih terbantu",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9714
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Insan Kamil",
-      "Bintang": 5,
-      "Tanggal": "2026-05-22T06:01:45.967Z",
-      "Ulasan": "Sangat terbantu",
-      "teks_final": "terbantu",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9935
     },
     {
       "Kategori": "Perbankan",
@@ -141,17 +110,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.8143
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Khusnul Khotimah",
-      "Bintang": 5,
-      "Tanggal": "2026-05-20T02:47:07.267Z",
-      "Ulasan": "Pelayanan bagus dan nyaman",
-      "teks_final": "pelayanan bagus nyaman",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9971
     },
     {
       "Kategori": "Perbankan",
@@ -243,28 +201,6 @@
     },
     {
       "Kategori": "Perbankan",
-      "Nama Reviewer": "Nur Hadi",
-      "Bintang": 5,
-      "Tanggal": "2026-05-18T01:29:54.583Z",
-      "Ulasan": "pelayanan okeee petugas ramah",
-      "teks_final": "pelayanan okeee petugas ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9961
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Apil M",
-      "Bintang": 5,
-      "Tanggal": "2026-05-13T06:55:09.895Z",
-      "Ulasan": "pelayanannya cepat dan ramah",
-      "teks_final": "pelayanannya cepat ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9965
-    },
-    {
-      "Kategori": "Perbankan",
       "Nama Reviewer": "Yoga Brayo",
       "Bintang": 5,
       "Tanggal": "2026-05-11T03:51:47.926Z",
@@ -284,28 +220,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9969
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Imam Wahyudi",
-      "Bintang": 5,
-      "Tanggal": "2026-05-07T06:02:36.546Z",
-      "Ulasan": "pelayanan nya bagus dan bersih tempatnya",
-      "teks_final": "pelayanan bagus bersih tempatnya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9973
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "bnghhnyy",
-      "Bintang": 5,
-      "Tanggal": "2026-05-07T04:53:39.621Z",
-      "Ulasan": "nyaman dan cepat mksh",
-      "teks_final": "nyaman cepat mksh",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9908
     }
   ]
 }

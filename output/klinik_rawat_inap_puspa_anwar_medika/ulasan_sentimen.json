@@ -3,13 +3,26 @@
   "tempat": "Klinik Rawat Inap Puspa Anwar Medika",
   "rating": 4.9,
   "total_ulasan": 28,
-  "positif": 24,
+  "positif": 25,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 85.7,
+  "negatif": 2,
+  "persen_positif": 89.3,
   "persen_netral": 3.6,
-  "persen_negatif": 10.7,
+  "persen_negatif": 7.1,
+  "latitude": -7.3963323,
+  "longitude": 112.5273565,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "andik andik",
+      "Bintang": 5,
+      "Tanggal": "2026-07-30T04:36:46.429Z",
+      "Ulasan": "Terima Kasih Atas Pelayanan Yang Maximal Pelayanannya Bagus Sekali Petugasnya Ramah Tamah Infrastruktur Bagus Lokasinya Asri",
+      "teks_final": "terima kasih atas pelayanan maximal pelayanannya bagus petugasnya ramah tamah infrastruktur bagus lokasinya asri",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Citra Meilinda",
@@ -306,17 +319,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9918
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sunanjar Sunanjar",
-      "Bintang": 1,
-      "Tanggal": "2024-01-09T06:08:10.556Z",
-      "Ulasan": "Pelayanan kurang bagus",
-      "teks_final": "pelayanan kurang bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9979
     }
   ]
 }

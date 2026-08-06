@@ -2,13 +2,15 @@
   "kategori": "Kesehatan",
   "tempat": "Puskesmas Industri",
   "rating": 4.5,
-  "total_ulasan": 22,
-  "positif": 12,
+  "total_ulasan": 21,
+  "positif": 11,
   "netral": 3,
   "negatif": 7,
-  "persen_positif": 54.5,
-  "persen_netral": 13.6,
-  "persen_negatif": 31.8,
+  "persen_positif": 52.4,
+  "persen_netral": 14.3,
+  "persen_negatif": 33.3,
+  "latitude": -7.163722,
+  "longitude": 112.646615,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -240,17 +242,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9948
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "viangayuh",
-      "Bintang": 5,
-      "Tanggal": "2025-10-28T14:50:05.534Z",
-      "Ulasan": "beberapa hari yg lalu periksa kesini karena lagi ngga enak bedan. all good mulai dari pendaftaran, poli, disuruh lab sampai ambil obat. sebagai perantau merasa terbantu dan tidak kecewa dengan pelayanan nya! 🤗 tapi sedikit harus hati2 karena saya datang ketika hujan, jalan menuju lab banjir dan ada bebearapa titik yang juga terlihat banjir, mungkin bisa menjadi perhatian pemerintah setempat untuk renovasi agar lebih nyaman bagi kami pasien maupun petugasnya! 👍☺️",
-      "teks_final": "beberapa hari lalu periksa kesini enak bedan all good mulai pendaftaran poli disuruh lab sampai ambil obat sebagai perantau merasa terbantu kecewa pelayanan sedikit harus hati2 datang hujan jalan menuju lab banjir bebearapa titik terlihat banjir mungkin menjadi perhatian pemerintah setempat renovasi agar nyaman bagi pasien maupun petugasnya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.7431
     }
   ]
 }

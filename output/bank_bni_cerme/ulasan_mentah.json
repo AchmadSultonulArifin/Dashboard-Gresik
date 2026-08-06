@@ -34,13 +34,13 @@
   ],
   "fid": "0x2e7801adb97ebe43:0x8a38f6e9519f99fc",
   "cid": "9959982057887078908",
-  "reviewsCount": 73,
+  "reviewsCount": 70,
   "reviewsDistribution": {
     "oneStar": 14,
     "twoStar": 2,
     "threeStar": 2,
     "fourStar": 4,
-    "fiveStar": 51
+    "fiveStar": 48
   },
   "imagesCount": 13,
   "imageCategories": [
@@ -48,7 +48,7 @@
     "Eksterior",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:58:13.619Z",
+  "scrapedAt": "2026-08-06T15:32:52.267Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,10 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 15.00"
@@ -86,6 +82,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 15.00"
     }
   ],
@@ -152,7 +152,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqXn2kiMkeFYgmOjZrZ6Rb3SyTPzLyD4LErxSddxtXrDCnchB0Y71-JkmRA_qffQ3oFiv3UhmMExfu76q1Sh72I5uJ9kmxlvA6xPgGYtP-jqIh-RtinaYGRzg5qbyn_T_kSwcW-w=w408-h545-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkpAtB3peBICLUGN83-eCS3ahUEtsa2gOir2DIkadONDZKsINF0YHlcQIhFZ6IK-utVF5FMoHvJq5qtfD1NCTwM6LeIIQ5yOJ6HiOXwVrW7rloCNMYjkdd3asMlq6jIm2R6m8OVuA=w408-h545-k-no",
   "kgmid": "/g/11c0z22_xb",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -497,7 +497,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNa_5yVND5ZJYTMpFdolzWDPjfGIexgtGOD2NfbDHpxwADlKxd-bfD3GORDuu9f91OZ0vR7JurqkfrBE2pC4vOSi6kGoE87MSHHJEzRIAS5vWIppuh-G3gr8jB79nesN8BJp7IFDg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNF4hTi6bBFjwp92UmrTdDRHLl2PsZC_INr5bRfFg1KgtL9oLSW6WB03EbL2-qd_sAFkYGblMPmivRA3IS0fqOH3NoA5xwfq-AfAHBg7GAX1gWW4FeTSQdnffIkwHYwjW-kxxW1WA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -551,7 +551,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM2kEjsTUa4GbmsHEGeBww-90m1bZqUNog8JqppySl2ArWOXIUV8-gXsAVtxpo6Z64mSbblZQsl59S5bCgCZoAHwwAvCxFW7mivfQpc4gKj5SY7ZY1UeVy--FgYTmiQ7WrWhBC8=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOKWoI5-s7MxA_6DtOGoVO0_mPDnZP-FKeb369ISafXrePXa7EE1Yvcb2CJIOTGKmyFsiDmZ91Kl3g1DRG_z9yu9pwX7ntkovzzO9aZp2mp22sYQK-xXrsTf4kg-BgqPh7ZXfg9=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -594,7 +594,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXJRF20rih-O0SBVoGWplAgz1C_ZfF2r_bRsPYdYCJQJKzpoGR0=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-04T11:49:09.642Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1dlkzX2ZREAE",
@@ -620,7 +620,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVlXBxT7ScO5xdq5kTBKGq_NBW70ljZAtFRiqx1b5kvOjaRI28=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-04T05:27:13.329Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1M2FLbmxRRRAB",
@@ -646,7 +646,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUoSWIaSzhEYqx4UzyZxHHgnNhi4fMYQmnvwJc2oTpQD1wfA_ZbMQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-04T02:31:06.764Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1bmZQeTZBRRAB",
@@ -672,7 +672,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJy1x1u8KmI1XwxWTLTzJAic0CvZcjDam3rpo7MFmAzOoeyig=s1920-c-rp-mo-br100",
       "text": "baik",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-04T02:31:00.531Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1bmZPeV9nRRAB",
@@ -698,7 +698,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXuS9MP2sI0XnIklMufu76H_S7i6Sa2lfc16OnXpUEJ8MgW0VQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T10:29:01.384Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1NVltSkhnEAE",
@@ -724,7 +724,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV9ABKKYW2NaAgH3xGhw_0qM-uj3wTvm3ZcdZjqkbwH3BeKwu__=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T09:53:46.241Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1NWVhUXhBRRAB",
@@ -750,7 +750,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUlE27Q1bsq2Nn5VNJnzNs8u9v0EEZ7ObFpd1JQIjY47GxiVJTyow=s1920-c-rp-mo-br100",
       "text": "Ada ATM setor tunai yg sangat membanggakan",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T09:26:45.280Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1NWVLLUx3EAE",
@@ -776,7 +776,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLO-o7h2nueqf5w_oiOxlp1_mDbNhMJ6xQ9cPZH0AZQp1Fegg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T09:10:09.922Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1NWN6bkZnEAE",
@@ -802,7 +802,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIkyrSiH5NxcBMe9E3g8vra1vRJCmfNkay4AINaYNtEt79MgtvZ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T09:08:29.259Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1NVl6TnhRRRAB",
@@ -828,7 +828,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU62vFIraHP6qu9s1F0x_r0fel5-E580cvEgeWIh__njfDgYiMq=s1920-c-rp-mo-ba12-br100",
       "text": "Petugas ramah dan sigap dalam membantu nasabah. Sip deh",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T08:48:59.592Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1NVpqRHF3RRAB",
@@ -854,7 +854,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJkXBf_OZBywCZp8SuwHpRP61jJXVVAWQpRMyJLGHB385Ri04E=s1920-c-rp-mo-br100",
       "text": "Pelayananya cepat dan ramah",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T08:42:33.166Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1NVlpRjNBRRAB",
@@ -880,7 +880,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIK9PL1LCJvMhUny2jgq9VuJrRcuYVbD6zfN-04MlUrUfkL2g=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T07:18:51.133Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1cGMzZVNBEAE",
@@ -906,7 +906,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUjt2nOVEmht-Nvdi6SUxfZxeQ27opCW6vsWAd2qnDnoYMNXvk=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T07:15:51.167Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1cGZYdHl3RRAB",
@@ -932,7 +932,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKDLjJHe4dhvIc-bTqThWDUtTLoMn7EzoukqfGUN_HH9OsoWg=s1920-c-rp-mo-br100",
       "text": "Teller dan Customer service nya memberikan pelayanan yang memuaskan",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-02T05:29:18.078Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1cGFxY2lBRRAB",

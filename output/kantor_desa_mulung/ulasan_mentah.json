@@ -41,12 +41,8 @@
     "fiveStar": 7
   },
   "imagesCount": 3,
-  "imageCategories": [
-    "Semua",
-    "Street View & 360°",
-    "Video"
-  ],
-  "scrapedAt": "2026-07-29T10:40:01.979Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-06T14:06:40.450Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +54,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 16.00"
@@ -85,34 +77,13 @@
     {
       "day": "Selasa",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 16.00"
     }
   ],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kepala Desa Bambe",
-      "reviewsCount": 27,
-      "totalScore": 3.5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kampung KB MANDIRI desa Mulung",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kepala Desa Driyorejo",
-      "reviewsCount": 6,
-      "totalScore": 4.2
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "KANTOR PEMERINTAH DESA WEDOROANOM",
-      "reviewsCount": 4,
-      "totalScore": 2.8
-    }
-  ],
+  "peopleAlsoSearch": [],
   "placesTags": [
     {
       "title": "Makanan & Minuman",
@@ -137,13 +108,6 @@
       "count": 2
     }
   ],
-  "additionalInfo": {
-    "Fasilitas": [
-      {
-        "Toilet": true
-      }
-    ]
-  },
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=Kantor%20Desa%20Mulung&query_place_id=ChIJ0TqA2jD91y0RD0bLotSjKKk",
   "searchPageUrl": "https://www.google.com/maps/search/Kantor%20Desa%20Mulung?hl=id",
@@ -151,7 +115,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHs5cSue2zF4u-TcOOdNVA1f_EGzCMbG5vMpuL1QjLb8ExK7rMhRZrQ4U6p5ALmjr0LkVCSGK7MBKv1J8keOr8dhdqAn6ywpdqnbb1w57wBU5efV062hP6DIUyjDcHpzH-CzGnWEyzh4Eo=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk9hj3FF9jvtSQ2xlKtuNpQqp8nxTf0VgXjA2C4qIM9XycRQsqwGVaTWYVfHbVenm8Na4URbGIbo-LEUf3l_iFkKbK4i0z2RADUDJzYAAMqoxfRUj3Z8IFJ2q4zur7O8ng3rS6Nm-gRl8ek=w408-h725-k-no",
   "kgmid": "/g/11btww10pk",
   "questionsAndAnswers": [],
   "webResults": [],

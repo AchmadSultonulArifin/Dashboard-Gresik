@@ -3,13 +3,59 @@
   "tempat": "Bank Mandiri Gresik",
   "rating": 4.4,
   "total_ulasan": 24,
-  "positif": 17,
-  "netral": 3,
-  "negatif": 4,
-  "persen_positif": 70.8,
-  "persen_netral": 12.5,
-  "persen_negatif": 16.7,
+  "positif": 20,
+  "netral": 1,
+  "negatif": 3,
+  "persen_positif": 83.3,
+  "persen_netral": 4.2,
+  "persen_negatif": 12.5,
+  "latitude": -7.1678262,
+  "longitude": 112.6452606,
   "ulasan": [
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "data bank",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T04:13:34.747Z",
+      "Ulasan": "Pelayanan bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "nabil",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T04:13:15.991Z",
+      "Ulasan": "Pelayanan maksimal dan sangat  baik",
+      "teks_final": "pelayanan maksimal baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9932
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Abdul Latif",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T03:38:41.993Z",
+      "Ulasan": "Terima kasih atas pelayanan yang yg baik Sukses selalu yach Bravo",
+      "teks_final": "terima kasih atas pelayanan baik sukses selalu yach bravo",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9454
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "Raniahmad Raniahmad123",
+      "Bintang": 5,
+      "Tanggal": "2026-07-21T09:33:02.923Z",
+      "Ulasan": "Pelayanan sekarang sangat ramah sekali mbaknya",
+      "teks_final": "pelayanan sekarang ramah mbaknya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9962
+    },
     {
       "Kategori": "Perbankan",
       "Nama Reviewer": "Moch As'ad",
@@ -229,50 +275,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.995
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Nitalia",
-      "Bintang": 5,
-      "Tanggal": "2026-04-30T01:31:32.431Z",
-      "Ulasan": "Pelayanannya bagus dan cepat",
-      "teks_final": "pelayanannya bagus cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9971
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Mutta Kiyah",
-      "Bintang": 5,
-      "Tanggal": "2026-04-30T01:30:41.219Z",
-      "Ulasan": "Livin di security",
-      "teks_final": "livin security",
-      "topik": "Keamanan",
-      "sentimen": "Netral",
-      "sentimen_score": 0.8592
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "safira widyaningrum",
-      "Bintang": 1,
-      "Tanggal": "2026-04-29T07:17:15.083Z",
-      "Ulasan": "cs lama",
-      "teks_final": "cs lama",
-      "topik": "Lainnya",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9974
-    },
-    {
-      "Kategori": "Perbankan",
-      "Nama Reviewer": "Javir Ak",
-      "Bintang": 5,
-      "Tanggal": "2026-04-28T06:12:56.675Z",
-      "Ulasan": "Membantu pergantian kartu",
-      "teks_final": "membantu pergantian kartu",
-      "topik": "Lainnya",
-      "sentimen": "Netral",
-      "sentimen_score": 0.94
     }
   ]
 }

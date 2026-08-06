@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Wisata",
   "tempat": "Gapura KEDUNG SAMBI",
   "rating": 3.9,
   "total_ulasan": 3,
@@ -9,9 +9,11 @@
   "persen_positif": 66.7,
   "persen_netral": 33.3,
   "persen_negatif": 0.0,
+  "latitude": -7.2492203,
+  "longitude": 112.512525,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Ali Mafut",
       "Bintang": 5,
       "Tanggal": "2024-07-30T16:49:39.107Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9961
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Umama Amma",
       "Bintang": 5,
       "Tanggal": "2022-06-01T04:25:39.441Z",
@@ -33,7 +35,7 @@
       "sentimen_score": 0.995
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Rudi Rudi",
       "Bintang": 5,
       "Tanggal": "2021-11-13T13:53:15.606Z",

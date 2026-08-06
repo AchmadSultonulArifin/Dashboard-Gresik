@@ -1,14 +1,16 @@
 {
   "kategori": "Pemerintahan",
   "tempat": "Dinas Penanaman Modal dan PTSP Kabupaten Gresik",
-  "rating": 4.4,
-  "total_ulasan": 17,
-  "positif": 9,
+  "rating": 4.3,
+  "total_ulasan": 15,
+  "positif": 7,
   "netral": 7,
   "negatif": 1,
-  "persen_positif": 52.9,
-  "persen_netral": 41.2,
-  "persen_negatif": 5.9,
+  "persen_positif": 46.7,
+  "persen_netral": 46.7,
+  "persen_negatif": 6.7,
+  "latitude": -7.1705005,
+  "longitude": 112.6015256,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
@@ -31,17 +33,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9549
-    },
-    {
-      "Kategori": "Pemerintahan",
-      "Nama Reviewer": "bome tech",
-      "Bintang": 5,
-      "Tanggal": "2026-01-08T08:24:57.113Z",
-      "Ulasan": "kemarin ngurus pelaporan LKPM di loket pojok OSS, terima kasih sudah di pandu input laporan LKPM sampai dengan selesai. petugasnya jos..semoga selalu di tingkatkan pelayanannya.",
-      "teks_final": "kemarin ngurus pelaporan lkpm loket pojok oss terima kasih pandu input laporan lkpm sampai selesai petugasnya bagus semoga selalu tingkatkan pelayanannya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.7263
     },
     {
       "Kategori": "Pemerintahan",
@@ -130,17 +121,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9961
-    },
-    {
-      "Kategori": "Pemerintahan",
-      "Nama Reviewer": "Dimaz Kurnia",
-      "Bintang": 5,
-      "Tanggal": "2019-07-30T13:56:44.381Z",
-      "Ulasan": "Ramah pelayanannya",
-      "teks_final": "ramah pelayanannya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.997
     },
     {
       "Kategori": "Pemerintahan",

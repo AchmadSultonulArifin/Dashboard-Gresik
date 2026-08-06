@@ -29,7 +29,7 @@
   "placeId": "ChIJ-WdVtWkA2C0RdyLgObbAEdI",
   "categories": [
     "Kantor Pos",
-    "Layanan Surat"
+    "Layanan Pengiriman dan Pengeposan"
   ],
   "fid": "0x2dd80069b55567f9:0xd211c0b639e02277",
   "cid": "15137091711456518775",
@@ -50,7 +50,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T11:44:04.796Z",
+  "scrapedAt": "2026-08-06T13:38:09.899Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,7 +59,7 @@
   "checkOutDate": null,
   "hotelAds": [],
   "popularTimesLiveText": "Sedikit sibuk",
-  "popularTimesLivePercent": 73,
+  "popularTimesLivePercent": 58,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -582,18 +582,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "07.00 to 21.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 21.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "07.00 to 21.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 21.00"
     },
@@ -608,6 +596,18 @@
     {
       "day": "Minggu",
       "hours": "08.00 to 13.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 21.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 21.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 21.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -626,8 +626,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Pos Gresik Manyar",
-      "reviewsCount": 61,
-      "totalScore": 2.5
+      "reviewsCount": 62,
+      "totalScore": 2.6
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -661,11 +661,11 @@
       "count": 12
     },
     {
-      "title": "paket",
+      "title": "alamat",
       "count": 8
     },
     {
-      "title": "alamat",
+      "title": "paket",
       "count": 8
     },
     {
@@ -713,11 +713,11 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNWXdjaEMtMlRzziaWl9oXXvY4n36jkGpeKo4y_-g71sVfCSBzFX4uPlcToNPzhcosRHU3s8OQpVhPoxlp6xTTmkrafmwG2ndvnQVp54vMb5ZD-RBscAk2XhYy5kcP-0Nm18CU=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmO1FhW1H0UDIGuoXBwF4QNGa9fxKRe92cGIGKjpZerhxdmZxjItwZZ-_A6XEVPOMUZ1a4dgN0mTerkpmcWr6t7THOXn9P6mbC4Ja4FWjwYkhJxHjq5pWRGGH1c_IBcyzzuZKo0=k-no",
         "postDate": "3 tahun lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmP2fJ9toesLxV-IwYAkEFoPg1GM-_60F_mfk1-lgSrRbGJAdi2VvM-sNdNlNrAwFUZM3_AXAayvXkBbJ0nCVZsHRhwoVIvQReOqGhYZn43DpBr-KvPr8h5cngIofVZlTljHeRhKYg=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPnDUM8Nr_DaNxemAbSMIQVLLxxig3NhgKvCP_EWB9m2pZavygBxhbfMhm7VKF7o6uBYfUwUi2wLlbolcz3UpQBDF_MgDlShUMMOTP6vyyxng9Jx7kT9ovP_FocR0R9Zw659Uh5Vg=k-no",
         "postDate": "3 tahun lalu"
       }
     ]
@@ -728,7 +728,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmLA5dL2SFP98jpSijhRYtbJhrVDAWiRSDvGbvJpKIlKBxHOv8b1OTN46g61xNUaX7MiL5pe4VyYN5vOhFOY3dtL691ePksl86eiiZPrcN8As4gzjtowmDPd6kQrheeU2M6MTeJZw=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3umHrdr0RjUwcV0FB76xiCOhAz6bcK5BKsicKvUBMIBe3hC0bH9bRUYSvNpcQ1esVeB_YZBmgWS6RxS7dVPaBLgtqYmJ8t9gyaONzT7Px52rPofaFJ4kKIhQ3wvIYJGHL_KGR9A=w408-h306-k-no",
   "kgmid": "/g/1hm2z5xgh",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -797,7 +797,7 @@
       "reviewerId": "113526632154179502029",
       "reviewerUrl": "https://www.google.com/maps/contrib/113526632154179502029?hl=id",
       "name": "Imanuel Gavriel",
-      "reviewerNumberOfReviews": 15,
+      "reviewerNumberOfReviews": 16,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXbBqAfPmcysYpkHzOOU_ykmFBytlyFDv9aeRGN6iIPmj879ElH=s1920-c-rp-mo-ba12-br100",
       "text": "pengiriman sangat lama, molor bbrp hari, ketika ditanya tidak solutif, hanya selalu diminta menunggu 1x24 jam. sampai kapan?",
@@ -828,7 +828,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK8P_ebJm2CC9AH_chWEdACzIIMBe-YO9GyLuU9qXBn5ET0OQ=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-26T11:41:32.511Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1Q01XNVpNbmxWY1doQk9FbDBlVlpUWm0xUmNGRRAB",
@@ -932,7 +932,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUf9fvHmMFV4gYwhTKJvZ72fZPtrycF5HZ9Z9mTjCZ92LSxdPP=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-03-29T11:19:46.978Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxUE9VSk1WekZPVjBZNWNtaGhNa0p6WlROaU1tYxAB",
@@ -958,7 +958,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVTKZbqztRzIFrD7-1Hq0AU6OlHkUgifVHRhigUcdxKfWIJ_7Jjvw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-03-26T09:45:36.026Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25SUmJWTlVNRmRwTm5rMmJUQmxWSEF6YkRNM00yYxAB",
@@ -981,10 +981,10 @@
       "name": "RIVKY Rama",
       "reviewerNumberOfReviews": 5,
       "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL8gGaLCof2H6dIYuCKwX6tbQdIoygxd9X_CbB7MR5PkDb2vg=s1920-c-rp-mo-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW03netAHn2XpXkfz27TB-D65kJeJe1f0HOMojmP7GH0CeJXdKe=s1920-c-rp-mo-br100",
       "text": "paket gw lama bgt nyangkut disini",
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-02-23T07:17:48.813Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WYWNqVklhRW8wTFhGRGNFeFJWVXRJUnpGc1ZXYxAB",
@@ -1031,7 +1031,7 @@
       "reviewerId": "102061223661637116456",
       "reviewerUrl": "https://www.google.com/maps/contrib/102061223661637116456?hl=id",
       "name": "Nisa Fifit",
-      "reviewerNumberOfReviews": 23,
+      "reviewerNumberOfReviews": 24,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUzc4u1LwtmrRWqknvFSHhQ_ZSml5kpm_Qfguaqtlv__N08iYYI=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor pos skrg pelayanan udah jadi lebih baik.. Jam 7 udah buka.. Terbantu sekali saya sbgai pekerja klw butuh kirim kirim barang... Pelayanan juga ramah ramah.",
@@ -1047,7 +1047,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOi9V3nKpr3cGIWyQub6UYVGSCrVbht-BwDjfc16ikiJU3HRFTPY3C3gPq3-BHBbQSgYWiHdVQ6LZ0nCCWO0NjqCTVLlcz9AEGvhMBCUpNH11Ntezh9M06fyM4qlB07WcSwAik6xVdT8zni=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPGFtwbB86xAwqn3A2DPuwqOYah2_cZSSqNbXaLYHzatmx1Vaot814GEjo8_rrfdDs8VMqzMCMJ_xCnMz23onhYdoUE09pYOpvZqiI51vvNnUE3-M01z6K4K4LsHUf9uY23r9hd6SpHGTYo=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1241,7 +1241,7 @@
       "reviewerId": "100146655347707837756",
       "reviewerUrl": "https://www.google.com/maps/contrib/100146655347707837756?hl=id",
       "name": "Alif Bagus Susanto",
-      "reviewerNumberOfReviews": 42,
+      "reviewerNumberOfReviews": 43,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV3r8d6lFg-y1pnDjCMKzGGnnpVRkAFrSr2O7qi3zI3Z88klQzW=s1920-c-rp-mo-ba12-br100",
       "text": "Bagus kta yusro",
@@ -1324,7 +1324,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXjWtlpIgyFp7T4kCjpMbsiRGToD98lQzLxRIcFgbGnw6F4B0pf=s1920-c-rp-mo-br100",
       "text": "Pelayanannya oke banget, hari libur pun tetep dilayani. Beli meterai ato kirim paket semuanya bisaa cepet!",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-04T02:35:18.146Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kdU1VUkNTMU5JV2xBNFdGSlBiQzFCUmtGRUxVRRAB",
@@ -1350,7 +1350,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXwqMpIHRAR5zQz6oOr3oz-jHqPce1yU1DN3_mzOH4zpWu6FRAKdA=s1920-c-rp-mo-br100",
       "text": "pelayanan baik, top mantab is the best",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T14:56:35.779Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxWWVrdzNZM0JXWDBGQ2IyZ3pYMXB3ZEUxaGFIYxAB",
@@ -1376,7 +1376,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXBfG8LlHE_SrQa4dtVx39u3-5QeYKvxGy4Z5NVbiM9kgNviQv-og=s1920-c-rp-mo-br100",
       "text": "Mantap, pelayanan oke. Staff ramah",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T13:41:58.218Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCSU9VcDZNblZuVFROT1RsSkljbDgwY0V3NWJWRRAB",
@@ -1402,7 +1402,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXuqR7PhCKwCUeiYHp9YxZbyIvoFrstMlUq-X8TqbXdQ6A_9mtsCg=s1920-c-rp-mo-br100",
       "text": "Pelayanannya oke banget, cepet + ramah. Bisa beli materai tanpa takut ada yg palsu, mantap 👍",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T13:40:58.473Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aV1pHMW1jWEYxYUZsWE5YSlNkbXAyWW5nNVFVRRAB",
@@ -1428,7 +1428,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKZDaxUr4lcttMnTmwzvRzoYXsWPo05xob-gBW_k0BzFUAhOQ=s1920-c-rp-mo-br100",
       "text": "Setiap hari buka, bahkan tanggal merah juga buka. Pengiriman tepat waktu juga",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T13:38:53.750Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xGaE4xWkVUVEpwYm1Sd01IbHhNbTVrZW5CTk9WRRAB",
@@ -1454,7 +1454,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKLzTaiIzFy8wKf6gDh-EZV12OH2juf4vr_l9VyV4MbBUmN3Q=s1920-c-rp-mo-br100",
       "text": "Pelayanan di loket cenderung cepat. Terus, paket juga cepat sampainya. Pos Indonesia semakin bagus, tingkatkan!!",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T13:38:12.349Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pGM1VVNDFaVzR5Y0dOcU1IVXlja3BYTlRkVU9HYxAB",
@@ -1475,12 +1475,12 @@
       "reviewerId": "110470713488135141961",
       "reviewerUrl": "https://www.google.com/maps/contrib/110470713488135141961?hl=id",
       "name": "Aldi Reynaldi",
-      "reviewerNumberOfReviews": 12,
+      "reviewerNumberOfReviews": 13,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWdaDcO1rAYeja7uZ_3wW0ccxFRiFnFpt8KiRc_kbyw8DYcTscm=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanan ok. Pas ada kendala disolusiin oleh cs nya lumayan gercep. Produk layanannya juga ternyata cukup banyak ya pos. Gak expect. Next bakal ke sana lagi kalo ada urusan² pembayaran/kirim paket.",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T13:34:53.791Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xaVFZrMVpOak5zZG5WTGR6Wk9jVjg1Y21SQk4zYxAB",
@@ -1506,7 +1506,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIq7y6i7UapuWKiNOiQJEIhvO3-Qi_Fy_Tltiq_Bp1u8_xu2g=s1920-c-rp-mo-br100",
       "text": "bebas, apik joss pelayanan pengiriman",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T13:29:52.116Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WTldYWk9Ta05MV2xaUmFGaE5NVXRuT1MxbGExRRAB",

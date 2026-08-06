@@ -46,7 +46,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-07-29T15:02:20.388Z",
+  "scrapedAt": "2026-08-06T16:33:27.531Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,7 +54,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -746,10 +746,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -771,6 +767,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -808,15 +808,6 @@
   ],
   "placesTags": [],
   "reviewsTags": [],
-  "gasPrices": [],
-  "url": "https://www.google.com/maps/search/?api=1&query=Gunung%20pegat%20makam%20mbah%20Romo&query_place_id=ChIJxy3BdC8FeC4R4rJqA0W-i74",
-  "searchPageUrl": "https://www.google.com/maps/search/Gunung%20pegat%20makam%20mbah%20Romo?hl=id",
-  "searchString": "Gunung pegat makam mbah Romo",
-  "language": "id",
-  "rank": 1,
-  "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn93vq5ieV0-5azQrjwkbpRvNMbwnT5Mflk1VEBnIo0ya5XE5Jl04fYk_IvaLxXRw161rLgDJxNpBKkdfDhMOt2T5rRdu110d364UxFE7VJNkZUIX-iQTf70xs5Pvz6mDJQykQ=w408-h544-k-no",
-  "kgmid": "/g/11jn3_tlv8",
   "additionalInfo": {
     "Fasilitas": [
       {
@@ -824,6 +815,15 @@
       }
     ]
   },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Gunung%20pegat%20makam%20mbah%20Romo&query_place_id=ChIJxy3BdC8FeC4R4rJqA0W-i74",
+  "searchPageUrl": "https://www.google.com/maps/search/Gunung%20pegat%20makam%20mbah%20Romo?hl=id",
+  "searchString": "Gunung pegat makam mbah Romo",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQIpEhwmEz9p3U53C_4nhQWreuDu68VNAec0T364V0UI-SZqM_9vQWGIYCtv0I4E4jYSYJP8Z_OUZQbfb7zKZLsMALiacqVxZOvVUxsFPQHEF1yc4SprVZf7xM6LI8HPO1emc=w408-h544-k-no",
+  "kgmid": "/g/11jn3_tlv8",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],

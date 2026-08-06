@@ -1,7 +1,7 @@
 {
   "kategori": "Kesehatan",
   "tempat": "Klinik RI Mabarrot Wringinanom",
-  "rating": 4.3,
+  "rating": 4.2,
   "total_ulasan": 24,
   "positif": 19,
   "netral": 0,
@@ -9,7 +9,20 @@
   "persen_positif": 79.2,
   "persen_netral": 0.0,
   "persen_negatif": 20.8,
+  "latitude": -7.3978735,
+  "longitude": 112.5300892,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Ainur Rosyidah",
+      "Bintang": 3,
+      "Tanggal": "2026-08-02T09:42:03.341Z",
+      "Ulasan": "Pelayanan bagus, tapi jutek bagian resepsionis dan juga beberapa kali sistem antrian ngga jelas.",
+      "teks_final": "pelayanan bagus jutek bagian resepsionis beberapa kali sistem antrian jelas",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9728
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "Vall",
@@ -262,17 +275,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9757
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Agam Alfatih",
-      "Bintang": 5,
-      "Tanggal": "2025-10-21T02:44:36.642Z",
-      "Ulasan": "pelayanan baik n ramah",
-      "teks_final": "pelayanan baik ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.995
     }
   ]
 }

@@ -45,7 +45,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T15:32:41.442Z",
+  "scrapedAt": "2026-08-06T17:02:23.463Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,7 +53,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
+  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -745,14 +745,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Kamis",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Jumat",
       "hours": "Buka 24 jAM"
     },
@@ -771,6 +763,14 @@
     {
       "day": "Selasa",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
     }
   ],
   "peopleAlsoSearch": [
@@ -783,8 +783,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Bekas Jalur Kereta PT Petrokimia Gresik",
-      "reviewsCount": 1,
-      "totalScore": 5
+      "reviewsCount": 2,
+      "totalScore": 4.5
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -834,7 +834,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlwLtKcIUWrlCdGjwsZoQudEmjCSNsVlFZYd-NFcpxGNsdAHbmfYUgCDZxX9FA6ULMzhampuuKr8qAPHoRqDSbGTl74_VqwrnmPNLGj_WxedQ6WdcgowssMO9_jHldI9z890HE=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOv1KSv_4CgSZjZ71XxeUZzDLRANeWnO6F5VRkdx_S-6ECi097btHy5D-qN_irFt6AUGUd2uMjNQh_5wfGgWRTa3HmPCsuQSjrHxrj-5ldP-qmvK4WANebXLMWc1rRqTLAalg=w408-h306-k-no",
   "kgmid": "/g/11btvg983k",
   "questionsAndAnswers": [],
   "webResults": [],

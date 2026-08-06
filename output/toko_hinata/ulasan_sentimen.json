@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Wisata",
   "tempat": "Toko Hinata",
   "rating": 4.9,
   "total_ulasan": 2,
@@ -9,9 +9,11 @@
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": null,
+  "longitude": null,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Kirei Anindiawati",
       "Bintang": 5,
       "Tanggal": "2023-01-08T15:32:18.443Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9971
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "kucel baka",
       "Bintang": 5,
       "Tanggal": "2022-03-04T09:40:36.707Z",

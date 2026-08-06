@@ -1,5 +1,5 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Wisata",
   "tempat": "Pulau Cena",
   "rating": 4.5,
   "total_ulasan": 2,
@@ -9,9 +9,11 @@
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -5.7721982,
+  "longitude": 112.5866809,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Najha Huda",
       "Bintang": 4,
       "Tanggal": "2026-02-26T16:14:37.521Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.9284
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Harisuddin",
       "Bintang": 5,
       "Tanggal": "2024-04-07T01:28:02.293Z",

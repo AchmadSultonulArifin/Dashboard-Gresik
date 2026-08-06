@@ -3,13 +3,48 @@
   "tempat": "RSU Denisa Gresik",
   "rating": 4.8,
   "total_ulasan": 30,
-  "positif": 24,
-  "netral": 2,
-  "negatif": 4,
-  "persen_positif": 80.0,
-  "persen_netral": 6.7,
-  "persen_negatif": 13.3,
+  "positif": 25,
+  "netral": 3,
+  "negatif": 2,
+  "persen_positif": 83.3,
+  "persen_netral": 10.0,
+  "persen_negatif": 6.7,
+  "latitude": -7.167659,
+  "longitude": 112.597896,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Eva diah Ardiani",
+      "Bintang": 5,
+      "Tanggal": "2026-08-06T10:04:44.030Z",
+      "Ulasan": "dr. Obgyn dan asistennya sangat ramah, saat menjelaskan hasil USG sangat detail baget.",
+      "teks_final": "obgyn asistennya ramah menjelaskan hasil usg detail baget",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9644
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "affliate pribadi",
+      "Bintang": 1,
+      "Tanggal": "2026-07-30T10:11:58.716Z",
+      "Ulasan": "pelayanan farmasi sangat lama, antri lebih dulu justru dapat lebih lama dibandingan antri lebih lama",
+      "teks_final": "pelayanan farmasi lama antrian dulu justru lama dibandingan antrian lama",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9803
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Balqisya Islammita",
+      "Bintang": 5,
+      "Tanggal": "2026-07-29T01:05:50.721Z",
+      "Ulasan": "Dari awal Hamil sampai sekarang selalu ke Denisa, the best lah pelayanannya, apalagi Dr. Rio, dokter yang humble, friendly, udahlah masyaAllah pokoknya 👍🏻🤩🤩 Josss jiss Denisa",
+      "teks_final": "awal hamil sampai sekarang selalu denisa the best pelayanannya apalagi rio dokter humble friendly udahlah masyaallah pokoknya josss jiss denisa",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9976
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "fahmi ashari",
@@ -210,17 +245,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "ANIS CHOIRUN NISA'",
-      "Bintang": 1,
-      "Tanggal": "2026-06-17T21:39:40.862Z",
-      "Ulasan": "PELAYANAN PENDAFTAARANYA SANGAT KURANG BAIK AGAK JUDES WAKTU MENJELASKANYA MOHON DI PERBAIKI LAGI",
-      "teks_final": "pelayanan pendaftaaranya kurang baik agak judes waktu menjelaskanya mohon perbaiki",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9935
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "leili yatur rohma",
       "Bintang": 5,
       "Tanggal": "2026-06-17T14:49:01.795Z",
@@ -317,28 +341,6 @@
       "topik": "Kesehatan",
       "sentimen": "Netral",
       "sentimen_score": 0.9488
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Siti Sholichah",
-      "Bintang": 1,
-      "Tanggal": "2026-06-02T12:47:34.684Z",
-      "Ulasan": "Dokter poli kandungan jadwalnya seharusnya jam 19:00 sudah mulai tapi sampai 19:45 lebih belum datang kasian para bumil pada nunggu luamaaaa..sekaliii mana pinggang buat duduk lama sakit capekk apalagi yang usia kandungannya udah 8 bulan",
-      "teks_final": "dokter poli kandungan jadwalnya seharusnya jam mulai sampai datang kasian para bumil nunggu luamaaaa sekaliii mana pinggang buat duduk lama sakit capekk apalagi usia kandungannya udah bulan",
-      "topik": "Kesehatan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9933
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Anis Choirun Nisa'",
-      "Bintang": 1,
-      "Tanggal": "2026-05-29T22:04:12.132Z",
-      "Ulasan": "untuk pelayanan pendaftaranya sangat lambat sekali dan penjelasanya sangat susah di mengerti apalagi yg mas masnya kurang rama sekali dalam pelayananya maaf kasih reting bintang 1 dulu kak",
-      "teks_final": "pelayanan pendaftaranya lambat penjelasanya susah mengerti apalagi mas masnya kurang rama pelayananya maaf kasih reting bintang dulu kak",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9966
     }
   ]
 }

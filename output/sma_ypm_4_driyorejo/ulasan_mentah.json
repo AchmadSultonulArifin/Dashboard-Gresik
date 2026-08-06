@@ -35,13 +35,8 @@
   "cid": "3770035228443779426",
   "reviewsCount": null,
   "imagesCount": 26,
-  "imageCategories": [
-    "Semua",
-    "Oleh pemilik",
-    "Video",
-    "Street View & 360°"
-  ],
-  "scrapedAt": "2026-07-29T11:34:54.972Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-06T14:46:25.263Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,10 +48,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "07.00 to 15.00"
-    },
     {
       "day": "Kamis",
       "hours": "07.00 to 15.00"
@@ -80,14 +71,14 @@
     {
       "day": "Selasa",
       "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 15.00"
     }
   ],
   "additionalOpeningHours": {
     "Jam layanan online": [
-      {
-        "day": "Rabu",
-        "hours": "Buka 24 jam"
-      },
       {
         "day": "Kamis",
         "hours": "Buka 24 jam"
@@ -111,41 +102,14 @@
       {
         "day": "Selasa",
         "hours": "Buka 24 jam"
+      },
+      {
+        "day": "Rabu",
+        "hours": "Buka 24 jam"
       }
     ]
   },
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "SMA DARUL ULUM DRIYOREJO",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "SMA AL-FURQON DRIYOREJO",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "SMP YPM-5 Driyorejo",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "SMA DAN MTs. RADEN FATAH DRIYOREJO",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "SMA Muhammadiyah 4 Sidayu",
-      "reviewsCount": 0,
-      "totalScore": 0
-    }
-  ],
+  "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [],
   "additionalInfo": {
@@ -165,7 +129,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWla6Lb6iXfzERv8juRFXojKzZ7mmTUho81CS1kMJ_7mD3kYUC4QW40iX3bBcIUpmhjRsGNoEz1BGp_dpf2zPJFpu_BMYmg_jtTzMOcDRO72hkCB7mEtnPm_CRvWdliLF50GaDV92Re2LZLB=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlONjffSHKm3N5bxlra8nt4sndwi7L2cK0Ga-Ljqp79RtGdyZFHiBmoIF6MDhdgHzCJn-PYxSE3Y7MdYiKVzZDGyLXFiLUF2Yd9exLucAn_pzdlINWF9H5T69ciupcr-90zgI1VzQAvS-m_=w426-h240-k-no",
   "kgmid": "/g/11cp5fc1dc",
   "questionsAndAnswers": [],
   "webResults": [],

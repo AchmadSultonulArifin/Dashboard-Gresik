@@ -1,5 +1,5 @@
 {
-  "kategori": "Pelayanan Publik",
+  "kategori": "Wisata",
   "tempat": "Pos Copler",
   "rating": 4.6,
   "total_ulasan": 2,
@@ -9,9 +9,11 @@
   "persen_positif": 50.0,
   "persen_netral": 50.0,
   "persen_negatif": 0.0,
+  "latitude": -7.2514625,
+  "longitude": 112.4825781,
   "ulasan": [
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Mas Oke",
       "Bintang": 5,
       "Tanggal": "2024-08-06T09:44:07.249Z",
@@ -22,7 +24,7 @@
       "sentimen_score": 0.664
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Wisata",
       "Nama Reviewer": "Han Copler",
       "Bintang": 5,
       "Tanggal": "2018-04-12T09:04:51.828Z",

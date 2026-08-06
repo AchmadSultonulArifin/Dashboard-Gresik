@@ -48,7 +48,7 @@
     "Anjungan tunai mandiri",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:47:11.650Z",
+  "scrapedAt": "2026-08-06T15:24:14.473Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -56,7 +56,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -748,10 +748,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
     },
@@ -773,6 +769,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
       "hours": "Buka 24 jAM"
     }
   ],
@@ -817,7 +817,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHda_1FP8Va9inoZlRaK9U8dY3ureKh0DrUWKSCShI16mWjkMy-8xdBcLnk8XdkGvZ4nC6_VOnDF8L5-17PD6vtC5cEZqm-eOkUp1MBipKoBqry9msiXWE4poBsQqS7lQwhKKJxxdevur3vG5cxnVCOtW561VUHBQB4NtyPPuMl4ECUgpJdQrgHotVBG_eaa0eQ4bM=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGSu0vH-zCJsN4ST1vmv2CNhzuS_ax9XF5b8Am9LsZPaQ9mTcJl12jaWZUcTabXzmEXc1vGd9rfNlBn0V8RZVuHGoMgW6jPWQ5iXgIE7zwYHwLxeHLVRU8BYOtCRPlsO3yDVD0C-HIn5_aHHQ5V1kSr_lVhSqi7V5kenzs7-X5zFO97tg0Upu1sGQt60yaAIf1xMo4=w408-h306-k-no",
   "kgmid": "/g/11b5wl5wtr",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -860,7 +860,7 @@
       "reviewerId": "107791034391193298024",
       "reviewerUrl": "https://www.google.com/maps/contrib/107791034391193298024?hl=id",
       "name": "Raden Mas Ifan",
-      "reviewerNumberOfReviews": 295,
+      "reviewerNumberOfReviews": 296,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVpYLVe4F_wImwSLGnxsOXr4h3T5kM_Pp66EgK_YV0Jr1QSFFzO=s1920-c-rp-mo-ba12-br100",
       "text": "Ada disisi barat ... pintu masuk",
@@ -876,8 +876,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPhthQjAHivYamqVGSFr5HBzxWHsY0xsXvI2IRtWc-_slaO-AxPArQQbNk6b-6Xi7Ir0hWsO1N6VugylQYHOrWnEwfKudtdKsuSeqb8ZY9KE14X3wZ72ynpBY2-ZZFd6J93TxSW=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOTMtKyhFP4US8tZrX2Asff5XpxQ-697CDdAhyMYlkMr69IkKXuHVlJ3tGvgRvP3eFj4yu_x7DOmFS-gz6RcpQyKRtgJSSv4XrFaRNHMLDzrYT4zhVuHANtEx3BIJHOq7JdoW-HMQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMXu_Inrn0ZU2O1H6PKwev-1gQxmpCP9wC5NQB4MRsuMSpBneyDrRfaMAVNfPlJJR6FexlQXyTzYInKL7-ivonYB-_IVvF-lTMJW04olkHI5WqZKBQ_p74nd7dqglrOTwqL2RM9=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOVCfSJe9ShkwqchvjPqfhAU2Rz78tsZp1yIYpJuUOkXVoSzFYn1HCoATjeblYe62WPrC7CTYKihMddB57qz4i_0zSR0lyeRBzK_AGEAi5d0QNICA8eIgZ-P0eKcTc_jYTxL7Pwzw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},

@@ -40,7 +40,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T12:28:58.572Z",
+  "scrapedAt": "2026-08-06T15:01:59.917Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -426,10 +426,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "07.00 to 15.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 15.00"
     },
@@ -452,14 +448,14 @@
     {
       "day": "Selasa",
       "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 15.00"
     }
   ],
   "additionalOpeningHours": {
     "Jam layanan online": [
-      {
-        "day": "Rabu",
-        "hours": "07.00–15.00"
-      },
       {
         "day": "Kamis",
         "hours": "07.00–15.00"
@@ -482,6 +478,10 @@
       },
       {
         "day": "Selasa",
+        "hours": "07.00–15.00"
+      },
+      {
+        "day": "Rabu",
         "hours": "07.00–15.00"
       }
     ]
@@ -547,7 +547,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl732KZeIorEKd7_v0ZT2B7AlnoXfFVG6eMk3S8YD9nisy8fpV0FPF2WOmcM4yjBlLARBNhjSSgoFZHi22V5e00WXDE07qBpfEdrcbXSwFKNXzgQR3UZAY8a1BwgNFgajIoqsdWrA=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlm6Guswkvs_Yd5Buci5T2uBRIx7x_U1TxfmAUdzOvP1K0Sn-srfgmVNGKiFzgzEltCxO6jeWT9dB1EucGD3TG0vtkqdRUoCGBZPuvLGZ9Rhq7e539qDbPS25kAnNe6erZWjEFmgQ=w426-h240-k-no",
   "kgmid": "/g/1hm681bvw",
   "questionsAndAnswers": [],
   "webResults": [],

@@ -9,7 +9,20 @@
   "persen_positif": 78.6,
   "persen_netral": 7.1,
   "persen_negatif": 14.3,
+  "latitude": -7.233978,
+  "longitude": 112.5608055,
   "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Nama Reviewer": "imam syaifudin",
+      "Bintang": 5,
+      "Tanggal": "2026-08-01T08:41:12.336Z",
+      "Ulasan": "Sekolah berkualitas",
+      "teks_final": "sekolah berkualitas",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
     {
       "Kategori": "Pendidikan",
       "Nama Reviewer": "Muhammad Febri Nurdiansyah",
@@ -152,17 +165,6 @@
       "topik": "Keamanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9799
-    },
-    {
-      "Kategori": "Pendidikan",
-      "Nama Reviewer": "Alif Mardiana Devi",
-      "Bintang": 5,
-      "Tanggal": "2024-06-21T03:11:25.476Z",
-      "Ulasan": "Excellent 👍",
-      "teks_final": "excellent",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9946
     }
   ]
 }

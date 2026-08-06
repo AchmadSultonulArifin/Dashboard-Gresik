@@ -2,13 +2,15 @@
   "kategori": "Wisata",
   "tempat": "Wisata Bukit Surowiti",
   "rating": 4.4,
-  "total_ulasan": 13,
-  "positif": 12,
+  "total_ulasan": 12,
+  "positif": 11,
   "netral": 1,
   "negatif": 0,
-  "persen_positif": 92.3,
-  "persen_netral": 7.7,
+  "persen_positif": 91.7,
+  "persen_netral": 8.3,
   "persen_negatif": 0.0,
+  "latitude": -6.9352624,
+  "longitude": 112.4512629,
   "ulasan": [
     {
       "Kategori": "Wisata",
@@ -141,17 +143,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.994
-    },
-    {
-      "Kategori": "Wisata",
-      "Nama Reviewer": "rohmad wahyudin",
-      "Bintang": 5,
-      "Tanggal": "2024-06-09T04:58:03.064Z",
-      "Ulasan": "tempat yang masih sangat asri dan memiliki hawa yang sejuk serta pemandangan yang indah",
-      "teks_final": "tempat asri memiliki hawa sejuk serta pemandangan indah",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9972
     }
   ]
 }

@@ -9,7 +9,31 @@
   "persen_positif": 92.6,
   "persen_netral": 0.0,
   "persen_negatif": 7.4,
+  "latitude": -7.2708906,
+  "longitude": 112.4427568,
   "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Yudiarto 123",
+      "Bintang": 5,
+      "Tanggal": "2026-07-27T07:28:34.052Z",
+      "Ulasan": "Pelayanan cocok bagus top",
+      "teks_final": "pelayanan cocok bagus top",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9974
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Sunar",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T07:10:57.702Z",
+      "Ulasan": "Pelayanannya bagus",
+      "teks_final": "pelayanannya bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9974
+    },
     {
       "Kategori": "Kesehatan",
       "Nama Reviewer": "rtno",
@@ -284,28 +308,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.904
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Nayla Isa",
-      "Bintang": 5,
-      "Tanggal": "2026-05-07T07:32:59.805Z",
-      "Ulasan": "Mantap betul",
-      "teks_final": "bagus betul",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9954
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Nayla Ramadani",
-      "Bintang": 5,
-      "Tanggal": "2026-05-07T07:32:13.310Z",
-      "Ulasan": "Bagus untuk keseluruhan",
-      "teks_final": "bagus keseluruhan",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9938
     }
   ]
 }

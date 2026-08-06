@@ -33,14 +33,14 @@
   ],
   "fid": "0x24fd230c264804bd:0xaf14abb2825b1a2e",
   "cid": "12615897239351138862",
-  "reviewsCount": 49,
+  "reviewsCount": 48,
   "imagesCount": 5,
   "imageCategories": [
     "Semua",
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T14:55:20.952Z",
+  "scrapedAt": "2026-08-06T16:27:06.475Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -52,14 +52,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 16.00"
-    },
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -78,6 +70,14 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
       "hours": "08.00 to 16.00"
     }
   ],
@@ -151,14 +151,14 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnv19TjMOfd6HN7cstfP3IK6S8pLfHm7IOQFiWT3hcC2fM4orAo9t_EMx9sKqulM0dO6LzQHb5mOLLjCQFT5Cq-0uYqFJ9K_CGz9ijhcHUjUmp3wKmSNyuMq8LtNX2XoZ4nhY15=w408-h419-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmy9GZnbahUf6DxMFEcRLzQj5oWJFRm-uRjURPSIgznQN2bN_kP7dfCMaWHP5wgDGixdmYwC5jQXq_oAysOfXRg1OzfXQsdyu8sE25b72XSOQavkLZ9wbjW8_Ry8O7HatSkOLfY=w408-h419-k-no",
   "kgmid": "/g/11vql9shls",
   "reviewsDistribution": {
     "oneStar": 0,
     "twoStar": 0,
     "threeStar": 0,
     "fourStar": 0,
-    "fiveStar": 49
+    "fiveStar": 48
   },
   "questionsAndAnswers": [],
   "webResults": [],

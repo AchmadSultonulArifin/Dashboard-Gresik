@@ -9,6 +9,8 @@
   "persen_positif": 78.3,
   "persen_netral": 17.4,
   "persen_negatif": 4.3,
+  "latitude": -7.3484509,
+  "longitude": 112.634427,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
@@ -188,17 +190,6 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Reni Dwidamayanti",
-      "Bintang": 5,
-      "Tanggal": "2022-12-23T00:52:04.000Z",
-      "Ulasan": "klinik rumah sehat tenaru pelayananya sangat rama memiliki perawatan medis, herbal, dan berbagai macam terapi, Jaga kesehatanmu sebelum datang sakitmu.",
-      "teks_final": "klinik rumah sehat tenaru pelayananya rama memiliki perawatan medis herbal berbagai macam terapi jaga kesehatanmu datang sakitmu",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9345
-    },
-    {
-      "Kategori": "Kesehatan",
       "Nama Reviewer": "Mifthahul Abidin",
       "Bintang": 5,
       "Tanggal": "2022-12-23T00:15:52.641Z",
@@ -262,6 +253,17 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9769
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Nama Reviewer": "Mufid Rosyadi",
+      "Bintang": 5,
+      "Tanggal": "2022-06-29T03:03:16.526Z",
+      "Ulasan": "Tempat yg nyaman dg terapis yg ramah.",
+      "teks_final": "tempat nyaman terapis ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
     }
   ]
 }

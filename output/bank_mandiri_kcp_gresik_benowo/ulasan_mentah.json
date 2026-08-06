@@ -33,13 +33,13 @@
   ],
   "fid": "0x2e7801d067f9e527:0x78b7e532d9bdf168",
   "cid": "8698673211853631848",
-  "reviewsCount": 278,
+  "reviewsCount": 279,
   "reviewsDistribution": {
     "oneStar": 15,
     "twoStar": 5,
     "threeStar": 2,
     "fourStar": 1,
-    "fiveStar": 255
+    "fiveStar": 256
   },
   "imagesCount": 18,
   "imageCategories": [
@@ -49,7 +49,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T14:36:29.339Z",
+  "scrapedAt": "2026-08-06T15:58:27.753Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -435,10 +435,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "08.00 to 15.00"
-    },
-    {
       "day": "Kamis",
       "hours": "08.00 to 15.00"
     },
@@ -460,6 +456,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "08.00 to 15.00"
     }
   ],
@@ -485,7 +485,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Bank Mandiri Usman Sadar",
-      "reviewsCount": 305,
+      "reviewsCount": 304,
       "totalScore": 4.9
     },
     {
@@ -503,7 +503,7 @@
     },
     {
       "title": "security",
-      "count": 16
+      "count": 17
     },
     {
       "title": "orang",
@@ -526,15 +526,15 @@
       "count": 4
     },
     {
+      "title": "niatnya",
+      "count": 3
+    },
+    {
       "title": "transaksi",
       "count": 3
     },
     {
       "title": "livin",
-      "count": 2
-    },
-    {
-      "title": "mba",
       "count": 2
     }
   ],
@@ -558,7 +558,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNbK3ZTZf_xTARczhxA6hh4tNxx4xLPAqldfbLwt7zaZEjnlJKhD9-Hrs5DVpb8wUxFGvv7qUrRPobdc9JG8EuEOklO3HHiYCOrtYyWqr3GU6oa9HsfPIBIzAel-R4YjVg8CsxBLXy_jJQ=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPwtMSkARe-5r-AsKQn5MMvheuc7RrVtdDcgH-t_sjtC6Ci31YFkOB5tPLT2gk37D3gzL_KtcxVW2xpYMSuxq40pitobShdcTVvklVYuB3PWid9crU1lysBBEhSPDxVnvtyEqwRGrOh8Ng=k-no",
         "postDate": "2 bulan lalu"
       }
     ]
@@ -569,7 +569,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRTCzPKl618dVYmG0JZjwzCdGQwF06ij6EPO3G0emXo01RHzTp7abNltBCQKaGOMwGwC8FaKxoB45kbHhsP6Wckbw6ejKedyyVDgNtp8AfhD0kajp9bYEaNK5QcRQl7Q7YKV_1UrMLdORP=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmVM59FbzjJt2OFyECMEplVP3L7ESgptpt6TqyjncmC1Ty80NNW5xIXv7324WTQ6Mfbmmd61m2aW829wp2FC2PAR19iUJR4nAz84YY2-YjYqVvDymBTM6K4grvFs1M7s7Cs3OsHR58RC9VX=w408-h544-k-no",
   "kgmid": "/g/11y3hxs_vs",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -583,15 +583,41 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "113366792059838651340",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113366792059838651340?hl=id",
+      "name": "Marsya Ananda",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJtdm_rGboUDT7D2nSAygAsIZrqCVGyw1i3txiamjfA5yAkdQ=s1920-c-rp-mo-br100",
+      "text": "Pelayanan terbaik untuk teller dan cs nya",
+      "textTranslated": null,
+      "publishAt": "Diedit 11 jam lalu",
+      "publishedAtDate": "2026-08-06T04:27:02.017Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOVmRqQTNNek54VGtOc09YUlFZa2hqVkZOcVNIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOVmRqQTNNek54VGtOc09YUlFZa2hqVkZOcVNIYxAB!2m1!1s0x0:0x78b7e532d9bdf168!3m1!1s2@1:CAIQACodChtycF9oOjNVdjA3MzNxTkNsOXRQYkhjVFNqSHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "115689833029653580487",
       "reviewerUrl": "https://www.google.com/maps/contrib/115689833029653580487?hl=id",
       "name": "Sumardi Agung",
-      "reviewerNumberOfReviews": 0,
+      "reviewerNumberOfReviews": 1,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWGIrhZj8D49pGDpenST7356w5FBur8zYOBc_yUEPPj1AP7Pwg=s1920-c-rp-mo-br100",
       "text": "Minta bantuan security tapi kyk g niat bntuin tdk ada senyum2 nya jg pda nasabah",
       "textTranslated": null,
-      "publishAt": "5 jam lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-29T08:54:46.454Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21oTGJVVjZVVXRtTTNaNmEzZGxNMTgwVTFSd2EyYxAB",
@@ -617,7 +643,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWTuxonQFHvEWjVj4xbh8X13HB9R1-S5fkQrR5c2eq5IwsxtznW=s1920-c-rp-mo-ba12-br100",
       "text": "Clean and Best customer service",
       "textTranslated": "Kebersihan dan pelayanan pelanggan terbaik",
-      "publishAt": "4 hari lalu",
+      "publishAt": "seminggu lalu",
       "publishedAtDate": "2026-07-25T07:25:58.245Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSaldXdHRiRXBoWkVJek4yZHJkMUJSTUVWVlJFRRAB",
@@ -643,7 +669,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ22ipaYldQcWEoTjvbTqwONBkEvi2d7G938_tcjc2jIQFcnQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-15T02:02:56.177Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WbE9HZG5iUzF4TW5KeFdWTk5aeTA0TjBWaVpFRRAB",
@@ -669,7 +695,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLf3QC9OSVdIu11Yu3bPD7P5BIplX24o3VH5zq_s9SZahrPKw=s1920-c-rp-mo-br100",
       "text": "Pelayanannya cepat dan sangat ramah. Saya sangat terbantu",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-08T04:42:33.869Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21aek0yUktabDgyU1ZsMVkya3lUMk5DYVU1dmNtYxAB",
@@ -695,7 +721,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ0lNJKkjjk4MjagGSsLjRz53jr7IkYonoo_APqg_SM9H-WqQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "Diedit 3 minggu lalu",
+      "publishAt": "Diedit 4 minggu lalu",
       "publishedAtDate": "2026-07-08T04:24:24.059Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25rNFQwaDBURTFqVWtwWWRGOHhNbWx1YVRCYVoyYxAB",
@@ -721,7 +747,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJyEmEizGPSK5TmzESDZmJwHmd-bFKxf_YzcVdG0eR7tc_LiA=s1920-c-rp-mo-br100",
       "text": "Keren untuk security.nya. pagi ini saya ke mesin ATM untuk penarikan uang tapi terkendala kartu saya rusak. Berhubung saya terburu2, saya dibantu oleh pak satpam untuk penarikan uang tanpa kartu di mesin ATM. Saya sangat terbantu sekali. Sehat2 ya pak",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-08T03:48:54.034Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSeVpuWllWWEZpWWpkQ1VXbDFPRmRUY20xTGRtYxAB",
@@ -747,7 +773,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVYRblDb-mUgvh1b7XGxD6Tzro8fxhx0M-Um2ujrHkFz8bCzZWG=s1920-c-rp-mo-br100",
       "text": "pelayanan nyaa cepatt cs tellar tanggap terimakasih",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-08T03:44:22.405Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21SdVpFZHhVREJsVWpWTlltOUxiVXhTUWpaTU5FRRAB",
@@ -773,7 +799,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJcAVXd5XGfh5g82BiF-xBIOZ0T_pCdy8eoGMeuBWVHvY0i1A=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-08T03:22:31.262Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sNGEzZ3pSM2RFWWtFd00yazBkelUzWm5GeVgyYxAB",
@@ -799,7 +825,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIksYkup-zyDQZkgoVc8wHEe9xqUdPyj2ri5__bSiKYPpMrrQ=s1920-c-rp-mo-br100",
       "text": "Pelayanan ramah, tapi lama bangeetttt\nUdah nunggu lama ternyata kendala masih berlanjut dan harus balik lagi besok nya\nBuang buang waktu huh",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-03T09:56:29.796Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT20xWFYyZDBaV0ZUZVZaWldWOTNSa0Z2YlRVMFpGRRAB",
@@ -929,7 +955,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVsA-weYX3uIc0xuOgX2bTn2PxIs4NH0HwzJzNlWzIuiS5qPV8=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-05T06:58:28.941Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25ORU4yazVUV0UxVTA1ZlQwTXlkMEY1TXkxMlZIYxAB",
@@ -966,7 +992,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOxzhWf4nFgdMz1CMY8iD7rjbNYXi46d-5QOKLPetVTQ0mVNXl0KwCaPtaQGRhJDHY-kaEcKOD6kZ03XjhYaGea3jx74OHe7-wj37Lz-AFHIZfSYRCwGkaklw_H5e8MdWDAY-sQE2UikXSt=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOElRefmW2nZp5GsUkXPOdQIdEdr1GEBJFzKAjzJlSN3Pxq49VmZf4cTfyYtP61HfP34zQCYNE6PSpnFgITZ1OyK4kh7UPs1k0QNfY6dTygb_51mKuymAeIWKexmYP37rqzqYBDWO7Yu6u7=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1113,7 +1139,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIYigAQt2c_na2OiFDHSqlpquqbg7Ru0WLwXMU42xykGLy7Ig=s1920-c-rp-mo-br100",
       "text": "Cs pelayan cepat tanggap teramah yg ada",
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-02T03:54:22.580Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205a1IxZzRUbk5rZVZCd2R6aEdaRWhGWW05TVVXYxAB",
@@ -1326,32 +1352,6 @@
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paeVpGVXpibWhNZW14dWQzWlBNRXMwYW10c1IzYxAB",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2paeVpGVXpibWhNZW14dWQzWlBNRXMwYW10c1IzYxAB!2m1!1s0x0:0x78b7e532d9bdf168!3m1!1s2@1:CAIQACodChtycF9oOjZyZFUzbmhMemxud3ZPMEs0amtsR3c%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "105645743986957361951",
-      "reviewerUrl": "https://www.google.com/maps/contrib/105645743986957361951?hl=id",
-      "name": "Alvina Rahmawati",
-      "reviewerNumberOfReviews": 2,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWy20LUGjunr4wP1GdI-J2fPW33XSIaQyhmCDO01uVMdOtWtSio=s1920-c-rp-mo-br100",
-      "text": "Pertama kali ke sini, tellernya cpt transaksinya. Sangat informatif juga waktu sy tanya. Sgt membantu. Terima kasih",
-      "textTranslated": null,
-      "publishAt": "5 bulan lalu",
-      "publishedAtDate": "2026-02-18T04:02:58.924Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21JNVNHZE1OREZqTUUwdGNFRXlZMk5QUTJKTlMzYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21JNVNHZE1OREZqTUUwdGNFRXlZMk5QUTJKTlMzYxAB!2m1!1s0x0:0x78b7e532d9bdf168!3m1!1s2@1:CAIQACodChtycF9oOmI5SGdMNDFjME0tcEEyY2NPQ2JNS3c%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,

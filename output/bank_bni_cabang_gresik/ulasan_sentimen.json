@@ -9,6 +9,8 @@
   "persen_positif": 87.5,
   "persen_netral": 12.5,
   "persen_negatif": 0.0,
+  "latitude": -7.1719073,
+  "longitude": 112.6530609,
   "ulasan": [
     {
       "Kategori": "Perbankan",
@@ -166,17 +168,6 @@
     },
     {
       "Kategori": "Perbankan",
-      "Nama Reviewer": "Tony Gatot",
-      "Bintang": 5,
-      "Tanggal": "2022-07-11T12:36:07.059Z",
-      "Ulasan": "Pelayanan cepat ,pegawai nya ramah",
-      "teks_final": "pelayanan cepat pegawai ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9955
-    },
-    {
-      "Kategori": "Perbankan",
       "Nama Reviewer": "Dian Rifky",
       "Bintang": 5,
       "Tanggal": "2022-07-11T12:33:47.567Z",
@@ -185,6 +176,17 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9936
+    },
+    {
+      "Kategori": "Perbankan",
+      "Nama Reviewer": "LafiN 23",
+      "Bintang": 5,
+      "Tanggal": "2022-07-11T12:28:37.006Z",
+      "Ulasan": "Pelayanan sangat memuaskan, sukses selalu BNI Gresik",
+      "teks_final": "pelayanan memuaskan sukses selalu bni gresik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9896
     }
   ]
 }

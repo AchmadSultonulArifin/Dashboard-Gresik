@@ -1,17 +1,41 @@
 {
-  "kategori": "Lainnya",
+  "kategori": "Olahraga",
   "tempat": "Stadion Gelora Joko Samudro (GJS)",
   "rating": 4.4,
-  "total_ulasan": 10,
-  "positif": 8,
+  "total_ulasan": 12,
+  "positif": 10,
   "netral": 2,
   "negatif": 0,
-  "persen_positif": 80.0,
-  "persen_netral": 20.0,
+  "persen_positif": 83.3,
+  "persen_netral": 16.7,
   "persen_negatif": 0.0,
+  "latitude": -7.1854227,
+  "longitude": 112.6508156,
   "ulasan": [
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
+      "Nama Reviewer": "rifqi harish",
+      "Bintang": 5,
+      "Tanggal": "2026-07-30T01:46:09.201Z",
+      "Ulasan": "Stadion yg cukup ikonik di kota gresik yg banyak pabrik",
+      "teks_final": "stadion cukup ikonik kota gresik banyak pabrik",
+      "topik": "Administrasi",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9187
+    },
+    {
+      "Kategori": "Olahraga",
+      "Nama Reviewer": "falisha humaira bustommy",
+      "Bintang": 5,
+      "Tanggal": "2026-07-28T09:03:35.823Z",
+      "Ulasan": "Stadion kebanggan kota Gresik",
+      "teks_final": "stadion kebanggan kota gresik",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8356
+    },
+    {
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Kusminto",
       "Bintang": 5,
       "Tanggal": "2026-07-20T06:20:33.832Z",
@@ -22,7 +46,7 @@
       "sentimen_score": 0.9954
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Zain",
       "Bintang": 5,
       "Tanggal": "2026-07-17T07:24:36.875Z",
@@ -33,7 +57,7 @@
       "sentimen_score": 0.9907
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Farah Layla R",
       "Bintang": 3,
       "Tanggal": "2026-07-12T04:24:53.290Z",
@@ -44,7 +68,7 @@
       "sentimen_score": 0.9917
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "syuhada amirul",
       "Bintang": 5,
       "Tanggal": "2026-07-10T02:27:56.548Z",
@@ -55,7 +79,7 @@
       "sentimen_score": 0.9915
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Nur Huda",
       "Bintang": 5,
       "Tanggal": "2026-07-06T23:04:19.513Z",
@@ -66,7 +90,7 @@
       "sentimen_score": 0.9954
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Taefur Yulianto",
       "Bintang": 5,
       "Tanggal": "2026-06-29T00:00:04.794Z",
@@ -77,7 +101,7 @@
       "sentimen_score": 0.841
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Amira Surabaya",
       "Bintang": 5,
       "Tanggal": "2026-06-15T17:23:06.972Z",
@@ -88,7 +112,7 @@
       "sentimen_score": 0.9893
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Arif Hidayat",
       "Bintang": 4,
       "Tanggal": "2026-06-07T01:55:17.641Z",
@@ -99,7 +123,7 @@
       "sentimen_score": 0.6899
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Tamam Mujadidi17",
       "Bintang": 4,
       "Tanggal": "2026-06-04T10:39:13.737Z",
@@ -110,7 +134,7 @@
       "sentimen_score": 0.9968
     },
     {
-      "Kategori": "Lainnya",
+      "Kategori": "Olahraga",
       "Nama Reviewer": "Edy Supriyadi",
       "Bintang": 5,
       "Tanggal": "2026-05-30T15:55:55.240Z",

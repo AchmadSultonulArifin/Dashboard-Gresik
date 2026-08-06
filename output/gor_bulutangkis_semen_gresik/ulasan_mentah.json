@@ -49,7 +49,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T11:17:35.636Z",
+  "scrapedAt": "2026-08-06T13:21:08.201Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,8 +57,8 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Tidak seramai biasanya",
-  "popularTimesLivePercent": 9,
+  "popularTimesLiveText": "Lebih ramai dari biasanya",
+  "popularTimesLivePercent": 100,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -581,18 +581,6 @@
   },
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "07.00 to 21.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "07.00 to 21.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "07.00 to 21.00"
-    },
-    {
       "day": "Kamis",
       "hours": "07.00 to 21.00"
     },
@@ -606,6 +594,18 @@
     },
     {
       "day": "Minggu",
+      "hours": "07.00 to 21.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 21.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 21.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "07.00 to 21.00"
     }
   ],
@@ -625,13 +625,13 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Gor Giri Krida",
-      "reviewsCount": 180,
+      "reviewsCount": 181,
       "totalScore": 4.3
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "KIG Badminton Arena",
-      "reviewsCount": 81,
+      "reviewsCount": 82,
       "totalScore": 4.5
     },
     {
@@ -665,15 +665,6 @@
     }
   ],
   "gasPrices": [],
-  "url": "https://www.google.com/maps/search/?api=1&query=GOR%20Bulutangkis%20Semen%20Gresik&query_place_id=ChIJr4j0xh4B2C0RQ5eIWzlUapQ",
-  "searchPageUrl": "https://www.google.com/maps/search/GOR%20Bulutangkis%20Semen%20Gresik?hl=id",
-  "searchString": "GOR Bulutangkis Semen Gresik",
-  "language": "id",
-  "rank": 1,
-  "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlocGxCmMjQCbFspsvzyu1W39SIWkt3SGtLkJP2HuAxH720sKmZ6SS8vzP7rDmnoYsk1UHWhxGMwKveievlKMeFFRc5sHDC6_c3mRFxAzXSGuEufn-aOD28kNP5aGDpuMRpf30V5A=w408-h306-k-no",
-  "kgmid": "/g/11h6d71nb4",
-  "questionsAndAnswers": [],
   "updatesFromCustomers": {
     "text": "Namplek .... Gasssss",
     "language": "id",
@@ -686,11 +677,20 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPI15feflLa0oJXzvCQKdgXjJx3HOioVkRNQiWAY9QPBzHr_ef6JSDXElDrevUfkLw5aWM766JSTYVnhlE9jq4RBhDKokRaf4kYkyS7YaprHSDTO5L2HdeYqUl1xFGP9tRoNxKVtA=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPAJnEXJ9RER1JxEHNuWw0oof0BoJavymXzQ99cvJ_3q4rdjFGRTZ6tKOx33sPXiGK6iG04j-pm7C9zeEgH1iXOamuOxspx1AsWmddltkpbT1Nv1o0vLmF5b_XsGosSF992164gqw=k-no",
         "postDate": "3 tahun lalu"
       }
     ]
   },
+  "url": "https://www.google.com/maps/search/?api=1&query=GOR%20Bulutangkis%20Semen%20Gresik&query_place_id=ChIJr4j0xh4B2C0RQ5eIWzlUapQ",
+  "searchPageUrl": "https://www.google.com/maps/search/GOR%20Bulutangkis%20Semen%20Gresik?hl=id",
+  "searchString": "GOR Bulutangkis Semen Gresik",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQRXOuS0SbSLzzns3-Mu36vQ9f_IqpMWQTd84gvdLkKvLIMqT-ACEVJTXw7lrCb6oXWxj7A1egMUJ3lDeV1MgQ05YtqkWu67je7VJm2l_dbpGObkESEPIhOWSayZYu7xclrtLN=w408-h306-k-no",
+  "kgmid": "/g/11h6d71nb4",
+  "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
   "tableReservationProviders": [],
@@ -710,7 +710,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWKi4Ncte1oC8pqO5ZKsuPZGZranPO6WjhqYJhUsb5FTTdAM6lyEQ=s1920-c-rp-mo-ba12-br100",
       "text": "Lapangan bersih, penerangan ok bgt",
       "textTranslated": null,
-      "publishAt": "2 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-07-18T04:33:48.226Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21SUE1tTkxUblJuYkRodlRESXpNbnBsT0RVM1IwRRAB",
@@ -736,7 +736,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIaPk1Cg24swdKuPZlo2NwC7_oTEzS4X6EdluzIWiJysEZX0mzE=s1920-c-rp-mo-ba12-br100",
       "text": "Bersih, lapangannya enak, adem, ada toilet, tempat beli minum, raket dan lain-lain",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-12T00:38:40.391Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5SU1HWlpjVnBMWVdKa2VIRjFhMlZoTjBGa2QxRRAB",
@@ -757,7 +757,7 @@
       "reviewerId": "107920111409119047918",
       "reviewerUrl": "https://www.google.com/maps/contrib/107920111409119047918?hl=id",
       "name": "deddy ahmad",
-      "reviewerNumberOfReviews": 62,
+      "reviewerNumberOfReviews": 66,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXiRpfkXUwHRwrIMCX4FHdxZIUsmI1xce7Ll2iVhL4WE7x85iRX=s1920-c-rp-mo-ba12-br100",
       "text": "Good",
@@ -783,12 +783,12 @@
       "reviewerId": "114295293181680801365",
       "reviewerUrl": "https://www.google.com/maps/contrib/114295293181680801365?hl=id",
       "name": "Hendrik Hariono",
-      "reviewerNumberOfReviews": 52,
+      "reviewerNumberOfReviews": 51,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXd_aSVcZ0DShGC3GO-vKBQvNJbLNsuwO05vwHsbKlXU0pySl2o=s1920-c-rp-mo-ba12-br100",
       "text": "Lapangannya banyak, ada 6 sehingga ndak hawatir penuh atau tidak kebagian kalau misal mendadak datang untuk bermain bersama teman. Kamar mandinya juga lumayan bersih dan masing² lebih dari 1 untuk laki² dan wanita. Yang tidak kalah menarik, afa musholla dan tempat wudlu dengan kran wudlu yang banyak zehingga sangat memudahkan pengunjung untuk beribadah di sela-sela permainannya.\n\nTerdapat tribun penonton juga yang dipersiapkan untuk keperluan turnamen. Jadi janhan hawatir yang punya even pertandingan untuk acara kantor atau sparing dengan komunitas.\n\nArea parkir yang luas memudahkan pengunjung saat membawa kendaraan R4. Serta lokasi di kawasan PT Semen Gresik yang asri dan banyak kafe² di dekat GOR memudahkan o3ngunjung yang m3mbawa keluarga untuk mencari makan siang dan menikmati suasana asri kawasan PT Semen Gresik yang rumah-rumahnya klasik.",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-03T01:13:37.918Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tobmJXUnBlVVo1TTI0NWVGZDBPR2hUWWpoVWIyYxAB",
@@ -799,9 +799,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPVPu_AmKC4w5H159XE5uLPYc9LOc4JE1m-tqysQzjiTJj3fnNKmfqt7M2zg1toFzlkoNH2ue1Q-aDoTVFC6hfwkyM5X_3QzVM1bdqJ8aqvO-oe8sD9Rfq2UXMFRWT-QKU2SOH6QIFuzi72=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPWuLZ9_Vz5pcnipJRVatvyvUNSNbunNgPiyCLa7hsW-UVzNx-hMKM6ttS5_R8g1blirtHjoqgxmgz1lw0aHQ1gL7huZhvOHp2oul3e_g-DRl1PDG_V-SeNUpp0f5Q7LNJzglB052ryq42N=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM3eDPv7dNvUOxVdSbwRcJfLyqdz5ebs9Unb-bMnjgtzQR6nNfy5lBh3cJCqbGVa_S3FnwqBqI_boJXRZgiZRxoWy9RS9V6tge6eo1KQwI79yiKFNu_CH_Cp_QjzHY_glOpxyncAp5mjcoL=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMUwcR8lrg5aFGQuUlR4eNE8r9CVi8URqEljUvTSyg7f96XkIe0003ghxYHaN7l9RcoFHbvzpaWTQOI84Fmo_JxwxaeZlnXH1qwONVHNGXY9IuRIKU-EOOEmVO9I3g77nKG205C1m_WdlJu=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNNfiLgJ1rTSfK896_qi2vFbOp0q3bWKBuVGvq1A5PJCJG_74OP1I5s13ZsE-55CXndYQnhEITZSlbdUhrPI07F10d8AH2cQ9wFt1pA3kK8x55BDznfVU0n2J9Mn1pSEuj0Sh2ei4bsC1e5=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM8C_mqcf-bgJe2FYjt2bDH3dtiVXYQ5gEnrViGn0oCkrNGiPSgihMdo4-W0z4DNJFI7zGBomI3saqPsaL8AW7ts2s6_HxBVPZAF0lAAP1os5KCGc0FasYi00vvn0FBtp4LpY5IfHOI3vwV=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -818,7 +818,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX7h2LyQ6slfpGQbfpxaTTX18fTLnXHRs3Obga2C43CwjYl3X-L=s1920-c-rp-mo-ba12-br100",
       "text": "Lapangan lumayan, penerangan bagus.. Posisi tempat agak masuk jauh ya, tapi fine lah, malah enak ngga rame..",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2025-12-30T01:00:06.925Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wclNXaDNTV1JDWm5Wd1UwMUtWREl3ZERsTlIxRRAB",
@@ -839,12 +839,12 @@
       "reviewerId": "104716125041968629967",
       "reviewerUrl": "https://www.google.com/maps/contrib/104716125041968629967?hl=id",
       "name": "Bayu Abriyanto",
-      "reviewerNumberOfReviews": 21,
+      "reviewerNumberOfReviews": 23,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVjEm4_Xt8XE-rN5302kauuclsDeUH87sw4tdW-LGxCHXfsvOA=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2025-12-28T07:34:29.004Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwSlV6VTVkVUkyTjNscFpUVnZPVXBTVTBwRWVrRRAB",
@@ -870,7 +870,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUwEXOxLTc1mUm_7hfhIRZk635N0AXN4tBSSx5Hg00oQDuWKXQI=s1920-c-rp-mo-ba12-br100",
       "text": "Tempat bermain nyaman dengan 5 lapangan,  area dan tribun yang luas.",
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-11-26T01:27:36.259Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWWE5qSktjMGM1Y0hJMFNYUlRlbmRPVjA5ZlRFRRAB",
@@ -881,7 +881,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOCrM4z4oeBJT8r1iNbIZ3_u3WbcX_x8jth0ggneeulnwHt_FCzVdp_saX2wnnx3Une9XCxEvVdwzJgrQMZzKlBNGS61Ig6kNQmkL2qCwiPMQ1ZmIAcUOW1chfFX_UyLiqlpOB6GK44FyU5=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO-T4eFOLu8g8nBcbEARDsOQbvETlmOWmLI_IpIbdR5S4MeKmNsJipOE-unyKQtssA0x8A_Em-BUL4Vep52FgwfvdqprfMjUdsge5hvAPsJru3XSJeezFGXLCv3lAhUuB4-RFi6MO4lgdTI=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -909,10 +909,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMZEAYWRgkiJhoK8S1fSAQ1_cNVtjlFrLXFB1K2p5smtRP0ATkpY3fpqclvLt-vmwwas7IqQ2bNdJ_rbHDWCTJzz4eUFfUY4_3CBnAR2pkoiL9F5G5pDMWYINSR38xap5PNMIsh28luG4c=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNasAItYJgwht2T8xEM-x-ScZu6H4ZldCrWSl1AXpurABN9gNXq3gSLcQ1w3wrnwae1sOIHhQ1mMiqzUxcAr2ApdPHwnqxnhPqW4mIcPoMuOk2DqThJcDmiVIAZxwPxZTkVjnk6XHFgeXWq=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMp5_BwPOVsz2u4bpzFukmsbn17IackuukFTw4AjLFmTHzVLBDPCqJ7mxIxG2gfx4Fc5QihiFbfy7ii-zHg58m_vDUUvI49RCoEqlGqe83ud9y8SMjyTixEZtxo9muBm0Yu3cqsc2ZOry2U=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPOx-oxM1P5TZH2ZZHKXVoEikKy-rITk4bkSiKjti27VyaxSIWBbak0BrUXFIMRh3FJ3hA80iKW_A6kHufDaJRJYQAKLzYQW-c23XLbfP-OYUbKhSqtQV0gNTTIUc4ZDiQxUyb7jg51J34=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNbcAaBB68n6ucoyATmtH3jU86NO-clV586PJAFCybBWP-VV7ngUm7Vy9QkybyvzvIkQ8tqkOFzvlxJM0zzL8rGIgqfEsRYDp8lQ5-LUGN1E5ZtAnYDLEE1O1WNAzlCwl85n_E49JFEudU=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNCecyovHTKe1d4qRSy5xGUCs41QEt-l1QAu82uKtKbZ-BVUvqdA4b8S5wVgGd5NKtAcFCDZKsnNhFDwhTLJ8GjBBATPLHt5q9OVq_16mEJupxohTGP6-l15qg2uZzIVqVVEoYhUrCfJTEo=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOOXtm8majzjhwLmREvedr0XBWqtiN3nf3K00GRwEPtIl2sDMAAO_Bs1Ni5tVT5R-L8j_NeHGVtHWe_2Ekx34ChEHLN2WtaW8_ZZY9ZIsWlhk2dBq1ocm2q7ZVvx95JuzQe-PZT4ITOzyr0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM_Sr8Rig208RbgxZQd7fzPkZk8bDtmb274PoasBiSz_r8SznoMaDkOPFzxaoNg6c4Uu1goS2a1zxsCFM7vFV_2w07kSMwLRXiSHWZvUwDn9DjxUDNFnimib1deGrtdHaVfj4S2V4Rp2Oc=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1002,9 +1002,9 @@
       "reviewerId": "114255035546914571331",
       "reviewerUrl": "https://www.google.com/maps/contrib/114255035546914571331?hl=id",
       "name": "Nurusyda Nisfi",
-      "reviewerNumberOfReviews": 79,
+      "reviewerNumberOfReviews": 88,
       "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWFm6XSu5iDk_Lc2C4henf1FJ4TnqEKX2E08nPjL65FlPGPEJ_XaA=s1920-c-rp-mo-ba12-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXW-2TRnmsz6VWjo_vdc19kX3mW_Gfw642wLPyGNWMwpqY6leigog=s1920-c-rp-mo-ba12-br100",
       "text": "Lapangannya bagus, jumlahnya banyak (mungkin 5 lapangan). Lampu terang. Ada fasilitas toilet dan musholla juga. Rekomen lur",
       "textTranslated": null,
       "publishAt": "10 bulan lalu",
@@ -1080,7 +1080,7 @@
       "reviewerId": "111117163742957806715",
       "reviewerUrl": "https://www.google.com/maps/contrib/111117163742957806715?hl=id",
       "name": "Adhika S Trahkasno",
-      "reviewerNumberOfReviews": 11,
+      "reviewerNumberOfReviews": 12,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVXfJyYSC6LXmTbvHpsa-nR83pr_-2FIgL8V7zPbqWuLs52R-Q=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -1200,8 +1200,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM67Syqmcd_QIHTZoQ4cHapjJX0M7WFmEEpiMTHzxFWw9yDckrfc8-NTi-lvMQFQIc_4yPMsFpToohasz9dZEEjTzhbHRCFC-E182RBSIZC_UifRn1q1G188OHgFFlvMcIUOhw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN1VbLB1CbxYJbmnC_mcyfDsPD4p8-EddEZMo3kxt4SP1ZhMGaKW7jy8q2Wyz19yP-AjcUy7fyfeMv68NTevHzSi4JKXNImiS5jOk3EsS9XvuSraQ8Bakin2V9JZkz1HnIhjC1c=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM5G8Xb9uJrIY9dJKKALt5FapYisA_OS-iAGk3HIxn6yIlv30mK2UGGrTrLOqsw2h5f8MyvBmp5KhDHuYIw6yq8f61TxKuhJ-C5Fuhc7uAy8ihvKkxIIgDSEH5zxiKUG879mFg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNVNBrKKSlSMzyIZegOHQyKnjbOJN0kGWs1sqerSt_xHi2Z9IvuG5P8lT6PL-xOeQCImskQSz6G2RPYjeXaJnYYwQaTSlkcaekmx8f06JEb0RBPB5D0QXEy7J98wErshJ49CIS6=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1213,7 +1213,7 @@
       "reviewerId": "108724384255609171449",
       "reviewerUrl": "https://www.google.com/maps/contrib/108724384255609171449?hl=id",
       "name": "Arnold 'nolly' Karanellan",
-      "reviewerNumberOfReviews": 16,
+      "reviewerNumberOfReviews": 17,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXkE9SwL-Zc0zhMVIpnbBa4qVzR_i_qTgWaR9uNEOnM2Ewx0BUP=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -1229,7 +1229,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOlLRt_zAdnzOD9VvMWXEOlJpXLdOyJ03kgZvtf6NT78Gq3f_oZAT9uf36Ezp1JSLcLDkjY-r59PGh4t0nRAJs-ugMWNssSAhipPdmy88pGgg7zj9RICgaiJcIkWGaKSghzbeFN=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPgMu62hNz6NKIbwK9ilpyFxzSxrCDszultj1uQ2LvWA4JfIVt_9exc0SGOZpeUHM1or1NtI51tmKJi_RQTq1SbuH-X2DyTsl7HW70ir08eP7Pj1pLT2LaxRH9kXIxy40vsE1lJ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1293,7 +1293,7 @@
       "reviewerId": "111140877415975264760",
       "reviewerUrl": "https://www.google.com/maps/contrib/111140877415975264760?hl=id",
       "name": "DIAZ",
-      "reviewerNumberOfReviews": 157,
+      "reviewerNumberOfReviews": 158,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVkA00_XGBjC-bXxiIRKyDdMLeg_d9I6cSq_xe9gJWn5raP824RMA=s1920-c-rp-mo-ba12-br100",
       "text": "Gedung Olahraga Semen Gresik sangat nyaman untuk digunakan latihan bulutangkis. Lapangannya berjumlah 5 dengan karpet yang empuk untuk pijakan kaki. Lampunya pas untuk digunakan latihan, tidak silau di mata. Ada beberapa toilet dan tempat sholat. Sangat direkomendasikan untuk latihan bulutangkis di sini.",
@@ -1387,9 +1387,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN7J0ObfUpdtmeAT1i1nAxNH7RXfgBhX_UGOfJpJ4RnjW16048MjGAvtCpMM_hM6Njejzt7R3xnBVn9zjl4q7csgYK5O-VlYPOWyh7VJsBU_oanO88o1FUd67bNb55mtugwp6-S=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMHs6lLxPK5ut5qjxTmQ2_txdL2hy-UDA1nuz96ydYAs417f2yHLM4sBhKvtoWATHOWhAys_-9RnkfIa2_02g3htFZQvQsTrxJdqItepbtULI6fRn0xOzwIHuAs-jrXmupY51I=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMRWM6yGO_CqT93DgHwj_hTZG6r2hRG_nD5oHeUZRpYUPyLej-B13Tc2hpF-mfwc4yVga_lCrTKRrBVm1YDz6X_6mso9lk3tA2yGb06khRxiIrc_jBQNfe_4hD8Sbh9nL7oxQdidg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN3E6648nNRyR1wdegtQUG-E602jGP4QxsTtmZkZp5iU5CnGJd5PzFRNhCmOuPzCEAs6Hkfmug0m1VZC3RQia-76dAsr3PrqMfF51SVurDTXaFa-Fc8-yJv0VCeBn1nh6wcKXDD=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPUNbtfWLozSvvaTuWWFoh3lqLOl16bv1GPrHAj30_uWZ7ljBkwm0d-PrZqk8U9mmY1he8rPq6uJ-6Bg8bmVhHveGcAkVersl_zJVV6SbQq0fryRxhzdeiClwJMPZ0FNJ4LBj4=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPVIwclo439PNQiEJZ-OOrV-1KtLWe6Nuo9CqXOW7aIPArd88sk7jfJ9MrVK_Gz2UPgJv96F3MlvdGXdV03DCzrlH86oxMnbZJ84p2xGwjtdpJ5FoIhR7WNvVvkuXD2PcffToM4xA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1458,7 +1458,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK8QmGuAPzf8P_roCA8uu9gKRG5D-9Bn1jOroOwctbEXPxJhg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 tahun lalu",
+      "publishAt": "3 tahun lalu",
       "publishedAtDate": "2023-08-01T10:57:00.562Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNwaW83UlJBEAE",
@@ -1484,7 +1484,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUuiNLXeHJLWXvhQfIGTKaHLlF5oc1Op7_KlVeZH26pNqug3gFy=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 tahun lalu",
+      "publishAt": "3 tahun lalu",
       "publishedAtDate": "2023-07-22T12:51:46.672Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURKbzl6RG5nRRAB",

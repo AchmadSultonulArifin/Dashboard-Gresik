@@ -33,13 +33,13 @@
   ],
   "fid": "0x2dd800700d8a3163:0x9d6d2af7e04d7e78",
   "cid": "11343770280524611192",
-  "reviewsCount": 12,
+  "reviewsCount": 11,
   "reviewsDistribution": {
     "oneStar": 0,
     "twoStar": 1,
     "threeStar": 1,
     "fourStar": 2,
-    "fiveStar": 8
+    "fiveStar": 7
   },
   "imagesCount": 7,
   "imageCategories": [
@@ -47,7 +47,7 @@
     "Meja tulis",
     "Bangunan"
   ],
-  "scrapedAt": "2026-07-20T12:06:35.851Z",
+  "scrapedAt": "2026-08-06T13:54:33.455Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,18 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Senin",
-      "hours": "08.00 to 16.00"
-    },
-    {
-      "day": "Selasa",
-      "hours": "08.00 to 16.00"
-    },
-    {
-      "day": "Rabu",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Kamis",
       "hours": "08.00 to 16.00"
@@ -86,6 +74,18 @@
     {
       "day": "Minggu",
       "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 16.00"
     }
   ],
   "peopleAlsoSearch": [
@@ -110,8 +110,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Dinas Perumahan Dan Kawasan Permukiman Kabupaten Gresik",
-      "reviewsCount": 2,
-      "totalScore": 4.5
+      "reviewsCount": 3,
+      "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -141,7 +141,7 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_N_wyVCVgyr5WRqdJRalV-3PpUXs-MQpsSjokb--shMHJW_X8-KEBz23M5JGJn2qeMiVmXlwWQyPR1A0ryR-kHEtUlwN1muhtWpTlObux9gjA0Ll_j-KNcAc87xlC3cKjq65lGg=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkdUY5d0dqLhNfed2mZbj3SkxBbsjO7f03Zge94WgmDtVv3oHaGFp4x66bE92STh7d3rdG6S3fPPl4xQ57CRK1DumuVZI0PCJry56IEEsltZUake-pqzTIwg5s166ZWQuDD5S2xHg=w426-h240-k-no",
   "kgmid": "/g/11bc7mg__1",
   "questionsAndAnswers": [],
   "webResults": [],
@@ -298,32 +298,6 @@
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNpd3JycEpBEAE",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNpd3JycEpBEAE!2m1!1s0x0:0x9d6d2af7e04d7e78!3m1!1s2@1:CIHM0ogKEICAgICiwrrpJA%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "104064035846182721391",
-      "reviewerUrl": "https://www.google.com/maps/contrib/104064035846182721391?hl=id",
-      "name": "rika hermawan",
-      "reviewerNumberOfReviews": 0,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKjYPffjPJk-d2CFmWT2fft00fNSoKBOo5QLE9BfaYiy7970Q=s1920-c-rp-mo-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "5 tahun lalu",
-      "publishedAtDate": "2020-10-22T02:30:16.636Z",
-      "likesCount": 0,
-      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNpcE1TZG1BRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNpcE1TZG1BRRAB!2m1!1s0x0:0x9d6d2af7e04d7e78!3m1!1s2@1:CIHM0ogKEICAgICipMSdmAE%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,

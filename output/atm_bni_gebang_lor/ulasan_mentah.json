@@ -39,7 +39,7 @@
     "Eksterior",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T13:38:22.265Z",
+  "scrapedAt": "2026-08-06T15:20:45.827Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -47,7 +47,7 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLiveText": "Sekarang: Biasanya sedikit ramai",
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {
     "Su": [
@@ -655,10 +655,6 @@
   },
   "openingHours": [
     {
-      "day": "Rabu",
-      "hours": "05.00 to 01.00"
-    },
-    {
       "day": "Kamis",
       "hours": "05.00 to 01.00"
     },
@@ -680,6 +676,10 @@
     },
     {
       "day": "Selasa",
+      "hours": "05.00 to 01.00"
+    },
+    {
+      "day": "Rabu",
       "hours": "05.00 to 01.00"
     }
   ],

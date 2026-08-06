@@ -85,8 +85,8 @@ def get_folder(nama: str) -> str:
 
 # Batas wilayah Kabupaten Gresik: daratan + Pulau Bawean di utara.
 # Koordinat di luar rentang ini dianggap salah scrape (mis-match Google Maps).
-GRESIK_LAT_MIN, GRESIK_LAT_MAX = -7.65, -5.55
-GRESIK_LNG_MIN, GRESIK_LNG_MAX = 112.20, 112.95
+GRESIK_LAT_MIN, GRESIK_LAT_MAX = -7.20, -5.85
+GRESIK_LNG_MIN, GRESIK_LNG_MAX = 112.38, 112.75
 
 def dalam_area_gresik(lat, lng) -> bool:
     try:

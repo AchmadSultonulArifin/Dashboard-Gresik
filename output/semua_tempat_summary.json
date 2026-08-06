@@ -1,35 +1,5 @@
 [
   {
-    "key": "agen_bni46_stokis_4jovem_kota_baru_driyorejo",
-    "kategori": "Perbankan",
-    "tempat": "Agen BNI46 & Stokis 4Jovem Kota Baru Driyorejo",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3316939,
-    "longitude": 112.6446577
-  },
-  {
-    "key": "agen_brilink_fm_payment",
-    "kategori": "Perbankan",
-    "tempat": "AGEN BRILINK FM PAYMENT",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3511951,
-    "longitude": 112.5915165
-  },
-  {
     "key": "agen_brilink_narausaha",
     "kategori": "Lainnya",
     "tempat": "Agen BRILink Narausaha",
@@ -41,23 +11,8 @@
     "persen_positif": 37.5,
     "persen_netral": 37.5,
     "persen_negatif": 25.0,
-    "latitude": -7.3546496,
-    "longitude": 112.6566231
-  },
-  {
-    "key": "air_terjun_laccar",
-    "kategori": "Wisata",
-    "tempat": "Air Terjun Laccar",
-    "rating": 4.7,
-    "total_ulasan": 13,
-    "positif": 11,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 84.6,
-    "persen_netral": 15.4,
-    "persen_negatif": 0.0,
-    "latitude": -5.8070875,
-    "longitude": 112.6929722
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "alun_alun_gresik",
@@ -268,36 +223,6 @@
     "persen_negatif": 0.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "atm_bca_balongpanggang",
-    "kategori": "Perbankan",
-    "tempat": "ATM BCA Balongpanggang",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2677362,
-    "longitude": 112.4479829
-  },
-  {
-    "key": "atm_bca_indomaret_cerme",
-    "kategori": "Perbankan",
-    "tempat": "ATM BCA Indomaret Cerme",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2271022,
-    "longitude": 112.5679927
   },
   {
     "key": "atm_bca_mampang_2",
@@ -521,8 +446,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3958894,
-    "longitude": 112.529093
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "atm_bri",
@@ -581,23 +506,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2675538,
-    "longitude": 112.4522897
-  },
-  {
-    "key": "atm_mandiri_gsk_cb_menganti",
-    "kategori": "Perbankan",
-    "tempat": "ATM Mandiri GSK CB MENGANTI",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2956347,
-    "longitude": 112.5981817
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "atm_mandiri_gsk_im_ujungpangkah",
@@ -641,8 +551,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2901782,
-    "longitude": 112.4357177
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "atm_mandiri_indomaret_mentri_supeno",
@@ -673,21 +583,6 @@
     "persen_negatif": 50.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "aulia_yasmin_fadhillah",
-    "kategori": "Wisata",
-    "tempat": "Aulia yasmin & Fadhillah",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2144961,
-    "longitude": 112.4657549
   },
   {
     "key": "bagian_administrasi_pembangunan_sekretariat_daerah_kabupaten_gresik",
@@ -776,8 +671,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3930641,
-    "longitude": 112.4831613
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "balai_desa_ngemplak",
@@ -806,8 +701,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3855916,
-    "longitude": 112.5653106
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "balai_desa_pedagangan",
@@ -851,8 +746,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7236297,
-    "longitude": 112.6783508
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bni_cabang_gresik",
@@ -868,21 +763,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.1719073,
     "longitude": 112.6530609
-  },
-  {
-    "key": "bank_bni_cerme",
-    "kategori": "Perbankan",
-    "tempat": "BANK BNI CERME",
-    "rating": 4.0,
-    "total_ulasan": 17,
-    "positif": 17,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2275,
-    "longitude": 112.568
   },
   {
     "key": "bank_bni_green_garden_gresik",
@@ -915,36 +795,6 @@
     "longitude": 112.603
   },
   {
-    "key": "bank_bni_menganti",
-    "kategori": "Perbankan",
-    "tempat": "BANK BNI MENGANTI",
-    "rating": 4.1,
-    "total_ulasan": 23,
-    "positif": 23,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2942,
-    "longitude": 112.5914
-  },
-  {
-    "key": "bank_bri_atm_indomaret_balong_pangga",
-    "kategori": "Perbankan",
-    "tempat": "Bank BRI ATM - INDOMARET BALONG PANGGA",
-    "rating": 3.5,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.26773,
-    "longitude": 112.4479787
-  },
-  {
     "key": "bank_bri_atm_indomaret_benjeng_gresik",
     "kategori": "Lainnya",
     "tempat": "Bank BRI ATM - INDOMARET BENJENG GRESIK",
@@ -956,8 +806,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2638944,
-    "longitude": 112.4912825
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_atm_indomaret_ujung_pangka",
@@ -986,8 +836,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3777645,
-    "longitude": 112.5828817
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_cabang_veteran_selatan",
@@ -1016,8 +866,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3848809,
-    "longitude": 112.5763705
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_crm_sby_unit_legundi_gresik_surabaya",
@@ -1031,8 +881,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3851006,
-    "longitude": 112.5764417
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_crm_unit_bri_kedamean_krian",
@@ -1046,8 +896,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3272329,
-    "longitude": 112.5664474
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_crm_unit_kota_kusuma",
@@ -1061,23 +911,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8493412,
-    "longitude": 112.6576613
-  },
-  {
-    "key": "bank_bri_kcp_driyorejo",
-    "kategori": "Perbankan",
-    "tempat": "Bank BRI KCP Driyorejo",
-    "rating": 2.9,
-    "total_ulasan": 17,
-    "positif": 4,
-    "netral": 4,
-    "negatif": 9,
-    "persen_positif": 23.5,
-    "persen_netral": 23.5,
-    "persen_negatif": 52.9,
-    "latitude": -7.3662701,
-    "longitude": 112.6144529
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_kcp_gresik",
@@ -1095,21 +930,6 @@
     "longitude": 112.6439702
   },
   {
-    "key": "bank_bri_kcp_unit_menganti",
-    "kategori": "Perbankan",
-    "tempat": "Bank Bri Kcp Unit Menganti",
-    "rating": 3.8,
-    "total_ulasan": 7,
-    "positif": 5,
-    "netral": 0,
-    "negatif": 2,
-    "persen_positif": 71.4,
-    "persen_netral": 0.0,
-    "persen_negatif": 28.6,
-    "latitude": -7.2947376,
-    "longitude": 112.5865402
-  },
-  {
     "key": "bank_bri_teras_pasar_benjeng",
     "kategori": "Lainnya",
     "tempat": "Bank BRI TERAS Pasar Benjeng",
@@ -1121,38 +941,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.262279,
-    "longitude": 112.50077
-  },
-  {
-    "key": "bank_bri_unit_balongpanggang",
-    "kategori": "Perbankan",
-    "tempat": "Bank BRI Unit Balongpanggang",
-    "rating": 3.4,
-    "total_ulasan": 20,
-    "positif": 7,
-    "netral": 5,
-    "negatif": 8,
-    "persen_positif": 35.0,
-    "persen_netral": 25.0,
-    "persen_negatif": 40.0,
-    "latitude": -7.267657,
-    "longitude": 112.4511558
-  },
-  {
-    "key": "bank_bri_unit_benjeng",
-    "kategori": "Perbankan",
-    "tempat": "Bank BRI Unit Benjeng",
-    "rating": 4.4,
-    "total_ulasan": 9,
-    "positif": 7,
-    "netral": 1,
-    "negatif": 1,
-    "persen_positif": 77.8,
-    "persen_netral": 11.1,
-    "persen_negatif": 11.1,
-    "latitude": -7.2591971,
-    "longitude": 112.509236
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_unit_dukun_gresik",
@@ -1185,21 +975,6 @@
     "longitude": null
   },
   {
-    "key": "bank_bri_unit_kedamean",
-    "kategori": "Perbankan",
-    "tempat": "Bank BRI Unit Kedamean",
-    "rating": 3.4,
-    "total_ulasan": 19,
-    "positif": 7,
-    "netral": 2,
-    "negatif": 10,
-    "persen_positif": 36.8,
-    "persen_netral": 10.5,
-    "persen_negatif": 52.6,
-    "latitude": -7.3272024,
-    "longitude": 112.5664746
-  },
-  {
     "key": "bank_bri_unit_kota_kusuma_bawean",
     "kategori": "Perbankan",
     "tempat": "Bank BRI UNIT Kota Kusuma Bawean",
@@ -1211,8 +986,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.75284,
-    "longitude": 112.68793
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bank_bri_unit_manyar_gresik",
@@ -1260,21 +1035,6 @@
     "longitude": 112.6168416
   },
   {
-    "key": "bank_bri_unit_tambak_bawean",
-    "kategori": "Perbankan",
-    "tempat": "Bank BRI UNIT Tambak Bawean",
-    "rating": 4.9,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -5.730805,
-    "longitude": 112.648467
-  },
-  {
     "key": "bank_mandiri_gedung_utama_semen_gresik",
     "kategori": "Perbankan",
     "tempat": "Bank Mandiri Gedung Utama Semen Gresik",
@@ -1303,21 +1063,6 @@
     "persen_negatif": 12.5,
     "latitude": -7.1678262,
     "longitude": 112.6452606
-  },
-  {
-    "key": "bank_mandiri_gresik_balungpanggang",
-    "kategori": "Perbankan",
-    "tempat": "Bank Mandiri Gresik Balungpanggang",
-    "rating": 4.9,
-    "total_ulasan": 30,
-    "positif": 28,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 93.3,
-    "persen_netral": 6.7,
-    "persen_negatif": 0.0,
-    "latitude": -7.2674634,
-    "longitude": 112.4521785
   },
   {
     "key": "bank_mandiri_gresik_petrokimia",
@@ -1350,36 +1095,6 @@
     "longitude": 112.5640619
   },
   {
-    "key": "bank_mandiri_kcp_gresik_benowo",
-    "kategori": "Perbankan",
-    "tempat": "Bank Mandiri KCP Gresik Benowo",
-    "rating": 4.7,
-    "total_ulasan": 25,
-    "positif": 19,
-    "netral": 1,
-    "negatif": 5,
-    "persen_positif": 76.0,
-    "persen_netral": 4.0,
-    "persen_negatif": 20.0,
-    "latitude": -7.2372582,
-    "longitude": 112.6046196
-  },
-  {
-    "key": "bank_mandiri_kcp_gresik_cerme",
-    "kategori": "Perbankan",
-    "tempat": "BANK MANDIRI KCP GRESIK CERME",
-    "rating": 4.7,
-    "total_ulasan": 23,
-    "positif": 21,
-    "netral": 1,
-    "negatif": 1,
-    "persen_positif": 91.3,
-    "persen_netral": 4.3,
-    "persen_negatif": 4.3,
-    "latitude": -7.2315006,
-    "longitude": 112.5659253
-  },
-  {
     "key": "bank_mandiri_kcp_gresik_jiipe",
     "kategori": "Perbankan",
     "tempat": "BANK MANDIRI KCP GRESIK JIIPE",
@@ -1408,21 +1123,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.1562671,
     "longitude": 112.6151673
-  },
-  {
-    "key": "bank_mandiri_kcp_gresik_menganti",
-    "kategori": "Perbankan",
-    "tempat": "Bank Mandiri KCP Gresik Menganti",
-    "rating": 4.9,
-    "total_ulasan": 28,
-    "positif": 21,
-    "netral": 7,
-    "negatif": 0,
-    "persen_positif": 75.0,
-    "persen_netral": 25.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2956497,
-    "longitude": 112.598185
   },
   {
     "key": "bank_mandiri_kcp_semarang_pandanaran",
@@ -1500,21 +1200,6 @@
     "longitude": 112.6461089
   },
   {
-    "key": "bank_syariah_indonesia_kcp_gresik_menganti",
-    "kategori": "Perbankan",
-    "tempat": "Bank Syariah Indonesia KCP Gresik Menganti",
-    "rating": 4.5,
-    "total_ulasan": 26,
-    "positif": 19,
-    "netral": 3,
-    "negatif": 4,
-    "persen_positif": 73.1,
-    "persen_netral": 11.5,
-    "persen_negatif": 15.4,
-    "latitude": -7.2962671,
-    "longitude": 112.6009647
-  },
-  {
     "key": "bank_syariah_mandiri_ponpes_qomarudin",
     "kategori": "Lainnya",
     "tempat": "Bank Syariah Mandiri Ponpes Qomarudin",
@@ -1556,8 +1241,8 @@
     "persen_positif": 66.7,
     "persen_netral": 16.7,
     "persen_negatif": 16.7,
-    "latitude": -5.7354352,
-    "longitude": 112.673756
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bca",
@@ -1586,8 +1271,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2371892,
-    "longitude": 112.6046062
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bca_kcp_gresik",
@@ -1631,8 +1316,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2963911,
-    "longitude": 112.6011354
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bca_kcu_gresik",
@@ -1661,8 +1346,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 100.0,
-    "latitude": -7.35387,
-    "longitude": 112.5958185
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bidan_kunti",
@@ -1676,23 +1361,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7360436,
-    "longitude": 112.7055962
-  },
-  {
-    "key": "bmt_mandiri_sejahtera_jawa_timur",
-    "kategori": "Lainnya",
-    "tempat": "BMT Mandiri Sejahtera Jawa Timur",
-    "rating": 3.9,
-    "total_ulasan": 6,
-    "positif": 2,
-    "netral": 2,
-    "negatif": 2,
-    "persen_positif": 33.3,
-    "persen_netral": 33.3,
-    "persen_negatif": 33.3,
-    "latitude": -6.9847909,
-    "longitude": 112.3750617
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bni",
@@ -1766,8 +1436,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2674431,
-    "longitude": 112.4522977
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bni_bungah",
@@ -1826,8 +1496,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3312133,
-    "longitude": 112.5961736
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bni_network_international",
@@ -1916,8 +1586,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2192413,
-    "longitude": 112.5816468
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bpjs_kesehatan_cabang_gresik",
@@ -1961,8 +1631,8 @@
     "persen_positif": 68.0,
     "persen_netral": 16.0,
     "persen_negatif": 16.0,
-    "latitude": -7.3661387,
-    "longitude": 112.614488
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bpjs_pt",
@@ -1991,8 +1661,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3768614,
-    "longitude": 112.5636314
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bpn_kabupaten_gresik",
@@ -2038,21 +1708,6 @@
     "persen_negatif": 66.7,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "bri_unit_wringinanom",
-    "kategori": "Perbankan",
-    "tempat": "BRI Unit Wringinanom",
-    "rating": 2.7,
-    "total_ulasan": 11,
-    "positif": 3,
-    "netral": 3,
-    "negatif": 5,
-    "persen_positif": 27.3,
-    "persen_netral": 27.3,
-    "persen_negatif": 45.5,
-    "latitude": -7.3967963,
-    "longitude": 112.5298352
   },
   {
     "key": "bridgeport_soccer_fields",
@@ -2126,8 +1781,8 @@
     "persen_positif": 81.2,
     "persen_netral": 12.5,
     "persen_negatif": 6.2,
-    "latitude": -7.38307,
-    "longitude": 112.489624
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bulengan_grejeg",
@@ -2141,8 +1796,8 @@
     "persen_positif": 66.7,
     "persen_netral": 33.3,
     "persen_negatif": 0.0,
-    "latitude": -5.7481882,
-    "longitude": 112.6669832
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "bumdes_sukarasa_mandiri_agen_resmi_pt_pos_indonesia",
@@ -2233,36 +1888,6 @@
     "persen_negatif": 0.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "damkar_gresik_pos_driyorejo",
-    "kategori": "Pemerintahan",
-    "tempat": "DAMKAR Gresik pos Driyorejo",
-    "rating": 5.0,
-    "total_ulasan": 4,
-    "positif": 4,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.370535,
-    "longitude": 112.5875154
-  },
-  {
-    "key": "danau_kastoba",
-    "kategori": "Wisata",
-    "tempat": "Danau Kastoba",
-    "rating": 4.5,
-    "total_ulasan": 16,
-    "positif": 11,
-    "netral": 5,
-    "negatif": 0,
-    "persen_positif": 68.8,
-    "persen_netral": 31.2,
-    "persen_negatif": 0.0,
-    "latitude": -5.7720039,
-    "longitude": 112.6724711
   },
   {
     "key": "dinas_kb_pp_dan_pa_kabupaten_gresik",
@@ -2535,21 +2160,6 @@
     "longitude": 112.6564603
   },
   {
-    "key": "dokter_mufid_klinik_umum_dan_khitan_modern",
-    "kategori": "Kesehatan",
-    "tempat": "Dokter Mufid (Klinik Umum dan Khitan Modern)",
-    "rating": 5.0,
-    "total_ulasan": 12,
-    "positif": 12,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3445226,
-    "longitude": 112.6328313
-  },
-  {
     "key": "dr_menik_utami_spog_apotik_harapan_bunda",
     "kategori": "Lainnya",
     "tempat": "dr. Menik Utami, SpOG (Apotik Harapan Bunda)",
@@ -2565,21 +2175,6 @@
     "longitude": null
   },
   {
-    "key": "drs_kolam_renang_futsal",
-    "kategori": "Olahraga",
-    "tempat": "DRS-Kolam Renang & Futsal",
-    "rating": 3.8,
-    "total_ulasan": 8,
-    "positif": 6,
-    "netral": 0,
-    "negatif": 2,
-    "persen_positif": 75.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 25.0,
-    "latitude": -7.243151,
-    "longitude": 112.5891566
-  },
-  {
     "key": "dukun_elektro",
     "kategori": "Wisata",
     "tempat": "Dukun Elektro",
@@ -2591,8 +2186,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2567711,
-    "longitude": 112.5455725
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "dynasty_water_park",
@@ -2621,8 +2216,8 @@
     "persen_positif": 85.7,
     "persen_netral": 0.0,
     "persen_negatif": 14.3,
-    "latitude": -7.2386399,
-    "longitude": 112.5835162
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "ella_skincare_gresik",
@@ -2666,8 +2261,8 @@
     "persen_positif": 76.9,
     "persen_netral": 7.7,
     "persen_negatif": 15.4,
-    "latitude": -7.3394548,
-    "longitude": 112.6396778
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "exotic_mengare",
@@ -2711,8 +2306,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.379809,
-    "longitude": 112.5420637
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "friends_university",
@@ -2745,36 +2340,6 @@
     "longitude": null
   },
   {
-    "key": "gapura_karang_ploso",
-    "kategori": "Wisata",
-    "tempat": "Gapura KARANG PLOSO",
-    "rating": 4.5,
-    "total_ulasan": 3,
-    "positif": 1,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 33.3,
-    "persen_netral": 66.7,
-    "persen_negatif": 0.0,
-    "latitude": -7.2405469,
-    "longitude": 112.4994933
-  },
-  {
-    "key": "gapura_kedung_sambi",
-    "kategori": "Wisata",
-    "tempat": "Gapura KEDUNG SAMBI",
-    "rating": 3.9,
-    "total_ulasan": 3,
-    "positif": 2,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 66.7,
-    "persen_netral": 33.3,
-    "persen_negatif": 0.0,
-    "latitude": -7.2492203,
-    "longitude": 112.512525
-  },
-  {
     "key": "garden_park_sidowungu_barat",
     "kategori": "Wisata",
     "tempat": "Garden park sidowungu barat",
@@ -2786,8 +2351,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2895586,
-    "longitude": 112.604154
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gedung_bulutangkis_indoor_tanggulrejo",
@@ -2835,21 +2400,6 @@
     "longitude": null
   },
   {
-    "key": "gelora_17_agustus_balongpanggang",
-    "kategori": "Olahraga",
-    "tempat": "Gelora 17 Agustus Balongpanggang",
-    "rating": 4.2,
-    "total_ulasan": 11,
-    "positif": 6,
-    "netral": 4,
-    "negatif": 1,
-    "persen_positif": 54.5,
-    "persen_netral": 36.4,
-    "persen_negatif": 9.1,
-    "latitude": -7.2669858,
-    "longitude": 112.453772
-  },
-  {
     "key": "gelora_putrabaru_c_f",
     "kategori": "Lainnya",
     "tempat": "Gelora (Putrabaru C.F)",
@@ -2861,23 +2411,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7488805,
-    "longitude": 112.6795084
-  },
-  {
-    "key": "gmt_stadion_parikesit",
-    "kategori": "Olahraga",
-    "tempat": "GMT Stadion PariKesit",
-    "rating": 4.6,
-    "total_ulasan": 14,
-    "positif": 13,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 92.9,
-    "persen_netral": 0.0,
-    "persen_negatif": 7.1,
-    "latitude": -7.3503902,
-    "longitude": 112.6324378
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_ambeng_ambeng_watangrejo",
@@ -2906,8 +2441,8 @@
     "persen_positif": 85.7,
     "persen_netral": 7.1,
     "persen_negatif": 7.1,
-    "latitude": -7.2982628,
-    "longitude": 112.6029593
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_bulutangkis_semen_gresik",
@@ -2951,8 +2486,8 @@
     "persen_positif": 50.0,
     "persen_netral": 50.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2790634,
-    "longitude": 112.5838775
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_giri_krida",
@@ -2996,8 +2531,8 @@
     "persen_positif": 58.3,
     "persen_netral": 25.0,
     "persen_negatif": 16.7,
-    "latitude": -7.2623765,
-    "longitude": 112.5624157
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_kidang_palih",
@@ -3026,8 +2561,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2639469,
-    "longitude": 112.4876798
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_new_kampret",
@@ -3041,8 +2576,8 @@
     "persen_positif": 69.2,
     "persen_netral": 7.7,
     "persen_negatif": 23.1,
-    "latitude": -7.2774546,
-    "longitude": 112.5808307
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_nicky_futsal",
@@ -3056,8 +2591,8 @@
     "persen_positif": 50.0,
     "persen_netral": 0.0,
     "persen_negatif": 50.0,
-    "latitude": -7.2534911,
-    "longitude": 112.4946343
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_pemuda_menara",
@@ -3071,8 +2606,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8211454,
-    "longitude": 112.661044
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_raden_kromo_widjojo",
@@ -3116,8 +2651,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.239127,
-    "longitude": 112.582231
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_sriwijaya",
@@ -3146,8 +2681,8 @@
     "persen_positif": 93.3,
     "persen_netral": 6.7,
     "persen_negatif": 0.0,
-    "latitude": -7.2384639,
-    "longitude": 112.5973944
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gor_tridharma_petrokimia_gresik",
@@ -3180,21 +2715,6 @@
     "longitude": 112.6519882
   },
   {
-    "key": "gresik_universal_science",
-    "kategori": "Wisata",
-    "tempat": "Gresik Universal Science",
-    "rating": 4.7,
-    "total_ulasan": 14,
-    "positif": 13,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 92.9,
-    "persen_netral": 7.1,
-    "persen_negatif": 0.0,
-    "latitude": -7.2807632,
-    "longitude": 112.4423278
-  },
-  {
     "key": "griya_sehat_ahsan_pengobatan_alternatif_paz_alkasaw_jantung_saraf_kejepit_gerd_stroke_diabetes_autis_speech_delay",
     "kategori": "Lainnya",
     "tempat": "Griya Sehat Ahsan : Pengobatan Alternatif PAZ ALKASAW Jantung, Saraf Kejepit, GERD, Stroke, Diabetes, Autis, Speech delay",
@@ -3206,23 +2726,8 @@
     "persen_positif": 92.9,
     "persen_netral": 7.1,
     "persen_negatif": 0.0,
-    "latitude": -7.3367811,
-    "longitude": 112.6359657
-  },
-  {
-    "key": "gunung_pegat_makam_mbah_romo",
-    "kategori": "Wisata",
-    "tempat": "Gunung pegat makam mbah Romo",
-    "rating": 5.0,
-    "total_ulasan": 8,
-    "positif": 6,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 75.0,
-    "persen_netral": 25.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3216886,
-    "longitude": 112.5220527
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "gunung_teletubbies_kepuh_bawean",
@@ -3236,8 +2741,8 @@
     "persen_positif": 75.0,
     "persen_netral": 25.0,
     "persen_negatif": 0.0,
-    "latitude": -5.737275,
-    "longitude": 112.7257277
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "hartuki_cakbechan_antique",
@@ -3251,8 +2756,8 @@
     "persen_positif": 50.0,
     "persen_netral": 0.0,
     "persen_negatif": 50.0,
-    "latitude": -7.2931568,
-    "longitude": 112.4142618
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "house_pets_allowed",
@@ -3296,8 +2801,8 @@
     "persen_positif": 40.0,
     "persen_netral": 20.0,
     "persen_negatif": 40.0,
-    "latitude": -7.2939917,
-    "longitude": 112.5915354
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "inspektorat_kabupaten_gresik",
@@ -3326,8 +2831,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.753997,
-    "longitude": 112.7088985
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "islamic_center_balongpanggang_gresik",
@@ -3341,23 +2846,8 @@
     "persen_positif": 89.5,
     "persen_netral": 10.5,
     "persen_negatif": 0.0,
-    "latitude": -7.2803727,
-    "longitude": 112.4422242
-  },
-  {
-    "key": "jeep_erte_pitu",
-    "kategori": "Wisata",
-    "tempat": "jeep erte pitu",
-    "rating": 3.7,
-    "total_ulasan": 5,
-    "positif": 4,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 80.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 20.0,
-    "latitude": -7.2684254,
-    "longitude": 112.4866365
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "jerat_lanjeng",
@@ -3435,21 +2925,6 @@
     "longitude": 112.6004947
   },
   {
-    "key": "kantor_balai_desa_karangandong",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Balai Desa Karangandong",
-    "rating": 3.7,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 50.0,
-    "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3552184,
-    "longitude": 112.5704288
-  },
-  {
     "key": "kantor_bupati",
     "kategori": "Lainnya",
     "tempat": "Kantor Bupati Gresik",
@@ -3521,8 +2996,8 @@
     "persen_positif": 50.0,
     "persen_netral": 12.5,
     "persen_negatif": 37.5,
-    "latitude": -7.322853,
-    "longitude": 112.5659659
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_desa_kesambenkulon",
@@ -3536,8 +3011,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.354548,
-    "longitude": 112.5085338
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_desa_kesambenwetan",
@@ -3551,38 +3026,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3476279,
-    "longitude": 112.6217502
-  },
-  {
-    "key": "kantor_desa_mondoluku",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Desa Mondoluku",
-    "rating": 4.7,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 50.0,
-    "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3486293,
-    "longitude": 112.4968441
-  },
-  {
-    "key": "kantor_desa_mulung",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Desa Mulung",
-    "rating": 4.5,
-    "total_ulasan": 5,
-    "positif": 3,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 60.0,
-    "persen_netral": 40.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3443476,
-    "longitude": 112.6504159
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_desa_sidorukun",
@@ -3626,8 +3071,8 @@
     "persen_positif": 25.0,
     "persen_netral": 50.0,
     "persen_negatif": 25.0,
-    "latitude": -7.3912984,
-    "longitude": 112.5569306
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_desa_telukjatidawang",
@@ -3641,8 +3086,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7730345,
-    "longitude": 112.611141
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_desa_yosowilangun",
@@ -3658,21 +3103,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.1475467,
     "longitude": 112.6159559
-  },
-  {
-    "key": "kantor_dinas_aparatur_desa_dekatagung",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Dinas Aparatur Desa Dekatagung",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -5.8057476,
-    "longitude": 112.5836195
   },
   {
     "key": "kantor_dinas_pendapatan_provinsi_jawa_timur_gresik",
@@ -3720,21 +3150,6 @@
     "longitude": null
   },
   {
-    "key": "kantor_kecamatan_driyorejo",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kecamatan Driyorejo",
-    "rating": 3.4,
-    "total_ulasan": 19,
-    "positif": 9,
-    "netral": 3,
-    "negatif": 7,
-    "persen_positif": 47.4,
-    "persen_netral": 15.8,
-    "persen_negatif": 36.8,
-    "latitude": -7.353213,
-    "longitude": 112.6288828
-  },
-  {
     "key": "kantor_kecamatan_gresik",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kecamatan Gresik",
@@ -3776,38 +3191,8 @@
     "persen_positif": 33.3,
     "persen_netral": 66.7,
     "persen_negatif": 0.0,
-    "latitude": -5.8472317,
-    "longitude": 112.6612578
-  },
-  {
-    "key": "kantor_kecamatan_wringinanom",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kecamatan Wringinanom",
-    "rating": 3.5,
-    "total_ulasan": 8,
-    "positif": 3,
-    "netral": 3,
-    "negatif": 2,
-    "persen_positif": 37.5,
-    "persen_netral": 37.5,
-    "persen_negatif": 25.0,
-    "latitude": -7.4022874,
-    "longitude": 112.5299586
-  },
-  {
-    "key": "kantor_kelurahan_desa_tenggor",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kelurahan Desa Tenggor",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2459295,
-    "longitude": 112.4325535
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_kelurahan_karangpoh",
@@ -3911,23 +3296,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3930732,
-    "longitude": 112.4831897
-  },
-  {
-    "key": "kantor_kelurahan_kesamben_wetan",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kelurahan Kesamben Wetan",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3469464,
-    "longitude": 112.6220913
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_kelurahan_lumpur",
@@ -4110,21 +3480,6 @@
     "longitude": 112.6505443
   },
   {
-    "key": "kantor_kepala_desa_banjaran",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Banjaran",
-    "rating": 3.5,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3561265,
-    "longitude": 112.5804535
-  },
-  {
     "key": "kantor_kepala_desa_belahan_rejo",
     "kategori": "Lainnya",
     "tempat": "Kantor Kepala Desa Belahan Rejo",
@@ -4136,23 +3491,8 @@
     "persen_positif": 75.0,
     "persen_netral": 25.0,
     "persen_negatif": 0.0,
-    "latitude": -7.325272,
-    "longitude": 112.5315237
-  },
-  {
-    "key": "kantor_kepala_desa_driyorejo",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Driyorejo",
-    "rating": 4.2,
-    "total_ulasan": 3,
-    "positif": 1,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 33.3,
-    "persen_netral": 66.7,
-    "persen_negatif": 0.0,
-    "latitude": -7.3654552,
-    "longitude": 112.6211749
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_kepala_desa_kepyar",
@@ -4170,36 +3510,6 @@
     "longitude": null
   },
   {
-    "key": "kantor_kepala_desa_mojosarirejo",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Mojosarirejo",
-    "rating": 4.0,
-    "total_ulasan": 5,
-    "positif": 2,
-    "netral": 2,
-    "negatif": 1,
-    "persen_positif": 40.0,
-    "persen_netral": 40.0,
-    "persen_negatif": 20.0,
-    "latitude": -7.349659,
-    "longitude": 112.5963023
-  },
-  {
-    "key": "kantor_kepala_desa_petiken",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Petiken",
-    "rating": 4.2,
-    "total_ulasan": 17,
-    "positif": 9,
-    "netral": 4,
-    "negatif": 4,
-    "persen_positif": 52.9,
-    "persen_netral": 23.5,
-    "persen_negatif": 23.5,
-    "latitude": -7.34342,
-    "longitude": 112.636238
-  },
-  {
     "key": "kantor_kepala_desa_randuagung",
     "kategori": "Pemerintahan",
     "tempat": "Kantor Kepala Desa Randuagung",
@@ -4215,36 +3525,6 @@
     "longitude": 112.6238112
   },
   {
-    "key": "kantor_kepala_desa_sooko",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Sooko",
-    "rating": 4.6,
-    "total_ulasan": 3,
-    "positif": 2,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 66.7,
-    "persen_netral": 33.3,
-    "persen_negatif": 0.0,
-    "latitude": -7.3559324,
-    "longitude": 112.5199776
-  },
-  {
-    "key": "kantor_kepala_desa_sumput",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Sumput",
-    "rating": 3.0,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 50.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 50.0,
-    "latitude": -7.350863,
-    "longitude": 112.6053102
-  },
-  {
     "key": "kantor_kepala_desa_tanjungan",
     "kategori": "Lainnya",
     "tempat": "KANTOR KEPALA DESA TANJUNGAN",
@@ -4258,36 +3538,6 @@
     "persen_negatif": 0.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "kantor_kepala_desa_wedoroanom",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Wedoroanom",
-    "rating": 4.5,
-    "total_ulasan": 5,
-    "positif": 3,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 60.0,
-    "persen_netral": 40.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3266499,
-    "longitude": 112.5966553
-  },
-  {
-    "key": "kantor_kepala_desa_wringinanom",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Kepala Desa Wringinanom",
-    "rating": 3.0,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3992089,
-    "longitude": 112.5302121
   },
   {
     "key": "kantor_kesehatan_pelabuhan_kelas_1_surabaya_wilker_gresik",
@@ -4331,23 +3581,8 @@
     "persen_positif": 0.0,
     "persen_netral": 100.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8341935,
-    "longitude": 112.70743
-  },
-  {
-    "key": "kantor_pemerintah_desa_tenaru",
-    "kategori": "Pemerintahan",
-    "tempat": "Kantor Pemerintah Desa Tenaru",
-    "rating": 3.1,
-    "total_ulasan": 4,
-    "positif": 2,
-    "netral": 1,
-    "negatif": 1,
-    "persen_positif": 50.0,
-    "persen_netral": 25.0,
-    "persen_negatif": 25.0,
-    "latitude": -7.3502911,
-    "longitude": 112.6291628
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_pos_agen_pos_agfa_sumput",
@@ -4361,8 +3596,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 100.0,
-    "latitude": -7.3595818,
-    "longitude": 112.6032574
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_pos_agen_pos_anggun_jaya",
@@ -4376,8 +3611,8 @@
     "persen_positif": 0.0,
     "persen_netral": 100.0,
     "persen_negatif": 0.0,
-    "latitude": -7.339675,
-    "longitude": 112.639207
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_pos_agen_pos_drs_fierdyo_as",
@@ -4410,21 +3645,6 @@
     "longitude": 112.6128098
   },
   {
-    "key": "kantor_pos_balongpanggang",
-    "kategori": "Pelayanan Publik",
-    "tempat": "Kantor Pos Balongpanggang",
-    "rating": 2.5,
-    "total_ulasan": 11,
-    "positif": 1,
-    "netral": 5,
-    "negatif": 5,
-    "persen_positif": 9.1,
-    "persen_netral": 45.5,
-    "persen_negatif": 45.5,
-    "latitude": -7.2673164,
-    "longitude": 112.4534265
-  },
-  {
     "key": "kantor_pos_benjeng",
     "kategori": "Lainnya",
     "tempat": "Kantor Pos Benjeng",
@@ -4436,8 +3656,8 @@
     "persen_positif": 75.0,
     "persen_netral": 25.0,
     "persen_negatif": 0.0,
-    "latitude": -7.261295,
-    "longitude": 112.503974
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantor_pos_bungah",
@@ -4453,21 +3673,6 @@
     "persen_negatif": 52.4,
     "latitude": -7.0522664,
     "longitude": 112.5762469
-  },
-  {
-    "key": "kantor_pos_cerme",
-    "kategori": "Pelayanan Publik",
-    "tempat": "Kantor Pos Cerme",
-    "rating": 2.6,
-    "total_ulasan": 10,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 8,
-    "persen_positif": 20.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 80.0,
-    "latitude": -7.2296459,
-    "longitude": 112.5678192
   },
   {
     "key": "kantor_pos_dukun",
@@ -4528,21 +3733,6 @@
     "persen_negatif": 16.7,
     "latitude": -7.1544644,
     "longitude": 112.657418
-  },
-  {
-    "key": "kantor_pos_menganti",
-    "kategori": "Pelayanan Publik",
-    "tempat": "Kantor Pos Menganti",
-    "rating": 2.8,
-    "total_ulasan": 25,
-    "positif": 6,
-    "netral": 7,
-    "negatif": 12,
-    "persen_positif": 24.0,
-    "persen_netral": 28.0,
-    "persen_negatif": 48.0,
-    "latitude": -7.2905345,
-    "longitude": 112.5643655
   },
   {
     "key": "kantor_pos_panceng",
@@ -4631,8 +3821,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8443924,
-    "longitude": 112.6584763
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kantorpos_bandung_antapani",
@@ -4676,8 +3866,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.365578,
-    "longitude": 112.617655
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kebun_teh_nglinggo",
@@ -4721,8 +3911,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3357995,
-    "longitude": 112.6376045
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kec_sidomukti",
@@ -4768,21 +3958,6 @@
     "persen_negatif": 0.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "keluarga_desar_upt_smp_negeri_26_gresik",
-    "kategori": "Pendidikan",
-    "tempat": "keluarga Desar Upt Smp Negeri 26 Gresik",
-    "rating": 5.0,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3952433,
-    "longitude": 112.5016788
   },
   {
     "key": "kelurahan_grebek_kebomas",
@@ -4841,8 +4016,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2807928,
-    "longitude": 112.4502132
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kepuh_tlk",
@@ -4856,8 +4031,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7452722,
-    "longitude": 112.706274
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kesambenwetan",
@@ -4871,8 +4046,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3421877,
-    "longitude": 112.6049661
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_apotek_semen_gresik_gkb",
@@ -4901,8 +4076,8 @@
     "persen_positif": 81.8,
     "persen_netral": 4.5,
     "persen_negatif": 13.6,
-    "latitude": -7.333819,
-    "longitude": 112.63189
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_cipta_medika_gkb",
@@ -4950,36 +4125,6 @@
     "longitude": 112.6208176
   },
   {
-    "key": "klinik_cne_medika",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik CnE medika",
-    "rating": 4.9,
-    "total_ulasan": 4,
-    "positif": 4,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3661387,
-    "longitude": 112.614488
-  },
-  {
-    "key": "klinik_griya_sehat_wates",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Griya sehat wates",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3733349,
-    "longitude": 112.5568455
-  },
-  {
     "key": "klinik_jamsostek_116",
     "kategori": "Lainnya",
     "tempat": "Klinik Jamsostek 116",
@@ -5021,23 +4166,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3405479,
-    "longitude": 112.6301612
-  },
-  {
-    "key": "klinik_khitan_dmw",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik khitan DMW",
-    "rating": 5.0,
-    "total_ulasan": 13,
-    "positif": 13,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3777176,
-    "longitude": 112.5203687
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_krisna_2_pps_gresik",
@@ -5068,21 +4198,6 @@
     "persen_negatif": 6.7,
     "latitude": -7.1206815,
     "longitude": 112.6025509
-  },
-  {
-    "key": "klinik_mabarrot_husada_driyorejo",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Mabarrot Husada Driyorejo",
-    "rating": 4.3,
-    "total_ulasan": 9,
-    "positif": 5,
-    "netral": 3,
-    "negatif": 1,
-    "persen_positif": 55.6,
-    "persen_netral": 33.3,
-    "persen_negatif": 11.1,
-    "latitude": -7.3393772,
-    "longitude": 112.6300525
   },
   {
     "key": "klinik_mata_kmu_gresik",
@@ -5126,23 +4241,8 @@
     "persen_positif": 70.8,
     "persen_netral": 8.3,
     "persen_negatif": 20.8,
-    "latitude": -7.2424324,
-    "longitude": 112.5899676
-  },
-  {
-    "key": "klinik_mitra_medicare_driyorejo",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Mitra Medicare Driyorejo",
-    "rating": 4.2,
-    "total_ulasan": 21,
-    "positif": 10,
-    "netral": 4,
-    "negatif": 7,
-    "persen_positif": 47.6,
-    "persen_netral": 19.0,
-    "persen_negatif": 33.3,
-    "latitude": -7.3646884,
-    "longitude": 112.6204841
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_mitra_medicare_manyar",
@@ -5173,21 +4273,6 @@
     "persen_negatif": 52.4,
     "latitude": -7.1506,
     "longitude": 112.6018935
-  },
-  {
-    "key": "klinik_moediarso",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Moediarso",
-    "rating": 4.5,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3385783,
-    "longitude": 112.6364097
   },
   {
     "key": "klinik_panglima_sudirman",
@@ -5231,8 +4316,8 @@
     "persen_positif": 89.7,
     "persen_netral": 10.3,
     "persen_negatif": 0.0,
-    "latitude": -7.27711,
-    "longitude": 112.563241
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_ppk_i_pt_petrokimia_gresik",
@@ -5276,8 +4361,8 @@
     "persen_positif": 82.1,
     "persen_netral": 3.6,
     "persen_negatif": 14.3,
-    "latitude": -7.2596847,
-    "longitude": 112.5822874
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_pratama_medika_43",
@@ -5291,8 +4376,8 @@
     "persen_positif": 58.3,
     "persen_netral": 25.0,
     "persen_negatif": 16.7,
-    "latitude": -7.3547185,
-    "longitude": 112.6566164
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "klinik_pratama_mitra_medika",
@@ -5340,111 +4425,6 @@
     "longitude": 112.5792251
   },
   {
-    "key": "klinik_prima_medika_78",
-    "kategori": "Kesehatan",
-    "tempat": "klinik prima medika 78",
-    "rating": 2.5,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 0.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "latitude": -7.3817781,
-    "longitude": 112.5757711
-  },
-  {
-    "key": "klinik_randegansari",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Randegansari",
-    "rating": 5.0,
-    "total_ulasan": 8,
-    "positif": 8,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.337295,
-    "longitude": 112.5928325
-  },
-  {
-    "key": "klinik_rawat_inap_aulia_medika",
-    "kategori": "Kesehatan",
-    "tempat": "KLINIK RAWAT INAP AULIA MEDIKA",
-    "rating": 5.0,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 50.0,
-    "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.326649,
-    "longitude": 112.4903734
-  },
-  {
-    "key": "klinik_rawat_inap_puspa_anwar_medika",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Rawat Inap Puspa Anwar Medika",
-    "rating": 4.9,
-    "total_ulasan": 28,
-    "positif": 25,
-    "netral": 1,
-    "negatif": 2,
-    "persen_positif": 89.3,
-    "persen_netral": 3.6,
-    "persen_negatif": 7.1,
-    "latitude": -7.3963323,
-    "longitude": 112.5273565
-  },
-  {
-    "key": "klinik_ri_al_mubarok",
-    "kategori": "Kesehatan",
-    "tempat": "KLINIK RI AL-MUBAROK",
-    "rating": 4.8,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3924604,
-    "longitude": 112.5491817
-  },
-  {
-    "key": "klinik_ri_al_syifa_kedamean",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik RI Al Syifa Kedamean",
-    "rating": 4.5,
-    "total_ulasan": 13,
-    "positif": 12,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 92.3,
-    "persen_netral": 0.0,
-    "persen_negatif": 7.7,
-    "latitude": -7.3252613,
-    "longitude": 112.5456303
-  },
-  {
-    "key": "klinik_ri_mabarrot_wringinanom",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik RI Mabarrot Wringinanom",
-    "rating": 4.2,
-    "total_ulasan": 24,
-    "positif": 19,
-    "netral": 0,
-    "negatif": 5,
-    "persen_positif": 79.2,
-    "persen_netral": 0.0,
-    "persen_negatif": 20.8,
-    "latitude": -7.3978735,
-    "longitude": 112.5300892
-  },
-  {
     "key": "klinik_rs_semen_gresik_veteran",
     "kategori": "Lainnya",
     "tempat": "Klinik RS Semen Gresik Veteran",
@@ -5458,21 +4438,6 @@
     "persen_negatif": 11.8,
     "latitude": -7.180137,
     "longitude": 112.6497477
-  },
-  {
-    "key": "klinik_rumah_sehat_tenaru",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Rumah Sehat Tenaru",
-    "rating": 4.8,
-    "total_ulasan": 23,
-    "positif": 18,
-    "netral": 4,
-    "negatif": 1,
-    "persen_positif": 78.3,
-    "persen_netral": 17.4,
-    "persen_negatif": 4.3,
-    "latitude": -7.3484509,
-    "longitude": 112.634427
   },
   {
     "key": "klinik_satelit_kalimantan",
@@ -5505,36 +4470,6 @@
     "longitude": 112.5937626
   },
   {
-    "key": "klinik_utama_gresik",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Utama Gresik",
-    "rating": 4.8,
-    "total_ulasan": 24,
-    "positif": 24,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2427552,
-    "longitude": 112.5622511
-  },
-  {
-    "key": "klinik_wringinanom_rs_petrokimia_gresik_grup",
-    "kategori": "Kesehatan",
-    "tempat": "Klinik Wringinanom (RS Petrokimia Gresik Grup)",
-    "rating": 4.4,
-    "total_ulasan": 14,
-    "positif": 13,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 92.9,
-    "persen_netral": 0.0,
-    "persen_negatif": 7.1,
-    "latitude": -7.3879475,
-    "longitude": 112.5679466
-  },
-  {
     "key": "kmu_gresik_pusat",
     "kategori": "Kesehatan",
     "tempat": "KMU Gresik Pusat",
@@ -5561,8 +4496,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3746638,
-    "longitude": 112.5632485
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kolam_pancing_mieayam_pasinan",
@@ -5576,8 +4511,8 @@
     "persen_positif": 73.3,
     "persen_netral": 13.3,
     "persen_negatif": 13.3,
-    "latitude": -7.387543,
-    "longitude": 112.568287
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "kth_mutiara_madu",
@@ -5591,8 +4526,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7555188,
-    "longitude": 112.6727892
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "lapangan_baon_dusun_miru",
@@ -5606,8 +4541,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3563509,
-    "longitude": 112.5654167
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "lapangan_bola_trisakti_cibubur_bogor_timur",
@@ -5636,8 +4571,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3934724,
-    "longitude": 112.4838366
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "lapangan_olah_raga",
@@ -5666,8 +4601,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3567742,
-    "longitude": 112.5878527
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "lumbung_padi_barji",
@@ -5681,23 +4616,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2610891,
-    "longitude": 112.4255573
-  },
-  {
-    "key": "lumi_dental_driyorejo_praktek_dokter_gigi_spesialis_dan_dokter_gigi_umum",
-    "kategori": "Kesehatan",
-    "tempat": "Lumi Dental Driyorejo - Praktek Dokter Gigi Spesialis dan Dokter Gigi Umum",
-    "rating": 5.0,
-    "total_ulasan": 25,
-    "positif": 23,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 92.0,
-    "persen_netral": 8.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.338678,
-    "longitude": 112.6304925
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "ma_darul_ma_arif_gresik",
@@ -5711,8 +4631,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.356593,
-    "longitude": 112.561843
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "ma_himayatul_islam_kebuntelukdalam",
@@ -5726,8 +4646,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8060802,
-    "longitude": 112.7117684
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "majista_aesthetic_clinic",
@@ -5745,21 +4665,6 @@
     "longitude": null
   },
   {
-    "key": "makam_desa_slempit",
-    "kategori": "Wisata",
-    "tempat": "Makam Desa Slempit",
-    "rating": 5.0,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 50.0,
-    "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3239789,
-    "longitude": 112.5200085
-  },
-  {
     "key": "makam_dusun_ngembung",
     "kategori": "Lainnya",
     "tempat": "Makam dusun ngembung",
@@ -5771,8 +4676,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2614785,
-    "longitude": 112.5367402
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "makam_dusun_ngepung",
@@ -5786,23 +4691,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2546491,
-    "longitude": 112.4987947
-  },
-  {
-    "key": "makam_keramat_mbah_wira_i_salah_satu_punggawa_kerajaan_demak",
-    "kategori": "Wisata",
-    "tempat": "Makam Keramat Mbah Wira'i,salah Satu Punggawa Kerajaan Demak",
-    "rating": 4.8,
-    "total_ulasan": 10,
-    "positif": 8,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 80.0,
-    "persen_netral": 20.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2871482,
-    "longitude": 112.5958203
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "makam_keramat_panjang_pakuhaji",
@@ -5818,21 +4708,6 @@
     "persen_negatif": 11.1,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "makam_mbah_sayyid_abdullah",
-    "kategori": "Wisata",
-    "tempat": "Makam mbah sayyid abdullah",
-    "rating": 4.8,
-    "total_ulasan": 13,
-    "positif": 7,
-    "netral": 6,
-    "negatif": 0,
-    "persen_positif": 53.8,
-    "persen_netral": 46.2,
-    "persen_negatif": 0.0,
-    "latitude": -7.2684811,
-    "longitude": 112.5828229
   },
   {
     "key": "makam_panjang",
@@ -5936,8 +4811,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2211563,
-    "longitude": 112.4991559
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "mandiri_atm_giant_spm_gresik_kota_baru",
@@ -6041,8 +4916,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3797939,
-    "longitude": 112.5671773
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "muji_jaya_meubel_1",
@@ -6056,38 +4931,8 @@
     "persen_positif": 66.7,
     "persen_netral": 16.7,
     "persen_negatif": 16.7,
-    "latitude": -7.3760071,
-    "longitude": 112.5272071
-  },
-  {
-    "key": "museum_galery_rafasya",
-    "kategori": "Wisata",
-    "tempat": "Museum galery rafasya",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2398304,
-    "longitude": 112.5909473
-  },
-  {
-    "key": "museum_joko_samudro",
-    "kategori": "Wisata",
-    "tempat": "MUSEUM JOKO SAMUDRO",
-    "rating": 4.6,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2755236,
-    "longitude": 112.5563136
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "museum_kanjeng_sepuh_sidayu",
@@ -6116,8 +4961,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2574817,
-    "longitude": 112.5378662
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "museum_pusaka",
@@ -6251,8 +5096,8 @@
     "persen_positif": 57.1,
     "persen_netral": 28.6,
     "persen_negatif": 14.3,
-    "latitude": -5.8489505,
-    "longitude": 112.7021299
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "pantai_indah_raba",
@@ -6281,23 +5126,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7234139,
-    "longitude": 112.6882016
-  },
-  {
-    "key": "pantai_kerrong",
-    "kategori": "Wisata",
-    "tempat": "Pantai Kerrong",
-    "rating": 4.7,
-    "total_ulasan": 8,
-    "positif": 8,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -5.7887803,
-    "longitude": 112.7409945
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "pantai_labuhan_jukung",
@@ -6313,21 +5143,6 @@
     "persen_negatif": 5.3,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "pantai_moara",
-    "kategori": "Wisata",
-    "tempat": "Pantai Moara",
-    "rating": 4.3,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 50.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 50.0,
-    "latitude": -5.8494001,
-    "longitude": 112.6301592
   },
   {
     "key": "pantai_ngemboh",
@@ -6388,66 +5203,6 @@
     "persen_negatif": 42.9,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "pantai_somor_somor",
-    "kategori": "Wisata",
-    "tempat": "Pantai Somor-somor",
-    "rating": 4.4,
-    "total_ulasan": 13,
-    "positif": 9,
-    "netral": 3,
-    "negatif": 1,
-    "persen_positif": 69.2,
-    "persen_netral": 23.1,
-    "persen_negatif": 7.7,
-    "latitude": -5.8488264,
-    "longitude": 112.5883
-  },
-  {
-    "key": "pantai_tanjung_ghe_en",
-    "kategori": "Wisata",
-    "tempat": "Pantai Tanjung Ghe'en",
-    "rating": 4.6,
-    "total_ulasan": 21,
-    "positif": 18,
-    "netral": 3,
-    "negatif": 0,
-    "persen_positif": 85.7,
-    "persen_netral": 14.3,
-    "persen_negatif": 0.0,
-    "latitude": -5.8442133,
-    "longitude": 112.5774213
-  },
-  {
-    "key": "pantai_teletubbies_pulau_bawean",
-    "kategori": "Wisata",
-    "tempat": "Pantai Teletubbies, Pulau Bawean",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -5.7496809,
-    "longitude": 112.718192
-  },
-  {
-    "key": "pantai_teluk_mur_bawean",
-    "kategori": "Wisata",
-    "tempat": "Pantai Teluk Mur Bawean",
-    "rating": 4.7,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 1,
-    "persen_positif": 50.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 50.0,
-    "latitude": -5.7439899,
-    "longitude": 112.7247322
   },
   {
     "key": "parkir_motor_bpjs_kesehatan_gresik",
@@ -6521,8 +5276,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3965488,
-    "longitude": 112.5301425
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "pemkab_gresik_desa_gapurosukolilo",
@@ -6566,8 +5321,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3450944,
-    "longitude": 112.587899
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "petro_graha_medika",
@@ -6596,53 +5351,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7344575,
-    "longitude": 112.7009351
-  },
-  {
-    "key": "polindes_tenaru_driyorejo_gresik",
-    "kategori": "Pemerintahan",
-    "tempat": "Polindes Tenaru Driyorejo Gresik",
-    "rating": 4.2,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3499523,
-    "longitude": 112.6299855
-  },
-  {
-    "key": "pos_baru_the_verona",
-    "kategori": "Pelayanan Publik",
-    "tempat": "POS BARU THE VERONA",
-    "rating": 4.3,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2393836,
-    "longitude": 112.5900753
-  },
-  {
-    "key": "pos_copler",
-    "kategori": "Wisata",
-    "tempat": "Pos Copler",
-    "rating": 4.6,
-    "total_ulasan": 2,
-    "positif": 1,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 50.0,
-    "persen_netral": 50.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2514625,
-    "longitude": 112.4825781
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "pos_indonesia",
@@ -6675,21 +5385,6 @@
     "longitude": 112.5124904
   },
   {
-    "key": "pos_polisi_legundi_driyorejo",
-    "kategori": "Pelayanan Publik",
-    "tempat": "Pos Polisi Legundi Driyorejo",
-    "rating": 3.0,
-    "total_ulasan": 25,
-    "positif": 7,
-    "netral": 5,
-    "negatif": 13,
-    "persen_positif": 28.0,
-    "persen_netral": 20.0,
-    "persen_negatif": 52.0,
-    "latitude": -7.3843858,
-    "longitude": 112.5760444
-  },
-  {
     "key": "pos_pphh_wilayah_gresik_1",
     "kategori": "Lainnya",
     "tempat": "Pos pphh wilayah Gresik 1",
@@ -6716,8 +5411,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7357448,
-    "longitude": 112.6733555
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "posaja_drop_point",
@@ -6780,66 +5475,6 @@
     "longitude": null
   },
   {
-    "key": "praktek_dr_pinky_melinda",
-    "kategori": "Kesehatan",
-    "tempat": "Praktek dr Pinky Melinda",
-    "rating": 5.0,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3549371,
-    "longitude": 112.6039007
-  },
-  {
-    "key": "praktek_dr_soni_a_p",
-    "kategori": "Kesehatan",
-    "tempat": "Praktek Dr Soni A.P",
-    "rating": 4.9,
-    "total_ulasan": 7,
-    "positif": 6,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 85.7,
-    "persen_netral": 14.3,
-    "persen_negatif": 0.0,
-    "latitude": -7.3518626,
-    "longitude": 112.5698418
-  },
-  {
-    "key": "praktek_mandiri_ners_aris_nasution_cht",
-    "kategori": "Kesehatan",
-    "tempat": "Praktek Mandiri Ners. Aris Nasution. Cht",
-    "rating": 5.0,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3714865,
-    "longitude": 112.5480592
-  },
-  {
-    "key": "pt_adiprima_suraprinta",
-    "kategori": "Pendidikan",
-    "tempat": "PT Adiprima Suraprinta",
-    "rating": 4.1,
-    "total_ulasan": 14,
-    "positif": 4,
-    "netral": 2,
-    "negatif": 8,
-    "persen_positif": 28.6,
-    "persen_netral": 14.3,
-    "persen_negatif": 57.1,
-    "latitude": -7.3889258,
-    "longitude": 112.5647106
-  },
-  {
     "key": "pt_bank_mandiri_kcp_gresik_manyar",
     "kategori": "Perbankan",
     "tempat": "PT Bank Mandiri KCP Gresik Manyar",
@@ -6885,36 +5520,6 @@
     "longitude": null
   },
   {
-    "key": "pt_bisma_indo_raya",
-    "kategori": "Pemerintahan",
-    "tempat": "PT.BISMA INDO RAYA",
-    "rating": 5.0,
-    "total_ulasan": 11,
-    "positif": 7,
-    "netral": 4,
-    "negatif": 0,
-    "persen_positif": 63.6,
-    "persen_netral": 36.4,
-    "persen_negatif": 0.0,
-    "latitude": -7.367706,
-    "longitude": 112.588826
-  },
-  {
-    "key": "pt_citra_catur_utama_karya",
-    "kategori": "Pemerintahan",
-    "tempat": "PT. CITRA CATUR UTAMA KARYA",
-    "rating": 4.4,
-    "total_ulasan": 17,
-    "positif": 10,
-    "netral": 5,
-    "negatif": 2,
-    "persen_positif": 58.8,
-    "persen_netral": 29.4,
-    "persen_negatif": 11.8,
-    "latitude": -7.3922144,
-    "longitude": 112.5480233
-  },
-  {
     "key": "pt_kia_keramik_mas_cileungsi_plant_2",
     "kategori": "Lainnya",
     "tempat": "PT. KIA Keramik Mas Cileungsi Plant 2",
@@ -6941,8 +5546,8 @@
     "persen_positif": 47.1,
     "persen_netral": 17.6,
     "persen_negatif": 35.3,
-    "latitude": -7.3461093,
-    "longitude": 112.6555662
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "pt_mandiri_utama_finance_gresik",
@@ -6960,66 +5565,6 @@
     "longitude": 112.5997273
   },
   {
-    "key": "pt_sangkaya_makmur_abadi_pt_sma",
-    "kategori": "Pendidikan",
-    "tempat": "PT Sangkaya Makmur Abadi (PT SMA)",
-    "rating": 4.5,
-    "total_ulasan": 16,
-    "positif": 10,
-    "netral": 4,
-    "negatif": 2,
-    "persen_positif": 62.5,
-    "persen_netral": 25.0,
-    "persen_negatif": 12.5,
-    "latitude": -7.3900355,
-    "longitude": 112.5571756
-  },
-  {
-    "key": "pt_ska_karoseri_indonesia",
-    "kategori": "Lainnya",
-    "tempat": "PT SKA KAROSERI INDONESIA",
-    "rating": 4.9,
-    "total_ulasan": 4,
-    "positif": 4,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3940807,
-    "longitude": 112.5204023
-  },
-  {
-    "key": "pt_sumber_intan_mandiri",
-    "kategori": "Pendidikan",
-    "tempat": "PT. Sumber Intan Mandiri",
-    "rating": 4.3,
-    "total_ulasan": 11,
-    "positif": 9,
-    "netral": 2,
-    "negatif": 0,
-    "persen_positif": 81.8,
-    "persen_netral": 18.2,
-    "persen_negatif": 0.0,
-    "latitude": -7.394863,
-    "longitude": 112.5375596
-  },
-  {
-    "key": "pt_surganya_motor_indonesia_cab_surabaya",
-    "kategori": "Pemerintahan",
-    "tempat": "PT. Surganya Motor Indonesia (Cab.Surabaya)",
-    "rating": 4.8,
-    "total_ulasan": 15,
-    "positif": 4,
-    "netral": 11,
-    "negatif": 0,
-    "persen_positif": 26.7,
-    "persen_netral": 73.3,
-    "persen_negatif": 0.0,
-    "latitude": -7.3648463,
-    "longitude": 112.630699
-  },
-  {
     "key": "pulau_bawean",
     "kategori": "Wisata",
     "tempat": "Pulau Bawean",
@@ -7033,36 +5578,6 @@
     "persen_negatif": 16.7,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "pulau_cena",
-    "kategori": "Wisata",
-    "tempat": "Pulau Cena",
-    "rating": 4.5,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -5.7721982,
-    "longitude": 112.5866809
-  },
-  {
-    "key": "pulau_noko_bawean",
-    "kategori": "Wisata",
-    "tempat": "Pulau Noko Bawean",
-    "rating": 4.7,
-    "total_ulasan": 27,
-    "positif": 23,
-    "netral": 2,
-    "negatif": 2,
-    "persen_positif": 85.2,
-    "persen_netral": 7.4,
-    "persen_negatif": 7.4,
-    "latitude": -5.8122222,
-    "longitude": 112.7683333
   },
   {
     "key": "puskesmas_alun_alun",
@@ -7080,21 +5595,6 @@
     "longitude": 112.6551531
   },
   {
-    "key": "puskesmas_benjeng",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Benjeng",
-    "rating": 4.1,
-    "total_ulasan": 22,
-    "positif": 14,
-    "netral": 1,
-    "negatif": 7,
-    "persen_positif": 63.6,
-    "persen_netral": 4.5,
-    "persen_negatif": 31.8,
-    "latitude": -7.2593754,
-    "longitude": 112.5007158
-  },
-  {
     "key": "puskesmas_bungah",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Bungah",
@@ -7110,21 +5610,6 @@
     "longitude": 112.5759012
   },
   {
-    "key": "puskesmas_cerme",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Cerme",
-    "rating": 4.1,
-    "total_ulasan": 21,
-    "positif": 19,
-    "netral": 1,
-    "negatif": 1,
-    "persen_positif": 90.5,
-    "persen_netral": 4.8,
-    "persen_negatif": 4.8,
-    "latitude": -7.2363937,
-    "longitude": 112.5645208
-  },
-  {
     "key": "puskesmas_dadapkuning",
     "kategori": "Lainnya",
     "tempat": "PUSKESMAS DADAPKUNING",
@@ -7136,8 +5621,8 @@
     "persen_positif": 77.3,
     "persen_netral": 13.6,
     "persen_negatif": 9.1,
-    "latitude": -7.2575633,
-    "longitude": 112.5161448
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "puskesmas_duduk_sampeyan",
@@ -7200,21 +5685,6 @@
     "longitude": 112.646615
   },
   {
-    "key": "puskesmas_karangandong",
-    "kategori": "Kesehatan",
-    "tempat": "PUSKESMAS KARANGANDONG",
-    "rating": 4.0,
-    "total_ulasan": 28,
-    "positif": 27,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 96.4,
-    "persen_netral": 3.6,
-    "persen_negatif": 0.0,
-    "latitude": -7.3576421,
-    "longitude": 112.5714541
-  },
-  {
     "key": "puskesmas_kebomas",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Kebomas",
@@ -7230,51 +5700,6 @@
     "longitude": 112.6385151
   },
   {
-    "key": "puskesmas_kedamean",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Kedamean",
-    "rating": 4.0,
-    "total_ulasan": 26,
-    "positif": 16,
-    "netral": 3,
-    "negatif": 7,
-    "persen_positif": 61.5,
-    "persen_netral": 11.5,
-    "persen_negatif": 26.9,
-    "latitude": -7.3276123,
-    "longitude": 112.5667967
-  },
-  {
-    "key": "puskesmas_kepatihan",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Kepatihan",
-    "rating": 4.4,
-    "total_ulasan": 29,
-    "positif": 27,
-    "netral": 1,
-    "negatif": 1,
-    "persen_positif": 93.1,
-    "persen_netral": 3.4,
-    "persen_negatif": 3.4,
-    "latitude": -7.2402101,
-    "longitude": 112.597098
-  },
-  {
-    "key": "puskesmas_kesamben_kulon",
-    "kategori": "Kesehatan",
-    "tempat": "PUSKESMAS KESAMBEN KULON",
-    "rating": 4.2,
-    "total_ulasan": 25,
-    "positif": 22,
-    "netral": 1,
-    "negatif": 2,
-    "persen_positif": 88.0,
-    "persen_netral": 4.0,
-    "persen_negatif": 8.0,
-    "latitude": -7.3528484,
-    "longitude": 112.5080406
-  },
-  {
     "key": "puskesmas_manyar",
     "kategori": "Kesehatan",
     "tempat": "Puskesmas Manyar",
@@ -7288,21 +5713,6 @@
     "persen_negatif": 7.7,
     "latitude": -7.1234618,
     "longitude": 112.6058903
-  },
-  {
-    "key": "puskesmas_menganti",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Menganti",
-    "rating": 3.9,
-    "total_ulasan": 23,
-    "positif": 18,
-    "netral": 2,
-    "negatif": 3,
-    "persen_positif": 78.3,
-    "persen_netral": 8.7,
-    "persen_negatif": 13.0,
-    "latitude": -7.2939071,
-    "longitude": 112.5953276
   },
   {
     "key": "puskesmas_mentaras",
@@ -7380,21 +5790,6 @@
     "longitude": 112.6476735
   },
   {
-    "key": "puskesmas_pembantu_pustu_desa_lebak",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Pembantu (PUSTU) Desa Lebak",
-    "rating": 4.7,
-    "total_ulasan": 3,
-    "positif": 2,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 66.7,
-    "persen_netral": 33.3,
-    "persen_negatif": 0.0,
-    "latitude": -5.8361638,
-    "longitude": 112.6190554
-  },
-  {
     "key": "puskesmas_pembantu_pustu_kupang",
     "kategori": "Lainnya",
     "tempat": "Puskesmas Pembantu (Pustu) Kupang",
@@ -7408,21 +5803,6 @@
     "persen_negatif": 0.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "puskesmas_sangkapura_gresik",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Sangkapura, Gresik",
-    "rating": 4.3,
-    "total_ulasan": 15,
-    "positif": 9,
-    "netral": 4,
-    "negatif": 2,
-    "persen_positif": 60.0,
-    "persen_netral": 26.7,
-    "persen_negatif": 13.3,
-    "latitude": -5.8432206,
-    "longitude": 112.6370161
   },
   {
     "key": "puskesmas_sidayu",
@@ -7470,21 +5850,6 @@
     "longitude": 112.6163593
   },
   {
-    "key": "puskesmas_tambak_pulau_bawean_gresik_jawa_timur",
-    "kategori": "Kesehatan",
-    "tempat": "Puskesmas Tambak Pulau Bawean Gresik Jawa Timur",
-    "rating": 4.9,
-    "total_ulasan": 17,
-    "positif": 16,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 94.1,
-    "persen_netral": 5.9,
-    "persen_negatif": 0.0,
-    "latitude": -5.7330832,
-    "longitude": 112.6485787
-  },
-  {
     "key": "pustu_kepuh_teluk",
     "kategori": "Lainnya",
     "tempat": "PUSTU Kepuh Teluk",
@@ -7496,53 +5861,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7452722,
-    "longitude": 112.706274
-  },
-  {
-    "key": "rs_randegansari_husada",
-    "kategori": "Kesehatan",
-    "tempat": "RS Randegansari Husada",
-    "rating": 4.3,
-    "total_ulasan": 24,
-    "positif": 15,
-    "netral": 0,
-    "negatif": 9,
-    "persen_positif": 62.5,
-    "persen_netral": 0.0,
-    "persen_negatif": 37.5,
-    "latitude": -7.3233053,
-    "longitude": 112.6349915
-  },
-  {
-    "key": "rs_surya_medika",
-    "kategori": "Kesehatan",
-    "tempat": "RS. Surya Medika",
-    "rating": 4.6,
-    "total_ulasan": 26,
-    "positif": 23,
-    "netral": 0,
-    "negatif": 3,
-    "persen_positif": 88.5,
-    "persen_netral": 0.0,
-    "persen_negatif": 11.5,
-    "latitude": -7.301689,
-    "longitude": 112.6208427
-  },
-  {
-    "key": "rsi_cahaya_giri_gresik",
-    "kategori": "Kesehatan",
-    "tempat": "RSI Cahaya Giri Gresik",
-    "rating": 4.9,
-    "total_ulasan": 30,
-    "positif": 30,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.28811,
-    "longitude": 112.562967
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "rsu_denisa_gresik",
@@ -7558,21 +5878,6 @@
     "persen_negatif": 6.7,
     "latitude": -7.167659,
     "longitude": 112.597896
-  },
-  {
-    "key": "rsud_gresik_sehati",
-    "kategori": "Kesehatan",
-    "tempat": "RSUD Gresik Sehati",
-    "rating": 4.9,
-    "total_ulasan": 25,
-    "positif": 15,
-    "netral": 10,
-    "negatif": 0,
-    "persen_positif": 60.0,
-    "persen_netral": 40.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3244937,
-    "longitude": 112.5235099
   },
   {
     "key": "rsud_ibnu_sina",
@@ -7605,51 +5910,6 @@
     "longitude": 112.6009188
   },
   {
-    "key": "rsud_umar_mas_ud_bawean_kabupaten_gresik",
-    "kategori": "Kesehatan",
-    "tempat": "RSUD UMAR MAS'UD BAWEAN KABUPATEN GRESIK",
-    "rating": 4.3,
-    "total_ulasan": 14,
-    "positif": 8,
-    "netral": 3,
-    "negatif": 3,
-    "persen_positif": 57.1,
-    "persen_netral": 21.4,
-    "persen_negatif": 21.4,
-    "latitude": -5.8483535,
-    "longitude": 112.6610836
-  },
-  {
-    "key": "rumah_belajar_riska_sd_sma",
-    "kategori": "Pendidikan",
-    "tempat": "Rumah Belajar Riska SD-SMA",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3376888,
-    "longitude": 112.6366375
-  },
-  {
-    "key": "rumah_klinik_sehat_pak_nurdin",
-    "kategori": "Kesehatan",
-    "tempat": "Rumah Klinik Sehat Pak Nurdin",
-    "rating": 4.8,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3517605,
-    "longitude": 112.5381534
-  },
-  {
     "key": "rumah_sakit_bayt_al_musaadah",
     "kategori": "Kesehatan",
     "tempat": "Rumah Sakit Bayt Al-Musaadah",
@@ -7663,21 +5923,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.1537264,
     "longitude": 112.6000705
-  },
-  {
-    "key": "rumah_sakit_eka_husada",
-    "kategori": "Kesehatan",
-    "tempat": "Rumah Sakit Eka Husada",
-    "rating": 4.2,
-    "total_ulasan": 29,
-    "positif": 29,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2917819,
-    "longitude": 112.5759469
   },
   {
     "key": "rumah_sakit_fathma_medika_gresik",
@@ -7755,21 +6000,6 @@
     "longitude": 112.6433279
   },
   {
-    "key": "rumah_sakit_petrokimia_gresik_driyorejo",
-    "kategori": "Kesehatan",
-    "tempat": "Rumah Sakit Petrokimia Gresik Driyorejo",
-    "rating": 4.5,
-    "total_ulasan": 21,
-    "positif": 18,
-    "netral": 1,
-    "negatif": 2,
-    "persen_positif": 85.7,
-    "persen_netral": 4.8,
-    "persen_negatif": 9.5,
-    "latitude": -7.3783121,
-    "longitude": 112.574671
-  },
-  {
     "key": "rumah_sakit_semen_gresik",
     "kategori": "Kesehatan",
     "tempat": "Rumah Sakit Semen Gresik",
@@ -7798,36 +6028,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.150841,
     "longitude": 112.613114
-  },
-  {
-    "key": "rumah_sakit_umum_walisongo_1_gresik",
-    "kategori": "Kesehatan",
-    "tempat": "Rumah Sakit Umum Walisongo 1 Gresik",
-    "rating": 4.9,
-    "total_ulasan": 30,
-    "positif": 29,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 96.7,
-    "persen_netral": 3.3,
-    "persen_negatif": 0.0,
-    "latitude": -7.2901689,
-    "longitude": 112.4357631
-  },
-  {
-    "key": "rumah_sakit_wates_husada_gresik",
-    "kategori": "Kesehatan",
-    "tempat": "Rumah Sakit Wates Husada Gresik",
-    "rating": 4.8,
-    "total_ulasan": 27,
-    "positif": 25,
-    "netral": 0,
-    "negatif": 2,
-    "persen_positif": 92.6,
-    "persen_netral": 0.0,
-    "persen_negatif": 7.4,
-    "latitude": -7.2708906,
-    "longitude": 112.4427568
   },
   {
     "key": "rumah_sehat_cahaya_raga",
@@ -7873,36 +6073,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.0680022,
     "longitude": 112.5755856
-  },
-  {
-    "key": "samsat_keliling_menganti_gresik",
-    "kategori": "Pelayanan Publik",
-    "tempat": "Samsat Keliling - Menganti Gresik",
-    "rating": 2.2,
-    "total_ulasan": 18,
-    "positif": 3,
-    "netral": 7,
-    "negatif": 8,
-    "persen_positif": 16.7,
-    "persen_netral": 38.9,
-    "persen_negatif": 44.4,
-    "latitude": -7.2941554,
-    "longitude": 112.585188
-  },
-  {
-    "key": "samsat_payment_cerme",
-    "kategori": "Pelayanan Publik",
-    "tempat": "SAMSAT PAYMENT CERME",
-    "rating": 2.9,
-    "total_ulasan": 13,
-    "positif": 3,
-    "netral": 4,
-    "negatif": 6,
-    "persen_positif": 23.1,
-    "persen_netral": 30.8,
-    "persen_negatif": 46.2,
-    "latitude": -7.2382476,
-    "longitude": 112.5635467
   },
   {
     "key": "samsat_payment_point_sidayu",
@@ -7961,8 +6131,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.4017025,
-    "longitude": 112.536352
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sd_muhammadiyah_kompleks_gresik_sd_mugres_kampus_a",
@@ -8021,8 +6191,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.340078,
-    "longitude": 112.6329019
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sd_negeri_2_sukomulyo_gkb",
@@ -8141,8 +6311,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3985991,
-    "longitude": 112.5562674
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_2_kepuh_teluk",
@@ -8156,8 +6326,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7543062,
-    "longitude": 112.7232553
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_2_sumengko_sd_188_gresik",
@@ -8171,8 +6341,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.390908,
-    "longitude": 112.5570218
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_2_sumput_upt_sdn_166_gresik",
@@ -8186,8 +6356,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.355025,
-    "longitude": 112.6042748
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_2_tanjungori",
@@ -8201,8 +6371,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7252297,
-    "longitude": 112.6872727
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_grejeg_upt_sdn_363_gresik",
@@ -8216,8 +6386,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7506523,
-    "longitude": 112.6669175
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_kebomas",
@@ -8246,8 +6416,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3935117,
-    "longitude": 112.4828627
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_kepuh_teluk_i",
@@ -8261,8 +6431,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7444077,
-    "longitude": 112.7230919
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_lumpur",
@@ -8291,8 +6461,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3488423,
-    "longitude": 112.4938111
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sdn_sembung",
@@ -8336,8 +6506,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3375937,
-    "longitude": 112.6376721
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sekolah_menengah_kejuruan_smk_manba_ul_ulum_kampus_1",
@@ -8396,23 +6566,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2531694,
-    "longitude": 112.5971707
-  },
-  {
-    "key": "sendang_pengayom",
-    "kategori": "Wisata",
-    "tempat": "sendang pengayom",
-    "rating": 4.5,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3036855,
-    "longitude": 112.4599154
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sindhuarta",
@@ -8426,8 +6581,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2688338,
-    "longitude": 112.5665536
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "situs_giri_kedaton_makam_raden_supeno",
@@ -8471,8 +6626,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2938627,
-    "longitude": 112.5851782
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_al_furqon_driyorejo",
@@ -8486,8 +6641,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3268467,
-    "longitude": 112.6085659
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_al_muniroh",
@@ -8531,8 +6686,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3512768,
-    "longitude": 112.6174263
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_darul_ulum_driyorejo",
@@ -8546,8 +6701,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3474643,
-    "longitude": 112.5957784
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_muhammadiyah_10_gkb_gresik",
@@ -8591,8 +6746,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.846522,
-    "longitude": 112.6592594
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_nahdlatul_ulama_2_gresik",
@@ -8621,8 +6776,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3037509,
-    "longitude": 112.416629
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_negeri_1_cerme",
@@ -8636,8 +6791,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2263704,
-    "longitude": 112.5572308
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_negeri_1_dukun",
@@ -8741,8 +6896,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3239105,
-    "longitude": 112.561381
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_semen_gresik",
@@ -8771,8 +6926,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2934487,
-    "longitude": 112.5869294
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sma_yasmu_manyar",
@@ -8801,8 +6956,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3542232,
-    "longitude": 112.6036148
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sman_1_driyorejo",
@@ -8816,8 +6971,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3536809,
-    "longitude": 112.6261951
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sman_1_kedamean",
@@ -8831,8 +6986,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3249793,
-    "longitude": 112.5129835
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sman_1_menganti_gresik",
@@ -8846,8 +7001,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2680158,
-    "longitude": 112.5625112
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sman_1_sangkapura",
@@ -8861,8 +7016,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8474215,
-    "longitude": 112.6663782
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sman_1_wringinanom",
@@ -8876,23 +7031,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3765339,
-    "longitude": 112.526811
-  },
-  {
-    "key": "smk_al_amin_mojowuku",
-    "kategori": "Pendidikan",
-    "tempat": "SMK AL AMIN Mojowuku",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3265147,
-    "longitude": 112.4867322
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_al_azhar_menganti",
@@ -8906,8 +7046,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.292713,
-    "longitude": 112.5855769
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_al_hadi_gresik",
@@ -8925,21 +7065,6 @@
     "longitude": 112.4747024
   },
   {
-    "key": "smk_al_masyhudiyah_driyorejo",
-    "kategori": "Pendidikan",
-    "tempat": "SMK AL MASYHUDIYAH DRIYOREJO",
-    "rating": 4.9,
-    "total_ulasan": 25,
-    "positif": 24,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 96.0,
-    "persen_netral": 4.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3507698,
-    "longitude": 112.6042765
-  },
-  {
     "key": "smk_al_muhadjirin_bekasi",
     "kategori": "Lainnya",
     "tempat": "SMK Al-Muhadjirin Bekasi",
@@ -8953,21 +7078,6 @@
     "persen_negatif": 5.9,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "smk_bhakti_kita_gresik",
-    "kategori": "Pendidikan",
-    "tempat": "SMK BHAKTI KITA GRESIK",
-    "rating": 4.3,
-    "total_ulasan": 2,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 1,
-    "persen_positif": 0.0,
-    "persen_netral": 50.0,
-    "persen_negatif": 50.0,
-    "latitude": -7.3805724,
-    "longitude": 112.5839441
   },
   {
     "key": "smk_bina_insan_mandiri",
@@ -9011,8 +7121,8 @@
     "persen_positif": 75.0,
     "persen_netral": 25.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8414136,
-    "longitude": 112.6257141
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_islam_al_muhajirin",
@@ -9056,23 +7166,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.391195,
-    "longitude": 112.5292308
-  },
-  {
-    "key": "smk_ma_arif_nu_driyorejo",
-    "kategori": "Pendidikan",
-    "tempat": "SMK Ma'arif NU Driyorejo",
-    "rating": 4.4,
-    "total_ulasan": 23,
-    "positif": 12,
-    "netral": 5,
-    "negatif": 6,
-    "persen_positif": 52.2,
-    "persen_netral": 21.7,
-    "persen_negatif": 26.1,
-    "latitude": -7.326666,
-    "longitude": 112.6165878
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_ma_arif_nu_sunan_giri_driyorejo",
@@ -9086,8 +7181,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3430541,
-    "longitude": 112.6426433
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_muhammadiyah_1_gresik",
@@ -9116,8 +7211,8 @@
     "persen_positif": 88.9,
     "persen_netral": 11.1,
     "persen_negatif": 0.0,
-    "latitude": -7.2526118,
-    "longitude": 112.5554002
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_muhammadiyah_5_gresik",
@@ -9133,36 +7228,6 @@
     "persen_negatif": 0.0,
     "latitude": -6.9415954,
     "longitude": 112.4515591
-  },
-  {
-    "key": "smk_negeri_1_cerme",
-    "kategori": "Pendidikan",
-    "tempat": "SMK Negeri 1 Cerme",
-    "rating": 4.7,
-    "total_ulasan": 14,
-    "positif": 11,
-    "netral": 1,
-    "negatif": 2,
-    "persen_positif": 78.6,
-    "persen_netral": 7.1,
-    "persen_negatif": 14.3,
-    "latitude": -7.233978,
-    "longitude": 112.5608055
-  },
-  {
-    "key": "smk_negeri_1_driyorejo",
-    "kategori": "Pendidikan",
-    "tempat": "SMK Negeri 1 Driyorejo",
-    "rating": 4.2,
-    "total_ulasan": 9,
-    "positif": 5,
-    "netral": 1,
-    "negatif": 3,
-    "persen_positif": 55.6,
-    "persen_netral": 11.1,
-    "persen_negatif": 33.3,
-    "latitude": -7.3313345,
-    "longitude": 112.6380035
   },
   {
     "key": "smk_negeri_1_duduksampeyan",
@@ -9236,8 +7301,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3507649,
-    "longitude": 112.4856327
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_pgri_1_gresik",
@@ -9296,8 +7361,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3226711,
-    "longitude": 112.5641916
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_pgri_nurul_ihsan",
@@ -9313,21 +7378,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.1687609,
     "longitude": 112.6554962
-  },
-  {
-    "key": "smk_raden_paku",
-    "kategori": "Pendidikan",
-    "tempat": "SMK RADEN PAKU",
-    "rating": 4.5,
-    "total_ulasan": 8,
-    "positif": 4,
-    "netral": 3,
-    "negatif": 1,
-    "persen_positif": 50.0,
-    "persen_netral": 37.5,
-    "persen_negatif": 12.5,
-    "latitude": -7.3906364,
-    "longitude": 112.529219
   },
   {
     "key": "smk_semen_gresik",
@@ -9371,8 +7421,8 @@
     "persen_positif": 83.3,
     "persen_netral": 16.7,
     "persen_negatif": 0.0,
-    "latitude": -5.8451882,
-    "longitude": 112.6619289
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smk_yasmu",
@@ -9401,8 +7451,8 @@
     "persen_positif": 92.9,
     "persen_netral": 7.1,
     "persen_negatif": 0.0,
-    "latitude": -7.2282519,
-    "longitude": 112.5673746
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_al_fatah_driyorejo",
@@ -9416,8 +7466,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3338504,
-    "longitude": 112.6391454
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_al_illiyin",
@@ -9431,8 +7481,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3875873,
-    "longitude": 112.5097002
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_al_mustofa",
@@ -9446,8 +7496,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3270273,
-    "longitude": 112.4904078
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_darul_islam_gresik",
@@ -9491,8 +7541,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7548136,
-    "longitude": 112.7229191
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_islam_watestanjung",
@@ -9506,8 +7556,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3753391,
-    "longitude": 112.5600726
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_islamic_qon",
@@ -9536,8 +7586,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.2108974,
-    "longitude": 112.4756467
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_maarif_nu_miftahul_ulum",
@@ -9551,8 +7601,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3550314,
-    "longitude": 112.5686445
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_miami_scalp_elite",
@@ -9626,8 +7676,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3948982,
-    "longitude": 112.5367784
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_negeri_29_gresik",
@@ -9641,8 +7691,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.30137,
-    "longitude": 112.61704
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_negeri_2_menganti",
@@ -9656,8 +7706,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3015919,
-    "longitude": 112.6170773
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_negeri_4_gresik",
@@ -9686,8 +7736,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3535368,
-    "longitude": 112.6278106
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_nu_1_gresik",
@@ -9746,8 +7796,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3838899,
-    "longitude": 112.5768322
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_pgri_kedamean",
@@ -9761,23 +7811,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3227532,
-    "longitude": 112.5649108
-  },
-  {
-    "key": "smp_pgri_wringinanom",
-    "kategori": "Pendidikan",
-    "tempat": "SMP PGRI Wringinanom",
-    "rating": 2.2,
-    "total_ulasan": 20,
-    "positif": 4,
-    "netral": 1,
-    "negatif": 15,
-    "persen_positif": 20.0,
-    "persen_netral": 5.0,
-    "persen_negatif": 75.0,
-    "latitude": -7.3964542,
-    "longitude": 112.530871
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_semen_gresik",
@@ -9806,8 +7841,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7308908,
-    "longitude": 112.6474421
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_udkp_kedamean",
@@ -9821,8 +7856,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.32425,
-    "longitude": 112.5124495
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smp_yimi_gresik_full_day_school",
@@ -9851,8 +7886,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3542078,
-    "longitude": 112.6031804
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smpn_2_wringinanom",
@@ -9866,8 +7901,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3952151,
-    "longitude": 112.5021451
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smpn_5_gresik",
@@ -9881,8 +7916,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.234619,
-    "longitude": 112.5648917
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "smps_neo",
@@ -9911,8 +7946,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3499785,
-    "longitude": 112.6287228
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sports_field",
@@ -9930,21 +7965,6 @@
     "longitude": null
   },
   {
-    "key": "sppg_cangkir",
-    "kategori": "Lainnya",
-    "tempat": "SPPG Cangkir",
-    "rating": 5.0,
-    "total_ulasan": 11,
-    "positif": 11,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3566805,
-    "longitude": 112.6146574
-  },
-  {
     "key": "sppg_karangasem_gresik",
     "kategori": "Pemerintahan",
     "tempat": "SPPG KARANGASEM GRESIK",
@@ -9956,8 +7976,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3513632,
-    "longitude": 112.5805903
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sppg_kedamean_gresik",
@@ -9971,8 +7991,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3268049,
-    "longitude": 112.5526601
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sppg_pendem_kedamean",
@@ -9986,8 +8006,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3574143,
-    "longitude": 112.5477846
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sppg_puncak_anomsari_gresik",
@@ -10001,8 +8021,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3312672,
-    "longitude": 112.5912699
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sri_karpaga_ganapathi_temple",
@@ -10031,8 +8051,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3125527,
-    "longitude": 112.5248919
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "stadion_gelora_bung_karno",
@@ -10121,23 +8141,8 @@
     "persen_positif": 100.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8342349,
-    "longitude": 112.7116022
-  },
-  {
-    "key": "stadion_pelemwatu",
-    "kategori": "Olahraga",
-    "tempat": "Stadion Pelemwatu",
-    "rating": 4.4,
-    "total_ulasan": 11,
-    "positif": 10,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 90.9,
-    "persen_netral": 9.1,
-    "persen_negatif": 0.0,
-    "latitude": -7.2645729,
-    "longitude": 112.5836497
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "stadion_petrokimia_gresik",
@@ -10155,51 +8160,6 @@
     "longitude": 112.6390256
   },
   {
-    "key": "stadion_psb_bunut_randegansari_noto_jiro",
-    "kategori": "Olahraga",
-    "tempat": "Stadion PSB Bunut Randegansari (NOTO JIRO)",
-    "rating": 3.7,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3278869,
-    "longitude": 112.61465
-  },
-  {
-    "key": "stadion_putra_raharja_fc_sidoraharjo",
-    "kategori": "Olahraga",
-    "tempat": "Stadion Putra Raharja Fc Sidoraharjo",
-    "rating": 4.9,
-    "total_ulasan": 4,
-    "positif": 3,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 75.0,
-    "persen_netral": 25.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3266786,
-    "longitude": 112.4944764
-  },
-  {
-    "key": "stadion_randu_alas_gading_watu",
-    "kategori": "Olahraga",
-    "tempat": "stadion randu alas gading watu",
-    "rating": 5.0,
-    "total_ulasan": 2,
-    "positif": 2,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.2762911,
-    "longitude": 112.5591806
-  },
-  {
     "key": "stadion_riazore_turirejo_kedamean",
     "kategori": "Olahraga",
     "tempat": "Stadion RIAZORE TURIREJO- KEDAMEAN",
@@ -10211,8 +8171,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3059134,
-    "longitude": 112.5274893
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "stadion_semen_gresik",
@@ -10228,36 +8188,6 @@
     "persen_negatif": 0.0,
     "latitude": -7.1700487,
     "longitude": 112.6502529
-  },
-  {
-    "key": "stadion_sumberame",
-    "kategori": "Olahraga",
-    "tempat": "Stadion Sumberame",
-    "rating": 3.0,
-    "total_ulasan": 2,
-    "positif": 0,
-    "netral": 0,
-    "negatif": 2,
-    "persen_positif": 0.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 100.0,
-    "latitude": -7.3997528,
-    "longitude": 112.5160661
-  },
-  {
-    "key": "stai_hasan_jufri",
-    "kategori": "Pendidikan",
-    "tempat": "STAI Hasan Jufri",
-    "rating": 4.9,
-    "total_ulasan": 5,
-    "positif": 4,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 80.0,
-    "persen_netral": 20.0,
-    "persen_negatif": 0.0,
-    "latitude": -5.8413884,
-    "longitude": 112.6257585
   },
   {
     "key": "stit_raden_santri_gresik",
@@ -10301,8 +8231,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.383614,
-    "longitude": 112.54752
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "sumput",
@@ -10331,8 +8261,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7334243,
-    "longitude": 112.6804262
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "telaga_ngipik",
@@ -10380,21 +8310,6 @@
     "longitude": 112.6093185
   },
   {
-    "key": "temprina_media_grafika_jawa_pos_group",
-    "kategori": "Pendidikan",
-    "tempat": "Temprina Media Grafika (Jawa Pos Group)",
-    "rating": 4.5,
-    "total_ulasan": 7,
-    "positif": 4,
-    "netral": 1,
-    "negatif": 2,
-    "persen_positif": 57.1,
-    "persen_netral": 14.3,
-    "persen_negatif": 28.6,
-    "latitude": -7.3889767,
-    "longitude": 112.5645595
-  },
-  {
     "key": "teras_bri_link_melayani_transaksi_semua_bank",
     "kategori": "Perbankan",
     "tempat": "Teras Bri Link Melayani Transaksi Semua Bank",
@@ -10406,8 +8321,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3525535,
-    "longitude": 112.6167371
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "teras_bri_pasar_cipete",
@@ -10451,8 +8366,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7854455,
-    "longitude": 112.6258244
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "toko_hinata",
@@ -10498,21 +8413,6 @@
     "persen_negatif": 0.0,
     "latitude": -6.9335111,
     "longitude": 112.4371294
-  },
-  {
-    "key": "tugu_matosin",
-    "kategori": "Wisata",
-    "tempat": "Tugu Matosin",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.295721,
-    "longitude": 112.6141451
   },
   {
     "key": "ugd_rs_petrokimia_gresik",
@@ -10571,8 +8471,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8471741,
-    "longitude": 112.6657199
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_negeri_386_gresik",
@@ -10586,8 +8486,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7854455,
-    "longitude": 112.6258244
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_pengelolaan_pendapatan_daerah_gresik",
@@ -10616,8 +8516,8 @@
     "persen_positif": 83.3,
     "persen_netral": 11.1,
     "persen_negatif": 5.6,
-    "latitude": -7.2681924,
-    "longitude": 112.4441614
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_puskesmas_sembayat",
@@ -10646,8 +8546,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7331183,
-    "longitude": 112.6486625
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_12_gresik",
@@ -10676,23 +8576,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3509628,
-    "longitude": 112.573236
-  },
-  {
-    "key": "upt_sd_negeri_157_gresik",
-    "kategori": "Pendidikan",
-    "tempat": "UPT SD Negeri 157 Gresik",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3837681,
-    "longitude": 112.5765207
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_15_gresik",
@@ -10710,21 +8595,6 @@
     "longitude": 112.6452591
   },
   {
-    "key": "upt_sd_negeri_161_gresik",
-    "kategori": "Pendidikan",
-    "tempat": "Upt Sd Negeri 161 Gresik",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3462021,
-    "longitude": 112.6293777
-  },
-  {
     "key": "upt_sd_negeri_167_gresik_tanjungan",
     "kategori": "Pendidikan",
     "tempat": "UPT SD NEGERI 167 GRESIK Tanjungan",
@@ -10736,8 +8606,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3536812,
-    "longitude": 112.5955427
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_168_gresik",
@@ -10751,8 +8621,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3466017,
-    "longitude": 112.6168852
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_170_gresik",
@@ -10766,8 +8636,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.406312,
-    "longitude": 112.4997901
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_175_gresik_ex_sdn_lebanisoko",
@@ -10781,8 +8651,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.381326,
-    "longitude": 112.5466714
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_178_gresik",
@@ -10796,8 +8666,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3876529,
-    "longitude": 112.5718008
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_179_gresik",
@@ -10811,8 +8681,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3875668,
-    "longitude": 112.5698186
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_190_gresik",
@@ -10826,8 +8696,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3722266,
-    "longitude": 112.5511095
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_193_gresik",
@@ -10841,8 +8711,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3539306,
-    "longitude": 112.5568461
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_194_gresik",
@@ -10856,8 +8726,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3569501,
-    "longitude": 112.5582055
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_1_gresik",
@@ -10916,8 +8786,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7995631,
-    "longitude": 112.6836156
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_32_gresik",
@@ -10946,8 +8816,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7697729,
-    "longitude": 112.7008135
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_349_gresik",
@@ -10961,8 +8831,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8013326,
-    "longitude": 112.7279539
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_354_gresik_ex_sdn_6_sidogedungbatu",
@@ -10976,8 +8846,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7889258,
-    "longitude": 112.7197158
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_364_gresik",
@@ -10991,8 +8861,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7633657,
-    "longitude": 112.7253319
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_365_gresik",
@@ -11006,8 +8876,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7795692,
-    "longitude": 112.71139
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_366_gresik",
@@ -11021,8 +8891,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7444077,
-    "longitude": 112.7230919
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_368_gresik",
@@ -11036,8 +8906,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.762746,
-    "longitude": 112.70429
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_370_gresik",
@@ -11051,8 +8921,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7693136,
-    "longitude": 112.6593466
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_374_gresik",
@@ -11066,8 +8936,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7459157,
-    "longitude": 112.6754799
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_376_gresik",
@@ -11081,8 +8951,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7487233,
-    "longitude": 112.6403164
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_380_gresik",
@@ -11096,8 +8966,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7328155,
-    "longitude": 112.6494463
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_381_gresik",
@@ -11111,8 +8981,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7332243,
-    "longitude": 112.6502957
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_382_gresik",
@@ -11126,8 +8996,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7352677,
-    "longitude": 112.6632324
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sd_negeri_6_gresik",
@@ -11156,8 +9026,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3538085,
-    "longitude": 112.6085601
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sdn_173_gresik",
@@ -11171,8 +9041,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3543449,
-    "longitude": 112.5081727
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sdn_174_gresik_sdn_kesamben_kulon_2",
@@ -11186,8 +9056,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.36952,
-    "longitude": 112.50907
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sdn_373_gresik",
@@ -11201,8 +9071,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7503909,
-    "longitude": 112.6752806
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_sdn_43_gresik",
@@ -11246,8 +9116,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3951562,
-    "longitude": 112.5367037
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_smp_negeri_17_gresik",
@@ -11321,8 +9191,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -7.3357363,
-    "longitude": 112.655356
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_smp_negeri_34_gresik",
@@ -11366,8 +9236,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.8472796,
-    "longitude": 112.6635187
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_smp_negeri_satu_atap_sangkapura",
@@ -11381,8 +9251,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.807549,
-    "longitude": 112.582686
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_smpn_19_gresik",
@@ -11396,8 +9266,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7338997,
-    "longitude": 112.6433631
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "upt_smpn_22_gresik",
@@ -11441,8 +9311,8 @@
     "persen_positif": 0.0,
     "persen_netral": 0.0,
     "persen_negatif": 0.0,
-    "latitude": -5.7452722,
-    "longitude": 112.706274
+    "latitude": null,
+    "longitude": null
   },
   {
     "key": "us_comptroller_of_the_currency",
@@ -11458,36 +9328,6 @@
     "persen_negatif": 0.0,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "waduk_kedamean_2",
-    "kategori": "Wisata",
-    "tempat": "waduk kedamean 2",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 1,
-    "netral": 0,
-    "negatif": 0,
-    "persen_positif": 100.0,
-    "persen_netral": 0.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3280808,
-    "longitude": 112.5719288
-  },
-  {
-    "key": "waduk_stadion_desa_slempit",
-    "kategori": "Olahraga",
-    "tempat": "WADUK STADION DESA SLEMPIT",
-    "rating": 4.9,
-    "total_ulasan": 14,
-    "positif": 9,
-    "netral": 5,
-    "negatif": 0,
-    "persen_positif": 64.3,
-    "persen_netral": 35.7,
-    "persen_negatif": 0.0,
-    "latitude": -7.3176111,
-    "longitude": 112.5195067
   },
   {
     "key": "wagos_wisata_alam_gosari",
@@ -11548,21 +9388,6 @@
     "persen_negatif": 0.0,
     "latitude": -6.9352624,
     "longitude": 112.4512629
-  },
-  {
-    "key": "wisata_mangrove_hijau_daun",
-    "kategori": "Wisata",
-    "tempat": "Wisata Mangrove Hijau Daun",
-    "rating": 4.5,
-    "total_ulasan": 13,
-    "positif": 10,
-    "netral": 2,
-    "negatif": 1,
-    "persen_positif": 76.9,
-    "persen_netral": 15.4,
-    "persen_negatif": 7.7,
-    "latitude": -5.8430727,
-    "longitude": 112.7087694
   },
   {
     "key": "wisata_mangrove_mengare_warakas",
@@ -11653,21 +9478,6 @@
     "persen_negatif": 23.5,
     "latitude": null,
     "longitude": null
-  },
-  {
-    "key": "work_shop_smk_link_and_match_garudafood",
-    "kategori": "Pendidikan",
-    "tempat": "Work shop SMK link and match garudafood",
-    "rating": 5.0,
-    "total_ulasan": 1,
-    "positif": 0,
-    "netral": 1,
-    "negatif": 0,
-    "persen_positif": 0.0,
-    "persen_netral": 100.0,
-    "persen_negatif": 0.0,
-    "latitude": -7.3775038,
-    "longitude": 112.581634
   },
   {
     "key": "yellow_clinic_gresik",

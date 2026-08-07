@@ -85,8 +85,8 @@ def get_folder(nama: str) -> str:
 
 # Batas wilayah Kabupaten Gresik: daratan + Pulau Bawean di utara.
 # Koordinat di luar rentang ini dianggap salah scrape (mis-match Google Maps).
-GRESIK_LAT_MIN, GRESIK_LAT_MAX = -7.20, -5.85
-GRESIK_LNG_MIN, GRESIK_LNG_MAX = 112.38, 112.75
+GRESIK_LAT_MIN, GRESIK_LAT_MAX = -7.65, -5.55
+GRESIK_LNG_MIN, GRESIK_LNG_MAX = 112.20, 112.95
 
 def dalam_area_gresik(lat, lng) -> bool:
     try:
@@ -556,36 +556,38 @@ def get_kategori(folder_name: str) -> str:
     # Prioritas 3: tebak dari nama folder (keyword matching)
 
     keywords_pendidikan = ["sdn", "sd_", "smpn", "smp_", "sman", "sma_", "smkn",
-
                            "smk_", "mts", "man_", "mi_", "upt_sd", "upt_smp",
-
                            "upt_sma", "upt_smk", "negeri", "sekolah", "madrasah",
-
-                           "pesantren", "universitas", "kampus", "akademi"]
+                           "pesantren", "universitas", "kampus", "akademi","SD","UPT SD","Upt sd",
+                           "Upt Smp"]
 
     keywords_kesehatan  = ["puskesmas", "pkm", "rsud", "rsu_", "rsia", "rs_",
-
-                           "klinik", "apotek", "rumah_sakit","BPJS"]
+                           "klinik", "apotek", "rumah_sakit","BPJS","klinik",
+                           "bpjs_kesehatan","skincare", "aesthetic", "clinic", "dokter", "bidan",
+                            "posyandu", "poskesdes"]
 
     keywords_pemda      = ["kantor", "dinas", "kecamatan", "kelurahan", "bupati",
-
+                           
                            "sekretariat", "dprd", "polsek", "polres", "koramil",
-
-                           "kodim", "kejaksaan", "pengadilan", "kec_", "kel_"]
+                           "kodim", "kejaksaan", "pengadilan", "kec_", "kel_",
+                           "bagian_", "pemkab", "pemda", "pemerintah"]
 
     keywords_publik     = ["disdukcapil", "samsat", "mall_pelayanan", "imigrasi",
 
-                           "bpjs", "kantor_pos", "kua", "bpn", "pajak"]
+                           "bpjs", "kantor_pos", "kua", "bpn", "pajak","dukcapil", "catatan_sipil"]
 
     keywords_perbankan  = ["bank", "bri", "bni", "bca", "mandiri", "btn", "bpr",
 
-                           "pegadaian", "koperasi", "atm", "brilink","agen"]
+                           "pegadaian", "koperasi", "atm", "brilink","agen", "syariah", "unit_"]
 
     keywords_wisata     = ["wisata", "pantai", "taman", "museum", "makam",
 
                            "masjid", "waduk", "alam"]
 
-    keywords_olahraga   = ["stadion", "gor_", "lapangan", "kolam_renang", "sport","Gor","GOR","Gedung"]
+    keywords_olahraga   = ["stadion", "gor_", "lapangan", "kolam_renang", "sport","Gor","GOR","Gedung",
+                           "stadion", "gor", "lapangan", "kolam_renang",
+                            "sport", "gedung_olahraga", "gedung_bulutangkis",
+                            "futsal", "fitness", "gym"]
 
     keywords_industri   = ["petrokimia", "semen", "pabrik", "pelabuhan", "terminal"]
 
@@ -1036,7 +1038,7 @@ def scan_output():
         json_mentah   = os.path.join(folder_path, "ulasan_mentah.json")
 
         master_info = master_map.get(folder_name, {})
-        kategori    = master_info.get("kategori", "Lainnya")
+        kategori    = master_info.get("kategori") or get_kategori(folder_name)
         nama_master = master_info.get("nama", "")
 
         if os.path.exists(json_sentimen):

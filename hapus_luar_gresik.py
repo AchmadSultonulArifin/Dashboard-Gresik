@@ -30,7 +30,7 @@ for t in data:
 
     if lat is None or lng is None:
         no_koord.append(t.get("tempat", key))
-        tetap.append(t)  # tidak ada koordinat, biarkan
+        dihapus.append((key, t.get("tempat", key)))  # ikut dihapus
         continue
 
     if dalam_gresik(lat, lng):

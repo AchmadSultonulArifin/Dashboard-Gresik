@@ -878,6 +878,8 @@ def analisis_sentimen(pipe=None):
     print(f"✅ Selesai! {diproses} diproses, {len(all_summary)} total tempat")
     print(f"💾 {SUMMARY_FILE}")
 
+    update_status("gmaps", True, f"Berhasil {len(summary)} tempat tersedia")
+
     return pipe  # kembalikan pipe supaya bisa dipakai process_per_tempat
 
 

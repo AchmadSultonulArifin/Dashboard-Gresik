@@ -151,12 +151,9 @@ def buat_driver():
         "Chrome/124.0.0.0 Safari/537.36"
     )
 
-    # ✅ FIX: Gunakan Chrome yang sudah terinstall di GitHub Actions
-    #         daripada ChromeDriverManager yang bisa mismatch versi
     chrome_binary = "/usr/bin/google-chrome"
     if os.path.exists(chrome_binary):
         opts.binary_location = chrome_binary
-        # Cari chromedriver yang sesuai
         chromedriver_paths = [
             "/usr/bin/chromedriver",
             "/usr/local/bin/chromedriver",
@@ -218,19 +215,15 @@ def login_instagram(driver) -> bool:
         update_status("instagram", False, "Cookie tidak valid atau expired")
         return False
 
-    # ✅ FIX: Ambil username dari halaman, bukan dari variabel yang tidak ada
     username = "-"
     try:
-        # Coba ambil username dari elemen profil di navbar
         profile_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/'][role='link']")
         for link in profile_links:
             href = link.get_attribute("href") or ""
             text = link.text.strip()
-            # Username biasanya link pendek seperti /namauser/
             if re.match(r"https://www\.instagram\.com/[^/]+/$", href) and text:
                 username = text
                 break
-        # Fallback: ambil dari ds_user_id jika ada
         if username == "-" and IG_COOKIES.get("ds_user_id"):
             username = f"user_{IG_COOKIES['ds_user_id']}"
     except Exception:
@@ -309,7 +302,6 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list:
 
     print(f"\n  Ditemukan {len(url_hasil)} postingan untuk keyword '{keyword}'")
 
-    # Fallback via navbar search
     if not url_hasil:
         print("  Mencoba via kolom pencarian navbar...")
         try:
@@ -387,37 +379,67 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
         driver.get(url)
     except Exception as e:
         print(f"    Gagal buka URL: {e}")
-        # ✅ FIX: return dict kosong agar konsisten dengan pemanggil
-        return {"username": "-", "caption": shortcode, "likes": 0,
+        return {"username": "-", "caption": "-", "likes": 0,
                 "comments": 0, "tanggal": "-", "link": url, "komentar": []}
 
     jeda(6, 9)
     if not cek_sesi_aktif(driver):
-        return {"username": "-", "caption": shortcode, "likes": 0,
+        return {"username": "-", "caption": "-", "likes": 0,
                 "comments": 0, "tanggal": "-", "link": url, "komentar": []}
 
     tutup_popup(driver)
 
-    # Ambil caption
+    # ── Ambil caption (DIPERBAIKI) ────────────────────────────
     caption = ""
-    try:
-        cap_el = driver.find_element(
-            By.CSS_SELECTOR,
-            "div._a9zs span, h1, div[data-testid='post-comment-root'] span"
-        )
-        caption = cap_el.text[:100].replace("\n", " ")
-    except Exception:
-        caption = shortcode
+    caption_selectors = [
+        "div._a9zs span",
+        "h1",
+        "div[data-testid='post-comment-root'] span",
+        "article div[role='button'] span",
+        "div._aagv span",
+        "span._aade",
+        "div.C4VMK span",
+        "div[class*='caption'] span",
+        "ul li span[dir='auto']",
+        "article ul li:first-child span[dir='auto']",
+    ]
+    for sel in caption_selectors:
+        try:
+            els = driver.find_elements(By.CSS_SELECTOR, sel)
+            for el in els:
+                teks = el.text.strip()
+                if teks and len(teks) > 5 and not teks.startswith("@"):
+                    caption = teks[:200].replace("\n", " ")
+                    break
+            if caption:
+                break
+        except Exception:
+            continue
 
-    # Ambil username
-    try:
-        username = driver.find_element(
-            By.XPATH, "//header//a[contains(@href,'/')]"
-        ).text.strip()
-    except Exception:
-        username = "-"
+    if not caption:
+        caption = "-"
 
-    # Ambil likes
+    # ── Ambil username (DIPERBAIKI) ───────────────────────────
+    username = "-"
+    username_xpaths = [
+        "//header//a[contains(@href,'/') and string-length(text()) > 0]",
+        "//article//header//span[contains(@class,'_aap6')]",
+        "//div[@role='dialog']//header//a",
+        "//header//div[@class='_aaqt']//span",
+        "//article//header//div//span//a",
+        "//section//header//div//a[string-length(text()) > 0]",
+    ]
+    for xpath in username_xpaths:
+        try:
+            el = driver.find_element(By.XPATH, xpath)
+            teks = el.text.strip()
+            if teks and "/" not in teks and len(teks) > 0:
+                username = teks
+                break
+        except Exception:
+            continue
+
+    # ── Ambil likes ───────────────────────────────────────────
     likes = 0
     try:
         sections = driver.find_elements(By.XPATH, "//section//span")
@@ -430,13 +452,13 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
     except Exception:
         likes = 0
 
-    # Ambil tanggal
+    # ── Ambil tanggal ─────────────────────────────────────────
     try:
         tanggal = driver.find_element(By.TAG_NAME, "time").get_attribute("datetime")
     except Exception:
         tanggal = "-"
 
-    # Klik "Lihat semua komentar"
+    # ── Klik "Lihat semua komentar" ───────────────────────────
     try:
         btn = WebDriverWait(driver, 8).until(
             EC.element_to_be_clickable((By.XPATH,

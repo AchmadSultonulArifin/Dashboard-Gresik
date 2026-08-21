@@ -505,15 +505,26 @@ def load_google_maps() -> list:
             if "key" not in t:
                 t["key"] = re.sub(r'[^a-z0-9]+', '_', str(t.get("tempat","")).lower()).strip('_')
             nama = str(t.get("tempat") or t.get("key") or "")
+
+            # ✅ Filter: skip tempat tanpa koordinat valid Gresik
+            lat = t.get("latitude")
+            lng = t.get("longitude")
+            if lat is None or lng is None:
+                pass  # tetap masukkan, tapi tanpa koordinat
+            else:
+                # Tolak koordinat di luar Gresik + Bawean
+                if not ((-7.65 <= float(lat) <= -5.55) and (112.20 <= float(lng) <= 112.95)):
+                    continue  # skip tempat luar Gresik
+            # ✅ Ambil sub_kategori dari summary
+            sub_kat = str(t.get("sub_kategori") or "Lainnya")
+            kat     = normalisasi_kategori(nama, str(t.get("kategori") or ""))    
             hasil.append({
                 "id"            : str(t.get("key") or ""),
                 "key"           : str(t.get("key") or ""),
                 "nama"          : nama,
-                # ✅ Gunakan normalisasi_kategori dengan sub-kategori detail
-                "kategori"      : normalisasi_kategori(
-                                      nama,
-                                      str(t.get("kategori") or "")
-                                  ),
+                "tempat"        : nama,
+                "kategori"      : kat,
+                "sub_kategori"  : sub_kat,   # ✅ tambah ini
                 "rating"        : float(t.get("rating") or 0),
                 "total_ulasan"  : int(t.get("total_ulasan") or 0),
                 "positif"       : int(t.get("positif") or 0),
@@ -522,6 +533,8 @@ def load_google_maps() -> list:
                 "persen_positif": float(t.get("persen_positif") or 0),
                 "persen_netral" : float(t.get("persen_netral") or 0),
                 "persen_negatif": float(t.get("persen_negatif") or 0),
+                "latitude"      : lat,
+                "longitude"     : lng,
             })
         return hasil
     except Exception as e:
@@ -705,8 +718,40 @@ def instagram():
 @login_required
 def googlemaps():
     semua = load_google_maps()
+
+    # Kumpulkan kategori unik
+    kategori_list = sorted(set(t["kategori"] for t in semua if t["kategori"]))
+
+    # Buat mapping kategori → daftar sub-kategori unik
+    sub_kategori_map = {}
+    for t in semua:
+        kat = t["kategori"]
+        sub = t["sub_kategori"]
+        if kat not in sub_kategori_map:
+            sub_kategori_map[kat] = set()
+        sub_kategori_map[kat].add(sub)
+    sub_kategori_map = {k: sorted(v) for k, v in sub_kategori_map.items()}
+
     print(f"Total tempat: {len(semua)}")
-    return render_template("googlemaps.html", tempat=semua)
+    return render_template(
+        "googlemaps.html",
+        tempat=semua,
+        kategori_list=kategori_list,
+        sub_kategori_map=sub_kategori_map,
+    )
+
+
+@app.route("/api/googlemaps/sub-kategori")
+@login_required
+def api_sub_kategori():
+    """API untuk ambil sub-kategori berdasarkan kategori yang dipilih."""
+    kat    = request.args.get("kategori", "")
+    semua  = load_google_maps()
+    result = sorted(set(
+        t["sub_kategori"] for t in semua
+        if (not kat or t["kategori"] == kat) and t["sub_kategori"]
+    ))
+    return jsonify(result)
 
 
 @app.route("/googlemaps/<key>")

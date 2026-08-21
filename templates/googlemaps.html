@@ -17,20 +17,23 @@
 </div>
 {% endif %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
-
-<!-- Leaflet untuk peta -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
 <style>
-
   .container{ width:100%; padding:25px; }
   .header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:1.5rem; }
   .header-text p { font-size:13px; color:#898781; margin-bottom:2px; }
   .header-text h1 { font-size:20px; font-weight:500; }
-  select { font-size:13px; padding:7px 12px; border-radius:8px; border:0.5px solid #c3c2b7; background:#fff; color:#0b0b0b; cursor:pointer; outline:none; }
+
+  /* ── Filter bar ── */
+  .filter-bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .filter-group { display:flex; flex-direction:column; gap:3px; }
+  .filter-label { font-size:11px; color:#898781; font-weight:500; }
+  select {
+    font-size:13px; padding:7px 12px; border-radius:8px;
+    border:0.5px solid #c3c2b7; background:#fff; color:#0b0b0b;
+    cursor:pointer; outline:none; min-width:160px; max-width:320px;
+  }
   select:focus { border-color:#378add; }
+
   .kpi-row { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:1.25rem; }
   .kpi-card { background:#fff; border-radius:8px; padding:14px 16px; border:0.5px solid #e1e0d9; }
   .kpi-card .label { font-size:12px; color:#898781; margin-bottom:4px; }
@@ -48,7 +51,7 @@
   .ulasan-item { display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-bottom:0.5px solid #f1efe8; }
   .ulasan-item:last-child { border-bottom:none; }
   .avatar { min-width:32px; height:32px; border-radius:50%; background:#e6f1fb; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:500; color:#185fa5; }
-  .ulasan-nama { font-size:13px; font-weight:500; margin-bottom:3px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .ulasan-tempat { font-size:13px; font-weight:500; margin-bottom:3px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
   .badge { font-size:11px; padding:2px 8px; border-radius:6px; }
   .badge.Positif { background:#eaf3de; color:#3b6d11; }
   .badge.Netral   { background:#faeeda; color:#854f0b; }
@@ -57,31 +60,94 @@
   .ulasan-teks { font-size:13px; color:#52514e; }
   .loading { text-align:center; color:#898781; padding:20px; font-size:13px; }
 
+  /* ── Sub-kategori badge info ── */
+  .subkat-badge {
+    display:inline-block; font-size:11px; padding:3px 10px;
+    border-radius:20px; background:#eef3ff; color:#2d5be3;
+    font-weight:500; margin-left:8px;
+  }
+
   /* ── Peta ── */
   .peta-card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; margin-bottom:1.25rem; }
-  #peta { height:420px; width:100%; border-radius:8px; z-index:0; }
+  #peta { height:420px !important; width:100% !important; border-radius:8px; z-index:0; }
   .peta-legend { display:flex; gap:16px; margin-top:10px; flex-wrap:wrap; }
   .peta-legend span { display:flex; align-items:center; gap:6px; font-size:12px; color:#52514e; }
   .peta-dot { width:12px; height:12px; border-radius:50%; display:inline-block; border:1px solid #333; }
   .leaflet-popup-content b { font-size:13px; }
   .leaflet-popup-content a { color:#2d5be3; text-decoration:none; font-size:12px; }
 
-  @media(max-width:600px){ .kpi-row{grid-template-columns:repeat(2,1fr);} .charts-row{grid-template-columns:1fr;} }
+  @media(max-width:600px){
+    .kpi-row{grid-template-columns:repeat(2,1fr);}
+    .charts-row{grid-template-columns:1fr;}
+    .filter-bar{flex-direction:column; align-items:stretch;}
+    select{max-width:100%;}
+  }
 </style>
 
 <div class="container">
+    <!-- ── Search Bar ── -->
+    <div style="margin-bottom:16px;">
+    <div style="position:relative; max-width:420px;">
+        <input 
+        type="text" 
+        id="search-tempat" 
+        placeholder="🔍 Cari nama tempat..."
+        oninput="handleSearch(this.value)"
+        style="width:100%; padding:10px 16px 10px 40px; border-radius:10px;
+                border:1px solid #c3c2b7; font-size:13px; outline:none;
+                background:#fff; color:#0b0b0b; box-sizing:border-box;"
+        onfocus="this.style.borderColor='#378add'"
+        onblur="this.style.borderColor='#c3c2b7'"
+        />
+        <svg style="position:absolute;left:12px;top:50%;transform:translateY(-50%);
+                    pointer-events:none;" width="16" height="16" viewBox="0 0 24 24" 
+            fill="none" stroke="#898781" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <!-- Tombol clear -->
+        <button 
+        id="btn-clear-search"
+        onclick="clearSearch()"
+        style="display:none; position:absolute; right:10px; top:50%; transform:translateY(-50%);
+                background:none; border:none; cursor:pointer; color:#898781; font-size:16px; 
+                padding:2px 6px; border-radius:4px;"
+        >✕</button>
+    </div>
+    <!-- Dropdown hasil search -->
+    <div id="search-results" style="display:none; position:absolute; z-index:1000;
+        background:#fff; border:1px solid #e1e0d9; border-radius:10px; 
+        max-width:420px; max-height:280px; overflow-y:auto;
+        box-shadow:0 8px 24px rgba(0,0,0,0.12); margin-top:4px;">
+    </div>
+    </div>
 
   <div class="header">
     <div class="header-text">
       <p>Kabupaten Gresik — Google Maps</p>
       <h1>Analisis sentimen ulasan</h1>
     </div>
-    <div style="display:flex; gap:10px;">
 
-      <select id="kategori"></select>
-
-      <select id="pilih-tempat"></select>
+    <!-- ── Filter bar: Kategori → Sub-Kategori → Tempat ── -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <span class="filter-label">Kategori</span>
+        <select id="kategori"></select>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Sub-Kategori</span>
+        <select id="sub-kategori"></select>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Tempat</span>
+        <select id="pilih-tempat"></select>
+      </div>
     </div>
+  </div>
+
+  <!-- KPI dengan info sub-kategori tempat aktif -->
+  <div id="subkat-info" style="margin-bottom:10px; display:none;">
+    <span style="font-size:12px;color:#898781;">Sub-Kategori:</span>
+    <span class="subkat-badge" id="subkat-label"></span>
   </div>
 
   <div class="kpi-row" id="kpi-row"></div>
@@ -105,7 +171,7 @@
       <div class="legend" id="legend-donut"></div>
     </div>
     <div class="card">
-      <p class="card-title">Perbandingan dalam kategori</p>
+      <p class="card-title" id="bar-title">Perbandingan dalam kategori</p>
       <div class="chart-wrap"><canvas id="barChart"></canvas></div>
       <div class="legend">
         <span><span class="legend-dot" style="background:#1baf7a"></span>Positif</span>
@@ -123,30 +189,79 @@
 </div>
 
 <script>
-// Data summary dari Flask (tanpa ulasan — ringan)
+// ── Data dari Flask ───────────────────────────────
 const DATA = {{ tempat|tojson }};
 
+// Mapping kategori → { sub-kategori → [tempat] }
+// Dibangun sekali saat load
+const TREE = {};
+DATA.forEach(d => {
+    const kat = d.kategori || "Lainnya";
+    const sub = d.sub_kategori || "Lainnya";
+    if (!TREE[kat]) TREE[kat] = {};
+    if (!TREE[kat][sub]) TREE[kat][sub] = [];
+    TREE[kat][sub].push(d);
+});
+
 let donutInst = null, barInst = null;
-let kategoriAktif = "";
-let petaInst = null;
-let markerLayer = null;
-const markerById = {};
+let kategoriAktif  = "";
+let subKatAktif    = "";
+let petaInst       = null;
+let markerLayer    = null;
+const markerById   = {};
 
-const kategoriSelect = document.getElementById("kategori");
-const tempatSelect   = document.getElementById("pilih-tempat");
+const kategoriSelect  = document.getElementById("kategori");
+const subKatSelect    = document.getElementById("sub-kategori");
+const tempatSelect    = document.getElementById("pilih-tempat");
 
-// ── Isi dropdown kategori ─────────────────────────
-const daftarKategori = [...new Set(DATA.map(x => x.kategori))].sort();
+// ── 1. Isi dropdown Kategori ──────────────────────
+const daftarKategori = Object.keys(TREE).sort();
 daftarKategori.forEach(k => {
     kategoriSelect.innerHTML += `<option value="${k}">${k}</option>`;
 });
 
-// ── Isi dropdown tempat berdasarkan kategori ──────
-function loadTempat(kat) {
-    tempatSelect.innerHTML = "";
-    DATA.filter(x => x.kategori === kat).forEach(x => {
-        tempatSelect.innerHTML += `<option value="${x.id}">${x.nama}</option>`;
+// ── 2. Isi dropdown Sub-Kategori ──────────────────
+function loadSubKategori(kat) {
+    subKatSelect.innerHTML = `<option value="">— Semua Sub-Kategori —</option>`;
+    const subs = Object.keys(TREE[kat] || {}).sort();
+    subs.forEach(s => {
+        subKatSelect.innerHTML += `<option value="${s}">${s}</option>`;
     });
+    subKatAktif = "";
+}
+
+// ── 3. Isi dropdown Tempat ────────────────────────
+function loadTempat(kat, sub) {
+    tempatSelect.innerHTML = "";
+    let list;
+    if (sub && TREE[kat] && TREE[kat][sub]) {
+        list = TREE[kat][sub];
+    } else if (TREE[kat]) {
+        // Semua tempat dalam kategori ini
+        list = Object.values(TREE[kat]).flat();
+    } else {
+        list = [];
+    }
+    // Urutkan A-Z
+    list.sort((a,b) => a.tempat.localeCompare(b.tempat));
+    list.forEach(x => {
+        tempatSelect.innerHTML += `<option value="${x.key}">${x.tempat}</option>`;
+    });
+    document.getElementById("bar-title").textContent =
+        sub ? `Perbandingan dalam: ${sub}` : `Perbandingan dalam: ${kat}`;
+}
+
+// ── 4. Tampilkan sub-kategori aktif tempat terpilih ──
+function tampilSubKatInfo(id) {
+    const d = DATA.find(x => x.key === id);
+    const info  = document.getElementById("subkat-info");
+    const label = document.getElementById("subkat-label");
+    if (d && d.sub_kategori && d.sub_kategori !== "Lainnya") {
+        label.textContent = d.sub_kategori;
+        info.style.display = "block";
+    } else {
+        info.style.display = "none";
+    }
 }
 
 // ── KPI ───────────────────────────────────────────
@@ -158,26 +273,22 @@ function renderKPI(d) {
         ${kpi("Negatif", (d.persen_negatif||0).toFixed(1) + "%", "negatif")}
     `;
 }
-
 function kpi(label, val, cls) {
     return `<div class="kpi-card"><p class="label">${label}</p><p class="value ${cls}">${val}</p></div>`;
 }
 
-// ── Warna marker berdasarkan sentimen dominan ─────
+// ── Warna marker ──────────────────────────────────
 function warnaSentimen(d) {
-    if (!d.total_ulasan || d.total_ulasan === 0) return "#9ca3af"; // abu-abu: belum ada ulasan
-    const pp = d.persen_positif || 0, pn = d.persen_netral || 0, pg = d.persen_negatif || 0;
+    if (!d.total_ulasan || d.total_ulasan === 0) return "#9ca3af";
+    const pp = d.persen_positif||0, pn = d.persen_netral||0, pg = d.persen_negatif||0;
     if (pp >= pn && pp >= pg) return "#1baf7a";
     if (pg >= pp && pg >= pn) return "#e34948";
     return "#eda100";
 }
 
 // ── Peta ───────────────────────────────────────────
-// Batas wilayah Kabupaten Gresik (daratan + Pulau Bawean di utara).
-// Titik lat/lng di luar area ini dianggap salah scrape (mis-match Google Maps)
-// dan tidak akan ditampilkan di peta.
 const GRESIK_BOUNDS = {
-    latMin: -7.65, latMax: -5.55,   // mencakup daratan Gresik s/d Pulau Bawean 
+    latMin: -7.65, latMax: -5.55,
     lngMin: 112.20, lngMax: 112.95
 };
 
@@ -190,13 +301,11 @@ function dalamAreaGresik(d) {
 }
 
 function initPeta() {
-    petaInst = L.map('peta').setView([-7.1566, 112.6532], 11); // pusat: Gresik
-
+    petaInst = L.map('peta', { preferCanvas: true }).setView([-7.1566, 112.6532], 11);
+    setTimeout(() => petaInst.invalidateSize(), 200);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors',
-        maxZoom: 19
+        attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
     }).addTo(petaInst);
-
     markerLayer = L.layerGroup().addTo(petaInst);
     renderMarkers(DATA);
 }
@@ -204,52 +313,52 @@ function initPeta() {
 function renderMarkers(list) {
     markerLayer.clearLayers();
     Object.keys(markerById).forEach(k => delete markerById[k]);
-
     const bounds = [];
     list.forEach(d => {
-        if (!dalamAreaGresik(d)) return; // skip kalau lat/lng kosong atau di luar area Gresik
-
+        if (!dalamAreaGresik(d)) return;
         const marker = L.circleMarker([d.latitude, d.longitude], {
-            radius: 7,
-            fillColor: warnaSentimen(d),
-            color: "#333",
-            weight: 1,
-            fillOpacity: 0.85
+            radius: 7, fillColor: warnaSentimen(d),
+            color: "#333", weight: 1, fillOpacity: 0.85
         });
-
         marker.bindPopup(`
-            <b>${d.nama}</b><br>
-            ${d.kategori}<br>
-            ⭐ ${d.rating || 0} (${d.total_ulasan || 0} ulasan)<br>
-            ${d.total_ulasan ? `👍 ${(d.persen_positif||0).toFixed(1)}% &nbsp; 😐 ${(d.persen_netral||0).toFixed(1)}% &nbsp; 👎 ${(d.persen_negatif||0).toFixed(1)}%` : "Belum ada ulasan"}<br>
-            <a href="#" onclick="pilihDariPeta('${d.id}');return false;">Lihat detail di dashboard →</a>
+            <b>${d.tempat}</b><br>
+            <span style="font-size:11px;color:#6b7280;">${d.kategori}</span>
+            ${d.sub_kategori && d.sub_kategori !== 'Lainnya'
+                ? `<span style="font-size:11px;color:#2d5be3;"> › ${d.sub_kategori}</span>`
+                : ''}<br>
+            ⭐ ${d.rating||0} (${d.total_ulasan||0} ulasan)<br>
+            ${d.total_ulasan
+                ? `👍 ${(d.persen_positif||0).toFixed(1)}% &nbsp; 😐 ${(d.persen_netral||0).toFixed(1)}% &nbsp; 👎 ${(d.persen_negatif||0).toFixed(1)}%`
+                : "Belum ada ulasan"}<br>
+            <a href="#" onclick="pilihDariPeta('${d.id}');return false;">Lihat detail →</a>
         `);
-
         marker.on('click', () => pilihDariPeta(d.id));
-
         marker.addTo(markerLayer);
         markerById[d.id] = marker;
         bounds.push([d.latitude, d.longitude]);
     });
-
-    if (bounds.length) {
-        petaInst.fitBounds(bounds, { padding: [30, 30], maxZoom: 14 });
-    }
+    if (bounds.length) petaInst.fitBounds(bounds, { padding:[30,30], maxZoom:14 });
 }
 
-// Dipanggil saat marker/link di popup diklik → sinkron ke dropdown & chart
 function pilihDariPeta(id) {
-    const d = DATA.find(x => x.id === id);
+    const d = DATA.find(x => x.key === id);
     if (!d) return;
 
+    // Set kategori
     kategoriSelect.value = d.kategori;
     kategoriAktif = d.kategori;
-    loadTempat(kategoriAktif);
+    loadSubKategori(kategoriAktif);
+
+    // Set sub-kategori
+    subKatSelect.value = d.sub_kategori || "";
+    subKatAktif = d.sub_kategori || "";
+    loadTempat(kategoriAktif, subKatAktif);
+
+    // Set tempat
     tempatSelect.value = id;
 
     render(id);
-
-    document.getElementById("kpi-row").scrollIntoView({ behavior: "smooth", block: "start" });
+    document.getElementById("kpi-row").scrollIntoView({ behavior:"smooth", block:"start" });
 }
 
 // ── Donut chart ───────────────────────────────────
@@ -258,14 +367,12 @@ function renderDonut(d) {
     const ctx = canvas.getContext("2d");
     if (donutInst) { donutInst.destroy(); donutInst = null; }
 
-    // Kalau belum ada ulasan sama sekali, tampilkan pesan alih-alih chart kosong
     if (!d.total_ulasan || d.total_ulasan === 0) {
         canvas.style.display = "none";
         let kosong = document.getElementById("donut-kosong");
         if (!kosong) {
             kosong = document.createElement("p");
-            kosong.id = "donut-kosong";
-            kosong.className = "loading";
+            kosong.id = "donut-kosong"; kosong.className = "loading";
             canvas.parentNode.appendChild(kosong);
         }
         kosong.textContent = "Belum ada ulasan untuk tempat ini.";
@@ -273,8 +380,6 @@ function renderDonut(d) {
         document.getElementById("legend-donut").innerHTML = "";
         return;
     }
-
-    // Ada data → tampilkan chart seperti biasa, sembunyikan pesan kosong kalau ada
     canvas.style.display = "block";
     const kosong = document.getElementById("donut-kosong");
     if (kosong) kosong.style.display = "none";
@@ -289,25 +394,38 @@ function renderDonut(d) {
         },
         options: { responsive:true, maintainAspectRatio:false, cutout:"68%",
             plugins:{ legend:{display:false},
-                tooltip:{ callbacks:{ label:c=>` ${c.label}: ${c.raw} (${d.total_ulasan?((c.raw/d.total_ulasan)*100).toFixed(1):0}%)` }}}}
+                tooltip:{ callbacks:{ label: c =>
+                    ` ${c.label}: ${c.raw} (${d.total_ulasan ? ((c.raw/d.total_ulasan)*100).toFixed(1) : 0}%)`
+                }}}}
     });
-    const pcts=[d.persen_positif,d.persen_netral,d.persen_negatif];
-    const cols=["#1baf7a","#eda100","#e34948"];
+    const pcts = [d.persen_positif, d.persen_netral, d.persen_negatif];
+    const cols  = ["#1baf7a","#eda100","#e34948"];
     document.getElementById("legend-donut").innerHTML =
-        ["Positif","Netral","Negatif"].map((l,i)=>
+        ["Positif","Netral","Negatif"].map((l,i) =>
             `<span><span class="legend-dot" style="background:${cols[i]}"></span>${l} ${(pcts[i]||0).toFixed(1)}%</span>`
         ).join("");
 }
 
-// ── Bar chart (semua tempat dalam kategori aktif) ─
-function renderBar(kat) {
+// ── Bar chart — berdasarkan sub-kategori aktif ────
+function renderBar(kat, sub) {
     const ctx = document.getElementById("barChart").getContext("2d");
     if (barInst) barInst.destroy();
-    const filtered = DATA.filter(x => x.kategori === kat);
+
+    let filtered;
+    if (sub && TREE[kat] && TREE[kat][sub]) {
+        filtered = TREE[kat][sub];
+    } else if (TREE[kat]) {
+        filtered = Object.values(TREE[kat]).flat();
+    } else {
+        filtered = [];
+    }
+    // Batasi 15 tempat agar bar chart tidak terlalu padat
+    filtered = filtered.slice(0, 15);
+
     barInst = new Chart(ctx, {
         type: "bar",
         data: {
-            labels: filtered.map(x => x.nama.length > 20 ? x.nama.slice(0,20)+"…" : x.nama),
+            labels: filtered.map(x => x.tempat.length > 20 ? x.tempat.slice(0,20)+"…" : x.tempat),
             datasets: [
                 { label:"Positif", data:filtered.map(x=>x.persen_positif), backgroundColor:"#1baf7a", borderRadius:4 },
                 { label:"Netral",  data:filtered.map(x=>x.persen_netral),  backgroundColor:"#eda100", borderRadius:4 },
@@ -323,7 +441,7 @@ function renderBar(kat) {
     });
 }
 
-// ── Ulasan — fetch dari API ───────────────────────
+// ── Ulasan ────────────────────────────────────────
 async function renderUlasan(key) {
     const list = document.getElementById("ulasan-list");
     list.innerHTML = `<p class="loading">⏳ Memuat ulasan...</p>`;
@@ -339,7 +457,7 @@ async function renderUlasan(key) {
             <div class="ulasan-item">
                 <div class="avatar">${(u["Nama Reviewer"]||"?")[0]}</div>
                 <div style="flex:1">
-                    <div class="ulasan-nama">
+                    <div class="ulasan-tempat">
                         <span>${u["Nama Reviewer"]||"-"}</span>
                         <span class="badge ${u.sentimen}">${u.sentimen}</span>
                         <span class="badge" style="background:#eef3ff;color:#2d5be3;">${u.topik||""}</span>
@@ -358,18 +476,31 @@ async function renderUlasan(key) {
 
 // ── Render utama ──────────────────────────────────
 function render(id) {
-    const d = DATA.find(x => x.id === id);
+    const d = DATA.find(x => x.key === id);
     if (!d) return;
     renderKPI(d);
+    tampilSubKatInfo(id);
     renderDonut(d);
-    renderBar(kategoriAktif);
-    renderUlasan(id);   // fetch ulasan via API
+    renderBar(kategoriAktif, subKatAktif);
+    // Update marker peta — highlight tempat aktif
+    const list = subKatAktif && TREE[kategoriAktif] && TREE[kategoriAktif][subKatAktif]
+        ? TREE[kategoriAktif][subKatAktif]
+        : Object.values(TREE[kategoriAktif] || {}).flat();
+    renderMarkers(list);
+    renderUlasan(id);
 }
 
 // ── Event listeners ───────────────────────────────
 kategoriSelect.addEventListener("change", function() {
     kategoriAktif = this.value;
-    loadTempat(kategoriAktif);
+    loadSubKategori(kategoriAktif);
+    loadTempat(kategoriAktif, "");
+    render(tempatSelect.value);
+});
+
+subKatSelect.addEventListener("change", function() {
+    subKatAktif = this.value;
+    loadTempat(kategoriAktif, subKatAktif);
     render(tempatSelect.value);
 });
 
@@ -377,10 +508,127 @@ tempatSelect.addEventListener("change", function() {
     render(this.value);
 });
 
+// ── Search Tempat ─────────────────────────────────
+function handleSearch(query) {
+    const btn   = document.getElementById("btn-clear-search");
+    const panel = document.getElementById("search-results");
+
+    btn.style.display = query.length > 0 ? "block" : "none";
+
+    if (query.trim().length < 2) {
+        panel.style.display = "none";
+        return;
+    }
+
+    const q = query.toLowerCase().trim();
+    const hasil = DATA.filter(d =>
+        (d.tempat || d.nama || "").toLowerCase().includes(q) ||
+        (d.kategori || "").toLowerCase().includes(q) ||
+        (d.sub_kategori || "").toLowerCase().includes(q)
+    ).slice(0, 10); // maksimal 10 hasil
+
+    if (hasil.length === 0) {
+        panel.innerHTML = `
+            <div style="padding:16px;text-align:center;color:#898781;font-size:13px;">
+                Tidak ditemukan hasil untuk "<b>${query}</b>"
+            </div>`;
+        panel.style.display = "block";
+        return;
+    }
+
+    panel.innerHTML = hasil.map(d => {
+        const nama    = d.tempat || d.nama || "-";
+        const kat     = d.kategori || "";
+        const sub     = d.sub_kategori || "";
+        const warna   = warnaSentimen(d);
+        const highlighted = nama.replace(
+            new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, "gi"),
+            `<mark style="background:#fef3c7;border-radius:2px;padding:0 2px;">$1</mark>`
+        );
+        return `
+        <div onclick="pilihHasilSearch('${d.id}')"
+             style="padding:10px 14px; cursor:pointer; border-bottom:0.5px solid #f1efe8;
+                    transition:background .15s;"
+             onmouseover="this.style.background='#f9f8f4'"
+             onmouseout="this.style.background='#fff'">
+            <div style="display:flex;align-items:center;gap:8px;">
+                <span style="width:8px;height:8px;border-radius:50%;background:${warna};
+                             flex-shrink:0;display:inline-block;"></span>
+                <span style="font-size:13px;font-weight:500;color:#111;">${highlighted}</span>
+            </div>
+            <div style="margin-top:3px;margin-left:16px;font-size:11px;color:#898781;">
+                ${kat}${sub && sub !== "Lainnya" ? ` › ${sub}` : ""}
+                ${d.total_ulasan ? ` · ⭐ ${d.rating} · ${d.total_ulasan} ulasan` : " · Belum ada ulasan"}
+            </div>
+        </div>`;
+    }).join("");
+
+    panel.style.display = "block";
+}
+
+function pilihHasilSearch(id) {
+    // Tutup panel search
+    document.getElementById("search-results").style.display = "none";
+    document.getElementById("search-tempat").value = "";
+    document.getElementById("btn-clear-search").style.display = "none";
+
+    // Sinkronkan dropdown
+    const d = DATA.find(x => x.id === id);
+    if (!d) return;
+
+    kategoriSelect.value = d.kategori;
+    kategoriAktif = d.kategori;
+    loadSubKategori(kategoriAktif);
+
+    subKatSelect.value = d.sub_kategori || "";
+    subKatAktif = d.sub_kategori || "";
+    loadTempat(kategoriAktif, subKatAktif);
+
+    tempatSelect.value = id;
+    render(id);
+
+    // Scroll ke KPI
+    document.getElementById("kpi-row").scrollIntoView({ behavior:"smooth", block:"start" });
+
+    // Highlight marker di peta
+    if (markerById[id]) {
+        markerById[id].openPopup();
+    }
+}
+
+function clearSearch() {
+    document.getElementById("search-tempat").value = "";
+    document.getElementById("search-results").style.display = "none";
+    document.getElementById("btn-clear-search").style.display = "none";
+}
+
+// Tutup search results kalau klik di luar
+document.addEventListener("click", function(e) {
+    const box = document.getElementById("search-results");
+    const inp = document.getElementById("search-tempat");
+    if (box && inp && !box.contains(e.target) && e.target !== inp) {
+        box.style.display = "none";
+    }
+});
+
 // ── Init ──────────────────────────────────────────
-kategoriAktif = daftarKategori[0];
-loadTempat(kategoriAktif);
-render(tempatSelect.value);
-initPeta();
+document.addEventListener("DOMContentLoaded", function() {
+    kategoriAktif = daftarKategori[0] || "";
+    loadSubKategori(kategoriAktif);
+    loadTempat(kategoriAktif, "");
+    
+    // Tunggu Leaflet benar-benar siap
+    if (typeof L !== "undefined") {
+        initPeta();
+    } else {
+        // Leaflet belum load, tunggu event load window
+        window.addEventListener("load", initPeta);
+    }
+    
+    // Render pertama setelah loadTempat selesai
+    if (tempatSelect.value) {
+        render(tempatSelect.value);
+    }
+});
 </script>
 {% endblock %}

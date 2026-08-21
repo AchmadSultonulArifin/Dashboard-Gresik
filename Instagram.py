@@ -389,32 +389,48 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
 
     tutup_popup(driver)
 
-    # ── Ambil caption (DIPERBAIKI) ────────────────────────────
+    # ── Ambil caption via meta og:description (paling stabil) ────
     caption = ""
-    caption_selectors = [
-        "div._a9zs span",
-        "h1",
-        "div[data-testid='post-comment-root'] span",
-        "article div[role='button'] span",
-        "div._aagv span",
-        "span._aade",
-        "div.C4VMK span",
-        "div[class*='caption'] span",
-        "ul li span[dir='auto']",
-        "article ul li:first-child span[dir='auto']",
-    ]
-    for sel in caption_selectors:
-        try:
-            els = driver.find_elements(By.CSS_SELECTOR, sel)
-            for el in els:
-                teks = el.text.strip()
-                if teks and len(teks) > 5 and not teks.startswith("@"):
-                    caption = teks[:200].replace("\n", " ")
+    try:
+        meta = driver.find_element(
+            By.CSS_SELECTOR, "meta[property='og:description']"
+        )
+        raw = meta.get_attribute("content") or ""
+        # Format Instagram: "14K likes, 770 comments - username: teks caption..."
+        if " - " in raw and ":" in raw.split(" - ", 1)[-1]:
+            caption = raw.split(" - ", 1)[-1].split(":", 1)[-1].strip()[:300]
+        elif ":" in raw:
+            caption = raw.split(":", 1)[-1].strip()[:300]
+        else:
+            caption = raw[:300]
+        caption = caption.replace("\n", " ").strip()
+    except Exception:
+        pass
+
+    # Fallback CSS selector jika meta gagal
+    if not caption:
+        for sel in [
+            "div._a9zs span[dir='auto']",
+            "article ul > li:first-child span[dir='auto']",
+            "h1._aacl._aaco._aacu._aacx._aad7._aade",
+            "span._aade",
+            "div[data-testid='post-comment-root'] span",
+            "article ul li:first-child div._a9zs span",
+            "ul._a9ym > li:first-child div._a9zs span",
+        ]:
+            try:
+                els = driver.find_elements(By.CSS_SELECTOR, sel)
+                for el in els:
+                    teks = el.text.strip()
+                    if (teks and len(teks) > 10
+                            and not teks.startswith("@")
+                            and not teks.isdigit()):
+                        caption = teks[:300].replace("\n", " ")
+                        break
+                if caption:
                     break
-            if caption:
-                break
-        except Exception:
-            continue
+            except Exception:
+                continue
 
     if not caption:
         caption = "-"

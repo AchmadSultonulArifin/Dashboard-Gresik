@@ -1,19 +1,130 @@
 {
+  "key": "puskesmas_duduk_sampeyan",
   "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
   "tempat": "Puskesmas Duduk Sampeyan",
   "rating": 4,
-  "total_ulasan": 20,
-  "positif": 16,
+  "total_ulasan": 22,
+  "positif": 19,
   "netral": 1,
-  "negatif": 3,
-  "persen_positif": 80.0,
-  "persen_netral": 5.0,
-  "persen_negatif": 15.0,
+  "negatif": 2,
+  "persen_positif": 86.4,
+  "persen_netral": 4.5,
+  "persen_negatif": 9.1,
   "latitude": -7.1547314,
   "longitude": 112.5213926,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Panji Maulana",
+      "Bintang": 5,
+      "Tanggal": "2026-08-20T03:02:49.526Z",
+      "Ulasan": "puskesmas duduk sekarang luar biasa terutama ruang anak pegawai nya ramah murah senyum",
+      "teks_final": "puskesmas duduk sekarang luar biasa terutama ruang anak pegawai ramah murah senyum",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Uyiiem Rachma",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T02:23:35.800Z",
+      "Ulasan": "Pelayanan poli anak Rama supel",
+      "teks_final": "pelayanan poli anak rama supel",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9948
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "32_Najwa Hamidah M",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T01:42:26.151Z",
+      "Ulasan": "pelayanan sangat bagus rama murah senyum",
+      "teks_final": "pelayanan bagus rama murah senyum",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9968
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Dimas Fery17",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T01:25:45.114Z",
+      "Ulasan": "Alhamdulillah pelayanan sangat Rama murah senyum senang bercanda asiik mantaaap wes",
+      "teks_final": "alhamdulillah pelayanan rama murah senyum senang bercanda asiik mantaaap wes",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9959
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Shinta Yuniar",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T01:25:40.893Z",
+      "Ulasan": "Pelayanan sudah lebih baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Putri Anjay",
+      "Bintang": 5,
+      "Tanggal": "2026-08-15T03:44:19.278Z",
+      "Ulasan": "pelayanan poli anak rama baik murah senyum",
+      "teks_final": "pelayanan poli anak rama baik murah senyum",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Andra Andramblunat",
+      "Bintang": 5,
+      "Tanggal": "2026-08-15T02:00:13.702Z",
+      "Ulasan": "Pelayanan semakin baik terutama poli anak",
+      "teks_final": "pelayanan semakin baik terutama poli anak",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.993
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Zainul Muttakin",
+      "Bintang": 5,
+      "Tanggal": "2026-08-15T01:36:50.882Z",
+      "Ulasan": "Pelayanan poli anak baik",
+      "teks_final": "pelayanan poli anak baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9937
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "silvia zulifa",
+      "Bintang": 5,
+      "Tanggal": "2026-08-09T01:34:02.016Z",
+      "Ulasan": "Pelayanan bagus, petugas nya ramaah..",
+      "teks_final": "pelayanan bagus petugas ramaah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "rini kasiyati",
       "Bintang": 5,
       "Tanggal": "2026-08-06T03:28:09.636Z",
@@ -25,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Bahrul Ilmi",
       "Bintang": 5,
       "Tanggal": "2026-08-06T01:51:00.672Z",
@@ -36,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Marissa Azzahra",
       "Bintang": 5,
       "Tanggal": "2026-08-05T03:56:01.642Z",
@@ -47,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Zahrotun Nishfiyah",
       "Bintang": 5,
       "Tanggal": "2026-08-05T03:13:28.897Z",
@@ -58,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Enik Purwanti",
       "Bintang": 5,
       "Tanggal": "2026-08-05T02:08:33.392Z",
@@ -69,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Maf tucha",
       "Bintang": 5,
       "Tanggal": "2026-08-05T00:52:30.888Z",
@@ -80,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Siti Aminah",
       "Bintang": 5,
       "Tanggal": "2026-07-31T03:05:49.661Z",
@@ -91,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Citra Aini",
       "Bintang": 5,
       "Tanggal": "2026-07-31T02:03:57.601Z",
@@ -102,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Fachriani Kartika Rosa",
       "Bintang": 5,
       "Tanggal": "2026-07-28T20:12:54.380Z",
@@ -113,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Khumaidah",
       "Bintang": 1,
       "Tanggal": "2026-06-30T02:34:51.393Z",
@@ -124,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Fitri Goni",
       "Bintang": 5,
       "Tanggal": "2026-05-30T01:51:04.893Z",
@@ -135,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "fajar sodek",
       "Bintang": 1,
       "Tanggal": "2026-05-29T01:35:51.801Z",
@@ -146,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Adinda Dinda",
       "Bintang": 5,
       "Tanggal": "2026-05-22T01:58:52.040Z",
@@ -154,83 +277,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9961
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sulis Tya",
-      "Bintang": 5,
-      "Tanggal": "2026-05-19T14:05:50.862Z",
-      "Ulasan": "Pukesmas duduk penangan nya baik dan Cepat",
-      "teks_final": "pukesmas duduk penangan baik cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.6131
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Kartika Dwi Lestari",
-      "Bintang": 5,
-      "Tanggal": "2026-05-18T07:25:20.309Z",
-      "Ulasan": "Untuk pelayan ugd sangat memuaskan dan ramah Terutama untuk pegawai ugd yang tinggi. penjelesan tentang penyakit dan cara minum obatnya juga di jelaskan jadi puas berobat di sini.",
-      "teks_final": "pelayan ugd memuaskan ramah terutama pegawai ugd tinggi penjelesan tentang penyakit cara minum obatnya jelaskan jadi puas berobat sini",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9949
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "SIDA GRESIK",
-      "Bintang": 5,
-      "Tanggal": "2026-05-17T11:34:58.529Z",
-      "Ulasan": "Pelayanan ugd sangat memuaskan",
-      "teks_final": "pelayanan ugd memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9957
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "lucky Agus",
-      "Bintang": 5,
-      "Tanggal": "2026-05-17T08:04:20.534Z",
-      "Ulasan": "Saya berobat di PKM duduk sangan memuaskan di UGD petugasnya ramah nerima curhatan saya",
-      "teks_final": "berobat pkm duduk sangan memuaskan ugd petugasnya ramah nerima curhatan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.937
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mahmudha Latifah",
-      "Bintang": 1,
-      "Tanggal": "2026-05-13T09:08:26.498Z",
-      "Ulasan": "Pelayanan sangat tidak ramah. Dokter menyepelekan keluhan pasien. Apalagi dokter bertugas pada hari ini Rabu, 13 Mei 2026. Pukul 15.00. Sebagai dokter omongannya tidak dijaga. Ya meskipun menurut medis sakit yang diderita pasien tidak parah tp tolong omongannya dijaga. Tak lihat di sini banyak yang berkomentar tentang pelayanannya buruk dan admin menjawab akan ada evaluasi tp yang terlihat malah sampai sekarang pun pelayanan tetap nol. Apakah benar” sudah dievaluasi tentang pelayanannya atau cuma omong tok? Sudah 2 kali, dan itu pengalaman saya. Belum dengan pengalaman orang lain yang mungkin banyak dari pengalaman buruk orang lain yang mereka tidak speak up",
-      "teks_final": "pelayanan ramah dokter menyepelekan keluhan pasien apalagi dokter bertugas hari rabu mei pukul sebagai dokter omongannya dijaga ya meskipun menurut medis sakit diderita pasien parah tolong omongannya dijaga tak lihat sini banyak berkomentar tentang pelayanannya buruk admin menjawab evaluasi terlihat malah sampai sekarang pelayanan tetap nol apakah benar dievaluasi tentang pelayanannya cuma omong tok kali pengalaman pengalaman orang lain mungkin banyak pengalaman buruk orang lain speak up",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9927
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Abdul Azis",
-      "Bintang": 5,
-      "Tanggal": "2026-05-12T03:55:54.033Z",
-      "Ulasan": "Saya Periksa Gigi, tambal gigi selalu disini.. terakhir senin kmren.. lumayan cepat proses tunggunya. Mgkin lagi gak ada pasien. Kalo rame pernah juga agak lama.. Kasus yg sekarang ini dirujuk untuk pencabutan, tidak dihandle di Puskesmas.. mungkin karene kondisi dan posisi gigi",
-      "teks_final": "periksa gigi tambal gigi selalu disini terakhir senin kmren lumayan cepat proses tunggunya mgkin pasien kalo rame pernah agak lama kasus sekarang dirujuk pencabutan dihandle puskesmas mungkin karene kondisi posisi gigi",
-      "topik": "Pelayanan",
-      "sentimen": "Netral",
-      "sentimen_score": 0.6413
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Kusnan Genk",
-      "Bintang": 5,
-      "Tanggal": "2026-05-11T01:40:17.487Z",
-      "Ulasan": "Pelayanan cepat",
-      "teks_final": "pelayanan cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9954
     }
   ]
 }

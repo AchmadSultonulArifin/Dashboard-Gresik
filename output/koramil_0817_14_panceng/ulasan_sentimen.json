@@ -1,0 +1,42 @@
+{
+  "key": "koramil_0817_14_panceng",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Instansi Vertikal",
+  "tempat": "KORAMIL 0817/14 Panceng",
+  "rating": 4.3,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 50.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 50.0,
+  "latitude": -6.913451,
+  "longitude": 112.4585332,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Instansi Vertikal",
+      "Nama Reviewer": "Kartika Wira Asjania",
+      "Bintang": 5,
+      "Tanggal": "2026-02-12T02:16:18.439Z",
+      "Ulasan": "Melindungi masyarakat fulll",
+      "teks_final": "melindungi masyarakat fulll",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6381
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Instansi Vertikal",
+      "Nama Reviewer": "Zainuri Zein",
+      "Bintang": 3,
+      "Tanggal": "2022-09-17T18:56:45.965Z",
+      "Ulasan": "suasana aman tenang fasilitas cukup memadai pelayanan ramah",
+      "teks_final": "suasana aman tenang fasilitas cukup memadai pelayanan ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9911
+    }
+  ]
+}

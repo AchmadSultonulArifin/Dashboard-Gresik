@@ -1,0 +1,1380 @@
+{
+  "title": "Dr Agustin Gonzalez",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Dokter Gigi",
+  "address": "8550 W Flagler St Ste 116, Miami, FL 33144",
+  "neighborhood": null,
+  "street": "8550 W Flagler St Ste 116",
+  "city": "Miami",
+  "postalCode": "33144",
+  "state": "Florida",
+  "countryCode": "US",
+  "phone": "(786) 552-9918",
+  "phoneUnformatted": "+17865529918",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 25.7690525,
+    "lng": -80.3346405
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "QM98+J4 Miami, Florida",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJh1t_Ax252YgR99Rk1gspiIE",
+  "categories": [
+    "Dokter Gigi"
+  ],
+  "fid": "0x88d9b91d037f5b87:0x8188290bd664d4f7",
+  "cid": "9333755358543664375",
+  "reviewsCount": 86,
+  "imagesCount": 6,
+  "imageCategories": [
+    "Semua"
+  ],
+  "scrapedAt": "2026-08-20T19:45:02.221Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Tidak seramai biasanya",
+  "popularTimesLivePercent": 0,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 93
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 45
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 93
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Kamis",
+      "hours": "08.30 to 18.00"
+    },
+    {
+      "day": "Jumat",
+      "hours": "08.30 to 18.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "08.30 to 18.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.30 to 18.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.30 to 18.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "Tutup"
+    }
+  ],
+  "wasOpenAtScrapeTime": true,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Gonzalez Augustin DDS PA",
+      "reviewsCount": 10,
+      "totalScore": 4.2
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Florida Dental Clinic",
+      "reviewsCount": 49,
+      "totalScore": 4.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "DR.GONZALEZ",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Gomez Grisell DDS",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Carmen Ramirez Gonzalez",
+      "reviewsCount": 2,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "perhatian",
+      "count": 8
+    },
+    {
+      "title": "tenaga kerja",
+      "count": 6
+    },
+    {
+      "title": "pengetahuan",
+      "count": 2
+    },
+    {
+      "title": "kepercayaan",
+      "count": 2
+    },
+    {
+      "title": "perjalanan",
+      "count": 2
+    },
+    {
+      "title": "jantung",
+      "count": 2
+    },
+    {
+      "title": "salam",
+      "count": 2
+    },
+    {
+      "title": "skill",
+      "count": 2
+    },
+    {
+      "title": "harga",
+      "count": 2
+    }
+  ],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": true
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": true
+      },
+      {
+        "Toilet khusus pengguna kursi roda": true
+      }
+    ],
+    "Fasilitas": [
+      {
+        "Toilet": true
+      }
+    ],
+    "Perencanaan": [
+      {
+        "Disarankan membuat janji dulu": true
+      }
+    ],
+    "Pembayaran": [
+      {
+        "Kartu debit": true
+      },
+      {
+        "Kartu kredit": true
+      },
+      {
+        "Pembayaran seluler dengan NFC": true
+      },
+      {
+        "Kartu kredit": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Dr%20Agustin%20Gonzalez&query_place_id=ChIJh1t_Ax252YgR99Rk1gspiIE",
+  "searchPageUrl": "https://www.google.com/maps/search/Dokter%20GIGI%20Agustin?hl=id",
+  "searchString": "Dokter GIGI Agustin",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmN5ArNrK-nNWJm5L_mchIy69G1mHLgvJiakaXi59MpJNxStBsMLzPpfDRpoikF-U7_rXZyoSLw-33_Ss2IRg8sGiZIbZmaBqmy66oERelV4MI_HZUnLJ8guJCEZp-4JBoQY9Y=w408-h306-k-no",
+  "kgmid": "/g/11ddwhvpzx",
+  "businessProfileId": null,
+  "reviewsDistribution": {
+    "oneStar": 2,
+    "twoStar": 1,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 83
+  },
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "116920912996750996404",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116920912996750996404?hl=id",
+      "name": "Kalani Green",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJRRymBbrdW9713yA32qyI95hzxtOeeKWCU5860iGdb-00byQ=s1920-c-rp-mo-br100",
+      "text": "I called twice to ask if they took my insurance and they hung up on me mid sentence twice!! Don’t go here very unprofessional",
+      "textTranslated": "Saya menelepon dua kali untuk menanyakan apakah mereka menerima asuransi saya dan mereka langsung menutup telepon di tengah kalimat dua kali!! Jangan ke sini, sangat tidak profesional.",
+      "publishAt": "2 hari lalu",
+      "publishedAtDate": "2026-08-18T19:14:38.922Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pGQ05sVlJPREppWXpKRFprWklZalJsTVRjMldXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pGQ05sVlJPREppWXpKRFprWklZalJsTVRjMldXYxAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOjFCNlVRODJiYzJDZkZIYjRlMTc2WWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "117023633045253362548",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117023633045253362548?hl=id",
+      "name": "Daymi Puente serrano",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXdtxbSOuVStJY7zT2wrrlVlao9w_3g3JnyR4x35GTeR_ZZAf4o=s1920-c-rp-mo-br100",
+      "text": "Es un equipo de trabajo excelente muy buenos todos y el doctor es lo mejor!!! Profesional sabio y sobre todo muy humano\nLlegué por recomendación y de verdad me siento parte de ellos pues te acogen como una gran familia",
+      "textTranslated": "Ini tim yang luar biasa, semua orang hebat, dan dokternya yang terbaik! Seorang profesional yang bijaksana dan, yang terpenting, sangat manusiawi. Saya datang atas rekomendasi, dan saya benar-benar merasa seperti bagian dari keluarga karena mereka menyambut Anda seperti satu keluarga besar.",
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-24T09:03:37.653Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2prNFUwWmtibWN6YjFrd1EwWlZNRjh6T0ZaSVpsRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2prNFUwWmtibWN6YjFrd1EwWlZNRjh6T0ZaSVpsRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOjk4U0Zkbmczb1kwQ0ZVMF8zOFZIZlE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "110064809650030128118",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110064809650030128118?hl=id",
+      "name": "lazaro jesus betancourt torres",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXoTL3Ax7uTiKNLmMDDK749Ny81fu_suFrtGiu-x28U2bb4CCYj=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-06-12T20:26:19.634Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t0eGFUUmpiWEZJYVhrM2FYQlBiRlJVZFRsdFoxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0eGFUUmpiWEZJYVhrM2FYQlBiRlJVZFRsdFoxRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOktxaTRjbXFIaXk3aXBPbFRUdTltZ1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103607534463954461616",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103607534463954461616?hl=id",
+      "name": "Arev Sarria",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXanOV1K_9ISN9I2hQNBj6XxrXuC1kZzSdJOOrpHQTCD9FkDdU=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 bulan lalu",
+      "publishedAtDate": "2026-04-17T20:29:52.002Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKdU9URmFNVzF3TFhKbmMyeGtSVGxHV25CaGNGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKdU9URmFNVzF3TFhKbmMyeGtSVGxHV25CaGNGRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOjJuOTFaMW1wLXJnc2xkRTlGWnBhcFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101532716167269162191",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101532716167269162191?hl=id",
+      "name": "Yusimi guevara socarras",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUF_C7QS38nlKDiAx7xrwtavsw9Gm9mo_r-dDPvKhSlanFQLMzwdA=s1920-c-rp-mo-br100",
+      "text": "No hay palabras para expresar la buena atención , súper profesionales, recomiendo este lugar 100%",
+      "textTranslated": "Kata-kata tidak dapat menggambarkan betapa bagusnya pelayanan yang diberikan; mereka sangat profesional. Saya merekomendasikan tempat ini 100%.",
+      "publishAt": "4 bulan lalu",
+      "publishedAtDate": "2026-04-17T15:42:48.225Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25Rd2IxWk5aVXh4YVhsM2QyNDJiVTAxVjBoTFNGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Rd2IxWk5aVXh4YVhsM2QyNDJiVTAxVjBoTFNGRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOnQwb1ZNZUxxaXl3d242bU01V0hLSFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "113028556014706162275",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113028556014706162275?hl=id",
+      "name": "Oleg Leon pimentel",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLpWb8F_c4WZ3Ua_bgY5lvXiNaxrUFPDuwCn3a_yC3al0lQjdU=s1920-c-rp-mo-br100",
+      "text": "⭐⭐⭐⭐⭐ The Best Dentist I’ve Ever Experienced — Dr. Agustin Gonzalez and His Team\nAfter visiting dentists in California, New York, Chicago, Texas, New Jersey, and multiple cities across Florida, I can say with complete confidence: Dr. Agustin Gonzalez stands in a league of his own. He is, without exaggeration, the finest dentist I have encountered in the entire Western Hemisphere.\nWhat sets Dr. Gonzalez apart is not just his exceptional skill and professionalism, but the genuine care and love he and his entire team pour into every patient. From the moment you walk in, you feel completely at home. There’s no cold clinical feeling here — it’s warm, welcoming, and you immediately sense that they have your best interest at heart, always.\nI’ve been his patient for more than 18 years, and I’ve known him and his wonderful family for over 45 years. His dedication, gentle touch, and attention to detail have made me and my entire family willing to travel across the state just to see him and his team. No one else comes close.\nIf you’re looking for a dentist who combines top-tier expertise with true compassion and humanity, look no further. Dr. Agustin Gonzalez and his team are the real deal. I trust them completely with my smile and my family’s smiles — and you will too.\nThank you, Dr. Gonzalez, for 18+ years of outstanding care. You and your team are truly one of a kind.//\n⭐⭐⭐⭐⭐ El mejor dentista que he conocido en mi vida — Dr. Agustín González y su equipo\nDespués de haber visitado dentistas en California, Nueva York, Chicago, Texas, Nueva Jersey y en varias ciudades de Florida, puedo decir con total seguridad: el Dr. Agustín González está en una categoría completamente aparte. Sin exagerar, es el mejor dentista que he encontrado en todo el hemisferio occidental.\nLo que realmente distingue al Dr. González no es solo su gran profesionalismo y habilidad, sino el cariño y amor con que él y todo su equipo atienden a cada paciente. Desde que entras por la puerta, te sientes como en casa. No hay esa sensación fría de clínica; al contrario, es un ambiente cálido y acogedor donde inmediatamente sientes que ellos siempre tienen tu mejor interés en el corazón.\nHace más de 18 años que soy su paciente y conozco al Dr. González y a su maravillosa familia desde hace más de 45 años. Su dedicación, su trato suave y su atención a los detalles han hecho que toda mi familia esté dispuesta a viajar desde diferentes partes del estado solo para recibir atención con él y su equipo. Nadie se compara.\nSi estás buscando un dentista que combine una excelente expertise con verdadera compasión y humanidad, no busques más. El Dr. Agustín González y su equipo son únicos. Confío plenamente en ellos con mi sonrisa y con la de toda mi familia… y tú también lo harás.\nGracias, Dr. González, por más de 18 años de excelente cuidado. Usted y su equipo son verdaderamente incomparables.",
+      "textTranslated": "⭐⭐⭐⭐⭐ Dokter Gigi Terbaik yang Pernah Saya Temui — Dr. Agustin Gonzalez dan Timnya\nSetelah mengunjungi dokter gigi di California, New York, Chicago, Texas, New Jersey, dan beberapa kota di Florida, saya dapat mengatakan dengan penuh keyakinan: Dr. Agustin Gonzalez berada di kelasnya sendiri. Tanpa berlebihan, beliau adalah dokter gigi terbaik yang pernah saya temui di seluruh Belahan Bumi Barat.\nYang membedakan Dr. Gonzalez bukan hanya keahlian dan profesionalismenya yang luar biasa, tetapi juga perhatian dan kasih sayang tulus yang beliau dan seluruh timnya curahkan kepada setiap pasien. Sejak Anda masuk, Anda merasa benar-benar seperti di rumah. Tidak ada suasana klinis yang dingin di sini — suasananya hangat, ramah, dan Anda langsung merasakan bahwa mereka selalu mengutamakan kepentingan terbaik Anda.\nSaya telah menjadi pasiennya selama lebih dari 18 tahun, dan saya mengenal beliau dan keluarganya yang luar biasa selama lebih dari 45 tahun. Dedikasinya, sentuhan lembutnya, dan perhatiannya terhadap detail telah membuat saya dan seluruh keluarga saya rela melakukan perjalanan jauh hanya untuk menemui beliau dan timnya. Tidak ada yang bisa menandinginya.\n\nJika Anda mencari dokter gigi yang menggabungkan keahlian tingkat atas dengan kasih sayang dan kemanusiaan yang tulus, jangan mencari lagi. Dr. Agustin Gonzalez dan timnya adalah yang terbaik. Saya sepenuhnya mempercayakan senyum saya dan senyum keluarga saya kepada mereka—dan Anda pun akan demikian.\n\nTerima kasih, Dr. Gonzalez, atas perawatan luar biasa selama lebih dari 18 tahun. Anda dan tim Anda benar-benar unik. //\n⭐⭐⭐⭐⭐ Dokter gigi terbaik yang pernah saya temui — Dr. Agustin Gonzalez dan timnya\nSetelah mengunjungi dokter gigi di California, New York, Chicago, Texas, New Jersey, dan beberapa kota di Florida, saya dapat mengatakan dengan pasti: Dr. Agustin Gonzalez berada di kelasnya sendiri. Tanpa berlebihan, beliau adalah dokter gigi terbaik yang pernah saya temukan di seluruh Belahan Bumi Barat.\n\nYang benar-benar membedakan Dr. Gonzalez bukan hanya profesionalisme dan keahliannya yang luar biasa, tetapi juga perhatian dan kasih sayang yang diberikan beliau dan seluruh timnya kepada setiap pasien. Sejak Anda melangkah masuk, Anda akan merasa seperti di rumah sendiri. Tidak ada perasaan dingin dan kaku; sebaliknya, ini adalah lingkungan yang hangat dan ramah di mana Anda langsung merasakan bahwa mereka selalu mengutamakan kepentingan terbaik Anda.\nSaya telah menjadi pasien mereka selama lebih dari 18 tahun, dan saya telah mengenal Dr. González dan keluarganya yang luar biasa selama lebih dari 45 tahun. Dedikasi, pendekatan yang lembut, dan perhatian terhadap detail telah membuat seluruh keluarga saya rela melakukan perjalanan dari berbagai bagian negara bagian hanya untuk menerima perawatan dari beliau dan timnya. Tidak ada yang seperti mereka.\n\nJika Anda mencari dokter gigi yang menggabungkan keahlian yang luar biasa dengan kasih sayang dan kemanusiaan yang tulus, jangan mencari lagi. Dr. Agustín González dan timnya adalah yang terbaik. Saya sepenuhnya mempercayakan senyum saya dan senyum seluruh keluarga saya kepada mereka… dan Anda pun akan demikian.\n\nTerima kasih, Dr. González, atas perawatan luar biasa selama lebih dari 18 tahun. Anda dan tim Anda benar-benar tak tertandingi.",
+      "publishAt": "4 bulan lalu",
+      "publishedAtDate": "2026-03-28T01:53:27.816Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25nMVIwOXlkV05PVm05dGFIWnpVV00yV2poR2NWRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25nMVIwOXlkV05PVm05dGFIWnpVV00yV2poR2NWRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOng1R09ydWNOVm9taHZzUWM2WjhGcVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM1w3OzUxevMRCih6rTKjo0tKQltFOlnBXyPji0TN3df7Y2XicpGU5pWL3olCnStQZ-rBGkelonvlgrjo5h6tUIMsoAElcHQMmPwy1Bu1iS7aCUKmjnpZqzqVDZ_qMhApxMY5EikA-KnCgj=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "112274108886314159320",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112274108886314159320?hl=id",
+      "name": "LUIS FERREIRO GARCIA",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIKPXzheXdxtDzan6hg3Ochyuq64Nqz6Zhj35kDh17YrAd_6Q=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "7 bulan lalu",
+      "publishedAtDate": "2026-01-20T15:09:27.629Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psak0wUjVUemxZV2xGNE1GbFpaMGRGYWtOMWJYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2psak0wUjVUemxZV2xGNE1GbFpaMGRGYWtOMWJYYxAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOjljM0R5TzlYWlF4MFlZZ0dFakN1bXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101562568400814015070",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101562568400814015070?hl=id",
+      "name": "Julio Cesar Quesada Arias (JZTM)",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX34KwuvCAcv636BhOq1ZxdxDpyMKp3_962Ngh60knkL-jh4-yn=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "7 bulan lalu",
+      "publishedAtDate": "2026-01-20T15:09:05.292Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201NWNrdDRkWGt3UkdSeUxVVTRZbU5aT0VOemJuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201NWNrdDRkWGt3UkdSeUxVVTRZbU5aT0VOemJuYxAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOm55ckt4dXkwRGRyLUU4YmNZOENzbnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102710305693667747678",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102710305693667747678?hl=id",
+      "name": "Carla Sosa",
+      "reviewerNumberOfReviews": 91,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWEqez8JAKtaS1bn6ybX7ZtXliOTzfgoTb7wMfc-7OFfgQrxAuI-Q=s1920-c-rp-mo-ba12-br100",
+      "text": "Excelente atención, trato amable, hablan español e inglés.\nEl Dr Agustín trabaja excelente, muy profesional, gran variedad de tratamientos y su equipo es maravilloso.\nSiempre el lugar está muy limpio y todo ordenado.\nMuchas gracias.",
+      "textTranslated": "Pelayanan luar biasa, staf ramah, mereka berbicara bahasa Spanyol dan Inggris.\nDr. Agustín melakukan pekerjaan yang sangat baik, sangat profesional, menawarkan berbagai macam perawatan, dan timnya luar biasa.\nTempatnya selalu sangat bersih dan rapi.\nTerima kasih banyak.",
+      "publishAt": "11 bulan lalu",
+      "publishedAtDate": "2025-09-02T13:53:43.937Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pjNE9WcHlWVUpNVEd4SWNUQkVOSEUxVFRSRE1sRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pjNE9WcHlWVUpNVEd4SWNUQkVOSEUxVFRSRE1sRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOjc4OVpyVUJMTGxIcTBENHE1TTRDMlE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "113909761624102453147",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113909761624102453147?hl=id",
+      "name": "Blanco Mobile Mechanic",
+      "reviewerNumberOfReviews": 47,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUMe6n_KM28CUTgvFIIBH9Hh4OyJFcSFm90dlUM8zFObIEA3hg=s1920-c-rp-mo-ba12-br100",
+      "text": "⭐⭐⭐⭐⭐ Reseña para el Dr. Agustín González, DDS\n\nEl Dr. Agustín González, DDS, es mucho más que un excelente dentista: es un ser humano de gran corazón y compromiso con su comunidad. Con raíces en San Luis, Pinar del Río, ha logrado crear en su consultorio en Miami un espacio donde todos —especialmente quienes venimos de Cuba— nos sentimos escuchados, valorados y en confianza.\n\nDesde la primera visita, el Dr. González demuestra profesionalismo, honestidad y un trato humano que hoy en día es difícil de encontrar. Explica cada procedimiento con claridad y paciencia, y siempre busca lo mejor para la salud de sus pacientes. Su equipo es amable, puntual y muy bien organizado, lo que hace que cada visita sea agradable y sin estrés.\n\nMuchos cubanos que llegan a Miami buscando atención dental de calidad encuentran en él no solo un gran especialista, sino también un pedacito de nuestra tierra. Gracias, doctor, por atendernos con tanto respeto y cariño.\n\n100% recomendado — un orgullo para la comunidad cubana en Miami. Saludos cordiales de la  Familia Correa (Hermes padre e hijo)",
+      "textTranslated": "⭐⭐⭐⭐⭐ Ulasan untuk Dr. Agustín González, DDS\n\nDr. Agustín González, DDS, lebih dari sekadar dokter gigi yang hebat: beliau adalah manusia berhati baik yang sangat berkomitmen pada komunitasnya. Berasal dari San Luis, Pinar del Río, beliau telah menciptakan ruang di kantornya di Miami di mana setiap orang—terutama kami yang berasal dari Kuba—merasa didengar, dihargai, dan nyaman.\n\nSejak kunjungan pertama, Dr. González menunjukkan profesionalisme, kejujuran, dan sentuhan manusiawi yang sulit ditemukan saat ini. Beliau menjelaskan setiap prosedur dengan jelas dan sabar, selalu berupaya untuk memberikan yang terbaik bagi kesehatan pasiennya. Timnya ramah, tepat waktu, dan sangat terorganisir, membuat setiap kunjungan menyenangkan dan bebas stres.\n\nBanyak warga Kuba yang datang ke Miami untuk mencari perawatan gigi berkualitas menemukan dalam dirinya bukan hanya seorang spesialis hebat tetapi juga secuil kenangan dari tanah air kami. Terima kasih, Dokter, atas perhatian dan kebaikan Anda kepada kami.\n\nSangat direkomendasikan — sumber kebanggaan bagi komunitas Kuba di Miami. Salam hangat dari Keluarga Correa (Hermes, ayah dan anak).",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-07-25T14:56:21.198Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pRNWNubHFkblY2TUVvMFdVUktOamsyVW5ZeFFVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pRNWNubHFkblY2TUVvMFdVUktOamsyVW5ZeFFVRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOjQ5cnlqdnV6MEo0WURKNjk2UnYxQUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "107485684303005854653",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107485684303005854653?hl=id",
+      "name": "Yoleisys Rodriguez",
+      "reviewerNumberOfReviews": 16,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKdbqjZhxmVpr63JCp89z1WKJke5AcC7_xvDqNb5nYVJUHoKw=s1920-c-rp-mo-ba12-br100",
+      "text": "Buenos profesionales buen trabajo y muy buena atención",
+      "textTranslated": "Para profesional yang handal, hasil kerja yang baik, dan pelayanan yang sangat memuaskan.",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-07-23T19:56:31.061Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkbVREZFdiVkJUVGtwTWRGbE1SamxMUlRORlNIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkbVREZFdiVkJUVGtwTWRGbE1SamxMUlRORlNIYxAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CAIQACodChtycF9oOldmTDdWbVBTTkpMdFlMRjlLRTNFSHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "115388482698422057962",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115388482698422057962?hl=id",
+      "name": "Edixia Corrales",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJof6aQaFsFQPdY-dzoDmeyACir5AiNjqur-uzMhDi3lj_50w=s1920-c-rp-mo-br100",
+      "text": "El doctor Agustin es un profesional que ama su trabajo. La clinica es super limpia y cuenta con un excelente equipo de trabajo.",
+      "textTranslated": "Dr. Agustin adalah seorang profesional yang mencintai pekerjaannya. Klinik ini sangat bersih dan memiliki tim yang luar biasa.",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-06-12T17:12:44.363Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VOaXp6LXZGOUlUc25BRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VOaXp6LXZGOUlUc25BRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKENizz-vF9ITsnAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "114163765019365317892",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114163765019365317892?hl=id",
+      "name": "Yanet Hernandez",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVUkeomwgHRw2VdwupBeerLJ_-cpgxsWQsTt3Hybzq8Qljs0Ymt=s1920-c-rp-mo-br100",
+      "text": "Magnífico doctor y servicio. Muy amables y profesionales.🥰",
+      "textTranslated": "Dokter dan pelayanannya sangat baik. Sangat ramah dan profesional. 🥰",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-05-13T15:45:39.807Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ3YxXzc0aFl1Unl3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ3YxXzc0aFl1Unl3RRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICv1_74hYuRywE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "100631360860895371705",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100631360860895371705?hl=id",
+      "name": "Gustavo Villafranca",
+      "reviewerNumberOfReviews": 9,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXhoB-_6oyZuGWPs19-so3lPhpzOKco3Em6-uB0dk6DupDiKsA=s1920-c-rp-mo-br100",
+      "text": "Excelente y profesional servicio.",
+      "textTranslated": "Layanan yang sangat baik dan profesional.",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-04-26T13:03:46.846Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnTURvbVlXWWpBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURvbVlXWWpBRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgMDomYWYjAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "112100714879304213209",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112100714879304213209?hl=id",
+      "name": "K Construction and Development Corp",
+      "reviewerNumberOfReviews": 36,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVWZ1GZLnnt10Z0ilEnI1bvKVTeNL8Nc8m86xV6B-graxDdb0KZ=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-02-06T13:54:55.340Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnTURBaUt2V0NREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURBaUt2V0NREAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgMDAiKvWCQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117256958596719030276",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117256958596719030276?hl=id",
+      "name": "ROSANNA MARTINEZ",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX_BpKYsehnpfU-SHqigzVDBB_f2h00XDsYa4Ju4I784nzesG19=s1920-c-rp-mo-br100",
+      "text": "Excelente experiencia!!!\nUn doctor extraordinario y muy profesional, sin dejar de mencionar a su equipo, lo recomiendo en su totalidad!!!!!!!!!",
+      "textTranslated": "Pengalaman yang luar biasa!!!\n\nDokter yang luar biasa dan sangat profesional, belum lagi timnya. Saya sangat merekomendasikannya!",
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-11-16T20:49:41.327Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQzaGZLWlZnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQzaGZLWlZnEAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgID3hfKZVg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "116491820835444224760",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116491820835444224760?hl=id",
+      "name": "rafael cruz",
+      "reviewerNumberOfReviews": 10,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV5rm3VVp0S7WNQpKCsn-t4EONgP8kOZAfVjfVrYVYoCEsKo2kB=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-10-04T19:46:56.413Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURuc3VtYjl3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURuc3VtYjl3RRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDnsumb9wE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113707486634276540184",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113707486634276540184?hl=id",
+      "name": "Laury_Glez Gonzalez Martinez",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIgWHPQD0FRDRozbQkuevlxoLUbXo1MdfYpRdTBjTlM9qpo=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-08-12T16:40:30.086Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM3eE9feUNBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM3eE9feUNBEAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIC7xO_yCA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107277891682830808269",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107277891682830808269?hl=id",
+      "name": "Rosana Alvarez",
+      "reviewerNumberOfReviews": 11,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4hKaoyzz_hBOWDo9ctI_eFPjBS9ZiIpnoGdL-InE9rDugUQ=s1920-c-rp-mo-br100",
+      "text": "Es mi odontólogo y el de mi familia hace muchos años y tanto el como su equipo son excelentes, muy buen doctor, muy profesionales, formales, amables y sobre todo te brindan la confianza para sentirte cómoda y segura de estar en buenas manos, lo recomiendo 100%",
+      "textTranslated": "Beliau telah menjadi dokter gigi saya dan keluarga saya selama bertahun-tahun, dan baik beliau maupun timnya sangat luar biasa. Beliau adalah dokter yang sangat baik, sangat profesional, sopan, dan ramah, dan yang terpenting, beliau memberi Anda kepercayaan diri untuk merasa nyaman dan aman karena tahu Anda berada di tangan yang tepat. Saya merekomendasikan beliau 100%.",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-07-25T05:56:17.966Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNiNHJINThnRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNiNHJINThnRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgICb4rH58gE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "109635590071867605883",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109635590071867605883?hl=id",
+      "name": "TheAxis156",
+      "reviewerNumberOfReviews": 52,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVFmEh1qfhOd9K2yACqWxxQFENYI1sDbbYqqkkDyV_m6aAjsg=s1920-c-rp-mo-ba12-br100",
+      "text": "Very professional, feels like family, honestly and integrity is first",
+      "textTranslated": "Sangat profesional, terasa seperti keluarga, kejujuran dan integritas adalah yang utama.",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-07-01T07:40:55.453Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURMMjVhQXV3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURMMjVhQXV3RRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDL25aAuwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "102419216441305170798",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102419216441305170798?hl=id",
+      "name": "Miguel Caro",
+      "reviewerNumberOfReviews": 28,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVvnK2Tut2xvFDN-i14e6VXmaiJhLcyQKxFd3KVnbpgq60HLr6k=s1920-c-rp-mo-ba12-br100",
+      "text": "Best Dental Office in Miami!!",
+      "textTranslated": "Klinik Gigi Terbaik di Miami!!",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-06-27T11:46:43.241Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURMcHZYX0lREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURMcHZYX0lREAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDLpvX_IQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "102404925365874735598",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102404925365874735598?hl=id",
+      "name": "Carmen Vasallo",
+      "reviewerNumberOfReviews": 8,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ02TN2OxONN44wsF36b0p_9KJCFt1k3Yhg3BEF9jTC7gKDXw=s1920-c-rp-mo-br100",
+      "text": "El Dr Agustin y todo su equipo son muy profesionales, lo recomiendo 100%, no hay otro igual, muchas gracias a todo su equipo.",
+      "textTranslated": "Dr. Agustin dan seluruh timnya sangat profesional, saya merekomendasikan mereka 100%, tidak ada yang seperti mereka, terima kasih banyak kepada seluruh timnya.",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-06-26T00:12:08.734Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURMelBpdkVBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURMelBpdkVBEAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDLzPivEA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "105614861127545148660",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105614861127545148660?hl=id",
+      "name": "Jose Rodriguez",
+      "reviewerNumberOfReviews": 13,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXqjQO-oLwtZhy1FBCobUhPUnPl5u0CbKf8YkTKC67yemkfYlik7A=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-04-15T16:15:07.054Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUREOS02ZEFnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUREOS02ZEFnEAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDD9-6dAg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105447332937019357337",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105447332937019357337?hl=id",
+      "name": "nuri lopez",
+      "reviewerNumberOfReviews": 24,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVMRxmLkCx1nnv8tjezR-3ZSu0SrbfSAkvqWfZawpJPMFDn1_k=s1920-c-rp-mo-ba12-br100",
+      "text": "Dr Agustin is the best! It’s professional and friendly, you feel in good hands because his knowledge and his team follow him and the attention you receive is   the greatest!",
+      "textTranslated": "Dr. Agustin adalah yang terbaik! Profesional dan ramah, Anda merasa berada di tangan yang tepat karena pengetahuannya dan timnya selalu mendukungnya, serta perhatian yang Anda terima sangat luar biasa!",
+      "publishAt": "Diedit 2 tahun lalu",
+      "publishedAtDate": "2024-03-26T21:32:08.177Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNWcDdiTVNREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNWcDdiTVNREAE!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgICVp7bMSQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "112171838037465987423",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112171838037465987423?hl=id",
+      "name": "Zenén Hernández Martínez",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXEHd_uRutslN4x77DV7ec4Osy74ZoOqMHdYJU0VPj0qhbGowp3=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-03-25T00:50:37.315Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNEdE9ISm53RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNEdE9ISm53RRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgICDtOHJnwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109753945009670247401",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109753945009670247401?hl=id",
+      "name": "Odalys Obregon",
+      "reviewerNumberOfReviews": 17,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVYhoyGvDTrV3qGY7lusRl9SfJEGNeBm__K9xsulO0tVNs8f2Em=s1920-c-rp-mo-ba12-br100",
+      "text": "Tuve la oportunidad de ser paciente hace años y con gusto lo he recomendado, muy profesional, el Dr y su equipo.",
+      "textTranslated": "Saya pernah berkesempatan menjadi pasiennya beberapa tahun yang lalu dan dengan senang hati saya merekomendasikannya; dokter dan timnya sangat profesional.",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-11-29T18:47:10.859Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURsME5pcm53RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURsME5pcm53RRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDl0NirnwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "112946319865929454957",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112946319865929454957?hl=id",
+      "name": "Oleg Leon",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKGXKlstGLRQBZCeb1Z4S3Um0_WDu5H9tGgHONGn2edwi4JxdNy=s1920-c-rp-mo-br100",
+      "text": "Dr. Agustin Gonzalez is an exemplary dentist whose exceptional care deserves recognition. As an experienced internist and medical faculty member with over 20 years in the field, I wholeheartedly recommend him. Dr. Gonzalez's kind and professional demeanor sets him apart. His perpetual good mood and personalized attention to each patient make every visit a delight. His familiarity with everyone and genuine, warm approach create an atmosphere of trust and comfort. Dr. Gonzalez's dedication to his craft is truly commendable. If I had to, I would travel from another continent to have him as my dentist. In a world where exceptional healthcare professionals can be rare, Dr. Agustin Gonzalez shines brightly as a beacon of excellence in dentistry.\n\nIn addition to Dr. Gonzalez, I must extend my gratitude to his dedicated supporting staff. His wife, María, Maria del Carmen, Tahidi and Marilyn, all experienced hygienists, contribute significantly to the exceptional care and warm atmosphere. Thank you all for your outstanding service.",
+      "textTranslated": "Dr. Agustin Gonzalez adalah seorang dokter gigi teladan yang perawatannya luar biasa dan patut mendapat pengakuan. Sebagai seorang dokter gigi spesialis penyakit dalam dan anggota fakultas kedokteran yang berpengalaman lebih dari 20 tahun di bidang ini, saya dengan sepenuh hati merekomendasikan beliau. Sikap Dr. Gonzalez yang ramah dan profesional membuatnya berbeda. Suasana hatinya yang selalu baik dan perhatian pribadinya kepada setiap pasien membuat setiap kunjungan menjadi menyenangkan. Keakrabannya dengan semua orang dan pendekatannya yang tulus dan hangat menciptakan suasana kepercayaan dan kenyamanan. Dedikasi Dr. Gonzalez terhadap profesinya benar-benar patut dipuji. Jika saya harus, saya akan melakukan perjalanan dari benua lain untuk menjadikan beliau sebagai dokter gigi saya. Di dunia di mana para profesional perawatan kesehatan yang luar biasa bisa langka, Dr. Agustin Gonzalez bersinar terang sebagai mercusuar keunggulan dalam kedokteran gigi.\n\nSelain Dr. Gonzalez, saya juga harus menyampaikan rasa terima kasih saya kepada staf pendukungnya yang berdedikasi. Istrinya, María, Maria del Carmen, Tahidi, dan Marilyn, semuanya adalah ahli kebersihan gigi yang berpengalaman, memberikan kontribusi signifikan terhadap perawatan yang luar biasa dan suasana yang hangat. Terima kasih atas pelayanan luar biasa Anda semua.",
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-11-04T01:29:44.236Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURGMEt1SF9BRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURGMEt1SF9BRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDF0KuH_AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMlo1mxlqWPzNNcoijntAWw884kUG7z2tmeEmWFj58vcPLIBqoBb_C-6hc3HqYRQqRgqkAlsGppHvgMsOsoZ0ZcemM-kwsfZ57fuDNTEXTQzYXR5JKjJ56aJrAPmgfF9xTteLQ=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    },
+    {
+      "reviewerId": "102778439727798832584",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102778439727798832584?hl=id",
+      "name": "Mariset Figueroa",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVitv5ZemHr_IeY6qe_6Zd3g39Giq5a-3UmjY3FUXWW8eImzas=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-10-13T11:47:33.542Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM1anVIc3BBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUM1anVIc3BBRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIC5juHspAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106763267109352240591",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106763267109352240591?hl=id",
+      "name": "Ictiandro Echevarria",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJoYUyL_-y2IbFCufNjLGvD-zPtXzC2j3MhzfHCJhXmiottHQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2023-08-17T02:04:19.749Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURwdE5XUHBBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURwdE5XUHBBRRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgIDptNWPpAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108936987655422859549",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108936987655422859549?hl=id",
+      "name": "Kevin Melo",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUIxlDjELCS1wYeld-7YBPtV869wOJ8iG93ZOdudKB9JW4JmobF=s1920-c-rp-mo-br100",
+      "text": "The best doctor and team.",
+      "textTranslated": "Dokter dan tim terbaik.",
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2023-08-11T21:22:25.605Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNwNTl6SXp3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNwNTl6SXp3RRAB!2m1!1s0x0:0x8188290bd664d4f7!3m1!1s2@1:CIHM0ogKEICAgICp59zIzwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "en",
+      "translatedLanguage": "id"
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Klinik & Praktek Dokter",
+  "kategori": "Kesehatan"
+}

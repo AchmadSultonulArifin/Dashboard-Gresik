@@ -2,6 +2,7 @@
   "title": "SD Muhammadiyah Kompleks Gresik (SD MUGRES) -Kampus A",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Sekolah Dasar",
   "address": "Jl. Kh. Kholil No.90, Kroman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61115, Indonesia",
@@ -38,7 +39,7 @@
   "imageCategories": [
     "Semua"
   ],
-  "scrapedAt": "2026-07-29T11:14:14.581Z",
+  "scrapedAt": "2026-08-21T00:57:57.155Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -50,14 +51,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "07.00 to 15.00"
-    },
-    {
-      "day": "Kamis",
-      "hours": "07.00 to 15.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 15.00"
@@ -77,8 +70,17 @@
     {
       "day": "Selasa",
       "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 15.00"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -127,8 +129,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlr87ZRG-txyRk7Wmr1ZOC3uIgV08-jV4xzoQ2heQr6at9eSzTJIR0OVVcnzpKthl-tU7g6DWk4gxWsHQ_bSmFruFRfzRxywOMaDiCetLtEQnAfBfTDiJT922nhopE2vl2YrKO2UA=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnrSxyAZcrgXAnWVqKVEESBlkMOATk_YVswytbNy6WoMabh37ww9XU4SNpUCUq_bawbdtVD65Y44Ww-dUWxC9kf5Gww_CfE0LeilAsHyTDHLNgBL7iffDhnJwlzjd2lLLQaHUVBFA=w408-h725-k-no",
   "kgmid": "/g/11r3578kmt",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -141,5 +144,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "SD/MI",
   "kategori": "Pendidikan"
 }

@@ -1,0 +1,30 @@
+{
+  "key": "fanny_medika_apotek",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Fanny Medika Apotek",
+  "rating": 3.5,
+  "total_ulasan": 1,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "latitude": -7.3614845,
+  "longitude": 112.6401287,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Misbahul Munir",
+      "Bintang": 3,
+      "Tanggal": "2017-04-10T12:53:27.406Z",
+      "Ulasan": "Lumayan lengkap obatnya",
+      "teks_final": "lumayan lengkap obatnya",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9938
+    }
+  ]
+}

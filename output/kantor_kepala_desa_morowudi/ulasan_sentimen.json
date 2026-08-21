@@ -1,0 +1,42 @@
+{
+  "key": "kantor_kepala_desa_morowudi",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Kepala Desa Morowudi",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.2534784,
+  "longitude": 112.5517683,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Yahya M Aji",
+      "Bintang": 5,
+      "Tanggal": "2021-03-24T02:29:07.752Z",
+      "Ulasan": "Oke jg, sejuk nih",
+      "teks_final": "oke sejuk nih",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Chixs #012",
+      "Bintang": 5,
+      "Tanggal": "2020-03-15T01:54:11.422Z",
+      "Ulasan": "Tanah kelahiran",
+      "teks_final": "tanah kelahiran",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8636
+    }
+  ]
+}

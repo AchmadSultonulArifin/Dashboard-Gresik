@@ -2,6 +2,7 @@
   "title": "Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": null,
   "address": "Kec. Gresik, Kabupaten Gresik, Jawa Timur, Indonesia",
@@ -36,7 +37,7 @@
     "Semua",
     "Video"
   ],
-  "scrapedAt": "2026-08-06T14:01:28.419Z",
+  "scrapedAt": "2026-08-20T22:56:30.708Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -48,6 +49,7 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
+  "wasOpenAtScrapeTime": null,
   "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [],
@@ -58,8 +60,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTiMFDEVCkMWA3HnxV8PB0U2FTaTN_3xPscKtBx65eJLQUtmP1q_Zv1UsOcbd8Zay8Omd-msUSjGy96u3A3YNCCUTTAb7ko7-quZFHmu9SCGTDMVVejtWI01VRTqtPwu-XHKJwGw=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmUiIho1f9oUdBNqO8HFohA6qTNrtJhBUQy-E9xz-2I-1fyUQKiD8T6kPI_wxNjPMPzCf_f_lL2DY3eLpo5HgEbL35UTp7fU6uNj2UxhoDzl_iu4SzwLwM2mWW3m03EF2uM8reWGw=w408-h306-k-no",
   "kgmid": "/g/1213vdyt",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -72,5 +75,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "Kecamatan",
   "kategori": "Pemerintahan"
 }

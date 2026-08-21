@@ -1,0 +1,1664 @@
+{
+  "title": "Gerbang TOL Kebomas",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Loket Tol",
+  "address": "Dahanrejo, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
+  "neighborhood": "Dahanrejo, Kecamatan Kebomas",
+  "street": null,
+  "city": "Kabupaten Gresik",
+  "postalCode": "61124",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "",
+  "phoneUnformatted": "",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -7.1623254,
+    "lng": 112.5970339
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RHQW+3R Dahanrejo, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJfVA9fwD_dy4RhIkNC3eNPSA",
+  "categories": [
+    "Loket Tol"
+  ],
+  "fid": "0x2e77ff007f3d507d:0x203d8d770b0d8984",
+  "cid": "2323168525219105156",
+  "reviewsCount": 129,
+  "reviewsDistribution": {
+    "oneStar": 7,
+    "twoStar": 2,
+    "threeStar": 1,
+    "fourStar": 8,
+    "fiveStar": 111
+  },
+  "imagesCount": 23,
+  "imageCategories": [
+    "Semua",
+    "Lalu lintas",
+    "Video",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-20T23:27:10.744Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Tidak terlalu ramai",
+  "popularTimesLivePercent": 33,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 4,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 21
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 45
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 27
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 4,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 93
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 35
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 28
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 4,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 22
+      }
+    ],
+    "We": [
+      {
+        "hour": 4,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 95
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 24
+      }
+    ],
+    "Th": [
+      {
+        "hour": 4,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 26
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 4,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 45
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 24
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 4,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 5,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 24
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 0,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 1,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 2,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 3,
+        "occupancyPercent": 21
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Senin",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Selasa",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Rabu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
+    }
+  ],
+  "wasOpenAtScrapeTime": true,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Gerbang Tol Bunder Gresik",
+      "reviewsCount": 71,
+      "totalScore": 4.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Rest Area Tol Manyar Gresik",
+      "reviewsCount": 758,
+      "totalScore": 4.4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Taman exit tol bunder",
+      "reviewsCount": 130,
+      "totalScore": 4.6
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "macet",
+      "count": 5
+    },
+    {
+      "title": "pintu",
+      "count": 4
+    },
+    {
+      "title": "kendaraan",
+      "count": 3
+    },
+    {
+      "title": "padat",
+      "count": 2
+    },
+    {
+      "title": "poto",
+      "count": 2
+    },
+    {
+      "title": "arah",
+      "count": 2
+    },
+    {
+      "title": "mesin",
+      "count": 2
+    },
+    {
+      "title": "antrian",
+      "count": 2
+    }
+  ],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": false
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ],
+    "Fasilitas": [
+      {
+        "Toilet": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Gerbang%20TOL%20Kebomas&query_place_id=ChIJfVA9fwD_dy4RhIkNC3eNPSA",
+  "searchPageUrl": "https://www.google.com/maps/search/Gerbang%20TOL%20Kebomas?hl=id",
+  "searchString": "Gerbang TOL Kebomas",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHvDOatLup3fmkd6gprdWSu8o57sbl2WUhYaqGxzNhD-aleOE3Y6hcGoK9EtkaUWs8c7dUfLvTejaimshnDh7f86dh4S_aLjQWk2Lf2gYD8weo-0Cih9anpqFGy_aaZGbzIwUqlw=w426-h240-k-no",
+  "kgmid": "/g/11y5skl1hx",
+  "businessProfileId": null,
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "100448702262643637654",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100448702262643637654?hl=id",
+      "name": "Darmi Yono",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUdAtwICxzJ1jtHZaee49ktRpmB15XOhp8HkbSpBU6nk4cMr_7R=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "13 jam lalu",
+      "publishedAtDate": "2026-08-20T09:58:44.064Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25adlpsVjRSbmczTkhoSWRqUlNNa2xZTURRNVoyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25adlpsVjRSbmczTkhoSWRqUlNNa2xZTURRNVoyYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOnZvZlV4Rng3NHhIdjRSMklYMDQ5Z2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "118128011190893350555",
+      "reviewerUrl": "https://www.google.com/maps/contrib/118128011190893350555?hl=id",
+      "name": "Fahrinzull Official",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIWkAdZIu24r2bOO7HebqRreLmwb5SOapKPcjg88w9xHfOB_Q=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 hari lalu",
+      "publishedAtDate": "2026-08-14T19:11:51.552Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5alZ6UkJNa2RVVTJ4VlRqRjRNRlZKU21GYVQzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5alZ6UkJNa2RVVTJ4VlRqRjRNRlZKU21GYVQzYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOl9jVzRBMkdUU2xVTjF4MFVJSmFaT3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115116355232050136357",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115116355232050136357?hl=id",
+      "name": "Wisnu KMJ",
+      "reviewerNumberOfReviews": 104,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWXl5NvND1dramWFMxjJDCm-GgzKlFERRd4tJXolubNSkJVE63-4A=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "Diedit seminggu lalu",
+      "publishedAtDate": "2026-08-12T03:08:45.756Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xaUlJVWnBUM1p1VXpOd01qUXdPWFE1YW5VMllYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaUlJVWnBUM1p1VXpOd01qUXdPWFE1YW5VMllYYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOlZRRUZpT3ZuUzNwMjQwOXQ5anU2YXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109301659597193655275",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109301659597193655275?hl=id",
+      "name": "bambang irawan",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK0eC-CAuGahRVzjkiGB10dnlo_qBZzNiQh14nh59-FJ2Eyxw=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-08-11T04:13:49.605Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKU1ptRXhlSE5qVDJFME5qTlhiazFQWm1WaWVuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKU1ptRXhlSE5qVDJFME5qTlhiazFQWm1WaWVuYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjJSZmExeHNjT2E0NjNXbk1PZmVienc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110980447750149887772",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110980447750149887772?hl=id",
+      "name": "Indonesia 1997",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVjoPXNm2FAK_cYGjMk9n9b4lr2yWUxQBvAMzh8uzjHLfnfvKDo=s1920-c-rp-mo-br100",
+      "text": "🏍yamaha r15v2 ✅  🛵Revo 100cc❌",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-08-04T13:23:35.306Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsbFpHdHhPRTV1ZVhkellqaHJiR0UxYkhsNU1HYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsbFpHdHhPRTV1ZVhkellqaHJiR0UxYkhsNU1HYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOkllZGtxOE5ueXdzYjhrbGE1bHl5MGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103606440826313806177",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103606440826313806177?hl=id",
+      "name": "Nanda Aja",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJZ7yvCAVmXOe83KrGgMT0_ocvVABEOKkCwiI8thnNSs_Bjrg=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-08-02T00:43:03.171Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pZNVUwVldTR3h4WDA1dGVtdDFiMGN3TkRGWE4zYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pZNVUwVldTR3h4WDA1dGVtdDFiMGN3TkRGWE4zYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjY5U0VWSGxxX05temt1b0cwNDFXN3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108015470753645447938",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108015470753645447938?hl=id",
+      "name": "Fauzan Fauzan",
+      "reviewerNumberOfReviews": 11,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUEmCqBDmvRfHH6Pc5WhJ8tV7dGS4u34VfblOpi_Vc_k1-861Q=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-08-01T13:19:54.501Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT200ME5tUTRWbWhNUVZnNWJuVkhhRXhzUkY5MExYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT200ME5tUTRWbWhNUVZnNWJuVkhhRXhzUkY5MExYYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOm40NmQ4VmhMQVg5bnVHaExsRF90LXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101762193981019989913",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101762193981019989913?hl=id",
+      "name": "Iqbal Firmansyah",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLNoivaGeGX1M7B6zYNOQ9Mq0HDiu6ORQXa5OIkDeC3QMWz=s1920-c-rp-mo-br100",
+      "text": "Sangat puas",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-08-01T09:39:11.235Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aMmRtcE1SVUkwVFVvNGRFNDBWemRMVDNGZlJIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aMmRtcE1SVUkwVFVvNGRFNDBWemRMVDNGZlJIYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOnZ2dmpMRUI0TUo4dE40VzdLT3FfRHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103399519121821666630",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103399519121821666630?hl=id",
+      "name": "Rizquna Laila",
+      "reviewerNumberOfReviews": 8,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJvwSSRP3Jj335wqWcoIIt8rlM7Ugh9UuePtbpMohjiM5ZYRA=s1920-c-rp-mo-br100",
+      "text": "saya lewatin trus",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-07-28T10:35:19.955Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pCWGIwOHROVGRVWlVobU1HMUhaSGxEVVVNNFVHYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCWGIwOHROVGRVWlVobU1HMUhaSGxEVVVNNFVHYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjBXb08tNTdUZUhmMG1HZHlDUUM4UGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111682139100668943364",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111682139100668943364?hl=id",
+      "name": "Totok Sugiarto",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWJSPfzRrac_BJkiUaLt72vJmkd3VF5jq_JxuaI2cOt1bAn3G0=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-07-25T13:15:36.540Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KdVdVaEhla3cxTUhoeFVHNW5VQzFEWldKSFRuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KdVdVaEhla3cxTUhoeFVHNW5VQzFEWldKSFRuYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOnJuWUhHekw1MHhxUG5nUC1DZWJHTnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112039725902938711276",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112039725902938711276?hl=id",
+      "name": "Asep Doang",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWlCUBlUaKEOvCL_RGxhaXxUcFhxVR25W32UOVlEyhn8azEixI=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-07-19T15:20:03.061Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOYWJsQTBXamt4T0Zwck1VdDZiVlpMZEVkemRuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOYWJsQTBXamt4T0Zwck1VdDZiVlpMZEVkemRuYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjNablA0WjkxOFprMUt6bVZLdEdzdnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111264065020236220340",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111264065020236220340?hl=id",
+      "name": "Yulianto Cahyono",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ2-9MfUL3mHc667tnW4dwkRYJV4KziIyFqO7FXphIwY0q8aQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-07-17T21:58:00.970Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOYU5YSldNalozVkdkU1RXSk9ObkpxU1ZGQ09XYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOYU5YSldNalozVkdkU1RXSk9ObkpxU1ZGQ09XYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjNaNXJWMjZ3VGdSTWJONnJqSVFCOWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115764877420721905051",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115764877420721905051?hl=id",
+      "name": "mohdarum darum",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV9IWoVVRlL9Fj-Qtbx-qJgRdf53CFlIAlZ0KOzz9fEBMCwBq0=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-07-07T04:47:03.201Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xOUmVuRnJNR3RRVW1wUWRHSTFTRkpZYUhCeGNuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xOUmVuRnJNR3RRVW1wUWRHSTFTRkpZYUhCeGNuYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOlNRenFrMGtQUmpQdGI1SFJYaHBxcnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNdX6qlugrtMyNGeOuPQ9ifiAkDZReatLprRP5y88pvCpoBc8CW8Obe6T7G-gmb7C83vMh_7tSQZbUd2J4ws9h8vLqCwGB2VBBlTPpki0AxhU98CHjC5BO4EtvPnTSo_4CW6CLYwMK_YDlj=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNxTxDKek8KfJMJ6i974nqmqGcuJQrIlrhIoZP6wR0dXCoY8FVkL7qC9gIEc-hYVkOuo_gN7_cCdp2MXy2khA6PYWaqRgrZ3aXv9YEKHc2TVUP_KdnHJIrODoKDfclmFjLKh1Vae8U1UcA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOpsDdl5i0syGJWVHQurEuYf2vBVx5tPki3_nzSZE2DhAi1CiffaA0jJ7cMUDeIgCQmfgmYrxU6LT61eRW8oYbZSLysC6C7Q_g5khCl0W5IPUsOiszD1gMJ5VeVvEyPqOeu5Hrwd08g7eY=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107481306466124464897",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107481306466124464897?hl=id",
+      "name": "Sabdo Kalam",
+      "reviewerNumberOfReviews": 74,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVgkQBUFl-kZt2gWfK0sOd1lmUOn-5CkHtvJPSj_XXKvgesZAjX=s1920-c-rp-mo-ba12-br100",
+      "text": "Ada penyempitan bottle neck",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-07-02T02:38:11.322Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xGQ1NGOXlTSEV0UzJNeVpIQnJhMnhCV0VWd2MyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xGQ1NGOXlTSEV0UzJNeVpIQnJhMnhCV0VWd2MyYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOlFCSF9ySHEtS2MyZHBra2xBWEVwc2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116054154432841876133",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116054154432841876133?hl=id",
+      "name": "Ranggasakti Official",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJJx0zau1quu-jdaZeD6wgYFTnojvQGOZkvQXKzqk6f1tD_kw=s1920-c-rp-mo-br100",
+      "text": "Gimana nih jasa marga. Masak exit tol gak di sediakan tempat top up. Dan minta tolong ke petugas kaya di persulit. QR gabisa, cash, debit pun gabisa. Payah",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-27T06:59:15.471Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25CeGNURk9Sa2hWUTBkZlJYUm5UVEprWkVSMGJGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25CeGNURk9Sa2hWUTBkZlJYUm5UVEprWkVSMGJGRRAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOnBxcTFORkhVQ0dfRXRnTTJkZER0bFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101199235003516795985",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101199235003516795985?hl=id",
+      "name": "eko sutopo",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIpOqhKgzHJODtou-O_NNy1uWQQau9W89NwUnHURsJR96rTfw=s1920-c-rp-mo-br100",
+      "text": "Enak mempermudah akses tujuan bandara juanda",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-27T00:19:36.397Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25ScFRGSlhjV1kwYmpOaFlUTldNemR5WDBWbFpYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25ScFRGSlhjV1kwYmpOaFlUTldNemR5WDBWbFpYYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOnRpTFJXcWY0bjNhYTNWMzdyX0VlZXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103589104806054275533",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103589104806054275533?hl=id",
+      "name": "Sutik yes",
+      "reviewerNumberOfReviews": 744,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUy28zyaAw6Pf0YaGCaGwP5Sxxo8_pyBfparj98ClzZYt_8wKVD=s1920-c-rp-mo-ba12-br100",
+      "text": "Iya tetap lancar aman dan nyaman",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-25T10:02:05.525Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21JeFdVWkJTRzkxY21sVlIybGpVV2s0TFMxVU5YYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21JeFdVWkJTRzkxY21sVlIybGpVV2s0TFMxVU5YYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOmIxWUZBSG91cmlVR2ljUWk4LS1UNXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNrVJwqTqqYwlWaoDrlACMBxAVa9SgZj3AUM0h0wMlK0-EGaFFLIVRQMhN6gtYW2hZkayNMI-TMiPaYbH-tsJ9Nv0teedSOjl2JcKtYGOpiw7aRFsoxo6QvWeKsXxjaqDcbFHVYspiOgdsM=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115081082257994615751",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115081082257994615751?hl=id",
+      "name": "Hairul anwar",
+      "reviewerNumberOfReviews": 8,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU-3Wv2yW6-NZRED65BfOlkaTyBEFkj7QZAc8Sf2DYHexBurPM=s1920-c-rp-mo-ba12-br100",
+      "text": "Mudah dicari dg google map",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-06-24T10:13:18.140Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201R2JWSldZakZuTWxSWk5rNVBPVkpSWDJSUlExRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201R2JWSldZakZuTWxSWk5rNVBPVkpSWDJSUlExRRAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOm5GbVJWYjFnMlRZNk5POVJRX2RRQ1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102452615687011411113",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102452615687011411113?hl=id",
+      "name": "Aditya Rahmat Ilahi",
+      "reviewerNumberOfReviews": 13,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVrcXKuIYW49ZxcS8247jsSYJlC8nU8RLh8cVgqu6tC63cGFZ_J=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-06-16T09:47:42.090Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2prNVFVSnVNakJuYTBNMFdEbGFXVVJqUTA1MFpXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2prNVFVSnVNakJuYTBNMFdEbGFXVVJqUTA1MFpXYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjk5QUJuMjBna0M0WDlaWURjQ050ZWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103603816857312045522",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103603816857312045522?hl=id",
+      "name": "Rio Tam",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU2D4nRMfBd6BeSosDflTm0w-AvCCmeMelVOZqY0xhb5uoQPVM=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-06-14T11:06:01.203Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pGcWRYZFJjV3RyUVc0NVNtdFlPRmxFU2xRd1MxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pGcWRYZFJjV3RyUVc0NVNtdFlPRmxFU2xRd1MxRRAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjFqdXdRcWtrQW45SmtYOFlESlQwS1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103740189948379797755",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103740189948379797755?hl=id",
+      "name": "Rico Nur",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocItkPbg5DOUjsNW6GfwP9aVHJfhuwlxF5suWS2igum86-4A0Q=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-06-10T11:34:30.454Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pGSVFURlhZV0ZGUmw4NE0zaHNTV1ZQTjB4U2VtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pGSVFURlhZV0ZGUmw4NE0zaHNTV1ZQTjB4U2VtYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjFIQTFXYWFFRl84M3hsSWVPN0xSemc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100161686279488537539",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100161686279488537539?hl=id",
+      "name": "Ahmad Saefudin",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWBnS3CT_Q7cH6_ap1xDjTxcgj8tBhM9k2isqfW-mqKE00Mo6dR=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-06-06T10:09:53.873Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT210U05WaEVWa1JNZGpOYVVISlROVTVTU3pnNFgxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT210U05WaEVWa1JNZGpOYVVISlROVTVTU3pnNFgxRRAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOmtSNVhEVkRMdjNaUHJTNU5SSzg4X1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102335780644893456250",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102335780644893456250?hl=id",
+      "name": "endra Sasmita",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVishbJIpJM7UGZT_lwtejvS9wsZZ2giJFVVh_XUVjc4TmuwWT6=s1920-c-rp-mo-br100",
+      "text": "Sangat membantu",
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-06-04T12:28:38.608Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xOZlkzUjFlbk16VFhKUmVVNVFXRms0TVhwMVkyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xOZlkzUjFlbk16VFhKUmVVNVFXRms0TVhwMVkyYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOlNfY3R1enMzTXJReU5QWFk4MXp1Y2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104597884052550330788",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104597884052550330788?hl=id",
+      "name": "vathan jazzy",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWCHmX220wMuxzBKZb8FyaCD0KUY2JQuk7Yfy-th65fA2ruqgc=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 bulan lalu",
+      "publishedAtDate": "2026-05-25T05:13:39.922Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25BM1JHMVNZMmRGZWpKQ2FVMTVVVlpNVEU4M1IyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25BM1JHMVNZMmRGZWpKQ2FVMTVVVlpNVEU4M1IyYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOnA3RG1SY2dFejJCaU15UVZMTE83R2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101145063780360635105",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101145063780360635105?hl=id",
+      "name": "Ade sofandie",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVx6ZHoh6TSoJNGx9ptp7awoRj3wC0oz-NzOXqnapnkkr8XqVSk=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya sungguh ramah. Saya berkendala mobil saya  ke habisan solar di km 15 tol kebomas keluar arah pintu tol Cerme. Terimakaaih pelayanan nya cepat, saya di bantu di belikan bbm. Saya lupa foto tapi buat petugas  nya sehat selalu lancar rezeki nya....    Aamiin.",
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-05-15T00:41:23.872Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21JNFduTjFla2RDVFhOSlRFZHJVekJ5YkU1NGRIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21JNFduTjFla2RDVFhOSlRFZHJVekJ5YkU1NGRIYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOmI4WnN1ekdCTXNJTEdrUzBybE54dHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101417800753860631460",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101417800753860631460?hl=id",
+      "name": "Luqman Hakim",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUOaObCBzDbqE82KTEKzoRU4pqhfqmsX7JmJ0kd8gOV40gzMkbElg=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-05-12T05:12:31.799Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xGSk5XYzNUbTU1U1daVFozVmxaM04xYm1NMlZrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xGSk5XYzNUbTU1U1daVFozVmxaM04xYm1NMlZrRRAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOlFJNWc3Tm55SWZTZ3VlZ3N1bmM2VkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108389207910454273435",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108389207910454273435?hl=id",
+      "name": "singo mfc",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUHIm9T1YZrgdbL8wozX7KiMTPfuhj1aQLuQH9U09nbyoxdXaQ=s1920-c-rp-mo-br100",
+      "text": "Baik",
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-04-28T07:56:41.900Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKa1l6a3pPVzFrWXpoUGNIbElXbmRZVm1oVmVFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKa1l6a3pPVzFrWXpoUGNIbElXbmRZVm1oVmVFRRAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOjJkYzkzOW1kYzhPcHlIWndYVmhVeEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112975106744475825807",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112975106744475825807?hl=id",
+      "name": "Muhamad Ajiji.",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW-pv-uIzxw3S5sUFMhnzJOisjqobcpzFnf7gtNdjq7eorKKsA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-04-24T06:17:46.576Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tONWJESlRkVlJ5YVZKeU9GaFpXRFZPYzFRemJIYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tONWJESlRkVlJ5YVZKeU9GaFpXRFZPYzFRemJIYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOkN5bDJTdVRyaVJyOFhZWDVOc1QzbHc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108626499017646490037",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108626499017646490037?hl=id",
+      "name": "Hyo",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXru3EcnkFzi4BhhKxd90vzKgwEqXNnOiXqIDiWVPOOnJGXrOMu=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-04-23T22:18:42.371Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xZeE4xTTJja1EyT1hkS2MxRmhaa2xaZERkUVJXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xZeE4xTTJja1EyT1hkS2MxRmhaa2xaZERkUVJXYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOlYxN1M2ckQ2OXdKc1FhZklZdDdQRWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105290959607379150314",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105290959607379150314?hl=id",
+      "name": "Titik Ernawati",
+      "reviewerNumberOfReviews": 134,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXUv12cRZLGl2dBc878yjEW-PuvxbxeKlkPQKTMpbdjWyaslDjP=s1920-c-rp-mo-ba12-br100",
+      "text": "Sering macet disini",
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-04-21T08:18:40.239Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21rd1kzRTVUbkZzU21WSmFuTkNObGhuVlZSWlEzYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21rd1kzRTVUbkZzU21WSmFuTkNObGhuVlZSWlEzYxAB!2m1!1s0x0:0x203d8d770b0d8984!3m1!1s2@1:CAIQACodChtycF9oOmkwY3E5TnFsSmVJanNCNlhnVVRZQ3c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOTCQL-7tofecG2vGLKl9dkR9DJ4nPoc2LnlOgTNm2V06gPkrAf6N52GDrGMHItcAuz4i_en_AwjVr0TUU9gy6jfBNHzW4xRLm1_a3f5l2IQ-rhoENrG6I1RNbsFnNlarpb5UN9BLhbF4m_=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNbL7zVE16BoJUcC2wKYyBN7l9KOqectFpa6HDyiU08pp0dpkPr8zlm5aD5lMSb0DCfYRmBBQdj8VX5HKm8RPUjVbrp6ibZBi37FmJ9_-Y2lNTVsnlLRgzxv2LnAdYuhnAAd2jrJgn2i4S7=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
+  "kategori": "Pemerintahan"
+}

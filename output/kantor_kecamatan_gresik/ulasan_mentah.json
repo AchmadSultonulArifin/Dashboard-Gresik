@@ -2,6 +2,7 @@
   "title": "Kantor Kecamatan Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemda",
   "address": "Jl. Usman Sadar No.169, Ngipik, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61116, Indonesia",
@@ -47,7 +48,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:09:34.313Z",
+  "scrapedAt": "2026-08-20T22:59:39.940Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,10 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 19.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 19.00"
@@ -86,19 +83,24 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 19.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 19.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Kecamatan Manyar",
-      "reviewsCount": 11,
-      "totalScore": 3.7
+      "reviewsCount": 12,
+      "totalScore": 3.8
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Kecamatan Cerme",
-      "reviewsCount": 36,
+      "reviewsCount": 37,
       "totalScore": 3.9
     },
     {
@@ -162,8 +164,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlA5Gqav8fvZX97VQYvmx6TEaSTf0MeggcSxXJyHffqeWIMYBOQHe4oPaNvDXXL_mKEaECnGSumBAxxiHeWc5k3XhJw-jYNTqRW3rUV2ONGJ73oPugputKN8iWPRcGv7dgC4Th9HA=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlxbe420dKJgvG2QonM9qZfkIGWu2oUvVwMyQN4-Tn7_d7aHs2SXi-jx320Czil2LNaACeFA_6Dj_3rCZG6RuJyLkVNPE6WzG5UJToUjFA0m9gWV94skUWFmnjQXumIy4aD_OyZcQ=w408-h725-k-no",
   "kgmid": "/g/11b6dxcljp",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -179,12 +182,12 @@
       "reviewerId": "104889423833871955711",
       "reviewerUrl": "https://www.google.com/maps/contrib/104889423833871955711?hl=id",
       "name": "Akhmad Zainudin",
-      "reviewerNumberOfReviews": 55,
+      "reviewerNumberOfReviews": 56,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIXJyZANs2vyXMo_yYH6eKML2YdAbZdlerll6Oz5QfHLPrsnw=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-28T22:53:01.640Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2t4NFQxODFUbEZqTFVWTFoyaE1RVFJ3UkRZd2MyYxAB",
@@ -205,7 +208,7 @@
       "reviewerId": "102289118934092001723",
       "reviewerUrl": "https://www.google.com/maps/contrib/102289118934092001723?hl=id",
       "name": "pulauBIRU 4",
-      "reviewerNumberOfReviews": 232,
+      "reviewerNumberOfReviews": 230,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWI4978pgvY1PVbmi0Tw7nevDIQ6SkrBho3xtCUEWppuJx_SIcmGg=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -231,12 +234,12 @@
       "reviewerId": "107627516394960967106",
       "reviewerUrl": "https://www.google.com/maps/contrib/107627516394960967106?hl=id",
       "name": "Zunnan Ns",
-      "reviewerNumberOfReviews": 125,
+      "reviewerNumberOfReviews": 127,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVPeiJgRU6tEX7UcVfFJbBS0dleAp5VhG3FVY8xQym4YQWLIHqm=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-11T02:12:10.815Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xsdWJ6SXpRa3BvVTNFMWVsbFFlRjh3TjJ0d2NsRRAB",
@@ -288,7 +291,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLR0N4GCQZ9CP3HCgERJ0CswBA_5n8nQej_v7_iEKFAYsZTDQ=s1920-c-rp-mo-br100",
       "text": "tolong pelayanannya kelurahan sukorame di sidak",
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-11T08:15:43.913Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCT2RVNW5helZWZEdoaE1WYzBabk5DUlhoMVZYYxAB",
@@ -387,7 +390,7 @@
       "reviewerId": "107658132830002644676",
       "reviewerUrl": "https://www.google.com/maps/contrib/107658132830002644676?hl=id",
       "name": "C. Dia",
-      "reviewerNumberOfReviews": 118,
+      "reviewerNumberOfReviews": 117,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIWt9zvUIe3c7AqZa16weX8rBq8v_oSMIv_Cn_QgISgtUmqoQ=s1920-c-rp-mo-ba12-br100",
       "text": "Tempat nya sebelum lampu merah perlimaan\nUntuk urusan KTP, KK, di sebelah kiri pintu masuk\nTempat nya bagus, adem, ada ac nya, ada playground buat anak anak juga\nPelayanannya cepet bagus, petugas nya juga sigap\nUntuk parkiran motor ada di dalam kantor, untuk parkiran mobil ada di luar kantor, agak susah karena dekat banget sama lampu merah",
@@ -413,7 +416,7 @@
       "reviewerId": "107310224469533173772",
       "reviewerUrl": "https://www.google.com/maps/contrib/107310224469533173772?hl=id",
       "name": "ahmad artha (Artha)",
-      "reviewerNumberOfReviews": 158,
+      "reviewerNumberOfReviews": 159,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW76HsFq8hzQc9cQHJ5_sEB3e0LuvE4odwtUfU--kismg1BjYpwdg=s1920-c-rp-mo-ba12-br100",
       "text": "Harusnya ada nomer antrian",
@@ -585,10 +588,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNELWTG26bt3hVw4WW6JBX7XTZ5R6y0dCos2fmgE-NVjvk45-mxmBBQdSqQzf-rMOfMOsWYZwj55ezLVuzIRgKQder0tlts8UCnWbFyxLPgPRBRZ16W94bGLyLxoxsw09VRVv0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM59ZqB3C-fqjYqE2-5CfqR8YYBnSplKOSfwXRmzMIR__e7NeduDPH4jhuBoyHSQd1RwRHUQxs71C3mDb3KWdlg76V3EbnQKGpCWDH5W5vYSi9q5aDKwfLOOqXkRNjkY5wlKrEd=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOz-nn-j2-iSalO_ErqdRdWMGvba7dKvnaFJitkaoOvxYMzf54sfhN6vecuNV8MjaODqPWWZzPhnS7L38lJVsfLOMRpI4L-3hhd2tvhjxD1KV9ZEMztYu1m4pVXsmiYOUNwHqux=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHireIX9MBIPLXBdehg5xshGoVATLFFUT2PY2rjt-rFID6jVHJRR_Pj-B4zB-4Yn4j5SEsnOiIyumqZLq1MzPVd0ETd08LCVZCYZ3JpdhKL0Pyca6Q1gRC1VEq_lQ94C-e07WH-Q=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP2YTPVrG4NAGAIAX2npTOkWYJzWCp3V5Qqb2e0-VoFEjQKBQ3jyQFWqXVB1joaa5L02DjUzcRSnDk8iU18BZ-CLCtTbsGl6R6i1nvvA4F9uaJTGRcdJXhCB1lIlohhw4tj9Qw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO5oE2YBt34wzUYURCeQAv0Cy1MRLIU4cj_Ju6stcK1yBc_chpRWq5E4ADj_QFDDOI16pAvxxUmYKDMqzSUWV9KrsGReM4IRyA4c9w6KdpNukJC-3mAtkAtkhEytkE8mG8Xmwp9=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOnkNK5gHRlm0702qQNC9RHWIvaMfAypCu_t6Ip--guKLZc31BZrgcrR5GSCloLHc8HDdIT648jlEDBptyGWRJj9IOoUVdhxzrV0aOAlqzYJnMLvN8iViar88bDKV5gyoVxVP0B=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN5fMJluOL1mjjTN_NdUMuFfmc5nToH12LXM98srXA8dlQK05m0H9jrXf9kEVsIdBf-F3SvtPNtLfaWV_72isdmptJ97OHuNoUM1MDZVHJI38qScYEHch2Mwzy2fnSjpZjNxgrwfA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -782,7 +785,7 @@
       "reviewerId": "113951291695401514773",
       "reviewerUrl": "https://www.google.com/maps/contrib/113951291695401514773?hl=id",
       "name": "LED Tour Travel",
-      "reviewerNumberOfReviews": 78,
+      "reviewerNumberOfReviews": 77,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVqGPc8WjBrM5suqSUdYQfoZT9RbTWw7KjJBsun1dgxAyt5AIjKgw=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -824,10 +827,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMeTSxJgmiGrHqrilqii8RaEeD6YIR9MKSUgQ5es-mM1QO4vDFPuTBsPJlz51CHFCSGM3WXY0JixHks3ewPOz-nZZ4XvkA9sJQNcY4OVkF9Wu_8lIhZDduarR_8PMwJxWH3p1Uo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO83PDsFZLHeDbxd1AnSaKI4PIYHVN09EDl4sVSrbXsUAJhp-aS3pX3Wq2suqqtSOpgHp7spfVvDxzbPrDeNJTITfp6UMFSdzoP1aTJOSI81HC7UtPlGjawrDr019mVVMUwAJ6hhg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOX1edtRrmvPpj0zADRBWkCPa_dcFWkPbmeEsK2DDGlaN_-2N2-HEGGQUIWjV3enZSEOUNIe-lFICIKXER58PyMqzOWXkUw8CocLGSEh7wi4wtrSiZ6giL40iTO5vI4XE-JaD19=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYp2CqMssA9YDYCD6aoV2W23otQIyyh7OHlUuk5tuP4932xnSkRsBy4P-tAAjSDMwzQryoF6WdBZ0rqS9rpwwhPrOmb9_u-a-3unUuFC3FtjO0Ay9KijZIVOhJwjimg8DmWNtJGQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOsWZ6esU5G-Xdtm8jSSFUgopL0ewEHZ1GttXWh7bWaBlygxSDL4gdQD8dRnPKuaktgatKrxw2iNx3qHk1hfYE0O3tzOV6ld-kpY9bCpEp07xXpwB8INOtILdaEqSKgN5nRkxcd=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpnjiDuPS4BK8YYq8e4iRT8SFxpClEltjE-eIqpRjE7o0ertHj6f6L9XGQd4LHKLwYg3eslR_u_VbiGVapKlMJUXUSWIeVbIXq-Hy7lhtVYFpois0ZlIg2gBl2rpnQ81EPQ-Al7w=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNsKh1YMkV6F_qlOOhkCaHxHilpldJz6K0EXviCe75mieXiISu07lf0Dhgc3VPcrkl0TAFBzoOweZy2-toT8OBPZ4Bg6xsFzn-3-WFTXUt_3dS4yHnh-_kvrfCvjrHdvPjxdVhx=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMgPYM7iR9U8JM8jXQXEhJRhgm-vhQhpia1jntpI7pJ1eMqhJnpwp05wna0Aw42HNQrwyaKcTIKDrvRoaJOqMlvA3D1a0PPa4QVkOM8ug9CBqLQLZ_W4nSQVMBaptZ8WQE0LDGt5A=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -855,7 +858,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPmvAtdR-2NR4bzHpX9LFhwJubtp5fh2vYf7p87ALFrRZ47MfcSoeSGX83ZJBD9aEqHWluu4KbjWGvt4nKwwOJec8-ubw0v7ngK7qk7X69H_vfXj2rkOB2h9y8QaVTe9QyNIw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN_36NlEYqSUER-UUrlTkWa7J3Ta2SycmZlJYumVi6uBJ2Mmnib2pDohc7QxJJ_R_Ema5adzDBcuV-__voXoapcsk43jLucPtcFdglDqi6iRmFj2hGVN1imIP05eZJYcvQ-QQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -867,7 +870,7 @@
       "reviewerId": "110200190882236609125",
       "reviewerUrl": "https://www.google.com/maps/contrib/110200190882236609125?hl=id",
       "name": "Ari Fachri",
-      "reviewerNumberOfReviews": 366,
+      "reviewerNumberOfReviews": 364,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXQptTATGtfG8tAE9jTa79hXkKWCgV2jgZUbUmbDTrHVr6DY69H=s1920-c-rp-mo-ba12-br100",
       "text": "kantor kecamatan gresik",
@@ -891,5 +894,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kecamatan",
   "kategori": "Pemerintahan"
 }

@@ -1,0 +1,836 @@
+{
+  "title": "Klinik Pratama Al Hisyam",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Klinik Kesehatan",
+  "address": "Gatul, Pandu, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61171, Indonesia",
+  "neighborhood": "Gatul, Pandu, Kecamatan Cerme",
+  "street": null,
+  "city": "Kabupaten Gresik",
+  "postalCode": "61171",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "+62 812-1674-7476",
+  "phoneUnformatted": "+6281216747476",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.2146886,
+    "lng": 112.5765945
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "QHPG+4J Pandu, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJRz4aA5IBeC4R1lqzkoAQ_CY",
+  "categories": [
+    "Klinik Kesehatan"
+  ],
+  "fid": "0x2e780192031a3e47:0x26fc108092b35ad6",
+  "cid": "2809138411975432918",
+  "reviewsCount": 9,
+  "reviewsDistribution": {
+    "oneStar": 1,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 1,
+    "fiveStar": 7
+  },
+  "imagesCount": 18,
+  "imageCategories": [
+    "Semua",
+    "Oleh pemilik",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-20T20:05:24.676Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 86
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 86
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "08.00 to 20.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "08.00 to 20.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 20.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 20.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 20.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 20.00"
+    }
+  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "BPJS AL HISYAM",
+      "reviewsCount": 1,
+      "totalScore": 4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Klinik Hidayah Manyar",
+      "reviewsCount": 54,
+      "totalScore": 4.6
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Poli Klinik Aisiyah",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Klinik Surya Giri Jaya Cerme",
+      "reviewsCount": 36,
+      "totalScore": 3.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "IPAL Klinik Mhammadiyah Cerme",
+      "reviewsCount": 4,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Pratama%20Al%20Hisyam&query_place_id=ChIJRz4aA5IBeC4R1lqzkoAQ_CY",
+  "searchPageUrl": "https://www.google.com/maps/search/Klinik%20Pratama%20Al%20Hisyam?hl=id",
+  "searchString": "Klinik Pratama Al Hisyam",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncaYMlciVoFw3opIGAfbRRGiIAEGfonzeLkdiIkNmDcUR9V7sAxv-svMbm8MZSsBB8XiXLEssRVR3pbAmKRAbJo1hWczXRYbet8fADwqcHLdvDhQUP-_g125ozqzrafIvLt9o=w408-h725-k-no",
+  "kgmid": "/g/11l74cyzdl",
+  "businessProfileId": "3227068211493320380",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "109130489094591429130",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109130489094591429130?hl=id",
+      "name": "Dessy Wulandari15",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLvPkXsxJ1bWgfb_ISkUIuS5QIzbB9mbtrv3SEN1hZkhcD6kw=s1920-c-rp-mo-br100",
+      "text": "Sistem ruwet",
+      "textTranslated": null,
+      "publishAt": "2 minggu lalu",
+      "publishedAtDate": "2026-08-04T09:49:02.259Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xjNVNXeE5NRjlDVGxGdmRsSnNSRGN0T1hKTFVWRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xjNVNXeE5NRjlDVGxGdmRsSnNSRGN0T1hKTFVWRRAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CAIQACodChtycF9oOlc5SWxNMF9CTlFvdlJsRDctOXJLUVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103731494764782851504",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103731494764782851504?hl=id",
+      "name": "Erik Setiawan",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJbpAJfPLmtlUjw6vLQeKsmgSduQP098cT1XTuv6wU4y9i6JQ=s1920-c-rp-mo-br100",
+      "text": "Ada obat penenang apa tidur soalnya udah satu hari tidak bisa tidur campur dengan overthinking...",
+      "textTranslated": null,
+      "publishAt": "8 bulan lalu",
+      "publishedAtDate": "2025-12-03T08:04:02.474Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21Od1JqWjVNVEYwVmt4S2FHd3hVWFphWWxOM1NtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Od1JqWjVNVEYwVmt4S2FHd3hVWFphWWxOM1NtYxAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CAIQACodChtycF9oOmNwRjZ5MTF0VkxKaGwxUXZaYlN3Smc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107292001040051776570",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107292001040051776570?hl=id",
+      "name": "Almeida17",
+      "reviewerNumberOfReviews": 169,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW8Yqt4MqqhgmO0ssUxi7uA6ri4Js70YMlLea7RP-AwIFIslvx6bQ=s1920-c-rp-mo-ba12-br100",
+      "text": "Alternatif layanan kesehatan di wilayah desa pandu jd g perlu jauh2 ke puskesmas cerme",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-09-03T03:12:18.673Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNINHNQWHBRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNINHNQWHBRRRAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgICH4sPXpQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113727918573777221330",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113727918573777221330?hl=id",
+      "name": "wasis lukito",
+      "reviewerNumberOfReviews": 164,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUCQWyHa7SDwTVYPnFWlxj9VWBhM_KeYYBX03MtkcIY1h3xN4oL=s1920-c-rp-mo-ba12-br100",
+      "text": "Ownernya asyik 👍",
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-08-15T04:00:58.264Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUM3MnIzVW1RRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUM3MnIzVW1RRRAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgIC72r3UmQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP4l8cabgCTfP6MzvPdfwXAWBEFh3hOvy1LSKSVj70GqPTphneiS69Y0EdIjpO5CfzWDCjBEYwGW-yE84hdMX6uoJV6dj_2oLOPA60sYgSFT7C-33j_idvpZWEOrs0lsfW9DwRe=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPf1NtsUqNUW0G7i9ou4mt_z1w7bigFbCiqEZNtFnEycQutU3BmoH1xuI9byJfiN3Bnapje6IcRe_vMIicp5bYXmY0BkT3z4b_4_Y9GH6xdcZvLHVjl8U1j7jzjQGDKjDLyCtMzyA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNV3OPUX5dUnAyE6M_a_Pn0dOqDnz39QzqwTeY-pcE9x8vjrHfVDSt6z72ExjfYNpgupN93iorucYJn5JBtKiXpM_JhStKIiY6jW6OFwJcW5OBT12imYjZXU9nfFmQq5jg50wBR=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPsR1bcEN0527XQi_LJjt2gTpPB2FupOGpza9fUoisdP2SJL7Q7EAGIOW2VVebZ7cCHOeA2Bc2-l7At-y-U_wMp0AMIAUKFkhQZyRKN7O8FwlGzZj1ZEXxJQa9OanOmk5PAS0RN=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112442706392349781186",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112442706392349781186?hl=id",
+      "name": "Habsyi Aulia permana",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWFQ8USGfM3wNFIH4CeDajZPmosyVIRTfGFuRn0b8A_2TMZ3Vg=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-07-12T18:20:43.662Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURyZ0xtYVRnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURyZ0xtYVRnEAE!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgIDrgLmaTg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107845000589814193801",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107845000589814193801?hl=id",
+      "name": "Umu Janah",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIhRSGvm1OGDWQR5GYhae2ZLDYmAJstwQxgRyNksUxQNeLq=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-02-10T09:14:42.001Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNkc01fVHBBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNkc01fVHBBRRAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgICdsM_TpAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114534600658777536229",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114534600658777536229?hl=id",
+      "name": "Umu Umu",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWkWujL6Jjy6gR3LAQvCg2Xhz_DihqZOq0J6QTxpMDlHXkbwy1t=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-02-10T09:12:05.268Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNkc0xmMFFnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNkc0xmMFFnEAE!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgICdsLf0Qg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116853046396677129357",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116853046396677129357?hl=id",
+      "name": "Pak Lathif",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLtM7L00UVOswD2IslEyfVGFwMx9jolXdCarGFEWcPTacKYMA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-02-10T09:10:39.983Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNkc1BlLS13RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNkc1BlLS13RRAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgICdsPe--wE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103822355404226321540",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103822355404226321540?hl=id",
+      "name": "Hendrik cino",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX4HynZ3gUmsP9YsnV8bSgAAh7WE0rqyfnfKXSZQqMi4Eb-mzY=s1920-c-rp-mo-br100",
+      "text": "pelayanan bagus .",
+      "textTranslated": null,
+      "publishAt": "5 tahun lalu",
+      "publishedAtDate": "2021-01-26T00:24:00.979Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN5aXR2bGd3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUN5aXR2bGd3RRAB!2m1!1s0x0:0x26fc108092b35ad6!3m1!1s2@1:CIHM0ogKEICAgICyitvlgwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Klinik & Praktek Dokter",
+  "kategori": "Kesehatan"
+}

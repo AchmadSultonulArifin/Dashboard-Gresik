@@ -2,6 +2,7 @@
   "title": "DISKOPERINDAG Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "Jl. Dr. Wahidin Sudirohusodo No.245, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -42,7 +43,7 @@
   },
   "imagesCount": 0,
   "imageCategories": [],
-  "scrapedAt": "2026-08-06T13:52:00.820Z",
+  "scrapedAt": "2026-08-20T22:22:48.754Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -54,13 +55,50 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
-  "peopleAlsoSearch": [],
+  "wasOpenAtScrapeTime": null,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Koperasi Usaha Mikro Perindustrian dan Perdagangan Kab. Gresik",
+      "reviewsCount": 11,
+      "totalScore": 4.4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Pemberdayaan Masyarakat dan Desa Kabupaten Gresik",
+      "reviewsCount": 13,
+      "totalScore": 4.9
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "PKPRI Kabupaten Gresik",
+      "reviewsCount": 3,
+      "totalScore": 4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Pariwisata dan Kebudayaan Kabupaten Gresik",
+      "reviewsCount": 12,
+      "totalScore": 4.4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Dinas Perumahan Dan Kawasan Permukiman Kabupaten Gresik",
+      "reviewsCount": 3,
+      "totalScore": 4.7
+    }
+  ],
   "placesTags": [],
   "reviewsTags": [],
   "additionalInfo": {
     "Aksesibilitas": [
       {
         "Pintu masuk khusus pengguna kursi roda": true
+      }
+    ],
+    "Fasilitas": [
+      {
+        "Toilet": true
       }
     ]
   },
@@ -73,6 +111,7 @@
   "isAdvertisement": false,
   "imageUrl": null,
   "kgmid": "/g/11bztbhmdq",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -138,5 +177,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

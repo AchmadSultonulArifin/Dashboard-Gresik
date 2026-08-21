@@ -1,0 +1,66 @@
+{
+  "key": "apotek_rs_petrokimia",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotek RS Petrokimia",
+  "rating": 3.2,
+  "total_ulasan": 4,
+  "positif": 0,
+  "netral": 3,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 75.0,
+  "persen_negatif": 25.0,
+  "latitude": -7.159226,
+  "longitude": 112.643694,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Q Pheng",
+      "Bintang": 1,
+      "Tanggal": "2026-06-04T11:18:33.832Z",
+      "Ulasan": "Keseringan obat inden.... Harusnya dipersiapkan kalau obat mau habis.. Gak masuk akal",
+      "teks_final": "keseringan obat inden harusnya dipersiapkan obat mau habis masuk akal",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.991
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Rossi Fauziah",
+      "Bintang": 2,
+      "Tanggal": "2026-04-27T13:12:07.997Z",
+      "Ulasan": "Dua jam tiga puluh menit nunggu obat, ternyata daritadi ga dikerjain dong 🥲 kalian ga pengen nambah hire pharmacist lagi?",
+      "teks_final": "dua jam tiga puluh menit nunggu obat ternyata daritadi dikerjain kalian pengen nambah hire pharmacist",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7366
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Channel Om BP",
+      "Bintang": 5,
+      "Tanggal": "2024-12-25T22:24:18.261Z",
+      "Ulasan": "Mntap pelayanan puasa",
+      "teks_final": "mntap pelayanan puasa",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.642
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "adinda rosa",
+      "Bintang": 1,
+      "Tanggal": "2024-09-09T13:33:53.332Z",
+      "Ulasan": "nomor gak aktif! smpek jam 9 malam obt belum dikirim. akhrnya ke rs !!!! ke 2 dikecewain yg dlu obat g dikirim smpek priksa lg!",
+      "teks_final": "nomor aktif smpek jam malam obt dikirim akhrnya rumah sakit dikecewain dlu obat dikirim smpek priksa lg",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5808
+    }
+  ]
+}

@@ -1,19 +1,82 @@
 {
+  "key": "rsu_denisa_gresik",
   "kategori": "Kesehatan",
+  "sub_kategori": "Rumah Sakit",
   "tempat": "RSU Denisa Gresik",
   "rating": 4.8,
-  "total_ulasan": 30,
+  "total_ulasan": 29,
   "positif": 25,
-  "netral": 3,
+  "netral": 2,
   "negatif": 2,
-  "persen_positif": 83.3,
-  "persen_netral": 10.0,
-  "persen_negatif": 6.7,
+  "persen_positif": 86.2,
+  "persen_netral": 6.9,
+  "persen_negatif": 6.9,
   "latitude": -7.167659,
   "longitude": 112.597896,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Fida Nurul",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T02:43:50.599Z",
+      "Ulasan": "Pelayanan ramah dan cepat",
+      "teks_final": "pelayanan ramah cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Bibah Habibah",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T03:11:25.027Z",
+      "Ulasan": "Oke",
+      "teks_final": "oke",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9063
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Siska Oktafia",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T03:06:16.683Z",
+      "Ulasan": "Pelayanan sangat baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Yanuar Kleper",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T02:37:27.129Z",
+      "Ulasan": "dokternya sabar.. ramah dan humble..",
+      "teks_final": "dokternya sabar ramah humble",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.989
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "muzay yanah",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T02:26:58.724Z",
+      "Ulasan": "Dokter nya dan perawatnya ramah2",
+      "teks_final": "dokter perawatnya ramah2",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Eva diah Ardiani",
       "Bintang": 5,
       "Tanggal": "2026-08-06T10:04:44.030Z",
@@ -25,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "affliate pribadi",
       "Bintang": 1,
       "Tanggal": "2026-07-30T10:11:58.716Z",
@@ -36,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Balqisya Islammita",
       "Bintang": 5,
       "Tanggal": "2026-07-29T01:05:50.721Z",
@@ -47,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "fahmi ashari",
       "Bintang": 5,
       "Tanggal": "2026-06-29T14:36:23.088Z",
@@ -58,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Atik Listiana",
       "Bintang": 4,
       "Tanggal": "2026-06-26T13:28:30.700Z",
@@ -69,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Armanda Putra",
       "Bintang": 5,
       "Tanggal": "2026-06-26T01:38:50.236Z",
@@ -80,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Mohammad Alfian",
       "Bintang": 1,
       "Tanggal": "2026-06-25T17:58:18.667Z",
@@ -91,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Helmi Fitroh",
       "Bintang": 5,
       "Tanggal": "2026-06-25T09:16:02.712Z",
@@ -102,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Zani Zan",
       "Bintang": 5,
       "Tanggal": "2026-06-25T01:48:11.492Z",
@@ -113,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Nur Laely",
       "Bintang": 5,
       "Tanggal": "2026-06-24T09:21:40.650Z",
@@ -124,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "sindi kurnia sari",
       "Bintang": 5,
       "Tanggal": "2026-06-23T02:55:52.856Z",
@@ -135,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Alent Valent",
       "Bintang": 5,
       "Tanggal": "2026-06-23T02:29:15.525Z",
@@ -146,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Irsana Irsyad",
       "Bintang": 5,
       "Tanggal": "2026-06-22T06:50:13.467Z",
@@ -157,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Nur Aisyah",
       "Bintang": 5,
       "Tanggal": "2026-06-21T14:00:54.722Z",
@@ -168,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "ica aisyah",
       "Bintang": 5,
       "Tanggal": "2026-06-20T09:51:13.633Z",
@@ -179,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Siti Nur Cholifah",
       "Bintang": 5,
       "Tanggal": "2026-06-20T07:12:57.332Z",
@@ -190,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Syirah Pinunsada",
       "Bintang": 5,
       "Tanggal": "2026-06-20T03:25:56.011Z",
@@ -201,6 +280,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Dita Dita",
       "Bintang": 5,
       "Tanggal": "2026-06-19T08:09:43.483Z",
@@ -212,6 +292,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Novi Ati",
       "Bintang": 4,
       "Tanggal": "2026-06-18T22:43:17.285Z",
@@ -223,6 +304,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "winda setiawan",
       "Bintang": 5,
       "Tanggal": "2026-06-18T10:01:15.803Z",
@@ -234,6 +316,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Intan Pesek",
       "Bintang": 5,
       "Tanggal": "2026-06-18T02:54:25.345Z",
@@ -245,6 +328,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "leili yatur rohma",
       "Bintang": 5,
       "Tanggal": "2026-06-17T14:49:01.795Z",
@@ -256,6 +340,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "066 Fir",
       "Bintang": 5,
       "Tanggal": "2026-06-17T12:15:37.121Z",
@@ -267,6 +352,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Mama Abizaradzril",
       "Bintang": 5,
       "Tanggal": "2026-06-17T01:38:19.066Z",
@@ -275,72 +361,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.8317
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mbak Qiha",
-      "Bintang": 5,
-      "Tanggal": "2026-06-16T15:14:01.714Z",
-      "Ulasan": "Alhamdulillah pengalaman hamil pertama periksa  pelayanannya ramah dan dokternya juga baik banyak menjelaskan dengan detail,terimakasih atas pelayanannya🙏",
-      "teks_final": "alhamdulillah pengalaman hamil pertama periksa pelayanannya ramah dokternya baik banyak menjelaskan detail terimakasih atas pelayanannya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.989
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Alfiani Nasiroh",
-      "Bintang": 5,
-      "Tanggal": "2026-06-16T13:15:22.228Z",
-      "Ulasan": "Hamil pertama nyari nyari info tempat usg yang enak di gresik. Akhirnya di rekomendasikan sama temen di rsu denisa. Sudah beberapa kali usg disini. Tempatnya nyaman,pelayanan ramah dan cepat. Dan dokter nya pun ramah banget penjelasannya detail tanpa perlu ditanya dan pastinya humble pol banyak guyonnya jadi bikin nyaman saat usg",
-      "teks_final": "hamil pertama nyari nyari info tempat usg enak gresik akhirnya rekomendasikan sama temen rsu denisa beberapa kali usg disini tempatnya nyaman pelayanan ramah cepat dokter ramah banget penjelasannya detail tanpa perlu ditanya pastinya humble pol banyak guyonnya jadi bikin nyaman usg",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9972
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "chintami surya ayu",
-      "Bintang": 5,
-      "Tanggal": "2026-06-16T13:09:03.968Z",
-      "Ulasan": "Dokter Rio ramah sekali, informatif, pelayanan rumah sakit profesional",
-      "teks_final": "dokter rio ramah informatif pelayanan rumah sakit profesional",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9785
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Nilam Putri",
-      "Bintang": 5,
-      "Tanggal": "2026-06-16T12:51:26.769Z",
-      "Ulasan": "Baru mau usg di sini ,selama pendaftaran pelayanan nya sangat baik dan respon nya cepat☺️",
-      "teks_final": "mau usg sini selama pendaftaran pelayanan baik respon cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.8571
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Aldi Ansyah",
-      "Bintang": 5,
-      "Tanggal": "2026-06-04T02:19:02.674Z",
-      "Ulasan": "alhamdulillah saya dilayani dgn baik",
-      "teks_final": "alhamdulillah dilayani baik",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9871
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Bella H.",
-      "Bintang": 1,
-      "Tanggal": "2026-06-02T13:49:50.276Z",
-      "Ulasan": "Untuk admin Cs online di WhatssApp RS Denisa tdk konsisten dan very make me confuse... unhelpful🫣",
-      "teks_final": "admin cs online whatssapp rumah sakit denisa konsisten very make me confuse unhelpful",
-      "topik": "Kesehatan",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9488
     }
   ]
 }

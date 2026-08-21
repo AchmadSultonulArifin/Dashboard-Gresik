@@ -2,6 +2,7 @@
   "title": "BPJS. PT",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Agen Asuransi",
   "address": "RJM2+32X RSUD Gresik, JL Dr.W. Sudiro Husodo, Kembangan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",
@@ -41,11 +42,8 @@
     "fiveStar": 2
   },
   "imagesCount": 1,
-  "imageCategories": [
-    "Semua",
-    "Street View & 360°"
-  ],
-  "scrapedAt": "2026-07-22T10:22:25.083Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-20T19:25:44.823Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,38 +55,8 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Liaison Office BPJS Kesehatan Gresik",
-      "reviewsCount": 7,
-      "totalScore": 4.6
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "BPJS Kesehatan Cabang Gresik",
-      "reviewsCount": 1165,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "BPJS Ketenagakerjaan Gresik",
-      "reviewsCount": 1183,
-      "totalScore": 4.4
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Asuransi Kesehatan Indonesia.PT Persero",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "PT Gresik Migas",
-      "reviewsCount": 32,
-      "totalScore": 4.4
-    }
-  ],
+  "wasOpenAtScrapeTime": null,
+  "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [],
   "gasPrices": [],
@@ -100,6 +68,7 @@
   "isAdvertisement": false,
   "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-Wk4uwwv_ckpw1hZ90XPCA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=346.6301&pitch=0&thumbfov=100",
   "kgmid": "/g/11bc7r3t9p",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -165,5 +134,6 @@
     }
   ],
   "leadsEnrichment": [],
-  "kategori": "Pelayanan Publik"
+  "sub_kategori": "BPJS Kesehatan",
+  "kategori": "Kesehatan"
 }

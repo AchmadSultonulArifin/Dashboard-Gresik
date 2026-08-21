@@ -1,0 +1,78 @@
+{
+  "key": "kantor_kepala_desa_mojosarirejo",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Kepala Desa Mojosarirejo",
+  "rating": 4,
+  "total_ulasan": 5,
+  "positif": 2,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 40.0,
+  "persen_netral": 40.0,
+  "persen_negatif": 20.0,
+  "latitude": -7.349659,
+  "longitude": 112.5963023,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "BIBIE HOBI",
+      "Bintang": 3,
+      "Tanggal": "2022-07-31T01:36:19.631Z",
+      "Ulasan": "Masi tahap pembangunan",
+      "teks_final": "masi tahap pembangunan",
+      "topik": "Infrastruktur",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7858
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "shogasusantyo hs",
+      "Bintang": 3,
+      "Tanggal": "2022-06-08T14:23:19.082Z",
+      "Ulasan": "Kurang rapi",
+      "teks_final": "kurang rapi",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Ran",
+      "Bintang": 3,
+      "Tanggal": "2019-07-02T05:32:00.349Z",
+      "Ulasan": "Terkadang petugas tidak fokus, pelayanan terkadang lama dan tidak semua petugas ramah.",
+      "teks_final": "terkadang petugas fokus pelayanan terkadang lama semua petugas ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.863
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Mulyoadi Zhodron",
+      "Bintang": 5,
+      "Tanggal": "2019-03-31T14:33:57.304Z",
+      "Ulasan": "semoga lebih maju kedepannya..",
+      "teks_final": "semoga maju kedepannya",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9702
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-10-21T07:03:19.090Z",
+      "Ulasan": "Kantor Kelurahan Mojosarirejo, Sumput, Driyorejo.",
+      "teks_final": "kantor kelurahan mojosarirejo sumput driyorejo",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.997
+    }
+  ]
+}

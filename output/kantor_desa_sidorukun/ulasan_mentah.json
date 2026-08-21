@@ -2,6 +2,7 @@
   "title": "Kantor Desa Sidorukun",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Balai Pertemuan Desa",
   "address": "Jl. Amak Khasim III No.61, Sidorukun, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61112, Indonesia",
@@ -33,14 +34,14 @@
   "fid": "0x2dd80034ef8e7ee1:0xfe8a2d2a9025562d",
   "cid": "18341522093250008621",
   "reviewsCount": 50,
-  "imagesCount": 22,
+  "imagesCount": 21,
   "imageCategories": [
     "Semua",
     "Bangunan",
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:07:06.864Z",
+  "scrapedAt": "2026-08-20T23:50:23.786Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -52,6 +53,7 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
+  "wasOpenAtScrapeTime": null,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -100,8 +102,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6IoVzjBqWst4syZFOLHGOuDqcfm4-LRcxC31AHSIsUXZTeD-Lj72igNpoFQmYu-IMQGZ-NLAlOJfeEFcwzaV2k4F9dIB4yYoG-2J2E9PR9ebc1U3Xyp-Z9WbYQMLis4yBdIB1sw=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3VrOzu2S8UIVTqtRbPgSTOtwhSmmdTTqLweKq3-zHVoME1ibGrxDxkxbd9_B03IS-17OVaQvgCaqCW9SpEf5lHsiVsAP0wC4RygjuRC-dpT5676H1UpCxcXy3vlL8yyOhINyE6w=w408-h544-k-no",
   "kgmid": "/g/11c2kgsqnk",
+  "businessProfileId": null,
   "reviewsDistribution": {
     "oneStar": 2,
     "twoStar": 0,
@@ -129,7 +132,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXOCmVJZvHNOgTj584GuOuAtpA6bEhjH2zC1sQUUyIOIyxclQCx=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-01T02:36:25.730Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21wNU5qaFNWV1pNYXpRemFubDBVV0l5WDIxbGIwRRAB",
@@ -150,12 +153,12 @@
       "reviewerId": "115108563965372970083",
       "reviewerUrl": "https://www.google.com/maps/contrib/115108563965372970083?hl=id",
       "name": "Ainur Rohman",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUjhkbkULoMZKBb7pTuzd9D7VLav5o56sOMrR5vdwQcy-9Xa7Xl=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-11T19:07:20.716Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25GaWMxRlVXRk4xWlU4eVQwdENiSE5XYTBwcFdtYxAB",
@@ -218,8 +221,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM85QPHq9aokTvZwlFswnTsWETyQcxN_zIeEpf0S8wGs-8PbilPsIIiQORij1yV5wF85obSg9mBulmlNusTFThkZg48gOtJbTX0Ct1D45z0V2KstM53R-gxE44Sa-8YmqDHl-uq5GmbVZA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOC6nEZbAYE72AdwV259QhjVSnHryuIOatfjb4mSQVdbKJAKNoSKWoY-tE0r9gnF7VsQMfJfEyoCZ-MZ3_VNgoYMhe3PlDTswzdVF6sCwD3MxRtCahBv6Ui9tl8O8fG_emMU19TWx7SsLU2=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOgyBSqd8yZ9zSJ7xtYUNUVtwjOSbppzSehQUV6Xqn-YraC9Vn7EvNdfB2E7RclQ27sGHjhXdDosvBY97N8ROUV2qzhM7uTC4634xyjNpVDjbs-yQGwwzdAYAra7yUr2HGk8K_tMz2kY24=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOh7wmLBh3xxbNOnyhhdh9HujPa3GNmrqWdoSzxssGBxNg4PdpKnv_qiiz2142K3EK4HdoVn1HmhLFQf71oUcVPwgGeqfIoBUzigcyXL5jA1m7dy1bXDS2L3b_7fxc-jxCDJzv-bemBLViu=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -236,7 +239,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUerdlx55wB1ebKElByJKN8FLkTnvfcC5FP5XCH-MWiZFYD7DQHcw=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor kelurahan sing sat set sat set..",
       "textTranslated": null,
-      "publishAt": "9 bulan lalu",
+      "publishAt": "10 bulan lalu",
       "publishedAtDate": "2025-10-07T10:56:23.660Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KNFlscExWbmRRYVZjMk5tZ3pZMkkxVVZWSmRVRRAB",
@@ -247,7 +250,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPGQYjceveKnBBb64CnUfBh19I_GJTKepx3NwiS4qqBp8DtAiGUslTo2Kzu6IokZTK6C8Vg2BG8vr_5WOYwduf9ITdOEW0Txl6LjojCPYsJv6nlNcGncfvHnBYo1fxIWfMDypJmvulBgV4B=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM_H4YthUtIfuZgxwlMKQ_aFDPfLEqNvQA2DANd4mtxfzaYSpf7DyWRXpUEzx64yx0exC41Gu9uc8D8gXzED-gdhaWo1GDCmS401HaXEVI8dkLu7nXiuNJbzkKF-YDJ3C656kuE-bmuzfgT=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -264,7 +267,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUixFe6oLXWf1MEGFy2pPj8dE1z76MFl0CtKGO9bUE7g6Un_xnknA=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "10 bulan lalu",
+      "publishAt": "11 bulan lalu",
       "publishedAtDate": "2025-09-16T12:06:57.053Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kVlJHZFVaR293Um1aVFRXZE9TMVJITFdoVmRVRRAB",
@@ -290,7 +293,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVuTbd_kISBx8XoD7Xf0HIzQwDKwvRpvWH2OAUhU-kIRJMhet86=s1920-c-rp-mo-ba12-br100",
       "text": "best ever",
       "textTranslated": "terbaik yang pernah ada",
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-14T02:40:40.802Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tScVVYWkpkbXN5TVd3eWRURmFjbTlqVTA1R1dYYxAB",
@@ -311,7 +314,7 @@
       "reviewerId": "107310224469533173772",
       "reviewerUrl": "https://www.google.com/maps/contrib/107310224469533173772?hl=id",
       "name": "ahmad artha (Artha)",
-      "reviewerNumberOfReviews": 158,
+      "reviewerNumberOfReviews": 159,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW76HsFq8hzQc9cQHJ5_sEB3e0LuvE4odwtUfU--kismg1BjYpwdg=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -337,7 +340,7 @@
       "reviewerId": "114085710487003667312",
       "reviewerUrl": "https://www.google.com/maps/contrib/114085710487003667312?hl=id",
       "name": "Edwin Setiawan",
-      "reviewerNumberOfReviews": 22,
+      "reviewerNumberOfReviews": 23,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVdSPfrY6cdeo8DTkNJyFXCsl3wi8_PC1KDjaAeqRsu92vl_qOP=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -431,9 +434,9 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-N0oyHq5JM7EvnBaBOCjfeWvp6tqUGn4VyPylOT5NEvx4oful479qTznwuig9iTsGkkKa22_MygfM1Tf3GevUpJIzqI5NNtxEg0-rIOSwWmnO1TCy_XuyLU_eapTPMGbQGkc8LQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNwVOFl-iw66VGooWMD-h6OZ4n2urCxZcqbri4UJcxamoHq3paEvUXK2dy4ko5MoWu-EB9zDEthJFnuvOaOg4Itg7q-RG86J5ZQDFz71mVKVhJWV8jxcrfbN2WdYR1-eOYx_0Ww=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOgUujGZhFX5AHI9QgDC1OomMVsNd6I4P1k2mjiX_E_KU1QaaJeF8j89dM_2yZ8d2_EYBlhtWbkk7RRlBVp92_G11Sbow4TuZZgp8srjjxoudqx1usR0PdBBMgcNNcFE0ZtIXGU4w=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM7bZFAvfPMHOh8VDMFoMfpPSEa4Ed29zhR7pO6axDwlTyzGluJadByzyalQPH1_1kHKH6io2jjtHRNaAL6D6Ve4JarBmJoRNcUrKiHrO4ia-bTK-ASrzp34-i6rHq3pPAWesPpQw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPcsSG1FjRuvwKcJbYRMRUUpWc0xz7z0lwa40qRu-uOfMuQEH4TSNUYJg3y1zsNTlwB7kxCEXSdRh_1O60QWegmYUjxpIKanb7rQlHO41F8wRl_5nekMgFU9T9Cs1pmJD_3VoRi=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMCk80k6qrNgpb4lfvsbmb3sF1KQAxmRSUvhvwzaFSnHaxX38MnXxKLxbWyzVBUSrMgspPbC1JgHpW-bYjFFPwpl9w8K4KK12hOgGAOrEpz9fJrVJ6xY5evvKxYH4kWBp9scilChA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -528,7 +531,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXGqNTWaxfIEsfTH-5zWta3RJfhavZ7X4FgVNhgXuxr64rx1gI=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "setahun lalu",
+      "publishAt": "2 tahun lalu",
       "publishedAtDate": "2024-08-08T12:20:54.283Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURiM2Z6NnV3RRAB",
@@ -627,7 +630,7 @@
       "reviewerId": "113426262007633727938",
       "reviewerUrl": "https://www.google.com/maps/contrib/113426262007633727938?hl=id",
       "name": "harist Lesmana",
-      "reviewerNumberOfReviews": 1106,
+      "reviewerNumberOfReviews": 1119,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWETocOsXdVlg42WFfwZXQRwXG9-H9v_A-kk4PkA_O8eX-0j5bl6g=s1920-c-rp-mo-ba12-br100",
       "text": "Bersih asri dan pelayanan bagus 👌👍👍👍👍👍👍",
@@ -669,11 +672,11 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMCLpjvvIqp0BGHJqZx_En2_EJcK95AynrcENfo93TvpWui-VAGAcysUFgJ1TZqb3DHhGDC9QApGSYemXJCSI4-YOZA40QWHBiRwB76v7mYIn5ogYPypWufsJ95js6fnFzC1Rb2=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMXy75-poUyP8hUVlcUMO_janxj2C789fayNI4gNg9oL0DF_CKKUVpm5ldfO227RETvqad4foCGq5jXQTTD947ayZCrthkXNwpx3gZQkFD-v7FZR5Sl3eIARuh2sTdcexxxMkVzHg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMMyGbKGWged8TdGQ0xKX0EPuI51BaDu2q1DDVfxZ6x_Af28rFQGjqOFkdmmMAdw9412ewAVu1pW-eYgsmqiht4u_9NiDEMbtSYaMiJY5L62Lpbmz-2RYSIwG6v4g0wJYnJNWAL=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfppFuWOAjTXD4k1khaC81vT3HZV9I7ew6o47Thne_fFdB5u72JjwshrVb2qJLDDUTx3Ns6hORNb3Zf3W26x1-QMt52FKfx0K5P6tV76ug-S_C5QPr9LCUTL2BQjC2s5mcM2KCRA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNPtuF_tRO0-zMI2AkDBnSsotZFTePoA9bW5hZkUYG24ePd0GF0iZ9jRFO5yHaBqoxqJHy4PKyVNFsWDkG7xXHZb0AiBXXgw23fA5yGRrQgzdG00tQTbbBnV0V-RJ48UIRBmezc=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMljTj3mqW_kPDNnVv7RChc46DJcA3_a3N8pVyRn97pBlA5wvve8TBTVHRgCLIk2sosf6_7so6POYIXu8leWzPez7onsaXEUYVGhbxMkSksvnaBg4VZEriHFzCXovNyj-WgEACq=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMMTBd2ai8zgwGObuCxDnYo3pstYz8PfK29j6pAT8NjNipxB9QxbXPmSw5NARSYrhiqlg7RBNXzm_6vI0bxcFcVZCt_5jinJ524xifTDhrRNbK1b7vkUcvjOQQKj3me9gQqnVWXcg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO1eHqyu9WHMIT47m5WAesdDPEHSg670XoeHdWbrOsdvQlQEIu7EoTXEl5bp_ykG76Mzi62efHbGb6kFbKZZtYlWjMHX6VgoPa1nGLI5oKB1A7WaRHaRXPk-Y-s7_MAwiAkgK5T=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMuVajI-y4XgCXGSJMoT8a-kRnafMiwCK2khHwSV1ZRMFBgn3V4r5zrBCErcxXoGU_7R9LXE_niwfqcoX6BDexieiOaHMoqaRfOsGGpamrv4azpYP3F5RbUkn2knowfGAIaFgEk_w=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOImPdqg8_-Mh_8oSLbVZ2hb-O3C0jz3cg4icVmxX7Vr1mIYIMJz8GX9WEU8WxLkNnEPTU1ac7zt62eteS2n22qw9kzzneKTE0rib2VX7O-WzHHwLZ5jja_VL3vq-9vFYc384Xh=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -872,7 +875,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcR5vLyWIKFDDNRTZc9hY8RBB5SRGyHpkp03iAtsp_wwJupw=s1920-c-rp-mo-br100",
       "text": "Opensid akan diterapkan",
       "textTranslated": null,
-      "publishAt": "5 tahun lalu",
+      "publishAt": "6 tahun lalu",
       "publishedAtDate": "2020-08-14T02:21:30.077Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNDak9udmJREAE",
@@ -917,5 +920,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

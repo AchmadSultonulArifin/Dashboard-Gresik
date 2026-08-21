@@ -2,6 +2,7 @@
   "title": "klinik mitra medicare manyar",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Klinik Kesehatan",
   "address": "VJ98+W29, Jl. Raya Sukomulyo, Tenger, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",
@@ -32,19 +33,19 @@
   ],
   "fid": "0x2e77fe18aee076e3:0xe1d0abc4b2d4f875",
   "cid": "16271694314991843445",
-  "reviewsCount": 105,
+  "reviewsCount": 102,
   "reviewsDistribution": {
     "oneStar": 4,
     "twoStar": 0,
     "threeStar": 1,
     "fourStar": 5,
-    "fiveStar": 95
+    "fiveStar": 92
   },
   "imagesCount": 10,
   "imageCategories": [
     "Semua"
   ],
-  "scrapedAt": "2026-07-20T11:13:57.736Z",
+  "scrapedAt": "2026-08-20T20:51:09.552Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -52,8 +53,8 @@
   "checkInDate": null,
   "checkOutDate": null,
   "hotelAds": [],
-  "popularTimesLiveText": "Sedikit sibuk",
-  "popularTimesLivePercent": 53,
+  "popularTimesLiveText": "Tidak ramai",
+  "popularTimesLivePercent": 19,
   "popularTimesHistogram": {
     "Su": [
       {
@@ -744,6 +745,18 @@
   },
   "openingHours": [
     {
+      "day": "Jumat",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Buka 24 jAM"
+    },
+    {
       "day": "Senin",
       "hours": "Buka 24 jAM"
     },
@@ -758,25 +771,14 @@
     {
       "day": "Kamis",
       "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Jumat",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Sabtu",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Minggu",
-      "hours": "Buka 24 jAM"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Klinik Hidayah Manyar",
-      "reviewsCount": 52,
+      "reviewsCount": 54,
       "totalScore": 4.6
     },
     {
@@ -794,14 +796,14 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Klinik Cipta Medika Soetomo",
-      "reviewsCount": 237,
+      "reviewsCount": 238,
       "totalScore": 4.8
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Klinik Mitra Medika",
-      "reviewsCount": 29,
-      "totalScore": 3.2
+      "reviewsCount": 32,
+      "totalScore": 3.1
     }
   ],
   "placesTags": [],
@@ -856,8 +858,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHBYP7UqXF1_oENBK-XONPiKIKoec0JP1i8nHnSxeIkvDFVqYqLQm3JdqFNklbHYHwFuU8E4D5IrP9-pfiMUrMgOzZJrPW22s5IilrwncWmW5i0SOKbds5-15zoppRII_kZ6uBhQ=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkBLbc4Q4sOIInpT6yEX1WF59cxkxbaz_RvgI_IuCvb5CGWGAdT_92b4ovxR6VXr9F-Nb3hU2gOUy7D0e6NFO3heTkm6eW349FnuQCeDr6RSM2x2XbrB0YJXQDFdB8PS78ZA4B_IQ=w408-h306-k-no",
   "kgmid": "/g/11gdh0tc54",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -878,7 +881,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4dlE0zzE0XNdyPZFl-PP-wmZYpg7j0LdWy_6BLp81rlMZJw=s1920-c-rp-mo-br100",
       "text": "Staff dan dokternya ramah dan best banget sama pasien",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2025-12-28T02:03:16.942Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pnMU9VRnZTbGwyTVdGM2JVRlVVWGhVTjFwM2MxRRAB",
@@ -904,7 +907,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX1lhsievobAmWQFkkChVbfF61cDwTDiKhzRYzAmtygT4yLLw1TEA=s1920-c-rp-mo-br100",
       "text": "Awalnya faskes bpjs ku di mmc suci, tp bulan kemaren periksa ke mmc manyar karna darurat dan yg paling deket dr kos, ternyata di sini nakes nya ramah bgttt, beda sama nakes di mmc suci yg judes poll\nTanpa berpikir panjang pindah faskes di mmc mayar deh",
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-01T15:26:30.837Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT210aWNUazBieTFmZVhvME0zQXdlblpQUzNabFlYYxAB",
@@ -930,7 +933,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI8F168EfnTSyr3lfMt-Yv7yITxayVHJlIQ6LSs9XibnyB5OA=s1920-c-rp-mo-br100",
       "text": "Apakah klinik ini untuk umum atau hanya untuk karyawan PT kas saja?",
       "textTranslated": null,
-      "publishAt": "9 bulan lalu",
+      "publishAt": "10 bulan lalu",
       "publishedAtDate": "2025-10-01T05:19:40.510Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pBMVdGbEVaR3AyVERaSWNYRldRVEZ4VmpacFVXYxAB",
@@ -1097,7 +1100,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNy3YUaFtyDp9JDJ_VYA2hS5XOT6mRaGESUY6UoJCFsLG1bdSeqfpdzGOR96aAyM2CVC5YSVR3zQXIxUT9IJwQEBhIlh4lSB9Xsp6iaM5qycZdrkSvx3xkdbe7lEDY3rq4nufdg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOEg_g8n6nDZ0PKvc3uiW-6xKb6O3IcgjjPby6BcFb2Ysoo2w_SpN3GcGnyeAfGCIjUFvTMLjzoL0mudHSgtqQhy_njYfPlIJAZWBUu09OdpaosV8zbcl58pG1rMxdJYCePMX_f=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1473,7 +1476,7 @@
       "reviewerId": "112693735956635820374",
       "reviewerUrl": "https://www.google.com/maps/contrib/112693735956635820374?hl=id",
       "name": "Morina Margaretha",
-      "reviewerNumberOfReviews": 5,
+      "reviewerNumberOfReviews": 6,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIPsVMJnFioDuFGEMvEijT8620aD8q98NPfi7Dftw8VywU2Uw=s1920-c-rp-mo-br100",
       "text": null,
@@ -1653,5 +1656,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Klinik & Praktek Dokter",
   "kategori": "Kesehatan"
 }

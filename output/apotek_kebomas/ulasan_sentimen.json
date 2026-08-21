@@ -1,0 +1,102 @@
+{
+  "key": "apotek_kebomas",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotek Kebomas",
+  "rating": 4.6,
+  "total_ulasan": 7,
+  "positif": 4,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 57.1,
+  "persen_netral": 28.6,
+  "persen_negatif": 14.3,
+  "latitude": -7.1651104,
+  "longitude": 112.6377087,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Nunik Ma'arif",
+      "Bintang": 5,
+      "Tanggal": "2025-09-16T04:59:10.401Z",
+      "Ulasan": "APOTEK kebomas",
+      "teks_final": "apotek kebomas",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9093
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Dee Moji",
+      "Bintang": 5,
+      "Tanggal": "2025-05-15T12:27:35.437Z",
+      "Ulasan": "Pelayanannya baik dan ramah Tempatnya nyaman dan bersih. Ada tempat duduk Ada timbangan untuk umum",
+      "teks_final": "pelayanannya baik ramah tempatnya nyaman bersih tempat duduk timbangan umum",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9964
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Roy Agustinus",
+      "Bintang": 2,
+      "Tanggal": "2024-04-30T13:08:21.457Z",
+      "Ulasan": "Hrg obat lumayan tinggi",
+      "teks_final": "hrg obat lumayan tinggi",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9625
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "rizal actavian",
+      "Bintang": 5,
+      "Tanggal": "2023-01-20T10:00:07.320Z",
+      "Ulasan": "Pelayanannya baik dan memuaskan 🙂",
+      "teks_final": "pelayanannya baik memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Maharani Kristanti",
+      "Bintang": 4,
+      "Tanggal": "2018-11-25T07:20:43.380Z",
+      "Ulasan": "lengkap obatnya. pelayanan cepat",
+      "teks_final": "lengkap obatnya pelayanan cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9916
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "tri hedianto",
+      "Bintang": 5,
+      "Tanggal": "2018-10-30T15:58:35.085Z",
+      "Ulasan": "Obat lengkap dan harga terjangkau",
+      "teks_final": "obat lengkap harga terjangkau",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9928
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Rifki Nation*",
+      "Bintang": 5,
+      "Tanggal": "2016-06-18T21:15:56.858Z",
+      "Ulasan": "Bisa mengetahui tempat yg di tuju",
+      "teks_final": "mengetahui tempat tuju",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9539
+    }
+  ]
+}

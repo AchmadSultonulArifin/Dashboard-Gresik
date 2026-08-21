@@ -1,0 +1,78 @@
+{
+  "key": "apotik_granit_nila",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotik Granit Nila",
+  "rating": 4.4,
+  "total_ulasan": 5,
+  "positif": 3,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 60.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 20.0,
+  "latitude": -7.335015,
+  "longitude": 112.6377994,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Heru Novariyanto",
+      "Bintang": 5,
+      "Tanggal": "2026-06-06T13:08:36.971Z",
+      "Ulasan": "Tepat penanganannya dan bersahabat",
+      "teks_final": "tepat penanganannya bersahabat",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9859
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Hadi Mulyono",
+      "Bintang": 5,
+      "Tanggal": "2022-08-25T09:11:23.510Z",
+      "Ulasan": "Apotik yang legendaris dan telah menjadi jujukan serta langganan kami sekeluarga, sejak pertama kami hadir dan tinggal di kota ini.  Ibu apotekernya ramah dan kaya solusi.  Salam Sehat Sukses Berkah, Hadi Mulyono",
+      "teks_final": "apotik legendaris telah menjadi jujukan serta langganan sekeluarga sejak pertama hadir tinggal kota ibu apotekernya ramah kaya solusi salam sehat sukses berkah hadi mulyono",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9767
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Dadang",
+      "Bintang": 5,
+      "Tanggal": "2022-04-10T09:32:05.466Z",
+      "Ulasan": "Apotik langganan sejak kecil Saran obat sangat cocok buat sakit yang saya alami",
+      "teks_final": "apotik langganan sejak kecil saran obat cocok buat sakit alami",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9239
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "dwi yudha",
+      "Bintang": 5,
+      "Tanggal": "2021-05-13T07:51:15.074Z",
+      "Ulasan": "Ramah tama, pelayanan nya...👍🙏🙏",
+      "teks_final": "ramah tama pelayanan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9956
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Zhafirah_0505",
+      "Bintang": 2,
+      "Tanggal": "2018-07-12T13:58:02.248Z",
+      "Ulasan": "Alamatnya rada susah...campur ama rumah sih",
+      "teks_final": "alamatnya rada susah campur ama rumah",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9667
+    }
+  ]
+}

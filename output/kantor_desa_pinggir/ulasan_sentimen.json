@@ -1,0 +1,30 @@
+{
+  "key": "kantor_desa_pinggir",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Pinggir",
+  "rating": 2.3,
+  "total_ulasan": 1,
+  "positif": 0,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 100.0,
+  "latitude": null,
+  "longitude": null,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "sarah Zaharani",
+      "Bintang": 1,
+      "Tanggal": "2023-05-05T09:07:31.031Z",
+      "Ulasan": "Pelayannan buruk,pekerja sibuk gosip",
+      "teks_final": "pelayannan buruk pekerja sibuk gosip",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9978
+    }
+  ]
+}

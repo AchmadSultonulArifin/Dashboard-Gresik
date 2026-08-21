@@ -2,6 +2,7 @@
   "title": "Kantor Pos Gresik Manyar",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pos",
   "address": "Jalan Raya Manyar No. 5, Manyarejo, Manyar, Tenger, Roomo, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",
@@ -32,14 +33,21 @@
   ],
   "fid": "0x2e77fd955555556f:0x33d519d18fbe98e9",
   "cid": "3734919853824186601",
-  "reviewsCount": 62,
+  "reviewsCount": 63,
+  "reviewsDistribution": {
+    "oneStar": 31,
+    "twoStar": 4,
+    "threeStar": 7,
+    "fourStar": 4,
+    "fiveStar": 17
+  },
   "imagesCount": 12,
   "imageCategories": [
     "Semua",
     "Eksterior",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T13:43:47.438Z",
+  "scrapedAt": "2026-08-21T00:25:36.890Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -51,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.30 to 15.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.30 to 15.00"
@@ -78,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "07.30 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.30 to 15.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -142,22 +151,6 @@
     ]
   },
   "gasPrices": [],
-  "url": "https://www.google.com/maps/search/?api=1&query=Kantor%20Pos%20Gresik%20Manyar&query_place_id=ChIJb1VVVZX9dy4R6Zi-j9EZ1TM",
-  "searchPageUrl": "https://www.google.com/maps/search/Ktr.%20Pos%20Manyar?hl=id",
-  "searchString": "Ktr. Pos Manyar",
-  "language": "id",
-  "rank": 1,
-  "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2wWVoQHs_adnC_HEluL7KaLYVlUSFMhyPvuYcE6REMk7dWLXAEUWyAJ93UP-e94r0ahxuXZLttZAOXCea-kNvL-SQPT6BkQSP6Ab_ci84kTA2BSVF3rtNRs0s6hkMEuUcwZS29A=w408-h306-k-no",
-  "kgmid": "/g/11b5wjwptp",
-  "reviewsDistribution": {
-    "oneStar": 30,
-    "twoStar": 4,
-    "threeStar": 7,
-    "fourStar": 4,
-    "fiveStar": 17
-  },
-  "questionsAndAnswers": [],
   "updatesFromCustomers": {
     "text": "Kantor Pos Manyar",
     "language": "id",
@@ -166,27 +159,37 @@
       "name": "zakky rohman",
       "url": "https://www.google.com/maps/contrib/106087830743768795121?hl=id",
       "title": "Local Guide",
-      "totalReviews": 197
+      "totalReviews": 200
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPa6VqyXKKUa3KVH8sBW5murbsYXwurgFZ_F1zBjc7u61jX_UVpAQHcfDBE1HS4ZrefpuDw_Ej7x5Sdt3AYp7dBW3INXUhDTdnoOPyFESGjht2kLieT90BMrQ39Z8ybTrZuZMZquIYtUDZM=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMQbQUUZOp7L1u_WkOWnaQLOCRiLqGRuad_krCLbb9gMj8LGmnume4NUjUnhu-UjfRfpMR8ZcTwurUHpPsb3pEaVj_lMgUzks4gIsgS3iifDaDyQ2BQsErWi2keDx5d2e9F2iPGovVSdf62=k-no",
         "postDate": "7 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOYd-RyaoaDQkE4xj7JEVn7O0QfVD3yXrUQDpLLbHIfoz1yXqm9tH_n01NsLpehG0traozUbVxWB87KbOhB6ivo1VsglZJTdWx9PuKzVhWwRyofq5mGY5mbjE7PsdcDxIK_mlrA2YIEk9g=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOz-0jXpmkM5Opw9RmaJCFaHzK2OHPcJfBbcHf-XySCY6EAqCIOxk2SX7zFTQ7CC8Ha_8j7ckmChh2_nFUVC5ZO6kh_pRM7AOSJT1RBH7BPIwz6jF-VX3_itAz8xHf5cQoXbh-F4rB8jPg=k-no",
         "postDate": "7 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPsqMXwDp-U3EW434d-niJ46Cn3ZlRQqr89hz4cm1_BkPZ6zDtL_bpzdbcXoZPsRjYIqdzcsVsiRCBi050LE_7BYZtYyi7bkfjfKQPb0KZw_TziRki-XrPMQ5VVcX4hruMtzlMh-1wGfMgS=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMeukWA0DRKNdhDx-RWlYeNVdboW6ShoofQ5YRfSZXbWDzm_TwnnU0h_Ibw542bhOGr7pCjyUJKJXdFHSCInlHnQ-M4sIGSz1pA6Er_NLlIqL6lZceDwsfPW7nDH2-1_R6Y58piGJ-9sda1=k-no",
         "postDate": "7 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPfCF2eEF5v3Xh-7LMTz5fBdWHo4e0YtdVH36guBH4IpYxfXTvItyfkOUWzR0-ORb9B3akD251RPe4a21VB_2Ppg-s8nsr6KdIKDzkoq9aQdJgn3PiKmOcualP7LzeimlzJD6f1jzR4ICWn=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMziyEaPKaVOkrkQGq886r7JXL73c_OfREqMK68hmbyGN6vV7BPKNF_YrVWNByO0QdW8_C248HaGKMzaKm0gVZnMx4jfoVHkTQZYl9NniIlnWbqlytB5jHXeFwSFsQpgOWLquPS91-XC0ET=k-no",
         "postDate": "7 bulan lalu"
       }
     ]
   },
+  "url": "https://www.google.com/maps/search/?api=1&query=Kantor%20Pos%20Gresik%20Manyar&query_place_id=ChIJb1VVVZX9dy4R6Zi-j9EZ1TM",
+  "searchPageUrl": "https://www.google.com/maps/search/Kantor%20Pos%20Gresik%20Manyar?hl=id",
+  "searchString": "Kantor Pos Gresik Manyar",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWluq4iEqIhS9kyT4WYsgLhs0A_idE8YV51eEjn6iyZpCnICYxshvvJbhJ9s_1Khn7KPm0ExZL51Prd_xUgTsGBDt5Snk9WVFfIFZfm5TwEHl4qA2lHNmvJQywPf2EOXHupb-5QOpg=w408-h306-k-no",
+  "kgmid": "/g/11b5wjwptp",
+  "businessProfileId": "15756368907367520359",
+  "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
   "tableReservationProviders": [],
@@ -198,6 +201,32 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "106366385418704193038",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106366385418704193038?hl=id",
+      "name": "Dini Ardianty Seiso",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVb4CywHxChXB6uBr9dZACSTSkdau0UsiZ75TB5J6Tj2bnNjig=s1920-c-rp-mo-br100",
+      "text": "Mohon lebih disiplin dalam mengirim barang. Barang ditunggu sejak lama Tapi Tidak ada pengiriman, ngendon terus di lokasi kantor pos Manyar",
+      "textTranslated": null,
+      "publishAt": "5 hari lalu",
+      "publishedAtDate": "2026-08-15T08:54:38.646Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSRVVYZ3dTVlpHVjIxMGIzcHpiVnBCY3pocGQxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSRVVYZ3dTVlpHVjIxMGIzcHpiVnBCY3pocGQxRRAB!2m1!1s0x0:0x33d519d18fbe98e9!3m1!1s2@1:CAIQACodChtycF9oOjREUXgwSVZGV210b3pzbVpBczhpd1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "104758253665751756180",
       "reviewerUrl": "https://www.google.com/maps/contrib/104758253665751756180?hl=id",
       "name": "Muhammad Sholeh",
@@ -206,7 +235,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLkCJVjy-42nWQLs1jhhR0NupPWllI5-VhpK13-hnytfS2rMA=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-21T11:36:24.592Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT214NGVqaFNTMXBSVVRod1V6TTBXR3hqVDBKdVMyYxAB",
@@ -253,7 +282,7 @@
       "reviewerId": "108454517367058497568",
       "reviewerUrl": "https://www.google.com/maps/contrib/108454517367058497568?hl=id",
       "name": "Andi 26",
-      "reviewerNumberOfReviews": 171,
+      "reviewerNumberOfReviews": 172,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4yImtRMzrGuScWlm44D14ditlAIfOBNiAlbzu2rwgGrswow=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor pos nya kecil, tapi pelayanan nya bagus, ramah petugas nya.",
@@ -279,7 +308,7 @@
       "reviewerId": "106087830743768795121",
       "reviewerUrl": "https://www.google.com/maps/contrib/106087830743768795121?hl=id",
       "name": "zakky rohman",
-      "reviewerNumberOfReviews": 197,
+      "reviewerNumberOfReviews": 200,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW7blVUg_BLQ0bXB5AFfnnE37E0renMG0TqXGrF2VtLPOC5sWM2=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor Pos Manyar, sebagian besar masyarakat masih mengenalnya dengan KUD Gartamina, karena lokasinya berada di komplek KUD Gartamina, Manyar.",
@@ -336,9 +365,9 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLbFBeHma1q2V08X50n9Y2PDUVIXBEjBQilyTHyBh2b08nA4A=s1920-c-rp-mo-br100",
       "text": "Kantor pos manyar ini Apakah ada nomor whatsup yg bisa di hubungi kak?",
       "textTranslated": null,
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-13T13:25:11.037Z",
-      "likesCount": 0,
+      "likesCount": 1,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WM1RHdzBVWE01YjBWeFYzUm5lWFZ2YWtoNVRYYxAB",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WM1RHdzBVWE01YjBWeFYzUm5lWFZ2YWtoNVRYYxAB!2m1!1s0x0:0x33d519d18fbe98e9!3m1!1s2@1:CAIQACodChtycF9oOnV3TGw0UXM5b0VxV3RneXVvakh5TXc%7C%7C?hl=id",
       "reviewOrigin": "Google",
@@ -406,12 +435,12 @@
       "translatedLanguage": null
     },
     {
-      "reviewerId": "110687023739573374902",
-      "reviewerUrl": "https://www.google.com/maps/contrib/110687023739573374902?hl=id",
-      "name": "moh arifin",
+      "reviewerId": "109138738201937904688",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109138738201937904688?hl=id",
+      "name": "PA AL HANNAAN GRESIK",
       "reviewerNumberOfReviews": 33,
       "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUsOXQSM1ycK3z87ARdHxwXv3KwJuDp_Zr2f8CEKtcbJbxiKa-Umg=s1920-c-rp-mo-ba12-br100",
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUNX69bTji3ALOIrqJ1oGq168Zlu-R8Mv7UVkLKrMlyEK432e0=s1920-c-rp-mo-ba12-br100",
       "text": "tempat pencairan YAPI",
       "textTranslated": null,
       "publishAt": "setahun lalu",
@@ -648,7 +677,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXbfrYucIFU77vqJBQAbS_pM5HMMYyDQt93-l4pGw0jgrMBvbg=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-15T03:32:48.837Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUR1aklHTVhREAE",
@@ -695,7 +724,7 @@
       "reviewerId": "111160322590313161306",
       "reviewerUrl": "https://www.google.com/maps/contrib/111160322590313161306?hl=id",
       "name": "Finanta Radika",
-      "reviewerNumberOfReviews": 5,
+      "reviewerNumberOfReviews": 6,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVuAlZVPkqlbXPKQ-Rma-nkBIzaPp_euFap0iweQk2A7ojq104=s1920-c-rp-mo-br100",
       "text": "Jam 8 pagi status barang sudah di pos manyar tp ga dikirim2 barangnya seharian",
@@ -737,7 +766,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOlTCK02AT5UemE3I-2G9f5qpGj4SsLodSD_o1WkpnwUfCb5wr_e8H2S5OmvvOU7JTIS5vLupDoxajpbEmrvrDMMnkX4zULGmzp6ehimeddAvYv9qo8VkQYupOlgN-CCExOkangDQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPmlJ4F82dNDQO8CHlchOEP1MjsiIMvoOGp_T2H9cXvDW_qkjA9AAqzQKgrA594AkNmZZSpBvuFHyiNkDHfHJdZAcVjG8TF4gM6nhbm2Y-G2QN9K3rMGG8TPG-yOh4nIUwj-3krCQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -952,34 +981,9 @@
       "visitedIn": null,
       "originalLanguage": "id",
       "translatedLanguage": null
-    },
-    {
-      "reviewerId": "114127867742728940511",
-      "reviewerUrl": "https://www.google.com/maps/contrib/114127867742728940511?hl=id",
-      "name": "Bro Eza",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJZfRKeYwfIqA_ofLb2vdWehrEo_0fdao9SNYrUDV_3JtLSsA=s1920-c-rp-mo-br100",
-      "text": "Bagus... Cuma satu kesalahan kantor pos dari dulu.. Kurirnya cuma dua orang... Yang luas wilayahnya kecamatan manyar sangat luas dan di penuhi industri... Sayang sekali... Kesempatan itu seharusnya di maksimalkan dengan memperbanyak tenaga kurir.. Biar tidak banyak komplain malahan kesempatan itu di ambil swasta.. Yang bermain... Padahal potensial banyak industri dan perumahan yang terus berkembang di manyar...\nSaya kadang merasa kasihan sama Kurirnya... Bawa barang dengan kapasitas yang tidak wajar... Sedikit saran🤭",
-      "textTranslated": null,
-      "publishAt": "5 tahun lalu",
-      "publishedAtDate": "2020-10-24T15:50:29.060Z",
-      "likesCount": 1,
-      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNpbk43SGR3EAE",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNpbk43SGR3EAE!2m1!1s0x0:0x33d519d18fbe98e9!3m1!1s2@1:CIHM0ogKEICAgICinN7Hdw%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
     }
   ],
   "leadsEnrichment": [],
-  "kategori": "Pelayanan Publik"
+  "sub_kategori": "Kelurahan/Desa",
+  "kategori": "Pemerintahan"
 }

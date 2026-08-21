@@ -1,0 +1,54 @@
+{
+  "key": "puskemas_pembantu_kedanyang",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
+  "tempat": "PUSKEMAS PEMBANTU KEDANYANG",
+  "rating": 4.1,
+  "total_ulasan": 3,
+  "positif": 0,
+  "netral": 3,
+  "negatif": 0,
+  "persen_positif": 0.0,
+  "persen_netral": 100.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1826863,
+  "longitude": 112.6089836,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Adm Head Padma Group Gresik 2",
+      "Bintang": 5,
+      "Tanggal": "2026-03-14T01:57:15.659Z",
+      "Ulasan": "apakah puskesmas kedanyang hari sabtu buka?",
+      "teks_final": "apakah puskesmas kedanyang hari sabtu buka",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "hamza 2",
+      "Bintang": 1,
+      "Tanggal": "2025-06-13T06:20:43.215Z",
+      "Ulasan": "Tolong dioerasionalkan dg baik Karena banyak yg membutuhkanx",
+      "teks_final": "tolong dioerasionalkan baik banyak membutuhkanx",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8688
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Elvis (ndepis)",
+      "Bintang": 1,
+      "Tanggal": "2021-11-13T01:25:37.946Z",
+      "Ulasan": "Sudah hampir set 9 puskesmas belum buka!!! Yg antri sudah 15 orang",
+      "teks_final": "hampir set puskesmas buka antrian orang",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9873
+    }
+  ]
+}

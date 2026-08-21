@@ -2,6 +2,7 @@
   "title": "Kantor Kepala Desa Randuagung",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintah",
   "address": "Jl. Randuagung No.2, Setingi, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
@@ -38,7 +39,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:19:53.423Z",
+  "scrapedAt": "2026-08-21T00:17:04.689Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -50,6 +51,7 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
+  "wasOpenAtScrapeTime": null,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -98,8 +100,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_SiDYI_1P9ZPCvXWPIlX1s64evZSQkkY8doqNdObn34u_RiIvChXMut9CgJiJsGeArJ7fAQ1EFOmuHmpshW7I1iZ-PZjhs5c_9INpmc7ZE2riMH1fjqCI60iBGdnIytlOSx5N0Q=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn9ptrCJM-14n5hEJIyzDrvvD2LdscpYHb7FP9cMAVRgKooHob2whZefihNUyL3ebg6ucG2ncN6kj58pGuCMUwC1kFGXm100zBHUjyYiLreHloDnwcPWNwco0-mUTtyuB7E7eLjEw=w426-h240-k-no",
   "kgmid": "/g/1hm444tcc",
+  "businessProfileId": null,
   "reviewsDistribution": {
     "oneStar": 0,
     "twoStar": 0,
@@ -226,7 +229,7 @@
       "reviewerId": "112172382957644183312",
       "reviewerUrl": "https://www.google.com/maps/contrib/112172382957644183312?hl=id",
       "name": "Nuhan Herling",
-      "reviewerNumberOfReviews": 497,
+      "reviewerNumberOfReviews": 495,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVB0y7WG7v3U79bgMO1aLxedXjWrb6rTPNEyZ3tnReCOTU-XzsKwg=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor kepala desa randuagung",
@@ -250,5 +253,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

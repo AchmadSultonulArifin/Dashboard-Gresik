@@ -1,0 +1,78 @@
+{
+  "key": "pt_petrosida_gresik",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "PT. Petrosida Gresik",
+  "rating": 4.6,
+  "total_ulasan": 5,
+  "positif": 4,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 80.0,
+  "persen_netral": 20.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1446014,
+  "longitude": 112.6236696,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Agung Wicaksono",
+      "Bintang": 5,
+      "Tanggal": "2026-02-18T04:22:55.188Z",
+      "Ulasan": "Amazing",
+      "teks_final": "amazing",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Ihsan Jombang",
+      "Bintang": 5,
+      "Tanggal": "2025-06-24T03:06:42.268Z",
+      "Ulasan": "Alhamdulillah..... Polres Jatim Melayani Masyarakat",
+      "teks_final": "alhamdulillah polres jatim melayani masyarakat",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8139
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Rick Doank",
+      "Bintang": 5,
+      "Tanggal": "2022-07-12T05:40:43.036Z",
+      "Ulasan": "Perusahaan pupuk",
+      "teks_final": "perusahaan pupuk",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9623
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Ariya Suyono",
+      "Bintang": 5,
+      "Tanggal": "2022-06-30T09:47:16.444Z",
+      "Ulasan": "Petrosida semangkin sukses",
+      "teks_final": "petrosida semangkin sukses",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9855
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Wahyu Sulistiyo",
+      "Bintang": 5,
+      "Tanggal": "2022-02-23T04:37:20.692Z",
+      "Ulasan": "Mantab, tepat sekali",
+      "teks_final": "mantab tepat",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9968
+    }
+  ]
+}

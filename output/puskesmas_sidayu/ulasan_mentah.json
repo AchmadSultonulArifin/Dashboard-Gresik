@@ -2,6 +2,7 @@
   "title": "Puskesmas Sidayu",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Pusat Kesehatan Masyarakat",
   "address": "Raya, Pekuncen, Raci Tengah, Kec. Sidayu, Kabupaten Gresik, Jawa Timur 61153, Indonesia",
@@ -35,20 +36,20 @@
   ],
   "fid": "0x2e77e304e7ba4aa3:0x43e648f6ab59db2e",
   "cid": "4892678269458570030",
-  "reviewsCount": 74,
+  "reviewsCount": 75,
   "reviewsDistribution": {
     "oneStar": 15,
     "twoStar": 2,
     "threeStar": 2,
     "fourStar": 3,
-    "fiveStar": 52
+    "fiveStar": 53
   },
   "imagesCount": 32,
   "imageCategories": [
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T12:59:27.724Z",
+  "scrapedAt": "2026-08-20T21:46:22.072Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,10 +61,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.15 to 12.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.15 to 12.00"
@@ -87,8 +84,13 @@
     {
       "day": "Rabu",
       "hours": "07.15 to 12.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.15 to 12.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -99,19 +101,19 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Manyar",
-      "reviewsCount": 299,
+      "reviewsCount": 303,
       "totalScore": 4.6
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Duduk Sampeyan",
-      "reviewsCount": 194,
+      "reviewsCount": 205,
       "totalScore": 4
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "PUSKESMAS PANCENG",
-      "reviewsCount": 374,
+      "reviewsCount": 382,
       "totalScore": 4.5
     },
     {
@@ -169,8 +171,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTr5aikB-IjpyFfhvCjR6aXi1sKFzAymInSZ7VmNg9_FepWtgIygoeMH7SG4_8ode7uDtKWgIM1rsyQ4dfZaMEc492KJAdlnlhgUiXVYt7t38X6A-mjAYF51VuzW80B_ocs7k=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlZFxUiE6cyWhdJlw7F-VB9hJc2OmvZIcf-x91u3oNz7JaRtyBAsOKff7vDTC_mh3_8Spu3kGWxS8qoxAIBiWxDGMhWS1zQH4EOadaKWrndtxFL3dqzP7DjI-95WWRB4LI1h-k=w408-h544-k-no",
   "kgmid": "/g/11cn6czy5p",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -182,6 +185,32 @@
   "ownerUpdates": [],
   "imageUrls": [],
   "reviews": [
+    {
+      "reviewerId": "104453710583479778579",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104453710583479778579?hl=id",
+      "name": "Leviaro",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJZTQsCXUdW0VMjo46A-vk1z113rgbs5XD0DlzVsvH3iJO4UA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 hari lalu",
+      "publishedAtDate": "2026-08-14T05:12:33.167Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WeFNFRlVlR0pMYzJsek1rdFFUbFZVWjNOd09XYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21WeFNFRlVlR0pMYzJsek1rdFFUbFZVWjNOd09XYxAB!2m1!1s0x0:0x43e648f6ab59db2e!3m1!1s2@1:CAIQACodChtycF9oOmVxSEFUeGJLc2lzMktQTlVUZ3NwOWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
     {
       "reviewerId": "112797744203738797144",
       "reviewerUrl": "https://www.google.com/maps/contrib/112797744203738797144?hl=id",
@@ -243,7 +272,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKKvvpUo654CWBrIzSspG4DNYrlGXq6eD5Ee-83i7UExkAXpw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-03-16T11:14:07.182Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KSVREVTJlVkl6VFhBelFYZE5hVkp4Y214SGJuYxAB",
@@ -269,7 +298,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKiVwh0EW8U9J7xKlmcgGzli7n2O-flvXr8dDYlQUo10gFo0M4=s1920-c-rp-mo-br100",
       "text": "Pelayanannya lama banget, udh ada dokternya dan udah antri banyak tapi tetep gak dipanggil-panggil padahal udah jam operasional",
       "textTranslated": null,
-      "publishAt": "8 bulan lalu",
+      "publishAt": "9 bulan lalu",
       "publishedAtDate": "2025-11-14T00:42:50.710Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSb2FXbG1jVkZEWDNCdFdYQkxhVEZ6VUdseWRuYxAB",
@@ -295,7 +324,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLZGLA_oEkjtHjjzBvKKebB4PiQisuCdoseXLRCQJwoTKHvmQ=s1920-c-rp-mo-br100",
       "text": "Kurang prefesional",
       "textTranslated": null,
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-19T02:17:54.006Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25Cb1FuUnROREEzYUU5MFgyOU5aRUZ2YVVKeWNFRRAB",
@@ -321,7 +350,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW0hA8zkjjxpXfeo9U2ZUjeWBEzDMOfIBK-lU6sK9F11x_6twR5kg=s1920-c-rp-mo-br100",
       "text": "puskesmas terburuk, pelayanan buruk",
       "textTranslated": null,
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-09T01:41:34.143Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pZeFgxaE1PRTVDTmt4Rk16SXpVek5DY1ZadFJrRRAB",
@@ -394,7 +423,7 @@
       "reviewerId": "100487970558230579098",
       "reviewerUrl": "https://www.google.com/maps/contrib/100487970558230579098?hl=id",
       "name": "rizky Caesariaputri",
-      "reviewerNumberOfReviews": 5,
+      "reviewerNumberOfReviews": 8,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVV7-8dJor1iMpd6gh2Tj2i0KE-UvaiRN4ISkfb9408DVQ1pbg=s1920-c-rp-mo-br100",
       "text": "Pengalaman melahirkan anak pertama disini pakai bpjs alhamdulillah bidannya baik”, sabar nghadepin pasien, anak lahir langsung diajari menyusui, suasana juga nyaman, makasih buat bidan” yg sudah membantu🫶🏻 melahirkan di faskes 1 pelayanannya cukup baik kok, makanan nya ya lumayan enak hehe",
@@ -410,8 +439,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPE18UQnWDSrssLTf1_ODh2IfJgK7yXE-3qy3ndFPD16An32r5l3m0Jjnn60gB7Wz-ilKCmdEAH6zDF-XoqOFhfh1suUQKr55SggfsllHu7_fC7Cg0CNsKOKW9r9Pq0FOD_3-e2Dw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNEuGuIMCPE2Ek70fnI5SyM84gwnIygHnTG51nP-CV4b_kRp7lwI0DWNKiOt4N4iLXtSiescdHPFudROlhIWWKS0VjAUqWnpvfNuHGTz4N5KVh-0pqm_Eoa3zaxiRNxbi61CWI=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNvnrwdqVa2a1LF23frwGRuCr6P55LrWj3WgWq6hqapqkrFRFlpA_GxUYtq-DHsr2ADY2td5SeBByHGnu04TKCW8PDVwB0WmkspeRSDJi1-cmpE0XPttxPOZOc_IJ6-1PByNaOR-A=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPgvG61Vd2WoVP-__S_tEhzbeObycDd7qsrGceUOvW8k4ML8N9pDWwmT_iRIwU8r68ecYMu5e22BSNZIO5R_IqNaF6TFk0EscERE_rxmjPLb5JFrhmFAo5kWJYlo9DxbAMAvGo=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -465,7 +494,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPLve1jpa2BaETKefB7on6QADhLZ-w_Pmrj8tl7t_voexDdGfVTIL1iRAqouog0CNbTH7WptFJ667ZwkPIw8PpwyxxNbYrfvuidMUkEUleOb3Eg-ffVBrXKLfiFf9fDjwQtQm1c=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPJ1hnXd56fz7xlOcWuvbToINNts33UqbYWzBPB3u7Kyny4fyEcDH3d421GiqtXXfDHSG91CLfV6CLCvpdGgaWCukQwCHn6TAVlApoaDcuNrEs2Ohp3ykgkNtq6YopwE-_sr7CE=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -597,8 +626,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPzPjv-ekqW1-SWKRil_Xjuur-Nm0aloInKRj-0OKJu6wu31qXoB80lweZPQqtQBw65ugrnAqWg42o-M0rkgh0ObkZN0hlK2Fl_SFbhNqwKjgwAFtdr0g60vIDJmtKyocPF1g1z=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP-uu0uZ5SpMmp5zjIM9__NuecskQQ5bTwMKDhSUERyi4T3WNc2v0rHLVTe8_gKBVF9RVCCPZ6gHdCgwrDnBUzuRAClo-6o5LJQGyBMTAb2XFLz5lo3bHPb1-jq2E316ZX_QsIvGw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPy7o_eS-JVZKqJFI_O1pebJfAwFeqbQFglZO_wO29omicWxXYRggLEn33juD5OvjcaokrOEwFnjG_N5wAbINV6wDIoBE2W3KLxTldwtx0m_Dc_vENpXnQFtl0PXl0Q6vaXl-Kr=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPATi6WfkyOueYBr3bR4MTUroZZz6aBWj03VN0G3v-omzhhf8JnMDRAKs-uPtduiMMNEakiwnXo_W0TrGrkFzxHSqLcgDf6BehUEtA-8NAyt0yzdkrrmRkcuo278ag9WfFx4aTPHw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -636,7 +665,7 @@
       "reviewerId": "113174103040035639571",
       "reviewerUrl": "https://www.google.com/maps/contrib/113174103040035639571?hl=id",
       "name": "Bcs Khadafi",
-      "reviewerNumberOfReviews": 3,
+      "reviewerNumberOfReviews": 4,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLpTEq7cQo1wTnRUGscJlelCKE6M77mm3GyBiJzgBa-PbqldQ=s1920-c-rp-mo-br100",
       "text": "habis nganterin adik vaksin dosis 2 disini dan memang adek saya gk bawa kertas vaksin yg pertama di karenakan hilang... nakes yg bagian lain pelayanan nya bagus dan memaklumi klo kartu vaksin nya hilang TAPI TIDAK BERLAKU UNTUK MBK NAKES YG BAGIAN TENSI DARAH SEMPAT BICARA DENGAN NADA TINGGI KE ADEK SAYA GRGR KARTU NYA HILANG....  SAYA RASA SEBAGAI NAKES KURANG ETIS MENEGUR PASIEN DENGAN NADA TINGGI DI DEPAN BANYAK ORANG YG ANTRI VAKSIN..!!! kejadian tgl 24 agustus 2022 sekitar jm 09.15 pagi, tlg attitude nya dlm menangani pasien di perbaiki terutama pasien lansia.",
@@ -688,12 +717,12 @@
       "reviewerId": "103336170752370287480",
       "reviewerUrl": "https://www.google.com/maps/contrib/103336170752370287480?hl=id",
       "name": "abi E",
-      "reviewerNumberOfReviews": 70,
+      "reviewerNumberOfReviews": 69,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXYv-GV_dlO7Knps0u0n956zwGRG908Fu0GzZ58UEoSo5CfTDQ8=s1920-c-rp-mo-ba12-br100",
       "text": "Mantab",
       "textTranslated": null,
-      "publishAt": "3 tahun lalu",
+      "publishAt": "4 tahun lalu",
       "publishedAtDate": "2022-08-15T08:04:55.634Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUR1ekxyQ0x3EAE",
@@ -943,34 +972,9 @@
       "visitedIn": null,
       "originalLanguage": null,
       "translatedLanguage": null
-    },
-    {
-      "reviewerId": "114259569879526256534",
-      "reviewerUrl": "https://www.google.com/maps/contrib/114259569879526256534?hl=id",
-      "name": "yenita wulandari",
-      "reviewerNumberOfReviews": 3,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKSAZJ7DEfLOSX1Rfr9UrsYN8jkZ7aczBSF6WYSst1fBeFw7w=s1920-c-rp-mo-br100",
-      "text": null,
-      "textTranslated": null,
-      "publishAt": "4 tahun lalu",
-      "publishedAtDate": "2022-05-20T00:02:47.191Z",
-      "likesCount": 0,
-      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQyeGFyQnd3RRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQyeGFyQnd3RRAB!2m1!1s0x0:0x43e648f6ab59db2e!3m1!1s2@1:CIHM0ogKEICAgID2xarBwwE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": null,
-      "translatedLanguage": null
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Puskesmas",
   "kategori": "Kesehatan"
 }

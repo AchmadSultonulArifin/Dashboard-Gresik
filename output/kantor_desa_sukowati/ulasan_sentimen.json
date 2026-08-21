@@ -1,0 +1,42 @@
+{
+  "key": "kantor_desa_sukowati",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "KANTOR DESA SUKOWATI",
+  "rating": 4.5,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.0485858,
+  "longitude": 112.5614171,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "ahmad aryamaulana",
+      "Bintang": 5,
+      "Tanggal": "2019-10-14T06:41:42.195Z",
+      "Ulasan": "Karna itu kantor desa saya",
+      "teks_final": "karna kantor desa",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8726
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "nunuk ju chom",
+      "Bintang": 4,
+      "Tanggal": "2018-06-20T13:15:45.830Z",
+      "Ulasan": "Kantor desa strategis",
+      "teks_final": "kantor desa strategis",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9899
+    }
+  ]
+}

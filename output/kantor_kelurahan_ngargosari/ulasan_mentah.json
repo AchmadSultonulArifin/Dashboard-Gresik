@@ -2,6 +2,7 @@
   "title": "Kantor Kelurahan Ngargosari",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "Jl. Dewi Sekardadu No.16, Gunungsari, Ngargosari, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -45,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:13:49.658Z",
+  "scrapedAt": "2026-08-20T23:59:32.051Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,10 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 14.00"
@@ -84,8 +81,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 15.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -114,8 +116,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Kelurahan Sukorame",
-      "reviewsCount": 9,
-      "totalScore": 1.9
+      "reviewsCount": 12,
+      "totalScore": 1.7
     }
   ],
   "placesTags": [],
@@ -134,8 +136,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntjXUWJrqnvVvpPVPLugmSqcqRrDt6B8P6RXVyKDd3XC8D_Ts1kdxXouM5a9mPkr_7lM02icTH7ghDlK2dFil49jpWXxty6J2d6D7x_ei1blbre06uouI6HhVbVn0hd2v_tgNGxA=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkW31FMXR1h1lgf5vJD1fmvvEHjopANPwBdGpjg-8Dvp0b7HKXxjz_u6NOcpnG3g5KE-13ner_8Q6BgBpFIu45YlX-iSJY9crjYcGo8GkefatcPiVAHtf4IJgsjUAJ_DCYqhTYvzA=w426-h240-k-no",
   "kgmid": "/g/11qz4fbdng",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -177,7 +180,7 @@
       "reviewerId": "117573812988323275242",
       "reviewerUrl": "https://www.google.com/maps/contrib/117573812988323275242?hl=id",
       "name": "Haryanto Suharno",
-      "reviewerNumberOfReviews": 645,
+      "reviewerNumberOfReviews": 657,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV2KPx4FilDUpJ8M9UDqB0xQuN2MI1REbi7jIm40FmGVaYHOBJi=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -193,7 +196,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOScbOd8xZnYBw4OAKeulhJSao-OUKNF307jaLT_HQedJi5HulUHGlgQyMjWTypATLVFD4LqK2R4ZPzZTIStXc-DnJCt5YMdggGsRa-HwFKtzfgNsjWrUW1KrttJtzdiR41euf-BQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNFlMFkGqkcSUdp-eAsXMCcvhwtWCT7M9QeXWsl9A0Uz8Wm4i3s-dV0sAMUsHGQMrqiLhPMWJojUDA6yN9gtEmGsS4jtoxudLnz_pOwZFeUSpLNayFEYRgs8VXoPSVyCvyAwSvtdQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -205,7 +208,7 @@
       "reviewerId": "112859126084917678535",
       "reviewerUrl": "https://www.google.com/maps/contrib/112859126084917678535?hl=id",
       "name": "Widodo van Sodhunk",
-      "reviewerNumberOfReviews": 293,
+      "reviewerNumberOfReviews": 292,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUVhYh8DAujQoydr0xaVSkRwembtHp3Y8ZAPTyq4iK5EAt4dNWJ=s1920-c-rp-mo-ba12-br100",
       "text": "Kantor kelurahan yang lokasinya unik, kebersihan terjaga, dan petugasnya ramah.",
@@ -221,7 +224,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNVrP_C-XqLMjxVOEheWPBBLbDjnWHh7tlOWeqUgsI5Bz2Y15cROH3c1gE_vR2jnqTJydZca_u1GG7tJTR30qOgLIf89lM9Zdy32SxDav2AVmld06xX5XEG3UX-bz6yijNJ_zXd=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMFy5J6RDk0wah5ME6g-4j3lTAceMlk29Xkfl4-C0NnIdyzZITCK_DxLnlm6n1cxLbvcf4KIpZZVQCHyAFs5ItDesiZfFZkRHKOW1Q-z0Uz9lxshvpRz3x9seBb0lqGhsdXL_1M=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -231,5 +234,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

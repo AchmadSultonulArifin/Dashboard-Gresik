@@ -1,0 +1,54 @@
+{
+  "key": "kantor_desa_kandangan",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Kandangan",
+  "rating": 3.5,
+  "total_ulasan": 3,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 33.3,
+  "persen_netral": 33.3,
+  "persen_negatif": 33.3,
+  "latitude": null,
+  "longitude": null,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Dang Dung",
+      "Bintang": 5,
+      "Tanggal": "2022-07-13T04:53:12.511Z",
+      "Ulasan": "Area kantor dan balai desa yang luas..tersedia juga Musholla dan toilet..",
+      "teks_final": "area kantor balai desa luas tersedia musholla toilet",
+      "topik": "Fasilitas",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6487
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Suwito Sumarto",
+      "Bintang": 5,
+      "Tanggal": "2019-04-01T15:50:15.744Z",
+      "Ulasan": "masih bagus bangunannya",
+      "teks_final": "bagus bangunannya",
+      "topik": "Infrastruktur",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9972
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Soffian “Soffian” A.W",
+      "Bintang": 3,
+      "Tanggal": "2017-09-27T13:58:58.152Z",
+      "Ulasan": "Ya bangunan yg cukup bagus, semoga bagus jg dalam melayani masyarakat",
+      "teks_final": "ya bangunan cukup bagus semoga bagus melayani masyarakat",
+      "topik": "Infrastruktur",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9856
+    }
+  ]
+}

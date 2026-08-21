@@ -2,6 +2,7 @@
   "title": "Kantor Pos Ujungpangkah",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pos",
   "address": "Jl. Pendidikan No.1978, Pendilwesi, Pangkah Wetan, Kec. Ujungpangkah, Kabupaten Gresik, Jawa Timur 61154, Indonesia",
@@ -46,7 +47,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T13:42:53.597Z",
+  "scrapedAt": "2026-08-20T20:54:25.918Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,6 +59,7 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
+  "wasOpenAtScrapeTime": null,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -93,8 +95,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnXDbYZLRVdh7O6Jh0tiyMqtVCkmJKsBaeYwBslVzh_V4zbsY9xW2vUOipyMAVgviDWCbasjk0HxKFV2DNJxAm8VNy4VpPbIy4FTAhFiod_LojHflQxOxTstiNJSZ-3z6MItKiD4A=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkCdnXzDN15shmMESNQbpjSrXOuVUWqZhZlmfjzxUlPUZ1ojlg9wpcbVMh4FDL3x3R2V-ih2b3duhbUIXcUCt1Y2kmgLe2CFsVC8QSa7hXr7otFg36GtWN2fSbG8qQC6EEDiSUHUQ=w408-h544-k-no",
   "kgmid": "/g/11dftvfrlw",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -290,5 +293,6 @@
     }
   ],
   "leadsEnrichment": [],
-  "kategori": "Pelayanan Publik"
+  "sub_kategori": "Posyandu & Poskesdes",
+  "kategori": "Kesehatan"
 }

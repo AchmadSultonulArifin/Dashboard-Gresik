@@ -2,6 +2,7 @@
   "title": "Dinas Kesehatan Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Dinas Kesehatan",
   "address": "Jl. Permata Utara No.27 Blk a5 no, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -41,10 +42,8 @@
     "fiveStar": 13
   },
   "imagesCount": 19,
-  "imageCategories": [
-    "Semua"
-  ],
-  "scrapedAt": "2026-08-06T13:53:31.968Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-20T22:23:46.124Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -56,10 +55,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -83,34 +78,14 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 16.00"
     }
   ],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "UPT Laboratorium Kesehatan Daerah (LABKESDA) Gresik",
-      "reviewsCount": 12,
-      "totalScore": 2.9
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "BPJS Kesehatan Cabang Gresik",
-      "reviewsCount": 1166,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Dinas KB, PP dan PA Kabupaten Gresik",
-      "reviewsCount": 6,
-      "totalScore": 4.2
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Dinas Pendidikan Kabupaten Gresik",
-      "reviewsCount": 55,
-      "totalScore": 4.1
-    }
-  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [
     {
@@ -122,47 +97,16 @@
       "count": 2
     }
   ],
-  "additionalInfo": {
-    "Fasilitas": [
-      {
-        "Toilet": true
-      }
-    ]
-  },
   "gasPrices": [],
-  "updatesFromCustomers": {
-    "text": "Dinas Kesehatan Kabupaten Gresik",
-    "language": "id",
-    "postDate": "5 tahun lalu",
-    "postedBy": {
-      "name": "Prio S",
-      "url": "https://www.google.com/maps/contrib/115129669376645829097?hl=id",
-      "title": "Local Guide",
-      "totalReviews": 393
-    },
-    "media": [
-      {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPx1lHeDFNYH6dEti6f7Ru1hqV87ehBQ5ViS1QkAlz2WdpOceFAQNGRsF1W82sxpTRnUe5WJSaDJjeDfgitZW7haiKLte7o0MCQTaV3HMODpism69FZFuX_kYOQdRHQucTOD_CY=k-no",
-        "postDate": "5 tahun lalu"
-      },
-      {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPwpa7hX47Ox8QrYE2_CdGsBS7giIfY_U0vS3nxM5lroCDjtip99J95n_C5MUp_VKQtIVSOYME8XwJckG-ftq11z_pwDoNoWoz6aM9nrZL4QuSUHvaHJGYJbskGLn80fgab0ZR4=k-no",
-        "postDate": "5 tahun lalu"
-      },
-      {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMtrKtmHl9anxeIJjrEnBLMzG4Aeo6D9f9qOT0_MUuuW_wKe-Q_WU9UH-cygH1dgzS8bLLZZ2abYOvzB_2AAQ-EJF6n5FFVoBdx0f1BbmOQ-Qus5cvTyWEFZZRgjOMuk_N0GsCnXg=k-no",
-        "postDate": "5 tahun lalu"
-      }
-    ]
-  },
   "url": "https://www.google.com/maps/search/?api=1&query=Dinas%20Kesehatan%20Kabupaten%20Gresik&query_place_id=ChIJs0OWZ8H_dy4RaRmNsq6B2WQ",
   "searchPageUrl": "https://www.google.com/maps/search/Dinas%20Kesehatan%20Kabupaten%20Gresik?hl=id",
   "searchString": "Dinas Kesehatan Kabupaten Gresik",
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnV8X-xjohyu-yI4kkGj71dYO-oyXD4PyP1lTHQYKPqrHSFmF6osr79ktJlWSbvm6uF3NdpWH45kC9IX-WWyb3eIAdBl72C-Yl0jIODXZ_InTQSw1lE1S1IjpdkVGvaBGL3H_2yig=w408-h725-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtmL3l1dZuJhSF0YhwADULWUKUFZNird9-p0Gna_V7kUSd9FCpDSdPKlPi4bvMQPFZMKMHM1QpMU0TkyQwicrPiYfA2BeYiKsFPW5kX2g5pK3kbzW8BBkzSI-yJUKtrchurUZw9Q=w408-h725-k-no",
   "kgmid": "/g/11b72725h3",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -183,7 +127,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU4xf3wHlR0PC3hVKOTTC1Esr18wLIHZfc1aKfWnAQsULgXOxs=s1920-c-rp-mo-br100",
       "text": "perkenalkan saya Ibu maya santiawaty , pemerhati sanitasi dan sanitarian juga. mohon ijin , terkait lingkungan di mboro menganti,,, terkait RPH ayam. Saya ingin tahu lebih banyak mohon saget DM saya melalui instagram @mayasantiasanitarian, karena sebagai sanitarian saya sangat prihatin dengan kondisi estetika bau yang menyengat. Semoga kedepannya makin sukses dinas kesehatan. salam sanitarian. salam sehat",
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T01:07:26.631Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21aUlMzVXlkM2cwWW5OcU9GUkRRM2REWVVGbU1IYxAB",
@@ -209,7 +153,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVNi8qbrZSXgjooqeIciwNQrM8KilWtkzcby_kWd4Y9Y8l_xOA=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-20T15:11:54.837Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KS2RGTmZiMWhoVVZVNVJHdFdkR1JPY20xeGJGRRAB",
@@ -230,12 +174,12 @@
       "reviewerId": "106197818167998581733",
       "reviewerUrl": "https://www.google.com/maps/contrib/106197818167998581733?hl=id",
       "name": "Regina Novita",
-      "reviewerNumberOfReviews": 10,
+      "reviewerNumberOfReviews": 9,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWAz4Gc4mEFiDfVRppanEIQjEEzjZwdsQb5SAvaGTqrUFuR8a9l=s1920-c-rp-mo-br100",
       "text": "Pelayanan baik 👌",
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-19T03:11:11.579Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pJMVRFZEdPWEJCT1VOeFVrVXRTRlpIUm5jd1puYxAB",
@@ -313,7 +257,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXUv12cRZLGl2dBc878yjEW-PuvxbxeKlkPQKTMpbdjWyaslDjP=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-03-20T00:35:17.181Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKNFgwbHlUR0pZYVZnNFYySjJibWxaTmpFeWJsRRAB",
@@ -402,7 +346,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNeOumAL_mgDU4yOl-FzV-9MQDslqPzvoSbxw6ZZKO9B6yLk500i6M1_CQ0yrdYmWAJ1M7nS0kSK1SOz0n6B04Ge9iZ86sTPGb_SbrHpaulYMzEFGkqoHd-KZ_NpNMVL1P5bfEZ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOoCQMwm1YSjKpCIl9BekZZfq11KFBHHxHlHYJy5CwoxxWTwa1gR4IM2QJz9I8S53DokEkr8jvcFZggdnI-Osg0204QLqk-JmfAzwlaP8Cb1N-a4r1hrRHa0c0VVNGGtWM6o8cG=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -570,7 +514,7 @@
       "reviewerId": "115129669376645829097",
       "reviewerUrl": "https://www.google.com/maps/contrib/115129669376645829097?hl=id",
       "name": "Prio S",
-      "reviewerNumberOfReviews": 393,
+      "reviewerNumberOfReviews": 392,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV-derXdx0KZCoWAEhJ3ZggmWyA8_sA_6n4KMImU6kMAtQKzJ2fZA=s1920-c-rp-mo-ba12-br100",
       "text": "Lokasi di area komplek kantor Pemda Gresik,bersebelahan dengan Dinas Pertanian",
@@ -828,5 +772,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

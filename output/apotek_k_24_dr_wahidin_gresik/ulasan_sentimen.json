@@ -1,0 +1,54 @@
+{
+  "key": "apotek_k_24_dr_wahidin_gresik",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotek K-24 Dr. Wahidin Gresik",
+  "rating": 5,
+  "total_ulasan": 3,
+  "positif": 3,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1632135,
+  "longitude": 112.6273652,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "ATTK FARIZAL FIRDAUS",
+      "Bintang": 5,
+      "Tanggal": "2026-07-27T15:36:58.843Z",
+      "Ulasan": "Pelayanan bagus,cepat,obat lengkap dan bersih",
+      "teks_final": "pelayanan bagus cepat obat lengkap bersih",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Rahel Listyaren",
+      "Bintang": 5,
+      "Tanggal": "2026-07-27T11:30:14.557Z",
+      "Ulasan": "Sobat sehat jadi lebih dekat",
+      "teks_final": "sobat sehat jadi dekat",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.967
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "KEU Ahmad Wahid Taufiqi",
+      "Bintang": 5,
+      "Tanggal": "2026-07-27T10:03:02.562Z",
+      "Ulasan": "Apotek baru yang bersih, pelayanan ramah, proses cepat, dan harga bersaing. Semoga semakin maju dan tetap memberikan pelayanan terbaik untuk masyarakat.",
+      "teks_final": "apotek bersih pelayanan ramah proses cepat harga bersaing semoga semakin maju tetap memberikan pelayanan terbaik masyarakat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9918
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "title": "Puskesmas Industri",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Pusat Kesehatan Masyarakat",
   "address": "Jl. Arif Rahman Hakim Gresik No.100, Pekauman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",
@@ -35,11 +36,11 @@
   "cid": "2969850109341919699",
   "reviewsCount": 452,
   "reviewsDistribution": {
-    "oneStar": 52,
+    "oneStar": 53,
     "twoStar": 5,
     "threeStar": 2,
     "fourStar": 14,
-    "fiveStar": 379
+    "fiveStar": 378
   },
   "imagesCount": 28,
   "imageCategories": [
@@ -48,7 +49,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T12:52:03.863Z",
+  "scrapedAt": "2026-08-20T21:32:34.183Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,10 +61,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.00 to 12.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 10.00"
@@ -87,25 +84,30 @@
     {
       "day": "Rabu",
       "hours": "07.00 to 12.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 12.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Kebomas",
-      "reviewsCount": 564,
+      "reviewsCount": 577,
       "totalScore": 3.9
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Nelayan",
-      "reviewsCount": 115,
+      "reviewsCount": 116,
       "totalScore": 3.9
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Manyar",
-      "reviewsCount": 299,
+      "reviewsCount": 303,
       "totalScore": 4.6
     },
     {
@@ -117,7 +119,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Kepatihan",
-      "reviewsCount": 399,
+      "reviewsCount": 398,
       "totalScore": 4.4
     }
   ],
@@ -125,19 +127,19 @@
   "reviewsTags": [
     {
       "title": "pelayanan",
-      "count": 147
+      "count": 148
     },
     {
       "title": "bidan",
       "count": 21
     },
     {
-      "title": "anak",
+      "title": "rujukan",
       "count": 12
     },
     {
-      "title": "rujukan",
-      "count": 11
+      "title": "anak",
+      "count": 12
     },
     {
       "title": "sakit",
@@ -149,7 +151,11 @@
     },
     {
       "title": "surat",
-      "count": 7
+      "count": 8
+    },
+    {
+      "title": "dg",
+      "count": 6
     },
     {
       "title": "lab",
@@ -157,10 +163,6 @@
     },
     {
       "title": "posyandu",
-      "count": 5
-    },
-    {
-      "title": "dg",
       "count": 5
     }
   ],
@@ -189,8 +191,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBxJoge9MuV5njnqVn0r4ZFCc9OiKQhLxSm_KA1pr5JfEU6oUYZI7ATpZJNsaXDkPorcKftP8DF4ZKYxWnj2Iz1UYX8Wuznzxb_lNdVRqsYEH_nDk7bRuWnx84AMRR2qpQCWvy8w=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnXEc7hS4v2qISq37K0wq_FmoVrnPYUBaO5j4Yl6nb5ATcYd_5L1UNBGbAIpZ7cIsQRlmV_EgAoiiby-pRiA4bZy8Un8xmRxm2mE8b6snRBD3GdmRomzAJWLPLnLoeDBzQAYo4TcQ=w426-h240-k-no",
   "kgmid": "/g/1hm3z1hd8",
+  "businessProfileId": "16319149597353225925",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -203,15 +206,41 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "113021243443065058791",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113021243443065058791?hl=id",
+      "name": "Nn. Ziyah azizy",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW-kqQgzY3GEGSOTLicTwG8-WjtV-Kac6v_5F-TG6S3G1cSYhIPzw=s1920-c-rp-mo-br100",
+      "text": "Jujur sangat kecewa dg layanan puskesmas ini..\nKalau pelayanan di pendaftaran bagus satset dan orangnya ramah, cuma dokternya udh 2x periksa kesana minta surat rujukan gk dikasih. apa susahnya sih ngasih surat rujukan? puskesmas ini tidak kyk puskesmas yg lainnya kalau minta surat rujukan langsung satset dikasih... lah ini minta surat rujukan aj banyak plinplan\nPARAH",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-08-10T03:31:03.876Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WTWFVbHdlVXMzY0hwcWRtTjRhVFZKTldoWE5VRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WTWFVbHdlVXMzY0hwcWRtTjRhVFZKTldoWE5VRRAB!2m1!1s0x0:0x293706f0837ae9d3!3m1!1s2@1:CAIQACodChtycF9oOnVMaUlweUs3cHpqdmN4aTVJNWhXNUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "109359686825088555840",
       "reviewerUrl": "https://www.google.com/maps/contrib/109359686825088555840?hl=id",
       "name": "foto copy128",
-      "reviewerNumberOfReviews": 8,
+      "reviewerNumberOfReviews": 9,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWgPOp58SjiAUhBlABQbiQklXJgB8ADIfb18EhsRPa4O7s_ZaO1=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-04T01:20:11.296Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tOMFdqZFRhbko1UVhaNVNuSnViV1pJYVdOTWJXYxAB",
@@ -263,7 +292,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUOmIUjw478SUIbopip4GvEjWH7VEWt9FK1Qq-VgjGABC7jd0sv=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-13T04:07:39.989Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WbFNIRlBhWFZOUlhWRGFtOW9hRzh4VDBSYU5YYxAB",
@@ -367,7 +396,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKcroOgqcUMJUaOuLEzHMD0FmO36OPBUgY0ve8cw7egy8e5AA=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-13T01:23:57.871Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pkS1pqVjVlRzVYUm5sVU9FWjVkVkZLWDE5VWFuYxAB",
@@ -430,7 +459,7 @@
       "responseFromOwnerDate": "2026-05-08T02:20:52.000Z",
       "responseFromOwnerText": "Selamat pagi kak, mohon maaf atas pelayanan yang dirasa kurang cepat dan kurang cekatan. Terima kasih atas masukannya, ini akan jadi evaluasi kami agar pelayanan ke depannya bisa lebih sigap dan memuaskan. Semoga sehat selalu ya kak ☺️🙏",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOsRDA9b3wmwHKwE1yfWM0xPANX8xFyb2IHsCwj-_S13GNJx6VMY8C7xpO2UA-NlHW67iY8hJ-5TmvZ0IesVUA1Zy3tM5MJ795wxQju4OWMs7sbPzppHpPa-TaklshVaAo8Hw7UeCrnV3nh=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPxaVtuzIO2-Db3T6aVAu547RLRnqtRZumP-heuSdJQCtuOMKH41aHHpXTFlG_Vk8wpJ3wRdIhLOGEnrJ_Ov3XQrpVpmlRcv43eIsFbHvFEPUeNBS0V27WJVSjctcu6UxAUjSn2BggedEX-=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -499,7 +528,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVm00meqaY1ky9OWrpiiMdkPR3sPQNgSrfFQDJGkJlz6HNKNdon=s1920-c-rp-mo-br100",
       "text": "Pelayanan sangat amat memuaskan dari dokternya bidannya, petugas loketnya juga serta admin media sosialnya semuanya gercep dalam menangani pasien, fast respon banget, pelayanan ramah, sangat membantu dalam hal mendesak, sempet ada kendala dalam hal BPJS yg nonaktif GK sampe sehari udah aktif kembali tanpa riwa riwi kesana kemari, terimakasih Puskesmas industri 👍👍👍👍♥️♥️",
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-02-10T18:14:28.924Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xBelQxUlpVekJWTUVWYWIzWlpaVUZHUW1KMlNXYxAB",
@@ -525,7 +554,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV4f2F4-blwt6HBJlsregdxDHgA5Q87S2vKaEllxtf0G4TcQT_a=s1920-c-rp-mo-ba12-br100",
       "text": "Jika ada kesalahpahaman ganguan atau kendala bisa di fotokan wajah petugas terkaitnya yaa lalu dijelaskan kronologi nya ..\nTerimakasih",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-20T19:01:37.765Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25OTFlXZGtaSEJtUjNGNmVITmxhbkV3YkRkVlJuYxAB",
@@ -577,7 +606,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLdv-qI_LGzhdYL-cqOppTkexnOUSw_4oLYP3p0vW4lek_EMg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-20T02:26:56.732Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tScFNuWk1kemxXYVhwclRqWmtSelpxUkhJNWNXYxAB",
@@ -603,7 +632,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKrznNICm9g9ldYYS1BlUYcxFXQVY5cqA2MaW3IVaGJhgGRog=s1920-c-rp-mo-br100",
       "text": "Alhamdulillah pelayanan puskesmas industri bagus .semoga kedepanya lebih baik lagi 👍👍👍",
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-13T02:56:49.491Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1clNGWjZYMlpJTm1SRlUzbHNURzFoYUVSdFIzYxAB",
@@ -863,7 +892,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLrgLaDvcN1mJdNMagyC_m8acLLo7rBGZwXfZ3b3hWbyibb0w=s1920-c-rp-mo-br100",
       "text": "Pelayanan dr umum kurang memuaskan, orang sakit tegorokan sama vertigo kok cuman di cek teleskop saja kanan kiri sudah ambil obat\nKock betul",
       "textTranslated": null,
-      "publishAt": "8 bulan lalu",
+      "publishAt": "9 bulan lalu",
       "publishedAtDate": "2025-11-14T08:56:28.417Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25WaldEVkRRMFJwV0dNd1RWUkJRMmxtZWtWcmVVRRAB",
@@ -957,34 +986,9 @@
       "visitedIn": null,
       "originalLanguage": null,
       "translatedLanguage": null
-    },
-    {
-      "reviewerId": "103513102439288754723",
-      "reviewerUrl": "https://www.google.com/maps/contrib/103513102439288754723?hl=id",
-      "name": "Sunasri",
-      "reviewerNumberOfReviews": 2,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ-40a2fcFxCePCHScySD75YlwBgWHtpmtZUGWVkDGLo_IiRQ=s1920-c-rp-mo-br100",
-      "text": "Loket cepat dan ramah",
-      "textTranslated": null,
-      "publishAt": "9 bulan lalu",
-      "publishedAtDate": "2025-11-03T00:48:43.168Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWWU4xUkxkRFI2TjJwQk4xVkhaMjkxT1RKcVNVRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWWU4xUkxkRFI2TjJwQk4xVkhaMjkxT1RKcVNVRRAB!2m1!1s0x0:0x293706f0837ae9d3!3m1!1s2@1:CAIQACodChtycF9oOlVYN1RLdDR6N2pBN1VHZ291OTJqSUE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": "2025-11-22T01:06:43.000Z",
-      "responseFromOwnerText": "Hai kak, terima kasih atas responnya! Semoga pelayanan Puskesmas Industri semakin baik ya. Sehat selalu! 😊 …",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Puskesmas",
   "kategori": "Kesehatan"
 }

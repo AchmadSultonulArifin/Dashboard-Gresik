@@ -1,0 +1,66 @@
+{
+  "key": "kantor_kepala_desa_dahanrejo",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Kepala Desa Dahanrejo",
+  "rating": 4.1,
+  "total_ulasan": 4,
+  "positif": 2,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.163242,
+  "longitude": 112.5898951,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Tuyuy Seira Idnafa",
+      "Bintang": 5,
+      "Tanggal": "2018-04-29T04:03:25.359Z",
+      "Ulasan": "Makmur desanya",
+      "teks_final": "makmur desanya",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9935
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Danil Sukses",
+      "Bintang": 4,
+      "Tanggal": "2017-09-18T03:26:28.731Z",
+      "Ulasan": "lumayan",
+      "teks_final": "lumayan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "ian ali",
+      "Bintang": 3,
+      "Tanggal": "2016-11-25T03:55:22.876Z",
+      "Ulasan": "Kantor lurah",
+      "teks_final": "kantor lurah",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9763
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Elsi Aoedita",
+      "Bintang": 5,
+      "Tanggal": "2015-06-05T02:33:17.328Z",
+      "Ulasan": "Kantor kepdes Dahanrejo",
+      "teks_final": "kantor kepdes dahanrejo",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9977
+    }
+  ]
+}

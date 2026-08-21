@@ -2,6 +2,7 @@
   "title": "Kantor Kecamatan Kebomas",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "Jl. Sunan Giri No.33, Kesemen, Sukorame, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
@@ -46,7 +47,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-08-06T14:10:02.644Z",
+  "scrapedAt": "2026-08-20T23:55:32.738Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -85,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -97,8 +99,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Kecamatan Manyar",
-      "reviewsCount": 11,
-      "totalScore": 3.7
+      "reviewsCount": 12,
+      "totalScore": 3.8
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -109,7 +111,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Kecamatan Cerme",
-      "reviewsCount": 36,
+      "reviewsCount": 37,
       "totalScore": 3.9
     },
     {
@@ -163,7 +165,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOsn7zTgikXk0QIfbcZhsR4NosHL1m3btRRk9flN3ny6WeSW83zE8b_k2P1hb7xa_svOcDtMuWKfiZkmd9JT2oTB3XEwbbG20U-hoC4uoz3pcfe5bQswJMfwi7IY5_lfQANlSvryEq8x1Jl=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMWE6sWZukCfi9qS1xXD0geCDm2ukuKLnJiGc6FN7Nk2UF1jGWQ29jYRi4GxZl4W3Pk0WEQLflnXNj8TknKPV0yZb5JLerrNwvQhELdVvncOIsHpkHWxjVSGcpnhnP5lGetdc92jntKbGPC=k-no",
         "postDate": "setahun lalu"
       }
     ]
@@ -174,8 +176,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEB_J6fkFft3iXnu-Bc1bHhb_2z6VRhLN_LYaK8dYbOPP4fk3AN94dSCwzbFiyzwOJBPZKFaKmx9iUHxtuMuGOm__4RM-kW5QRZH12-dncZIaR9UIZefcPmxWVYj9kGIVysCYMCLYqzsJV=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQCZudwZwf9giboy45ex9RlO5Bh3YDNtwDW-GT0SlqLo6BqDW7lIOsNxCwbmxr-HV8RXpajMjRKKLNET4OAnYflASoMgO_wTJk3ubcaPUAyf6D-mC25yXYexgdT9aMRM6GSXqPllI8os5o=w408-h544-k-no",
   "kgmid": "/g/11t7h5xkr8",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -222,7 +225,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXUv12cRZLGl2dBc878yjEW-PuvxbxeKlkPQKTMpbdjWyaslDjP=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-18T03:11:43.808Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21aZlZrNTZUMGh3Y0dwUFNFdGFWWGg1U25Wa1NsRRAB",
@@ -243,12 +246,12 @@
       "reviewerId": "102683517253462482262",
       "reviewerUrl": "https://www.google.com/maps/contrib/102683517253462482262?hl=id",
       "name": "trienaz kasih",
-      "reviewerNumberOfReviews": 58,
+      "reviewerNumberOfReviews": 57,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW5LWNCtiyetAva-YwgCVTnYQVprGJ-gUqRMCPb2SM5e_icLnt4=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-11T13:59:31.599Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCcWJIQkxjWE0yTUZOTlpqQkVkbU5hZDJoSGJuYxAB",
@@ -295,7 +298,7 @@
       "reviewerId": "116376964774371926501",
       "reviewerUrl": "https://www.google.com/maps/contrib/116376964774371926501?hl=id",
       "name": "muhammad wildan",
-      "reviewerNumberOfReviews": 92,
+      "reviewerNumberOfReviews": 93,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWr3edTD2KuImMaWzheuXaCyVLfiKwZOpQmQxFhbSf7s1VFjS9o6Q=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayan ok..",
@@ -326,7 +329,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXrge8ciiboVIRQJVZnyJHsIg_RNBjg71IzUYZw_FKeUfO0lm8D=s1920-c-rp-mo-ba12-br100",
       "text": "Kirim gapuro",
       "textTranslated": "Kirim pesan.",
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-19T05:13:09.608Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205Nk5FVk1NMDEyVWw5S05EUnVTRWRNWWtNMUxVRRAB",
@@ -363,7 +366,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOg5Sm9Fo-SbUS_7MUXu5OsaYPcwziRhQhf1OF5i9X0wnPuMs4DPU3eq_tbBxdYRUYk7_DA4WBHsoXMOh6u9bLCfioSjqbfaSTxrfpY6ZRU8FWLo_hl7elEhsgnlmqpekF5QUJfcGjpvZfd=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNTjSutX5AuGa7CMvDLyBajsXvSfBACZM7UMMRsVRqo57E3cCtzRxFvffhl5mWuzl-8t3dZouRcSaD6XRXql1ent-V5sLjNQ7H_JB2UYGXk_dXYzOkNJYr2Hf7OgJUvknsjVIwYmxZaMq-_=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -391,7 +394,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP9ZRDTVGKY8IQoQAs0TWKW-osNfEm99-Ek7iL8blODZCUT6nIVA4mjfF_2P-Bb3I0nu68DqVNLEag5tG7RBzFpQPw5YxGFSnLZ8n1PSWPRDUNweSVvrsYXqRxbFVtL9s2bFEm6GLL1Wu7q=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO9YOijlX3l1gS-YyIQnnZrhI0B4mEhajEODGDn0IooblY1iG6mlhzsUfrWbQu8R9H0m-SkU5BupO_raJYwcuwmS1GjrK_et1nW9rdHbmN5OwiW57E8_B_S3YSw4iGJyLq4R-4SzJ2xT_EO=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -403,7 +406,7 @@
       "reviewerId": "112107614179486159861",
       "reviewerUrl": "https://www.google.com/maps/contrib/112107614179486159861?hl=id",
       "name": "Mohammad Masofii",
-      "reviewerNumberOfReviews": 61,
+      "reviewerNumberOfReviews": 63,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUd2dp3e5PwMngoe1IyaDt0hMIIGCUaZKyCm5Wdp92mjjeA2zg=s1920-c-rp-mo-ba12-br100",
       "text": "Staff ramah, buat ktp baru cepat sekali prosesnya dan mudah. Terimakasih banyak",
@@ -549,8 +552,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfFxhitI6OHQ2OJwes8kZ-mdvQFXLmwTHmJxV29vTWHsHlOOdfSkMr8t_cA_tf8QG3q1Ju_HGYBIs3D6qtUJ6I7OIm-7IlG6gY8WjXo4pk7jirNX0klm48X0XcB9OweRUIfNhE=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMssb2IrcX8i6AhGdi6Zs60BJOwKTuehcb1iEAAfyAOa-LFzbTfg2BGyn8svqpjuqHL1LVZU1OnYzrCoG8s34w1M4zwu4vUYzYJH_4yNIftNT02evKLn85czKZScekglHH8wVJB=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNHXAwlS9AEBXtFBkql3fvLx4HkwbJiL0FuQS3FfdULKEakJGkNq9ydOxowZO4rbFR_oBSeIyWyd3rBvOFZ248z9BAvhWPN5axuzIF_JUyJ8HU8HRioabrZEAzSq5DA65djS8Kg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMEJiviIgm2u-VpIl-xX3OXgBP1OgDPXNeggPzM164q3N9HmgOIwlIsEQMZN4Hvh6lMa215H4zqzCFKoguKwh--zv7WtHb2u-Yiui39xWFlO-J-tLWEII_IupdlSc3JH460gkf_=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -588,7 +591,7 @@
       "reviewerId": "114294716580137871466",
       "reviewerUrl": "https://www.google.com/maps/contrib/114294716580137871466?hl=id",
       "name": "masning rosidah",
-      "reviewerNumberOfReviews": 28,
+      "reviewerNumberOfReviews": 30,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXpUgNL_fCYLWnh969WEvFBYAICbxCqnaXXSPTVvorpeDnICLYS3Q=s1920-c-rp-mo-ba12-br100",
       "text": "urus status ktp dan kk cepat sekali, pelayanan baik dan ramah",
@@ -640,7 +643,7 @@
       "reviewerId": "110596034049871645158",
       "reviewerUrl": "https://www.google.com/maps/contrib/110596034049871645158?hl=id",
       "name": "Erike F",
-      "reviewerNumberOfReviews": 55,
+      "reviewerNumberOfReviews": 54,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU8itC6s7TW_MHBJTVUDnFYWunAIgB85UudmHRJ-UWTqUcAf8CQFQ=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -664,5 +667,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

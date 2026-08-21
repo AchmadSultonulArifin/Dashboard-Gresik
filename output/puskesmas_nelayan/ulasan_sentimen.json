@@ -1,19 +1,46 @@
 {
+  "key": "puskesmas_nelayan",
   "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
   "tempat": "Puskesmas Nelayan",
   "rating": 3.9,
-  "total_ulasan": 24,
+  "total_ulasan": 23,
   "positif": 12,
   "netral": 1,
-  "negatif": 11,
-  "persen_positif": 50.0,
-  "persen_netral": 4.2,
-  "persen_negatif": 45.8,
+  "negatif": 10,
+  "persen_positif": 52.2,
+  "persen_netral": 4.3,
+  "persen_negatif": 43.5,
   "latitude": -7.1504994,
   "longitude": 112.6474392,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Retno Novi",
+      "Bintang": 5,
+      "Tanggal": "2026-08-14T02:49:31.236Z",
+      "Ulasan": "pelayanan ok, keramahan ok, akses jalan mulus kayak tol ... puskesmas nelayan tambah joss",
+      "teks_final": "pelayanan oke keramahan oke akses jalan mulus kayak tol puskesmas nelayan tambah joss",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Syafa Laela",
+      "Bintang": 5,
+      "Tanggal": "2026-08-11T13:43:00.270Z",
+      "Ulasan": "Pelayanan tambah enak , perawat bidan nya ramah2 suka becandaa ,",
+      "teks_final": "pelayanan tambah enak perawat bidan ramah2 suka becandaa",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9941
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Ravi Anang",
       "Bintang": 1,
       "Tanggal": "2026-05-01T05:34:52.845Z",
@@ -25,6 +52,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "abdi lah",
       "Bintang": 1,
       "Tanggal": "2026-04-10T09:11:21.644Z",
@@ -36,17 +64,7 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sabrina Alliysia",
-      "Bintang": 1,
-      "Tanggal": "2026-04-05T13:35:34.634Z",
-      "Ulasan": "kalo ga niat ngelayanin pasien mending pulang aja daripada ngasih mimik muka judes begitu. ga semua orang ngerti kondisi kamu, dengan kamu begitu aja nandain kalau ga profesional dalam bekerja. mending priksa di tempat lain aja",
-      "teks_final": "kalo niat ngelayanin pasien mending pulang aja daripada ngasih mimik muka judes begitu semua orang ngerti kondisi begitu aja nandain profesional bekerja mending priksa tempat lain aja",
-      "topik": "Kesehatan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9939
-    },
-    {
-      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "the.88",
       "Bintang": 1,
       "Tanggal": "2026-04-05T10:33:30.427Z",
@@ -58,6 +76,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "soleh raya",
       "Bintang": 3,
       "Tanggal": "2026-02-03T04:17:25.070Z",
@@ -69,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Mandolet Manusia",
       "Bintang": 1,
       "Tanggal": "2025-12-04T08:48:11.237Z",
@@ -80,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Arjuna Andrian",
       "Bintang": 1,
       "Tanggal": "2025-07-31T20:25:22.008Z",
@@ -91,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Rendy Andika",
       "Bintang": 1,
       "Tanggal": "2025-05-23T02:31:02.365Z",
@@ -102,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "27_Subeki",
       "Bintang": 5,
       "Tanggal": "2025-03-08T02:59:28.528Z",
@@ -113,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Love Is Me",
       "Bintang": 3,
       "Tanggal": "2025-02-28T19:42:43.716Z",
@@ -124,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Farhan Listiyadani",
       "Bintang": 1,
       "Tanggal": "2025-02-05T02:53:18.372Z",
@@ -135,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Kukuhku uwongdeso",
       "Bintang": 5,
       "Tanggal": "2024-11-29T02:30:24.128Z",
@@ -146,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Rere Novi",
       "Bintang": 5,
       "Tanggal": "2024-11-22T16:16:53.154Z",
@@ -157,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Rachmat Khusni Sumarmi",
       "Bintang": 2,
       "Tanggal": "2024-11-18T22:12:32.791Z",
@@ -168,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Abdul Abdulwahid",
       "Bintang": 5,
       "Tanggal": "2024-10-31T23:32:12.018Z",
@@ -179,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "ervin darmawan",
       "Bintang": 1,
       "Tanggal": "2024-08-05T11:38:04.616Z",
@@ -190,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Pesek si Resek",
       "Bintang": 1,
       "Tanggal": "2024-05-08T02:08:00.434Z",
@@ -201,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "muhammad wildan",
       "Bintang": 5,
       "Tanggal": "2024-03-07T04:59:21.887Z",
@@ -212,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Salsabila salwa",
       "Bintang": 1,
       "Tanggal": "2023-11-20T13:46:00.416Z",
@@ -223,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Yuli Elv",
       "Bintang": 5,
       "Tanggal": "2023-10-25T02:12:33.008Z",
@@ -234,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "ayu candra kirana",
       "Bintang": 5,
       "Tanggal": "2023-10-25T01:14:49.961Z",
@@ -245,6 +280,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Tio Dwi Prasetya",
       "Bintang": 3,
       "Tanggal": "2023-10-24T03:18:11.578Z",
@@ -253,28 +289,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.8845
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Dewi Cahayu",
-      "Bintang": 5,
-      "Tanggal": "2023-10-23T22:47:44.251Z",
-      "Ulasan": "Alhamdulillah pelayanan di puskesmas Nelayan tambah Joss, tempatnya asri, bersih dan nyaman",
-      "teks_final": "alhamdulillah pelayanan puskesmas nelayan tambah joss tempatnya asri bersih nyaman",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9956
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "ezee 9",
-      "Bintang": 5,
-      "Tanggal": "2023-10-23T11:31:52.500Z",
-      "Ulasan": "mantap joss",
-      "teks_final": "bagus joss",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9966
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "key": "bidan_novita",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Klinik & Praktek Dokter",
+  "tempat": "Bidan Novita",
+  "rating": 4.5,
+  "total_ulasan": 4,
+  "positif": 2,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 50.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 25.0,
+  "latitude": null,
+  "longitude": null,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "K C",
+      "Bintang": 5,
+      "Tanggal": "2026-08-02T07:14:33.415Z",
+      "Ulasan": "semangat bu bidan 🦾",
+      "teks_final": "semangat bu bidan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9817
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Mahmud Din",
+      "Bintang": 1,
+      "Tanggal": "2026-02-24T07:33:01.172Z",
+      "Ulasan": "pelayanan tidak baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Yati Inyah",
+      "Bintang": 5,
+      "Tanggal": "2025-03-16T13:12:13.353Z",
+      "Ulasan": "Sangat bagussss",
+      "teks_final": "bagussss",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9962
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Jaka Septian",
+      "Bintang": 5,
+      "Tanggal": "2022-12-07T17:01:59.665Z",
+      "Ulasan": "Semoga makin sukses, sehat selalu dan rezeki makin berlimpah untuk Koh Pepeh dan Ibu Bidan Novita 😊🙏  Salam hangat dari saya ya bapak dan ibu.. 😊🙏🙏  Jaka - 0812.1843.3131 USG dan Alkes PT Fortuna Sembada Makmur Medika",
+      "teks_final": "semoga makin sukses sehat selalu rezeki makin berlimpah koh pepeh ibu bidan novita salam hangat ya bapak ibu jaka usg alkes pt fortuna sembada makmur medika",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6892
+    }
+  ]
+}

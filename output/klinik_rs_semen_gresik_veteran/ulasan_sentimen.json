@@ -1,17 +1,46 @@
 {
+  "key": "klinik_rs_semen_gresik_veteran",
   "kategori": "Kesehatan",
+  "sub_kategori": "Rumah Sakit",
   "tempat": "Klinik RS Semen Gresik Veteran",
   "rating": 4.8,
-  "total_ulasan": 17,
-  "positif": 12,
+  "total_ulasan": 18,
+  "positif": 11,
   "netral": 3,
-  "negatif": 2,
-  "persen_positif": 70.6,
-  "persen_netral": 17.6,
-  "persen_negatif": 11.8,
+  "negatif": 4,
+  "persen_positif": 61.1,
+  "persen_netral": 16.7,
+  "persen_negatif": 22.2,
+  "latitude": -7.180137,
+  "longitude": 112.6497477,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Canggih Bayu",
+      "Bintang": 1,
+      "Tanggal": "2026-08-20T05:35:46.036Z",
+      "Ulasan": "Motonya saja \"solusi kesehatan anda\", tp administrasi amburadul. Dari kliniknya salah kasih rujukan tp nggak bisa di ganti. Yang harusnya ke dokter gigi anak malah di kasih ke dokter gigi dewasa, sekarang malah harus mondar mandir sendiri ngurus administrasi",
+      "teks_final": "motonya saja solusi kesehatan administrasi amburadul kliniknya salah kasih rujukan ganti harusnya dokter gigi anak malah kasih dokter gigi dewasa sekarang malah harus mondar mandir sendiri ngurus administrasi",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9935
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "irma yoenita",
+      "Bintang": 1,
+      "Tanggal": "2026-07-24T04:36:30.930Z",
+      "Ulasan": "Antrian di apk nya nomer 4, seharusnya diperiksa kisaran jam 8.15, saya pas datang jam 10 antrian lama sudah di lewatin 4 pasien yang datangnya lebih siang daripada saya. Untuk pelayanan dokter nya sudah sangat bagus",
+      "teks_final": "antrian apk nomer seharusnya diperiksa kisaran jam pas datang jam antrian lama lewatin pasien datangnya siang daripada pelayanan dokter bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.948
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "ahmad artha (Artha)",
       "Bintang": 5,
       "Tanggal": "2026-07-13T08:30:12.883Z",
@@ -23,6 +52,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Abd Roqib",
       "Bintang": 5,
       "Tanggal": "2026-06-20T03:25:01.299Z",
@@ -34,6 +64,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "zanuba arofa",
       "Bintang": 5,
       "Tanggal": "2026-06-12T13:51:04.811Z",
@@ -45,6 +76,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Suwoto Suwoto",
       "Bintang": 1,
       "Tanggal": "2026-06-04T10:35:21.427Z",
@@ -56,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Muhammad Gathan athallah",
       "Bintang": 5,
       "Tanggal": "2026-05-28T08:55:55.566Z",
@@ -67,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Dyah Wahyuni",
       "Bintang": 5,
       "Tanggal": "2026-05-28T08:27:07.887Z",
@@ -78,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Anggita Maharani",
       "Bintang": 5,
       "Tanggal": "2026-05-28T08:18:33.752Z",
@@ -89,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Tanti Suyono",
       "Bintang": 5,
       "Tanggal": "2026-05-18T01:26:45.436Z",
@@ -100,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Sugeng Mansyur",
       "Bintang": 5,
       "Tanggal": "2026-05-11T01:43:04.169Z",
@@ -111,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "mazh wardani",
       "Bintang": 5,
       "Tanggal": "2026-05-08T05:51:09.047Z",
@@ -122,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "farza yumna",
       "Bintang": 1,
       "Tanggal": "2026-04-30T21:42:42.516Z",
@@ -133,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "wadjah inovasi",
       "Bintang": 5,
       "Tanggal": "2026-04-22T10:20:06.479Z",
@@ -144,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Sheila jodoh jaehyun",
       "Bintang": 3,
       "Tanggal": "2026-04-22T02:16:28.057Z",
@@ -155,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Jhossy Agus Prasetyo",
       "Bintang": 5,
       "Tanggal": "2026-04-21T07:04:04.926Z",
@@ -166,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Sri Djiwanti",
       "Bintang": 5,
       "Tanggal": "2026-04-15T02:06:31.175Z",
@@ -177,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Nur Rofiq",
       "Bintang": 5,
       "Tanggal": "2026-04-09T02:24:05.371Z",
@@ -185,17 +229,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "farid Pornomo",
-      "Bintang": 3,
-      "Tanggal": "2026-04-06T23:16:41.734Z",
-      "Ulasan": "Kecewa dgn pelayanan nya sekarang, biasanya antrian nya sesuai dgn nomor antrian di jkn tapi sekarang antrian nya sesuai dgn kedatangan, kalau seperti itu untuk apa kita ambil nomor antrian lewat m-jkn jika ujung\"nya antrian nya sesuai kedatangan",
-      "teks_final": "kecewa pelayanan sekarang biasanya antrian sesuai nomor antrian jkn sekarang antrian sesuai kedatangan seperti apa ambil nomor antrian lewat jkn ujung antrian sesuai kedatangan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9961
     }
   ]
 }

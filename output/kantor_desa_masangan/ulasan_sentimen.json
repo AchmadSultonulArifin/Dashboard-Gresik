@@ -1,0 +1,42 @@
+{
+  "key": "kantor_desa_masangan",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Masangan",
+  "rating": 4.4,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.0453948,
+  "longitude": 112.554154,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Yahya M Aji",
+      "Bintang": 5,
+      "Tanggal": "2026-02-04T05:31:12.724Z",
+      "Ulasan": "Kantornya bersih, semoga pelayanan jg bagus",
+      "teks_final": "kantornya bersih semoga pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Hendri Irawan",
+      "Bintang": 5,
+      "Tanggal": "2015-09-09T18:34:25.992Z",
+      "Ulasan": "Ini sebelah rumah ku",
+      "teks_final": "sebelah rumah ku",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9318
+    }
+  ]
+}

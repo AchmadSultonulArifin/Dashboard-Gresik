@@ -1,0 +1,42 @@
+{
+  "key": "balai_desa_roomo",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Balai Desa Roomo",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1418454,
+  "longitude": 112.6269885,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Ith Bett",
+      "Bintang": 5,
+      "Tanggal": "2024-02-11T08:20:59.501Z",
+      "Ulasan": "Ibuknya marah",
+      "teks_final": "ibuknya marah",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9978
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "gus dur",
+      "Bintang": 5,
+      "Tanggal": "2024-01-26T16:13:15.564Z",
+      "Ulasan": "adeknya masih megangin kepala gak sampe sekarang?",
+      "teks_final": "adeknya megangin kepala sampe sekarang",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9512
+    }
+  ]
+}

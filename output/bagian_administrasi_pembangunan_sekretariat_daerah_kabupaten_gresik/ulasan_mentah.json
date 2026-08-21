@@ -2,6 +2,7 @@
   "title": "Bagian Administrasi Pembangunan Sekretariat Daerah Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "RHHX+HQ6, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -35,7 +36,7 @@
   "reviewsCount": null,
   "imagesCount": 0,
   "imageCategories": [],
-  "scrapedAt": "2026-07-22T09:56:21.329Z",
+  "scrapedAt": "2026-08-21T00:31:53.748Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -47,14 +48,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "07.30 to 16.00"
-    },
-    {
-      "day": "Kamis",
-      "hours": "07.30 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 16.00"
@@ -74,20 +67,23 @@
     {
       "day": "Selasa",
       "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.30 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Bagian Organisasi Sekretariat Daerah Kabupaten Gresik",
       "reviewsCount": 0,
       "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Bagian Hukum Sekretariat Daerah Kabupaten Gresik",
-      "reviewsCount": 7,
-      "totalScore": 5
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -103,9 +99,15 @@
     },
     {
       "category": "Orang lain juga menelusuri",
-      "title": "Gresik",
-      "reviewsCount": 1,
-      "totalScore": 2
+      "title": "Bagian Pengadaan Barang/Jasa Sekretariat Daerah Kabupaten Gresik",
+      "reviewsCount": 6,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "kantor",
+      "reviewsCount": 0,
+      "totalScore": 0
     }
   ],
   "placesTags": [],
@@ -126,6 +128,7 @@
   "isAdvertisement": false,
   "imageUrl": null,
   "kgmid": "/g/11q40808zq",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -138,5 +141,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "Pemerintah Kabupaten",
   "kategori": "Pemerintahan"
 }

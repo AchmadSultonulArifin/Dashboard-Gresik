@@ -2,6 +2,7 @@
   "title": "Dinas PU Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintah",
   "address": "Jalan Doktor Wahidin Sudirohusodo No.247, Kebomas, Dahanrejo, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -46,7 +47,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-08-06T13:55:37.116Z",
+  "scrapedAt": "2026-08-20T22:25:48.390Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.00 to 15.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 15.00"
@@ -85,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "07.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 15.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -109,7 +111,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Dinas Tenaga Kerja Kabupaten Gresik",
-      "reviewsCount": 153,
+      "reviewsCount": 154,
       "totalScore": 4.2
     },
     {
@@ -146,7 +148,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNRSM20n74VuJSJcLlElcKbRbngE9-zazH99ruKEmD7BkvmH5ijq9ZfwIr7eeY2DEztRr3RbSZVKX0oKCtyEilpiDDCQpIplXKQ8TRulDc-vuvRJQ8tZMiM-OMMemIf1sIFJH1m6Q=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPU2eokDfFpVndvR-EvpGuja0Fvjm74qbtS8cA0gD0iLWr5nfLdMAx38UQAQwIwplY2SB3rTJ4bIhPsqNwnh7a9_5bClT3bjWpbLI1O_pvYK7yQMZeaPKHNZolh0a5JEq97ubJNjQ=k-no",
         "postDate": "4 tahun lalu"
       }
     ]
@@ -157,8 +159,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMYYhZ2mJ70s0m62NrBXphUoCsQysq-Bi8hIHP0R5u1u2DVnHzQG9curxfqb_Uucn6XjKR_kmbt2e1apET7GC8qbj_8zzFTyVDHU1-sm7CmGJpyLr3-yxYacmZSjqmbw2WGDDe=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3PFsiX8UAPwoipev_W0Tj8m5HOLKPCcy84R-pOmO2g6bgFeXjVjTjpc_l8gMh2zC207QArlQhs0pBdXRAnZyBW6KaXhv4qnPif0pkq71B1cJu2uXnXoVT2THnGsnrv1H4gV5k=w408-h544-k-no",
   "kgmid": "/g/11bcf39v8j",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -226,7 +229,7 @@
       "reviewerId": "107191850221278610255",
       "reviewerUrl": "https://www.google.com/maps/contrib/107191850221278610255?hl=id",
       "name": "ARONN ZELIG",
-      "reviewerNumberOfReviews": 46,
+      "reviewerNumberOfReviews": 47,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVKu5lIlntiFMaaPEmodvRc00Cou0QCAKrjc7nkTOJHQ505XURc=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -242,7 +245,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMXV8j8Bvb39Wo0klMFoXs1osd7i_FzK4RRbnvwxxiLwVpp9xts7LduGVKmFdJCjJX9DKpjJl5OzW5A-9-wiruHZhUyZsmr38EavANvHS5vae9tiTdGcT-7UlFXvAVNx2nDHT1f=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNaQJTzU3uNmUsQ0phAQecjCp0kr-WwqITcd14FKAsUl0h1PdFEtKCXGNhLQxNRe26vgKl-eded3aVRXy3uTnwM2Zbr7yndyv3cKEFlAXGGFyR2hZKydeCoPSATJxZgjzRciqvz=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -280,7 +283,7 @@
       "reviewerId": "101263252299660279701",
       "reviewerUrl": "https://www.google.com/maps/contrib/101263252299660279701?hl=id",
       "name": "Agenk Gemink",
-      "reviewerNumberOfReviews": 15,
+      "reviewerNumberOfReviews": 14,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW465Yg48xeaTeZw3Cg0fW3-3mohIZRcj5jsHOiy7wkk_kaeJKw=s1920-c-rp-mo-ba12-br100",
       "text": "Banyak jalan yg kurang bagus khususnya di dalam kota kabupaten  untuk sekelas Kota Industri seperti Kota Gresik",
@@ -311,7 +314,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW9ZpYkP_n7SxfIUOf87UJBGFJhGLMzPIot3Rqnmoeas7OfTyP3=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 tahun lalu",
+      "publishAt": "5 tahun lalu",
       "publishedAtDate": "2021-08-14T07:25:08.339Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURhNkl6em93RRAB",
@@ -332,7 +335,7 @@
       "reviewerId": "110747277037743346518",
       "reviewerUrl": "https://www.google.com/maps/contrib/110747277037743346518?hl=id",
       "name": "Samsul Arifin",
-      "reviewerNumberOfReviews": 153,
+      "reviewerNumberOfReviews": 152,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXd7Hmlh5GbCjAG18sKI0fmtogYDlPFFO6CQtBCNzMOjYDtUgtH=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanan ramah dan tempat nyaman",
@@ -348,8 +351,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4gPKRZDVZT_EUwuvZlY30K4L_8gcbVd5hbE1loiF9JnOGcnavfig3WF0Cc6gUwfnCGhkeFv5mUqAvW9HWHVnZaz8YCp8phsTEj3oOwu6grTKJTXXunkF4D2ISerWVguKao2KQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMVxyJfhUNq9CElOA0i4QmKZkLYZaBe1DrcICjXGbZlGJAfybbhXRssYJSOhil349zOExJhSj3KKsWPjx9se_CjXrnSfg4r1O5FcpsCyYjbmAgvqu-jxNBKaNakdKIG8DU1low8=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOaxNzT07G23_mZM7nzM5p9V8wpoKULl4UMIo0XYG7apI32VqyJA8ede3a1GLPcAWpxXtD2MENGsW8Qi2mOcSB_8vDNywgJCezBodzDvReWtT03WVLB-cq1so0qVQd9I_7fwjuo=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNpDT15w2vMLHzNybDhBfp781ae3mRXoIVdQQSl1WiKRBYBEhF6WmFcHJcVIM8-mGTklr2rtQ-QD5GPwOkPvDZ8Zm9FYQHrLkrIOYkThfE0EadqvcEtuEFo4aQkP_aw0Gxo20Q-=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -361,7 +364,7 @@
       "reviewerId": "112128129536132342958",
       "reviewerUrl": "https://www.google.com/maps/contrib/112128129536132342958?hl=id",
       "name": "Charif interisti",
-      "reviewerNumberOfReviews": 385,
+      "reviewerNumberOfReviews": 386,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW17PlsmZiEnPgJ2FJn61Ge91kjvMEReto-IGb20iT39F9a7KGF=s1920-c-rp-mo-ba12-br100",
       "text": "Dinas Pekerjaan Umum dan Tata Ruang Kabupaten Gresik. Gresik semakin lebih baik!",
@@ -387,7 +390,7 @@
       "reviewerId": "114002468820232107877",
       "reviewerUrl": "https://www.google.com/maps/contrib/114002468820232107877?hl=id",
       "name": "Yahya M Aji",
-      "reviewerNumberOfReviews": 988,
+      "reviewerNumberOfReviews": 989,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWwFEaNA2_LKZCt3x4dTozoKONEA3VDA6yLOrdNebMFxHHHCf6g=s1920-c-rp-mo-ba12-br100",
       "text": "Just some stars...",
@@ -403,7 +406,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPMgjkALgBfwR6-zN78OaEZ4mOL89IOmWEcY8L6itL2ijDsImBGtoE0e-QXL7guWF-aw6j7qz0cIxNqtc5JpZ1LSOwDiZXYuJlNJ5UtQnC-RZQ5uAyh8kIC-rBBufRYu2RX5Mg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNZ6tOODjzHIInZcWTOAEq-kPmXU_bwGEEvyTw6Up7Ib2rI1lJSTyJa0YVNQBT2dw5YJhNIG7Ei5GiJQUDKPBRkF5ekWMvpP-jI2GrTAwX5QrDZ1pnbiHCQOMSIvo8PMei0YiY=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -441,7 +444,7 @@
       "reviewerId": "102302979198239453145",
       "reviewerUrl": "https://www.google.com/maps/contrib/102302979198239453145?hl=id",
       "name": "Muhamad Thoriq",
-      "reviewerNumberOfReviews": 13,
+      "reviewerNumberOfReviews": 14,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWHeKkpXmLxSmly0HP-hqt27dsEruxxaizAjhX0V3lNa5AC3U3u=s1920-c-rp-mo-ba12-br100",
       "text": "Mohon lampu PJU di dusun ngambar rt 12 rw 04 desa bambe untuk segera di perbaiki pak. Ada 2 titik lampu yang mati sekitar 1 bulanan. Rawan kecelakaan. Karena gelap kalau malam",
@@ -545,7 +548,7 @@
       "reviewerId": "117191109965637411648",
       "reviewerUrl": "https://www.google.com/maps/contrib/117191109965637411648?hl=id",
       "name": "faiza quilla",
-      "reviewerNumberOfReviews": 466,
+      "reviewerNumberOfReviews": 465,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUUu1Pe3iJzJ2mMputov46OsuV6BiB6MheLmIT6IIvwbh9-gNFg=s1920-c-rp-mo-ba12-br100",
       "text": "Ayo dong fast respon terhadap kebutuhan warga terutama jalan yg rusak",
@@ -602,7 +605,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUJX5IFV0AXfDHmWbDy8Czox1g0qQ8OZ5TljDn4TJC7NBFA15g1=s1920-c-rp-mo-ba12-br100",
       "text": "Halaman parkir luas , gedung nya bersih rapi , pelayanan baik",
       "textTranslated": null,
-      "publishAt": "7 tahun lalu",
+      "publishAt": "8 tahun lalu",
       "publishedAtDate": "2018-08-09T06:00:51.554Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRaUkyR01REAE",
@@ -691,12 +694,12 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM6nfQD6pOgZuu96YN9fzV8VRqhv71x9Qz1wmfJebgUQWIl3jpAr_GywseRvlvq3t5GjoyqfU8yKMKk5EGnwjBlLxFhEDNZjf4_wMiPZF_x9h5yL3WJuB1Ccnj-NuE-kjrNlJ3t=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPvcssFOKtJvAgP5AomnJz6ns3BS10wJ3hGUmRho8Ed3AdeVPpaQR6xW68P_vaF_drvheWnZPDmzxRSFWxTJvvfWGRadjBFb9dofkVFcDAvO1B7pcbGVxPOquMRWxoDYMj6qNbczw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM-SDPVKo0pUsupjB-LhMK3SMPvABIzucwdfxt6X3ICSSf3izLQ3WEogkIg33qyENkq2Vfgp5C5h84DoDCraHc2av2uzjyy19LiRqVbxNZpgMMSrhIgQfE-Ll_n5jM763Qcw18=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNL3g3CcYAvunHpQ0pelQWvhVYXQGGDxCBBmtyFmvJwU5hORXchd8wt6D7OWRzXrrLqJTBmhIi2UqI7wZZEndXifO2c4vbXGT1GfrLms6_2dvuDi3W7yXHI1kXq5iAuVVdSJ6w0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPhf_1tlCYdy-gJ6__kTOFQCXTA5QRXKy6J91xRbVMjp6zmn0sGSXfktaAPhV92B8sqrRl-Nl1cYbi3miIJ6sn2f3XQIX4XX-UICHlk8sTqX2CRQ0ASWr1ocgKWpJj9hPETKaw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNzf7nM79RL9bE-oIj05tIXHa_h3AXSKh1NNyKdNuclVO43u4JwEO6sUZLY2cY7Pf6zz6dh68AIdRgv8vxnfWHP2E_az5fMJWysCRLjp8zSjAD5HQvK_Pjf8H1B-Tbu-4zI22gg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPr0rX2jJZvq5hOxJMXiOG-mN1vZ759OvyBpSp-N8WYN0CFhP3BsfVBAFCmANoMa4j966S_IQuPpNJtDCmIRMcN7sFLoMJulDDMst-YY8BhfmmGR_DCmLykiGMmCVqASb1vnblz=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN2T-wNDWXQcD1fJ4BLxT8e-8WDKgzEIpdPya-C2z7RShRcCuApxCWfdTl7ptiqYlSFHz9bH2QiKH0PzNRymOWZlHCXs1KT0zP46-YexjYZDt8mRXENi7QLUEMa_e-yqq6e1Pa95g=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfeKOYk6Y_6K_DB1GX9I-Cwe2vIdWU7BvTGMfT2QnJgfEt8MAs773E3yUgR9s97GoSE8Jzz44eFJnMQYEXg2CWN5HCCFWp4mzjIyOzeJO-U6DGc2--yvS0J2Ux-XXwruJ1itc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPT4wGpydvF0bQ7vi6THrlNg240VA2d2gkJPlqWMwS3RO80mVZTVcPGx4U9IwEwmec4IX1biaWLp671CFqRPMXBJIZIUNoku5s27z-7-b_YUWtenLg4P1VQdpjt31qb-NEudTnc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMKg3ScUpyp8OpRP3ZYQfZlhQCUv20wMNr6-5TkG4ejlsOiiKshM0gzhsizu8iJtaaCo8bBjBzhH9vSZdhCmubuBGWhkTph8kvSwIdGPh_CMh6UJLWsseEmv_gxv5JrDzx8LEw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOqrQYiKWgHK1lTf9rrmKOPOJpW63BhNlp8HjKjyo8yEptN4QYo5mYn3Q3iWWXYaCWGusStL1we7ANygDZt63A1SZxKALH1MZjTcqsQxrsnUcvy4IqOX_MTxgYbTjZigAcjYgDw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -708,7 +711,7 @@
       "reviewerId": "101685946753126957261",
       "reviewerUrl": "https://www.google.com/maps/contrib/101685946753126957261?hl=id",
       "name": "Ikrima Sochifah",
-      "reviewerNumberOfReviews": 120,
+      "reviewerNumberOfReviews": 119,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWy0gYSHhYU8aeqILG9cbR9zN_ks9u8lFXL87YEI5acA6aMV_JJ=s1920-c-rp-mo-ba12-br100",
       "text": "Strategis banget, depan pintu tol Kebomas",
@@ -786,7 +789,7 @@
       "reviewerId": "100832346982259061798",
       "reviewerUrl": "https://www.google.com/maps/contrib/100832346982259061798?hl=id",
       "name": "Mas Maksum",
-      "reviewerNumberOfReviews": 2527,
+      "reviewerNumberOfReviews": 2525,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVPPrecXW9bdOk7-dO4EHFpxJCT9TlG9y1jktqKsnDBztSsGRzc=s1920-c-rp-mo-br100",
       "text": "Dinas Pekerjaan Umum Kabupaten Gresik",
@@ -838,7 +841,7 @@
       "reviewerId": "102477565271564191121",
       "reviewerUrl": "https://www.google.com/maps/contrib/102477565271564191121?hl=id",
       "name": "Prasetyo Teguh Wahyudi",
-      "reviewerNumberOfReviews": 200,
+      "reviewerNumberOfReviews": 197,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUQM6GkMgcIg_lyYb6thOI_5x4_PCQeofo8XQLSFYvdj0nbnieN=s1920-c-rp-mo-ba12-br100",
       "text": "Asri",
@@ -914,5 +917,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

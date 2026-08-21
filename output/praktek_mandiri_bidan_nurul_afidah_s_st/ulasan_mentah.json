@@ -1,0 +1,813 @@
+{
+  "title": "Praktek Mandiri Bidan Nurul Afidah S,ST",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": "Persalinan 24 Jam",
+  "price": null,
+  "categoryName": "Klinik Kesehatan",
+  "address": "Jl. Tanjung Bungah No.RT 15A, Bungah, RW06, Kec. Bungah, Kabupaten Gresik, Jawa Timur 61152, Indonesia",
+  "neighborhood": "Bungah, RW06, Kecamatan Bungah",
+  "street": "Jl. Tanjung Bungah No.RT 15A",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61152",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "",
+  "phoneUnformatted": "",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.0537272,
+    "lng": 112.5699719
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "WHW9+GX Bungah, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJH44fzeb9dy4RdiADenlSzI0",
+  "categories": [
+    "Klinik Kesehatan"
+  ],
+  "fid": "0x2e77fde6cd1f8e1f:0x8dcc52797a032076",
+  "cid": "10217632336288358518",
+  "reviewsCount": 5,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 1,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 4
+  },
+  "imagesCount": 6,
+  "imageCategories": [
+    "Semua",
+    "Bangunan",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-20T20:35:08.628Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 90
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 96
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 70
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "07.00 to 12.00, 17.00 to 20.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "07.00 to 12.00, 17.00 to 20.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "07.00 to 12.00, 17.00 to 21.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.00 to 12.00, 17.00 to 20.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "07.00 to 12.00, 17.00 to 20.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.00 to 12.00, 17.00 to 20.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 12.00, 17.00 to 20.00"
+    }
+  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Bidan nurul wahidah",
+      "reviewsCount": 10,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Bidan Ledy Wulandari",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "PRAKTEK BIDAN FENI SETIAWATI",
+      "reviewsCount": 4,
+      "totalScore": 4.5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Bidan Nur Khalimah",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "melahirkan",
+      "count": 3
+    },
+    {
+      "title": "sabar",
+      "count": 3
+    },
+    {
+      "title": "dg",
+      "count": 2
+    },
+    {
+      "title": "hamil",
+      "count": 2
+    }
+  ],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Praktek%20Mandiri%20Bidan%20Nurul%20Afidah%20S%2CST&query_place_id=ChIJH44fzeb9dy4RdiADenlSzI0",
+  "searchPageUrl": "https://www.google.com/maps/search/Praktek%20Mandiri%20Bidan%20Nurul%20Afidah%20S,ST?hl=id",
+  "searchString": "Praktek Mandiri Bidan Nurul Afidah S,ST",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkRMNC2HY7rvVI6Ws1gK-Yr6HmZGE2_CHdb5mRV9cQMM4mcqT2NGtNnT9K6xKV8yru_BU06aJNYhYnJ0GBfqa8Mc7AgP7NbEZfwR2PoojIXdF2zkHE43FlfdSDSsiN74WLZje7s=w408-h725-k-no",
+  "kgmid": "/g/11twj8mkg9",
+  "businessProfileId": "4522179727849428335",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "114634389170449766156",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114634389170449766156?hl=id",
+      "name": "Bara channel",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXC1mPywWJbOUKuE0uWFUbZr9v3H6ulCSc2H-2BgshBQ9Gt1jtj=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 bulan lalu",
+      "publishedAtDate": "2026-04-27T08:17:53.970Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paM1RWWkNTVXB4ZEZWTWRIVm9lVmxvZGxsTlEwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2paM1RWWkNTVXB4ZEZWTWRIVm9lVmxvZGxsTlEwRRAB!2m1!1s0x0:0x8dcc52797a032076!3m1!1s2@1:CAIQACodChtycF9oOjZ3TVZCSUpxdFVMdHVoeVlodllNQ0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "102384218702950516359",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102384218702950516359?hl=id",
+      "name": "Navidatul 99",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIeASzSiSjZcR0pyhJ-sWet4UkbkpbAT2fxn1OxJ4vfHjoN1w=s1920-c-rp-mo-br100",
+      "text": "Alhamdulillah melahirkan dengan lancar normal saya sangat puas dengan pelayanan nya. Beliau sangat ramah, Sabar, dan profesional. Selalu memberikan penjelasan yang jelas dan mendetail, membuat saya merasa tenang selama kehamilan hingga persalinan.",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-06-04T04:14:32.594Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VQakV3X3Y5a19UYU13EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VQakV3X3Y5a19UYU13EAE!2m1!1s0x0:0x8dcc52797a032076!3m1!1s2@1:CIHM0ogKEPjEw_v9k_TaMw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101492789358762760879",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101492789358762760879?hl=id",
+      "name": "Asmaul Khusnah",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUzUAGQp9Wgw8uL5nJ3O7a9my9Cf4xl0JbToFg_hBw_1rpaUCk=s1920-c-rp-mo-br100",
+      "text": "Pengalaman melahirkan pertama kali yang menyedihkan... datang dlm keadaan bukaan 3 di jam 8 mlm... bidan sudah waktunya pulang dan balik shubuh... Alhasil ditunggu Asisten yang gemuk dan kurang ramah... dari bukaan 3-8 gk ada yang bimbing, hanya bisa nangis di kamar rawat. beberapa kali bangunin Asisten malah dijawab \" memang melahirkan itu sakit \" dg nada yg ketus... terlebih saat bukaan 9 di jam 10 pagi sudah ngeden2 sendiri dimarahin dsuruh nafas panjang tanpa diajari/dibimbing dg baik... Alhasil minta dirujuk karna sudah tidak bisa nahan rasa sakit.nya... dan Alhamdulillah masih ada perawat yang satunya yg sangat baik hati... Thanks mbak yang sesikit kurus, karna kamu baik banget dan sangat mengerti pasien... Semoga kebaikanmu dibls Allah swt. Amin.",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-04-18T06:36:34.150Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnTUNvNmNyWGpRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNvNmNyWGpRRRAB!2m1!1s0x0:0x8dcc52797a032076!3m1!1s2@1:CIHM0ogKEICAgMCo6crXjQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 2,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110924059350486107815",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110924059350486107815?hl=id",
+      "name": "Neni Primasari",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVjGaGsSVQ-iorunP9foAr8VcblWurRKVZLUp-s4dPrltyyJBk=s1920-c-rp-mo-br100",
+      "text": "Terimakasih untuk bidan dan perawatannya.. pelayanan nya sangat baik dan ramah.. Bu bidannya sabar sekali dalam menangani saya,,  pelayanan enak,, di pantau dr kontraksi lahiran sampai masa nifas dg penuh kesabaran.. Sampai saya sembuh.. Suka priksa di sini tidak menyesal sama sekali recommended ya bagi ibu ibu hamil yg mau rencana lahiran di sini .. 👍👍Pelayanan baik sekali. Terimakasih untuk semuanya bu nurul. Semoga kedepannya praktek nurul afidah tambah maju lagi.. Tambah lebih baik lagi.. Aminn",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-04-17T01:54:34.450Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnTUNvanA3UU9BEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNvanA3UU9BEAE!2m1!1s0x0:0x8dcc52797a032076!3m1!1s2@1:CIHM0ogKEICAgMCojp7QOA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104706846110040976247",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104706846110040976247?hl=id",
+      "name": "indah lia",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJvRfTEgm-8khHFJQwsxt_n-qpHbbPFC7_aDCpXeHgqyqS7hw=s1920-c-rp-mo-br100",
+      "text": "Bidan senior yg sabar dan telaten membantu persalinan. Juga selalu memberi edukasi dan penjelasan yg mudah dipahami.\n\nAlhamdulillah lahiran normal disini tgl 6 Februari 2025. Maturnuwun Bu Nurul 🙏🏻",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-02-24T12:19:41.288Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnTURnNXFpdzNnRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURnNXFpdzNnRRAB!2m1!1s0x0:0x8dcc52797a032076!3m1!1s2@1:CIHM0ogKEICAgMDg5qiw3gE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOXRdpkeCmHMst0CplH01BHzWQexHsBobhozuTBgW3i4HHDZNrlgHelZIOdBy9mCJFD1PPA5yIJ1iLk0aClM4uYWbnJ0rV4qVKe9ghOp2aAMdc4-4HIPR5AIiQ7bxNJjFHlbpY8=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Klinik & Praktek Dokter",
+  "kategori": "Kesehatan"
+}

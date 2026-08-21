@@ -1,0 +1,42 @@
+{
+  "key": "kantor_desa_karangkiring",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Karangkiring",
+  "rating": 4.7,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1885843,
+  "longitude": 112.6617316,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "rahel nurahmadania",
+      "Bintang": 5,
+      "Tanggal": "2025-10-30T10:32:27.020Z",
+      "Ulasan": "gak tau",
+      "teks_final": "tau",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8598
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Haryanto Suharno",
+      "Bintang": 5,
+      "Tanggal": "2024-10-07T13:17:52.186Z",
+      "Ulasan": "Bagus......",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    }
+  ]
+}

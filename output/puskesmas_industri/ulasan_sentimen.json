@@ -1,19 +1,34 @@
 {
+  "key": "puskesmas_industri",
   "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
   "tempat": "Puskesmas Industri",
   "rating": 4.5,
   "total_ulasan": 21,
-  "positif": 11,
+  "positif": 10,
   "netral": 3,
-  "negatif": 7,
-  "persen_positif": 52.4,
+  "negatif": 8,
+  "persen_positif": 47.6,
   "persen_netral": 14.3,
-  "persen_negatif": 33.3,
+  "persen_negatif": 38.1,
   "latitude": -7.163722,
   "longitude": 112.646615,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Nn. Ziyah azizy",
+      "Bintang": 1,
+      "Tanggal": "2026-08-10T03:31:03.876Z",
+      "Ulasan": "Jujur sangat kecewa dg layanan puskesmas ini.. Kalau pelayanan di pendaftaran bagus satset dan orangnya ramah, cuma dokternya udh 2x periksa kesana minta surat rujukan gk dikasih. apa susahnya sih ngasih surat rujukan? puskesmas ini tidak kyk puskesmas yg lainnya kalau minta surat rujukan langsung satset dikasih... lah ini minta surat rujukan aj banyak plinplan PARAH",
+      "teks_final": "jujur kecewa layanan puskesmas pelayanan pendaftaran bagus satset orangnya ramah cuma dokternya udh 2x periksa kesana minta surat rujukan dikasih apa susahnya ngasih surat rujukan puskesmas kyk puskesmas lainnya minta surat rujukan langsung satset dikasih minta surat rujukan aj banyak plinplan parah",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "latinka razka",
       "Bintang": 5,
       "Tanggal": "2026-06-26T02:23:53.110Z",
@@ -25,6 +40,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Mey Lien",
       "Bintang": 5,
       "Tanggal": "2026-06-03T01:30:44.783Z",
@@ -36,6 +52,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Deena A",
       "Bintang": 1,
       "Tanggal": "2026-05-25T08:52:09.625Z",
@@ -47,6 +64,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Annisatun Nur Fitriani",
       "Bintang": 1,
       "Tanggal": "2026-05-05T05:10:55.469Z",
@@ -58,6 +76,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "tiara dita",
       "Bintang": 1,
       "Tanggal": "2026-04-28T01:47:10.171Z",
@@ -69,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "iva iLmiyah",
       "Bintang": 5,
       "Tanggal": "2026-03-25T00:59:20.291Z",
@@ -80,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Ipud Edan",
       "Bintang": 1,
       "Tanggal": "2026-02-23T02:09:38.954Z",
@@ -91,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "dini r",
       "Bintang": 5,
       "Tanggal": "2026-02-10T18:14:28.924Z",
@@ -102,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Party media",
       "Bintang": 5,
       "Tanggal": "2026-01-20T19:01:37.765Z",
@@ -113,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "sonie irawan",
       "Bintang": 4,
       "Tanggal": "2025-12-29T03:31:45.116Z",
@@ -124,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "eva mufarrokhah",
       "Bintang": 5,
       "Tanggal": "2025-12-13T02:56:49.491Z",
@@ -135,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Fajar Kiswantoro",
       "Bintang": 1,
       "Tanggal": "2025-11-24T08:18:33.116Z",
@@ -146,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Setyaone Achmed",
       "Bintang": 5,
       "Tanggal": "2025-11-22T03:58:10.517Z",
@@ -157,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Usman R",
       "Bintang": 5,
       "Tanggal": "2025-11-22T02:54:01.513Z",
@@ -168,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "nana ow",
       "Bintang": 5,
       "Tanggal": "2025-11-22T01:42:19.203Z",
@@ -179,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Nur Maulina Rochmawati",
       "Bintang": 5,
       "Tanggal": "2025-11-22T01:37:55.772Z",
@@ -190,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Mahendra Wahyu",
       "Bintang": 5,
       "Tanggal": "2025-11-22T01:29:17.909Z",
@@ -201,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Dau Issiba",
       "Bintang": 1,
       "Tanggal": "2025-11-21T09:32:19.380Z",
@@ -212,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "gilang rara",
       "Bintang": 1,
       "Tanggal": "2025-11-21T03:12:57.312Z",
@@ -223,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "irfansusanto putra",
       "Bintang": 1,
       "Tanggal": "2025-11-14T08:56:28.417Z",
@@ -231,17 +265,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9976
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sunasri",
-      "Bintang": 5,
-      "Tanggal": "2025-11-03T00:48:43.168Z",
-      "Ulasan": "Loket cepat dan ramah",
-      "teks_final": "loket cepat ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9948
     }
   ]
 }

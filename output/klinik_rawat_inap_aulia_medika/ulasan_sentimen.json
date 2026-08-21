@@ -1,0 +1,42 @@
+{
+  "key": "klinik_rawat_inap_aulia_medika",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Klinik & Praktek Dokter",
+  "tempat": "KLINIK RAWAT INAP AULIA MEDIKA",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.326649,
+  "longitude": 112.4903734,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Praditama Wahyu",
+      "Bintang": 5,
+      "Tanggal": "2026-07-03T06:41:46.736Z",
+      "Ulasan": "Pelayanan bagus, dokter ramah, respon cepat ngantar anak bapil",
+      "teks_final": "pelayanan bagus dokter ramah respon cepat ngantar anak bapil",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9941
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "abah Darji",
+      "Bintang": 5,
+      "Tanggal": "2026-03-24T12:27:41.980Z",
+      "Ulasan": "Klinik rawat inap aula Medika ⭐⭐⭐⭐⭐",
+      "teks_final": "klinik rawat inap aula medika",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9959
+    }
+  ]
+}

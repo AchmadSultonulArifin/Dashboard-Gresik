@@ -1,17 +1,154 @@
 {
+  "key": "klinik_krisna_2_pps_gresik",
   "kategori": "Kesehatan",
+  "sub_kategori": "Klinik & Praktek Dokter",
   "tempat": "KLINIK KRISNA 2 PPS GRESIK",
   "rating": 4.6,
-  "total_ulasan": 28,
-  "positif": 26,
+  "total_ulasan": 27,
+  "positif": 24,
   "netral": 0,
-  "negatif": 2,
-  "persen_positif": 92.9,
+  "negatif": 3,
+  "persen_positif": 88.9,
   "persen_netral": 0.0,
-  "persen_negatif": 7.1,
+  "persen_negatif": 11.1,
+  "latitude": -7.1465411,
+  "longitude": 112.5973323,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Ellen Rahmah Utami",
+      "Bintang": 1,
+      "Tanggal": "2026-08-19T08:53:35.516Z",
+      "Ulasan": "Peeling di sini wajah yang awalnya bersih, jadi gosong😭 Huhuhu nyesel😭 Mana alisnya dibotakin😭",
+      "teks_final": "peeling sini wajah awalnya bersih jadi gosong huhuhu nyesel mana alisnya dibotakin",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9976
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "10_Muslih Ardani",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T12:50:08.642Z",
+      "Ulasan": "detail dan cepat",
+      "teks_final": "detail cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.8912
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Mauludin Ahmad",
+      "Bintang": 5,
+      "Tanggal": "2026-08-12T12:58:23.515Z",
+      "Ulasan": "Pertahankan yg sdah baik,, perbaiki yg kurang.. 🙏🙏",
+      "teks_final": "pertahankan sdah baik perbaiki kurang",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7259
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Ahmad Rizal",
+      "Bintang": 5,
+      "Tanggal": "2026-08-11T13:17:17.700Z",
+      "Ulasan": "Pelayanan sangat responsif Admin memberikan pelayanan cukup bagus Dokter sangan enak saat menerangkan keluhan",
+      "teks_final": "pelayanan responsif admin memberikan pelayanan cukup bagus dokter sangan enak menerangkan keluhan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9898
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Jagad Gaming",
+      "Bintang": 5,
+      "Tanggal": "2026-08-11T12:38:12.164Z",
+      "Ulasan": "Pelayanan Cepat dan Ramah.",
+      "teks_final": "pelayanan cepat ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9955
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Adam Malik",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T11:52:56.096Z",
+      "Ulasan": "Sangat baik, pelayanan petugas ramah",
+      "teks_final": "baik pelayanan petugas ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9927
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Lely BerryC",
+      "Bintang": 5,
+      "Tanggal": "2026-08-04T13:29:26.949Z",
+      "Ulasan": "Untuk test catin pelayanan & dokternya ramah, sangat helpfull",
+      "teks_final": "test catin pelayanan dokternya ramah helpfull",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.876
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Asyifa Ghaisani",
+      "Bintang": 5,
+      "Tanggal": "2026-08-04T02:30:12.610Z",
+      "Ulasan": "Pelayanan sangat baik.Dan Memudahkan pasien",
+      "teks_final": "pelayanan baik memudahkan pasien",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9919
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Azza Azza",
+      "Bintang": 5,
+      "Tanggal": "2026-07-29T03:36:44.226Z",
+      "Ulasan": "Pelayanan bagian depan ramah",
+      "teks_final": "pelayanan bagian depan ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Latif Gresik",
+      "Bintang": 5,
+      "Tanggal": "2026-07-24T06:08:01.491Z",
+      "Ulasan": "Petugas adminnya baik dan ramah.",
+      "teks_final": "petugas adminnya baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9896
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Chininta Wibowo",
+      "Bintang": 5,
+      "Tanggal": "2026-07-20T13:04:58.988Z",
+      "Ulasan": "Pelayanan bidan viki bagus",
+      "teks_final": "pelayanan bidan viki bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9958
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Rufaidah Laila",
       "Bintang": 5,
       "Tanggal": "2026-07-16T04:54:46.588Z",
@@ -23,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Samsu Sudin",
       "Bintang": 5,
       "Tanggal": "2026-07-13T02:00:26.896Z",
@@ -34,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Dwi cahya Lestari",
       "Bintang": 1,
       "Tanggal": "2026-07-11T08:56:02.226Z",
@@ -45,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Yuyun stf",
       "Bintang": 1,
       "Tanggal": "2026-07-11T08:35:37.717Z",
@@ -56,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Akbar Habibie",
       "Bintang": 5,
       "Tanggal": "2026-07-11T03:50:40.292Z",
@@ -67,17 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Fanni 1989",
-      "Bintang": 5,
-      "Tanggal": "2026-07-08T13:15:33.561Z",
-      "Ulasan": "3 tahun langganan disini, alhamdulillah cocok dengan obat dokternya. Seluruh pelayanan cukup baik.",
-      "teks_final": "tahun langganan disini alhamdulillah cocok obat dokternya seluruh pelayanan cukup baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.994
-    },
-    {
-      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Safitri Vanessa",
       "Bintang": 5,
       "Tanggal": "2026-07-08T10:53:33.930Z",
@@ -89,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "NESC FATAH",
       "Bintang": 5,
       "Tanggal": "2026-07-08T10:52:51.304Z",
@@ -100,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "yana andiguna",
       "Bintang": 5,
       "Tanggal": "2026-07-06T08:03:49.231Z",
@@ -111,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Muthia Kamila Rahmadita",
       "Bintang": 5,
       "Tanggal": "2026-07-06T07:44:10.577Z",
@@ -122,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Suprapti Sugiyanto",
       "Bintang": 5,
       "Tanggal": "2026-07-01T12:35:10.805Z",
@@ -133,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Endang karminah",
       "Bintang": 5,
       "Tanggal": "2026-06-28T12:17:05.171Z",
@@ -144,6 +280,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Mustain Iin",
       "Bintang": 5,
       "Tanggal": "2026-06-27T13:42:57.585Z",
@@ -155,6 +292,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Muafah Zuhri",
       "Bintang": 5,
       "Tanggal": "2026-06-26T00:37:34.607Z",
@@ -166,6 +304,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Ivan Nandasyah",
       "Bintang": 5,
       "Tanggal": "2026-06-24T12:24:14.131Z",
@@ -177,6 +316,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Sheilla Ekptr",
       "Bintang": 5,
       "Tanggal": "2026-06-23T03:19:22.199Z",
@@ -188,6 +328,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Fitriya Slamet",
       "Bintang": 5,
       "Tanggal": "2026-06-15T12:34:47.449Z",
@@ -196,127 +337,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "samsul arifin",
-      "Bintang": 5,
-      "Tanggal": "2026-06-12T01:07:35.593Z",
-      "Ulasan": "Enak,ramah",
-      "teks_final": "enak ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9976
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Asi Yanto",
-      "Bintang": 5,
-      "Tanggal": "2026-06-11T02:06:56.397Z",
-      "Ulasan": "Pelayanan diklinik Krisna bagus menyenangkan cara menerangkan detail",
-      "teks_final": "pelayanan diklinik krisna bagus menyenangkan cara menerangkan detail",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9953
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Ipin Arifin",
-      "Bintang": 5,
-      "Tanggal": "2026-06-09T13:35:57.952Z",
-      "Ulasan": "Pelayanan ramah cepat 👍",
-      "teks_final": "pelayanan ramah cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Melinda Dwitama",
-      "Bintang": 5,
-      "Tanggal": "2026-06-08T12:44:43.247Z",
-      "Ulasan": "pelayanan ramah dan cepat",
-      "teks_final": "pelayanan ramah cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Lis Hariyati",
-      "Bintang": 5,
-      "Tanggal": "2026-06-06T12:30:50.566Z",
-      "Ulasan": "Pelayanan diklinik krisna ramah",
-      "teks_final": "pelayanan diklinik krisna ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9914
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Ahmad Basuki",
-      "Bintang": 5,
-      "Tanggal": "2026-06-04T01:32:08.781Z",
-      "Ulasan": "Pelayanan dari admin sampai dokternya baik semoga kedepannya lebih baik",
-      "teks_final": "pelayanan admin sampai dokternya baik semoga kedepannya baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9748
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Fay_",
-      "Bintang": 5,
-      "Tanggal": "2026-06-03T12:13:20.533Z",
-      "Ulasan": "Alhamdulillah ... pelayanannya cepat karena sudah sistem online semua ... penjelasan paramedisnya juga detail dan lengkap .... Terima kasih Klinik Krisna",
-      "teks_final": "alhamdulillah pelayanannya cepat sistem online semua penjelasan paramedisnya detail lengkap terima kasih klinik krisna",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9464
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "sdr minto",
-      "Bintang": 5,
-      "Tanggal": "2026-06-03T03:28:18.750Z",
-      "Ulasan": "Pelayanan sangat bagus ramah cepat tanggap",
-      "teks_final": "pelayanan bagus ramah cepat tanggap",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9965
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sri Wahyuni",
-      "Bintang": 5,
-      "Tanggal": "2026-06-02T12:51:24.124Z",
-      "Ulasan": "Pelayanan bagus,ramah,dipertahankan ya",
-      "teks_final": "pelayanan bagus ramah dipertahankan ya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9938
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mei Andriyani",
-      "Bintang": 5,
-      "Tanggal": "2026-05-28T09:50:54.948Z",
-      "Ulasan": "pelayanan memuaskan, dokternya ramah,komunikatif",
-      "teks_final": "pelayanan memuaskan dokternya ramah komunikatif",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9942
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mbak Sumiati",
-      "Bintang": 5,
-      "Tanggal": "2026-05-23T13:12:42.318Z",
-      "Ulasan": "Klinik Khrisna Sangat, ramah, santun, dan bisa membuat pasien semangat untuk sembuh",
-      "teks_final": "klinik khrisna ramah santun membuat pasien semangat sembuh",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9937
     }
   ]
 }

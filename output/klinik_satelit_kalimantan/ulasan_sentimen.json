@@ -1,30 +1,46 @@
 {
+  "key": "klinik_satelit_kalimantan",
   "kategori": "Kesehatan",
+  "sub_kategori": "Rumah Sakit",
   "tempat": "Klinik Satelit Kalimantan",
   "rating": 4.1,
-  "total_ulasan": 15,
-  "positif": 13,
+  "total_ulasan": 19,
+  "positif": 16,
   "netral": 1,
-  "negatif": 1,
-  "persen_positif": 86.7,
-  "persen_netral": 6.7,
-  "persen_negatif": 6.7,
+  "negatif": 2,
+  "persen_positif": 84.2,
+  "persen_netral": 5.3,
+  "persen_negatif": 10.5,
   "latitude": -7.137846,
   "longitude": 112.6167968,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "andik andik",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Anik Harijati",
       "Bintang": 5,
-      "Tanggal": "2026-07-30T04:45:43.186Z",
-      "Ulasan": "Terima Kasih Atas Pelayanan Yang Maximal Pelayanannya Bagus Sekali Petugasnya Ramah Tamah Infrastruktur Bagus Lokasinya Asri",
-      "teks_final": "terima kasih atas pelayanan maximal pelayanannya bagus petugasnya ramah tamah infrastruktur bagus lokasinya asri",
+      "Tanggal": "2026-08-19T02:02:42.876Z",
+      "Ulasan": "Pelayanannya baik, petugas ramah 👍",
+      "teks_final": "pelayanannya baik petugas ramah",
       "topik": "Pelayanan",
       "sentimen": "Positif",
-      "sentimen_score": 0.996
+      "sentimen_score": 0.9959
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Nunik Chrisnawati",
+      "Bintang": 5,
+      "Tanggal": "2026-08-12T03:10:15.414Z",
+      "Ulasan": "Pelayanan Klinik Satelit sudah bagus, perlu dipertahanlan",
+      "teks_final": "pelayanan klinik satelit bagus perlu dipertahanlan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9696
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "ghea Gabriellla",
       "Bintang": 5,
       "Tanggal": "2026-07-28T08:14:22.559Z",
@@ -36,6 +52,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Risda Sufidiana",
       "Bintang": 5,
       "Tanggal": "2026-07-28T07:32:38.202Z",
@@ -47,6 +64,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Umiriani Selam",
       "Bintang": 5,
       "Tanggal": "2026-07-23T01:01:01.918Z",
@@ -58,17 +76,7 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Victory S",
-      "Bintang": 5,
-      "Tanggal": "2026-07-21T15:00:26.092Z",
-      "Ulasan": "pelayanannya bagus semua staff bisa terjun di satu layanan ke layanan yang lain. terutama di bagian satpam dan petugas pendaftaran, satpam saja bisa mendaftarkan ini keren patut di pertahankan–juga saya pernah dibantu mas satpamnya dari tidak punya akun mobile jkn sampai saya bisa mendapatkan antrian online. ✨👍  namun sangat disayangkan untuk panggilan dokter/poli sangat lama sekali, daftar jam 07.30 dipanggil 09.35. di ugd juga sering petugasnya ketawa2 padahal ada yang sakit. sepertinya yang harus jadi perhatian dari manajemen adalah petugas bagian poli dan ugd.",
-      "teks_final": "pelayanannya bagus semua staff terjun satu layanan layanan lain terutama bagian satpam petugas pendaftaran satpam saja mendaftarkan bagus patut pertahankanjuga pernah dibantu mas satpamnya punya akun mobile jkn sampai mendapatkan antrian online disayangkan panggilan dokter poli lama daftar jam dipanggil ugd sering petugasnya ketawa2 padahal sakit sepertinya harus jadi perhatian manajemen petugas bagian poli ugd",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.7247
-    },
-    {
-      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Nifa Gresik",
       "Bintang": 5,
       "Tanggal": "2026-07-17T03:18:34.661Z",
@@ -80,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Avant Garde",
       "Bintang": 5,
       "Tanggal": "2026-07-17T02:03:13.552Z",
@@ -91,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Sandy Agung",
       "Bintang": 1,
       "Tanggal": "2026-07-16T16:35:30.916Z",
@@ -102,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Neny Budiwiarti",
       "Bintang": 5,
       "Tanggal": "2026-07-13T01:48:16.121Z",
@@ -113,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "andri kurniawan",
       "Bintang": 1,
       "Tanggal": "2026-07-08T11:23:36.695Z",
@@ -124,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Nurjanah Nurjanah",
       "Bintang": 5,
       "Tanggal": "2026-07-07T09:03:37.868Z",
@@ -135,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "riski upzz",
       "Bintang": 5,
       "Tanggal": "2026-07-06T02:40:33.266Z",
@@ -146,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Rifdah Fa'iqotul Himmah",
       "Bintang": 5,
       "Tanggal": "2026-07-02T11:58:30.495Z",
@@ -157,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "36_ Lailah Rofi'atun N.",
       "Bintang": 5,
       "Tanggal": "2026-07-02T11:58:00.657Z",
@@ -168,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
       "Nama Reviewer": "Udhiya",
       "Bintang": 5,
       "Tanggal": "2026-07-02T11:21:35.817Z",
@@ -176,6 +193,54 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9948
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Masning Rizqiyah",
+      "Bintang": 5,
+      "Tanggal": "2026-07-02T09:36:22.830Z",
+      "Ulasan": "Klinik satelit pelayanan lebih baik",
+      "teks_final": "klinik satelit pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9899
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Siani KPR Mandiri",
+      "Bintang": 5,
+      "Tanggal": "2026-07-02T09:18:06.287Z",
+      "Ulasan": "Pelayanan baik",
+      "teks_final": "pelayanan baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Ahmad Alidrus",
+      "Bintang": 5,
+      "Tanggal": "2026-06-17T07:47:25.441Z",
+      "Ulasan": "Pelayanan sudah baik dan ramah",
+      "teks_final": "pelayanan baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.995
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Anggitayeye Putri22",
+      "Bintang": 1,
+      "Tanggal": "2026-06-17T03:13:45.927Z",
+      "Ulasan": "Kemarin periksa kesini dan di injeksi,,pas penyuntikan terjadi kesalahan,,jadi pembuluh darah pecah dan bengkak,udah seminggu masih sakit,,dan sebelumnya disuruh datang kembali kalo masih sakit,,,pas datang kembali ternyata ada biaya lagi,beli obat lagi,,,saya kira ada pertanggung jawaban,ternyata tidak,,okelah jika itu tidak ada,,saya masih mampu untuk bayar,tapi udah males,,karena perkataan dokternya,kita datang berobat biar sembuh,oke sakitnya sembuh ,,tapi ganti sakit karena kesalahan tadi,,,dan dokternya bilang ya itu resiko,,,lahhhh?????? masak orang sakit datang  berobat biar sembuh malah di suruh nanggung resiko",
+      "teks_final": "kemarin periksa kesini injeksi pas penyuntikan terjadi kesalahan jadi pembuluh darah pecah bengkak udah seminggu sakit sebelumnya disuruh datang kembali kalo sakit pas datang kembali ternyata biaya beli obat kira pertanggung jawaban ternyata okelah mampu bayar udah males perkataan dokternya datang berobat biar sembuh oke sakitnya sembuh ganti sakit kesalahan tadi dokternya bilang ya resiko lahhhh masak orang sakit datang berobat biar sembuh malah suruh nanggung resiko",
+      "topik": "Kesehatan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9945
     }
   ]
 }

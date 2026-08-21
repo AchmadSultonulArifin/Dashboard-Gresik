@@ -1,0 +1,90 @@
+{
+  "key": "apotek_hoka",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "APOTEK HOKA",
+  "rating": 4.9,
+  "total_ulasan": 6,
+  "positif": 5,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 83.3,
+  "persen_netral": 16.7,
+  "persen_negatif": 0.0,
+  "latitude": -7.2267878,
+  "longitude": 112.5584574,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Roudhoh Zahratus Sakinah",
+      "Bintang": 5,
+      "Tanggal": "2026-06-18T07:30:04.263Z",
+      "Ulasan": "pelayanannya ramah 👍🏻",
+      "teks_final": "pelayanannya ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9968
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Raka Wijaya",
+      "Bintang": 5,
+      "Tanggal": "2026-02-01T05:59:16.295Z",
+      "Ulasan": "bagus",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Inen Ashari",
+      "Bintang": 5,
+      "Tanggal": "2026-01-20T13:06:41.085Z",
+      "Ulasan": "Pelayanannya Rama, petugas apotekernya hafal dengan obat dan kegunaannya...",
+      "teks_final": "pelayanannya rama petugas apotekernya hafal obat kegunaannya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7439
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Dinar Aca",
+      "Bintang": 5,
+      "Tanggal": "2025-11-12T11:03:22.806Z",
+      "Ulasan": "Tempat bersih, parkir luas, lumayan lengkap, hanya saja harga lebih mahal dibanding lainnya,, yaa beda 2000/3000 an.",
+      "teks_final": "tempat bersih parkir luas lumayan lengkap hanya saja harga mahal dibanding lainnya yaa beda an",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7684
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Denny Setiyabudi",
+      "Bintang": 5,
+      "Tanggal": "2025-08-01T11:30:22.678Z",
+      "Ulasan": "Bersebelahan dengan warung bakso",
+      "teks_final": "bersebelahan warung bakso",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.743
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "hendrik cokro",
+      "Bintang": 5,
+      "Tanggal": "2025-05-13T03:45:32.411Z",
+      "Ulasan": "Lumayan lengkap, harga terjangkau",
+      "teks_final": "lumayan lengkap harga terjangkau",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9967
+    }
+  ]
+}

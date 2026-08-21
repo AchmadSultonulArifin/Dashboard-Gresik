@@ -2,6 +2,7 @@
   "title": "Dinas Koperasi Usaha Mikro Perindustrian dan Perdagangan Kab. Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": "TUGAS:\nMembantu bupati dalam melaksanakan urusan pemerintahan bidang koperasi, usaha mikro, urusan pemerintahan bidang perindustrian, dan urusan pemerintahan bidang perdagangan.\nFUNGSI:\n1. Pengkoordinasian pelaksanaan penyusunan kebijakan urusan koperasi dan usaha mikro, urusan perindustrian, dan urusan perdagangan.\n2. Pengkoordinasian akselerasi dan sinkronisasi pelaksanaan kebijakan urusan koperasi dan usaha mikro, urusan perindustrian, dan urusan perdagangan.\n3. Pengkoordinasian pelaksanaan pelayanan administrasi urusan koperasi dan usaha mikro, urusan perindustrian, dan urusan perdagangan.\n4. Pengkoordinasian pelaksanaan pengendalian kebijakan, pembinaan, dan fasilitasi urusan koperasi dan usaha mikro, urusan perindustrian, dan urusan p",
   "price": null,
   "categoryName": "Kantor Pemerintah",
   "address": "Jl. Dr. Wahidin Sudirohusodo No.245, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
@@ -47,7 +48,7 @@
     "Meja tulis",
     "Bangunan"
   ],
-  "scrapedAt": "2026-08-06T13:54:33.455Z",
+  "scrapedAt": "2026-08-20T22:24:39.249Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,10 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -86,8 +83,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -141,8 +143,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkdUY5d0dqLhNfed2mZbj3SkxBbsjO7f03Zge94WgmDtVv3oHaGFp4x66bE92STh7d3rdG6S3fPPl4xQ57CRK1DumuVZI0PCJry56IEEsltZUake-pqzTIwg5s166ZWQuDD5S2xHg=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkJNa4t046UFzHwdx3ZwkIvjagcpJqK6JggtAVbodlDPhxr0ZpSZOGrzSBNe5zpPPKVwV55ZQvJrQyJyrJPXxct6UbcKTnvXX0gypH2fEdswXuCsLypIdXMUHyPEKMTnBUxm4PAww=w426-h240-k-no",
   "kgmid": "/g/11bc7mg__1",
+  "businessProfileId": "5480555588681675413",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -366,7 +369,7 @@
       "reviewerId": "111761060668337082840",
       "reviewerUrl": "https://www.google.com/maps/contrib/111761060668337082840?hl=id",
       "name": "UDZAMA CATERING",
-      "reviewerNumberOfReviews": 6,
+      "reviewerNumberOfReviews": 5,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX43U8cy9ukr9qrgqPBrBbFMLuw91wzVyBhoQktypYdjeDNWHNv=s1920-c-rp-mo-br100",
       "text": null,
@@ -418,7 +421,7 @@
       "reviewerId": "100832346982259061798",
       "reviewerUrl": "https://www.google.com/maps/contrib/100832346982259061798?hl=id",
       "name": "Mas Maksum",
-      "reviewerNumberOfReviews": 2527,
+      "reviewerNumberOfReviews": 2525,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVPPrecXW9bdOk7-dO4EHFpxJCT9TlG9y1jktqKsnDBztSsGRzc=s1920-c-rp-mo-br100",
       "text": "Dinas Koperasi dan UKM Kabupaten Gresik",
@@ -442,5 +445,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

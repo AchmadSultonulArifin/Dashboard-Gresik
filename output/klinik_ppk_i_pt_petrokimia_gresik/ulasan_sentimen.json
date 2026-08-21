@@ -1,17 +1,82 @@
 {
+  "key": "klinik_ppk_i_pt_petrokimia_gresik",
   "kategori": "Kesehatan",
+  "sub_kategori": "Klinik & Praktek Dokter",
   "tempat": "Klinik PPK I PT Petrokimia Gresik",
   "rating": 4.3,
   "total_ulasan": 19,
-  "positif": 15,
-  "netral": 0,
-  "negatif": 4,
-  "persen_positif": 78.9,
-  "persen_netral": 0.0,
-  "persen_negatif": 21.1,
+  "positif": 17,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 89.5,
+  "persen_netral": 5.3,
+  "persen_negatif": 5.3,
+  "latitude": -7.1580445,
+  "longitude": 112.6416154,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "endangsri rahajoe",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T04:34:27.105Z",
+      "Ulasan": "Pelayanan baik. Petugas ramah",
+      "teks_final": "pelayanan baik petugas ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9942
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Gatot Suhadi",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T04:32:25.929Z",
+      "Ulasan": "Pelayanannya sudah baik",
+      "teks_final": "pelayanannya baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "agustina sari",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T14:34:47.002Z",
+      "Ulasan": "Pelayanan bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Aditya Marhendra",
+      "Bintang": 2,
+      "Tanggal": "2026-08-10T01:57:13.789Z",
+      "Ulasan": "Ruang tunggu farmasi, poli 3, poli gigi, poli kkwa jangan di jadikan 1 , terlalu numpuk di belakang pasiennya Tolong diperbaiki lagi atau sekalian pindah lokasi yang proper, Jangan hanya RSPG nya saja yg di bangun/renov klinik dibawahnya harus diperhatikan juga",
+      "teks_final": "ruang tunggu farmasi poli poli gigi poli kkwa jangan jadikan terlalu numpuk belakang pasiennya tolong diperbaiki sekalian pindah lokasi proper jangan hanya rspg saja bangun renov klinik dibawahnya harus diperhatikan",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7589
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Tesa Yulia Ikhtiary",
+      "Bintang": 4,
+      "Tanggal": "2026-07-20T12:21:47.324Z",
+      "Ulasan": "pelayanan cs ramah, dan baik, tapi tidak tau kenapa menunggu antrian hampir 1,5 jam, karena ter sela oleh antrian2 awalnya yg mungkin sudah jauh daftar sebelum nya tapi datang nya terlambat, kurang tahu apakah mekanisme BPJS seperti itu, bisa daftar di JKN h- beberapa jam tetapi hal seperti itu dapat merugikan pasien yg lain dengan penyakit yg berbeda2, sudah antri lama tapi ter sela dengan antrian2 dengan panggilan ulang, mohon dikaji ulang  tapi selain itu, pelayanan semua baik kok🙏🏻",
+      "teks_final": "pelayanan cs ramah baik tau kenapa menunggu antrian hampir jam ter sela antrian2 awalnya mungkin jauh daftar datang terlambat kurang tahu apakah mekanisme bpjs seperti daftar jkn beberapa jam hal seperti merugikan pasien lain penyakit berbeda2 antrian lama ter sela antrian2 panggilan ulang mohon dikaji ulang selain pelayanan semua baik kok",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9628
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "DM Entertain",
       "Bintang": 5,
       "Tanggal": "2026-07-13T13:31:43.893Z",
@@ -23,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Viiya Bachdim",
       "Bintang": 4,
       "Tanggal": "2026-07-06T01:08:56.508Z",
@@ -34,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Rohman Ari",
       "Bintang": 1,
       "Tanggal": "2026-07-03T04:36:20.265Z",
@@ -45,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Rifdah Fa'iqotul Himmah",
       "Bintang": 5,
       "Tanggal": "2026-07-02T12:00:55.580Z",
@@ -56,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "36_ Lailah Rofi'atun N.",
       "Bintang": 5,
       "Tanggal": "2026-07-02T11:56:12.567Z",
@@ -67,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Udhiya",
       "Bintang": 5,
       "Tanggal": "2026-07-02T11:22:29.267Z",
@@ -78,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Masning Rizqiyah",
       "Bintang": 5,
       "Tanggal": "2026-07-02T09:38:09.954Z",
@@ -89,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Gauri Eatery",
       "Bintang": 5,
       "Tanggal": "2026-07-02T09:20:27.280Z",
@@ -100,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Siani KPR Mandiri",
       "Bintang": 5,
       "Tanggal": "2026-07-02T09:17:44.877Z",
@@ -111,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Anik Anik",
       "Bintang": 5,
       "Tanggal": "2026-07-02T09:15:19.958Z",
@@ -122,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "jendy dewi",
       "Bintang": 5,
       "Tanggal": "2026-06-18T00:54:53.161Z",
@@ -133,17 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "poligigi rsgh",
-      "Bintang": 5,
-      "Tanggal": "2026-06-08T04:37:56.871Z",
-      "Ulasan": "Layanan poli Gigi terbaik,  gercep petugas poli gigi nya. Thaks kakak",
-      "teks_final": "layanan poli gigi terbaik gercep petugas poli gigi thaks kakak",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.8212
-    },
-    {
-      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "novita tri",
       "Bintang": 5,
       "Tanggal": "2026-06-02T13:21:25.762Z",
@@ -155,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "silvi maulidatul r",
       "Bintang": 5,
       "Tanggal": "2026-05-09T11:31:40.047Z",
@@ -166,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
       "Nama Reviewer": "Navas Dzakra",
       "Bintang": 5,
       "Tanggal": "2026-05-09T11:28:45.649Z",
@@ -174,50 +241,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9731
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "nurlailiyatul mustainnah",
-      "Bintang": 1,
-      "Tanggal": "2026-05-05T06:32:34.812Z",
-      "Ulasan": "Ruwet",
-      "teks_final": "ruwet",
-      "topik": "Lainnya",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9923
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Aisyah Putri",
-      "Bintang": 5,
-      "Tanggal": "2026-04-29T12:47:05.525Z",
-      "Ulasan": "Pelayanan baik",
-      "teks_final": "pelayanan baik",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9952
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "denny sutanto",
-      "Bintang": 1,
-      "Tanggal": "2026-04-29T05:51:21.273Z",
-      "Ulasan": "Minta rujukan ke dokter mata saja dipersulit, Malah disuruh periksa ke optik, lalu surat perksa optik di bawa ke ppk Trus kira kira fungsinya apa faskes I PPK ini Sudah antri 2jam ujung ujungnya dapat jawaban seperti itu, buan buang waktu saja",
-      "teks_final": "minta rujukan dokter mata saja dipersulit malah disuruh periksa optik lalu surat perksa optik bawa ppk trus kira kira fungsinya apa faskes ppk antrian 2jam ujung ujungnya jawaban seperti buan buang waktu saja",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.957
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Gudang Album",
-      "Bintang": 1,
-      "Tanggal": "2026-04-29T05:45:31.678Z",
-      "Ulasan": "Pelayanan sangat tidak memuaskan Hanya minta rujukan ke dokter mata saja dipersulit, malah disuruh ke optik untuk periksa , baru surat periksa dibawa ke ppk Trus FUNGSINYA  apa pelayanan faskes PPK ini, hanya minta rujukan agar bisa periksa ke klinik mata atau dokter mata saja dipersulit. Dan untuk dokter pelayanan(umum) masih magang atau baru lulus Alurnya gak jelas Layanan kepuasan pelanggan juga ditutup scan barcode yg terbatas maaf saya komplain di map",
-      "teks_final": "pelayanan memuaskan hanya minta rujukan dokter mata saja dipersulit malah disuruh optik periksa surat periksa dibawa ppk trus fungsinya apa pelayanan faskes ppk hanya minta rujukan agar periksa klinik mata dokter mata saja dipersulit dokter pelayanan umum magang lulus alurnya jelas layanan kepuasan pelanggan ditutup scan barcode terbatas maaf komplain map",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9707
     }
   ]
 }

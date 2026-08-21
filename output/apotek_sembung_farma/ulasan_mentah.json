@@ -1,0 +1,1328 @@
+{
+  "title": "Apotek Sembung Farma",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Apotek",
+  "address": "F3MR+H95, Sembung Gede, Kec. Kerambitan, Kabupaten Tabanan, Bali 82161, Indonesia",
+  "neighborhood": "Sembung Gede, Kecamatan Kerambitan",
+  "street": "F3MR+H95",
+  "city": "Kabupaten Tabanan",
+  "postalCode": "82161",
+  "state": "Bali",
+  "countryCode": "ID",
+  "phone": "",
+  "phoneUnformatted": "",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -8.5161203,
+    "lng": 115.0909896
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": null,
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJbz0TIQsw0i0Rvn4vgjgdY7s",
+  "categories": [
+    "Apotek"
+  ],
+  "fid": "0x2dd2300b21133d6f:0xbb631d38822f7ebe",
+  "cid": "13502668236326403774",
+  "reviewsCount": 25,
+  "imagesCount": 3,
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-20T18:52:47.238Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "08.00 to 21.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "08.00 to 21.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "08.00 to 21.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 21.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 21.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 21.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 21.00"
+    }
+  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Sembung Usada",
+      "reviewsCount": 3,
+      "totalScore": 2.3
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "APOTEK SEMBUNG MEDIKA",
+      "reviewsCount": 2,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Sas Medika",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Assa Farma Penyalin",
+      "reviewsCount": 10,
+      "totalScore": 4.4
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": false
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ],
+    "Perencanaan": [
+      {
+        "Belanja kilat": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Apotek%20Sembung%20Farma&query_place_id=ChIJbz0TIQsw0i0Rvn4vgjgdY7s",
+  "searchPageUrl": "https://www.google.com/maps/search/Apotek%20Sembung%20Farma%202?hl=id",
+  "searchString": "Apotek Sembung Farma 2",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmh-m5TU-pBxvBFcAajPFHOrQl16qO1N2PipaldsgPAspfuCFzBf3GulQOPLizgiDlokfqiEiDKI9xnnIKLlcCyad06ESz_06-A8gDwo_CUQw0FaC2UmN_S573JUSeeV2DJWqhu=w408-h306-k-no",
+  "kgmid": "/g/11ggvtspz2",
+  "businessProfileId": null,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 1,
+    "fourStar": 0,
+    "fiveStar": 24
+  },
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "117496575237351693719",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117496575237351693719?hl=id",
+      "name": "2583111005 Putu Sanitha Jayanti",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWgFHelbCPey3LXmcCaxxt90pYJLATP0AsaSwL4PzGdlw1YMNA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-08-13T06:40:35.618Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2poMWJGOXNZVXR6YUVwU00ycHBVbmMxVFhSMFJsRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2poMWJGOXNZVXR6YUVwU00ycHBVbmMxVFhSMFJsRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOjh1bF9sYUtzaEpSM2ppUnc1TXR0RlE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105007021730733314140",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105007021730733314140?hl=id",
+      "name": "Putu Sanitha Jayanti 2",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW9qqBly2g3O7QQ56IcNbqiHBZfVmmB1A3p5WTu-TBsaNnDerg=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya ramah dan cepat 😊 obat yang dicari lengkap, harganya juga terjangkau, klo obat yang dibutuhkan sedang tidak tersedia, bisa pesan terlebih dahulu, jadi nggak perlu bingung cari ke tempat lain Recommended banget! 👍✨",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-08-13T06:39:33.654Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkWFdIUlNVREZrTms5ak1uWmpiWEpGWDJWcFgwRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkWFdIUlNVREZrTms5ak1uWmpiWEpGWDJWcFgwRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOkdXWHRSUDFkNk9jMnZjbXJFX2VpX0E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109725433742819818550",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109725433742819818550?hl=id",
+      "name": "Widya Aryana",
+      "reviewerNumberOfReviews": 27,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVcdtjRMIfHbWIh008AmQLM8nGhBedoNiQo-sl15V0fsPcdx6YV=s1920-c-rp-mo-ba12-br100",
+      "text": "Teruntuk mbak” yg jaga hari ini tgl 9/7\n(Yg lipstiknya merah merona , ) tolong lebih ramah dan sopan ya , kasian costumer jd tdk mood\nNiat hati bli obat malah nambah sakit",
+      "textTranslated": null,
+      "publishAt": "sebulan lalu",
+      "publishedAtDate": "2026-07-09T08:31:37.932Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WeU0wUXhiVFYwUWtsc1ZFSktTbXBGYlRoc2ExRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21WeU0wUXhiVFYwUWtsc1ZFSktTbXBGYlRoc2ExRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOmVyM0QxbTV0QklsVEJKSmpFbThsa1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 3,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115292819379989524163",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115292819379989524163?hl=id",
+      "name": "Sukma Yanti",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUa16AhwTfdUHaGgwwdom_T8GulMTPUu5EkmyKY98WpEBZwY9U=s1920-c-rp-mo-br100",
+      "text": "Pelayanannya & tempatnya bagus, untuk ketersediaan obatnya juga terbilang lengkap",
+      "textTranslated": null,
+      "publishAt": "4 bulan lalu",
+      "publishedAtDate": "2026-04-16T00:50:35.126Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21kVlRteHBlV1Y1WlMxTlR6QlhPVzV0VmpaS2FXYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kVlRteHBlV1Y1WlMxTlR6QlhPVzV0VmpaS2FXYxAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOmdVTmxpeWV5ZS1NTzBXOW5tVjZKaWc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112831007190896002554",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112831007190896002554?hl=id",
+      "name": "I Gusti Ngurah Eka",
+      "reviewerNumberOfReviews": 46,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUFZcbZOMO0AjF7EymmBl8Lkf3yNN5w8SdLYhdNc4JWYPts0Prl=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "5 bulan lalu",
+      "publishedAtDate": "2026-02-21T04:42:57.137Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wRU9XWk1lSHBVYWtkeVFUSjRNMnRwVG14WWRYYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wRU9XWk1lSHBVYWtkeVFUSjRNMnRwVG14WWRYYxAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOnpEOWZMeHpUakdyQTJ4M2tpTmxYdXc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104243180772154000113",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104243180772154000113?hl=id",
+      "name": "Ni Nyoman Estiasih",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLDVsrZUgPR611mLF2Rdelv9VARf_EvCQo3SOyHrTFHWIcgBw=s1920-c-rp-mo-br100",
+      "text": "Harganya lebih murah",
+      "textTranslated": null,
+      "publishAt": "Diedit 7 bulan lalu",
+      "publishedAtDate": "2025-12-30T12:02:51.948Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ5Z05LY0tREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ5Z05LY0tREAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgID9gNKcKQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113613567822136353801",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113613567822136353801?hl=id",
+      "name": "Natalia Widia Pratiwi",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVOV0yMw_ZqNxpEWF8DsTDEOPltWvkvgZMRWtRd29h_ByUOHETX=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "7 bulan lalu",
+      "publishedAtDate": "2025-12-29T08:25:39.171Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT201elkwZFNVVXAwV25sWFgzTjJNWEZyZFZaUmRVRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201elkwZFNVVXAwV25sWFgzTjJNWEZyZFZaUmRVRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOm5zY0dSUUp0WnlXX3N2MXFrdVZRdUE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107622935493442904033",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107622935493442904033?hl=id",
+      "name": "Gung Dharma 2",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVOYa50AvRJMsuVRAirOQpuLvOA87sWZkhffrJtaBf8xk4Ok4M=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "8 bulan lalu",
+      "publishedAtDate": "2025-12-16T13:30:21.737Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsc2JGaGpZMnBNT1RFNE1XMWhhalpwVUhGdWJGRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsc2JGaGpZMnBNT1RFNE1XMWhhalpwVUhGdWJGRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOklsbFhjY2pMOTE4MW1hajZpUHFubFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107078258972233798388",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107078258972233798388?hl=id",
+      "name": "suardana made",
+      "reviewerNumberOfReviews": 29,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUz5GuxavJQLG0D4BYS8EkaBcILHGwhyWkFmQHXwM0S-C4Y2MHI=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-07-27T21:14:58.928Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tacE9WRldZMFJYTFRJMGNERkhWV0pOUVdGZlIxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tacE9WRldZMFJYTFRJMGNERkhWV0pOUVdGZlIxRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CAIQACodChtycF9oOkZpOVFWY0RXLTI0cDFHVWJNQWFfR1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116115186618389416629",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116115186618389416629?hl=id",
+      "name": "gintan aristi",
+      "reviewerNumberOfReviews": 26,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWQArVAy2AjSg4Rs_WlUqS15GQCPPQUHZMw4PHamPz7_uT-f2nY=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-04-12T05:59:22.015Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnTURJcmYybEFnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURJcmYybEFnEAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgMDIrf2lAg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114231567873764378521",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114231567873764378521?hl=id",
+      "name": "stdharmasadhu mandung",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJZcv2l4STbKpbUN6axueBOomJdtyFXTV0jWKRbd0rdVGAMmw=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-03-02T15:31:08.945Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnTUNRckxEaGJBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNRckxEaGJBEAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgMCQrLDhbA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112226001471401339536",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112226001471401339536?hl=id",
+      "name": "Frianka Tama Rani",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU9wu2IHfajNnpmuxhykPt5cnXPM6K4cgj4Nvs5H7vgEoEGqe0=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-03-02T15:30:05.516Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnTUNRck5DMFBREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNRck5DMFBREAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgMCQrNC0PQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103586616320462293744",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103586616320462293744?hl=id",
+      "name": "Edo",
+      "reviewerNumberOfReviews": 166,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVVs36r8b5bQGk8nc_OE7-gHDK0ewE4ehSc5fHrse0dzmGmx5zC=s1920-c-rp-mo-ba12-br100",
+      "text": "Obat lengkap",
+      "textTranslated": null,
+      "publishAt": "Diedit setahun lalu",
+      "publishedAtDate": "2025-01-26T05:18:43.709Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURQb2VLZlR3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURQb2VLZlR3EAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDPoeKfTw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106221893273038464892",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106221893273038464892?hl=id",
+      "name": "Lia cahyani",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVaJJuyEYbRbYaxqKRFgyuFjMRudkU57niZnSF495pSfDmn2VXV=s1920-c-rp-mo-br100",
+      "text": "ramahhhh,cepattt pelayanannya, dan lumayan lengkap🫡🫡🫡😽😽😽",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-11-02T06:18:32.996Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUMzOEllWWVnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMzOEllWWVnEAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIC38IeYeg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109667221726122057238",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109667221726122057238?hl=id",
+      "name": "NI KADEK AYU EMA KUSUMADAYANTI KUSUMA",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKiMmLUdAzI7ZwAY7h0Dm3ma2GhN2E0LfGJ9g3GB5BNN9LTAw=s1920-c-rp-mo-br100",
+      "text": "ramahh bgt pelayanannyaa sukaa\npegawainya juga cantik'🖤🖤🤎🤎",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-11-02T06:17:45.964Z",
+      "likesCount": 0,
+      "reviewId": "ChRDSUhNMG9nS0VJQ0FnSUMzOFB0QxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChRDSUhNMG9nS0VJQ0FnSUMzOFB0QxAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIC38PtC%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "114630317775792101313",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114630317775792101313?hl=id",
+      "name": "Komang satya",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUbYqoIIDRkZnwMDz5nBLikgN_tkABfiEBEUD5bQk96g5cYSeZB=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-09-11T10:23:59.280Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURIa0lpU1lBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURIa0lpU1lBEAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDHkIiSYA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111526230167677127994",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111526230167677127994?hl=id",
+      "name": "031_Ni Made Ayu Aprillia",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXvJPHn1-KfmXkcG5FFOIBjFgXHg8E3-3WGFvzT_hb10DZnELsa=s1920-c-rp-mo-br100",
+      "text": "Pegawai nya baikk,ramahh,selalu memberikan yg terbaik dehh pokoknya",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-08-24T03:55:37.326Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ3NXJmYkVREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ3NXJmYkVREAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgID75rfbEQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115735397714852226393",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115735397714852226393?hl=id",
+      "name": "058_Ni Made Tiara Putri Dwiapsari",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJgFA6mGLaTPtyMWfaVTz73mdA2YV5ol-yyvhVWoUTLAfIE08A=s1920-c-rp-mo-br100",
+      "text": "lokasi nya yg strategis , staff nya ramah",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-08-24T03:55:31.429Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ3NXJmZFRBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ3NXJmZFRBEAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgID75rfdTA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "111497660290426680762",
+      "reviewerUrl": "https://www.google.com/maps/contrib/111497660290426680762?hl=id",
+      "name": "Sembung Farma",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJk50jX5x2E-0917FZBOWzYy-yF2CWydarzXC5N-BpJZZHcQQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-10-05T01:43:33.971Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURaeFozQ0lnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURaeFozQ0lnEAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDZxZ3CIg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106579467979842223643",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106579467979842223643?hl=id",
+      "name": "Ayu Agung Wulandari",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVhh0CAIBb8fmj1nAPuHLdP3m7LaVuFWcc30aOAbT2A7HeakWZp=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-09-27T11:38:47.574Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURab3VQUUh3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURab3VQUUh3EAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDZouPQHw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115629373117025576633",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115629373117025576633?hl=id",
+      "name": "I Made Subur",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJeKQi3jSzk2d4NehVI2AQ1xsV67byp8wa94m7sjqljTMYWUw=s1920-c-rp-mo-br100",
+      "text": "👍👍👍",
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-09-27T07:16:24.657Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURad3VtMFZ3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURad3VtMFZ3EAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDZwum0Vw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101423919354006517042",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101423919354006517042?hl=id",
+      "name": "dsc himafarmaunbi",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW2m9QE-BBHdt50vyILN1yyGJgVh-WoxhI5s-kfgRDs70S85ug=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-09-27T06:32:02.446Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURad3ViVjhBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURad3ViVjhBRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDZwubV8AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112954764257664535461",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112954764257664535461?hl=id",
+      "name": "Wayan Putra",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK4um1hMfbIi0mm_Q5EevEi8ccKEB9YH4k-haDGCtf13gRrGg=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-09-27T06:31:33.702Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURad3ViQnNRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURad3ViQnNRRRAB!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIDZwubBsQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116373142927976135066",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116373142927976135066?hl=id",
+      "name": "Ni Nyoman Ariadi",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKbfUQgZG_ZEtQfuOm4IcVdqZpRGYjUuER5IlC_HEuZcIB38g=s1920-c-rp-mo-br100",
+      "text": "👍👍👍👍👍",
+      "textTranslated": null,
+      "publishAt": "6 tahun lalu",
+      "publishedAtDate": "2020-06-23T23:20:05.412Z",
+      "likesCount": 2,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM4NlBIS1J3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM4NlBIS1J3EAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgIC86PHKRw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100596627426901908519",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100596627426901908519?hl=id",
+      "name": "Putri Astari",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU--laOLr5oZfW3OpUTNYidaoasw20O52Re0qdqeqHWDA1Op0SfTQ=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2018-04-01T00:23:40.616Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNnaWRLb0xREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNnaWRLb0xREAE!2m1!1s0x0:0xbb631d38822f7ebe!3m1!1s2@1:CIHM0ogKEICAgICgidKoLQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Apotek & Farmasi",
+  "kategori": "Kesehatan"
+}

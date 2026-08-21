@@ -1,0 +1,1503 @@
+{
+  "title": "Mida Farma III Apotik",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Apotek",
+  "address": "Jl. Kartini No.49, Kesemen, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",
+  "neighborhood": "Kesemen, Sidokumpul, Kecamatan Gresik",
+  "street": "Jl. Kartini No.49",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61111",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "phone": "+62 31 3973672",
+  "phoneUnformatted": "+62313973672",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": -7.1662611,
+    "lng": 112.6398974
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RJMQ+FX Sidokumpul, Kb. Dalem, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJg6ShrkEA2C0R1FaJG90SISs",
+  "categories": [
+    "Apotek"
+  ],
+  "fid": "0x2dd80041aea1a483:0x2b2112dd1b8956d4",
+  "cid": "3107785958721410772",
+  "reviewsCount": 32,
+  "reviewsDistribution": {
+    "oneStar": 1,
+    "twoStar": 1,
+    "threeStar": 1,
+    "fourStar": 6,
+    "fiveStar": 23
+  },
+  "imagesCount": 29,
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-20T19:10:29.617Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 96
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "06.00 to 22.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "06.00 to 22.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "07.00 to 21.30"
+    },
+    {
+      "day": "Senin",
+      "hours": "06.00 to 22.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "06.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "06.00 to 22.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "06.00 to 22.00"
+    }
+  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Mida Farma",
+      "reviewsCount": 38,
+      "totalScore": 3.8
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotik Mida Farma",
+      "reviewsCount": 38,
+      "totalScore": 3.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Kimia Farma Kartini",
+      "reviewsCount": 158,
+      "totalScore": 4.2
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Mida Kalimantan",
+      "reviewsCount": 28,
+      "totalScore": 4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotik MIDA Farma",
+      "reviewsCount": 6,
+      "totalScore": 4.8
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "harga",
+      "count": 8
+    },
+    {
+      "title": "pelayanan",
+      "count": 2
+    }
+  ],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Pintu masuk khusus pengguna kursi roda": false
+      },
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ],
+    "Perencanaan": [
+      {
+        "Belanja kilat": true
+      }
+    ],
+    "Pembayaran": [
+      {
+        "Kartu debit": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Mida%20Farma%20III%20Apotik&query_place_id=ChIJg6ShrkEA2C0R1FaJG90SISs",
+  "searchPageUrl": "https://www.google.com/maps/search/Mida%20Farma%20III%20Apotik?hl=id",
+  "searchString": "Mida Farma III Apotik",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmysi2ma3qskietT6iTtPc50jyk56yFpWWWqbBvQAmczEZ26mtgzWL3Z2frLmcY-YJfZXTMigKy9txTFNLrwJxRB0-eqP2edfqPo9SnzBsDzyqnI9iRlXprN6uh11_dAaCxef_S=w408-h306-k-no",
+  "kgmid": "/g/11b6dgf1y_",
+  "businessProfileId": null,
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "113426262007633727938",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113426262007633727938?hl=id",
+      "name": "harist Lesmana",
+      "reviewerNumberOfReviews": 1119,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWETocOsXdVlg42WFfwZXQRwXG9-H9v_A-kk4PkA_O8eX-0j5bl6g=s1920-c-rp-mo-ba12-br100",
+      "text": "Keren",
+      "textTranslated": null,
+      "publishAt": "Diedit 4 bulan lalu",
+      "publishedAtDate": "2026-04-13T15:19:57.403Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURCbl9XY2ZnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURCbl9XY2ZnEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDBn_Wcfg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101563580540768083522",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101563580540768083522?hl=id",
+      "name": "eko pramono",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKPI7nPmoHTkrk7P4GvexOI9qAG1R49i62Cvlc7tdoWA79B8A=s1920-c-rp-mo-br100",
+      "text": "Layanan cepat,,",
+      "textTranslated": null,
+      "publishAt": "7 bulan lalu",
+      "publishedAtDate": "2026-01-15T04:34:19.913Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWSlJWcFBOM2RaY1ZOcVFYUldSbkpzYlU5dlduYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWSlJWcFBOM2RaY1ZOcVFYUldSbkpzYlU5dlduYxAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CAIQACodChtycF9oOlVJRVpPN3dZcVNqQXRWRnJsbU9vWnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "101950320703786584370",
+      "reviewerUrl": "https://www.google.com/maps/contrib/101950320703786584370?hl=id",
+      "name": "toko fara fashion",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL51LMoGLC7yu2Jzb9sc47Z8Fd041sSzPJjPZdmx3MSatUXdA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "10 bulan lalu",
+      "publishedAtDate": "2025-09-23T13:50:40.278Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sTGNXdFZiSE5KTVdwclQxaHhTRzFCZDI1aVJuYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21sTGNXdFZiSE5KTVdwclQxaHhTRzFCZDI1aVJuYxAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CAIQACodChtycF9oOmlLcWtVbHNJMWprT1hxSG1Bd25iRnc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117475664528491178641",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117475664528491178641?hl=id",
+      "name": "nana yulianti",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLyfeksO0_rEBeZucBidZCMeChQ2v_h8YXZzSC9-Asv9Y6vxA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "10 bulan lalu",
+      "publishedAtDate": "2025-09-23T13:49:42.408Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxalYwUnVVSE5FTkVWeWEwOWxkSFpqYVhSMmVFRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxalYwUnVVSE5FTkVWeWEwOWxkSFpqYVhSMmVFRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CAIQACodChtycF9oOk1jV0RuUHNENEVya09ldHZjaXR2eEE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "109393626017364051696",
+      "reviewerUrl": "https://www.google.com/maps/contrib/109393626017364051696?hl=id",
+      "name": "Endah SriRedjeki",
+      "reviewerNumberOfReviews": 36,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWRz0D5wp2wrMI-gaxdXp9Re7Z6Sk6_xHQqq2-756D2fPFqsIgIZQ=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-07-04T21:47:57.806Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWSU5EUlZUVzlqWTNoallrNVBTRkZsVVVGMU9GRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWSU5EUlZUVzlqWTNoallrNVBTRkZsVVVGMU9GRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CAIQACodChtycF9oOkVINDRVTW9jY3hjYk5PSFFlUUF1OFE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115119183813955727698",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115119183813955727698?hl=id",
+      "name": "Rizky Hadi Saputra",
+      "reviewerNumberOfReviews": 28,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXNcNG46_zVf8csaRNDZzGEKjZGc47XDfp6gKBkDEOXPuEbkDCc=s1920-c-rp-mo-ba12-br100",
+      "text": "apotek dengan ,harga bersaing , pilihannya lengkap , seharusnya melayani online jugha",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-04-11T11:30:02.277Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnTURJdWI3RzhBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURJdWI3RzhBRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgMDIub7G8AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104758253665751756180",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104758253665751756180?hl=id",
+      "name": "Muhammad Sholeh",
+      "reviewerNumberOfReviews": 34,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLkCJVjy-42nWQLs1jhhR0NupPWllI5-VhpK13-hnytfS2rMA=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2025-02-19T02:31:47.578Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnTUNnLWU2THBBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNnLWU2THBBRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgMCg-e6LpAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113025431652459700380",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113025431652459700380?hl=id",
+      "name": "iarcattleya",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVaTeH5atsxcYYieVNxodLxEOZlzcejev4YgCgZo1TRkmVnXOM=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-12-17T07:07:24.595Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR2NklUMTdBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR2NklUMTdBRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDv6IT17AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100085016868870291835",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100085016868870291835?hl=id",
+      "name": "Chamidah Alatas",
+      "reviewerNumberOfReviews": 43,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJqbKs6qxCcjQIoG3lmKfEvRBHHjLrKPNf5-zUpO_0CqVF36g=s1920-c-rp-mo-ba12-br100",
+      "text": "Pelayanannya baik.. Ramah sekali.. Terima kasih",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-10-15T16:12:11.215Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNYdXQzQzB3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYdXQzQzB3RRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICXut3C0wE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113256285803651580537",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113256285803651580537?hl=id",
+      "name": "Yasin Sin",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIN-7yQEBfxWzA1ko1UIYSvmPTBC3Mv3vRZr1-ujqYmgnSaTA=s1920-c-rp-mo-br100",
+      "text": "Baru di apotek ini saya cari obat tidak ada namun bisa langsung dipesankan,2 hari kemudian langsung dikabari obatnya sdh ready. Matur nuwun Mida, mbknya ramah masih muda2😁",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-09-07T03:42:14.742Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNINWI3M2tRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNINWI3M2tRRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICH5b73kQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112947880678529105505",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112947880678529105505?hl=id",
+      "name": "farrel Firdaus",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV1lxXmUv3_DytmWtcNRSbPq5HeYDC8OXE20-ft8H1rY3jpwXuf=s1920-c-rp-mo-br100",
+      "text": "Saya pendatang di Gresik. Saya may cari obat,dan saya menemukan apotik ini,  di apotek ini pelayanan nya top,  karyawan nya cantik2 dan ramah sekali, terima Kasih.....",
+      "textTranslated": null,
+      "publishAt": "setahun lalu",
+      "publishedAtDate": "2024-09-07T03:19:52.454Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNINWJLMW5RRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNINWJLMW5RRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICH5bK1nQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107294313372349804929",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107294313372349804929?hl=id",
+      "name": "anies syofyan",
+      "reviewerNumberOfReviews": 2048,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXooVgFC65KVzZ8CCgJ6H4nFMqYFIakqedpAF25ZYwSbo0SFN7XWw=s1920-c-rp-mo-ba12-br100",
+      "text": "Apotek tidak seberapa besar sebetulnya, tapi lokasinya cukup strategis di jalan raya utama serta dekat dari rumah di BP Kulon, dibandingkan cabang mida farma yang lain\nselain itu harga juga tidak mahal dibandingkan dengan apotek sekitar, persediaan & ragam obat juga tersedia banyak",
+      "textTranslated": null,
+      "publishAt": "Diedit 2 tahun lalu",
+      "publishedAtDate": "2024-04-17T05:54:24.146Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN0dWJXR253RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUN0dWJXR253RRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICtubWGnwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNCoVTFFC19n2HIKq8kSblSndQbFQqVZEAXg_XlZtvLp2j4sOaK9sX431Vt99sCm2EiT_cXTU0U_Ce2Dle53WfnwbXlUebp0ynCQcWTcc9jrBMRU87PwZvWO6GSolABl6FuScalRw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPK347vA0zJjczkOg-eSPy53h3rHzJaa3U2jgGJXtSiessQHfvpmJST0gzcQ7HU5Vd97Gu3w8KxDbawgT4UN7oKVghQxVjkRL8oks8H7WoUNJe8PMLvlqm6N6HQ0WDn6VN-bLY7=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMOqfZ-_rAV7z_QEZ9ACUJ4-GMZ68HBW69m7FcewVa6053ijrQtnR6FKQNukLWp0O7CkHjQDKcczDzt2d4CiuaR-0se3ZWAXqX6SWl4if8ZUP38OBISl6_s8SME9RzxliQEM8JiMw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4FmawpLImWRFF7zyAwHjXvPyStyprwycpOp43WuBUe4ibPFO-Cmt_7WI0RQRyyaF0FLOrtq5d2NgTbTwdWZxJ3Mbm-5xxg70ZLkXRcNMESgYzxrkQdysB43OVfOORFe79Ey5n=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO2CfuISCgI3QlIRgLhe5UZLkdIXtBWFgTTZWTvIfXu-NDwcOi63yL4WCP4oHhlpqswgxcl2zRgN3QemQjPtyoHRJEsO-sLS--iejKDVilanNrbm5BE-SMHWhs7jRtNDPV4n3gw=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "113281201874999861938",
+      "reviewerUrl": "https://www.google.com/maps/contrib/113281201874999861938?hl=id",
+      "name": "Dian Heri",
+      "reviewerNumberOfReviews": 459,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUO4QaDmnSCT9pEnunnsmsyh8gvjvGFArXvQmYN2w9QCqvAGkuV=s1920-c-rp-mo-ba12-br100",
+      "text": "Salah satu apotek mida di gresik jatim. Terletak di jl.kartini dekat dengan lampu merah ke arah giri\n\nLokasi tepat bersebelahan dengan istana boneka dan domino pizza\n\nParkir cukup utk 1 mobil saja dan kalo keluar agak susah krn dekat lampu merah. Kadang ada abang becak yg bantuin keluar dan tidak narif\n\nObat relatif lengkap meskipun ada ukuran gramasi yg kosong.. Jual kursi roda, kruk, dll juga",
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-12-09T00:08:59.330Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNWM2FQUDBBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNWM2FQUDBBRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICV3aPP0AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOIAFgXqpDZddqYqBa1bh_MOKvDDxyI_PaR_-uBWRbPUdu6EUjj9xnsL91cxDdV0MPKzfyzkxktXJ8q1CxshG0aRL4c81MjxRYrAbnUrZEZJme0uMW9QmbLZgwT0-tVVPJuBIPQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPGuYs9NEpUy6bVsK7PBd0N_fY2EsRd6B8OcoNHbCAXlVBqjF_3iGrsCF6oSmSqmYs38Y1vV6_7i1d2lTSCDFb6uGzi43_vcsPQlH6aqsHGT0IxwH2NPXqzCNjRbd6Ul8mv64YH9A=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMClzZbhUum9akM7T6NeIlbzqeDdCh7Jymvm1kvtmQYXBsz_YwC0acecetFANUS-yeR6RaYHmnYFX6rvlrAwQJgJ8LWiSqMtlGyAUTyd7kmPMxl9sAmmCt_l0b6UjHPL0nKKhk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOh9Ly-t5eDljrHi5K_7paf7X5re8u83EwZJfmmj3EzqbonRVbj_Ii_MVHslqa4IiqhLdRzcVF3G1GaKHXfc8wn8j07KHPA7qFl1vMY540YzjJ0vwmg1BRnR8x8yFT5dbMAfk9TlQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMwm_7dblU68LX02kADNpg0tKkhELlQVE8VYq_MakgeTQ5E064KdJqwJnjfEbQ88j-JlSIrzH5MpdJIMJZ7PoPePm6b3tK-CmlNFMgSQsd9kS84BvlZjheVJ0geBmUzVJp-P_M=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOUMiQV3SKs5ykcNibEEminUGupq6Ki1VXT5XgtpNxnM2E8wraumTPpd7449sMMtvmXa8U_PzM4RlvnvSfCBHmjj5i3HI3OH94oLagWHZ9epKG42GEUEgRPD2n5j1jsmDGPc5JH=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "104007056672842288107",
+      "reviewerUrl": "https://www.google.com/maps/contrib/104007056672842288107?hl=id",
+      "name": "FIRSTY YOGA R",
+      "reviewerNumberOfReviews": 127,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVw_jDMNYgNw4VtYw9NxgIOvYdqSID7hBp2WAKLbpy_6clmhDqP=s1920-c-rp-mo-ba12-br100",
+      "text": "Lengkap mantap",
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-10-29T10:57:16.007Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNGMmJ2NWRnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNGMmJ2NWRnEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICF2bv5dg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117680476925710170481",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117680476925710170481?hl=id",
+      "name": "Wahyudi Oris",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUKSGT4O7fJpiIttzs_s22BfkGvqjOoL6VOIytFsDvjbV4rnY8bHg=s1920-c-rp-mo-br100",
+      "text": "Pelayanan nya sangat bagus.ramah sama pasien .apotek yg sangat recommended utk warga Gresik",
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2023-05-16T09:11:02.339Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN4aHVtNUd3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN4aHVtNUd3EAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICxhum5Gw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115124183281040410256",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115124183281040410256?hl=id",
+      "name": "Iki zaki",
+      "reviewerNumberOfReviews": 61,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVmmp4PxEXgnpgzu7Adr-pRJn7MVMf4DzMJ0LOEb_LeUcaFhal7=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2023-05-14T22:17:36.952Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN4aXMzQlRBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN4aXMzQlRBEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICxis3BTA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115535536358188964283",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115535536358188964283?hl=id",
+      "name": "aditya rahman",
+      "reviewerNumberOfReviews": 236,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWtxj9FSG534azmtJnLvv_yTAlkD9UiPxTAykKR4dFkg9jX5Vki=s1920-c-rp-mo-br100",
+      "text": "Obatnya lengkap... Semoga pelayanan nya di tambah wajah senyum dan ramah kepada pembeli biar pembeli mrasa nyaman ketika baru dtang.",
+      "textTranslated": null,
+      "publishAt": "3 tahun lalu",
+      "publishedAtDate": "2022-12-20T17:29:19.490Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNCd3F1cnVRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNCd3F1cnVRRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICBwquruQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117234595843110859804",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117234595843110859804?hl=id",
+      "name": "Hari Sutomo",
+      "reviewerNumberOfReviews": 35,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVhnIIQeMxTlT6O5QyB4S6JtbnSn8f9DdTbFC7j0AoCDPi6Gh3w=s1920-c-rp-mo-ba12-br100",
+      "text": "Memesan gosend dobel order namun pegawai tdk merasa tanggung jawab....kami kecewa dgn ulah yg tdk merasa kalau membuat dobel order...",
+      "textTranslated": null,
+      "publishAt": "5 tahun lalu",
+      "publishedAtDate": "2021-05-10T07:31:05.002Z",
+      "likesCount": 0,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURLcHFlZC13RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURLcHFlZC13RRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDKpqed-wE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112555676743512043091",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112555676743512043091?hl=id",
+      "name": "Mas Rahman",
+      "reviewerNumberOfReviews": 132,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVamqYLTihNpmfu4-18-Swz011GiKXNwQIxwit7aW6xepUazIDv=s1920-c-rp-mo-ba12-br100",
+      "text": "Toko obat yang lengkap dikota gresik.\nIni merupakan toko cabang\nLengkap dan harga standart",
+      "textTranslated": null,
+      "publishAt": "5 tahun lalu",
+      "publishedAtDate": "2020-09-17T00:57:44.874Z",
+      "likesCount": 2,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURDak83OEp3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURDak83OEp3EAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDCjO78Jw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNV4szbKuCxZ4mDH83qXuLYV6h8i5wTVzZZtL-I7PveK0TsLgWr-r_1J7C1qu0hGBK9krHfWjzzi_nhKVpIwgdOQWs08Cg7QM4vriFjSg0LLL6eOOHXbr2jHhYBkT9rzoHP7x24=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116809052768877560745",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116809052768877560745?hl=id",
+      "name": "Baggio Cavendish",
+      "reviewerNumberOfReviews": 81,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWss-HFE4RHv9S3cU4P7w-1YBCqHCdnTKA6SUHHjVqDF5f4aHQK=s1920-c-rp-mo-ba12-br100",
+      "text": "Apotek Mida Farma\n_ cabang kartini\n\nMelayani penjualan obat umum & Resep\nBeserta alat kesehatan, seperti kursi roda, kruk, walker, tabung oksigen, dll..\nHarga relatif lebih murah, jika di bandingkan banyak Apotek di Gresik.\nKetersediaan barang lengkap..\n\nTerletak di jl. Ra. Kartini no.49 Kebomas - Gresik\nsebelum perempatan Kebomas.\n\nTersedia parkiran yang lumayan luas, buat mobil bisa..",
+      "textTranslated": null,
+      "publishAt": "Diedit 6 tahun lalu",
+      "publishedAtDate": "2020-04-14T09:04:24.016Z",
+      "likesCount": 3,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNjMF9IcFF3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNjMF9IcFF3EAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICc0_HpQw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPrh8yEAZmry2_2iFiO5qybXmIER4VLzfyikjqypGbUPCiEvlO78i2BBUUDtlSnQlwDZiVmw3b_0SezKEQAs59SDdfl-ZpISL7PtlA7UDayDOtiLRhQyX6h6RyHcqPuTMyyhQE=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOxiARRwop3ziwF6J4CdN9qi9wVfkaCAWr-oUxE0dPZBSF3BX7ugiM0to79deVNmsaNawcRFhPzB0D5Y-1b5cILPWb0rTuhIQUfrBHgRHW8jgiknxrYQltTCBk44IGr01hjFvZW=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO31gwLYGO6-_QOj5XWW6skDXiNJejOIJnv0GPt--5XwLrgOGbq1Rt6COxo0HIOLFXc-YrAq_VaP9UmYjqkWiAX6xmHLbLkLwVAKS2H5IoJF_6MA1APhK7fITssP-Fewfyh7eQk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN_E2H3ionE4GkDOJ5zRc6cWRN_Ko9zdxG5NIZORnvBEcZARCloo7HejwrHgVn4zj6bzdywVRDtpRnZoe3RADTJjFyQcZczsM6xtdqWijvsF_pZLkhlbY-TWEAiSMCWzjUlr1cd=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO570xjx7nYl8QH3r2QFtV3h_dPRL7bVPFSq7Sp3pmmlh7TsUJZuR1UHYwYw8U8kug8AWTozLTDcHYvsFShrxuhCaRluNjxTILKi5ZYTQ4W_8FprHEuSjedPuuYQgBcQ5DjIHs=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112808167312318414250",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112808167312318414250?hl=id",
+      "name": "Jurex Hantono",
+      "reviewerNumberOfReviews": 56,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUpzk3YIqmwLnzMq58IgQ3K9PDT_ewhbciLQS9AyKKN-64Knkcm=s1920-c-rp-mo-ba12-br100",
+      "text": "Lengkap paling dekat",
+      "textTranslated": null,
+      "publishAt": "6 tahun lalu",
+      "publishedAtDate": "2020-02-15T14:25:53.181Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNzMjRXbnZ3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNzMjRXbnZ3RRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICs24WnvwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "115737700273415215336",
+      "reviewerUrl": "https://www.google.com/maps/contrib/115737700273415215336?hl=id",
+      "name": "irham H",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUBJbI7ZfS1G5yKizgZNhZLLA2YAdabkiBqoUC1vuWvdZvJlRv0uw=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 tahun lalu",
+      "publishedAtDate": "2019-12-18T21:27:24.828Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURNOUlXS1NBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURNOUlXS1NBEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDM9IWKSA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "112462046269149428891",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112462046269149428891?hl=id",
+      "name": "Arif Dito",
+      "reviewerNumberOfReviews": 29,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW3aRDANb-H7VKx3bh2CZxhskv4u0lPGZAXGQ4666A_LwjiYuPg=s1920-c-rp-mo-ba12-br100",
+      "text": "Apotek lengkap. Dan tempat terjangkau",
+      "textTranslated": null,
+      "publishAt": "7 tahun lalu",
+      "publishedAtDate": "2019-04-19T03:08:46.103Z",
+      "likesCount": 2,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNZMDRIOE53EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNZMDRIOE53EAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICY04H8Nw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100426454447908692457",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100426454447908692457?hl=id",
+      "name": "Sagung Aditya",
+      "reviewerNumberOfReviews": 547,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUEwLKdaJctTalMLRxaLRweRKcSdDib1N07EPiLZk70TxP5vmxOhQ=s1920-c-rp-mo-ba12-br100",
+      "text": "Ada beberapa cabang, parkiran luas dan cukup utk mobil.\nLokasi dekat dengan traffic light",
+      "textTranslated": null,
+      "publishAt": "7 tahun lalu",
+      "publishedAtDate": "2019-03-19T13:02:23.016Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURvZy1xQnZ3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURvZy1xQnZ3RRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDog-qBvwE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP7AwY0Ty-JglSjehd6S1cwqc9oExeW5TydMyFLGxbRwXCLiR2P4pJE8Fa9dJaYj3ECRGbHhIXK6E88sOXA8lcLuzoci4XYEebg5t09obGT2Xw-x_gGSm4prRDBzQRwV_IrPF9S=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMd_HFeWucZ6_rbwI6CeHVZBbqxjL8jwHunAvyE0Q41W27JGC6nYn-9d5QN7ENN9exqAeaG5VNU_0u-UGXfK5umbdbds5BgTXaSLtl34wax1KmGT92A8GyDmjuzRj4o6o-1biwk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOwsvsHBKP8yk5A-_o5tctQQXb140aWE3Fyh-Lqq7aOkYkO99K9cUXVMO6T1iajFiL0wIpqzQS9NpHcJup5XiWdgGBdXPQA5vLpe51bCjPH_cC4nnc9dx3XVDYwOd_uwBbRuzSE=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106382207919586566410",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106382207919586566410?hl=id",
+      "name": "Achmad Fatik",
+      "reviewerNumberOfReviews": 250,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIac2YK3L7pYTpoiqvbhXYGa_mdZNCeN61C6Xxom1THxgYg_g=s1920-c-rp-mo-ba12-br100",
+      "text": "Murah harga obatnya dibanding yg lainnya",
+      "textTranslated": null,
+      "publishAt": "7 tahun lalu",
+      "publishedAtDate": "2018-10-27T00:24:38.992Z",
+      "likesCount": 3,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR3bXQycWtRRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR3bXQycWtRRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDwmt2qkQE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 3,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100878496014619707844",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100878496014619707844?hl=id",
+      "name": "Susanti N.S",
+      "reviewerNumberOfReviews": 800,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXGTkISuGQfgOSwe8qY6yQhai64nuAhByfoJ3GoEF6YEJ54-J4K=s1920-c-rp-mo-ba12-br100",
+      "text": "Silakan datang jika mencari obat (yaiyalah)",
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2018-05-15T09:57:50.180Z",
+      "likesCount": 2,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURBdmMtWWtBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURBdmMtWWtBRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDAvc-YkAE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 4,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "103863673075012463970",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103863673075012463970?hl=id",
+      "name": "Faizah Chadijah",
+      "reviewerNumberOfReviews": 104,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWeEIfbY9cEuux-yP0MCXVzn4VcNVbqnjMrn8dLi9yh1Ox1Mb6t=s1920-c-rp-mo-ba12-br100",
+      "text": "Lengkap obatnya, harga murah, pelayanan ramah dan cepat",
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2018-03-12T07:40:34.216Z",
+      "likesCount": 2,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURBX2ItcFJBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURBX2ItcFJBEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDA_b-pRA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108291423220412607696",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108291423220412607696?hl=id",
+      "name": "Toni aza",
+      "reviewerNumberOfReviews": 3,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUCCoK91Z3_5XU78YqYwQuCVfxV3BlRvJ-hd3T6oEG72OvvQER=s1920-c-rp-mo-br100",
+      "text": "harga murah & pelayanan cukup baik..salam buat apotekernya....mbak fita :D",
+      "textTranslated": null,
+      "publishAt": "Diedit 8 tahun lalu",
+      "publishedAtDate": "2018-03-03T23:25:57.740Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNBNThlOTJBRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNBNThlOTJBRRAB!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICA58e92AE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "100854133338386896654",
+      "reviewerUrl": "https://www.google.com/maps/contrib/100854133338386896654?hl=id",
+      "name": "abee rocknblues",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIlFZw9BtgrIVInefBmeNX2DReZ3sjlwN6CariwU2fkotgmzA=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2018-01-10T08:41:22.510Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN3X3FYLUVnEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN3X3FYLUVnEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgICw_qX-Eg%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 2,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105662109712017972328",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105662109712017972328?hl=id",
+      "name": "dave",
+      "reviewerNumberOfReviews": 13,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV6z1_hfN7ef2HeOfWMPk7Apts-SQwCCujUqNhy5lh4q-2NQWA6=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "8 tahun lalu",
+      "publishedAtDate": "2017-11-13T13:29:18.022Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURRdktHYllBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURRdktHYllBEAE!2m1!1s0x0:0x2b2112dd1b8956d4!3m1!1s2@1:CIHM0ogKEICAgIDQvKGbYA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Apotek & Farmasi",
+  "kategori": "Kesehatan"
+}

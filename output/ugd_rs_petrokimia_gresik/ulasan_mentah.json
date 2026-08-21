@@ -2,6 +2,7 @@
   "title": "UGD RS Petrokimia Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Unit Gawat Darurat",
   "address": "Jl. Jenderal Ahmad Yani No.69, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",
@@ -47,7 +48,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-08-06T13:14:58.635Z",
+  "scrapedAt": "2026-08-20T22:20:53.461Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,10 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Jumat",
       "hours": "Buka 24 jAM"
@@ -86,26 +83,31 @@
     {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Petro Graha Medika",
-      "reviewsCount": 17,
-      "totalScore": 4.5
+      "reviewsCount": 18,
+      "totalScore": 4.4
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Muhammadiyah Gresik",
-      "reviewsCount": 1937,
+      "reviewsCount": 1971,
       "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Lobby RS.GRAHA HUSADA PETRO KIMIA",
-      "reviewsCount": 7,
-      "totalScore": 5
+      "reviewsCount": 8,
+      "totalScore": 4.5
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -116,7 +118,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Grha Husada",
-      "reviewsCount": 544,
+      "reviewsCount": 566,
       "totalScore": 4.6
     }
   ],
@@ -171,8 +173,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvzWry6TqePOf6ROo4DBPiEHkkFe332u1-QY-3Ns4LurS36AkeipLshB7hKBRJN9FHtlyzM9be4ZcCF7qlt8m6P7p2_u_v4Nnah9gWsD7AluQKk6BEaXEdFNbM2ImA7yA1sytr=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlFmhEZS2PsFO1FI61ZF--Gh0VHvGzBS_yWy0fRLV29EQXW_-pzih1iDzqF8ggNQLWWD9FkUVRI_86Ab0ybrWDHl86xhzv_LioPxjswdc5FAAKMrYK4kug1J5Z3Qjqso4WkI6S5=w408-h306-k-no",
   "kgmid": "/g/11cp09rwgx",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -193,7 +196,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJXyNYhHdFzSCVOf8VW9NSGdELUg1DHFqUwY0EkiZG_WwlSnw=s1920-c-rp-mo-br100",
       "text": "Perawate lambat",
       "textTranslated": null,
-      "publishAt": "3 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-13T03:56:04.942Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWT1dqQldiMnhQVjNOMGJ6RXpSVVpGYlVoR2NHYxAB",
@@ -219,7 +222,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUYTH6T0rr3Bgkw9oJwba5gXKg6PZ7KUhrhmm6gPlFj6qpCQPM=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-17T13:23:55.305Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21aTlRFeFBOVzl0UVZGd1h6bDZhUzFGU0RFM2VYYxAB",
@@ -271,7 +274,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWICSepNkBSfvpXYATTNeLnAnIYisKFf-5J6h9QuaYVRzLJ7qk=s1920-c-rp-mo-br100",
       "text": "Penanganan cepat dan tepat",
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-10T06:49:33.143Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25aV2NtdDBWVTVmV1Zkck0yRnZjVkpWV0hWbVZXYxAB",
@@ -292,7 +295,7 @@
       "reviewerId": "117573812988323275242",
       "reviewerUrl": "https://www.google.com/maps/contrib/117573812988323275242?hl=id",
       "name": "Haryanto Suharno",
-      "reviewerNumberOfReviews": 645,
+      "reviewerNumberOfReviews": 657,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV2KPx4FilDUpJ8M9UDqB0xQuN2MI1REbi7jIm40FmGVaYHOBJi=s1920-c-rp-mo-ba12-br100",
       "text": "Tempatnya bagus bersih ber AC, toilet bersih.... Pelayanan cepat... Ramah....",
@@ -308,7 +311,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOsTEN1kHy5eQJOh9EC34M0qzxVtrEN3k71zYdQL1xIDqvcbis2FXrVKhIIacsD3cYIg5r3Qc2SH3YYOkh4_JZy5KES8LtRcPBGFY2wIYB_gSLRa4eTS_sz3USLmo5AEACH_gKUCc2GXGml=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPx-pEa8zV1ATFcrAVqTpDD8EIKMoe_t1aLe_tusfJK7f9o9yVx6jgBtrAHqsxoqBf4oIVs-mD-eEEpfnDJ4CfzoMmbdrIK3sGAoYPQmMk5moX-CoLyWyaODBCOY4c5VC4gbyJx3Tc8cQmv=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -320,7 +323,7 @@
       "reviewerId": "107780409007292562853",
       "reviewerUrl": "https://www.google.com/maps/contrib/107780409007292562853?hl=id",
       "name": "Dio Edi",
-      "reviewerNumberOfReviews": 170,
+      "reviewerNumberOfReviews": 171,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW9PSKiVumLYsmv3bfcRTzOQz34t_E-3znji4pvVi-iNa0BMIvc=s1920-c-rp-mo-ba12-br100",
       "text": "Respon dan tindakannya cepat, pasien dibuat nyaman",
@@ -377,7 +380,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUJrjWHzox8Mhe4-0_c_uBRIEEOKQXqngH-1YgpUy8ENUCcyB5N=s1920-c-rp-mo-ba12-br100",
       "text": "selalu melayani dengan sepenuh hati dan cekatan. layanan dari dulu sampai dengan sekarang tidak pernah mengecewakan. terima kasih dokter dan perawat yg sllu bekerja dg hati, semoga sehat dan sukses selalu. saran sy hanya satu...toilet sebelah UGD sedikit perlu diperhatikan😁🙏",
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-03-19T12:56:31.347Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xkRlEydHFXVVZNU2kxemRWWmlPVE54UkVNNVoyYxAB",
@@ -403,7 +406,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUslD4fSvThXw2gqbM6vuH8rvHBsZwQ5C1zjwE1MAozlWrbRm8d=s1920-c-rp-mo-br100",
       "text": "Pelayanan cepat dan memuaskan👌",
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-03-18T05:11:38.840Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSR1ZIZFdhWE5LWjFoSVNrd3dTM1ptWVVGRVNuYxAB",
@@ -429,7 +432,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKUOVI9XunYL9C1RsYVvSyeH9JtF1a9XaBoxsT3GYnshpQDIg=s1920-c-rp-mo-br100",
       "text": "Pelayanan lumayan cepat",
       "textTranslated": null,
-      "publishAt": "4 bulan lalu",
+      "publishAt": "5 bulan lalu",
       "publishedAtDate": "2026-03-13T15:13:59.931Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKYVVuRXpTMUptVjI0emJrTm1hMkp0VmkxUllWRRAB",
@@ -466,7 +469,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNzRnVJB6-Li-TOBGpc59-Gy-kmFkjhkDZV0rRIeHo_vZdPyzPW5Vvq9S_JR31yV4njhddAx3bxyAiSjV_qgshhPEkv0o8wzvAqKRr_eR_qP5zsCqtdtoht8KPrYRiznny6So19W_m2Vsg=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOOXE0Ct0QM9pHALQm0d0u4v_MFFRoyraB-CDVmuUXYte0GF3Vvmus-jF7RTDWM3XcTeNk6dlg6CeD7P_PwPd4fRNu9nBg3MlWnxPHJqrGdQfw1w7uRMCSlDTyzqFLgLjb7oJjGw_2cfF4=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -483,7 +486,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJAzgZ5b6DOOW22b4D_K1rX-ICPIJ3Ejl2UwlL8XdiGCCbx=s1920-c-rp-mo-br100",
       "text": "Pelayanan cepat👍👍👍",
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-02-19T08:41:16.477Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2kwMWIwZDNjRVZMU0hRNWVuZEZiMkpJVjI1UFVuYxAB",
@@ -509,7 +512,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKxd1qWJ22QPAvEp7Xk4rp9RHcErFK4VB6hQrPO83nm8j9eGJF9=s1920-c-rp-mo-br100",
       "text": "Setuju dg ulasan di 6 bulan lalu, tau bgt beban kerja perawatnya berat bgt, tapi salah satu aspek perawatan pasien kan dg pelayanan yg baik, klo ada pasien tanya baik baik gausa dijawab ketus, ga semua perawat kyak gitu.  Tapi dengan 1 perawat gitu nilai pelayanan jadi berkurang bgt\nDan tambahan lagi, nunggu 5 jam di igd buat dapet kamar, apalagi pasiennya anak bayi, duuh baru ini kecewa",
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-08T08:08:56.418Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w5RVRVTXRZblIzTVcxeVRqUklRV1l4ZEVsTVoyYxAB",
@@ -546,7 +549,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPbo1ZZzu1WBBRA3Gq9r_uSTKwyL2shMvJO_qMEDEOnL18Nx_GspUJmAeWKk-UPExmHK1JLXsfdrzo34mtspzi0XS-0nizjbKUaDHyUF-sjU26nELNtMnt1_vJyz7uGJABTlbdY2A=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOUw24GyfNiU7nbqZnuWtroSC5hupT3A5PXoC3BpnknHGKp3frh022K09BTtiNM3jZN7nwSvUPF5IEJgy_rufuQEKlOUYOqxRlnQDlGeEy9BXauLWazW4TjUzeiw8GmS0CqGc3FtA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -610,7 +613,7 @@
       "reviewerId": "114747368777278653246",
       "reviewerUrl": "https://www.google.com/maps/contrib/114747368777278653246?hl=id",
       "name": "HDi Aditya",
-      "reviewerNumberOfReviews": 24,
+      "reviewerNumberOfReviews": 26,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXGho_ZqPvKZsgXTMbVfxkbUxCGL5AvU5Wzn-ASX-drqa316kdl=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -636,7 +639,7 @@
       "reviewerId": "104040214205728025749",
       "reviewerUrl": "https://www.google.com/maps/contrib/104040214205728025749?hl=id",
       "name": "Widarti Hadi Suprapto",
-      "reviewerNumberOfReviews": 698,
+      "reviewerNumberOfReviews": 695,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4EVs49ECjWlqnBRlV6zh44ssDkK_l_bA-BCelPORRI34g4w=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -756,8 +759,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP7rIDRczRm5ylZmrU-0zeHBoU5Z5QBqEQxHuM5q1kt48LW7vbOzUQgcfoeEAKUO8bcS0Bqa0Iho0AZTTNRtnP32AfrWzCbtl7M2y4Pw9FEO0GqVZTUFrHtu5JROwnmNMmX7EVdRg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMVCkqAZ2EnZM_1wfaa_UhbhryulvjADepj6lqUKlb6EXo8xwjYA1E2U28hPtcYCumkX0B6VGCW8bKfxnb6H4QzJPhvw3p-STGX6CfXeNficW4mUpvvk-fmmzT_rpLmak0oEPU=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMxki4Hs5Z6eNz3ozRN2C4uol3Z7TuNYa8hU5atftfDA4iX1byrs73VfdhdWJ-uUPUiks0QRq53qC0itWOdEVrRYFcuTKg7DduAhN4yMQY0gOwuGHH27Ap_diyjup1m83qJpUaA3w=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-aBqEG5TnDbeNhO3l088EwjSlAYbXql2o2Gd_B-nSTTGNuLFC8a7iZ_65vvMvwT_WoIYCDg3TqS-4gBNGVzmuluEPBTspuhJQcoiYVLxYvB3aTgXBZrT2Fydb-pNDUV46wa8=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -769,7 +772,7 @@
       "reviewerId": "111452469294252561721",
       "reviewerUrl": "https://www.google.com/maps/contrib/111452469294252561721?hl=id",
       "name": "Fajar Setiyawan",
-      "reviewerNumberOfReviews": 269,
+      "reviewerNumberOfReviews": 270,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU3MPKjBZiECFoxs3Ep5XYtv81zyfkPIuCU4EJm_aiNwOzGiDU=s1920-c-rp-mo-ba12-br100",
       "text": "👍👍👍👍",
@@ -949,5 +952,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Rumah Sakit",
   "kategori": "Kesehatan"
 }

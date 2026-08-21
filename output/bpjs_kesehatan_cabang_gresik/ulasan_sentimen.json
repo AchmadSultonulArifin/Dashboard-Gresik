@@ -1,17 +1,94 @@
 {
-  "kategori": "Pelayanan Publik",
+  "key": "bpjs_kesehatan_cabang_gresik",
+  "kategori": "Kesehatan",
+  "sub_kategori": "BPJS Kesehatan",
   "tempat": "BPJS Kesehatan Cabang Gresik",
   "rating": 5,
-  "total_ulasan": 21,
-  "positif": 21,
+  "total_ulasan": 20,
+  "positif": 20,
   "netral": 0,
   "negatif": 0,
   "persen_positif": 100.0,
   "persen_netral": 0.0,
   "persen_negatif": 0.0,
+  "latitude": -7.1685731,
+  "longitude": 112.5883731,
   "ulasan": [
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "Dinda Indriana",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T03:48:10.536Z",
+      "Ulasan": "proses cepat ga ribet, semua staff sangat baik💗",
+      "teks_final": "proses cepat ribet semua staff baik",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.7516
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "Yere Lee",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T02:02:06.944Z",
+      "Ulasan": "Sangat cepat pelayanannya",
+      "teks_final": "cepat pelayanannya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9964
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "Rinky Panggulu",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T11:58:09.562Z",
+      "Ulasan": "Prosesnya cepet bngt, bapak satpamnya ramah, di tunjukin caranya, mbak2 petugasnya juga ramah plus cantik Antrinya gk lama juga Di bantu sedetail mungkin Dulu pernah kesini 2024 Awal bulan kemarin dateng lagi urus bpjs ortu Cepet bgt, alurnya jelas, tempat nya bersih dingin dan luas juga",
+      "teks_final": "prosesnya cepet banget bapak satpamnya ramah tunjukin caranya mbak2 petugasnya ramah plus cantik antrinya lama bantu sedetail mungkin dulu pernah kesini awal bulan kemarin dateng urus bpjs ortu cepet banget alurnya jelas tempat bersih dingin luas",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9954
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "Harist bajuber",
+      "Bintang": 5,
+      "Tanggal": "2026-08-07T06:25:17.316Z",
+      "Ulasan": "Pelayanan cepat dan mudah dimengerti",
+      "teks_final": "pelayanan cepat mudah dimengerti",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9949
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "Izzull Maulana",
+      "Bintang": 5,
+      "Tanggal": "2026-08-07T01:23:48.394Z",
+      "Ulasan": "Pelayanan ramah cepat dn jelas. Maksih Bu yati",
+      "teks_final": "pelayanan ramah cepat dn jelas maksih bu yati",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9648
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "muhammad nasrullah",
+      "Bintang": 5,
+      "Tanggal": "2026-08-03T02:38:38.403Z",
+      "Ulasan": "Tempat sangat nyaman, pelayanan jg sangat ramah.. Pengurusan jg cepat.",
+      "teks_final": "tempat nyaman pelayanan ramah pengurusan cepat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9951
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Wishnu E. W.",
       "Bintang": 5,
       "Tanggal": "2026-07-20T15:35:57.782Z",
@@ -22,7 +99,8 @@
       "sentimen_score": 0.9916
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Radenmoh Ilhamyahya",
       "Bintang": 5,
       "Tanggal": "2026-07-13T05:45:30.855Z",
@@ -33,7 +111,8 @@
       "sentimen_score": 0.9949
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Abdul Kafi",
       "Bintang": 5,
       "Tanggal": "2026-06-29T02:53:19.322Z",
@@ -44,7 +123,8 @@
       "sentimen_score": 0.9972
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "arif fidyanto",
       "Bintang": 5,
       "Tanggal": "2026-06-26T07:19:49.909Z",
@@ -55,7 +135,8 @@
       "sentimen_score": 0.9937
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Nurendo Imam Putra",
       "Bintang": 5,
       "Tanggal": "2026-06-26T07:07:59.872Z",
@@ -66,7 +147,8 @@
       "sentimen_score": 0.9956
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "naira putri",
       "Bintang": 5,
       "Tanggal": "2026-06-25T08:56:35.891Z",
@@ -77,7 +159,8 @@
       "sentimen_score": 0.9911
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Shinta Ayu RH",
       "Bintang": 5,
       "Tanggal": "2026-06-24T07:47:52.410Z",
@@ -88,7 +171,8 @@
       "sentimen_score": 0.9923
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "AGA electrical",
       "Bintang": 5,
       "Tanggal": "2026-06-24T07:00:08.612Z",
@@ -99,7 +183,8 @@
       "sentimen_score": 0.9862
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "rizal ahmad",
       "Bintang": 5,
       "Tanggal": "2026-06-24T04:17:45.034Z",
@@ -110,7 +195,8 @@
       "sentimen_score": 0.9961
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Rifki Chanel",
       "Bintang": 5,
       "Tanggal": "2026-06-24T03:59:24.234Z",
@@ -121,7 +207,8 @@
       "sentimen_score": 0.9915
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Baru",
       "Bintang": 5,
       "Tanggal": "2026-06-24T02:16:26.783Z",
@@ -132,7 +219,8 @@
       "sentimen_score": 0.9952
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Hadi Poernomo",
       "Bintang": 5,
       "Tanggal": "2026-06-23T07:08:56.097Z",
@@ -143,7 +231,8 @@
       "sentimen_score": 0.994
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Masrifah",
       "Bintang": 5,
       "Tanggal": "2026-06-23T05:19:23.699Z",
@@ -154,7 +243,8 @@
       "sentimen_score": 0.9964
     },
     {
-      "Kategori": "Pelayanan Publik",
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Sarofah Muyas",
       "Bintang": 5,
       "Tanggal": "2026-06-22T06:22:12.577Z",
@@ -163,83 +253,6 @@
       "topik": "Lainnya",
       "sentimen": "Positif",
       "sentimen_score": 0.9024
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "Kentang Goreng",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T15:41:48.812Z",
-      "Ulasan": "Best banget, jam 10 pagi tadi hari rabu datang dengan istri ingin penambahan langsung di jelasin sama bapak satpam mas Wahyu kalau gk salah di jelasin dengan detail tentang dari perusahaan gimana, untuk yang ikut kis gimana, top banget mudah di pahami. Lalu sama mbak mbak di bantuin masuk mobil jkn untuk bisa ngecek dan merubah data sendiri dirumah, semoga selalu konsisten",
-      "teks_final": "best banget jam pagi tadi hari rabu datang istri ingin penambahan langsung jelasin sama bapak satpam mas wahyu salah jelasin detail tentang perusahaan gimana ikut kis gimana top banget mudah pahami lalu sama mbak mbak bantuin masuk mobil jkn ngecek merubah data sendiri dirumah semoga selalu konsisten",
-      "topik": "Keamanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.964
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "Harita jaya Abadi",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T04:33:42.227Z",
-      "Ulasan": "Layanan sangat memuaskan",
-      "teks_final": "layanan memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "Dwiana Oktavianti",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T04:01:52.793Z",
-      "Ulasan": "Pelayanan ramah dan cepat",
-      "teks_final": "pelayanan ramah cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "Salman Opir",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T03:02:29.984Z",
-      "Ulasan": "Alhamdulillah pelayanan nya baik is the best BPJS kesehatan gresik  Terima kasih atas layanan nya🙏",
-      "teks_final": "alhamdulillah pelayanan baik is the best bpjs kesehatan gresik terima kasih atas layanan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9736
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "Didiet Purwantoro",
-      "Bintang": 5,
-      "Tanggal": "2026-06-17T02:52:21.262Z",
-      "Ulasan": "Pelayanannya sangat bagus",
-      "teks_final": "pelayanannya bagus",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9974
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "DARJANTO SH",
-      "Bintang": 5,
-      "Tanggal": "2026-06-14T20:37:25.232Z",
-      "Ulasan": "sangat berkualitas",
-      "teks_final": "berkualitas",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9964
-    },
-    {
-      "Kategori": "Pelayanan Publik",
-      "Nama Reviewer": "Andi 26",
-      "Bintang": 3,
-      "Tanggal": "2026-06-12T10:57:31.877Z",
-      "Ulasan": "Saya ke sana baru sekali, kalau di meja konter, pelayanannya enak dan jelas, cuma waktu di awal, kenapa harus security/satpam yang Nerima pendaftaran kita, karena kemarin kayaknya saya misinformasi, jadi ada kendala, untungnya di bantu sama pihak puskesmas Manyar, kalau bisa itu petugas dari BPJS sendiri yang bisa ngejelasin produknya, toh kalau pun security yang njelasin, paling tidak bukan yang kena rolling pos ya.",
-      "teks_final": "sana meja konter pelayanannya enak jelas cuma waktu awal kenapa harus security satpam nerima pendaftaran kemarin kayaknya misinformasi jadi kendala untungnya bantu sama pihak puskesmas manyar petugas bpjs sendiri ngejelasin produknya toh security njelasin paling bukan kena rolling pos ya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.5591
     }
   ]
 }

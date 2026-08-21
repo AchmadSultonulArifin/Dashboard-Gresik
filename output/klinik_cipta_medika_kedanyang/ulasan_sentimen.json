@@ -1,0 +1,42 @@
+{
+  "key": "klinik_cipta_medika_kedanyang",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Klinik & Praktek Dokter",
+  "tempat": "KLINIK CIPTA MEDIKA KEDANYANG",
+  "rating": 4.4,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1858811,
+  "longitude": 112.6157827,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Abdul Wahid",
+      "Bintang": 5,
+      "Tanggal": "2026-08-20T02:45:36.044Z",
+      "Ulasan": "Pelayanan bagus",
+      "teks_final": "pelayanan bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9969
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Klinik & Praktek Dokter",
+      "Nama Reviewer": "Kataya 19",
+      "Bintang": 5,
+      "Tanggal": "2026-08-20T02:20:46.053Z",
+      "Ulasan": "Ramah dan nyaman tempatnya",
+      "teks_final": "ramah nyaman tempatnya",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9971
+    }
+  ]
+}

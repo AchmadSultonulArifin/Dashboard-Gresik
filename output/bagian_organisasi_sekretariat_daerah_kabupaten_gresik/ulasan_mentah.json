@@ -2,6 +2,7 @@
   "title": "Bagian Organisasi Sekretariat Daerah Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "No.245-c, Jl. Dr. Wahidin Sudirohusodo, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -35,7 +36,7 @@
   "reviewsCount": null,
   "imagesCount": 0,
   "imageCategories": [],
-  "scrapedAt": "2026-07-22T09:55:08.254Z",
+  "scrapedAt": "2026-08-21T00:33:22.073Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -47,14 +48,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "07.30 to 16.00"
-    },
-    {
-      "day": "Kamis",
-      "hours": "07.30 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 16.00"
@@ -74,8 +67,17 @@
     {
       "day": "Selasa",
       "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.30 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -120,6 +122,7 @@
   "isAdvertisement": false,
   "imageUrl": null,
   "kgmid": "/g/11y57k6r5f",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -132,5 +135,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "Pemerintah Kabupaten",
   "kategori": "Pemerintahan"
 }

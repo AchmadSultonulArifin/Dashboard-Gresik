@@ -2,6 +2,7 @@
   "title": "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": "Kantor Pelayanan Publik Administrasi Kependudukan",
   "price": null,
   "categoryName": "Kantor Catatan Sipil",
   "address": "Bedilan, Jl. KH. Wachid Hasyim No.17, Bedilan, Kebungson, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61114, Indonesia",
@@ -48,7 +49,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T13:52:51.310Z",
+  "scrapedAt": "2026-08-20T22:23:10.918Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,10 +61,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 15.30"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 15.30"
@@ -87,20 +84,25 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 15.30"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 15.30"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Dinas Kependudukan dan Pencatatan Sipil Kota Surabaya",
-      "reviewsCount": 3384,
+      "reviewsCount": 3352,
       "totalScore": 4.3
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Dinas Lingkungan Hidup Kabupaten Gresik",
-      "reviewsCount": 13,
-      "totalScore": 3.5
+      "reviewsCount": 12,
+      "totalScore": 3.4
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -201,8 +203,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnTbZ15tYTC4s1k1JyNjmBxKsxnUwzn--cqV32iaIu3KF1KHdYtpjqtKXrQEsoo9XwHqAUI-p0kI5GpEN3pEsvT4EtZg89V0aczYJJmE78fx6Wfl9cpISRpl6m20_SiDxrtkGRVPw=w648-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkMZAd5sCXQSADwJLvVsi-dT-qSE-wo1WamS6284YHG230p5D1sJ-Y--efeJOPo6GtriO4mIw8B-Fou6RxaMf-H_cMFv8K0xmvfews2X5dTR68ujQxZ-qxAIxtsuht7xczE5yFzlA=w648-h240-k-no",
   "kgmid": "/g/1hm2c76b0",
+  "businessProfileId": "5498024886288890953",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -218,12 +221,12 @@
       "reviewerId": "116376964774371926501",
       "reviewerUrl": "https://www.google.com/maps/contrib/116376964774371926501?hl=id",
       "name": "muhammad wildan",
-      "reviewerNumberOfReviews": 92,
+      "reviewerNumberOfReviews": 93,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWr3edTD2KuImMaWzheuXaCyVLfiKwZOpQmQxFhbSf7s1VFjS9o6Q=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-20T02:25:07.976Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25neFJETk5WRkJvZGpBeVpIQjZaMng1VGpaZldIYxAB",
@@ -244,7 +247,7 @@
       "reviewerId": "102197792800289919955",
       "reviewerUrl": "https://www.google.com/maps/contrib/102197792800289919955?hl=id",
       "name": "Amir's Channel",
-      "reviewerNumberOfReviews": 54,
+      "reviewerNumberOfReviews": 53,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUB_R3lYr31puH5PkjyLpnz6Lit8bboLk0VsOyJBp2XEFZVRsm=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -275,7 +278,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJfIHv26JuhDEKR_ooSOegmVR0IMOb8O7XrPLuMulDOCWi2Vw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 bulan lalu",
+      "publishAt": "6 bulan lalu",
       "publishedAtDate": "2026-02-17T09:49:27.408Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xvek1VMDFURlZ3TnkxMVJUSk9Wa0ZYZGtkdmIwRRAB",
@@ -353,7 +356,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXJK1WjpUEr88Wma8cfvtDdcumqmoNkyw_Ffg0PACL98hxf-SVy=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-15T01:05:58.248Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KV09YVjNiV3Q2VVdSTlgyNXpjbEZhYTBwdVlVRRAB",
@@ -379,7 +382,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLb140RDLEV29YaRKH_VcrBEoU6EyUHvrKkgTaZ9XHln98Q4A=s1920-c-rp-mo-ba12-br100",
       "text": "Mantap ⁴ Me",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-12T06:33:46.767Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21OVmRubGlaM2xOT1VJMGEwWnlkSFJHVDNkc1duYxAB",
@@ -405,7 +408,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIf_Msbaj_WwvyNW6GQY6GjAC90Bx5m51xV62UecD9-Yas1Yw=s1920-c-rp-mo-br100",
       "text": "Apakah bisa ganti KTP luar daerah yang sudah buram dan ganti status menjadi kawin ?",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-07T03:09:19.211Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2kxRVRrVnVVMUUzZFdwQk5ucFFiMDlZV1hCQ2QxRRAB",
@@ -468,15 +471,15 @@
       "responseFromOwnerDate": "2025-12-10T22:14:09.000Z",
       "responseFromOwnerText": "Maaf ketidaknyamanan pelayanan kami ....terima kasih atas kritik dan sarannya. Selain di MPP, Pelayanan Adminduk juga dilayani melalui : online mandiri mll aplikasi POEDAK dan Kantor Kecamatan ",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYQ6pqEbjQM-vkd8cBbcCOKrgKh4HJFOYTD-fGt51ymhypdhitrqJK8Alm2KCOzrdVEeasTFaFKZtVTDnXU45JamECPQrUJlr1rKpCQ0yjvVQmR2LjvXun9lbEG9YwMeLF0L39bje9JvCo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMOuvLXxHSqVi8vV3XT2-U073VNvDM4B0sucOkRQv26nLsImvjn8Z3jqO_68uiROUOoUp1sBjgGIDNfeHTV9cb7N_si3-w_C0-xhq6A5t0iCtBSKedH7a9bysBGGGgmquMpsWAFXBRzdmhx=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMnFUvm_e08jh6k8EHaDNsfAsFP0IL9xmZandYes1wRb0Epe8mxneh-n3mgGvqWs62P9-VS85ZZQlCaF9Ovo-qvP1-8gJF_7n4SjMJ8J95UclTsnagyi1wTUU4i-ZID9ZwPkeOiL-R4_A1c=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOmH5hmOD1uW2KK2FBWkeiLkSA7S6C-Aq10hhFyKb40kuYKFXNer3EAS2KDa_OAap_tmoK-NBT8Qh4NRgXKDhsrVVGLWLRcgC2BxEl-n13TamyR_gQ2EUGXgh7J7sqQtnmmyb9LOrVM5T6y=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMaatGJwQIL2NBNrq1dyjeLqLVGKN35iC59aNH5IvkyjGrwBWL87LEVLfZXqb3kBM733iGMKsOAs6fQi0LjIJzSjWRJrhAPz7bJuY2H6WYekDmIUg3cUJzvwGRUDtBmLaqqUfEXl7Z_iamT=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOA7qZzLi6w6Y1fK3l3GKwFtsZWftIAMQmqmKHE5R45NmhdOVuMKlgi2GKDoUVj-jSj4Ha3ZAyvOFrFy2IlulR4monm80XKdrsyvpkQB4FbHcP7XEDoulk954dSubLg5PAWZiPPIsnL1Q4=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPpt1dqozqHJRTp19Z8iWhoSc2wy-9L_o0_HfxYgdu50JcFH1ykBhc2CRjSr_SbrP1bTxDJ2eRvcQfEcoeDK1oxAMA1-S1J2qr9OPi3Dr0vky4DnBmypoExa6L8oREfNdFEhjmDvbL9moHj=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOARCq9nXx6ocBLMSrlPf-t-y62I2kEslpeIQk-lMf7hDZx5TEDhWlnz3obPZOpqiDneWDlnOc0Ubh3gfr5YUZqtB_0l-O5hmioaI_nVyAsTzdQeMVv8cnBdZ3yPv7v-EWZ6bhnLbmCPlg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMNKW4WRiDUiquSvlPnZsIXGtHry2zrKmkHdA8ic6W6lT7D4pjgX7uYYGxPotxg9JmeUf4oqepWUy4ldzZ4dwV8223AgjpwlkDs3a6M-z1bMJwTsWR2tqnr9jTkkzY7v5ltVzhVz6R2z0iP=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPUD-4SzWSSVZRJTB_3cxpP4-M8ZpTBO2ntpJ4eIkTG3z8nj6s_v94mUPQgtSGOptb9lyzsPxuSgXZzy72cTLIJUUADMJ0XAJ710jDJbIyhNvyO4V9H8NeMVVK6xMcUrLtw9jfjkKu_xJln=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPEYaLupEjGBTW5uAwqQAlLy5KnTDICvSzpZHGHA53oMZrGqbHrKuNUmaEx-j9b0ejOn0yj94SA3pIcjcm_IVBSzfJ2aaYdUxUdt8YUd5PD4fhDbiv5qduC3MtKxZ-dRphYG4pguWeUWfXJ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOq0_j1ZRrIalWSjjnWPbLz0RcKDOjOgOXJDBJeCG-DISrOJQTIp-Lo3UmBQWU218bn9RFgm1emaGUE_xDAitXq-WWHWgamDupXY9DpkJ2AtUAiQRTahJbeY5xm5WOnZI9HH0h-VBlxX7ff=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPjvJSTxME447t6aJfrNpiFz97LdlKGui35csQQqVyMR3NdJ3rg2MbMeg7SSGAD7qDqsUff4kd5ewk1mpr_nKn9c5C3ZfwPn7k--CHbJJ7qesTOnEBDHhJis7wIZ1EUzAK87M0L6c_zP5nq=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMv3_oNNxE0reWR33RShrRKs8Jlk5Ud_Z1_rw1ExIXFWnXMt7Hm-Ad0iSI__kxOcJRsKHxsKKxiwHDtDZqB3rdLeWXcihPZG7-RlL9n6rI7YgGP3DjCckBY9ZQ51QjvpeycgDh-W8ozgst1=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYjEEeNb1ymPYM9yJDyPXfDH8KU9KenSNIYuiNf7y2rKImPm9fa3lkjemgqckn8Y70EdaMVPS8qQbcxCaotFp9Rpf4iowJIEAkJ7eOJVOOVTERFwUE1g06hFpMY7WvWVn6wUS4HgtZa14=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNBM4Ex01s4iNxIpRuOxbF0ncHshNZrU-uDdbZRuCHPNk1lc715Hp3rkJLlnsW2kWBqaiJfS25dtcuzMCqUHgi5fBSNv1ICgAjH65wwcSZqTMR4U5_9l9E8NIb6__bvI8xIMlcnoRY8m9Rv=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOcykaNu55bgScsoo1Q5Bvkh-4b3011RxX29IKFj3b0aPkI68EGePqt6ebiwofxkdllg_ZMBn8j7hFBefvQ3CSjvdYDZaVlKDIm-TD93V7qLa__Cf0E7NFC2sdWI-nj8Enp0gr9yteq1fY=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPxDDU8wjmh5Efhd0n79Acg5R-0aVU7lm1v7wulx7YV5PykGBEeGrV0L4bHNHTH2xNmsJh-WlUgV86CFICLkk-G7toz8vEokpRSLHz01ITbmN_gfYgBJskW3QdYqDAguJ6I28FbNSK4I2lN=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -493,7 +496,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU24KSu_xm-hkBsRtGOt9B1-VrrjoAVIMt5Cg1IQAglDUmgYqwPYA=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "8 bulan lalu",
+      "publishAt": "9 bulan lalu",
       "publishedAtDate": "2025-11-19T10:11:32.376Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s5RWJsTTNXblYzZFRSNE4ycEJibkZ5YTJwbkxWRRAB",
@@ -504,7 +507,7 @@
       "responseFromOwnerDate": "2026-04-08T00:58:50.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan dan rating anda menjadikan peningkatan kami dalam peningkatan pelayanan",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNKA46wR0pdneWZ9Ff23m2CoE64yWeBcX2F640-DRzDBfmtGrvlo6IMFxF7QV9BUoWgqg_0vaBV0W2aw8faPTC-Lq_LoE9Jc2pu5aUGSvew-XKmz_tXBPYA4WBVyP3qpYpAc2zRVvKkm40=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQx-qLBtvjz0apMVDoQugB8gYpuYJ9OdsGUXHsIhAlrixeuogyWWi8oX9w5IaxUK53JhwiysRQqKKERtCRqA315TaBOoCOKpTa0cPcXQDk0CsGc-17x9jsVpxJmqqo6fF7jueKwJAViYM=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -547,7 +550,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUL6wkhRV_f5kJBvXUxSuCEktCzy_zLDweCAbeKzxRJW-B7d6I2=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "9 bulan lalu",
+      "publishAt": "10 bulan lalu",
       "publishedAtDate": "2025-10-13T09:08:28.196Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKNVJXRXlaR1JwVG5GTVZHbFJlRUl0ZWxSclptYxAB",
@@ -584,7 +587,7 @@
       "responseFromOwnerDate": "2025-10-06T12:35:26.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan anda, menjadi semangat buat kami dalam meningkatkan pelayanan yg lebih baik",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPg7UMynzwNB9Sz-dDyQ8H91q4sp7xvCJuAZNkWWjnMQvEUl5S8ZsQfreBtEgV_fdJu1NfLoR2yRXDyyUdhaxuMncAz3lT2s5g8q_PAsjoaLGIyNf47XGpcP5wl_UxSiNz6yAQZKAPt1GE=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMzgASSrBfl_MarhPTgKb5roA5PrkRZ3oBO1KYgHg3Jk-rBRZfZ6hf-zq454Dz96PsvQxU5LVBBefQ0fSKA59q3p-nt8wfgc-ikmcR9YBdlEVGDoZBvvXS_5YQdii8wC-3yxwadGdk1IwM=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -648,7 +651,7 @@
       "reviewerId": "113457230508706392299",
       "reviewerUrl": "https://www.google.com/maps/contrib/113457230508706392299?hl=id",
       "name": "Moh Iman Syahab",
-      "reviewerNumberOfReviews": 18,
+      "reviewerNumberOfReviews": 17,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWwLS0DJBUYH9PieMQ9X2IpXveNlnGU8YxB0Dz7SyXwTzdf_mYu=s1920-c-rp-mo-ba12-br100",
       "text": "Mohon responya untuk admin maps mungkin ada solusi. Hari ini saya ngurus bpjs setelah di cek nik anak saya belum ke daftar padahal kk saya sudah diterbitkan di thn 2019 kok bisa kelewatan belum diaktifkan. Ini saya harus ngurus lagi ke dukcapil ayolah. Sedangkan layanan onlinya jugak tdk bisa telfon dan WA.",
@@ -679,7 +682,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLGmjb_fW6pZ5S414Nt7O-yIPSu5hGdy4rQufwJMycN70BxfA=s1920-c-rp-mo-br100",
       "text": "Jika registrasi ikd di Gresik tapi alamat tempat tinggal saya Situbondo apakah bisa buka blokiran pin ikd di Gresik",
       "textTranslated": null,
-      "publishAt": "10 bulan lalu",
+      "publishAt": "11 bulan lalu",
       "publishedAtDate": "2025-09-11T04:02:44.550Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xWd2MyeGhZbFJNY21KYVJXVmxiWEZYU1ZwRmQzYxAB",
@@ -742,8 +745,8 @@
       "responseFromOwnerDate": "2025-08-19T02:45:13.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan positif anda, menjadikan semangat buat kami untuk memberikan pelayanan yang terbaik",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNPr_aRhKhLiUWjtutTaOhp-QuJtVW966EngHC_N6p4ogbGb_CjOf0htNa2NovDmEHj-X6bFqv4RR_9aFL3e-6WNd7xzN2WuetB5YPRjiCBwlgJUtxT5Qp2RYorDdbTpAPAQ56V3AmWgwTx=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMd9hNXodZWcPQpHsrCx-h71pLtnmQai6pMOXJJYwxUWeFtWoLdvANI7EEfjcRqZS_iEPikCVsnx6-3KbBCcWVO90WRjMYOq5UBRiuBz24vuZJ7h-ekXVDciapKFe5JBDu1i0GV441Aw4I=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfwWz2szY9fcpuxtmL01mg9s_kmygv0oJpFp_6F4qJyCrdqGt5m9EHf5s2Ph0amVazNlRZ0WhQ1vNCa4W-iiSzraiOoRd_jhYehFAduiGPiBbhKnKTrqH_Vs873ZTu_J4y_QWVWgUGB1z0=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPYdkEJaqXMMmBVO260-7mCHVSJo8rL9diBH2UrBfuvKBWPN0PIyYuVDYqHOvjo1Ex59XPtNvD_68YH8-PJkfOUz9AOVwg9xt8k7di97aYbXXVZIOpHFSzsmEiwQMu-Ga_ZFbndH9Qjyck=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -797,7 +800,7 @@
       "responseFromOwnerDate": "2025-08-12T06:31:51.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan anda",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOwzVHDLsj8dwYymeIe_NVSDdvTeCxXkTZt9KYURmFtjUyFjgvE53Zx8eQ6hD7A58hB0pS07mfHWESn51lmxc3ePBQTqOpYL-sC0Hq3-CrqhQKpLJ6rQdeR3lwwS6eS2pbqpe5dsYlpk6MF=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPAO7imuwv0dHfhTSTvNoPkjPbZBFucNSJFcUmVaY3dNx35ZFL7z2mOVMHjgF6PkjW3sxNx0FBBgddQHpb6B_6m263kHUS8nXbM77FKZEvFBjdbpGWCV58450d7QkAoBdw-hW83RFUd4PLw=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -809,7 +812,7 @@
       "reviewerId": "105533803397487876292",
       "reviewerUrl": "https://www.google.com/maps/contrib/105533803397487876292?hl=id",
       "name": "Ardhian Ahmad",
-      "reviewerNumberOfReviews": 8,
+      "reviewerNumberOfReviews": 9,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLHAO0TPoTRvBdLYZHOqLahm4ouv_YNIFEBa7wZ_5BHGyAylQ=s1920-c-rp-mo-br100",
       "text": "Layanan memuaskan, cepat, akurat dan mudah. Pengurusan KIA dan KTP di UPT SDN 200 Gresik.",
@@ -825,8 +828,8 @@
       "responseFromOwnerDate": "2025-08-12T06:30:33.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan postif anda",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPJiV7GGZfUR_ThkEjEeU-1qb6rnVwyko5nSPrVutF3ph2-AxCK8x8qLwU-sDSkW2RcVhFANgvmDu4O13zFfDLlNhLOiCb3ZD70mHhma9Hwf0SSzu0SRYreZPnbivDqZTSydB2tdCQWUiY=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPAR_jjcDZmPTcBpi1xseyHu3IY7GXN8Gm0HhsyKW2N8TbrPh-b0CNBUYZsS4NOJDZrzzFukIlqGd5sxBrPxtljP3cvKjYOOo4PVcrfmRxze358ZJZz3wCE2i4Oph20bY4oWkyzMqlQ3_M=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOSbwGowka-QwtI3mt7UvymFdd8_3aj2IgiNPkFkkv-PE47VY_NK-9Pd7PYZ0oWKK60Aek6AOJyKlFwc--1pPwnLI_JSmpI3dVs0ibI4_RC81WLxNKken0ADw2gw7sYk3OFpcm1HxRbJT8=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM1FJOs2u5-m4LdrNE_YysWhUh1kMNX494QAriPUQefjRfeVqmN9Fu9e1BQY382F24G6Hp_UTr8Wyw16y5VgPJRHcLCHAtuRKxNTLc6Lp9lUWfg-dg-RgF12EuHBEkE3dwW3wvLAa5yefM=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -1018,5 +1021,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

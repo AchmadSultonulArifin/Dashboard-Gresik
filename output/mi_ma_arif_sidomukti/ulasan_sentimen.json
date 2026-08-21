@@ -1,0 +1,42 @@
+{
+  "key": "mi_ma_arif_sidomukti",
+  "kategori": "Pendidikan",
+  "sub_kategori": "SD/MI",
+  "tempat": "MI Ma'arif Sidomukti",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1717051,
+  "longitude": 112.6332435,
+  "ulasan": [
+    {
+      "Kategori": "Pendidikan",
+      "Sub Kategori": "SD/MI",
+      "Nama Reviewer": "Dana",
+      "Bintang": 5,
+      "Tanggal": "2025-06-25T05:06:42.201Z",
+      "Ulasan": "Sekolah komplek",
+      "teks_final": "sekolah komplek",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.4538
+    },
+    {
+      "Kategori": "Pendidikan",
+      "Sub Kategori": "SD/MI",
+      "Nama Reviewer": "Tita Tauristiyah",
+      "Bintang": 5,
+      "Tanggal": "2015-07-05T00:08:46.412Z",
+      "Ulasan": "This is best My School",
+      "teks_final": "this is best my school",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9856
+    }
+  ]
+}

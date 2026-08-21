@@ -2,6 +2,7 @@
   "title": "Kantor kelurahan kemuteran",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintah",
   "address": "RMX3+8GH, Kroman, Pekelingan, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61115, Indonesia",
@@ -45,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:22:10.732Z",
+  "scrapedAt": "2026-08-21T00:26:23.310Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,10 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.30 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 16.00"
@@ -84,8 +81,13 @@
     {
       "day": "Rabu",
       "hours": "07.30 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.30 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -136,6 +138,7 @@
   "isAdvertisement": false,
   "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GSaiDzDUl40vISooFzyRAg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=115.12687&pitch=0&thumbfov=100",
   "kgmid": "/g/11fzf9n8f2",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -253,5 +256,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

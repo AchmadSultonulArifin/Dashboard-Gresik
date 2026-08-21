@@ -1,0 +1,42 @@
+{
+  "key": "kantor_kepala_desa_pringu",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Kepala Desa Pringu",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": null,
+  "longitude": null,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Gaguk Santoso",
+      "Bintang": 5,
+      "Tanggal": "2021-01-21T03:38:24.682Z",
+      "Ulasan": "Pelayanan maksimal",
+      "teks_final": "pelayanan maksimal",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9941
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Nanang Mahfudi",
+      "Bintang": 5,
+      "Tanggal": "2019-08-19T14:02:32.209Z",
+      "Ulasan": "Desa Pringu terletak di kecamatan Bululawang",
+      "teks_final": "desa pringu terletak kecamatan bululawang",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9877
+    }
+  ]
+}

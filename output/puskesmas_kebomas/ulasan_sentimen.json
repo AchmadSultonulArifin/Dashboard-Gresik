@@ -1,19 +1,166 @@
 {
+  "key": "puskesmas_kebomas",
   "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
   "tempat": "Puskesmas Kebomas",
   "rating": 3.9,
-  "total_ulasan": 22,
-  "positif": 14,
-  "netral": 1,
+  "total_ulasan": 24,
+  "positif": 15,
+  "netral": 2,
   "negatif": 7,
-  "persen_positif": 63.6,
-  "persen_netral": 4.5,
-  "persen_negatif": 31.8,
+  "persen_positif": 62.5,
+  "persen_netral": 8.3,
+  "persen_negatif": 29.2,
   "latitude": -7.1672522,
   "longitude": 112.6385151,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Ismatul Laily",
+      "Bintang": 3,
+      "Tanggal": "2026-08-20T10:20:11.196Z",
+      "Ulasan": "Terima kasih pelayanan di poli gizi sangat memuaskan & baik ...untuk saran\" buat balita juga bagus semoga kedepannya semakin lancar & buat bidannya  poli selalu sehat semua🥰",
+      "teks_final": "terima kasih pelayanan poli gizi memuaskan baik saran buat balita bagus semoga kedepannya semakin lancar buat bidannya poli selalu sehat semua",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9763
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Nuril Destia",
+      "Bintang": 3,
+      "Tanggal": "2026-08-20T02:16:13.625Z",
+      "Ulasan": "Dear pkm kebomas. Tidak semua orang pernah datang ke puskesmas sehingga mgkn blm tau alur atau prosedur pkm. Tentunya awal mereka datang bertanya apa yang harus mereka lakukan, alangkah baiknya jika d tanggapi dan d tanggapi dgn baik, d berikan informasi dgn jelas. Sangat d sayangkan dgn moto Melayani dgn Sepenuh Hati tp dr depan sdh mendapatkan sesuatu yang kurang menyenangkan.",
+      "teks_final": "dear pkm kebomas semua orang pernah datang puskesmas sehingga mgkn tau alur prosedur pkm tentunya awal datang bertanya apa harus lakukan alangkah baiknya tanggapi tanggapi baik berikan informasi jelas sayangkan moto melayani sepenuh hati depan mendapatkan sesuatu kurang menyenangkan",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9559
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Hendri Cahya",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T12:39:02.351Z",
+      "Ulasan": "Pelayanan puskesmas kebomas di bagian  KIA dan klinik anak petugas ,bidan dan dokternya baik ramah. Terima kasih nggih.  utk saran saja bagian pelayanannya pendaftaran yg cowok ramah bapaknya. Tp yg cewek kurang ramah.ibu harusnya ramah dan senyum, namanya org bertanya itu di jawab bu ga diem saja..",
+      "teks_final": "pelayanan puskesmas kebomas bagian kia klinik anak petugas bidan dokternya baik ramah terima kasih nggih saran saja bagian pelayanannya pendaftaran cowok ramah bapaknya cewek kurang ramah ibu harusnya ramah senyum namanya org bertanya jawab bu diem saja",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9912
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "vinda dwi",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T08:48:35.699Z",
+      "Ulasan": "Pelayanan poli gizi .. melayani dengan sangat baik.. ramah dan sabar dalam menjelaskan",
+      "teks_final": "pelayanan poli gizi melayani baik ramah sabar menjelaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.914
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Zumaro Zumaro",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T02:07:02.134Z",
+      "Ulasan": "Pelayanan nya sangat memuaskan baik ramah' juga",
+      "teks_final": "pelayanan memuaskan baik ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9935
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Lucy Steviana",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T02:02:57.505Z",
+      "Ulasan": "Hari ini ke poli gizi Alhamdulillah pelayanan baik, cepat. Nakesnya juga ramah murah senyum dan informatif sekali.",
+      "teks_final": "hari poli gizi alhamdulillah pelayanan baik cepat nakesnya ramah murah senyum informatif",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9945
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Toyibatul Nikma",
+      "Bintang": 5,
+      "Tanggal": "2026-08-12T04:12:39.187Z",
+      "Ulasan": "Pelayanan di puskesmas kebomas sangat informatif, pelayanan di poli kia sangat baik, petugas ramah dari hamil sampe nifas kontrol rutin ke puskesmas kebomas Terima kasih...",
+      "teks_final": "pelayanan puskesmas kebomas informatif pelayanan poli kia baik petugas ramah hamil sampe nifas kontrol rutin puskesmas kebomas terima kasih",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8656
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Vivi Yuliawati",
+      "Bintang": 5,
+      "Tanggal": "2026-08-11T03:20:30.223Z",
+      "Ulasan": "Pelayan di poli KIA bagus, dokter dan bidan memberikan penjelasan dengan jelas. Alhamdulillah Sekarang sudah ada USG di puskesmas.",
+      "teks_final": "pelayan poli kia bagus dokter bidan memberikan penjelasan jelas alhamdulillah sekarang usg puskesmas",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.926
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Mirra Wahyuni",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T04:09:54.651Z",
+      "Ulasan": "Petugasnya ramah melayani sepenuh hati, terimakasih khususnya kepada nakes ✨🙏🏻",
+      "teks_final": "petugasnya ramah melayani sepenuh hati terimakasih khususnya kepada nakes",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9856
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Dwi Nurmayanti",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T00:45:29.450Z",
+      "Ulasan": "Alhamdulillah terkhusus untuk poli KIA pelayanannya sat set wat wet,, petugasnya ramah semua,, Barokallah ..",
+      "teks_final": "alhamdulillah terkhusus poli kia pelayanannya sat set wat wet petugasnya ramah semua barokallah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.993
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Dian Lestari",
+      "Bintang": 5,
+      "Tanggal": "2026-08-07T03:04:00.332Z",
+      "Ulasan": "Udah langganan bgt di poli KIA ini, sama ibu bidan2nya semuanya ramah sekaliiiiii masyaAllahh...😭bisa d ajak bercanda 🥰Pokonya ramah2 sekali ibu bidan2nya tak kasih bintang 10 bisa gaksi 😭🥰🥰",
+      "teks_final": "udah langganan banget poli kia sama ibu bidan2nya semuanya ramah sekaliiiiii masyaallahh ajak bercanda pokonya ramah2 ibu bidan2nya tak kasih bintang gaksi",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Ana Mirrizkillah",
+      "Bintang": 3,
+      "Tanggal": "2026-08-07T00:31:30.151Z",
+      "Ulasan": "Mantap pelayanan nya",
+      "teks_final": "bagus pelayanan",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9964
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Lailatul Jannah",
       "Bintang": 5,
       "Tanggal": "2026-08-06T03:43:04.184Z",
@@ -25,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "April S",
       "Bintang": 1,
       "Tanggal": "2026-08-05T00:58:09.660Z",
@@ -36,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Irma Susanty",
       "Bintang": 3,
       "Tanggal": "2026-08-03T06:55:47.264Z",
@@ -47,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "erma lusiati rusinta",
       "Bintang": 5,
       "Tanggal": "2026-08-03T05:31:41.491Z",
@@ -58,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Rinda Rendi",
       "Bintang": 5,
       "Tanggal": "2026-08-03T04:39:08.111Z",
@@ -69,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Devira Sani",
       "Bintang": 1,
       "Tanggal": "2026-07-31T03:37:14.074Z",
@@ -80,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "MINET AE",
       "Bintang": 1,
       "Tanggal": "2026-07-20T02:07:23.613Z",
@@ -91,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Novia Hendrawahyu",
       "Bintang": 5,
       "Tanggal": "2026-07-15T01:45:45.786Z",
@@ -102,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Emilia Puspita",
       "Bintang": 5,
       "Tanggal": "2026-07-07T02:28:14.554Z",
@@ -113,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Gresica Rismachul Jannah",
       "Bintang": 5,
       "Tanggal": "2026-07-06T01:51:43.738Z",
@@ -124,6 +280,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Hikmaha Alfianti",
       "Bintang": 1,
       "Tanggal": "2026-07-04T01:42:46.636Z",
@@ -135,6 +292,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Devi Agustina",
       "Bintang": 1,
       "Tanggal": "2026-07-02T14:04:38.214Z",
@@ -143,116 +301,6 @@
       "topik": "Kesehatan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9941
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "xdexax_",
-      "Bintang": 1,
-      "Tanggal": "2026-06-29T11:45:58.236Z",
-      "Ulasan": "judes judes pelayanannya cuman dibagian ahli gizi aja yg engga. smoga ibu dokter/perawat yg di ahli gizi diberikan kebaikan yg melimpah ya bu ❤ . beda lagi di poli kia,malah ga dijelasin detail,ditanya keluhan apa? tapi ga dijelasin karna apa ato apa, dokternya juga. sibuk ngobrol tuh poli kia. ga recommend buat yg mau ke puskesmas bomas pelayanan ga bangett kalo ada bintang 0 aja ini mahh ga pantes dikasi bintang. bad attitude soalnya",
-      "teks_final": "judes judes pelayanannya cuman dibagian ahli gizi aja engga smoga ibu dokter perawat ahli gizi diberikan kebaikan melimpah ya bu beda poli kia malah dijelasin detail ditanya keluhan apa dijelasin karna apa ato apa dokternya sibuk ngobrol tuh poli kia recommend buat mau puskesmas bomas pelayanan bangett kalo bintang aja mahh pantes dikasi bintang bad attitude soalnya",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.8632
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mukhlas sin",
-      "Bintang": 3,
-      "Tanggal": "2026-06-26T00:09:00.881Z",
-      "Ulasan": "Lama. harusnya jam 7 pas sudah buka. tapi ini saya tunggu sampai jam 7 lebih 10 belum juga dibuka pelayanannya. huft",
-      "teks_final": "lama harusnya jam pas buka tunggu sampai jam dibuka pelayanannya huft",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9559
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Golden Eye99",
-      "Bintang": 5,
-      "Tanggal": "2026-06-23T15:04:33.123Z",
-      "Ulasan": "Tempatnya rapi bersih, petugasnya ramah, dokternya baikk👍🙏",
-      "teks_final": "tempatnya rapi bersih petugasnya ramah dokternya baikk",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9968
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Coco Milo",
-      "Bintang": 5,
-      "Tanggal": "2026-06-23T01:28:04.862Z",
-      "Ulasan": "Puskesmasnya bersih, rapi. Dokter di poli lansia baik sopan melayani dan solutif. Terima kasih Puskesmas Kebomas👍👍👍👍",
-      "teks_final": "puskesmasnya bersih rapi dokter poli lansia baik sopan melayani solutif terima kasih puskesmas kebomas",
-      "topik": "Fasilitas",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9878
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Yosafat Elohimio Susanto",
-      "Bintang": 5,
-      "Tanggal": "2026-06-23T01:20:12.799Z",
-      "Ulasan": "Pelayanannya baik dan petugasnya ramah. Semoga terus dipertahankan",
-      "teks_final": "pelayanannya baik petugasnya ramah semoga terus dipertahankan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9939
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "asisten 777",
-      "Bintang": 1,
-      "Tanggal": "2026-06-21T23:30:34.095Z",
-      "Ulasan": "pelayanan UGD gk responsif, terkesan sombong.",
-      "teks_final": "pelayanan ugd responsif terkesan sombong",
-      "topik": "Pelayanan",
-      "sentimen": "Negatif",
-      "sentimen_score": 0.9979
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Cicin Nabella",
-      "Bintang": 5,
-      "Tanggal": "2026-06-21T10:15:35.349Z",
-      "Ulasan": "Puas dengan pelayanan rawat luka pasca operasi di Puskesmas Kebomas. Petugas ramah, penanganan sangat baik dan profesional, tempat bersih, serta pelayanannya cepat. Terima kasih",
-      "teks_final": "puas pelayanan rawat luka pasca operasi puskesmas kebomas petugas ramah penanganan baik profesional tempat bersih serta pelayanannya cepat terima kasih",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9906
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Finda Aini",
-      "Bintang": 5,
-      "Tanggal": "2026-06-20T09:37:04.295Z",
-      "Ulasan": "Baik, ramah, respon cepat",
-      "teks_final": "baik ramah respon cepat",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9819
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Guntur Setiawan",
-      "Bintang": 3,
-      "Tanggal": "2026-06-12T11:44:12.701Z",
-      "Ulasan": "Mau tanya, apakah malam bisa kita mengurus surat keterangan sehat",
-      "teks_final": "mau tanya apakah malam mengurus surat keterangan sehat",
-      "topik": "Administrasi",
-      "sentimen": "Netral",
-      "sentimen_score": 0.9974
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "ilfina indah",
-      "Bintang": 5,
-      "Tanggal": "2026-05-31T01:42:53.690Z",
-      "Ulasan": "Pelayanan di poli giginya the best, Semuanya ramah, pelayanannya bagus Dapat obat lengkap",
-      "teks_final": "pelayanan poli giginya the best semuanya ramah pelayanannya bagus obat lengkap",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9973
     }
   ]
 }

@@ -1,0 +1,78 @@
+{
+  "key": "balai_desa_peromaan",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Balai Desa Peromaan",
+  "rating": 4,
+  "total_ulasan": 5,
+  "positif": 4,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 80.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 20.0,
+  "latitude": -5.7495419,
+  "longitude": 112.6715813,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Alberto Simarmata",
+      "Bintang": 3,
+      "Tanggal": "2020-12-01T04:29:09.587Z",
+      "Ulasan": "Ramah, aman, nyaman dan bersih",
+      "teks_final": "ramah aman nyaman bersih",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9958
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "noena soewardi",
+      "Bintang": 4,
+      "Tanggal": "2020-02-03T06:59:08.942Z",
+      "Ulasan": "untuk balai desa...bersih n nyaman...pegawainya jg ramah...",
+      "teks_final": "balai desa bersih nyaman pegawainya ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Moh Nor",
+      "Bintang": 5,
+      "Tanggal": "2019-12-12T11:38:14.537Z",
+      "Ulasan": "Pas-",
+      "teks_final": "pas",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9919
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "blackhawkultra kapten",
+      "Bintang": 5,
+      "Tanggal": "2019-12-11T14:40:26.107Z",
+      "Ulasan": "Mantafff",
+      "teks_final": "mantafff",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Syaifuel Alam",
+      "Bintang": 5,
+      "Tanggal": "2019-05-24T15:45:08.515Z",
+      "Ulasan": "Good",
+      "teks_final": "good",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9942
+    }
+  ]
+}

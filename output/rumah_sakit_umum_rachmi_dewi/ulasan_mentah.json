@@ -2,6 +2,7 @@
   "title": "Rumah Sakit Umum Rachmi Dewi",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Rumah Sakit",
   "address": "Jl. Jawa No.79-81, Karanggondang, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",
@@ -33,15 +34,15 @@
   ],
   "fid": "0x2e77fe2c8f6557d5:0xe7ae6ed0f11d5a5f",
   "cid": "16694402712386493023",
-  "reviewsCount": 422,
+  "reviewsCount": 423,
   "reviewsDistribution": {
-    "oneStar": 37,
+    "oneStar": 38,
     "twoStar": 7,
     "threeStar": 12,
     "fourStar": 21,
     "fiveStar": 345
   },
-  "imagesCount": 157,
+  "imagesCount": 115,
   "imageCategories": [
     "Semua",
     "Terbaru",
@@ -49,7 +50,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T13:12:08.103Z",
+  "scrapedAt": "2026-08-20T22:18:03.451Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -61,10 +62,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Jumat",
       "hours": "Buka 24 jAM"
@@ -88,32 +85,37 @@
     {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Muhammadiyah Gresik",
-      "reviewsCount": 1937,
+      "reviewsCount": 1971,
       "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Semen Gresik",
-      "reviewsCount": 4401,
+      "reviewsCount": 4469,
       "totalScore": 4.8
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "RSU Denisa Gresik",
-      "reviewsCount": 1339,
+      "reviewsCount": 1345,
       "totalScore": 4.8
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Fathma Medika Gresik",
-      "reviewsCount": 714,
-      "totalScore": 4.3
+      "reviewsCount": 736,
+      "totalScore": 4.4
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -126,19 +128,19 @@
   "reviewsTags": [
     {
       "title": "melahirkan",
-      "count": 23
+      "count": 27
     },
     {
       "title": "senam",
-      "count": 20
+      "count": 24
     },
     {
       "title": "hamil",
-      "count": 12
+      "count": 17
     },
     {
       "title": "bidannya",
-      "count": 11
+      "count": 12
     },
     {
       "title": "dg",
@@ -157,11 +159,11 @@
       "count": 6
     },
     {
-      "title": "ruangan bersih",
-      "count": 5
+      "title": "kasih",
+      "count": 6
     },
     {
-      "title": "proses",
+      "title": "ruangan bersih",
       "count": 5
     }
   ],
@@ -209,8 +211,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnfUyk4kUeNlrlmrjoF8Z71SToBl3Lg9uM-a7fD7zZvQeuFEz1GILklVEXCUccpqgs1ldkCYFmd9UToMI-SaTrPN-P_d_BoLedMqpDKdRjVtJRi7BSqw90ahPhS6A79KkyMphlj=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGdT5xJsmdnbpX3H9PmnyeMymAsxKn7lm_gDNp6HkXliTp5OXxBX8qKqDLmc0VHuf7FOAFCpgfNyRVg9MKaGLmrVzPA2SaV6tpTU4bEdWxRYzvIpqCK9H98v4JDScmjZ4A4zB_OMy3oiA=w408-h306-k-no",
   "kgmid": "/g/11b6hxx1y8",
+  "businessProfileId": "8630198492389918490",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -223,6 +226,35 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "103989096388793221430",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103989096388793221430?hl=id",
+      "name": "hindun hindun",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLZGzw5DWmw6UVYHQOtRPbjvsHFxr6HPmURyBjzcbDkTRMrvQ=s1920-c-rp-mo-br100",
+      "text": "Rumah sakit banyak nyamuknya",
+      "textTranslated": null,
+      "publishAt": "1 hari lalu",
+      "publishedAtDate": "2026-08-19T11:57:11.913Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsdFdVZERiRE5HV1UxTWJUTjRla2sxVVhNMldrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsdFdVZERiRE5HV1UxTWJUTjRla2sxVVhNMldrRRAB!2m1!1s0x0:0xe7ae6ed0f11d5a5f!3m1!1s2@1:CAIQACodChtycF9oOkltWUdDbDNGWU1MbTN4ekk1UXM2WkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-Z2OxycF9suKh8hjKKaGezMpVC4O08vDBcHo8djnt9HPVhhZI71RqXuPthXiwLdMz29q2bbKgc5KipWY35EJV7hCPQLgdxdGn6A6WcPN9rVg7eiSoSA1jlPoJ783bBcmtvRzFjjdK2TjH=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO3KHzJG3hk4pXqOuVjO7RIUbDbMlokbrktXwb9AbgBtLeYOJqazV1b3wNno5_8sgrNMADpsHMEsfXykCFLwlXq9fIOaao-IjKE6E47NKkwYBErwRVXitMtvdUf0qJAaNyPKLwEFpqkFbl3=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "100271189284537952112",
       "reviewerUrl": "https://www.google.com/maps/contrib/100271189284537952112?hl=id",
       "name": "Deni Ningtyas",
@@ -231,7 +263,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV4R-5pvMwEHceRcro70UkRe0aKuqO_qeSN4J-mLMwIvcri2wKC=s1920-c-rp-mo-br100",
       "text": "alhamdulillah pelayanan baik dan ramah semua, suka karna tidak perlu antri lama",
       "textTranslated": null,
-      "publishAt": "Diedit 1 hari lalu",
+      "publishAt": "Diedit 2 minggu lalu",
       "publishedAtDate": "2026-08-05T04:05:38.744Z",
       "likesCount": 0,
       "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURULUo3UEx3EAE",
@@ -242,8 +274,8 @@
       "responseFromOwnerDate": "2024-05-27T06:53:54.000Z",
       "responseFromOwnerText": "terimakasih atas review baiknya sahabat Rachmi. Sehat selalu 🙏",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNwNvXSirRd-w0KQ2mTPqi8RiSRrWi8zj6IGKQJejKughoeSWEnq6ggPV-Yxq7_nM5gPbEuw4i2Hqo0XWaNl3IhXrqo6CuxXomsgfbZryfhG_wBIoNX89m2WaRe8xPiBKdzgAhmL7ghmQDw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOvwdmk9jgYA9uexKAW3QZt6CpEmOleoR0641yyq9KYB7SV6mvDsH3I1auHRSFIsqlovclQAIj0rQckezwKFWWVY3uxTZJnOG1H06Uat0_xSKdx8MSVJIzsXaEFfZgiGdhZSp8rwaiD2Cit=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOXKUO9VL23Dukie057WVRL6iZQawTdUvMvcX8iUVvOT5jx_McSPZKLlSu8f4_vc4PrOUA328oxKOofQOnl8Le3OyY-pvlKXOrUEH7H4u85_MBg8WBNeVM6hgsgxP9-toXiDT6A6nNm9wBs=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO-khOYnx-jGcMfGva8njPcQDr_M4fAwlV77ahrNWTWVEdp3tkghmYfsus6Ms_IQzJJFrjPjVq4bUgqltSI1tr6SwQ1ty_9IBbu-KgvWF5OnlnxBSSCAY4EZzB-n5SVEQVnG5WIU2P4O8zS=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -260,7 +292,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXtY1L7ewt_QkWZFdqkjh2mWfKpBoIrqFMq-SLx_D3Wj_Udfs5-=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "1 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-05T03:59:06.201Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wMlNGUTJjMlp3U2tneVgwcExWR0pFYmpoS1FrRRAB",
@@ -281,12 +313,12 @@
       "reviewerId": "108835291709379434941",
       "reviewerUrl": "https://www.google.com/maps/contrib/108835291709379434941?hl=id",
       "name": "Rihlatul Mukaddasah",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWatqOmIxR0cM02rmpN6iJgLGUjzTdoQj69MZVzyCqXnotrqDU=s1920-c-rp-mo-br100",
       "text": "2 kali hamil selalu periksa disini, nyaman dokter obgynnya enak semua 👌",
       "textTranslated": null,
-      "publishAt": "1 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-05T01:26:28.812Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pZMU1YcHRlSGhzUjFWYU9FaFpkWGx3Ym1ka1dsRRAB",
@@ -307,12 +339,12 @@
       "reviewerId": "105157439587217716433",
       "reviewerUrl": "https://www.google.com/maps/contrib/105157439587217716433?hl=id",
       "name": "Karunia Indah",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL4HYlAHXiWsWjq7rnIks3fmyUbRhycbdeQBHnUrnzpDME-iw=s1920-c-rp-mo-br100",
       "text": "Dari tahun 2018 langganan kontrol disini, masyallah banget pokoknya rumah sakit ini",
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-02T11:21:25.298Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1Q2FrcERWWHAyZW05YU0zZDBiV0l4VGpjelNHYxAB",
@@ -333,12 +365,12 @@
       "reviewerId": "104746297831043836067",
       "reviewerUrl": "https://www.google.com/maps/contrib/104746297831043836067?hl=id",
       "name": "Andytra Putri",
-      "reviewerNumberOfReviews": 5,
+      "reviewerNumberOfReviews": 6,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKloZhe3Di-SAB_yPGGmZ-7g6W_kFlI2bfviNJVRF71wPv0=s1920-c-rp-mo-br100",
       "text": "Senam hamil rutin disini buat ikhtiar kelahiran normal enak banget, bidan informatif dan ada materi baru tiap sesinya",
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-02T02:43:31.293Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WMmVuUm1jV3BNYzBNMWVYUk5Za3hZV0RoZk1XYxAB",
@@ -349,7 +381,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPtFOIK1xITSxkUyvGbv92p6WVONbQkshuH2jbm-ldKr9NOgxMHDQ8ONglogrOhIK8gkeeI4hRWmc4ueRLBQw1cO__C1bjD7iQOS1JDwhn2F3McM3n8FBcA5c4zvDqEjMlklH2SgI-8Ypre=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMFm3TiSr97jlJclzNgbZLRnqnpLL6U2IOU3yUVmMzLsr660yqoHgd06DL8RQiLgvGC-Q3-lZ9ylRp5J6K9DB-2s9qyvzF-Lvse4jUhUNykCo6PNtvmyhA641Yhs2Iznv4xeQk-ea7uUABI=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -361,12 +393,12 @@
       "reviewerId": "102474507527642744591",
       "reviewerUrl": "https://www.google.com/maps/contrib/102474507527642744591?hl=id",
       "name": "yonanda fatma",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJjDKGYSZ2ZOmRn0suVCNJIpC-QuHaFwNVKpZn7ncAs45iIxA=s1920-c-rp-mo-br100",
       "text": "Kelas hamilnya sangat membantu, instrukturnya ramah.",
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-02T02:43:30.073Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tKS1FqZE5VUzFJYkZkYWVYcFFZVGRvVWtOcE1GRRAB",
@@ -377,7 +409,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOZjK0buKftqhTLhXpJ-LfebAq1eSSNPrWeXIbpEU-vCUpb0c1M6xmX77iwnX00pxGixouGOayCXk8BANGzqFizZcpbvRn6XtxGtH6o0ujYrPj8c0FLHGeCBdZ9QMIuNC0G2eLpwW1WRvE=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMnJlvmEZxEfqZXrWzLkMJ7pCzo_yCH4kA-jHVMBEOvWphpoGtA_RXidznG4R8jYd5_fJEzjIYI5GYNj335ylG83g6_q54GUfgdPHc9PikoyqGMlTgi4Tjn-rivPWcA0N9bBSzaXQ2fMUo=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -389,12 +421,12 @@
       "reviewerId": "101158173413942261251",
       "reviewerUrl": "https://www.google.com/maps/contrib/101158173413942261251?hl=id",
       "name": "Aini Tarnesi",
-      "reviewerNumberOfReviews": 2,
+      "reviewerNumberOfReviews": 3,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWhXVVgLI2-jMN39_DCBYYxxId8cCDNzDF45t6nUVedrxx6d0BQ=s1920-c-rp-mo-br100",
       "text": "Ikut sesi senam hamil di RS Rachmi Dewi, sangatt memuaskan dan sangat bermanfaat bagi ibu hamil yang sedang mepersiapkan persalinan😍",
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-02T01:30:17.700Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkRVYzcFVMV3hCY2psTlJsOHpXVXRaZEdsaFowRRAB",
@@ -405,7 +437,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNdJJ7TPZdS4Bi-Saz9J3PK_FWveU19uYsivZC90tIlDOIel1u_BCjYoGqV1crmQtpq9TybJcqFOHnOPbZKdAsxjVRNWOyJhx6jRd_gxhskgNUfnOjqv6GlldPSIpY18ZWIMZ_qgBOIZe5V=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPpkAKRcrESqERi1GVWI1816FR2CkDv4YI0KieYDJg3Cn_DvnypaK_n11dAbcSrqjZKvSpw2dqs-ROBleylpD8M8ReDbRGCiUZ4dgZeEK58fBG1igPSsNnqM0xbnVVPvTrZLWZJMKyGq4gQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -422,7 +454,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVzGfd-21JH9ODgftmYjR0wcvx-LGAeTxRyoVCCB40fTnrgjEdmfw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-01T11:55:38.067Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT210UmJTMUdUVU50VWpSM2NWaE9UWEV0VFV3eldsRRAB",
@@ -443,12 +475,12 @@
       "reviewerId": "108415542150001131658",
       "reviewerUrl": "https://www.google.com/maps/contrib/108415542150001131658?hl=id",
       "name": "Chrisna Aristantya",
-      "reviewerNumberOfReviews": 6,
+      "reviewerNumberOfReviews": 7,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXaTzeva8VSfUMGNG0bKZK5sUDLh81mWZ2Ipp9j5gGEAw_EH75T8Q=s1920-c-rp-mo-br100",
       "text": "Prenatal yoga di RSU Rachmi Dewi sangat nyaman dan menyenangkan. Instruktur ramah, sabar, serta memberikan arahan yang mudah dipahami. Gerakannya aman untuk bumil dan membuat tubuh menjadi lebih rileks. Setelah senam juga dilanjutkan sharing session dengan para peserta, sehingga sangat direkomendasikan untuk para ibu yang ingin tetap aktif dan mempersiapkan persalinan dengan lebih baik👍🏻",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-01T04:28:31.969Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSclV5MUlPRjh0UkRoU1NFRlVZVVpFTlhsQlFuYxAB",
@@ -456,10 +488,10 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:10:05.000Z",
+      "responseFromOwnerText": "Terima kasih atas ulasan dan kepercayaan bunda mengikuti Senam Hamil di RSU Rachmi Dewi. Semoga kegiatan ini bermanfaat dan membantu bunda mempersiapkan persalinan yang lebih nyaman. semoga sehat selalu ",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPIGd51C93K-Y_fWzEuZBn-favwnTsXKh28HITJ4ngDKNJ4U4nxjxHvN5oWdT-1YzKslUXcVKYG3mzDgb2uUonn_Q8kKANmtsA42ZZ4E1PSpbf-_kvgr4xitjihL9p5OXRQRDMIWQAjbulG=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP0DZw_12Ci0f56eYEb7A6L-V_0D1C1gr8mcT1vkde8XeVro0JkBnIPh1oVB3rFwLX37XgfVovPC1BLT3G43WwOnFBW9s2MAsSOBqPFP15_UwaEP1HiUiSgYnPccw1Fy9xkquA8CJEKIoL9=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -471,12 +503,12 @@
       "reviewerId": "103494638397372390934",
       "reviewerUrl": "https://www.google.com/maps/contrib/103494638397372390934?hl=id",
       "name": "Rossa Auli Tasha",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLAxTkg_zHdi9A16mrZzc2f9Gre1uPI9De6Dpen8qphboTUqQ=s1920-c-rp-mo-br100",
       "text": "terima kasih mba kiki dan rsu rachmi dewi untuk senam hamilnya🫶🏻\ndapat materi dan gift juga🤗",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-01T03:33:20.782Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsTGEwZGhXWE5JTkhGeGNUTnVTMTkwUlU0MlFtYxAB",
@@ -484,12 +516,12 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:09:15.000Z",
+      "responseFromOwnerText": "Terima kasih atas ulasan dan kepercayaan Anda mengikuti Senam Hamil di RSU Rachmi Dewi. Kami senang dapat mendampingi perjalanan kehamilan Anda. Semoga kegiatan ini bermanfaat dan membantu Anda mempersiapkan persalinan yang lebih nyaman. Kami tunggu kehadiran Anda di sesi berikutnya.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP4zSvzKYDsH0M4OPmDrF7vMlQsw1HADtrdWv3BlcxJMzXlM_SJBWLabFMjVNGcUG1la8bFe5j8qi-vwIW_JQ92iLf7jM6YvXRpn7PRzBCZllFI04BioM9eyK8t6ETDYZaETgakQj1C8HQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM6Nd6wlpt1fvxGLVU4fpH1CTSUozs8GEiIQnmo_O0gF42FbA9y5tX23mKXlNNgbFjrqHjhkSE71jP17fknyiyXocM5anXG0x6y_i8K6CKSzdbEF0uDIe2CYioQpFKEegrr8W0d2aj7eSjW=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPjRF4gquQdkazJUDlEdzX6661EJx0iRV8uqB5ngOkdoM8DZ-ZGFXoywOIpKv9Asf2mbPhE8cf3f6TzCRa-VUdefmLJWGwFua78Nj6aW0l3xEifQJlNpOp-lp2Pk7Mg9tgPqvgrqCWvT80=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO8s-lmQR1z1aJEpUMMPc6MQYkpO09I3uGTjxINvi4Y-APyFvnJKvDsW1BO8Y5AXuJpHXr39LgXLEIBxleZGmjNi7iOWQUTNpCnbdzakOgLq4QwmNjxTcjqIx_oJrJP81rXTtLIGaWR47s=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMoh9HbM8XEDwaQy0wNTIlNhVcftq0fCqLodL6u66gncvWmJv4NfphQv0ilLYV1mWu4_TIKAc1rUk0ENuFARfwJTyUbBOGJCJ1ROk051c98QlZxRGlRDAG3mdfz3bViOlewvFJU2FyvrOEn=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPyu4CyDiIHF2EdOMbf74pA4GDNW0r75YaQlIhPssBgL_M6Y8O5EI5Irnjl9mPcPGnH4qj4s8vEIo4UbJ7eftJa5KfoY7oYYFy_iZSYZ8KekgmJ8MZ-0dxBraccIvKaXo6pPSQKAe6o1I0=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -501,12 +533,12 @@
       "reviewerId": "102935455680282969839",
       "reviewerUrl": "https://www.google.com/maps/contrib/102935455680282969839?hl=id",
       "name": "Hanifa Fatmaningtyas",
-      "reviewerNumberOfReviews": 0,
+      "reviewerNumberOfReviews": 1,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXzTH1naSSvSAhNR3GR4Ryj8Qk-6-7qcxEIw89v_iaac3UESRJb=s1920-c-rp-mo-br100",
       "text": "Senang sekali bisa ikut kelas senam hamil disini, lengkap dengan edukasi kehamilan dan persalinan",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-01T02:43:21.835Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWRlZrdGxTWEZ0ZG1aVlRVdHBORkI1ZGt4VGJIYxAB",
@@ -514,10 +546,10 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:05:42.000Z",
+      "responseFromOwnerText": "Terima kasih atas ulasan dan kepercayaan Anda mengikuti Senam Hamil di RSU Rachmi Dewi. Kami senang dapat mendampingi perjalanan kehamilan Anda. Semoga kegiatan ini bermanfaat dan membantu Anda mempersiapkan persalinan yang lebih nyaman. Kami tunggu kehadiran Anda di sesi berikutnya.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM9WRYs91BCKaLHi94u668tL06wNbO9AXn9xrTFYJ5sICeNv_6Tubjo5vdN0bayFXJ1mVmBujQddwTjigsdzIwj2Nxe3QAYEJAL6F-Ytn6PlGWU1FhPBMo0vObqZS88iaUglg3jB4wvVJw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNhqAuwxn0P7Ctpb5sLfrwNYtVCNg_JEj8YwfUFIeGQ7GaNZK8COhjj1VIGTjDmV_koQ7eFsMtuMZebShnVH-NtVR7wn4tJLAt7zcZDQYHZAbOqiaJmyaRZ5egdrGPmPEO6tV8rnK42tmA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -534,7 +566,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXBLAYcYWJehNX1ovuW40Hh3ANwN1wnKzCwteH8L1IiMz1e76g=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "2 minggu lalu",
       "publishedAtDate": "2026-08-01T01:40:51.416Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xvNFZqUmFObXhYTUhKMFh6VnJVbXB0YUhCWWQwRRAB",
@@ -560,7 +592,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ2Wi_j4IU1hs60b26ZG1d9MUBHXUQDNyw-44XmUyWVNlwiLQ=s1920-c-rp-mo-br100",
       "text": "RS favorite... dokter² dan suster² yg sabar dan baik hati",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-29T13:22:30.292Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkRmQxUnVhbFpzTkhwbVFUQmxaR05WTUZwSVNrRRAB",
@@ -568,8 +600,8 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:08:53.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan Anda kepada RSU Rachmi Dewi. Kami akan terus berkomitmen memberikan pelayanan yang terbaik. sehat selalu",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -586,7 +618,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLa1kh_CECVqYdojls6r3VXoKFkbLErJikAT2tkQ3A6IKcV3w=s1920-c-rp-mo-br100",
       "text": "Pelayanannya sangat bagus ,",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-29T11:37:07.349Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tSbWFUWkdja1V3Uld4ZlgwZHhWMVo1WVdjdFIxRRAB",
@@ -594,8 +626,8 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:08:34.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan Anda kepada RSU Rachmi Dewi. Kami akan terus berkomitmen memberikan pelayanan yang terbaik.",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -612,7 +644,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLSBA6zxVXSVf0u1C0trMNCw7llBXVPdc-wKSkhoHCpG4LLLw=s1920-c-rp-mo-br100",
       "text": "Pelayanannya memuaskan dan petugasnya ramah, Semoga lebih ditingkatkan lagi dan dipertahankan lgi pelayanannya",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-28T06:21:45.067Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25wUU9HTlJVekZmUmxkbVZWcHVTbEJyUmpkU05rRRAB",
@@ -620,8 +652,8 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:07:58.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan Anda kepada RSU Rachmi Dewi. Kami akan terus berkomitmen memberikan pelayanan yang terbaik.",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -638,7 +670,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWSu_rDn0F_SVXPP6A0F8Y_ezBKFc1LkYXBS9rZVusGPgUExTU=s1920-c-rp-mo-br100",
       "text": "Alhamdulilah setelah ganti dokter dan rumah sakit kami cocok banget dengan dokter maya sri karena ramah banget dan dokter spesialis kandungan di rumah sakit rachmi dewi is the best",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-28T03:49:56.981Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xoSVoxUllZamRmUnpKb2JtbEZkamRKVnkxWWNYYxAB",
@@ -646,8 +678,8 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:07:26.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif yang Anda berikan kepada RSU Rachmi Dewi. Kepuasan pasien adalah motivasi kami untuk terus memberikan pelayanan kesehatan yang terbaik. Semoga Anda dan keluarga selalu sehat.",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -664,7 +696,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI9ZkaFLfLT0P6yM_ia-s6YlAYFJBnKP9YdGv-fCzoWA5T1_Q=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-28T03:28:59.841Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xOTE5YZFhWbmR6UWtKdU1EQnVSVWx1WTBKcVVWRRAB",
@@ -690,7 +722,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXirNVMFrnzZNUIyq8G6DJUNKtc6vyDCvDz26TFo9KviTQg8WVl=s1920-c-rp-mo-ba12-br100",
       "text": "Gak salah pilih tempat 🥰 dari awal kontrol kehamilan disini, pelayanan nya ramah, sabar dan juga edukatif untuk new mom",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-28T03:13:46.483Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xZM1RGbElkRVZyVlVOVmFXNUVXa2wxWmtWc01GRRAB",
@@ -698,8 +730,8 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:07:09.000Z",
+      "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif yang Anda berikan kepada RSU Rachmi Dewi. Kepuasan pasien adalah motivasi kami untuk terus memberikan pelayanan kesehatan yang terbaik. Semoga Anda dan keluarga selalu sehat.",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -716,7 +748,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJbLbh5f3nReP5VnMULaJpg6lVYtQSlqM2ht8j2YbMwa-I0LA=s1920-c-rp-mo-br100",
       "text": "Pelayanan yang bagus dokter susternya ramah\nTempat juga nyaman\nSemuanya sangat baik",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-27T10:24:55.163Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sdFlWTjVVMlU1YURkb09FRTFNMmwzUlhsa1JrRRAB",
@@ -724,8 +756,8 @@
       "reviewOrigin": "Google",
       "stars": 5,
       "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
+      "responseFromOwnerDate": "2026-08-20T01:06:38.000Z",
+      "responseFromOwnerText": "Terima kasih telah memilih RSU Rachmi Dewi. Kami sangat menghargai apresiasi yang Anda berikan. Masukan positif dari Anda menjadi semangat bagi seluruh tim kami untuk terus meningkatkan kualitas pelayanan.",
       "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -742,7 +774,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKteNSHDsLCOhFOLIWYSDc2z2U3Pyqd0z9mLCUuivN8u_fZrSk=s1920-c-rp-mo-br100",
       "text": "First time senam hamil disini menyenangkan karena bisa dapat ilmu juga ✨💞💞",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-26T02:29:39.050Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkT1ZVMVFjbkZwYkV4clVWWlliemh2ZUdOS1FuYxAB",
@@ -753,7 +785,7 @@
       "responseFromOwnerDate": "2026-07-27T01:03:41.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan dan kepercayaan Anda mengikuti Senam Hamil di RSU Rachmi Dewi. Kami senang dapat mendampingi perjalanan kehamilan Anda. Semoga kegiatan ini bermanfaat dan membantu Anda mempersiapkan persalinan yang lebih nyaman. Kami tunggu kehadiran Anda di sesi berikutnya.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMuuKOaSLVwFEj2elscsDVdv05MZQQYBu-qjmbyvIsTJVy3XcjW7G_UpwyqX1T8nH8kkjye9IBjLaT_knMOm2ZVkrS4042WlM4B7BHv5NcY3bGbXxL0DwokdcV99MWt1swIhokHANM3ulI=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNf7PbXPVc3IbCyJGhFoG0s9hcM9Qus-m4xeJs_ax4kAx5F1okLUP-kikTwhEhHWJS-s-eknRqra45B3Od2-bSmRg6OPGuE0SfRNsrv2wY-CR1pAahcVbix6xLfAsCOivHjlUYRHHnM1C0=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -770,7 +802,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV0HjQeD-7GIXUXvy5q6vEUEgOpFtEhJ-TElpOGLu4VGrbquYk6XA=s1920-c-rp-mo-br100",
       "text": "Alhamdulillah senam hamil di sini bidannya ramah dan sangat informatif",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-26T02:16:12.122Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s5aE0xaHFRMng1UzFOTU9YRkxWa2hwUmt0R1ZFRRAB",
@@ -781,7 +813,7 @@
       "responseFromOwnerDate": "2026-07-27T01:03:24.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasannya, Bunda. Kami senang Senam Hamil RSU Rachmi Dewi dapat memberikan manfaat. Sampai bertemu di kelas berikutnya. Semoga selalu sehat.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPfW82VtC1YqQAfdhW7tmzyDMSGbAl-2cPMDqBzgRPC_wllZlhq9bBJr3FD4hNzSOKoUQcLeAUi3hdxV69Be_k8hujZ3ttFpADDQ9Pl2bWmMF6X2FMEUeSEoCjRjKSw_GOVau26X2mgw50=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNprKXvLbS6eh0477zS3SPpHIHBbakiuElHBns7C6v5cCQuRw9CGP1Mrubmih9oj0YvrDfA3o8GiTrmgrzH6w_3UkM7k1bs-6t59jto1qmXXRSFIQgWewvscHWsPFSZtXWVtikIJ0qp5Ak=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -798,7 +830,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW4Ir7ALf9Grn8icgfeJsl6EXX0nPpHFo2kksW9SR0UnhH2Vcwr=s1920-c-rp-mo-br100",
       "text": "Sesi yoga dan sharing yang menyenangkan dengan harga yg affordable. Worth it to try!",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-26T01:58:49.150Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKNVpWWkZjbUpKVG1aVlRtWTNlakZtVjBjMFduYxAB",
@@ -809,8 +841,8 @@
       "responseFromOwnerDate": "2026-07-27T01:03:07.000Z",
       "responseFromOwnerText": "Terima kasih telah berbagi pengalaman bersama Senam Hamil RSU Rachmi Dewi. Apresiasi dari Bunda menjadi penyemangat bagi tim kami untuk terus menghadirkan edukasi dan pendampingan kehamilan yang nyaman, aman, dan bermanfaat. Semoga kehamilan Bunda selalu sehat hingga hari persalinan.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMvIJNYMDnv52YpiTR4i64DYN0jW_hBTGm4Dh285sHLBPaycvC7YfTaBq4uGsqZNVXHI_6TrCvjjlf44_-R3T-cMKmwlfP_5K-HtpBhNMDAq3z2h57M8N8CvEaNCtJv4df6vjWr08blhsU=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOoCbuaUe6swQcaO_vQH-MYH4-PNYvwCPn4DFrXiblpElW61SLAZ7YhCN_sKBMaPMtaMW9eTjVx6yCcAh4wFLAk_AHk4qjDi6XfbWJdSobmCAEv5U3G-Iw7YrBCpvnIxASqeFYeLGjHG-A=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOHSvcXiwiTWfzFmqjZrW3_8SOXUrHHdaP3u2-A4_m5AHcS65AxidTkDl0t_CV1Y1eJtnrJl7lDMxCBuUBrJAveLIguschIF55erTDQGTCqAC0U-HIQGTfNrV3sUNtGIkvc3jSttBu-J8A=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPxcmbwW7DNsOtZh8Btaumb6G1z_dOjcrDyy7qiDxjuolrD-FzFhS7lOhVGtlyr_y8v1pjEryYZ74j1T4L4n3hUGYQQjuJP9i0GLGqX2kboX-QIfDi20N-Y-l2QjReMWOr-u7UHKX8i9Tg=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -827,7 +859,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXthmulWli98Lxy8kvezkii5r5qukSlKQ9Rsnpt54pGEVfkVA2A=s1920-c-rp-mo-br100",
       "text": "Sangat terbantu dengan adanya program senam hamil, untuk mempersiapkan proses melahirkan. Pelayanan ramah dan harga yang terjangkau. Terimakasih RSU rachmi dewi🙏",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-26T01:20:26.176Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxNk0zcGlaVWR6VkcwMFJYbzNXRGRIY1dGcmNXYxAB",
@@ -838,7 +870,7 @@
       "responseFromOwnerDate": "2026-07-27T01:02:44.000Z",
       "responseFromOwnerText": "Terima kasih atas ulasan positifnya. Kami senang Bunda menikmati Senam Hamil di RSU Rachmi Dewi. Kami berharap kegiatan ini dapat membantu menjaga kebugaran selama kehamilan dan mempersiapkan persalinan dengan lebih percaya diri. Sampai jumpa di kelas berikutnya. 💙",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPl5g4VwibWGk69SkMFVqlMx7ssvKA0Miqibq33MLhpH9TuXSYexli8paVDAQZo9ViBeDsoXrGisZm6moYzVB_W9ldKbWd3u30e62ktTTGy7TaI2PC-LbFLrqFeNtY0KP3aPrN1V3iVMrZz=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMG4J0UOtCJ_pjdEb5VJet7YJzZSxYbvamMm1SAdWl_saKqcIdHrhF3HTKou8Y46jAWKzPhSV_9mCw1904Uk4ajGTa06UMEAXEA46qo4sRjb05LyLTkMTao_RKgMosM4Til0xecjYJWF-1a=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -855,7 +887,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU_-NEd5DAWyZsc-fH3rkvusVJjLowcj4hISKwUr71Rsh-MafR8=s1920-c-rp-mo-br100",
       "text": "senam hamil nyaman dan instruktur terampil, terimakasih",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-26T01:17:57.188Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWQlJGQnlia1p5TlhSd2NYUkpZV3BTWlVoU2FXYxAB",
@@ -881,7 +913,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW5lstUSjxY562QpFcDgx8aI-Y5J3hk7bWr_qrP8vgqn-tYl8OV=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-25T05:51:55.889Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21oVlVUSmtNVGRmTm1adldEaGZiMkZ6WWxobFNuYxAB",
@@ -907,7 +939,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUEU8lR5wFdB8tOoRkL5HGkglioNqb8Nkua66-w0rkvC_EuwHQa=s1920-c-rp-mo-ba12-br100",
       "text": "Klinik langganan dari anak pertama, deket rumah, pelayanan cepat, antrian gak banyak. Good place 👍🏻",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-25T04:39:06.825Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25KdWNWb3pOWFJGYldVeVptWlBkeTF2UTBwRVRVRRAB",
@@ -918,7 +950,7 @@
       "responseFromOwnerDate": "2026-07-27T01:02:05.000Z",
       "responseFromOwnerText": "Terima kasih atas kepercayaan dan ulasan positif yang Anda berikan kepada RSU Rachmi Dewi. Kepuasan pasien adalah motivasi kami untuk terus memberikan pelayanan kesehatan yang terbaik. Semoga Anda dan keluarga selalu sehat.",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQCgGrIqqbnXtcS69GOLnn3-ppc216gvRNrJWtgn3iT7kyVH-X7NPB4zXpiUorVfbA6yQndbMOmUO9JO4ACcHYJde6z14xku82A4c9Uuv43gYKhK8rKXqfS2X9UusSuvu9QaPWKJRHuBw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOKGdxtZIBwkGe-Zwu2vrFSq278A60kWGB3eCtcmPHXDSCXGVPSYZGgQI1NA158-WEgFg5Ug1pmKuyQFWFnfrlXmEdscf0WoowNw9LGf77jP8Q9eEdQelJif1-nBIgX0sNqFpDOUTXgYwU=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -935,7 +967,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX4DGBooTUWzzY3KHnYmkLuw38jALZsBIWETXDTR0f3JIv4IyXj=s1920-c-rp-mo-br100",
       "text": "Pelayanan baik, fasilitas baik, ramah”",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "3 minggu lalu",
       "publishedAtDate": "2026-07-25T04:24:56.297Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tvMFlUVmFhamRGU1dwblpHVlBkMkUxUkhScWRsRRAB",
@@ -961,7 +993,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUKKrAgS371f9dxdrZOCEueKMcuNz-_3ChZZw_T-CbqX9IY7vc=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "4 minggu lalu",
       "publishedAtDate": "2026-07-22T02:29:32.407Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOb1VXVTVPVmc0YUZwNlNUWTNNRk16YzBSVlkzYxAB",
@@ -987,7 +1019,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKgfSCthI0hF54BtmzyiUEH8QF_0As8LHBmJcNSgPY4EeaG9w=s1920-c-rp-mo-br100",
       "text": "Senam disini sangat menyenangkan, rumah sakit yg melayani dengan sangat baik dan ramah🥰 sukses selalu Rachmi dewi",
       "textTranslated": null,
-      "publishAt": "2 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-19T00:18:25.710Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT20xNVNrNTJZVWgxV2kwMmNsWnVUR0pNY1ZFdGNtYxAB",
@@ -1003,34 +1035,9 @@
       "visitedIn": null,
       "originalLanguage": "id",
       "translatedLanguage": null
-    },
-    {
-      "reviewerId": "115222714221322402426",
-      "reviewerUrl": "https://www.google.com/maps/contrib/115222714221322402426?hl=id",
-      "name": "Nur Saidah",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJHSQl_zIReXFJwB0weXWZDrMPCCeYAVjMFrdwvBI8uCrN1iA=s1920-c-rp-mo-br100",
-      "text": "Rachmi Dewi sangat nyaman🥰👍",
-      "textTranslated": null,
-      "publishAt": "2 minggu lalu",
-      "publishedAtDate": "2026-07-19T00:16:10.176Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21wT01EZ3hWaTFWVjIxNGFYUm9XRkZwZFZNNWRYYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wT01EZ3hWaTFWVjIxNGFYUm9XRkZwZFZNNWRYYxAB!2m1!1s0x0:0xe7ae6ed0f11d5a5f!3m1!1s2@1:CAIQACodChtycF9oOmpOMDgxVi1VV214aXRoWFFpdVM5dXc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": "2026-07-27T01:00:47.000Z",
-      "responseFromOwnerText": "Terima kasih atas kepercayaan dan dukungannya. Kami akan terus memberikan pelayanan sepenuh hati. Semoga sehat selalu",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Rumah Sakit",
   "kategori": "Kesehatan"
 }

@@ -1,0 +1,904 @@
+{
+  "title": "KLINIK PRATAMA SEGARA DR. MAYA TARUMAJAYA",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Klinik Kesehatan",
+  "address": "RUKO GALEA RSC 03-03 SEGARA CITY, Segarajaya, Kec. Tarumajaya, Kabupaten Bekasi, Jawa Barat 17216, Indonesia",
+  "neighborhood": "Segarajaya, Kecamatan Tarumajaya",
+  "street": "RUKO GALEA RSC 03-03 SEGARA CITY",
+  "city": "Kabupaten Bekasi",
+  "postalCode": "17216",
+  "state": "Jawa Barat",
+  "countryCode": "ID",
+  "phone": "+62 813-9851-8509",
+  "phoneUnformatted": "+6281398518509",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -6.1188082,
+    "lng": 107.0016573
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "V2J2+FM Segarajaya, Kabupaten Bekasi, Jawa Barat, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJN942qoIhai4RiAu0aoGnTh4",
+  "categories": [
+    "Klinik Kesehatan"
+  ],
+  "fid": "0x2e6a2182aa36de37:0x1e4ea7816ab40b88",
+  "cid": "2183867043604073352",
+  "reviewsCount": 9,
+  "imagesCount": 1,
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-20T18:47:47.754Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 16
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 13
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 86
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 94
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 16
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 16
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 16
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 19
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 22
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 72
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "08.00 to 22.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "08.00 to 22.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "08.00 to 22.00"
+    },
+    {
+      "day": "Senin",
+      "hours": "08.00 to 22.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "08.00 to 22.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "08.00 to 22.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 22.00"
+    }
+  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "APOTEK MULIA JAYA",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Alyssa",
+      "reviewsCount": 3,
+      "totalScore": 4.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Apotek Mulia Jaya",
+      "reviewsCount": 28,
+      "totalScore": 4.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Toko obat mulia",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "pelayanan",
+      "count": 2
+    }
+  ],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=KLINIK%20PRATAMA%20SEGARA%20DR.%20MAYA%20TARUMAJAYA&query_place_id=ChIJN942qoIhai4RiAu0aoGnTh4",
+  "searchPageUrl": "https://www.google.com/maps/search/Apotek%20Mulya%20Jaya?hl=id",
+  "searchString": "Apotek Mulya Jaya",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=W7pDxFsVtztEoF3mwY1Ing&cb_client=search.gws-prod.gps&w=408&h=240&yaw=291.5864&pitch=0&thumbfov=100",
+  "kgmid": "/g/11rrpqb92k",
+  "businessProfileId": "3569380907551092972",
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 9
+  },
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": "103560803395281765686",
+      "reviewerUrl": "https://www.google.com/maps/contrib/103560803395281765686?hl=id",
+      "name": "REEMAY CHANNEL",
+      "reviewerNumberOfReviews": 44,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUp7aE_88usTZM6VqUrkUvsFFO_7DU2ikC2DaKWs-pF3MxrLKLx=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 bulan lalu",
+      "publishedAtDate": "2026-02-16T16:14:21.520Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25CcldsTjFNREZGYlRjMFJ6RkpNMVpqTkVVMVMyYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25CcldsTjFNREZGYlRjMFJ6RkpNMVpqTkVVMVMyYxAB!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CAIQACodChtycF9oOnBrWlN1MDFFbTc0RzFJM1ZjNEU1S2c%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106795029105363284569",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106795029105363284569?hl=id",
+      "name": "Fahmil Akbar",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJqcdu5FiuOeKCAbF1ACXIaf970FzWkJg-ci54AvPnEqkruoqs=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "7 bulan lalu",
+      "publishedAtDate": "2025-12-23T11:27:12.659Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2podGFFSXlXbnB1UWtSRWJ6WlViVmhRZUVWa1ZWRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2podGFFSXlXbnB1UWtSRWJ6WlViVmhRZUVWa1ZWRRAB!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CAIQACodChtycF9oOjhtaEIyWnpuQkREbzZUbVhQeEVkVVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116258165177853536311",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116258165177853536311?hl=id",
+      "name": "haryati prasetiya",
+      "reviewerNumberOfReviews": 6,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVUn18txjkH6zAnCaO4dgexbftrH21NJ8Zmgp6T90_vK3f3WM_k=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "Diedit 8 bulan lalu",
+      "publishedAtDate": "2025-12-11T02:55:25.772Z",
+      "likesCount": 0,
+      "reviewId": "ChRDSUhNMG9nS0VJQ0FnSUQ2a180VBAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChRDSUhNMG9nS0VJQ0FnSUQ2a180VBAB!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgID6k_4T%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "117300327667865039198",
+      "reviewerUrl": "https://www.google.com/maps/contrib/117300327667865039198?hl=id",
+      "name": "Hedi Maulana",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXpAn-NNTQMnARc3jJwWXqmY4DynRejRmkfQGjDkuY9LFTGvnU=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2024-03-08T05:30:04.759Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUM5amNUNU5REAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM5amNUNU5REAE!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgIC9jcT5NQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "110597447724481696945",
+      "reviewerUrl": "https://www.google.com/maps/contrib/110597447724481696945?hl=id",
+      "name": "Nur Khaleda Ayuningtiyas",
+      "reviewerNumberOfReviews": 7,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLNNo4X_8g9_z6AyRRKzEIReJFn9Pv5OLOCRSOPeHb14aaPkyA=s1920-c-rp-mo-br100",
+      "text": "Masha Allah senang bgt saya dirawat di rumah sama dokter Maya & perawatnya baik ramah. Dokternya juga sigap, ramah & mengutamakan kondisi pasien. Saya sakit maagh sampai lemas ga kuat jalan akhirnya dirawat di rumah habis 4 botol infus, banyak obat suntik & obat oral. Saya dirawat 2 hari 1 malam habisnya ga sampai 1 juta. Cuma ratusan ribu. Suster telaten bolak balik ke rumah saya ngecek kondisi saya. Pokoknya top bgt. Buat warga Segara City ini dokter rekomen bgt 🫶👍",
+      "textTranslated": null,
+      "publishAt": "2 tahun lalu",
+      "publishedAtDate": "2023-09-27T03:48:32.413Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURaZ3N1QmF3EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURaZ3N1QmF3EAE!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgIDZgsuBaw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "106866020657834642214",
+      "reviewerUrl": "https://www.google.com/maps/contrib/106866020657834642214?hl=id",
+      "name": "maya tyas",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVA9dZUq2BTmqasQV1URRFcY2RCSX8N4Kpi0vJCF-wA2nj4URah=s1920-c-rp-mo-br100",
+      "text": "Obat lengkap\nAd dokter praktek juga",
+      "textTranslated": null,
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-08-09T00:38:29.460Z",
+      "likesCount": 1,
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUN1OV9fRTd3RRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUN1OV9fRTd3RRAB!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgICu9__E7wE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "105691607199067535765",
+      "reviewerUrl": "https://www.google.com/maps/contrib/105691607199067535765?hl=id",
+      "name": "tarty wahyu",
+      "reviewerNumberOfReviews": 2,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX-W7CkZVEBXpPvyH2eg4zZEEMNOYt9ewCbxY8AfR-YYY_EhVCR=s1920-c-rp-mo-br100",
+      "text": "Pelayanan ramah & respon nya cepat.👍👍\nTerimakasih",
+      "textTranslated": null,
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-03-10T08:28:54.426Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNXcjlhUUlBEAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNXcjlhUUlBEAE!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgICWr9aQIA%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMsd8GEK6xYBHNpkwsnROMvXDHYkvYqlHj552HfEbZEVYIBkUyUW_fAK87wZH2KcmA3kPfBQihAcrZrWQgbhE-qGFOCC4wqfNUS9Dst9C_ZK7eZ6BryOw6mugc0T9dspUzfP5tk2w=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108365836623806641299",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108365836623806641299?hl=id",
+      "name": "Andrean Kw",
+      "reviewerNumberOfReviews": 71,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJHlOn-6l1RwbRUGX-ZDSk2BixUzpU5yJoIhdy_ojd8qx8MBw=s1920-c-rp-mo-ba12-br100",
+      "text": "Pelayanan ramah 👍",
+      "textTranslated": null,
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2022-02-10T04:22:56.884Z",
+      "likesCount": 1,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURtbTcyWk93EAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURtbTcyWk93EAE!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgIDmm72ZOw%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "116827391075557377244",
+      "reviewerUrl": "https://www.google.com/maps/contrib/116827391075557377244?hl=id",
+      "name": "N. Ayue",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJk60y-kDG-VXN38-YT9xrVK4inJ3tNtnnTV_srKF2QQkncDQ=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "4 tahun lalu",
+      "publishedAtDate": "2021-12-09T16:10:03.658Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURHeTZ1R0pREAE",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURHeTZ1R0pREAE!2m1!1s0x0:0x1e4ea7816ab40b88!3m1!1s2@1:CIHM0ogKEICAgIDGy6uGJQ%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": [],
+  "sub_kategori": "Apotek & Farmasi",
+  "kategori": "Kesehatan"
+}

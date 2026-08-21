@@ -1,0 +1,54 @@
+{
+  "key": "apotek_putri_kencana",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotek Putri Kencana",
+  "rating": 3.9,
+  "total_ulasan": 3,
+  "positif": 2,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 66.7,
+  "persen_netral": 33.3,
+  "persen_negatif": 0.0,
+  "latitude": -7.3453545,
+  "longitude": 112.5879468,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Edo Rosid",
+      "Bintang": 1,
+      "Tanggal": "2022-09-30T13:09:46.797Z",
+      "Ulasan": "Top up shopee di isi gopay, dan TDK ada pertanggungjawabn",
+      "teks_final": "top up shopee isi gopay pertanggungjawabn",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9743
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Gondrong Bro",
+      "Bintang": 5,
+      "Tanggal": "2022-08-11T02:05:31.070Z",
+      "Ulasan": "Tempat strategis harga terjangkau",
+      "teks_final": "tempat strategis harga terjangkau",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9967
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Ran",
+      "Bintang": 5,
+      "Tanggal": "2018-12-18T12:40:48.283Z",
+      "Ulasan": "Obat-obatannya lumayan lengkap, harganya juga lumayan terjangkau pula. Lokasinya juga cukup strategis.",
+      "teks_final": "obat obatannya lumayan lengkap harganya lumayan terjangkau lokasinya cukup strategis",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9952
+    }
+  ]
+}

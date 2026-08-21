@@ -1,0 +1,601 @@
+{
+  "title": "MINU SUKODONO GRESIK",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": null,
+  "price": null,
+  "categoryName": "Sekolah pendidikan umum",
+  "address": "Jl. KH. Hasyim Asy'ari No.15, Kebungson, Sukodono, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61116, Indonesia",
+  "neighborhood": "Kebungson, Sukodono, Kecamatan Gresik",
+  "street": "Jl. KH. Hasyim Asy'ari No.15",
+  "city": "Kabupaten Gresik",
+  "postalCode": "61116",
+  "state": "Jawa Timur",
+  "countryCode": "ID",
+  "website": "http://www.minusukodono.sch.id/",
+  "phone": "+62 813-2627-287",
+  "phoneUnformatted": "+628132627287",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": -7.1520021,
+    "lng": 112.652758
+  },
+  "locatedIn": null,
+  "floor": null,
+  "plusCode": "RMX3+54 Sukodono, Kabupaten Gresik, Jawa Timur, Indonesia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": null,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJT6f2YVgA2C0R3i4ynF_FF3U",
+  "categories": [
+    "Sekolah pendidikan umum"
+  ],
+  "fid": "0x2dd8005861f6a74f:0x7517c55f9c322ede",
+  "cid": "8437429441335013086",
+  "reviewsCount": null,
+  "imagesCount": 48,
+  "imageCategories": [
+    "Semua",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2026-08-21T00:50:58.534Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Sekarang: Biasanya tidak terlalu sibuk",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 77
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 97
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 92
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 83
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 98
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 91
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 84
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 54
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 57
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 66
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 5,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 6,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 78
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 98
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 81
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 61
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 33
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 32
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 29
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 39
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "06.00 to 11.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "06.00 to 00.00"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "06.00 to 14.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "06.00 to 14.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "06.00 to 14.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "06.00 to 14.00"
+    }
+  ],
+  "openingHoursBusinessConfirmationText": "Dikonfirmasi oleh bisnis ini 3 minggu yang lalu",
+  "wasOpenAtScrapeTime": true,
+  "peopleAlsoSearch": [
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "MINU SALAFIYAH",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "MINU LUMPUR GRESIK",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "MINU Sumput Sidoarjo",
+      "reviewsCount": 13,
+      "totalScore": 3.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "MI Futuhatul Ulum",
+      "reviewsCount": 17,
+      "totalScore": 4.4
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Minu Wedoro",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Aksesibilitas": [
+      {
+        "Tempat parkir khusus pengguna kursi roda": false
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=MINU%20SUKODONO%20GRESIK&query_place_id=ChIJT6f2YVgA2C0R3i4ynF_FF3U",
+  "searchPageUrl": "https://www.google.com/maps/search/MINU%20SUKODONO%20GRESIK?hl=id",
+  "searchString": "MINU SUKODONO GRESIK",
+  "language": "id",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWniRN6txsgiKrzTgr7uKUiZjnzkDu2YAQdbmKBKSajk9CAkARK3uVPz8_FVGpGougV7IoLUy69y9WRBvUX3U977aI7NuhxjUK2EaSQ2uLQMpcqfxyrxmczzLmOt58WIrNXJhhQMrQ=w408-h271-k-no",
+  "kgmid": "/g/1hm207z4m",
+  "businessProfileId": "14378699961732821945",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [],
+  "leadsEnrichment": [],
+  "sub_kategori": "SD/MI",
+  "kategori": "Pendidikan"
+}

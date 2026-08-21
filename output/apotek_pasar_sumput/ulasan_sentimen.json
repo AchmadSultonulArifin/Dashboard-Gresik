@@ -1,0 +1,90 @@
+{
+  "key": "apotek_pasar_sumput",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotek Pasar Sumput",
+  "rating": 4.4,
+  "total_ulasan": 6,
+  "positif": 5,
+  "netral": 0,
+  "negatif": 1,
+  "persen_positif": 83.3,
+  "persen_netral": 0.0,
+  "persen_negatif": 16.7,
+  "latitude": -7.3546603,
+  "longitude": 112.6013937,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Alina Fitriya",
+      "Bintang": 5,
+      "Tanggal": "2026-05-05T10:34:24.350Z",
+      "Ulasan": "pelayanan baguss ,mbaknya ramah tamah sering dikasih kembalian permen tapi tidak apa-apa karna cari uang receh sangatlah susahhhh😍 suka bangett obatnya lebih murah dari apotek sebelahhh.........",
+      "teks_final": "pelayanan baguss mbaknya ramah tamah sering dikasih kembalian permen apa apa karna cari uang receh sangatlah susahhhh suka bangett obatnya murah apotek sebelahhh",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9953
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Rena Kharisma",
+      "Bintang": 4,
+      "Tanggal": "2025-10-18T12:22:23.320Z",
+      "Ulasan": "Apoteknya cukup lengkap, meskipun kadang ada beberapa obat yang tidak sama persis. Tidak diberikan nota, kembalian seribu diberi vitacimin. Pelayanan kasir perlu ditingkatkan lagi.",
+      "teks_final": "apoteknya cukup lengkap meskipun kadang beberapa obat sama persis diberikan nota kembalian seribu diberi vitacimin pelayanan kasir perlu ditingkatkan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6264
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Anaha Beauty Store",
+      "Bintang": 2,
+      "Tanggal": "2025-07-08T04:56:48.476Z",
+      "Ulasan": "Kasir kurang teliti. Saat pembayaran bilangnya 58rb, uang saya kasih 100 RB kembali 42. Lalu saya minta struk. Karna saya sudah percaya jadi struk tidak saya cek di tempat saya cek di rumah tyta total blanja 45. Mohon kasir lebih teliti lagi lumayan selisih 13rb mau balik lagi udah malas siang2",
+      "teks_final": "kasir kurang teliti pembayaran bilangnya 58rb uang kasih rb kembali lalu minta struk karna percaya jadi struk cek tempat cek rumah tyta total blanja mohon kasir teliti lumayan selisih 13rb mau balik udah malas siang2",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.6058
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Ayu Pretty",
+      "Bintang": 5,
+      "Tanggal": "2025-04-23T21:06:40.858Z",
+      "Ulasan": "Murah dan pelayanan nya memuaskan.. Selalu kesini kalo butuh obat\"an",
+      "teks_final": "murah pelayanan memuaskan selalu kesini kalo butuh obat an",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9963
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Rani Waskita",
+      "Bintang": 5,
+      "Tanggal": "2024-01-05T14:36:52.299Z",
+      "Ulasan": "Pelayanan sangat memuaskaan",
+      "teks_final": "pelayanan memuaskaan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9563
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Jhouhar",
+      "Bintang": 5,
+      "Tanggal": "2024-01-05T14:34:14.870Z",
+      "Ulasan": "Obat-obatannya lengkap, pelayanannya ramah",
+      "teks_final": "obat obatannya lengkap pelayanannya ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.996
+    }
+  ]
+}

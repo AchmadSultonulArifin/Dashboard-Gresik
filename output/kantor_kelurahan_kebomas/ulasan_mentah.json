@@ -2,6 +2,7 @@
   "title": "Kantor Kelurahan Kebomas",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "Jl. Dr. Wahidin Sudirohusodo No.30, Putat Luar, Sukorame, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
@@ -45,7 +46,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:12:42.781Z",
+  "scrapedAt": "2026-08-20T23:58:08.091Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -57,10 +58,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 15.00"
@@ -84,8 +81,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 15.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -102,8 +104,8 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Kantor Kelurahan Sukorame",
-      "reviewsCount": 9,
-      "totalScore": 1.9
+      "reviewsCount": 12,
+      "totalScore": 1.7
     },
     {
       "category": "Orang lain juga menelusuri",
@@ -134,8 +136,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnX0tqwvf45igpx94KwevcOva5jp_aazkXq5Wb5QQTBhPU0H2e6g_XS449W526AG2EJLJBzZGyVqNaqGyU1mczwgjYkfLMIeR3aKqtyVDMhXw6B8Gt5SCHfhCvNT-BimEang9k=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnD2NiVLonYzAwS8l3FooqDdVjVDNxm74qB1ur__IwihRLpLiMhU0J6asd8zQNPzrbKPg7-2ny6xVnffCX-CvUuVpT6pfOMonV-EVBzEEYrMAbdxgYIqwhx3y5y5juHzjz11mo=w408-h306-k-no",
   "kgmid": "/g/11cryf26qr",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -219,7 +222,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOWnxAL-fOprDU8B459N1yYrmU9pB4zCLR3sB0kwHwEEeJggXNXTyGdpcMlXJFhww9NEd9bdeUWB-BgsQVfXtiYmE9jQKYrPRj5lrzbmJkh7vQY1KkAjdfIAodX-svSgG0ekmI=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMhJ7_WNRxOnMhURUl81r-AZhGsyM0tKtDO2azi0C0qWEU0iIox3iQWGA4zaEQKYhLcxl6i_asu4WAeCxdHpQoAECx1z3sjaAcElFxwuinRgI89w-KimAIZRWo8G7M5S1io9LQ=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -257,7 +260,7 @@
       "reviewerId": "107380667759339929305",
       "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
       "name": "yudi oke",
-      "reviewerNumberOfReviews": 4305,
+      "reviewerNumberOfReviews": 4303,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
       "text": "Kantor Kelurahan Kebomas.",
@@ -281,5 +284,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

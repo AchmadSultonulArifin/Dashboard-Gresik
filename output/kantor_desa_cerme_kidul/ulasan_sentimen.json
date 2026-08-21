@@ -1,0 +1,54 @@
+{
+  "key": "kantor_desa_cerme_kidul",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Cerme Kidul",
+  "rating": 3.8,
+  "total_ulasan": 3,
+  "positif": 3,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.2328331,
+  "longitude": 112.5655496,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Abdullah Habibi",
+      "Bintang": 3,
+      "Tanggal": "2026-02-12T06:53:23.857Z",
+      "Ulasan": "Kurang terawat, butuh renovasi, tempat atau ruang tunggu untuk tamu tidak ada,",
+      "teks_final": "kurang terawat butuh renovasi tempat ruang tunggu tamu",
+      "topik": "Kesehatan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9784
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Indah Rakhmawati",
+      "Bintang": 5,
+      "Tanggal": "2025-12-02T10:09:14.876Z",
+      "Ulasan": "Tempatnya luas",
+      "teks_final": "tempatnya luas",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.997
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "matt gundhul (Matt gundhul)",
+      "Bintang": 5,
+      "Tanggal": "2023-10-22T15:10:28.746Z",
+      "Ulasan": "Siiip👍",
+      "teks_final": "siiip",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9135
+    }
+  ]
+}

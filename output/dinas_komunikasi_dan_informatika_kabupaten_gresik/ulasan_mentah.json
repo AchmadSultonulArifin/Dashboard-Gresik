@@ -2,6 +2,7 @@
   "title": "Dinas Komunikasi dan Informatika Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "Jl. Dr. Wahidin Sudirohusodo No.60, Putat Luar, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
@@ -41,12 +42,8 @@
     "fiveStar": 5
   },
   "imagesCount": 10,
-  "imageCategories": [
-    "Semua",
-    "Street View & 360°",
-    "Video"
-  ],
-  "scrapedAt": "2026-08-06T13:54:04.147Z",
+  "imageCategories": [],
+  "scrapedAt": "2026-08-20T22:24:16.807Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +55,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.00 to 15.30"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 15.30"
@@ -85,40 +78,14 @@
     {
       "day": "Rabu",
       "hours": "07.00 to 15.30"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 15.30"
     }
   ],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Dinas Komunikasi dan Informatika Kabupaten Lamongan",
-      "reviewsCount": 4,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor Bupati Gresik",
-      "reviewsCount": 119,
-      "totalScore": 4.4
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "BPBD Gresik",
-      "reviewsCount": 17,
-      "totalScore": 4.8
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Dinas Komunikasi dan Informatika Provinsi Jawa Timur",
-      "reviewsCount": 57,
-      "totalScore": 4.4
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Dinas Pemadam Kebakaran dan Penyelamatan Gresik",
-      "reviewsCount": 19,
-      "totalScore": 4.8
-    }
-  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [],
   "gasPrices": [],
@@ -128,15 +95,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWG1qfPaKvYzn3XrAyT2pUo48BTN3FdTHfjzM-p_qACxnMWrcSxmTAdtetNK2h1YhCSyczVlhVdfjeM1I926Hbm2gMcj3qeIsLFrpDLoCVSzXwPDwuNGbB06SSlR83ZeUvN2U8=w408-h292-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtY3IYh4mPC85qr7Eu7GUoz06hLrT3OExJbKfSsFEVJ0fYkJsuMbVbiC_KFUc95fjzxcdQFETjIJJX98RznH7KTlKqgVZv8IfQ7t8_7g-YrpIJc_tfySJ-NTaxF5kz88hb6kUi=w408-h292-k-no",
   "kgmid": "/g/11c74kv0st",
-  "additionalInfo": {
-    "Fasilitas": [
-      {
-        "Toilet": true
-      }
-    ]
-  },
+  "businessProfileId": "9045910345450916077",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -178,7 +139,7 @@
       "reviewerId": "118418952792174713802",
       "reviewerUrl": "https://www.google.com/maps/contrib/118418952792174713802?hl=id",
       "name": "ermin haryanti",
-      "reviewerNumberOfReviews": 131,
+      "reviewerNumberOfReviews": 132,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVTR5b1guqToZNoR7RPTdXSlGZj2x3cWxRjungeuPRWzBVKjD0=s1920-c-rp-mo-ba12-br100",
       "text": "Orang nya ramah",
@@ -194,7 +155,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMNJJ9AhNN1UvR0FpP1Y4lc9Q_nLkat1rz9MCo3fNrMAW7jvDCYKxf7ZbxGYwBgkrvxb6azjLV0ug3MoE39YpqhaBgV8Ht7w-TBZXXReP63Jjhzx5t35jfbuhLxWgIv_aVONPo4VgHaL4Jz=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPceppYD-PHNPqNdBIzam0zAYpN6yjcJBtAKezV_e-rJut8JIhILKWmaCJbf3KT11HJbCJI-wo0w0CJtasmcy0QIVtpYnCWgHPMzV6gSmq2PLSftSiWQHAp-e8pUEyFB6sS2FRAcxkk6lee=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -206,7 +167,7 @@
       "reviewerId": "102645066511746374755",
       "reviewerUrl": "https://www.google.com/maps/contrib/102645066511746374755?hl=id",
       "name": "raja iqbal",
-      "reviewerNumberOfReviews": 23,
+      "reviewerNumberOfReviews": 22,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUuB8lA_2YaBdAnxiMpUIEhPYjTpz5GyYWrqkrUzS3-xJV2CyuwEQ=s1920-c-rp-mo-ba12-br100",
       "text": "Dinas komunikasi gresik",
@@ -326,7 +287,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOdJCRKVVw50y7dPZIN6LTHEewgfmBrtHoq-U8GdaglsqZVS-qS_ypkpikcWy05AjslZSXlErxJp0kBdziFMn_MdTBVcqvDOTeVcpiYj7Hlu2T--4kQv5boYjJOW4aeyaUe8Ko=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOI9BZKgi9CUeay4vRZqkVy6_qTr1sp_uHxphGbvYlj_2zOAIugpo4wz316TVEq96TVGWp6vn-5PqBCfwHIrCFBQRsRtFU0GwXTunG_um4Ahtp0n9GXw3XDv5CyijG-0pi7cms=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -338,7 +299,7 @@
       "reviewerId": "117453685819266613066",
       "reviewerUrl": "https://www.google.com/maps/contrib/117453685819266613066?hl=id",
       "name": "Danil Sukses",
-      "reviewerNumberOfReviews": 667,
+      "reviewerNumberOfReviews": 666,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXS06CHScf11b1jh2g1_jRH8OJxUQ73IJN763q4yYGPcW_AjNtB=s1920-c-rp-mo-ba12-br100",
       "text": "lokasi tengah kota .. kantornya kecil",
@@ -362,5 +323,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

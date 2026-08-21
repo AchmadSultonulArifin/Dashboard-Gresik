@@ -1,0 +1,90 @@
+{
+  "key": "apotek_singgih_farma_2",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Apotek singgih farma 2",
+  "rating": 4.2,
+  "total_ulasan": 6,
+  "positif": 1,
+  "netral": 4,
+  "negatif": 1,
+  "persen_positif": 16.7,
+  "persen_netral": 66.7,
+  "persen_negatif": 16.7,
+  "latitude": -7.3958837,
+  "longitude": 112.5291399,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "chlara aditya",
+      "Bintang": 1,
+      "Tanggal": "2025-03-26T13:49:52.462Z",
+      "Ulasan": "Tolong dong owner, dididik pegawainya yg layanin pelanggan. Masa gue beli obat ga dikasih rekomendasi, ditanyain keluhan kyk gimana tipe sakitnya. Ga ngerti macam² obat yg tersedia. Dan yg gongnya, gue tanya baik² dibales kecut sambil gelendotan di PC dan kembalian setengah dilempar.",
+      "teks_final": "tolong owner dididik pegawainya layanin pelanggan masa beli obat dikasih rekomendasi ditanyain keluhan kyk gimana tipe sakitnya ngerti macam obat tersedia gongnya tanya baik dibales kecut sambil gelendotan pc kembalian setengah dilempar",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9674
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Puput Wulandari",
+      "Bintang": 5,
+      "Tanggal": "2021-10-04T09:05:33.897Z",
+      "Ulasan": "Disaranin yg nyari obat disini aja obatnya lengkap pegawainya pun ramah\"😁",
+      "teks_final": "disaranin nyari obat disini aja obatnya lengkap pegawainya ramah",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.988
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Putri Santi andri yani",
+      "Bintang": 5,
+      "Tanggal": "2021-10-04T09:03:22.600Z",
+      "Ulasan": "Trimakasih, sangat membantu untuk info kegunaan obat dan kandungan nya 👍👍👍",
+      "teks_final": "trimakasih membantu info kegunaan obat kandungan",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5209
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Fatimatul Zahro",
+      "Bintang": 5,
+      "Tanggal": "2021-10-04T09:00:41.542Z",
+      "Ulasan": "Yang mau cari obat dan alat kesehatan bisa langsung ke sini👍👍",
+      "teks_final": "mau cari obat alat kesehatan langsung sini",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.994
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Hd Singgih",
+      "Bintang": 5,
+      "Tanggal": "2021-01-02T08:51:38.969Z",
+      "Ulasan": "Semua obat ada, monggo silahkan beli",
+      "teks_final": "semua obat monggo silahkan beli",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9811
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "imam syahmuji",
+      "Bintang": 5,
+      "Tanggal": "2020-12-27T12:04:36.669Z",
+      "Ulasan": "Recomendit untuk yang sedang mencari obat",
+      "teks_final": "recomendit sedang mencari obat",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9885
+    }
+  ]
+}

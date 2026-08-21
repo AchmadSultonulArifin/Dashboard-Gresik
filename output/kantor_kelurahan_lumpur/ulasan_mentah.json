@@ -2,6 +2,7 @@
   "title": "Kantor KELURAHAN lumpur",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintah Distrik",
   "address": "Jl. Sindujoyo No.10, Lumpur, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61117, Indonesia",
@@ -46,7 +47,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:08:38.985Z",
+  "scrapedAt": "2026-08-20T23:55:10.968Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -85,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -143,8 +145,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlnQCzpy2nIlPe9zIqbGJYag5PDrIhjCZl_Bs7EocpgJSdaba31ynXOjcjXMAKbnXw_0uZar6sYnKhYdtKq1fRmtCeq7NozPKmh6NnJiHAQI7RuVspiNn9KoBcBpzBkEjEjh3M=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWA0xpqqpENM4_M-I5EXfYHc3lXPOnxMXOOoLmIhdQijfZTCq4_pPAqYajz8jbmPti05jadkp7CdE4Q7gEzVfKQsNhBiwqbQM8ecGLakTisICRr5P25hun6Nxe5yBc8_AE0dOU=w408-h544-k-no",
   "kgmid": "/g/11bw4vln_d",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -165,7 +168,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKl4JdisiYhpGi_ArbWKbBUSaPPcV_lK10OEYXB42dFHEPWjg=s1920-c-rp-mo-br100",
       "text": "Ada posbankum di kelurahan Lumpur\nSiap melayani selama jam kerja hari senin sampai hari jumat\nJam pelayanan pukul 08.30 sampai 16.00 WiB",
       "textTranslated": null,
-      "publishAt": "10 bulan lalu",
+      "publishAt": "11 bulan lalu",
       "publishedAtDate": "2025-09-16T07:48:50.135Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2kxZlpsZEhPRzVyU1VjdFZYa3lVQzAzTWpNeU5rRRAB",
@@ -176,7 +179,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOMAs3Ihh8LtYJ4rqn5OfyGx_bKb-MmJc3TEqa4nKiILFXJU4nODQhqt5LNzH-DyV4gR6ioFQ-AVmuN3scLcJdUgGDHAdgnH5ZbPu4cUzOhdtjBTBmaMz_p3Uc8E1Tth-w3DOutbkJEyewG=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPwgUbl2XgIMfqkb_UYMUncYpkELrQ3OV8LH2zK0m_fndATMCxqR_grCFwCS4CxlF8-ufjH8beX9ZeHgMzw92ZPGwHZk_rDLJ-3fdQlm7AL9oDPyNTCJmfYLEMOn5h6SMHQZTja6lYFYT4X=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -188,7 +191,7 @@
       "reviewerId": "114002468820232107877",
       "reviewerUrl": "https://www.google.com/maps/contrib/114002468820232107877?hl=id",
       "name": "Yahya M Aji",
-      "reviewerNumberOfReviews": 988,
+      "reviewerNumberOfReviews": 989,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWwFEaNA2_LKZCt3x4dTozoKONEA3VDA6yLOrdNebMFxHHHCf6g=s1920-c-rp-mo-ba12-br100",
       "text": "Nice",
@@ -204,8 +207,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOERrDvDjTD9z9fWp3wqN_-m7pAbVrvUOgBmUQK9_sLbSBntzG1DxTBW_fHkAoHbG9y_h4Iw00GXBAt8UEXp6bnEjZ3FAiqndXyCUzlLjxCItZ-7eui2cIrF2IbAiOPyvjeEg4rxA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMunYGIfdxiYZnqce8js24NKNQtfaamBooVxmWrFK83lAe0E51cYBC3CGBlR50ZrSbKmWhwp9-UWj1hxccPAHmeCETD-LWpeH9nvyTiT1fERmKUD6znV-Y7m60-gr7I6rqxiGk=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNUE_VJwMA1bBl2qxgSdgpOS5cYC4NYRqG78013y7sG08AMTXhfktILcr0bf8ao25VIKnL-7Er_zzH6OQflEEkalNAFO1XALIeA1kFjfXUk9RXnsrq5EAYr9Io1oEOL3EZeOhAJwg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPacuSHJU28hSgFYkFUzwEKzylec0OceSXX66sTjKZ3uSpaT49dt0gGzvSIWLJMQ-ctGIgHS3ufKznmNNQB9Vy2C2pt297XeQTskxS5xFVEHJZj2J5_0FXLxt9djlSPyU1gjLE=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -243,7 +246,7 @@
       "reviewerId": "107380667759339929305",
       "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
       "name": "yudi oke",
-      "reviewerNumberOfReviews": 4305,
+      "reviewerNumberOfReviews": 4303,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
       "text": "Kantor Kelurahan Lumpur.",
@@ -293,5 +296,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

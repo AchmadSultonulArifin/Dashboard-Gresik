@@ -2,6 +2,7 @@
   "title": "Puskesmas Pembantu Desa Kramat",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Rumah Sakit",
   "address": "XJ2X+23F, Unnamed Road, Ujungsawo, Kramat, Kec. Bungah, Kabupaten Gresik, Jawa Timur, Indonesia",
@@ -38,7 +39,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T10:58:26.219Z",
+  "scrapedAt": "2026-08-20T21:38:50.372Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -50,6 +51,7 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
+  "wasOpenAtScrapeTime": null,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -66,7 +68,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Bungah",
-      "reviewsCount": 158,
+      "reviewsCount": 177,
       "totalScore": 4.3
     },
     {
@@ -91,8 +93,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vax7Hkqkx1w2FhCGJ7jedQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=200.07344&pitch=0&thumbfov=100",
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=QMi10L1Nv4gW3FqK53vSHQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=233.1361&pitch=0&thumbfov=100",
   "kgmid": "/g/11hdr14t98",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -105,5 +108,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "Puskesmas",
   "kategori": "Kesehatan"
 }

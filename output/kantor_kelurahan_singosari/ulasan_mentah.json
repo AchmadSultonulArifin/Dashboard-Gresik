@@ -2,6 +2,7 @@
   "title": "kantor Kelurahan Singosari",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "RMH4+GHW, Jegong, Singosari, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61122, Indonesia",
@@ -47,7 +48,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:29:02.787Z",
+  "scrapedAt": "2026-08-21T00:31:04.860Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,10 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -86,8 +83,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -136,8 +138,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnrGFQPY_Po6ij6KpxYTMjSSSHsVS1IvS3EgYMvw6-mziQk-_XsQzV-pmEfOXyBS_SBb3GD0AlTmysP_zunI_tn_1VBGRg1-dIYiQZJfsMX1k0S_fpcoV5abifQdJgwnklCBB5VdQ=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnim6WRZcUIAAmt3Sg4XuhWPbSybNj8iZY0Ii-Y7esQj-MZ_5izGiRngB3zbfWr6Cgfwwp-Qs8YDYcLrh5NtsjsSoZRMs0QycfM8Dzw40XCzzGqG64UelGK3oY4hC8fPQL93tCQyA=w426-h240-k-no",
   "kgmid": "/g/11f3s5w36h",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -158,7 +161,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLipseme0ENZ3G6og6ZgR8_E7VS_-RL9nKXaQ_OdsCyeafXxA=s1920-c-rp-mo-br100",
       "text": "Pelayanan baik banget\nMbak pelayanannya ramah banget udah cantik baik ramah jujur juga, perfect banget\nSemoga rejeki mbak nya lancar karir nya naik, tolong pihak yg terkait mbaknya kasi privilege dong, org dengan kejujuran dan integritas harus di junjung tinggi",
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-09T02:55:26.047Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2twTFdFUnhla1F0TkdkM01FbzFXbTh3T0VoVGJsRRAB",
@@ -179,7 +182,7 @@
       "reviewerId": "102505666587587590296",
       "reviewerUrl": "https://www.google.com/maps/contrib/102505666587587590296?hl=id",
       "name": "aini ruvaedah",
-      "reviewerNumberOfReviews": 95,
+      "reviewerNumberOfReviews": 94,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWa69b52sggLyzhjYlKKcv0GGhSrO4yBECWEHGSz2jBohN4T6ry=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -221,13 +224,13 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMp6Y7rPMEIcfSYgXh7ATyaZX6-6SEFPS3w9IQmtqQZoVvlBk2SqvgZPmqYgDAslOquZ38AMCz39sPP-NbdLwNiuiC748_9kx5YmRcTFJHhj47e6V1R9Yfzo680szgYHW_YiN1y=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMWr9kKQDDYgyO6sPstKolZKBQ-9V21m_W6FFv4M2tii2ME8eVyDOy_iK1AWCnSF0P3JWPkVnjXq8PqENyaErfwtmRcwfdqOjM7_rln7ox3mE_sjfebP4ACB9vg5hZxj63SrM-ZSg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPc53gUhPdT2xs5YVqqUq4V9yErg4i2-zQa35clq8PV1cl9Ko7yrr3wsoQLYFrnUQrYN5LAypgv8jZsLn-Z_ylxDh6uAHhAqLfHmmgfK8_caZwQA8SLtC5AAAUfxKAKwQ7cUY97=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNiP6k8E6Y_sABIQFpKULXUebUO4o9YiKnhjgwRSq6X5AtCPTs859W6BTM8rwhc0TQwkQ0bUZiFTz8HDO4k7XI3sL525u2J6A56e6zDqfKH_N7i4j27xLTi9UFxGDYehFugj4bUZw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNdn4ARit6pGptCL9kcLknPzFnXhQ4B8AbVMuKE_ewxS2rd8G82NLbVUoW95DcTc7oFBorSIQcX5OyrBVcV4A9NDB1Le3VR0Cxd_NRRUHxQrAEt5R0-R3a_s14TMCYi5A9hNCTf=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP6xlmUIcBIp3vESVnAdb-YCjy8VE8D4xsuhr_by-x2HqJh4UlZLufkmq5rI7LIq2eAdINxGy6Y5kuUOVc1ht8bvfw-lhSy5mSa9yTojF7N8nFG9dpAUpf9dyhqi_WVTfB9IlNB=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO9UZNYcwnnA-Sydtkg4OaoYbeZi7-XLT0g3PqYsWrMHYa5nY9dgvqcle5iQ6JoX0cfcgxRCUtDNtO2C03WxK3W0kUNE1RFYSiO_REQ6aNoYO2u7JpBwiXFXDHuXqNdy2faF1v2=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNcX0yEQhEMrT3yFMGN2e06Ii3NHxwT23_pNlTrrenSGhgNN8i-sjhyEWk5RBSgOctt6zOUf60ona0TAjM8ViZnhD8QIXSviGS577WT5ClHYkxVQDUpGR2fX9srn5vHveQpLnDe=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmME7bSokMp2iIufJMAc1liYuc0cPMxOtFlCfeB-I8mrJz_lTk1BV9ah6QXXk5U-a4sEwm0DbVZ5b9zELDKMl8bs6nNb9E7Dvv1C95RKIdiSEubwwsmPFRZurFu1vXgrMSj7eaHCbw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPogjkmOC069rXLYfaDolT4j6xH9Q79MVQRL3kmULyLEH9aLFcSqnmkPcysUhoVcU5UV9Q1pWNAGLe1hBR4HCDhv0MXyqxd6X1vfXA4MnDejiGGoFHG5Xq__8QpRX8NFVxeB2oP=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmM_3FtoS_j4Nu5rmLU3kkp0O4hBraOW62CT3aiyjXzk5gj-ahdGjmIwYlSobLFEnrzq6fREctiDwyYj--9G8bh9AVf0dkYobPPN6nmrnhnz2lweEESWck7FNqmAncnsncgVxxh8Ng=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMjV1aWmfD67AxGCx_GYgI7N2J4GvNqt41oDiEeJBfxU2grrIc5x_QKD7xl9H4goYOz328f5WgAWvfBFXQA81_fwotenkssYQWBQ437nYyZoJBlSMxU7onHpzZ2Nq7NNlgQTOQ8=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMisN-teXFbKq1trJXWJUXVyyePS92Kavw1HHz_L2KkFtzurgYtOaaBgx3F3jRlQjR7wA3qu7jbXWlbbiRCJ0zzTbTmowKgnjRl-n1TgFbx5h1LEodZVsCNFn9E5Y2a246ug4uD=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNvlAbYUqnnnHKZ_s3JIW6vBDckHKWEupopQNaRaWIJpGhG3CnnkJY-BBkPP5hAKMb2QjWeL5wWU20oa4esFgI7GFdpkLuZEtYKutZ-3bAVUgrTu2DNtVJm0WSus3LcpxcEY4C5=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -289,5 +292,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

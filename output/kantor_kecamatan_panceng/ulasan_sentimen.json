@@ -1,0 +1,42 @@
+{
+  "key": "kantor_kecamatan_panceng",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kecamatan",
+  "tempat": "Kantor Kecamatan Panceng",
+  "rating": 4,
+  "total_ulasan": 2,
+  "positif": 0,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 0.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 50.0,
+  "latitude": -6.9136302,
+  "longitude": 112.4582386,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kecamatan",
+      "Nama Reviewer": "wawan pager",
+      "Bintang": 5,
+      "Tanggal": "2025-12-19T05:45:41.937Z",
+      "Ulasan": "Kirim gapuro",
+      "teks_final": "kirim gapuro",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.929
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kecamatan",
+      "Nama Reviewer": "Khoiruman Hidayatullah",
+      "Bintang": 1,
+      "Tanggal": "2021-05-17T20:35:05.576Z",
+      "Ulasan": "Pelayanan kurang baik, agak mbulet kalo ngejelasin sesuatu saat melayani dan kurang bersabar",
+      "teks_final": "pelayanan kurang baik agak mbulet kalo ngejelasin sesuatu melayani kurang bersabar",
+      "topik": "Pelayanan",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9932
+    }
+  ]
+}

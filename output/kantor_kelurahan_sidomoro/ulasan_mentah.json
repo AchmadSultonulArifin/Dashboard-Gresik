@@ -2,6 +2,7 @@
   "title": "Kantor Kelurahan Sidomoro",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintah",
   "address": "RMJ2+V2J, Jl. Arif Rahman Hakim Gresik, Injen Barat, Tlogobendung, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61122, Indonesia",
@@ -46,7 +47,7 @@
     "Bendera",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T14:15:40.184Z",
+  "scrapedAt": "2026-08-21T00:01:28.814Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 16.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 16.00"
@@ -85,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 16.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 16.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -135,8 +137,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHpT5cfWOwCojMTQAZxMfQvLRgp4zrXNSd50Y2jHU-Tn5jTzgLj6hyD_A2SzZNPGKNFtsx4-fdywWPHHIc9e5eFji69UVl13LBWh6bY3t2LmUucidVNUDAbdRNkT6Q5zNG6OyMZW6VQCuxcdInuLtRa7VCfjZpRRcKa3Sl5dfCj-ffLes1io1Jl5kt3rGsEFNNkWeM=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEVYNyEiyjTYYEDEdlOWhsfNm-cxXRm7nIPVAMFs3qnpXBzg8s912dmjXZSMqWSWZIQ86Ja7AOt-rc-bihw12Dtgn2rNDqMlZGashRyNjr7phFgwJY_pYaWHz3dzGfW64QFDTK0DJbE1A6AX0xLKKH8SJuLjMWgpMIzd6BWM_C3Ua1lI1HTUsUlOshFao9TWqzxvMM=w408-h306-k-no",
   "kgmid": "/g/1hm2f6_f3",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -220,7 +223,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNk_CP2nG_F000llbv1rLVS6TNcu5S44UVJwAPCrRp7cAeQhr61gdl5xY12h_-wGam5N6uSfANveEe_YAR1KxQfteugHxXiupFJrtlVtndU7h4UNPZnDyC99A8FIiv4kgXXnpAEFw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPbwkq6WGEDUCTZGJ2qPfam25Mlu-__uS_LmtEvg1i0AWoINp5F8muBfvVn7Lvn4Iptv7jb_nhzDZPy4pg1DgoqJD9xRoGOMIjfB4RAAGIB6opUWPlT-tOAL-OO_P-ahoNu_USAAA=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -232,7 +235,7 @@
       "reviewerId": "107380667759339929305",
       "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
       "name": "yudi oke",
-      "reviewerNumberOfReviews": 4305,
+      "reviewerNumberOfReviews": 4303,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
       "text": "Kantor Kelurahan Sidomoro.",
@@ -256,5 +259,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

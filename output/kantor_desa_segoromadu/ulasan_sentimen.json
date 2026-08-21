@@ -1,0 +1,66 @@
+{
+  "key": "kantor_desa_segoromadu",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Segoromadu",
+  "rating": 4.2,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 2,
+  "persen_positif": 25.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 50.0,
+  "latitude": -7.188255,
+  "longitude": 112.645591,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "anang Supriyono",
+      "Bintang": 5,
+      "Tanggal": "2026-06-20T19:36:28.807Z",
+      "Ulasan": "Adakah. Nomer kepala desa yang? Karna warganya sdh menipu saya",
+      "teks_final": "adakah nomer kepala desa karna warganya menipu",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9914
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Nurtoha Mr",
+      "Bintang": 3,
+      "Tanggal": "2021-03-13T04:05:12.193Z",
+      "Ulasan": "Cukup bagus tempatnya.. bersih dan asri",
+      "teks_final": "cukup bagus tempatnya bersih asri",
+      "topik": "Fasilitas",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9973
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Ashari",
+      "Bintang": 5,
+      "Tanggal": "2020-11-03T12:45:16.524Z",
+      "Ulasan": "Mengurus surat2 langsung dilayani oleh pak lurah",
+      "teks_final": "mengurus surat2 langsung dilayani pak lurah",
+      "topik": "Administrasi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9909
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Mya Fajarwati",
+      "Bintang": 3,
+      "Tanggal": "2018-01-24T05:43:57.468Z",
+      "Ulasan": "Baru tahu",
+      "teks_final": "tahu",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.8837
+    }
+  ]
+}

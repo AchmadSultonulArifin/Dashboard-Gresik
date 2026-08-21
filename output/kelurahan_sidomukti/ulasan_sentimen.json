@@ -1,5 +1,7 @@
 {
+  "key": "kelurahan_sidomukti",
   "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
   "tempat": "Kelurahan Sidomukti",
   "rating": 4.7,
   "total_ulasan": 4,
@@ -9,9 +11,12 @@
   "persen_positif": 50.0,
   "persen_netral": 50.0,
   "persen_negatif": 0.0,
+  "latitude": -7.1742359,
+  "longitude": 112.6340892,
   "ulasan": [
     {
       "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
       "Nama Reviewer": "Bapak Khoirulamin",
       "Bintang": 4,
       "Tanggal": "2024-11-11T15:11:36.238Z",
@@ -23,6 +28,7 @@
     },
     {
       "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
       "Nama Reviewer": "Jhoonis S",
       "Bintang": 5,
       "Tanggal": "2023-07-24T12:20:24.801Z",
@@ -34,6 +40,7 @@
     },
     {
       "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
       "Nama Reviewer": "Zen Zainudin",
       "Bintang": 5,
       "Tanggal": "2022-10-01T06:17:29.608Z",
@@ -45,6 +52,7 @@
     },
     {
       "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
       "Nama Reviewer": "yudi oke",
       "Bintang": 5,
       "Tanggal": "2016-09-05T02:57:40.917Z",

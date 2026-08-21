@@ -2,6 +2,7 @@
   "title": "KLINIK PRATAMA RAWAT INAP BULAN MEDIKA",
   "subTitle": null,
   "description": null,
+  "ownerDescription": "🩺RAWAT INAP 24 Jam\n🩺AMBULANCE, UGD, KLINIK UMUM, LAB, KIA KB, FARMASI 07.30-21.00\n🩺FISIOTERAPI & KHITAN (Appointment)\n👉 Minggu & Hari Libur Nasional TUTUP👈",
   "price": null,
   "categoryName": "Klinik Medis",
   "address": "Jl. Raya Ambeng Ambeng No.KM 22, Banjai Sari, Banjarsari, Kec. Cerme, Kabupaten Gresik, Jawa Timur 61162, Indonesia",
@@ -40,14 +41,14 @@
     "fourStar": 0,
     "fiveStar": 20
   },
-  "imagesCount": 12,
+  "imagesCount": 13,
   "imageCategories": [
     "Semua",
     "Terbaru",
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-20T10:29:25.373Z",
+  "scrapedAt": "2026-08-20T19:51:30.347Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -60,38 +61,42 @@
   "popularTimesHistogram": {},
   "openingHours": [
     {
-      "day": "Senin",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Selasa",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Rabu",
-      "hours": "Buka 24 jAM"
-    },
-    {
-      "day": "Kamis",
-      "hours": "Buka 24 jAM"
-    },
-    {
       "day": "Jumat",
-      "hours": "Buka 24 jAM"
+      "hours": "07.30 to 21.00"
     },
     {
       "day": "Sabtu",
-      "hours": "Buka 24 jAM"
+      "hours": "07.30 to 21.00"
     },
     {
       "day": "Minggu",
-      "hours": "Buka 24 jAM"
+      "hours": "Tutup"
+    },
+    {
+      "day": "Senin",
+      "hours": "07.30 to 21.00"
+    },
+    {
+      "day": "Selasa",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Rabu",
+      "hours": "07.30 to 21.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.30 to 21.00"
     }
   ],
-  "openingHoursBusinessConfirmationText": "Diperbarui oleh bisnis ini 3 minggu yang lalu",
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [
+    {
+      "title": "tarif",
+      "count": 2
+    },
     {
       "title": "perawatnya",
       "count": 2
@@ -116,8 +121,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_EtpqJ-XV2LfkymbTO9XtRPtbqNwwNHISsKXL6qxuu_Ep0g3KOlUs4_1mRpqvW3UAzYkogmiaFwSyM6kNLnq081AbqGEk5EGwG4vH9j1m4ZQLjFLj6J12pCNIiWvuIyvLtveNknc_7rue=w426-h240-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7_snFPUL7OcTl43Rbm8Kk1Rcab4XWZhWSYtg6B8FcWgCtAuFA6NwJK97ClQyWarbPcGx_CCxCKStT1Ckb5QcGkFrvtdpPIDuw677ZMEW64CYqwXC1d0n82Ri1O3lOkOJLec_ssCk2LACA=w408-h543-k-no",
   "kgmid": "/g/11yl336nf9",
+  "businessProfileId": "10749028325493141355",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -130,6 +136,34 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "102262520074487587216",
+      "reviewerUrl": "https://www.google.com/maps/contrib/102262520074487587216?hl=id",
+      "name": "adindamaurinahokoyoku",
+      "reviewerNumberOfReviews": 4,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL0rqlaiizW4J7183xK3NJrwJ3WZZUkWr_QvVqdHYmYQzitQg=s1920-c-rp-mo-br100",
+      "text": "Bintang kejora sih sama hospitality nya.. dari resepsionis..kasir..pleyanan obat dan dokter",
+      "textTranslated": null,
+      "publishAt": "3 minggu lalu",
+      "publishedAtDate": "2026-07-29T02:30:27.201Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSWlptNXhaVmRWWVRKa2FFbFNabVl4YmtwcldtYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSWlptNXhaVmRWWVRKa2FFbFNabVl4YmtwcldtYxAB!2m1!1s0x0:0x9e6829a7add9961e!3m1!1s2@1:CAIQACodChtycF9oOjRZZm5xZVdVYTJkaElSZmYxbkprWmc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": "2026-07-29T05:14:41.000Z",
+      "responseFromOwnerText": "Alhamdulillah. Terimakasih atas inputnya Ibu. Semoga puas dengan pelayanan kami. Sehat selalu Ibu🙏",
+      "reviewImageUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNVlcV5teUW9ybUxS8phpjqHTW6cXpnUAxp53J2G1NW8gbpR6ct9QUoQT-pTXUXkp452lPosl2OS-pJDuNwHLEvwh8ANH1ITYPDrppB-kbD9M-VtOcp_v4MW4ewAVzA9ZpDUNz57jiWvAg-=k-no"
+      ],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "111258625140433964033",
       "reviewerUrl": "https://www.google.com/maps/contrib/111258625140433964033?hl=id",
       "name": "sari tilawah",
@@ -138,7 +172,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIzgk11cAwABGtGCkD8IxjuvzxLmmeeA-Eo2h2Rr2ehtpsq=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 hari lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-17T05:44:10.601Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT210MGFIZHhhRFZrV0d0Tk1qRmhXWEpCU1dodk5GRRAB",
@@ -164,7 +198,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWGIDaXKbolhyY_FOGbnipFPUgDvyw-d8nEByd71mNwHElURjTleQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-16T02:04:59.871Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkWGMwd3lkVkE1WlVjeGJsVldPRlpRZUVnM2MxRRAB",
@@ -190,7 +224,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLqcyV2HMh9nkFudfUv0ayvA7Oo5DxSSQHXr_FMo3zd8H0a793z=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 hari lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-16T01:55:27.049Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tWM2RXWXRUVUl6YjFsSlFYQlFXRU16VTBaeFkzYxAB",
@@ -216,7 +250,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKkztWlO2HHc6FeBto6KdSl_Mj0n7mIzb-FGvkYPSMyZFzriQ=s1920-c-rp-mo-br100",
       "text": "Alhamdulillah dilayani dengan baik, tarif nya terjangkau👍",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-15T10:22:30.908Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21veE1WQmhPR1pYTUZGUFkzSnFSV1l4V1d0MlYzYxAB",
@@ -242,7 +276,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVGEGoMMJ3Pi4OSpG10qzXXtdbAjGHYTuW6fUh42FO7XYKJh8w=s1920-c-rp-mo-br100",
       "text": "kliniknya masih baruu, tempat bersih nyaman, pelayanannya cepat juga ramah",
       "textTranslated": null,
-      "publishAt": "5 hari lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-15T10:21:43.777Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25kQ2FYSnVjamhvT1ZVeGRDMHdaVWxaYW1SMWRHYxAB",
@@ -268,7 +302,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL-ONXiZa3vF4IZFTx4ULVIW1m_QdP_U4CtUxEVbTYwusGd_g=s1920-c-rp-mo-br100",
       "text": "pelayanan lengkap dan cepat, petugas2nya ramah 👍🏼",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T14:32:36.236Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21oeVRtczBXV1pEYjNrdFZsQmZlbTVUWkZRd2FIYxAB",
@@ -294,7 +328,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU9SkUHlq1NQtD2zwVeLyz59V_s5QyE4dc7ntWpnGiqPZ7q9Gs=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T06:31:25.346Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21jMGFrTmpPWGh2YTAxcFRFbHdOVFY1VWpWM09WRRAB",
@@ -320,7 +354,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJs0hx8E6QuXJT7hgze2-GQe9TlFwlU7L4XKvgfcaZ3n5_HlQ=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T05:50:33.619Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25SeWFGUlNXVVZvWDI1VlRYSmhNak5TWTFnMWRsRRAB",
@@ -341,12 +375,12 @@
       "reviewerId": "101046393606859932731",
       "reviewerUrl": "https://www.google.com/maps/contrib/101046393606859932731?hl=id",
       "name": "Goes Easy",
-      "reviewerNumberOfReviews": 2,
+      "reviewerNumberOfReviews": 1,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXWXuRqy5pzMuWfVsMIzoxHdK_GojQvykM6net0p6Hn84eQIFbvCA=s1920-c-rp-mo-br100",
       "text": "Tempatnya bagus, mudah dijangkau, petugasnya ramah",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T03:56:35.770Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xKQ05sazRiVEJITVV3eWRqVnRWMTlVWm1oVVYwRRAB",
@@ -372,7 +406,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV1uz5JbXqmX3nIZTGbFwBjnvKiCsGcXUxJelji_AWJ0NFmE99F=s1920-c-rp-mo-ba12-br100",
       "text": "Fasilitasnya yang modern, lengkap, nyaman dengan tarif yang terjangkau untuk kebutuhan medis umum serta rawat inap dan ugd ambulance yang stay 24 jam seperti rumah sakit serta dokter yang komunikatif dan perawatnya cantik² juga😍 👍👍",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T03:52:33.519Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tVd1dXbEtMWGwwZVV3dGNrb3lkREpTT0RaVlMzYxAB",
@@ -383,8 +417,8 @@
       "responseFromOwnerDate": "2026-07-16T02:34:57.000Z",
       "responseFromOwnerText": "Terimakasih ya kak atas inputnya. Sehat selalu🙏😊",
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMv6Id82SDNxCAbWs7QR5XGbReetjASXHKRSMFbI3OU5fF0S43X_zYtPxmcZxZkIld0UcQApdSDY25pX0JKmuN4PMx6wUBrHio6nRxg6lZLWPOypxdX1pfQDfEaUjiqrW5bL9dXlNyKO5w5=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMRRau_edtKp7eGgP4qGtiELZs43e5V6s4RzLBscUF4xgG_guFe2tV6rJ2oKKhPHSjEltiyN75qeMNdrxw-o-9BzvLRp9jXNM5fmoSi3n8cdO_uCWWP7Cu4RBheLj96xkXjx2LVlXwTvgZJ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmO8TqH-hFhjwVVBJaf2Z4ilicd7pQZGwkItz5By46QBRECNRx7OmA0zbM8nK7szdZ_9U9OLTvJ3WfhWoZOFufA1ZuDJrDQ_MWEHK6ZrMylADUR5OuWGBb0hZw4D4rhmUvqMaDql_B5F3xK5=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPpBPysVpxGZaqFUu1E38IGaaFfgmyW9LlJdnFca6jnla3yB7xVZKC19aIdYe4nCHi36mvlQ44vr5yaNMAcxlUuijYwe8ro7_2yYBDhhI869535Gys1DF-sEZN9TvG9s_7vIwxFjXsTWXVN=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -401,7 +435,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWEtTX5nepDbkK-KD6RoT9I5NxWao6GYhmA0aVazr0S3iOQsHfIpg=s1920-c-rp-mo-br100",
       "text": "Lokasi berada di \"one stop services\", ada indomaret, 8presso caffe dan fitness, ada Musholla dan toilet.\nPelayanan Klinik lengkap dan baik",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T03:49:23.418Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2twSk1ta3hlWGRzYms5NlNtbElZUzEwUW01cWVWRRAB",
@@ -427,7 +461,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXZIo5hC55bEB3SMTD2WepzTCKNu2T4Wqc93I_Dpk5iRqpefRs7=s1920-c-rp-mo-br100",
       "text": "Pelayanannya cepat, dokter dan perawatnya ramah.....",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T03:44:18.166Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSTWVEaEpSMnBGWmtwclFuZ3RSMHRFUTFNNE5IYxAB",
@@ -453,7 +487,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjULIuPYnVDxFpK0xBhA21nk7Y5z-bScBi9-nhR26R1u7E0HhOf4=s1920-c-rp-mo-br100",
       "text": "Pelayanannya ramah dan cepat, dokter dan petugasnya sangat komunikatif sekali.",
       "textTranslated": null,
-      "publishAt": "seminggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-08T00:51:53.892Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21wUE1HNDFhbkF4WjBGNVdXZFZkMnhRZW04Mk4zYxAB",
@@ -479,7 +513,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLY5AzoQSC2aBUiB4UsKknhnLUCQnzJ30cR8LDNou5-eOxTXg=s1920-c-rp-mo-br100",
       "text": "Pelayanannya sangat memuaskan, semua pegawai ramah dan harganya terjangkau 😍",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-05-23T14:59:10.003Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tKQ1JGRkhhVWh0VW1SSlgxQkhYMFZwYVZkNUxXYxAB",
@@ -497,32 +531,6 @@
       "translatedLanguage": null
     },
     {
-      "reviewerId": "111075522180910304014",
-      "reviewerUrl": "https://www.google.com/maps/contrib/111075522180910304014?hl=id",
-      "name": "Chininta Wibowo",
-      "reviewerNumberOfReviews": 5,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVeM-EVIxiSA8y0ePi4UwYfcVtZcTZ77FawpvgZ83xd1OCJap0=s1920-c-rp-mo-br100",
-      "text": "Good service..",
-      "textTranslated": "Pelayanan bagus..",
-      "publishAt": "Diedit 2 bulan lalu",
-      "publishedAtDate": "2026-05-20T05:57:27.703Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pFMU1VeEhNRUYyYW01eVQxWTNiMEoyV25VMWRVRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pFMU1VeEhNRUYyYW01eVQxWTNiMEoyV25VMWRVRRAB!2m1!1s0x0:0x9e6829a7add9961e!3m1!1s2@1:CAIQACodChtycF9oOjE1MUxHMEF2am5yT1Y3b0J2WnU1dUE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": "2026-07-16T02:32:40.000Z",
-      "responseFromOwnerText": "Terimakasih ya kak atas inputnya. Sehat selalu🙏😊",
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "en",
-      "translatedLanguage": "id"
-    },
-    {
       "reviewerId": "111937721276064496569",
       "reviewerUrl": "https://www.google.com/maps/contrib/111937721276064496569?hl=id",
       "name": "Safira selvania azahra",
@@ -531,7 +539,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ1ZVBzCd9L8XBX6AC8145G8q7wGouLNisNl30LW3jRL2QH3A=s1920-c-rp-mo-br100",
       "text": "Tempat ternyaman ,dr pelayanan dan dokter2nya sabar2 .thanks .",
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-20T05:01:35.940Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21WamNqWTBZVTlQWTJ0MmNVSlRiMVI2VEVsUWQyYxAB",
@@ -557,7 +565,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKN394-iL6ulCuc0nZsGvBkyv1X_4SItM-plDBxCkGparJmcQ=s1920-c-rp-mo-br100",
       "text": "pelayanannya bagus,cepat ramah, tempatnya nyaman dan sangat bersih",
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-20T04:59:49.658Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25adlpqSTJNRzFIZGpkb1VVMXZNMEpuUW5OTlUzYxAB",
@@ -583,7 +591,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXb9FdmwDxGDAibAqwt6k7SlI8fcxMMdtjPKdB09h8y-_WxyN4=s1920-c-rp-mo-br100",
       "text": "Pelayanan bagus👍",
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-18T07:12:01.729Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21kRWJraENkbFZETkhOalJtcERabEZ2VjIxRlVuYxAB",
@@ -609,7 +617,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIv56_12F4c2pPQsF2y24I79hH1KBHNkGxdYEY2rG13quuw=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-16T13:01:05.708Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xoeWJHRmlTVkk1TFZKRFNFaDBXV280Wm1OR1FtYxAB",
@@ -635,7 +643,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVJyurm19kbCu2rtjkhaLMiJxQ1WXyHhDxKW52ZLTqwJNZF9l13=s1920-c-rp-mo-br100",
       "text": "Pertama kali kesini nyobain promo cek kesehatan gratis , pelayanannya bagus banget 😍",
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-15T03:47:55.584Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2poV1IycHVRazFyTkVWWFIzRlZRWGxKU1VaamRXYxAB",
@@ -656,12 +664,12 @@
       "reviewerId": "112226008092691626711",
       "reviewerUrl": "https://www.google.com/maps/contrib/112226008092691626711?hl=id",
       "name": "Fajar Kurniansyah",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWrbK6pv8fnVn-JAmOlGI_z966ClDPzV9AkkzkCq3b7pdJl-p172g=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-16T23:18:24.405Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCamVGWmphamR3V0Y5bE4wd3dVamxQZWpSU2EzYxAB",
@@ -680,5 +688,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Klinik & Praktek Dokter",
   "kategori": "Kesehatan"
 }

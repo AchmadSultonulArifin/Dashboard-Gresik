@@ -2,6 +2,7 @@
   "title": "Dinas Pendidikan Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintah",
   "address": "Jl. Arif Rahman Hakim Gresik No.2, Kramatandap, Sidokumpul, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61111, Indonesia",
@@ -46,7 +47,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T13:58:36.642Z",
+  "scrapedAt": "2026-08-20T22:28:43.762Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 15.30"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 15.00"
@@ -85,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 15.30"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 15.30"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -163,8 +165,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm-u7DxG6EOcjDQVNJjTGNWeXPAzq7TNYxrHOf_a67_fMH2Qbjzy8w3IRGpCTysL01gZhU91T2daTGVJd0Fi0N_QdukAxXzh4erbWJPVWQeQlZs2ZbjptQaLMjKbv86CFOyFbdbAQ=w408-h272-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkloQd5CPbdob5JSwFuFTx8y-QWiWeU5RIiGhnSUxc6s-K52i7vP1-DzNkoZsU5wGOzvpf0JYgNz41xnC9iaI6JFbEZQEMreB9N27Tsw30zLdsM5C7m6T8z5XBDCNxuEWG4Gh-QpQ=w408-h272-k-no",
   "kgmid": "/g/1hc0zq6bm",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -180,7 +183,7 @@
       "reviewerId": "102316541430161892557",
       "reviewerUrl": "https://www.google.com/maps/contrib/102316541430161892557?hl=id",
       "name": "Yuni Purwanti",
-      "reviewerNumberOfReviews": 250,
+      "reviewerNumberOfReviews": 253,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWQiF74z7bfvwOREYHHJPx7pOxTceHzBEDVpZExAFaJ4T6vnuk2Ug=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -248,8 +251,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPOdi5mdsjtLwgb88lz2-7dKuLlselUaJmxqtPBgAOiAjq4Xmxz7oqWxLWN4vBNcFprRlJVXoec6bfo-SLOMXbEGB8L4t_s02DgTjLUrzKpvH3RUzQlR4Mhs0fBtpHt-IXXGJFjHw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-_nDjRA2JaiZo5L66NfLg-hwi6iasp8xioEZeb51QZkCEIq-8fSAiePedYgZWw7mp-S2CKTZ5EWN5RNo6agaQTY3Pmd9pOefqzuX6OxamPNaH2N9UPulaw0NQg9WvCP60-SiY=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmODOH7rSXW-ZbkIbPGE5YPvO3u5WL5776ohZtk-ApWjeahqbumiAAfRoPVMyQ5vXU9T_8GBsOMKAYqtvMavlWONltnEzvWvr_zJ_8S8iBlS4JNNm_-zCoxnImX3pd1sst3qE31Oiw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPrbKzi716UeY90G3sVZMDi2rmRNHlMtsh18Itvhdo3zuzFO7tpFPb2vV8omk0JKlhMS01GQ1KeedRNEzapSwrKnvhLiGSRrj3fjzWKVkD2guky__d89cggoNdh48p3eo5vz8Tk=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -303,7 +306,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMi719sPd250oZuQWXrGjm6pH_0urO_G940p0C5DHyb7DvQG_DoolI7zCtNmND1lmZCrBEmgx2O3wPOYPFSWWYFaa3NpJjA3Vos_fLH7bGWCUCuNB1DWLZdl5FkZ-CSNg6kOiVA=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMFVZyx6Zl6sBNrW0WzLuEH4qkLo1dGraflxTTWMswqx5CA_kvopkGFjJGtYH4Fakv_Iq_4yVdBz2TovIDSP0D4mYoIsOp5HBfduUG5jS0N7-HGRyfP3wad9r6C9O_cz16zOphC=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -575,7 +578,7 @@
       "reviewerId": "100708542187126455997",
       "reviewerUrl": "https://www.google.com/maps/contrib/100708542187126455997?hl=id",
       "name": "Muhammad Nasikh",
-      "reviewerNumberOfReviews": 208,
+      "reviewerNumberOfReviews": 207,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUrXzKiGjF_heEMosWjl6m9YvddDdduQ1x_TzFVcydCPIjRb-cXxQ=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanan Lumayan bagus",
@@ -606,7 +609,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXNkfJPUkdwh7a7EP1rU6gUxW3qSsGakYxH8V_eyBmOG78a_YUd=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "5 tahun lalu",
+      "publishAt": "6 tahun lalu",
       "publishedAtDate": "2020-08-14T11:36:28.168Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNDek9uLTNRRRAB",
@@ -799,7 +802,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNE97v5ehji_rLeiUDcjvloMc4htr2h32llp_athcmhfui3Xfyqxtbgh-HsCrXyl80XAvc4nLPmTSJ1gdF-q3knGZxE12XrZ1Qh0Hc1E33hXPYnSkhZDT0mEgsx9BmytWtEpA78=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN38jQ1vMCXWeopGop_1lE8LDB2yuAYmKQ4KVHFcDTC1vOweLAproWAi-yS5tg_SZeq5XzcGGKQKvExsNHYFr8IVU_72YsK356PIaqjWWXo-sBThafeiR_Co4LHFb05_0vI0jTa=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -889,7 +892,7 @@
       "reviewerId": "104040214205728025749",
       "reviewerUrl": "https://www.google.com/maps/contrib/104040214205728025749?hl=id",
       "name": "Widarti Hadi Suprapto",
-      "reviewerNumberOfReviews": 698,
+      "reviewerNumberOfReviews": 695,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4EVs49ECjWlqnBRlV6zh44ssDkK_l_bA-BCelPORRI34g4w=s1920-c-rp-mo-ba12-br100",
       "text": null,
@@ -941,7 +944,7 @@
       "reviewerId": "114480600341505997081",
       "reviewerUrl": "https://www.google.com/maps/contrib/114480600341505997081?hl=id",
       "name": "Channel Inspirasi Bersama",
-      "reviewerNumberOfReviews": 892,
+      "reviewerNumberOfReviews": 891,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU7cPOXqJwprZYZJXm6yn1elQtX3u_JM6pQJYBnZoSxfrU_gi9czQ=s1920-c-rp-mo-ba12-br100",
       "text": "Dinas pendidikan di kabupaten gresik\nParkir tamu ada di belakang gedung, luas\nGedungnya besar dan gagah\nAula ada di lantai 2 bernama aula ainul yaqin bisa menampung ratusan orang",
@@ -957,30 +960,30 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPsn6-jZsdK9scfyWPhc5eS0YmJXvp_QKHTkICUVv9del-iFH3pYc0jxQ21QCn5I2jy4KLRnsqXMtwpmA3ms3iCrSLWwR64Qq0-SfA7PZwyo1iqmwgnwQ7r_NGeMuw-aGzLgmLo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPmz2pyd4TazkW9rVfhRGQ0Vp9JwuIK5xq-p-tVUYBFXA8ol_TTpBCBJ-8bbK3ENPCMJI58kCgXpkvKdN_vc8CRnxeURlxoDzWmFIhZf415Y9axYIjTz9KFtjjvWTIdKr1kVJk0SQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMPfkxxHBP51jrsfyRZdmv97c-AY-ZBaP--EdSuD6FKAEGTKPm2wtvXbyZkgaeajr4Pm9o_aeoG7guLC-8v-xgwLn8zPonqMw9dgmrI_IJCCFsWnTqJw1557gqUqyQjI7xF7Rv1=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmON1k3hExCCUVi5EKAsNlPjHuqKf0cMAcpYBod9MmP9HlV4oOSod3XkZo3v0lWG6r8u8px0Hi0_dLMv9ugGGRJod3Li11d4vMGX2qpvLFg7XbgIE8Rr8tFFTJQM2-tNEXLJmYRV=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmM0fqkNDvf3Mpv6Upfm7o53TjUthg3JPGcW4ZyVTGAg20xwVS5xW9L1jqd6LOneKPhH7rmXOiTWloBd47JF3aWMAHXLenPh2NhVnpB43SeXWaMhbPFHlz7SI19PHhFoaHUckmtyJA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNeBi-PAWNNJamyEPtLFYj-mq4e_koK-fS6yXC_lKpIVr9cGaf2kXJ8jrnyUDEeFoKrO3iTW92F-L0SyXzzwHkGhsNq041C9sb5_j7q7cNxg1ZipXIIi9VHYli1tMj-PYJEtKw0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO__tK0JB8VWjTuzdOj4DXMC3kgai0Wc69OZjxU96XgxtHOR0FguKQjvwkF-OvHEQeUn0KVF3wyQRLHQqZH_6QrDOaR46wNZ0oLAQDvbndXkfGfFcimZxNxUedBs0Aw_8fS0hTu=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPp-uqBbyF_1Fd5vhpP2Mka8m9xS72w-Jo-IP-waHnvmudLbUs6JfPXA6yHRFjgWr3VzQNlMr7H7UdgcXT4SSK6R-qBsEQrlr0c_19iVHxzJ1xUZJ4IJF5zEmcRk8Qh-DrXIGRudg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNk30q9zET_Apsh_K_lslEhwUO2Gf1XyZA_1_c1gyeRJTWYo9qCljTuO-xLABEFo-v2Vkc9ojTH0w06jhUWhxTwr5OGechBClZjySygwfP0UbtfC4maqLjz1szJksaCZzKy4vzG=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOKfwqvgPkPjzYLMRRmblYw7LpNXhGaHeAM1UZFkFUAhDKPqkzOr2_eSrpRypb4SgNHUqFbNFmGojyclkPHiBGjZNwvKSf1T4WRyNAxO8H6GqscHjpnnNgHGd_JY6uoUouIWB1kIg=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO4Kpwo9rSyb1PnBHuGKP8cIvVJDx7G83xZTp6bmY-SFSpMmSsrbFLTWQ7sCtbBg0pNQhus-MV6RceNKIsrT__lsUL4NLDLGaLRgSnZuEn3Yrv12kH5PvJ67reQvc7_yC4YNV9s=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN3A99iXAYLGyD2vPesBMtlCDhXlYunfNVseU48V7FY-CQEUkFC1EHbol8IaZp7isgKJ0jt2CCjTeZM7gIy_eEeXL5cE--_Pme7Y0KEqSLsCwXYU77rXRTs7DJnqBrpMauQ-f1QaQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMcVEBKuxxaOFWWr0OkY8QSufzDMhkVhqAZUFyi_5VUt4-Xvdt7FcW7u3_93wymHzbSD1yo88LN9gRnD10k0uG6jO0F7Wy0lh5DOJ5II348hzeH3bJ-oXBkQClE_GjkdVHDYa0=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNcUayRB1OOaQbNA0EOLTvt6GEWVQNAOYtzEJLYqoSCEQmi-ZnD9XWhEvT7E3mVCYAHozEG5v6L8jN2FrojOaPKKr84o_Z8UV8T6f6shAxoUXQD7ChSQUBFCc1dzNZicYHSFzo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOJ5wdDNGMCb2cFpsnN0J-pEpFiIPcCaFHXcQpOBOASKJYHlHeo0o20wuNrMcevLifZP7_gAWy9UdbHe3bKxLaEkCjjXZy4i-LlFyoAUpDo1qYE63goX2ydfJiL1LWwzfOh-Uw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMvNEcKkWOOrUx-6AmNOnEgJ0D4-qBM_visM8ptCZO6MORDQEOO2a5hxxOed3EAhwXVg-rxJ68LErE-fHhQ2fBIzywGVbx4GX25UhiPnf1Zv5_XI53_EYHZrQDsY45gm9Fh_KY=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNQIIudubh8cgyy1_DegzrnjOiLws9ZOM6FjEpzDt3tt9yA-SdAciTKvukW_BmC-W6Fq74DnSOEAjvu8bk81Tq2qAvDmfoT2CP6TBjpbTsi3VfEU5aGgusZwSreTxX6FBakjuAw=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO022bNSvwCcpBdFUNSicWFvnm4q6t0B4j61GW4RRjAuZfGV_4P0Tx6U3HzEXSIghJfgIcSsdltFlvS7FfoY79N4_VsKItVors9GsRvpXdsVZNSKc4Xq_ynWCMo-K2KSq0FL3m9=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNtwS_tnj6lm2nS-Te5mmqV4KGDVxgwT6-h86B2eiTMUBOHw_6fvgKjGTIznQvhcvyqq_NWH0cRWPMM9Z9RDC-yCYwS2PD4bhsKsW5cd5G3DkPxFIXzXyPAPA5eI3S4Vq3zG1k-lA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmO1ZqHzBmH_JCbKSNZyuhaz361OSGGjaKc7mJ0uVRf1DC6YAlcd-KV5C5gVLDaaOfC7xBTzBo3k7lDIU0SesazJn1XPe8CN5Y91omjwItCtwH8hYP_MCVZi-1JyOQJ73Pr57_x6YA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPxVO-XZihbshXRURohPUpYag9pLirDLVyuihHhlVq8gzXjG0RAvycjC2YGj4svH_MCVqadLz7_wx8De9kdm3rN4IHT_HUBuKhgYPt58jV5nw74Ur-yiqsfsBO7Ddsk-iF7TkwR=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPQzIywAsLun81YsYJqQ3FDFLYRfNUdSi6Gm3NE0OZSE_7U3MEGVFiBVFp2fi5AeJfi9k43Udna_n_k3hudTaJTuAfUzgJwF2qnZC9ZXGFqqOekrWs6F6qqzb-XeuZJqNUqKzZ_=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmP55M3VSC4-VKCr8h9J1Y6phqFAORMY75doj-ppAISLgQd6Bf1PYHwbkE3lraqId0w8i3iB5D60GxnSDKczeVSpPasVSRvaOgRRFTZU9d1PxaYRyhtx54iyIdXzqL8p7WIkC73EBQ=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMKHk_h6_rosHdiKVIlDCrDX21d-bvrTLxlGyAEBo6YzdM42u4N2MKv1aJ-Yhqs9xCFpaEsUEkbablB7Q3pU-hOnaV_Ps5XxfHlXyJE7IaGGBhmRu3-X3naVpcYF99YJzXxdYRW=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmP1ZqdrL2rP7wVatM-Q17YXr6xtF0QXleKRdn0smZE4ReMQurgygHA3u2XrH64Kitxh5EgRHsJM6e0CCR2vcx4zdg80HojQzpUCPRLuInlbh2hiOBWx3DM1m9n2rDbaLfMRnHnJ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNSq4MhDK5BZY6QSTBnGUOD1FSbUEsNByEGM1ihEsZV_qiVJ6BsdvDXVQ0CjYKv5wh77lFkiuFied80Rjde2lduzYpr5YFWLVKeEduGuZYktGT6SFoyF5GyTYR7ZFHfUEgRAuc6Qg=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMEh5fuNTAtS8aesRhawck-UcgOrHy2ZwKHDg9gaTNZMWZbL2Cvsn3InnxIWzLOLPtLhLTtDtTkGL-BUyY4RgJiFSZ3PPIE7Lh4A3t4A5ZmhK0pHohGW6CdIsk2Bs0mjRYJ4cjC=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOiH8UMJAG1AsBKpxdJaZi7k6KWN5JMrx35OfGBhW0tKMuAFozhO2UXgVH4eH3kfWbYP84WM9Kbjp7uOLdlKRDug8VlSHhv3MMQym4vpj74eOHCFguSQ3oYt38z-aciI6HMmoso=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNFoCEr0KLkkVClSmAq4ayEbrJ4ISbNNUg5fcyENfu08_Np18V9BQ26ZGhtAiDZwNQDd2bPs7xiqrlPbEtwL8e2_xTFyLDQm4N_aPvZLDGxjzW9z_LiLMnBhGB25RoLYCb5H7kV0g=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNdGHWfc2KWKXHafCwsPjm0_MlAvtdO-uGH2NOac7tTx0Hp3Wx7IYnPRDqvEm7GEIUX-y6Ud5omTkGkm-qjy9_EtwxC0v-UFc0XrqU7Lb4t6bfZryUXmVFLsBRk54FBRGJL4sON=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN_mDDPMJ7pYJpp9Td6s5ouzaP_wD18GryvpYiT44XkOgUJxvk9U20Gm_dKaa6_yTiHSR_Kw2_hh6FtV09TPO8XWsofJVj8zyX5lBjubXRdMpVlK75AafU8J_J45SQO1-ckzyTo=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMFfueE8HZXh0LfXpgXPpEjPHoK9W-5_KbuC4a8wfyDsl7J95IAuaeC8jaVbMz-eMFZbixkfGWPjkStbmyfS0Yz_8SED1F7uQ3RK8i7w23W5QUISb81L_wuq5K8NseZOh3vKc1IXQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN6kroatYZmMBsaPWlU5QS5VT_Jd-FTtObUkDbSfn3fUkdZ4hRm1QbFBQTfLZMRfTNgyzRsciZT0gGjUhwACHJdW4a340rTlfylULPIwbN_-KZVyNPjyTjoX2JdktD-9XkHAGyR=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNJcy6gO3TXbicePVVSDUl20ib6y10_SSs4HB98wONj0VgOsk1aHU4JwFujbA1k-0QksokJWyk3t1gjNttYvId2B9ZMW6upd0WwCzfYqGkSiF1LCrS5aouOazTew3rYRgW5-8mR0A=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOV8RinkhUUhl4AOzwg14weSWnOtedK8Ix80ERr3dHSRcz1dlnlv1dIT24Yf2JhFt28NJOwdVJI-oIlIkYx4TJltbG8yHNcRIOFqXpRHFbr6C5ePuYh6YGudPcdMdHGvajUs1pj=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOKLxMI6NOM32T5Pf2xUQusFmHTBz2b_F_gRSY_xEcQBYlkLhPFDvNwqa4kXKa3rLvRiIX76jCk4vEevYaco69YYoBz7P-0qMcZ00SGQRUk684y45JHCDC1WkFkQASJqpBuehux6Q=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN6gozFTKPyNxLJ3RXYmhmBFKbvvf3-KH4HkcBip4ozSULDSODY37NcVCny33Cu9W8eTkKn_GXr-2veAlrQh0ymAIowSWoCpIdd03EM3P98J4rNZHFCjmKKifgMBDJuysBkZOs=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPD0ZO2Oi_4AIv1_oBgOQDODDq8HdmxvsdvLTstANWL1j4D5d4VCg1h7jNMwWrhB0sQiDvNs_ovVPuJPu9aGH5H7CJBynCV-lPvPuNpfKuw76PwLNBUij81RcgbKRvi1KLC_5U=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPe3Sf8iqMAiWD9FK1uwS-EiLPJ9SVZRIk5YNAp8wnImMjcRoWPEf1tD_aQMEC_-9LuBkGsqWtWwRA2i4Bv5sdb2rlWpgcii5aZkYYBWwZ00vrt7N5cuQyBHloTidLoGqlYoN4=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMb-ymqz2mQd9UZ0KcmXdrNySt2Z2qnRnM7OWlarvuQN-EPjNVOWuwkaCdsJX30W449pFBhKJRVKkWgl3q1DrUhzw-f2fVe-mV0gjTCLUnUMZSlcc5fMUId-0h1Pn0jE8nhN_w=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOPMx9_hGbZpYielRo_XHc2DABoUQ6ca5VNTeC94qKWPQ_9vHCoI87xyDW0uC5mwMWfZZaDtCciPZnmQ_Kp3cmOiVyX6swSjp8QFE-g0An-ioaaRMDnnzudcwiLaZtIUX3sqeL7=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNNNMitBV5dlB-ZwO7PWbaNVLOOt9NnOx3cKlFDgGu50DTdMN8k6Vp5JOVoZbSLz-TgXsx0hNxI9pM9Zg3DF44KR1T1Mti9pplVAF0b0j_E3NyOAXG6lI3VLVtCHNsMdy9sIJqe=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPasl22e5ZhK_nmWNXouRejwo4FxNiU4JSjBNgnOCyN_VfKytkK1qMqpIPfQojGQGiWQ1PNkgj97v5bp-ADfhDiN68qqS5HZj0Al1_Qu6vZk0PrlRNFz_8rNFBgjcq_I1nKOqO-iw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPr4DOMHHsLrGayfkjnvTwbqaTvK4OpbmaRMaX2dmManaybmdUDmM6M-vImLnhPrw5ffZCYNRpGuEUyEfY1uBIHs2x4l36poIGgJihTS0sgpam35HdnSttdhv5cKuQcAgP05bsxtA=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPLkDJKp7UwxTr6U6mwMpF89ykXT7RPLPJWt8Lm6MU4GgWLseQMTatWpR1D-d3cyCrKsdOD1ci791D9VzK-bDjYQO-lImrUwulzibXqdFA6IyUzHS5AXrelXq2uxp7WfuW65bhn=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOkiImhxLsYUryCC4IQI1hCOSBozt0wfxQw0cHMWP7a9T_MY6-tp-zZLlYKRKTl7igJzQ-PXpQun6tyqGdEySRbK-zdF2qhXUUcvEN5dC_Dlnv-Zg3MxiHb32bBx93qBk1mb3SN=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOgX3C951-QfaE7zN2Eru1yLTP6RtG_RDiV4SEzyy0x_tCjXLfYVOE-xbpJrwqR4WDyfEgUpMRobxTOQEk5pciBmZfzJEI-oBntdkIAYmyt4Zc1tSaKjjwCWMh9xTLiHP6nEOJjzw=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmNEG7E1fjPT-OWdKilnJSEonbXQgF6j9bpRxPVkpGE1pIMjKjz9_OE5gYLivyqI99E6OB5NBdrQ_rPjDzPw5yIZKFEkwUjj0gtM8xHxbAG8r-VxBEEdBghaR1hT40vV2LUiVbjc=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -990,5 +993,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Dinas/OPD",
   "kategori": "Pemerintahan"
 }

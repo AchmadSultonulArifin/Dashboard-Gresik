@@ -2,6 +2,7 @@
   "title": "Petro Graha Medika",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Rumah Sakit",
   "address": "JL. Jenderal Ahmad Yani, No. 69, Kel. Ngipik, 61119, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61119, Indonesia",
@@ -24,7 +25,7 @@
   "plusCode": "RJRV+68 Karangpoh, Ngipik, Kabupaten Gresik, Jawa Timur, Indonesia",
   "menu": null,
   "servicesLink": null,
-  "totalScore": 4.5,
+  "totalScore": 4.4,
   "permanentlyClosed": false,
   "temporarilyClosed": false,
   "placeId": "ChIJL_DzGWcA2C0RxCq1UzNYzOI",
@@ -33,11 +34,11 @@
   ],
   "fid": "0x2dd8006719f3f02f:0xe2cc583353b52ac4",
   "cid": "16342534125291645636",
-  "reviewsCount": 17,
+  "reviewsCount": 18,
   "reviewsDistribution": {
     "oneStar": 1,
     "twoStar": 0,
-    "threeStar": 0,
+    "threeStar": 1,
     "fourStar": 5,
     "fiveStar": 11
   },
@@ -46,7 +47,7 @@
     "Semua",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T12:45:22.211Z",
+  "scrapedAt": "2026-08-20T22:01:17.375Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,10 +59,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Jumat",
       "hours": "Buka 24 jAM"
@@ -85,8 +82,13 @@
     {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -97,13 +99,13 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Lobby RS.GRAHA HUSADA PETRO KIMIA",
-      "reviewsCount": 7,
-      "totalScore": 5
+      "reviewsCount": 8,
+      "totalScore": 4.5
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Rumah Sakit Grha Husada",
-      "reviewsCount": 544,
+      "reviewsCount": 566,
       "totalScore": 4.6
     },
     {
@@ -115,7 +117,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Klinik PPK I PT Petrokimia Gresik",
-      "reviewsCount": 195,
+      "reviewsCount": 198,
       "totalScore": 4.3
     }
   ],
@@ -145,6 +147,7 @@
   "isAdvertisement": false,
   "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r-a3XMG0ZQYW3rt2MKqzTQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=329.9488&pitch=0&thumbfov=100",
   "kgmid": "/g/11bc7qpmq6",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -156,6 +159,32 @@
   "ownerUpdates": [],
   "imageUrls": [],
   "reviews": [
+    {
+      "reviewerId": "108216473168900665099",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108216473168900665099?hl=id",
+      "name": "Moh. Arifin",
+      "reviewerNumberOfReviews": 35,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXflMzBMAooKPjII9yhbbs16tVIJI_AHoqSJjdweRI3xqUPmSNi=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "6 hari lalu",
+      "publishedAtDate": "2026-08-14T02:31:22.912Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT20xR1ZWQjFWWEIyVEhaNk5sVk1ObEZPVlZOWGJrRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xR1ZWQjFWWEIyVEhaNk5sVk1ObEZPVlZOWGJrRRAB!2m1!1s0x0:0xe2cc583353b52ac4!3m1!1s2@1:CAIQACodChtycF9oOm1GVVB1VXB2THZ6NlVMNlFOVVNXbkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 3,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
     {
       "reviewerId": "114283072203991661875",
       "reviewerUrl": "https://www.google.com/maps/contrib/114283072203991661875?hl=id",
@@ -191,7 +220,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXNHa42Wemz1bpAN5uUlJu-jWI81XlRYKVcadBuU7zGY4IAHxkZJw=s1920-c-rp-mo-br100",
       "text": "Poli obgyn jam 10, jam 12 dokter belum datang\nAstagfirullah...",
       "textTranslated": null,
-      "publishAt": "10 bulan lalu",
+      "publishAt": "11 bulan lalu",
       "publishedAtDate": "2025-09-20T05:15:48.816Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWR1pXSTJOM2gzVldOWFRYTldVbmhOTFRrdGNHYxAB",
@@ -243,7 +272,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVwDLQ0-Byaejm7jG4vfuU8qxlEjEvGv-eZ40AKdJinZyBx5pLhjw=s1920-c-rp-mo-ba12-br100",
       "text": "Sangat rekomen\nPerawat ramah\nTermpat terbaru semua\nTdk beda bedakan pasien\nDipertahankan kwalitasnya",
       "textTranslated": null,
-      "publishAt": "11 bulan lalu",
+      "publishAt": "setahun lalu",
       "publishedAtDate": "2025-08-20T13:38:28.190Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2sxaFNUTmplRjlqZDFoUllrNHdWV2wzWW5SclFsRRAB",
@@ -524,7 +553,7 @@
       "reviewerId": "117016083437764655684",
       "reviewerUrl": "https://www.google.com/maps/contrib/117016083437764655684?hl=id",
       "name": "Nurul Huda",
-      "reviewerNumberOfReviews": 448,
+      "reviewerNumberOfReviews": 447,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW6Q5IH2FrUPHLpSjvrHnccy5NLcym9m-zUAXZrdoOtLdnTzxJlbA=s1920-c-rp-mo-ba12-br100",
       "text": "good",
@@ -540,7 +569,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMA27MGXpWawxP-UTNVbY6W_AygMGUiJwiF_Njs5Ey5225--e1R79XYRqZYIPe13KRxBrTyyir6H5N2GjFpit1qpvSWR0Qv4jaA2xoBuxUKaUyoo7LWd7YLx0kGap5o-g1q76Jo=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOsU2VNz8sLrIFz5deBch-d7ih_bRw3eCcoaX-0wS1S-M3KPOm5REeTNeXLlMOAvjhwtbDukTTPVwV9K7BTBU2zks5nMZnEeSc3-gq2M6IpfCHQqr8jM8JAjR1Kyq_1pYC0eKbm=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -602,5 +631,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Rumah Sakit",
   "kategori": "Kesehatan"
 }

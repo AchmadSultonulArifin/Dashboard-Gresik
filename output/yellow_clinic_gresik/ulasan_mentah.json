@@ -2,6 +2,7 @@
   "title": "Yellow Clinic Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": "Yellow Klinik Gresik\nMenerima umum dan Bpjs",
   "price": null,
   "categoryName": "Klinik Medis",
   "address": "Pertokoan Multi Sarana Plaza, Komplek Jl. Gubernur Suryo No.9-10 Blok C, Karangturi, Kroman, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61117, Indonesia",
@@ -46,7 +47,7 @@
     "Bangunan",
     "Oleh pemilik"
   ],
-  "scrapedAt": "2026-07-20T11:12:04.584Z",
+  "scrapedAt": "2026-08-20T20:45:49.906Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -58,6 +59,18 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
+    {
+      "day": "Jumat",
+      "hours": "08.00 to 17.00"
+    },
+    {
+      "day": "Sabtu",
+      "hours": "Tutup"
+    },
+    {
+      "day": "Minggu",
+      "hours": "Tutup"
+    },
     {
       "day": "Senin",
       "hours": "08.00 to 17.00"
@@ -73,20 +86,9 @@
     {
       "day": "Kamis",
       "hours": "08.00 to 17.00"
-    },
-    {
-      "day": "Jumat",
-      "hours": "08.00 to 17.00"
-    },
-    {
-      "day": "Sabtu",
-      "hours": "Tutup"
-    },
-    {
-      "day": "Minggu",
-      "hours": "Tutup"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -103,7 +105,7 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Klinik PPK I PT Petrokimia Gresik",
-      "reviewsCount": 193,
+      "reviewsCount": 198,
       "totalScore": 4.3
     },
     {
@@ -146,8 +148,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkTPAlMkagQCavIxg57U_cj2T6lA-AY1fCF1fbjBUvLYwTWGWJ-O6MOG86WBOTsncUtvLoA_ClerJJgrTvCoBzdLDf8iXWmdE_yRH-Bj7h0u6mApJBCPkb_wUiH6xLkervqwuc=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIdfvcG51TZWMDU88A83C5FRQ8qiLQu_4ViMZiXTRyFQzex9nlppJN03OQ9xRymTRXSR9IPn2mQT3gDY2lby3KQNbS_yupc4CuqGpfGty8MXiehLGRzdI9qeZHEqz5_vxKAWQ=w408-h544-k-no",
   "kgmid": "/g/11tnxz6kq_",
+  "businessProfileId": "17640600725330107677",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -168,7 +171,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLJyygUDSxXZOD5OAVmjWlXqReZvsMigTnjMpse2nikHCxfLw=s1920-c-rp-mo-ba12-br100",
       "text": "Kamis MCU..jumat udah siap hasilnya",
       "textTranslated": null,
-      "publishAt": "setahun lalu",
+      "publishAt": "2 tahun lalu",
       "publishedAtDate": "2024-08-01T12:37:58.835Z",
       "likesCount": 0,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURiaU9Qcy1RRRAB",
@@ -283,7 +286,7 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMyuJRa4tk-LZ4YqIwQUC4ZmfPv5lWzvJV59XhZAmjTZN7jtR2h2ZZhxwKk9xxG-e63ck_40n4yb2L6b9DlZf9I12nv1SiGLUyHQS896ITjt0IpMnRXbMfuXaykhD-0NMJ-Dm9H=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPXPF0eV-aG4YkaEPrfDl1q20wuHum7xxX1Uy9bU-5T0lLnCXlqBDklcJC2glp4qxGNJYYP19IvTIQ7uFhO4c35x3pBCNqG9WCkT_vH5khA1j7lV_vs4rsw85ilj59-RL2dnnQ9=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -943,5 +946,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Klinik & Praktek Dokter",
   "kategori": "Kesehatan"
 }

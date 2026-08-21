@@ -1,0 +1,78 @@
+{
+  "key": "kantor_pt_mitra_saruta_indonesia",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Kantor PT. Mitra Saruta Indonesia",
+  "rating": 4.2,
+  "total_ulasan": 5,
+  "positif": 3,
+  "netral": 2,
+  "negatif": 0,
+  "persen_positif": 60.0,
+  "persen_netral": 40.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.373835,
+  "longitude": 112.5821577,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Sejedewe 67",
+      "Bintang": 4,
+      "Tanggal": "2026-02-28T16:21:03.567Z",
+      "Ulasan": "apakah ada loker?",
+      "teks_final": "apakah loker",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8763
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Bambang Purwanto",
+      "Bintang": 1,
+      "Tanggal": "2021-05-31T08:58:28.534Z",
+      "Ulasan": "Proses muat cepet Surat jalan 5jam baru kluar",
+      "teks_final": "proses muat cepet surat jalan 5jam kluar",
+      "topik": "Administrasi",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9492
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "muhammad suroso",
+      "Bintang": 5,
+      "Tanggal": "2017-07-18T06:42:50.773Z",
+      "Ulasan": "Industri",
+      "teks_final": "industri",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.3506
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Wahyu Radiant",
+      "Bintang": 5,
+      "Tanggal": "2017-03-09T12:34:07.278Z",
+      "Ulasan": "Industri",
+      "teks_final": "industri",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.3506
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "yudi oke",
+      "Bintang": 5,
+      "Tanggal": "2016-08-29T05:51:10.536Z",
+      "Ulasan": "Industri.",
+      "teks_final": "industri",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.3506
+    }
+  ]
+}

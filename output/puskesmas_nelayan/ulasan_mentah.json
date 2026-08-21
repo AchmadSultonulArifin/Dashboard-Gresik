@@ -2,6 +2,7 @@
   "title": "Puskesmas Nelayan",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Pusat Kesehatan Masyarakat",
   "address": "Jl. Gubernur Suryo No.33, Lumpur, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia",
@@ -33,13 +34,13 @@
   ],
   "fid": "0x2dd8005f7cfdc7f7:0x819c1d41785e7594",
   "cid": "9339371894289102228",
-  "reviewsCount": 115,
+  "reviewsCount": 117,
   "imagesCount": 58,
   "imageCategories": [
     "Semua",
     "Video"
   ],
-  "scrapedAt": "2026-08-06T12:56:18.468Z",
+  "scrapedAt": "2026-08-20T21:35:56.240Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -51,10 +52,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "Buka 24 jAM"
-    },
     {
       "day": "Jumat",
       "hours": "Buka 24 jAM"
@@ -78,13 +75,18 @@
     {
       "day": "Rabu",
       "hours": "Buka 24 jAM"
+    },
+    {
+      "day": "Kamis",
+      "hours": "Buka 24 jAM"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Alun-Alun",
-      "reviewsCount": 341,
+      "reviewsCount": 343,
       "totalScore": 3.9
     },
     {
@@ -96,19 +98,19 @@
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Kebomas",
-      "reviewsCount": 564,
+      "reviewsCount": 577,
       "totalScore": 3.9
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Gending",
-      "reviewsCount": 327,
-      "totalScore": 4.7
+      "reviewsCount": 331,
+      "totalScore": 4.6
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Manyar",
-      "reviewsCount": 299,
+      "reviewsCount": 303,
       "totalScore": 4.6
     }
   ],
@@ -121,6 +123,10 @@
     {
       "title": "surat",
       "count": 4
+    },
+    {
+      "title": "bidan",
+      "count": 3
     },
     {
       "title": "sakit",
@@ -149,10 +155,6 @@
     {
       "title": "farmasi",
       "count": 2
-    },
-    {
-      "title": "ruang",
-      "count": 2
     }
   ],
   "additionalInfo": {
@@ -177,20 +179,21 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkkYWNNetYYs_KvOwQsZxeOcYZTx8h1F5EghMbZ3BSlVnoBXNtYbnPjID67s-9TL3xuv83DqHGyWYxGlaPEPQ6PJLnVLNSP9gOTdPgHJ9qHWGxWQ1Sw050RWF_Z50a4biakBUTEpOGyp20=w408-h544-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlS7qNiQakPPbvTW7NaNSkG4-EPH2gEB1OaCTHxQb7sQNmn5McuMrkN7qVugB1NxeBmlb7_NO1RaQ7DVmii0LXiTvkrNJaEemNYh0kQ1ICiRCkTXw2idox4G9qZdVsCjyicBYLgMv8iQw=w408-h544-k-no",
   "kgmid": "/g/1hm3frbdh",
+  "businessProfileId": null,
   "reviewsDistribution": {
-    "oneStar": 26,
+    "oneStar": 25,
     "twoStar": 4,
     "threeStar": 6,
     "fourStar": 3,
-    "fiveStar": 76
+    "fiveStar": 79
   },
   "questionsAndAnswers": [],
   "updatesFromCustomers": {
     "text": "di benahi lagi dan tolong di audit ini loketnya lama banget + sampe menumpuk kaya gini. keos bngt tempat ini",
     "language": "id",
-    "postDate": "5 bulan lalu",
+    "postDate": "6 bulan lalu",
     "postedBy": {
       "name": "NURIL HUDA ASSYDDIK",
       "url": "https://www.google.com/maps/contrib/108059837261167026889?hl=id",
@@ -199,20 +202,20 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOJwaiCpvccPNV9L6BAkCR3hlKSKsmfFvTpTBVJhPPlpC03Ve6fhq-hCVOxMK1QBkiObKU0OACEClqGdpCQt_VO2v9Y7gq-0P9oSozq_Z4x94niz5W0519G6fNWzsNpNr3-l4h5-2dPPfQ=k-no",
-        "postDate": "5 bulan lalu"
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmOyWsRSaTdiqiLF_Twz_YZI-NP8OjGWnyD_DpWeT9tpCgfQQW3EkuVFx7q3Y8Z1Q9yyy0v3SDc9CRIQCL9Tdwf5Xc24zOi5QRTSWNAhNcdEbowZWnAG53LviINT81iR4WFtFEoV4OBIdQE=k-no",
+        "postDate": "6 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMsBrPQ2S8n2rhV3HSVocvNWFjxvn3xOEpJOlVWC-5fS8dNk5-g-oh48mRAZhoCzr2PZM9iCxalEGM77Euig7KC99AWymSmoWKi9igtQhVw2PNbmi7zY8sIg5gSuAH56LMMlunnTU4Z2uY=k-no",
-        "postDate": "5 bulan lalu"
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmONd3JJFxsdNq1XbCFa_Cj1vWEOHDlXMdxI6AQ4-XyOe7_t6S5UiNIxtC7iJJ7nmMqhWsWxPB_S9Z5d9rGS1ykk4iuPCPZPS5bTVbhJMvWVGlcICwO1sgQVWj0U04BgDEwGNLAqsNuLuYw=k-no",
+        "postDate": "6 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPA6mfusRYY0LPsU2DcCqIgz71DXN8EripuzO3QIG8BNqr2S59kSdtOu2zx-QvUXjfGwlu54xIHLh2mcE-OO9xedUrFYUHuutmyJuxfSIq9e3IWbLiJEuUvkWKFMHB8XtjSss0MH-dZOi0=k-no",
-        "postDate": "5 bulan lalu"
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSuqt9vOw5WFwOvDCsOQprNaDn5xuutHkWJfunbpMknofShQohho23iu76I2od0IDGXq-NU7xVDddWCcwA235WNAYcMvaDCkBe3RDo_qDTtm4dv4OYrHZOT0EIdsGZQeVArjp8x-9AI2E=k-no",
+        "postDate": "6 bulan lalu"
       },
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPpstD2E6QIYN_jkqA3DBSeOX6AYNAAMuNbnD8oslpK37oiUcCgVpgUxjEAdGamqj1THx7uvhxp5cangldMd9S6I42EYMsMhMwLB9YXpT0Rc6PfHkffsrSA5mdVnxOyNWkpY8MhSsP7NyaG=k-no",
-        "postDate": "5 bulan lalu"
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmN_1YfzNtGeTmlrW-eqLvkLrpG9etR4uwXm5nZTWHwEYSijonE9cxKpg1bU9I7Rad1BXEfZcVrz56WnXGaOvVYoZDLv05hhy3l0T5g69ZqbLGTTDtyZkB_4e7QUk_s8yw1ccXuWC1cHdNjm=k-no",
+        "postDate": "6 bulan lalu"
       }
     ]
   },
@@ -227,6 +230,84 @@
   "imageUrls": [],
   "reviews": [
     {
+      "reviewerId": "112330937642161831698",
+      "reviewerUrl": "https://www.google.com/maps/contrib/112330937642161831698?hl=id",
+      "name": "123 Bismillah",
+      "reviewerNumberOfReviews": 10,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ7jt4yrfRMeDHipR1hV7k1Okcg0AL_46sUIyiRZF4YoJxu6w=s1920-c-rp-mo-ba12-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "21 jam lalu",
+      "publishedAtDate": "2026-08-19T23:37:29.481Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCS1lYSldNalpGTjJaa1JEbHBNMjFMUlZKaFUxRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCS1lYSldNalpGTjJaa1JEbHBNMjFMUlZKaFUxRRAB!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CAIQACodChtycF9oOlBKYXJWMjZFN2ZkRDlpM21LRVJhU1E%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "108076600374289600337",
+      "reviewerUrl": "https://www.google.com/maps/contrib/108076600374289600337?hl=id",
+      "name": "Retno Novi",
+      "reviewerNumberOfReviews": 1,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKf3EfVr0zwMlPLC7nHFoeg9s8eHctPR6pK8LNmtbhPxDulGw=s1920-c-rp-mo-br100",
+      "text": "pelayanan ok, keramahan ok, akses jalan mulus kayak tol ... puskesmas nelayan tambah joss",
+      "textTranslated": null,
+      "publishAt": "6 hari lalu",
+      "publishedAtDate": "2026-08-14T02:49:31.236Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwSVdtVmFZa1JCWVU5dmJFZFlWM05sTkRoR2JHYxAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwSVdtVmFZa1JCWVU5dmJFZFlWM05sTkRoR2JHYxAB!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CAIQACodChtycF9oOlpIWmVaYkRBYU9vbEdYV3NlNDhGbGc%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
+      "reviewerId": "107569290090510030980",
+      "reviewerUrl": "https://www.google.com/maps/contrib/107569290090510030980?hl=id",
+      "name": "Syafa Laela",
+      "reviewerNumberOfReviews": 5,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW_3rGJTgbQ2AUmpvKQDVjQd2ASBpkJLyZY0P0uExlrKRACXzft6g=s1920-c-rp-mo-br100",
+      "text": "Pelayanan tambah enak , perawat bidan nya ramah2 suka becandaa ,",
+      "textTranslated": null,
+      "publishAt": "seminggu lalu",
+      "publishedAtDate": "2026-08-11T13:43:00.270Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsVVNHWklkazFqWHpWdGRXSmtkblprYVZONVprRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsVVNHWklkazFqWHpWdGRXSmtkblprYVZONVprRRAB!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CAIQACodChtycF9oOklUSGZIdk1jXzVtdWJkdnZkaVN5ZkE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "id",
+      "translatedLanguage": null
+    },
+    {
       "reviewerId": "106507132109798886842",
       "reviewerUrl": "https://www.google.com/maps/contrib/106507132109798886842?hl=id",
       "name": "Cak Mat Gresik",
@@ -235,7 +316,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVwazMK9ftoFUBjIbIXzJo7_BOrLWGLROb1vWuKXWM50cSrmfuIVQ=s1920-c-rp-mo-ba12-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-09T08:04:38.112Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tnek1EbFVSamhKZFMwMFFsbHFaMHBzTmxKd1ozYxAB",
@@ -261,7 +342,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLojPHCpBOjpR9zVqnKkTHyKFdSCvSBGGtqRnysVsk_GpbR-g=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "4 minggu lalu",
+      "publishAt": "sebulan lalu",
       "publishedAtDate": "2026-07-07T10:25:36.832Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tKVmIxTlpTa1pYZVd0ZlYwTldabWhMWDNCUVRFRRAB",
@@ -313,7 +394,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL1kpSW_0_HBfubQG24Amfwpgj9ctwnsFdbrzoe1ibiFyn0rg=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-11T04:19:24.731Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2kxT1FtZzJZWHBKVDJab2JGZFNRV2h5WkROR1ZXYxAB",
@@ -334,7 +415,7 @@
       "reviewerId": "114665046442379696896",
       "reviewerUrl": "https://www.google.com/maps/contrib/114665046442379696896?hl=id",
       "name": "Ravi Anang",
-      "reviewerNumberOfReviews": 40,
+      "reviewerNumberOfReviews": 39,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUx_MJY4xXD3b3WXd5tKbQ5FrKwjKSbaozyiUkvCqE7cApsHd8=s1920-c-rp-mo-ba12-br100",
       "text": "Mon maap, baru ini aku kasih bintang 1 dari sekian banyak yg aku review. jujur pengalaman gak enak banget di sini sudah sejak 2018 awal2 BPJS. tapi baru memutuskan pindah setelah ada kesempatan dan setelah diskusi banyak sama temen2.",
@@ -365,37 +446,11 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocImfFbpE2B6Lp7Yn5DotK9LTIlOTkfGHL_eVqmGw5t_LWqhXQ=s1920-c-rp-mo-br100",
       "text": "dokter di poli gigi jahat banget. sudah mah sakit gigi di bentak bentak, pokok nya judes banget ngmng nya gak bisa santai, marah marah Mulu",
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-10T09:11:21.644Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2taR1kzcGZjVGcxWXpNeFpqRnZTR0p1U2xOSVdtYxAB",
       "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taR1kzcGZjVGcxWXpNeFpqRnZTR0p1U2xOSVdtYxAB!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CAIQACodChtycF9oOkZGY3pfcTg1YzMxZjFvSGJuSlNIWmc%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 1,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "106249947141744667208",
-      "reviewerUrl": "https://www.google.com/maps/contrib/106249947141744667208?hl=id",
-      "name": "Sabrina Alliysia",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIMQkgkYC2Ia3Co5jvf7YMYeiN6Mtb_hH7zflZK-eZnZhqFbA=s1920-c-rp-mo-br100",
-      "text": "kalo ga niat ngelayanin pasien mending pulang aja daripada ngasih mimik muka judes begitu. ga semua orang ngerti kondisi kamu, dengan kamu begitu aja nandain kalau ga profesional dalam bekerja. mending priksa di tempat lain aja",
-      "textTranslated": null,
-      "publishAt": "4 bulan lalu",
-      "publishedAtDate": "2026-04-05T13:35:34.634Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT214dWVGUkZXblZyV1dSbVUyeHFaRlJGVkZOclVXYxAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214dWVGUkZXblZyV1dSbVUyeHFaRlJGVkZOclVXYxAB!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CAIQACodChtycF9oOmxueFRFWnVrWWRmU2xqZFRFVFNrUWc%7C%7C?hl=id",
       "reviewOrigin": "Google",
       "stars": 1,
       "rating": null,
@@ -724,7 +779,7 @@
       "reviewerId": "105413680673028713332",
       "reviewerUrl": "https://www.google.com/maps/contrib/105413680673028713332?hl=id",
       "name": "Abdul Abdulwahid",
-      "reviewerNumberOfReviews": 1,
+      "reviewerNumberOfReviews": 2,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI9q2CmY-FqH3W10_4Cx-XOL66aMyqlMpYMhmW7dv3wAIXaYQ=s1920-c-rp-mo-br100",
       "text": "Terimakasih puskesmas nelayan, respon baik dr tenaga medis nya ke pasien\nJgn berhenti berbenah diri, menerima kritik dan saran dr pasien utk lbh baik kedepan nya\nKeren untuk Bu bidan KOMALIYA",
@@ -740,10 +795,10 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmMck_9rqhlHlBfprRDSrD7COIz9OAGEmtSZaYGji0Ip_NKjOIhKuAump3nmhblcDdXy0ICZ2aOB4HPgqdNwVHhc28nRWHdqWGfhMh91vDc21xl1UmccQuE8uH2vDQqB6tAoEPIH=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOatxm_VKg_1ZkLFDsZilzOSE0MFpwhZNiG9FSuK9o74KFgvaMmqA8tigmImmkC80pB-c5-ODKCncAr5hpNCslusBcvcBS2FLHQrB8a_Aq4hnAC7LFT_KP5F5IZLqK8MsaVVH-acA=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN-tCOxL_l26qrdMpiAHiB1E_VqWu-Tl3XMdRynIHgGrcYYTsPcxd70Sb6RevTmkHWzj29Xr6I2vB_1dCZiUK7nHpSpYA7l4yMt_HJBGqyub3F2zmVam7t0l4UwZO_sz5R6H77e=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNlAPBXvkivlQ9S6rkFjigRjIu4SAM_HQcmTLmyuppSQfF3Fb3hwGDXvzlLzhh40I-MxW_i4TEIedxK0T21uGqsIuImjPqGsJfvewgMYLGoa9JGBZ9V2WjNWvTSgtQD4CSd9Ue_=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPFdoPvaUEloE9ZFKCQ3yMqC0lTIqTIBhhL6GHzr6Qe2RCyjkgs25rYlCX5JCrAjo93f4b7l9zRW0uPBQoqX6q0QeCQa3AX7QNuEVM9W0ehOub4J85BQbim4ERZ1E9RrW0oGzOG=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOfwKSwP76LeRWmihpVTb-v0IGmsod3_2Q4D_qzvrB9BHbvXXueX92gglEiRRT06BQ2650p2tml8qqVHWOiiXJo1cNLR5YcULztqVgdSkwWn_AB-qxeGZBfetMPJoB2nOYg16vFsQ=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPjVTnclcDKq8HpGKPQpbcmgftOEKA3eihjS35xC3fZSvisNFA2xEzq7fhNOHhLumEeSHpPyjMqmYKEBIuAtFLg1ipiD21nH6I-xyCJcFIL-1N1Yq0QrkjbV9CmsKZXSZrqKAkc=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOM32q5aaOZWCLYgRMypgKAMfBMZRT7UMlY4kuGwYoHaktQnAkVJAtUMZh-52fDuZkumqWcb3H1CimEMeeIgq974mnmkvyDo03F2R7KkkjozqZ7MvgzZaSDk1YQAzPkvYsGQvuo=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -807,7 +862,7 @@
       "reviewerId": "116376964774371926501",
       "reviewerUrl": "https://www.google.com/maps/contrib/116376964774371926501?hl=id",
       "name": "muhammad wildan",
-      "reviewerNumberOfReviews": 92,
+      "reviewerNumberOfReviews": 93,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWr3edTD2KuImMaWzheuXaCyVLfiKwZOpQmQxFhbSf7s1VFjS9o6Q=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanan yg ramah,,",
@@ -958,60 +1013,9 @@
       "visitedIn": null,
       "originalLanguage": "id",
       "translatedLanguage": null
-    },
-    {
-      "reviewerId": "104086384151057130596",
-      "reviewerUrl": "https://www.google.com/maps/contrib/104086384151057130596?hl=id",
-      "name": "Dewi Cahayu",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJZxz77DawgPU4SWBijpm7ovqHGWOYRQdtlJM0uwUmlzYXcag=s1920-c-rp-mo-br100",
-      "text": "Alhamdulillah pelayanan di puskesmas Nelayan tambah Joss, tempatnya asri, bersih dan nyaman",
-      "textTranslated": null,
-      "publishAt": "2 tahun lalu",
-      "publishedAtDate": "2023-10-23T22:47:44.251Z",
-      "likesCount": 1,
-      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQ1eHUydXRnRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQ1eHUydXRnRRAB!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CIHM0ogKEICAgID5xu2utgE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "101075517492114469994",
-      "reviewerUrl": "https://www.google.com/maps/contrib/101075517492114469994?hl=id",
-      "name": "ezee 9",
-      "reviewerNumberOfReviews": 1,
-      "isLocalGuide": false,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLv0xiTAH8YcQI2phZvR2OocxqShFFpSkc2c2AAdIL-tQ3V2g=s1920-c-rp-mo-br100",
-      "text": "mantap joss",
-      "textTranslated": null,
-      "publishAt": "2 tahun lalu",
-      "publishedAtDate": "2023-10-23T11:31:52.500Z",
-      "likesCount": 1,
-      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ1dXVhN0lBEAE",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ1dXVhN0lBEAE!2m1!1s0x0:0x819c1d41785e7594!3m1!1s2@1:CIHM0ogKEICAgID5uua7IA%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Puskesmas",
   "kategori": "Kesehatan"
 }

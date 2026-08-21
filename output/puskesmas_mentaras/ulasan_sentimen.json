@@ -1,17 +1,34 @@
 {
+  "key": "puskesmas_mentaras",
   "kategori": "Kesehatan",
+  "sub_kategori": "BPJS Kesehatan",
   "tempat": "Puskesmas Mentaras",
-  "rating": 4,
-  "total_ulasan": 18,
-  "positif": 12,
-  "netral": 1,
+  "rating": 4.1,
+  "total_ulasan": 17,
+  "positif": 10,
+  "netral": 2,
   "negatif": 5,
-  "persen_positif": 66.7,
-  "persen_netral": 5.6,
-  "persen_negatif": 27.8,
+  "persen_positif": 58.8,
+  "persen_netral": 11.8,
+  "persen_negatif": 29.4,
+  "latitude": -6.9752571,
+  "longitude": 112.4566177,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
+      "Nama Reviewer": "Enik Fitriyah",
+      "Bintang": 5,
+      "Tanggal": "2026-08-20T04:09:04.879Z",
+      "Ulasan": "Petugas membantu pindah faskes",
+      "teks_final": "petugas membantu pindah faskes",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9975
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "handy Wiratman",
       "Bintang": 5,
       "Tanggal": "2026-07-15T04:25:53.714Z",
@@ -23,6 +40,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Kaylisthaa",
       "Bintang": 5,
       "Tanggal": "2026-07-06T03:00:48.487Z",
@@ -34,6 +52,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Jas Ri",
       "Bintang": 5,
       "Tanggal": "2026-06-26T01:21:23.980Z",
@@ -45,6 +64,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Aldi Auliyak",
       "Bintang": 1,
       "Tanggal": "2026-06-25T04:12:44.986Z",
@@ -56,6 +76,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Joko Satriyo",
       "Bintang": 5,
       "Tanggal": "2025-12-29T13:36:30.920Z",
@@ -67,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Adel Yabtija",
       "Bintang": 5,
       "Tanggal": "2025-12-23T02:39:56.621Z",
@@ -78,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Harti Ser",
       "Bintang": 5,
       "Tanggal": "2025-12-02T02:00:03.638Z",
@@ -89,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "wonderkids edutourism",
       "Bintang": 5,
       "Tanggal": "2025-10-23T06:15:35.389Z",
@@ -100,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Mas Vero",
       "Bintang": 5,
       "Tanggal": "2025-10-23T06:13:08.709Z",
@@ -111,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "andi maulana",
       "Bintang": 5,
       "Tanggal": "2025-10-23T06:12:30.350Z",
@@ -122,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "basthomi arbie",
       "Bintang": 5,
       "Tanggal": "2025-10-23T06:11:38.497Z",
@@ -133,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "nurma ma",
       "Bintang": 1,
       "Tanggal": "2025-10-04T04:26:27.372Z",
@@ -144,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Roy htl",
       "Bintang": 1,
       "Tanggal": "2025-10-04T04:19:07.526Z",
@@ -155,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "Sani Vucaron",
       "Bintang": 1,
       "Tanggal": "2025-08-28T01:40:19.909Z",
@@ -166,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "mieayamkuah M",
       "Bintang": 1,
       "Tanggal": "2025-07-13T12:12:53.232Z",
@@ -177,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "BPJS Kesehatan",
       "Nama Reviewer": "mbah gondrong",
       "Bintang": 5,
       "Tanggal": "2023-05-23T06:49:24.609Z",
@@ -185,28 +217,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.9958
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "asroh ahmad",
-      "Bintang": 5,
-      "Tanggal": "2023-03-08T04:30:18.413Z",
-      "Ulasan": "Terima kasih petugasnya ramah-ramah..",
-      "teks_final": "terima kasih petugasnya ramah ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.991
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "jihad Akbar",
-      "Bintang": 5,
-      "Tanggal": "2023-01-14T04:05:02.558Z",
-      "Ulasan": "Terimakasih atas pelayanannya, dan konseling kesehatannya, semoga tetap memberikan pelayanan terbaik, maju dan jaya selaluu",
-      "teks_final": "terimakasih atas pelayanannya konseling kesehatannya semoga tetap memberikan pelayanan terbaik maju jaya selaluu",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9765
     }
   ]
 }

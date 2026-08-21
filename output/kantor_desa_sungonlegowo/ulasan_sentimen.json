@@ -1,0 +1,42 @@
+{
+  "key": "kantor_desa_sungonlegowo",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Sungonlegowo",
+  "rating": 4.8,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.0411117,
+  "longitude": 112.5915314,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Nur Arif",
+      "Bintang": 5,
+      "Tanggal": "2018-04-07T14:41:43.662Z",
+      "Ulasan": "Jembatan urusan warga dengan pemerintah",
+      "teks_final": "jembatan urusan warga pemerintah",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.6894
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Karibon Arif",
+      "Bintang": 5,
+      "Tanggal": "2018-02-12T08:05:52.566Z",
+      "Ulasan": "Sangat bagus dan sangat berkesan",
+      "teks_final": "bagus berkesan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    }
+  ]
+}

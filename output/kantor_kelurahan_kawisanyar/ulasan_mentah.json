@@ -2,6 +2,7 @@
   "title": "Kantor Kelurahan Kawisanyar",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor",
   "address": "Jl. Sunan Giri No.59, Kesemen, Ngipik, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61121, Indonesia",
@@ -47,7 +48,7 @@
     "Street View & 360°",
     "Video"
   ],
-  "scrapedAt": "2026-08-06T14:12:19.845Z",
+  "scrapedAt": "2026-08-20T23:57:45.892Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -59,10 +60,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "08.00 to 15.00"
-    },
     {
       "day": "Jumat",
       "hours": "08.00 to 15.00"
@@ -86,8 +83,13 @@
     {
       "day": "Rabu",
       "hours": "08.00 to 15.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "08.00 to 15.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -97,27 +99,27 @@
     },
     {
       "category": "Orang lain juga menelusuri",
+      "title": "Kantor Kelurahan Ngargosari",
+      "reviewsCount": 3,
+      "totalScore": 3.7
+    },
+    {
+      "category": "Orang lain juga menelusuri",
       "title": "Kantor Kelurahan Ngipik",
       "reviewsCount": 6,
       "totalScore": 4.7
     },
     {
       "category": "Orang lain juga menelusuri",
-      "title": "Kantor Kelurahan Sidokumpul",
-      "reviewsCount": 8,
-      "totalScore": 3.8
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "kantor Kelurahan Singosari",
-      "reviewsCount": 5,
-      "totalScore": 4.6
-    },
-    {
-      "category": "Orang lain juga menelusuri",
       "title": "Kantor Kelurahan Karangturi",
       "reviewsCount": 4,
       "totalScore": 4.3
+    },
+    {
+      "category": "Orang lain juga menelusuri",
+      "title": "Kantor Kelurahan Pekauman",
+      "reviewsCount": 3,
+      "totalScore": 4.7
     }
   ],
   "placesTags": [],
@@ -129,8 +131,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHD-JRUrjsUNnahIzRfi-Hp6SFpiEWjALTNOnOGxBvGBPmGzttd7NmSmqDi_baYFof8BlH8skfGFMc6ezUgYrvyqP1Vdw2lWgdwQJYQ50p40YahZ0SHJqinV_6odVCzebRD6ACa2zpV4lIr00-oRIefQ_l7VsMcWnFsnnH1qljsDcpd2mRi0au4t2t2aXCHQiMG9w=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhF2PbBCFGagOfCqOhiQC-v2xly4QljIiF1WOr0YouJ_-BhxJ_z2WtnC4MhLyqmVLjfJq5pUvmpo1w3ANwi_3xIguhCEzYSdZ7troOoCgPFPiV5Wj7rmBw27CsPlZlJsDWeTYgktAD3k4YA3DTIVONivvajg4ZvyuiPpXyG1QBmixNG8hvXVTN1toC7yQzPtHjswag=w408-h306-k-no",
   "kgmid": "/g/1pzr_qcgz",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -172,7 +175,7 @@
       "reviewerId": "107380667759339929305",
       "reviewerUrl": "https://www.google.com/maps/contrib/107380667759339929305?hl=id",
       "name": "yudi oke",
-      "reviewerNumberOfReviews": 4305,
+      "reviewerNumberOfReviews": 4303,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbI5AZd1uiDolc7DsbMW7-0BcmDmY3yhxeLBRcuOss57W__lrhng=s1920-c-rp-mo-br100",
       "text": "Kantor Kelurahan Kawisanyar.",
@@ -196,5 +199,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Kelurahan/Desa",
   "kategori": "Pemerintahan"
 }

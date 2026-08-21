@@ -1,0 +1,42 @@
+{
+  "key": "kantor_desa_padeg",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Padeg",
+  "rating": 4.4,
+  "total_ulasan": 2,
+  "positif": 2,
+  "netral": 0,
+  "negatif": 0,
+  "persen_positif": 100.0,
+  "persen_netral": 0.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.1884258,
+  "longitude": 112.5537021,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Jainul Ansori",
+      "Bintang": 5,
+      "Tanggal": "2018-09-11T06:50:22.000Z",
+      "Ulasan": "Semakin bagus setelah d renovasi kental dg kebudayaan adat jawa",
+      "teks_final": "semakin bagus renovasi kental kebudayaan adat jawa",
+      "topik": "Infrastruktur",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Rifky1982",
+      "Bintang": 5,
+      "Tanggal": "2018-01-28T05:53:45.428Z",
+      "Ulasan": "Bagus buat istirahat sejenak...",
+      "teks_final": "bagus buat istirahat sejenak",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9867
+    }
+  ]
+}

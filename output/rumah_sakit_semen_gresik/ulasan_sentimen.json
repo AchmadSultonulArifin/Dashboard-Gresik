@@ -1,9 +1,11 @@
 {
+  "key": "rumah_sakit_semen_gresik",
   "kategori": "Kesehatan",
+  "sub_kategori": "Rumah Sakit",
   "tempat": "Rumah Sakit Semen Gresik",
   "rating": 4.8,
-  "total_ulasan": 6,
-  "positif": 6,
+  "total_ulasan": 4,
+  "positif": 4,
   "netral": 0,
   "negatif": 0,
   "persen_positif": 100.0,
@@ -14,69 +16,51 @@
   "ulasan": [
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Yuyun Mazidah",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Sonia Ramadhani",
       "Bintang": 5,
-      "Tanggal": "2026-08-06T07:35:49.188Z",
-      "Ulasan": "Poli dalam suster ana ramah bgt",
-      "teks_final": "poli suster ana ramah banget",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9958
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "afandi Yuni",
-      "Bintang": 5,
-      "Tanggal": "2026-08-06T07:05:37.159Z",
-      "Ulasan": "Pelayanan baik sekali.perawatnya ramah ramah.lingkungan juga bersih .nyaman banget.",
-      "teks_final": "pelayanan baik perawatnya ramah ramah lingkungan bersih nyaman banget",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9974
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Heru Kuswantoro",
-      "Bintang": 5,
-      "Tanggal": "2026-08-06T06:37:30.835Z",
-      "Ulasan": "Alhamdulillah pelayanan di RS Semen Gresik terlayani dg cepat & tepat, mulai pendaftaran sampai ke Poli Penyakit Dalam, makasih utk semua pegawainya terutama ibu Ana",
-      "teks_final": "alhamdulillah pelayanan rumah sakit semen gresik terlayani cepat tepat mulai pendaftaran sampai poli penyakit makasih semua pegawainya terutama ibu ana",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9706
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Isa Ngaisah",
-      "Bintang": 5,
-      "Tanggal": "2026-08-06T06:37:06.573Z",
-      "Ulasan": "Top bgt",
-      "teks_final": "top banget",
+      "Tanggal": "2026-08-20T04:25:42.236Z",
+      "Ulasan": "good services",
+      "teks_final": "good services",
       "topik": "Lainnya",
       "sentimen": "Positif",
-      "sentimen_score": 0.9975
+      "sentimen_score": 0.9886
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Carissa Angelia Indah Putri",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Debi Kurniawan",
       "Bintang": 5,
-      "Tanggal": "2026-08-05T03:02:48.572Z",
-      "Ulasan": "pelayanannya ramah",
-      "teks_final": "pelayanannya ramah",
+      "Tanggal": "2026-08-20T01:55:23.451Z",
+      "Ulasan": "RS dengan pelayanan yg sangat baik.. Senang berobat ke RS semen gresik..",
+      "teks_final": "rumah sakit pelayanan baik senang berobat rumah sakit semen gresik",
       "topik": "Pelayanan",
       "sentimen": "Positif",
-      "sentimen_score": 0.9968
+      "sentimen_score": 0.986
     },
     {
       "Kategori": "Kesehatan",
-      "Nama Reviewer": "Annisa 2",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "TheLegends Gaming",
       "Bintang": 5,
-      "Tanggal": "2026-08-05T03:01:24.127Z",
-      "Ulasan": "Pelayanan baik sekali, Stafnya ramah dan informatif",
-      "teks_final": "pelayanan baik stafnya ramah informatif",
+      "Tanggal": "2026-08-19T03:01:15.679Z",
+      "Ulasan": "Semua tenaga medisnya sangat berpengalaman dan kompeten. Para perawat dan dokter sanagat ramah, informatif, dan sabar. Ruangannya jg bersih. Sehingga pasien merasa nyaman dan aman. Terima kasih untuk pelayanan yang diberikan. Memberikan kesan yang baik untuk kami sebagai pasien",
+      "teks_final": "semua tenaga medisnya berpengalaman kompeten para perawat dokter sanagat ramah informatif sabar ruangannya bersih sehingga pasien merasa nyaman aman terima kasih pelayanan diberikan memberikan kesan baik sebagai pasien",
       "topik": "Pelayanan",
       "sentimen": "Positif",
-      "sentimen_score": 0.9967
+      "sentimen_score": 0.9946
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Rumah Sakit",
+      "Nama Reviewer": "Wahyu Aji setyo",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T02:58:41.105Z",
+      "Ulasan": "Menurut pengalaman saya RS. Semen Gresik ini pelayanannya sangat memuaskan, perawatnya ramah², dokternya juga profesional. 2x ibu saya opname di RS ini kalau masa pulang selalu diantar sama perawatnya naik kursi roda dan ditungguin hingga mobil datang menjemput. Hingga saat ini juga masih kontrol di RS ini dan pelayanannya juga selalu memuaskan, apa yang tidak dimengerti pasien dijelaskan oleh perawatnya dengan baik. Begitupun di bagian apotiknya juga selalu sabar dan ramah dalam melayani resep, setelah memberikan obat apoteker selalu mendo'akan pasien semoga lekas sembuh. Intinya dari semua bagian di RS ini pelayanannya benar-benar memuaskan",
+      "teks_final": "menurut pengalaman rumah sakit semen gresik pelayanannya memuaskan perawatnya ramah dokternya profesional 2x ibu opname rumah sakit masa pulang selalu diantar sama perawatnya naik kursi roda ditungguin hingga mobil datang menjemput hingga kontrol rumah sakit pelayanannya selalu memuaskan apa dimengerti pasien dijelaskan perawatnya baik begitupun bagian apotiknya selalu sabar ramah melayani resep memberikan obat apoteker selalu mendo pasien semoga lekas sembuh intinya semua bagian rumah sakit pelayanannya benar benar memuaskan",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9906
     }
   ]
 }

@@ -1,19 +1,118 @@
 {
+  "key": "klinik_mabarrot_hasyimiyah_nu_manyar",
   "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
   "tempat": "Klinik Mabarrot Hasyimiyah NU Manyar",
   "rating": 4.7,
   "total_ulasan": 30,
-  "positif": 28,
-  "netral": 0,
+  "positif": 26,
+  "netral": 2,
   "negatif": 2,
-  "persen_positif": 93.3,
-  "persen_netral": 0.0,
+  "persen_positif": 86.7,
+  "persen_netral": 6.7,
   "persen_negatif": 6.7,
   "latitude": -7.1206815,
   "longitude": 112.6025509,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Cholisotun Nafsiyah",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T03:25:04.790Z",
+      "Ulasan": "Alhamdulillah, pelayananya sangat bagus",
+      "teks_final": "alhamdulillah pelayananya bagus",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9965
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Laila Sari",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T02:41:10.271Z",
+      "Ulasan": "Bagus",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Rasya Ganteng",
+      "Bintang": 5,
+      "Tanggal": "2026-08-15T03:32:09.128Z",
+      "Ulasan": "Pelayanannya baik, dokternya juga ramah dan cantik. Kebetulan sama dokter kamelia orgnya baik, friendly juga",
+      "teks_final": "pelayanannya baik dokternya ramah cantik kebetulan sama dokter kamelia orgnya baik friendly",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Dyah Ahmad",
+      "Bintang": 5,
+      "Tanggal": "2026-08-14T03:17:47.892Z",
+      "Ulasan": "Pindah faskes disini cocok sama obatnya dan pelayanannya, dibantu SM mas petugasnya jg diajari cara daftar online nya",
+      "teks_final": "pindah faskes disini cocok sama obatnya pelayanannya dibantu sama mas petugasnya diajari cara daftar online",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.7465
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "fauziyah faza",
+      "Bintang": 5,
+      "Tanggal": "2026-08-14T02:17:52.906Z",
+      "Ulasan": "Disini ada layanan vaksin internasional juga, sekeluarga vaksin disini krn dekat dari rumah dan pelayanannya jg satset dan udah dapat free obat setelah vaksin",
+      "teks_final": "disini layanan vaksin internasional sekeluarga vaksin disini dekat rumah pelayanannya satset udah free obat vaksin",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5542
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Didik 86",
+      "Bintang": 3,
+      "Tanggal": "2026-08-14T01:00:18.006Z",
+      "Ulasan": "Banyak yg perlu di evaluasi, terutama pelayanan🙏🙏🙏",
+      "teks_final": "banyak perlu evaluasi terutama pelayanan",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.4636
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Nuruddin Ok",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T02:21:20.012Z",
+      "Ulasan": "Pelayanannya josjis, tanggap, dan pindah putuskan pindah faskes disini",
+      "teks_final": "pelayanannya josjis tanggap pindah putuskan pindah faskes disini",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.5162
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Bunga Nilam Palasari",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T01:51:16.085Z",
+      "Ulasan": "pelayanannya baik dan sarana prasarana juga memadai",
+      "teks_final": "pelayanannya baik sarana prasarana memadai",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9702
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Adel Raa",
       "Bintang": 1,
       "Tanggal": "2026-07-23T11:55:58.994Z",
@@ -25,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "zalita food",
       "Bintang": 5,
       "Tanggal": "2026-07-08T02:28:18.937Z",
@@ -36,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Raden Siahaan",
       "Bintang": 5,
       "Tanggal": "2026-07-07T04:28:58.142Z",
@@ -47,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Fita Wulandari",
       "Bintang": 5,
       "Tanggal": "2026-07-03T03:24:50.873Z",
@@ -58,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "novi anti",
       "Bintang": 5,
       "Tanggal": "2026-07-01T06:17:15.078Z",
@@ -69,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Nurul Khasanah",
       "Bintang": 5,
       "Tanggal": "2026-06-29T03:23:09.373Z",
@@ -80,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Siti Rukhoiyah",
       "Bintang": 5,
       "Tanggal": "2026-06-27T05:09:40.833Z",
@@ -91,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Aris Syaifullah",
       "Bintang": 5,
       "Tanggal": "2026-06-26T02:04:18.320Z",
@@ -102,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Indra rahmawan",
       "Bintang": 5,
       "Tanggal": "2026-06-23T02:13:25.321Z",
@@ -113,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Sisil Safa",
       "Bintang": 5,
       "Tanggal": "2026-06-19T03:50:58.926Z",
@@ -124,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Dini Andini",
       "Bintang": 5,
       "Tanggal": "2026-06-19T03:27:24.981Z",
@@ -135,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Sutrisno Sutrisno",
       "Bintang": 5,
       "Tanggal": "2026-06-15T02:26:40.654Z",
@@ -146,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Ahmad Kanzul Fikri",
       "Bintang": 5,
       "Tanggal": "2026-06-15T01:57:30.260Z",
@@ -157,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "ulifatur rosyidah",
       "Bintang": 5,
       "Tanggal": "2026-06-13T02:54:51.053Z",
@@ -168,6 +280,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Adira Raveena Taleetha 87",
       "Bintang": 5,
       "Tanggal": "2026-06-08T02:23:52.761Z",
@@ -179,6 +292,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Muhammad Alfin",
       "Bintang": 5,
       "Tanggal": "2026-06-08T02:17:29.514Z",
@@ -190,6 +304,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Digokecil Kecil",
       "Bintang": 5,
       "Tanggal": "2026-06-08T02:07:57.659Z",
@@ -201,6 +316,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Haris Vanscosta",
       "Bintang": 5,
       "Tanggal": "2026-06-04T02:55:27.833Z",
@@ -212,6 +328,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "apel nanas",
       "Bintang": 5,
       "Tanggal": "2026-05-25T07:07:00.913Z",
@@ -223,6 +340,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "MOH. HADI PURWANTO",
       "Bintang": 5,
       "Tanggal": "2026-05-18T02:32:11.321Z",
@@ -234,6 +352,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Chiko Jeriko",
       "Bintang": 1,
       "Tanggal": "2026-05-13T05:23:14.030Z",
@@ -245,6 +364,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "ahmad aaron",
       "Bintang": 5,
       "Tanggal": "2026-05-12T03:39:40.922Z",
@@ -253,94 +373,6 @@
       "topik": "Pelayanan",
       "sentimen": "Positif",
       "sentimen_score": 0.8345
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Heri Gresik",
-      "Bintang": 5,
-      "Tanggal": "2026-05-09T02:39:06.794Z",
-      "Ulasan": "Seneng banget berobat disini. Pelayanannya dari resepsionis, dokter dan bagian resep obatnya ramah. Baru pindah faskes 2 bulanan dan sdh berobat 2x kesini. Pertama poli umum dengan Dr. Anggi. Kedua poli Gigi dengan dokter Maya. Dokternya muda2 dan welcome buat Konsul kasih solusi. KLO bisa sya berobatnya kesini langganan dg Dr Anggi dan Dokter Maya aja 😄  Tp sedikit masukan, air bak kamar mandi tlg sering di bersihkan. Krn banyak jentik nyamuknya🙏  Over all memuaskan pelayanannya",
-      "teks_final": "seneng banget berobat disini pelayanannya resepsionis dokter bagian resep obatnya ramah pindah faskes bulanan berobat 2x kesini pertama poli umum anggi kedua poli gigi dokter maya dokternya muda2 welcome buat konsul kasih solusi sya berobatnya kesini langganan anggi dokter maya aja sedikit masukan air bak kamar mandi tlg sering bersihkan banyak jentik nyamuknya over all memuaskan pelayanannya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.995
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Dwi Fitri Maulidiyah",
-      "Bintang": 5,
-      "Tanggal": "2026-04-29T05:05:34.021Z",
-      "Ulasan": "pelayananny bagus dan obatny cocok, jadi memutuskan untuk pindah faskes disini dan dibantu sama mas petugasnya",
-      "teks_final": "pelayananny bagus obatny cocok jadi memutuskan pindah faskes disini dibantu sama mas petugasnya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9916
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Ali Muhasin",
-      "Bintang": 5,
-      "Tanggal": "2026-04-28T03:00:54.339Z",
-      "Ulasan": "Pelayanannya bagus dan minta rujukan ke KMU juga tidak dipersulit, kliniknya buka 24 jam dan ada rawat inapnya",
-      "teks_final": "pelayanannya bagus minta rujukan kmu dipersulit kliniknya buka jam rawat inapnya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.5154
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Titik nadawiyah",
-      "Bintang": 5,
-      "Tanggal": "2026-04-27T04:42:12.281Z",
-      "Ulasan": "Pelayanannya mantap dan pindah faskes disini dibantu sm mas wahyu, kliniknya bersih dan ber ac",
-      "teks_final": "pelayanannya bagus pindah faskes disini dibantu sama mas wahyu kliniknya bersih ber ac",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.996
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "ubaidillah ar",
-      "Bintang": 5,
-      "Tanggal": "2026-04-23T02:17:26.779Z",
-      "Ulasan": "Pindah faskes disini karena cocok obatnya juga pelayanannya. Dokternya ramah, paramedisnya juga tanggap",
-      "teks_final": "pindah faskes disini cocok obatnya pelayanannya dokternya ramah paramedisnya tanggap",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.995
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Mohammad Ubaidillah",
-      "Bintang": 5,
-      "Tanggal": "2026-04-23T02:15:42.307Z",
-      "Ulasan": "Layanannya baik dan tanggap, dokternya juga ramah. Kliniknya juga bersih dan ada rawat inapnya",
-      "teks_final": "layanannya baik tanggap dokternya ramah kliniknya bersih rawat inapnya",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9954
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Khoiria Khoiria",
-      "Bintang": 5,
-      "Tanggal": "2026-04-20T04:01:48.767Z",
-      "Ulasan": "Pelayanannya tanggap, kebetulan ayah muntaber terus dibawa kesini dan dokter menyarankan untuk rawat inap karena kondisi sudah dehidrasi dan medisnya juga baik serta ramah",
-      "teks_final": "pelayanannya tanggap kebetulan ayah muntaber terus dibawa kesini dokter menyarankan rawat inap kondisi dehidrasi medisnya baik serta ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9766
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Nailus Surur",
-      "Bintang": 5,
-      "Tanggal": "2026-04-14T09:06:31.763Z",
-      "Ulasan": "Pelayanannya ramah dan memuaskan, selalu memudahkan pasien buat berobat dan penanganannya juga tanggap, best service banget si. Apalagi disini juga ada rawat inapnya dan BPJS nya juga pelayanan 24 jam",
-      "teks_final": "pelayanannya ramah memuaskan selalu memudahkan pasien buat berobat penanganannya tanggap best service banget si apalagi disini rawat inapnya bpjs pelayanan jam",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9974
     }
   ]
 }

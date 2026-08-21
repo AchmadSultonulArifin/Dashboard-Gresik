@@ -2,6 +2,7 @@
   "title": "Puskesmas Sukomulyo",
   "subTitle": null,
   "description": null,
+  "ownerDescription": "Puskesmas Rawat Jalan, dilengkapi pelayanan UGD dan persalinan 24 jam.",
   "price": null,
   "categoryName": "Pusat Kesehatan Masyarakat",
   "address": "Jl. Kalimantan No.104, Wonorejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",
@@ -36,9 +37,9 @@
   ],
   "fid": "0x2e77fe2628e6a485:0xb02ba492e4dca0a",
   "cid": "793401307842857482",
-  "reviewsCount": 434,
+  "reviewsCount": 435,
   "reviewsDistribution": {
-    "oneStar": 54,
+    "oneStar": 55,
     "twoStar": 6,
     "threeStar": 11,
     "fourStar": 21,
@@ -52,7 +53,7 @@
     "Oleh pemilik",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-08-06T13:00:02.898Z",
+  "scrapedAt": "2026-08-20T21:46:52.474Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -64,10 +65,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Kamis",
-      "hours": "07.00 to 11.00, 18.00 to 20.00"
-    },
     {
       "day": "Jumat",
       "hours": "07.00 to 10.00, 18.00 to 20.00"
@@ -91,31 +88,36 @@
     {
       "day": "Rabu",
       "hours": "07.00 to 11.00, 18.00 to 20.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "07.00 to 11.00, 18.00 to 20.00"
     }
   ],
+  "wasOpenAtScrapeTime": false,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Manyar",
-      "reviewsCount": 299,
+      "reviewsCount": 303,
       "totalScore": 4.6
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Cerme",
-      "reviewsCount": 369,
+      "reviewsCount": 378,
       "totalScore": 4.1
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Pembantu Pongangan",
-      "reviewsCount": 4,
+      "reviewsCount": 5,
       "totalScore": 5
     },
     {
       "category": "Orang lain juga menelusuri",
       "title": "Puskesmas Nelayan",
-      "reviewsCount": 115,
+      "reviewsCount": 116,
       "totalScore": 3.9
     },
     {
@@ -153,12 +155,12 @@
       "count": 11
     },
     {
-      "title": "fasilitas",
-      "count": 10
-    },
-    {
       "title": "sakit",
       "count": 9
+    },
+    {
+      "title": "ruang tunggu",
+      "count": 7
     },
     {
       "title": "TK",
@@ -213,7 +215,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmP2uh1pdl_b_Bc3EYVvlM4v4inclBQQ8GYjsmq6Ndgs5BkrYA_vG-GBvI_YWcWltyOs8kmRaPjNuGm_IVAN5iA297gaL0CoD9tUUmhYcmDR6pbJuaqaekwVg_RN82Z7tDWZinQs=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmNy5qOcxcj4L1oLZxCE7fIwKYUK1d9bet5IUBT3XkOIJ2EzonLy7SCvQVNb4blfvHF-S2PzlXtzLEjbtpemBNxszUN-n7-yQ3NGwP86RMB611oFFQqoqWaNX2fbkCnUY9GszEOd=k-no",
         "postDate": "4 tahun lalu"
       }
     ]
@@ -224,8 +226,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDZoJ-fekXaZ79YtSb5ukJgCoAiEEd8WvEMK20G1BDK5SiBDtUrw837HBqzDjOZMM4sTGiBlyXF-RYD97L9uK-TxfHXWwb4qXlL9RobWbnth3vJWR6bwr_mgP-2IYvKabmWDH7aS0AKKIO=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkTfQdvyuWf1nx1hcr-_aB87_FsGLzVkGp9aFil74wOfJv1QI2mJBGDshmaqVCkGKKw01_vUcqIMZUFb484qw-5uUITNQmkwLEEk_yDSzA7yCLAtpPLVbcIYUfUKDOpJriydogE88vENAj7=w408-h306-k-no",
   "kgmid": "/g/1pzpm733r",
+  "businessProfileId": "4625090382311430020",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -245,6 +248,32 @@
   ],
   "imageUrls": [],
   "reviews": [
+    {
+      "reviewerId": "114944799179225747495",
+      "reviewerUrl": "https://www.google.com/maps/contrib/114944799179225747495?hl=id",
+      "name": "Tunas Muda",
+      "reviewerNumberOfReviews": 0,
+      "isLocalGuide": false,
+      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKMZCMwoyiioTnlbWeMxTmRipnaJJKkHNf9QiSUrlq8ba0dNQ=s1920-c-rp-mo-br100",
+      "text": null,
+      "textTranslated": null,
+      "publishAt": "2 hari lalu",
+      "publishedAtDate": "2026-08-18T02:51:06.674Z",
+      "likesCount": 0,
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tGM2FqSlhZemhTTVhsUE4wbFdiV3RCU0MxT05WRRAB",
+      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGM2FqSlhZemhTTVhsUE4wbFdiV3RCU0MxT05WRRAB!2m1!1s0x0:0xb02ba492e4dca0a!3m1!1s2@1:CAIQACodChtycF9oOkF3ajJXYzhSMXlPN0lWbWtBSC1ONVE%7C%7C?hl=id",
+      "reviewOrigin": "Google",
+      "stars": 1,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": null,
+      "translatedLanguage": null
+    },
     {
       "reviewerId": "115860451917934057736",
       "reviewerUrl": "https://www.google.com/maps/contrib/115860451917934057736?hl=id",
@@ -431,12 +460,12 @@
       "reviewerId": "111396531806555390560",
       "reviewerUrl": "https://www.google.com/maps/contrib/111396531806555390560?hl=id",
       "name": "Yaumelani Wuryanturi",
-      "reviewerNumberOfReviews": 9,
+      "reviewerNumberOfReviews": 10,
       "isLocalGuide": false,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJUTbncCMCFWEg54em5seSnN1oqlyTjn4fzr63d3uGtPa_KCz4=s1920-c-rp-mo-br100",
       "text": "Pelayanan yang sangat baik dan ramah",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-13T10:57:30.927Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paSE0wTnVaRGxVUTJGVFRWWXRkWGRRUW1GT01FRRAB",
@@ -457,12 +486,12 @@
       "reviewerId": "108454517367058497568",
       "reviewerUrl": "https://www.google.com/maps/contrib/108454517367058497568?hl=id",
       "name": "Andi 26",
-      "reviewerNumberOfReviews": 171,
+      "reviewerNumberOfReviews": 172,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI4yImtRMzrGuScWlm44D14ditlAIfOBNiAlbzu2rwgGrswow=s1920-c-rp-mo-ba12-br100",
       "text": "Pelayanan udah nggak kayak dulu, udah lebih bagus, mungkin puskesmasnya aja yang perlu renovasi, atau paling nggak di cat, kayak suram banget.",
       "textTranslated": null,
-      "publishAt": "sebulan lalu",
+      "publishAt": "2 bulan lalu",
       "publishedAtDate": "2026-06-12T10:50:54.330Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xCR1RVdElOamhQVUVsd1pWWnFZbWxUVTJrMU9FRRAB",
@@ -488,7 +517,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUGf9CjBx-rPNF7QBuMqu0PFKJ6RgxjWPquSH8TpIDoUuISNfI=s1920-c-rp-mo-br100",
       "text": "Dokter dan pegawai harus belajar lagi terutama attitudenya, sekian terimakasih.",
       "textTranslated": null,
-      "publishAt": "2 bulan lalu",
+      "publishAt": "3 bulan lalu",
       "publishedAtDate": "2026-05-15T11:02:52.439Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21OclZVMWpkMnM0YTB3MlNYVk9jVWR6YzNkVU9IYxAB",
@@ -566,7 +595,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUhmABQz0uj4qrSsRp2jo8q0MW8m5cw9AK3A8CV88edphWaBgo=s1920-c-rp-mo-br100",
       "text": "Mungkin bisa lebih ramah lagi ya kepada pasien khususnya imunisasi. Buk bidan, namanya bawa anak pasti riweh. Sabar dikit gausah digupuh gupuh in. Dan jangan pilih kasih, senyum Bu senyum itu ibadah",
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-15T06:50:52.973Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pCQmIyZFZTa2RVUmxwNFRrNHRTbVJ4TTNkSU9FRRAB",
@@ -587,12 +616,12 @@
       "reviewerId": "104618601390244674293",
       "reviewerUrl": "https://www.google.com/maps/contrib/104618601390244674293?hl=id",
       "name": "Gagas Jagat Soekarto",
-      "reviewerNumberOfReviews": 236,
+      "reviewerNumberOfReviews": 238,
       "isLocalGuide": true,
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXyDm076aW__eFzeKmqhtWl4UQ9UAMPr2Ks3rEGv-o5XPdedGX1=s1920-c-rp-mo-ba12-br100",
       "text": "Pagi-pagi sudah ramai di sini.\nPetugas nya ramah dan memberikan informasi dengan jelas.\nTempatnya bersih dan rapi, tersedia petunjuk jelas untuk ruangan-ruangan poli nya.\nParkir diatur dengan begitu baik.",
       "textTranslated": null,
-      "publishAt": "3 bulan lalu",
+      "publishAt": "4 bulan lalu",
       "publishedAtDate": "2026-04-14T09:55:59.204Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sV1ZWSkdlbUpPZWxoR2EwTlpaRmR5WmxkWlMzYxAB",
@@ -603,8 +632,8 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOWMbA53X8okbFZISoTo29XkchrBzwWga1MuwHUxRtVFjlY1BMwA6iV3YVZEafuP25-ejUNyTyy_daEuS9mlfSh2fkuwS0YYTrSO_ghorQPaZSmO75XxylVRloKJKfjnw4_-wUVoXSGiX0j=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNfp1iBQPUCKP5cOiCtfI3_xj2PTWBE4_caxA6D1KBttuL1XNbL48QZvrhxNlTBAoPunj1Xg_Zex2Dmdh51IFSE3aS3bntR47i65Iay1eo08H2tBikiT6_Nm7kOzxN4lAHiEOZdle1-n-kQ=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmN0Eb8YAbFOWJZGi3u2_HcHCVaPVrq5yWb6RermUXFQm0bQ4ZHe5IIWo_IZhulI-yxGg7ZEVy1Q3q--eFCLVnAKEU2fQRWvX89ccOrIfCjfFe6ZTLOuB88Icsj748bQFnJNzRnhRIeAJAjV=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOvrh8SK592YGgbNKeJARHm8yTZQxc9cNt-8DALu7Jga6-e-0T9z2aHiwWEnPaDWyNfllvrizIjLzK1_y-nkKrM67arF4WLIfUY6o2z0DiNKqFSgOZjnugHRBJK4XaoP6rWhjrIy4MD9yaT=k-no"
       ],
       "reviewContext": {},
       "reviewDetailedRating": {},
@@ -699,7 +728,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV4f2F4-blwt6HBJlsregdxDHgA5Q87S2vKaEllxtf0G4TcQT_a=s1920-c-rp-mo-ba12-br100",
       "text": "Untuk kritiknya tolong disertakan wajah petugasnya ya bisa lewat foto atau rekaman lalu di dijelaskan beserta kronologi\n\nTerimakasih",
       "textTranslated": null,
-      "publishAt": "6 bulan lalu",
+      "publishAt": "7 bulan lalu",
       "publishedAtDate": "2026-01-20T18:37:50.378Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sd1dqSjFNSGxGY25sRlVFTlBVREJqWVRBNFFtYxAB",
@@ -751,7 +780,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVsYw-0u_WvorNcn8iivTnmW6kzw6cWpo9DeKAe7_JvwkcgekpN=s1920-c-rp-mo-br100",
       "text": "Pelayanan baik , sudah periksa ke dokter spesialis panas gk turun.. langsung ganti ke faskes 1 ke pkm sukomulyo besoknya panasnya turun .. dokter dan pegawainya ramah 🥰",
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-20T07:51:11.769Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tkSWNtSlZjMXBtWXpST09IaFFaamhxU2tSNVkyYxAB",
@@ -777,7 +806,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX1oGH3xU1t4oEhUcKuEvQK1Ry3HCBrdbeb15Bcub9xSAwOplk=s1920-c-rp-mo-br100",
       "text": "Pelayanan laboratorium  lengkap untuk ukuran puskesmas\nAda pemeriksaan narkoba juga\nSip gak usah jauh jauj",
       "textTranslated": null,
-      "publishAt": "Diedit 7 bulan lalu",
+      "publishAt": "Diedit 8 bulan lalu",
       "publishedAtDate": "2025-12-20T07:22:52.787Z",
       "likesCount": 2,
       "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURXek1YazVRRRAB",
@@ -803,7 +832,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIH6-C1F7bhNAzkm0O1SsuAqGcKWuye6HvDus0bPFUgSDfB_4I=s1920-c-rp-mo-br100",
       "text": null,
       "textTranslated": null,
-      "publishAt": "7 bulan lalu",
+      "publishAt": "8 bulan lalu",
       "publishedAtDate": "2025-12-20T06:57:39.409Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21KUWJrcG5NRVp1ZVdWVWRVVXdla3hmTjJ0NFZXYxAB",
@@ -933,7 +962,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJoVhvzqt1JX3IhySiHEKpYMWMSAowmdo8yeMhAL_RRSTVCww=s1920-c-rp-mo-br100",
       "text": "Tolong ya mbak pegawai puskesmas yg sudah merobohkan sepeda saya tadi tanpa rasa bersalah dan minta maaf , dimana attitude nyaaa?? Sampai soto saya yg ada di dalam jok Sampek jatuh semua kebawah, helm saya pecah kacanya, sepeda saya baret , saya gak minta ganti rugi setidaknya anda punya attitude untuk minta maaf bukan malah tukang parkir yg minta maaf. Kalau memang gak bisa ngeluarin sepeda itu minta tolong tukang parkir jangan malah melibatkan sepeda orang lain !",
       "textTranslated": null,
-      "publishAt": "8 bulan lalu",
+      "publishAt": "9 bulan lalu",
       "publishedAtDate": "2025-11-19T05:03:43.368Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT20wM1VVOTBkVmRwUkVWeFZteG1VMTlvY1RkSlNGRRAB",
@@ -959,7 +988,7 @@
       "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWJChjP3KTG_ER8ry1YD_mQnw2eSoiPxlY62G7Qi0IWEfGCbSSg=s1920-c-rp-mo-br100",
       "text": "Bidan dan dokter menjelaskan dengan baik",
       "textTranslated": null,
-      "publishAt": "8 bulan lalu",
+      "publishAt": "9 bulan lalu",
       "publishedAtDate": "2025-11-07T01:16:25.491Z",
       "likesCount": 0,
       "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21vMlpGUjBTRFJGVDJ0SU4ySjZUMkpEU2tkYWJVRRAB",
@@ -996,43 +1025,17 @@
       "responseFromOwnerDate": null,
       "responseFromOwnerText": null,
       "reviewImageUrls": [
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmORtStjH5LZr_UtLohB7ex27n5cUDNqgEtFQ374MexEa2h5zLRpVxPnsnjBpxNBS2eur0TFZYM1Kxx8VVqJsmri2w_8urT63WU1zpAQ0pB22zY29-I08K5w1vdAmx1vDgvbs74xwDzLn9Mo=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOFN5e48HAa5iX7c2-NtiFXPrYCGVAsmKoWmi-aoPec6_V2pvEeySBJhSsgMWwegct1p7f8Wf1B7hxwQ2ql0G5sat0novgI8Bjv1puQ0YKj2SW7vgjAPeHqORuYLU-fs4LUUT_6B2NuH3J-=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmN5RZQLG0o2vLDao-xPgppv5lpq0VJAuLijUxVU6S6i33OHQN5gDUXuf2e-IOav54ofkixdZ2NcU54Nx8KHdWYOVQeC2ElJaMmdMufco5QuBHDGPupXgGX2_HJVapDcPtwNmrNvfrFxvuwX=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOwyuUZEfxnRxsXpJTPzSD1XWeK1kSmyTrbsW5OOkESRzqYoT_NHE32eSjxE5gDSyhhTtGkFsmLbf0tQeofAFPjaHlbjC95mi1ogo_1IYZ1Wt3bmc89ZUG2rZGbvfOWOZ5ITgZ1YGtmRJpq=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmPRlw_r8isog4jrGhJToE1nX_WnXk0bFmI3bJUqqoijcRF9f_KuMPn7aUPGTVO-Tkj4BUSvoMd6I6mZM_nXf4WGsLT_PkW9R7YRkXZOfbbXtGdMV9xlM44U7-5xz25ZAnWdSAS1gE6Ns6I9=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOWUaA-xVDfrUpZ_c4VHLkKZsPdOuPuc4RQR9TEtbSqU0IZ-8UaS0OOEZWkO5z4pnrC2ebVKqksHo11iBJWuKwIPR8tz7Ccg3s4GN8zM7O5GvE8_nkS-DcNoHA5O3VBLhxfVpzrOeo4zRDu=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNqDthZHoBdvwf5peAo-XbrYJ0pdjTh1ptTzR_vxZfWyFqEkZW98bnBdOOM430WaR7lQW-N3W9rEV8UmtGfANh8sCecqHE8VJBfUu5CPIFFZuMQTxqZYY16m33Rtzp2Q1j9oSnOeovvTX6w=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOeMxIGKQglAbskDZsfE5LkIyqzURduK9odXiEfE7wbFEo4xsBRTePUh-qwr4Wu4ii-4C_qPvdJWGg1CCjPOogdtqeRWAnVbz1IlQhlmkpRtdOoDE4oUx2x5u2UdMsQfN69Y6bpOr3xHbJO=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmNkTKSCvRL400kUuxfmrg9Ns_vHoH0cLMcEtADNdHcYpRX-4ajYKMKi37VnGSHwvgluFOjrvlrQwg0fa1vSeRAHlZm6fgHwSN-A7vm9bHAsKrjAulpe3S8bffIDvi_jjqZMn3oxXchDgiqc=k-no",
-        "https://lh3.googleusercontent.com/grass-cs/ACvplmOnIOoQwhSlQzEP6UGsjUwvZD48UjzT761hwhqcGl6GI_IYWrnYS7KemUiiro9HYWr34kcBzzQWV4hevuL1FbCQuqx5-ppUAEql_LAHrOty0CCFUXavEKf5ZBN5sSTQfWSlUptHv3DvWPw=k-no"
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPaKvd1VAZflsf-2W_Dke33W9pHlEFN3OOo3RDq45S_g2kVJwizVXg0PWr4brLONH66i0uWl8yXF28__t5LHIWGVa1NkoFvmj9ZP46rHWqnR67DmkYBlNy7dN0Jg6I0eoQaI7tcaB1eieJ7=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMVByYrOFc7sVe57ZPwjo-K1UntKSkIYM1B8kOmMsGqHUfOb_db15uK8ldwFtUZWvn-4E_91Qdd4LVl7uTZG8aNmQvqCQjYm8CJQakBpYSyCP9rbuTQPuh5vuqyZbeoteOhTbiYI-W-RgEo=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPEuKGFDa1wYMzC6r66ngomYxg5zb0SjludDnISiToMnN8OFocCy68eH7yaOei_GraPVKNIVkIXjVY0KnDyC1P20EqGI35fp6wB3moXuZKRlhd-zl8fC-f2AkKrwbGVmdpr9dSkn7tF0EJr=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMIskhu9USoxKPhzV0b8PKeRMB2HgdQjtF4snh38522rKWYMNccUMkN144gvOq_E_Xu6WvPTFWPYmdVcb7oe8vGpjTTpq_GMdUwPC4mquRq19N9AgXY43o5TmfE5dKIilN5lKPNd_HJ3qd6=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMl4lCnjwMhWDlj5ed8i_JLK0SGDIiEi42Df1Qu0A4iFaTZKwO-tUD-tnd0OWvMG0Zh89SWhtINl_f-AgxqMuO8TLn3HDbo5-EQc7qXrVxZq1wOrDXHEc0atMdR-dB4JxPX2VV0TWVPLhSM=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmPq1pgVSeizOXG0TeepVQxJpp1zMjqE975hHTO_c6W1XSHI5W_YOo-la0HKOQ0f8DSPtNQyFko8pW7zMKXTfm1OhMAEsQBCOQkgbH5d0CSl74Q1JsQ-ClyLmQExssIk_6SGKI7wQTGt8440=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMFfUMKmj40rutDBb_2WTPo16FzadKVzM7HbgKEfz9zDDM92SV3o8nXTkEOViIRvcg-36MRlzXfFZRN5WyytQxRCwSLRO_amF7znRZbRPmUtejGFCUcH6YsHV-TFOs5QA-RzMGc8TiBR_Yv=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMcROJvaD82n0-X5LPvuzBamOL9vEFcFFOu74SRV65qtiLPcl3OhxT_tH9P9owFo5bkB2_km4JIhAttmzOtCCb55CHqPoomHjeWXi10vnyz23r7UsUEavRP98pN7Xm31-eRnh8SHmQpVKUv=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmOMQxvmfuiqsrgIRMw0xZ5_Td0aakDM7DfYB-dnwl1C1Y9H3BBrk8bJiwKAaTdaaTziqP1c-ZG3P2sxJyZ3DM0ZR0g25rhCF80VhCDiLvlDzAELIHd7ymDf-s8Jpo55tiQMbWpowfwzMt9v=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ACvplmMrWT_MpUTTh_5rtnAxNMv2lvoDaenHbCUPsAB3XGEykBPXe4JFzi_Ki92AUlvKFqvI4AvGTQqhyIgtoU-9-ejghLFpgR74GynEIWISGF1s1gRkZeBJQbstQzbvzC0KtezOhsVxq-Dwd2s=k-no"
       ],
-      "reviewContext": {},
-      "reviewDetailedRating": {},
-      "visitedIn": null,
-      "originalLanguage": "id",
-      "translatedLanguage": null
-    },
-    {
-      "reviewerId": "109850112994507286666",
-      "reviewerUrl": "https://www.google.com/maps/contrib/109850112994507286666?hl=id",
-      "name": "Ika Akhadian",
-      "reviewerNumberOfReviews": 17,
-      "isLocalGuide": true,
-      "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXrASUrdSVW03S3SuWaKd1Uq4EY1_Jd3pn3AHMo_sYsp4Pa7I8=s1920-c-rp-mo-ba12-br100",
-      "text": "Alhamdulillah pelayanan cepat dan sat set, petugas nya juga ramah. Makasih dr Inna 🥰",
-      "textTranslated": null,
-      "publishAt": "9 bulan lalu",
-      "publishedAtDate": "2025-10-24T10:18:24.692Z",
-      "likesCount": 0,
-      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psSVowVlBUR3A2VDNOclVtOTRPVzR0ZFRkQ01sRRAB",
-      "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2psSVowVlBUR3A2VDNOclVtOTRPVzR0ZFRkQ01sRRAB!2m1!1s0x0:0xb02ba492e4dca0a!3m1!1s2@1:CAIQACodChtycF9oOjlIZ0VPTGp6T3NrUm94OW4tdTdCMlE%7C%7C?hl=id",
-      "reviewOrigin": "Google",
-      "stars": 5,
-      "rating": null,
-      "responseFromOwnerDate": null,
-      "responseFromOwnerText": null,
-      "reviewImageUrls": [],
       "reviewContext": {},
       "reviewDetailedRating": {},
       "visitedIn": null,
@@ -1041,5 +1044,6 @@
     }
   ],
   "leadsEnrichment": [],
+  "sub_kategori": "Puskesmas",
   "kategori": "Kesehatan"
 }

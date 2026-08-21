@@ -1,0 +1,54 @@
+{
+  "key": "stikes_dan_akbid_delima_persada_gresik",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Apotek & Farmasi",
+  "tempat": "Stikes Dan Akbid Delima Persada Gresik",
+  "rating": 4.5,
+  "total_ulasan": 3,
+  "positif": 2,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 66.7,
+  "persen_netral": 33.3,
+  "persen_negatif": 0.0,
+  "latitude": -7.1637036,
+  "longitude": 112.6449605,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "INDOMY",
+      "Bintang": 5,
+      "Tanggal": "2025-07-09T14:40:43.999Z",
+      "Ulasan": "Kampus stikes telah diakuisisi oleh Universitas Muhammadiyah Gresik menjadi Fakultas Kesehatan. Terdapat 6 program studi diantaranya Kebidanan, keperawatan, kesehatan masyarakat, farmasi, gizi, dan Teknologi Laboratorium Medis.",
+      "teks_final": "kampus stikes telah diakuisisi universitas muhammadiyah gresik menjadi fakultas kesehatan terdapat program studi diantaranya kebidanan keperawatan kesehatan masyarakat farmasi gizi teknologi laboratorium medis",
+      "topik": "Kesehatan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.98
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Inayatul Ilahiyah",
+      "Bintang": 5,
+      "Tanggal": "2023-01-18T12:15:08.223Z",
+      "Ulasan": "Kampus kenangan",
+      "teks_final": "kampus kenangan",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9316
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Apotek & Farmasi",
+      "Nama Reviewer": "Hadi Purnomo",
+      "Bintang": 5,
+      "Tanggal": "2018-07-23T18:18:36.115Z",
+      "Ulasan": "sangat bagus",
+      "teks_final": "bagus",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9961
+    }
+  ]
+}

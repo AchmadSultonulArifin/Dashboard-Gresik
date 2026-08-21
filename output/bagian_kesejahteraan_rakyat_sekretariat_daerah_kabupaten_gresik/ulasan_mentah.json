@@ -2,6 +2,7 @@
   "title": "Bagian Kesejahteraan Rakyat Sekretariat Daerah Kabupaten Gresik",
   "subTitle": null,
   "description": null,
+  "ownerDescription": null,
   "price": null,
   "categoryName": "Kantor Pemerintahan Daerah",
   "address": "No.245-c, Jl. Dr. Wahidin Sudirohusodo, Kembangan, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61124, Indonesia",
@@ -35,7 +36,7 @@
   "reviewsCount": null,
   "imagesCount": 0,
   "imageCategories": [],
-  "scrapedAt": "2026-07-22T09:55:32.627Z",
+  "scrapedAt": "2026-08-21T00:32:49.294Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -47,47 +48,10 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [],
-  "peopleAlsoSearch": [
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Bagian Organisasi Sekretariat Daerah Kabupaten Gresik",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Bagian Pengadaan Barang/Jasa Sekretariat Daerah Kabupaten Gresik",
-      "reviewsCount": 6,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Bagian Hukum Sekretariat Daerah Kabupaten Gresik",
-      "reviewsCount": 7,
-      "totalScore": 5
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "PKK Pemberdayaan Kesejahteraan Keluarga",
-      "reviewsCount": 0,
-      "totalScore": 0
-    },
-    {
-      "category": "Orang lain juga menelusuri",
-      "title": "Kantor sekretariat PKK Kabupaten Gresik",
-      "reviewsCount": 0,
-      "totalScore": 0
-    }
-  ],
+  "wasOpenAtScrapeTime": null,
+  "peopleAlsoSearch": [],
   "placesTags": [],
   "reviewsTags": [],
-  "additionalInfo": {
-    "Fasilitas": [
-      {
-        "Toilet": true
-      }
-    ]
-  },
   "gasPrices": [],
   "url": "https://www.google.com/maps/search/?api=1&query=Bagian%20Kesejahteraan%20Rakyat%20Sekretariat%20Daerah%20Kabupaten%20Gresik&query_place_id=ChIJu8ZCVgD_dy4RFd90C8ydQrM",
   "searchPageUrl": "https://www.google.com/maps/search/Bagian%20Kesejahteraan%20Rakyat%20Sekretariat%20Daerah%20Kabupaten%20Gresik?hl=id",
@@ -97,6 +61,7 @@
   "isAdvertisement": false,
   "imageUrl": null,
   "kgmid": "/g/11w3g976h2",
+  "businessProfileId": null,
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -109,5 +74,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "Pemerintah Kabupaten",
   "kategori": "Pemerintahan"
 }

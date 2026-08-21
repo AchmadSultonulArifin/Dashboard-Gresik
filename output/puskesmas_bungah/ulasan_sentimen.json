@@ -1,19 +1,82 @@
 {
+  "key": "puskesmas_bungah",
   "kategori": "Kesehatan",
+  "sub_kategori": "Puskesmas",
   "tempat": "Puskesmas Bungah",
   "rating": 4.3,
-  "total_ulasan": 27,
-  "positif": 25,
-  "netral": 0,
+  "total_ulasan": 26,
+  "positif": 23,
+  "netral": 1,
   "negatif": 2,
-  "persen_positif": 92.6,
-  "persen_netral": 0.0,
-  "persen_negatif": 7.4,
+  "persen_positif": 88.5,
+  "persen_netral": 3.8,
+  "persen_negatif": 7.7,
   "latitude": -7.0552327,
   "longitude": 112.5759012,
   "ulasan": [
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Berlian Johan",
+      "Bintang": 5,
+      "Tanggal": "2026-08-19T03:53:20.914Z",
+      "Ulasan": "Poli lansia selama ini aman",
+      "teks_final": "poli lansia selama aman",
+      "topik": "Keamanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.8637
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Yunus Khizil",
+      "Bintang": 5,
+      "Tanggal": "2026-08-18T02:24:40.995Z",
+      "Ulasan": "Rawat inap di Puskesmas Bungah pelayanan baik terutama perawat UGD baik dan tanggap",
+      "teks_final": "rawat inap puskesmas bungah pelayanan baik terutama perawat ugd baik tanggap",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9448
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "A Dyatmah",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T01:43:24.142Z",
+      "Ulasan": "Pelayanannya Alhadulillah baik petugasnya sportif &ramah saya kembali sehat lagi",
+      "teks_final": "pelayanannya alhadulillah baik petugasnya sportif ramah kembali sehat",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9943
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Ahmad Reyhan",
+      "Bintang": 5,
+      "Tanggal": "2026-08-13T01:36:55.539Z",
+      "Ulasan": "pelayanan disini bagus banget perawatnya juga ramah banget vasilitasnya juga bagus bangett😍😍",
+      "teks_final": "pelayanan disini bagus banget perawatnya ramah banget vasilitasnya bagus bangett",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9968
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
+      "Nama Reviewer": "Zuli Antok",
+      "Bintang": 5,
+      "Tanggal": "2026-08-10T03:48:54.160Z",
+      "Ulasan": "Pelayanannya cepat langsung d tangani",
+      "teks_final": "pelayanannya cepat langsung tangani",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9936
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Aldy Tripeezy",
       "Bintang": 5,
       "Tanggal": "2026-08-06T02:07:59.065Z",
@@ -25,6 +88,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "M bagus Wava kurniawan",
       "Bintang": 5,
       "Tanggal": "2026-08-05T01:26:58.673Z",
@@ -36,6 +100,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Gajah",
       "Bintang": 5,
       "Tanggal": "2026-08-03T04:00:51.039Z",
@@ -47,6 +112,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Kopi bubukselera",
       "Bintang": 5,
       "Tanggal": "2026-08-03T03:59:16.048Z",
@@ -58,6 +124,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "ZADIB Birds",
       "Bintang": 5,
       "Tanggal": "2026-07-31T01:54:46.177Z",
@@ -69,6 +136,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Azzahra Nur Salsabilla",
       "Bintang": 5,
       "Tanggal": "2026-07-31T01:46:23.477Z",
@@ -80,6 +148,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "AaSanjaya Sanjaya",
       "Bintang": 5,
       "Tanggal": "2026-07-31T01:04:40.538Z",
@@ -91,6 +160,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Husni Tamrin",
       "Bintang": 5,
       "Tanggal": "2026-07-29T01:35:02.622Z",
@@ -102,6 +172,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Aryan Try (Ryan)",
       "Bintang": 5,
       "Tanggal": "2026-07-29T01:24:04.917Z",
@@ -113,6 +184,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Indah Nurhayati11",
       "Bintang": 5,
       "Tanggal": "2026-07-28T01:50:59.425Z",
@@ -124,6 +196,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Khusnul Khuluq",
       "Bintang": 5,
       "Tanggal": "2026-07-25T03:56:49.132Z",
@@ -135,6 +208,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Farihatun Nafilah",
       "Bintang": 5,
       "Tanggal": "2026-07-24T00:54:04.448Z",
@@ -146,6 +220,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Muhammad “Arif” Salim",
       "Bintang": 5,
       "Tanggal": "2026-07-18T06:11:33.505Z",
@@ -157,6 +232,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "mas'ud mainan",
       "Bintang": 1,
       "Tanggal": "2026-06-27T00:28:36.228Z",
@@ -168,6 +244,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Nava Ningrum",
       "Bintang": 5,
       "Tanggal": "2026-05-13T06:56:40.007Z",
@@ -179,6 +256,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "I Aditama",
       "Bintang": 5,
       "Tanggal": "2026-03-31T13:25:18.843Z",
@@ -190,6 +268,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Ariani Wijayanti",
       "Bintang": 3,
       "Tanggal": "2026-03-31T03:29:23.110Z",
@@ -201,6 +280,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Nailul Hidayatil Azimah",
       "Bintang": 5,
       "Tanggal": "2026-02-03T02:17:00.984Z",
@@ -212,6 +292,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Irmalyadtssaadah Saadah",
       "Bintang": 5,
       "Tanggal": "2026-02-03T01:31:05.332Z",
@@ -223,6 +304,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Aulia fifi83",
       "Bintang": 5,
       "Tanggal": "2026-02-03T01:26:38.132Z",
@@ -234,6 +316,7 @@
     },
     {
       "Kategori": "Kesehatan",
+      "Sub Kategori": "Puskesmas",
       "Nama Reviewer": "Ihda Aininn",
       "Bintang": 1,
       "Tanggal": "2026-01-31T01:57:10.839Z",
@@ -242,72 +325,6 @@
       "topik": "Pelayanan",
       "sentimen": "Negatif",
       "sentimen_score": 0.9512
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Sholihul Amari",
-      "Bintang": 5,
-      "Tanggal": "2026-01-19T03:48:09.100Z",
-      "Ulasan": "Terimah kasih untuk pelayanan di poli umum,sangat ramah dan memuaskan.",
-      "teks_final": "terimah kasih pelayanan poli umum ramah memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9912
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Moh Edi",
-      "Bintang": 5,
-      "Tanggal": "2026-01-15T11:37:26.691Z",
-      "Ulasan": "Sangat baik sekali",
-      "teks_final": "baik",
-      "topik": "Lainnya",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9844
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Amar Bsy",
-      "Bintang": 5,
-      "Tanggal": "2026-01-07T04:00:44.844Z",
-      "Ulasan": "Pelayanan baik , ramah, memuaskan .",
-      "teks_final": "pelayanan baik ramah memuaskan",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9948
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Lisdah Nishfiyatur Romadloniyah, S. ST",
-      "Bintang": 5,
-      "Tanggal": "2025-12-16T03:57:39.598Z",
-      "Ulasan": "Terimakasih puskesmas bungah pelayanannya baik banget, nakesnya telaten dan sabar",
-      "teks_final": "terimakasih puskesmas bungah pelayanannya baik banget nakesnya telaten sabar",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9923
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "Novi Mouchan",
-      "Bintang": 5,
-      "Tanggal": "2025-12-12T01:06:25.353Z",
-      "Ulasan": "Pelayanan ramah baik.. Terima kasih",
-      "teks_final": "pelayanan ramah baik terima kasih",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9848
-    },
-    {
-      "Kategori": "Kesehatan",
-      "Nama Reviewer": "El Mila",
-      "Bintang": 5,
-      "Tanggal": "2025-11-29T00:51:23.384Z",
-      "Ulasan": "Pelayanan dipuskesmas bungah baik,cepat dlm pelayanan dan tenaga medisnya ramah",
-      "teks_final": "pelayanan dipuskesmas bungah baik cepat pelayanan tenaga medisnya ramah",
-      "topik": "Pelayanan",
-      "sentimen": "Positif",
-      "sentimen_score": 0.9928
     }
   ]
 }

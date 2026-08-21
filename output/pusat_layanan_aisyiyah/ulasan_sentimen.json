@@ -1,0 +1,42 @@
+{
+  "key": "pusat_layanan_aisyiyah",
+  "kategori": "Kesehatan",
+  "sub_kategori": "Posyandu & Poskesdes",
+  "tempat": "Pusat Layanan 'Aisyiyah",
+  "rating": 5,
+  "total_ulasan": 2,
+  "positif": 1,
+  "netral": 1,
+  "negatif": 0,
+  "persen_positif": 50.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 0.0,
+  "latitude": -7.165563,
+  "longitude": 112.6505426,
+  "ulasan": [
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Posyandu & Poskesdes",
+      "Nama Reviewer": "rida wahyuni",
+      "Bintang": 5,
+      "Tanggal": "2024-12-08T02:53:42.818Z",
+      "Ulasan": "Beberapa kegiatan yang pernah saya ikuti di Gedung Layanan Terpadu 'Aisyiyah ini, al : pelatihan kifayah (perawatan jenazah), posyandu lansia sakinah, pelatihan dakwah digital dll. Terimakasih 'Aisyiyah, terus maju 'Aisyiyah...,",
+      "teks_final": "beberapa kegiatan pernah ikuti gedung layanan terpadu aisyiyah al pelatihan kifayah perawatan jenazah posyandu lansia sakinah pelatihan dakwah digital dll terimakasih aisyiyah terus maju aisyiyah",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.5383
+    },
+    {
+      "Kategori": "Kesehatan",
+      "Sub Kategori": "Posyandu & Poskesdes",
+      "Nama Reviewer": "Bu Fery Indah",
+      "Bintang": 5,
+      "Tanggal": "2024-12-08T02:24:48.865Z",
+      "Ulasan": "Memberi pengalaman ketika di sini sama seperti berkegiatan di Villa, sejuk dan tenang meskipun di tengah kota.",
+      "teks_final": "memberi pengalaman sini sama seperti berkegiatan villa sejuk tenang meskipun tengah kota",
+      "topik": "Keamanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9946
+    }
+  ]
+}

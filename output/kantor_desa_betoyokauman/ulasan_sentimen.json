@@ -1,0 +1,66 @@
+{
+  "key": "kantor_desa_betoyokauman",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Kelurahan/Desa",
+  "tempat": "Kantor Desa Betoyokauman",
+  "rating": 3.9,
+  "total_ulasan": 4,
+  "positif": 1,
+  "netral": 2,
+  "negatif": 1,
+  "persen_positif": 25.0,
+  "persen_netral": 50.0,
+  "persen_negatif": 25.0,
+  "latitude": -7.096169,
+  "longitude": 112.5589382,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Yahya M Aji",
+      "Bintang": 5,
+      "Tanggal": "2026-03-12T02:28:59.291Z",
+      "Ulasan": "Mantab, gas pol",
+      "teks_final": "mantab gas pol",
+      "topik": "Lainnya",
+      "sentimen": "Positif",
+      "sentimen_score": 0.9953
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "zakky rohman",
+      "Bintang": 4,
+      "Tanggal": "2025-08-11T03:06:18.825Z",
+      "Ulasan": "Sebagai pusat informasi dan Pelayanan Masyarakat Desa Betoyokauman Manyar Gresik",
+      "teks_final": "sebagai pusat informasi pelayanan masyarakat desa betoyokauman manyar gresik",
+      "topik": "Pelayanan",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9921
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "Tri Wulan",
+      "Bintang": 1,
+      "Tanggal": "2024-05-14T07:56:19.544Z",
+      "Ulasan": "Apa benar mengurus surat pengantar itu kena biaya 300k untuk pria sedangkan 600k untuk wanita . setau saya dari pihak KUA Manyar itu gratis katanya",
+      "teks_final": "apa benar mengurus surat pengantar kena biaya 300k pria sedangkan 600k wanita setau pihak kua manyar gratis katanya",
+      "topik": "Administrasi",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9332
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Kelurahan/Desa",
+      "Nama Reviewer": "The Mift",
+      "Bintang": 4,
+      "Tanggal": "2023-08-16T07:00:57.132Z",
+      "Ulasan": "Nice standard countryside government office",
+      "teks_final": "nice standard countryside government office",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.9788
+    }
+  ]
+}

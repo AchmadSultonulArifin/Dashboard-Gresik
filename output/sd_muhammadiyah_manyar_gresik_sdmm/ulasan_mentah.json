@@ -2,6 +2,7 @@
   "title": "SD Muhammadiyah Manyar Gresik (SDMM)",
   "subTitle": null,
   "description": null,
+  "ownerDescription": "Sekolah Dasar Muhammadiyah di Kecamatan Manyar Kabupaten Gresik yang mengusung full-day school, sekolah ramah anak serta menyenangkan. Untuk lebih lengkapnya silahkan pergi ke Youtube kami: sdmm",
   "price": null,
   "categoryName": "Sekolah Dasar",
   "address": "Jl. Amuntai No.1, Ponganganrejo, Yosowilangun, Kec. Manyar, Kabupaten Gresik, Jawa Timur 61151, Indonesia",
@@ -41,7 +42,7 @@
     "Video",
     "Street View & 360°"
   ],
-  "scrapedAt": "2026-07-29T11:14:39.562Z",
+  "scrapedAt": "2026-08-21T00:58:26.097Z",
   "reserveTableUrl": null,
   "googleFoodUrl": null,
   "hotelStars": null,
@@ -53,14 +54,6 @@
   "popularTimesLivePercent": null,
   "popularTimesHistogram": {},
   "openingHours": [
-    {
-      "day": "Rabu",
-      "hours": "06.00 to 17.00"
-    },
-    {
-      "day": "Kamis",
-      "hours": "06.00 to 17.00"
-    },
     {
       "day": "Jumat",
       "hours": "06.00 to 17.00"
@@ -80,8 +73,17 @@
     {
       "day": "Selasa",
       "hours": "06.00 to 17.00"
+    },
+    {
+      "day": "Rabu",
+      "hours": "06.00 to 17.00"
+    },
+    {
+      "day": "Kamis",
+      "hours": "06.00 to 17.00"
     }
   ],
+  "wasOpenAtScrapeTime": true,
   "peopleAlsoSearch": [
     {
       "category": "Orang lain juga menelusuri",
@@ -129,7 +131,7 @@
     },
     "media": [
       {
-        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmMpJGx2FejKFWNNJtjqPnQg45lFAv9lda4i4lpI1_Og46UKSoJTqJllCBlwYoIf_ZN9OefdeLLiu9oGEq2FNXosEfWwxVjGF-CvIhMrqX3nYYOTLMGPLXvz6CThwneuIl9Sgdoy=k-no",
+        "link": "https://lh3.googleusercontent.com/grass-cs/ACvplmPXVVm2s78SdacsV58Tx_uOxLngGVkZCyIQ-IWQ-C7omVcIFzcXUDQsFcAwdEZq7baqBK90hDsp98BoCSoUjaXsJVPV--m2s9hlDFPYy2zRJvNTOF0pcEbFZwXIZeVddGAIAc71=k-no",
         "postDate": "2 tahun lalu"
       }
     ]
@@ -140,8 +142,9 @@
   "language": "id",
   "rank": 1,
   "isAdvertisement": false,
-  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkIlpP7EW10QH7ldr5OsJgNhGbUEK0wcRqRHIgJ-kDBCUUOrRFwkcUdwOyfQVthGxUmOv8yIzuhTw231lrBpmTULARjXMo33rYXkI3grt-7JK73EE53R7-hyaV2UwdtLYPJyNgV=w408-h306-k-no",
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn9NTmk-SBNfByJU9G5jWhjKu_VD4Yo_SAVu1IBVGJREC1CJAyzujpkGoFJ-zDYbHkeJsWqHozKY4J7lFyO97FXs1qiuopDwKh5s47rlNwh7EdurNZA4bvvCXTYnXFm_yZsC6fd=w408-h306-k-no",
   "kgmid": "/g/1hm29kv3t",
+  "businessProfileId": "13844180801229977188",
   "questionsAndAnswers": [],
   "webResults": [],
   "tableReservationLinks": [],
@@ -154,5 +157,6 @@
   "imageUrls": [],
   "reviews": [],
   "leadsEnrichment": [],
+  "sub_kategori": "SD/MI",
   "kategori": "Pendidikan"
 }

@@ -1,0 +1,66 @@
+{
+  "key": "central_immigration_office",
+  "kategori": "Pemerintahan",
+  "sub_kategori": "Instansi Vertikal",
+  "tempat": "Central Immigration Office",
+  "rating": 3.8,
+  "total_ulasan": 4,
+  "positif": 2,
+  "netral": 1,
+  "negatif": 1,
+  "persen_positif": 50.0,
+  "persen_netral": 25.0,
+  "persen_negatif": 25.0,
+  "latitude": null,
+  "longitude": null,
+  "ulasan": [
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Instansi Vertikal",
+      "Nama Reviewer": "Yahya Babair",
+      "Bintang": 5,
+      "Tanggal": "2025-12-03T08:17:15.267Z",
+      "Ulasan": "Today I had a chance to visit the central immigration office in South Jakarta. Their services are excellent. I met with the lady called Dinda and a gentleman called in Intan The two persons were excellent. They tried to help me in a polite and excellent professional and unacceptable way thank you everybody in that office and may Allah bless you all.",
+      "teks_final": "today had chance to visit the central immigration office in south jakarta their services are excellent met with the lady called dinda and gentleman called in intan the two persons were excellent they tried to help me in polite and excellent professional and unacceptable way thank you everybody in that office and may allah bless you all",
+      "topik": "Fasilitas",
+      "sentimen": "Positif",
+      "sentimen_score": 0.6989
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Instansi Vertikal",
+      "Nama Reviewer": "Huba Balancia",
+      "Bintang": 1,
+      "Tanggal": "2025-10-17T09:11:34.717Z",
+      "Ulasan": "lama",
+      "teks_final": "lama",
+      "topik": "Lainnya",
+      "sentimen": "Negatif",
+      "sentimen_score": 0.9972
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Instansi Vertikal",
+      "Nama Reviewer": "Nanindr",
+      "Bintang": 3,
+      "Tanggal": "2024-06-14T04:23:55.118Z",
+      "Ulasan": "adanya di sebrang pasar festival",
+      "teks_final": "adanya sebrang pasar festival",
+      "topik": "Lainnya",
+      "sentimen": "Netral",
+      "sentimen_score": 0.958
+    },
+    {
+      "Kategori": "Pemerintahan",
+      "Sub Kategori": "Instansi Vertikal",
+      "Nama Reviewer": "Abid Faqihuddin",
+      "Bintang": 5,
+      "Tanggal": "2023-07-21T07:48:01.257Z",
+      "Ulasan": "Pelayanan bagus sayang kepadetan antrian",
+      "teks_final": "pelayanan bagus sayang kepadetan antrian",
+      "topik": "Pelayanan",
+      "sentimen": "Positif",
+      "sentimen_score": 0.995
+    }
+  ]
+}

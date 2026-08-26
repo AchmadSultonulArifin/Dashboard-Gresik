@@ -1,0 +1,296 @@
+{% extends "base.html" %}
+{% block title %}Berita Gresik{% endblock %}
+{% block content %}
+
+<div style="margin-bottom:20px;">
+    <h1 style="font-size:24px;font-weight:700;color:#111827;margin:0;">📰 Berita Gresik</h1>
+    <p style="font-size:13px;color:#6b7280;margin:4px 0 0 0;">
+        🕒 Update terakhir: <strong style="color:#4f46e5;">{{ update_berita }}</strong>
+    </p>
+</div>
+
+<!-- ── STATUS ───────────────────────────────────────────── -->
+{% set status = scrape_status.get('berita') %}
+{% if status %}
+<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;
+    font-size:12px;font-weight:600;margin-bottom:16px;
+    {% if status.success %}background:#d1fae5;color:#065f46;
+    {% else %}background:#fee2e2;color:#991b1b;{% endif %}">
+    {% if status.success %}✅ Berhasil{% else %}❌ Gagal{% endif %}
+    <span style="font-weight:400;opacity:0.8;">— {{ status.last_run }}</span>
+    {% if status.total %}<span style="font-weight:400;opacity:0.7;">· {{ status.total }} berita</span>{% endif %}
+</div>
+{% endif %}
+
+<!-- ── KPI CARDS ─────────────────────────────────────────── -->
+<div class="stat-grid" style="margin-bottom:20px;">
+    <div class="stat">
+        <div class="angka">{{ total }}</div>
+        <div class="label">Total Berita</div>
+    </div>
+    <div class="stat">
+        <div class="angka" style="color:#4f46e5;">{{ topik_dist|length }}</div>
+        <div class="label">Topik</div>
+    </div>
+    <div class="stat">
+        <div class="angka" style="color:#0891b2;">{{ sumber_dist|length }}</div>
+        <div class="label">Sumber Portal</div>
+    </div>
+    <div class="stat">
+        <div class="angka" style="color:#16a34a;">{{ tipe_dist.get('lokal', 0) }}</div>
+        <div class="label">Berita Lokal</div>
+    </div>
+    <div class="stat">
+        <div class="angka" style="color:#d97706;">{{ tipe_dist.get('nasional', 0) }}</div>
+        <div class="label">Berita Nasional</div>
+    </div>
+    <div class="stat">
+        <div class="angka" style="color:#7c3aed;">{{ tipe_dist.get('google_news', 0) }}</div>
+        <div class="label">Google News</div>
+    </div>
+</div>
+
+<!-- ── CHARTS ────────────────────────────────────────────── -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px;">
+
+    <!-- Bar chart topik -->
+    <div class="card" style="margin-bottom:0;">
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">
+            Berita per Topik
+        </h2>
+        <canvas id="chartTopik" height="160"></canvas>
+    </div>
+
+    <!-- Bar chart sumber -->
+    <div class="card" style="margin-bottom:0;">
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">
+            Berita per Portal
+        </h2>
+        <canvas id="chartSumber" height="160"></canvas>
+    </div>
+</div>
+
+<!-- ── RINGKASAN TOPIK ──────────────────────────────────── -->
+{% if topik_rows %}
+<div class="card" style="margin-bottom:20px;">
+    <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">
+        Ringkasan per Topik
+    </h2>
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-size:13px;">
+            <thead>
+                <tr style="background:#f9fafb;">
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;width:160px;">Topik</th>
+                    <th style="padding:10px 12px;text-align:center;color:#6b7280;font-weight:600;width:80px;">Jumlah</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;">Contoh Judul</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;width:200px;">Sumber</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in topik_rows %}
+                <tr style="border-bottom:1px solid #f1f5f9;">
+                    <td style="padding:10px 12px;">
+                        <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;
+                            padding:3px 9px;border-radius:20px;font-weight:500;">
+                            {{ row.topik }}
+                        </span>
+                    </td>
+                    <td style="padding:10px 12px;text-align:center;font-weight:700;color:#4f46e5;">
+                        {{ row.jumlah_berita }}
+                    </td>
+                    <td style="padding:10px 12px;color:#374151;font-size:12px;line-height:1.5;">
+                        {{ row.contoh_judul.split(' || ')[0][:80] if row.contoh_judul else '-' }}
+                    </td>
+                    <td style="padding:10px 12px;color:#6b7280;font-size:11px;">
+                        {{ row.sumber_berita[:60] if row.sumber_berita else '-' }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
+
+<!-- ── TABEL SEMUA BERITA ───────────────────────────────── -->
+<div class="card">
+    <div style="display:flex;align-items:center;justify-content:space-between;
+        margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin:0;">
+            Semua Berita <span style="color:#6b7280;font-weight:400;">({{ total }})</span>
+        </h2>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+            <!-- Filter topik -->
+            <select id="filterTopik" onchange="filterTabel()"
+                style="padding:7px 10px;border:1.5px solid #e5e7eb;border-radius:8px;
+                    font-size:13px;background:#fff;outline:none;max-width:170px;">
+                <option value="">— Semua Topik —</option>
+                {% for topik, jml in topik_dist.items() %}
+                <option value="{{ topik }}">{{ topik }} ({{ jml }})</option>
+                {% endfor %}
+            </select>
+            <!-- Filter tipe -->
+            <select id="filterTipe" onchange="filterTabel()"
+                style="padding:7px 10px;border:1.5px solid #e5e7eb;border-radius:8px;
+                    font-size:13px;background:#fff;outline:none;">
+                <option value="">— Semua Tipe —</option>
+                <option value="lokal">Lokal</option>
+                <option value="nasional">Nasional</option>
+                <option value="google_news">Google News</option>
+            </select>
+            <!-- Cari -->
+            <input type="text" id="cari" placeholder="🔍 Cari berita..."
+                oninput="filterTabel()"
+                style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
+                    font-size:13px;width:180px;outline:none;">
+        </div>
+    </div>
+
+    <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-size:13px;">
+            <thead>
+                <tr style="background:#f9fafb;">
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:90px;">Tanggal</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:80px;">Tipe</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;">Judul</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:110px;">Topik</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:140px;">Sumber</th>
+                </tr>
+            </thead>
+            <tbody id="tabelBody">
+            {% for item in data %}
+            <tr data-topik="{{ item.topik }}" data-tipe="{{ item.tipe }}"
+                style="border-bottom:1px solid #f1f5f9;transition:.15s;"
+                onmouseover="this.style.background='#f9fafb'"
+                onmouseout="this.style.background=''">
+
+                <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:11px;">
+                    {{ item.tanggal }}
+                </td>
+
+                <td style="padding:10px 12px;white-space:nowrap;">
+                    {% if item.tipe == 'lokal' %}
+                        <span style="font-size:10px;background:#d1fae5;color:#065f46;
+                            padding:2px 8px;border-radius:20px;font-weight:600;">Lokal</span>
+                    {% elif item.tipe == 'google_news' %}
+                        <span style="font-size:10px;background:#ede9fe;color:#6d28d9;
+                            padding:2px 8px;border-radius:20px;font-weight:600;">GNews</span>
+                    {% else %}
+                        <span style="font-size:10px;background:#fef3c7;color:#92400e;
+                            padding:2px 8px;border-radius:20px;font-weight:600;">Nasional</span>
+                    {% endif %}
+                </td>
+
+                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:420px;word-break:break-word;">
+                    {% if item.url and item.url != '#' %}
+                        <a href="{{ item.url }}" target="_blank" rel="noopener"
+                            style="color:#1d4ed8;text-decoration:none;font-weight:500;"
+                            onmouseover="this.style.textDecoration='underline'"
+                            onmouseout="this.style.textDecoration='none'">
+                            {{ item.judul[:100] }}{% if item.judul|length > 100 %}...{% endif %}
+                        </a>
+                    {% else %}
+                        {{ item.judul[:100] }}{% if item.judul|length > 100 %}...{% endif %}
+                    {% endif %}
+                    {% if item.ringkasan %}
+                    <div style="font-size:11px;color:#6b7280;margin-top:3px;line-height:1.4;">
+                        {{ item.ringkasan[:100] }}{% if item.ringkasan|length > 100 %}...{% endif %}
+                    </div>
+                    {% endif %}
+                </td>
+
+                <td style="padding:10px 12px;white-space:nowrap;">
+                    <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;
+                        padding:3px 8px;border-radius:20px;font-weight:500;">
+                        {{ item.topik }}
+                    </span>
+                </td>
+
+                <td style="padding:10px 12px;font-size:11px;color:#6b7280;
+                    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px;"
+                    title="{{ item.sumber }}">
+                    {{ item.sumber[:30] }}{% if item.sumber|length > 30 %}...{% endif %}
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="5" style="text-align:center;padding:60px 20px;color:#9ca3af;">
+                    <div style="font-size:32px;margin-bottom:8px;">📭</div>
+                    Belum ada berita. Jalankan <code>python Berita.py</code> terlebih dahulu.
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- ── SCRIPTS ──────────────────────────────────────────── -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+const chartTopikData  = {{ chart_topik  | tojson }};
+const chartSumberData = {{ chart_sumber | tojson }};
+
+const WARNA = [
+    "#4f46e5","#0891b2","#16a34a","#d97706","#dc2626",
+    "#7c3aed","#0d9488","#b45309","#be185d","#1d4ed8",
+];
+
+/* ── Bar chart topik ───────────────────────────── */
+new Chart(document.getElementById("chartTopik"), {
+    type: "bar",
+    data: {
+        labels: chartTopikData.map(x => x.topik),
+        datasets: [{
+            data            : chartTopikData.map(x => x.jumlah),
+            backgroundColor : chartTopikData.map((_, i) => WARNA[i % WARNA.length]),
+            borderRadius    : 4,
+        }]
+    },
+    options: {
+        responsive: true, maintainAspectRatio: true, indexAxis: "y",
+        plugins: { legend: { display: false } },
+        scales: {
+            x: { grid: { color: "#f1f5f9" }, ticks: { font: { size: 11 } } },
+            y: { grid: { display: false }, ticks: { font: { size: 11 } } }
+        }
+    }
+});
+
+/* ── Bar chart sumber ──────────────────────────── */
+new Chart(document.getElementById("chartSumber"), {
+    type: "bar",
+    data: {
+        labels: chartSumberData.map(x => x.sumber.replace("- Gresik","").trim()),
+        datasets: [{
+            data            : chartSumberData.map(x => x.jumlah),
+            backgroundColor : "#0891b2",
+            borderRadius    : 4,
+        }]
+    },
+    options: {
+        responsive: true, maintainAspectRatio: true, indexAxis: "y",
+        plugins: { legend: { display: false } },
+        scales: {
+            x: { grid: { color: "#f1f5f9" }, ticks: { font: { size: 10 } } },
+            y: { grid: { display: false }, ticks: { font: { size: 10 } } }
+        }
+    }
+});
+
+/* ── Filter tabel ──────────────────────────────── */
+function filterTabel() {
+    const q     = document.getElementById("cari").value.toLowerCase();
+    const topik = document.getElementById("filterTopik").value;
+    const tipe  = document.getElementById("filterTipe").value;
+
+    document.querySelectorAll("#tabelBody tr[data-topik]").forEach(row => {
+        const teks  = row.innerText.toLowerCase();
+        const okQ   = !q     || teks.includes(q);
+        const okTop = !topik || row.dataset.topik === topik;
+        const okTip = !tipe  || row.dataset.tipe  === tipe;
+        row.style.display = (okQ && okTop && okTip) ? "" : "none";
+    });
+}
+</script>
+{% endblock %}

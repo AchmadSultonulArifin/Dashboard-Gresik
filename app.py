@@ -34,6 +34,10 @@ INSTAGRAM_POST     = "output/gresik_ig_postingan.csv"
 INSTAGRAM_SENTIMEN = "output/gresik_ig_sentimen.csv"
 SUMMARY_FILE       = "output/semua_tempat_summary.json"
 FACEBOOK_SENTIMEN  = "output/data_sentimen_gresik.csv"
+BERITA_CSV         = "output/gresik_berita.csv"
+TOPIK_CSV          = "output/gresik_berita_topik.csv"
+SUMBER_CSV         = "output/gresik_berita_sumber.csv"
+
 
 # Upload Foto Profil
 UPLOAD_FOLDER_FOTO = os.path.join("static", "foto_profil")
@@ -1148,6 +1152,114 @@ def activity_log():
         filter_platform=filter_platform, filter_status=filter_status,
         filter_q=filter_q, current_page=page, total_pages=total_pages,
         log_terakhir=log_terakhir)
+
+
+# ══════════════════════════════════════════════════════════════
+# HELPER — load berita
+# ══════════════════════════════════════════════════════════════
+def load_berita() -> pd.DataFrame:
+    if not os.path.exists(BERITA_CSV):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(BERITA_CSV, encoding="utf-8-sig").fillna("")
+        for kolom in ["judul","tanggal","topik","sumber","tipe","ringkasan","url","waktu_scrape"]:
+            if kolom not in df.columns:
+                df[kolom] = ""
+        return df
+    except Exception as e:
+        print("Error membaca berita:", e)
+        return pd.DataFrame()
+
+
+def load_topik_berita() -> pd.DataFrame:
+    if not os.path.exists(TOPIK_CSV):
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(TOPIK_CSV, encoding="utf-8-sig").fillna("")
+    except Exception:
+        return pd.DataFrame()
+
+
+# ══════════════════════════════════════════════════════════════
+# ROUTES — BERITA
+# ══════════════════════════════════════════════════════════════
+@app.route("/berita")
+@login_required
+def berita():
+    df       = load_berita()
+    df_topik = load_topik_berita()
+
+    update_berita   = "-"
+    total           = 0
+    topik_dist      = {}
+    sumber_dist     = {}
+    tipe_dist       = {}
+    chart_topik     = []
+    chart_sumber    = []
+    data_rows       = []
+    topik_rows      = []
+
+    if not df.empty:
+        total         = len(df)
+        update_berita = df["waktu_scrape"].iloc[-1] if "waktu_scrape" in df.columns else "-"
+        topik_dist    = df["topik"].value_counts().head(10).to_dict()
+        sumber_dist   = df["sumber"].value_counts().head(10).to_dict()
+        tipe_dist     = df["tipe"].value_counts().to_dict()
+
+        # Chart topik
+        chart_topik = [
+            {"topik": k, "jumlah": v}
+            for k, v in df["topik"].value_counts().head(8).items()
+        ]
+
+        # Chart sumber (top 8)
+        chart_sumber = [
+            {"sumber": k, "jumlah": v}
+            for k, v in df["sumber"].value_counts().head(8).items()
+        ]
+
+        # Tabel berita (maks 200)
+        for _, row in df.head(200).iterrows():
+            data_rows.append({
+                "judul"    : row.get("judul",    "-"),
+                "tanggal"  : row.get("tanggal",  "-"),
+                "topik"    : row.get("topik",    "Umum"),
+                "sumber"   : row.get("sumber",   "-"),
+                "tipe"     : row.get("tipe",     "-"),
+                "ringkasan": row.get("ringkasan","")[:150],
+                "url"      : row.get("url",      "#"),
+            })
+
+    if not df_topik.empty:
+        for _, row in df_topik.iterrows():
+            topik_rows.append({
+                "topik"        : row.get("topik",         "-"),
+                "jumlah_berita": int(row.get("jumlah_berita", 0)),
+                "sumber_berita": row.get("sumber_berita", "-"),
+                "contoh_judul" : row.get("contoh_judul",  "-"),
+            })
+
+    return render_template(
+        "berita.html",
+        update_berita = update_berita,
+        total         = total,
+        topik_dist    = topik_dist,
+        sumber_dist   = sumber_dist,
+        tipe_dist     = tipe_dist,
+        chart_topik   = chart_topik,
+        chart_sumber  = chart_sumber,
+        data          = data_rows,
+        topik_rows    = topik_rows,
+    )
+
+
+@app.route("/api/berita")
+@login_required
+def api_berita():
+    df = load_berita()
+    if df.empty:
+        return jsonify([])
+    return jsonify(df.head(100).to_dict("records"))
 
 
 if __name__ == "__main__":

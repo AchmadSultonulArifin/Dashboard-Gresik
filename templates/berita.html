@@ -9,6 +9,13 @@
     </p>
 </div>
 
+<a href="{{ url_for('berita_pengaturan') }}"
+   style="padding:8px 16px;background:#f3f4f6;color:#374151;border-radius:8px;
+          font-size:13px;font-weight:600;text-decoration:none;display:inline-flex;
+          align-items:center;gap:6px;">
+    ⚙️ Pengaturan Keyword
+</a>
+
 <!-- ── STATUS ───────────────────────────────────────────── -->
 {% set status = scrape_status.get('berita') %}
 {% if status %}
@@ -21,6 +28,8 @@
     {% if status.total %}<span style="font-weight:400;opacity:0.7;">· {{ status.total }} berita</span>{% endif %}
 </div>
 {% endif %}
+
+
 
 <!-- ── KPI CARDS ─────────────────────────────────────────── -->
 <div class="stat-grid" style="margin-bottom:20px;">

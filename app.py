@@ -62,8 +62,65 @@ def init_keyword_tables():
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
             UNIQUE(group_id, name)
         );
+
+        -- ✅ BARU: keyword untuk scraping berita
+        CREATE TABLE IF NOT EXISTS berita_keywords (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            keyword    TEXT    NOT NULL UNIQUE,
+            aktif      INTEGER NOT NULL DEFAULT 1,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        );
+
+        -- ✅ BARU: aturan kategorisasi topik berita
+        CREATE TABLE IF NOT EXISTS berita_topik_rules (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            topik      TEXT    NOT NULL,
+            kata_kunci TEXT    NOT NULL,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(topik, kata_kunci)
+        );
+
         PRAGMA foreign_keys = ON;
     """)
+
+    # Seed keyword default jika kosong
+    cur.execute("SELECT COUNT(*) FROM berita_keywords")
+    if cur.fetchone()[0] == 0:
+        defaults = [
+            "gresik","kabupaten gresik","kota gresik","petrokimia gresik",
+            "semen gresik","gkb","driyorejo","cerme gresik","bungah gresik",
+            "sidayu gresik","panceng gresik","ujungpangkah","manyar gresik","wringinanom"
+        ]
+        cur.executemany("INSERT OR IGNORE INTO berita_keywords (keyword) VALUES (?)",
+                        [(k,) for k in defaults])
+
+    # Seed topik rules default jika kosong
+    cur.execute("SELECT COUNT(*) FROM berita_topik_rules")
+    if cur.fetchone()[0] == 0:
+        defaults_topik = [
+            ("Ekonomi & UMKM","umkm"),("Ekonomi & UMKM","ekonomi"),("Ekonomi & UMKM","bisnis"),
+            ("Ekonomi & UMKM","investasi"),("Ekonomi & UMKM","industri"),("Ekonomi & UMKM","pasar"),
+            ("Infrastruktur","jalan"),("Infrastruktur","jembatan"),("Infrastruktur","pembangunan"),
+            ("Infrastruktur","proyek"),("Infrastruktur","pelabuhan"),("Infrastruktur","tol"),
+            ("Pendidikan","sekolah"),("Pendidikan","pendidikan"),("Pendidikan","siswa"),
+            ("Pendidikan","guru"),("Pendidikan","universitas"),("Pendidikan","mahasiswa"),
+            ("Kesehatan","kesehatan"),("Kesehatan","rumah sakit"),("Kesehatan","puskesmas"),
+            ("Kesehatan","dokter"),("Kesehatan","vaksin"),("Kesehatan","stunting"),
+            ("Lingkungan","lingkungan"),("Lingkungan","sampah"),("Lingkungan","banjir"),
+            ("Lingkungan","limbah"),("Lingkungan","polusi"),("Lingkungan","sungai"),
+            ("Sosial & Budaya","budaya"),("Sosial & Budaya","festival"),("Sosial & Budaya","wisata"),
+            ("Sosial & Budaya","kuliner"),("Sosial & Budaya","tradisi"),
+            ("Politik & Pemda","bupati"),("Politik & Pemda","dprd"),("Politik & Pemda","pemerintah"),
+            ("Politik & Pemda","pilkada"),("Politik & Pemda","apbd"),("Politik & Pemda","dinas"),
+            ("Keamanan & Hukum","polisi"),("Keamanan & Hukum","hukum"),("Keamanan & Hukum","kriminal"),
+            ("Keamanan & Hukum","korupsi"),("Keamanan & Hukum","narkoba"),("Keamanan & Hukum","tersangka"),
+            ("Olahraga","olahraga"),("Olahraga","sepak bola"),("Olahraga","turnamen"),("Olahraga","juara"),
+            ("Industri & Tambang","semen gresik"),("Industri & Tambang","petrokimia"),
+            ("Industri & Tambang","pupuk"),("Industri & Tambang","kawasan industri"),
+        ]
+        cur.executemany("INSERT OR IGNORE INTO berita_topik_rules (topik, kata_kunci) VALUES (?,?)",
+                        defaults_topik)
+
     conn.commit()
     conn.close()
 
@@ -1287,6 +1344,622 @@ def api_berita():
         return jsonify([])
     return jsonify(df.head(100).to_dict("records"))
 
+# ══════════════════════════════════════════════════════════════
+# PENGATURAN BERITA — CRUD Keyword & Topik
+# ══════════════════════════════════════════════════════════════
+
+@app.route("/berita/pengaturan")
+@login_required
+def berita_pengaturan():
+    conn, cur = get_db()
+    cur.execute("SELECT * FROM berita_keywords ORDER BY aktif DESC, keyword ASC")
+    keywords = cur.fetchall()
+    cur.execute("""
+        SELECT topik, GROUP_CONCAT(kata_kunci, ', ') as kata_list,
+               COUNT(*) as jumlah
+        FROM berita_topik_rules
+        GROUP BY topik ORDER BY topik
+    """)
+    topik_grouped = cur.fetchall()
+    cur.execute("SELECT DISTINCT topik FROM berita_topik_rules ORDER BY topik")
+    topik_list = [r["topik"] for r in cur.fetchall()]
+    conn.close()
+    return render_template("berita_pengaturan.html",
+                           keywords=keywords,
+                           topik_grouped=topik_grouped,
+                           topik_list=topik_list)
+
+
+# ── Keyword CRUD ───────────────────────────────────────────────
+
+@app.route("/berita/keyword/tambah", methods=["POST"])
+@login_required
+def berita_keyword_tambah():
+    keyword = request.form.get("keyword", "").strip().lower()
+    if keyword:
+        conn, cur = get_db()
+        try:
+            cur.execute("INSERT OR IGNORE INTO berita_keywords (keyword) VALUES (?)", (keyword,))
+            conn.commit()
+            flash(f"Keyword '{keyword}' berhasil ditambahkan.", "success")
+        except Exception as e:
+            flash(f"Gagal menambahkan: {e}", "danger")
+        finally:
+            conn.close()
+    return redirect(url_for("berita_pengaturan"))
+
+
+@app.route("/berita/keyword/hapus/<int:kid>", methods=["POST"])
+@login_required
+def berita_keyword_hapus(kid):
+    conn, cur = get_db()
+    cur.execute("SELECT keyword FROM berita_keywords WHERE id=?", (kid,))
+    row = cur.fetchone()
+    if row:
+        cur.execute("DELETE FROM berita_keywords WHERE id=?", (kid,))
+        conn.commit()
+        flash(f"Keyword '{row['keyword']}' dihapus.", "success")
+    conn.close()
+    return redirect(url_for("berita_pengaturan"))
+
+
+@app.route("/berita/keyword/toggle/<int:kid>", methods=["POST"])
+@login_required
+def berita_keyword_toggle(kid):
+    conn, cur = get_db()
+    cur.execute("UPDATE berita_keywords SET aktif = CASE WHEN aktif=1 THEN 0 ELSE 1 END WHERE id=?", (kid,))
+    conn.commit()
+    conn.close()
+    return redirect(url_for("berita_pengaturan"))
+
+
+# ── Export keyword ke JSON (dibaca Berita.py) ──────────────────
+
+@app.route("/api/berita/keywords")
+def api_berita_keywords():
+    """Endpoint publik — dibaca Berita.py saat scraping."""
+    conn, cur = get_db()
+    cur.execute("SELECT keyword FROM berita_keywords WHERE aktif=1 ORDER BY keyword")
+    rows = cur.fetchall()
+    conn.close()
+    return jsonify([r["keyword"] for r in rows])
+
+
+@app.route("/api/berita/topik-rules")
+def api_berita_topik_rules():
+    """Endpoint publik — dibaca Berita.py untuk kategorisasi."""
+    conn, cur = get_db()
+    cur.execute("SELECT topik, kata_kunci FROM berita_topik_rules ORDER BY topik")
+    rows = cur.fetchall()
+    conn.close()
+    # Format: { "Ekonomi & UMKM": ["umkm","bisnis",...], ... }
+    result = {}
+    for r in rows:
+        result.setdefault(r["topik"], []).append(r["kata_kunci"])
+    return jsonify(result)
+
+
+# ── Topik Rule CRUD ────────────────────────────────────────────
+
+@app.route("/berita/topik/tambah", methods=["POST"])
+@login_required
+def berita_topik_tambah():
+    topik     = request.form.get("topik", "").strip()
+    topik_baru= request.form.get("topik_baru", "").strip()
+    kata      = request.form.get("kata_kunci", "").strip().lower()
+    nama_topik= topik_baru if topik_baru else topik
+    if nama_topik and kata:
+        conn, cur = get_db()
+        try:
+            cur.execute("INSERT OR IGNORE INTO berita_topik_rules (topik, kata_kunci) VALUES (?,?)",
+                        (nama_topik, kata))
+            conn.commit()
+            flash(f"Kata kunci '{kata}' ditambahkan ke topik '{nama_topik}'.", "success")
+        except Exception as e:
+            flash(f"Gagal: {e}", "danger")
+        finally:
+            conn.close()
+    return redirect(url_for("berita_pengaturan"))
+
+
+@app.route("/berita/topik/hapus-kata", methods=["POST"])
+@login_required
+def berita_topik_hapus_kata():
+    topik = request.form.get("topik", "")
+    kata  = request.form.get("kata_kunci", "")
+    conn, cur = get_db()
+    cur.execute("DELETE FROM berita_topik_rules WHERE topik=? AND kata_kunci=?", (topik, kata))
+    conn.commit()
+    conn.close()
+    flash(f"Kata kunci '{kata}' dihapus dari '{topik}'.", "success")
+    return redirect(url_for("berita_pengaturan"))
+
+
+@app.route("/berita/topik/hapus-semua", methods=["POST"])
+@login_required
+def berita_topik_hapus_semua():
+    topik = request.form.get("topik", "")
+    conn, cur = get_db()
+    cur.execute("DELETE FROM berita_topik_rules WHERE topik=?", (topik,))
+    conn.commit()
+    conn.close()
+    flash(f"Topik '{topik}' dan semua kata kuncinya dihapus.", "success")
+    return redirect(url_for("berita_pengaturan"))
+
+# ══════════════════════════════════════════════════════════════
+# SHOPEE — Path file output scraper
+# ══════════════════════════════════════════════════════════════
+SHOPEE_CSV       = "output/toko_gresik_shopee.csv"
+SHOPEE_TOKO_CSV  = "output/toko_gresik_shopee_per_toko.csv"
+
+
+# ══════════════════════════════════════════════════════════════
+# LOAD DATA SHOPEE
+# ══════════════════════════════════════════════════════════════
+def load_shopee() -> pd.DataFrame:
+    """Muat data produk Shopee dari CSV hasil scraping."""
+    if not os.path.exists(SHOPEE_CSV):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(SHOPEE_CSV, encoding="utf-8-sig").fillna("")
+        for kolom in [
+            "keyword_cari", "kategori", "nama_produk",
+            "harga", "harga_coret", "diskon", "rating",
+            "terjual", "lokasi_seller", "nama_toko",
+            "platform", "waktu_scrape",
+        ]:
+            if kolom not in df.columns:
+                df[kolom] = ""
+        # Bersihkan harga jadi angka untuk sorting
+        df["harga_num"] = (
+            df["harga"]
+            .str.replace(r"[Rp\.,\s]", "", regex=True)
+            .pipe(pd.to_numeric, errors="coerce")
+            .fillna(0)
+        )
+        df["rating_num"] = pd.to_numeric(df["rating"], errors="coerce").fillna(0)
+        df["waktu_scrape"] = pd.to_datetime(df["waktu_scrape"], errors="coerce")
+        return df
+    except Exception as e:
+        print("Error membaca data Shopee:", e)
+        return pd.DataFrame()
+
+
+def load_shopee_toko() -> pd.DataFrame:
+    """Muat ringkasan per toko dari CSV _per_toko."""
+    if not os.path.exists(SHOPEE_TOKO_CSV):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(SHOPEE_TOKO_CSV, encoding="utf-8-sig").fillna("")
+        for kolom in [
+            "nama_toko", "lokasi_seller", "kategori",
+            "jumlah_produk", "keyword_list", "daftar_produk",
+        ]:
+            if kolom not in df.columns:
+                df[kolom] = ""
+        df["jumlah_produk"] = pd.to_numeric(df["jumlah_produk"], errors="coerce").fillna(0).astype(int)
+        return df
+    except Exception as e:
+        print("Error membaca data toko Shopee:", e)
+        return pd.DataFrame()
+
+
+# ══════════════════════════════════════════════════════════════
+# ROUTE — /shopee
+# ══════════════════════════════════════════════════════════════
+@app.route("/shopee")
+@login_required
+def shopee():
+    df      = load_shopee()
+    df_toko = load_shopee_toko()
+
+    # ── Default kosong ──────────────────────────────────────
+    total          = 0
+    total_toko     = 0
+    total_area     = 0
+    total_keyword  = 0
+    update_terakhir = "-"
+    kategori_dist  = {}
+    lokasi_dist    = {}
+    keyword_dist   = {}
+    top_toko       = []
+    produk_rows    = []
+    toko_rows      = []
+    chart_kategori = []
+    chart_lokasi   = []
+
+    if not df.empty:
+        total           = len(df)
+        total_toko      = df["nama_toko"].nunique()
+        total_area      = df["lokasi_seller"].nunique()
+        total_keyword   = df["keyword_cari"].nunique()
+        update_terakhir = (
+            df["waktu_scrape"].max().strftime("%d %B %Y %H:%M")
+            if df["waktu_scrape"].notna().any() else "-"
+        )
+
+        kategori_dist = df["kategori"].value_counts().head(10).to_dict()
+        lokasi_dist   = df["lokasi_seller"].value_counts().head(10).to_dict()
+        keyword_dist  = df["keyword_cari"].value_counts().to_dict()
+
+        # Chart
+        chart_kategori = [
+            {"label": k, "value": v}
+            for k, v in df["kategori"].value_counts().head(8).items()
+        ]
+        chart_lokasi = [
+            {"label": k, "value": v}
+            for k, v in df["lokasi_seller"].value_counts().head(8).items()
+        ]
+
+        # Top toko berdasarkan jumlah produk di CSV produk
+        top_toko_series = df["nama_toko"].value_counts().head(10)
+        top_toko = [
+            {"nama_toko": nm, "jumlah": cnt}
+            for nm, cnt in top_toko_series.items()
+        ]
+
+        # Tabel produk (maks 300, terbaru dulu)
+        df_sort = df.sort_values("waktu_scrape", ascending=False).head(300)
+        for _, r in df_sort.iterrows():
+            produk_rows.append({
+                "nama_produk"   : r.get("nama_produk", "-"),
+                "nama_toko"     : r.get("nama_toko", "-"),
+                "harga"         : r.get("harga", "-"),
+                "harga_coret"   : r.get("harga_coret", "-"),
+                "diskon"        : r.get("diskon", "-"),
+                "rating"        : r.get("rating", "-"),
+                "terjual"       : r.get("terjual", "-"),
+                "lokasi_seller" : r.get("lokasi_seller", "-"),
+                "kategori"      : r.get("kategori", "-"),
+                "keyword_cari"  : r.get("keyword_cari", "-"),
+                "waktu_scrape"  : (
+                    r["waktu_scrape"].strftime("%d/%m/%Y %H:%M")
+                    if pd.notna(r.get("waktu_scrape")) else "-"
+                ),
+            })
+
+    if not df_toko.empty:
+        df_toko_sort = df_toko.sort_values("jumlah_produk", ascending=False).head(100)
+        for _, r in df_toko_sort.iterrows():
+            toko_rows.append({
+                "nama_toko"     : r.get("nama_toko", "-"),
+                "lokasi_seller" : r.get("lokasi_seller", "-"),
+                "kategori"      : r.get("kategori", "-"),
+                "jumlah_produk" : int(r.get("jumlah_produk", 0)),
+                "keyword_list"  : r.get("keyword_list", "-"),
+                "daftar_produk" : r.get("daftar_produk", "-"),
+            })
+
+    return render_template(
+        "Shopee.html",
+        total           = total,
+        total_toko      = total_toko,
+        total_area      = total_area,
+        total_keyword   = total_keyword,
+        update_terakhir = update_terakhir,
+        kategori_dist   = kategori_dist,
+        lokasi_dist     = lokasi_dist,
+        keyword_dist    = keyword_dist,
+        top_toko        = top_toko,
+        chart_kategori  = chart_kategori,
+        chart_lokasi    = chart_lokasi,
+        data            = produk_rows,
+        toko_rows       = toko_rows,
+    )
+
+
+# ══════════════════════════════════════════════════════════════
+# API — /api/shopee  (JSON mentah)
+# ══════════════════════════════════════════════════════════════
+@app.route("/api/shopee")
+@login_required
+def api_shopee():
+    df = load_shopee()
+    if df.empty:
+        return jsonify([])
+    # Hapus kolom internal sebelum dikirim
+    df_out = df.drop(columns=["harga_num", "rating_num"], errors="ignore")
+    df_out["waktu_scrape"] = df_out["waktu_scrape"].apply(
+        lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
+    )
+    return jsonify(df_out.head(200).to_dict("records"))
+
+
+# ══════════════════════════════════════════════════════════════
+# API — /api/shopee/toko  (ringkasan per toko)
+# ══════════════════════════════════════════════════════════════
+@app.route("/api/shopee/toko")
+@login_required
+def api_shopee_toko():
+    df = load_shopee_toko()
+    if df.empty:
+        return jsonify([])
+    return jsonify(df.head(100).to_dict("records"))
+    
+# ══════════════════════════════════════════════════════════════
+# PATH FILE OUTPUT LAZADA
+# ══════════════════════════════════════════════════════════════
+LAZADA_CSV      = "output/toko_gresik_lazada.csv"
+LAZADA_TOKO_CSV = "output/toko_gresik_lazada_ringkasan.csv"
+
+
+# ══════════════════════════════════════════════════════════════
+# LOAD DATA LAZADA
+# ══════════════════════════════════════════════════════════════
+def load_lazada() -> pd.DataFrame:
+    """Muat data produk Lazada dari CSV hasil scraping."""
+    if not os.path.exists(LAZADA_CSV):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(LAZADA_CSV, encoding="utf-8-sig").fillna("")
+        for kolom in [
+            "nama_produk", "harga", "lokasi_seller",
+            "kategori", "nama_toko", "platform", "waktu_scrape",
+        ]:
+            if kolom not in df.columns:
+                df[kolom] = ""
+        df["waktu_scrape"] = pd.to_datetime(df["waktu_scrape"], errors="coerce")
+        return df
+    except Exception as e:
+        print("Error membaca data Lazada:", e)
+        return pd.DataFrame()
+
+
+def load_lazada_ringkasan() -> pd.DataFrame:
+    """Muat ringkasan per lokasi dari CSV _ringkasan."""
+    if not os.path.exists(LAZADA_TOKO_CSV):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(LAZADA_TOKO_CSV, encoding="utf-8-sig").fillna("")
+        for kolom in ["lokasi_seller", "jumlah_produk", "contoh_produk"]:
+            if kolom not in df.columns:
+                df[kolom] = ""
+        df["jumlah_produk"] = pd.to_numeric(df["jumlah_produk"], errors="coerce").fillna(0).astype(int)
+        return df
+    except Exception as e:
+        print("Error membaca ringkasan Lazada:", e)
+        return pd.DataFrame()
+
+
+# ══════════════════════════════════════════════════════════════
+# ROUTE — /lazada
+# ══════════════════════════════════════════════════════════════
+@app.route("/lazada")
+@login_required
+def lazada():
+    df          = load_lazada()
+    df_ringkasan= load_lazada_ringkasan()
+
+    # ── Default kosong ──────────────────────────────────────
+    total           = 0
+    total_toko      = 0
+    total_area      = 0
+    total_kategori  = 0
+    update_terakhir = "-"
+    kategori_dist   = {}
+    lokasi_dist     = {}
+    top_toko        = []
+    produk_rows     = []
+    chart_kategori  = []
+    chart_lokasi    = []
+
+    if not df.empty:
+        total           = len(df)
+        total_toko      = df["nama_toko"].replace("-", pd.NA).dropna().nunique()
+        total_area      = df["lokasi_seller"].nunique()
+        total_kategori  = df["kategori"].nunique()
+        update_terakhir = (
+            df["waktu_scrape"].max().strftime("%d %B %Y %H:%M")
+            if df["waktu_scrape"].notna().any() else "-"
+        )
+
+        kategori_dist = df["kategori"].value_counts().head(10).to_dict()
+        lokasi_dist   = df["lokasi_seller"].value_counts().head(10).to_dict()
+
+        # Chart Kategori (top 8)
+        chart_kategori = [
+            {"label": k, "value": int(v)}
+            for k, v in df["kategori"].value_counts().head(8).items()
+        ]
+
+        # Chart Lokasi (top 8)
+        chart_lokasi = [
+            {"label": k, "value": int(v)}
+            for k, v in df["lokasi_seller"].value_counts().head(8).items()
+        ]
+
+        # Top toko berdasarkan jumlah produk
+        top_toko_series = (
+            df[df["nama_toko"] != "-"]["nama_toko"]
+            .value_counts().head(10)
+        )
+        top_toko = []
+        for nm, cnt in top_toko_series.items():
+            lokasi = df[df["nama_toko"] == nm]["lokasi_seller"].mode()
+            top_toko.append({
+                "nama_toko"    : nm,
+                "jumlah"       : int(cnt),
+                "lokasi_seller": lokasi.iloc[0] if not lokasi.empty else "-",
+            })
+
+        # Tabel produk (maks 300, terbaru dulu)
+        df_sort = df.sort_values("waktu_scrape", ascending=False).head(300)
+        for _, r in df_sort.iterrows():
+            produk_rows.append({
+                "nama_produk"   : r.get("nama_produk", "-"),
+                "nama_toko"     : r.get("nama_toko", "-"),
+                "harga"         : r.get("harga", "-"),
+                "kategori"      : r.get("kategori", "-"),
+                "lokasi_seller" : r.get("lokasi_seller", "-"),
+                "waktu_scrape"  : (
+                    r["waktu_scrape"].strftime("%d/%m/%Y %H:%M")
+                    if pd.notna(r.get("waktu_scrape")) else "-"
+                ),
+            })
+
+    return render_template(
+        "Lazada.html",
+        total           = total,
+        total_toko      = total_toko,
+        total_area      = total_area,
+        total_kategori  = total_kategori,
+        update_terakhir = update_terakhir,
+        kategori_dist   = kategori_dist,
+        lokasi_dist     = lokasi_dist,
+        top_toko        = top_toko,
+        chart_kategori  = chart_kategori,
+        chart_lokasi    = chart_lokasi,
+        data            = produk_rows,
+    )
+
+
+# ══════════════════════════════════════════════════════════════
+# API — /api/lazada  (JSON mentah)
+# ══════════════════════════════════════════════════════════════
+@app.route("/api/lazada")
+@login_required
+def api_lazada():
+    df = load_lazada()
+    if df.empty:
+        return jsonify([])
+    df_out = df.copy()
+    df_out["waktu_scrape"] = df_out["waktu_scrape"].apply(
+        lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
+    )
+    return jsonify(df_out.head(200).to_dict("records"))
+
+# ══════════════════════════════════════════════════════════════
+# PATH FILE OUTPUT TOKOPEDIA
+# ══════════════════════════════════════════════════════════════
+TOKPED_CSV = "output/toko_gresik_tokopedia.csv"
+
+
+# ══════════════════════════════════════════════════════════════
+# LOAD DATA TOKOPEDIA
+# ══════════════════════════════════════════════════════════════
+def load_tokopedia() -> pd.DataFrame:
+    """Muat data toko Tokopedia dari CSV hasil scraping."""
+    if not os.path.exists(TOKPED_CSV):
+        return pd.DataFrame()
+    try:
+        df = pd.read_csv(TOKPED_CSV, encoding="utf-8-sig").fillna("")
+        for kolom in [
+            "nama_toko", "lokasi", "url_toko",
+            "produk_dijual", "kategori", "harga_produk",
+            "platform", "waktu_scrape",
+        ]:
+            if kolom not in df.columns:
+                df[kolom] = ""
+        df["waktu_scrape"] = pd.to_datetime(df["waktu_scrape"], errors="coerce")
+        return df
+    except Exception as e:
+        print("Error membaca data Tokopedia:", e)
+        return pd.DataFrame()
+
+
+# ══════════════════════════════════════════════════════════════
+# ROUTE — /tokopedia
+# ══════════════════════════════════════════════════════════════
+@app.route("/tokopedia")
+@login_required
+def tokopedia():
+    df = load_tokopedia()
+
+    # ── Default kosong ──────────────────────────────────────
+    total           = 0
+    total_area      = 0
+    total_kategori  = 0
+    total_produk    = 0
+    update_terakhir = "-"
+    kategori_dist   = {}
+    lokasi_dist     = {}
+    top_toko        = []
+    produk_rows     = []
+    chart_kategori  = []
+    chart_lokasi    = []
+
+    if not df.empty:
+        total          = len(df)
+        total_area     = df["lokasi"].nunique()
+        total_kategori = df["kategori"].nunique()
+        # Hitung estimasi total produk dari kolom produk_dijual (separator "|")
+        total_produk   = df["produk_dijual"].apply(
+            lambda x: len([p for p in str(x).split("|") if p.strip()])
+        ).sum()
+        update_terakhir = (
+            df["waktu_scrape"].max().strftime("%d %B %Y %H:%M")
+            if df["waktu_scrape"].notna().any() else "-"
+        )
+
+        kategori_dist = df["kategori"].value_counts().head(10).to_dict()
+        lokasi_dist   = df["lokasi"].value_counts().head(10).to_dict()
+
+        # Chart Kategori (top 8)
+        chart_kategori = [
+            {"label": k, "value": int(v)}
+            for k, v in df["kategori"].value_counts().head(8).items()
+        ]
+
+        # Chart Lokasi (top 8)
+        chart_lokasi = [
+            {"label": k, "value": int(v)}
+            for k, v in df["lokasi"].value_counts().head(8).items()
+        ]
+
+        # Top toko: 10 toko terbaru
+        top_toko = (
+            df.sort_values("waktu_scrape", ascending=False)
+            .head(10)[["nama_toko", "lokasi", "kategori", "url_toko"]]
+            .to_dict("records")
+        )
+
+        # Tabel toko (maks 300, terbaru dulu)
+        df_sort = df.sort_values("waktu_scrape", ascending=False).head(300)
+        for _, r in df_sort.iterrows():
+            produk_rows.append({
+                "nama_toko"    : r.get("nama_toko", "-"),
+                "lokasi"       : r.get("lokasi", "-"),
+                "url_toko"     : r.get("url_toko", "-"),
+                "kategori"     : r.get("kategori", "-"),
+                "produk_dijual": r.get("produk_dijual", "-"),
+                "harga_produk" : r.get("harga_produk", "-"),
+                "waktu_scrape" : (
+                    r["waktu_scrape"].strftime("%d/%m/%Y %H:%M")
+                    if pd.notna(r.get("waktu_scrape")) else "-"
+                ),
+            })
+
+    return render_template(
+        "Tokopedia.html",
+        total           = total,
+        total_area      = total_area,
+        total_kategori  = total_kategori,
+        total_produk    = int(total_produk),
+        update_terakhir = update_terakhir,
+        kategori_dist   = kategori_dist,
+        lokasi_dist     = lokasi_dist,
+        top_toko        = top_toko,
+        chart_kategori  = chart_kategori,
+        chart_lokasi    = chart_lokasi,
+        data            = produk_rows,
+    )
+
+
+# ══════════════════════════════════════════════════════════════
+# API — /api/tokopedia  (JSON mentah)
+# ══════════════════════════════════════════════════════════════
+@app.route("/api/tokopedia")
+@login_required
+def api_tokopedia():
+    df = load_tokopedia()
+    if df.empty:
+        return jsonify([])
+    df_out = df.copy()
+    df_out["waktu_scrape"] = df_out["waktu_scrape"].apply(
+        lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
+    )
+    return jsonify(df_out.head(200).to_dict("records"))
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

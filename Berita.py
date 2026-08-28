@@ -51,22 +51,41 @@ def path_arsip() -> str:
 # ══════════════════════════════════════════════════════
 # KATA KUNCI PENCARIAN
 # ══════════════════════════════════════════════════════
-KEYWORDS = [
-    "gresik",
-    "kabupaten gresik",
-    "kota gresik",
-    "petrokimia gresik",
-    "semen gresik",
-    "gkb",
-    "driyorejo",
-    "cerme gresik",
-    "bungah gresik",
-    "sidayu gresik",
-    "panceng gresik",
-    "ujungpangkah",
-    "manyar gresik",
-    "wringinanom",
-]
+DASHBOARD_URL = "http://localhost:5000"  # sesuaikan port jika beda
+
+def ambil_keywords_dari_dashboard() -> list:
+    try:
+        r = requests.get(f"{DASHBOARD_URL}/api/berita/keywords", timeout=5)
+        if r.status_code == 200:
+            data = r.json()
+            if data:
+                print(f"  ✅ Keyword dari dashboard: {len(data)} keyword")
+                return data
+    except Exception as e:
+        print(f"  ⚠ Gagal ambil keyword dari dashboard: {e}")
+    # Fallback jika dashboard offline
+    print("  ⚠ Menggunakan keyword fallback (hardcoded)")
+    return [
+        "gresik","kabupaten gresik","kota gresik","petrokimia gresik",
+        "semen gresik","gkb","driyorejo","cerme gresik","bungah gresik",
+        "sidayu gresik","panceng gresik","ujungpangkah","manyar gresik","wringinanom"
+    ]
+
+def ambil_topik_rules_dari_dashboard() -> dict:
+    try:
+        r = requests.get(f"{DASHBOARD_URL}/api/berita/topik-rules", timeout=5)
+        if r.status_code == 200:
+            data = r.json()
+            if data:
+                print(f"  ✅ Topik rules dari dashboard: {len(data)} topik")
+                return data
+    except Exception as e:
+        print(f"  ⚠ Gagal ambil topik rules dari dashboard: {e}")
+    return {}
+
+# Jalankan saat startup — ambil dari dashboard
+KEYWORDS      = ambil_keywords_dari_dashboard()
+_TOPIK_RULES  = ambil_topik_rules_dari_dashboard()
 
 HEADERS = {
     "User-Agent": (
@@ -222,13 +241,8 @@ SUMBER_BERITA = [
 # ══════════════════════════════════════════════════════
 # GOOGLE NEWS RSS
 # ══════════════════════════════════════════════════════
-GOOGLE_NEWS_KEYWORDS = [
-    "gresik",
-    "petrokimia gresik",
-    "semen gresik",
-    "kabupaten gresik",
-    "bupati gresik",
-]
+# Google News pakai subset dari KEYWORDS (maks 5 keyword terpendek)
+GOOGLE_NEWS_KEYWORDS = sorted(KEYWORDS, key=len)[:5]
 
 def scrape_google_news_rss(keyword):
     artikel  = []
@@ -296,6 +310,14 @@ def ekstrak_tanggal(teks):
 
 def kategorikan_topik(judul, isi=""):
     teks = (str(judul) + " " + str(isi)).lower()
+
+    # ✅ Gunakan rules dari dashboard jika tersedia
+    if _TOPIK_RULES:
+        for topik, kata_list in _TOPIK_RULES.items():
+            if any(k.lower() in teks for k in kata_list):
+                return topik
+
+    # Fallback hardcoded jika dashboard offline
     kategori_map = {
         "Ekonomi & UMKM"    : ["umkm","ekonomi","bisnis","investasi","industri","pabrik",
                                 "perdagangan","ekspor","impor","pasar","toko","lapak"],

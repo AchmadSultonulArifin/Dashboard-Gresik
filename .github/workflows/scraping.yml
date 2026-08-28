@@ -1,21 +1,72 @@
 name: Scraping Gresik Otomatis
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * 1"   # Twitter & lainnya → tiap Senin 00:00 UTC
+    - cron: "0 1 * * *"   # Berita           → tiap hari  01:00 UTC (08:00 WIB)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape:
+  # ─────────────────────────────────────────────────────────────────────────────
+  # BERITA — setiap hari
+  # ─────────────────────────────────────────────────────────────────────────────
+  scrape-berita:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Hanya jalan saat dipicu oleh cron berita (01:00 UTC) ATAU workflow_dispatch.
+    # Saat cron Senin (00:00 UTC) memicu, job ini di-skip agar tidak bentrok
+    # dengan push dari job 'scrape' yang jalan bersamaan.
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *')
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v6        # ✅ fix: v5 → v6 (Node.js 24)
+      - uses: actions/setup-python@v6
         with:
-          python-version: "3.12"             # ✅ fix: 3.14 → 3.12 (3.14 belum rilis)
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Library
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Jalankan Scraping Berita
+        continue-on-error: true
+        env:
+          PYTHONUNBUFFERED: 1
+        run: python Berita.py
+
+      - name: Push Hasil
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull --rebase origin main
+          git add output/
+          git diff --staged --quiet || git commit -m "data: update Berita Gresik $(date +'%Y-%m-%d')"
+          git push
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # TWITTER — setiap Senin
+  # ─────────────────────────────────────────────────────────────────────────────
+  scrape:
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 0 * * 1')
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
 
       - name: Install library
         run: |
@@ -43,6 +94,9 @@ jobs:
           git commit -m "data: update Twitter Gresik $(date +'%Y-%m-%d')" || echo "no changes"
           git push
 
+  # ─────────────────────────────────────────────────────────────────────────────
+  # INSTAGRAM — setiap Senin, setelah Twitter
+  # ─────────────────────────────────────────────────────────────────────────────
   scrape-instagram:
     needs: scrape
     if: always()
@@ -51,7 +105,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v6        # ✅ fix: v5 → v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -87,16 +141,19 @@ jobs:
       - name: Push Hasil
         if: always()
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ fix: tambah auth
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}  # ✅ fix: set URL dengan token
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase origin main
           git add output/
           git diff --staged --quiet || git commit -m "Update Instagram Gresik $(date +'%Y-%m-%d')"
           git push
 
+  # ─────────────────────────────────────────────────────────────────────────────
+  # GOOGLE MAPS — setiap Senin, setelah Instagram
+  # ─────────────────────────────────────────────────────────────────────────────
   scrape-googlemaps:
     needs: scrape-instagram
     if: always()
@@ -105,7 +162,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v6        # ✅ fix: v5 → v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -128,11 +185,11 @@ jobs:
       - name: Push Hasil
         if: always()
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ fix: tambah auth
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}  # ✅ fix: set URL dengan token
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase origin main
           git add output/
           git diff --staged --quiet || git commit -m "Update Google Maps Gresik $(date +'%Y-%m-%d')"

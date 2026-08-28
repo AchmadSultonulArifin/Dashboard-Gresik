@@ -439,12 +439,16 @@ table td{ padding:12px; border-bottom:1px solid #eee; }
         </a>
       </li>
 
-      <div class="menu-label">Manajemen</div>
-      <li>
-         <a href="/keywords" class="{{ 'active' if request.path=='/keywords' else '' }}">
-           🔑 Kelola Keyword
-         </a>
-       </li>
+      <div class="menu-label">Ecommers</div>
+      <a href="/shopee" class="nav-link">
+        <i class="bi bi-bag-fill me-2"></i>🛒 Shopee
+      </a>
+      <a href="/lazada" class="{{ 'active' if request.path=='/lazada' else '' }}">
+        🛍️ Lazada
+      </a>
+      <a href="/tokopedia" class="{{ 'active' if request.path=='/tokopedia' else '' }}">
+        🛒 Tokopedia
+      </a>
 
   <!-- SIDEBAR BOTTOM -->
   <div class="menu-label">Sistem</div>

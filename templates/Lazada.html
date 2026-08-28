@@ -1,0 +1,327 @@
+{% extends "base.html" %}
+
+{% block title %}Lazada — Toko Gresik{% endblock %}
+
+{% block content %}
+
+<!-- ══════════════════════════════════════════════════════
+     STAT CARDS
+══════════════════════════════════════════════════════ -->
+<div class="stat-grid" style="margin-bottom:24px;">
+
+  <div class="stat">
+    <div class="angka" style="color:#f97316;">{{ total | default(0) }}</div>
+    <div class="label">Total Produk</div>
+  </div>
+
+  <div class="stat">
+    <div class="angka" style="color:#4f46e5;">{{ total_toko | default(0) }}</div>
+    <div class="label">Nama Toko Unik</div>
+  </div>
+
+  <div class="stat">
+    <div class="angka" style="color:#059669;">{{ total_area | default(0) }}</div>
+    <div class="label">Wilayah Gresik</div>
+  </div>
+
+  <div class="stat">
+    <div class="angka" style="color:#dc2626;">{{ total_kategori | default(0) }}</div>
+    <div class="label">Kategori Produk</div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     BARIS 1: Chart Kategori + Chart Lokasi
+══════════════════════════════════════════════════════ -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+
+  <!-- Distribusi Kategori -->
+  <div class="card">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+      <h3 style="font-size:15px;font-weight:700;color:#111;">🏷️ Distribusi Kategori</h3>
+      <span style="font-size:11px;color:#9ca3af;">Top 8</span>
+    </div>
+    <canvas id="chartKategori" height="220"></canvas>
+  </div>
+
+  <!-- Distribusi Lokasi Seller -->
+  <div class="card">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+      <h3 style="font-size:15px;font-weight:700;color:#111;">📍 Sebaran Wilayah Seller</h3>
+      <span style="font-size:11px;color:#9ca3af;">Top 8</span>
+    </div>
+    <canvas id="chartLokasi" height="220"></canvas>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     BARIS 2: Top Toko + Ringkasan Kategori
+══════════════════════════════════════════════════════ -->
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+
+  <!-- Top Toko -->
+  <div class="card">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+      <h3 style="font-size:15px;font-weight:700;color:#111;">🏪 Top Toko by Produk</h3>
+    </div>
+    {% if top_toko %}
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      {% for t in top_toko %}
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span style="font-size:12px;font-weight:700;color:#f97316;width:20px;text-align:center;">
+          {{ loop.index }}
+        </span>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:13px;font-weight:600;color:#111;
+                      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+            {{ t.nama_toko }}
+          </div>
+          <div style="font-size:11px;color:#9ca3af;">{{ t.lokasi_seller or '-' }}</div>
+        </div>
+        <span style="background:#fff7ed;color:#f97316;font-size:12px;font-weight:700;
+                     padding:3px 10px;border-radius:20px;white-space:nowrap;">
+          {{ t.jumlah }} produk
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="color:#9ca3af;font-size:13px;text-align:center;padding:30px 0;">
+      Belum ada data toko.
+    </p>
+    {% endif %}
+  </div>
+
+  <!-- Ringkasan Kategori -->
+  <div class="card">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+      <h3 style="font-size:15px;font-weight:700;color:#111;">📦 Ringkasan Kategori</h3>
+    </div>
+    {% if kategori_dist %}
+    <div style="display:flex;flex-direction:column;gap:8px;">
+      {% set max_val = kategori_dist.values() | max %}
+      {% for kat, jml in kategori_dist.items() %}
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
+          <span style="font-size:12px;color:#374151;font-weight:500;">{{ kat }}</span>
+          <span style="font-size:12px;color:#6b7280;">{{ jml }}</span>
+        </div>
+        <div style="background:#f3f4f6;border-radius:4px;height:6px;overflow:hidden;">
+          <div style="background:linear-gradient(90deg,#f97316,#fb923c);height:100%;border-radius:4px;
+                      width:{{ ((jml / max_val) * 100) | int }}%;"></div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="color:#9ca3af;font-size:13px;text-align:center;padding:30px 0;">
+      Belum ada data kategori.
+    </p>
+    {% endif %}
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     TABEL PRODUK
+══════════════════════════════════════════════════════ -->
+<div class="card">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px;">
+    <h3 style="font-size:15px;font-weight:700;color:#111;">📋 Daftar Produk Lazada — Gresik</h3>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+
+      <!-- Filter Kategori -->
+      <select id="filterKategori" onchange="filterTabel()"
+        style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
+               font-size:13px;color:#374151;background:#fafafa;outline:none;cursor:pointer;">
+        <option value="">Semua Kategori</option>
+        {% for kat in kategori_dist.keys() %}
+        <option value="{{ kat }}">{{ kat }}</option>
+        {% endfor %}
+      </select>
+
+      <!-- Filter Lokasi -->
+      <select id="filterLokasi" onchange="filterTabel()"
+        style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
+               font-size:13px;color:#374151;background:#fafafa;outline:none;cursor:pointer;">
+        <option value="">Semua Wilayah</option>
+        {% for lok in lokasi_dist.keys() %}
+        <option value="{{ lok }}">{{ lok }}</option>
+        {% endfor %}
+      </select>
+
+      <!-- Cari -->
+      <input type="text" id="cariProduk" oninput="filterTabel()" placeholder="🔍 Cari produk…"
+        style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
+               font-size:13px;color:#374151;background:#fafafa;outline:none;width:200px;">
+
+      <!-- Update terakhir -->
+      <span style="font-size:11px;color:#9ca3af;">
+        Update: <strong>{{ update_terakhir | default('-') }}</strong>
+      </span>
+    </div>
+  </div>
+
+  <div style="overflow-x:auto;">
+    <table id="tabelProduk">
+      <thead>
+        <tr>
+          <th style="text-align:left;white-space:nowrap;">#</th>
+          <th style="text-align:left;white-space:nowrap;">Nama Produk</th>
+          <th style="text-align:left;white-space:nowrap;">Kategori</th>
+          <th style="text-align:left;white-space:nowrap;">Harga</th>
+          <th style="text-align:left;white-space:nowrap;">Nama Toko</th>
+          <th style="text-align:left;white-space:nowrap;">Lokasi</th>
+          <th style="text-align:left;white-space:nowrap;">Waktu Scrape</th>
+        </tr>
+      </thead>
+      <tbody id="tabelBody">
+        {% if data %}
+          {% for r in data %}
+          <tr class="row-produk"
+              data-kategori="{{ r.kategori | lower }}"
+              data-lokasi="{{ r.lokasi_seller | lower }}"
+              data-nama="{{ r.nama_produk | lower }}">
+            <td style="color:#9ca3af;font-size:12px;">{{ loop.index }}</td>
+            <td style="max-width:320px;">
+              <div style="font-size:13px;font-weight:600;color:#111;
+                          white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:310px;"
+                   title="{{ r.nama_produk }}">
+                {{ r.nama_produk }}
+              </div>
+            </td>
+            <td>
+              <span style="background:#fff7ed;color:#f97316;font-size:11px;font-weight:600;
+                           padding:3px 9px;border-radius:20px;white-space:nowrap;">
+                {{ r.kategori or '-' }}
+              </span>
+            </td>
+            <td style="font-size:13px;font-weight:600;color:#059669;white-space:nowrap;">
+              {{ r.harga or '-' }}
+            </td>
+            <td style="font-size:13px;color:#374151;white-space:nowrap;">
+              {{ r.nama_toko or '-' }}
+            </td>
+            <td style="font-size:12px;color:#6b7280;white-space:nowrap;">
+              {{ r.lokasi_seller or '-' }}
+            </td>
+            <td style="font-size:11px;color:#9ca3af;white-space:nowrap;">
+              {{ r.waktu_scrape or '-' }}
+            </td>
+          </tr>
+          {% endfor %}
+        {% else %}
+          <tr>
+            <td colspan="7" style="text-align:center;padding:40px;color:#9ca3af;font-size:14px;">
+              Belum ada data produk.<br>
+              <span style="font-size:12px;">Jalankan scraper Lazada terlebih dahulu.</span>
+            </td>
+          </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Info jumlah ditampilkan -->
+  <div style="margin-top:12px;font-size:12px;color:#9ca3af;" id="infoJumlah">
+    Menampilkan <span id="jmlTampil">{{ data | length }}</span> dari
+    <span id="jmlTotal">{{ data | length }}</span> produk
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     DATA JSON untuk Chart
+══════════════════════════════════════════════════════ -->
+<script>
+const chartKategoriData = {{ chart_kategori | tojson | safe }};
+const chartLokasiData   = {{ chart_lokasi   | tojson | safe }};
+
+// ── Warna orange-themed palette ──
+const ORANGE_PALETTE = [
+  '#f97316','#fb923c','#fdba74','#fcd34d','#f59e0b',
+  '#ef4444','#ec4899','#8b5cf6','#3b82f6','#10b981',
+];
+
+// ── Chart Kategori (Bar horizontal) ──
+if (chartKategoriData && chartKategoriData.length > 0) {
+  const ctxKat = document.getElementById('chartKategori').getContext('2d');
+  new Chart(ctxKat, {
+    type: 'bar',
+    data: {
+      labels : chartKategoriData.map(d => d.label),
+      datasets: [{
+        data            : chartKategoriData.map(d => d.value),
+        backgroundColor : chartKategoriData.map((_, i) => ORANGE_PALETTE[i % ORANGE_PALETTE.length]),
+        borderRadius    : 6,
+        borderSkipped   : false,
+      }]
+    },
+    options: {
+      indexAxis  : 'y',
+      responsive : true,
+      plugins    : { legend: { display: false }, tooltip: {
+        callbacks: { label: ctx => ` ${ctx.raw} produk` }
+      }},
+      scales: {
+        x: { grid: { color: '#f3f4f6' }, ticks: { font: { size: 11 } } },
+        y: { ticks: { font: { size: 11 }, color: '#374151' } },
+      }
+    }
+  });
+}
+
+// ── Chart Lokasi (Doughnut) ──
+if (chartLokasiData && chartLokasiData.length > 0) {
+  const ctxLok = document.getElementById('chartLokasi').getContext('2d');
+  new Chart(ctxLok, {
+    type: 'doughnut',
+    data: {
+      labels  : chartLokasiData.map(d => d.label),
+      datasets: [{
+        data           : chartLokasiData.map(d => d.value),
+        backgroundColor: chartLokasiData.map((_, i) => ORANGE_PALETTE[i % ORANGE_PALETTE.length]),
+        borderWidth    : 2,
+        borderColor    : '#fff',
+      }]
+    },
+    options: {
+      responsive : true,
+      cutout     : '60%',
+      plugins    : {
+        legend: {
+          position : 'right',
+          labels   : { font: { size: 11 }, boxWidth: 12, padding: 10 }
+        },
+        tooltip: {
+          callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw} produk` }
+        }
+      }
+    }
+  });
+}
+
+// ── Filter Tabel ──
+function filterTabel() {
+  const kata    = document.getElementById('cariProduk').value.toLowerCase().trim();
+  const kategori= document.getElementById('filterKategori').value.toLowerCase();
+  const lokasi  = document.getElementById('filterLokasi').value.toLowerCase();
+  const rows    = document.querySelectorAll('.row-produk');
+
+  let tampil = 0;
+  rows.forEach(row => {
+    const okKata    = !kata    || row.dataset.nama.includes(kata);
+    const okKategori= !kategori|| row.dataset.kategori.includes(kategori);
+    const okLokasi  = !lokasi  || row.dataset.lokasi.includes(lokasi);
+    const tampilkan = okKata && okKategori && okLokasi;
+    row.style.display = tampilkan ? '' : 'none';
+    if (tampilkan) tampil++;
+  });
+
+  document.getElementById('jmlTampil').textContent = tampil;
+  document.getElementById('jmlTotal').textContent  = rows.length;
+}
+</script>
+
+{% endblock %}

@@ -1,0 +1,591 @@
+{% extends "base.html" %}
+{% block title %}Shopee — Toko Gresik{% endblock %}
+
+{% block content %}
+<style>
+  /* ── Root tokens ─────────────────────────────── */
+  :root {
+    --sp-orange:   #ff5722;
+    --sp-orange-2: #ff8a50;
+    --sp-amber:    #ffb300;
+    --sp-blue:     #1565c0;
+    --sp-green:    #2e7d32;
+    --sp-purple:   #6a1b9a;
+    --sp-bg:       #fafafa;
+    --sp-surface:  #ffffff;
+    --sp-border:   #ebebeb;
+    --sp-text:     #1a1a1a;
+    --sp-muted:    #757575;
+    --sp-radius:   14px;
+    --sp-shadow:   0 2px 16px rgba(0,0,0,.07);
+  }
+
+  .sp-wrap { background: var(--sp-bg); min-height: 100vh; padding: 28px 28px 60px; }
+
+  /* ── Header strip ───────────────────────────── */
+  .sp-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .sp-header-left { display: flex; align-items: center; gap: 14px; }
+  .sp-logo-circle {
+    width: 48px; height: 48px; border-radius: 12px;
+    background: linear-gradient(135deg, var(--sp-orange), var(--sp-amber));
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .sp-logo-circle img { height: 22px; filter: brightness(0) invert(1); }
+  .sp-title { font-size: 22px; font-weight: 800; color: var(--sp-text); letter-spacing: -.4px; line-height: 1.1; }
+  .sp-subtitle { font-size: 12px; color: var(--sp-muted); margin-top: 3px; }
+
+
+  /* ── Stat cards ─────────────────────────────── */
+  .sp-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-bottom: 28px; }
+  @media (max-width:900px){ .sp-stats { grid-template-columns: repeat(2,1fr); } }
+
+  .sp-stat {
+    background: var(--sp-surface); border-radius: var(--sp-radius);
+    box-shadow: var(--sp-shadow); padding: 20px 20px 18px;
+    position: relative; overflow: hidden;
+    border: 1.5px solid var(--sp-border);
+  }
+  .sp-stat::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+    height: 3px; border-radius: 0 0 var(--sp-radius) var(--sp-radius);
+  }
+  .sp-stat--orange::after { background: linear-gradient(90deg, var(--sp-orange), var(--sp-amber)); }
+  .sp-stat--blue::after   { background: var(--sp-blue); }
+  .sp-stat--green::after  { background: var(--sp-green); }
+  .sp-stat--purple::after { background: var(--sp-purple); }
+
+  .sp-stat-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 14px; font-size: 18px;
+  }
+  .sp-stat--orange .sp-stat-icon { background: rgba(255,87,34,.1); color: var(--sp-orange); }
+  .sp-stat--blue   .sp-stat-icon { background: rgba(21,101,192,.1);  color: var(--sp-blue);   }
+  .sp-stat--green  .sp-stat-icon { background: rgba(46,125,50,.1);   color: var(--sp-green);  }
+  .sp-stat--purple .sp-stat-icon { background: rgba(106,27,154,.1);  color: var(--sp-purple); }
+
+  .sp-stat-num  { font-size: 30px; font-weight: 800; color: var(--sp-text); line-height: 1; }
+  .sp-stat-label{ font-size: 12px; color: var(--sp-muted); margin-top: 4px; font-weight: 500; }
+
+  /* ── Charts row ─────────────────────────────── */
+  .sp-charts { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 28px; }
+  @media (max-width:900px){ .sp-charts { grid-template-columns: 1fr; } }
+
+  .sp-card {
+    background: var(--sp-surface); border-radius: var(--sp-radius);
+    border: 1.5px solid var(--sp-border); box-shadow: var(--sp-shadow);
+    overflow: hidden;
+  }
+  .sp-card-head {
+    padding: 14px 18px 10px;
+    border-bottom: 1px solid var(--sp-border);
+    font-size: 13px; font-weight: 700; color: var(--sp-text);
+    display: flex; align-items: center; gap: 7px;
+  }
+  .sp-card-head i { color: var(--sp-orange); font-size: 14px; }
+  .sp-card-body { padding: 16px 18px; }
+
+  /* Top toko bars */
+  .sp-topbar + .sp-topbar { margin-top: 10px; }
+  .sp-topbar-meta { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 4px; }
+  .sp-topbar-name { color: var(--sp-text); font-weight: 600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width: 170px; }
+  .sp-topbar-count { color: var(--sp-orange); font-weight: 700; }
+  .sp-topbar-track { height: 5px; border-radius: 3px; background: #f0f0f0; }
+  .sp-topbar-fill  { height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--sp-orange), var(--sp-amber)); }
+
+  /* ── Tab strip ──────────────────────────────── */
+  .sp-tabs-wrap {
+    background: var(--sp-surface); border-radius: var(--sp-radius);
+    border: 1.5px solid var(--sp-border); box-shadow: var(--sp-shadow);
+    overflow: hidden;
+  }
+  .sp-tabs-strip {
+    display: flex; border-bottom: 1.5px solid var(--sp-border);
+    padding: 0 18px; background: #fafafa;
+  }
+  .sp-tab-btn {
+    padding: 14px 18px 12px; font-size: 13px; font-weight: 700;
+    color: var(--sp-muted); border: none; background: none; cursor: pointer;
+    border-bottom: 2.5px solid transparent; margin-bottom: -1.5px;
+    transition: color .15s, border-color .15s;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .sp-tab-btn.active { color: var(--sp-orange); border-bottom-color: var(--sp-orange); }
+  .sp-tab-btn .sp-count {
+    font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 10px;
+    background: var(--sp-orange); color: #fff;
+  }
+  .sp-tab-btn:not(.active) .sp-count { background: #e0e0e0; color: #666; }
+
+  .sp-tab-pane { display: none; }
+  .sp-tab-pane.active { display: block; }
+
+  /* ── Filters ─────────────────────────────────── */
+  .sp-filters {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    padding: 16px 18px 0;
+  }
+  .sp-filter-input, .sp-filter-select {
+    height: 36px; border: 1.5px solid var(--sp-border); border-radius: 8px;
+    font-size: 13px; color: var(--sp-text); background: var(--sp-surface);
+    padding: 0 12px; outline: none;
+    transition: border-color .15s;
+  }
+  .sp-filter-input:focus, .sp-filter-select:focus { border-color: var(--sp-orange); }
+  .sp-filter-input { flex: 1; min-width: 200px; }
+
+  /* ── Table ───────────────────────────────────── */
+  .sp-table-wrap { overflow-x: auto; }
+  .sp-table {
+    width: 100%; border-collapse: collapse; font-size: 13px;
+  }
+  .sp-table thead th {
+    padding: 11px 14px; text-align: left; font-size: 11px;
+    font-weight: 700; color: var(--sp-muted); text-transform: uppercase;
+    letter-spacing: .04em; background: #f8f8f8;
+    border-bottom: 1.5px solid var(--sp-border); white-space: nowrap;
+  }
+  .sp-table tbody td {
+    padding: 10px 14px; border-bottom: 1px solid var(--sp-border);
+    vertical-align: middle;
+  }
+  .sp-table tbody tr:hover { background: #fff8f6; }
+  .sp-table tbody tr:last-child td { border-bottom: none; }
+
+  /* cell helpers */
+  .sp-chip {
+    display: inline-block; padding: 2px 9px; border-radius: 20px;
+    font-size: 11px; font-weight: 600;
+  }
+  .sp-chip--toko   { background: rgba(21,101,192,.08); color: var(--sp-blue); }
+  .sp-chip--kat    { background: #f3f4f6; color: #374151; border: 1px solid #e5e7eb; }
+  .sp-chip--diskon { background: rgba(255,87,34,.1); color: var(--sp-orange); }
+  .sp-harga        { font-weight: 700; color: #c62828; white-space: nowrap; }
+  .sp-harga-coret  { font-size: 11px; color: #bbb; text-decoration: line-through; display: block; }
+  .sp-star         { color: #f59e0b; }
+  .sp-loc          { font-size: 12px; color: var(--sp-muted); white-space: nowrap; }
+  .sp-loc i        { color: var(--sp-green); font-size: 10px; }
+  .sp-num-muted    { color: var(--sp-muted); }
+  .sp-row-no       { color: #ccc; font-size: 11px; font-variant-numeric: tabular-nums; }
+
+  /* ── Empty state ─────────────────────────────── */
+  .sp-empty {
+    padding: 60px 20px; text-align: center;
+  }
+  .sp-empty-icon { font-size: 48px; opacity: .2; margin-bottom: 16px; }
+  .sp-empty h5   { font-size: 16px; font-weight: 700; color: var(--sp-text); margin-bottom: 8px; }
+  .sp-empty p    { font-size: 13px; color: var(--sp-muted); margin-bottom: 16px; }
+  .sp-empty code {
+    display: inline-block; background: #f5f5f5; border-radius: 8px;
+    padding: 10px 16px; font-size: 12px; color: var(--sp-text);
+  }
+
+  /* ── Footer row count ────────────────────────── */
+  .sp-row-count {
+    padding: 10px 18px 14px; font-size: 12px; color: var(--sp-muted);
+    border-top: 1px solid var(--sp-border);
+  }
+</style>
+
+<div class="sp-wrap">
+
+  {# ── HEADER ─────────────────────────────────── #}
+  <div class="sp-header">
+    <div class="sp-header-left">
+      <div class="sp-logo-circle">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopee_logo.svg/120px-Shopee_logo.svg.png" alt="Shopee">
+      </div>
+      <div>
+        <div class="sp-title">Toko Gresik di Shopee</div>
+        <div class="sp-subtitle">Data scraping produk &amp; toko dari Kabupaten Gresik &nbsp;·&nbsp; Update: <strong>{{ update_terakhir }}</strong></div>
+      </div>
+    </div>
+
+  </div>
+
+  {# ── STAT CARDS ──────────────────────────────── #}
+  <div class="sp-stats">
+    <div class="sp-stat sp-stat--orange">
+      <div class="sp-stat-icon"><i class="bi bi-shop"></i></div>
+      <div class="sp-stat-num">{{ total_toko }}</div>
+      <div class="sp-stat-label">Toko Unik</div>
+    </div>
+    <div class="sp-stat sp-stat--blue">
+      <div class="sp-stat-icon"><i class="bi bi-box-seam"></i></div>
+      <div class="sp-stat-num">{{ total }}</div>
+      <div class="sp-stat-label">Total Produk</div>
+    </div>
+    <div class="sp-stat sp-stat--green">
+      <div class="sp-stat-icon"><i class="bi bi-geo-alt"></i></div>
+      <div class="sp-stat-num">{{ total_area }}</div>
+      <div class="sp-stat-label">Area Gresik</div>
+    </div>
+    <div class="sp-stat sp-stat--purple">
+      <div class="sp-stat-icon"><i class="bi bi-search"></i></div>
+      <div class="sp-stat-num">{{ total_keyword }}</div>
+      <div class="sp-stat-label">Keyword</div>
+    </div>
+  </div>
+
+  {# ── CHARTS + TOP TOKO ───────────────────────── #}
+  {% if total > 0 %}
+  <div class="sp-charts">
+
+    <div class="sp-card">
+      <div class="sp-card-head"><i class="bi bi-pie-chart-fill"></i> Distribusi Kategori</div>
+      <div class="sp-card-body"><canvas id="chartKategori" height="200"></canvas></div>
+    </div>
+
+    <div class="sp-card">
+      <div class="sp-card-head"><i class="bi bi-bar-chart-line-fill"></i> Persebaran Lokasi Seller</div>
+      <div class="sp-card-body"><canvas id="chartLokasi" height="200"></canvas></div>
+    </div>
+
+    <div class="sp-card">
+      <div class="sp-card-head"><i class="bi bi-trophy-fill"></i> Top 10 Toko</div>
+      <div class="sp-card-body" style="overflow-y:auto;max-height:270px">
+        {% if top_toko %}
+          {% set max_produk = top_toko[0].jumlah %}
+          {% for t in top_toko %}
+          <div class="sp-topbar {% if not loop.first %}sp-topbar + sp-topbar{% endif %}" style="{% if not loop.first %}margin-top:10px{% endif %}">
+            <div class="sp-topbar-meta">
+              <span class="sp-topbar-name" title="{{ t.nama_toko }}">{{ t.nama_toko }}</span>
+              <span class="sp-topbar-count">{{ t.jumlah }}</span>
+            </div>
+            <div class="sp-topbar-track">
+              <div class="sp-topbar-fill" style="width:{{ (t.jumlah / max_produk * 100)|round|int }}%"></div>
+            </div>
+          </div>
+          {% endfor %}
+        {% else %}
+          <p style="text-align:center;color:var(--sp-muted);font-size:13px;margin-top:30px">Belum ada data</p>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+  {% endif %}
+
+  {# ── TABS ─────────────────────────────────────── #}
+  <div class="sp-tabs-wrap">
+
+    <div class="sp-tabs-strip">
+      <button class="sp-tab-btn active" onclick="switchTab('produk', this)">
+        <i class="bi bi-box-seam"></i> Produk <span class="sp-count">{{ total }}</span>
+      </button>
+      <button class="sp-tab-btn" onclick="switchTab('toko', this)">
+        <i class="bi bi-shop"></i> Ringkasan Toko <span class="sp-count">{{ toko_rows|length }}</span>
+      </button>
+    </div>
+
+    {# ── TAB PRODUK ──────────────────────────────── #}
+    <div class="sp-tab-pane active" id="pane-produk">
+
+      <div class="sp-filters">
+        <input class="sp-filter-input" id="filterProduk" type="text"
+               placeholder="🔍  Cari nama produk / toko / lokasi…"
+               oninput="filterTabel('tabelProduk','filterProduk')">
+        <select class="sp-filter-select" id="filterKategori" onchange="filterTabel('tabelProduk','filterProduk')">
+          <option value="">Semua Kategori</option>
+          {% for kat in kategori_dist.keys() %}
+          <option value="{{ kat }}">{{ kat }}</option>
+          {% endfor %}
+        </select>
+        <select class="sp-filter-select" id="filterLokasi" onchange="filterTabel('tabelProduk','filterProduk')">
+          <option value="">Semua Lokasi</option>
+          {% for lok in lokasi_dist.keys() %}
+          <option value="{{ lok }}">{{ lok }}</option>
+          {% endfor %}
+        </select>
+        <select class="sp-filter-select" id="filterKeyword" onchange="filterTabel('tabelProduk','filterProduk')">
+          <option value="">Semua Keyword</option>
+          {% for kw in keyword_dist.keys() %}
+          <option value="{{ kw }}">{{ kw }}</option>
+          {% endfor %}
+        </select>
+        <select class="sp-filter-select" id="sortProduk" onchange="sortTabel()" style="min-width:150px">
+          <option value="default">Urutan: Default</option>
+          <option value="harga_asc">Harga ↑</option>
+          <option value="harga_desc">Harga ↓</option>
+          <option value="rating_desc">Rating Tertinggi</option>
+          <option value="toko_az">Toko A–Z</option>
+        </select>
+      </div>
+
+      {% if data %}
+      <div class="sp-table-wrap" style="padding:16px 18px 0">
+        <table class="sp-table" id="tabelProduk">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nama Produk</th>
+              <th>Toko</th>
+              <th>Harga</th>
+              <th>Terjual</th>
+              <th>Rating</th>
+              <th>Diskon</th>
+              <th>Lokasi</th>
+              <th>Kategori</th>
+              <th>Keyword</th>
+              <th>Waktu Scrape</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for p in data %}
+            <tr
+              data-nama="{{ p.nama_produk|lower }}"
+              data-toko="{{ p.nama_toko|lower }}"
+              data-lokasi="{{ p.lokasi_seller|lower }}"
+              data-kat="{{ p.kategori }}"
+              data-kw="{{ p.keyword_cari }}"
+              data-harga="{{ p.harga|replace('Rp','')|replace('.','') |replace(',','')|trim }}"
+              data-rating="{{ p.rating }}"
+            >
+              <td class="sp-row-no">{{ loop.index }}</td>
+              <td style="max-width:200px">
+                <span style="display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600;color:var(--sp-text)" title="{{ p.nama_produk }}">
+                  {{ p.nama_produk }}
+                </span>
+              </td>
+              <td><span class="sp-chip sp-chip--toko">{{ p.nama_toko if p.nama_toko != '-' else '–' }}</span></td>
+              <td>
+                <span class="sp-harga">{{ p.harga }}</span>
+                {% if p.harga_coret and p.harga_coret != '-' %}
+                <span class="sp-harga-coret">{{ p.harga_coret }}</span>
+                {% endif %}
+              </td>
+              <td class="sp-num-muted" style="font-size:12px">{{ p.terjual }}</td>
+              <td>
+                {% if p.rating and p.rating != '-' %}
+                <span class="sp-star">⭐</span>
+                <span style="font-size:12px;font-weight:600">{{ p.rating }}</span>
+                {% else %}–{% endif %}
+              </td>
+              <td>
+                {% if p.diskon and p.diskon != '-' %}
+                <span class="sp-chip sp-chip--diskon">{{ p.diskon }}</span>
+                {% else %}–{% endif %}
+              </td>
+              <td class="sp-loc"><i class="bi bi-geo-alt-fill"></i> {{ p.lokasi_seller }}</td>
+              <td><span class="sp-chip sp-chip--kat">{{ p.kategori if p.kategori != '-' else 'Umum' }}</span></td>
+              <td style="font-size:12px;color:var(--sp-muted)">{{ p.keyword_cari }}</td>
+              <td style="font-size:11px;color:var(--sp-muted);white-space:nowrap">{{ p.waktu_scrape }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="sp-row-count">
+        Menampilkan <strong id="cntRow">{{ data|length }}</strong> dari {{ total }} produk
+      </div>
+      {% else %}
+      <div class="sp-empty">
+        <div class="sp-empty-icon">🛒</div>
+        <h5>Belum ada data produk Shopee</h5>
+        <p>Jalankan scraper terlebih dahulu — output CSV akan otomatis terbaca.</p>
+        <code>python shopee_gresik.py --keyword "produk gresik" --halaman 5</code>
+      </div>
+      {% endif %}
+    </div>
+
+    {# ── TAB TOKO ────────────────────────────────── #}
+    <div class="sp-tab-pane" id="pane-toko">
+
+      <div class="sp-filters">
+        <input class="sp-filter-input" id="filterToko" type="text"
+               style="max-width:320px"
+               placeholder="🔍  Cari nama toko / lokasi…"
+               oninput="filterTabel('tabelToko','filterToko')">
+      </div>
+
+      {% if toko_rows %}
+      <div class="sp-table-wrap" style="padding:16px 18px 0">
+        <table class="sp-table" id="tabelToko">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nama Toko</th>
+              <th>Lokasi</th>
+              <th>Kategori</th>
+              <th style="text-align:center">Produk</th>
+              <th>Keyword</th>
+              <th>Contoh Produk</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for t in toko_rows %}
+            <tr
+              data-nama="{{ t.nama_toko|lower }}"
+              data-lokasi="{{ t.lokasi_seller|lower }}"
+            >
+              <td class="sp-row-no">{{ loop.index }}</td>
+              <td style="font-weight:700;color:var(--sp-text)">{{ t.nama_toko }}</td>
+              <td class="sp-loc"><i class="bi bi-geo-alt-fill"></i> {{ t.lokasi_seller }}</td>
+              <td><span class="sp-chip sp-chip--kat">{{ t.kategori if t.kategori != '-' else 'Umum' }}</span></td>
+              <td style="text-align:center">
+                <span style="display:inline-block;min-width:28px;padding:2px 8px;border-radius:20px;
+                             background:var(--sp-orange);color:#fff;font-size:12px;font-weight:700">
+                  {{ t.jumlah_produk }}
+                </span>
+              </td>
+              <td style="font-size:12px;color:var(--sp-muted);max-width:160px">
+                <span style="display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="{{ t.keyword_list }}">
+                  {{ t.keyword_list }}
+                </span>
+              </td>
+              <td style="font-size:12px;color:var(--sp-muted);max-width:220px">
+                <span style="display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="{{ t.daftar_produk }}">
+                  {{ t.daftar_produk }}
+                </span>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="sp-row-count">{{ toko_rows|length }} toko ditampilkan</div>
+      {% else %}
+      <div class="sp-empty">
+        <div class="sp-empty-icon">🏪</div>
+        <h5>Belum ada ringkasan toko</h5>
+        <p>File <code>toko_gresik_shopee_per_toko.csv</code> belum tersedia.</p>
+      </div>
+      {% endif %}
+    </div>
+
+  </div>{# /sp-tabs-wrap #}
+</div>{# /sp-wrap #}
+{% endblock %}
+
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+/* ── Data ──────────────────────────────────────────── */
+const chartKategoriData = {{ chart_kategori | tojson }};
+const chartLokasiData   = {{ chart_lokasi   | tojson }};
+
+const PALETTE = [
+  "#ff5722","#2196f3","#4caf50","#9c27b0","#ffb300",
+  "#00bcd4","#e91e63","#607d8b","#795548","#009688",
+];
+
+/* ── Chart: Kategori (Doughnut) ─────────────────── */
+if (chartKategoriData.length) {
+  new Chart(document.getElementById("chartKategori"), {
+    type: "doughnut",
+    data: {
+      labels: chartKategoriData.map(d => d.label),
+      datasets: [{
+        data: chartKategoriData.map(d => d.value),
+        backgroundColor: PALETTE,
+        borderWidth: 2,
+        borderColor: "#fff",
+      }],
+    },
+    options: {
+      plugins: {
+        legend: { position:"right", labels:{ font:{size:11}, boxWidth:12 } },
+      },
+      cutout: "58%",
+    },
+  });
+}
+
+/* ── Chart: Lokasi (Horizontal Bar) ─────────────── */
+if (chartLokasiData.length) {
+  new Chart(document.getElementById("chartLokasi"), {
+    type: "bar",
+    data: {
+      labels: chartLokasiData.map(d => d.label),
+      datasets: [{
+        label: "Produk",
+        data: chartLokasiData.map(d => d.value),
+        backgroundColor: "#2196f3",
+        borderRadius: 5,
+      }],
+    },
+    options: {
+      indexAxis: "y",
+      plugins: { legend:{ display:false } },
+      scales: {
+        x: { grid:{ color:"rgba(0,0,0,.05)" }, ticks:{ font:{size:11} } },
+        y: { ticks:{ font:{size:11} } },
+      },
+    },
+  });
+}
+
+/* ── Tabs ────────────────────────────────────────── */
+function switchTab(name, btn) {
+  document.querySelectorAll('.sp-tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.sp-tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('pane-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+/* ── Filter ──────────────────────────────────────── */
+function filterTabel(tabelId, inputId) {
+  const q   = document.getElementById(inputId).value.toLowerCase();
+  const kat = (document.getElementById("filterKategori") || {}).value || "";
+  const lok = (document.getElementById("filterLokasi")   || {}).value || "";
+  const kw  = (document.getElementById("filterKeyword")  || {}).value || "";
+
+  const tabel = document.getElementById(tabelId);
+  if (!tabel) return;
+
+  let visible = 0;
+  tabel.querySelectorAll("tbody tr").forEach(tr => {
+    const nm  = tr.dataset.nama   || tr.textContent.toLowerCase();
+    const lo  = tr.dataset.lokasi || "";
+    const k   = tr.dataset.kat    || "";
+    const kwd = tr.dataset.kw     || "";
+
+    const matchQ   = !q   || nm.includes(q) || lo.includes(q) || (tr.dataset.toko||"").includes(q);
+    const matchKat = !kat || k === kat;
+    const matchLok = !lok || lo.includes(lok.toLowerCase());
+    const matchKw  = !kw  || kwd === kw;
+
+    const show = matchQ && matchKat && matchLok && matchKw;
+    tr.style.display = show ? "" : "none";
+    if (show) visible++;
+  });
+
+  const cnt = document.getElementById("cntRow");
+  if (cnt) cnt.textContent = visible;
+}
+
+/* ── Sort ────────────────────────────────────────── */
+function sortTabel() {
+  const mode  = document.getElementById("sortProduk").value;
+  const tbody = document.querySelector("#tabelProduk tbody");
+  if (!tbody) return;
+
+  const rows = Array.from(tbody.querySelectorAll("tr"));
+
+  rows.sort((a, b) => {
+    if (mode === "harga_asc")   return (parseFloat(a.dataset.harga)||0) - (parseFloat(b.dataset.harga)||0);
+    if (mode === "harga_desc")  return (parseFloat(b.dataset.harga)||0) - (parseFloat(a.dataset.harga)||0);
+    if (mode === "rating_desc") return (parseFloat(b.dataset.rating)||0) - (parseFloat(a.dataset.rating)||0);
+    if (mode === "toko_az")     return (a.dataset.toko||"").localeCompare(b.dataset.toko||"");
+    return 0;
+  });
+
+  rows.forEach((r, i) => {
+    tbody.appendChild(r);
+    const td = r.querySelector("td");
+    if (td) td.textContent = i + 1;
+  });
+}
+
+
+</script>
+{% endblock %}

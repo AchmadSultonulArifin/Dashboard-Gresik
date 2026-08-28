@@ -1,0 +1,1138 @@
+{% extends "base.html" %}
+{% block title %}Kelola Keyword{% endblock %}
+
+{% block content %}
+<style>
+/* ── Layout utama ── */
+.kw-wrap {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+/* ── Panel kiri: daftar grup ── */
+.panel-grup {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.07);
+  overflow: hidden;
+  position: sticky;
+  top: 20px;
+}
+.panel-header {
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.panel-header h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 12px;
+}
+.search-wrap {
+  position: relative;
+}
+.search-wrap input {
+  width: 100%;
+  padding: 9px 12px 9px 36px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 9px;
+  font-size: 13px;
+  color: #111;
+  background: #f9fafb;
+  outline: none;
+  transition: .2s;
+}
+.search-wrap input:focus {
+  border-color: #4f46e5;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(79,70,229,.1);
+}
+.search-wrap .ico-search {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  pointer-events: none;
+}
+.search-clear {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #e5e7eb;
+  border: none;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 11px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+}
+.search-clear.show { display: flex; }
+
+/* Grup list */
+.grup-list {
+  max-height: 520px;
+  overflow-y: auto;
+  padding: 10px;
+}
+.grup-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: .15s;
+  border: 1.5px solid transparent;
+  margin-bottom: 4px;
+}
+.grup-item:hover { background: #f3f4f6; }
+.grup-item.active {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+.grup-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+  color: white;
+  font-weight: 700;
+}
+.grup-info { flex: 1; min-width: 0; }
+.grup-nama {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.grup-meta {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-top: 1px;
+}
+.grup-badge {
+  background: #e0e7ff;
+  color: #4338ca;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+.grup-actions {
+  display: flex;
+  gap: 4px;
+  opacity: 0;
+  transition: .15s;
+}
+.grup-item:hover .grup-actions { opacity: 1; }
+.grup-item.active .grup-actions { opacity: 1; }
+
+.btn-icon {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .15s;
+  background: transparent;
+}
+.btn-icon.edit { color: #4f46e5; }
+.btn-icon.edit:hover { background: #eef2ff; }
+.btn-icon.del  { color: #ef4444; }
+.btn-icon.del:hover  { background: #fef2f2; }
+
+/* Tambah grup */
+.btn-add-grup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 10px 14px;
+  background: #f3f4f6;
+  border: 1.5px dashed #d1d5db;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  transition: .15s;
+}
+.btn-add-grup:hover {
+  background: #eef2ff;
+  border-color: #a5b4fc;
+  color: #4f46e5;
+}
+
+/* ── Panel kanan: detail keyword ── */
+.panel-detail {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.07);
+  overflow: hidden;
+  min-height: 400px;
+}
+.detail-header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.detail-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+}
+.detail-sub {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+.detail-actions { display: flex; gap: 8px; align-items: center; }
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-primary { background: #4f46e5; color: white; }
+.btn-primary:hover { background: #4338ca; }
+.btn-secondary { background: #f3f4f6; color: #374151; }
+.btn-secondary:hover { background: #e5e7eb; }
+.btn-danger { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+.btn-danger:hover { background: #fee2e2; }
+.btn-sm { padding: 5px 10px; font-size: 12px; }
+
+/* Input tambah keyword */
+.add-kw-bar {
+  padding: 16px 24px;
+  background: #f9fafb;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  gap: 10px;
+}
+.add-kw-bar input {
+  flex: 1;
+  padding: 9px 14px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 9px;
+  font-size: 13px;
+  outline: none;
+  transition: .2s;
+}
+.add-kw-bar input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79,70,229,.1);
+}
+
+/* Daftar keyword */
+.kw-list {
+  padding: 16px 24px;
+}
+.kw-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.kw-list-header small {
+  font-size: 12px;
+  color: #9ca3af;
+}
+.kw-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.kw-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  color: #3730a3;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .15s;
+}
+.kw-tag:hover { background: #e0e7ff; }
+.kw-tag.highlight {
+  background: #fef9c3;
+  border-color: #fde047;
+  color: #713f12;
+}
+.kw-tag-del {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #818cf8;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  transition: .15s;
+  border-radius: 50%;
+}
+.kw-tag-del:hover { color: #dc2626; }
+.kw-tag-edit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #818cf8;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-size: 11px;
+  transition: .15s;
+}
+.kw-tag-edit:hover { color: #4338ca; }
+
+/* State kosong */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #9ca3af;
+}
+.empty-state .emoji { font-size: 40px; margin-bottom: 12px; }
+.empty-state p { font-size: 14px; }
+.empty-state small { font-size: 12px; margin-top: 4px; display: block; }
+
+/* Search highlight */
+.hl { background: #fde68a; border-radius: 3px; padding: 0 2px; }
+
+/* Import textarea */
+.import-area {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 9px;
+  font-size: 13px;
+  font-family: monospace;
+  resize: vertical;
+  min-height: 100px;
+  outline: none;
+  transition: .2s;
+}
+.import-area:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79,70,229,.1);
+}
+
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  gap: 20px;
+  padding: 12px 24px;
+  background: #f9fafb;
+  border-top: 1px solid #f0f0f0;
+  font-size: 12px;
+  color: #6b7280;
+}
+.stats-bar strong { color: #111; }
+
+/* Toast */
+#toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0,0,0,.15);
+  z-index: 9999;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: .3s cubic-bezier(.34,1.56,.64,1);
+  pointer-events: none;
+}
+#toast.show { transform: translateY(0); opacity: 1; }
+#toast.success { background: #065f46; color: white; }
+#toast.error   { background: #991b1b; color: white; }
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: white;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 460px;
+  margin: 1rem;
+  box-shadow: 0 24px 60px rgba(0,0,0,.25);
+  animation: fadeUp .2s ease;
+  overflow: hidden;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 22px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.modal-head h3 { font-size: 15px; font-weight: 700; }
+.modal-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+  border-radius: 6px;
+  padding: 4px;
+  transition: .15s;
+}
+.modal-close-btn:hover { background: #f3f4f6; color: #374151; }
+.modal-body { padding: 20px 22px; }
+.modal-foot {
+  padding: 14px 22px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.field { margin-bottom: 14px; }
+.field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 6px;
+}
+.field input, .field textarea {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  transition: .2s;
+}
+.field input:focus, .field textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79,70,229,.1);
+}
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite;
+  border-radius: 6px;
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Responsif */
+@media (max-width: 900px) {
+  .kw-wrap { grid-template-columns: 1fr; }
+  .panel-grup { position: static; }
+  .grup-list { max-height: 260px; }
+}
+</style>
+
+<!-- ── Header ─────────────────────────── -->
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
+  <div>
+    <div style="font-size:13px;color:#9ca3af;margin-bottom:4px">Manajemen</div>
+    <div style="font-size:22px;font-weight:700;color:#111">🔑 Kelola Keyword</div>
+  </div>
+  <div style="display:flex;gap:8px">
+    <button class="btn btn-secondary" onclick="openImport()">
+      📥 Import Bulk
+    </button>
+    <button class="btn btn-primary" onclick="openModalGrup()">
+      ＋ Tambah Grup
+    </button>
+  </div>
+</div>
+
+<!-- ── Statistik ringkas ── -->
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:20px" id="stats-mini">
+  <div style="background:white;border-radius:12px;padding:16px 20px;box-shadow:0 2px 8px rgba(0,0,0,.07)">
+    <div style="font-size:24px;font-weight:700;color:#4f46e5" id="stat-group">-</div>
+    <div style="font-size:12px;color:#6b7280;margin-top:2px">Total Grup</div>
+  </div>
+  <div style="background:white;border-radius:12px;padding:16px 20px;box-shadow:0 2px 8px rgba(0,0,0,.07)">
+    <div style="font-size:24px;font-weight:700;color:#059669" id="stat-total">-</div>
+    <div style="font-size:12px;color:#6b7280;margin-top:2px">Total Keyword</div>
+  </div>
+  <div style="background:white;border-radius:12px;padding:16px 20px;box-shadow:0 2px 8px rgba(0,0,0,.07)">
+    <div style="font-size:24px;font-weight:700;color:#d97706" id="stat-avg">-</div>
+    <div style="font-size:12px;color:#6b7280;margin-top:2px">Rata-rata / Grup</div>
+  </div>
+</div>
+
+<!-- ── Layout utama ── -->
+<div class="kw-wrap">
+
+  <!-- Panel Kiri: Grup -->
+  <div class="panel-grup">
+    <div class="panel-header">
+      <h3>Daftar Grup</h3>
+      <div class="search-wrap">
+        <svg class="ico-search" width="14" height="14" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="search-input" placeholder="Cari grup atau keyword..."
+               oninput="handleSearch(this.value)">
+        <button class="search-clear" id="search-clear" onclick="clearSearch()">✕</button>
+      </div>
+    </div>
+
+    <div class="grup-list" id="grup-list">
+      <!-- Diisi JS -->
+      <div style="padding:20px;text-align:center;color:#9ca3af;font-size:13px">
+        <div class="skeleton" style="height:44px;margin-bottom:8px;border-radius:9px"></div>
+        <div class="skeleton" style="height:44px;margin-bottom:8px;border-radius:9px"></div>
+        <div class="skeleton" style="height:44px;border-radius:9px"></div>
+      </div>
+    </div>
+
+    <button class="btn-add-grup" onclick="openModalGrup()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2.5">
+        <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+      </svg>
+      Tambah Grup Baru
+    </button>
+  </div>
+
+  <!-- Panel Kanan: Detail Keyword -->
+  <div class="panel-detail" id="panel-detail">
+    <div class="empty-state" style="padding:80px 20px">
+      <div class="emoji">👈</div>
+      <p>Pilih grup di sebelah kiri</p>
+      <small>untuk melihat dan mengelola keyword</small>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── Toast Notification ── -->
+<div id="toast"></div>
+
+<!-- ══════════════════ MODAL GRUP ══════════════════ -->
+<div class="modal-overlay" id="modal-grup">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="modal-grup-title">Tambah Grup Keyword</h3>
+      <button class="modal-close-btn" onclick="closeModalGrup()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="field">
+        <label>Nama Grup <span style="color:#ef4444">*</span></label>
+        <input type="text" id="grup-nama-input" placeholder="Contoh: Bupati Gresik, Thematic, dll.">
+      </div>
+      <div class="field">
+        <label>Deskripsi (opsional)</label>
+        <textarea id="grup-desc-input" placeholder="Keterangan singkat tentang grup ini..."
+                  style="resize:vertical;min-height:70px"></textarea>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeModalGrup()">Batal</button>
+      <button class="btn btn-primary" id="btn-save-grup" onclick="saveGrup()">Simpan Grup</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════ MODAL EDIT KEYWORD ══════════════════ -->
+<div class="modal-overlay" id="modal-kw-edit">
+  <div class="modal">
+    <div class="modal-head">
+      <h3>Edit Keyword</h3>
+      <button class="modal-close-btn" onclick="closeModalEditKw()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="field">
+        <label>Keyword <span style="color:#ef4444">*</span></label>
+        <input type="text" id="kw-edit-input" placeholder="Masukkan keyword">
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeModalEditKw()">Batal</button>
+      <button class="btn btn-primary" onclick="saveEditKw()">Simpan</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════ MODAL KONFIRMASI HAPUS ══════════════════ -->
+<div class="modal-overlay" id="modal-konfirmasi">
+  <div class="modal" style="max-width:380px">
+    <div class="modal-head">
+      <h3 id="konfirmasi-title">Hapus Item</h3>
+      <button class="modal-close-btn" onclick="closeKonfirmasi()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p id="konfirmasi-msg" style="font-size:14px;color:#374151;line-height:1.5"></p>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeKonfirmasi()">Batal</button>
+      <button class="btn btn-danger" id="btn-konfirmasi-ok" onclick="">Ya, Hapus</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════ MODAL IMPORT BULK ══════════════════ -->
+<div class="modal-overlay" id="modal-import">
+  <div class="modal" style="max-width:500px">
+    <div class="modal-head">
+      <h3>📥 Import Keyword Bulk</h3>
+      <button class="modal-close-btn" onclick="closeImport()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="field">
+        <label>Pilih Grup Tujuan</label>
+        <select id="import-group-sel"
+                style="width:100%;padding:9px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none">
+          <option value="">-- Pilih grup --</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Daftar Keyword (satu per baris)</label>
+        <textarea class="import-area" id="import-textarea"
+                  placeholder="bupati gresik&#10;wabup gresik&#10;pemkab gresik&#10;..."></textarea>
+      </div>
+      <div style="font-size:12px;color:#9ca3af">
+        💡 Satu keyword per baris. Duplikat akan otomatis dilewati.
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-secondary" onclick="closeImport()">Batal</button>
+      <button class="btn btn-primary" onclick="doImport()">Import Keyword</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ──
+let allGroups     = [];    // data lengkap dari API
+let activeGroupId = null;  // grup yang sedang dipilih
+let editGrupId    = null;  // untuk edit grup
+let editKwId      = null;  // untuk edit keyword
+let searchQuery   = '';
+let debounceTimer = null;
+
+// ── Init ──
+document.addEventListener('DOMContentLoaded', () => {
+  loadGroups();
+});
+
+// ══════════════════ LOAD DATA ══════════════════
+
+async function loadGroups(q = '') {
+  try {
+    const url = q
+      ? `/api/keywords/search?q=${encodeURIComponent(q)}`
+      : '/api/keywords';
+    const res  = await fetch(url);
+    const data = await res.json();
+    allGroups  = data;
+    renderGrupList(data, q);
+    updateStats(data);
+
+    // Jika ada grup aktif, re-render detail-nya
+    if (activeGroupId) {
+      const g = data.find(x => x.id === activeGroupId);
+      if (g) renderDetail(g, q);
+    }
+  } catch(e) {
+    showToast('Gagal memuat data keyword', 'error');
+  }
+}
+
+function updateStats(data) {
+  const totalGrup  = data.length;
+  const totalKw    = data.reduce((s, g) => s + g.total, 0);
+  const avg        = totalGrup ? (totalKw / totalGrup).toFixed(1) : 0;
+  document.getElementById('stat-group').textContent = totalGrup;
+  document.getElementById('stat-total').textContent = totalKw;
+  document.getElementById('stat-avg').textContent   = avg;
+}
+
+// ══════════════════ RENDER GRUP LIST ══════════════════
+
+function renderGrupList(groups, q = '') {
+  const container = document.getElementById('grup-list');
+  if (!groups.length) {
+    container.innerHTML = `
+      <div class="empty-state" style="padding:30px 20px">
+        <div class="emoji">🔍</div>
+        <p>Tidak ada grup ditemukan</p>
+        ${q ? `<small>untuk pencarian "<strong>${escHtml(q)}</strong>"</small>` : ''}
+      </div>`;
+    return;
+  }
+  container.innerHTML = groups.map(g => `
+    <div class="grup-item ${g.id === activeGroupId ? 'active' : ''}"
+         id="grup-item-${g.id}"
+         onclick="selectGrup(${g.id})">
+      <div class="grup-icon">${escHtml(g.nama[0].toUpperCase())}</div>
+      <div class="grup-info">
+        <div class="grup-nama">${hlText(escHtml(g.nama), q)}</div>
+        <div class="grup-meta">${g.deskripsi || 'Tanpa deskripsi'}</div>
+      </div>
+      <span class="grup-badge">${g.total}</span>
+      <div class="grup-actions" onclick="event.stopPropagation()">
+        <button class="btn-icon edit" title="Edit grup"
+                onclick="openEditGrup(${g.id}, '${escHtml(g.nama)}', '${escHtml(g.deskripsi || '')}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+          </svg>
+        </button>
+        <button class="btn-icon del" title="Hapus grup"
+                onclick="confirmHapusGrup(${g.id}, '${escHtml(g.nama)}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="3 6 5 6 21 6"/>
+            <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+            <path d="M10 11v6"/><path d="M14 11v6"/>
+            <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ══════════════════ SELECT GRUP & RENDER DETAIL ══════════════════
+
+function selectGrup(id) {
+  activeGroupId = id;
+  // Update active state di list
+  document.querySelectorAll('.grup-item').forEach(el => el.classList.remove('active'));
+  const el = document.getElementById(`grup-item-${id}`);
+  if (el) el.classList.add('active');
+
+  const g = allGroups.find(x => x.id === id);
+  if (g) renderDetail(g, searchQuery);
+}
+
+function renderDetail(g, q = '') {
+  const panel = document.getElementById('panel-detail');
+  const kws   = g.keywords;
+
+  panel.innerHTML = `
+    <!-- Header -->
+    <div class="detail-header">
+      <div>
+        <div class="detail-title">📁 ${escHtml(g.nama)}</div>
+        <div class="detail-sub">${escHtml(g.deskripsi || 'Tanpa deskripsi')} · ${kws.length} keyword</div>
+      </div>
+      <div class="detail-actions">
+        <button class="btn btn-secondary btn-sm" onclick="openImportForGroup(${g.id})">
+          📥 Import
+        </button>
+        <button class="btn btn-danger btn-sm" onclick="confirmHapusGrup(${g.id}, '${escHtml(g.nama)}')">
+          🗑️ Hapus Grup
+        </button>
+      </div>
+    </div>
+
+    <!-- Input tambah keyword -->
+    <div class="add-kw-bar">
+      <input type="text"
+             id="new-kw-input"
+             placeholder="Ketik keyword baru lalu tekan Enter atau klik Tambah..."
+             onkeydown="if(event.key==='Enter') addKeyword(${g.id})">
+      <button class="btn btn-primary btn-sm" onclick="addKeyword(${g.id})">
+        ＋ Tambah
+      </button>
+    </div>
+
+    <!-- Daftar keyword -->
+    <div class="kw-list">
+      <div class="kw-list-header">
+        <span style="font-size:13px;font-weight:600;color:#374151">
+          Keyword dalam grup ini
+          ${q ? `· menampilkan yang cocok dengan "<span style="color:#4f46e5">${escHtml(q)}</span>"` : ''}
+        </span>
+        <small>${kws.length} keyword</small>
+      </div>
+      <div class="kw-grid" id="kw-grid-${g.id}">
+        ${kws.length
+          ? kws.map(k => kwTagHtml(k, q)).join('')
+          : `<div style="color:#9ca3af;font-size:13px;padding:10px 0">
+               Belum ada keyword. Tambahkan di atas ☝️
+             </div>`
+        }
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <span><strong>${kws.length}</strong> keyword</span>
+      ${kws.length
+        ? `<span>Terpanjang: <strong>${escHtml(kws.reduce((a,b) => a.kata.length>b.kata.length?a:b).kata)}</strong></span>`
+        : ''}
+    </div>
+  `;
+}
+
+function kwTagHtml(k, q = '') {
+  return `
+    <span class="kw-tag ${q && k.kata.toLowerCase().includes(q.toLowerCase()) ? 'highlight' : ''}"
+          id="kw-tag-${k.id}">
+      ${hlText(escHtml(k.kata), q)}
+      <button class="kw-tag-edit" title="Edit"
+              onclick="openEditKw(${k.id}, '${escHtml(k.kata)}')">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 20h9"/>
+          <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+        </svg>
+      </button>
+      <button class="kw-tag-del" title="Hapus"
+              onclick="confirmHapusKw(${k.id}, '${escHtml(k.kata)}')">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </span>
+  `;
+}
+
+// ══════════════════ LIVE SEARCH ══════════════════
+
+function handleSearch(val) {
+  searchQuery = val.trim();
+  document.getElementById('search-clear').classList.toggle('show', !!searchQuery);
+
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    loadGroups(searchQuery);
+  }, 300);
+}
+
+function clearSearch() {
+  document.getElementById('search-input').value = '';
+  searchQuery = '';
+  document.getElementById('search-clear').classList.remove('show');
+  loadGroups();
+}
+
+// Highlight teks yang dicari
+function hlText(text, q) {
+  if (!q) return text;
+  const regex = new RegExp(`(${escReg(q)})`, 'gi');
+  return text.replace(regex, '<span class="hl">$1</span>');
+}
+
+// ══════════════════ CRUD GRUP ══════════════════
+
+function openModalGrup() {
+  editGrupId = null;
+  document.getElementById('modal-grup-title').textContent = 'Tambah Grup Keyword';
+  document.getElementById('grup-nama-input').value  = '';
+  document.getElementById('grup-desc-input').value  = '';
+  document.getElementById('btn-save-grup').textContent = 'Simpan Grup';
+  document.getElementById('modal-grup').classList.add('open');
+  setTimeout(() => document.getElementById('grup-nama-input').focus(), 100);
+}
+
+function openEditGrup(id, nama, deskripsi) {
+  editGrupId = id;
+  document.getElementById('modal-grup-title').textContent = 'Edit Grup Keyword';
+  document.getElementById('grup-nama-input').value  = nama;
+  document.getElementById('grup-desc-input').value  = deskripsi;
+  document.getElementById('btn-save-grup').textContent = 'Perbarui Grup';
+  document.getElementById('modal-grup').classList.add('open');
+  setTimeout(() => document.getElementById('grup-nama-input').focus(), 100);
+}
+
+function closeModalGrup() {
+  document.getElementById('modal-grup').classList.remove('open');
+}
+
+async function saveGrup() {
+  const nama = document.getElementById('grup-nama-input').value.trim();
+  const desc = document.getElementById('grup-desc-input').value.trim();
+  if (!nama) { showToast('Nama grup wajib diisi', 'error'); return; }
+
+  const isEdit = !!editGrupId;
+  const url    = isEdit ? `/api/keywords/group/${editGrupId}` : '/api/keywords/group';
+  const method = isEdit ? 'PUT' : 'POST';
+
+  try {
+    const res  = await fetch(url, {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ nama, deskripsi: desc }),
+    });
+    const data = await res.json();
+    if (!res.ok) { showToast(data.error || 'Gagal menyimpan', 'error'); return; }
+
+    closeModalGrup();
+    showToast(isEdit ? 'Grup berhasil diperbarui ✓' : 'Grup berhasil ditambahkan ✓', 'success');
+    await loadGroups(searchQuery);
+    if (!isEdit) selectGrup(data.id);
+  } catch(e) {
+    showToast('Terjadi kesalahan', 'error');
+  }
+}
+
+function confirmHapusGrup(id, nama) {
+  showKonfirmasi(
+    'Hapus Grup',
+    `Hapus grup "<strong>${escHtml(nama)}</strong>"? Semua keyword di dalamnya juga akan dihapus.`,
+    async () => {
+      try {
+        const res = await fetch(`/api/keywords/group/${id}`, { method: 'DELETE' });
+        if (!res.ok) { showToast('Gagal menghapus grup', 'error'); return; }
+        closeKonfirmasi();
+        showToast('Grup berhasil dihapus', 'success');
+        if (activeGroupId === id) {
+          activeGroupId = null;
+          document.getElementById('panel-detail').innerHTML = `
+            <div class="empty-state" style="padding:80px 20px">
+              <div class="emoji">👈</div>
+              <p>Pilih grup di sebelah kiri</p>
+              <small>untuk melihat dan mengelola keyword</small>
+            </div>`;
+        }
+        await loadGroups(searchQuery);
+      } catch(e) { showToast('Terjadi kesalahan', 'error'); }
+    }
+  );
+}
+
+// ══════════════════ CRUD KEYWORD ══════════════════
+
+async function addKeyword(groupId) {
+  const input = document.getElementById('new-kw-input');
+  const kata  = (input ? input.value : '').trim();
+  if (!kata) { showToast('Keyword tidak boleh kosong', 'error'); return; }
+
+  try {
+    const res  = await fetch('/api/keywords/item', {
+      method : 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body   : JSON.stringify({ group_id: groupId, kata }),
+    });
+    const data = await res.json();
+    if (!res.ok) { showToast(data.error || 'Gagal menambah keyword', 'error'); return; }
+
+    input.value = '';
+    showToast(`"${kata}" ditambahkan ✓`, 'success');
+    await loadGroups(searchQuery);
+    // Re-render detail supaya keyword baru muncul
+    const g = allGroups.find(x => x.id === groupId);
+    if (g) renderDetail(g, searchQuery);
+    // Fokus kembali ke input
+    const ni = document.getElementById('new-kw-input');
+    if (ni) ni.focus();
+  } catch(e) { showToast('Terjadi kesalahan', 'error'); }
+}
+
+function openEditKw(id, kata) {
+  editKwId = id;
+  document.getElementById('kw-edit-input').value = kata;
+  document.getElementById('modal-kw-edit').classList.add('open');
+  setTimeout(() => document.getElementById('kw-edit-input').focus(), 100);
+}
+
+function closeModalEditKw() {
+  document.getElementById('modal-kw-edit').classList.remove('open');
+}
+
+async function saveEditKw() {
+  const kata = document.getElementById('kw-edit-input').value.trim();
+  if (!kata) { showToast('Keyword tidak boleh kosong', 'error'); return; }
+
+  try {
+    const res  = await fetch(`/api/keywords/item/${editKwId}`, {
+      method : 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body   : JSON.stringify({ kata }),
+    });
+    const data = await res.json();
+    if (!res.ok) { showToast(data.error || 'Gagal memperbarui', 'error'); return; }
+
+    closeModalEditKw();
+    showToast('Keyword diperbarui ✓', 'success');
+    await loadGroups(searchQuery);
+    const g = allGroups.find(x => x.id === activeGroupId);
+    if (g) renderDetail(g, searchQuery);
+  } catch(e) { showToast('Terjadi kesalahan', 'error'); }
+}
+
+function confirmHapusKw(id, kata) {
+  showKonfirmasi(
+    'Hapus Keyword',
+    `Hapus keyword "<strong>${escHtml(kata)}</strong>"?`,
+    async () => {
+      try {
+        const res = await fetch(`/api/keywords/item/${id}`, { method: 'DELETE' });
+        if (!res.ok) { showToast('Gagal menghapus', 'error'); return; }
+        closeKonfirmasi();
+        showToast('Keyword dihapus', 'success');
+        await loadGroups(searchQuery);
+        const g = allGroups.find(x => x.id === activeGroupId);
+        if (g) renderDetail(g, searchQuery);
+      } catch(e) { showToast('Terjadi kesalahan', 'error'); }
+    }
+  );
+}
+
+// ══════════════════ IMPORT BULK ══════════════════
+
+function openImport() {
+  // Isi dropdown grup
+  const sel = document.getElementById('import-group-sel');
+  sel.innerHTML = '<option value="">-- Pilih grup --</option>'
+    + allGroups.map(g => `<option value="${g.id}">${escHtml(g.nama)}</option>`).join('');
+  if (activeGroupId) sel.value = activeGroupId;
+  document.getElementById('import-textarea').value = '';
+  document.getElementById('modal-import').classList.add('open');
+}
+
+function openImportForGroup(id) {
+  activeGroupId = id;
+  openImport();
+}
+
+function closeImport() {
+  document.getElementById('modal-import').classList.remove('open');
+}
+
+async function doImport() {
+  const group_id = parseInt(document.getElementById('import-group-sel').value);
+  const raw      = document.getElementById('import-textarea').value;
+  if (!group_id) { showToast('Pilih grup terlebih dahulu', 'error'); return; }
+  if (!raw.trim()) { showToast('Daftar keyword kosong', 'error'); return; }
+
+  const kata_list = raw.split('\n').map(s => s.trim()).filter(Boolean);
+  if (!kata_list.length) { showToast('Tidak ada keyword valid', 'error'); return; }
+
+  try {
+    const res  = await fetch('/api/keywords/import', {
+      method : 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body   : JSON.stringify({ group_id, kata_list }),
+    });
+    const data = await res.json();
+    if (!res.ok) { showToast(data.error || 'Gagal import', 'error'); return; }
+
+    closeImport();
+    showToast(`✓ ${data.added} keyword ditambahkan, ${data.skipped} dilewati`, 'success');
+    await loadGroups(searchQuery);
+    const g = allGroups.find(x => x.id === group_id);
+    if (g) { activeGroupId = group_id; renderDetail(g, searchQuery); }
+  } catch(e) { showToast('Terjadi kesalahan', 'error'); }
+}
+
+// ══════════════════ KONFIRMASI MODAL ══════════════════
+
+function showKonfirmasi(title, msg, onOk) {
+  document.getElementById('konfirmasi-title').textContent = title;
+  document.getElementById('konfirmasi-msg').innerHTML     = msg;
+  document.getElementById('btn-konfirmasi-ok').onclick    = onOk;
+  document.getElementById('modal-konfirmasi').classList.add('open');
+}
+function closeKonfirmasi() {
+  document.getElementById('modal-konfirmasi').classList.remove('open');
+}
+
+// ══════════════════ TOAST ══════════════════
+
+let toastTimer;
+function showToast(msg, type = 'success') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className   = `show ${type}`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.className = ''; }, 3000);
+}
+
+// ══════════════════ HELPERS ══════════════════
+
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;')
+    .replace(/'/g,'&#39;');
+}
+
+function escReg(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Tutup modal saat klik backdrop
+['modal-grup','modal-kw-edit','modal-konfirmasi','modal-import'].forEach(id => {
+  document.getElementById(id).addEventListener('click', function(e) {
+    if (e.target === this) this.classList.remove('open');
+  });
+});
+
+// Shortcut: Esc tutup semua modal
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    ['modal-grup','modal-kw-edit','modal-konfirmasi','modal-import'].forEach(id => {
+      document.getElementById(id).classList.remove('open');
+    });
+  }
+});
+</script>
+{% endblock %}

@@ -51,7 +51,11 @@ def path_arsip() -> str:
 # ══════════════════════════════════════════════════════
 # KATA KUNCI PENCARIAN
 # ══════════════════════════════════════════════════════
+<<<<<<< HEAD
 DASHBOARD_URL = "http://localhost:5000"  # sesuaikan port jika beda
+=======
+KDASHBOARD_URL = "http://localhost:5000"  # sesuaikan port jika beda
+>>>>>>> f564e03 (Update semua)
 
 def ambil_keywords_dari_dashboard() -> list:
     try:
@@ -86,6 +90,10 @@ def ambil_topik_rules_dari_dashboard() -> dict:
 # Jalankan saat startup — ambil dari dashboard
 KEYWORDS      = ambil_keywords_dari_dashboard()
 _TOPIK_RULES  = ambil_topik_rules_dari_dashboard()
+<<<<<<< HEAD
+=======
+
+>>>>>>> f564e03 (Update semua)
 
 HEADERS = {
     "User-Agent": (

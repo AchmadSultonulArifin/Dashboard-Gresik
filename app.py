@@ -1508,6 +1508,7 @@ def berita_topik_hapus_semua():
     flash(f"Topik '{topik}' dan semua kata kuncinya dihapus.", "success")
     return redirect(url_for("berita_pengaturan"))
 
+<<<<<<< HEAD
 # ══════════════════════════════════════════════════════════════
 # SHOPEE — Path file output scraper
 # ══════════════════════════════════════════════════════════════
@@ -1982,6 +1983,8 @@ def api_tokopedia():
         lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
     )
     return jsonify(df_out.head(200).to_dict("records"))
+=======
+>>>>>>> f564e03 (Update semua)
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

@@ -146,9 +146,7 @@ def gabungkan_keyword_cli(cfg, keyword_cli):
 # SETUP BROWSER
 # ══════════════════════════════════════════════════════
 def buat_browser():
-    if not os.path.exists(CHROMEDRIVER):
-        print(f"❌ chromedriver.exe tidak ditemukan di: {CHROMEDRIVER}")
-        exit(1)
+    from webdriver_manager.chrome import ChromeDriverManager
     opt = Options()
     opt.add_argument("--no-sandbox")
     opt.add_argument("--disable-dev-shm-usage")
@@ -158,7 +156,7 @@ def buat_browser():
     opt.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36")
     opt.add_experimental_option("excludeSwitches", ["enable-automation"])
     opt.add_experimental_option("useAutomationExtension", False)
-    driver = webdriver.Chrome(service=Service(CHROMEDRIVER), options=opt)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opt)
     driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument",
         {"source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"})
     driver.set_page_load_timeout(60)

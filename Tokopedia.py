@@ -30,6 +30,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, WebDriverException, ElementClickInterceptedException
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 # ══════════════════════════════════════════════════════
 # PENGATURAN DASAR
@@ -143,27 +145,21 @@ def gabungkan_keyword_cli(cfg, keyword_cli):
 # SETUP BROWSER
 # ══════════════════════════════════════════════════════
 def buat_browser():
-    if not os.path.exists(CHROMEDRIVER):
-        print(f"❌ chromedriver.exe tidak ditemukan di: {CHROMEDRIVER}")
-        exit(1)
+    from webdriver_manager.chrome import ChromeDriverManager
     opt = Options()
     opt.add_argument("--no-sandbox")
     opt.add_argument("--disable-dev-shm-usage")
     opt.add_argument("--window-size=1400,900")
     opt.add_argument("--disable-blink-features=AutomationControlled")
     opt.add_argument("--lang=id-ID")
-    opt.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
-    )
+    opt.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36")
     opt.add_experimental_option("excludeSwitches", ["enable-automation"])
     opt.add_experimental_option("useAutomationExtension", False)
-    driver = webdriver.Chrome(service=Service(CHROMEDRIVER), options=opt)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opt)
     driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument",
         {"source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"})
     driver.set_page_load_timeout(60)
-    driver.implicitly_wait(4)
+    driver.implicitly_wait(5)
     return driver
 
 # ══════════════════════════════════════════════════════

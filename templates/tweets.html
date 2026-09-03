@@ -79,71 +79,220 @@
 <div class="card">
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
         <h2 style="font-size:14px;font-weight:600;color:#374151;margin:0;">
-            Semua Tweet <span style="color:#6b7280;font-weight:400;">({{ total }})</span>
+            Semua Tweet <span style="color:#6b7280;font-weight:400;" id="jumlahLabel">({{ total }})</span>
         </h2>
-        <input type="text" id="cari" placeholder="🔍 Cari tweet..."
-            style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;width:240px;outline:none;">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <!-- Filter sentimen -->
+            <select id="filterSentimen"
+                style="padding:7px 10px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;background:#fff;cursor:pointer;">
+                <option value="">Semua Sentimen</option>
+                <option value="positif">Positif</option>
+                <option value="netral">Netral</option>
+                <option value="negatif">Negatif</option>
+            </select>
+            <!-- Filter topik -->
+            <select id="filterTopik"
+                style="padding:7px 10px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;background:#fff;cursor:pointer;">
+                <option value="">Semua Topik</option>
+                {% for t in topik %}
+                <option value="{{ t }}">{{ t }}</option>
+                {% endfor %}
+            </select>
+            <!-- Cari -->
+            <input type="text" id="cari" placeholder="🔍 Cari tweet..."
+                style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;width:220px;outline:none;">
+        </div>
     </div>
+
     <div style="overflow-x:auto;">
         <table style="width:100%;border-collapse:collapse;font-size:13px;">
             <thead>
                 <tr style="background:#f9fafb;">
-                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:110px;">Tanggal</th>
-                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:80px;">User</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:150px;">Tanggal</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:90px;">User</th>
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;">Tweet</th>
-                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:100px;">Topik</th>
-                    <th style="padding:10px 12px;text-align:center;color:#6b7280;font-weight:600;white-space:nowrap;width:90px;">Sentimen</th>
+                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:110px;">Topik</th>
+                    <th style="padding:10px 12px;text-align:center;color:#6b7280;font-weight:600;white-space:nowrap;width:100px;">Sentimen</th>
                 </tr>
             </thead>
-            <tbody id="tabelBody">
-            {% for t in data %}
-            <tr style="border-bottom:1px solid #f1f5f9;transition:.15s;" onmouseover="this.style.background='#f9fafb'" onmouseout="this.style.background=''">
-                <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:12px;">
-                    {{ t.tanggal }}
-                </td>
-                <td style="padding:10px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:80px;">
-                    <span style="font-size:12px;color:#374151;font-weight:500;">@{{ t.username }}</span>
-                </td>
-                <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:500px;word-break:break-word;">
-                    {% if t.teks_asli is string %}
-                        {{ t.teks_asli[:150] }}{% if t.teks_asli|length > 150 %}...{% endif %}
-                    {% else %}-{% endif %}
-                </td>
-                <td style="padding:10px 12px;white-space:nowrap;">
-                    <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;padding:3px 8px;border-radius:20px;font-weight:500;">
-                        {{ t.topik }}
-                    </span>
-                </td>
-                <td style="padding:10px 12px;text-align:center;">
-                    {% if t.sentimen == 'positif' %}
-                        <span style="font-size:11px;background:#d1fae5;color:#065f46;padding:3px 10px;border-radius:20px;font-weight:600;">Positif</span>
-                    {% elif t.sentimen == 'negatif' %}
-                        <span style="font-size:11px;background:#fee2e2;color:#991b1b;padding:3px 10px;border-radius:20px;font-weight:600;">Negatif</span>
-                    {% else %}
-                        <span style="font-size:11px;background:#f3f4f6;color:#374151;padding:3px 10px;border-radius:20px;font-weight:600;">Netral</span>
-                    {% endif %}
-                </td>
-            </tr>
-            {% endfor %}
-            </tbody>
+            <tbody id="tabelBody"></tbody>
         </table>
     </div>
+
+    <!-- Info baris + kontrol per halaman -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap;gap:8px;">
+        <div style="font-size:12px;color:#6b7280;" id="infoRows">Menampilkan 0–0 dari 0 tweet</div>
+        <div style="display:flex;align-items:center;gap:6px;">
+            <label style="font-size:12px;color:#6b7280;">Baris per halaman:</label>
+            <select id="perHalaman"
+                style="padding:4px 8px;border:1.5px solid #e5e7eb;border-radius:6px;font-size:12px;outline:none;background:#fff;">
+                <option value="25">25</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div style="display:flex;align-items:center;justify-content:center;gap:4px;margin-top:12px;flex-wrap:wrap;" id="pagination"></div>
 </div>
 
 <script>
-const chartData = {{ chart_data|tojson }};
-const warna = { positif:"#16a34a", netral:"#9ca3af", negatif:"#dc2626" };
-const tanggal = [...new Set(chartData.map(x=>x.tanggal))];
-const label   = ["positif","netral","negatif"];
+/* ── Data dari Jinja ── */
+const semuaData   = {{ data|tojson }};
+const chartData   = {{ chart_data|tojson }};
+const warna       = { positif:"#16a34a", netral:"#9ca3af", negatif:"#dc2626" };
+const tanggalList = [...new Set(chartData.map(x => x.tanggal))];
+const labelList   = ["positif","netral","negatif"];
 
-// Bar chart
+/* ── State ── */
+let hasilFilter = [...semuaData];
+let halamanAktif = 1;
+let perHalaman   = 50;
+
+/* ── Render tabel ── */
+function renderTabel() {
+    const tbody  = document.getElementById("tabelBody");
+    const mulai  = (halamanAktif - 1) * perHalaman;
+    const akhir  = Math.min(mulai + perHalaman, hasilFilter.length);
+    const slice  = hasilFilter.slice(mulai, akhir);
+
+    tbody.innerHTML = slice.map(t => {
+        const teks = (t.teks_asli || "-").substring(0, 150) +
+                     ((t.teks_asli || "").length > 150 ? "..." : "");
+        const tanggal = (t.tanggal || "-").toString().substring(0, 10);
+
+        let badgeSentimen = "";
+        if (t.sentimen === "positif")
+            badgeSentimen = `<span style="font-size:11px;background:#d1fae5;color:#065f46;padding:3px 10px;border-radius:20px;font-weight:600;">Positif</span>`;
+        else if (t.sentimen === "negatif")
+            badgeSentimen = `<span style="font-size:11px;background:#fee2e2;color:#991b1b;padding:3px 10px;border-radius:20px;font-weight:600;">Negatif</span>`;
+        else
+            badgeSentimen = `<span style="font-size:11px;background:#f3f4f6;color:#374151;padding:3px 10px;border-radius:20px;font-weight:600;">Netral</span>`;
+
+        return `<tr style="border-bottom:1px solid #f1f5f9;transition:.15s;"
+                    onmouseover="this.style.background='#f9fafb'"
+                    onmouseout="this.style.background=''">
+            <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:12px;">${tanggal}</td>
+            <td style="padding:10px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:90px;">
+                <span style="font-size:12px;color:#374151;font-weight:500;">@${t.username || "-"}</span>
+            </td>
+            <td style="padding:10px 12px;color:#111827;line-height:1.5;max-width:500px;word-break:break-word;">${teks}</td>
+            <td style="padding:10px 12px;white-space:nowrap;">
+                <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;padding:3px 8px;border-radius:20px;font-weight:500;">
+                    ${t.topik || "-"}
+                </span>
+            </td>
+            <td style="padding:10px 12px;text-align:center;">${badgeSentimen}</td>
+        </tr>`;
+    }).join("");
+
+    /* Info baris */
+    document.getElementById("infoRows").textContent =
+        hasilFilter.length === 0
+            ? "Tidak ada data"
+            : `Menampilkan ${mulai + 1}–${akhir} dari ${hasilFilter.length} tweet`;
+
+    renderPagination();
+}
+
+/* ── Render pagination ── */
+function renderPagination() {
+    const totalHalaman = Math.ceil(hasilFilter.length / perHalaman);
+    const pg = document.getElementById("pagination");
+    pg.innerHTML = "";
+
+    if (totalHalaman <= 1) return;
+
+    const btnStyle = (aktif) =>
+        `display:inline-flex;align-items:center;justify-content:center;
+         min-width:32px;height:32px;padding:0 8px;border-radius:6px;
+         font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid;
+         transition:.15s;
+         ${aktif
+            ? "background:#4f46e5;color:#fff;border-color:#4f46e5;"
+            : "background:#fff;color:#374151;border-color:#e5e7eb;"}`;
+
+    const btn = (label, halaman, nonaktif = false) => {
+        const el = document.createElement("button");
+        el.innerHTML = label;
+        el.style.cssText = btnStyle(halaman === halamanAktif);
+        if (nonaktif) { el.disabled = true; el.style.opacity = "0.4"; el.style.cursor = "default"; }
+        el.onclick = () => { halamanAktif = halaman; renderTabel(); window.scrollTo({top: document.getElementById("tabelBody").getBoundingClientRect().top + window.scrollY - 80, behavior:"smooth"}); };
+        return el;
+    };
+
+    /* Prev */
+    pg.appendChild(btn("‹ Prev", halamanAktif - 1, halamanAktif === 1));
+
+    /* Nomor halaman dengan ellipsis */
+    const delta = 2;
+    const range = [];
+    for (let i = Math.max(2, halamanAktif - delta); i <= Math.min(totalHalaman - 1, halamanAktif + delta); i++)
+        range.push(i);
+
+    pg.appendChild(btn(1, 1));
+
+    if (range[0] > 2) {
+        const dots = document.createElement("span");
+        dots.textContent = "…";
+        dots.style.cssText = "padding:0 4px;color:#9ca3af;font-size:13px;";
+        pg.appendChild(dots);
+    }
+
+    range.forEach(i => pg.appendChild(btn(i, i)));
+
+    if (range[range.length - 1] < totalHalaman - 1) {
+        const dots = document.createElement("span");
+        dots.textContent = "…";
+        dots.style.cssText = "padding:0 4px;color:#9ca3af;font-size:13px;";
+        pg.appendChild(dots);
+    }
+
+    if (totalHalaman > 1) pg.appendChild(btn(totalHalaman, totalHalaman));
+
+    /* Next */
+    pg.appendChild(btn("Next ›", halamanAktif + 1, halamanAktif === totalHalaman));
+}
+
+/* ── Filter ── */
+function terapkanFilter() {
+    const q   = document.getElementById("cari").value.toLowerCase();
+    const sen = document.getElementById("filterSentimen").value.toLowerCase();
+    const top = document.getElementById("filterTopik").value.toLowerCase();
+
+    hasilFilter = semuaData.filter(t => {
+        const cocokQ   = !q   || (t.teks_asli||"").toLowerCase().includes(q) || (t.username||"").toLowerCase().includes(q);
+        const cocokSen = !sen || (t.sentimen||"").toLowerCase() === sen;
+        const cocokTop = !top || (t.topik||"").toLowerCase() === top;
+        return cocokQ && cocokSen && cocokTop;
+    });
+
+    document.getElementById("jumlahLabel").textContent = `(${hasilFilter.length})`;
+    halamanAktif = 1;
+    renderTabel();
+}
+
+document.getElementById("cari").addEventListener("input", terapkanFilter);
+document.getElementById("filterSentimen").addEventListener("change", terapkanFilter);
+document.getElementById("filterTopik").addEventListener("change", terapkanFilter);
+document.getElementById("perHalaman").addEventListener("change", function () {
+    perHalaman   = parseInt(this.value);
+    halamanAktif = 1;
+    renderTabel();
+});
+
+/* Init */
+renderTabel();
+
+/* ── Charts ── */
 new Chart(document.getElementById("chartHari"), {
     type:"bar",
     data:{
-        labels: tanggal,
-        datasets: label.map(s => ({
+        labels: tanggalList,
+        datasets: labelList.map(s => ({
             label: s,
-            data: tanggal.map(t => {
+            data: tanggalList.map(t => {
                 const d = chartData.find(x => x.tanggal===t && x.sentimen===s);
                 return d ? d.jumlah : 0;
             }),
@@ -161,7 +310,6 @@ new Chart(document.getElementById("chartHari"), {
     }
 });
 
-// Donut chart
 const sentimen = {{ sentimen|tojson }};
 new Chart(document.getElementById("chartPie"), {
     type:"doughnut",
@@ -179,7 +327,6 @@ new Chart(document.getElementById("chartPie"), {
     }
 });
 
-// Topik chart
 const topik = {{ topik|tojson }};
 new Chart(document.getElementById("chartTopik"), {
     type:"bar",
@@ -196,16 +343,8 @@ new Chart(document.getElementById("chartTopik"), {
         scales:{
             x:{ grid:{color:"#f1f5f9"}, ticks:{font:{size:11}} },
             y:{ grid:{display:false}, ticks:{font:{size:11}} }
-        }   
+        }
     }
-});
-
-// Pencarian tabel
-document.getElementById("cari").addEventListener("input", function(){
-    const q = this.value.toLowerCase();
-    document.querySelectorAll("#tabelBody tr").forEach(row => {
-        row.style.display = row.innerText.toLowerCase().includes(q) ? "" : "none";
-    });
 });
 </script>
 {% endblock %}

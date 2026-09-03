@@ -729,6 +729,12 @@ def index():
 @login_required
 def twitter():
     df = load_data()
+    if df.empty:
+        return render_template("tweets.html", data=[], total=0,
+                               sentimen={}, topik={}, tweet_viral=[],
+                               chart_data=[], rata_skor=0, ringkasan=[])
+
+    # Ringkasan per hari
     ringkasan = (
         df.groupby(df["tanggal"].dt.date)
         .agg(jumlah_tweet=("id","count"), rata_skor=("skor","mean"),
@@ -742,8 +748,7 @@ def twitter():
     )
     ringkasan = ringkasan.merge(sentimen_pivot, on="tanggal", how="left")
     ringkasan["rata_skor"] = ringkasan["rata_skor"].round(3)
-    if df.empty:
-        return render_template("tweets.html", data=[], total=0)
+
     total     = len(df)
     df_valid  = df[df["sentimen"].isin(["positif","netral","negatif"])]
     sentimen  = df_valid["sentimen"].value_counts().to_dict()
@@ -753,10 +758,27 @@ def twitter():
         df.nlargest(5, "likes")[["username","teks_asli","sentimen","likes","tanggal"]]
         .to_dict("records")
     )
-    data = df.sort_values("tanggal", ascending=False).to_dict("records")
+
     per_hari = df.groupby(["tanggal","sentimen"]).size().reset_index(name="jumlah")
     per_hari["tanggal"] = pd.to_datetime(per_hari["tanggal"]).dt.strftime("%Y-%m-%d")
     chart_data = per_hari.to_dict("records")
+
+    # ✅ Konversi tanggal ke string agar JSON-safe (hindari NaT error)
+    df_export = df.copy()
+    df_export["tanggal"] = df_export["tanggal"].apply(
+        lambda x: x.strftime("%Y-%m-%d %H:%M:%S") if pd.notna(x) else ""
+    )
+    # Bersihkan kolom numerik dari NaN
+    for col in ["likes", "retweets", "replies", "skor"]:
+        if col in df_export.columns:
+            df_export[col] = df_export[col].fillna(0)
+    # Bersihkan kolom string dari NaN
+    for col in ["teks_asli", "username", "sentimen", "topik"]:
+        if col in df_export.columns:
+            df_export[col] = df_export[col].fillna("").astype(str)
+
+    data = df_export.sort_values("tanggal", ascending=False).to_dict("records")
+
     return render_template(
         "tweets.html",
         total=total, sentimen=sentimen, topik=topik,

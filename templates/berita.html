@@ -61,20 +61,12 @@
 
 <!-- ── CHARTS ────────────────────────────────────────────── -->
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px;">
-
-    <!-- Bar chart topik -->
     <div class="card" style="margin-bottom:0;">
-        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">
-            Berita per Topik
-        </h2>
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">Berita per Topik</h2>
         <canvas id="chartTopik" height="160"></canvas>
     </div>
-
-    <!-- Bar chart sumber -->
     <div class="card" style="margin-bottom:0;">
-        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">
-            Berita per Portal
-        </h2>
+        <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">Berita per Portal</h2>
         <canvas id="chartSumber" height="160"></canvas>
     </div>
 </div>
@@ -82,9 +74,7 @@
 <!-- ── RINGKASAN TOPIK ──────────────────────────────────── -->
 {% if topik_rows %}
 <div class="card" style="margin-bottom:20px;">
-    <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">
-        Ringkasan per Topik
-    </h2>
+    <h2 style="font-size:14px;font-weight:600;color:#374151;margin-bottom:14px;">Ringkasan per Topik</h2>
     <div style="overflow-x:auto;">
         <table style="width:100%;border-collapse:collapse;font-size:13px;">
             <thead>
@@ -99,14 +89,9 @@
                 {% for row in topik_rows %}
                 <tr style="border-bottom:1px solid #f1f5f9;">
                     <td style="padding:10px 12px;">
-                        <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;
-                            padding:3px 9px;border-radius:20px;font-weight:500;">
-                            {{ row.topik }}
-                        </span>
+                        <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;padding:3px 9px;border-radius:20px;font-weight:500;">{{ row.topik }}</span>
                     </td>
-                    <td style="padding:10px 12px;text-align:center;font-weight:700;color:#4f46e5;">
-                        {{ row.jumlah_berita }}
-                    </td>
+                    <td style="padding:10px 12px;text-align:center;font-weight:700;color:#4f46e5;">{{ row.jumlah_berita }}</td>
                     <td style="padding:10px 12px;color:#374151;font-size:12px;line-height:1.5;">
                         {{ row.contoh_judul.split(' || ')[0][:80] if row.contoh_judul else '-' }}
                     </td>
@@ -125,9 +110,13 @@
 <div class="card">
     <div style="display:flex;align-items:center;justify-content:space-between;
         margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+
+        <!-- HEADER: counter dinamis -->
         <h2 style="font-size:14px;font-weight:600;color:#374151;margin:0;">
-            Semua Berita <span style="color:#6b7280;font-weight:400;">({{ total }})</span>
+            Semua Berita
+            <span id="counterLabel" style="color:#6b7280;font-weight:400;">({{ total }})</span>
         </h2>
+
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
             <!-- Filter topik -->
             <select id="filterTopik" onchange="filterTabel()"
@@ -173,20 +162,15 @@
                 onmouseover="this.style.background='#f9fafb'"
                 onmouseout="this.style.background=''">
 
-                <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:11px;">
-                    {{ item.tanggal }}
-                </td>
+                <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:11px;">{{ item.tanggal }}</td>
 
                 <td style="padding:10px 12px;white-space:nowrap;">
                     {% if item.tipe == 'lokal' %}
-                        <span style="font-size:10px;background:#d1fae5;color:#065f46;
-                            padding:2px 8px;border-radius:20px;font-weight:600;">Lokal</span>
+                        <span style="font-size:10px;background:#d1fae5;color:#065f46;padding:2px 8px;border-radius:20px;font-weight:600;">Lokal</span>
                     {% elif item.tipe == 'google_news' %}
-                        <span style="font-size:10px;background:#ede9fe;color:#6d28d9;
-                            padding:2px 8px;border-radius:20px;font-weight:600;">GNews</span>
+                        <span style="font-size:10px;background:#ede9fe;color:#6d28d9;padding:2px 8px;border-radius:20px;font-weight:600;">GNews</span>
                     {% else %}
-                        <span style="font-size:10px;background:#fef3c7;color:#92400e;
-                            padding:2px 8px;border-radius:20px;font-weight:600;">Nasional</span>
+                        <span style="font-size:10px;background:#fef3c7;color:#92400e;padding:2px 8px;border-radius:20px;font-weight:600;">Nasional</span>
                     {% endif %}
                 </td>
 
@@ -209,20 +193,15 @@
                 </td>
 
                 <td style="padding:10px 12px;white-space:nowrap;">
-                    <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;
-                        padding:3px 8px;border-radius:20px;font-weight:500;">
-                        {{ item.topik }}
-                    </span>
+                    <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;padding:3px 8px;border-radius:20px;font-weight:500;">{{ item.topik }}</span>
                 </td>
 
-                <td style="padding:10px 12px;font-size:11px;color:#6b7280;
-                    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px;"
-                    title="{{ item.sumber }}">
+                <td style="padding:10px 12px;font-size:11px;color:#6b7280;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px;" title="{{ item.sumber }}">
                     {{ item.sumber[:30] }}{% if item.sumber|length > 30 %}...{% endif %}
                 </td>
             </tr>
             {% else %}
-            <tr>
+            <tr id="emptyRow">
                 <td colspan="5" style="text-align:center;padding:60px 20px;color:#9ca3af;">
                     <div style="font-size:32px;margin-bottom:8px;">📭</div>
                     Belum ada berita. Jalankan <code>python Berita.py</code> terlebih dahulu.
@@ -232,11 +211,32 @@
             </tbody>
         </table>
     </div>
+
+    <!-- ── EMPTY STATE (saat filter tidak ada hasil) ── -->
+    <div id="emptyFilter" style="display:none;text-align:center;padding:48px 20px;color:#9ca3af;">
+        <div style="font-size:32px;margin-bottom:8px;">🔍</div>
+        <div style="font-size:14px;font-weight:500;color:#6b7280;">Tidak ada berita yang cocok</div>
+        <div style="font-size:12px;margin-top:4px;">Coba ubah filter atau kata kunci pencarian</div>
+    </div>
+
+    <!-- ── PAGINATION ──────────────────────────────────── -->
+    <div id="paginasiWrap" style="display:flex;align-items:center;justify-content:space-between;
+        margin-top:16px;padding-top:14px;border-top:1px solid #f1f5f9;flex-wrap:wrap;gap:10px;">
+
+        <!-- Info kiri -->
+        <div id="paginasiInfo" style="font-size:12px;color:#6b7280;"></div>
+
+        <!-- Tombol navigasi -->
+        <div style="display:flex;align-items:center;gap:4px;" id="paginasiBtn"></div>
+    </div>
 </div>
 
 <!-- ── SCRIPTS ──────────────────────────────────────────── -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
+/* ═══════════════════════════════════════════════
+   CHARTS
+═══════════════════════════════════════════════ */
 const chartTopikData  = {{ chart_topik  | tojson }};
 const chartSumberData = {{ chart_sumber | tojson }};
 
@@ -245,7 +245,6 @@ const WARNA = [
     "#7c3aed","#0d9488","#b45309","#be185d","#1d4ed8",
 ];
 
-/* ── Bar chart topik ───────────────────────────── */
 new Chart(document.getElementById("chartTopik"), {
     type: "bar",
     data: {
@@ -266,7 +265,6 @@ new Chart(document.getElementById("chartTopik"), {
     }
 });
 
-/* ── Bar chart sumber ──────────────────────────── */
 new Chart(document.getElementById("chartSumber"), {
     type: "bar",
     data: {
@@ -287,19 +285,169 @@ new Chart(document.getElementById("chartSumber"), {
     }
 });
 
-/* ── Filter tabel ──────────────────────────────── */
+/* ═══════════════════════════════════════════════
+   FILTER + PAGINATION
+═══════════════════════════════════════════════ */
+const PER_PAGE    = 20;          // baris per halaman
+let   halamanIni  = 1;
+let   barisAktif  = [];          // semua baris yang lolos filter
+
+function getAllRows() {
+    return Array.from(document.querySelectorAll("#tabelBody tr[data-topik]"));
+}
+
 function filterTabel() {
-    const q     = document.getElementById("cari").value.toLowerCase();
+    const q     = document.getElementById("cari").value.toLowerCase().trim();
     const topik = document.getElementById("filterTopik").value;
     const tipe  = document.getElementById("filterTipe").value;
 
-    document.querySelectorAll("#tabelBody tr[data-topik]").forEach(row => {
+    barisAktif = getAllRows().filter(row => {
         const teks  = row.innerText.toLowerCase();
         const okQ   = !q     || teks.includes(q);
         const okTop = !topik || row.dataset.topik === topik;
         const okTip = !tipe  || row.dataset.tipe  === tipe;
-        row.style.display = (okQ && okTop && okTip) ? "" : "none";
+        return okQ && okTop && okTip;
     });
+
+    // sembunyikan semua dulu
+    getAllRows().forEach(r => r.style.display = "none");
+
+    halamanIni = 1;
+    updateCounter();
+    renderHalaman();
+    renderPaginasi();
 }
+
+function renderHalaman() {
+    const mulai = (halamanIni - 1) * PER_PAGE;
+    const akhir = mulai + PER_PAGE;
+
+    barisAktif.forEach((row, i) => {
+        row.style.display = (i >= mulai && i < akhir) ? "" : "none";
+    });
+
+    // empty state
+    const emptyFilter = document.getElementById("emptyFilter");
+    emptyFilter.style.display = barisAktif.length === 0 ? "block" : "none";
+}
+
+function updateCounter() {
+    const q     = document.getElementById("cari").value.trim();
+    const topik = document.getElementById("filterTopik").value;
+    const tipe  = document.getElementById("filterTipe").value;
+    const total = getAllRows().length;
+    const n     = barisAktif.length;
+
+    const label = document.getElementById("counterLabel");
+
+    if (!q && !topik && !tipe) {
+        // tidak ada filter aktif → tampilkan total keseluruhan
+        label.innerHTML = `<span style="color:#6b7280;font-weight:400;">(${total})</span>`;
+    } else {
+        // ada filter → tampilkan hasil filter dari total
+        const warna = n === 0 ? "#dc2626" : "#16a34a";
+        label.innerHTML = `<span style="color:${warna};font-weight:600;">${n}</span>`
+            + `<span style="color:#9ca3af;font-weight:400;font-size:12px;"> dari ${total}</span>`;
+    }
+}
+
+function renderPaginasi() {
+    const totalHalaman = Math.ceil(barisAktif.length / PER_PAGE);
+    const info  = document.getElementById("paginasiInfo");
+    const wrap  = document.getElementById("paginasiBtn");
+    const outer = document.getElementById("paginasiWrap");
+
+    // sembunyikan pagination jika semua muat 1 halaman
+    if (totalHalaman <= 1) {
+        outer.style.display = barisAktif.length > 0 ? "flex" : "none";
+        if (barisAktif.length > 0) {
+            const mulai = Math.min(1, barisAktif.length);
+            const akhir = barisAktif.length;
+            info.textContent = `Menampilkan ${mulai}–${akhir} dari ${akhir} berita`;
+        }
+        wrap.innerHTML = "";
+        return;
+    }
+
+    outer.style.display = "flex";
+
+    // info kiri
+    const mulai = (halamanIni - 1) * PER_PAGE + 1;
+    const akhir = Math.min(halamanIni * PER_PAGE, barisAktif.length);
+    info.textContent = `Menampilkan ${mulai}–${akhir} dari ${barisAktif.length} berita`;
+
+    // bangun tombol
+    wrap.innerHTML = "";
+
+    const btnStyle = (aktif, disabled) => `
+        display:inline-flex;align-items:center;justify-content:center;
+        min-width:32px;height:32px;padding:0 8px;
+        border:1.5px solid ${aktif ? "#4f46e5" : "#e5e7eb"};
+        border-radius:7px;font-size:12px;font-weight:${aktif ? "700" : "500"};
+        color:${aktif ? "#fff" : disabled ? "#d1d5db" : "#374151"};
+        background:${aktif ? "#4f46e5" : "#fff"};
+        cursor:${disabled ? "default" : "pointer"};
+        transition:.15s;user-select:none;
+    `;
+
+    function buatBtn(label, halaman, disabled = false, aktif = false) {
+        const btn = document.createElement("button");
+        btn.innerHTML = label;
+        btn.style.cssText = btnStyle(aktif, disabled);
+        btn.disabled = disabled;
+        if (!disabled && !aktif) {
+            btn.onmouseover = () => { btn.style.borderColor = "#4f46e5"; btn.style.color = "#4f46e5"; };
+            btn.onmouseout  = () => { btn.style.borderColor = "#e5e7eb"; btn.style.color = "#374151"; };
+        }
+        if (!disabled) btn.onclick = () => gantiHalaman(halaman);
+        return btn;
+    }
+
+    // ← Prev
+    wrap.appendChild(buatBtn("←", halamanIni - 1, halamanIni === 1));
+
+    // nomor halaman dengan ellipsis
+    const range = halamanRange(halamanIni, totalHalaman);
+    let prev = null;
+    range.forEach(h => {
+        if (prev !== null && h - prev > 1) {
+            const dots = document.createElement("span");
+            dots.textContent = "…";
+            dots.style.cssText = "font-size:12px;color:#9ca3af;padding:0 4px;line-height:32px;";
+            wrap.appendChild(dots);
+        }
+        wrap.appendChild(buatBtn(h, h, false, h === halamanIni));
+        prev = h;
+    });
+
+    // → Next
+    wrap.appendChild(buatBtn("→", halamanIni + 1, halamanIni === totalHalaman));
+}
+
+function halamanRange(current, total) {
+    // tampilkan maks 7 nomor: 1 … n-1 n n+1 … total
+    const delta = 2;
+    const range = new Set([1, total]);
+    for (let i = Math.max(2, current - delta); i <= Math.min(total - 1, current + delta); i++) {
+        range.add(i);
+    }
+    return Array.from(range).sort((a, b) => a - b);
+}
+
+function gantiHalaman(h) {
+    halamanIni = h;
+    renderHalaman();
+    renderPaginasi();
+    // scroll ke atas tabel
+    document.getElementById("tabelBody").closest(".card").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+// init saat load
+(function init() {
+    barisAktif = getAllRows();
+    updateCounter();
+    renderHalaman();
+    renderPaginasi();
+})();
 </script>
 {% endblock %}

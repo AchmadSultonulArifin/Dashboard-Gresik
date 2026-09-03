@@ -40,7 +40,7 @@ IG_COOKIES = {
     "rur"        : os.getenv("IG_RUR", ""),
 }
 
-KEYWORDS                = ["Gresik","Kabupaten Gresik","Pemkab Gresik","Gresik Kota","Gresik Jawa Timur",]
+KEYWORDS                = ["Gresik","Polres Gresik","Kulineran Gresik","Kabupaten Gresik","Pemkab Gresik","Gresik Kota","Gresik Jawa Timur",]
 MAKS_POST_PER_KEYWORD   = 30
 MAKS_KOMENTAR_PER_POST  = 50
 TAMPILKAN_BROWSER       = False   # wajib False di GitHub Actions

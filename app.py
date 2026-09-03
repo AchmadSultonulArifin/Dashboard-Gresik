@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
@@ -9,12 +9,13 @@ import pandas as pd
 import json
 import os
 import re
+import sqlite3
 
 load_dotenv()
 app = Flask(__name__)
 
 # ── Konfigurasi MySQL ──────────────────────────────
-app.config["SECRET_KEY"]       = os.getenv("SECRET_KEY", "rahasia123")
+app.config["SECRET_KEY"]       = os.getenv("SECRET_KEY", "Sultonul12")
 app.config["SQLALCHEMY_DATABASE_URI"] = (
     f"mysql+pymysql://{os.getenv('MYSQL_USER')}:{os.getenv('MYSQL_PASSWORD')}"
     f"@{os.getenv('MYSQL_HOST')}/{os.getenv('MYSQL_DB')}"
@@ -38,6 +39,35 @@ BERITA_CSV         = "output/gresik_berita.csv"
 TOPIK_CSV          = "output/gresik_berita_topik.csv"
 SUMBER_CSV         = "output/gresik_berita_sumber.csv"
 
+DB_PATH = "accounts.db"
+
+def get_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn, conn.cursor()
+
+def init_keyword_tables():
+    conn, cur = get_db()
+    cur.executescript("""
+        CREATE TABLE IF NOT EXISTS keyword_groups (
+            id        INTEGER PRIMARY KEY AUTOINCREMENT,
+            name      TEXT    NOT NULL UNIQUE,
+            platform  TEXT    NOT NULL DEFAULT 'gmaps',
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        );
+        CREATE TABLE IF NOT EXISTS keywords (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            group_id   INTEGER NOT NULL REFERENCES keyword_groups(id) ON DELETE CASCADE,
+            name       TEXT    NOT NULL,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(group_id, name)
+        );
+        PRAGMA foreign_keys = ON;
+    """)
+    conn.commit()
+    conn.close()
+
+init_keyword_tables()   # <-- panggil langsung di sini
 
 # Upload Foto Profil
 UPLOAD_FOLDER_FOTO = os.path.join("static", "foto_profil")
@@ -852,218 +882,6 @@ class ActivityLog(db.Model):
     status     = db.Column(db.String(20), nullable=False)
     keterangan = db.Column(db.String(255), nullable=True)
     waktu      = db.Column(db.DateTime, server_default=db.func.now())
-
-# ── MODEL (letakkan setelah class ActivityLog) ─────────────────
-
-class KeywordGroup(db.Model):
-    __tablename__ = "keyword_groups"
-    id         = db.Column(db.Integer, primary_key=True)
-    nama       = db.Column(db.String(100), nullable=False)
-    deskripsi  = db.Column(db.String(255), nullable=True)
-    created_at = db.Column(db.DateTime, server_default=db.func.now())
-    keywords   = db.relationship("Keyword", backref="group", lazy=True,
-                                  cascade="all, delete-orphan")
-
-
-class Keyword(db.Model):
-    __tablename__ = "keywords"
-    id         = db.Column(db.Integer, primary_key=True)
-    group_id   = db.Column(db.Integer, db.ForeignKey("keyword_groups.id"), nullable=False)
-    kata       = db.Column(db.String(200), nullable=False)
-    created_at = db.Column(db.DateTime, server_default=db.func.now())
-
-
-# ── ROUTES ────────────────────────────────────────────────────
-
-@app.route("/keywords")
-@login_required
-def keywords():
-    groups = KeywordGroup.query.order_by(KeywordGroup.created_at.desc()).all()
-    return render_template("keywords.html", groups=groups)
-
-
-# ── API: Search keyword (live search) ──────────────────────────
-@app.route("/api/keywords/search")
-@login_required
-def api_keywords_search():
-    q = request.args.get("q", "").strip()
-    if not q:
-        groups = KeywordGroup.query.order_by(KeywordGroup.created_at.desc()).all()
-    else:
-        # Cari di nama grup dan kata keyword
-        matched_groups = KeywordGroup.query.filter(
-            KeywordGroup.nama.ilike(f"%{q}%")
-        ).all()
-        matched_by_kata = (
-            db.session.query(KeywordGroup)
-            .join(Keyword)
-            .filter(Keyword.kata.ilike(f"%{q}%"))
-            .all()
-        )
-        # Gabungkan tanpa duplikat
-        seen = set()
-        groups = []
-        for g in matched_groups + matched_by_kata:
-            if g.id not in seen:
-                seen.add(g.id)
-                groups.append(g)
-
-    result = []
-    for g in groups:
-        result.append({
-            "id"       : g.id,
-            "nama"     : g.nama,
-            "deskripsi": g.deskripsi or "",
-            "keywords" : [
-                {"id": k.id, "kata": k.kata}
-                for k in g.keywords
-                if not q or q.lower() in k.kata.lower() or q.lower() in g.nama.lower()
-            ],
-            "total"    : len(g.keywords),
-        })
-    return jsonify(result)
-
-
-# ── API: Semua keyword ──────────────────────────────────────────
-@app.route("/api/keywords")
-@login_required
-def api_keywords_list():
-    groups = KeywordGroup.query.order_by(KeywordGroup.created_at.desc()).all()
-    result = []
-    for g in groups:
-        result.append({
-            "id"       : g.id,
-            "nama"     : g.nama,
-            "deskripsi": g.deskripsi or "",
-            "keywords" : [{"id": k.id, "kata": k.kata} for k in g.keywords],
-            "total"    : len(g.keywords),
-        })
-    return jsonify(result)
-
-
-# ── CRUD Group ──────────────────────────────────────────────────
-
-@app.route("/api/keywords/group", methods=["POST"])
-@login_required
-def api_keyword_group_create():
-    data = request.get_json()
-    nama = (data.get("nama") or "").strip()
-    if not nama:
-        return jsonify({"error": "Nama grup tidak boleh kosong"}), 400
-    if KeywordGroup.query.filter_by(nama=nama).first():
-        return jsonify({"error": "Nama grup sudah ada"}), 409
-    g = KeywordGroup(nama=nama, deskripsi=data.get("deskripsi", "").strip())
-    db.session.add(g)
-    db.session.commit()
-    return jsonify({"id": g.id, "nama": g.nama, "deskripsi": g.deskripsi, "total": 0}), 201
-
-
-@app.route("/api/keywords/group/<int:gid>", methods=["PUT"])
-@login_required
-def api_keyword_group_update(gid):
-    g = KeywordGroup.query.get_or_404(gid)
-    data = request.get_json()
-    nama = (data.get("nama") or "").strip()
-    if not nama:
-        return jsonify({"error": "Nama grup tidak boleh kosong"}), 400
-    dup = KeywordGroup.query.filter(KeywordGroup.nama == nama, KeywordGroup.id != gid).first()
-    if dup:
-        return jsonify({"error": "Nama grup sudah digunakan"}), 409
-    g.nama      = nama
-    g.deskripsi = data.get("deskripsi", g.deskripsi or "").strip()
-    db.session.commit()
-    return jsonify({"id": g.id, "nama": g.nama, "deskripsi": g.deskripsi})
-
-
-@app.route("/api/keywords/group/<int:gid>", methods=["DELETE"])
-@login_required
-def api_keyword_group_delete(gid):
-    g = KeywordGroup.query.get_or_404(gid)
-    db.session.delete(g)
-    db.session.commit()
-    return jsonify({"message": "Grup berhasil dihapus"})
-
-
-# ── CRUD Keyword ────────────────────────────────────────────────
-
-@app.route("/api/keywords/item", methods=["POST"])
-@login_required
-def api_keyword_item_create():
-    data     = request.get_json()
-    group_id = data.get("group_id")
-    kata     = (data.get("kata") or "").strip()
-    if not group_id or not kata:
-        return jsonify({"error": "group_id dan kata wajib diisi"}), 400
-    g = KeywordGroup.query.get_or_404(group_id)
-    # Cek duplikat dalam grup
-    if Keyword.query.filter_by(group_id=group_id, kata=kata).first():
-        return jsonify({"error": "Keyword sudah ada di grup ini"}), 409
-    k = Keyword(group_id=group_id, kata=kata)
-    db.session.add(k)
-    db.session.commit()
-    return jsonify({"id": k.id, "kata": k.kata, "group_id": group_id}), 201
-
-
-@app.route("/api/keywords/item/<int:kid>", methods=["PUT"])
-@login_required
-def api_keyword_item_update(kid):
-    k    = Keyword.query.get_or_404(kid)
-    data = request.get_json()
-    kata = (data.get("kata") or "").strip()
-    if not kata:
-        return jsonify({"error": "Kata tidak boleh kosong"}), 400
-    dup = Keyword.query.filter(
-        Keyword.group_id == k.group_id,
-        Keyword.kata == kata,
-        Keyword.id != kid
-    ).first()
-    if dup:
-        return jsonify({"error": "Keyword sudah ada di grup ini"}), 409
-    k.kata = kata
-    db.session.commit()
-    return jsonify({"id": k.id, "kata": k.kata})
-
-
-@app.route("/api/keywords/item/<int:kid>", methods=["DELETE"])
-@login_required
-def api_keyword_item_delete(kid):
-    k = Keyword.query.get_or_404(kid)
-    db.session.delete(k)
-    db.session.commit()
-    return jsonify({"message": "Keyword berhasil dihapus"})
-
-
-# ── IMPORT BULK keyword (opsional) ─────────────────────────────
-@app.route("/api/keywords/import", methods=["POST"])
-@login_required
-def api_keyword_import():
-    """
-    Terima JSON: { "group_id": 1, "kata_list": ["kw1","kw2",...] }
-    """
-    data     = request.get_json()
-    group_id = data.get("group_id")
-    kata_list = data.get("kata_list", [])
-    if not group_id:
-        return jsonify({"error": "group_id wajib diisi"}), 400
-    g = KeywordGroup.query.get_or_404(group_id)
-    added = 0
-    skipped = 0
-    for kata in kata_list:
-        kata = kata.strip()
-        if not kata:
-            continue
-        if Keyword.query.filter_by(group_id=group_id, kata=kata).first():
-            skipped += 1
-            continue
-        db.session.add(Keyword(group_id=group_id, kata=kata))
-        added += 1
-    db.session.commit()
-    return jsonify({"added": added, "skipped": skipped})
-
-
-
-with app.app_context():
-    db.create_all()
 
 # ── Auth ────────────────────────────────────────────
 @app.route("/login", methods=["GET", "POST"])

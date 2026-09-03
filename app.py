@@ -1509,6 +1509,9 @@ def berita_topik_hapus_semua():
     return redirect(url_for("berita_pengaturan"))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fab3374 (Update ecomers)
 # ══════════════════════════════════════════════════════════════
 # SHOPEE — Path file output scraper
 # ══════════════════════════════════════════════════════════════
@@ -1699,7 +1702,11 @@ def api_shopee_toko():
     if df.empty:
         return jsonify([])
     return jsonify(df.head(100).to_dict("records"))
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> fab3374 (Update ecomers)
 # ══════════════════════════════════════════════════════════════
 # PATH FILE OUTPUT LAZADA
 # ══════════════════════════════════════════════════════════════
@@ -1851,6 +1858,7 @@ def api_lazada():
         lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
     )
     return jsonify(df_out.head(200).to_dict("records"))
+<<<<<<< HEAD
 
 # ══════════════════════════════════════════════════════════════
 # PATH FILE OUTPUT TOKOPEDIA
@@ -1985,6 +1993,8 @@ def api_tokopedia():
     return jsonify(df_out.head(200).to_dict("records"))
 =======
 >>>>>>> f564e03 (Update semua)
+=======
+>>>>>>> fab3374 (Update ecomers)
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

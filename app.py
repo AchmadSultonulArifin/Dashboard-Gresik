@@ -1698,11 +1698,7 @@ def api_shopee_toko():
     if df.empty:
         return jsonify([])
     return jsonify(df.head(100).to_dict("records"))
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> fab3374 (Update ecomers)
 # ══════════════════════════════════════════════════════════════
 # PATH FILE OUTPUT LAZADA
 # ══════════════════════════════════════════════════════════════

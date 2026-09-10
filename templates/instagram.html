@@ -1,222 +1,392 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2 style="margin-bottom:5px;">📷 Dashboard Instagram</h2>
+<div class="ig-dash">
+<style>
+  .ig-dash {
+    --ink: #14231F;
+    --ink-soft: #4B5C57;
+    --teal: #0F6E5C;
+    --teal-deep: #0B4F42;
+    --brass: #C98A2C;
+    --rust: #B3432B;
+    --paper: #F7F8F6;
+    --line: #DCE3DF;
+    --line-soft: #EBEFEC;
+    font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+    color: var(--ink);
+  }
 
-<p class="update-info">
-Total Postingan : <b>{{ total }}</b>
-</p>
+  .ig-dash * { box-sizing: border-box; }
 
-<p class="update-info">
-Last Update : <b>{{ last_update }}</b>
-</p>
+  .ig-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 28px;
+  }
 
-{% set status = scrape_status.get('instagram') %}
-{% if status %}
-<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;margin:10px 0;
-    {% if status.success %}background:#d1fae5;color:#065f46;{% else %}background:#fee2e2;color:#991b1b;{% endif %}">
-    {% if status.success %}✅ Berhasil{% else %}❌ Gagal{% endif %}
-    <span style="font-weight:400;opacity:0.8;">— {{ status.last_run }}</span>
+  .ig-head h1 {
+    font-family: "Sora", "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px 0;
+    color: var(--ink);
+  }
+
+  .ig-head .meta {
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+
+  .ig-head .meta b { color: var(--ink); font-weight: 600; }
+
+  .ig-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 16px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid transparent;
+  }
+  .ig-status.ok  { background: #E7F3EF; color: var(--teal-deep); border-color: #BFDED4; }
+  .ig-status.bad { background: #FBEBE7; color: #7A2E1D; border-color: #EFC5B8; }
+  .ig-status .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .ig-status .when { font-weight: 400; opacity: 0.75; margin-left: 2px; }
+
+  /* ── Stat row ── */
+  .ig-stats {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 800px) {
+    .ig-stats { grid-template-columns: 1fr 1fr; }
+  }
+
+  .ig-stat {
+    background: #fff;
+    border: 1px solid var(--line);
+    padding: 18px 20px;
+    position: relative;
+  }
+  .ig-stat.anchor {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: #fff;
+  }
+  .ig-stat .num {
+    font-family: "Sora", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .ig-stat.anchor .num { color: #fff; }
+  .ig-stat .lbl {
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .ig-stat.anchor .lbl { color: #C9D6D1; }
+
+  .ig-stat.positif { border-left: 3px solid var(--teal); }
+  .ig-stat.netral  { border-left: 3px solid var(--brass); }
+  .ig-stat.negatif { border-left: 3px solid var(--rust); }
+
+  /* ── Table card ── */
+  .ig-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  .ig-card h2 {
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+  }
+  .ig-card .sub {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0 0 18px 0;
+  }
+
+  .ig-search {
+    width: 100%;
+    max-width: 320px;
+    padding: 9px 12px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    font-size: 13px;
+    margin-bottom: 16px;
+    font-family: inherit;
+  }
+  .ig-search:focus {
+    outline: none;
+    border-color: var(--teal);
+    background: #fff;
+  }
+
+  .ig-table-wrap { overflow-x: auto; }
+
+  table.ig-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+  }
+  table.ig-table thead th {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--ink);
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  table.ig-table tbody td {
+    padding: 12px;
+    border-bottom: 1px solid var(--line-soft);
+    vertical-align: top;
+  }
+  table.ig-table tbody tr:hover { background: var(--paper); }
+
+  .ig-caption {
+    max-width: 420px;
+    color: var(--ink);
+  }
+  .ig-caption.empty {
+    color: #9AA5A1;
+    font-style: italic;
+  }
+
+  .ig-sent {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .ig-sent .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .ig-sent.positif { color: var(--teal-deep); }
+  .ig-sent.positif .dot { background: var(--teal); }
+  .ig-sent.negatif { color: #7A2E1D; }
+  .ig-sent.negatif .dot { background: var(--rust); }
+  .ig-sent.netral { color: #8A6417; }
+  .ig-sent.netral .dot { background: var(--brass); }
+
+  .ig-link {
+    color: var(--teal-deep);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+  }
+  .ig-link:hover { border-bottom-color: var(--teal-deep); }
+
+  .ig-empty-row td {
+    text-align: center;
+    padding: 40px 12px;
+    color: var(--ink-soft);
+  }
+
+  /* ── Charts ── */
+  .ig-chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  .ig-chart-box h3 {
+    font-family: "Sora", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: var(--ink);
+  }
+  .ig-chart-box canvas { max-height: 280px; }
+</style>
+
+<div class="ig-head">
+  <div>
+    <h1>Dashboard Instagram</h1>
+    <div class="meta">
+      <b>{{ total }}</b> postingan terpantau &nbsp;·&nbsp; diperbarui <b>{{ last_update }}</b>
+    </div>
+  </div>
+
+  {% set status = scrape_status.get('instagram') %}
+  {% if status %}
+  <div class="ig-status {{ 'ok' if status.success else 'bad' }}">
+    <span class="dot"></span>
+    {{ 'Scraping berhasil' if status.success else 'Scraping gagal' }}
+    <span class="when">— {{ status.last_run }}</span>
+  </div>
+  {% endif %}
 </div>
-{% endif %}
 
-<!-- Statistik -->
-<div class="stat-grid" style="margin-top:20px;">
-
-    <div class="stat total">
-        <div class="label">Total Post</div>
-        <div class="angka">{{ total }}</div>
-    </div>
-
-    <div class="stat positif">
-        <div class="label">Komentar Positif</div>
-        <div class="angka">{{ sentimen.get('positif',0) }}</div>
-    </div>
-
-    <div class="stat netral">
-        <div class="label">Komentar Netral</div>
-        <div class="angka">{{ sentimen.get('netral',0) }}</div>
-    </div>
-    <div class="stat negatif">
-        <div class="label">Komentar Negatif</div>
-        <div class="angka">{{ sentimen.get('negatif',0) }}</div>
-    </div>
-
+<div class="ig-stats">
+  <div class="ig-stat anchor">
+    <div class="num">{{ total }}</div>
+    <div class="lbl">Total postingan dipantau</div>
+  </div>
+  <div class="ig-stat positif">
+    <div class="num">{{ sentimen.get('positif', 0) }}</div>
+    <div class="lbl">Komentar positif</div>
+  </div>
+  <div class="ig-stat netral">
+    <div class="num">{{ sentimen.get('netral', 0) }}</div>
+    <div class="lbl">Komentar netral</div>
+  </div>
+  <div class="ig-stat negatif">
+    <div class="num">{{ sentimen.get('negatif', 0) }}</div>
+    <div class="lbl">Komentar negatif</div>
+  </div>
 </div>
 
-<br>
+<!-- ── CHART DI ATAS ── -->
+<div class="ig-card">
+  <h2>Visualisasi Sentimen</h2>
+  <p class="sub">Sebaran sentimen, topik, dan performa tiap kata kunci pencarian.</p>
 
-<!-- Tabel -->
+  <div class="ig-chart-grid">
+    <div class="ig-chart-box">
+      <h3>Distribusi Sentimen</h3>
+      <canvas id="pieSentimen"></canvas>
+    </div>
+    <div class="ig-chart-box">
+      <h3>Topik Terbanyak</h3>
+      <canvas id="barTopik"></canvas>
+    </div>
+  </div>
 
-<div class="card">
+  <br>
 
-<h2>Postingan Instagram</h2>
-
-<table>
-
-<thead>
-
-<tr>
-    <th>Tanggal</th>
-    <th>Akun</th>
-    <th>Caption</th>
-    <th>Sentimen</th>
-    <th>Skor</th>
-    <th>Link</th>
-</tr>
-
-</thead>
-
-<tbody>
-
-{% for p in data %}
-
-<tr>
-
-<td>{{ p.tanggal }}</td>
-
-<td>
-{{  p.username }}
-</td>
-
-<td style="max-width:450px;">
-
-{% if p.caption is string %}
-
-{{ p.caption[:120] }}
-
-{% if p.caption|length > 120 %}
-
-...
-
-{% endif %}
-
-{% else %}
--
-{% endif %}
-
-</td>
-
-<td>
-{% if p.sentimen == "positif" %}
-    <span style="color:green;font-weight:bold;">🟢 Positif</span>
-
-{% elif p.sentimen == "negatif" %}
-    <span style="color:red;font-weight:bold;">🔴 Negatif</span>
-
-{% else %}
-    <span style="color:orange;font-weight:bold;">🟡 Netral</span>
-
-{% endif %}
-</td>
-
-<td>{{ "%.3f"|format(p.skor) }}</td>
-
-<td>
-    <a href="{{ p.link_postingan }}"
-       target="_blank">
-        Lihat
-    </a>
-</td>
-
-</tr>
-
-{% endfor %}
-
-</tbody>
-
-</table>
-
+  <div class="ig-chart-box">
+    <h3>Komentar per Kata Kunci</h3>
+    <canvas id="barKeyword"></canvas>
+  </div>
 </div>
 
-<br>
+<!-- ── TABEL POSTINGAN DI BAWAH ── -->
+<div class="ig-card">
+  <h2>Postingan Instagram</h2>
+  <p class="sub">Daftar postingan yang dipantau beserta caption dan hasil analisis sentimen komentarnya.</p>
 
-<div class="card">
+  <input
+    type="text"
+    id="igSearch"
+    class="ig-search"
+    placeholder="Cari akun atau caption..."
+    onkeyup="igFilterTable()"
+  >
 
-    <h2>Visualisasi Sentimen Instagram</h2>
-
-    <div style="display:grid;
-                grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-                gap:25px;">
-
-        <div>
-            <h3>Distribusi Sentimen</h3>
-            <canvas id="pieSentimen"></canvas>
-        </div>
-
-        <div>
-            <h3>Topik Terbanyak</h3>
-            <canvas id="barTopik"></canvas>
-        </div>
-
-    </div>
-
-    <br>
-
-    <div>
-        <h3>Keyword Pencarian</h3>
-        <canvas id="barKeyword"></canvas>
-    </div>
-
+  <div class="ig-table-wrap">
+    <table class="ig-table" id="igTable">
+      <thead>
+        <tr>
+          <th>Tanggal</th>
+          <th>Akun</th>
+          <th>Caption</th>
+          <th>Sentimen</th>
+          <th>Skor</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in data %}
+        <tr>
+          <td>{{ p.tanggal }}</td>
+          <td>{{ p.username }}</td>
+          <td class="ig-caption{{ ' empty' if not p.caption or p.caption == '-' else '' }}">
+            {% if p.caption and p.caption != '-' %}
+              {{ p.caption[:120] }}{% if p.caption|length > 120 %}…{% endif %}
+            {% else %}
+              Caption tidak tersedia
+            {% endif %}
+          </td>
+          <td>
+            <span class="ig-sent {{ p.sentimen }}">
+              <span class="dot"></span>
+              {{ p.sentimen|capitalize }}
+            </span>
+          </td>
+          <td>{{ "%.3f"|format(p.skor) }}</td>
+          <td><a class="ig-link" href="{{ p.link_postingan }}" target="_blank" rel="noopener">Lihat →</a></td>
+        </tr>
+        {% else %}
+        <tr class="ig-empty-row">
+          <td colspan="6">Belum ada data postingan. Jalankan scraper untuk mengisi dashboard ini.</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
+
+</div><!-- /.ig-dash -->
 
 <script>
+const igColors = { positif: "#0F6E5C", netral: "#C98A2C", negatif: "#B3432B" };
 
 const sentimen = {{ sentimen|tojson }};
 const topik = {{ topik|tojson }};
 const keyword = {{ keyword|tojson }};
 
-// Pie Sentimen
-new Chart(document.getElementById("pieSentimen"),{
-    type:"pie",
-    data:{
-        labels:Object.keys(sentimen),
-        datasets:[{
-            data:Object.values(sentimen)
-        }]
-    }
+new Chart(document.getElementById("pieSentimen"), {
+  type: "doughnut",
+  data: {
+    labels: Object.keys(sentimen),
+    datasets: [{
+      data: Object.values(sentimen),
+      backgroundColor: Object.keys(sentimen).map(k => igColors[k] || "#8A9490"),
+      borderWidth: 0
+    }]
+  },
+  options: { plugins: { legend: { position: "bottom", labels: { boxWidth: 10 } } } }
 });
 
-// Bar Topik
-new Chart(document.getElementById("barTopik"),{
-    type:"bar",
-    data:{
-        labels:Object.keys(topik),
-        datasets:[{
-            label:"Jumlah",
-            data:Object.values(topik)
-        }]
-    },
-    options:{
-        responsive:true,
-        plugins:{
-            legend:{
-                display:false
-            }
-        }
-    }
+new Chart(document.getElementById("barTopik"), {
+  type: "bar",
+  data: {
+    labels: Object.keys(topik),
+    datasets: [{ label: "Jumlah", data: Object.values(topik), backgroundColor: "#0F6E5C" }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true } }
+  }
 });
 
-// Bar Keyword
-new Chart(document.getElementById("barKeyword"),{
-    type:"bar",
-    data:{
-        labels:Object.keys(keyword),
-        datasets:[{
-            label:"Komentar",
-            data:Object.values(keyword)
-        }]
-    },
-    options:{
-        responsive:true,
-        plugins:{
-            legend:{
-                display:false
-            }
-        }
-    }
+new Chart(document.getElementById("barKeyword"), {
+  type: "bar",
+  data: {
+    labels: Object.keys(keyword),
+    datasets: [{ label: "Komentar", data: Object.values(keyword), backgroundColor: "#C98A2C" }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true } }
+  }
 });
 
+function igFilterTable() {
+  const q = document.getElementById("igSearch").value.toLowerCase();
+  const rows = document.querySelectorAll("#igTable tbody tr");
+  rows.forEach(row => {
+    if (row.classList.contains("ig-empty-row")) return;
+    const text = row.innerText.toLowerCase();
+    row.style.display = text.includes(q) ? "" : "none";
+  });
+}
 </script>
 
 {% endblock %}

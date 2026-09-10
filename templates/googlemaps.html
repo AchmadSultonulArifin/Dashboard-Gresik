@@ -10,7 +10,7 @@
 
 {% set status = scrape_status.get('gmaps') %}
 {% if status %}
-<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;margin:10px 0;
+<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;margin:0 0 16px 0;
     {% if status.success %}background:#d1fae5;color:#065f46;{% else %}background:#fee2e2;color:#991b1b;{% endif %}">
     {% if status.success %}✅ Berhasil{% else %}❌ Gagal{% endif %}
     <span style="font-weight:400;opacity:0.8;">— {{ status.last_run }}</span>
@@ -18,617 +18,1031 @@
 {% endif %}
 
 <style>
-  .container{ width:100%; padding:25px; }
-  .header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:1.5rem; }
-  .header-text p { font-size:13px; color:#898781; margin-bottom:2px; }
-  .header-text h1 { font-size:20px; font-weight:500; }
+  /* ══ RESET & BASE ══════════════════════════════════════════ */
+  *, *::before, *::after { box-sizing: border-box; }
 
-  /* ── Filter bar ── */
-  .filter-bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-  .filter-group { display:flex; flex-direction:column; gap:3px; }
-  .filter-label { font-size:11px; color:#898781; font-weight:500; }
+  .gm-wrap { width:100%; padding:0 0 28px; }
+
+  /* ══ TOP SUMMARY BAR (tampilan awal – semua tempat) ════════ */
+  .summary-bar {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    margin-bottom:16px;
+  }
+  .sb-card {
+    background:#fff;
+    border:0.5px solid #e1e0d9;
+    border-radius:10px;
+    padding:14px 16px;
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+  }
+  .sb-label { font-size:11px; color:#898781; font-weight:500; }
+  .sb-value { font-size:22px; font-weight:600; color:#111; }
+  .sb-value.pos { color:#1baf7a; }
+  .sb-value.neg { color:#e34948; }
+
+  /* ══ FILTER BAR ════════════════════════════════════════════ */
+  .filter-row {
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    margin-bottom:16px;
+  }
+  .fg { display:flex; flex-direction:column; gap:3px; }
+  .fg label { font-size:11px; color:#898781; font-weight:500; }
   select {
     font-size:13px; padding:7px 12px; border-radius:8px;
     border:0.5px solid #c3c2b7; background:#fff; color:#0b0b0b;
-    cursor:pointer; outline:none; min-width:160px; max-width:320px;
+    cursor:pointer; outline:none; min-width:160px;
   }
   select:focus { border-color:#378add; }
 
-  .kpi-row { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:1.25rem; }
-  .kpi-card { background:#fff; border-radius:8px; padding:14px 16px; border:0.5px solid #e1e0d9; }
-  .kpi-card .label { font-size:12px; color:#898781; margin-bottom:4px; }
-  .kpi-card .value { font-size:22px; font-weight:500; }
-  .kpi-card .value.positif { color:#3b6d11; }
-  .kpi-card .value.negatif { color:#a32d2d; }
-  .charts-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:1.25rem; }
-  .card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; }
-  .card-title { font-size:13px; color:#52514e; margin-bottom:12px; }
-  .chart-wrap { position:relative; height:220px; display:flex; align-items:center; justify-content:center; }
-  .legend { display:flex; gap:14px; justify-content:center; margin-top:10px; flex-wrap:wrap; }
-  .legend span { display:flex; align-items:center; gap:4px; font-size:12px; color:#52514e; }
-  .legend-dot { width:10px; height:10px; border-radius:2px; display:inline-block; }
-  .ulasan-card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; }
-  .ulasan-item { display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-bottom:0.5px solid #f1efe8; }
-  .ulasan-item:last-child { border-bottom:none; }
-  .avatar { min-width:32px; height:32px; border-radius:50%; background:#e6f1fb; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:500; color:#185fa5; }
-  .ulasan-tempat { font-size:13px; font-weight:500; margin-bottom:3px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-  .badge { font-size:11px; padding:2px 8px; border-radius:6px; }
-  .badge.Positif { background:#eaf3de; color:#3b6d11; }
-  .badge.Netral   { background:#faeeda; color:#854f0b; }
-  .badge.Negatif  { background:#fcebeb; color:#a32d2d; }
-  .bintang { font-size:12px; color:#eda100; }
-  .ulasan-teks { font-size:13px; color:#52514e; }
-  .loading { text-align:center; color:#898781; padding:20px; font-size:13px; }
+  /* Dropdown tempat — lebih lebar */
+  #sel-tempat { min-width:220px; max-width:340px; }
 
-  /* ── Sub-kategori badge info ── */
-  .subkat-badge {
-    display:inline-block; font-size:11px; padding:3px 10px;
-    border-radius:20px; background:#eef3ff; color:#2d5be3;
-    font-weight:500; margin-left:8px;
+  /* Search */
+  .search-wrap { position:relative; flex:1; min-width:200px; max-width:380px; }
+  .search-wrap input {
+    width:100%; padding:8px 36px 8px 36px;
+    border-radius:8px; border:0.5px solid #c3c2b7;
+    font-size:13px; outline:none; background:#fff; color:#0b0b0b;
+  }
+  .search-wrap input:focus { border-color:#378add; }
+  .search-icon {
+    position:absolute; left:10px; top:50%; transform:translateY(-50%);
+    pointer-events:none; color:#898781;
+  }
+  .search-clear {
+    position:absolute; right:10px; top:50%; transform:translateY(-50%);
+    background:none; border:none; cursor:pointer; color:#898781;
+    font-size:15px; display:none; padding:2px 4px;
+  }
+  .search-dropdown {
+    display:none; position:absolute; z-index:1100;
+    top:calc(100% + 4px); left:0; right:0;
+    background:#fff; border:1px solid #e1e0d9;
+    border-radius:10px; max-height:260px; overflow-y:auto;
+    box-shadow:0 8px 24px rgba(0,0,0,.12);
+  }
+  .sd-item {
+    padding:9px 14px; cursor:pointer;
+    border-bottom:0.5px solid #f1efe8;
+    transition:background .12s;
+  }
+  .sd-item:last-child { border-bottom:none; }
+  .sd-item:hover { background:#f9f8f4; }
+  .sd-name { font-size:13px; font-weight:500; color:#111; }
+  .sd-meta { font-size:11px; color:#898781; margin-top:2px; }
+
+  /* ══ PETA ══════════════════════════════════════════════════ */
+  .peta-card {
+    background:#fff; border:0.5px solid #e1e0d9;
+    border-radius:12px; padding:1rem 1.25rem;
+    margin-bottom:14px;
+  }
+  .peta-title-row {
+    display:flex; align-items:center; justify-content:space-between;
+    flex-wrap:wrap; gap:8px; margin-bottom:10px;
+  }
+  .peta-title { font-size:13px; color:#52514e; font-weight:500; }
+  .peta-legend { display:flex; gap:14px; flex-wrap:wrap; }
+  .peta-legend span { display:flex; align-items:center; gap:5px; font-size:12px; color:#52514e; }
+  .peta-dot { width:11px; height:11px; border-radius:50%; display:inline-block; border:1px solid rgba(0,0,0,.2); }
+  #peta { height:420px; width:100%; border-radius:8px; z-index:0; }
+
+  /* ══ KPI SELECTED TEMPAT ════════════════════════════════════ */
+  .selected-header {
+    display:none;
+    background:#fff; border:0.5px solid #e1e0d9;
+    border-radius:10px; padding:14px 18px;
+    margin-bottom:14px;
+    align-items:center; gap:14px; flex-wrap:wrap;
+  }
+  .selected-header.show { display:flex; }
+  .sel-name { font-size:16px; font-weight:700; color:#111; flex:1; min-width:180px; }
+  .sel-meta { font-size:12px; color:#898781; margin-top:2px; }
+  .sel-badge {
+    font-size:11px; padding:3px 10px; border-radius:20px;
+    background:#eef3ff; color:#2d5be3; font-weight:500;
+  }
+  .btn-reset-sel {
+    padding:6px 14px; border-radius:8px; border:1px solid #e1e0d9;
+    background:#fafafa; font-size:12px; color:#52514e;
+    cursor:pointer; transition:.15s; white-space:nowrap;
+  }
+  .btn-reset-sel:hover { background:#f3f4f6; }
+
+  .kpi-row {
+    display:grid; grid-template-columns:repeat(4,1fr);
+    gap:10px; margin-bottom:14px;
+  }
+  .kpi-card { background:#fff; border:0.5px solid #e1e0d9; border-radius:8px; padding:14px 16px; }
+  .kpi-card .lbl { font-size:12px; color:#898781; margin-bottom:4px; }
+  .kpi-card .val { font-size:22px; font-weight:600; }
+  .kpi-card .val.pos { color:#1baf7a; }
+  .kpi-card .val.neg { color:#e34948; }
+
+  /* ══ CHARTS ROW ════════════════════════════════════════════ */
+  .charts-row {
+    display:grid; grid-template-columns:1fr 1fr;
+    gap:14px; margin-bottom:14px;
+  }
+  .card-chart {
+    background:#fff; border:0.5px solid #e1e0d9;
+    border-radius:12px; padding:1rem 1.25rem;
+  }
+  .card-title { font-size:13px; color:#52514e; font-weight:500; margin-bottom:10px; }
+  .chart-wrap { position:relative; height:220px; }
+  .legend { display:flex; gap:12px; justify-content:center; margin-top:8px; flex-wrap:wrap; }
+  .leg-dot { width:10px; height:10px; border-radius:2px; display:inline-block; }
+  .legend span { display:flex; align-items:center; gap:4px; font-size:12px; color:#52514e; }
+
+  /* ══ ULASAN ════════════════════════════════════════════════ */
+  .ulasan-card {
+    background:#fff; border:0.5px solid #e1e0d9;
+    border-radius:12px; padding:1rem 1.25rem;
+  }
+  .ulasan-item {
+    display:flex; gap:12px; align-items:flex-start;
+    padding:10px 0; border-bottom:0.5px solid #f1efe8;
+  }
+  .ulasan-item:last-child { border-bottom:none; }
+  .avatar {
+    min-width:32px; height:32px; border-radius:50%;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:700; color:#fff;
+  }
+  .ul-name { font-size:13px; font-weight:600; }
+  .badge { font-size:11px; padding:2px 8px; border-radius:6px; font-weight:600; }
+  .badge.Positif { background:#eaf3de; color:#3b6d11; }
+  .badge.Netral  { background:#faeeda; color:#854f0b; }
+  .badge.Negatif { background:#fcebeb; color:#a32d2d; }
+  .bintang { font-size:12px; color:#eda100; }
+  .ul-teks { font-size:13px; color:#52514e; line-height:1.55; }
+
+  /* ══ DAFTAR TEMPAT (tampilan awal) ═════════════════════════ */
+  .tempat-list-card {
+    background:#fff; border:0.5px solid #e1e0d9;
+    border-radius:12px; padding:1rem 1.25rem;
+    margin-bottom:14px;
+  }
+  .tl-header {
+    display:flex; align-items:center; justify-content:space-between;
+    margin-bottom:12px; flex-wrap:wrap; gap:8px;
+  }
+  .tl-table { width:100%; border-collapse:collapse; }
+  .tl-table th {
+    font-size:11px; color:#898781; font-weight:600;
+    text-align:left; padding:6px 10px; border-bottom:1px solid #e1e0d9;
+    background:#fafbff;
+  }
+  .tl-table td {
+    font-size:12px; color:#111; padding:8px 10px;
+    border-bottom:0.5px solid #f1efe8; vertical-align:middle;
+  }
+  .tl-table tr:last-child td { border-bottom:none; }
+  .tl-table tr:hover td { background:#f9f8f4; cursor:pointer; }
+  .bar-mini { height:6px; border-radius:3px; display:flex; overflow:hidden; width:80px; }
+  .bar-mini div { height:100%; }
+  .tl-badge { font-size:10px; padding:2px 7px; border-radius:10px; font-weight:600; }
+  .tl-badge.pos { background:#eaf3de; color:#3b6d11; }
+  .tl-badge.neg { background:#fcebeb; color:#a32d2d; }
+  .tl-badge.net { background:#faeeda; color:#854f0b; }
+
+  /* loading & empty */
+  .loading-msg { text-align:center; color:#898781; padding:20px; font-size:13px; }
+
+  /* ══ PAGINATION ════════════════════════════════════════════ */
+  .pagination-wrap {
+    display:flex; align-items:center; justify-content:space-between;
+    flex-wrap:wrap; gap:10px;
+    padding:12px 10px 4px;
+    border-top:0.5px solid #f1efe8;
+    margin-top:4px;
+  }
+  .pg-info { font-size:12px; color:#898781; }
+  .pg-btns { display:flex; gap:4px; align-items:center; flex-wrap:wrap; }
+  .pg-btn {
+    min-width:32px; height:32px; padding:0 10px;
+    border-radius:7px; border:0.5px solid #e1e0d9;
+    background:#fff; font-size:12px; font-weight:500;
+    color:#52514e; cursor:pointer; transition:.15s;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .pg-btn:hover:not(:disabled) { background:#f3f4f6; border-color:#c3c2b7; }
+  .pg-btn.active { background:#1A4A9E; color:#fff; border-color:#1A4A9E; }
+  .pg-btn:disabled { opacity:.38; cursor:not-allowed; }
+  .pg-per-page {
+    font-size:12px; padding:5px 8px; border-radius:7px;
+    border:0.5px solid #e1e0d9; color:#52514e;
+    background:#fff; cursor:pointer; outline:none;
   }
 
-  /* ── Peta ── */
-  .peta-card { background:#fff; border-radius:12px; padding:1rem 1.25rem; border:0.5px solid #e1e0d9; margin-bottom:1.25rem; }
-  #peta { height:420px !important; width:100% !important; border-radius:8px; z-index:0; }
-  .peta-legend { display:flex; gap:16px; margin-top:10px; flex-wrap:wrap; }
-  .peta-legend span { display:flex; align-items:center; gap:6px; font-size:12px; color:#52514e; }
-  .peta-dot { width:12px; height:12px; border-radius:50%; display:inline-block; border:1px solid #333; }
-  .leaflet-popup-content b { font-size:13px; }
-  .leaflet-popup-content a { color:#2d5be3; text-decoration:none; font-size:12px; }
-
-  @media(max-width:600px){
-    .kpi-row{grid-template-columns:repeat(2,1fr);}
-    .charts-row{grid-template-columns:1fr;}
-    .filter-bar{flex-direction:column; align-items:stretch;}
-    select{max-width:100%;}
+  /* ══ RESPONSIVE ════════════════════════════════════════════ */
+  @media(max-width:700px) {
+    .summary-bar { grid-template-columns:repeat(2,1fr); }
+    .kpi-row     { grid-template-columns:repeat(2,1fr); }
+    .charts-row  { grid-template-columns:1fr; }
+    .filter-row  { flex-direction:column; align-items:stretch; }
+    select, .search-wrap { min-width:100%; max-width:100%; }
+    #peta { height:300px; }
   }
 </style>
 
-<div class="container">
-    <!-- ── Search Bar ── -->
-    <div style="margin-bottom:16px;">
-    <div style="position:relative; max-width:420px;">
-        <input 
-        type="text" 
-        id="search-tempat" 
-        placeholder="🔍 Cari nama tempat..."
-        oninput="handleSearch(this.value)"
-        style="width:100%; padding:10px 16px 10px 40px; border-radius:10px;
-                border:1px solid #c3c2b7; font-size:13px; outline:none;
-                background:#fff; color:#0b0b0b; box-sizing:border-box;"
-        onfocus="this.style.borderColor='#378add'"
-        onblur="this.style.borderColor='#c3c2b7'"
-        />
-        <svg style="position:absolute;left:12px;top:50%;transform:translateY(-50%);
-                    pointer-events:none;" width="16" height="16" viewBox="0 0 24 24" 
-            fill="none" stroke="#898781" stroke-width="2">
-        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<div class="gm-wrap">
+
+  <!-- ══ FILTER BAR ══════════════════════════════════════════ -->
+  <div class="filter-row">
+    <!-- Search -->
+    <div class="fg" style="flex:1;min-width:200px;max-width:380px;position:relative;">
+      <label>Cari Tempat</label>
+      <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
-        <!-- Tombol clear -->
-        <button 
-        id="btn-clear-search"
-        onclick="clearSearch()"
-        style="display:none; position:absolute; right:10px; top:50%; transform:translateY(-50%);
-                background:none; border:none; cursor:pointer; color:#898781; font-size:16px; 
-                padding:2px 6px; border-radius:4px;"
-        >✕</button>
-    </div>
-    <!-- Dropdown hasil search -->
-    <div id="search-results" style="display:none; position:absolute; z-index:1000;
-        background:#fff; border:1px solid #e1e0d9; border-radius:10px; 
-        max-width:420px; max-height:280px; overflow-y:auto;
-        box-shadow:0 8px 24px rgba(0,0,0,0.12); margin-top:4px;">
-    </div>
+        <input type="text" id="inp-search" placeholder="Ketik nama tempat..." autocomplete="off"
+               oninput="handleSearch(this.value)"/>
+        <button class="search-clear" id="btn-clear" onclick="clearSearch()">✕</button>
+        <div class="search-dropdown" id="search-dropdown"></div>
+      </div>
     </div>
 
-  <div class="header">
-    <div class="header-text">
-      <p>Kabupaten Gresik — Google Maps</p>
-      <h1>Analisis sentimen ulasan</h1>
+    <!-- Kategori -->
+    <div class="fg">
+      <label>Kategori</label>
+      <select id="sel-kat"></select>
     </div>
 
-    <!-- ── Filter bar: Kategori → Sub-Kategori → Tempat ── -->
-    <div class="filter-bar">
-      <div class="filter-group">
-        <span class="filter-label">Kategori</span>
-        <select id="kategori"></select>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">Sub-Kategori</span>
-        <select id="sub-kategori"></select>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">Tempat</span>
-        <select id="pilih-tempat"></select>
-      </div>
+    <!-- Sub-Kategori -->
+    <div class="fg">
+      <label>Sub-Kategori</label>
+      <select id="sel-sub"></select>
+    </div>
+
+    <!-- Pilih Tempat -->
+    <div class="fg">
+      <label>Pilih Tempat</label>
+      <select id="sel-tempat">
+        <option value="">— Pilih Tempat —</option>
+      </select>
+    </div>
+
+    <!-- Tombol reset ke tampilan awal -->
+    <div class="fg" style="justify-content:flex-end;">
+      <label style="visibility:hidden">reset</label>
+      <button onclick="resetKeAwal()" style="padding:7px 16px;border-radius:8px;
+        border:1px solid #c3c2b7;background:#fff;font-size:13px;
+        color:#52514e;cursor:pointer;">⟳ Tampilkan Semua</button>
     </div>
   </div>
 
-  <!-- KPI dengan info sub-kategori tempat aktif -->
-  <div id="subkat-info" style="margin-bottom:10px; display:none;">
-    <span style="font-size:12px;color:#898781;">Sub-Kategori:</span>
-    <span class="subkat-badge" id="subkat-label"></span>
+  <!-- ══ SUMMARY BAR (tampilan awal – semua tempat) ══════════ -->
+  <div class="summary-bar" id="summary-bar">
+    <div class="sb-card">
+      <span class="sb-label">Total Tempat</span>
+      <span class="sb-value" id="sb-total">—</span>
+    </div>
+    <div class="sb-card">
+      <span class="sb-label">Rata-rata Rating</span>
+      <span class="sb-value" id="sb-rating">—</span>
+    </div>
+    <div class="sb-card">
+      <span class="sb-label">Total Ulasan</span>
+      <span class="sb-value" id="sb-ulasan">—</span>
+    </div>
+    <div class="sb-card">
+      <span class="sb-label">% Positif (rata-rata)</span>
+      <span class="sb-value pos" id="sb-positif">—</span>
+    </div>
   </div>
 
-  <div class="kpi-row" id="kpi-row"></div>
+  <!-- ══ SELECTED TEMPAT HEADER ════════════════════════════════ -->
+  <div class="selected-header" id="sel-header">
+    <div style="flex:1;min-width:180px;">
+      <div class="sel-name" id="sel-name">—</div>
+      <div class="sel-meta" id="sel-meta">—</div>
+    </div>
+    <span class="sel-badge" id="sel-subkat">—</span>
+    <a id="sel-detail-link" href="#" target="_blank"
+       style="font-size:12px;color:#2d5be3;text-decoration:none;white-space:nowrap;">
+      Lihat Detail →
+    </a>
+    <button class="btn-reset-sel" onclick="resetKeAwal()">✕ Kembali ke Semua</button>
+  </div>
 
-  <!-- ── Peta sebaran tempat ── -->
+  <!-- ══ KPI ROW ═══════════════════════════════════════════════ -->
+  <div class="kpi-row" id="kpi-row" style="display:none;">
+    <div class="kpi-card"><p class="lbl">Rating</p><p class="val" id="kpi-rating">—</p></div>
+    <div class="kpi-card"><p class="lbl">Total Ulasan</p><p class="val" id="kpi-ulasan">—</p></div>
+    <div class="kpi-card"><p class="lbl">Positif</p><p class="val pos" id="kpi-pos">—</p></div>
+    <div class="kpi-card"><p class="lbl">Negatif</p><p class="val neg" id="kpi-neg">—</p></div>
+  </div>
+
+  <!-- ══ PETA ══════════════════════════════════════════════════ -->
   <div class="peta-card">
-    <p class="card-title">Peta sebaran tempat &amp; sentimen</p>
-    <div id="peta"></div>
-    <div class="peta-legend">
-      <span><span class="peta-dot" style="background:#1baf7a"></span>Dominan Positif</span>
-      <span><span class="peta-dot" style="background:#eda100"></span>Dominan Netral</span>
-      <span><span class="peta-dot" style="background:#e34948"></span>Dominan Negatif</span>
-      <span><span class="peta-dot" style="background:#9ca3af"></span>Belum ada ulasan</span>
-    </div>
-  </div>
-
-  <div class="charts-row">
-    <div class="card">
-      <p class="card-title">Distribusi sentimen</p>
-      <div class="chart-wrap"><canvas id="donutChart"></canvas></div>
-      <div class="legend" id="legend-donut"></div>
-    </div>
-    <div class="card">
-      <p class="card-title" id="bar-title">Perbandingan dalam kategori</p>
-      <div class="chart-wrap"><canvas id="barChart"></canvas></div>
-      <div class="legend">
-        <span><span class="legend-dot" style="background:#1baf7a"></span>Positif</span>
-        <span><span class="legend-dot" style="background:#eda100"></span>Netral</span>
-        <span><span class="legend-dot" style="background:#e34948"></span>Negatif</span>
+    <div class="peta-title-row">
+      <span class="peta-title" id="peta-title">Peta sebaran semua tempat</span>
+      <div class="peta-legend">
+        <span><span class="peta-dot" style="background:#1baf7a"></span>Dominan Positif</span>
+        <span><span class="peta-dot" style="background:#eda100"></span>Dominan Netral</span>
+        <span><span class="peta-dot" style="background:#e34948"></span>Dominan Negatif</span>
+        <span><span class="peta-dot" style="background:#9ca3af"></span>Belum ada ulasan</span>
       </div>
     </div>
+    <div id="peta"></div>
   </div>
 
-  <div class="ulasan-card">
-    <p class="card-title">Ulasan terbaru</p>
-    <div id="ulasan-list"><p class="loading">Pilih tempat untuk melihat ulasan...</p></div>
+  <!-- ══ DAFTAR TEMPAT (tampilan awal) ════════════════════════ -->
+  <div class="tempat-list-card" id="tempat-list-section">
+    <div class="tl-header">
+      <span class="card-title" id="tl-title">Daftar Tempat</span>
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font-size:12px;color:#898781;" id="tl-count"></span>
+        <div style="display:flex;align-items:center;gap:6px;">
+          <span style="font-size:12px;color:#898781;">Tampilkan</span>
+          <select class="pg-per-page" id="pg-per-page" onchange="ubahPerPage(this.value)">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+          <span style="font-size:12px;color:#898781;">per halaman</span>
+        </div>
+      </div>
+    </div>
+    <div style="overflow-x:auto;">
+      <table class="tl-table" id="tl-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nama Tempat</th>
+            <th>Sub-Kategori</th>
+            <th>Rating</th>
+            <th>Ulasan</th>
+            <th>Sentimen</th>
+            <th>Distribusi</th>
+          </tr>
+        </thead>
+        <tbody id="tl-body"></tbody>
+      </table>
+    </div>
+    <!-- Pagination bawah -->
+    <div class="pagination-wrap" id="pg-wrap">
+      <div class="pg-info" id="pg-info"></div>
+      <div class="pg-btns" id="pg-btns"></div>
+    </div>
   </div>
 
-</div>
+  <!-- ══ CHARTS + ULASAN (tampilan detail tempat) ════════════= -->
+  <div id="detail-section" style="display:none;">
+    <div class="charts-row">
+      <div class="card-chart">
+        <p class="card-title">Distribusi Sentimen</p>
+        <div class="chart-wrap"><canvas id="donutChart"></canvas></div>
+        <div class="legend" id="donut-legend"></div>
+      </div>
+      <div class="card-chart">
+        <p class="card-title" id="bar-title">Perbandingan Tempat Sekategori</p>
+        <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+        <div class="legend">
+          <span><span class="leg-dot" style="background:#1baf7a"></span>Positif</span>
+          <span><span class="leg-dot" style="background:#eda100"></span>Netral</span>
+          <span><span class="leg-dot" style="background:#e34948"></span>Negatif</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="ulasan-card">
+      <p class="card-title">Ulasan Terbaru</p>
+      <div id="ulasan-list"><p class="loading-msg">Memuat ulasan...</p></div>
+    </div>
+  </div>
+
+</div><!-- /gm-wrap -->
+
+<!-- Leaflet JS + Chart.js -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 
 <script>
-// ── Data dari Flask ───────────────────────────────
+// ══════════════════════════════════════════════════════════════
+// DATA
+// ══════════════════════════════════════════════════════════════
 const DATA = {{ tempat|tojson }};
 
-// Mapping kategori → { sub-kategori → [tempat] }
-// Dibangun sekali saat load
+// ── Build TREE: kategori → sub_kategori → [tempat] ────────────
 const TREE = {};
 DATA.forEach(d => {
-    const kat = d.kategori || "Lainnya";
-    const sub = d.sub_kategori || "Lainnya";
-    if (!TREE[kat]) TREE[kat] = {};
-    if (!TREE[kat][sub]) TREE[kat][sub] = [];
-    TREE[kat][sub].push(d);
+  const kat = d.kategori || "Lainnya";
+  const sub = d.sub_kategori || "Lainnya";
+  if (!TREE[kat]) TREE[kat] = {};
+  if (!TREE[kat][sub]) TREE[kat][sub] = [];
+  TREE[kat][sub].push(d);
 });
 
-let donutInst = null, barInst = null;
-let kategoriAktif  = "";
-let subKatAktif    = "";
-let petaInst       = null;
-let markerLayer    = null;
-const markerById   = {};
+// ══════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════
+let activeId   = null;   // null = tampilan semua
+let donutInst  = null;
+let barInst    = null;
+let petaInst   = null;
+let markerLayer = null;
+const markerMap = {};    // key → leaflet marker
 
-const kategoriSelect  = document.getElementById("kategori");
-const subKatSelect    = document.getElementById("sub-kategori");
-const tempatSelect    = document.getElementById("pilih-tempat");
-
-// ── 1. Isi dropdown Kategori ──────────────────────
-const daftarKategori = Object.keys(TREE).sort();
-daftarKategori.forEach(k => {
-    kategoriSelect.innerHTML += `<option value="${k}">${k}</option>`;
-});
-
-// ── 2. Isi dropdown Sub-Kategori ──────────────────
-function loadSubKategori(kat) {
-    subKatSelect.innerHTML = `<option value="">— Semua Sub-Kategori —</option>`;
-    const subs = Object.keys(TREE[kat] || {}).sort();
-    subs.forEach(s => {
-        subKatSelect.innerHTML += `<option value="${s}">${s}</option>`;
-    });
-    subKatAktif = "";
-}
-
-// ── 3. Isi dropdown Tempat ────────────────────────
-function loadTempat(kat, sub) {
-    tempatSelect.innerHTML = "";
-    let list;
-    if (sub && TREE[kat] && TREE[kat][sub]) {
-        list = TREE[kat][sub];
-    } else if (TREE[kat]) {
-        // Semua tempat dalam kategori ini
-        list = Object.values(TREE[kat]).flat();
-    } else {
-        list = [];
-    }
-    // Urutkan A-Z
-    list.sort((a,b) => a.tempat.localeCompare(b.tempat));
-    list.forEach(x => {
-        tempatSelect.innerHTML += `<option value="${x.key}">${x.tempat}</option>`;
-    });
-    document.getElementById("bar-title").textContent =
-        sub ? `Perbandingan dalam: ${sub}` : `Perbandingan dalam: ${kat}`;
-}
-
-// ── 4. Tampilkan sub-kategori aktif tempat terpilih ──
-function tampilSubKatInfo(id) {
-    const d = DATA.find(x => x.key === id);
-    const info  = document.getElementById("subkat-info");
-    const label = document.getElementById("subkat-label");
-    if (d && d.sub_kategori && d.sub_kategori !== "Lainnya") {
-        label.textContent = d.sub_kategori;
-        info.style.display = "block";
-    } else {
-        info.style.display = "none";
-    }
-}
-
-// ── KPI ───────────────────────────────────────────
-function renderKPI(d) {
-    document.getElementById("kpi-row").innerHTML = `
-        ${kpi("Rating", (d.rating||0) + " ⭐", "")}
-        ${kpi("Total ulasan", d.total_ulasan, "")}
-        ${kpi("Positif", (d.persen_positif||0).toFixed(1) + "%", "positif")}
-        ${kpi("Negatif", (d.persen_negatif||0).toFixed(1) + "%", "negatif")}
-    `;
-}
-function kpi(label, val, cls) {
-    return `<div class="kpi-card"><p class="label">${label}</p><p class="value ${cls}">${val}</p></div>`;
-}
-
-// ── Warna marker ──────────────────────────────────
-function warnaSentimen(d) {
-    if (!d.total_ulasan || d.total_ulasan === 0) return "#9ca3af";
-    const pp = d.persen_positif||0, pn = d.persen_netral||0, pg = d.persen_negatif||0;
-    if (pp >= pn && pp >= pg) return "#1baf7a";
-    if (pg >= pp && pg >= pn) return "#e34948";
-    return "#eda100";
-}
-
-// ── Peta ───────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════════════════════════
 const GRESIK_BOUNDS = {
-    latMin: -7.65, latMax: -5.55,
-    lngMin: 112.20, lngMax: 112.95
+  latMin:-7.65, latMax:-5.55, lngMin:112.20, lngMax:112.95
 };
-
-function dalamAreaGresik(d) {
-    if (!d.latitude || !d.longitude) return false;
-    const lat = parseFloat(d.latitude), lng = parseFloat(d.longitude);
-    if (isNaN(lat) || isNaN(lng)) return false;
-    return lat >= GRESIK_BOUNDS.latMin && lat <= GRESIK_BOUNDS.latMax
-        && lng >= GRESIK_BOUNDS.lngMin && lng <= GRESIK_BOUNDS.lngMax;
+function dalamGresik(d) {
+  if (!d.latitude || !d.longitude) return false;
+  const la=parseFloat(d.latitude), lo=parseFloat(d.longitude);
+  if (isNaN(la)||isNaN(lo)) return false;
+  return la>=GRESIK_BOUNDS.latMin && la<=GRESIK_BOUNDS.latMax
+      && lo>=GRESIK_BOUNDS.lngMin && lo<=GRESIK_BOUNDS.lngMax;
 }
 
+function warnaSentimen(d) {
+  if (!d.total_ulasan || d.total_ulasan===0) return "#9ca3af";
+  const pp=d.persen_positif||0, pn=d.persen_netral||0, pg=d.persen_negatif||0;
+  if (pp>=pn && pp>=pg) return "#1baf7a";
+  if (pg>=pp && pg>=pn) return "#e34948";
+  return "#eda100";
+}
+
+function dominanLabel(d) {
+  if (!d.total_ulasan || d.total_ulasan===0) return "Belum ada ulasan";
+  const pp=d.persen_positif||0, pn=d.persen_netral||0, pg=d.persen_negatif||0;
+  if (pp>=pn && pp>=pg) return "Positif";
+  if (pg>=pp && pg>=pn) return "Negatif";
+  return "Netral";
+}
+
+function fmt1(n) { return (n||0).toFixed(1); }
+
+// ══════════════════════════════════════════════════════════════
+// PETA
+// ══════════════════════════════════════════════════════════════
 function initPeta() {
-    petaInst = L.map('peta', { preferCanvas: true }).setView([-7.1566, 112.6532], 11);
-    setTimeout(() => petaInst.invalidateSize(), 200);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
-    }).addTo(petaInst);
-    markerLayer = L.layerGroup().addTo(petaInst);
-    renderMarkers(DATA);
+  petaInst = L.map('peta', { preferCanvas:true }).setView([-7.1566, 112.6532], 11);
+  setTimeout(()=>petaInst.invalidateSize(), 200);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:'&copy; OpenStreetMap contributors', maxZoom:19
+  }).addTo(petaInst);
+  markerLayer = L.layerGroup().addTo(petaInst);
+  renderMarkers(DATA, null);
 }
 
-function renderMarkers(list) {
-    markerLayer.clearLayers();
-    Object.keys(markerById).forEach(k => delete markerById[k]);
-    const bounds = [];
-    list.forEach(d => {
-        if (!dalamAreaGresik(d)) return;
-        const marker = L.circleMarker([d.latitude, d.longitude], {
-            radius: 7, fillColor: warnaSentimen(d),
-            color: "#333", weight: 1, fillOpacity: 0.85
-        });
-        marker.bindPopup(`
-            <b>${d.tempat}</b><br>
-            <span style="font-size:11px;color:#6b7280;">${d.kategori}</span>
-            ${d.sub_kategori && d.sub_kategori !== 'Lainnya'
-                ? `<span style="font-size:11px;color:#2d5be3;"> › ${d.sub_kategori}</span>`
-                : ''}<br>
-            ⭐ ${d.rating||0} (${d.total_ulasan||0} ulasan)<br>
-            ${d.total_ulasan
-                ? `👍 ${(d.persen_positif||0).toFixed(1)}% &nbsp; 😐 ${(d.persen_netral||0).toFixed(1)}% &nbsp; 👎 ${(d.persen_negatif||0).toFixed(1)}%`
-                : "Belum ada ulasan"}<br>
-            <a href="#" onclick="pilihDariPeta('${d.id}');return false;">Lihat detail →</a>
-        `);
-        marker.on('click', () => pilihDariPeta(d.id));
-        marker.addTo(markerLayer);
-        markerById[d.id] = marker;
-        bounds.push([d.latitude, d.longitude]);
+function renderMarkers(list, highlightId) {
+  markerLayer.clearLayers();
+  Object.keys(markerMap).forEach(k => delete markerMap[k]);
+
+  const bounds = [];
+  list.forEach(d => {
+    if (!dalamGresik(d)) return;
+    const isHl = highlightId && d.key === highlightId;
+    const marker = L.circleMarker([d.latitude, d.longitude], {
+      radius    : isHl ? 12 : 7,
+      fillColor : warnaSentimen(d),
+      color     : isHl ? "#1A4A9E" : "#333",
+      weight    : isHl ? 3 : 1,
+      fillOpacity: isHl ? 1 : 0.82,
     });
-    if (bounds.length) petaInst.fitBounds(bounds, { padding:[30,30], maxZoom:14 });
+
+    const sub = d.sub_kategori && d.sub_kategori!=="Lainnya"
+      ? `<span style="font-size:11px;color:#2d5be3;"> › ${d.sub_kategori}</span>` : "";
+    const ulInfo = d.total_ulasan
+      ? `👍 ${fmt1(d.persen_positif)}% &nbsp;😐 ${fmt1(d.persen_netral)}% &nbsp;👎 ${fmt1(d.persen_negatif)}%`
+      : "Belum ada ulasan";
+
+    marker.bindPopup(`
+      <b style="font-size:13px;">${d.tempat}</b><br>
+      <span style="font-size:11px;color:#6b7280;">${d.kategori}${sub}</span><br>
+      ⭐ ${d.rating||0} (${d.total_ulasan||0} ulasan)<br>
+      ${ulInfo}<br>
+      <a href="#" onclick="pilihTempat('${d.key}');return false;"
+         style="color:#2d5be3;font-size:12px;">Lihat detail →</a>
+    `);
+    marker.on('click', ()=>pilihTempat(d.key));
+    marker.addTo(markerLayer);
+    markerMap[d.key] = marker;
+    bounds.push([d.latitude, d.longitude]);
+  });
+
+  if (bounds.length && !highlightId) {
+    petaInst.fitBounds(bounds, { padding:[30,30], maxZoom:13 });
+  }
 }
 
-function pilihDariPeta(id) {
-    const d = DATA.find(x => x.key === id);
-    if (!d) return;
-
-    // Set kategori
-    kategoriSelect.value = d.kategori;
-    kategoriAktif = d.kategori;
-    loadSubKategori(kategoriAktif);
-
-    // Set sub-kategori
-    subKatSelect.value = d.sub_kategori || "";
-    subKatAktif = d.sub_kategori || "";
-    loadTempat(kategoriAktif, subKatAktif);
-
-    // Set tempat
-    tempatSelect.value = id;
-
-    render(id);
-    document.getElementById("kpi-row").scrollIntoView({ behavior:"smooth", block:"start" });
+// ── Zoom & highlight marker satu tempat ──────────────────────
+function zoomKeTempat(d) {
+  if (!dalamGresik(d)) return;
+  petaInst.setView([parseFloat(d.latitude), parseFloat(d.longitude)], 16, { animate:true });
+  // Re-render semua marker tapi highlight yg dipilih
+  renderMarkers(filteredList(), d.key);
+  const m = markerMap[d.key];
+  if (m) setTimeout(()=>m.openPopup(), 400);
 }
 
-// ── Donut chart ───────────────────────────────────
-function renderDonut(d) {
-    const canvas = document.getElementById("donutChart");
-    const ctx = canvas.getContext("2d");
-    if (donutInst) { donutInst.destroy(); donutInst = null; }
+// ══════════════════════════════════════════════════════════════
+// DROPDOWN FILTER
+// ══════════════════════════════════════════════════════════════
+const selKat    = document.getElementById("sel-kat");
+const selSub    = document.getElementById("sel-sub");
+const selTempat = document.getElementById("sel-tempat");
 
-    if (!d.total_ulasan || d.total_ulasan === 0) {
-        canvas.style.display = "none";
-        let kosong = document.getElementById("donut-kosong");
-        if (!kosong) {
-            kosong = document.createElement("p");
-            kosong.id = "donut-kosong"; kosong.className = "loading";
-            canvas.parentNode.appendChild(kosong);
-        }
-        kosong.textContent = "Belum ada ulasan untuk tempat ini.";
-        kosong.style.display = "block";
-        document.getElementById("legend-donut").innerHTML = "";
-        return;
-    }
-    canvas.style.display = "block";
-    const kosong = document.getElementById("donut-kosong");
-    if (kosong) kosong.style.display = "none";
+// Isi kategori
+const daftarKat = ["— Semua Kategori —", ...Object.keys(TREE).sort()];
+daftarKat.forEach((k,i) => {
+  selKat.innerHTML += `<option value="${i===0?'':k}">${k}</option>`;
+});
 
-    donutInst = new Chart(ctx, {
-        type: "doughnut",
-        data: {
-            labels: ["Positif","Netral","Negatif"],
-            datasets: [{ data:[d.positif,d.netral,d.negatif],
-                backgroundColor:["#1baf7a","#eda100","#e34948"],
-                borderWidth:3, borderColor:"#fff", hoverOffset:6 }]
-        },
-        options: { responsive:true, maintainAspectRatio:false, cutout:"68%",
-            plugins:{ legend:{display:false},
-                tooltip:{ callbacks:{ label: c =>
-                    ` ${c.label}: ${c.raw} (${d.total_ulasan ? ((c.raw/d.total_ulasan)*100).toFixed(1) : 0}%)`
-                }}}}
+function loadSubs(kat) {
+  selSub.innerHTML = `<option value="">— Semua Sub-Kategori —</option>`;
+  if (kat && TREE[kat]) {
+    Object.keys(TREE[kat]).sort().forEach(s => {
+      selSub.innerHTML += `<option value="${s}">${s}</option>`;
     });
-    const pcts = [d.persen_positif, d.persen_netral, d.persen_negatif];
-    const cols  = ["#1baf7a","#eda100","#e34948"];
-    document.getElementById("legend-donut").innerHTML =
-        ["Positif","Netral","Negatif"].map((l,i) =>
-            `<span><span class="legend-dot" style="background:${cols[i]}"></span>${l} ${(pcts[i]||0).toFixed(1)}%</span>`
-        ).join("");
+  }
+  loadTempatList(kat, "");
+}
+loadSubs("");
+
+function loadTempatList(kat, sub) {
+  selTempat.innerHTML = `<option value="">— Pilih Tempat —</option>`;
+  let list;
+  if (!kat) {
+    list = DATA;
+  } else if (!sub) {
+    list = Object.values(TREE[kat]||{}).flat();
+  } else {
+    list = (TREE[kat]||{})[sub] || [];
+  }
+  // Urutkan A-Z
+  [...list].sort((a,b)=>(a.tempat||"").localeCompare(b.tempat||"","id"))
+    .forEach(d => {
+      selTempat.innerHTML +=
+        `<option value="${d.key}">${d.tempat}${d.rating?' ⭐'+d.rating:''}</option>`;
+    });
 }
 
-// ── Bar chart — berdasarkan sub-kategori aktif ────
-function renderBar(kat, sub) {
-    const ctx = document.getElementById("barChart").getContext("2d");
-    if (barInst) barInst.destroy();
+selKat.addEventListener("change", function() {
+  loadSubs(this.value);
+  selTempat.value = "";
+  applyFilter();
+});
 
-    let filtered;
-    if (sub && TREE[kat] && TREE[kat][sub]) {
-        filtered = TREE[kat][sub];
-    } else if (TREE[kat]) {
-        filtered = Object.values(TREE[kat]).flat();
+selSub.addEventListener("change", function() {
+  loadTempatList(selKat.value, this.value);
+  selTempat.value = "";
+  applyFilter();
+});
+
+selTempat.addEventListener("change", function() {
+  if (this.value) {
+    pilihTempat(this.value);
+  } else {
+    applyFilter();
+  }
+});
+
+// ── Hitung list aktif berdasarkan filter ─────────────────────
+function filteredList() {
+  const kat = selKat.value;
+  const sub = selSub.value;
+  if (!kat) return DATA;
+  if (!sub) return Object.values(TREE[kat]||{}).flat();
+  return (TREE[kat]||{})[sub] || [];
+}
+
+function applyFilter() {
+  activeId = null;
+  const list = filteredList();
+  resetKeAwalUI(list);
+}
+
+// ══════════════════════════════════════════════════════════════
+// TAMPILAN AWAL (semua / filter)
+// ══════════════════════════════════════════════════════════════
+function resetKeAwal() {
+  selKat.value    = "";
+  selSub.value    = "";
+  selTempat.value = "";
+  loadSubs("");
+  activeId = null;
+  resetKeAwalUI(DATA);
+}
+
+function resetKeAwalUI(list) {
+  // Summary bar
+  const total    = list.length;
+  const withUl   = list.filter(d=>d.total_ulasan>0);
+  const avgRating= withUl.length
+    ? (withUl.reduce((s,d)=>s+(d.rating||0),0)/withUl.length).toFixed(1) : "—";
+  const totalUl  = list.reduce((s,d)=>s+(d.total_ulasan||0),0);
+  const avgPos   = withUl.length
+    ? (withUl.reduce((s,d)=>s+(d.persen_positif||0),0)/withUl.length).toFixed(1)+"%" : "—";
+
+  document.getElementById("sb-total").textContent   = total;
+  document.getElementById("sb-rating").textContent  = avgRating;
+  document.getElementById("sb-ulasan").textContent  = totalUl.toLocaleString("id-ID");
+  document.getElementById("sb-positif").textContent = avgPos;
+
+  // Show/hide panels
+  document.getElementById("summary-bar").style.display     = "";
+  document.getElementById("sel-header").classList.remove("show");
+  document.getElementById("kpi-row").style.display         = "none";
+  document.getElementById("detail-section").style.display  = "none";
+  document.getElementById("tempat-list-section").style.display = "";
+
+  // Peta
+  document.getElementById("peta-title").textContent =
+    selKat.value
+      ? `Peta: ${selSub.value || selKat.value} (${list.length} tempat)`
+      : `Peta sebaran semua tempat (${list.length} tempat)`;
+  renderMarkers(list, null);
+  if (list.length) {
+    const bounds = list.filter(d=>dalamGresik(d))
+                       .map(d=>[parseFloat(d.latitude), parseFloat(d.longitude)]);
+    if (bounds.length) petaInst.fitBounds(bounds, { padding:[30,30], maxZoom:13 });
+  }
+
+  // Tabel
+  renderTabelTempat(list);
+}
+
+// ══════════════════════════════════════════════════════════════
+// PAGINATION STATE
+// ══════════════════════════════════════════════════════════════
+let pgData    = [];   // data terurut saat ini
+let pgCurrent = 1;
+let pgPerPage = 20;
+
+function renderTabelTempat(list) {
+  pgData    = [...list].sort((a,b)=>(b.total_ulasan||0)-(a.total_ulasan||0));
+  pgCurrent = 1;
+  pgPerPage = parseInt(document.getElementById("pg-per-page").value) || 20;
+
+  const kat = selKat.value;
+  const sub = selSub.value;
+  document.getElementById("tl-title").textContent =
+    sub ? `Daftar Tempat — ${sub}`
+    : kat ? `Daftar Tempat — ${kat}`
+    : "Daftar Semua Tempat";
+
+  renderHalamanTabel();
+}
+
+function renderHalamanTabel() {
+  const total     = pgData.length;
+  const totalPage = Math.max(1, Math.ceil(total / pgPerPage));
+  pgCurrent       = Math.min(pgCurrent, totalPage);
+
+  const start = (pgCurrent - 1) * pgPerPage;
+  const end   = Math.min(start + pgPerPage, total);
+  const slice = pgData.slice(start, end);
+
+  // Info
+  document.getElementById("tl-count").textContent = `${total} tempat`;
+  document.getElementById("pg-info").textContent  =
+    total ? `Menampilkan ${start+1}–${end} dari ${total} tempat` : "Tidak ada data";
+
+  // Body tabel
+  const body = document.getElementById("tl-body");
+  if (!slice.length) {
+    body.innerHTML = `<tr><td colspan="7" style="text-align:center;color:#898781;padding:20px;">Tidak ada data.</td></tr>`;
+    document.getElementById("pg-btns").innerHTML = "";
+    return;
+  }
+  body.innerHTML = slice.map((d,i) => {
+    const dom = dominanLabel(d);
+    const cls = dom==="Positif"?"pos": dom==="Negatif"?"neg":"net";
+    const pp  = d.persen_positif||0, pn=d.persen_netral||0, pg=d.persen_negatif||0;
+    const globalIdx = start + i + 1;
+    return `<tr onclick="pilihTempat('${d.key}')" style="cursor:pointer;">
+      <td style="color:#898781;">${globalIdx}</td>
+      <td style="font-weight:500;">${d.tempat}</td>
+      <td style="color:#6b7280;">${d.sub_kategori||"-"}</td>
+      <td>⭐ ${d.rating||0}</td>
+      <td>${(d.total_ulasan||0).toLocaleString("id-ID")}</td>
+      <td><span class="tl-badge ${cls}">${dom}</span></td>
+      <td>
+        <div class="bar-mini">
+          <div style="width:${pp}%;background:#1baf7a;"></div>
+          <div style="width:${pn}%;background:#eda100;"></div>
+          <div style="width:${pg}%;background:#e34948;"></div>
+        </div>
+      </td>
+    </tr>`;
+  }).join("");
+
+  // Tombol pagination
+  renderPgBtns(totalPage);
+}
+
+function renderPgBtns(totalPage) {
+  const wrap = document.getElementById("pg-btns");
+  if (totalPage <= 1) { wrap.innerHTML = ""; return; }
+
+  let html = "";
+
+  // Prev
+  html += `<button class="pg-btn" onclick="goPage(${pgCurrent-1})"
+    ${pgCurrent===1?"disabled":""}>&#8249;</button>`;
+
+  // Nomor halaman — tampilkan maks 7 tombol dengan ellipsis
+  const pages = paginationRange(pgCurrent, totalPage);
+  pages.forEach(p => {
+    if (p === "…") {
+      html += `<span style="padding:0 4px;color:#898781;font-size:13px;">…</span>`;
     } else {
-        filtered = [];
+      html += `<button class="pg-btn${p===pgCurrent?" active":""}"
+        onclick="goPage(${p})">${p}</button>`;
     }
-    // Batasi 15 tempat agar bar chart tidak terlalu padat
-    filtered = filtered.slice(0, 15);
+  });
 
-    barInst = new Chart(ctx, {
-        type: "bar",
-        data: {
-            labels: filtered.map(x => x.tempat.length > 20 ? x.tempat.slice(0,20)+"…" : x.tempat),
-            datasets: [
-                { label:"Positif", data:filtered.map(x=>x.persen_positif), backgroundColor:"#1baf7a", borderRadius:4 },
-                { label:"Netral",  data:filtered.map(x=>x.persen_netral),  backgroundColor:"#eda100", borderRadius:4 },
-                { label:"Negatif", data:filtered.map(x=>x.persen_negatif), backgroundColor:"#e34948", borderRadius:4 },
-            ]
-        },
-        options: { responsive:true, maintainAspectRatio:false,
-            plugins:{ legend:{display:false} },
-            scales:{
-                x:{ stacked:true, ticks:{font:{size:9}}, grid:{display:false} },
-                y:{ stacked:true, max:100, ticks:{callback:v=>v+"%"}, grid:{color:"#e1e0d9"} }
-            }}
-    });
+  // Next
+  html += `<button class="pg-btn" onclick="goPage(${pgCurrent+1})"
+    ${pgCurrent===totalPage?"disabled":""}>&#8250;</button>`;
+
+  wrap.innerHTML = html;
 }
 
-// ── Ulasan ────────────────────────────────────────
+function paginationRange(current, total) {
+  if (total <= 7) return Array.from({length:total},(_,i)=>i+1);
+  const pages = [];
+  if (current <= 4) {
+    for (let i=1;i<=5;i++) pages.push(i);
+    pages.push("…"); pages.push(total);
+  } else if (current >= total-3) {
+    pages.push(1); pages.push("…");
+    for (let i=total-4;i<=total;i++) pages.push(i);
+  } else {
+    pages.push(1); pages.push("…");
+    for (let i=current-1;i<=current+1;i++) pages.push(i);
+    pages.push("…"); pages.push(total);
+  }
+  return pages;
+}
+
+function goPage(n) {
+  const total = Math.ceil(pgData.length / pgPerPage);
+  if (n < 1 || n > total) return;
+  pgCurrent = n;
+  renderHalamanTabel();
+  document.getElementById("tempat-list-section")
+    .scrollIntoView({ behavior:"smooth", block:"start" });
+}
+
+function ubahPerPage(val) {
+  pgPerPage = parseInt(val) || 20;
+  pgCurrent = 1;
+  renderHalamanTabel();
+}
+
+// ══════════════════════════════════════════════════════════════
+// PILIH SATU TEMPAT → TAMPILAN DETAIL
+// ══════════════════════════════════════════════════════════════
+function pilihTempat(key) {
+  const d = DATA.find(x => x.key === key);
+  if (!d) return;
+  activeId = key;
+
+  // Sync filter dropdown ke kategori tempat
+  if (selKat.value !== (d.kategori||"")) {
+    selKat.value = d.kategori || "";
+    loadSubs(selKat.value);
+  }
+  if (selSub.value !== (d.sub_kategori||"")) {
+    selSub.value = d.sub_kategori || "";
+    loadTempatList(selKat.value, selSub.value);
+  }
+  // Sync dropdown tempat
+  selTempat.value = key;
+
+  // Selected header
+  const hdr = document.getElementById("sel-header");
+  hdr.classList.add("show");
+  document.getElementById("sel-name").textContent = d.tempat;
+  document.getElementById("sel-meta").textContent =
+    `${d.kategori}${d.sub_kategori&&d.sub_kategori!=="Lainnya" ? " › "+d.sub_kategori : ""} · ⭐ ${d.rating||0} · ${d.total_ulasan||0} ulasan`;
+  document.getElementById("sel-subkat").textContent = d.sub_kategori || d.kategori;
+  document.getElementById("sel-detail-link").href = `/googlemaps/${key}`;
+
+  // KPI
+  document.getElementById("kpi-row").style.display = "";
+  document.getElementById("kpi-rating").textContent = (d.rating||0) + " ⭐";
+  document.getElementById("kpi-ulasan").textContent = (d.total_ulasan||0).toLocaleString("id-ID");
+  document.getElementById("kpi-pos").textContent    = fmt1(d.persen_positif) + "%";
+  document.getElementById("kpi-neg").textContent    = fmt1(d.persen_negatif) + "%";
+
+  // Sembunyikan summary & tabel, tampilkan detail
+  document.getElementById("summary-bar").style.display    = "none";
+  document.getElementById("tempat-list-section").style.display = "none";
+  document.getElementById("detail-section").style.display = "";
+
+  // Peta → zoom ke titik
+  document.getElementById("peta-title").textContent = `Lokasi: ${d.tempat}`;
+  zoomKeTempat(d);
+
+  // Charts
+  renderDonut(d);
+  renderBar(d);
+
+  // Ulasan
+  renderUlasan(key);
+
+  // Scroll ke KPI
+  document.getElementById("sel-header").scrollIntoView({ behavior:"smooth", block:"start" });
+}
+
+// ══════════════════════════════════════════════════════════════
+// DONUT CHART
+// ══════════════════════════════════════════════════════════════
+function renderDonut(d) {
+  const canvas = document.getElementById("donutChart");
+  if (donutInst) { donutInst.destroy(); donutInst = null; }
+  if (!d.total_ulasan || d.total_ulasan===0) {
+    canvas.style.display = "none";
+    document.getElementById("donut-legend").innerHTML =
+      `<span style="color:#898781;font-size:13px;">Belum ada ulasan</span>`;
+    return;
+  }
+  canvas.style.display = "";
+  donutInst = new Chart(canvas.getContext("2d"), {
+    type:"doughnut",
+    data:{
+      labels:["Positif","Netral","Negatif"],
+      datasets:[{ data:[d.positif,d.netral,d.negatif],
+        backgroundColor:["#1baf7a","#eda100","#e34948"],
+        borderWidth:3, borderColor:"#fff", hoverOffset:6 }]
+    },
+    options:{ responsive:true, maintainAspectRatio:false, cutout:"68%",
+      plugins:{ legend:{display:false},
+        tooltip:{ callbacks:{ label: c =>
+          ` ${c.label}: ${c.raw} (${fmt1((c.raw/d.total_ulasan)*100)}%)`
+        }}
+      }
+    }
+  });
+  document.getElementById("donut-legend").innerHTML =
+    [["Positif","#1baf7a",d.persen_positif],["Netral","#eda100",d.persen_netral],
+     ["Negatif","#e34948",d.persen_negatif]]
+    .map(([l,c,p])=>`<span><span class="leg-dot" style="background:${c}"></span>${l} ${fmt1(p)}%</span>`)
+    .join("");
+}
+
+// ══════════════════════════════════════════════════════════════
+// BAR CHART — tempat sekategori / sub-kategori
+// ══════════════════════════════════════════════════════════════
+function renderBar(d) {
+  if (barInst) { barInst.destroy(); barInst = null; }
+  const sub = d.sub_kategori;
+  const kat = d.kategori;
+  let list;
+  if (sub && TREE[kat] && TREE[kat][sub]) {
+    list = TREE[kat][sub];
+    document.getElementById("bar-title").textContent = `Perbandingan: ${sub}`;
+  } else {
+    list = Object.values(TREE[kat]||{}).flat();
+    document.getElementById("bar-title").textContent = `Perbandingan: ${kat}`;
+  }
+  list = list.slice(0,15);
+
+  barInst = new Chart(document.getElementById("barChart").getContext("2d"), {
+    type:"bar",
+    data:{
+      labels: list.map(x=>x.tempat.length>20?x.tempat.slice(0,20)+"…":x.tempat),
+      datasets:[
+        { label:"Positif", data:list.map(x=>x.persen_positif), backgroundColor:"#1baf7a", borderRadius:4 },
+        { label:"Netral",  data:list.map(x=>x.persen_netral),  backgroundColor:"#eda100", borderRadius:4 },
+        { label:"Negatif", data:list.map(x=>x.persen_negatif), backgroundColor:"#e34948", borderRadius:4 },
+      ]
+    },
+    options:{ responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{display:false} },
+      scales:{
+        x:{ stacked:true, ticks:{font:{size:9}}, grid:{display:false} },
+        y:{ stacked:true, max:100, ticks:{callback:v=>v+"%"}, grid:{color:"#e1e0d9"} }
+      }
+    }
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// ULASAN
+// ══════════════════════════════════════════════════════════════
 async function renderUlasan(key) {
-    const list = document.getElementById("ulasan-list");
-    list.innerHTML = `<p class="loading">⏳ Memuat ulasan...</p>`;
-    try {
-        const res  = await fetch(`/api/googlemaps/${key}`);
-        const data = await res.json();
-        const ulasan = (data.ulasan || []).slice(0, 5);
-        if (!ulasan.length) {
-            list.innerHTML = `<p class="loading">Tidak ada ulasan.</p>`;
-            return;
-        }
-        list.innerHTML = ulasan.map(u => `
-            <div class="ulasan-item">
-                <div class="avatar">${(u["Nama Reviewer"]||"?")[0]}</div>
-                <div style="flex:1">
-                    <div class="ulasan-tempat">
-                        <span>${u["Nama Reviewer"]||"-"}</span>
-                        <span class="badge ${u.sentimen}">${u.sentimen}</span>
-                        <span class="badge" style="background:#eef3ff;color:#2d5be3;">${u.topik||""}</span>
-                        <span class="bintang">${"★".repeat(u["Bintang"]||0)}${"☆".repeat(5-(u["Bintang"]||0))}</span>
-                    </div>
-                    <p style="font-size:11px;color:#898781;margin:2px 0 4px;">
-                        🕒 ${u["Tanggal"] ? new Date(u["Tanggal"]).toLocaleDateString("id-ID",{day:"numeric",month:"long",year:"numeric"}) : "-"}
-                    </p>
-                    <p class="ulasan-teks">${u["Ulasan"]||"-"}</p>
-                </div>
-            </div>`).join("");
-    } catch(e) {
-        list.innerHTML = `<p class="loading">Gagal memuat ulasan.</p>`;
+  const el = document.getElementById("ulasan-list");
+  el.innerHTML = `<p class="loading-msg">⏳ Memuat ulasan...</p>`;
+  try {
+    const res  = await fetch(`/api/googlemaps/${key}`);
+    const data = await res.json();
+    const list = (data.ulasan||[]).slice(0,5);
+    if (!list.length) {
+      el.innerHTML = `<p class="loading-msg">Tidak ada ulasan tersedia.</p>`;
+      return;
     }
+    el.innerHTML = list.map(u=>`
+      <div class="ulasan-item">
+        <div class="avatar">${(u["Nama Reviewer"]||"?")[0].toUpperCase()}</div>
+        <div style="flex:1;">
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:3px;">
+            <span class="ul-name">${u["Nama Reviewer"]||"-"}</span>
+            <span class="badge ${u.sentimen||"Netral"}">${u.sentimen||"Netral"}</span>
+            ${u.topik?`<span style="font-size:11px;padding:2px 8px;border-radius:6px;
+              background:#eef3ff;color:#2d5be3;">${u.topik}</span>`:""}
+            <span class="bintang">${"★".repeat(u["Bintang"]||0)}${"☆".repeat(5-(u["Bintang"]||0))}</span>
+          </div>
+          <p style="font-size:11px;color:#898781;margin:2px 0 5px;">
+            🕒 ${u["Tanggal"]
+              ? new Date(u["Tanggal"]).toLocaleDateString("id-ID",{day:"numeric",month:"long",year:"numeric"})
+              : "-"}
+          </p>
+          <p class="ul-teks">${u["Ulasan"]||"-"}</p>
+        </div>
+      </div>`).join("");
+  } catch(e) {
+    el.innerHTML = `<p class="loading-msg">Gagal memuat ulasan.</p>`;
+  }
 }
 
-// ── Render utama ──────────────────────────────────
-function render(id) {
-    const d = DATA.find(x => x.key === id);
-    if (!d) return;
-    renderKPI(d);
-    tampilSubKatInfo(id);
-    renderDonut(d);
-    renderBar(kategoriAktif, subKatAktif);
-    // Update marker peta — highlight tempat aktif
-    const list = subKatAktif && TREE[kategoriAktif] && TREE[kategoriAktif][subKatAktif]
-        ? TREE[kategoriAktif][subKatAktif]
-        : Object.values(TREE[kategoriAktif] || {}).flat();
-    renderMarkers(list);
-    renderUlasan(id);
+// ══════════════════════════════════════════════════════════════
+// SEARCH
+// ══════════════════════════════════════════════════════════════
+function handleSearch(q) {
+  document.getElementById("btn-clear").style.display = q.length?"block":"none";
+  const dd = document.getElementById("search-dropdown");
+  if (q.trim().length < 2) { dd.style.display="none"; return; }
+
+  const lq = q.toLowerCase().trim();
+  const hasil = DATA.filter(d =>
+    (d.tempat||"").toLowerCase().includes(lq) ||
+    (d.kategori||"").toLowerCase().includes(lq) ||
+    (d.sub_kategori||"").toLowerCase().includes(lq)
+  ).slice(0,10);
+
+  if (!hasil.length) {
+    dd.innerHTML = `<div class="sd-item"><span class="sd-name" style="color:#898781;">
+      Tidak ada hasil untuk "${q}"</span></div>`;
+    dd.style.display = "block";
+    return;
+  }
+
+  const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")})`, "gi");
+  dd.innerHTML = hasil.map(d => `
+    <div class="sd-item" onclick="pilihDariSearch('${d.key}')">
+      <div style="display:flex;align-items:center;gap:7px;">
+        <span style="width:8px;height:8px;border-radius:50%;
+          background:${warnaSentimen(d)};flex-shrink:0;"></span>
+        <span class="sd-name">${(d.tempat||"").replace(re,`<mark style="background:#fef3c7;border-radius:2px;padding:0 2px;">$1</mark>`)}</span>
+      </div>
+      <div class="sd-meta">
+        ${d.kategori}${d.sub_kategori&&d.sub_kategori!=="Lainnya"?" › "+d.sub_kategori:""}
+        ${d.total_ulasan ? ` · ⭐${d.rating} · ${d.total_ulasan} ulasan` : " · Belum ada ulasan"}
+      </div>
+    </div>`).join("");
+  dd.style.display = "block";
 }
 
-// ── Event listeners ───────────────────────────────
-kategoriSelect.addEventListener("change", function() {
-    kategoriAktif = this.value;
-    loadSubKategori(kategoriAktif);
-    loadTempat(kategoriAktif, "");
-    render(tempatSelect.value);
-});
-
-subKatSelect.addEventListener("change", function() {
-    subKatAktif = this.value;
-    loadTempat(kategoriAktif, subKatAktif);
-    render(tempatSelect.value);
-});
-
-tempatSelect.addEventListener("change", function() {
-    render(this.value);
-});
-
-// ── Search Tempat ─────────────────────────────────
-function handleSearch(query) {
-    const btn   = document.getElementById("btn-clear-search");
-    const panel = document.getElementById("search-results");
-
-    btn.style.display = query.length > 0 ? "block" : "none";
-
-    if (query.trim().length < 2) {
-        panel.style.display = "none";
-        return;
-    }
-
-    const q = query.toLowerCase().trim();
-    const hasil = DATA.filter(d =>
-        (d.tempat || d.nama || "").toLowerCase().includes(q) ||
-        (d.kategori || "").toLowerCase().includes(q) ||
-        (d.sub_kategori || "").toLowerCase().includes(q)
-    ).slice(0, 10); // maksimal 10 hasil
-
-    if (hasil.length === 0) {
-        panel.innerHTML = `
-            <div style="padding:16px;text-align:center;color:#898781;font-size:13px;">
-                Tidak ditemukan hasil untuk "<b>${query}</b>"
-            </div>`;
-        panel.style.display = "block";
-        return;
-    }
-
-    panel.innerHTML = hasil.map(d => {
-        const nama    = d.tempat || d.nama || "-";
-        const kat     = d.kategori || "";
-        const sub     = d.sub_kategori || "";
-        const warna   = warnaSentimen(d);
-        const highlighted = nama.replace(
-            new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, "gi"),
-            `<mark style="background:#fef3c7;border-radius:2px;padding:0 2px;">$1</mark>`
-        );
-        return `
-        <div onclick="pilihHasilSearch('${d.id}')"
-             style="padding:10px 14px; cursor:pointer; border-bottom:0.5px solid #f1efe8;
-                    transition:background .15s;"
-             onmouseover="this.style.background='#f9f8f4'"
-             onmouseout="this.style.background='#fff'">
-            <div style="display:flex;align-items:center;gap:8px;">
-                <span style="width:8px;height:8px;border-radius:50%;background:${warna};
-                             flex-shrink:0;display:inline-block;"></span>
-                <span style="font-size:13px;font-weight:500;color:#111;">${highlighted}</span>
-            </div>
-            <div style="margin-top:3px;margin-left:16px;font-size:11px;color:#898781;">
-                ${kat}${sub && sub !== "Lainnya" ? ` › ${sub}` : ""}
-                ${d.total_ulasan ? ` · ⭐ ${d.rating} · ${d.total_ulasan} ulasan` : " · Belum ada ulasan"}
-            </div>
-        </div>`;
-    }).join("");
-
-    panel.style.display = "block";
-}
-
-function pilihHasilSearch(id) {
-    // Tutup panel search
-    document.getElementById("search-results").style.display = "none";
-    document.getElementById("search-tempat").value = "";
-    document.getElementById("btn-clear-search").style.display = "none";
-
-    // Sinkronkan dropdown
-    const d = DATA.find(x => x.id === id);
-    if (!d) return;
-
-    kategoriSelect.value = d.kategori;
-    kategoriAktif = d.kategori;
-    loadSubKategori(kategoriAktif);
-
-    subKatSelect.value = d.sub_kategori || "";
-    subKatAktif = d.sub_kategori || "";
-    loadTempat(kategoriAktif, subKatAktif);
-
-    tempatSelect.value = id;
-    render(id);
-
-    // Scroll ke KPI
-    document.getElementById("kpi-row").scrollIntoView({ behavior:"smooth", block:"start" });
-
-    // Highlight marker di peta
-    if (markerById[id]) {
-        markerById[id].openPopup();
-    }
+function pilihDariSearch(key) {
+  document.getElementById("inp-search").value = "";
+  document.getElementById("btn-clear").style.display = "none";
+  document.getElementById("search-dropdown").style.display = "none";
+  pilihTempat(key);
 }
 
 function clearSearch() {
-    document.getElementById("search-tempat").value = "";
-    document.getElementById("search-results").style.display = "none";
-    document.getElementById("btn-clear-search").style.display = "none";
+  document.getElementById("inp-search").value = "";
+  document.getElementById("btn-clear").style.display = "none";
+  document.getElementById("search-dropdown").style.display = "none";
 }
 
-// Tutup search results kalau klik di luar
-document.addEventListener("click", function(e) {
-    const box = document.getElementById("search-results");
-    const inp = document.getElementById("search-tempat");
-    if (box && inp && !box.contains(e.target) && e.target !== inp) {
-        box.style.display = "none";
-    }
+document.addEventListener("click", e => {
+  const dd  = document.getElementById("search-dropdown");
+  const inp = document.getElementById("inp-search");
+  if (dd && inp && !dd.contains(e.target) && e.target!==inp)
+    dd.style.display = "none";
 });
 
-// ── Init ──────────────────────────────────────────
-document.addEventListener("DOMContentLoaded", function() {
-    kategoriAktif = daftarKategori[0] || "";
-    loadSubKategori(kategoriAktif);
-    loadTempat(kategoriAktif, "");
-    
-    // Tunggu Leaflet benar-benar siap
-    if (typeof L !== "undefined") {
-        initPeta();
-    } else {
-        // Leaflet belum load, tunggu event load window
-        window.addEventListener("load", initPeta);
-    }
-    
-    // Render pertama setelah loadTempat selesai
-    if (tempatSelect.value) {
-        render(tempatSelect.value);
-    }
+// ══════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof L !== "undefined") initPeta();
+  else window.addEventListener("load", initPeta);
+  resetKeAwalUI(DATA);
 });
 </script>
 {% endblock %}

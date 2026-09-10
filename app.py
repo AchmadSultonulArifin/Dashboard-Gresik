@@ -38,6 +38,12 @@ FACEBOOK_SENTIMEN  = "output/data_sentimen_gresik.csv"
 BERITA_CSV         = "output/gresik_berita.csv"
 TOPIK_CSV          = "output/gresik_berita_topik.csv"
 SUMBER_CSV         = "output/gresik_berita_sumber.csv"
+LAZADA_CSV         = "output/toko_gresik_lazada.csv"
+LAZADA_TOKO_CSV    = "output/toko_gresik_lazada_ringkasan.csv"
+TOKPED_CSV         = "output/toko_gresik_tokopedia.csv"
+SHOPEE_CSV         = "output/toko_gresik_shopee.csv"
+SHOPEE_TOKO_CSV    = "output/toko_gresik_shopee_per_toko.csv"
+
 
 DB_PATH = "accounts.db"
 
@@ -1508,12 +1514,6 @@ def berita_topik_hapus_semua():
     flash(f"Topik '{topik}' dan semua kata kuncinya dihapus.", "success")
     return redirect(url_for("berita_pengaturan"))
 
-# ══════════════════════════════════════════════════════════════
-# SHOPEE — Path file output scraper
-# ══════════════════════════════════════════════════════════════
-SHOPEE_CSV       = "output/toko_gresik_shopee.csv"
-SHOPEE_TOKO_CSV  = "output/toko_gresik_shopee_per_toko.csv"
-
 
 # ══════════════════════════════════════════════════════════════
 # LOAD DATA SHOPEE
@@ -1699,12 +1699,6 @@ def api_shopee_toko():
         return jsonify([])
     return jsonify(df.head(100).to_dict("records"))
 
-# ══════════════════════════════════════════════════════════════
-# PATH FILE OUTPUT LAZADA
-# ══════════════════════════════════════════════════════════════
-LAZADA_CSV      = "output/toko_gresik_lazada.csv"
-LAZADA_TOKO_CSV = "output/toko_gresik_lazada_ringkasan.csv"
-
 
 # ══════════════════════════════════════════════════════════════
 # LOAD DATA LAZADA
@@ -1850,12 +1844,6 @@ def api_lazada():
         lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
     )
     return jsonify(df_out.head(200).to_dict("records"))
-
-# ══════════════════════════════════════════════════════════════
-# PATH FILE OUTPUT TOKOPEDIA
-# ══════════════════════════════════════════════════════════════
-TOKPED_CSV = "output/toko_gresik_tokopedia.csv"
-
 
 # ══════════════════════════════════════════════════════════════
 # LOAD DATA TOKOPEDIA

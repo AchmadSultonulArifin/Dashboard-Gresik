@@ -5,9 +5,11 @@ Install:
     pip install selenium pandas transformers torch webdriver-manager python-dotenv
 Cara pakai:
     1. Isi IG_COOKIES (dari F12 → Application → Cookies → instagram.com)
-    2. Isi KEYWORDS dengan kata kunci yang ingin dicari
+    2. Isi keyword lewat env var IG_KEYWORDS (pisahkan dengan koma),
+       atau langsung edit DEFAULT_KEYWORDS di bawah.
     3. python Instagram.py
 """
+import csv
 import time
 import json
 import re
@@ -40,7 +42,31 @@ IG_COOKIES = {
     "rur"        : os.getenv("IG_RUR", ""),
 }
 
-KEYWORDS                = ["Gresik","Polres Gresik","Kulineran Gresik","Kabupaten Gresik","Pemkab Gresik","Gresik Kota","Gresik Jawa Timur",]
+# ══════════════════════════════════════════════════════════════
+#  KEYWORD DINAMIS
+#  Prioritas: env IG_KEYWORDS (pisah koma) > DEFAULT_KEYWORDS
+# ══════════════════════════════════════════════════════════════
+DEFAULT_KEYWORDS = [
+    "Gresik", "Polres Gresik", "Kulineran Gresik", "Kabupaten Gresik",
+    "Pemkab Gresik", "Gresik Kota", "Gresik Jawa Timur",
+]
+
+
+def muat_keywords() -> list:
+    # 1) Env var IG_KEYWORDS="kw1,kw2,kw3"
+    env_kw = os.getenv("IG_KEYWORDS", "")
+    if env_kw.strip():
+        daftar = [k.strip() for k in env_kw.split(",") if k.strip()]
+        if daftar:
+            print(f"Keyword dimuat dari env IG_KEYWORDS ({len(daftar)} keyword)")
+            return daftar
+
+    # 2) Default di kode
+    print(f"Keyword dimuat dari DEFAULT_KEYWORDS ({len(DEFAULT_KEYWORDS)} keyword)")
+    return DEFAULT_KEYWORDS
+
+
+KEYWORDS                = muat_keywords()
 MAKS_POST_PER_KEYWORD   = 30
 MAKS_KOMENTAR_PER_POST  = 50
 TAMPILKAN_BROWSER       = False   # wajib False di GitHub Actions
@@ -125,6 +151,30 @@ def cek_sesi_aktif(driver):
         return True
     except (InvalidSessionIdException, WebDriverException):
         return False
+
+
+# ══════════════════════════════════════════════════════════════
+#  VALIDASI CAPTION
+# ══════════════════════════════════════════════════════════════
+SHORTCODE_PATTERN = re.compile(r"^[A-Za-z0-9_-]{9,12}$")
+FRASA_GENERIK = [
+    "photo by", "photo shared by", "video by", "on instagram",
+    "log in", "masuk ke instagram", "instagram photo", "instagram video",
+]
+
+
+def caption_valid(teks: str) -> bool:
+    if not teks or teks == "-":
+        return False
+    t = teks.strip()
+    if SHORTCODE_PATTERN.match(t):
+        return False
+    if len(t) < 3:
+        return False
+    tl = t.lower()
+    if any(frasa in tl for frasa in FRASA_GENERIK) and len(t) < 40:
+        return False
+    return True
 
 
 # ══════════════════════════════════════════════════════════════
@@ -369,6 +419,50 @@ def cari_postingan(driver, keyword: str, maks_post: int) -> list:
 
 
 # ══════════════════════════════════════════════════════════════
+#  AMBIL CAPTION
+# ══════════════════════════════════════════════════════════════
+def ambil_caption(driver, shortcode: str) -> str:
+    dom_selectors = [
+        "div._a9zs span[dir='auto']",
+        "article ul > li:first-child span[dir='auto']",
+        "ul._a9ym > li:first-child div._a9zs span",
+        "h1._aacl._aaco._aacu._aacx._aad7._aade",
+        "div[data-testid='post-comment-root'] h1",
+        "article h1",
+    ]
+    for sel in dom_selectors:
+        try:
+            els = driver.find_elements(By.CSS_SELECTOR, sel)
+        except Exception:
+            continue
+        for el in els:
+            try:
+                teks = el.text.strip()
+            except Exception:
+                continue
+            if caption_valid(teks) and not teks.startswith("@"):
+                return teks.replace("\n", " ")[:500]
+
+    try:
+        meta = driver.find_element(By.CSS_SELECTOR, "meta[property='og:description']")
+        raw = (meta.get_attribute("content") or "").strip()
+        kandidat = ""
+        if " - " in raw and ":" in raw.split(" - ", 1)[-1]:
+            kandidat = raw.split(" - ", 1)[-1].split(":", 1)[-1].strip()
+        elif ":" in raw:
+            kandidat = raw.split(":", 1)[-1].strip()
+        else:
+            kandidat = raw
+        kandidat = kandidat.replace("\n", " ").strip()
+        if caption_valid(kandidat):
+            return kandidat[:500]
+    except Exception:
+        pass
+
+    return "-"
+
+
+# ══════════════════════════════════════════════════════════════
 #  AMBIL KOMENTAR DARI SATU POSTINGAN
 # ══════════════════════════════════════════════════════════════
 def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
@@ -389,53 +483,8 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
 
     tutup_popup(driver)
 
-    # ── Ambil caption via meta og:description (paling stabil) ────
-    caption = ""
-    try:
-        meta = driver.find_element(
-            By.CSS_SELECTOR, "meta[property='og:description']"
-        )
-        raw = meta.get_attribute("content") or ""
-        # Format Instagram: "14K likes, 770 comments - username: teks caption..."
-        if " - " in raw and ":" in raw.split(" - ", 1)[-1]:
-            caption = raw.split(" - ", 1)[-1].split(":", 1)[-1].strip()[:300]
-        elif ":" in raw:
-            caption = raw.split(":", 1)[-1].strip()[:300]
-        else:
-            caption = raw[:300]
-        caption = caption.replace("\n", " ").strip()
-    except Exception:
-        pass
+    caption = ambil_caption(driver, shortcode)
 
-    # Fallback CSS selector jika meta gagal
-    if not caption:
-        for sel in [
-            "div._a9zs span[dir='auto']",
-            "article ul > li:first-child span[dir='auto']",
-            "h1._aacl._aaco._aacu._aacx._aad7._aade",
-            "span._aade",
-            "div[data-testid='post-comment-root'] span",
-            "article ul li:first-child div._a9zs span",
-            "ul._a9ym > li:first-child div._a9zs span",
-        ]:
-            try:
-                els = driver.find_elements(By.CSS_SELECTOR, sel)
-                for el in els:
-                    teks = el.text.strip()
-                    if (teks and len(teks) > 10
-                            and not teks.startswith("@")
-                            and not teks.isdigit()):
-                        caption = teks[:300].replace("\n", " ")
-                        break
-                if caption:
-                    break
-            except Exception:
-                continue
-
-    if not caption:
-        caption = "-"
-
-    # ── Ambil username (DIPERBAIKI) ───────────────────────────
     username = "-"
     username_xpaths = [
         "//header//a[contains(@href,'/') and string-length(text()) > 0]",
@@ -455,7 +504,6 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
         except Exception:
             continue
 
-    # ── Ambil likes ───────────────────────────────────────────
     likes = 0
     try:
         sections = driver.find_elements(By.XPATH, "//section//span")
@@ -468,13 +516,11 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
     except Exception:
         likes = 0
 
-    # ── Ambil tanggal ─────────────────────────────────────────
     try:
         tanggal = driver.find_element(By.TAG_NAME, "time").get_attribute("datetime")
     except Exception:
         tanggal = "-"
 
-    # ── Klik "Lihat semua komentar" ───────────────────────────
     try:
         btn = WebDriverWait(driver, 8).until(
             EC.element_to_be_clickable((By.XPATH,
@@ -570,7 +616,6 @@ def ambil_komentar_post(driver, shortcode: str, maks: int) -> dict:
 #  MAIN
 # ══════════════════════════════════════════════════════════════
 def main():
-    # Validasi cookie
     kosong = [k for k, v in IG_COOKIES.items() if not v]
     if kosong:
         print("Cookie belum diisi:")
@@ -653,21 +698,23 @@ def main():
         update_status("instagram", False, "Tidak ada data — cookie expired atau diblokir")
         return
 
-    # Simpan output
     df      = pd.DataFrame(semua_data)
     df_post = pd.DataFrame(semua_postingan)
 
-    df_post.to_csv("output/gresik_ig_postingan.csv", index=False, encoding="utf-8-sig")
+    df_post.to_csv(
+        "output/gresik_ig_postingan.csv", index=False,
+        encoding="utf-8-sig", quoting=csv.QUOTE_ALL
+    )
 
-    df[["keyword", "shortcode", "link_postingan", "teks_asli",
+    df[["keyword", "shortcode", "link_postingan", "caption", "teks_asli",
         "teks_bersih", "sentimen", "skor", "topik"]].to_csv(
-        "output/gresik_ig_sentimen.csv", index=False, encoding="utf-8-sig"
+        "output/gresik_ig_sentimen.csv", index=False,
+        encoding="utf-8-sig", quoting=csv.QUOTE_ALL
     )
 
     with open("output/gresik_ig_komentar.json", "w", encoding="utf-8") as f:
         json.dump(semua_data, f, ensure_ascii=False, indent=2)
 
-    # Ringkasan
     total = len(df)
     print(f"\n{'='*47}")
     print(f"  HASIL ANALISIS SENTIMEN — KEYWORD SEARCH")
@@ -693,4 +740,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main() All it and dearcongratulations
+    main()

@@ -1,327 +1,811 @@
 {% extends "base.html" %}
-
-{% block title %}Lazada — Toko Gresik{% endblock %}
+{% block title %}Lazada — Dashboard Toko Gresik{% endblock %}
 
 {% block content %}
+<!-- ═══════════════════════════════════════════════════════════
+     STYLE KHUSUS LAZADA
+═══════════════════════════════════════════════════════════ -->
+<style>
+  :root {
+    --lz-orange  : #F57224;
+    --lz-orange2 : #FF6000;
+    --lz-blue    : #0F146D;
+    --lz-light   : #FFF5EE;
+    --lz-muted   : #6c757d;
+    --lz-border  : #e9ecef;
+    --lz-bg      : #f8f9fa;
+    --lz-white   : #ffffff;
+    --lz-shadow  : 0 2px 12px rgba(0,0,0,.08);
+    --lz-radius  : 10px;
+  }
 
-<!-- ══════════════════════════════════════════════════════
+  /* ── Page header ── */
+  .lz-header {
+    background: linear-gradient(135deg, var(--lz-blue) 0%, #1a2196 60%, var(--lz-orange) 100%);
+    border-radius: var(--lz-radius);
+    padding: 28px 32px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .lz-header-left h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .lz-header-left p {
+    color: rgba(255,255,255,.75);
+    font-size: .85rem;
+    margin: 0;
+  }
+  .lz-header-badge {
+    background: rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.3);
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: .8rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* ── Stat cards ── */
+  .lz-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 900px) { .lz-stat-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 480px) { .lz-stat-grid { grid-template-columns: 1fr; } }
+
+  .lz-stat {
+    background: var(--lz-white);
+    border-radius: var(--lz-radius);
+    padding: 20px 22px;
+    box-shadow: var(--lz-shadow);
+    border-left: 4px solid var(--lz-orange);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .lz-stat.blue   { border-left-color: var(--lz-blue); }
+  .lz-stat.green  { border-left-color: #28a745; }
+  .lz-stat.purple { border-left-color: #6f42c1; }
+
+  .lz-stat-icon {
+    width: 44px; height: 44px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+  .lz-stat.blue   .lz-stat-icon { background: #e8eaff; }
+  .lz-stat        .lz-stat-icon { background: #fff0e6; }
+  .lz-stat.green  .lz-stat-icon { background: #e8f5e9; }
+  .lz-stat.purple .lz-stat-icon { background: #f3e8ff; }
+
+  .lz-stat-info .lz-stat-val {
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    line-height: 1;
+  }
+  .lz-stat-info .lz-stat-lbl {
+    font-size: .78rem;
+    color: var(--lz-muted);
+    margin-top: 3px;
+  }
+
+  /* ── Section card ── */
+  .lz-card {
+    background: var(--lz-white);
+    border-radius: var(--lz-radius);
+    box-shadow: var(--lz-shadow);
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+  .lz-card-header {
+    padding: 16px 22px;
+    border-bottom: 1px solid var(--lz-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .lz-card-header h5 {
+    margin: 0;
+    font-size: .95rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .lz-card-header h5 .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--lz-orange);
+    display: inline-block;
+  }
+  .lz-card-body { padding: 20px 22px; }
+
+  /* ── Chart row ── */
+  .lz-chart-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 768px) { .lz-chart-row { grid-template-columns: 1fr; } }
+
+  /* ── Top toko ── */
+  .lz-top-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 768px) { .lz-top-row { grid-template-columns: 1fr; } }
+
+  .toko-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--lz-border);
+  }
+  .toko-item:last-child { border-bottom: none; }
+  .toko-rank {
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    background: var(--lz-blue);
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .toko-rank.gold   { background: #f0b429; }
+  .toko-rank.silver { background: #a0aec0; }
+  .toko-rank.bronze { background: #c05621; }
+  .toko-info { flex: 1; min-width: 0; }
+  .toko-nama {
+    font-weight: 600;
+    font-size: .88rem;
+    color: #1a1a2e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .toko-lokasi {
+    font-size: .75rem;
+    color: var(--lz-muted);
+  }
+  .toko-count {
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--lz-orange);
+    white-space: nowrap;
+  }
+
+  /* ── Bar charts ── */
+  .bar-list { list-style: none; padding: 0; margin: 0; }
+  .bar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .bar-label {
+    font-size: .78rem;
+    color: #333;
+    min-width: 130px;
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-track {
+    flex: 1;
+    height: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--lz-blue), var(--lz-orange));
+    transition: width .6s ease;
+  }
+  .bar-val {
+    font-size: .76rem;
+    font-weight: 700;
+    color: var(--lz-muted);
+    min-width: 32px;
+    text-align: right;
+  }
+
+  /* ── Tabel produk ── */
+  .lz-table-wrap {
+    overflow-x: auto;
+  }
+  .lz-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .83rem;
+  }
+  .lz-table thead th {
+    background: var(--lz-bg);
+    color: #444;
+    font-weight: 600;
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 2px solid var(--lz-border);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .lz-table tbody tr {
+    transition: background .15s;
+  }
+  .lz-table tbody tr:hover { background: #fff5ee; }
+  .lz-table tbody td {
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--lz-border);
+    vertical-align: middle;
+    max-width: 240px;
+  }
+
+  .cell-produk {
+    font-weight: 600;
+    color: #1a1a2e;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cell-toko {
+    color: var(--lz-blue);
+    font-weight: 500;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cell-harga {
+    color: var(--lz-orange);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .cell-dash { color: #ccc; }
+
+  .badge-kat {
+    background: #e8eaff;
+    color: var(--lz-blue);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: .72rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge-lokasi {
+    background: #fff0e6;
+    color: var(--lz-orange2);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: .72rem;
+    font-weight: 600;
+  }
+  .badge-lainnya {
+    background: #f0f0f0;
+    color: #888;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: .72rem;
+  }
+
+  .star { color: #f0b429; font-size: .82rem; }
+
+  .btn-link-lz {
+    background: var(--lz-orange);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: .75rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn-link-lz:hover { background: var(--lz-orange2); color: #fff; }
+
+  /* ── Filter bar ── */
+  .lz-filter-bar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 14px 22px;
+    border-bottom: 1px solid var(--lz-border);
+    background: var(--lz-bg);
+  }
+  .lz-filter-bar select,
+  .lz-filter-bar input {
+    border: 1px solid var(--lz-border);
+    border-radius: 7px;
+    padding: 6px 12px;
+    font-size: .82rem;
+    color: #333;
+    background: #fff;
+    outline: none;
+  }
+  .lz-filter-bar select:focus,
+  .lz-filter-bar input:focus {
+    border-color: var(--lz-orange);
+    box-shadow: 0 0 0 3px rgba(245,114,36,.15);
+  }
+  .lz-filter-bar input { min-width: 200px; }
+  .lz-update-tag {
+    margin-left: auto;
+    font-size: .75rem;
+    color: var(--lz-muted);
+    white-space: nowrap;
+  }
+
+  /* ── Pagination ── */
+  .lz-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 22px;
+    border-top: 1px solid var(--lz-border);
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .lz-pagination-info { font-size: .8rem; color: var(--lz-muted); }
+  .lz-page-btns { display: flex; gap: 4px; }
+  .lz-page-btn {
+    width: 32px; height: 32px;
+    border: 1px solid var(--lz-border);
+    border-radius: 6px;
+    background: #fff;
+    color: #333;
+    font-size: .8rem;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all .15s;
+  }
+  .lz-page-btn:hover, .lz-page-btn.active {
+    background: var(--lz-orange);
+    border-color: var(--lz-orange);
+    color: #fff;
+  }
+
+  /* ── Kosong ── */
+  .lz-empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--lz-muted);
+  }
+  .lz-empty i { font-size: 3rem; margin-bottom: 12px; display: block; }
+  .lz-empty p { font-size: .9rem; }
+</style>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HEADER
+═══════════════════════════════════════════════════════════ -->
+<div class="lz-header">
+  <div class="lz-header-left">
+    <h2>🛒 Dashboard Toko Lazada — Gresik</h2>
+    <p>Data penjual & produk Lazada yang berlokasi di Kabupaten Gresik</p>
+  </div>
+  <div class="lz-header-badge">
+    🕐 Update: {{ update_terakhir }}
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
      STAT CARDS
-══════════════════════════════════════════════════════ -->
-<div class="stat-grid" style="margin-bottom:24px;">
-
-  <div class="stat">
-    <div class="angka" style="color:#f97316;">{{ total | default(0) }}</div>
-    <div class="label">Total Produk</div>
+═══════════════════════════════════════════════════════════ -->
+<div class="lz-stat-grid">
+  <div class="lz-stat">
+    <div class="lz-stat-icon">📦</div>
+    <div class="lz-stat-info">
+      <div class="lz-stat-val">{{ "{:,}".format(total) }}</div>
+      <div class="lz-stat-lbl">Total Produk</div>
+    </div>
   </div>
-
-  <div class="stat">
-    <div class="angka" style="color:#4f46e5;">{{ total_toko | default(0) }}</div>
-    <div class="label">Nama Toko Unik</div>
+  <div class="lz-stat blue">
+    <div class="lz-stat-icon">🏪</div>
+    <div class="lz-stat-info">
+      <div class="lz-stat-val">{{ "{:,}".format(total_toko) }}</div>
+      <div class="lz-stat-lbl">Toko Terdeteksi</div>
+    </div>
   </div>
-
-  <div class="stat">
-    <div class="angka" style="color:#059669;">{{ total_area | default(0) }}</div>
-    <div class="label">Wilayah Gresik</div>
+  <div class="lz-stat green">
+    <div class="lz-stat-icon">📍</div>
+    <div class="lz-stat-info">
+      <div class="lz-stat-val">{{ total_area }}</div>
+      <div class="lz-stat-lbl">Wilayah Gresik</div>
+    </div>
   </div>
-
-  <div class="stat">
-    <div class="angka" style="color:#dc2626;">{{ total_kategori | default(0) }}</div>
-    <div class="label">Kategori Produk</div>
+  <div class="lz-stat purple">
+    <div class="lz-stat-icon">🏷️</div>
+    <div class="lz-stat-info">
+      <div class="lz-stat-val">{{ total_kategori }}</div>
+      <div class="lz-stat-lbl">Kategori Produk</div>
+    </div>
   </div>
-
 </div>
 
-<!-- ══════════════════════════════════════════════════════
-     BARIS 1: Chart Kategori + Chart Lokasi
-══════════════════════════════════════════════════════ -->
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
-
-  <!-- Distribusi Kategori -->
-  <div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
-      <h3 style="font-size:15px;font-weight:700;color:#111;">🏷️ Distribusi Kategori</h3>
-      <span style="font-size:11px;color:#9ca3af;">Top 8</span>
-    </div>
-    <canvas id="chartKategori" height="220"></canvas>
+{% if total == 0 %}
+<!-- ═══════ KOSONG ═══════ -->
+<div class="lz-card">
+  <div class="lz-empty">
+    <i>🛒</i>
+    <h5>Data Lazada belum tersedia</h5>
+    <p>Jalankan scraper terlebih dahulu untuk mengumpulkan data toko Lazada di Gresik.</p>
+    <code style="font-size:.8rem;color:var(--lz-muted)">python Lazada_v2.py --headful</code>
   </div>
-
-  <!-- Distribusi Lokasi Seller -->
-  <div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
-      <h3 style="font-size:15px;font-weight:700;color:#111;">📍 Sebaran Wilayah Seller</h3>
-      <span style="font-size:11px;color:#9ca3af;">Top 8</span>
-    </div>
-    <canvas id="chartLokasi" height="220"></canvas>
-  </div>
-
 </div>
 
-<!-- ══════════════════════════════════════════════════════
-     BARIS 2: Top Toko + Ringkasan Kategori
-══════════════════════════════════════════════════════ -->
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+{% else %}
 
-  <!-- Top Toko -->
-  <div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
-      <h3 style="font-size:15px;font-weight:700;color:#111;">🏪 Top Toko by Produk</h3>
+<!-- ═══════════════════════════════════════════════════════════
+     CHART ROW — Kategori & Lokasi
+═══════════════════════════════════════════════════════════ -->
+<div class="lz-chart-row">
+  <!-- Kategori -->
+  <div class="lz-card">
+    <div class="lz-card-header">
+      <h5><span class="dot"></span> Distribusi Kategori</h5>
     </div>
-    {% if top_toko %}
-    <div style="display:flex;flex-direction:column;gap:10px;">
-      {% for t in top_toko %}
-      <div style="display:flex;align-items:center;gap:12px;">
-        <span style="font-size:12px;font-weight:700;color:#f97316;width:20px;text-align:center;">
-          {{ loop.index }}
-        </span>
-        <div style="flex:1;min-width:0;">
-          <div style="font-size:13px;font-weight:600;color:#111;
-                      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-            {{ t.nama_toko }}
+    <div class="lz-card-body">
+      {% if chart_kategori %}
+        {% set max_kat = chart_kategori[0].value %}
+        <ul class="bar-list">
+          {% for item in chart_kategori %}
+          <li class="bar-item">
+            <span class="bar-label" title="{{ item.label }}">{{ item.label }}</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:{{ [(item.value / max_kat * 100)|int, 4]|max }}%"></div>
+            </div>
+            <span class="bar-val">{{ item.value }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-muted" style="font-size:.85rem">Belum ada data kategori.</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Lokasi -->
+  <div class="lz-card">
+    <div class="lz-card-header">
+      <h5><span class="dot"></span> Distribusi Lokasi Seller</h5>
+    </div>
+    <div class="lz-card-body">
+      {% if chart_lokasi %}
+        {% set max_lok = chart_lokasi[0].value %}
+        <ul class="bar-list">
+          {% for item in chart_lokasi %}
+          <li class="bar-item">
+            <span class="bar-label" title="{{ item.label }}">{{ item.label }}</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:{{ [(item.value / max_lok * 100)|int, 4]|max }}%;background:linear-gradient(90deg,#6f42c1,#f57224)"></div>
+            </div>
+            <span class="bar-val">{{ item.value }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-muted" style="font-size:.85rem">Belum ada data lokasi.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     TOP TOKO & RINGKASAN KATEGORI
+═══════════════════════════════════════════════════════════ -->
+<div class="lz-top-row">
+  <!-- Top Toko by Produk -->
+  <div class="lz-card">
+    <div class="lz-card-header">
+      <h5><span class="dot"></span> Top Toko by Produk</h5>
+    </div>
+    <div class="lz-card-body" style="padding:12px 22px">
+      {% if top_toko %}
+        {% for t in top_toko %}
+        <div class="toko-item">
+          <div class="toko-rank
+            {% if loop.index == 1 %}gold
+            {% elif loop.index == 2 %}silver
+            {% elif loop.index == 3 %}bronze{% endif %}">
+            {{ loop.index }}
           </div>
-          <div style="font-size:11px;color:#9ca3af;">{{ t.lokasi_seller or '-' }}</div>
+          <div class="toko-info">
+            <div class="toko-nama">{{ t.nama_toko if t.nama_toko and t.nama_toko != '-' else '(tidak diketahui)' }}</div>
+            <div class="toko-lokasi">📍 {{ t.lokasi_seller if t.lokasi_seller and t.lokasi_seller != '-' else 'Kab. Gresik' }}</div>
+          </div>
+          <div class="toko-count">{{ t.jumlah }} produk</div>
         </div>
-        <span style="background:#fff7ed;color:#f97316;font-size:12px;font-weight:700;
-                     padding:3px 10px;border-radius:20px;white-space:nowrap;">
-          {{ t.jumlah }} produk
-        </span>
-      </div>
-      {% endfor %}
+        {% endfor %}
+      {% else %}
+        <p class="text-muted" style="font-size:.85rem;padding:20px 0">Belum ada data toko.</p>
+      {% endif %}
     </div>
-    {% else %}
-    <p style="color:#9ca3af;font-size:13px;text-align:center;padding:30px 0;">
-      Belum ada data toko.
-    </p>
-    {% endif %}
   </div>
 
   <!-- Ringkasan Kategori -->
-  <div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
-      <h3 style="font-size:15px;font-weight:700;color:#111;">📦 Ringkasan Kategori</h3>
+  <div class="lz-card">
+    <div class="lz-card-header">
+      <h5><span class="dot"></span> Ringkasan Kategori</h5>
     </div>
-    {% if kategori_dist %}
-    <div style="display:flex;flex-direction:column;gap:8px;">
-      {% set max_val = kategori_dist.values() | max %}
-      {% for kat, jml in kategori_dist.items() %}
-      <div>
-        <div style="display:flex;justify-content:space-between;margin-bottom:3px;">
-          <span style="font-size:12px;color:#374151;font-weight:500;">{{ kat }}</span>
-          <span style="font-size:12px;color:#6b7280;">{{ jml }}</span>
+    <div class="lz-card-body" style="padding:12px 22px">
+      {% if kategori_dist %}
+        {% set max_k = kategori_dist.values()|list|max %}
+        {% for kat, jml in kategori_dist.items() %}
+        <div class="bar-item" style="margin-bottom:12px">
+          <span class="bar-label" title="{{ kat }}">{{ kat }}</span>
+          <div class="bar-track" style="height:12px">
+            <div class="bar-fill" style="width:{{ [(jml / max_k * 100)|int, 4]|max }}%"></div>
+          </div>
+          <span class="bar-val">{{ jml }}</span>
         </div>
-        <div style="background:#f3f4f6;border-radius:4px;height:6px;overflow:hidden;">
-          <div style="background:linear-gradient(90deg,#f97316,#fb923c);height:100%;border-radius:4px;
-                      width:{{ ((jml / max_val) * 100) | int }}%;"></div>
-        </div>
-      </div>
-      {% endfor %}
+        {% endfor %}
+      {% else %}
+        <p class="text-muted" style="font-size:.85rem;padding:20px 0">Belum ada data kategori.</p>
+      {% endif %}
     </div>
-    {% else %}
-    <p style="color:#9ca3af;font-size:13px;text-align:center;padding:30px 0;">
-      Belum ada data kategori.
-    </p>
-    {% endif %}
   </div>
-
 </div>
 
-<!-- ══════════════════════════════════════════════════════
+<!-- ═══════════════════════════════════════════════════════════
      TABEL PRODUK
-══════════════════════════════════════════════════════ -->
-<div class="card">
-  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px;">
-    <h3 style="font-size:15px;font-weight:700;color:#111;">📋 Daftar Produk Lazada — Gresik</h3>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
-
-      <!-- Filter Kategori -->
-      <select id="filterKategori" onchange="filterTabel()"
-        style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
-               font-size:13px;color:#374151;background:#fafafa;outline:none;cursor:pointer;">
-        <option value="">Semua Kategori</option>
-        {% for kat in kategori_dist.keys() %}
-        <option value="{{ kat }}">{{ kat }}</option>
-        {% endfor %}
-      </select>
-
-      <!-- Filter Lokasi -->
-      <select id="filterLokasi" onchange="filterTabel()"
-        style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
-               font-size:13px;color:#374151;background:#fafafa;outline:none;cursor:pointer;">
-        <option value="">Semua Wilayah</option>
-        {% for lok in lokasi_dist.keys() %}
-        <option value="{{ lok }}">{{ lok }}</option>
-        {% endfor %}
-      </select>
-
-      <!-- Cari -->
-      <input type="text" id="cariProduk" oninput="filterTabel()" placeholder="🔍 Cari produk…"
-        style="padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
-               font-size:13px;color:#374151;background:#fafafa;outline:none;width:200px;">
-
-      <!-- Update terakhir -->
-      <span style="font-size:11px;color:#9ca3af;">
-        Update: <strong>{{ update_terakhir | default('-') }}</strong>
-      </span>
-    </div>
+═══════════════════════════════════════════════════════════ -->
+<div class="lz-card">
+  <div class="lz-card-header">
+    <h5><span class="dot"></span> Daftar Produk Lazada — Gresik</h5>
+    <span style="font-size:.8rem;color:var(--lz-muted)">{{ data|length }} produk ditampilkan</span>
   </div>
 
-  <div style="overflow-x:auto;">
-    <table id="tabelProduk">
+  <!-- Filter bar -->
+  <div class="lz-filter-bar">
+    <select id="filterKat" onchange="filterTable()">
+      <option value="">Semua Kategori</option>
+      {% for kat in kategori_dist.keys() %}
+      <option value="{{ kat }}">{{ kat }}</option>
+      {% endfor %}
+    </select>
+
+    <select id="filterLok" onchange="filterTable()">
+      <option value="">Semua Wilayah</option>
+      {% for lok in lokasi_dist.keys() %}
+      <option value="{{ lok }}">{{ lok }}</option>
+      {% endfor %}
+    </select>
+
+    <input type="text" id="searchInput" placeholder="🔍 Cari produk atau toko..." oninput="filterTable()">
+
+    <span class="lz-update-tag">Update: {{ update_terakhir }}</span>
+  </div>
+
+  <!-- Tabel -->
+  <div class="lz-table-wrap" style="max-height:520px;overflow-y:auto">
+    <table class="lz-table" id="lzTable">
       <thead>
         <tr>
-          <th style="text-align:left;white-space:nowrap;">#</th>
-          <th style="text-align:left;white-space:nowrap;">Nama Produk</th>
-          <th style="text-align:left;white-space:nowrap;">Kategori</th>
-          <th style="text-align:left;white-space:nowrap;">Harga</th>
-          <th style="text-align:left;white-space:nowrap;">Nama Toko</th>
-          <th style="text-align:left;white-space:nowrap;">Lokasi</th>
-          <th style="text-align:left;white-space:nowrap;">Waktu Scrape</th>
+          <th>#</th>
+          <th>Nama Produk</th>
+          <th>Kategori</th>
+          <th>Harga</th>
+          <th>Rating</th>
+          <th>Terjual</th>
+          <th>Nama Toko</th>
+          <th>Badge</th>
+          <th>Lokasi</th>
+          <th>Waktu</th>
+          <th>Link</th>
         </tr>
       </thead>
-      <tbody id="tabelBody">
-        {% if data %}
-          {% for r in data %}
-          <tr class="row-produk"
-              data-kategori="{{ r.kategori | lower }}"
-              data-lokasi="{{ r.lokasi_seller | lower }}"
-              data-nama="{{ r.nama_produk | lower }}">
-            <td style="color:#9ca3af;font-size:12px;">{{ loop.index }}</td>
-            <td style="max-width:320px;">
-              <div style="font-size:13px;font-weight:600;color:#111;
-                          white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:310px;"
-                   title="{{ r.nama_produk }}">
-                {{ r.nama_produk }}
-              </div>
-            </td>
-            <td>
-              <span style="background:#fff7ed;color:#f97316;font-size:11px;font-weight:600;
-                           padding:3px 9px;border-radius:20px;white-space:nowrap;">
-                {{ r.kategori or '-' }}
-              </span>
-            </td>
-            <td style="font-size:13px;font-weight:600;color:#059669;white-space:nowrap;">
-              {{ r.harga or '-' }}
-            </td>
-            <td style="font-size:13px;color:#374151;white-space:nowrap;">
-              {{ r.nama_toko or '-' }}
-            </td>
-            <td style="font-size:12px;color:#6b7280;white-space:nowrap;">
-              {{ r.lokasi_seller or '-' }}
-            </td>
-            <td style="font-size:11px;color:#9ca3af;white-space:nowrap;">
-              {{ r.waktu_scrape or '-' }}
-            </td>
-          </tr>
-          {% endfor %}
-        {% else %}
-          <tr>
-            <td colspan="7" style="text-align:center;padding:40px;color:#9ca3af;font-size:14px;">
-              Belum ada data produk.<br>
-              <span style="font-size:12px;">Jalankan scraper Lazada terlebih dahulu.</span>
-            </td>
-          </tr>
-        {% endif %}
+      <tbody id="tableBody">
+        {% for row in data %}
+        <tr data-kat="{{ row.kategori }}" data-lok="{{ row.lokasi_seller }}"
+            data-nama="{{ row.nama_produk|lower }}" data-toko="{{ row.nama_toko|lower }}">
+          <td style="color:var(--lz-muted);font-size:.75rem">{{ loop.index }}</td>
+          <td>
+            <div class="cell-produk" title="{{ row.nama_produk }}">
+              {{ row.nama_produk if row.nama_produk and row.nama_produk != '-' else '—' }}
+            </div>
+          </td>
+          <td>
+            {% if row.kategori and row.kategori != '-' and row.kategori != 'Lainnya' %}
+              <span class="badge-kat">{{ row.kategori }}</span>
+            {% else %}
+              <span class="badge-lainnya">Lainnya</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if row.harga and row.harga != '-' %}
+              <span class="cell-harga">{{ row.harga }}</span>
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if row.rating_produk and row.rating_produk != '-' %}
+              <span class="star">★</span> {{ row.rating_produk }}
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if row.terjual and row.terjual != '-' %}
+              {{ row.terjual }}
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if row.nama_toko and row.nama_toko != '-' %}
+              <div class="cell-toko" title="{{ row.nama_toko }}">{{ row.nama_toko }}</div>
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if row.badge and row.badge != '-' %}
+              <span style="background:#fff0e6;color:var(--lz-orange2);border-radius:20px;padding:2px 8px;font-size:.72rem;font-weight:600">{{ row.badge }}</span>
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if row.lokasi_seller and row.lokasi_seller != '-' %}
+              <span class="badge-lokasi">{{ row.lokasi_seller }}</span>
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+          <td style="font-size:.75rem;color:var(--lz-muted);white-space:nowrap">
+            {{ row.waktu_scrape }}
+          </td>
+          <td>
+            {% if row.url_produk and row.url_produk != '-' %}
+              <a href="{{ row.url_produk }}" target="_blank" class="btn-link-lz">🔗</a>
+            {% else %}
+              <span class="cell-dash">—</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
       </tbody>
     </table>
   </div>
 
-  <!-- Info jumlah ditampilkan -->
-  <div style="margin-top:12px;font-size:12px;color:#9ca3af;" id="infoJumlah">
-    Menampilkan <span id="jmlTampil">{{ data | length }}</span> dari
-    <span id="jmlTotal">{{ data | length }}</span> produk
+  <!-- Pagination info -->
+  <div class="lz-pagination">
+    <span class="lz-pagination-info" id="paginasiInfo">
+      Menampilkan <b id="visibleCount">{{ data|length }}</b> dari <b>{{ data|length }}</b> produk
+    </span>
+    <div class="lz-page-btns" id="pageBtns"></div>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════════════
-     DATA JSON untuk Chart
-══════════════════════════════════════════════════════ -->
+{% endif %}
+
+<!-- ═══════════════════════════════════════════════════════════
+     JAVASCRIPT — Filter & Pagination
+═══════════════════════════════════════════════════════════ -->
 <script>
-const chartKategoriData = {{ chart_kategori | tojson | safe }};
-const chartLokasiData   = {{ chart_lokasi   | tojson | safe }};
+(function () {
+  const PER_PAGE   = 25;
+  let currentPage  = 1;
+  let filteredRows = [];
 
-// ── Warna orange-themed palette ──
-const ORANGE_PALETTE = [
-  '#f97316','#fb923c','#fdba74','#fcd34d','#f59e0b',
-  '#ef4444','#ec4899','#8b5cf6','#3b82f6','#10b981',
-];
+  function allRows() {
+    return Array.from(document.querySelectorAll('#tableBody tr'));
+  }
 
-// ── Chart Kategori (Bar horizontal) ──
-if (chartKategoriData && chartKategoriData.length > 0) {
-  const ctxKat = document.getElementById('chartKategori').getContext('2d');
-  new Chart(ctxKat, {
-    type: 'bar',
-    data: {
-      labels : chartKategoriData.map(d => d.label),
-      datasets: [{
-        data            : chartKategoriData.map(d => d.value),
-        backgroundColor : chartKategoriData.map((_, i) => ORANGE_PALETTE[i % ORANGE_PALETTE.length]),
-        borderRadius    : 6,
-        borderSkipped   : false,
-      }]
-    },
-    options: {
-      indexAxis  : 'y',
-      responsive : true,
-      plugins    : { legend: { display: false }, tooltip: {
-        callbacks: { label: ctx => ` ${ctx.raw} produk` }
-      }},
-      scales: {
-        x: { grid: { color: '#f3f4f6' }, ticks: { font: { size: 11 } } },
-        y: { ticks: { font: { size: 11 }, color: '#374151' } },
-      }
+  function filterTable() {
+    const kat    = document.getElementById('filterKat')?.value.toLowerCase() || '';
+    const lok    = document.getElementById('filterLok')?.value.toLowerCase() || '';
+    const q      = (document.getElementById('searchInput')?.value || '').toLowerCase().trim();
+
+    filteredRows = allRows().filter(tr => {
+      const trKat  = (tr.dataset.kat  || '').toLowerCase();
+      const trLok  = (tr.dataset.lok  || '').toLowerCase();
+      const trNama = (tr.dataset.nama || '').toLowerCase();
+      const trToko = (tr.dataset.toko || '').toLowerCase();
+
+      const matchKat = !kat || trKat === kat;
+      const matchLok = !lok || trLok === lok;
+      const matchQ   = !q   || trNama.includes(q) || trToko.includes(q);
+
+      return matchKat && matchLok && matchQ;
+    });
+
+    currentPage = 1;
+    renderPage();
+  }
+
+  function renderPage() {
+    const rows = filteredRows.length ? filteredRows : allRows();
+    const total = rows.length;
+    const totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+    const start = (currentPage - 1) * PER_PAGE;
+    const end   = start + PER_PAGE;
+
+    // Sembunyikan semua baris
+    allRows().forEach(tr => tr.style.display = 'none');
+
+    // Tampilkan baris halaman ini
+    rows.slice(start, end).forEach(tr => tr.style.display = '');
+
+    // Update nomor urut
+    let nomor = start + 1;
+    rows.slice(start, end).forEach(tr => {
+      const tdNo = tr.querySelector('td:first-child');
+      if (tdNo) tdNo.textContent = nomor++;
+    });
+
+    // Info
+    const info = document.getElementById('visibleCount');
+    if (info) info.textContent = Math.min(end, total) - start + ' / ' + total;
+    const pInfo = document.getElementById('paginasiInfo');
+    if (pInfo) pInfo.innerHTML =
+      'Menampilkan <b>' + start + 1 + '–' + Math.min(end, total) + '</b> dari <b>' + total + '</b> produk';
+
+    // Pagination buttons
+    const pgDiv = document.getElementById('pageBtns');
+    if (!pgDiv) return;
+    pgDiv.innerHTML = '';
+
+    // Prev
+    const prev = document.createElement('button');
+    prev.className = 'lz-page-btn';
+    prev.innerHTML = '‹';
+    prev.disabled  = currentPage === 1;
+    prev.onclick   = () => { if (currentPage > 1) { currentPage--; renderPage(); } };
+    pgDiv.appendChild(prev);
+
+    // Page numbers
+    let pStart = Math.max(1, currentPage - 2);
+    let pEnd   = Math.min(totalPages, pStart + 4);
+    pStart = Math.max(1, pEnd - 4);
+
+    for (let i = pStart; i <= pEnd; i++) {
+      const btn = document.createElement('button');
+      btn.className = 'lz-page-btn' + (i === currentPage ? ' active' : '');
+      btn.textContent = i;
+      btn.onclick = (function(p) { return function() { currentPage = p; renderPage(); }; })(i);
+      pgDiv.appendChild(btn);
     }
-  });
-}
 
-// ── Chart Lokasi (Doughnut) ──
-if (chartLokasiData && chartLokasiData.length > 0) {
-  const ctxLok = document.getElementById('chartLokasi').getContext('2d');
-  new Chart(ctxLok, {
-    type: 'doughnut',
-    data: {
-      labels  : chartLokasiData.map(d => d.label),
-      datasets: [{
-        data           : chartLokasiData.map(d => d.value),
-        backgroundColor: chartLokasiData.map((_, i) => ORANGE_PALETTE[i % ORANGE_PALETTE.length]),
-        borderWidth    : 2,
-        borderColor    : '#fff',
-      }]
-    },
-    options: {
-      responsive : true,
-      cutout     : '60%',
-      plugins    : {
-        legend: {
-          position : 'right',
-          labels   : { font: { size: 11 }, boxWidth: 12, padding: 10 }
-        },
-        tooltip: {
-          callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw} produk` }
-        }
-      }
-    }
-  });
-}
+    // Next
+    const next = document.createElement('button');
+    next.className = 'lz-page-btn';
+    next.innerHTML = '›';
+    next.disabled  = currentPage === totalPages;
+    next.onclick   = () => { if (currentPage < totalPages) { currentPage++; renderPage(); } };
+    pgDiv.appendChild(next);
+  }
 
-// ── Filter Tabel ──
-function filterTabel() {
-  const kata    = document.getElementById('cariProduk').value.toLowerCase().trim();
-  const kategori= document.getElementById('filterKategori').value.toLowerCase();
-  const lokasi  = document.getElementById('filterLokasi').value.toLowerCase();
-  const rows    = document.querySelectorAll('.row-produk');
-
-  let tampil = 0;
-  rows.forEach(row => {
-    const okKata    = !kata    || row.dataset.nama.includes(kata);
-    const okKategori= !kategori|| row.dataset.kategori.includes(kategori);
-    const okLokasi  = !lokasi  || row.dataset.lokasi.includes(lokasi);
-    const tampilkan = okKata && okKategori && okLokasi;
-    row.style.display = tampilkan ? '' : 'none';
-    if (tampilkan) tampil++;
-  });
-
-  document.getElementById('jmlTampil').textContent = tampil;
-  document.getElementById('jmlTotal').textContent  = rows.length;
-}
+  // Init
+  window.filterTable = filterTable;
+  filteredRows = allRows();
+  renderPage();
+})();
 </script>
-
 {% endblock %}

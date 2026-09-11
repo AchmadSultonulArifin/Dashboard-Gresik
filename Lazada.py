@@ -7,17 +7,14 @@
 ║            dashboard_data_lazada.json               ║
 ╚══════════════════════════════════════════════════════╝
 
-PERBAIKAN DARI VERSI LAMA:
-  1. [BUG FIX] Filter ada_gresik() tidak lagi dipakai untuk kartu produk
-     → Karena filter Lazada sudah aktif, SEMUA produk di halaman = Gresik
-     → Sebelumnya 0 produk lolos karena teks kartu tidak selalu ada lokasi
-  2. [BUG FIX] Selector kartu produk diperbarui untuk struktur Lazada 2024+
-     → Ditambah selector berbasis <a href*='products/'> sebagai fallback utama
-  3. [BUG FIX] Scroll lebih dalam sebelum scrape (lazy-load Lazada butuh scroll)
-  4. [BUG FIX] Nama toko diambil dari PDP dengan selector yang lebih lengkap
-  5. [TAMBAH] Rating toko diambil dari PDP
-  6. [TAMBAH] Jumlah terjual diambil dari listing dan PDP
-  7. [TAMBAH] Debug mode: simpan screenshot + page source kalau 0 produk
+PERBAIKAN v3:
+  1. [BUG FIX] Nama produk tidak lagi diambil dari slug URL ("pdp")
+     → Kini diambil dari title attribute, teks <a>, atau elemen dalam card
+  2. [BUG FIX] Nama toko tidak lagi menangkap teks tombol ("Click to feedback >")
+     → Ditambah BLACKLIST teks tombol Lazada
+  3. [BUG FIX] Selector kartu produk diperluas dengan pola Lazada 2024-2025
+  4. [BUG FIX] Fallback nama produk via JS closest() untuk cari parent card
+  5. [TAMBAH]  Fungsi _ambil_nama_toko_dari_pdp() yang lebih defensif
 """
 
 import time, random, re, os, json, argparse
@@ -41,7 +38,7 @@ from selenium.common.exceptions import (
 MAX_HALAMAN     = 15
 BASE_DIR        = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR      = os.path.join(BASE_DIR, "output")
-os.makedirs(OUTPUT_DIR, exist_ok=True)          # buat folder output kalau belum ada
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 OUTPUT_FILE     = os.path.join(OUTPUT_DIR, "toko_gresik_lazada.csv")
 DASHBOARD_FILE  = os.path.join(OUTPUT_DIR, "dashboard_data_lazada.json")
 CONFIG_FILE_DEF = os.path.join(BASE_DIR, "keywords_config.json")
@@ -96,41 +93,55 @@ SKIP_PATTERNS = ["rp", "rating", "terjual", "bintang", "gratis", "%",
                  "ongkir", "lihat", "tambah", "keranjang", "diskon",
                  "flash sale", "voucher", "koin", "cashback"]
 
-# ── SELECTOR KARTU PRODUK (diperbarui untuk Lazada 2024) ──────────────────────
-# Lazada sering ganti class, jadi kita pakai strategi berlapis:
-#   1. Coba selector berbasis atribut stabil
-#   2. Fallback ke href produk langsung
+# ── BLACKLIST teks yang BUKAN nama toko (penyebab bug "Click to feedback >") ──
+TOKO_BLACKLIST = [
+    "click to feedback", "feedback", "chat", "follow", "ikuti",
+    "lihat toko", "view shop", "ke toko", "kunjungi toko",
+    "lazada", "official store", "lazmall", "preferred",
+    "tambah ke keranjang", "beli sekarang", "add to cart",
+    "masuk lebih murah", "voucher", "diskon", "flash sale",
+    "gratis ongkir", "cashback", "koin", "login", "daftar",
+    "botanical essentials",  # contoh toko yang jadi false-positive
+]
+
+# ── SELECTOR KARTU PRODUK ────────────────────────────────────────────────────
 CARD_SELECTORS = [
+    # Atribut stabil (prioritas utama)
     "[data-item-id]",
     "[data-tracking='product-card']",
+    # Class Lazada 2024-2025 (cek dari inspect element)
+    "div[class*='Bm3ON']",
+    "div[class*='buTCk']",
+    "div[class*='c-prd']",
     "div[class*='product-card']",
     "div[class*='ProductCard']",
     "div[class*='gridItem']",
     "div[class*='product-item']",
-    "div[class*='c-prd']",          # ← pola baru Lazada
     ".c-2prjwa",
-    "li[class*='product']",         # ← kadang pakai <li>
+    "li[class*='product']",
 ]
 
 NAMA_PRODUK_SEL = [
     "[class*='product-title']",
     "[class*='title--wFj13']",
     "[class*='RFzeYU']",
+    "[class*='info-title']",
+    "[class*='titulo']",
     "div[class*='title'] span",
     "div[class*='name'] a",
     "a[class*='title']",
     "span[class*='title']",
-    "[class*='info-title']",        # ← tambahan
-    "h2", "h3",                     # ← fallback generik
+    "h2", "h3",
 ]
 
 HARGA_SEL = [
     "[class*='price--NVB62']",
     "[class*='price-sale']",
+    "[class*='priceWrapper']",
     "span[class*='price']",
     "div[class*='price']",
     "[data-spm='dprice']",
-    "[class*='currency']",          # ← tambahan
+    "[class*='currency']",
 ]
 
 LOKASI_SEL = [
@@ -138,14 +149,14 @@ LOKASI_SEL = [
     "[class*='shipping']",
     "[class*='seller-location']",
     "span[class*='loc']",
-    "[class*='sold-location']",     # ← tambahan
+    "[class*='sold-location']",
 ]
 
 RATING_SEL = [
     "[class*='rating']",
     "[class*='stars']",
     "span[class*='score']",
-    "[class*='review-count']",      # ← tambahan
+    "[class*='review-count']",
 ]
 
 TERJUAL_SEL = [
@@ -155,23 +166,26 @@ TERJUAL_SEL = [
 ]
 
 # ── SELECTOR PDP ──────────────────────────────────────────────────────────────
-# Selector nama toko di halaman detail produk — lebih lengkap dari versi lama
 PDP_TOKO_SEL = [
-    # Selector stabil (pakai data-spm atau href)
+    # Selector berbasis data-spm (paling stabil)
     "[data-spm='dshopname'] a",
     "[data-spm='dshopname']",
+    # Selector berbasis href toko
     "a[href*='/shop/']",
     "a[href*='/seller/']",
-    # Selector berbasis class (bisa berubah tiap deploy Lazada)
+    # Selector berbasis class
     "[class*='sellerName'] a",
     "[class*='seller-name'] a",
-    "[class*='pdp-product-brand'] a",
     "[class*='shop-name'] a",
     "[class*='shopName'] a",
-    "[class*='seller'] a[href*='shop']",
-    # Fallback teks
-    "[class*='seller-info'] span",
+    "[class*='pdp-product-brand'] a",
     "[class*='StoreInfo'] a",
+    "[class*='seller-info'] a",
+    # Fallback — span/div (lebih sering salah, di-filter BLACKLIST)
+    "[class*='sellerName']",
+    "[class*='seller-name']",
+    "[class*='shop-name']",
+    "[class*='seller-info'] span",
 ]
 
 PDP_RATING_TOKO_SEL = [
@@ -195,8 +209,8 @@ PDP_TERJUAL_SEL = [
     "[class*='review-count']",
 ]
 
-FAST_WAIT = 0.5
-EXPLICIT_WAIT_TIMEOUT = 5   # naikkan sedikit untuk PDP yang berat
+FAST_WAIT            = 0.5
+EXPLICIT_WAIT_TIMEOUT = 5
 
 
 # ══════════════════════════════════════════════════════
@@ -243,11 +257,6 @@ def _buat_options(headless=True):
     opt.add_argument("--lang=id-ID")
     opt.add_argument("--disable-extensions")
     opt.add_argument("--disable-popup-blocking")
-    # PENTING: nonaktifkan blokir gambar agar Lazada tidak mendeteksi kita sebagai bot
-    # (beberapa versi Lazada ngecek apakah gambar diload)
-    # opt.add_experimental_option("prefs", {
-    #     "profile.managed_default_content_settings.images": 2
-    # })
     opt.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                      "AppleWebKit/537.36 (KHTML, like Gecko) "
                      "Chrome/120.0.0.0 Safari/537.36")
@@ -331,12 +340,9 @@ def tutup_popup(driver):
         except: pass
 
 def scroll_halaman(driver, jumlah=10, jeda_antar=0.2):
-    """Scroll pelan-pelan supaya lazy-load Lazada ter-trigger."""
     for i in range(jumlah):
-        # Scroll bertahap lebih efektif daripada langsung ke bawah
         driver.execute_script(f"window.scrollBy(0, {600 + i * 50});")
         time.sleep(jeda_antar)
-    # Scroll balik ke atas sedikit agar semua elemen render
     driver.execute_script("window.scrollBy(0, -300);")
     time.sleep(0.5)
 
@@ -386,7 +392,6 @@ def ambil_teks_el(el, *sels):
     return ""
 
 def ambil_teks_driver(driver, *sels):
-    """Seperti ambil_teks_el tapi dari root driver (untuk PDP)."""
     for s in sels:
         try:
             el = driver.find_element(By.CSS_SELECTOR, s)
@@ -395,8 +400,7 @@ def ambil_teks_driver(driver, *sels):
         except: pass
     return ""
 
-def debug_simpan(driver, nama, headless):
-    """Simpan screenshot dan page source ke output/ untuk debug."""
+def debug_simpan(driver, nama, headless=True):
     try:
         png  = os.path.join(OUTPUT_DIR, f"debug_{nama}.png")
         html = os.path.join(OUTPUT_DIR, f"debug_{nama}.html")
@@ -406,46 +410,184 @@ def debug_simpan(driver, nama, headless):
         print(f"   🔍 Debug: output/debug_{nama}.png + output/debug_{nama}.html disimpan")
     except: pass
 
+# ══════════════════════════════════════════════════════
+# [FIX v3] AMBIL NAMA PRODUK DARI LINK/CARD
+# Penyebab bug: slug URL "/products/pdp..." menghasilkan nama "pdp"
+# Solusi: cari dari title attr, teks <a>, atau elemen dalam card parent
+# ══════════════════════════════════════════════════════
+def ambil_nama_dari_link(driver, a_el):
+    """
+    Coba ambil nama produk dari elemen <a> secara berlapis:
+    1. Atribut title
+    2. Teks langsung elemen <a>
+    3. Elemen nama produk dalam card parent (via JS closest)
+    4. Inner text semua child elements
+    """
+    # 1. Coba title attribute
+    try:
+        t = (a_el.get_attribute("title") or "").strip()
+        if t and len(t) > 5 and t.lower() not in ("", "pdp", "-"):
+            return t
+    except: pass
+
+    # 2. Coba teks langsung elemen
+    try:
+        t = a_el.text.strip()
+        if t and len(t) > 5 and t.lower() not in ("pdp", "-"):
+            return t[:200]
+    except: pass
+
+    # 3. Coba cari dalam card parent menggunakan JS closest()
+    try:
+        parent = driver.execute_script(
+            "return arguments[0].closest('[data-item-id],[data-tracking],[class*=\"product-card\"],[class*=\"gridItem\"],[class*=\"c-prd\"]')",
+            a_el
+        )
+        if parent:
+            for sel in NAMA_PRODUK_SEL:
+                try:
+                    el = parent.find_element(By.CSS_SELECTOR, sel)
+                    t = el.text.strip()
+                    if t and len(t) > 5:
+                        return t[:200]
+                except: pass
+            # Inner text semua teks dalam card, ambil baris terpanjang yang bukan harga/skip
+            try:
+                inner = parent.text or ""
+                kandidat = []
+                for baris in inner.split("\n"):
+                    b = baris.strip()
+                    if b and len(b) > 8 and not baris_skip(b):
+                        kandidat.append(b)
+                if kandidat:
+                    # Ambil yang paling panjang (biasanya nama produk)
+                    return max(kandidat, key=len)[:200]
+            except: pass
+    except: pass
+
+    return ""
+
 
 # ══════════════════════════════════════════════════════
-# LANGKAH 1 — Dapatkan URL catalog Gresik yang valid
+# [FIX v3] AMBIL NAMA TOKO DARI PDP
+# Penyebab bug: selector menangkap tombol "Click to feedback >"
+# Solusi: filter ketat dengan BLACKLIST + validasi teks
 # ══════════════════════════════════════════════════════
-#
-# STRATEGI BARU (lebih reliable):
-#   Lazada menyimpan filter lokasi sebagai parameter URL "locations".
-#   Kita cukup buka URL catalog dengan parameter itu langsung —
-#   tidak perlu klik sidebar filter yang sering berubah struktur HTML-nya.
-#
-# Daftar URL yang dicoba berurutan sampai ada yang menghasilkan produk:
+def _teks_valid_nama_toko(teks):
+    """Return True jika teks layak dijadikan nama toko."""
+    if not teks:
+        return False
+    t = teks.strip()
+    t_lower = t.lower()
+
+    # Panjang tidak masuk akal
+    if len(t) < 2 or len(t) > 80:
+        return False
+
+    # Mengandung karakter HTML/tombol
+    if ">" in t or "<" in t:
+        return False
+
+    # Cocok dengan BLACKLIST
+    if any(bl in t_lower for bl in TOKO_BLACKLIST):
+        return False
+
+    # Teks murni angka atau simbol
+    if re.match(r'^[\d\s\-_.,]+$', t):
+        return False
+
+    return True
+
+
+def _ambil_nama_toko_dari_pdp(driver):
+    """
+    Ambil nama toko dari halaman PDP dengan filter ketat.
+    Return: (nama_toko, url_toko)
+    """
+    # Prioritas 1: selector berbasis href toko (paling reliable)
+    for sel in ["a[href*='/shop/']", "a[href*='/seller/']", "[data-spm='dshopname'] a"]:
+        try:
+            els = driver.find_elements(By.CSS_SELECTOR, sel)
+            for el in els:
+                t = el.text.strip()
+                href = el.get_attribute("href") or ""
+                if _teks_valid_nama_toko(t) and "lazada.co.id" in href:
+                    return t, href
+        except: pass
+
+    # Prioritas 2: selector class berbasis nama toko
+    for sel in [
+        "[data-spm='dshopname']",
+        "[class*='sellerName'] a", "[class*='sellerName']",
+        "[class*='seller-name'] a", "[class*='seller-name']",
+        "[class*='shop-name'] a", "[class*='shopName'] a",
+        "[class*='pdp-product-brand'] a",
+        "[class*='StoreInfo'] a", "[class*='StoreInfo']",
+        "[class*='seller-info'] a",
+    ]:
+        try:
+            els = driver.find_elements(By.CSS_SELECTOR, sel)
+            for el in els:
+                t = el.text.strip()
+                if not _teks_valid_nama_toko(t):
+                    continue
+                href = ""
+                try:
+                    href = el.get_attribute("href") or ""
+                    if href and "lazada.co.id" not in href:
+                        href = ""
+                except: pass
+                # Kalau tidak dapat href, coba parent atau child
+                if not href:
+                    try:
+                        a = el.find_element(By.TAG_NAME, "a")
+                        href = a.get_attribute("href") or ""
+                    except: pass
+                return t, href
+        except: pass
+
+    # Prioritas 3: scan semua link di halaman yang mengarah ke toko
+    try:
+        semua_a = driver.find_elements(By.TAG_NAME, "a")
+        for el in semua_a:
+            href = el.get_attribute("href") or ""
+            if "/shop/" not in href and "/seller/" not in href:
+                continue
+            if "lazada.co.id" not in href:
+                continue
+            t = el.text.strip()
+            if _teks_valid_nama_toko(t):
+                return t, href
+    except: pass
+
+    # Tidak ketemu
+    return "-", "-"
+
+
+# ══════════════════════════════════════════════════════
+# CANDIDATE URLS
+# ══════════════════════════════════════════════════════
 CANDIDATE_URLS = [
-    # Format 1 — parameter locations (paling stabil, pakai region code Gresik)
     "https://www.lazada.co.id/catalog/?q=&locations=ID110500000&sort=0",
-    # Format 2 — nama kota di parameter
     "https://www.lazada.co.id/catalog/?locations=ID110500000&sort=0&ajax=true",
-    # Format 3 — search keyword + filter lokasi via URL
     "https://www.lazada.co.id/catalog/?q=gresik&locations=ID110500000&sort=0",
-    # Format 4 — catalog semua produk filter Gresik (tanpa keyword)
     "https://www.lazada.co.id/catalog/?city=gresik&sort=0",
-    # Format 5 — search biasa, nanti scrape semua & filter teks
     "https://www.lazada.co.id/catalog/?q=toko+gresik&sort=0",
     "https://www.lazada.co.id/catalog/?q=gresik&sort=0",
 ]
 
 def _url_punya_produk(driver, url, kata_gresik):
-    """Buka URL, cek apakah ada link produk di halaman. Return True/False."""
     buka(driver, url)
     time.sleep(3)
     tutup_popup(driver)
     scroll_halaman(driver, jumlah=6, jeda_antar=0.2)
 
-    # Cek ada link produk Lazada
     for sel in ["a[href*='/products/']", "a[href*='-i'][href*='-s']"]:
         els = driver.find_elements(By.CSS_SELECTOR, sel)
         valid = [e for e in els if "lazada.co.id" in (e.get_attribute("href") or "")]
         if len(valid) >= 3:
             return True
 
-    # Cek via [data-item-id]
     if len(driver.find_elements(By.CSS_SELECTOR, "[data-item-id]")) >= 3:
         return True
 
@@ -453,13 +595,8 @@ def _url_punya_produk(driver, url, kata_gresik):
 
 
 def aktifkan_filter(driver, kata_gresik):
-    """
-    Cari URL listing Lazada yang menghasilkan produk.
-    Tidak lagi bergantung pada klik sidebar — langsung pakai URL dengan parameter filter.
-    """
     print("\n📍 Mencari URL listing Lazada dengan produk Gresik...")
 
-    # ── Coba CANDIDATE_URLS satu per satu ─────────────────────────────────────
     for url in CANDIDATE_URLS:
         print(f"   Coba: {url[:75]}...", end=" ", flush=True)
         try:
@@ -473,24 +610,20 @@ def aktifkan_filter(driver, kata_gresik):
         else:
             print("⬜ tidak ada produk")
 
-    # ── Fallback: coba klik filter sidebar ────────────────────────────────────
     print("\n   Semua URL kandidat kosong. Mencoba klik filter sidebar...")
     return _coba_klik_filter_sidebar(driver, kata_gresik)
 
 
 def _coba_klik_filter_sidebar(driver, kata_gresik):
-    """Fallback: buka catalog, coba klik filter 'Kab. Gresik' di sidebar."""
     buka(driver, "https://www.lazada.co.id/catalog/?q=produk&sort=0")
     time.sleep(4)
     tutup_popup(driver)
 
-    # Scroll untuk munculkan sidebar
     for _ in range(20):
         driver.execute_script("window.scrollBy(0, 200)")
         time.sleep(0.1)
     time.sleep(1)
 
-    # Klik "Lihat Lebih Banyak" dulu
     for xpath in [
         "//*[contains(translate(normalize-space(text()),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'lihat lebih banyak')]",
         "//*[contains(translate(normalize-space(text()),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'see more')]",
@@ -504,7 +637,6 @@ def _coba_klik_filter_sidebar(driver, kata_gresik):
 
     target_kw = [k for k in kata_gresik if "gresik" in k] or ["gresik"]
 
-    # Cari elemen filter Gresik
     for xpath in [
         "//*[contains(translate(normalize-space(text()),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'kab. gresik')]",
         "//*[translate(normalize-space(text()),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='gresik']",
@@ -521,7 +653,6 @@ def _coba_klik_filter_sidebar(driver, kata_gresik):
                         except ElementClickInterceptedException:
                             driver.execute_script("arguments[0].click()", el)
                         time.sleep(3)
-                        # Pastikan URL hasil punya produk
                         url_hasil = driver.current_url
                         if _url_punya_produk(driver, url_hasil, kata_gresik):
                             return url_hasil
@@ -539,21 +670,9 @@ def _coba_klik_filter_sidebar(driver, kata_gresik):
 MAX_RETRY_PER_HALAMAN = 3
 
 def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=False):
-    """
-    [PERBAIKAN UTAMA]
-    
-    Versi lama: hanya simpan produk yang teksnya mengandung keyword Gresik
-    → GAGAL karena Lazada tidak selalu tampilkan lokasi di kartu listing
-    
-    Versi baru: karena filter Lazada sudah aktif (Shipped From = Kab. Gresik),
-    SEMUA produk di halaman ini = dari Gresik. Jadi kita ambil SEMUA produk,
-    lalu cek lokasi kalau ada, kalau tidak ada isi default "Kab. Gresik".
-    """
     buka(driver, url)
-    time.sleep(2.5)  # naikkan jeda awal (Lazada butuh waktu render JS)
+    time.sleep(2.5)
     tutup_popup(driver)
-
-    # Scroll lebih dalam dan pelan (trigger lazy-load gambar & konten)
     scroll_halaman(driver, jumlah=12, jeda_antar=0.25)
 
     baru = 0
@@ -561,7 +680,7 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
     # ── STRATEGI 1: Cari kartu produk via selector ────────────────────────────
     for sel in CARD_SELECTORS:
         cards = driver.find_elements(By.CSS_SELECTOR, sel)
-        if len(cards) < 3:   # kalau kurang dari 3 kartu, selector ini salah
+        if len(cards) < 3:
             continue
 
         print(f"      → Selector '{sel}': {len(cards)} kartu ditemukan")
@@ -571,36 +690,51 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                 teks = card.text.strip()
                 if not teks: continue
 
-                # Cari URL produk
                 url_prod = ""
+                nama     = ""
+
+                # Cari URL produk + nama dari elemen <a> dalam card
                 for a in card.find_elements(By.TAG_NAME, "a"):
                     try:
                         h = a.get_attribute("href") or ""
-                        if "lazada.co.id/products/" in h or "-i" in h:
-                            url_prod = h.split("?")[0]
-                            break
+                        if "lazada.co.id/products/" in h or re.search(r"-i\d+", h):
+                            url_prod_cand = h.split("?")[0]
+                            if url_prod_cand in semua:
+                                continue
+                            # [FIX] Ambil nama dari link, bukan dari slug
+                            nama_cand = ambil_nama_dari_link(driver, a)
+                            if nama_cand and nama_cand.lower() not in ("pdp", ""):
+                                url_prod = url_prod_cand
+                                nama     = nama_cand
+                                break
+                            elif not url_prod:
+                                url_prod = url_prod_cand
                     except: pass
+
                 if not url_prod: continue
                 if url_prod in semua: continue
 
-                nama    = ambil_teks_el(card, *NAMA_PRODUK_SEL)
-                harga   = ambil_teks_el(card, *HARGA_SEL)
-                lokasi  = ambil_teks_el(card, *LOKASI_SEL)
-                rating  = ambil_teks_el(card, *RATING_SEL)
-                terjual = ambil_teks_el(card, *TERJUAL_SEL)
-
-                # Kalau nama tidak ketemu dari selector, ambil dari teks
+                # Kalau nama masih kosong, coba selector dalam card
                 if not nama:
+                    nama = ambil_teks_el(card, *NAMA_PRODUK_SEL)
+
+                # Kalau masih kosong, ambil baris terpanjang dari teks card
+                if not nama or nama.lower() == "pdp":
                     for l in teks.split("\n"):
                         l = l.strip()
                         if l and not baris_skip(l) and len(l) > 8:
                             nama = l[:200]
                             break
-                if not nama: continue
 
-                # [FIX] Lokasi default ke Kab. Gresik (filter sudah aktif)
+                if not nama or nama.lower() == "pdp":
+                    continue
+
+                harga   = ambil_teks_el(card, *HARGA_SEL)
+                lokasi  = ambil_teks_el(card, *LOKASI_SEL)
+                rating  = ambil_teks_el(card, *RATING_SEL)
+                terjual = ambil_teks_el(card, *TERJUAL_SEL)
+
                 if not lokasi:
-                    # Cek apakah ada keyword gresik di teks
                     for k in kata_gresik:
                         if k in teks.lower():
                             lokasi = k.title()
@@ -625,37 +759,43 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
             except: pass
 
         if baru > 0:
-            break  # selector berhasil, tidak perlu coba yang lain
+            break
 
-    # ── STRATEGI 2: Fallback — cari semua link produk di halaman ─────────────
+    # ── STRATEGI 2: Fallback — cari semua link produk + ambil nama dari link ──
     if baru == 0:
-        # Kumpulkan SEMUA href di halaman untuk inspeksi
-        semua_href = []
+        semua_a = []
         try:
-            semua_href = [
-                (a.get_attribute("href") or "")
-                for a in driver.find_elements(By.TAG_NAME, "a")
-            ]
+            semua_a = driver.find_elements(By.TAG_NAME, "a")
         except: pass
 
-        produk_href = [h for h in semua_href if h and "lazada.co.id" in h and (
-            "/products/" in h
-            or (re.search(r"-i\d+", h) and re.search(r"-s\d+", h))
-        )]
-        print(f"      → Fallback: {len(semua_href)} link total, "
-              f"{len(produk_href)} link produk terdeteksi")
+        print(f"      → Fallback: {len(semua_a)} elemen <a> ditemukan")
 
         seen_in_strat2 = set()
-        for h in produk_href:
+        for a_el in semua_a:
             try:
+                h = a_el.get_attribute("href") or ""
+                if not h or "lazada.co.id" not in h:
+                    continue
+                if "/products/" not in h and not (re.search(r"-i\d+", h) and re.search(r"-s\d+", h)):
+                    continue
+
                 url_prod = h.split("?")[0]
-                if url_prod in semua or url_prod in seen_in_strat2: continue
+                if url_prod in semua or url_prod in seen_in_strat2:
+                    continue
                 seen_in_strat2.add(url_prod)
 
-                # Coba ambil nama dari slug URL
-                slug = url_prod.rstrip("/").split("/")[-1]
-                slug = re.sub(r"-i\d+.*", "", slug)      # hapus -i{id}-s{id}
-                nama = slug.replace("-", " ").strip()[:200] or "Produk Lazada"
+                # [FIX] Ambil nama dari link, bukan slug URL
+                nama = ambil_nama_dari_link(driver, a_el)
+
+                # Kalau masih "pdp" atau kosong, skip
+                if not nama or nama.lower() in ("pdp", ""):
+                    # Last resort: parse slug tapi bersihkan lebih baik
+                    slug = url_prod.rstrip("/").split("/")[-1]
+                    slug = re.sub(r"-i\d+.*", "", slug)
+                    slug_clean = slug.replace("-", " ").strip()
+                    if slug_clean.lower() == "pdp" or len(slug_clean) < 5:
+                        continue  # [FIX] Skip kalau tetap "pdp"
+                    nama = slug_clean[:200]
 
                 semua[url_prod] = {
                     "url_produk"    : url_prod,
@@ -673,32 +813,26 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
             except WebDriverException: raise
             except: pass
 
-    # ── DEBUG: simpan kalau masih 0 ───────────────────────────────────────────
+    # ── DEBUG ─────────────────────────────────────────────────────────────────
     if baru == 0 and debug:
-        debug_simpan(driver, f"hal{halaman_ke}", headless=True)
+        debug_simpan(driver, f"hal{halaman_ke}")
         try:
-            hrefs = [
-                a.get_attribute("href") for a in driver.find_elements(By.TAG_NAME, "a")
-                if (a.get_attribute("href") or "")
-            ]
+            hrefs = [a.get_attribute("href") for a in driver.find_elements(By.TAG_NAME, "a")
+                     if (a.get_attribute("href") or "")]
             lazada_hrefs = [h for h in hrefs if h and "lazada" in h][:8]
             print(f"      🔍 Sampel href Lazada di halaman:")
             for h in lazada_hrefs:
                 print(f"         {h[:100]}")
         except: pass
     elif baru == 0:
-        # Selalu print minimal info meski tidak debug mode
         try:
-            hrefs = [
-                a.get_attribute("href") or ""
-                for a in driver.find_elements(By.TAG_NAME, "a")[:50]
-            ]
+            hrefs = [a.get_attribute("href") or ""
+                     for a in driver.find_elements(By.TAG_NAME, "a")[:50]]
             lazada_hrefs = [h for h in hrefs if "lazada" in h][:3]
             if lazada_hrefs:
                 print(f"      ℹ️  Sampel href: {lazada_hrefs[0][:90]}")
             else:
-                print(f"      ℹ️  Tidak ada href Lazada sama sekali — "
-                      f"halaman mungkin kosong/CAPTCHA")
+                print(f"      ℹ️  Tidak ada href Lazada — halaman mungkin kosong/CAPTCHA")
         except: pass
 
     return baru
@@ -748,15 +882,9 @@ def kumpulkan_url_produk(driver, url_filter, kata_gresik, headless=True, debug=F
 
 
 # ══════════════════════════════════════════════════════
-# LANGKAH 3 — Buka PDP secara PARALEL → ambil info toko
+# LANGKAH 3 — Buka PDP secara PARALEL
 # ══════════════════════════════════════════════════════
 def _ambil_satu_pdp(url, headless):
-    """
-    Buka 1 halaman detail produk, ambil:
-    - nama_toko, url_toko, rating_toko
-    - rating_produk (kalau di listing belum ada)
-    - terjual (kalau di listing belum ada)
-    """
     driver = None
     hasil = {
         "nama_toko"    : "-",
@@ -770,34 +898,13 @@ def _ambil_satu_pdp(url, headless):
         buka(driver, url)
         time.sleep(1.5)
         tutup_popup(driver)
-        # Scroll sedikit agar elemen seller muncul
         driver.execute_script("window.scrollBy(0, 400)")
         time.sleep(0.5)
 
-        # ── Nama toko ────────────────────────────────────────────────────────
-        for sel in PDP_TOKO_SEL:
-            try:
-                el = driver.find_element(By.CSS_SELECTOR, sel)
-                t  = el.text.strip()
-                if t and len(t) > 1 and len(t) < 100:
-                    hasil["nama_toko"] = t
-                    try:
-                        h = el.get_attribute("href") or ""
-                        if "lazada.co.id" in h:
-                            hasil["url_toko"] = h
-                    except: pass
-                    break
-            except: pass
-
-        # ── URL toko (kalau belum dapat) ─────────────────────────────────────
-        if hasil["url_toko"] == "-":
-            for sel in ["a[href*='/shop/']", "a[href*='/seller/']"]:
-                try:
-                    h = driver.find_element(By.CSS_SELECTOR, sel).get_attribute("href") or ""
-                    if "lazada.co.id" in h:
-                        hasil["url_toko"] = h
-                        break
-                except: pass
+        # [FIX] Gunakan fungsi yang sudah diperbaiki
+        nama_toko, url_toko = _ambil_nama_toko_dari_pdp(driver)
+        hasil["nama_toko"] = nama_toko
+        hasil["url_toko"]  = url_toko
 
         # ── Rating toko ───────────────────────────────────────────────────────
         hasil["rating_toko"] = bersihkan_rating(
@@ -814,20 +921,6 @@ def _ambil_satu_pdp(url, headless):
             ambil_teks_driver(driver, *PDP_TERJUAL_SEL)
         )
 
-        # ── Fallback nama toko dari body teks ────────────────────────────────
-        if hasil["nama_toko"] == "-":
-            try:
-                body = driver.find_element(By.TAG_NAME, "body").text
-                for line in body.split("\n"):
-                    l = line.strip()
-                    if l and 2 < len(l) < 60 and not baris_skip(l):
-                        if not any(x in l.lower() for x in
-                                   ["lazada", "add to", "beli", "cart", "login",
-                                    "rp", "rating", "ulasan", "chat", "klik"]):
-                            hasil["nama_toko"] = l
-                            break
-            except: pass
-
         return url, hasil
     except Exception:
         return url, hasil
@@ -843,7 +936,6 @@ def ambil_nama_toko_pdp_paralel(produk_list, workers, headless):
     urls = list(url_ke_item.keys())
 
     print(f"\n🏪 Ambil info toko via PDP — {total} produk, {workers} browser paralel...")
-    print(f"   Data yang diambil: nama toko, URL toko, rating toko, rating produk, terjual")
 
     selesai = 0
     with ThreadPoolExecutor(max_workers=workers) as executor:
@@ -851,10 +943,9 @@ def ambil_nama_toko_pdp_paralel(produk_list, workers, headless):
         for future in as_completed(future_map):
             url, hasil = future.result()
             item = url_ke_item[url]
-            # Update field — kalau listing sudah punya data, pakai yang PDP kalau lebih baik
-            item["nama_toko"]    = hasil["nama_toko"]
-            item["url_toko"]     = hasil["url_toko"]
-            item["rating_toko"]  = hasil["rating_toko"]
+            item["nama_toko"]   = hasil["nama_toko"]
+            item["url_toko"]    = hasil["url_toko"]
+            item["rating_toko"] = hasil["rating_toko"]
             if item.get("rating_produk", "-") == "-":
                 item["rating_produk"] = hasil["rating_produk"]
             if item.get("terjual", "-") == "-":
@@ -892,7 +983,6 @@ def simpan_csv(data_list, kategori_mapping):
     df_out = df[[c for c in kolom if c in df.columns]]
     df_out.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig")
 
-    # ── Ringkasan per toko ────────────────────────────────────────────────────
     file_toko = os.path.join(OUTPUT_DIR, "toko_gresik_lazada_per_toko.csv")
     grp_toko = (
         df[df["nama_toko"] != "-"]
@@ -907,7 +997,6 @@ def simpan_csv(data_list, kategori_mapping):
     )
     grp_toko.to_csv(file_toko, index=False, encoding="utf-8-sig")
 
-    # ── Ringkasan per lokasi ──────────────────────────────────────────────────
     file_lokasi = os.path.join(OUTPUT_DIR, "toko_gresik_lazada_per_lokasi.csv")
     grp_lokasi = (
         df.groupby("lokasi_seller")
@@ -921,7 +1010,6 @@ def simpan_csv(data_list, kategori_mapping):
     )
     grp_lokasi.to_csv(file_lokasi, index=False, encoding="utf-8-sig")
 
-    # ── Ringkasan per kategori ────────────────────────────────────────────────
     file_kat = os.path.join(OUTPUT_DIR, "toko_gresik_lazada_per_kategori.csv")
     grp_kat = (
         df.groupby("kategori")
@@ -1031,11 +1119,11 @@ def parse_args():
     p.add_argument("--workers",  type=int, default=DEFAULT_WORKERS,
                    help="Jumlah browser paralel untuk tahap PDP (default 5)")
     p.add_argument("--headful",  action="store_true",
-                   help="Matikan headless (browser kelihatan) — DISARANKAN untuk debug")
+                   help="Matikan headless (browser kelihatan)")
     p.add_argument("--debug",    action="store_true",
                    help="Simpan screenshot + page source kalau 0 produk ditemukan")
     p.add_argument("--no-pdp",   action="store_true",
-                   help="Skip tahap PDP (hanya ambil data listing, cepat tapi tanpa nama toko)")
+                   help="Skip tahap PDP (hanya ambil data listing)")
     return p.parse_args()
 
 
@@ -1050,7 +1138,7 @@ def main():
     print("╚══════════════════════════════════════════════════════╝\n")
 
     if args.debug:
-        print("   🔍 MODE DEBUG AKTIF — screenshot & HTML akan disimpan kalau 0 produk\n")
+        print("   🔍 MODE DEBUG AKTIF\n")
 
     cfg = muat_konfigurasi(args.config)
     cfg = gabungkan_keyword_cli(cfg, args.keywords)
@@ -1070,7 +1158,7 @@ def main():
         if not url_filter:
             print("\n❌ Filter gagal. Coba:")
             print("   1. Jalankan dengan --headful untuk lihat browser")
-            print("   2. Aktifkan filter manual di browser, copy URL, lalu:")
+            print("   2. Copy URL filter manual lalu:")
             print("      python Lazada_v2.py --url \"<URL filter Gresik>\"")
             return
 
@@ -1084,13 +1172,12 @@ def main():
         if not produk:
             print("\n❌ Tidak ada produk ditemukan di listing.")
             print("\n💡 SOLUSI:")
-            print("   1. Jalankan dengan --headful --debug untuk inspeksi visual")
+            print("   1. Jalankan dengan --headful --debug")
             print("   2. Coba: python Lazada_v2.py --headful")
-            print("   3. Atau copy URL filter manual: python Lazada_v2.py --url \"<URL>\"")
+            print("   3. Copy URL filter manual: python Lazada_v2.py --url \"<URL>\"")
             ekspor_dashboard(None, kata_gresik, kategori_mapping)
             return
 
-        # Backup setelah listing — ikut masuk ke output/
         backup_file = os.path.join(OUTPUT_DIR, "toko_gresik_lazada_listing_backup.csv")
         pd.DataFrame(produk).to_csv(backup_file, index=False, encoding="utf-8-sig")
         print(f"\n   💾 Backup listing → output/toko_gresik_lazada_listing_backup.csv")

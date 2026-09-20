@@ -1,33 +1,65 @@
 {% extends "base.html" %}
 {% block title %}Berita Gresik{% endblock %}
 {% block content %}
-
-<div style="margin-bottom:20px;">
-    <h1 style="font-size:24px;font-weight:700;color:#111827;margin:0;">📰 Berita Gresik</h1>
-    <p style="font-size:13px;color:#6b7280;margin:4px 0 0 0;">
-        🕒 Update terakhir: <strong style="color:#4f46e5;">{{ update_berita }}</strong>
-    </p>
-</div>
-
-<a href="{{ url_for('berita_pengaturan') }}"
-   style="padding:8px 16px;background:#f3f4f6;color:#374151;border-radius:8px;
-          font-size:13px;font-weight:600;text-decoration:none;display:inline-flex;
-          align-items:center;gap:6px;margin-bottom:16px;">
-    ⚙️ Pengaturan Keyword
-</a>
-
-<!-- ── STATUS ───────────────────────────────────────────── -->
+ 
+<!-- ── PAGE HEADER ─────────────────────────────────────────── -->
 {% set status = scrape_status.get('berita') %}
-{% if status %}
-<div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;
-    font-size:12px;font-weight:600;margin-bottom:16px;
-    {% if status.success %}background:#d1fae5;color:#065f46;
-    {% else %}background:#fee2e2;color:#991b1b;{% endif %}">
-    {% if status.success %}✅ Berhasil{% else %}❌ Gagal{% endif %}
-    <span style="font-weight:400;opacity:0.8;">— {{ status.last_run }}</span>
-    {% if status.total %}<span style="font-weight:400;opacity:0.7;">· {{ status.total }} berita</span>{% endif %}
+<div style="background:linear-gradient(135deg,#1e40af 0%,#4f46e5 55%,#7c3aed 100%);
+            border-radius:16px;padding:22px 28px;margin-bottom:20px;
+            box-shadow:0 4px 24px rgba(79,70,229,.28);position:relative;overflow:hidden;">
+ 
+    <!-- dekorasi lingkaran blur di background -->
+    <div style="position:absolute;top:-40px;right:-40px;width:180px;height:180px;
+                border-radius:50%;background:rgba(255,255,255,.06);pointer-events:none;"></div>
+    <div style="position:absolute;bottom:-30px;right:120px;width:100px;height:100px;
+                border-radius:50%;background:rgba(255,255,255,.04);pointer-events:none;"></div>
+ 
+    <div style="position:relative;display:flex;align-items:center;
+                justify-content:space-between;flex-wrap:wrap;gap:14px;">
+ 
+        <!-- Kiri: judul + meta -->
+        <div>
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+                <span style="font-size:26px;line-height:1;">📰</span>
+                <h1 style="font-size:22px;font-weight:700;color:#fff;
+                           margin:0;letter-spacing:-.3px;">Berita Gresik</h1>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-left:36px;">
+                <span style="font-size:12px;color:rgba(255,255,255,.7);">
+                    🕒 Update terakhir:
+                    <strong style="color:#fff;">{{ update_berita }}</strong>
+                </span>
+                {% if status %}
+                <span style="display:inline-flex;align-items:center;gap:5px;
+                             padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;
+                             {% if status.success %}
+                                 background:rgba(209,250,229,.2);color:#6ee7b7;border:1px solid rgba(110,231,183,.3);
+                             {% else %}
+                                 background:rgba(254,226,226,.2);color:#fca5a5;border:1px solid rgba(252,165,165,.3);
+                             {% endif %}">
+                    {% if status.success %}✅{% else %}❌{% endif %}
+                    {{ status.last_run }}
+                    {% if status.total %}
+                    <span style="opacity:.75;">· {{ status.total }} berita</span>
+                    {% endif %}
+                </span>
+                {% endif %}
+            </div>
+        </div>
+ 
+        <!-- Kanan: tombol pengaturan -->
+        <a href="{{ url_for('berita_pengaturan') }}"
+           style="display:inline-flex;align-items:center;gap:7px;
+                  padding:9px 18px;background:rgba(255,255,255,.15);color:#fff;
+                  border-radius:10px;font-size:13px;font-weight:600;text-decoration:none;
+                  border:1.5px solid rgba(255,255,255,.3);backdrop-filter:blur(4px);
+                  transition:.15s;white-space:nowrap;"
+           onmouseover="this.style.background='rgba(255,255,255,.25)'"
+           onmouseout="this.style.background='rgba(255,255,255,.15)'">
+            ⚙️ Pengaturan Keyword
+        </a>
+    </div>
 </div>
-{% endif %}
 
 <!-- ── KPI CARDS ─────────────────────────────────────────── -->
 <div class="stat-grid" style="margin-bottom:20px;">
@@ -50,10 +82,6 @@
     <div class="stat">
         <div class="angka" style="color:#d97706;">{{ tipe_dist.get('nasional', 0) }}</div>
         <div class="label">Berita Nasional</div>
-    </div>
-    <div class="stat">
-        <div class="angka" style="color:#7c3aed;">{{ tipe_dist.get('google_news', 0) }}</div>
-        <div class="label">Google News</div>
     </div>
 </div>
 
@@ -127,7 +155,6 @@
                 <option value="">— Semua Tipe —</option>
                 <option value="lokal">Lokal</option>
                 <option value="nasional">Nasional</option>
-                <option value="google_news">Google News</option>
             </select>
             <!-- Cari -->
             <input type="text" id="cari" placeholder="🔍 Cari berita..."
@@ -141,7 +168,6 @@
         <table style="width:100%;border-collapse:collapse;font-size:13px;">
             <thead>
                 <tr style="background:#f9fafb;">
-                    <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:130px;">Waktu Upload</th>
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:80px;">Tipe</th>
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;">Judul</th>
                     <th style="padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;white-space:nowrap;width:110px;">Topik</th>
@@ -163,15 +189,10 @@
                 onclick="bukaModal(this)">
 
                 <!-- Waktu scrape/upload -->
-                <td style="padding:10px 12px;color:#6b7280;white-space:nowrap;font-size:11px;">
-                    {{ item.waktu_scrape if item.waktu_scrape else '-' }}
-                </td>
 
                 <td style="padding:10px 12px;white-space:nowrap;">
                     {% if item.tipe == 'lokal' %}
                         <span style="font-size:10px;background:#d1fae5;color:#065f46;padding:2px 8px;border-radius:20px;font-weight:600;">Lokal</span>
-                    {% elif item.tipe == 'google_news' %}
-                        <span style="font-size:10px;background:#ede9fe;color:#6d28d9;padding:2px 8px;border-radius:20px;font-weight:600;">GNews</span>
                     {% else %}
                         <span style="font-size:10px;background:#fef3c7;color:#92400e;padding:2px 8px;border-radius:20px;font-weight:600;">Nasional</span>
                     {% endif %}
@@ -200,9 +221,8 @@
             </tr>
             {% else %}
             <tr id="emptyRow">
-                <td colspan="5" style="text-align:center;padding:60px 20px;color:#9ca3af;">
+                <td colspan="4" style="text-align:center;padding:60px 20px;color:#9ca3af;">
                     <div style="font-size:32px;margin-bottom:8px;">📭</div>
-                    Belum ada berita. Jalankan <code>python Berita.py</code> terlebih dahulu.
                 </td>
             </tr>
             {% endfor %}
@@ -353,7 +373,6 @@ function bukaModal(row) {
     const tipeMap = {
         lokal       : { label:"Lokal",    bg:"#d1fae5", color:"#065f46" },
         nasional    : { label:"Nasional", bg:"#fef3c7", color:"#92400e" },
-        google_news : { label:"GNews",    bg:"#ede9fe", color:"#6d28d9" },
     };
     const t = tipeMap[tipe] || { label: tipe, bg:"#f3f4f6", color:"#374151" };
 
@@ -367,8 +386,6 @@ function bukaModal(row) {
 
     // Meta: waktu upload dulu, lalu tanggal berita, sumber
     let metaHTML = "";
-    if (waktu && waktu !== "-")
-        metaHTML += `<span>📤 Upload: <strong>${waktu}</strong></span>`;
     if (tanggal && tanggal !== "-")
         metaHTML += `<span>📅 Tanggal berita: <strong>${tanggal}</strong></span>`;
     if (sumber && sumber !== "-")

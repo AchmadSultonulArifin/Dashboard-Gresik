@@ -1332,13 +1332,14 @@ def berita():
         # Tabel berita (maks 200)
         for _, row in df.head(200).iterrows():
             data_rows.append({
-                "judul"    : row.get("judul",    "-"),
-                "tanggal"  : row.get("tanggal",  "-"),
-                "topik"    : row.get("topik",    "Umum"),
-                "sumber"   : row.get("sumber",   "-"),
-                "tipe"     : row.get("tipe",     "-"),
-                "ringkasan": row.get("ringkasan","")[:150],
-                "url"      : row.get("url",      "#"),
+                "judul"       : row.get("judul",       "-"),
+                "tanggal"     : row.get("tanggal",     "-"),
+                "waktu_scrape": row.get("waktu_scrape",""),
+                "topik"       : row.get("topik",       "Umum"),
+                "sumber"      : row.get("sumber",      "-"),
+                "tipe"        : row.get("tipe",        "-"),
+                "ringkasan"   : row.get("ringkasan",   "")[:300],
+                "url"         : row.get("url",         "#"),
             })
 
     if not df_topik.empty:

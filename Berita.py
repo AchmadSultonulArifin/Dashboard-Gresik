@@ -29,21 +29,19 @@ from urllib.parse import urljoin, quote
 # ══════════════════════════════════════════════════════
 # PENGATURAN PATH — sesuai struktur project Dashboard-Gresik
 # ══════════════════════════════════════════════════════
-# Semua output masuk ke output/ (satu folder dengan scraper lain)
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR  = os.path.join(BASE_DIR, "output")          # output/
-BERITA_DIR  = os.path.join(OUTPUT_DIR, "berita")        # output/berita/
+OUTPUT_DIR  = os.path.join(BASE_DIR, "output")
+BERITA_DIR  = os.path.join(OUTPUT_DIR, "berita")
 os.makedirs(OUTPUT_DIR,  exist_ok=True)
 os.makedirs(BERITA_DIR,  exist_ok=True)
 
 # ── File output utama (dibaca app.py) ─────────────────────────
-BERITA_CSV      = os.path.join(OUTPUT_DIR, "gresik_berita.csv")          # output/gresik_berita.csv
-TOPIK_CSV       = os.path.join(OUTPUT_DIR, "gresik_berita_topik.csv")    # output/gresik_berita_topik.csv
-SUMBER_CSV      = os.path.join(OUTPUT_DIR, "gresik_berita_sumber.csv")   # output/gresik_berita_sumber.csv
-STATUS_FILE     = os.path.join(OUTPUT_DIR, "scrape_status.json")          # output/scrape_status.json (shared)
-LOG_FILE        = os.path.join(BERITA_DIR, "log_scraping.csv")           # output/berita/log_scraping.csv
+BERITA_CSV  = os.path.join(OUTPUT_DIR, "gresik_berita.csv")
+TOPIK_CSV   = os.path.join(OUTPUT_DIR, "gresik_berita_topik.csv")
+SUMBER_CSV  = os.path.join(OUTPUT_DIR, "gresik_berita_sumber.csv")
+STATUS_FILE = os.path.join(OUTPUT_DIR, "scrape_status.json")
+LOG_FILE    = os.path.join(BERITA_DIR, "log_scraping.csv")
 
-# ── File arsip per-tanggal (disimpan di output/berita/) ───────
 def path_arsip() -> str:
     ts = datetime.now().strftime("%Y%m%d_%H%M")
     return os.path.join(BERITA_DIR, f"berita_gresik_{ts}.csv")
@@ -52,9 +50,7 @@ def path_arsip() -> str:
 # KATA KUNCI PENCARIAN
 # ══════════════════════════════════════════════════════
 
-DASHBOARD_URL = "http://localhost:5000"  # sesuaikan port jika beda
-
-KDASHBOARD_URL = "http://localhost:5000"  # sesuaikan port jika beda
+DASHBOARD_URL = "http://localhost:5000"
 
 def ambil_keywords_dari_dashboard() -> list:
     try:
@@ -66,7 +62,6 @@ def ambil_keywords_dari_dashboard() -> list:
                 return data
     except Exception as e:
         print(f"  ⚠ Gagal ambil keyword dari dashboard: {e}")
-    # Fallback jika dashboard offline
     print("  ⚠ Menggunakan keyword fallback (hardcoded)")
     return [
         "gresik","kabupaten gresik","kota gresik","petrokimia gresik",
@@ -86,9 +81,8 @@ def ambil_topik_rules_dari_dashboard() -> dict:
         print(f"  ⚠ Gagal ambil topik rules dari dashboard: {e}")
     return {}
 
-# Jalankan saat startup — ambil dari dashboard
-KEYWORDS      = ambil_keywords_dari_dashboard()
-_TOPIK_RULES  = ambil_topik_rules_dari_dashboard()
+KEYWORDS     = ambil_keywords_dari_dashboard()
+_TOPIK_RULES = ambil_topik_rules_dari_dashboard()
 
 HEADERS = {
     "User-Agent": (
@@ -242,40 +236,6 @@ SUMBER_BERITA = [
 ]
 
 # ══════════════════════════════════════════════════════
-# GOOGLE NEWS RSS
-# ══════════════════════════════════════════════════════
-# Google News pakai subset dari KEYWORDS (maks 5 keyword terpendek)
-GOOGLE_NEWS_KEYWORDS = sorted(KEYWORDS, key=len)[:5]
-
-def scrape_google_news_rss(keyword):
-    artikel  = []
-    encoded  = quote(keyword)
-    url      = f"https://news.google.com/rss/search?q={encoded}&hl=id&gl=ID&ceid=ID:id"
-    try:
-        r    = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(r.text, "xml")
-        for item in soup.find_all("item")[:20]:
-            judul  = bersihkan(item.find("title").get_text()  if item.find("title")   else "")
-            link   = item.find("link").get_text()             if item.find("link")    else ""
-            tgl    = item.find("pubDate").get_text()          if item.find("pubDate") else "-"
-            sumber = item.find("source").get_text()           if item.find("source")  else "Google News"
-            desk_el= item.find("description")
-            desk   = bersihkan(BeautifulSoup(desk_el.get_text(), "html.parser").get_text()) if desk_el else ""
-            if judul and len(judul) > 10:
-                artikel.append({
-                    "judul"    : judul,
-                    "url"      : link,
-                    "tanggal"  : ekstrak_tanggal(tgl),
-                    "ringkasan": desk[:300],
-                    "topik"    : kategorikan_topik(judul, desk),
-                    "sumber"   : f"Google News ({sumber})",
-                    "tipe"     : "google_news",
-                })
-    except Exception as e:
-        print(f"    ⚠ Google News RSS gagal untuk '{keyword}': {e}")
-    return artikel
-
-# ══════════════════════════════════════════════════════
 # HELPER
 # ══════════════════════════════════════════════════════
 def get_html(url, timeout=15):
@@ -314,13 +274,11 @@ def ekstrak_tanggal(teks):
 def kategorikan_topik(judul, isi=""):
     teks = (str(judul) + " " + str(isi)).lower()
 
-    # ✅ Gunakan rules dari dashboard jika tersedia
     if _TOPIK_RULES:
         for topik, kata_list in _TOPIK_RULES.items():
             if any(k.lower() in teks for k in kata_list):
                 return topik
 
-    # Fallback hardcoded jika dashboard offline
     kategori_map = {
         "Ekonomi & UMKM"    : ["umkm","ekonomi","bisnis","investasi","industri","pabrik",
                                 "perdagangan","ekspor","impor","pasar","toko","lapak"],
@@ -673,10 +631,9 @@ PARSER_MAP = {
 }
 
 # ══════════════════════════════════════════════════════
-# UPDATE STATUS (shared dengan scraper lain)
+# UPDATE STATUS
 # ══════════════════════════════════════════════════════
 def update_status(success: bool, message: str = "", total: int = 0):
-    """Update output/scrape_status.json — dibaca app.py."""
     status = {}
     if os.path.exists(STATUS_FILE):
         try:
@@ -702,8 +659,12 @@ def scrape_semua():
     print(f"  SCRAPING BERITA GRESIK — {datetime.now().strftime('%d-%m-%Y %H:%M')}")
     print(f"{'='*65}\n")
 
-    # ── 1. Portal berita ──────────────────────────────────────
-    for sumber in SUMBER_BERITA:
+    lokal    = [s for s in SUMBER_BERITA if s["tipe"] == "lokal"]
+    nasional = [s for s in SUMBER_BERITA if s["tipe"] == "nasional"]
+
+    # ── 1. Portal Lokal ───────────────────────────────────────
+    print(f"  📍 PORTAL LOKAL GRESIK ({len(lokal)} sumber):\n")
+    for sumber in lokal:
         nama     = sumber["nama"]
         url      = sumber["url"]
         tipe     = sumber["tipe"]
@@ -724,14 +685,28 @@ def scrape_semua():
         print(f"✅ {len(artikel_relevan)} berita")
         time.sleep(random.uniform(1.0, 2.5))
 
-    # ── 2. Google News RSS ────────────────────────────────────
-    print(f"\n  🔍 GOOGLE NEWS RSS (keyword search):")
-    for kw in GOOGLE_NEWS_KEYWORDS:
-        print(f"  🔎 '{kw}'  ", end="", flush=True)
-        gnews = scrape_google_news_rss(kw)
-        semua_artikel.extend(gnews)
-        print(f"✅ {len(gnews)} berita")
-        time.sleep(random.uniform(0.5, 1.5))
+    # ── 2. Portal Nasional ────────────────────────────────────
+    print(f"\n  🌐 PORTAL NASIONAL ({len(nasional)} sumber):\n")
+    for sumber in nasional:
+        nama     = sumber["nama"]
+        url      = sumber["url"]
+        tipe     = sumber["tipe"]
+        parse_fn = PARSER_MAP.get(sumber["parse"], parse_generic)
+
+        print(f"  📰 {nama:<35} ", end="", flush=True)
+        soup = get_html(url)
+        if not soup:
+            print("❌ gagal")
+            continue
+
+        artikel = parse_fn(soup, nama, url)
+        artikel_relevan = [
+            a for a in artikel
+            if cocok_keyword(a["judul"], a.get("ringkasan", ""), tipe)
+        ]
+        semua_artikel.extend(artikel_relevan)
+        print(f"✅ {len(artikel_relevan)} berita")
+        time.sleep(random.uniform(1.0, 2.5))
 
     return semua_artikel
 
@@ -752,17 +727,14 @@ def simpan_dan_laporan(artikel_list):
              "ringkasan", "url", "waktu_scrape"]
     df_out = df[[c for c in kolom if c in df.columns]]
 
-    # ── 1. File utama (dibaca app.py) ─────────────────────────
-    #    output/gresik_berita.csv
+    # ── 1. File utama ─────────────────────────────────────────
     df_out.to_csv(BERITA_CSV, index=False, encoding="utf-8-sig")
 
     # ── 2. Arsip per waktu ────────────────────────────────────
-    #    output/berita/berita_gresik_YYYYMMDD_HHMM.csv
     arsip_path = path_arsip()
     df_out.to_csv(arsip_path, index=False, encoding="utf-8-sig")
 
     # ── 3. Ringkasan topik ────────────────────────────────────
-    #    output/gresik_berita_topik.csv
     ringkasan_topik = (
         df.groupby("topik")
         .agg(
@@ -776,7 +748,6 @@ def simpan_dan_laporan(artikel_list):
     ringkasan_topik.to_csv(TOPIK_CSV, index=False, encoding="utf-8-sig")
 
     # ── 4. Ringkasan sumber ───────────────────────────────────
-    #    output/gresik_berita_sumber.csv
     ringkasan_sumber = (
         df.groupby(["sumber", "tipe"])
         .agg(
@@ -789,7 +760,6 @@ def simpan_dan_laporan(artikel_list):
     ringkasan_sumber.to_csv(SUMBER_CSV, index=False, encoding="utf-8-sig")
 
     # ── 5. Log otomasi ────────────────────────────────────────
-    #    output/berita/log_scraping.csv
     log_baru = {
         "waktu"          : datetime.now().strftime("%Y-%m-%d %H:%M"),
         "total_berita"   : len(df),
@@ -804,15 +774,20 @@ def simpan_dan_laporan(artikel_list):
         df_log = pd.DataFrame([log_baru])
     df_log.to_csv(LOG_FILE, index=False, encoding="utf-8-sig")
 
-    # ── 6. Update scrape_status.json ──────────────────────────
+    # ── 6. Update status ──────────────────────────────────────
     update_status(True, f"Berhasil {len(df)} berita dari {df['sumber'].nunique()} portal",
                   len(df))
 
     # ── Print laporan ──────────────────────────────────────────
+    jml_lokal    = len(df[df["tipe"] == "lokal"])
+    jml_nasional = len(df[df["tipe"] == "nasional"])
+
     print(f"\n{'='*65}")
     print(f"  HASIL SCRAPING BERITA GRESIK")
     print(f"{'='*65}")
     print(f"  📰 Total berita unik    : {len(df)}")
+    print(f"  📍 Berita lokal         : {jml_lokal}")
+    print(f"  🌐 Berita nasional      : {jml_nasional}")
     print(f"  🏷  Topik               : {df['topik'].nunique()} topik")
     print(f"  📡 Sumber berita        : {df['sumber'].nunique()} portal")
     print(f"\n  OUTPUT (semua di dalam folder output/):")
@@ -846,10 +821,14 @@ def simpan_dan_laporan(artikel_list):
 # MAIN
 # ══════════════════════════════════════════════════════
 def main():
+    jml_lokal    = len([s for s in SUMBER_BERITA if s["tipe"] == "lokal"])
+    jml_nasional = len([s for s in SUMBER_BERITA if s["tipe"] == "nasional"])
+
     print("╔══════════════════════════════════════════════════════════╗")
     print("║   SCRAPER BERITA GRESIK — Dashboard-Gresik              ║")
     print(f"║   Mulai  : {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}                         ║")
-    print(f"║   Sumber : {len(SUMBER_BERITA)} portal + Google News RSS                ║")
+    print(f"║   Lokal  : {jml_lokal} portal                                      ║")
+    print(f"║   Nasional: {jml_nasional} portal                                    ║")
     print(f"║   Keyword: {len(KEYWORDS)} kata kunci                                ║")
     print("╠══════════════════════════════════════════════════════════╣")
     print(f"║   Output : output/gresik_berita.csv                     ║")

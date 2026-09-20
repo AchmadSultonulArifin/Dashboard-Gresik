@@ -2,26 +2,39 @@
 {% block title %}Pengaturan Berita{% endblock %}
 {% block content %}
 
-<div style="margin-bottom:20px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-        <div>
-            <h1 style="font-size:22px;font-weight:700;color:#111827;margin:0;">⚙️ Pengaturan Berita</h1>
-            <p style="font-size:13px;color:#6b7280;margin:4px 0 0 0;">
-                Kelola keyword scraping & aturan kategorisasi topik berita
-            </p>
+<!-- ── PAGE HEADER ─────────────────────────────────────────── -->
+<div style="background:linear-gradient(135deg,#4f46e5 0%,#6366f1 60%,#818cf8 100%);
+            border-radius:16px;padding:24px 28px;margin-bottom:24px;
+            display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;
+            box-shadow:0 4px 20px rgba(79,70,229,.25);">
+    <div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+            <span style="font-size:24px;">⚙️</span>
+            <h1 style="font-size:22px;font-weight:700;color:#fff;margin:0;letter-spacing:-.3px;">
+                Pengaturan Berita
+            </h1>
         </div>
-        <a href="{{ url_for('berita') }}"
-           style="padding:8px 16px;background:#f3f4f6;color:#374151;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;">
-            ← Kembali ke Berita
-        </a>
+        <p style="font-size:13px;color:rgba(255,255,255,.75);margin:0;padding-left:34px;">
+            Kelola keyword scraping &amp; aturan kategorisasi topik berita
+        </p>
     </div>
+    <a href="{{ url_for('berita') }}"
+       style="padding:9px 18px;background:rgba(255,255,255,.15);color:#fff;
+              border-radius:10px;font-size:13px;font-weight:600;text-decoration:none;
+              border:1.5px solid rgba(255,255,255,.3);backdrop-filter:blur(4px);
+              display:inline-flex;align-items:center;gap:6px;transition:.15s;"
+       onmouseover="this.style.background='rgba(255,255,255,.25)'"
+       onmouseout="this.style.background='rgba(255,255,255,.15)'">
+        ← Kembali ke Berita
+    </a>
 </div>
 
 {% with messages = get_flashed_messages(with_categories=true) %}
 {% if messages %}
     {% for cat, msg in messages %}
-    <div style="padding:10px 16px;border-radius:8px;margin-bottom:12px;font-size:13px;font-weight:500;
-        {% if cat=='success' %}background:#d1fae5;color:#065f46;{% else %}background:#fee2e2;color:#991b1b;{% endif %}">
+    <div style="padding:10px 16px;border-radius:8px;margin-bottom:14px;font-size:13px;font-weight:500;
+        {% if cat=='success' %}background:#d1fae5;color:#065f46;border:1px solid #6ee7b7;
+        {% else %}background:#fee2e2;color:#991b1b;border:1px solid #fca5a5;{% endif %}">
         {{ msg }}
     </div>
     {% endfor %}
@@ -31,71 +44,105 @@
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start;">
 
     <!-- ══ KOLOM KIRI: KEYWORD SCRAPING ══ -->
-    <div>
-        <div class="card" style="margin-bottom:0;">
-            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
-                <div>
-                    <h2 style="font-size:15px;font-weight:700;color:#111827;margin:0;">🔎 Keyword Scraping</h2>
-                    <p style="font-size:12px;color:#6b7280;margin:3px 0 0 0;">
-                        Kata kunci yang digunakan <code>Berita.py</code> saat mencari berita
-                    </p>
+    <div class="card" style="margin-bottom:0;padding:0;overflow:hidden;">
+
+        <!-- Card header -->
+        <div style="background:linear-gradient(135deg,#eff6ff,#dbeafe);
+                    padding:16px 20px;border-bottom:1.5px solid #bfdbfe;">
+            <div style="display:flex;align-items:center;justify-content:space-between;">
+                <div style="display:flex;align-items:center;gap:10px;">
+                    <div style="width:36px;height:36px;background:#4f46e5;border-radius:10px;
+                                display:flex;align-items:center;justify-content:center;font-size:16px;">
+                        🔎
+                    </div>
+                    <div>
+                        <h2 style="font-size:14px;font-weight:700;color:#1e40af;margin:0;">Keyword Scraping</h2>
+                        <p style="font-size:11px;color:#3b82f6;margin:2px 0 0 0;">
+                            Kata kunci untuk pencarian berita otomatis
+                        </p>
+                    </div>
                 </div>
-                <span style="background:#eff6ff;color:#1d4ed8;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;">
+                <span style="background:#4f46e5;color:#fff;padding:4px 12px;
+                             border-radius:20px;font-size:12px;font-weight:700;">
                     {{ keywords|length }} keyword
                 </span>
             </div>
+        </div>
+
+        <!-- Card body -->
+        <div style="padding:18px 20px;">
 
             <!-- Form tambah keyword -->
             <form method="POST" action="{{ url_for('berita_keyword_tambah') }}"
-                  style="display:flex;gap:8px;margin-bottom:16px;">
+                  style="display:flex;gap:8px;margin-bottom:14px;">
                 <input type="text" name="keyword" placeholder="Tambah keyword baru..." required
-                    style="flex:1;padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
-                           font-size:13px;outline:none;">
+                    style="flex:1;padding:9px 12px;border:1.5px solid #e5e7eb;border-radius:9px;
+                           font-size:13px;outline:none;transition:.15s;"
+                    onfocus="this.style.borderColor='#6366f1'"
+                    onblur="this.style.borderColor='#e5e7eb'">
                 <button type="submit"
-                    style="padding:8px 16px;background:#4f46e5;color:#fff;border:none;
-                           border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;">
+                    style="padding:9px 18px;background:#4f46e5;color:#fff;border:none;
+                           border-radius:9px;font-size:13px;font-weight:600;cursor:pointer;
+                           white-space:nowrap;transition:.15s;"
+                    onmouseover="this.style.background='#4338ca'"
+                    onmouseout="this.style.background='#4f46e5'">
                     + Tambah
                 </button>
             </form>
 
             <!-- Pencarian lokal -->
-            <input type="text" id="cariKeyword" placeholder="🔍 Filter keyword..."
-                style="width:100%;padding:7px 12px;border:1.5px solid #e5e7eb;border-radius:8px;
-                       font-size:13px;outline:none;margin-bottom:12px;box-sizing:border-box;">
+            <div style="position:relative;margin-bottom:12px;">
+                <span style="position:absolute;left:11px;top:50%;transform:translateY(-50%);
+                             font-size:13px;color:#9ca3af;">🔍</span>
+                <input type="text" id="cariKeyword" placeholder="Filter keyword..."
+                    style="width:100%;padding:8px 12px 8px 32px;border:1.5px solid #e5e7eb;
+                           border-radius:9px;font-size:13px;outline:none;box-sizing:border-box;
+                           transition:.15s;"
+                    onfocus="this.style.borderColor='#6366f1'"
+                    onblur="this.style.borderColor='#e5e7eb'">
+            </div>
 
             <!-- Daftar keyword -->
-            <div id="listKeyword" style="max-height:420px;overflow-y:auto;">
+            <div id="listKeyword" style="max-height:380px;overflow-y:auto;
+                 border:1.5px solid #f1f5f9;border-radius:10px;padding:6px;">
             {% for kw in keywords %}
             <div class="kw-item" data-nama="{{ kw.keyword }}"
                  style="display:flex;align-items:center;justify-content:space-between;
-                        padding:9px 12px;border-radius:8px;margin-bottom:4px;
-                        {% if kw.aktif %}background:#f9fafb;{% else %}background:#fff5f5;opacity:.7;{% endif %}">
+                        padding:8px 10px;border-radius:8px;margin-bottom:3px;
+                        {% if kw.aktif %}background:#f9fafb;{% else %}background:#fff5f5;opacity:.7;{% endif %}
+                        transition:.15s;"
+                 onmouseover="this.style.background='{% if kw.aktif %}#f0f4ff{% else %}#fee2e2{% endif %}'"
+                 onmouseout="this.style.background='{% if kw.aktif %}#f9fafb{% else %}#fff5f5{% endif %}'">
                 <div style="display:flex;align-items:center;gap:8px;">
+                    <span style="width:6px;height:6px;border-radius:50%;
+                                 background:{% if kw.aktif %}#22c55e{% else %}#ef4444{% endif %};
+                                 flex-shrink:0;"></span>
                     <span style="font-size:13px;color:#111827;font-weight:{% if kw.aktif %}500{% else %}400{% endif %};">
                         {{ kw.keyword }}
                     </span>
                     {% if not kw.aktif %}
                     <span style="font-size:10px;background:#fee2e2;color:#991b1b;
-                                 padding:1px 6px;border-radius:10px;">nonaktif</span>
+                                 padding:1px 6px;border-radius:10px;font-weight:600;">nonaktif</span>
                     {% endif %}
                 </div>
-                <div style="display:flex;gap:6px;">
-                    <!-- Toggle aktif/nonaktif -->
+                <div style="display:flex;gap:5px;">
                     <form method="POST" action="{{ url_for('berita_keyword_toggle', kid=kw.id) }}">
                         <button type="submit" title="{{ 'Nonaktifkan' if kw.aktif else 'Aktifkan' }}"
                             style="padding:4px 10px;border-radius:6px;font-size:11px;font-weight:600;
-                                   cursor:pointer;border:1.5px solid;
+                                   cursor:pointer;border:1.5px solid;transition:.15s;
                                    {% if kw.aktif %}background:#fff;color:#374151;border-color:#e5e7eb;
                                    {% else %}background:#d1fae5;color:#065f46;border-color:#6ee7b7;{% endif %}">
-                            {{ '⏸ Nonaktif' if kw.aktif else '▶ Aktifkan' }}
+                            {{ '⏸' if kw.aktif else '▶ Aktifkan' }}
                         </button>
                     </form>
-                    <!-- Hapus -->
                     <form method="POST" action="{{ url_for('berita_keyword_hapus', kid=kw.id) }}"
                           onsubmit="return confirm('Hapus keyword \'{{ kw.keyword }}\'?')">
                         <button type="submit"
-                            style="padding:4px 10px;background:#fee2e2;color:#991b1b;border:1.5px solid #fca5a5;
-                                   border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;">
+                            style="padding:4px 9px;background:#fee2e2;color:#991b1b;
+                                   border:1.5px solid #fca5a5;border-radius:6px;
+                                   font-size:11px;cursor:pointer;transition:.15s;"
+                            onmouseover="this.style.background='#fecaca'"
+                            onmouseout="this.style.background='#fee2e2'">
                             🗑
                         </button>
                     </form>
@@ -103,72 +150,94 @@
             </div>
             {% endfor %}
             </div>
-
-            <!-- Info API -->
-            <div style="margin-top:14px;padding:10px 14px;background:#f0fdf4;border-radius:8px;border:1px solid #bbf7d0;">
-                <p style="font-size:11px;color:#065f46;margin:0;font-weight:500;">
-                    💡 <strong>Berita.py</strong> membaca keyword aktif via:
-                    <code style="background:#dcfce7;padding:2px 6px;border-radius:4px;">GET /api/berita/keywords</code>
-                </p>
-            </div>
         </div>
     </div>
 
     <!-- ══ KOLOM KANAN: ATURAN TOPIK ══ -->
-    <div>
-        <div class="card" style="margin-bottom:0;">
-            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
-                <div>
-                    <h2 style="font-size:15px;font-weight:700;color:#111827;margin:0;">🏷️ Aturan Kategorisasi Topik</h2>
-                    <p style="font-size:12px;color:#6b7280;margin:3px 0 0 0;">
-                        Kata kunci penentu topik berita saat scraping
-                    </p>
+    <div class="card" style="margin-bottom:0;padding:0;overflow:hidden;">
+
+        <!-- Card header -->
+        <div style="background:linear-gradient(135deg,#fffbeb,#fef3c7);
+                    padding:16px 20px;border-bottom:1.5px solid #fde68a;">
+            <div style="display:flex;align-items:center;justify-content:space-between;">
+                <div style="display:flex;align-items:center;gap:10px;">
+                    <div style="width:36px;height:36px;background:#d97706;border-radius:10px;
+                                display:flex;align-items:center;justify-content:center;font-size:16px;">
+                        🏷️
+                    </div>
+                    <div>
+                        <h2 style="font-size:14px;font-weight:700;color:#92400e;margin:0;">Aturan Kategorisasi Topik</h2>
+                        <p style="font-size:11px;color:#b45309;margin:2px 0 0 0;">
+                            Kata kunci penentu topik saat scraping
+                        </p>
+                    </div>
                 </div>
-                <span style="background:#fef3c7;color:#92400e;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;">
+                <span style="background:#d97706;color:#fff;padding:4px 12px;
+                             border-radius:20px;font-size:12px;font-weight:700;">
                     {{ topik_grouped|length }} topik
                 </span>
             </div>
+        </div>
+
+        <!-- Card body -->
+        <div style="padding:18px 20px;">
 
             <!-- Form tambah kata kunci topik -->
-            <form method="POST" action="{{ url_for('berita_topik_tambah') }}"
-                  style="background:#f9fafb;padding:14px;border-radius:10px;margin-bottom:16px;">
-                <p style="font-size:12px;font-weight:600;color:#374151;margin:0 0 10px 0;">+ Tambah Kata Kunci ke Topik</p>
-                <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
-                    <select name="topik"
-                        style="padding:8px 10px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;background:#fff;">
-                        <option value="">— Pilih topik ada —</option>
-                        {% for t in topik_list %}
-                        <option value="{{ t }}">{{ t }}</option>
-                        {% endfor %}
-                    </select>
-                    <input type="text" name="topik_baru" placeholder="atau buat topik baru..."
-                        style="padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;">
-                </div>
-                <div style="display:flex;gap:8px;">
-                    <input type="text" name="kata_kunci" placeholder="Kata kunci (misal: tambak)" required
-                        style="flex:1;padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;">
-                    <button type="submit"
-                        style="padding:8px 16px;background:#059669;color:#fff;border:none;
-                               border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;">
-                        + Tambah
-                    </button>
-                </div>
-                <p style="font-size:11px;color:#9ca3af;margin:6px 0 0 0;">
-                    Jika isi keduanya, "Buat topik baru" diprioritaskan
+            <div style="background:#f9fafb;padding:14px 16px;border-radius:10px;
+                        margin-bottom:14px;border:1.5px solid #f1f5f9;">
+                <p style="font-size:12px;font-weight:700;color:#374151;margin:0 0 10px 0;">
+                    + Tambah Kata Kunci ke Topik
                 </p>
-            </form>
+                <form method="POST" action="{{ url_for('berita_topik_tambah') }}">
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+                        <select name="topik"
+                            style="padding:8px 10px;border:1.5px solid #e5e7eb;border-radius:9px;
+                                   font-size:13px;outline:none;background:#fff;transition:.15s;"
+                            onfocus="this.style.borderColor='#f59e0b'"
+                            onblur="this.style.borderColor='#e5e7eb'">
+                            <option value="">— Pilih topik ada —</option>
+                            {% for t in topik_list %}
+                            <option value="{{ t }}">{{ t }}</option>
+                            {% endfor %}
+                        </select>
+                        <input type="text" name="topik_baru" placeholder="atau buat topik baru..."
+                            style="padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:9px;
+                                   font-size:13px;outline:none;transition:.15s;"
+                            onfocus="this.style.borderColor='#f59e0b'"
+                            onblur="this.style.borderColor='#e5e7eb'">
+                    </div>
+                    <div style="display:flex;gap:8px;">
+                        <input type="text" name="kata_kunci" placeholder="Kata kunci (misal: tambak)" required
+                            style="flex:1;padding:8px 12px;border:1.5px solid #e5e7eb;border-radius:9px;
+                                   font-size:13px;outline:none;transition:.15s;"
+                            onfocus="this.style.borderColor='#f59e0b'"
+                            onblur="this.style.borderColor='#e5e7eb'">
+                        <button type="submit"
+                            style="padding:8px 18px;background:#059669;color:#fff;border:none;
+                                   border-radius:9px;font-size:13px;font-weight:600;cursor:pointer;
+                                   white-space:nowrap;transition:.15s;"
+                            onmouseover="this.style.background='#047857'"
+                            onmouseout="this.style.background='#059669'">
+                            + Tambah
+                        </button>
+                    </div>
+                    <p style="font-size:11px;color:#9ca3af;margin:6px 0 0 0;">
+                        Jika isi keduanya, "Buat topik baru" diprioritaskan
+                    </p>
+                </form>
+            </div>
 
             <!-- Daftar topik & kata kunci -->
-            <div style="max-height:420px;overflow-y:auto;">
+            <div style="max-height:380px;overflow-y:auto;">
             {% for tg in topik_grouped %}
-            <div style="border:1.5px solid #e5e7eb;border-radius:10px;margin-bottom:10px;overflow:hidden;">
+            <div style="border:1.5px solid #e5e7eb;border-radius:10px;margin-bottom:8px;overflow:hidden;">
                 <!-- Header topik -->
                 <div style="display:flex;align-items:center;justify-content:space-between;
-                            padding:10px 14px;background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+                            padding:9px 14px;background:#f9fafb;border-bottom:1px solid #f1f5f9;">
                     <div style="display:flex;align-items:center;gap:8px;">
                         <span style="font-size:13px;font-weight:700;color:#111827;">{{ tg.topik }}</span>
-                        <span style="font-size:11px;background:#eff6ff;color:#1d4ed8;
-                                     padding:2px 8px;border-radius:10px;font-weight:500;">
+                        <span style="font-size:10px;background:#fef3c7;color:#92400e;
+                                     padding:2px 8px;border-radius:10px;font-weight:600;">
                             {{ tg.jumlah }} kata
                         </span>
                     </div>
@@ -176,14 +245,17 @@
                           onsubmit="return confirm('Hapus topik \'{{ tg.topik }}\' dan semua kata kuncinya?')">
                         <input type="hidden" name="topik" value="{{ tg.topik }}">
                         <button type="submit"
-                            style="padding:3px 10px;background:#fee2e2;color:#991b1b;border:1.5px solid #fca5a5;
-                                   border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;">
+                            style="padding:3px 10px;background:#fee2e2;color:#991b1b;
+                                   border:1.5px solid #fca5a5;border-radius:6px;
+                                   font-size:11px;font-weight:600;cursor:pointer;transition:.15s;"
+                            onmouseover="this.style.background='#fecaca'"
+                            onmouseout="this.style.background='#fee2e2'">
                             🗑 Hapus Topik
                         </button>
                     </form>
                 </div>
                 <!-- Kata kunci chips -->
-                <div style="padding:10px 14px;display:flex;flex-wrap:wrap;gap:6px;">
+                <div style="padding:10px 14px;display:flex;flex-wrap:wrap;gap:5px;background:#fff;">
                 {% for kata in tg.kata_list.split(', ') %}
                 <form method="POST" action="{{ url_for('berita_topik_hapus_kata') }}"
                       style="display:inline;"
@@ -194,8 +266,7 @@
                         style="display:inline-flex;align-items:center;gap:4px;
                                padding:4px 10px;background:#eff6ff;color:#1d4ed8;
                                border:1px solid #bfdbfe;border-radius:20px;
-                               font-size:12px;cursor:pointer;font-weight:500;
-                               transition:.15s;"
+                               font-size:12px;cursor:pointer;font-weight:500;transition:.15s;"
                         onmouseover="this.style.background='#fee2e2';this.style.color='#991b1b';this.style.borderColor='#fca5a5';"
                         onmouseout="this.style.background='#eff6ff';this.style.color='#1d4ed8';this.style.borderColor='#bfdbfe';">
                         {{ kata.strip() }} ✕
@@ -206,26 +277,18 @@
             </div>
             {% endfor %}
             </div>
-
-            <!-- Info API -->
-            <div style="margin-top:14px;padding:10px 14px;background:#fffbeb;border-radius:8px;border:1px solid #fde68a;">
-                <p style="font-size:11px;color:#92400e;margin:0;font-weight:500;">
-                    💡 <strong>Berita.py</strong> membaca aturan topik via:
-                    <code style="background:#fef3c7;padding:2px 6px;border-radius:4px;">GET /api/berita/topik-rules</code>
-                </p>
-            </div>
         </div>
     </div>
+
 </div>
 
 <script>
-// Filter keyword lokal
 document.getElementById("cariKeyword").addEventListener("input", function(){
     const q = this.value.toLowerCase();
     document.querySelectorAll(".kw-item").forEach(el => {
-        el.style.display = el.dataset.nama.includes(q) ? "" : "none";
+        el.style.display = el.dataset.nama.toLowerCase().includes(q) ? "" : "none";
     });
 });
 </script>
 
-{% endblock %}  
+{% endblock %}

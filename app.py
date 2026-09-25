@@ -10,6 +10,7 @@ import json
 import os
 import re
 import sqlite3
+from Lazada import (KategoriManager, DEFAULT_KATEGORI_MAPPING, RIWAYAT_FILE, CONFIG_FILE_DEF, muat_konfigurasi, simpan_konfigurasi,)
 
 load_dotenv()
 app = Flask(__name__)
@@ -40,8 +41,9 @@ TOPIK_CSV          = "output/gresik_berita_topik.csv"
 SUMBER_CSV         = "output/gresik_berita_sumber.csv"
 LAZADA_CSV         = "output/toko_gresik_lazada.csv"
 LAZADA_TOKO_CSV    = "output/toko_gresik_lazada_ringkasan.csv"
-TOKPED_CSV         = "output/toko_gresik_tokopedia.csv"
-SHOPEE_CSV         = "output/toko_gresik_shopee.csv"
+TOKPED_CSV          = "output/toko_gresik_tokopedia.csv"
+TOKPED_KAT_CONFIG   = "keywords_config_tokopedia.json"
+TOKPED_RIWAYAT      = "riwayat_kategori_tokopedia.json"
 SHOPEE_TOKO_CSV    = "output/toko_gresik_shopee_per_toko.csv"
 
 
@@ -1702,7 +1704,7 @@ def api_shopee_toko():
 
 
 # ══════════════════════════════════════════════════════════════
-# LOAD DATA LAZADA
+# LAZADA — load_lazada() DIPERBARUI: tambah kategori_lazada
 # ══════════════════════════════════════════════════════════════
 def load_lazada() -> pd.DataFrame:
     """Muat data produk Lazada dari CSV hasil scraping."""
@@ -1712,19 +1714,31 @@ def load_lazada() -> pd.DataFrame:
         df = pd.read_csv(LAZADA_CSV, encoding="utf-8-sig").fillna("")
         for kolom in [
             "nama_produk", "harga", "lokasi_seller",
-            "kategori", "nama_toko", "platform", "waktu_scrape",
+            "kategori", "nama_toko", "url_toko", "url_produk",
+            "rating_produk", "terjual", "badge",
+            "platform", "waktu_scrape",
         ]:
             if kolom not in df.columns:
                 df[kolom] = ""
+ 
+        # ── kategori_lazada: kategori ASLI dari website Lazada ──────────────
+        # Scraper terbaru menyimpannya di kolom "kategori_lazada".
+        # Kalau kolom belum ada (data lama), fallback ke kolom "kategori".
+        if "kategori_lazada" not in df.columns:
+            for alt in ["kategori_asli", "category", "sub_category"]:
+                if alt in df.columns:
+                    df["kategori_lazada"] = df[alt]
+                    break
+            else:
+                df["kategori_lazada"] = df["kategori"]
+ 
         df["waktu_scrape"] = pd.to_datetime(df["waktu_scrape"], errors="coerce")
         return df
     except Exception as e:
         print("Error membaca data Lazada:", e)
         return pd.DataFrame()
-
-
+ 
 def load_lazada_ringkasan() -> pd.DataFrame:
-    """Muat ringkasan per lokasi dari CSV _ringkasan."""
     if not os.path.exists(LAZADA_TOKO_CSV):
         return pd.DataFrame()
     try:
@@ -1737,84 +1751,81 @@ def load_lazada_ringkasan() -> pd.DataFrame:
     except Exception as e:
         print("Error membaca ringkasan Lazada:", e)
         return pd.DataFrame()
-
-
+ 
+ 
 # ══════════════════════════════════════════════════════════════
-# ROUTE — /lazada
+# LAZADA — route /lazada DIPERBARUI: kirim kategori_list & url_produk
 # ══════════════════════════════════════════════════════════════
 @app.route("/lazada")
 @login_required
 def lazada():
-    df          = load_lazada()
-    df_ringkasan= load_lazada_ringkasan()
-
-    # ── Default kosong ──────────────────────────────────────
-    total           = 0
-    total_toko      = 0
-    total_area      = 0
-    total_kategori  = 0
-    update_terakhir = "-"
-    kategori_dist   = {}
-    lokasi_dist     = {}
-    top_toko        = []
-    produk_rows     = []
-    chart_kategori  = []
-    chart_lokasi    = []
-
+    df           = load_lazada()
+    df_ringkasan = load_lazada_ringkasan()
+ 
+    total=0; total_toko=0; total_area=0; total_kategori=0
+    update_terakhir="-"; kategori_dist={}; lokasi_dist={}
+    kategori_list=[]; top_toko=[]; produk_rows=[]
+    chart_kategori=[]; chart_lokasi=[]
+ 
     if not df.empty:
         total           = len(df)
         total_toko      = df["nama_toko"].replace("-", pd.NA).dropna().nunique()
         total_area      = df["lokasi_seller"].nunique()
-        total_kategori  = df["kategori"].nunique()
-        update_terakhir = (
-            df["waktu_scrape"].max().strftime("%d %B %Y %H:%M")
-            if df["waktu_scrape"].notna().any() else "-"
+        update_terakhir = (df["waktu_scrape"].max().strftime("%d %B %Y %H:%M")
+                           if df["waktu_scrape"].notna().any() else "-")
+ 
+        # Bar chart → pakai kategori mapping manual (lebih rapi untuk visualisasi)
+        kategori_dist  = df["kategori"].value_counts().head(10).to_dict()
+        total_kategori = len(kategori_dist)
+ 
+        # Dropdown filter → pakai kategori ASLI dari Lazada, sorted A-Z
+        kategori_list = sorted(
+            kat for kat in df["kategori_lazada"].unique()
+            if kat and str(kat) not in ("-", "", "nan", "Lainnya")
         )
-
-        kategori_dist = df["kategori"].value_counts().head(10).to_dict()
-        lokasi_dist   = df["lokasi_seller"].value_counts().head(10).to_dict()
-
-        # Chart Kategori (top 8)
-        chart_kategori = [
-            {"label": k, "value": int(v)}
-            for k, v in df["kategori"].value_counts().head(8).items()
-        ]
-
-        # Chart Lokasi (top 8)
-        chart_lokasi = [
-            {"label": k, "value": int(v)}
-            for k, v in df["lokasi_seller"].value_counts().head(8).items()
-        ]
-
-        # Top toko berdasarkan jumlah produk
+ 
+        lokasi_dist = df["lokasi_seller"].value_counts().head(10).to_dict()
+ 
+        chart_kategori = [{"label":k,"value":int(v)}
+                          for k,v in df["kategori"].value_counts().head(8).items()]
+        chart_lokasi   = [{"label":k,"value":int(v)}
+                          for k,v in df["lokasi_seller"].value_counts().head(8).items()]
+ 
+        # Top toko
         top_toko_series = (
-            df[df["nama_toko"] != "-"]["nama_toko"]
+            df[df["nama_toko"].replace("-", pd.NA).notna()]["nama_toko"]
             .value_counts().head(10)
         )
         top_toko = []
         for nm, cnt in top_toko_series.items():
-            lokasi = df[df["nama_toko"] == nm]["lokasi_seller"].mode()
+            lokasi   = df[df["nama_toko"] == nm]["lokasi_seller"].mode()
+            url_toko = df[df["nama_toko"] == nm]["url_toko"].iloc[0] \
+                       if "url_toko" in df.columns else "-"
             top_toko.append({
                 "nama_toko"    : nm,
                 "jumlah"       : int(cnt),
                 "lokasi_seller": lokasi.iloc[0] if not lokasi.empty else "-",
+                "url_toko"     : url_toko if str(url_toko) not in ("", "-", "nan") else "-",
             })
-
-        # Tabel produk (maks 300, terbaru dulu)
-        df_sort = df.sort_values("waktu_scrape", ascending=False).head(300)
-        for _, r in df_sort.iterrows():
+ 
+        # Tabel produk (300 terbaru)
+        for _, r in df.sort_values("waktu_scrape", ascending=False).head(300).iterrows():
             produk_rows.append({
-                "nama_produk"   : r.get("nama_produk", "-"),
-                "nama_toko"     : r.get("nama_toko", "-"),
-                "harga"         : r.get("harga", "-"),
-                "kategori"      : r.get("kategori", "-"),
-                "lokasi_seller" : r.get("lokasi_seller", "-"),
-                "waktu_scrape"  : (
-                    r["waktu_scrape"].strftime("%d/%m/%Y %H:%M")
-                    if pd.notna(r.get("waktu_scrape")) else "-"
-                ),
+                "nama_produk"    : r.get("nama_produk",    "-"),
+                "url_produk"     : r.get("url_produk",     "-"),   # ← link nama produk
+                "nama_toko"      : r.get("nama_toko",      "-"),
+                "url_toko"       : r.get("url_toko",       "-"),
+                "harga"          : r.get("harga",          "-"),
+                "kategori"       : r.get("kategori",       "-"),   # mapping manual
+                "kategori_lazada": r.get("kategori_lazada","-"),   # ← asli Lazada
+                "rating_produk"  : r.get("rating_produk",  "-"),
+                "terjual"        : r.get("terjual",        "-"),
+                "badge"          : r.get("badge",          "-"),
+                "lokasi_seller"  : r.get("lokasi_seller",  "-"),
+                "waktu_scrape"   : (r["waktu_scrape"].strftime("%d/%m/%Y %H:%M")
+                                    if pd.notna(r.get("waktu_scrape")) else "-"),
             })
-
+ 
     return render_template(
         "Lazada.html",
         total           = total,
@@ -1823,17 +1834,14 @@ def lazada():
         total_kategori  = total_kategori,
         update_terakhir = update_terakhir,
         kategori_dist   = kategori_dist,
+        kategori_list   = kategori_list,   # ← dropdown filter kategori asli Lazada
         lokasi_dist     = lokasi_dist,
         top_toko        = top_toko,
         chart_kategori  = chart_kategori,
         chart_lokasi    = chart_lokasi,
         data            = produk_rows,
     )
-
-
-# ══════════════════════════════════════════════════════════════
-# API — /api/lazada  (JSON mentah)
-# ══════════════════════════════════════════════════════════════
+ 
 @app.route("/api/lazada")
 @login_required
 def api_lazada():
@@ -1842,23 +1850,370 @@ def api_lazada():
         return jsonify([])
     df_out = df.copy()
     df_out["waktu_scrape"] = df_out["waktu_scrape"].apply(
-        lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else ""
-    )
+        lambda x: x.strftime("%Y-%m-%d %H:%M") if pd.notna(x) else "")
     return jsonify(df_out.head(200).to_dict("records"))
+ 
+ 
+# ══════════════════════════════════════════════════════════════
+# LAZADA — CRUD Kategori (API)
+# ══════════════════════════════════════════════════════════════
+_kat_manager_instance = None
+ 
+def _get_kat_manager() -> "KategoriManager":
+    global _kat_manager_instance
+    if _kat_manager_instance is None:
+        cfg         = muat_konfigurasi(CONFIG_FILE_DEF)
+        kat_mapping = cfg.get("kategori_mapping", DEFAULT_KATEGORI_MAPPING)
+        _kat_manager_instance = KategoriManager(kat_mapping, riwayat_path=RIWAYAT_FILE)
+    return _kat_manager_instance
+ 
+def _reset_kat_manager():
+    global _kat_manager_instance
+    _kat_manager_instance = None
+ 
+def _simpan_kat_manager(mgr) -> None:
+    cfg = muat_konfigurasi(CONFIG_FILE_DEF)
+    cfg["kategori_mapping"] = mgr.ke_dict()
+    simpan_konfigurasi(CONFIG_FILE_DEF, cfg)
+    _reset_kat_manager()
+ 
+@app.route("/lazada/kategori")
+@login_required
+def lazada_kategori_page():
+    return app.send_static_file("lazada_kategori.html")
+ 
+@app.route("/api/lazada/kategori")
+@login_required
+def api_lazada_kategori():
+    try:
+        mgr  = _get_kat_manager()
+        data = [{"nama": nama, "keywords": list(kw_list)}
+                for nama, kw_list in mgr.kategori.items()]
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": f"Gagal memuat kategori: {e}"}), 500
+ 
+@app.route("/api/lazada/kategori/tambah", methods=["POST"])
+@login_required
+def api_lazada_kategori_tambah():
+    try:
+        body     = request.get_json(force=True) or {}
+        nama     = (body.get("nama") or "").strip()
+        keywords = [k.strip() for k in (body.get("keywords") or []) if str(k).strip()]
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        mgr = _get_kat_manager()
+        if nama in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' sudah ada."}), 409
+        mgr.tambah_kategori(nama, keywords)
+        _simpan_kat_manager(mgr)
+        return jsonify({
+            "pesan"   : f"Kategori '{nama}' berhasil ditambahkan ({len(keywords)} keyword).",
+            "kategori": {"nama": nama, "keywords": keywords},
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menambahkan kategori: {e}"}), 500
+ 
+@app.route("/api/lazada/kategori/hapus", methods=["POST"])
+@login_required
+def api_lazada_kategori_hapus():
+    try:
+        body = request.get_json(force=True) or {}
+        nama = (body.get("nama") or "").strip()
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        mgr = _get_kat_manager()
+        if nama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' tidak ditemukan."}), 404
+        kw_backup = list(mgr.kategori.get(nama, []))
+        mgr.hapus_kategori(nama)
+        _simpan_kat_manager(mgr)
+        return jsonify({
+            "pesan"    : f"Kategori '{nama}' dihapus. {len(kw_backup)} keyword dibackup.",
+            "kw_backup": kw_backup,
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menghapus kategori: {e}"}), 500
+ 
+@app.route("/api/lazada/kategori/edit-nama", methods=["POST"])
+@login_required
+def api_lazada_kategori_edit_nama():
+    try:
+        body      = request.get_json(force=True) or {}
+        nama_lama = (body.get("nama_lama") or "").strip()
+        nama_baru = (body.get("nama_baru") or "").strip()
+        if not nama_lama or not nama_baru:
+            return jsonify({"error": "nama_lama dan nama_baru wajib diisi."}), 400
+        if nama_lama == nama_baru:
+            return jsonify({"error": "Nama lama dan baru sama."}), 400
+        mgr = _get_kat_manager()
+        if nama_lama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama_lama}' tidak ditemukan."}), 404
+        if nama_baru in mgr.kategori:
+            return jsonify({"error": f"Nama '{nama_baru}' sudah digunakan."}), 409
+        mgr.edit_nama_kategori(nama_lama, nama_baru)
+        _simpan_kat_manager(mgr)
+        return jsonify({
+            "pesan"    : f"Nama '{nama_lama}' → '{nama_baru}' berhasil diubah.",
+            "nama_lama": nama_lama,
+            "nama_baru": nama_baru,
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal mengedit nama: {e}"}), 500
+ 
+@app.route("/api/lazada/kategori/tambah-kw", methods=["POST"])
+@login_required
+def api_lazada_kategori_tambah_kw():
+    try:
+        body     = request.get_json(force=True) or {}
+        nama     = (body.get("nama") or "").strip()
+        keywords = [k.strip() for k in (body.get("keywords") or []) if str(k).strip()]
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        if not keywords:
+            return jsonify({"error": "Minimal satu keyword harus diisi."}), 400
+        mgr = _get_kat_manager()
+        if nama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' tidak ditemukan."}), 404
+        sebelum = len(mgr.kategori[nama])
+        mgr.tambah_keyword(nama, keywords)
+        _simpan_kat_manager(mgr)
+        mgr_baru = _get_kat_manager()
+        sesudah  = len(mgr_baru.kategori.get(nama, []))
+        return jsonify({
+            "pesan"   : f"{sesudah - sebelum} keyword baru ditambahkan ke '{nama}'.",
+            "keywords": list(mgr_baru.kategori.get(nama, [])),
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menambahkan keyword: {e}"}), 500
+ 
+@app.route("/api/lazada/kategori/hapus-kw", methods=["POST"])
+@login_required
+def api_lazada_kategori_hapus_kw():
+    try:
+        body     = request.get_json(force=True) or {}
+        nama     = (body.get("nama") or "").strip()
+        keywords = [k.strip() for k in (body.get("keywords") or []) if str(k).strip()]
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        if not keywords:
+            return jsonify({"error": "Minimal satu keyword harus diisi."}), 400
+        mgr = _get_kat_manager()
+        if nama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' tidak ditemukan."}), 404
+        tidak_ada = [k for k in keywords if k not in mgr.kategori[nama]]
+        if tidak_ada:
+            return jsonify({"error": f"Keyword tidak ditemukan: {', '.join(tidak_ada)}"}), 404
+        mgr.hapus_keyword(nama, keywords)
+        _simpan_kat_manager(mgr)
+        mgr_baru = _get_kat_manager()
+        return jsonify({
+            "pesan"   : f"{len(keywords)} keyword dihapus dari '{nama}'.",
+            "keywords": list(mgr_baru.kategori.get(nama, [])),
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menghapus keyword: {e}"}), 500
+ 
+@app.route("/api/lazada/kategori/riwayat")
+@login_required
+def api_lazada_kategori_riwayat():
+    try:
+        n       = min(int(request.args.get("n", 50)), 200)
+        mgr     = _get_kat_manager()
+        riwayat = mgr._riwayat[-n:] if hasattr(mgr, '_riwayat') else []
+        return jsonify(riwayat)
+    except Exception as e:
+        return jsonify({"error": f"Gagal memuat riwayat: {e}"}), 500
+    
 
-# ══════════════════════════════════════════════════════════════
-# LOAD DATA TOKOPEDIA
-# ══════════════════════════════════════════════════════════════
+TOKPED_DEFAULT_KATEGORI = {
+    "Handphone & Aksesoris": ["hp ", "handphone", "casing hp", "hardcase", "softcase",
+                               "tempered glass", "powerbank", "charger hp", "kabel data"],
+    "Komputer & Aksesoris":  ["laptop", "komputer", "keyboard", "mouse", "ssd", "hardisk",
+                               "flashdisk", "printer", "monitor"],
+    "Elektronik":            ["kulkas", "tv ", "televisi", "kipas angin", "ac split",
+                               "rice cooker", "blender", "setrika", "speaker", "elektronik"],
+    "Fashion Wanita":        ["baju wanita", "dress", "gamis", "blouse", "rok",
+                               "kebaya", "tunik", "daster", "kemeja wanita"],
+    "Fashion Pria":          ["baju pria", "kemeja pria", "kaos pria", "celana pria",
+                               "kaos polo", "jaket pria"],
+    "Fashion Muslim":        ["hijab", "jilbab", "mukena", "sarung", "peci", "gamis syar'i"],
+    "Fashion Anak":          ["baju anak", "baju bayi", "setelan anak", "sepatu anak"],
+    "Sepatu & Sandal":       ["sepatu", "sandal", "sneakers", "selop"],
+    "Tas & Koper":           ["tas wanita", "tas pria", "tas ransel", "koper", "dompet"],
+    "Kecantikan":            ["skincare", "kosmetik", "lipstik", "serum", "sunscreen",
+                               "parfum", "make up", "masker wajah"],
+    "Kesehatan":             ["vitamin", "obat", "masker medis", "suplemen", "alat kesehatan",
+                               "hand sanitizer"],
+    "Makanan & Minuman":     ["snack", "kue", "keripik", "kopi", "teh", "makanan ringan",
+                               "kerupuk", "sambal", "bumbu", "frozen food", "minuman"],
+    "Rumah Tangga":          ["peralatan dapur", "panci", "wajan", "rak", "sapu",
+                               "perabotan", "gelas", "piring", "toples"],
+    "Otomotif":              ["oli", "spare part", "aksesoris motor", "aksesoris mobil",
+                               "helm", "ban motor"],
+    "Olahraga & Outdoor":    ["alat olahraga", "sepeda", "matras yoga", "raket",
+                               "tenda", "perlengkapan camping"],
+}
+
+
+# ════════════════════════════════════════════════════════════════
+# HELPER — KategoriManager Tokopedia (instance terpisah dari Lazada)
+# ════════════════════════════════════════════════════════════════
+import json, os
+from datetime import datetime
+
+
+class TokopediaKategoriManager:
+    """
+    Manager CRUD kategori fallback untuk scraper Tokopedia.
+    Terpisah dari KategoriManager Lazada agar config-nya mandiri.
+    """
+    def __init__(self, kategori_mapping: dict, riwayat_path: str = TOKPED_RIWAYAT):
+        self.kategori       = dict(kategori_mapping)
+        self._riwayat_path  = riwayat_path
+        self._riwayat: list = self._muat()
+
+    def _muat(self) -> list:
+        if os.path.exists(self._riwayat_path):
+            try:
+                with open(self._riwayat_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                return []
+        return []
+
+    def _simpan(self) -> None:
+        with open(self._riwayat_path, "w", encoding="utf-8") as f:
+            json.dump(self._riwayat, f, ensure_ascii=False, indent=2)
+
+    def _catat(self, aksi: str, nama: str, detail: dict = None) -> None:
+        self._riwayat.append({
+            "waktu" : datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "aksi"  : aksi,
+            "nama"  : nama,
+            "detail": detail or {},
+        })
+        self._simpan()
+
+    # ── CREATE ──────────────────────────────────────────────────
+    def tambah_kategori(self, nama: str, keywords: list) -> bool:
+        if nama in self.kategori:
+            return False
+        kw = [k.lower().strip() for k in keywords if k.strip()]
+        self.kategori[nama] = kw
+        self._catat("TAMBAH", nama, {"keywords": kw})
+        return True
+
+    # ── READ ────────────────────────────────────────────────────
+    def ke_list(self) -> list:
+        return [{"nama": n, "keywords": list(kw)} for n, kw in self.kategori.items()]
+
+    # ── UPDATE — ganti nama ─────────────────────────────────────
+    def edit_nama(self, nama_lama: str, nama_baru: str) -> bool:
+        if nama_lama not in self.kategori or nama_baru in self.kategori:
+            return False
+        self.kategori[nama_baru] = self.kategori.pop(nama_lama)
+        self._catat("EDIT", nama_lama, {"nama_baru": nama_baru})
+        return True
+
+    # ── UPDATE — tambah keyword ─────────────────────────────────
+    def tambah_keyword(self, nama: str, keywords: list) -> list | None:
+        if nama not in self.kategori:
+            return None
+        baru = [k.lower().strip() for k in keywords
+                if k.strip() and k.lower().strip() not in self.kategori[nama]]
+        self.kategori[nama].extend(baru)
+        self._catat("TAMBAH_KW", nama, {"keywords_baru": baru})
+        return list(self.kategori[nama])
+
+    # ── UPDATE — hapus keyword ──────────────────────────────────
+    def hapus_keyword(self, nama: str, keywords: list) -> list | None:
+        if nama not in self.kategori:
+            return None
+        hapus = [k.lower().strip() for k in keywords
+                 if k.lower().strip() in self.kategori[nama]]
+        for k in hapus:
+            self.kategori[nama].remove(k)
+        self._catat("HAPUS_KW", nama, {"keywords_dihapus": hapus})
+        return list(self.kategori[nama])
+
+    # ── DELETE ──────────────────────────────────────────────────
+    def hapus_kategori(self, nama: str) -> list | None:
+        if nama not in self.kategori:
+            return None
+        backup = self.kategori.pop(nama)
+        self._catat("HAPUS", nama, {"keywords_backup": backup})
+        return backup
+
+    def ke_dict(self) -> dict:
+        return dict(self.kategori)
+
+    def riwayat(self, n: int = 50) -> list:
+        return self._riwayat[-n:]
+
+
+# ── Singleton instance ──────────────────────────────────────────
+_tp_kat_mgr: TokopediaKategoriManager | None = None
+
+
+def _muat_tp_config() -> dict:
+    if os.path.exists(TOKPED_KAT_CONFIG):
+        try:
+            with open(TOKPED_KAT_CONFIG, "r", encoding="utf-8") as f:
+                cfg = json.load(f)
+            cfg.setdefault("kategori_mapping", TOKPED_DEFAULT_KATEGORI)
+            return cfg
+        except Exception:
+            pass
+    return {"kategori_mapping": dict(TOKPED_DEFAULT_KATEGORI)}
+
+
+def _simpan_tp_config(cfg: dict) -> None:
+    with open(TOKPED_KAT_CONFIG, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, ensure_ascii=False, indent=2)
+
+
+def get_tp_kat_mgr() -> TokopediaKategoriManager:
+    global _tp_kat_mgr
+    if _tp_kat_mgr is None:
+        cfg = _muat_tp_config()
+        _tp_kat_mgr = TokopediaKategoriManager(
+            cfg.get("kategori_mapping", TOKPED_DEFAULT_KATEGORI),
+            riwayat_path=TOKPED_RIWAYAT,
+        )
+    return _tp_kat_mgr
+
+
+def reset_tp_kat_mgr() -> None:
+    global _tp_kat_mgr
+    _tp_kat_mgr = None
+
+
+def simpan_tp_kat_mgr(mgr: TokopediaKategoriManager) -> None:
+    cfg = _muat_tp_config()
+    cfg["kategori_mapping"] = mgr.ke_dict()
+    _simpan_tp_config(cfg)
+    reset_tp_kat_mgr()
+
+
+# ════════════════════════════════════════════════════════════════
+# HELPER — load_tokopedia  (gantikan yang ada di app.py)
+# ════════════════════════════════════════════════════════════════
+import pandas as pd
+
+
 def load_tokopedia() -> pd.DataFrame:
     """Muat data toko Tokopedia dari CSV hasil scraping."""
     if not os.path.exists(TOKPED_CSV):
         return pd.DataFrame()
     try:
         df = pd.read_csv(TOKPED_CSV, encoding="utf-8-sig").fillna("")
+        # Kolom wajib — tambahkan yang belum ada
         for kolom in [
-            "nama_toko", "lokasi", "url_toko",
-            "produk_dijual", "kategori", "harga_produk",
-            "platform", "waktu_scrape",
+            "nama_toko", "url_toko", "rating_toko",
+            "nama_produk", "harga", "rating_produk", "terjual",
+            "lokasi_seller", "kategori", "sub_kategori", "badge",
+            "url_produk", "platform", "waktu_scrape",
         ]:
             if kolom not in df.columns:
                 df[kolom] = ""
@@ -1869,72 +2224,85 @@ def load_tokopedia() -> pd.DataFrame:
         return pd.DataFrame()
 
 
-# ══════════════════════════════════════════════════════════════
-# ROUTE — /tokopedia
-# ══════════════════════════════════════════════════════════════
+# ════════════════════════════════════════════════════════════════
+# ROUTE — /tokopedia  (GANTIKAN yang ada di app.py)
+# ════════════════════════════════════════════════════════════════
+from flask import jsonify, render_template, request
+from flask_login import login_required
+
+
 @app.route("/tokopedia")
 @login_required
 def tokopedia():
     df = load_tokopedia()
 
-    # ── Default kosong ──────────────────────────────────────
-    total           = 0
-    total_area      = 0
-    total_kategori  = 0
-    total_produk    = 0
+    # Default kosong
+    total = total_area = total_kategori = total_produk = 0
     update_terakhir = "-"
-    kategori_dist   = {}
-    lokasi_dist     = {}
-    top_toko        = []
-    produk_rows     = []
-    chart_kategori  = []
-    chart_lokasi    = []
+    kategori_dist = lokasi_dist = {}
+    top_toko = data = chart_kategori = chart_lokasi = []
 
     if not df.empty:
-        total          = len(df)
-        total_area     = df["lokasi"].nunique()
-        total_kategori = df["kategori"].nunique()
-        # Hitung estimasi total produk dari kolom produk_dijual (separator "|")
-        total_produk   = df["produk_dijual"].apply(
-            lambda x: len([p for p in str(x).split("|") if p.strip()])
-        ).sum()
+        total           = len(df)
+        total_area      = df["lokasi_seller"].nunique()
+        total_kategori  = df["kategori"].nunique()
+        # Hitung jumlah produk unik (deduplicated by url_produk jika ada)
+        if "url_produk" in df.columns:
+            total_produk = df[df["url_produk"] != ""]["url_produk"].nunique()
+        else:
+            total_produk = total
         update_terakhir = (
             df["waktu_scrape"].max().strftime("%d %B %Y %H:%M")
             if df["waktu_scrape"].notna().any() else "-"
         )
 
         kategori_dist = df["kategori"].value_counts().head(10).to_dict()
-        lokasi_dist   = df["lokasi"].value_counts().head(10).to_dict()
+        lokasi_dist   = df["lokasi_seller"].value_counts().head(10).to_dict()
 
-        # Chart Kategori (top 8)
         chart_kategori = [
             {"label": k, "value": int(v)}
             for k, v in df["kategori"].value_counts().head(8).items()
         ]
-
-        # Chart Lokasi (top 8)
         chart_lokasi = [
             {"label": k, "value": int(v)}
-            for k, v in df["lokasi"].value_counts().head(8).items()
+            for k, v in df["lokasi_seller"].value_counts().head(8).items()
         ]
 
-        # Top toko: 10 toko terbaru
-        top_toko = (
-            df.sort_values("waktu_scrape", ascending=False)
-            .head(10)[["nama_toko", "lokasi", "kategori", "url_toko"]]
-            .to_dict("records")
+        # Top 10 toko berdasarkan jumlah produk
+        top_series = (
+            df[df["nama_toko"].replace("-", pd.NA).notna()]["nama_toko"]
+            .value_counts().head(10)
         )
+        top_toko = []
+        for nm, cnt in top_series.items():
+            url_t = df[df["nama_toko"] == nm]["url_toko"].iloc[0] \
+                    if "url_toko" in df.columns else "-"
+            lokasi = df[df["nama_toko"] == nm]["lokasi_seller"].mode()
+            kat    = df[df["nama_toko"] == nm]["kategori"].mode()
+            top_toko.append({
+                "nama_toko": nm,
+                "jumlah"   : int(cnt),
+                "url_toko" : url_t if str(url_t) not in ("", "-", "nan") else "-",
+                "lokasi"   : lokasi.iloc[0] if not lokasi.empty else "-",
+                "kategori" : kat.iloc[0]    if not kat.empty    else "-",
+            })
 
-        # Tabel toko (maks 300, terbaru dulu)
-        df_sort = df.sort_values("waktu_scrape", ascending=False).head(300)
-        for _, r in df_sort.iterrows():
-            produk_rows.append({
-                "nama_toko"    : r.get("nama_toko", "-"),
-                "lokasi"       : r.get("lokasi", "-"),
-                "url_toko"     : r.get("url_toko", "-"),
-                "kategori"     : r.get("kategori", "-"),
-                "produk_dijual": r.get("produk_dijual", "-"),
-                "harga_produk" : r.get("harga_produk", "-"),
+        # Tabel (300 terbaru)
+        for _, r in df.sort_values("waktu_scrape", ascending=False).head(300).iterrows():
+            data.append({
+                "nama_toko"    : r.get("nama_toko",    "-"),
+                "url_toko"     : r.get("url_toko",     "-"),
+                "lokasi"       : r.get("lokasi_seller","-"),
+                "kategori"     : r.get("kategori",     "-"),
+                "sub_kategori" : r.get("sub_kategori", "-"),
+                "nama_produk"  : r.get("nama_produk",  "-"),
+                "url_produk"   : r.get("url_produk",   "-"),
+                "harga"        : r.get("harga",        "-"),
+                "harga_produk" : r.get("harga",        "-"),  # alias untuk template
+                "rating_produk": r.get("rating_produk","-"),
+                "terjual"      : r.get("terjual",      "-"),
+                "badge"        : r.get("badge",        "-"),
+                "produk_dijual": r.get("nama_produk",  "-"),  # alias untuk template toko
                 "waktu_scrape" : (
                     r["waktu_scrape"].strftime("%d/%m/%Y %H:%M")
                     if pd.notna(r.get("waktu_scrape")) else "-"
@@ -1953,13 +2321,13 @@ def tokopedia():
         top_toko        = top_toko,
         chart_kategori  = chart_kategori,
         chart_lokasi    = chart_lokasi,
-        data            = produk_rows,
+        data            = data,
     )
 
 
-# ══════════════════════════════════════════════════════════════
+# ════════════════════════════════════════════════════════════════
 # API — /api/tokopedia  (JSON mentah)
-# ══════════════════════════════════════════════════════════════
+# ════════════════════════════════════════════════════════════════
 @app.route("/api/tokopedia")
 @login_required
 def api_tokopedia():
@@ -1972,5 +2340,165 @@ def api_tokopedia():
     )
     return jsonify(df_out.head(200).to_dict("records"))
 
+
+# ════════════════════════════════════════════════════════════════
+# API — /api/tokopedia/kategori  (CRUD lengkap, setara Lazada)
+# ════════════════════════════════════════════════════════════════
+
+@app.route("/api/tokopedia/kategori")
+@login_required
+def api_tokopedia_kategori():
+    """GET — daftar semua kategori beserta keyword fallback."""
+    try:
+        mgr = get_tp_kat_mgr()
+        return jsonify(mgr.ke_list())
+    except Exception as e:
+        return jsonify({"error": f"Gagal memuat kategori: {e}"}), 500
+
+
+@app.route("/api/tokopedia/kategori/tambah", methods=["POST"])
+@login_required
+def api_tokopedia_kategori_tambah():
+    """POST {nama, keywords[]} — tambah kategori baru."""
+    try:
+        body     = request.get_json(force=True) or {}
+        nama     = (body.get("nama") or "").strip()
+        keywords = [k.strip() for k in (body.get("keywords") or []) if str(k).strip()]
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        mgr = get_tp_kat_mgr()
+        if nama in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' sudah ada."}), 409
+        mgr.tambah_kategori(nama, keywords)
+        simpan_tp_kat_mgr(mgr)
+        return jsonify({
+            "pesan"   : f"Kategori '{nama}' berhasil ditambahkan ({len(keywords)} keyword).",
+            "kategori": {"nama": nama, "keywords": keywords},
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menambahkan kategori: {e}"}), 500
+
+
+@app.route("/api/tokopedia/kategori/hapus", methods=["POST"])
+@login_required
+def api_tokopedia_kategori_hapus():
+    """POST {nama} — hapus kategori (backup di riwayat)."""
+    try:
+        body = request.get_json(force=True) or {}
+        nama = (body.get("nama") or "").strip()
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        mgr = get_tp_kat_mgr()
+        if nama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' tidak ditemukan."}), 404
+        backup = mgr.hapus_kategori(nama)
+        simpan_tp_kat_mgr(mgr)
+        return jsonify({
+            "pesan"    : f"Kategori '{nama}' dihapus. {len(backup)} keyword dibackup.",
+            "kw_backup": backup,
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menghapus kategori: {e}"}), 500
+
+
+@app.route("/api/tokopedia/kategori/edit-nama", methods=["POST"])
+@login_required
+def api_tokopedia_kategori_edit_nama():
+    """POST {nama_lama, nama_baru} — ganti nama kategori."""
+    try:
+        body      = request.get_json(force=True) or {}
+        nama_lama = (body.get("nama_lama") or "").strip()
+        nama_baru = (body.get("nama_baru") or "").strip()
+        if not nama_lama or not nama_baru:
+            return jsonify({"error": "nama_lama dan nama_baru wajib diisi."}), 400
+        if nama_lama == nama_baru:
+            return jsonify({"error": "Nama lama dan baru sama."}), 400
+        mgr = get_tp_kat_mgr()
+        if nama_lama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama_lama}' tidak ditemukan."}), 404
+        if nama_baru in mgr.kategori:
+            return jsonify({"error": f"Nama '{nama_baru}' sudah digunakan."}), 409
+        mgr.edit_nama(nama_lama, nama_baru)
+        simpan_tp_kat_mgr(mgr)
+        return jsonify({
+            "pesan"    : f"Nama '{nama_lama}' → '{nama_baru}' berhasil diubah.",
+            "nama_lama": nama_lama,
+            "nama_baru": nama_baru,
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal mengedit nama: {e}"}), 500
+
+
+@app.route("/api/tokopedia/kategori/tambah-kw", methods=["POST"])
+@login_required
+def api_tokopedia_kategori_tambah_kw():
+    """POST {nama, keywords[]} — tambah keyword fallback ke kategori."""
+    try:
+        body     = request.get_json(force=True) or {}
+        nama     = (body.get("nama") or "").strip()
+        keywords = [k.strip() for k in (body.get("keywords") or []) if str(k).strip()]
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        if not keywords:
+            return jsonify({"error": "Minimal satu keyword harus diisi."}), 400
+        mgr = get_tp_kat_mgr()
+        if nama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' tidak ditemukan."}), 404
+        sebelum = len(mgr.kategori[nama])
+        hasil   = mgr.tambah_keyword(nama, keywords)
+        simpan_tp_kat_mgr(mgr)
+        mgr2    = get_tp_kat_mgr()  # baca ulang setelah reset
+        sesudah = len(mgr2.kategori.get(nama, []))
+        return jsonify({
+            "pesan"   : f"{sesudah - sebelum} keyword baru ditambahkan ke '{nama}'.",
+            "keywords": list(mgr2.kategori.get(nama, [])),
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menambahkan keyword: {e}"}), 500
+
+
+@app.route("/api/tokopedia/kategori/hapus-kw", methods=["POST"])
+@login_required
+def api_tokopedia_kategori_hapus_kw():
+    """POST {nama, keywords[]} — hapus keyword dari kategori."""
+    try:
+        body     = request.get_json(force=True) or {}
+        nama     = (body.get("nama") or "").strip()
+        keywords = [k.strip() for k in (body.get("keywords") or []) if str(k).strip()]
+        if not nama:
+            return jsonify({"error": "Nama kategori tidak boleh kosong."}), 400
+        if not keywords:
+            return jsonify({"error": "Minimal satu keyword harus diisi."}), 400
+        mgr = get_tp_kat_mgr()
+        if nama not in mgr.kategori:
+            return jsonify({"error": f"Kategori '{nama}' tidak ditemukan."}), 404
+        tidak_ada = [k for k in keywords if k not in mgr.kategori[nama]]
+        if tidak_ada:
+            return jsonify({"error": f"Keyword tidak ditemukan: {', '.join(tidak_ada)}"}), 404
+        mgr.hapus_keyword(nama, keywords)
+        simpan_tp_kat_mgr(mgr)
+        mgr2 = get_tp_kat_mgr()
+        return jsonify({
+            "pesan"   : f"{len(keywords)} keyword dihapus dari '{nama}'.",
+            "keywords": list(mgr2.kategori.get(nama, [])),
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal menghapus keyword: {e}"}), 500
+
+
+@app.route("/api/tokopedia/kategori/riwayat")
+@login_required
+def api_tokopedia_kategori_riwayat():
+    """GET ?n=50 — riwayat perubahan kategori Tokopedia."""
+    try:
+        n   = min(int(request.args.get("n", 50)), 200)
+        mgr = get_tp_kat_mgr()
+        return jsonify(mgr.riwayat(n))
+    except Exception as e:
+        return jsonify({"error": f"Gagal memuat riwayat: {e}"}), 500
+
+    
 if __name__ == "__main__":
+    with app.app_context():
+        db.create_all()   # ← baris baru ini yang membuat semua tabel di MySQL
     app.run(debug=True, port=5000)

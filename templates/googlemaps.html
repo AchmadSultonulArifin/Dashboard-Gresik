@@ -23,7 +23,7 @@
 
   .gm-wrap { width:100%; padding:0 0 28px; }
 
-  /* ══ TOP SUMMARY BAR (tampilan awal – semua tempat) ════════ */
+  /* ══ TOP SUMMARY BAR ════════════════════════════════════════ */
   .summary-bar {
     display:grid;
     grid-template-columns: repeat(4,1fr);
@@ -60,8 +60,6 @@
     cursor:pointer; outline:none; min-width:160px;
   }
   select:focus { border-color:#378add; }
-
-  /* Dropdown tempat — lebih lebar */
   #sel-tempat { min-width:220px; max-width:340px; }
 
   /* Search */
@@ -185,7 +183,7 @@
   .bintang { font-size:12px; color:#eda100; }
   .ul-teks { font-size:13px; color:#52514e; line-height:1.55; }
 
-  /* ══ DAFTAR TEMPAT (tampilan awal) ═════════════════════════ */
+  /* ══ DAFTAR TEMPAT ══════════════════════════════════════════ */
   .tempat-list-card {
     background:#fff; border:0.5px solid #e1e0d9;
     border-radius:12px; padding:1rem 1.25rem;
@@ -196,11 +194,53 @@
     margin-bottom:12px; flex-wrap:wrap; gap:8px;
   }
   .tl-table { width:100%; border-collapse:collapse; }
+
+  /* ── TH default ── */
   .tl-table th {
     font-size:11px; color:#898781; font-weight:600;
     text-align:left; padding:6px 10px; border-bottom:1px solid #e1e0d9;
     background:#fafbff;
+    white-space:nowrap;
   }
+  /* ── TH sortable ── */
+  .tl-table th.sortable {
+    cursor:pointer;
+    user-select:none;
+    transition:background .12s, color .12s;
+  }
+  .tl-table th.sortable:hover { background:#f0f4ff; color:#1A4A9E; }
+  .tl-table th.sortable.asc,
+  .tl-table th.sortable.desc { color:#1A4A9E; background:#eef3ff; }
+
+  /* Ikon sort di dalam th */
+  .sort-icon {
+    display:inline-flex; flex-direction:column;
+    gap:1px; margin-left:5px;
+    vertical-align:middle; opacity:.35;
+    transition:opacity .12s;
+  }
+  .tl-table th.sortable:hover .sort-icon { opacity:.6; }
+  .tl-table th.sortable.asc  .sort-icon,
+  .tl-table th.sortable.desc .sort-icon { opacity:1; }
+
+  .sort-icon .arr { width:0; height:0; display:block; }
+  .sort-icon .arr-up  {
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-bottom:5px solid #898781;
+  }
+  .sort-icon .arr-dn  {
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-top:5px solid #898781;
+  }
+  /* aktif: warnai panah yang relevan */
+  .tl-table th.sortable.asc  .sort-icon .arr-up  { border-bottom-color:#1A4A9E; }
+  .tl-table th.sortable.desc .sort-icon .arr-dn   { border-top-color:#1A4A9E; }
+  /* nonaktifkan panah lain saat sort aktif */
+  .tl-table th.sortable.asc  .sort-icon .arr-dn  { opacity:.2; }
+  .tl-table th.sortable.desc .sort-icon .arr-up  { opacity:.2; }
+
   .tl-table td {
     font-size:12px; color:#111; padding:8px 10px;
     border-bottom:0.5px solid #f1efe8; vertical-align:middle;
@@ -214,7 +254,6 @@
   .tl-badge.neg { background:#fcebeb; color:#a32d2d; }
   .tl-badge.net { background:#faeeda; color:#854f0b; }
 
-  /* loading & empty */
   .loading-msg { text-align:center; color:#898781; padding:20px; font-size:13px; }
 
   /* ══ PAGINATION ════════════════════════════════════════════ */
@@ -261,7 +300,6 @@
 
   <!-- ══ FILTER BAR ══════════════════════════════════════════ -->
   <div class="filter-row">
-    <!-- Search -->
     <div class="fg" style="flex:1;min-width:200px;max-width:380px;position:relative;">
       <label>Cari Tempat</label>
       <div class="search-wrap">
@@ -276,19 +314,16 @@
       </div>
     </div>
 
-    <!-- Kategori -->
     <div class="fg">
       <label>Kategori</label>
       <select id="sel-kat"></select>
     </div>
 
-    <!-- Sub-Kategori -->
     <div class="fg">
       <label>Sub-Kategori</label>
       <select id="sel-sub"></select>
     </div>
 
-    <!-- Pilih Tempat -->
     <div class="fg">
       <label>Pilih Tempat</label>
       <select id="sel-tempat">
@@ -296,7 +331,6 @@
       </select>
     </div>
 
-    <!-- Tombol reset ke tampilan awal -->
     <div class="fg" style="justify-content:flex-end;">
       <label style="visibility:hidden">reset</label>
       <button onclick="resetKeAwal()" style="padding:7px 16px;border-radius:8px;
@@ -305,7 +339,7 @@
     </div>
   </div>
 
-  <!-- ══ SUMMARY BAR (tampilan awal – semua tempat) ══════════ -->
+  <!-- ══ SUMMARY BAR ══════════════════════════════════════════ -->
   <div class="summary-bar" id="summary-bar">
     <div class="sb-card">
       <span class="sb-label">Total Tempat</span>
@@ -339,7 +373,7 @@
     <button class="btn-reset-sel" onclick="resetKeAwal()">✕ Kembali ke Semua</button>
   </div>
 
-  <!-- ══ KPI ROW ═══════════════════════════════════════════════ -->
+  <!-- ══ KPI ROW ════════════════════════════════════════════════ -->
   <div class="kpi-row" id="kpi-row" style="display:none;">
     <div class="kpi-card"><p class="lbl">Rating</p><p class="val" id="kpi-rating">—</p></div>
     <div class="kpi-card"><p class="lbl">Total Ulasan</p><p class="val" id="kpi-ulasan">—</p></div>
@@ -361,7 +395,7 @@
     <div id="peta"></div>
   </div>
 
-  <!-- ══ DAFTAR TEMPAT (tampilan awal) ════════════════════════ -->
+  <!-- ══ DAFTAR TEMPAT ═════════════════════════════════════════ -->
   <div class="tempat-list-card" id="tempat-list-section">
     <div class="tl-header">
       <span class="card-title" id="tl-title">Daftar Tempat</span>
@@ -386,23 +420,41 @@
             <th>#</th>
             <th>Nama Tempat</th>
             <th>Sub-Kategori</th>
-            <th>Rating</th>
-            <th>Ulasan</th>
-            <th>Sentimen</th>
+            <!-- Kolom sortable -->
+            <th class="sortable" id="th-rating"   onclick="toggleSort('rating')"   title="Urutkan berdasarkan Rating">
+              Rating
+              <span class="sort-icon">
+                <span class="arr arr-up"></span>
+                <span class="arr arr-dn"></span>
+              </span>
+            </th>
+            <th class="sortable" id="th-ulasan"   onclick="toggleSort('ulasan')"   title="Urutkan berdasarkan Jumlah Ulasan">
+              Ulasan
+              <span class="sort-icon">
+                <span class="arr arr-up"></span>
+                <span class="arr arr-dn"></span>
+              </span>
+            </th>
+            <th class="sortable" id="th-sentimen" onclick="toggleSort('sentimen')" title="Urutkan berdasarkan % Positif">
+              Sentimen
+              <span class="sort-icon">
+                <span class="arr arr-up"></span>
+                <span class="arr arr-dn"></span>
+              </span>
+            </th>
             <th>Distribusi</th>
           </tr>
         </thead>
         <tbody id="tl-body"></tbody>
       </table>
     </div>
-    <!-- Pagination bawah -->
     <div class="pagination-wrap" id="pg-wrap">
       <div class="pg-info" id="pg-info"></div>
       <div class="pg-btns" id="pg-btns"></div>
     </div>
   </div>
 
-  <!-- ══ CHARTS + ULASAN (tampilan detail tempat) ════════════= -->
+  <!-- ══ CHARTS + ULASAN (detail tempat) ══════════════════════ -->
   <div id="detail-section" style="display:none;">
     <div class="charts-row">
       <div class="card-chart">
@@ -439,7 +491,6 @@
 // ══════════════════════════════════════════════════════════════
 const DATA = {{ tempat|tojson }};
 
-// ── Build TREE: kategori → sub_kategori → [tempat] ────────────
 const TREE = {};
 DATA.forEach(d => {
   const kat = d.kategori || "Lainnya";
@@ -452,12 +503,18 @@ DATA.forEach(d => {
 // ══════════════════════════════════════════════════════════════
 // STATE
 // ══════════════════════════════════════════════════════════════
-let activeId   = null;   // null = tampilan semua
-let donutInst  = null;
-let barInst    = null;
-let petaInst   = null;
+let activeId    = null;
+let donutInst   = null;
+let barInst     = null;
+let petaInst    = null;
 let markerLayer = null;
-const markerMap = {};    // key → leaflet marker
+const markerMap = {};
+
+// ── Sort state ────────────────────────────────────────────────
+// siklus per kolom: desc → asc → null (reset/hilang)
+// sortArah: 'desc' | 'asc' | null
+let sortKolom = null;
+let sortArah  = null;
 
 // ══════════════════════════════════════════════════════════════
 // HELPERS
@@ -490,6 +547,58 @@ function dominanLabel(d) {
 }
 
 function fmt1(n) { return (n||0).toFixed(1); }
+
+// ══════════════════════════════════════════════════════════════
+// SORT
+// ══════════════════════════════════════════════════════════════
+// Nilai numerik sentimen = persen_positif (makin tinggi = makin positif)
+function nilaiSort(d, kolom) {
+  if (kolom === 'rating')   return d.rating        || 0;
+  if (kolom === 'ulasan')   return d.total_ulasan  || 0;
+  if (kolom === 'sentimen') return d.persen_positif || 0;
+  return 0;
+}
+
+function sortData(list) {
+  if (!sortKolom || !sortArah) return list;
+  return [...list].sort((a, b) => {
+    const va = nilaiSort(a, sortKolom);
+    const vb = nilaiSort(b, sortKolom);
+    return sortArah === 'asc' ? va - vb : vb - va;
+  });
+}
+
+function toggleSort(kolom) {
+  if (sortKolom !== kolom) {
+    // Kolom baru → mulai dari desc
+    sortKolom = kolom;
+    sortArah  = 'desc';
+  } else {
+    // Kolom sama → putar siklus: desc → asc → null (reset)
+    if (sortArah === 'desc')     sortArah = 'asc';
+    else if (sortArah === 'asc') { sortKolom = null; sortArah = null; }
+  }
+  updateSortHeader();
+  pgCurrent = 1;
+  renderHalamanTabel();
+}
+
+function updateSortHeader() {
+  const labelKolom = { rating:'Rating', ulasan:'Jumlah Ulasan', sentimen:'% Positif' };
+  ['rating','ulasan','sentimen'].forEach(k => {
+    const th = document.getElementById('th-' + k);
+    if (!th) return;
+    th.classList.remove('asc','desc');
+    if (sortKolom === k && sortArah) {
+      th.classList.add(sortArah);
+      // Tooltip: klik berikutnya akan apa
+      const next = sortArah === 'desc' ? 'Urutkan dari terkecil' : 'Hapus urutan';
+      th.title = next;
+    } else {
+      th.title = `Urutkan berdasarkan ${labelKolom[k]}`;
+    }
+  });
+}
 
 // ══════════════════════════════════════════════════════════════
 // PETA
@@ -545,11 +654,9 @@ function renderMarkers(list, highlightId) {
   }
 }
 
-// ── Zoom & highlight marker satu tempat ──────────────────────
 function zoomKeTempat(d) {
   if (!dalamGresik(d)) return;
   petaInst.setView([parseFloat(d.latitude), parseFloat(d.longitude)], 16, { animate:true });
-  // Re-render semua marker tapi highlight yg dipilih
   renderMarkers(filteredList(), d.key);
   const m = markerMap[d.key];
   if (m) setTimeout(()=>m.openPopup(), 400);
@@ -562,7 +669,6 @@ const selKat    = document.getElementById("sel-kat");
 const selSub    = document.getElementById("sel-sub");
 const selTempat = document.getElementById("sel-tempat");
 
-// Isi kategori
 const daftarKat = ["— Semua Kategori —", ...Object.keys(TREE).sort()];
 daftarKat.forEach((k,i) => {
   selKat.innerHTML += `<option value="${i===0?'':k}">${k}</option>`;
@@ -582,14 +688,9 @@ loadSubs("");
 function loadTempatList(kat, sub) {
   selTempat.innerHTML = `<option value="">— Pilih Tempat —</option>`;
   let list;
-  if (!kat) {
-    list = DATA;
-  } else if (!sub) {
-    list = Object.values(TREE[kat]||{}).flat();
-  } else {
-    list = (TREE[kat]||{})[sub] || [];
-  }
-  // Urutkan A-Z
+  if (!kat)       list = DATA;
+  else if (!sub)  list = Object.values(TREE[kat]||{}).flat();
+  else            list = (TREE[kat]||{})[sub] || [];
   [...list].sort((a,b)=>(a.tempat||"").localeCompare(b.tempat||"","id"))
     .forEach(d => {
       selTempat.innerHTML +=
@@ -610,14 +711,10 @@ selSub.addEventListener("change", function() {
 });
 
 selTempat.addEventListener("change", function() {
-  if (this.value) {
-    pilihTempat(this.value);
-  } else {
-    applyFilter();
-  }
+  if (this.value) pilihTempat(this.value);
+  else            applyFilter();
 });
 
-// ── Hitung list aktif berdasarkan filter ─────────────────────
 function filteredList() {
   const kat = selKat.value;
   const sub = selSub.value;
@@ -628,12 +725,11 @@ function filteredList() {
 
 function applyFilter() {
   activeId = null;
-  const list = filteredList();
-  resetKeAwalUI(list);
+  resetKeAwalUI(filteredList());
 }
 
 // ══════════════════════════════════════════════════════════════
-// TAMPILAN AWAL (semua / filter)
+// TAMPILAN AWAL
 // ══════════════════════════════════════════════════════════════
 function resetKeAwal() {
   selKat.value    = "";
@@ -645,7 +741,6 @@ function resetKeAwal() {
 }
 
 function resetKeAwalUI(list) {
-  // Summary bar
   const total    = list.length;
   const withUl   = list.filter(d=>d.total_ulasan>0);
   const avgRating= withUl.length
@@ -659,14 +754,12 @@ function resetKeAwalUI(list) {
   document.getElementById("sb-ulasan").textContent  = totalUl.toLocaleString("id-ID");
   document.getElementById("sb-positif").textContent = avgPos;
 
-  // Show/hide panels
-  document.getElementById("summary-bar").style.display     = "";
+  document.getElementById("summary-bar").style.display         = "";
   document.getElementById("sel-header").classList.remove("show");
-  document.getElementById("kpi-row").style.display         = "none";
-  document.getElementById("detail-section").style.display  = "none";
+  document.getElementById("kpi-row").style.display             = "none";
+  document.getElementById("detail-section").style.display      = "none";
   document.getElementById("tempat-list-section").style.display = "";
 
-  // Peta
   document.getElementById("peta-title").textContent =
     selKat.value
       ? `Peta: ${selSub.value || selKat.value} (${list.length} tempat)`
@@ -678,19 +771,19 @@ function resetKeAwalUI(list) {
     if (bounds.length) petaInst.fitBounds(bounds, { padding:[30,30], maxZoom:13 });
   }
 
-  // Tabel
   renderTabelTempat(list);
 }
 
 // ══════════════════════════════════════════════════════════════
 // PAGINATION STATE
 // ══════════════════════════════════════════════════════════════
-let pgData    = [];   // data terurut saat ini
+let pgData    = [];
 let pgCurrent = 1;
 let pgPerPage = 20;
 
 function renderTabelTempat(list) {
-  pgData    = [...list].sort((a,b)=>(b.total_ulasan||0)-(a.total_ulasan||0));
+  // Simpan data mentah (belum disort); sort dilakukan di renderHalamanTabel
+  pgData    = list;
   pgCurrent = 1;
   pgPerPage = parseInt(document.getElementById("pg-per-page").value) || 20;
 
@@ -701,31 +794,33 @@ function renderTabelTempat(list) {
     : kat ? `Daftar Tempat — ${kat}`
     : "Daftar Semua Tempat";
 
+  updateSortHeader();
   renderHalamanTabel();
 }
 
 function renderHalamanTabel() {
-  const total     = pgData.length;
+  // Terapkan sort setiap kali render halaman
+  const sorted    = sortData(pgData);
+  const total     = sorted.length;
   const totalPage = Math.max(1, Math.ceil(total / pgPerPage));
   pgCurrent       = Math.min(pgCurrent, totalPage);
 
   const start = (pgCurrent - 1) * pgPerPage;
   const end   = Math.min(start + pgPerPage, total);
-  const slice = pgData.slice(start, end);
+  const slice = sorted.slice(start, end);
 
-  // Info
   document.getElementById("tl-count").textContent = `${total} tempat`;
   document.getElementById("pg-info").textContent  =
     total ? `Menampilkan ${start+1}–${end} dari ${total} tempat` : "Tidak ada data";
 
-  // Body tabel
   const body = document.getElementById("tl-body");
   if (!slice.length) {
     body.innerHTML = `<tr><td colspan="7" style="text-align:center;color:#898781;padding:20px;">Tidak ada data.</td></tr>`;
     document.getElementById("pg-btns").innerHTML = "";
     return;
   }
-  body.innerHTML = slice.map((d,i) => {
+
+  body.innerHTML = slice.map((d, i) => {
     const dom = dominanLabel(d);
     const cls = dom==="Positif"?"pos": dom==="Negatif"?"neg":"net";
     const pp  = d.persen_positif||0, pn=d.persen_netral||0, pg=d.persen_negatif||0;
@@ -747,7 +842,6 @@ function renderHalamanTabel() {
     </tr>`;
   }).join("");
 
-  // Tombol pagination
   renderPgBtns(totalPage);
 }
 
@@ -756,12 +850,9 @@ function renderPgBtns(totalPage) {
   if (totalPage <= 1) { wrap.innerHTML = ""; return; }
 
   let html = "";
-
-  // Prev
   html += `<button class="pg-btn" onclick="goPage(${pgCurrent-1})"
     ${pgCurrent===1?"disabled":""}>&#8249;</button>`;
 
-  // Nomor halaman — tampilkan maks 7 tombol dengan ellipsis
   const pages = paginationRange(pgCurrent, totalPage);
   pages.forEach(p => {
     if (p === "…") {
@@ -772,7 +863,6 @@ function renderPgBtns(totalPage) {
     }
   });
 
-  // Next
   html += `<button class="pg-btn" onclick="goPage(${pgCurrent+1})"
     ${pgCurrent===totalPage?"disabled":""}>&#8250;</button>`;
 
@@ -812,14 +902,13 @@ function ubahPerPage(val) {
 }
 
 // ══════════════════════════════════════════════════════════════
-// PILIH SATU TEMPAT → TAMPILAN DETAIL
+// PILIH SATU TEMPAT → DETAIL
 // ══════════════════════════════════════════════════════════════
 function pilihTempat(key) {
   const d = DATA.find(x => x.key === key);
   if (!d) return;
   activeId = key;
 
-  // Sync filter dropdown ke kategori tempat
   if (selKat.value !== (d.kategori||"")) {
     selKat.value = d.kategori || "";
     loadSubs(selKat.value);
@@ -828,10 +917,8 @@ function pilihTempat(key) {
     selSub.value = d.sub_kategori || "";
     loadTempatList(selKat.value, selSub.value);
   }
-  // Sync dropdown tempat
   selTempat.value = key;
 
-  // Selected header
   const hdr = document.getElementById("sel-header");
   hdr.classList.add("show");
   document.getElementById("sel-name").textContent = d.tempat;
@@ -840,30 +927,23 @@ function pilihTempat(key) {
   document.getElementById("sel-subkat").textContent = d.sub_kategori || d.kategori;
   document.getElementById("sel-detail-link").href = `/googlemaps/${key}`;
 
-  // KPI
   document.getElementById("kpi-row").style.display = "";
   document.getElementById("kpi-rating").textContent = (d.rating||0) + " ⭐";
   document.getElementById("kpi-ulasan").textContent = (d.total_ulasan||0).toLocaleString("id-ID");
   document.getElementById("kpi-pos").textContent    = fmt1(d.persen_positif) + "%";
   document.getElementById("kpi-neg").textContent    = fmt1(d.persen_negatif) + "%";
 
-  // Sembunyikan summary & tabel, tampilkan detail
-  document.getElementById("summary-bar").style.display    = "none";
+  document.getElementById("summary-bar").style.display        = "none";
   document.getElementById("tempat-list-section").style.display = "none";
-  document.getElementById("detail-section").style.display = "";
+  document.getElementById("detail-section").style.display     = "";
 
-  // Peta → zoom ke titik
   document.getElementById("peta-title").textContent = `Lokasi: ${d.tempat}`;
   zoomKeTempat(d);
 
-  // Charts
   renderDonut(d);
   renderBar(d);
-
-  // Ulasan
   renderUlasan(key);
 
-  // Scroll ke KPI
   document.getElementById("sel-header").scrollIntoView({ behavior:"smooth", block:"start" });
 }
 
@@ -904,7 +984,7 @@ function renderDonut(d) {
 }
 
 // ══════════════════════════════════════════════════════════════
-// BAR CHART — tempat sekategori / sub-kategori
+// BAR CHART
 // ══════════════════════════════════════════════════════════════
 function renderBar(d) {
   if (barInst) { barInst.destroy(); barInst = null; }
@@ -1043,6 +1123,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (typeof L !== "undefined") initPeta();
   else window.addEventListener("load", initPeta);
   resetKeAwalUI(DATA);
+  updateSortHeader();   // terapkan highlight default (ulasan desc)
 });
 </script>
 {% endblock %}

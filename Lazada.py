@@ -1,11 +1,12 @@
 """
-╔══════════════════════════════════════════════════════╗
-║   SCRAPER TOKO GRESIK DI LAZADA — VERSI PERBAIKAN   ║
-║   Filter : Shipped From → Kab. Gresik               ║
-║   Mode   : Listing → PDP (paralel, headless)        ║
-║   Output : toko_gresik_lazada.csv                   ║
-║            dashboard_data_lazada.json               ║
-╚══════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════╗
+║   SCRAPER TOKO GRESIK DI LAZADA — VERSI PERBAIKAN v3    ║
+║   Filter : Shipped From → Kab. Gresik                   ║
+║   Mode   : Listing → PDP (paralel, headless)            ║
+║   Output : toko_gresik_lazada.csv                       ║
+║            dashboard_data_lazada.json                   ║
+║   CRUD   : Manajemen kategori + riwayat perubahan       ║
+╚══════════════════════════════════════════════════════════╝
 
 PERBAIKAN v3:
   1. [BUG FIX] Nama produk tidak lagi diambil dari slug URL ("pdp")
@@ -15,6 +16,8 @@ PERBAIKAN v3:
   3. [BUG FIX] Selector kartu produk diperluas dengan pola Lazada 2024-2025
   4. [BUG FIX] Fallback nama produk via JS closest() untuk cari parent card
   5. [TAMBAH]  Fungsi _ambil_nama_toko_dari_pdp() yang lebih defensif
+  6. [TAMBAH]  KategoriManager: CRUD kategori + penyimpanan riwayat JSON
+  7. [TAMBAH]  Argumen CLI untuk operasi CRUD tanpa masuk ke mode scraping
 """
 
 import time, random, re, os, json, argparse
@@ -42,6 +45,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 OUTPUT_FILE     = os.path.join(OUTPUT_DIR, "toko_gresik_lazada.csv")
 DASHBOARD_FILE  = os.path.join(OUTPUT_DIR, "dashboard_data_lazada.json")
 CONFIG_FILE_DEF = os.path.join(BASE_DIR, "keywords_config.json")
+RIWAYAT_FILE    = os.path.join(BASE_DIR, "riwayat_kategori.json")
 CHROMEDRIVER    = os.path.join(BASE_DIR, "chromedriver.exe")
 DEFAULT_WORKERS = 5
 
@@ -101,15 +105,13 @@ TOKO_BLACKLIST = [
     "tambah ke keranjang", "beli sekarang", "add to cart",
     "masuk lebih murah", "voucher", "diskon", "flash sale",
     "gratis ongkir", "cashback", "koin", "login", "daftar",
-    "botanical essentials",  # contoh toko yang jadi false-positive
+    "botanical essentials",
 ]
 
 # ── SELECTOR KARTU PRODUK ────────────────────────────────────────────────────
 CARD_SELECTORS = [
-    # Atribut stabil (prioritas utama)
     "[data-item-id]",
     "[data-tracking='product-card']",
-    # Class Lazada 2024-2025 (cek dari inspect element)
     "div[class*='Bm3ON']",
     "div[class*='buTCk']",
     "div[class*='c-prd']",
@@ -167,13 +169,10 @@ TERJUAL_SEL = [
 
 # ── SELECTOR PDP ──────────────────────────────────────────────────────────────
 PDP_TOKO_SEL = [
-    # Selector berbasis data-spm (paling stabil)
     "[data-spm='dshopname'] a",
     "[data-spm='dshopname']",
-    # Selector berbasis href toko
     "a[href*='/shop/']",
     "a[href*='/seller/']",
-    # Selector berbasis class
     "[class*='sellerName'] a",
     "[class*='seller-name'] a",
     "[class*='shop-name'] a",
@@ -181,7 +180,6 @@ PDP_TOKO_SEL = [
     "[class*='pdp-product-brand'] a",
     "[class*='StoreInfo'] a",
     "[class*='seller-info'] a",
-    # Fallback — span/div (lebih sering salah, di-filter BLACKLIST)
     "[class*='sellerName']",
     "[class*='seller-name']",
     "[class*='shop-name']",
@@ -209,8 +207,154 @@ PDP_TERJUAL_SEL = [
     "[class*='review-count']",
 ]
 
-FAST_WAIT            = 0.5
+FAST_WAIT             = 0.5
 EXPLICIT_WAIT_TIMEOUT = 5
+
+
+# ══════════════════════════════════════════════════════
+# CRUD KATEGORI + RIWAYAT PERUBAHAN
+# ══════════════════════════════════════════════════════
+class KategoriManager:
+    """Mengelola CRUD kategori beserta riwayat setiap perubahan."""
+
+    def __init__(self, kategori_mapping: dict, riwayat_path: str = RIWAYAT_FILE):
+        self.kategori      = dict(kategori_mapping)
+        self._riwayat_path = riwayat_path
+        self._riwayat: list = self._muat_riwayat()
+
+    # ── Riwayat internal ──────────────────────────────
+    def _muat_riwayat(self) -> list:
+        if os.path.exists(self._riwayat_path):
+            try:
+                with open(self._riwayat_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                return []
+        return []
+
+    def _simpan_riwayat(self) -> None:
+        with open(self._riwayat_path, "w", encoding="utf-8") as f:
+            json.dump(self._riwayat, f, ensure_ascii=False, indent=2)
+
+    def _catat(self, aksi: str, nama: str, detail: dict = None) -> None:
+        """Catat satu entri perubahan ke riwayat."""
+        entri = {
+            "waktu"  : datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "aksi"   : aksi,    # TAMBAH | HAPUS | EDIT | TAMBAH_KW | HAPUS_KW
+            "nama"   : nama,
+            "detail" : detail or {},
+        }
+        self._riwayat.append(entri)
+        self._simpan_riwayat()
+        print(f"   📝 Riwayat: [{aksi}] {nama}")
+
+    # ── CREATE ────────────────────────────────────────
+    def tambah_kategori(self, nama: str, keywords: list) -> bool:
+        """Tambah kategori baru beserta keyword-nya."""
+        if nama in self.kategori:
+            print(f"   ⚠  Kategori '{nama}' sudah ada.")
+            return False
+        kw = [k.lower().strip() for k in keywords if k.strip()]
+        self.kategori[nama] = kw
+        self._catat("TAMBAH", nama, {"keywords": kw})
+        print(f"   ✅ Kategori '{nama}' ditambahkan dengan {len(kw)} keyword.")
+        return True
+
+    # ── READ ──────────────────────────────────────────
+    def lihat_kategori(self, nama: str = None) -> None:
+        """Tampilkan satu kategori atau semua kategori."""
+        if nama:
+            if nama not in self.kategori:
+                print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
+                return
+            kw = self.kategori[nama]
+            print(f"\n  📂 {nama} ({len(kw)} keyword):")
+            for k in kw:
+                print(f"       • {k}")
+        else:
+            print(f"\n  📂 Daftar Kategori ({len(self.kategori)} total):")
+            print(f"  {'No':<4} {'Nama Kategori':<35} {'Jml KW'}")
+            print(f"  {'-'*55}")
+            for i, (nm, kw) in enumerate(self.kategori.items(), 1):
+                print(f"  {i:<4} {nm:<35} {len(kw)}")
+
+    # ── UPDATE — ganti nama ───────────────────────────
+    def edit_nama_kategori(self, nama_lama: str, nama_baru: str) -> bool:
+        """Ganti nama kategori tanpa mengubah keyword-nya."""
+        if nama_lama not in self.kategori:
+            print(f"   ❌ Kategori '{nama_lama}' tidak ditemukan.")
+            return False
+        if nama_baru in self.kategori:
+            print(f"   ⚠  Nama '{nama_baru}' sudah dipakai kategori lain.")
+            return False
+        self.kategori[nama_baru] = self.kategori.pop(nama_lama)
+        self._catat("EDIT", nama_lama, {"nama_baru": nama_baru})
+        print(f"   ✅ Nama kategori '{nama_lama}' → '{nama_baru}'.")
+        return True
+
+    # ── UPDATE — tambah keyword ───────────────────────
+    def tambah_keyword(self, nama: str, keywords: list) -> bool:
+        """Tambah keyword ke kategori yang sudah ada."""
+        if nama not in self.kategori:
+            print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
+            return False
+        kw_baru = [
+            k.lower().strip() for k in keywords
+            if k.strip() and k.lower().strip() not in self.kategori[nama]
+        ]
+        self.kategori[nama].extend(kw_baru)
+        self._catat("TAMBAH_KW", nama, {"keywords_baru": kw_baru})
+        print(f"   ✅ {len(kw_baru)} keyword baru ditambahkan ke '{nama}'.")
+        return True
+
+    # ── UPDATE — hapus keyword ────────────────────────
+    def hapus_keyword(self, nama: str, keywords: list) -> bool:
+        """Hapus keyword tertentu dari sebuah kategori."""
+        if nama not in self.kategori:
+            print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
+            return False
+        kw_dihapus = [
+            k.lower().strip() for k in keywords
+            if k.lower().strip() in self.kategori[nama]
+        ]
+        for k in kw_dihapus:
+            self.kategori[nama].remove(k)
+        self._catat("HAPUS_KW", nama, {"keywords_dihapus": kw_dihapus})
+        print(f"   ✅ {len(kw_dihapus)} keyword dihapus dari '{nama}'.")
+        return True
+
+    # ── DELETE ────────────────────────────────────────
+    def hapus_kategori(self, nama: str) -> bool:
+        """Hapus seluruh kategori. Keyword disimpan di riwayat sebagai backup."""
+        if nama not in self.kategori:
+            print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
+            return False
+        kw_backup = self.kategori.pop(nama)
+        self._catat("HAPUS", nama, {"keywords_backup": kw_backup})
+        print(f"   ✅ Kategori '{nama}' dihapus ({len(kw_backup)} keyword di-backup ke riwayat).")
+        return True
+
+    # ── Riwayat — tampilkan ───────────────────────────
+    def tampilkan_riwayat(self, n: int = 30) -> None:
+        """Tampilkan n entri riwayat terbaru."""
+        if not self._riwayat:
+            print("   ℹ️  Belum ada riwayat perubahan kategori.")
+            return
+        tampil = self._riwayat[-n:]
+        print(f"\n  📋 Riwayat Perubahan Kategori (menampilkan {len(tampil)} dari {len(self._riwayat)} total):")
+        print(f"  {'No':<5} {'Waktu':<21} {'Aksi':<12} {'Nama Kategori':<32} Detail")
+        print(f"  {'-'*100}")
+        for i, e in enumerate(tampil, start=max(1, len(self._riwayat) - n + 1)):
+            detail_str = json.dumps(e.get("detail", {}), ensure_ascii=False)
+            if len(detail_str) > 45:
+                detail_str = detail_str[:42] + "..."
+            print(f"  {i:<5} {e['waktu']:<21} {e['aksi']:<12} {e['nama']:<32} {detail_str}")
+        print(f"\n  💾 File riwayat lengkap: {self._riwayat_path}")
+
+    # ── Export ke dict ────────────────────────────────
+    def ke_dict(self) -> dict:
+        """Kembalikan kategori sebagai dict untuk disimpan ke config."""
+        return dict(self.kategori)
 
 
 # ══════════════════════════════════════════════════════
@@ -410,19 +554,11 @@ def debug_simpan(driver, nama, headless=True):
         print(f"   🔍 Debug: output/debug_{nama}.png + output/debug_{nama}.html disimpan")
     except: pass
 
+
 # ══════════════════════════════════════════════════════
 # [FIX v3] AMBIL NAMA PRODUK DARI LINK/CARD
-# Penyebab bug: slug URL "/products/pdp..." menghasilkan nama "pdp"
-# Solusi: cari dari title attr, teks <a>, atau elemen dalam card parent
 # ══════════════════════════════════════════════════════
 def ambil_nama_dari_link(driver, a_el):
-    """
-    Coba ambil nama produk dari elemen <a> secara berlapis:
-    1. Atribut title
-    2. Teks langsung elemen <a>
-    3. Elemen nama produk dalam card parent (via JS closest)
-    4. Inner text semua child elements
-    """
     # 1. Coba title attribute
     try:
         t = (a_el.get_attribute("title") or "").strip()
@@ -451,7 +587,6 @@ def ambil_nama_dari_link(driver, a_el):
                     if t and len(t) > 5:
                         return t[:200]
                 except: pass
-            # Inner text semua teks dalam card, ambil baris terpanjang yang bukan harga/skip
             try:
                 inner = parent.text or ""
                 kandidat = []
@@ -460,7 +595,6 @@ def ambil_nama_dari_link(driver, a_el):
                     if b and len(b) > 8 and not baris_skip(b):
                         kandidat.append(b)
                 if kandidat:
-                    # Ambil yang paling panjang (biasanya nama produk)
                     return max(kandidat, key=len)[:200]
             except: pass
     except: pass
@@ -470,41 +604,25 @@ def ambil_nama_dari_link(driver, a_el):
 
 # ══════════════════════════════════════════════════════
 # [FIX v3] AMBIL NAMA TOKO DARI PDP
-# Penyebab bug: selector menangkap tombol "Click to feedback >"
-# Solusi: filter ketat dengan BLACKLIST + validasi teks
 # ══════════════════════════════════════════════════════
 def _teks_valid_nama_toko(teks):
-    """Return True jika teks layak dijadikan nama toko."""
     if not teks:
         return False
     t = teks.strip()
     t_lower = t.lower()
-
-    # Panjang tidak masuk akal
     if len(t) < 2 or len(t) > 80:
         return False
-
-    # Mengandung karakter HTML/tombol
     if ">" in t or "<" in t:
         return False
-
-    # Cocok dengan BLACKLIST
     if any(bl in t_lower for bl in TOKO_BLACKLIST):
         return False
-
-    # Teks murni angka atau simbol
     if re.match(r'^[\d\s\-_.,]+$', t):
         return False
-
     return True
 
 
 def _ambil_nama_toko_dari_pdp(driver):
-    """
-    Ambil nama toko dari halaman PDP dengan filter ketat.
-    Return: (nama_toko, url_toko)
-    """
-    # Prioritas 1: selector berbasis href toko (paling reliable)
+    # Prioritas 1: selector berbasis href toko
     for sel in ["a[href*='/shop/']", "a[href*='/seller/']", "[data-spm='dshopname'] a"]:
         try:
             els = driver.find_elements(By.CSS_SELECTOR, sel)
@@ -537,7 +655,6 @@ def _ambil_nama_toko_dari_pdp(driver):
                     if href and "lazada.co.id" not in href:
                         href = ""
                 except: pass
-                # Kalau tidak dapat href, coba parent atau child
                 if not href:
                     try:
                         a = el.find_element(By.TAG_NAME, "a")
@@ -560,7 +677,6 @@ def _ambil_nama_toko_dari_pdp(driver):
                 return t, href
     except: pass
 
-    # Tidak ketemu
     return "-", "-"
 
 
@@ -693,7 +809,6 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                 url_prod = ""
                 nama     = ""
 
-                # Cari URL produk + nama dari elemen <a> dalam card
                 for a in card.find_elements(By.TAG_NAME, "a"):
                     try:
                         h = a.get_attribute("href") or ""
@@ -701,7 +816,6 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                             url_prod_cand = h.split("?")[0]
                             if url_prod_cand in semua:
                                 continue
-                            # [FIX] Ambil nama dari link, bukan dari slug
                             nama_cand = ambil_nama_dari_link(driver, a)
                             if nama_cand and nama_cand.lower() not in ("pdp", ""):
                                 url_prod = url_prod_cand
@@ -714,11 +828,9 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                 if not url_prod: continue
                 if url_prod in semua: continue
 
-                # Kalau nama masih kosong, coba selector dalam card
                 if not nama:
                     nama = ambil_teks_el(card, *NAMA_PRODUK_SEL)
 
-                # Kalau masih kosong, ambil baris terpanjang dari teks card
                 if not nama or nama.lower() == "pdp":
                     for l in teks.split("\n"):
                         l = l.strip()
@@ -761,7 +873,7 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
         if baru > 0:
             break
 
-    # ── STRATEGI 2: Fallback — cari semua link produk + ambil nama dari link ──
+    # ── STRATEGI 2: Fallback — cari semua link produk ────────────────────────
     if baru == 0:
         semua_a = []
         try:
@@ -784,17 +896,14 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                     continue
                 seen_in_strat2.add(url_prod)
 
-                # [FIX] Ambil nama dari link, bukan slug URL
                 nama = ambil_nama_dari_link(driver, a_el)
 
-                # Kalau masih "pdp" atau kosong, skip
                 if not nama or nama.lower() in ("pdp", ""):
-                    # Last resort: parse slug tapi bersihkan lebih baik
                     slug = url_prod.rstrip("/").split("/")[-1]
                     slug = re.sub(r"-i\d+.*", "", slug)
                     slug_clean = slug.replace("-", " ").strip()
                     if slug_clean.lower() == "pdp" or len(slug_clean) < 5:
-                        continue  # [FIX] Skip kalau tetap "pdp"
+                        continue
                     nama = slug_clean[:200]
 
                 semua[url_prod] = {
@@ -901,22 +1010,16 @@ def _ambil_satu_pdp(url, headless):
         driver.execute_script("window.scrollBy(0, 400)")
         time.sleep(0.5)
 
-        # [FIX] Gunakan fungsi yang sudah diperbaiki
         nama_toko, url_toko = _ambil_nama_toko_dari_pdp(driver)
         hasil["nama_toko"] = nama_toko
         hasil["url_toko"]  = url_toko
 
-        # ── Rating toko ───────────────────────────────────────────────────────
         hasil["rating_toko"] = bersihkan_rating(
             ambil_teks_driver(driver, *PDP_RATING_TOKO_SEL)
         )
-
-        # ── Rating produk ─────────────────────────────────────────────────────
         hasil["rating_produk"] = bersihkan_rating(
             ambil_teks_driver(driver, *PDP_RATING_PRODUK_SEL)
         )
-
-        # ── Jumlah terjual ────────────────────────────────────────────────────
         hasil["terjual"] = bersihkan_terjual(
             ambil_teks_driver(driver, *PDP_TERJUAL_SEL)
         )
@@ -1106,10 +1209,32 @@ def ekspor_dashboard(df, kata_gresik, kategori_mapping):
 
 
 # ══════════════════════════════════════════════════════
-# MAIN
+# ARGUMEN CLI
 # ══════════════════════════════════════════════════════
 def parse_args():
-    p = argparse.ArgumentParser(description="Scraper toko Gresik di Lazada — versi perbaikan")
+    p = argparse.ArgumentParser(
+        description="Scraper toko Gresik di Lazada — versi perbaikan v3",
+        formatter_class=argparse.RawTextHelpFormatter,
+        epilog="""
+CONTOH PENGGUNAAN:
+  # Scraping biasa
+  python Lazada_v3.py
+  python Lazada_v3.py --url "https://www.lazada.co.id/catalog/?q=gresik"
+  python Lazada_v3.py --headful --debug --workers 3
+
+  # CRUD Kategori
+  python Lazada_v3.py --tambah-kat "Pertanian" --kw "pupuk,bibit,cangkul,pestisida"
+  python Lazada_v3.py --tambah-kw "Makanan & Minuman" --kw "jamu,wedang,es batu"
+  python Lazada_v3.py --hapus-kw "Elektronik" --kw "elektronik"
+  python Lazada_v3.py --edit-kat "Lainnya|Produk Umum"
+  python Lazada_v3.py --hapus-kat "Hobi & Koleksi"
+  python Lazada_v3.py --lihat-kat
+  python Lazada_v3.py --lihat-kat "Elektronik"
+  python Lazada_v3.py --riwayat
+"""
+    )
+
+    # ── Scraping ──────────────────────────────────────
     p.add_argument("--keywords", type=str, default="",
                    help="Keyword lokasi tambahan, pisah koma")
     p.add_argument("--config",   type=str, default=CONFIG_FILE_DEF,
@@ -1124,34 +1249,129 @@ def parse_args():
                    help="Simpan screenshot + page source kalau 0 produk ditemukan")
     p.add_argument("--no-pdp",   action="store_true",
                    help="Skip tahap PDP (hanya ambil data listing)")
+
+    # ── CRUD Kategori ─────────────────────────────────
+    grp = p.add_argument_group("CRUD Kategori")
+    grp.add_argument("--tambah-kat", type=str, default="",
+                     metavar="NAMA",
+                     help="Tambah kategori baru dengan nama NAMA")
+    grp.add_argument("--hapus-kat",  type=str, default="",
+                     metavar="NAMA",
+                     help="Hapus kategori NAMA (keyword di-backup ke riwayat)")
+    grp.add_argument("--edit-kat",   type=str, default="",
+                     metavar="LAMA|BARU",
+                     help="Ganti nama kategori: 'Nama Lama|Nama Baru'")
+    grp.add_argument("--tambah-kw",  type=str, default="",
+                     metavar="NAMA",
+                     help="Tambah keyword ke kategori NAMA (gunakan bersama --kw)")
+    grp.add_argument("--hapus-kw",   type=str, default="",
+                     metavar="NAMA",
+                     help="Hapus keyword dari kategori NAMA (gunakan bersama --kw)")
+    grp.add_argument("--kw",         type=str, default="",
+                     metavar="KW1,KW2,...",
+                     help="Daftar keyword untuk --tambah-kat / --tambah-kw / --hapus-kw")
+    grp.add_argument("--lihat-kat",  type=str, default=None,
+                     nargs="?", const="__semua__",
+                     metavar="NAMA",
+                     help="Lihat kategori (kosongkan = semua, isi = satu kategori)")
+    grp.add_argument("--riwayat",    action="store_true",
+                     help="Tampilkan riwayat perubahan kategori lalu keluar")
+    grp.add_argument("--riwayat-n",  type=int, default=30,
+                     metavar="N",
+                     help="Jumlah baris riwayat yang ditampilkan (default 30)")
+
     return p.parse_args()
 
 
+# ══════════════════════════════════════════════════════
+# MAIN
+# ══════════════════════════════════════════════════════
 def main():
-    args = parse_args()
+    args    = parse_args()
     headless = not args.headful
 
-    print("╔══════════════════════════════════════════════════════╗")
-    print("║   SCRAPER TOKO GRESIK DI LAZADA — VERSI PERBAIKAN   ║")
-    print(f"║   Mulai: {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}                          ║")
-    print(f"║   Mode: {'HEADLESS' if headless else 'HEADFUL':<10} | Workers PDP: {args.workers:<3}          ║")
-    print("╚══════════════════════════════════════════════════════╝\n")
+    print("╔══════════════════════════════════════════════════════════╗")
+    print("║   SCRAPER TOKO GRESIK DI LAZADA — VERSI PERBAIKAN v3    ║")
+    print(f"║   Mulai: {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}                            ║")
+    print(f"║   Mode: {'HEADLESS' if headless else 'HEADFUL':<10} | Workers PDP: {args.workers:<3}            ║")
+    print("╚══════════════════════════════════════════════════════════╝\n")
 
     if args.debug:
         print("   🔍 MODE DEBUG AKTIF\n")
 
+    # ── Muat konfigurasi & inisialisasi KategoriManager ───────────────────────
     cfg = muat_konfigurasi(args.config)
     cfg = gabungkan_keyword_cli(cfg, args.keywords)
-    simpan_konfigurasi(args.config, cfg)
 
-    kata_gresik      = [k.lower() for k in cfg["kata_gresik"]]
-    kategori_mapping = cfg["kategori_mapping"]
+    kata_gresik = [k.lower() for k in cfg["kata_gresik"]]
+    kat_mgr     = KategoriManager(
+        cfg.get("kategori_mapping", DEFAULT_KATEGORI_MAPPING),
+        riwayat_path=RIWAYAT_FILE,
+    )
+
+    # ── Eksekusi perintah CRUD (jika ada) ────────────────────────────────────
+    crud_dilakukan = False
+
+    if args.riwayat:
+        kat_mgr.tampilkan_riwayat(n=args.riwayat_n)
+        return
+
+    if args.lihat_kat is not None:
+        nama_filter = None if args.lihat_kat == "__semua__" else args.lihat_kat
+        kat_mgr.lihat_kategori(nama_filter)
+        crud_dilakukan = True
+
+    if args.tambah_kat:
+        kw_list = [k.strip() for k in args.kw.split(",") if k.strip()]
+        kat_mgr.tambah_kategori(args.tambah_kat, kw_list)
+        crud_dilakukan = True
+
+    if args.hapus_kat:
+        kat_mgr.hapus_kategori(args.hapus_kat)
+        crud_dilakukan = True
+
+    if args.edit_kat:
+        parts = args.edit_kat.split("|", 1)
+        if len(parts) == 2:
+            kat_mgr.edit_nama_kategori(parts[0].strip(), parts[1].strip())
+        else:
+            print("   ❌ Format --edit-kat salah. Gunakan: 'Nama Lama|Nama Baru'")
+        crud_dilakukan = True
+
+    if args.tambah_kw:
+        kw_list = [k.strip() for k in args.kw.split(",") if k.strip()]
+        kat_mgr.tambah_keyword(args.tambah_kw, kw_list)
+        crud_dilakukan = True
+
+    if args.hapus_kw:
+        kw_list = [k.strip() for k in args.kw.split(",") if k.strip()]
+        kat_mgr.hapus_keyword(args.hapus_kw, kw_list)
+        crud_dilakukan = True
+
+    # Simpan perubahan CRUD ke config
+    if crud_dilakukan:
+        cfg["kategori_mapping"] = kat_mgr.ke_dict()
+        simpan_konfigurasi(args.config, cfg)
+        print(f"\n  💾 Perubahan kategori disimpan ke: {args.config}")
+        print(f"  📋 Riwayat tersimpan di          : {RIWAYAT_FILE}")
+        # Keluar kalau tidak ada perintah scraping
+        if not args.url and not args.keywords:
+            return
+
+    # Gunakan kategori terbaru untuk scraping
+    kategori_mapping = kat_mgr.ke_dict()
 
     print(f"  🔑 Keyword aktif  ({len(kata_gresik)}): {', '.join(kata_gresik)}")
     print(f"  🏷️  Kategori       ({len(kategori_mapping)}): {', '.join(kategori_mapping.keys())}\n")
 
-    driver  = buat_browser(headless=headless)
-    produk  = []
+    # ── Simpan config terbaru (keyword CLI dll) ───────────────────────────────
+    cfg["kata_gresik"]      = kata_gresik
+    cfg["kategori_mapping"] = kategori_mapping
+    simpan_konfigurasi(args.config, cfg)
+
+    # ── Scraping ──────────────────────────────────────────────────────────────
+    driver = buat_browser(headless=headless)
+    produk = []
 
     try:
         url_filter = args.url or aktifkan_filter(driver, kata_gresik)
@@ -1159,7 +1379,7 @@ def main():
             print("\n❌ Filter gagal. Coba:")
             print("   1. Jalankan dengan --headful untuk lihat browser")
             print("   2. Copy URL filter manual lalu:")
-            print("      python Lazada_v2.py --url \"<URL filter Gresik>\"")
+            print("      python Lazada_v3.py --url \"<URL filter Gresik>\"")
             return
 
         print(f"\n   ✅ URL filter aktif: {url_filter[:100]}...")
@@ -1173,8 +1393,8 @@ def main():
             print("\n❌ Tidak ada produk ditemukan di listing.")
             print("\n💡 SOLUSI:")
             print("   1. Jalankan dengan --headful --debug")
-            print("   2. Coba: python Lazada_v2.py --headful")
-            print("   3. Copy URL filter manual: python Lazada_v2.py --url \"<URL>\"")
+            print("   2. Coba: python Lazada_v3.py --headful")
+            print("   3. Copy URL filter manual: python Lazada_v3.py --url \"<URL>\"")
             ekspor_dashboard(None, kata_gresik, kategori_mapping)
             return
 

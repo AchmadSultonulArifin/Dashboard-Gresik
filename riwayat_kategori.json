@@ -1,0 +1,58 @@
+[
+  {
+    "waktu": "2026-09-21 11:04:42",
+    "aksi": "TAMBAH_KW",
+    "nama": "Elektronik",
+    "detail": {
+      "keywords_baru": [
+        "lampu"
+      ]
+    }
+  },
+  {
+    "waktu": "2026-09-21 11:05:18",
+    "aksi": "TAMBAH_KW",
+    "nama": "Elektronik",
+    "detail": {
+      "keywords_baru": []
+    }
+  },
+  {
+    "waktu": "2026-09-21 11:05:23",
+    "aksi": "HAPUS_KW",
+    "nama": "Elektronik",
+    "detail": {
+      "keywords_dihapus": [
+        "lampu"
+      ]
+    }
+  },
+  {
+    "waktu": "2026-09-21 11:05:28",
+    "aksi": "TAMBAH_KW",
+    "nama": "Elektronik",
+    "detail": {
+      "keywords_baru": [
+        "lampu"
+      ]
+    }
+  },
+  {
+    "waktu": "2026-09-21 11:05:57",
+    "aksi": "TAMBAH_KW",
+    "nama": "Makanan & Minuman",
+    "detail": {
+      "keywords_baru": [
+        "milo"
+      ]
+    }
+  },
+  {
+    "waktu": "2026-09-21 11:35:02",
+    "aksi": "TAMBAH_KW",
+    "nama": "Elektronik",
+    "detail": {
+      "keywords_baru": []
+    }
+  }
+]

@@ -1,36 +1,32 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
-║   SCRAPER TOKO GRESIK DI TOKOPEDIA — v2 (setara Lazada v3)  ║
+║   SCRAPER TOKO GRESIK DI TOKOPEDIA — v2 (FIXED)             ║
 ║   Filter : Tab Toko → Kab. Gresik                           ║
 ║   Kategori : Diambil LANGSUNG dari halaman Tokopedia         ║
 ║   Mode   : Listing → PDP (paralel, headless)                ║
 ║   Output : toko_gresik_tokopedia.csv                        ║
 ║            dashboard_data_tokopedia.json                    ║
 ║   CRUD   : Manajemen kategori + riwayat perubahan           ║
+║                                                              ║
+║   PERBAIKAN v2-FIXED:                                        ║
+║   [1] Filter harga di nama produk (regex Rp)                 ║
+║   [2] Nama produk diambil dari h1/title PDP jika listing     ║
+║       gagal → tidak lagi tampil sebagai "—"                  ║
+║   [3] Selector nama toko diperbaiki (Tokopedia modern        ║
+║       tidak pakai /shop/ di URL)                             ║
+║   [4] WebDriverWait untuk breadcrumb kategori                ║
+║   [5] Update nama produk dari PDP jika listing kosong        ║
 ╚══════════════════════════════════════════════════════════════╝
 
 CARA PAKAI:
-  # Scraping biasa
   python tokopedia_gresik_v2.py
   python tokopedia_gresik_v2.py --headful --debug --workers 3
+  python tokopedia_gresik_v2.py --no-pdp
 
   # CRUD Kategori
-  python tokopedia_gresik_v2.py --tambah-kat "Pertanian" --kw "pupuk,bibit,cangkul"
-  python tokopedia_gresik_v2.py --tambah-kw "Makanan & Minuman" --kw "jamu,wedang"
-  python tokopedia_gresik_v2.py --hapus-kw "Elektronik" --kw "elektronik"
-  python tokopedia_gresik_v2.py --edit-kat "Lainnya|Produk Umum"
-  python tokopedia_gresik_v2.py --hapus-kat "Hobi & Koleksi"
+  python tokopedia_gresik_v2.py --tambah-kat "Pertanian" --kw "pupuk,bibit"
   python tokopedia_gresik_v2.py --lihat-kat
-  python tokopedia_gresik_v2.py --lihat-kat "Elektronik"
   python tokopedia_gresik_v2.py --riwayat
-
-CATATAN KATEGORI:
-  - Kategori diambil LANGSUNG dari breadcrumb / label kategori Tokopedia
-    di setiap halaman PDP produk, bukan dari mapping keyword manual.
-  - Jika Tokopedia tidak menampilkan kategori, fallback ke mapping keyword
-    yang bisa dikelola via CRUD di atas.
-  - Semua kategori yang pernah ditemukan disimpan di keywords_config.json
-    dan bisa diedit kapan saja.
 """
 
 import time, random, re, os, json, argparse
@@ -71,7 +67,6 @@ DEFAULT_KATA_GRESIK = [
     "sangkapura", "tambak",
 ]
 
-# Fallback mapping — hanya dipakai jika Tokopedia tidak menampilkan kategori
 DEFAULT_KATEGORI_MAPPING = {
     "Handphone & Aksesoris": ["hp ", "handphone", "casing hp", "hardcase", "softcase",
                                "tempered glass", "powerbank", "charger hp", "kabel data"],
@@ -107,13 +102,27 @@ DEFAULT_KATEGORI_MAPPING = {
     "Souvenir & Perayaan":   ["souvenir", "kado", "hampers", "balon", "dekorasi ulang tahun"],
 }
 
-# Badge / label resmi Tokopedia
 TOKOPEDIA_BADGE = ["official store", "power merchant", "star seller",
                    "mall", "topads", "tokopedia mall"]
 
-SKIP_PATTERNS = ["rp", "rating", "terjual", "bintang", "gratis", "%",
-                 "ongkir", "lihat", "tambah", "keranjang", "diskon",
-                 "flash sale", "voucher", "koin", "cashback"]
+# ══════════════════════════════════════════════════════
+# [FIX #1] SKIP_PATTERNS — tambahkan regex harga
+# ══════════════════════════════════════════════════════
+SKIP_PATTERNS = [
+    "rating", "terjual", "bintang", "gratis", "%",
+    "ongkir", "lihat", "tambah", "keranjang", "diskon",
+    "flash sale", "voucher", "koin", "cashback",
+]
+
+# Pola regex harga — menangkap semua format Rp
+_HARGA_RE = re.compile(r'^rp[\s.]?[\d.,]+', re.IGNORECASE)
+
+def baris_skip(baris):
+    """Return True jika baris adalah harga, rating, atau teks UI."""
+    b = baris.lower().strip()
+    if _HARGA_RE.match(b):
+        return True
+    return any(p in b for p in SKIP_PATTERNS) or len(baris) < 8
 
 # Blacklist teks yang bukan nama toko
 TOKO_BLACKLIST = [
@@ -133,7 +142,7 @@ CARD_SELECTORS = [
     "div[class*='ProductCard']",
     "div[class*='product-card']",
     "div[class*='prd_link']",
-    ".css-jza1fo",          # class umum grid produk Tokopedia
+    ".css-jza1fo",
     "li[class*='product']",
 ]
 
@@ -141,7 +150,7 @@ NAMA_PRODUK_SEL = [
     "[data-testid='linkProductName']",
     "[class*='prd_link-product-name']",
     "[class*='product-name']",
-    "span[class*='OHyMw']",   # hash class Tokopedia
+    "span[class*='OHyMw']",
     "a[class*='pcv3__info-content']",
     "h2", "h3",
     "span[class*='name']",
@@ -177,23 +186,36 @@ RATING_SEL = [
     "span[class*='stars']",
 ]
 
-# ── SELECTOR PDP Tokopedia ────────────────────────────────────────────────────
-# Nama toko
+# ── SELECTOR PDP ─────────────────────────────────────────────────────────────
+
+# [FIX #3] Nama toko — Tokopedia modern TIDAK pakai /shop/ di URL
+# Format URL toko: tokopedia.com/{nama-toko}
 PDP_TOKO_SEL = [
     "[data-testid='llbShopName'] a",
-    "[data-testid='llbShopName']",
     "a[data-testid='llbShopNameLink']",
-    "[class*='shopName'] a",
+    "[data-testid='llbShopName']",
+    # Selector class spesifik halaman PDP Tokopedia
+    "h2[class*='ShopInfoStyle'] a",
+    "h2[class*='shopName'] a",
+    "div[class*='ShopInfo'] h2 a",
+    "div[class*='shopInfo'] h2 a",
+    # Generik — cari <a> yang ke halaman toko (bukan /shop/ lagi)
+    "a[class*='shop-name']",
+    "a[class*='shopName']",
     "[class*='shop-name'] a",
-    "a[href*='/shop']",             # link ke halaman toko
-    "[class*='ShopInfo'] a",
-    "[class*='shopInfo'] a",
-    "h2[class*='shop']",
+    "[class*='shopName'] a",
 ]
 
-# Kategori produk — diambil dari breadcrumb Tokopedia
+# [FIX #2] Nama produk dari PDP — dipakai jika listing gagal
+PDP_NAMA_PRODUK_SEL = [
+    "h1[data-testid='lblPDPDetailProductName']",
+    "[data-testid='lblPDPDetailProductName']",
+    "h1[class*='css-']",
+    "h1",
+]
+
+# Kategori dari breadcrumb
 PDP_KATEGORI_SEL = [
-    # Breadcrumb Tokopedia (urutan: Beranda > Kategori > Sub-kategori > Produk)
     "[data-testid='divProductBreadcrumb'] a",
     "[class*='Breadcrumb'] a",
     "[class*='breadcrumb'] a",
@@ -201,14 +223,19 @@ PDP_KATEGORI_SEL = [
     "ol[class*='breadcrumb'] li a",
     "[class*='pdp-link_type_category'] a",
     "a[data-testid*='category']",
-    # Label kategori langsung
     "[data-testid='lblCategoryProduct']",
     "[class*='css-category']",
     "[class*='product-category']",
-    # Chip/tag kategori di bawah judul produk
     "[class*='ProductCategory']",
     "[class*='productCategory']",
 ]
+
+# Selector breadcrumb — untuk WebDriverWait
+BREADCRUMB_WAIT_SEL = (
+    "[data-testid='divProductBreadcrumb'], "
+    "nav[aria-label='breadcrumb'], "
+    "ol[class*='breadcrumb']"
+)
 
 PDP_RATING_TOKO_SEL = [
     "[data-testid='shopRating']",
@@ -240,13 +267,15 @@ PDP_BADGE_SEL = [
     "img[alt*='Star Seller']",
 ]
 
+BREADCRUMB_SKIP = {
+    "beranda", "home", "semua kategori", "all categories", "tokopedia", ""
+}
+
 
 # ══════════════════════════════════════════════════════
 # CRUD KATEGORI + RIWAYAT PERUBAHAN
 # ══════════════════════════════════════════════════════
 class KategoriManager:
-    """Mengelola CRUD kategori beserta riwayat setiap perubahan."""
-
     def __init__(self, kategori_mapping: dict, riwayat_path: str = RIWAYAT_FILE):
         self.kategori      = dict(kategori_mapping)
         self._riwayat_path = riwayat_path
@@ -276,7 +305,6 @@ class KategoriManager:
         self._simpan_riwayat()
         print(f"   📝 Riwayat: [{aksi}] {nama}")
 
-    # CREATE
     def tambah_kategori(self, nama: str, keywords: list) -> bool:
         if nama in self.kategori:
             print(f"   ⚠  Kategori '{nama}' sudah ada.")
@@ -287,7 +315,6 @@ class KategoriManager:
         print(f"   ✅ Kategori '{nama}' ditambahkan dengan {len(kw)} keyword.")
         return True
 
-    # READ
     def lihat_kategori(self, nama: str = None) -> None:
         if nama:
             if nama not in self.kategori:
@@ -304,7 +331,6 @@ class KategoriManager:
             for i, (nm, kw) in enumerate(self.kategori.items(), 1):
                 print(f"  {i:<4} {nm:<35} {len(kw)}")
 
-    # UPDATE — ganti nama
     def edit_nama_kategori(self, nama_lama: str, nama_baru: str) -> bool:
         if nama_lama not in self.kategori:
             print(f"   ❌ Kategori '{nama_lama}' tidak ditemukan.")
@@ -317,7 +343,6 @@ class KategoriManager:
         print(f"   ✅ '{nama_lama}' → '{nama_baru}'.")
         return True
 
-    # UPDATE — tambah keyword fallback
     def tambah_keyword(self, nama: str, keywords: list) -> bool:
         if nama not in self.kategori:
             print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
@@ -331,7 +356,6 @@ class KategoriManager:
         print(f"   ✅ {len(kw_baru)} keyword ditambahkan ke '{nama}'.")
         return True
 
-    # UPDATE — hapus keyword fallback
     def hapus_keyword(self, nama: str, keywords: list) -> bool:
         if nama not in self.kategori:
             print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
@@ -346,7 +370,6 @@ class KategoriManager:
         print(f"   ✅ {len(kw_dihapus)} keyword dihapus dari '{nama}'.")
         return True
 
-    # DELETE
     def hapus_kategori(self, nama: str) -> bool:
         if nama not in self.kategori:
             print(f"   ❌ Kategori '{nama}' tidak ditemukan.")
@@ -356,7 +379,6 @@ class KategoriManager:
         print(f"   ✅ Kategori '{nama}' dihapus (backup di riwayat).")
         return True
 
-    # Tampilkan riwayat
     def tampilkan_riwayat(self, n: int = 30) -> None:
         if not self._riwayat:
             print("   ℹ️  Belum ada riwayat perubahan.")
@@ -540,10 +562,6 @@ def bersihkan_terjual(raw):
     m = re.search(r"([\d.,]+[kmb]?)", raw, re.IGNORECASE)
     return m.group(1) if m else raw.strip()[:20]
 
-def baris_skip(baris):
-    b = baris.lower()
-    return any(p in b for p in SKIP_PATTERNS) or len(baris) < 8
-
 def ambil_teks_el(el, *sels):
     for s in sels:
         try:
@@ -563,7 +581,6 @@ def ambil_teks_driver(driver, *sels):
     return ""
 
 def standarisasi_kategori_fallback(teks, kategori_mapping):
-    """Dipakai hanya jika kategori tidak berhasil diambil dari website."""
     t = (teks or "").lower()
     for kat, kw_list in kategori_mapping.items():
         if any(kw in t for kw in kw_list): return kat
@@ -593,14 +610,14 @@ def ambil_nama_dari_link(driver, a_el):
     # 1. title attribute
     try:
         t = (a_el.get_attribute("title") or "").strip()
-        if t and len(t) > 5:
+        if t and len(t) > 5 and not baris_skip(t):
             return t
     except: pass
 
     # 2. teks langsung
     try:
         t = a_el.text.strip()
-        if t and len(t) > 5:
+        if t and len(t) > 5 and not baris_skip(t):
             return t[:200]
     except: pass
 
@@ -617,7 +634,8 @@ def ambil_nama_dari_link(driver, a_el):
                 try:
                     el = parent.find_element(By.CSS_SELECTOR, sel)
                     t = el.text.strip()
-                    if t and len(t) > 5: return t[:200]
+                    if t and len(t) > 5 and not baris_skip(t):
+                        return t[:200]
                 except: pass
             try:
                 inner = parent.text or ""
@@ -633,21 +651,121 @@ def ambil_nama_dari_link(driver, a_el):
 
 
 # ══════════════════════════════════════════════════════
-# AMBIL KATEGORI LANGSUNG DARI TOKOPEDIA (BREADCRUMB PDP)
+# [FIX #3] AMBIL NAMA TOKO DARI PDP — selector diperbaiki
 # ══════════════════════════════════════════════════════
-# Teks yang harus diabaikan dari breadcrumb
-BREADCRUMB_SKIP = {
-    "beranda", "home", "semua kategori", "all categories", "tokopedia", ""
-}
+def _teks_valid_nama_toko(teks):
+    if not teks:
+        return False
+    t = teks.strip()
+    t_lower = t.lower()
+    if len(t) < 2 or len(t) > 80:
+        return False
+    if ">" in t or "<" in t:
+        return False
+    if any(bl in t_lower for bl in TOKO_BLACKLIST):
+        return False
+    if re.match(r'^[\d\s\-_.,]+$', t):
+        return False
+    # [FIX] jangan ambil teks yang berisi harga
+    if _HARGA_RE.match(t_lower):
+        return False
+    return True
 
+def _ambil_nama_toko_dari_pdp(driver):
+    """
+    [FIX #3] Tokopedia modern: URL toko adalah tokopedia.com/{nama-toko}
+    BUKAN tokopedia.com/shop/{nama-toko}.
+    Selector lama 'a[href*="/shop/"]' tidak cocok lagi.
+    """
+    # Prioritas 1: selector data-testid resmi Tokopedia
+    for sel in ["[data-testid='llbShopName'] a",
+                "a[data-testid='llbShopNameLink']",
+                "[data-testid='llbShopName']"]:
+        try:
+            els = driver.find_elements(By.CSS_SELECTOR, sel)
+            for el in els:
+                t = el.text.strip()
+                if _teks_valid_nama_toko(t):
+                    href = ""
+                    try:
+                        href = el.get_attribute("href") or ""
+                        if href and "tokopedia.com" not in href:
+                            href = ""
+                    except: pass
+                    if not href:
+                        try:
+                            a = el.find_element(By.TAG_NAME, "a")
+                            href = a.get_attribute("href") or ""
+                        except: pass
+                    return t, href
+        except: pass
+
+    # Prioritas 2: selector class PDP Tokopedia
+    for sel in PDP_TOKO_SEL[3:]:
+        try:
+            els = driver.find_elements(By.CSS_SELECTOR, sel)
+            for el in els:
+                t = el.text.strip()
+                if not _teks_valid_nama_toko(t):
+                    continue
+                href = ""
+                try:
+                    href = el.get_attribute("href") or ""
+                    if href and "tokopedia.com" not in href:
+                        href = ""
+                except: pass
+                return t, href
+        except: pass
+
+    # Prioritas 3: [FIX] scan semua <a> ke domain tokopedia.com/{slug}
+    # Pola URL toko baru: https://www.tokopedia.com/{nama-toko}
+    # (bukan /shop/, bukan /search, bukan /product, dll.)
+    _TOKO_URL_RE = re.compile(
+        r'https?://(?:www\.)?tokopedia\.com/([a-z0-9._-]+)/?$',
+        re.IGNORECASE
+    )
+    _URL_BUKAN_TOKO = {
+        "search", "product", "promo", "discovery", "login", "register",
+        "help", "contact", "blog", "official", "mall", "kategori",
+        "hot-list", "wishlist", "cart", "checkout", "order", "account",
+        "notification", "chat", "voucher", "topads", "seller-edu",
+        "gold-merchant", "broadcast", "campaign", "events", "tokocabang",
+    }
+    try:
+        for el in driver.find_elements(By.TAG_NAME, "a"):
+            href = el.get_attribute("href") or ""
+            m = _TOKO_URL_RE.match(href)
+            if not m:
+                continue
+            slug = m.group(1).lower()
+            if slug in _URL_BUKAN_TOKO:
+                continue
+            t = el.text.strip()
+            if _teks_valid_nama_toko(t):
+                return t, href
+    except: pass
+
+    return "-", "-"
+
+
+# ══════════════════════════════════════════════════════
+# [FIX #4] AMBIL KATEGORI DARI BREADCRUMB + WebDriverWait
+# ══════════════════════════════════════════════════════
 def _ambil_kategori_dari_breadcrumb(driver):
     """
-    Mengambil kategori produk dari breadcrumb halaman PDP Tokopedia.
-    Breadcrumb format: Beranda > Kategori Utama > Sub-kategori > [Nama Produk]
-    Kita ambil level 2 (Kategori Utama) atau level 3 (Sub-kategori).
-
-    Mengembalikan tuple: (kategori_utama, sub_kategori)
+    [FIX #4] Tunggu breadcrumb muncul dulu (React async render)
+    sebelum membaca isinya.
     """
+    # Tunggu breadcrumb muncul — maks 6 detik
+    try:
+        WebDriverWait(driver, 6).until(
+            EC.presence_of_element_located(
+                (By.CSS_SELECTOR, BREADCRUMB_WAIT_SEL)
+            )
+        )
+    except TimeoutException:
+        pass  # lanjut dengan fallback JSON-LD
+
     kategori_utama = ""
     sub_kategori   = ""
 
@@ -663,8 +781,7 @@ def _ambil_kategori_dari_breadcrumb(driver):
                 if t and t.lower() not in BREADCRUMB_SKIP:
                     teks_list.append(t)
 
-            # Breadcrumb: [Kat Utama, Sub-kat, ...] — buang item terakhir
-            # kalau itu mirip nama produk (panjang > 40 karakter)
+            # Buang elemen terakhir jika panjang (kemungkinan nama produk)
             if teks_list and len(teks_list[-1]) > 40:
                 teks_list = teks_list[:-1]
 
@@ -677,28 +794,25 @@ def _ambil_kategori_dari_breadcrumb(driver):
                 return kategori_utama, ""
         except: pass
 
-    # Fallback: cari teks breadcrumb via JSON-LD (structured data Tokopedia)
+    # Fallback: JSON-LD structured data
     try:
-        scripts = driver.find_elements(By.CSS_SELECTOR, "script[type='application/ld+json']")
+        scripts = driver.find_elements(By.CSS_SELECTOR,
+                                        "script[type='application/ld+json']")
         for sc in scripts:
             try:
                 data = json.loads(sc.get_attribute("innerHTML") or "")
-                # BreadcrumbList
                 if data.get("@type") == "BreadcrumbList":
                     items = data.get("itemListElement", [])
-                    # items: [{position, name, item}]
                     breadcrumbs = [
                         it["name"] for it in items
                         if it.get("name", "").lower() not in BREADCRUMB_SKIP
                     ]
-                    # Buang item terakhir kalau panjang (kemungkinan nama produk)
                     if breadcrumbs and len(breadcrumbs[-1]) > 40:
                         breadcrumbs = breadcrumbs[:-1]
                     if len(breadcrumbs) >= 2:
                         return breadcrumbs[0], breadcrumbs[1]
                     elif len(breadcrumbs) == 1:
                         return breadcrumbs[0], ""
-                # Product dengan breadcrumb embedded
                 if data.get("@type") == "Product":
                     kat = data.get("category", "")
                     if kat:
@@ -714,73 +828,7 @@ def _ambil_kategori_dari_breadcrumb(driver):
 
 
 # ══════════════════════════════════════════════════════
-# AMBIL NAMA TOKO DARI PDP
-# ══════════════════════════════════════════════════════
-def _teks_valid_nama_toko(teks):
-    if not teks:
-        return False
-    t = teks.strip()
-    t_lower = t.lower()
-    if len(t) < 2 or len(t) > 80:
-        return False
-    if ">" in t or "<" in t:
-        return False
-    if any(bl in t_lower for bl in TOKO_BLACKLIST):
-        return False
-    if re.match(r'^[\d\s\-_.,]+$', t):
-        return False
-    return True
-
-def _ambil_nama_toko_dari_pdp(driver):
-    # Prioritas 1: link ke /shop/
-    for sel in ["a[href*='/shop/']", "a[data-testid='llbShopNameLink']"]:
-        try:
-            els = driver.find_elements(By.CSS_SELECTOR, sel)
-            for el in els:
-                t    = el.text.strip()
-                href = el.get_attribute("href") or ""
-                if _teks_valid_nama_toko(t) and "tokopedia.com" in href:
-                    return t, href
-        except: pass
-
-    # Prioritas 2: selector class
-    for sel in PDP_TOKO_SEL:
-        try:
-            els = driver.find_elements(By.CSS_SELECTOR, sel)
-            for el in els:
-                t = el.text.strip()
-                if not _teks_valid_nama_toko(t):
-                    continue
-                href = ""
-                try:
-                    href = el.get_attribute("href") or ""
-                    if href and "tokopedia.com" not in href:
-                        href = ""
-                except: pass
-                if not href:
-                    try:
-                        a = el.find_element(By.TAG_NAME, "a")
-                        href = a.get_attribute("href") or ""
-                    except: pass
-                return t, href
-        except: pass
-
-    # Prioritas 3: scan semua <a> ke /shop/
-    try:
-        for el in driver.find_elements(By.TAG_NAME, "a"):
-            href = el.get_attribute("href") or ""
-            if "/shop/" not in href or "tokopedia.com" not in href:
-                continue
-            t = el.text.strip()
-            if _teks_valid_nama_toko(t):
-                return t, href
-    except: pass
-
-    return "-", "-"
-
-
-# ══════════════════════════════════════════════════════
-# LANGKAH 1: Buka Tokopedia, cari URL listing toko Gresik
+# LANGKAH 1: URL filter toko Gresik
 # ══════════════════════════════════════════════════════
 CANDIDATE_URLS = [
     "https://www.tokopedia.com/search?q=gresik&st=shop&location=Kab.+Gresik",
@@ -796,9 +844,7 @@ def _url_punya_toko(driver, url, kata_gresik):
     time.sleep(4)
     tutup_popup(driver)
     scroll_halaman(driver, jumlah=5, jeda_antar=0.2)
-
     body = driver.find_element(By.TAG_NAME, "body").text
-    # Cek ada konten toko dan ada kata Gresik
     ada_toko = (
         "toko" in body.lower()
         or len(driver.find_elements(By.CSS_SELECTOR,
@@ -809,7 +855,6 @@ def _url_punya_toko(driver, url, kata_gresik):
 
 def aktifkan_filter(driver, kata_gresik):
     print("\n📍 Mencari URL listing toko Gresik di Tokopedia...")
-
     for url in CANDIDATE_URLS:
         print(f"   Coba: {url[:75]}...", end=" ", flush=True)
         try:
@@ -819,11 +864,10 @@ def aktifkan_filter(driver, kata_gresik):
             continue
         if ada:
             print(f"✅")
-            return driver.current_url  # URL aktual setelah redirect
+            return driver.current_url
         else:
             print("⬜")
 
-    # Coba klik filter manual
     print("\n   Coba klik filter sidebar Gresik...")
     return _coba_filter_sidebar(driver, kata_gresik)
 
@@ -832,10 +876,8 @@ def _coba_filter_sidebar(driver, kata_gresik):
     time.sleep(5)
     tutup_popup(driver)
     scroll_halaman(driver, jumlah=8, jeda_antar=0.15)
-
     target = ["kab. gresik", "kab.gresik", "kabupaten gresik", "gresik"]
 
-    # Klik "lihat selengkapnya" di filter lokasi kalau ada
     for xpath in [
         "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ',"
         "'abcdefghijklmnopqrstuvwxyz'),'lihat selengkapnya')]",
@@ -872,7 +914,7 @@ def _coba_filter_sidebar(driver, kata_gresik):
 
 
 # ══════════════════════════════════════════════════════
-# LANGKAH 2: Kumpulkan URL produk dari listing toko
+# LANGKAH 2: Kumpulkan URL produk dari listing
 # ══════════════════════════════════════════════════════
 MAX_RETRY = 3
 
@@ -883,7 +925,7 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
     scroll_halaman(driver, jumlah=12, jeda_antar=0.2)
     baru = 0
 
-    # ── Strategi 1: Cari kartu produk via selector ────────────────────────────
+    # ── Strategi 1: Kartu produk via selector ────────────────────────────────
     for sel in CARD_SELECTORS:
         cards = driver.find_elements(By.CSS_SELECTOR, sel)
         if len(cards) < 2:
@@ -901,7 +943,6 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                 for a in card.find_elements(By.TAG_NAME, "a"):
                     try:
                         h = a.get_attribute("href") or ""
-                        # URL produk Tokopedia: domain.com/shopname/produk
                         if ("tokopedia.com/" in h
                                 and "/shop/" not in h
                                 and "/search" not in h
@@ -921,16 +962,27 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                 if not url_prod or url_prod in semua:
                     continue
 
+                # Coba ambil nama dari selector khusus jika belum ada
                 if not nama:
                     nama = ambil_teks_el(card, *NAMA_PRODUK_SEL)
+                    # [FIX #1] Pastikan nama bukan harga
+                    if nama and baris_skip(nama):
+                        nama = ""
+
+                # Fallback: ambil dari baris teks kartu
                 if not nama:
                     for l in teks.split("\n"):
                         l = l.strip()
                         if l and not baris_skip(l) and len(l) > 8:
                             nama = l[:200]
                             break
+
+                # [FIX #5] Jika nama masih kosong, simpan dengan nama sementara
+                # akan diisi dari PDP nanti
                 if not nama:
-                    nama = f"(produk-{url_prod.split('/')[-1][:30]})"
+                    slug = url_prod.rstrip("/").split("/")[-1]
+                    slug_clean = slug.replace("-", " ").strip()
+                    nama = slug_clean[:200] if len(slug_clean) > 4 else "__pdp__"
 
                 harga   = ambil_teks_el(card, *HARGA_SEL)
                 lokasi  = ambil_teks_el(card, *LOKASI_SEL)
@@ -952,11 +1004,10 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                     "rating_produk" : bersihkan_rating(rating),
                     "terjual"       : bersihkan_terjual(terjual),
                     "badge"         : deteksi_badge_teks(teks),
-                    # Diisi saat PDP
                     "nama_toko"     : "-",
                     "url_toko"      : "-",
                     "rating_toko"   : "-",
-                    "kategori_web"  : "",   # dari breadcrumb Tokopedia
+                    "kategori_web"  : "",
                     "sub_kategori"  : "",
                 }
                 baru += 1
@@ -990,8 +1041,11 @@ def _scrape_satu_halaman(driver, url, kata_gresik, semua, halaman_ke, debug=Fals
                 seen_s2.add(url_prod)
 
                 nama = ambil_nama_dari_link(driver, a_el)
+                # [FIX #1] Pastikan nama bukan harga
+                if nama and baris_skip(nama):
+                    nama = ""
+
                 if not nama or len(nama) < 5:
-                    # Ambil dari slug terakhir URL
                     slug = url_prod.rstrip("/").split("/")[-1]
                     slug_clean = slug.replace("-", " ").strip()
                     if len(slug_clean) < 5:
@@ -1072,18 +1126,19 @@ def kumpulkan_url_produk(driver, url_filter, kata_gresik,
 
 
 # ══════════════════════════════════════════════════════
-# LANGKAH 3: Buka PDP paralel — ambil nama toko + KATEGORI DARI WEB
+# LANGKAH 3: PDP paralel — nama toko + kategori + [FIX #2] nama produk
 # ══════════════════════════════════════════════════════
 def _ambil_satu_pdp(url, headless):
     driver = None
     hasil = {
+        "nama_produk"  : "-",   # [FIX #2] tambahan field baru
         "nama_toko"    : "-",
         "url_toko"     : "-",
         "rating_toko"  : "-",
         "rating_produk": "-",
         "terjual"      : "-",
-        "kategori_web" : "",   # kategori utama dari breadcrumb Tokopedia
-        "sub_kategori" : "",   # sub-kategori dari breadcrumb Tokopedia
+        "kategori_web" : "",
+        "sub_kategori" : "",
         "badge"        : "-",
     }
     try:
@@ -1094,17 +1149,40 @@ def _ambil_satu_pdp(url, headless):
         driver.execute_script("window.scrollBy(0, 500)")
         time.sleep(0.6)
 
-        # ── Nama & URL toko ──────────────────────────────────────────────────
+        # ── [FIX #2] Nama produk dari PDP ───────────────────────────────────
+        # Dipakai jika listing hanya dapat slug atau "__pdp__"
+        try:
+            WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR,
+                     "[data-testid='lblPDPDetailProductName'], h1")
+                )
+            )
+        except TimeoutException:
+            pass
+
+        nama_prod = ambil_teks_driver(driver, *PDP_NAMA_PRODUK_SEL)
+        if not nama_prod:
+            # Ambil dari <title> halaman: "Nama Produk | Tokopedia"
+            try:
+                title = driver.title or ""
+                nama_prod = title.split("|")[0].strip()
+                if baris_skip(nama_prod) or len(nama_prod) < 4:
+                    nama_prod = ""
+            except: pass
+        hasil["nama_produk"] = nama_prod[:200] if nama_prod else "-"
+
+        # ── [FIX #3] Nama & URL toko ─────────────────────────────────────────
         nama_toko, url_toko = _ambil_nama_toko_dari_pdp(driver)
         hasil["nama_toko"] = nama_toko
         hasil["url_toko"]  = url_toko
 
-        # ── Kategori LANGSUNG dari breadcrumb Tokopedia ──────────────────────
+        # ── [FIX #4] Kategori dari breadcrumb + wait ─────────────────────────
         kat_utama, sub_kat = _ambil_kategori_dari_breadcrumb(driver)
         hasil["kategori_web"] = kat_utama
         hasil["sub_kategori"] = sub_kat
 
-        # ── Rating toko ──────────────────────────────────────────────────────
+        # ── Rating toko ───────────────────────────────────────────────────────
         hasil["rating_toko"] = bersihkan_rating(
             ambil_teks_driver(driver, *PDP_RATING_TOKO_SEL)
         )
@@ -1139,7 +1217,7 @@ def ambil_info_pdp_paralel(produk_list, workers, headless):
                    if p.get("url_produk", "-") != "-"}
     urls = list(url_ke_item.keys())
 
-    print(f"\n🏪 Ambil info PDP (toko + kategori web) — "
+    print(f"\n🏪 Ambil info PDP (toko + kategori + nama) — "
           f"{total} produk, {workers} browser paralel...")
 
     selesai = 0
@@ -1150,11 +1228,24 @@ def ambil_info_pdp_paralel(produk_list, workers, headless):
         for future in as_completed(future_map):
             url, hasil = future.result()
             item = url_ke_item[url]
+
+            # [FIX #5] Update nama produk jika listing gagal/kosong/slug/harga
+            nama_lama = item.get("nama_produk", "-")
+            nama_pdp  = hasil.get("nama_produk", "-")
+            if (nama_pdp and nama_pdp != "-" and (
+                nama_lama in ["-", "", "__pdp__"]
+                or baris_skip(nama_lama)
+                or _HARGA_RE.match((nama_lama or "").lower())
+                or len(nama_lama) < 5
+            )):
+                item["nama_produk"] = nama_pdp
+
             item["nama_toko"]    = hasil["nama_toko"]
             item["url_toko"]     = hasil["url_toko"]
             item["rating_toko"]  = hasil["rating_toko"]
             item["kategori_web"] = hasil["kategori_web"]
             item["sub_kategori"] = hasil["sub_kategori"]
+
             if item.get("badge", "-") == "-":
                 item["badge"] = hasil["badge"]
             if item.get("rating_produk", "-") == "-":
@@ -1166,12 +1257,20 @@ def ambil_info_pdp_paralel(produk_list, workers, headless):
             if selesai % 10 == 0 or selesai == total:
                 dapat_toko = sum(1 for p in produk_list if p["nama_toko"] != "-")
                 dapat_kat  = sum(1 for p in produk_list if p.get("kategori_web"))
+                dapat_nama = sum(1 for p in produk_list
+                                 if p["nama_produk"] not in ["-", "", "__pdp__"]
+                                 and not baris_skip(p["nama_produk"]))
                 print(f"   [{selesai:>4}/{total}] selesai "
-                      f"| toko: {dapat_toko} | kategori web: {dapat_kat}")
+                      f"| nama: {dapat_nama} | toko: {dapat_toko} "
+                      f"| kategori web: {dapat_kat}")
 
     dapat_toko = sum(1 for p in produk_list if p["nama_toko"] != "-")
     dapat_kat  = sum(1 for p in produk_list if p.get("kategori_web"))
-    print(f"\n   ✅ Nama toko: {dapat_toko}/{total} "
+    dapat_nama = sum(1 for p in produk_list
+                     if p["nama_produk"] not in ["-", "", "__pdp__"]
+                     and not baris_skip(p["nama_produk"]))
+    print(f"\n   ✅ Nama produk: {dapat_nama}/{total} "
+          f"| Nama toko: {dapat_toko}/{total} "
           f"| Kategori dari web: {dapat_kat}/{total}")
     return produk_list
 
@@ -1186,7 +1285,16 @@ def simpan_csv(data_list, kategori_mapping):
 
     df = pd.DataFrame(data_list)
 
-    # Kolom kategori: utamakan dari web, fallback ke keyword mapping
+    # Bersihkan nama produk yang masih berupa slug atau sementara
+    def bersihkan_nama(v):
+        if not v or v in ["-", "__pdp__"]:
+            return "-"
+        if baris_skip(str(v)):
+            return "-"
+        return str(v)
+
+    df["nama_produk"] = df["nama_produk"].apply(bersihkan_nama)
+
     def tentukan_kategori(row):
         if row.get("kategori_web"):
             return row["kategori_web"]
@@ -1196,9 +1304,9 @@ def simpan_csv(data_list, kategori_mapping):
     def tentukan_sub(row):
         return row.get("sub_kategori", "") or ""
 
-    df["kategori"]    = df.apply(tentukan_kategori, axis=1)
+    df["kategori"]     = df.apply(tentukan_kategori, axis=1)
     df["sub_kategori"] = df.apply(tentukan_sub, axis=1)
-    df["platform"]    = "Tokopedia"
+    df["platform"]     = "Tokopedia"
     df["waktu_scrape"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     df = df.drop_duplicates(subset=["url_produk"])
 
@@ -1211,7 +1319,7 @@ def simpan_csv(data_list, kategori_mapping):
     df_out = df[[c for c in kolom if c in df.columns]]
     df_out.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig")
 
-    # Ringkasan per toko
+    # Per toko
     file_toko = os.path.join(OUTPUT_DIR, "toko_gresik_tokopedia_per_toko.csv")
     grp_toko = (
         df[df["nama_toko"] != "-"]
@@ -1226,7 +1334,7 @@ def simpan_csv(data_list, kategori_mapping):
     )
     grp_toko.to_csv(file_toko, index=False, encoding="utf-8-sig")
 
-    # Ringkasan per lokasi
+    # Per lokasi
     file_lokasi = os.path.join(OUTPUT_DIR, "toko_gresik_tokopedia_per_lokasi.csv")
     grp_lokasi = (
         df.groupby("lokasi_seller")
@@ -1240,7 +1348,7 @@ def simpan_csv(data_list, kategori_mapping):
     )
     grp_lokasi.to_csv(file_lokasi, index=False, encoding="utf-8-sig")
 
-    # Ringkasan per kategori
+    # Per kategori
     file_kat = os.path.join(OUTPUT_DIR, "toko_gresik_tokopedia_per_kategori.csv")
     grp_kat = (
         df.groupby(["kategori", "sub_kategori"])
@@ -1253,15 +1361,18 @@ def simpan_csv(data_list, kategori_mapping):
     )
     grp_kat.to_csv(file_kat, index=False, encoding="utf-8-sig")
 
-    # Statistik coverage kategori dari web
-    dari_web    = int((df["kategori_web"] != "").sum()) if "kategori_web" in df.columns else 0
+    dari_web    = int((df.get("kategori_web", pd.Series([""] * len(df))) != "").sum())
     dari_fallbk = len(df) - dari_web
 
+    nama_ok = int((df["nama_produk"] != "-").sum())
+    toko_ok = int((df["nama_toko"] != "-").sum())
+
     print(f"\n{'='*64}")
-    print(f"  HASIL SCRAPING TOKO GRESIK DI TOKOPEDIA v2")
+    print(f"  HASIL SCRAPING TOKO GRESIK DI TOKOPEDIA v2 (FIXED)")
     print(f"{'='*64}")
     print(f"  📦 Total produk unik      : {len(df)}")
-    print(f"  🏪 Total toko unik        : {df[df['nama_toko'] != '-']['nama_toko'].nunique()}")
+    print(f"  📝 Nama produk terisi     : {nama_ok} / {len(df)}")
+    print(f"  🏪 Nama toko terisi       : {toko_ok} / {len(df)}")
     print(f"  📍 Wilayah Gresik         : {df['lokasi_seller'].nunique()}")
     print(f"  🏷️  Kategori terdeteksi   : {df['kategori'].nunique()}")
     print(f"  🌐 Kategori dari web      : {dari_web} produk")
@@ -1311,19 +1422,18 @@ def ekspor_dashboard(df, kata_gresik, kategori_mapping):
                 "badge", "rating_produk", "terjual", "url_produk"
             ]].to_dict(orient="records")
             data_toko.append({
-                "nama_toko"       : nama_toko,
-                "lokasi"          : lokasi,
-                "url_toko"        : url_toko,
-                "rating_toko"     : rating_toko,
-                "jumlah_produk"   : len(grp),
-                "kategori_dijual" : sorted(grp["kategori"].unique().tolist()),
-                "badge"           : grp["badge"].mode()[0]
-                                    if not grp["badge"].empty else "-",
-                "produk"          : produk_toko,
+                "nama_toko"      : nama_toko,
+                "lokasi"         : lokasi,
+                "url_toko"       : url_toko,
+                "rating_toko"    : rating_toko,
+                "jumlah_produk"  : len(grp),
+                "kategori_dijual": sorted(grp["kategori"].unique().tolist()),
+                "badge"          : grp["badge"].mode()[0]
+                                   if not grp["badge"].empty else "-",
+                "produk"         : produk_toko,
             })
         data_toko.sort(key=lambda x: x["jumlah_produk"], reverse=True)
 
-        # Kategori yang ditemukan dari web (bukan fallback)
         dari_web = {}
         if "kategori_web" in df.columns:
             dari_web = (
@@ -1364,50 +1474,22 @@ def ekspor_dashboard(df, kata_gresik, kategori_mapping):
 
 
 # ══════════════════════════════════════════════════════
-# ARGUMEN CLI
+# CLI
 # ══════════════════════════════════════════════════════
 def parse_args():
     p = argparse.ArgumentParser(
-        description="Scraper toko Gresik di Tokopedia v2",
+        description="Scraper toko Gresik di Tokopedia v2 (FIXED)",
         formatter_class=argparse.RawTextHelpFormatter,
-        epilog="""
-CONTOH PENGGUNAAN:
-  # Scraping biasa
-  python tokopedia_gresik_v2.py
-  python tokopedia_gresik_v2.py --url "https://www.tokopedia.com/search?q=gresik&st=shop"
-  python tokopedia_gresik_v2.py --headful --debug --workers 3
-  python tokopedia_gresik_v2.py --no-pdp   # skip PDP, hanya listing
-
-  # CRUD Kategori (keyword fallback)
-  python tokopedia_gresik_v2.py --tambah-kat "Pertanian" --kw "pupuk,bibit,cangkul"
-  python tokopedia_gresik_v2.py --tambah-kw "Makanan & Minuman" --kw "jamu,wedang"
-  python tokopedia_gresik_v2.py --hapus-kw "Elektronik" --kw "elektronik"
-  python tokopedia_gresik_v2.py --edit-kat "Lainnya|Produk Umum"
-  python tokopedia_gresik_v2.py --hapus-kat "Hobi & Koleksi"
-  python tokopedia_gresik_v2.py --lihat-kat
-  python tokopedia_gresik_v2.py --lihat-kat "Elektronik"
-  python tokopedia_gresik_v2.py --riwayat
-"""
     )
+    p.add_argument("--keywords", type=str, default="")
+    p.add_argument("--config",   type=str, default=CONFIG_FILE_DEF)
+    p.add_argument("--url",      type=str, default="")
+    p.add_argument("--workers",  type=int, default=DEFAULT_WORKERS)
+    p.add_argument("--headful",  action="store_true")
+    p.add_argument("--debug",    action="store_true")
+    p.add_argument("--no-pdp",   action="store_true")
 
-    # Scraping
-    p.add_argument("--keywords", type=str, default="",
-                   help="Keyword lokasi tambahan, pisah koma")
-    p.add_argument("--config",   type=str, default=CONFIG_FILE_DEF,
-                   help="Path file konfigurasi JSON")
-    p.add_argument("--url",      type=str, default="",
-                   help="URL filter Tokopedia langsung (skip langkah aktifkan_filter)")
-    p.add_argument("--workers",  type=int, default=DEFAULT_WORKERS,
-                   help=f"Browser paralel untuk PDP (default {DEFAULT_WORKERS})")
-    p.add_argument("--headful",  action="store_true",
-                   help="Tampilkan browser (nonaktifkan headless)")
-    p.add_argument("--debug",    action="store_true",
-                   help="Screenshot + page source saat 0 produk ditemukan")
-    p.add_argument("--no-pdp",   action="store_true",
-                   help="Skip tahap PDP (hanya data listing, tanpa nama toko & kategori web)")
-
-    # CRUD Kategori
-    grp = p.add_argument_group("CRUD Kategori Fallback")
+    grp = p.add_argument_group("CRUD Kategori")
     grp.add_argument("--tambah-kat", type=str, default="", metavar="NAMA")
     grp.add_argument("--hapus-kat",  type=str, default="", metavar="NAMA")
     grp.add_argument("--edit-kat",   type=str, default="", metavar="LAMA|BARU")
@@ -1430,14 +1512,11 @@ def main():
     headless = not args.headful
 
     print("╔══════════════════════════════════════════════════════════════╗")
-    print("║   SCRAPER TOKO GRESIK DI TOKOPEDIA — v2                     ║")
+    print("║   SCRAPER TOKO GRESIK DI TOKOPEDIA — v2 FIXED               ║")
     print(f"║   Mulai : {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}                              ║")
     print(f"║   Mode  : {'HEADLESS' if headless else 'HEADFUL':<10} | Workers PDP: {args.workers:<3}              ║")
-    print("║   Kategori : LANGSUNG dari breadcrumb Tokopedia              ║")
+    print("║   FIX   : nama produk, nama toko, kategori, filter harga    ║")
     print("╚══════════════════════════════════════════════════════════════╝\n")
-
-    if args.debug:
-        print("   🔍 MODE DEBUG AKTIF\n")
 
     cfg         = muat_konfigurasi(args.config)
     cfg         = gabungkan_keyword_cli(cfg, args.keywords)
@@ -1447,7 +1526,7 @@ def main():
         riwayat_path=RIWAYAT_FILE,
     )
 
-    # ── CRUD ────────────────────────────────────────────────────────────────
+    # ── CRUD ─────────────────────────────────────────────────────────────────
     crud_dilakukan = False
 
     if args.riwayat:
@@ -1488,23 +1567,17 @@ def main():
     if crud_dilakukan:
         cfg["kategori_mapping"] = kat_mgr.ke_dict()
         simpan_konfigurasi(args.config, cfg)
-        print(f"\n  💾 Config disimpan  : {args.config}")
-        print(f"  📋 Riwayat          : {RIWAYAT_FILE}")
+        print(f"\n  💾 Config  : {args.config}")
+        print(f"  📋 Riwayat : {RIWAYAT_FILE}")
         if not args.url and not args.keywords:
             return
 
     kategori_mapping = kat_mgr.ke_dict()
-
-    print(f"  🔑 Keyword aktif  ({len(kata_gresik)}): {', '.join(kata_gresik)}")
-    print(f"  🏷️  Kategori fallback ({len(kategori_mapping)}): "
-          f"{', '.join(list(kategori_mapping.keys())[:5])}...")
-    print(f"  🌐 Kategori utama  : diambil LANGSUNG dari breadcrumb Tokopedia\n")
-
     cfg["kata_gresik"]      = kata_gresik
     cfg["kategori_mapping"] = kategori_mapping
     simpan_konfigurasi(args.config, cfg)
 
-    # ── Scraping ─────────────────────────────────────────────────────────────
+    # ── Scraping ──────────────────────────────────────────────────────────────
     driver = buat_browser(headless=headless)
     produk = []
 
@@ -1513,11 +1586,9 @@ def main():
         if not url_filter:
             print("\n❌ Gagal mendapatkan URL filter.")
             print("   Coba: python tokopedia_gresik_v2.py --headful")
-            print("   Atau: python tokopedia_gresik_v2.py --url \"<URL>\"")
             return
 
         print(f"\n   ✅ URL filter: {url_filter[:100]}...")
-
         produk, driver = kumpulkan_url_produk(
             driver, url_filter, kata_gresik,
             headless=headless, debug=args.debug
@@ -1531,9 +1602,7 @@ def main():
             ekspor_dashboard(None, kata_gresik, kategori_mapping)
             return
 
-        # Backup listing
-        backup = os.path.join(OUTPUT_DIR,
-                              "toko_gresik_tokopedia_listing_backup.csv")
+        backup = os.path.join(OUTPUT_DIR, "toko_gresik_tokopedia_listing_backup.csv")
         pd.DataFrame(produk).to_csv(backup, index=False, encoding="utf-8-sig")
         print(f"\n   💾 Backup listing → output/toko_gresik_tokopedia_listing_backup.csv")
 

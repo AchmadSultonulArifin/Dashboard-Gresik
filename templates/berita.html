@@ -85,6 +85,32 @@
     </div>
 </div>
 
+<!-- ── ANALISIS AI ─────────────────────────────────────── -->
+<div class="card" style="margin-bottom:20px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;
+                flex-wrap:wrap;gap:10px;margin-bottom:12px;">
+        <div>
+            <h2 style="font-size:14px;font-weight:600;color:#374151;margin:0;">
+                🤖 Analisis AI Berita
+            </h2>
+            <div id="aiUpdate" style="font-size:11px;color:#9ca3af;margin-top:3px;">
+                Belum ada analisis
+            </div>
+        </div>
+        <button id="btnAI" onclick="aiPerbarui()"
+                style="padding:9px 18px;background:#4f46e5;color:#fff;border:none;
+                       border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;
+                       transition:.15s;"
+                onmouseover="this.style.background='#4338ca'"
+                onmouseout="this.style.background='#4f46e5'">
+            🔄 Perbarui Analisis
+        </button>
+    </div>
+
+    <div id="aiStatus" style="font-size:12px;color:#6b7280;margin-bottom:10px;"></div>
+    <div id="aiIsi"></div>
+</div>
+
 <!-- ── CHARTS ────────────────────────────────────────────── -->
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px;">
     <div class="card" style="margin-bottom:0;">
@@ -597,5 +623,147 @@ function gantiHalaman(h) {
     renderHalaman();
     renderPaginasi();
 })();
+</script>
+
+<script>
+/* ═══════════════════════════════════════════════
+   ANALISIS AI (n8n)
+═══════════════════════════════════════════════ */
+function aiEl(tag, teks, gaya) {
+    const e = document.createElement(tag);
+    e.textContent = (teks === undefined || teks === null) ? "" : teks;
+    if (gaya) e.style.cssText = gaya;
+    return e;
+}
+
+function aiBadge(teks, bg, warna) {
+    return aiEl("span", teks,
+        `font-size:11px;padding:3px 9px;border-radius:20px;font-weight:600;
+         background:${bg};color:${warna};white-space:nowrap;`);
+}
+
+function aiWarnaSentimen(s) {
+    const x = (s || "").toLowerCase();
+    if (x === "positif") return ["#d1fae5", "#065f46"];
+    if (x === "negatif") return ["#fee2e2", "#991b1b"];
+    return ["#f3f4f6", "#374151"];
+}
+
+function aiTabel(kolom, baris) {
+    const wrap = aiEl("div", "", "overflow-x:auto;margin-bottom:6px;");
+    const t = document.createElement("table");
+    t.style.cssText = "width:100%;border-collapse:collapse;font-size:13px;";
+    const thead = t.createTHead().insertRow();
+    thead.style.background = "#f9fafb";
+    kolom.forEach(k => {
+        thead.appendChild(aiEl("th", k.label,
+            "padding:10px 12px;text-align:left;color:#6b7280;font-weight:600;" + (k.lebar ? `width:${k.lebar};` : "")));
+    });
+    const tb = t.createTBody();
+    baris.forEach(b => {
+        const tr = tb.insertRow();
+        tr.style.borderBottom = "1px solid #f1f5f9";
+        kolom.forEach(k => {
+            const td = tr.insertCell();
+            td.style.cssText = "padding:10px 12px;vertical-align:top;color:#374151;line-height:1.5;";
+            k.render(td, b);
+        });
+    });
+    wrap.appendChild(t);
+    return wrap;
+}
+
+function aiRender(d) {
+    const isi = document.getElementById("aiIsi");
+    isi.innerHTML = "";
+
+    if (!d || !d.ada) {
+        isi.appendChild(aiEl("p", "Belum ada analisis. Klik Perbarui Analisis.",
+            "color:#9ca3af;font-size:13px;font-style:italic;margin:0;"));
+        return;
+    }
+
+    document.getElementById("aiUpdate").textContent = "Diperbarui: " + d.diperbarui;
+    const L = d.laporan || {};
+    const s = L.ringkasan_sentimen || {};
+
+    /* Kartu sentimen */
+    const grid = aiEl("div", "", "display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px;");
+    const kartu = (judul, topik, bukti, bg, warna) => {
+        const k = aiEl("div", "", `background:${bg};border-radius:12px;padding:14px;`);
+        k.appendChild(aiEl("div", judul, `font-size:11px;font-weight:600;color:${warna};text-transform:uppercase;letter-spacing:.5px;`));
+        k.appendChild(aiEl("div", topik || "-", "font-size:15px;font-weight:700;color:#111827;margin:4px 0;"));
+        k.appendChild(aiEl("div", bukti || "", "font-size:12px;color:#4b5563;line-height:1.5;"));
+        return k;
+    };
+    grid.appendChild(kartu("Sentimen Positif Tertinggi",
+        s.topik_positif_tertinggi?.topik, s.topik_positif_tertinggi?.bukti, "#ecfdf5", "#065f46"));
+    grid.appendChild(kartu("Sentimen Negatif Tertinggi",
+        s.topik_negatif_tertinggi?.topik, s.topik_negatif_tertinggi?.bukti, "#fef2f2", "#991b1b"));
+    grid.appendChild(kartu("Lokasi Paling Disorot",
+        s.lokasi_paling_disorot, "Berita dianalisis: " + (L.metadata?.jumlah_berita_dianalisis ?? "-"),
+        "#eff6ff", "#1d4ed8"));
+    isi.appendChild(grid);
+
+    /* Per topik */
+    isi.appendChild(aiEl("h3", "Analisis per Topik",
+        "font-size:13px;font-weight:600;color:#374151;margin:6px 0 8px;"));
+    isi.appendChild(aiTabel([
+        { label: "Topik", lebar: "150px", render: (td, b) => td.appendChild(aiBadge(b.topik, "#eff6ff", "#1d4ed8")) },
+        { label: "Jumlah", lebar: "70px", render: (td, b) => { td.textContent = b.jumlah_berita; td.style.fontWeight = "700"; td.style.color = "#4f46e5"; } },
+        { label: "Sentimen", lebar: "100px", render: (td, b) => { const [bg, c] = aiWarnaSentimen(b.sentimen); td.appendChild(aiBadge(b.sentimen, bg, c)); } },
+        { label: "Insight", render: (td, b) => td.textContent = b.insight || "" },
+    ], L.analisis_per_topik || []));
+
+    /* Rekomendasi */
+    isi.appendChild(aiEl("h3", "Rekomendasi Prioritas",
+        "font-size:13px;font-weight:600;color:#374151;margin:16px 0 8px;"));
+    isi.appendChild(aiTabel([
+        { label: "#", lebar: "36px", render: (td, b) => { td.textContent = b.prioritas; td.style.fontWeight = "700"; } },
+        { label: "Isu", lebar: "170px", render: (td, b) => { td.textContent = b.isu || ""; td.style.fontWeight = "600"; } },
+        { label: "Tindakan", render: (td, b) => td.textContent = b.tindakan || "" },
+        { label: "OPD Terkait", lebar: "160px", render: (td, b) => td.textContent = b.opd_terkait || "" },
+        { label: "Dasar Data", lebar: "200px", render: (td, b) => { td.textContent = b.dasar_data || ""; td.style.fontSize = "12px"; td.style.color = "#6b7280"; } },
+        { label: "Dampak", lebar: "80px", render: (td, b) => {
+            const tinggi = (b.dampak_mitigasi || "").toLowerCase() === "high";
+            td.appendChild(aiBadge(b.dampak_mitigasi || "-", tinggi ? "#fee2e2" : "#fef3c7", tinggi ? "#991b1b" : "#92400e"));
+        } },
+    ], L.rekomendasi || []));
+
+    if (L.catatan_keterbatasan) {
+        isi.appendChild(aiEl("p", "Catatan: " + L.catatan_keterbatasan,
+            "font-size:12px;color:#9ca3af;font-style:italic;margin:10px 0 0;"));
+    }
+}
+
+async function aiMuat() {
+    try {
+        const r = await fetch("/api/berita/laporan-ai");
+        aiRender(await r.json());
+    } catch (e) {
+        document.getElementById("aiStatus").textContent = "Gagal memuat analisis: " + e.message;
+    }
+}
+
+async function aiPerbarui() {
+    const btn = document.getElementById("btnAI");
+    const st  = document.getElementById("aiStatus");
+    btn.disabled = true;
+    btn.style.opacity = ".6";
+    st.textContent = "⏳ Menganalisis berita, mohon tunggu (30–90 detik)...";
+    try {
+        const r = await fetch("/api/berita/laporan-ai/perbarui", { method: "POST" });
+        const d = await r.json();
+        if (!r.ok) throw new Error(d.error || "Gagal");
+        aiRender(d);
+        st.textContent = "✅ Analisis berhasil diperbarui.";
+    } catch (e) {
+        st.textContent = "❌ " + e.message;
+    }
+    btn.disabled = false;
+    btn.style.opacity = "1";
+}
+
+document.addEventListener("DOMContentLoaded", aiMuat);
 </script>
 {% endblock %}

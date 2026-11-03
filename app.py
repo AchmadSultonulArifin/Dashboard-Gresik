@@ -5,6 +5,8 @@ from flask_login import LoginManager, UserMixin, login_user, logout_user, login_
 from flask_bcrypt import Bcrypt
 from flask import redirect, url_for, flash
 from dotenv import load_dotenv
+from datetime import datetime
+import requests
 import pandas as pd
 import json
 import os
@@ -40,13 +42,14 @@ BERITA_CSV         = "output/gresik_berita.csv"
 TOPIK_CSV          = "output/gresik_berita_topik.csv"
 SUMBER_CSV         = "output/gresik_berita_sumber.csv"
 LAZADA_CSV         = "output/toko_gresik_lazada.csv"
-LAZADA_TOKO_CSV    = "output/toko_gresik_lazada_ringkasan.csv"
+LAZADA_TOKO_CSV    = "output/toko_gresik_lazada_per_toko.csv"
 TOKPED_CSV         = "output/toko_gresik_tokopedia.csv"
 TOKPED_KAT_CONFIG  = "keywords_config_tokopedia.json"
 TOKPED_RIWAYAT     = "riwayat_kategori_tokopedia.json"
 SHOPEE_TOKO_CSV    = "output/toko_gresik_shopee_per_toko.csv"
 SHOPEE_CSV         = "output/toko_gresik_shopee.csv"
-
+LAPORAN_AI_FILE    = "output/laporan_ai_berita.json"
+N8N_LAPORAN_URL    = os.getenv("N8N_LAPORAN_URL", "")
 
 DB_PATH = "accounts.db"
 
@@ -1376,6 +1379,50 @@ def api_berita():
         return jsonify([])
     return jsonify(df.head(100).to_dict("records"))
 
+@app.route("/api/berita/laporan-ai")
+@login_required
+def api_laporan_ai():
+    """Baca laporan AI terakhir dari file (tidak memanggil n8n)."""
+    if not os.path.exists(LAPORAN_AI_FILE):
+        return jsonify({"ada": False})
+    try:
+        with open(LAPORAN_AI_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return jsonify({"ada": True, **data})
+    except Exception as e:
+        return jsonify({"ada": False, "error": str(e)}), 500
+
+
+@app.route("/api/berita/laporan-ai/perbarui", methods=["POST"])
+@login_required
+def api_laporan_ai_perbarui():
+    """Panggil n8n, simpan hasilnya ke file."""
+    if not N8N_LAPORAN_URL:
+        return jsonify({"error": "N8N_LAPORAN_URL belum diisi di .env"}), 500
+    try:
+        r = requests.post(N8N_LAPORAN_URL, json={}, timeout=180)
+        r.raise_for_status()
+        hasil = r.json()
+        if isinstance(hasil, list):
+            hasil = hasil[0] if hasil else {}
+        if not hasil or "error" in hasil:
+            return jsonify({"error": "n8n mengembalikan hasil tidak valid",
+                            "detail": str(hasil)[:300]}), 502
+        payload = {
+            "diperbarui": datetime.now().strftime("%d %B %Y %H:%M"),
+            "laporan"   : hasil,
+        }
+        os.makedirs("output", exist_ok=True)
+        with open(LAPORAN_AI_FILE, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        catat_log("berita", "analisis_ai", "sukses", "Laporan AI diperbarui dari n8n")
+        return jsonify({"ada": True, **payload})
+    except requests.exceptions.Timeout:
+        return jsonify({"error": "n8n terlalu lama merespons (timeout)"}), 504
+    except Exception as e:
+        catat_log("berita", "analisis_ai", "gagal", str(e)[:200])
+        return jsonify({"error": f"Gagal memanggil n8n: {e}"}), 502
+
 # ══════════════════════════════════════════════════════════════
 # PENGATURAN BERITA — CRUD Keyword & Topik
 # ══════════════════════════════════════════════════════════════
@@ -2500,6 +2547,8 @@ def api_tokopedia_kategori_riwayat():
 
     
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()   # ← baris baru ini yang membuat semua tabel di MySQL
+    print("mulai...", flush=True)
+    # with app.app_context():
+    #     db.create_all()
+    print("run server...", flush=True)
     app.run(debug=True, port=5000)

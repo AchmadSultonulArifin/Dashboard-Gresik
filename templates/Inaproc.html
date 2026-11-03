@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+{% block title %}Produk TI Inaproc{% endblock %}
+
+{% block content %}
+<style>
+  .ip{--primary:#4f46e5;--good:#16a34a;--bad:#dc2626;--line:#e5e7eb;--muted:#6b7280;--chip:#eef2ff}
+  .ip .muted{color:var(--muted);font-size:.85rem}
+  .ip h2{font-size:1.05rem;margin:0 0 12px}
+  .ip .grid{display:grid;gap:16px}
+  .ip .kpi{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:16px}
+  .ip .two{grid-template-columns:repeat(auto-fit,minmax(360px,1fr));margin-bottom:16px}
+  .ip .kpi .v{font-size:1.7rem;font-weight:700;margin-top:4px}
+  .ip .alert{background:#fef2f2;color:#991b1b;border:1px solid #fecaca;padding:12px 16px;border-radius:10px;margin-bottom:16px}
+  .ip .empty{text-align:center;padding:40px 10px;color:var(--muted)}
+  .ip .chartbox{position:relative;height:280px}
+  .ip .tablewrap{overflow-x:auto}
+  .ip table{font-size:.88rem}
+  .ip table th,.ip table td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  .ip table th{background:none;font-weight:600;color:var(--muted);white-space:nowrap}
+  .ip td.num,.ip th.num{text-align:right;white-space:nowrap}
+  .ip .chip{display:inline-block;background:var(--chip);border-radius:999px;padding:2px 9px;font-size:.78rem}
+  .ip .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}
+  .ip input,.ip select,.ip button{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:#111}
+  .ip button{cursor:pointer}
+  .ip button.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .ip button:disabled{opacity:.5;cursor:default}
+  .ip .linkbtn{border:0;background:none;color:var(--primary);padding:0;text-align:left}
+  .ip .linkbtn:hover{text-decoration:underline}
+  .ip .pager{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:12px;flex-wrap:wrap}
+  .ip .turun{color:var(--good);font-weight:600}
+  .ip .naik{color:var(--bad);font-weight:600}
+  .ip-modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:1100}
+  .ip-modal.open{display:flex}
+  .ip-modal .box{background:#fff;border-radius:12px;padding:20px;width:min(720px,100%);max-height:90vh;overflow:auto}
+  .ip-modal .head{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px}
+  .ip-modal .chartbox{position:relative;height:280px}
+</style>
+
+<div class="ip">
+  <div class="muted" style="margin:-10px 0 16px">
+    Laptop, PC, dan Server dari katalog.inaproc.id &middot; data terakhir: {{ ringkas.update_terakhir }}
+  </div>
+
+  {% if error %}<div class="alert">{{ error }}</div>{% endif %}
+
+  {% if not ada_data and not error %}
+        <div class="card empty">Belum ada data. Jalankan <code>python Inaproc.py</code> lalu <code>python app.py muat-inaproc</code>.</div>
+  {% endif %}
+
+  {% if ada_data %}
+  <section class="grid kpi">
+    <div class="card"><div class="muted">Total produk</div><div class="v">{{ "{:,}".format(ringkas.total).replace(",", ".") }}</div></div>
+    <div class="card"><div class="muted">Penyedia</div><div class="v">{{ ringkas.penyedia }}</div></div>
+    <div class="card"><div class="muted">Merek</div><div class="v">{{ ringkas.merek }}</div></div>
+    <div class="card"><div class="muted">Kategori</div><div class="v">{{ per_kategori|length }}</div></div>
+  </section>
+
+  <section class="grid two">
+    <div class="card"><h2>Jumlah produk per kategori</h2><div class="chartbox"><canvas id="chKategori"></canvas></div></div>
+    <div class="card"><h2>10 merek terbanyak</h2><div class="chartbox"><canvas id="chMerek"></canvas></div></div>
+  </section>
+
+  <section class="card">
+    <h2>Statistik harga per kategori</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Kategori</th><th class="num">Jumlah</th><th class="num">Termurah</th><th class="num">Rata-rata</th><th class="num">Termahal</th></tr></thead>
+      <tbody>
+      {% for k in per_kategori %}
+        <tr><td>{{ k.kategori }}</td><td class="num">{{ k.jumlah }}</td>
+            <td class="num rp">{{ k.harga_min }}</td><td class="num rp">{{ k.harga_rata }}</td><td class="num rp">{{ k.harga_max }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+  </section>
+
+  {% if perubahan %}
+  <section class="card">
+    <h2>Perubahan harga terbaru</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Produk</th><th>Kategori</th><th class="num">Sebelumnya</th><th class="num">Sekarang</th><th class="num">Selisih</th><th>Waktu</th></tr></thead>
+      <tbody>
+      {% for c in perubahan %}
+        {% set selisih = c.harga_sekarang - c.harga_sebelumnya %}
+        <tr>
+          <td><button class="linkbtn" onclick="bukaRiwayat({{ c.id }})">{{ c.nama }}</button></td>
+          <td>{{ c.kategori }}</td>
+          <td class="num rp">{{ c.harga_sebelumnya }}</td>
+          <td class="num rp">{{ c.harga_sekarang }}</td>
+          <td class="num {{ 'turun' if selisih < 0 else 'naik' }}">{% if selisih < 0 %}&#9660;{% else %}&#9650;{% endif %} <span class="rp">{{ selisih|abs }}</span></td>
+          <td>{{ c.waktu }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+  </section>
+  {% endif %}
+
+  <section class="card">
+    <h2>Daftar produk</h2>
+    <div class="filters">
+      <input id="fQ" type="search" placeholder="Cari nama / penyedia / CPU">
+      <select id="fKategori">
+        <option value="">Semua kategori</option>
+        {% for k in per_kategori %}<option value="{{ k.kategori }}">{{ k.kategori }}</option>{% endfor %}
+      </select>
+      <select id="fMerek">
+        <option value="">Semua merek</option>
+        {% for m in daftar_merek %}<option value="{{ m }}">{{ m }}</option>{% endfor %}
+      </select>
+      <input id="fHargaMin" type="number" min="0" placeholder="Harga min (Rp)">
+      <input id="fHargaMax" type="number" min="0" placeholder="Harga maks (Rp)">
+      <input id="fRam" type="number" min="0" placeholder="RAM min (GB)">
+      <select id="fUrut">
+        <option value="terbaru">Terbaru</option>
+        <option value="harga_asc">Harga termurah</option>
+        <option value="harga_desc">Harga termahal</option>
+        <option value="ram_desc">RAM terbesar</option>
+        <option value="nama">Nama A-Z</option>
+      </select>
+      <button class="primary" id="btnCari">Terapkan</button>
+      <button id="btnReset">Reset</button>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Produk</th><th>Kategori</th><th>Merek</th><th>Spesifikasi</th><th>Penyedia</th><th class="num">Harga</th><th>Link</th></tr></thead>
+      <tbody id="tbody"><tr><td colspan="7" class="empty">Memuat...</td></tr></tbody>
+    </table></div>
+    <div class="pager">
+      <span class="muted" id="info"></span>
+      <span>
+        <button id="prev">&larr; Sebelumnya</button>
+        <button id="next">Berikutnya &rarr;</button>
+      </span>
+    </div>
+  </section>
+  {% endif %}
+</div>
+
+<!-- Modal riwayat harga -->
+<div class="ip-modal ip" id="ipModal" onclick="if(event.target===this)tutup()">
+  <div class="box">
+    <div class="head">
+      <div><h2 id="mJudul" style="margin:0"></h2><div class="muted" id="mSub"></div></div>
+      <button onclick="tutup()">Tutup</button>
+    </div>
+    <div class="chartbox"><canvas id="chRiwayat"></canvas></div>
+    <div class="muted" id="mCatatan" style="margin-top:8px"></div>
+  </div>
+</div>
+
+<script>
+const PER_KATEGORI = {{ per_kategori|tojson }};
+const TOP_MEREK    = {{ top_merek|tojson }};
+const WARNA = ['#4f46e5','#16a34a','#f59e0b','#dc2626','#7c3aed','#0891b2','#db2777','#65a30d','#ea580c','#475569'];
+
+const rp  = n => (n === null || n === undefined) ? '-' : 'Rp ' + Number(n).toLocaleString('id-ID');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $   = id => document.getElementById(id);
+
+document.querySelectorAll('.rp').forEach(el => { el.textContent = rp(el.textContent.trim()); });
+
+if ($('chKategori')) {
+  new Chart($('chKategori'), {
+    type: 'doughnut',
+    data: { labels: PER_KATEGORI.map(x => x.kategori),
+            datasets: [{ data: PER_KATEGORI.map(x => x.jumlah), backgroundColor: WARNA }] },
+    options: { maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+  });
+  new Chart($('chMerek'), {
+    type: 'bar',
+    data: { labels: TOP_MEREK.map(x => x.merek),
+            datasets: [{ label: 'Produk', data: TOP_MEREK.map(x => x.jumlah), backgroundColor: '#4f46e5' }] },
+    options: { indexAxis: 'y', maintainAspectRatio: false, plugins: { legend: { display: false } } }
+  });
+}
+
+let page = 1, totalHalaman = 1;
+
+function spesifikasi(p) {
+  const a = [];
+  if (p.cpu) a.push(esc(p.cpu));
+  if (p.ram_gb) a.push(Number(p.ram_gb) + ' GB RAM');
+  if (p.storage_gb) {
+    const g = Number(p.storage_gb);
+    a.push((g >= 1024 ? (g / 1024) + ' TB' : g + ' GB') + (p.storage_type ? ' ' + esc(p.storage_type) : ''));
+  }
+  if (p.screen_inch) a.push(Number(p.screen_inch) + '"');
+  if (p.os) a.push(esc(p.os));
+  return a.length ? a.join(' &middot; ') : '<span class="muted">-</span>';
+}
+
+function linkProduk(u) {
+  if (!u || !/^https?:\/\//i.test(u) || u.includes('#id=')) return '<span class="muted">-</span>';
+  return '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">Buka</a>';
+}
+
+async function muat() {
+  const p = new URLSearchParams({ page, per_page: 25, urut: $('fUrut').value });
+  const map = { q:'fQ', kategori:'fKategori', merek:'fMerek', harga_min:'fHargaMin', harga_max:'fHargaMax', ram_min:'fRam' };
+  for (const [k, id] of Object.entries(map)) if ($(id).value) p.set(k, $(id).value);
+  $('tbody').innerHTML = '<tr><td colspan="7" class="empty">Memuat...</td></tr>';
+  try {
+    const r = await fetch('/api/inaproc/produk?' + p.toString());
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || 'Gagal memuat');
+    totalHalaman = d.total_halaman;
+    if (!d.items.length) {
+      $('tbody').innerHTML = '<tr><td colspan="7" class="empty">Tidak ada produk yang cocok.</td></tr>';
+    } else {
+      $('tbody').innerHTML = d.items.map(x => `
+        <tr>
+          <td><button class="linkbtn" onclick="bukaRiwayat(${Number(x.id)})">${esc(x.name)}</button></td>
+          <td><span class="chip">${esc(x.category)}</span></td>
+          <td>${esc(x.brand || '-')}</td>
+          <td>${spesifikasi(x)}</td>
+          <td>${esc(x.provider_name || '-')}</td>
+          <td class="num">${rp(x.price_idr)}</td>
+          <td>${linkProduk(x.url)}</td>
+        </tr>`).join('');
+    }
+    $('info').textContent = `Halaman ${d.page} dari ${d.total_halaman} (${d.total.toLocaleString('id-ID')} produk)`;
+    $('prev').disabled = d.page <= 1;
+    $('next').disabled = d.page >= d.total_halaman;
+  } catch (e) {
+    $('tbody').innerHTML = '<tr><td colspan="7" class="empty">' + esc(e.message) + '</td></tr>';
+  }
+}
+
+if ($('btnCari')) {
+  $('btnCari').onclick = () => { page = 1; muat(); };
+  $('btnReset').onclick = () => {
+    ['fQ','fKategori','fMerek','fHargaMin','fHargaMax','fRam'].forEach(id => $(id).value = '');
+    $('fUrut').value = 'terbaru'; page = 1; muat();
+  };
+  $('prev').onclick = () => { if (page > 1) { page--; muat(); } };
+  $('next').onclick = () => { if (page < totalHalaman) { page++; muat(); } };
+  let t; $('fQ').addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { page = 1; muat(); }, 400); });
+  ['fKategori','fMerek','fUrut'].forEach(id => $(id).addEventListener('change', () => { page = 1; muat(); }));
+  muat();
+}
+
+let chartRiwayat = null;
+function tutup() { $('ipModal').classList.remove('open'); }
+async function bukaRiwayat(id) {
+  const r = await fetch('/api/inaproc/produk/' + id + '/riwayat');
+  const d = await r.json();
+  if (!r.ok) { alert(d.error || 'Gagal memuat riwayat'); return; }
+  $('mJudul').textContent = d.produk.name;
+  $('mSub').textContent = [d.produk.category, d.produk.brand].filter(Boolean).join(' · ');
+  $('mCatatan').textContent = d.riwayat.length < 2
+    ? 'Baru ada satu catatan harga. Grafik akan terisi setelah harga berubah di scraping berikutnya.'
+    : 'Titik baru dicatat hanya saat harga berubah.';
+  $('ipModal').classList.add('open');
+  if (chartRiwayat) chartRiwayat.destroy();
+  chartRiwayat = new Chart($('chRiwayat'), {
+    type: 'line',
+    data: { labels: d.riwayat.map(x => x.scraped_at),
+            datasets: [{ label: 'Harga (Rp)', data: d.riwayat.map(x => x.price_idr),
+                         borderColor: '#4f46e5', backgroundColor: '#4f46e5', stepped: true, pointRadius: 4 }] },
+    options: { maintainAspectRatio: false, plugins: { legend: { display: false } },
+               scales: { y: { ticks: { callback: v => rp(v) } } } }
+  });
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') tutup(); });
+</script>
+{% endblock %}

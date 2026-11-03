@@ -1,3 +1,4 @@
+from __future__ import annotations
 from flask import Flask, render_template, jsonify, request
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
@@ -5,7 +6,9 @@ from flask_login import LoginManager, UserMixin, login_user, logout_user, login_
 from flask_bcrypt import Bcrypt
 from flask import redirect, url_for, flash
 from dotenv import load_dotenv
-from datetime import datetime
+from datetime import date, datetime
+from decimal import Decimal
+from sqlalchemy import text
 import requests
 import pandas as pd
 import json
@@ -13,6 +16,7 @@ import os
 import re
 import sqlite3
 from Lazada import (KategoriManager, DEFAULT_KATEGORI_MAPPING, RIWAYAT_FILE, CONFIG_FILE_DEF, muat_konfigurasi, simpan_konfigurasi,)
+from sqlalchemy import create_engine, text
 
 load_dotenv()
 app = Flask(__name__)
@@ -50,6 +54,7 @@ SHOPEE_TOKO_CSV    = "output/toko_gresik_shopee_per_toko.csv"
 SHOPEE_CSV         = "output/toko_gresik_shopee.csv"
 LAPORAN_AI_FILE    = "output/laporan_ai_berita.json"
 N8N_LAPORAN_URL    = os.getenv("N8N_LAPORAN_URL", "")
+INAPROC_CSV           = "output/data_inaproc.csv"
 
 DB_PATH = "accounts.db"
 
@@ -2545,10 +2550,290 @@ def api_tokopedia_kategori_riwayat():
     except Exception as e:
         return jsonify({"error": f"Gagal memuat riwayat: {e}"}), 500
 
-    
+
+# ══════════════════════════════════════════════════════════════
+# INAPROC — muat CSV ke MySQL (dulu load_to_db.py)
+# ══════════════════════════════════════════════════════════════
+INAPROC_DDL = [
+    """CREATE TABLE IF NOT EXISTS products (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        category VARCHAR(30),
+        brand VARCHAR(80),
+        name VARCHAR(500) NOT NULL,
+        price_idr BIGINT,
+        provider_name VARCHAR(200),
+        cpu VARCHAR(120),
+        ram_gb INT,
+        storage_gb INT,
+        storage_type VARCHAR(20),
+        screen_inch DECIMAL(4,1),
+        os VARCHAR(80),
+        tkdn_pct DECIMAL(5,2),
+        warranty_years INT,
+        url VARCHAR(500) NOT NULL,
+        last_seen DATETIME,
+        UNIQUE KEY uq_url (url),
+        KEY idx_cat (category), KEY idx_brand (brand), KEY idx_price (price_idr)
+    ) CHARACTER SET utf8mb4""",
+    """CREATE TABLE IF NOT EXISTS price_history (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        product_id INT NOT NULL,
+        price_idr BIGINT NOT NULL,
+        scraped_at DATETIME NOT NULL,
+        KEY idx_prod (product_id),
+        CONSTRAINT fk_prod FOREIGN KEY (product_id)
+            REFERENCES products(id) ON DELETE CASCADE
+    ) CHARACTER SET utf8mb4""",
+]
+
+INAPROC_FIELDS = ["category", "brand", "name", "price_idr", "provider_name", "cpu", "ram_gb",
+                  "storage_gb", "storage_type", "screen_inch", "os", "tkdn_pct",
+                  "warranty_years", "url"]
+
+
+def muat_inaproc_ke_db() -> str:
+    """Buat tabel (jika belum ada) lalu muat INAPROC_CSV. Aman dijalankan berulang."""
+    if not os.path.exists(INAPROC_CSV):
+        raise FileNotFoundError(f"{INAPROC_CSV} tidak ditemukan. Jalankan Inaproc.py dulu.")
+
+    df = pd.read_csv(INAPROC_CSV, encoding="utf-8-sig")
+    for c in INAPROC_FIELDS:
+        if c not in df.columns:
+            df[c] = None
+    df = df.dropna(subset=["url", "name", "price_idr"]).drop_duplicates("url")
+
+    now  = datetime.now()
+    baru = berubah = 0
+    bersih = lambda v: None if pd.isna(v) else v
+
+    with db.engine.begin() as conn:
+        for q in INAPROC_DDL:
+            conn.execute(text(q))
+
+        existing = {r.url: (r.id, r.price_idr) for r in
+                    conn.execute(text("SELECT id, url, price_idr FROM products"))}
+
+        for _, row in df.iterrows():
+            d = {c: bersih(row[c]) for c in INAPROC_FIELDS}
+            d["price_idr"] = int(d["price_idr"])
+            for k in ("ram_gb", "storage_gb", "warranty_years"):
+                d[k] = int(d[k]) if d[k] is not None else None
+            d["now"] = now
+
+            if d["url"] in existing:
+                pid, harga_lama = existing[d["url"]]
+                conn.execute(text(
+                    """UPDATE products SET category=:category, brand=:brand, name=:name,
+                       price_idr=:price_idr, provider_name=:provider_name, cpu=:cpu,
+                       ram_gb=:ram_gb, storage_gb=:storage_gb, storage_type=:storage_type,
+                       screen_inch=:screen_inch, os=:os, tkdn_pct=:tkdn_pct,
+                       warranty_years=:warranty_years, last_seen=:now WHERE id=:pid"""),
+                    {**d, "pid": pid})
+                if harga_lama != d["price_idr"]:
+                    conn.execute(text(
+                        "INSERT INTO price_history (product_id, price_idr, scraped_at) "
+                        "VALUES (:pid, :p, :now)"),
+                        {"pid": pid, "p": d["price_idr"], "now": now})
+                    berubah += 1
+            else:
+                res = conn.execute(text(
+                    """INSERT INTO products (category, brand, name, price_idr, provider_name,
+                       cpu, ram_gb, storage_gb, storage_type, screen_inch, os, tkdn_pct,
+                       warranty_years, url, last_seen)
+                       VALUES (:category, :brand, :name, :price_idr, :provider_name, :cpu,
+                       :ram_gb, :storage_gb, :storage_type, :screen_inch, :os, :tkdn_pct,
+                       :warranty_years, :url, :now)"""), d)
+                conn.execute(text(
+                    "INSERT INTO price_history (product_id, price_idr, scraped_at) "
+                    "VALUES (:pid, :p, :now)"),
+                    {"pid": res.lastrowid, "p": d["price_idr"], "now": now})
+                baru += 1
+
+    return f"Selesai. Produk baru: {baru}, harga berubah: {berubah}, total di CSV: {len(df)}"
+
+
+@app.route("/api/inaproc/muat", methods=["POST"])
+@login_required
+def api_inaproc_muat():
+    try:
+        return jsonify({"pesan": muat_inaproc_ke_db()})
+    except Exception as e:
+        return jsonify({"error": str(e)[:200]}), 500
+
+
+# ══════════════════════════════════════════════════════════════
+# INAPROC — dashboard produk TI (data dari MySQL)
+# ══════════════════════════════════════════════════════════════
+INAPROC_SORTS = {
+    "terbaru":    "last_seen DESC, id DESC",
+    "harga_asc":  "price_idr ASC, id ASC",
+    "harga_desc": "price_idr DESC, id ASC",
+    "nama":       "name ASC, id ASC",
+    "ram_desc":   "ram_gb DESC, price_idr ASC, id ASC",
+}
+
+INAPROC_COLS = ("id, category, brand, name, price_idr, provider_name, cpu, ram_gb, "
+                "storage_gb, storage_type, screen_inch, os, tkdn_pct, warranty_years, "
+                "url, last_seen")
+
+
+def _py(v):
+    """Ubah tipe MySQL (Decimal, datetime) menjadi tipe aman untuk JSON."""
+    if isinstance(v, Decimal):
+        return int(v) if v == v.to_integral_value() else float(v)
+    if isinstance(v, (datetime, date)):
+        return v.strftime("%Y-%m-%d %H:%M")
+    return v
+
+
+def _int(v, default=None):
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return default
+
+
+def _like(s: str) -> str:
+    return "%" + s.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_") + "%"
+
+
+def inaproc_rows(sql: str, **params) -> list[dict]:
+    result = db.session.execute(text(sql), params).mappings().all()
+    return [{k: _py(v) for k, v in r.items()} for r in result]
+
+
+@app.route("/inaproc")
+@login_required
+def inaproc():
+    ctx = {
+        "error": None, "ada_data": False,
+        "ringkas": {"total": 0, "penyedia": 0, "merek": 0, "update_terakhir": "-"},
+        "per_kategori": [], "top_merek": [], "top_penyedia": [],
+        "daftar_merek": [], "perubahan": [],
+    }
+    try:
+        ringkas = inaproc_rows("""SELECT COUNT(*) AS total,
+                                         COUNT(DISTINCT provider_name) AS penyedia,
+                                         COUNT(DISTINCT brand) AS merek,
+                                         MAX(last_seen) AS update_terakhir
+                                  FROM products""")[0]
+        ringkas["update_terakhir"] = ringkas["update_terakhir"] or "-"
+        ctx["ringkas"] = ringkas
+        ctx["ada_data"] = ringkas["total"] > 0
+
+        ctx["per_kategori"] = inaproc_rows("""SELECT category AS kategori, COUNT(*) AS jumlah,
+                                                     MIN(price_idr) AS harga_min,
+                                                     ROUND(AVG(price_idr)) AS harga_rata,
+                                                     MAX(price_idr) AS harga_max
+                                              FROM products GROUP BY category
+                                              ORDER BY jumlah DESC""")
+        ctx["top_merek"] = inaproc_rows("""SELECT brand AS merek, COUNT(*) AS jumlah FROM products
+                                           WHERE brand IS NOT NULL GROUP BY brand
+                                           ORDER BY jumlah DESC LIMIT 10""")
+        ctx["top_penyedia"] = inaproc_rows("""SELECT provider_name AS penyedia, COUNT(*) AS jumlah
+                                              FROM products WHERE provider_name IS NOT NULL
+                                              GROUP BY provider_name ORDER BY jumlah DESC LIMIT 10""")
+        ctx["daftar_merek"] = [r["merek"] for r in inaproc_rows(
+            "SELECT DISTINCT brand AS merek FROM products WHERE brand IS NOT NULL ORDER BY brand")]
+        try:   # butuh MySQL 8 / MariaDB 10.2+ (window function)
+            ctx["perubahan"] = inaproc_rows("""
+                WITH h AS (
+                    SELECT product_id, price_idr, scraped_at,
+                           ROW_NUMBER() OVER (PARTITION BY product_id
+                                              ORDER BY scraped_at DESC, id DESC) AS rn
+                    FROM price_history)
+                SELECT p.id, p.name AS nama, p.brand AS merek, p.category AS kategori,
+                       cur.price_idr AS harga_sekarang, prev.price_idr AS harga_sebelumnya,
+                       cur.scraped_at AS waktu
+                FROM h cur
+                JOIN h prev ON prev.product_id = cur.product_id AND prev.rn = 2
+                JOIN products p ON p.id = cur.product_id
+                WHERE cur.rn = 1 AND cur.price_idr <> prev.price_idr
+                ORDER BY cur.scraped_at DESC LIMIT 10""")
+        except Exception:
+            db.session.rollback()
+    except Exception as e:
+        db.session.rollback()
+        ctx["error"] = ("Tabel Inaproc belum bisa dibaca. Jalankan 'python app.py muat-inaproc' dulu. "
+                        f"Detail: {str(e)[:160]}")
+    return render_template("Inaproc.html", **ctx)
+
+
+@app.route("/api/inaproc/produk")
+@login_required
+def api_inaproc_produk():
+    a = request.args
+    where, p = ["1=1"], {}
+    if a.get("kategori"):
+        where.append("category = :kategori")
+        p["kategori"] = a["kategori"]
+    if a.get("merek"):
+        where.append("brand = :merek")
+        p["merek"] = a["merek"]
+    q = (a.get("q") or "").strip()
+    if q:
+        where.append("(name LIKE :q OR provider_name LIKE :q OR cpu LIKE :q)")
+        p["q"] = _like(q)
+    if _int(a.get("harga_min")) is not None:
+        where.append("price_idr >= :hmin")
+        p["hmin"] = _int(a.get("harga_min"))
+    if _int(a.get("harga_max")) is not None:
+        where.append("price_idr <= :hmax")
+        p["hmax"] = _int(a.get("harga_max"))
+    if _int(a.get("ram_min")) is not None:
+        where.append("ram_gb >= :rmin")
+        p["rmin"] = _int(a.get("ram_min"))
+
+    order    = INAPROC_SORTS.get(a.get("urut", ""), INAPROC_SORTS["terbaru"])
+    per_page = min(max(_int(a.get("per_page"), 25), 1), 100)
+    page     = max(_int(a.get("page"), 1), 1)
+    cond     = " AND ".join(where)
+    try:
+        total = inaproc_rows(f"SELECT COUNT(*) AS n FROM products WHERE {cond}", **p)[0]["n"]
+        items = inaproc_rows(f"SELECT {INAPROC_COLS} FROM products WHERE {cond} "
+                             f"ORDER BY {order} LIMIT :lim OFFSET :off",
+                             lim=per_page, off=(page - 1) * per_page, **p)
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error": f"Gagal membaca database: {str(e)[:160]}"}), 500
+    return jsonify({
+        "total": total, "page": page, "per_page": per_page,
+        "total_halaman": max((total + per_page - 1) // per_page, 1),
+        "items": items,
+    })
+
+
+@app.route("/api/inaproc/produk/<int:pid>/riwayat")
+@login_required
+def api_inaproc_riwayat(pid):
+    try:
+        produk = inaproc_rows(
+            "SELECT id, name, brand, category, price_idr FROM products WHERE id = :pid", pid=pid)
+        if not produk:
+            return jsonify({"error": "Produk tidak ditemukan"}), 404
+        riwayat = inaproc_rows(
+            "SELECT price_idr, scraped_at FROM price_history "
+            "WHERE product_id = :pid ORDER BY scraped_at, id", pid=pid)
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error": f"Gagal membaca database: {str(e)[:160]}"}), 500
+    return jsonify({"produk": produk[0], "riwayat": riwayat})
+
+
 if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "muat-inaproc":
+        with app.app_context():
+            print(muat_inaproc_ke_db())
+        sys.exit(0)
+
     print("mulai...", flush=True)
-    # with app.app_context():
-    #     db.create_all()
     print("run server...", flush=True)
     app.run(debug=True, port=5000)
+
+#if __name__ == "__main__":
+    #print("mulai...", flush=True)
+    # with app.app_context():
+    #     db.create_all()
+    #print("run server...", flush=True)
+    #app.run(debug=True, port=5000)

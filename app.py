@@ -55,6 +55,7 @@ SHOPEE_CSV         = "output/toko_gresik_shopee.csv"
 LAPORAN_AI_FILE    = "output/laporan_ai_berita.json"
 N8N_LAPORAN_URL    = os.getenv("N8N_LAPORAN_URL", "")
 INAPROC_CSV           = "output/data_inaproc.csv"
+N8N_INAPROC_URL    = os.getenv("N8N_INAPROC_URL", "")
 
 DB_PATH = "accounts.db"
 
@@ -2557,7 +2558,8 @@ def api_tokopedia_kategori_riwayat():
 INAPROC_DDL = [
     """CREATE TABLE IF NOT EXISTS products (
         id INT AUTO_INCREMENT PRIMARY KEY,
-        category VARCHAR(30),
+        category VARCHAR(100),
+        kelompok VARCHAR(100),
         brand VARCHAR(80),
         name VARCHAR(500) NOT NULL,
         price_idr BIGINT,
@@ -2566,14 +2568,15 @@ INAPROC_DDL = [
         ram_gb INT,
         storage_gb INT,
         storage_type VARCHAR(20),
-        screen_inch DECIMAL(4,1),
+        screen_inch DECIMAL(5,1),
         os VARCHAR(80),
         tkdn_pct DECIMAL(5,2),
         warranty_years INT,
+        spesifikasi TEXT,
         url VARCHAR(500) NOT NULL,
         last_seen DATETIME,
         UNIQUE KEY uq_url (url),
-        KEY idx_cat (category), KEY idx_brand (brand), KEY idx_price (price_idr)
+        KEY idx_cat (category), KEY idx_kel (kelompok), KEY idx_brand (brand), KEY idx_price (price_idr)
     ) CHARACTER SET utf8mb4""",
     """CREATE TABLE IF NOT EXISTS price_history (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -2586,13 +2589,27 @@ INAPROC_DDL = [
     ) CHARACTER SET utf8mb4""",
 ]
 
-INAPROC_FIELDS = ["category", "brand", "name", "price_idr", "provider_name", "cpu", "ram_gb",
+INAPROC_FIELDS = ["category", "kelompok", "brand", "name", "price_idr", "provider_name", "cpu", "ram_gb",
                   "storage_gb", "storage_type", "screen_inch", "os", "tkdn_pct",
-                  "warranty_years", "url"]
+                  "warranty_years", "spesifikasi", "url"]
+
+
+def _migrasi_inaproc(conn) -> None:
+    """Sesuaikan tabel products lama (kolom category 30 karakter, tanpa kelompok/spesifikasi)."""
+    kolom = {r[0] for r in conn.execute(text(
+        "SELECT COLUMN_NAME FROM information_schema.COLUMNS "
+        "WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'products'"))}
+    if "kelompok" not in kolom:
+        conn.execute(text("ALTER TABLE products ADD COLUMN kelompok VARCHAR(100) NULL AFTER category"))
+        conn.execute(text("ALTER TABLE products ADD KEY idx_kel (kelompok)"))
+    if "spesifikasi" not in kolom:
+        conn.execute(text("ALTER TABLE products ADD COLUMN spesifikasi TEXT NULL"))
+    conn.execute(text("ALTER TABLE products MODIFY category VARCHAR(100)"))
+    conn.execute(text("ALTER TABLE products MODIFY screen_inch DECIMAL(5,1)"))
 
 
 def muat_inaproc_ke_db() -> str:
-    """Buat tabel (jika belum ada) lalu muat INAPROC_CSV. Aman dijalankan berulang."""
+    """Buat/sesuaikan tabel lalu muat INAPROC_CSV. Aman dijalankan berulang."""
     if not os.path.exists(INAPROC_CSV):
         raise FileNotFoundError(f"{INAPROC_CSV} tidak ditemukan. Jalankan Inaproc.py dulu.")
 
@@ -2609,6 +2626,7 @@ def muat_inaproc_ke_db() -> str:
     with db.engine.begin() as conn:
         for q in INAPROC_DDL:
             conn.execute(text(q))
+        _migrasi_inaproc(conn)
 
         existing = {r.url: (r.id, r.price_idr) for r in
                     conn.execute(text("SELECT id, url, price_idr FROM products"))}
@@ -2618,16 +2636,20 @@ def muat_inaproc_ke_db() -> str:
             d["price_idr"] = int(d["price_idr"])
             for k in ("ram_gb", "storage_gb", "warranty_years"):
                 d[k] = int(d[k]) if d[k] is not None else None
+            d["category"]    = str(d["category"])[:100] if d["category"] is not None else None
+            d["kelompok"]    = str(d["kelompok"])[:100] if d["kelompok"] is not None else None
+            d["spesifikasi"] = str(d["spesifikasi"])[:2000] if d["spesifikasi"] is not None else None
             d["now"] = now
 
             if d["url"] in existing:
                 pid, harga_lama = existing[d["url"]]
                 conn.execute(text(
-                    """UPDATE products SET category=:category, brand=:brand, name=:name,
+                    """UPDATE products SET category=:category, kelompok=:kelompok, brand=:brand, name=:name,
                        price_idr=:price_idr, provider_name=:provider_name, cpu=:cpu,
                        ram_gb=:ram_gb, storage_gb=:storage_gb, storage_type=:storage_type,
                        screen_inch=:screen_inch, os=:os, tkdn_pct=:tkdn_pct,
-                       warranty_years=:warranty_years, last_seen=:now WHERE id=:pid"""),
+                       warranty_years=:warranty_years, spesifikasi=:spesifikasi, last_seen=:now
+                       WHERE id=:pid"""),
                     {**d, "pid": pid})
                 if harga_lama != d["price_idr"]:
                     conn.execute(text(
@@ -2637,12 +2659,12 @@ def muat_inaproc_ke_db() -> str:
                     berubah += 1
             else:
                 res = conn.execute(text(
-                    """INSERT INTO products (category, brand, name, price_idr, provider_name,
+                    """INSERT INTO products (category, kelompok, brand, name, price_idr, provider_name,
                        cpu, ram_gb, storage_gb, storage_type, screen_inch, os, tkdn_pct,
-                       warranty_years, url, last_seen)
-                       VALUES (:category, :brand, :name, :price_idr, :provider_name, :cpu,
+                       warranty_years, spesifikasi, url, last_seen)
+                       VALUES (:category, :kelompok, :brand, :name, :price_idr, :provider_name, :cpu,
                        :ram_gb, :storage_gb, :storage_type, :screen_inch, :os, :tkdn_pct,
-                       :warranty_years, :url, :now)"""), d)
+                       :warranty_years, :spesifikasi, :url, :now)"""), d)
                 conn.execute(text(
                     "INSERT INTO price_history (product_id, price_idr, scraped_at) "
                     "VALUES (:pid, :p, :now)"),
@@ -2650,6 +2672,13 @@ def muat_inaproc_ke_db() -> str:
                 baru += 1
 
     return f"Selesai. Produk baru: {baru}, harga berubah: {berubah}, total di CSV: {len(df)}"
+
+
+# Dipakai /inaproc dan /api/inaproc/produk: ganti juga konstanta INAPROC_COLS yang lama dengan ini
+# agar halaman bisa menampilkan kelompok & spesifikasi.
+INAPROC_COLS = ("id, category, kelompok, brand, name, price_idr, provider_name, cpu, ram_gb, "
+                "storage_gb, storage_type, screen_inch, os, tkdn_pct, warranty_years, "
+                "spesifikasi, url, last_seen")
 
 
 @app.route("/api/inaproc/muat", methods=["POST"])
@@ -2671,11 +2700,6 @@ INAPROC_SORTS = {
     "nama":       "name ASC, id ASC",
     "ram_desc":   "ram_gb DESC, price_idr ASC, id ASC",
 }
-
-INAPROC_COLS = ("id, category, brand, name, price_idr, provider_name, cpu, ram_gb, "
-                "storage_gb, storage_type, screen_inch, os, tkdn_pct, warranty_years, "
-                "url, last_seen")
-
 
 def _py(v):
     """Ubah tipe MySQL (Decimal, datetime) menjadi tipe aman untuk JSON."""
@@ -2818,6 +2842,84 @@ def api_inaproc_riwayat(pid):
         db.session.rollback()
         return jsonify({"error": f"Gagal membaca database: {str(e)[:160]}"}), 500
     return jsonify({"produk": produk[0], "riwayat": riwayat})
+
+
+# ══════════════════════════════════════════════════════════════
+# INAPROC — rekomendasi AI (diteruskan ke webhook n8n)
+# .env:  N8N_INAPROC_URL=https://.../webhook/<path-production>
+#        N8N_INAPROC_KEY=<isi header X-API-Key, opsional>
+#        N8N_INAPROC_TIMEOUT=120   (opsional, detik)
+# ══════════════════════════════════════════════════════════════
+@app.route("/api/inaproc/kategori")
+@login_required
+def api_inaproc_kategori():
+    """Daftar subkategori yang ada di database (untuk dropdown formulir rekomendasi)."""
+    try:
+        return jsonify(inaproc_rows(
+            "SELECT category AS nama, kelompok, COUNT(*) AS jumlah FROM products "
+            "WHERE category IS NOT NULL GROUP BY category, kelompok ORDER BY category"))
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error": f"Gagal membaca database: {str(e)[:160]}"}), 500
+
+
+def _angka_ai(v, lo=None, hi=None):
+    if v is None or str(v).strip() == "":
+        return None
+    try:
+        n = float(str(v).replace(".", "").replace(",", "."))
+    except ValueError:
+        return None
+    if lo is not None:
+        n = max(n, lo)
+    if hi is not None:
+        n = min(n, hi)
+    return int(n)
+
+
+@app.route("/api/inaproc/analisis", methods=["POST"])
+@login_required
+def api_inaproc_analisis():
+    url = os.getenv("N8N_INAPROC_URL", "").strip()
+    if not url:
+        return jsonify({"error": "N8N_INAPROC_URL belum diisi di file .env"}), 500
+    data = request.get_json(silent=True) or {}
+    kategori = str(data.get("kategori", "")).strip()[:100]
+    try:
+        ada = inaproc_rows("SELECT 1 AS x FROM products WHERE category = :k LIMIT 1", k=kategori)
+    except Exception:
+        db.session.rollback()
+        ada = []
+    if not kategori or not ada:
+        return jsonify({"error": "Kategori tidak dikenal. Pilih dari daftar."}), 400
+
+    payload = {
+        "kategori": kategori,
+        "kebutuhan": str(data.get("kebutuhan", ""))[:1000],
+        "budget_max": _angka_ai(data.get("budget_max"), 0),
+        "min_ram_gb": _angka_ai(data.get("min_ram_gb"), 0, 1024),
+        "jumlah": _angka_ai(data.get("jumlah"), 1, 10) or 5,
+    }
+    headers = {"Content-Type": "application/json"}
+    kunci = os.getenv("N8N_INAPROC_KEY", "").strip()
+    if kunci:
+        headers["X-API-Key"] = kunci
+    try:
+        r = requests.post(url, json=payload, headers=headers,
+                          timeout=int(os.getenv("N8N_INAPROC_TIMEOUT", "120")))
+    except requests.Timeout:
+        return jsonify({"error": "n8n terlalu lama menjawab. Coba lagi atau persempit permintaan."}), 504
+    except requests.RequestException:
+        return jsonify({"error": "Tidak dapat menghubungi n8n. Cek N8N_INAPROC_URL dan koneksi server."}), 502
+    if r.status_code != 200:
+        return jsonify({"error": f"n8n membalas status {r.status_code}", "detail": r.text[:300]}), 502
+    try:
+        hasil = r.json()
+    except ValueError:
+        return jsonify({"error": "Balasan n8n bukan JSON yang valid.", "detail": r.text[:300]}), 502
+    if isinstance(hasil, list):
+        hasil = hasil[0] if hasil else {}
+    return jsonify(hasil)
 
 
 if __name__ == "__main__":

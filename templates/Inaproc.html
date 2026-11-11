@@ -29,6 +29,23 @@
   .ip .pager{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:12px;flex-wrap:wrap}
   .ip .turun{color:var(--good);font-weight:600}
   .ip .naik{color:var(--bad);font-weight:600}
+  .ip .scroll{max-height:420px;overflow:auto}
+  .ip .ai-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:10px}
+  .ip .ai-form .full{grid-column:1/-1}
+  .ip textarea{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;width:100%;min-height:70px;resize:vertical;box-sizing:border-box}
+  .ip .ai-status{margin:10px 0;font-size:.9rem}
+  .ip .ai-status.err{color:var(--bad)}
+  .ip .ai-item{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-top:10px}
+  .ip .ai-item h3{margin:0 0 4px;font-size:1rem}
+  .ip .ai-rank{display:inline-block;background:var(--primary);color:#fff;border-radius:999px;padding:1px 10px;font-size:.78rem;margin-right:8px}
+  .ip .ai-price{font-weight:700;font-size:1.1rem;margin:4px 0}
+  .ip .ai-two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px}
+  .ip .ai-two h4{margin:0 0 4px;font-size:.82rem}
+  .ip .ai-two ul{margin:0;padding-left:18px;font-size:.85rem}
+  .ip .ai-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
+  .ip .ai-groups>div{border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.85rem}
+  .ip .ai-warn{color:var(--bad);font-size:.85rem;margin-top:6px}
+  @media(max-width:600px){.ip .ai-two{grid-template-columns:1fr}}
   .ip-modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:1100}
   .ip-modal.open{display:flex}
   .ip-modal .box{background:#fff;border-radius:12px;padding:20px;width:min(720px,100%);max-height:90vh;overflow:auto}
@@ -38,7 +55,7 @@
 
 <div class="ip">
   <div class="muted" style="margin:-10px 0 16px">
-    Laptop, PC, dan Server dari katalog.inaproc.id &middot; data terakhir: {{ ringkas.update_terakhir }}
+    Produk Peralatan Elektronik dari katalog.inaproc.id &middot; data terakhir: {{ ringkas.update_terakhir }}
   </div>
 
   {% if error %}<div class="alert">{{ error }}</div>{% endif %}
@@ -62,7 +79,7 @@
 
   <section class="card">
     <h2>Statistik harga per kategori</h2>
-    <div class="tablewrap"><table>
+    <div class="tablewrap scroll"><table>
       <thead><tr><th>Kategori</th><th class="num">Jumlah</th><th class="num">Termurah</th><th class="num">Rata-rata</th><th class="num">Termahal</th></tr></thead>
       <tbody>
       {% for k in per_kategori %}
@@ -94,6 +111,21 @@
     </table></div>
   </section>
   {% endif %}
+
+  <section class="card" id="aiBox">
+    <h2>Rekomendasi AI</h2>
+    <div class="muted" style="margin-bottom:10px">Pilih kategori dan tuliskan kebutuhan. AI membandingkan harga &amp; spesifikasi produk di katalog, mengelompokkan, lalu merekomendasikan. Proses 10&ndash;40 detik.</div>
+    <div class="ai-form">
+      <select id="aiKategori"></select>
+      <input id="aiBudget" type="number" min="0" placeholder="Anggaran maks (Rp)">
+      <input id="aiRam" type="number" min="0" placeholder="RAM min (GB), opsional">
+      <input id="aiJumlah" type="number" min="1" max="10" value="5" placeholder="Jumlah rekomendasi">
+      <textarea id="aiKebutuhan" class="full" placeholder="Kebutuhan, mis. Laptop untuk admin kantor, banyak Excel dan video call"></textarea>
+    </div>
+    <button class="primary" id="aiTombol">Cari rekomendasi</button>
+    <div class="ai-status" id="aiStatus" role="status"></div>
+    <div id="aiHasil"></div>
+  </section>
 
   <section class="card">
     <h2>Daftar produk</h2>
@@ -158,11 +190,16 @@ const $   = id => document.getElementById(id);
 
 document.querySelectorAll('.rp').forEach(el => { el.textContent = rp(el.textContent.trim()); });
 
+const DONUT = PER_KATEGORI.length > 10
+  ? [...PER_KATEGORI.slice(0, 9), { kategori: 'Lainnya (' + (PER_KATEGORI.length - 9) + ' kategori)',
+      jumlah: PER_KATEGORI.slice(9).reduce((a, x) => a + Number(x.jumlah), 0) }]
+  : PER_KATEGORI;
+
 if ($('chKategori')) {
   new Chart($('chKategori'), {
     type: 'doughnut',
-    data: { labels: PER_KATEGORI.map(x => x.kategori),
-            datasets: [{ data: PER_KATEGORI.map(x => x.jumlah), backgroundColor: WARNA }] },
+    data: { labels: DONUT.map(x => x.kategori),
+            datasets: [{ data: DONUT.map(x => x.jumlah), backgroundColor: WARNA }] },
     options: { maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
   });
   new Chart($('chMerek'), {
@@ -185,7 +222,12 @@ function spesifikasi(p) {
   }
   if (p.screen_inch) a.push(Number(p.screen_inch) + '"');
   if (p.os) a.push(esc(p.os));
-  return a.length ? a.join(' &middot; ') : '<span class="muted">-</span>';
+  if (a.length) return a.join(' &middot; ');
+  if (p.spesifikasi) {
+    const t = String(p.spesifikasi);
+    return '<span title="' + esc(t) + '">' + esc(t.length > 140 ? t.slice(0, 140) + '…' : t) + '</span>';
+  }
+  return '<span class="muted">-</span>';
 }
 
 function linkProduk(u) {
@@ -209,7 +251,7 @@ async function muat() {
       $('tbody').innerHTML = d.items.map(x => `
         <tr>
           <td><button class="linkbtn" onclick="bukaRiwayat(${Number(x.id)})">${esc(x.name)}</button></td>
-          <td><span class="chip">${esc(x.category)}</span></td>
+          <td><span class="chip" title="${esc(x.kelompok || '')}">${esc(x.category)}</span></td>
           <td>${esc(x.brand || '-')}</td>
           <td>${spesifikasi(x)}</td>
           <td>${esc(x.provider_name || '-')}</td>
@@ -236,6 +278,109 @@ if ($('btnCari')) {
   let t; $('fQ').addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { page = 1; muat(); }, 400); });
   ['fKategori','fMerek','fUrut'].forEach(id => $(id).addEventListener('change', () => { page = 1; muat(); }));
   muat();
+}
+
+// ---------- Rekomendasi AI (semua teks dimasukkan lewat textContent, aman dari injeksi HTML)
+function el(tag, teks, kelas) {
+  const e = document.createElement(tag);
+  if (teks !== undefined && teks !== null) e.textContent = String(teks);
+  if (kelas) e.className = kelas;
+  return e;
+}
+function daftarUl(judul, item) {
+  const k = document.createElement('div');
+  k.appendChild(el('h4', judul));
+  const ul = document.createElement('ul');
+  (Array.isArray(item) ? item : []).forEach(t => ul.appendChild(el('li', t)));
+  k.appendChild(ul);
+  return k;
+}
+function aiStatus(teks, err) { $('aiStatus').textContent = teks || ''; $('aiStatus').className = 'ai-status' + (err ? ' err' : ''); }
+
+function tampilAI(d) {
+  const out = $('aiHasil'); out.textContent = '';
+  if (d.ok === false) { aiStatus(d.error || 'AI tidak memberi jawaban yang valid.', true); return; }
+  const rk = el('div', null, 'ai-item');
+  rk.appendChild(el('strong', 'Ringkasan'));
+  rk.appendChild(el('p', d.ringkasan || d.perbandingan || '-'));
+  const st = d.statistik_harga;
+  if (st) rk.appendChild(el('div', 'Produk cocok: ' + st.jumlah_cocok + ' · Termurah ' + rp(st.harga_min) +
+    ' · Median ' + rp(st.harga_median) + ' · Termahal ' + rp(st.harga_maks), 'muted'));
+  out.appendChild(rk);
+
+  const rek = Array.isArray(d.rekomendasi) ? d.rekomendasi : [];
+  if (!rek.length) out.appendChild(el('div', d.catatan || 'Tidak ada produk yang memenuhi kriteria.', 'ai-item'));
+  rek.forEach((r, i) => {
+    const k = el('div', null, 'ai-item');
+    const h = el('h3');
+    h.appendChild(el('span', r.peringkat || (i + 1), 'ai-rank'));
+    h.appendChild(document.createTextNode(r.nama || ('Produk #' + r.id)));
+    k.appendChild(h);
+    k.appendChild(el('div', typeof r.harga === 'number' ? rp(r.harga) : 'Harga tidak tersedia', 'ai-price'));
+    const meta = [r.merek, r.penyedia, r.cpu, r.ram_gb ? r.ram_gb + ' GB RAM' : null,
+                  r.storage_gb ? r.storage_gb + ' GB' : null].filter(Boolean).join(' · ');
+    if (meta) k.appendChild(el('div', meta, 'muted'));
+    if (r.spesifikasi) k.appendChild(el('div', String(r.spesifikasi).slice(0, 300), 'muted'));
+    k.appendChild(el('p', r.alasan || ''));
+    const dua = el('div', null, 'ai-two');
+    dua.appendChild(daftarUl('Kelebihan', r.kelebihan));
+    dua.appendChild(daftarUl('Kekurangan', r.kekurangan));
+    k.appendChild(dua);
+    if (typeof r.url === 'string' && /^https?:\/\//i.test(r.url) && !r.url.includes('#id=')) {
+      const a = el('a', 'Lihat di katalog INAPROC');
+      a.href = r.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      k.appendChild(a);
+    }
+    if (r.valid === false) k.appendChild(el('div', 'Peringatan: produk ini tidak ditemukan pada data. Jangan dijadikan acuan.', 'ai-warn'));
+    out.appendChild(k);
+  });
+
+  const kel = Array.isArray(d.kelompok) ? d.kelompok : [];
+  if (kel.length) {
+    const box = el('div', null, 'ai-item');
+    box.appendChild(el('strong', 'Pengelompokan'));
+    const g = el('div', null, 'ai-groups');
+    kel.forEach(x => {
+      const b = document.createElement('div');
+      b.appendChild(el('strong', x.nama || 'Kelompok'));
+      if (x.kriteria) b.appendChild(el('div', x.kriteria, 'muted'));
+      if (Array.isArray(x.rentang_harga) && x.rentang_harga.length === 2 && x.rentang_harga[1] > 0)
+        b.appendChild(el('div', rp(x.rentang_harga[0]) + ' - ' + rp(x.rentang_harga[1]), 'muted'));
+      g.appendChild(b);
+    });
+    box.appendChild(g);
+    out.appendChild(box);
+  }
+  if (d.catatan && rek.length) {
+    const c = el('div', null, 'ai-item');
+    c.appendChild(el('strong', 'Catatan: '));
+    c.appendChild(document.createTextNode(d.catatan));
+    out.appendChild(c);
+  }
+}
+
+if ($('aiTombol')) {
+  [...PER_KATEGORI].sort((a, b) => String(a.kategori).localeCompare(String(b.kategori))).forEach(k => {
+    const o = document.createElement('option');
+    o.value = k.kategori; o.textContent = k.kategori + ' (' + k.jumlah + ')';
+    $('aiKategori').appendChild(o);
+  });
+  $('aiTombol').onclick = async () => {
+    const body = { kategori: $('aiKategori').value, kebutuhan: $('aiKebutuhan').value,
+                   budget_max: $('aiBudget').value, min_ram_gb: $('aiRam').value, jumlah: $('aiJumlah').value };
+    $('aiTombol').disabled = true; $('aiHasil').textContent = '';
+    aiStatus('Menganalisis data katalog... mohon tunggu.');
+    try {
+      const r = await fetch('/api/inaproc/analisis', { method: 'POST',
+        headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+      const d = await r.json();
+      if (!r.ok) { aiStatus(d.error || 'Terjadi kesalahan.', true); }
+      else { aiStatus(''); tampilAI(d); }
+    } catch (e) {
+      aiStatus('Gagal menghubungi server dashboard.', true);
+    }
+    $('aiTombol').disabled = false;
+  };
 }
 
 let chartRiwayat = null;

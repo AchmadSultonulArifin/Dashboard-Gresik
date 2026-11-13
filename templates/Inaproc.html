@@ -46,6 +46,10 @@
   .ip .ai-groups>div{border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.85rem}
   .ip .ai-warn{color:var(--bad);font-size:.85rem;margin-top:6px}
   @media(max-width:600px){.ip .ai-two{grid-template-columns:1fr}}
+  .ip .spec{margin-top:4px;font-size:.8rem;color:var(--muted);line-height:1.45}
+  .ip .spec .ring{color:#374151;margin-bottom:2px}
+  .ip .spec .teks{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .ip .spec.buka .teks{display:block;-webkit-line-clamp:unset;overflow:visible}
   .ip-modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:1100}
   .ip-modal.open{display:flex}
   .ip-modal .box{background:#fff;border-radius:12px;padding:20px;width:min(720px,100%);max-height:90vh;overflow:auto}
@@ -153,8 +157,8 @@
       <button id="btnReset">Reset</button>
     </div>
     <div class="tablewrap"><table>
-      <thead><tr><th>Produk</th><th>Kategori</th><th>Merek</th><th>Spesifikasi</th><th>Penyedia</th><th class="num">Harga</th><th>Link</th></tr></thead>
-      <tbody id="tbody"><tr><td colspan="7" class="empty">Memuat...</td></tr></tbody>
+      <thead><tr><th>Produk</th><th>Kategori</th><th>Merek</th><th>Penyedia</th><th class="num">Harga</th><th>Link</th></tr></thead>
+      <tbody id="tbody"><tr><td colspan="6" class="empty">Memuat...</td></tr></tbody>
     </table></div>
     <div class="pager">
       <span class="muted" id="info"></span>
@@ -212,7 +216,8 @@ if ($('chKategori')) {
 
 let page = 1, totalHalaman = 1;
 
-function spesifikasi(p) {
+// Spesifikasi ditampilkan langsung di bawah nama produk (ringkasan + teks lengkap, bisa dibuka/ditutup).
+function blokSpek(p) {
   const a = [];
   if (p.cpu) a.push(esc(p.cpu));
   if (p.ram_gb) a.push(Number(p.ram_gb) + ' GB RAM');
@@ -222,12 +227,15 @@ function spesifikasi(p) {
   }
   if (p.screen_inch) a.push(Number(p.screen_inch) + '"');
   if (p.os) a.push(esc(p.os));
-  if (a.length) return a.join(' &middot; ');
-  if (p.spesifikasi) {
-    const t = String(p.spesifikasi);
-    return '<span title="' + esc(t) + '">' + esc(t.length > 140 ? t.slice(0, 140) + '…' : t) + '</span>';
+  const teks = String(p.spesifikasi || '').split('; ').map(t => t.trim()).filter(Boolean).join(' · ');
+  if (!a.length && !teks) return '<div class="spec">Spesifikasi belum tersedia</div>';
+  let h = '<div class="spec">';
+  if (a.length) h += '<div class="ring">' + a.join(' &middot; ') + '</div>';
+  if (teks) {
+    h += '<div class="teks">' + esc(teks) + '</div>';
+    if (teks.length > 150) h += '<button class="linkbtn" onclick="this.parentNode.classList.toggle(\'buka\');this.textContent=this.parentNode.classList.contains(\'buka\')?\'Ringkas\':\'Selengkapnya\'">Selengkapnya</button>';
   }
-  return '<span class="muted">-</span>';
+  return h + '</div>';
 }
 
 function linkProduk(u) {
@@ -239,21 +247,20 @@ async function muat() {
   const p = new URLSearchParams({ page, per_page: 25, urut: $('fUrut').value });
   const map = { q:'fQ', kategori:'fKategori', merek:'fMerek', harga_min:'fHargaMin', harga_max:'fHargaMax', ram_min:'fRam' };
   for (const [k, id] of Object.entries(map)) if ($(id).value) p.set(k, $(id).value);
-  $('tbody').innerHTML = '<tr><td colspan="7" class="empty">Memuat...</td></tr>';
+  $('tbody').innerHTML = '<tr><td colspan="6" class="empty">Memuat...</td></tr>';
   try {
     const r = await fetch('/api/inaproc/produk?' + p.toString());
     const d = await r.json();
     if (!r.ok) throw new Error(d.error || 'Gagal memuat');
     totalHalaman = d.total_halaman;
     if (!d.items.length) {
-      $('tbody').innerHTML = '<tr><td colspan="7" class="empty">Tidak ada produk yang cocok.</td></tr>';
+      $('tbody').innerHTML = '<tr><td colspan="6" class="empty">Tidak ada produk yang cocok.</td></tr>';
     } else {
       $('tbody').innerHTML = d.items.map(x => `
         <tr>
-          <td><button class="linkbtn" onclick="bukaRiwayat(${Number(x.id)})">${esc(x.name)}</button></td>
+          <td><button class="linkbtn" onclick="bukaRiwayat(${Number(x.id)})">${esc(x.name)}</button>${blokSpek(x)}</td>
           <td><span class="chip" title="${esc(x.kelompok || '')}">${esc(x.category)}</span></td>
           <td>${esc(x.brand || '-')}</td>
-          <td>${spesifikasi(x)}</td>
           <td>${esc(x.provider_name || '-')}</td>
           <td class="num">${rp(x.price_idr)}</td>
           <td>${linkProduk(x.url)}</td>
@@ -263,7 +270,7 @@ async function muat() {
     $('prev').disabled = d.page <= 1;
     $('next').disabled = d.page >= d.total_halaman;
   } catch (e) {
-    $('tbody').innerHTML = '<tr><td colspan="7" class="empty">' + esc(e.message) + '</td></tr>';
+    $('tbody').innerHTML = '<tr><td colspan="6" class="empty">' + esc(e.message) + '</td></tr>';
   }
 }
 
